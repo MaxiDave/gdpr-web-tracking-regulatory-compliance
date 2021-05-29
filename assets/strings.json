@@ -1,8 +1,89 @@
 {
     "_comment": "This file contains language/country based strings that can be personalized. The reference country is Spain.",
     "strings": {
-        "old_policies_strings": ["LOPG","15/1999"],
-        "privacy_policy_detect": ["privacy", "privacidad","privadesa","privacitat"],
-        "cookie_policy_detect": ["cookies","galetes","galletas"]
+        "policy-detector": {
+            "close_popups_strings": ["close","accept","cerrar","aceptar","acepto","continuar","continue","de acuerdo"],
+            "old_policies_strings": ["LOPG","15/1999"],
+            "privacy_policy_detect": ["data protection","protección de datos","protecció de dades","privacy policy","política de privacidad","política de privadesa","política de privacitat","privacidad","privacy","privacitat","privadesa","confidencialidad"],
+            "cookie_policy_detect": ["política de cookies","cookie policy","cookies policy"]
+        },
+        "website-categorizer": {
+            "streaming": {
+                "meta_strings": ["streaming"," tv ", "series","torrent","radio", "películas online","online movies"],
+                "domain_strings": [".tv","streaming","series","torrent"]
+            },
+            "news": {
+                "meta_strings": ["última hora","noticias","news","Noticias","periódico","diario","meteorológica","weather forecast"],
+                "domain_strings": []
+            },
+            "society & life style": {
+                "meta_strings": ["recetas","gym","gimnasio","cocina","ingredientes","messenger","catholic"," dios "," god ","share","sociedad","lifestyle","vida","saludable","amigos","friends","online community","comunidad online","red social","social network","colegas"],
+                "domain_strings": ["lifestyle","sociedad"]
+            },
+            "adults": {
+                "meta_strings": ["citas en línea","citas online","adult","girls","hentai","porn","live porn","uncensored adult","adult chat","sex webcams","chat de sexo","xxx porn","erótico","erotic","prostituta"],
+                "domain_strings": ["porn","xxx"]
+            },
+            "education": {
+                "meta_strings": ["oposiciones","universitat","colegio","professor","educati","teachers","escuela","school","instituto","másters","masters","dictionary","diccionario","educación","biblioteca","escolar","library","educational","encyclopedia","enciclopedia"," wiki","universidad","university"],
+                "domain_strings": [".edu"]
+            },
+            "shopping": {
+                "meta_strings": ["venta","chollos","alquiler"," rent ","alquilar","shop","tienda","compra","shopping","compra online","buy online"," sell "," buy ","vender","comprar"],
+                "domain_strings": ["shop","tienda","botiga"]
+            },
+            "business": {
+                "meta_strings": ["atención al cliente","cloud storage","mail","panel de control","control panel","contratación","conferencing","hosting","business","negocio","negocios","email account","marketing","spreadsheets","collaborate","online service"],
+                "domain_strings": ["business"]
+            },
+            "regional": {
+                "meta_strings": ["catalunya","cataluña","andalucia","andalucía","aragón","aragon","principado de asturias","illes balears","islas baleares","canarias","cantabria","castulla y león","castilla y leon","castilla-la mancha","comunitat valenciana","valencia","extremadura","galicia","comunidad de madrid","murcia","navarra","país vasco","la rioja","ceuta","melilla"],
+                "domain_strings": [".cat",".gal",".eus",".madrid",".barcelona"]
+            },
+            "financial": {
+                "meta_strings": ["traders","investors","exchange","crypto","financial","monetario","moneda","hipotecas","productos financieros","bank","banco","mercado","invertir","invierte"],
+                "domain_strings": ["market","banco","bank"]
+            },
+            "sports": {
+                "meta_strings": ["sport","deporte","futbol","tenis","baloncesto","caza","fútbol","padel","pádel"],
+                "domain_strings": ["sport","deporte"]
+            },
+            "government": {
+                "meta_strings": ["ayuntamiento","servicio público","agencia estatal","gobierno","govern","xunta ","junta ","government","parlamento","parlament","tributaria","generalitat","seguridad social"],
+                "domain_strings": [".gov",".gob"]
+            },
+            "arts & entertainment": {
+                "meta_strings": ["fotografía","photography","artists","cotilleo","entretenimiento","memes","watch movies","movies online","TV shows","series online","películas online","video platform","entertainment"," art ","social network","download videos"],
+                "domain_strings": ["art"]
+            },
+            "games & bets": {
+                "meta_strings": ["game","juego","financial","monetario","moneda","poker","póker","apuestas","apueste","sports bet"],
+                "domain_strings": ["games",".gg"]
+            },
+            "science": {
+                "meta_strings": ["ciencia","tecnología","technology","science"],
+                "domain_strings": ["ciencia","tecnologia","technology","science"]
+            },
+            "computers": {
+                "meta_strings": ["android","smartphone","informática","computer","ordenador","windows","linux", "tech support", "malware", "computer help","software","hardware"],
+                "domain_strings": ["computer"]
+            },
+            "health": {
+                "meta_strings": ["health","medical","salud","sanidad","medicina","doctor","enfermedad","tratamiento","medicine","hospital"],
+                "domain_strings": ["salut","salud","health"]
+            },
+            "home": {
+                "meta_strings": ["architecture","arquitectura","casa","decoración","home decor","comedor","living room"],
+                "domain_strings": ["decor"]
+            },
+            "travel": {
+                "meta_strings": ["vacaciones","escapadas","viajes","travel","holidays","hotel","accomodation","alojamiento"],
+                "domain_strings": []
+            },
+            "child": {
+                "meta_strings": ["kids","niños","nens"],
+                "domain_strings": []
+            }
+        }
     }
 }
