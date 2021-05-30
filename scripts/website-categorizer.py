@@ -1,11 +1,10 @@
 # gdpr-web-tracking-regulatory-compliance: A framework of tools and algorithms allowing compliance tests for web tracking techniques under EU data protection regulation (GDPR).
 # Author: ©David Martínez. 
-# website-categorizer.py: Tries to categorize automatically websites based on string matches on website metadata.
-#     It checks patterns on the domain name, website title, 'keybords' and 'description' HTML metadata. 
+# website-categorizer.py: Tries to categorize automatically the original sample websites based on string matches on website metadata. It generates the file "categorized_websites.json" with the results.
+#     It checks patterns on the domain name, website title, 'keywords' and 'description' HTML metadata. 
 # TFM algorithm implementation: categoritzador.
 
 # Dependencies.
-import os
 import json
 import requests
 from requests.exceptions import ConnectionError

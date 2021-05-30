@@ -1,7 +1,7 @@
 # gdpr-web-tracking-regulatory-compliance: A framework of tools and algorithms allowing compliance tests for web tracking techniques under EU data protection regulation (GDPR).
 # Author: ©David Martínez. 
-# policy-detector.py: It searches text patterns on the original sample websites in order to locate their privacy policy and the cookie policy. It generates the file "policy_detected.json" with the results.
-# TFM algorithm implementation: detector de polítiques.
+# consent-detector.py: It opens all the original sample websites and performs screenshots showing the user consent requirement forms. It generates the folder "consent-detector-results" with the screenshots results.
+# TFM algorithm implementation: detector de consentiment.
 
 
 # Dependencies.
@@ -56,35 +56,31 @@ def populate_strings(keywords):
     return keywords + keywords_upper + keywords_cap + keywords_cap_every
 
 
-def make_expression(strings):
+def make_expression(strings,strings_no):
     strings = populate_strings(strings)
+    strings_no = populate_strings(strings_no)
     conditions1 = " or ".join(["contains(text(), '%s')" % keyword for keyword in strings])
     conditions2 = " or ".join(["contains(@aria-label,'%s')" % keyword for keyword in strings])
     conditions3 = " or ".join(["contains(@title,'%s')" % keyword for keyword in strings])
-    return "//*[(%s or %s or %s)]" % (conditions1,conditions2,conditions3)
+    conditionsNo = " and not".join(["(contains(text(), '%s'))" % keyword for keyword in strings_no])
+    return "//*[(%s or %s or %s) and not %s]" % (conditions1,conditions2,conditions3,conditionsNo)
 
 
-# Function that opens the website and searches for the policy.
-def detect_policy(url, website, strings, expression, name):
+# Function that opens the website and searches for the CMP first and second layers. It performs screenshots.
+def detect_consent(url, website, expression):
     chrome_options = Options()
     chrome_options.add_argument('--headless')
     chrome_options.add_argument('--start-maximized')
     driver = webdriver.Chrome(options=chrome_options,executable_path='chromium.chromedriver')
     driver.set_page_load_timeout(10)
     driver.set_window_size(1920, 1080)
-    privacy_object = {}
+    first_ok = False
+    second_ok = False
     try:
         driver.get(url)
         time.sleep(2)
-        expression2 = make_expression(strings["close_popups_strings"])
-        elements = driver.find_elements_by_xpath(expression2)
-        for element in elements:
-            try:
-                element.click()
-            except:
-                pass
-        time.sleep(2)
-        driver.save_screenshot("./policy-detector-results/"+website+"/mainpage.png")
+        driver.save_screenshot("./consent-detector-results/"+website+"/first-level.png")
+        first_ok = True
         elements = driver.find_elements_by_xpath(expression)
         for element in elements:
             try:
@@ -95,15 +91,8 @@ def detect_policy(url, website, strings, expression, name):
                 time.sleep(0.2)
                 driver.switch_to.window(driver.window_handles[-1])
                 time.sleep(0.2)
-                body = driver.find_element_by_tag_name('body')
-                privacy_object["status"] = 0
-                privacy_object["text"] = body.text
-                privacy_object["url"] = driver.current_url
-                driver.save_screenshot("./policy-detector-results/"+website+"/"+name+"_policy.png")
-                if any(string in privacy_object["text"] for string in strings['old_policies_strings']):
-                    privacy_object["old"] = True
-                else:
-                    privacy_object["old"] = False
+                driver.save_screenshot("./consent-detector-results/"+website+"/second-level.png")
+                second_ok = True
             except Exception as e:
                 pass
         driver.delete_all_cookies()
@@ -111,53 +100,40 @@ def detect_policy(url, website, strings, expression, name):
     except Exception as e:
         driver.quit()
 
-    if "status" not in privacy_object:
-        privacy_object["status"] = 1
-
-    return privacy_object
+    if first_ok and second_ok:
+        return True
+    else:
+        return False
 
 
 # Main code.
 websites = read_websites()['websites']
-strings = read_strings()['strings']['policy-detector']
-expression_policy = make_expression(strings['privacy_policy_detect'])
-expression_cookie_policy = make_expression(strings['cookie_policy_detect'])
+strings = read_strings()['strings']['consent-detector']
+expression = make_expression(strings['personalize_strings'],strings['no_personalize_strings'])
 
 # Create output directory.
-dirpath = Path('policy-detector-results')
+dirpath = Path('consent-detector-results')
 if dirpath.exists() and dirpath.is_dir():
     shutil.rmtree(dirpath)
 
-os.mkdir('policy-detector-results')
+os.mkdir('consent-detector-results')
 
-policies_dict = {}
 offline_websites = []
 total = len(websites)
 current = 1
 for website in websites:
     url = 'https://'+website
+    os.mkdir('consent-detector-results/'+website)
     if is_online(url):
-        os.mkdir('policy-detector-results/'+website)
-        website_value = {}
-        website_value['privacy_policy'] = detect_policy(url, website, strings, expression_policy, "privacy")
-        if website_value['privacy_policy']['status'] == 0:
-            print('[SUCCESS] - Website',website,'(',current,'/',total,'): Has privacy policy.')
+        ok = detect_consent(url, website, expression)
+        if ok:
+            print('[SUCCESS] - Website',website,'(',current,'/',total,'): CMP screenshots performed.')
         else:
-            print('[WARN] - Website',website,'(',current,'/',total,'): No privacy policy detected.')
-        website_value['cookie_policy'] = detect_policy(url, website, strings, expression_cookie_policy, "cookie")
-        if website_value['cookie_policy']['status'] == 0:
-            print('[SUCCESS] - Website',website,'(',current,'/',total,'): Has independent cookie policy.')
-        else:
-            print('[WARN] - Website',website,'(',current,'/',total,'): No independent cookie policy detected.')
-        policies_dict[website] = website_value
+            print('[WARN] - Website',website,'(',current,'/',total,'): Problem performing screenshots.')
     else:
         print('[ERROR] - Website',website,'(',current,'/',total,'): Impossible to establish a connection.')
         offline_websites.append(website)
     current += 1
 
-# Store the result json file.
-with open("policy_detected.json", 'w') as outfile:
-    json.dump(policies_dict, outfile)
-
 print('\nOffline websites detected (',len(offline_websites),'): ',offline_websites)
-print('Generated policies file: "policy_detected.json"')
+print('Screenshots available in folder: "consent-detector-results"')
