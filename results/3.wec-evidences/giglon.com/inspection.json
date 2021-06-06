@@ -1,0 +1,652 @@
+{
+  "title": "Website Evidence Collection",
+  "task_description": null,
+  "uri_ins": "http://giglon.com",
+  "uri_refs": [
+    "http://giglon.com"
+  ],
+  "uri_dest": "https://www.giglon.com/",
+  "uri_redirects": [
+    "http://giglon.com/"
+  ],
+  "secure_connection": {
+    "https_support": true,
+    "redirects": [
+      "https://www.giglon.com/"
+    ],
+    "https_redirect": true
+  },
+  "host": "giglon.com",
+  "script": {
+    "host": "sfod",
+    "version": {
+      "npm": "1.0.0",
+      "commit": null
+    },
+    "cmd_args": "-q --overwrite http://giglon.com -- --ignore-certificate-errors",
+    "environment": {
+      "CHROME_DESKTOP": "code-url-handler.desktop"
+    },
+    "node_version": "v14.17.0"
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "HeadlessChrome/80.0.3987.0",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3617.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "5.8.0-53-generic"
+    },
+    "extra_headers": {},
+    "preset_cookies": {}
+  },
+  "start_time": "2021-05-20T16:15:15.827Z",
+  "end_time": "2021-05-20T16:15:23.860Z",
+  "links": {
+    "firstParty": [],
+    "thirdParty": [
+      {
+        "href": "https://www.giglon.com/",
+        "inner_text": "",
+        "inner_html": ""
+      },
+      {
+        "href": "https://www.giglon.com/todos",
+        "inner_text": "eventos",
+        "inner_html": "<span>Eventos</span>"
+      },
+      {
+        "href": "https://www.giglon.com/salas",
+        "inner_text": "recintos",
+        "inner_html": "<span>recintos</span>"
+      },
+      {
+        "href": "https://www.giglon.com/artistas",
+        "inner_text": "artistas",
+        "inner_html": "<span>Artistas</span>"
+      },
+      {
+        "href": "https://www.giglon.com/c/portal/login",
+        "inner_text": "acceso",
+        "inner_html": "<span>Acceso</span>"
+      },
+      {
+        "href": "https://www.giglon.com/crea",
+        "inner_text": "crear evento",
+        "inner_html": "<span>Crear evento</span>"
+      },
+      {
+        "href": "https://www.giglon.com/todos?carrito=true",
+        "inner_text": " Carrito ",
+        "inner_html": "<img src=\"/gig-theme/images/shopping.png\"> Carrito"
+      },
+      {
+        "href": "https://www.giglon.com/evento/los-lobos",
+        "inner_text": "LOS LOBOS\nSan Fernando de He..\n2,50€\nVer",
+        "inner_html": "<div class=\"event-mosaic\" style=\"\"> <span class=\"name-ev\">LOS LOBOS</span> <span class=\"sala-ev\">San Fernando de He..</span> <span class=\"price-ev\">2,50€</span> <span class=\"bt-ev\">Ver</span> </div>"
+      },
+      {
+        "href": "https://www.giglon.com/evento/joves-interprets-academia-1830-marc-laliga",
+        "inner_text": "Academia 1830. Jov..\nPalma\n4,00€\nVer",
+        "inner_html": "<div class=\"event-mosaic\" style=\"\"> <span class=\"name-ev\">Academia 1830. Jov..</span> <span class=\"sala-ev\">Palma</span> <span class=\"price-ev\">4,00€</span> <span class=\"bt-ev\">Ver</span> </div>"
+      },
+      {
+        "href": "https://www.giglon.com/evento/martita-de-grana-utrera",
+        "inner_text": "MARTITA DE GRANÁ\nUtrera\n12,00€\nVer",
+        "inner_html": "<div class=\"event-mosaic\" style=\"\"> <span class=\"name-ev\">MARTITA DE GRANÁ</span> <span class=\"sala-ev\">Utrera</span> <span class=\"price-ev\">12,00€</span> <span class=\"bt-ev\">Ver</span> </div>"
+      },
+      {
+        "href": "https://www.giglon.com/evento/the-lucky-makers-back-to-the-bridge",
+        "inner_text": "THE LUCKY MAKERS-B..\nMadrid\n10,00€\nVer",
+        "inner_html": "<div class=\"event-mosaic\" style=\"\"> <span class=\"name-ev\">THE LUCKY MAKERS-B..</span> <span class=\"sala-ev\">Madrid</span> <span class=\"price-ev\">10,00€</span> <span class=\"bt-ev\">Ver</span> </div>"
+      },
+      {
+        "href": "https://www.giglon.com/evento/ede-clamores",
+        "inner_text": "EDE\nMadrid\n12,00€\nVer",
+        "inner_html": "<div class=\"event-mosaic\" style=\"\"> <span class=\"name-ev\">EDE</span> <span class=\"sala-ev\">Madrid</span> <span class=\"price-ev\">12,00€</span> <span class=\"bt-ev\">Ver</span> </div>"
+      },
+      {
+        "href": "https://www.giglon.com/evento/antonio-ximenez-cuartet-20-05-2021",
+        "inner_text": "ANTONIO XIMÉNEZ CU..\nMadrid\n10,00€\nVer",
+        "inner_html": "<div class=\"event-mosaic\" style=\"\"> <span class=\"name-ev\">ANTONIO XIMÉNEZ CU..</span> <span class=\"sala-ev\">Madrid</span> <span class=\"price-ev\">10,00€</span> <span class=\"bt-ev\">Ver</span> </div>"
+      },
+      {
+        "href": "https://www.giglon.com/evento/103-noches---angel-martin",
+        "inner_text": "'103 noches' - Áng..\nMadrid\n16,00€\nVer",
+        "inner_html": "<div class=\"event-mosaic\" style=\"\"> <span class=\"name-ev\">'103 noches' - Áng..</span> <span class=\"sala-ev\">Madrid</span> <span class=\"price-ev\">16,00€</span> <span class=\"bt-ev\">Ver</span> </div>"
+      },
+      {
+        "href": "https://www.giglon.com/evento/cine-concierto-recuperacion-del-patrimonio-cinematografico-andaluz",
+        "inner_text": "CINE CONCIERTO-REC..\nMorón de la Frontera\n3,00€\nVer",
+        "inner_html": "<div class=\"event-mosaic\" style=\"\"> <span class=\"name-ev\">CINE CONCIERTO-REC..</span> <span class=\"sala-ev\">Morón de la Frontera</span> <span class=\"price-ev\">3,00€</span> <span class=\"bt-ev\">Ver</span> </div>"
+      },
+      {
+        "href": "https://www.giglon.com/evento/castillo-de--almansa",
+        "inner_text": "Castillo de Almansa\nAlmansa\n3,50€\nVer",
+        "inner_html": "<div class=\"event-mosaic\" style=\"\"> <span class=\"name-ev\">Castillo de Almansa</span> <span class=\"sala-ev\">Almansa</span> <span class=\"price-ev\">3,50€</span> <span class=\"bt-ev\">Ver</span> </div>"
+      },
+      {
+        "href": "https://www.giglon.com/evento/pistas-de-tenis-y-padel-del-polideportivo-abogados-de-atocha-2021",
+        "inner_text": "Acceso a las pista..\nValdemoro\n2,00€\nVer",
+        "inner_html": "<div class=\"event-mosaic\" style=\"\"> <span class=\"name-ev\">Acceso a las pista..</span> <span class=\"sala-ev\">Valdemoro</span> <span class=\"price-ev\">2,00€</span> <span class=\"bt-ev\">Ver</span> </div>"
+      },
+      {
+        "href": "https://www.giglon.com/evento/acceso-piscina-municipal-valdesanchuela-2021",
+        "inner_text": "Acceso Piscina Mun..\nValdemoro\n1,00€\nVer",
+        "inner_html": "<div class=\"event-mosaic\" style=\"\"> <span class=\"name-ev\">Acceso Piscina Mun..</span> <span class=\"sala-ev\">Valdemoro</span> <span class=\"price-ev\">1,00€</span> <span class=\"bt-ev\">Ver</span> </div>"
+      },
+      {
+        "href": "https://www.giglon.com/evento/acceso-a-las-pistas-de-tenis-fronton-y-padel-de-valdemoro-2021",
+        "inner_text": "Acceso a las pista..\nValdemoro\n2,00€\nVer",
+        "inner_html": "<div class=\"event-mosaic\" style=\"\"> <span class=\"name-ev\">Acceso a las pista..</span> <span class=\"sala-ev\">Valdemoro</span> <span class=\"price-ev\">2,00€</span> <span class=\"bt-ev\">Ver</span> </div>"
+      },
+      {
+        "href": "https://www.giglon.com/evento/xv-concurso-internacional-de-ballet-viernes-21-final-infantil-1",
+        "inner_text": "XV CONCURSO INTERN..\nTorrelavega\n1,00€\nVer",
+        "inner_html": "<div class=\"event-mosaic\" style=\"\"> <span class=\"name-ev\">XV CONCURSO INTERN..</span> <span class=\"sala-ev\">Torrelavega</span> <span class=\"price-ev\">1,00€</span> <span class=\"bt-ev\">Ver</span> </div>"
+      },
+      {
+        "href": "https://www.giglon.com/evento/xv-concurso-internacional-de-ballet-viernes-21-final-infantil-2",
+        "inner_text": "XV CONCURSO INTERN..\nTorrelavega\n1,00€\nVer",
+        "inner_html": "<div class=\"event-mosaic\" style=\"\"> <span class=\"name-ev\">XV CONCURSO INTERN..</span> <span class=\"sala-ev\">Torrelavega</span> <span class=\"price-ev\">1,00€</span> <span class=\"bt-ev\">Ver</span> </div>"
+      },
+      {
+        "href": "https://www.giglon.com/evento/rafa-romera",
+        "inner_text": "RAFA ROMERA\nCórdoba\n15,00€\nVer",
+        "inner_html": "<div class=\"event-mosaic\" style=\"\"> <span class=\"name-ev\">RAFA ROMERA</span> <span class=\"sala-ev\">Córdoba</span> <span class=\"price-ev\">15,00€</span> <span class=\"bt-ev\">Ver</span> </div>"
+      },
+      {
+        "href": "https://www.giglon.com/evento/microclasicos---la-casa-de-bernarda-alba-julio",
+        "inner_text": "MICROCLÁSICOS - LA..\nMadrid\n9,00€\nVer",
+        "inner_html": "<div class=\"event-mosaic\" style=\"\"> <span class=\"name-ev\">MICROCLÁSICOS - LA..</span> <span class=\"sala-ev\">Madrid</span> <span class=\"price-ev\">9,00€</span> <span class=\"bt-ev\">Ver</span> </div>"
+      },
+      {
+        "href": "https://www.giglon.com/evento/vicente-el-pirata-valiente---cia-la-carreta-teatro",
+        "inner_text": "VICENTE, EL PIRATA..\nElche/Elx\n6,50€\nVer",
+        "inner_html": "<div class=\"event-mosaic\" style=\"\"> <span class=\"name-ev\">VICENTE, EL PIRATA..</span> <span class=\"sala-ev\">Elche/Elx</span> <span class=\"price-ev\">6,50€</span> <span class=\"bt-ev\">Ver</span> </div>"
+      },
+      {
+        "href": "https://www.giglon.com/evento/gran-circo-holiday-en-oviedo",
+        "inner_text": "GRAN CIRCO HOLIDAY..\nOviedo\n5,00€\nVer",
+        "inner_html": "<div class=\"event-mosaic\" style=\"\"> <span class=\"name-ev\">GRAN CIRCO HOLIDAY..</span> <span class=\"sala-ev\">Oviedo</span> <span class=\"price-ev\">5,00€</span> <span class=\"bt-ev\">Ver</span> </div>"
+      },
+      {
+        "href": "https://www.giglon.com/evento/visita-guiada-dolmen-de-soto",
+        "inner_text": "Visita Guiada Dolm..\nTrigueros\n2,00€\nVer",
+        "inner_html": "<div class=\"event-mosaic\" style=\"\"> <span class=\"name-ev\">Visita Guiada Dolm..</span> <span class=\"sala-ev\">Trigueros</span> <span class=\"price-ev\">2,00€</span> <span class=\"bt-ev\">Ver</span> </div>"
+      },
+      {
+        "href": "https://www.giglon.com/evento/microclasicos---los-miserables-julio",
+        "inner_text": "MICROCLÁSICOS - LO..\nMadrid\n9,00€\nVer",
+        "inner_html": "<div class=\"event-mosaic\" style=\"\"> <span class=\"name-ev\">MICROCLÁSICOS - LO..</span> <span class=\"sala-ev\">Madrid</span> <span class=\"price-ev\">9,00€</span> <span class=\"bt-ev\">Ver</span> </div>"
+      },
+      {
+        "href": "https://www.giglon.com/cookies",
+        "inner_text": "Más info",
+        "inner_html": "Más info"
+      },
+      {
+        "href": "https://www.giglon.com/vende",
+        "inner_text": "Vende tus entradas",
+        "inner_html": "Vende tus entradas"
+      },
+      {
+        "href": "https://www.giglon.com/faq",
+        "inner_text": "Contacta",
+        "inner_html": "Contacta"
+      },
+      {
+        "href": "https://www.facebook.com/giglon",
+        "inner_text": "",
+        "inner_html": "<img class=\"gigfooterimg\" src=\"/giglon-portlet/imagen/social/facebook.png\" alt=\"giglon facebook\">"
+      },
+      {
+        "href": "https://twitter.com/Giglon",
+        "inner_text": "",
+        "inner_html": "<img class=\"gigfooterimg\" src=\"/giglon-portlet/imagen/social/twitter.png\" alt=\"giglon twitter\">"
+      },
+      {
+        "href": "https://www.giglon.com/politica-de-privacidad",
+        "inner_text": "Política de privacidad",
+        "inner_html": "Política de privacidad"
+      },
+      {
+        "href": "https://www.giglon.com/terminos",
+        "inner_text": "Términos y condiciones",
+        "inner_html": "Términos y condiciones"
+      },
+      {
+        "href": "http://www.enisa.es/",
+        "inner_text": " ",
+        "inner_html": "<img id=\"footerMinisterio\" src=\"/gig-theme/images/enisa.gif\" width=\"200px\" style=\" margin-left: 40px; \">"
+      },
+      {
+        "href": "https://www.giglon.com/icex",
+        "inner_text": " ",
+        "inner_html": "<img id=\"footerMinisterio\" src=\"https://www.giglon.com/documents/10180/0/logo+icex+feder/f2577dbe-22af-482a-a03a-8a1164db36b2?t=1520497303456\" style=\"margin-left: 40px;\">"
+      }
+    ],
+    "social": [
+      {
+        "href": "https://www.facebook.com/giglon",
+        "inner_text": "",
+        "inner_html": "<img class=\"gigfooterimg\" src=\"/giglon-portlet/imagen/social/facebook.png\" alt=\"giglon facebook\">"
+      },
+      {
+        "href": "https://twitter.com/Giglon",
+        "inner_text": "",
+        "inner_html": "<img class=\"gigfooterimg\" src=\"/giglon-portlet/imagen/social/twitter.png\" alt=\"giglon twitter\">"
+      }
+    ],
+    "keywords": [
+      {
+        "href": "https://www.giglon.com/c/portal/login",
+        "inner_text": "acceso",
+        "inner_html": "<span>Acceso</span>"
+      }
+    ]
+  },
+  "unsafeForms": [],
+  "browsing_history": [
+    "https://www.giglon.com/"
+  ],
+  "websockets": {},
+  "cookies": [
+    {
+      "name": "__utma",
+      "value": "60182075.804275121.1621527317.1621527317.1621527317.1",
+      "domain": "giglon.com",
+      "path": "/",
+      "expires": 1684599317,
+      "size": 59,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2023-05-20T16:15:17.000Z",
+      "expiresDays": 730,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 222,
+            "lineNumber": 28,
+            "fileName": "https://ssl.google-analytics.com/ga.js",
+            "functionName": "X",
+            "source": "    at X (https://ssl.google-analytics.com/ga.js:28:222)"
+          },
+          {
+            "columnNumber": 654,
+            "lineNumber": 39,
+            "fileName": "https://ssl.google-analytics.com/ga.js",
+            "functionName": "Xc",
+            "source": "    at Xc (https://ssl.google-analytics.com/ga.js:39:654)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T16:15:17.333Z",
+        "location": "https://www.giglon.com/"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "COOKIE_SUPPORT",
+      "value": "true",
+      "domain": "www.giglon.com",
+      "path": "/",
+      "expires": 1653063316.228164,
+      "size": 18,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2022-05-20T16:15:16.228Z",
+      "expiresDays": 365,
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.giglon.com/",
+            "source": "set in Set-Cookie HTTP response header for https://www.giglon.com/"
+          }
+        ],
+        "type": "Cookie.HTTP",
+        "timestamp": "2021-05-20T16:15:16.232Z",
+        "location": "about:blank"
+      },
+      "firstPartyStorage": false
+    },
+    {
+      "name": "GUEST_LANGUAGE_ID",
+      "value": "es_ES",
+      "domain": "www.giglon.com",
+      "path": "/",
+      "expires": 1653063316.228146,
+      "size": 22,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2022-05-20T16:15:16.228Z",
+      "expiresDays": 365,
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.giglon.com/",
+            "source": "set in Set-Cookie HTTP response header for https://www.giglon.com/"
+          }
+        ],
+        "type": "Cookie.HTTP",
+        "timestamp": "2021-05-20T16:15:16.232Z",
+        "location": "about:blank"
+      },
+      "firstPartyStorage": false
+    },
+    {
+      "name": "__utmz",
+      "value": "60182075.1621527317.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)",
+      "domain": "giglon.com",
+      "path": "/",
+      "expires": 1637295317,
+      "size": 75,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2021-11-19T04:15:17.000Z",
+      "expiresDays": 182.5,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 222,
+            "lineNumber": 28,
+            "fileName": "https://ssl.google-analytics.com/ga.js",
+            "functionName": "X",
+            "source": "    at X (https://ssl.google-analytics.com/ga.js:28:222)"
+          },
+          {
+            "columnNumber": 769,
+            "lineNumber": 39,
+            "fileName": "https://ssl.google-analytics.com/ga.js",
+            "functionName": "Xc",
+            "source": "    at Xc (https://ssl.google-analytics.com/ga.js:39:769)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T16:15:17.333Z",
+        "location": "https://www.giglon.com/"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "__utmb",
+      "value": "60182075.1.10.1621527317",
+      "domain": "giglon.com",
+      "path": "/",
+      "expires": 1621529117,
+      "size": 30,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2021-05-20T16:45:17.000Z",
+      "expiresDays": 0.02,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 222,
+            "lineNumber": 28,
+            "fileName": "https://ssl.google-analytics.com/ga.js",
+            "functionName": "X",
+            "source": "    at X (https://ssl.google-analytics.com/ga.js:28:222)"
+          },
+          {
+            "columnNumber": 688,
+            "lineNumber": 39,
+            "fileName": "https://ssl.google-analytics.com/ga.js",
+            "functionName": "Xc",
+            "source": "    at Xc (https://ssl.google-analytics.com/ga.js:39:688)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T16:15:17.333Z",
+        "location": "https://www.giglon.com/"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "__utmt",
+      "value": "1",
+      "domain": "giglon.com",
+      "path": "/",
+      "expires": 1621527917,
+      "size": 7,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2021-05-20T16:25:17.000Z",
+      "expiresDays": 0.01,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 222,
+            "lineNumber": 28,
+            "fileName": "https://ssl.google-analytics.com/ga.js",
+            "functionName": "X",
+            "source": "    at X (https://ssl.google-analytics.com/ga.js:28:222)"
+          },
+          {
+            "columnNumber": 265,
+            "lineNumber": 57,
+            "fileName": "https://ssl.google-analytics.com/ga.js",
+            "functionName": "hf",
+            "source": "    at hf (https://ssl.google-analytics.com/ga.js:57:265)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T16:15:17.333Z",
+        "location": "https://www.giglon.com/"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "JSESSIONID",
+      "value": "23109BDDF401EF0B3D07EFB02DB3597E",
+      "domain": "www.giglon.com",
+      "path": "/giglon-portlet/",
+      "expires": -1,
+      "size": 42,
+      "httpOnly": true,
+      "secure": false,
+      "session": true,
+      "firstPartyStorage": false
+    },
+    {
+      "name": "JSESSIONID",
+      "value": "39263CCCA77711214381FCF1B58B905E",
+      "domain": "www.giglon.com",
+      "path": "/gig-theme/",
+      "expires": -1,
+      "size": 42,
+      "httpOnly": true,
+      "secure": false,
+      "session": true,
+      "firstPartyStorage": false
+    },
+    {
+      "name": "JSESSIONID",
+      "value": "71D9B605F57699C938A0F00D00C029F7",
+      "domain": "www.giglon.com",
+      "path": "/",
+      "expires": -1,
+      "size": 42,
+      "httpOnly": true,
+      "secure": false,
+      "session": true,
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.giglon.com/",
+            "source": "set in Set-Cookie HTTP response header for https://www.giglon.com/"
+          }
+        ],
+        "type": "Cookie.HTTP",
+        "timestamp": "2021-05-20T16:15:16.232Z",
+        "location": "about:blank"
+      },
+      "firstPartyStorage": false
+    },
+    {
+      "name": "__utmc",
+      "value": "60182075",
+      "domain": "giglon.com",
+      "path": "/",
+      "expires": -1,
+      "size": 14,
+      "httpOnly": false,
+      "secure": false,
+      "session": true,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 222,
+            "lineNumber": 28,
+            "fileName": "https://ssl.google-analytics.com/ga.js",
+            "functionName": "X",
+            "source": "    at X (https://ssl.google-analytics.com/ga.js:28:222)"
+          },
+          {
+            "columnNumber": 722,
+            "lineNumber": 39,
+            "fileName": "https://ssl.google-analytics.com/ga.js",
+            "functionName": "Xc",
+            "source": "    at Xc (https://ssl.google-analytics.com/ga.js:39:722)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T16:15:17.333Z",
+        "location": "https://www.giglon.com/"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "JSESSIONID",
+      "value": "0A128DA414BC21A51F72FF4F8E6D149A",
+      "domain": "seal.godaddy.com",
+      "path": "/",
+      "expires": -1,
+      "size": 42,
+      "httpOnly": true,
+      "secure": true,
+      "session": true,
+      "firstPartyStorage": false
+    }
+  ],
+  "localStorage": {},
+  "beacons": [
+    {
+      "url": "https://ssl.google-analytics.com/r/__utm.gif?utmwv=5.7.2&utms=1&utmn=901079975&utmhn=www.giglon.com&utmcs=UTF-8&utmsr=1680x927&utmvp=1680x927&utmsc=24-bit&utmul=en-us&utmje=0&utmfl=-&utmdt=GIGLON%20%7C%20Venta%20de%20entradas%20%7C%20Directorio%20de%20Salas%2C%20Teatros%20y%20Artistas&utmhid=1983070695&utmr=-&utmp=%2F&utmht=1621527317319&utmac=UA-38558386-1&utmcc=__utma%3D60182075.804275121.1621527317.1621527317.1621527317.1%3B%2B__utmz%3D60182075.1621527317.1.1.utmcsr%3D(direct)%7Cutmccn%3D(direct)%7Cutmcmd%3D(none)%3B&utmjid=274643855&utmredir=1&utmu=qAAAAAAAAAAAAAAAAAAAAAAE~",
+      "query": {
+        "utmwv": "5.7.2",
+        "utms": 1,
+        "utmn": 901079975,
+        "utmhn": "www.giglon.com",
+        "utmcs": "UTF-8",
+        "utmsr": "1680x927",
+        "utmvp": "1680x927",
+        "utmsc": "24-bit",
+        "utmul": "en-us",
+        "utmje": 0,
+        "utmfl": "-",
+        "utmdt": "GIGLON | Venta de entradas | Directorio de Salas, Teatros y Artistas",
+        "utmhid": 1983070695,
+        "utmr": "-",
+        "utmp": "/",
+        "utmht": 1621527317319,
+        "utmac": "UA-38558386-1",
+        "utmcc": "__utma=60182075.804275121.1621527317.1621527317.1621527317.1;+__utmz=60182075.1621527317.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none);",
+        "utmjid": 274643855,
+        "utmredir": 1,
+        "utmu": "qAAAAAAAAAAAAAAAAAAAAAAE~"
+      },
+      "filter": "/__utm.gif",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.giglon.com/",
+            "source": "requested from https://www.giglon.com/ and matched with easyprivacy.txt filter /__utm.gif"
+          }
+        ],
+        "timestamp": "2021-05-20T16:15:17.335Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://www.giglon.com/giglon-portlet/imagen/social/twitter.png",
+      "query": null,
+      "filter": "/social/twitter.$~xmlhttprequest",
+      "listName": "fanboy-annoyance.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.giglon.com/",
+            "source": "requested from https://www.giglon.com/ and matched with fanboy-annoyance.txt filter /social/twitter.$~xmlhttprequest"
+          }
+        ],
+        "timestamp": "2021-05-20T16:15:16.267Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://www.giglon.com/giglon-portlet/imagen/social/facebook.png",
+      "query": null,
+      "filter": "/social/facebook.$~xmlhttprequest",
+      "listName": "fanboy-annoyance.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.giglon.com/",
+            "source": "requested from https://www.giglon.com/ and matched with fanboy-annoyance.txt filter /social/facebook.$~xmlhttprequest"
+          }
+        ],
+        "timestamp": "2021-05-20T16:15:16.266Z"
+      },
+      "occurrances": 1
+    }
+  ],
+  "hosts": {
+    "requests": {
+      "firstParty": [
+        "giglon.com"
+      ],
+      "thirdParty": [
+        "www.giglon.com",
+        "maps.googleapis.com",
+        "seal.godaddy.com",
+        "ssl.google-analytics.com"
+      ]
+    },
+    "beacons": {
+      "firstParty": [],
+      "thirdParty": [
+        "ssl.google-analytics.com"
+      ]
+    },
+    "cookies": {
+      "firstParty": [
+        "giglon.com"
+      ],
+      "thirdParty": [
+        "www.giglon.com",
+        "seal.godaddy.com"
+      ]
+    },
+    "localStorage": {
+      "firstParty": [],
+      "thirdParty": []
+    },
+    "links": {
+      "firstParty": [],
+      "thirdParty": [
+        "www.giglon.com",
+        "www.facebook.com",
+        "twitter.com",
+        "www.enisa.es"
+      ]
+    }
+  }
+}

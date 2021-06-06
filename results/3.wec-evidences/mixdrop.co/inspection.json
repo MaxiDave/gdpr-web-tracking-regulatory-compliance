@@ -1,0 +1,397 @@
+{
+  "title": "Website Evidence Collection",
+  "task_description": null,
+  "uri_ins": "https://mixdrop.co",
+  "uri_refs": [
+    "https://mixdrop.co"
+  ],
+  "uri_dest": "https://mixdrop.co/",
+  "uri_redirects": [],
+  "secure_connection": {
+    "https_support": true,
+    "redirects": [
+      "https://mixdrop.co/"
+    ],
+    "https_redirect": true
+  },
+  "host": "mixdrop.co",
+  "script": {
+    "host": "sfod",
+    "version": {
+      "npm": "1.0.0",
+      "commit": null
+    },
+    "cmd_args": "-q --overwrite https://mixdrop.co -- --ignore-certificate-errors",
+    "environment": {
+      "CHROME_DESKTOP": "code-url-handler.desktop"
+    },
+    "node_version": "v14.17.0"
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "HeadlessChrome/80.0.3987.0",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3617.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "5.8.0-53-generic"
+    },
+    "extra_headers": {},
+    "preset_cookies": {}
+  },
+  "start_time": "2021-05-20T16:30:08.268Z",
+  "end_time": "2021-05-20T16:30:14.260Z",
+  "links": {
+    "firstParty": [
+      {
+        "href": "https://mixdrop.co/",
+        "inner_text": "",
+        "inner_html": "<img src=\"/imgs/mixdrop-logo2.png\" class=\"logo\" alt=\"mixdrop\">"
+      },
+      {
+        "href": "https://mixdrop.co/news/",
+        "inner_text": "News",
+        "inner_html": "News"
+      },
+      {
+        "href": "https://mixdrop.co/faq/",
+        "inner_text": "FAQ",
+        "inner_html": "FAQ"
+      },
+      {
+        "href": "https://mixdrop.co/terms/",
+        "inner_text": "Terms And Conditions",
+        "inner_html": "Terms And Conditions"
+      },
+      {
+        "href": "https://mixdrop.co/privacy/",
+        "inner_text": "Privacy Policy",
+        "inner_html": "Privacy Policy"
+      },
+      {
+        "href": "https://mixdrop.co/copyright/",
+        "inner_text": "Copyright Policy",
+        "inner_html": "Copyright Policy"
+      },
+      {
+        "href": "https://mixdrop.co/panel/",
+        "inner_text": "User Panel",
+        "inner_html": "User Panel"
+      },
+      {
+        "href": "https://mixdrop.co/api/",
+        "inner_text": "API",
+        "inner_html": "API"
+      }
+    ],
+    "thirdParty": [],
+    "social": [],
+    "keywords": [
+      {
+        "href": "https://mixdrop.co/privacy/",
+        "inner_text": "Privacy Policy",
+        "inner_html": "Privacy Policy"
+      }
+    ]
+  },
+  "unsafeForms": [],
+  "browsing_history": [
+    "https://mixdrop.co/"
+  ],
+  "websockets": {},
+  "cookies": [
+    {
+      "name": "_ga",
+      "value": "GA1.2.1142614658.1621528209",
+      "domain": "mixdrop.co",
+      "path": "/",
+      "expires": 1684600209,
+      "size": 30,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2023-05-20T16:30:09.000Z",
+      "expiresDays": 730,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 495,
+            "lineNumber": 30,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "zc",
+            "source": "    at zc (https://www.google-analytics.com/analytics.js:30:495)"
+          },
+          {
+            "columnNumber": 15,
+            "lineNumber": 60,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "ma",
+            "source": "    at ma (https://www.google-analytics.com/analytics.js:60:15)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T16:30:09.393Z",
+        "location": "https://mixdrop.co/"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "__ddgid",
+      "value": "fs7X4wdsvDaoA4hH",
+      "domain": "mixdrop.co",
+      "path": "/",
+      "expires": 1653251208.921323,
+      "size": 23,
+      "httpOnly": true,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2022-05-22T20:26:48.921Z",
+      "expiresDays": 367.16,
+      "firstPartyStorage": true
+    },
+    {
+      "name": "__ddg1",
+      "value": "xg8ttd0jHMfeb4XbKTLp",
+      "domain": "mixdrop.co",
+      "path": "/",
+      "expires": 1653064208.649413,
+      "size": 26,
+      "httpOnly": true,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2022-05-20T16:30:08.649Z",
+      "expiresDays": 365,
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://mixdrop.co/",
+            "source": "set in Set-Cookie HTTP response header for https://mixdrop.co/"
+          }
+        ],
+        "type": "Cookie.HTTP",
+        "timestamp": "2021-05-20T16:30:08.654Z",
+        "location": "about:blank"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "__ddgmark",
+      "value": "UH1PltSErmNExkXS",
+      "domain": "mixdrop.co",
+      "path": "/",
+      "expires": 1621801608.921385,
+      "size": 25,
+      "httpOnly": true,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2021-05-23T20:26:48.921Z",
+      "expiresDays": 3.16,
+      "firstPartyStorage": true
+    },
+    {
+      "name": "_gid",
+      "value": "GA1.2.136461641.1621528209",
+      "domain": "mixdrop.co",
+      "path": "/",
+      "expires": 1621614609,
+      "size": 30,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2021-05-21T16:30:09.000Z",
+      "expiresDays": 1,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 495,
+            "lineNumber": 30,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "zc",
+            "source": "    at zc (https://www.google-analytics.com/analytics.js:30:495)"
+          },
+          {
+            "columnNumber": 401,
+            "lineNumber": 59,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "ma",
+            "source": "    at ma (https://www.google-analytics.com/analytics.js:59:401)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T16:30:09.394Z",
+        "location": "https://mixdrop.co/"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "_gat_gtag_UA_142309154_1",
+      "value": "1",
+      "domain": "mixdrop.co",
+      "path": "/",
+      "expires": 1621528269,
+      "size": 25,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2021-05-20T16:31:09.000Z",
+      "expiresDays": 0,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 495,
+            "lineNumber": 30,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "zc",
+            "source": "    at zc (https://www.google-analytics.com/analytics.js:30:495)"
+          },
+          {
+            "columnNumber": 31,
+            "lineNumber": 73,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "Qd",
+            "source": "    at Qd (https://www.google-analytics.com/analytics.js:73:31)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T16:30:09.395Z",
+        "location": "https://mixdrop.co/"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "PHPSESSID",
+      "value": "d0hmmoctvh1lc4p6uvhavfptnb",
+      "domain": "mixdrop.co",
+      "path": "/",
+      "expires": -1,
+      "size": 35,
+      "httpOnly": false,
+      "secure": false,
+      "session": true,
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://mixdrop.co/",
+            "source": "set in Set-Cookie HTTP response header for https://mixdrop.co/"
+          }
+        ],
+        "type": "Cookie.HTTP",
+        "timestamp": "2021-05-20T16:30:08.654Z",
+        "location": "about:blank"
+      },
+      "firstPartyStorage": true
+    }
+  ],
+  "localStorage": {},
+  "beacons": [
+    {
+      "url": "https://www.google-analytics.com/j/collect?v=1&_v=j90&a=769628611&t=pageview&_s=1&dl=https%3A%2F%2Fmixdrop.co%2F&ul=en-us&de=UTF-8&dt=MixDrop&sd=24-bit&sr=1680x927&vp=1680x927&je=0&_u=YEBAAUABAAAAAC~&jid=1016119611&gjid=1687263211&cid=1142614658.1621528209&tid=UA-142309154-1&_gid=136461641.1621528209&_r=1&gtm=2ou5c1&z=717151445",
+      "query": {
+        "v": 1,
+        "_v": "j90",
+        "a": 769628611,
+        "t": "pageview",
+        "_s": 1,
+        "dl": "https://mixdrop.co/",
+        "ul": "en-us",
+        "de": "UTF-8",
+        "dt": "MixDrop",
+        "sd": "24-bit",
+        "sr": "1680x927",
+        "vp": "1680x927",
+        "je": 0,
+        "_u": "YEBAAUABAAAAAC~",
+        "jid": 1016119611,
+        "gjid": 1687263211,
+        "cid": 1142614658.1621528,
+        "tid": "UA-142309154-1",
+        "_gid": 136461641.16215283,
+        "_r": 1,
+        "gtm": "2ou5c1",
+        "z": 717151445
+      },
+      "filter": "/collect?*&cid=",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://mixdrop.co/",
+            "source": "requested from https://mixdrop.co/ and matched with easyprivacy.txt filter /collect?*&cid="
+          }
+        ],
+        "timestamp": "2021-05-20T16:30:09.398Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://www.google-analytics.com/analytics.js",
+      "query": null,
+      "filter": "||google-analytics.com/analytics.js",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://mixdrop.co/",
+            "source": "requested from https://mixdrop.co/ and matched with easyprivacy.txt filter ||google-analytics.com/analytics.js"
+          }
+        ],
+        "timestamp": "2021-05-20T16:30:09.111Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://www.googletagmanager.com/gtag/js?id=UA-142309154-1",
+      "query": {
+        "id": "UA-142309154-1"
+      },
+      "filter": "||googletagmanager.com/gtag/$third-party",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://mixdrop.co/",
+            "source": "requested from https://mixdrop.co/ and matched with easyprivacy.txt filter ||googletagmanager.com/gtag/$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T16:30:08.688Z"
+      },
+      "occurrances": 1
+    }
+  ],
+  "hosts": {
+    "requests": {
+      "firstParty": [
+        "mixdrop.co"
+      ],
+      "thirdParty": [
+        "code.jquery.com",
+        "www.googletagmanager.com",
+        "fonts.googleapis.com",
+        "fonts.gstatic.com",
+        "www.google-analytics.com"
+      ]
+    },
+    "beacons": {
+      "firstParty": [],
+      "thirdParty": [
+        "www.google-analytics.com",
+        "www.googletagmanager.com"
+      ]
+    },
+    "cookies": {
+      "firstParty": [
+        "mixdrop.co"
+      ],
+      "thirdParty": []
+    },
+    "localStorage": {
+      "firstParty": [],
+      "thirdParty": []
+    },
+    "links": {
+      "firstParty": [
+        "mixdrop.co"
+      ],
+      "thirdParty": []
+    }
+  }
+}

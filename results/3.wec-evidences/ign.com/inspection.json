@@ -1,0 +1,1595 @@
+{
+  "title": "Website Evidence Collection",
+  "task_description": null,
+  "uri_ins": "https://ign.com",
+  "uri_refs": [
+    "https://ign.com"
+  ],
+  "uri_dest": "https://es.ign.com/",
+  "uri_redirects": [
+    "https://ign.com/",
+    "https://www.ign.com/"
+  ],
+  "secure_connection": {
+    "https_support": true,
+    "redirects": [
+      "https://www.ign.com/"
+    ],
+    "https_redirect": true
+  },
+  "host": "ign.com",
+  "script": {
+    "host": "sfod",
+    "version": {
+      "npm": "1.0.0",
+      "commit": null
+    },
+    "cmd_args": "-q --overwrite https://ign.com -- --ignore-certificate-errors",
+    "environment": {
+      "CHROME_DESKTOP": "code-url-handler.desktop"
+    },
+    "node_version": "v14.17.0"
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "HeadlessChrome/80.0.3987.0",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3617.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "5.8.0-53-generic"
+    },
+    "extra_headers": {},
+    "preset_cookies": {}
+  },
+  "start_time": "2021-05-20T16:32:19.530Z",
+  "end_time": "2021-05-20T16:32:31.547Z",
+  "links": {
+    "firstParty": [],
+    "thirdParty": [
+      {
+        "href": "https://es.ign.com/",
+        "inner_text": "",
+        "inner_html": "<svg class=\"ign-logo\" viewBox=\"0 0 182 55\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">\n      <title>IGN Logo</title>\n      <defs></defs>\n      <g id=\"Page-1\" stroke=\"none\" stroke-width=\"1\" fill=\"none\" fill-rule=\"evenodd\">\n          <g><g id=\"Group\">\n            <path d=\"M97.2501416,32.2561667 L97.2501416,22.4167222 L123.688285,22.4236667 C126.372368,22.4236667 128.561099,24.5945 128.561099,27.2731111 L128.561099,38.9672778 C128.561099,44.9858889 123.740882,49.9672778 117.613548,49.9711667 L100.688105,49.9831111 C88.1440193,49.9831111 77.9951538,39.8772778 77.9951538,27.3881111 C77.9951538,14.9089444 88.2060774,4.79366667 100.707863,4.79366667 L126.91308,4.79366667 L126.91308,15.1747778 L100.702298,15.1747778 C93.9449214,15.1747778 88.3961477,20.6433889 88.3961477,27.3881111 C88.3961477,34.1231111 93.8636615,39.5950556 100.684765,39.5942222 L118.169288,39.5942222 L118.169288,32.2561667 L97.2501416,32.2561667 Z M74.5580254,4.73744444 C74.5580254,4.73744444 74.5638694,8.05911111 74.5638694,8.08022222 L74.5638694,50.0016111 L69.3487624,50.0016111 L69.1133312,50.0016111 C66.4492853,50.0016111 64.2725208,47.8438333 64.2725208,45.1846667 L64.2725208,12.4643889 L64.2727991,4.73744444 L74.5580254,4.73744444 Z M177.034127,4.76322222 C179.699008,4.76322222 181.858519,6.9235 181.858519,9.58211111 L181.858519,39.5876667 C181.858519,45.6126667 176.956763,50.4976667 170.92043,50.4976667 L170.733699,50.4976667 C166.779513,50.4976667 163.330139,48.5354444 161.408286,45.3187778 L144.004745,14.8490556 C143.861705,14.5835 143.61069,14.5048889 143.394182,14.5048889 C143.131757,14.5048889 142.901613,14.6493333 142.780558,14.8632222 C142.722396,14.9557222 142.677592,15.066 142.677592,15.1837778 L142.680653,50.0015556 L137.203956,50.0015556 C134.540745,50.0015556 132.372051,47.8437778 132.372051,45.1848889 L132.372051,15.1837778 C132.372051,9.15877778 137.266292,4.27433333 143.302347,4.27433333 L143.488243,4.27433333 C147.443265,4.27433333 150.971672,6.38961111 152.894916,9.60683333 L170.192987,39.8790556 C170.409772,40.1632222 170.605687,40.2635 170.826369,40.2635 C171.086846,40.2635 171.31365,40.1237778 171.436931,39.9162778 C171.491754,39.8332222 171.510121,39.7354444 171.517913,39.6312778 L171.513182,4.76322222 L177.034127,4.76322222 Z\" id=\"IGN\" fill=\"#252627\"></path>\n            <path d=\"M12.5325367,17.4969167 C9.83593119,17.7924722 7.37392202,18.1949722 5.19799235,18.6919167 C7.64553058,12.4408056 12.6357813,7.45969444 18.8983624,5.01636111 C18.4007844,7.18802778 17.9972676,9.64580556 17.7003349,12.3380278 C15.6474083,13.6910833 13.8875183,15.44775 12.5325367,17.4969167 Z M37.561544,12.2788056 C37.2481924,9.60102778 36.8327092,7.15852778 36.3292872,4.99852778 C42.6141312,7.43463889 47.6238621,12.4246389 50.0786358,18.6915833 C47.9018713,18.1949167 45.4401404,17.7924167 42.7435349,17.4968611 C41.3866052,15.4454722 39.6247673,13.6876944 37.5690578,12.3343611 C37.5659966,12.3154722 37.5651618,12.2976944 37.561544,12.2788056 Z M17.7001401,42.4921667 C17.9967945,45.1849444 18.4005896,47.6427222 18.8978893,49.8141111 C12.6219505,47.3655 7.62446422,42.3677222 5.18249174,36.098 C7.32419205,36.5932778 9.75586789,37.0027222 12.4711187,37.3216111 C12.4911554,37.3252222 12.5100789,37.3260556 12.5298373,37.3296667 C13.8850972,39.3799444 15.645822,41.1382778 17.7001401,42.4921667 Z M42.8041737,37.3216667 C45.5171982,37.005 47.9485957,36.5963889 50.092244,36.1008333 C47.6444275,42.3855556 42.6271829,47.3911111 36.3298159,49.8316667 C36.8326813,47.6727778 37.2481645,45.2316667 37.5615162,42.555 C37.5654122,42.535 37.5662471,42.5161111 37.5695865,42.4961111 C39.6264092,41.1422222 41.3893602,39.3830556 42.7460116,37.3297222 C42.76577,37.3263889 42.7844153,37.3252778 42.8041737,37.3216667 Z M55.0276165,22.9458611 L55.0276165,31.83475 C50.8179621,33.7775278 44.5431364,34.5544722 42.4245339,34.7994722 C41.9135982,34.8958611 41.4360569,34.9414167 40.9740997,34.9414167 L34.2284116,27.4155833 L40.9740997,19.8889167 C41.3628673,19.8889167 41.7716716,19.9266944 42.2236104,20.0039167 C44.3923046,20.2350278 50.7726012,20.9803056 55.0276165,22.9458611 Z M14.3035859,19.8889167 L21.0476043,27.4155833 L14.3035859,34.9414167 C13.8405156,34.9414167 13.3615829,34.8958611 12.8520385,34.7994722 C10.7342709,34.5528056 4.45777554,33.7775278 0.247007951,31.8325278 L0.247007951,22.9478056 C4.5028581,20.9803056 10.8837113,20.2350278 13.0510141,20.0039167 C13.5060141,19.9266944 13.9137052,19.8889167 14.3035859,19.8889167 Z M20.098644,40.7283611 L27.6388428,33.99475 L35.1782067,40.7283611 C35.1782067,41.1889167 35.1311761,41.6666944 35.0346104,42.1761389 C34.7894391,44.2889167 34.0088428,50.5530833 32.0619437,54.7550278 L23.160641,54.7550278 C21.1898092,50.5091944 20.4439988,44.1391944 20.2121853,41.9755833 C20.1356563,41.5253056 20.098644,41.1153056 20.098644,40.7283611 Z M23.160641,0.0764166667 L32.0619437,0.0764166667 C34.0088428,4.28058333 34.7894391,10.5436389 35.0346104,12.6578056 C35.1311761,13.1669722 35.1782067,13.64225 35.1782067,14.1039167 L27.6388428,20.8391944 L20.098644,14.1039167 C20.098644,13.7180833 20.1356563,13.3089167 20.2121853,12.8575278 C20.4439988,10.6930833 21.1898092,4.32363889 23.160641,0.0764166667 Z\" id=\"logomark\" fill=\"#BF1313\"></path>\n          </g></g>\n      </g>\n  </svg>"
+      },
+      {
+        "href": "https://www.ign.com/?setccpref=US",
+        "inner_text": "United States",
+        "inner_html": "United States"
+      },
+      {
+        "href": "https://www.ign.com/?setccpref=UK",
+        "inner_text": "United Kingdom",
+        "inner_html": "United Kingdom"
+      },
+      {
+        "href": "https://www.ign.com/?setccpref=AU",
+        "inner_text": "Australia",
+        "inner_html": "Australia"
+      },
+      {
+        "href": "https://za.ign.com/",
+        "inner_text": "Africa",
+        "inner_html": "Africa"
+      },
+      {
+        "href": "https://nl.ign.com/",
+        "inner_text": "Benelux / Dutch",
+        "inner_html": "Benelux / Dutch"
+      },
+      {
+        "href": "https://br.ign.com/",
+        "inner_text": "Brazil",
+        "inner_html": "Brazil"
+      },
+      {
+        "href": "https://www.ign.com.cn/",
+        "inner_text": "China / 中国",
+        "inner_html": "China / 中国"
+      },
+      {
+        "href": "https://cz.ign.com/",
+        "inner_text": "Czechia / Slovakia",
+        "inner_html": "Czechia / Slovakia"
+      },
+      {
+        "href": "https://fr.ign.com/",
+        "inner_text": "France",
+        "inner_html": "France"
+      },
+      {
+        "href": "https://de.ign.com/",
+        "inner_text": "Germany",
+        "inner_html": "Germany"
+      },
+      {
+        "href": "https://gr.ign.com/",
+        "inner_text": "Greece / Ελλάδα",
+        "inner_html": "Greece / Ελλάδα"
+      },
+      {
+        "href": "https://hu.ign.com/",
+        "inner_text": "Hungary",
+        "inner_html": "Hungary"
+      },
+      {
+        "href": "https://in.ign.com/",
+        "inner_text": "India",
+        "inner_html": "India"
+      },
+      {
+        "href": "https://il.ign.com/",
+        "inner_text": "Israel",
+        "inner_html": "Israel"
+      },
+      {
+        "href": "https://it.ign.com/",
+        "inner_text": "Italy / Italia",
+        "inner_html": "Italy / Italia"
+      },
+      {
+        "href": "https://jp.ign.com/",
+        "inner_text": "Japan / 日本",
+        "inner_html": "Japan / 日本"
+      },
+      {
+        "href": "https://kr.ign.com/",
+        "inner_text": "Korea / 한국",
+        "inner_html": "Korea / 한국"
+      },
+      {
+        "href": "https://latam.ign.com/",
+        "inner_text": "Latin America",
+        "inner_html": "Latin America"
+      },
+      {
+        "href": "https://me.ign.com/ar/",
+        "inner_text": "Middle East",
+        "inner_html": "Middle East"
+      },
+      {
+        "href": "https://me.ign.com/en/",
+        "inner_text": "Middle East",
+        "inner_html": "Middle East"
+      },
+      {
+        "href": "https://nordic.ign.com/",
+        "inner_text": "Nordic",
+        "inner_html": "Nordic"
+      },
+      {
+        "href": "https://pl.ign.com/",
+        "inner_text": "Poland",
+        "inner_html": "Poland"
+      },
+      {
+        "href": "https://pt.ign.com/",
+        "inner_text": "Portugal",
+        "inner_html": "Portugal"
+      },
+      {
+        "href": "https://ru.ign.com/",
+        "inner_text": "Russia / Россия",
+        "inner_html": "Russia / Россия"
+      },
+      {
+        "href": "https://ap.ign.com/",
+        "inner_text": "Southeast Asia",
+        "inner_html": "Southeast Asia"
+      },
+      {
+        "href": "https://tr.ign.com/",
+        "inner_text": "Turkey / Türkiye",
+        "inner_html": "Turkey / Türkiye"
+      },
+      {
+        "href": "https://world.ign.com/",
+        "inner_text": "world.ign.com",
+        "inner_html": "world.ign.com"
+      },
+      {
+        "href": "https://www.ign.com/sign-in?redirect=http%3A//es.ign.com/",
+        "inner_text": "Ingresar",
+        "inner_html": "Ingresar"
+      },
+      {
+        "href": "https://www.ign.com/register?redirect=http%3A//es.ign.com/",
+        "inner_text": "Registro",
+        "inner_html": "Registro"
+      },
+      {
+        "href": "https://es.ign.com/article/review",
+        "inner_text": "Análisis Y Críticas",
+        "inner_html": "Análisis y críticas"
+      },
+      {
+        "href": "https://es.ign.com/movies/",
+        "inner_text": "Cine",
+        "inner_html": "Cine"
+      },
+      {
+        "href": "https://es.ign.com/TV",
+        "inner_text": "TV",
+        "inner_html": "TV"
+      },
+      {
+        "href": "https://es.ign.com/ps5",
+        "inner_text": "PS5",
+        "inner_html": "PS5"
+      },
+      {
+        "href": "https://es.ign.com/xbox-series-x",
+        "inner_text": "Xbox Series X/S",
+        "inner_html": "Xbox Series X/S"
+      },
+      {
+        "href": "https://es.ign.com/nintendo-switch",
+        "inner_text": "Nintendo Switch",
+        "inner_html": "Nintendo Switch"
+      },
+      {
+        "href": "https://es.ign.com/pc",
+        "inner_text": "PC",
+        "inner_html": "PC"
+      },
+      {
+        "href": "https://es.ign.com/TV/",
+        "inner_text": "TV",
+        "inner_html": "TV"
+      },
+      {
+        "href": "https://es.ign.com/comics/",
+        "inner_text": "Cómics",
+        "inner_html": "Cómics"
+      },
+      {
+        "href": "https://es.ign.com/tech/",
+        "inner_text": "Tech",
+        "inner_html": "Tech"
+      },
+      {
+        "href": "https://es.ign.com/cosmos",
+        "inner_text": "Cosmos",
+        "inner_html": "Cosmos"
+      },
+      {
+        "href": "https://es.ign.com/video/",
+        "inner_text": "Vídeos",
+        "inner_html": "Vídeos"
+      },
+      {
+        "href": "https://es.ign.com/article/preview",
+        "inner_text": "Avances",
+        "inner_html": "Avances"
+      },
+      {
+        "href": "https://es.ign.com/article/feature",
+        "inner_text": "Reportajes",
+        "inner_html": "Reportajes"
+      },
+      {
+        "href": "https://es.ign.com/ps4/",
+        "inner_text": "PS4",
+        "inner_html": "PS4"
+      },
+      {
+        "href": "https://es.ign.com/nintendo-switch/",
+        "inner_text": "Switch",
+        "inner_html": "Switch"
+      },
+      {
+        "href": "https://es.ign.com/xbox-one/",
+        "inner_text": "Xbox One",
+        "inner_html": "Xbox One"
+      },
+      {
+        "href": "https://es.ign.com/pc/",
+        "inner_text": "PC",
+        "inner_html": "PC"
+      },
+      {
+        "href": "https://es.ign.com/3ds/",
+        "inner_text": "3DS",
+        "inner_html": "3DS"
+      },
+      {
+        "href": "https://es.ign.com/mobile",
+        "inner_text": "Móviles",
+        "inner_html": "Móviles"
+      },
+      {
+        "href": "https://es.ign.com/retro",
+        "inner_text": "Retro",
+        "inner_html": "Retro"
+      },
+      {
+        "href": "https://es.ign.com/indie",
+        "inner_text": "Indie",
+        "inner_html": "Indie"
+      },
+      {
+        "href": "https://es.ign.com/page/64086/staff-de-ign-espana",
+        "inner_text": "Acerca de IGN España",
+        "inner_html": "<b>Acerca de IGN España</b>"
+      },
+      {
+        "href": "http://corp.ign.com/press",
+        "inner_text": "Prensa",
+        "inner_html": "Prensa"
+      },
+      {
+        "href": "https://es.ign.com/page/58722/condiciones-legales",
+        "inner_text": "Condiciones Legales",
+        "inner_html": "Condiciones Legales"
+      },
+      {
+        "href": "https://es.ign.com/ign-espana/69227/page/politica-de-proteccion-de-datos-ign-espana",
+        "inner_text": "Política de Privacidad",
+        "inner_html": "Política de Privacidad"
+      },
+      {
+        "href": "https://es.ign.com/ign-espana/96007/page/cookies",
+        "inner_text": "Cookies",
+        "inner_html": "Cookies"
+      },
+      {
+        "href": "https://es.ign.com/feed.xml",
+        "inner_text": "RSS",
+        "inner_html": "RSS"
+      },
+      {
+        "href": "https://www.facebook.com/ignespana",
+        "inner_text": "Facebook",
+        "inner_html": "Facebook"
+      },
+      {
+        "href": "https://twitter.com/ign_es",
+        "inner_text": "Twitter",
+        "inner_html": "Twitter"
+      },
+      {
+        "href": "https://www.instagram.com/ignespana",
+        "inner_text": "Instagram",
+        "inner_html": "Instagram"
+      },
+      {
+        "href": "https://www.youtube.com/channel/UCh-vUXb6yAa0urKEgI1p2WA",
+        "inner_text": "Youtube",
+        "inner_html": "Youtube"
+      },
+      {
+        "href": "https://www.twitch.tv/ign_es",
+        "inner_text": "Twitch",
+        "inner_html": "Twitch"
+      },
+      {
+        "href": "http://world.ziffdavis.com/",
+        "inner_text": "",
+        "inner_html": "<img width=\"65\" height=\"25\" src=\"/s/ign/footer_zd.png\" class=\"zdworld\" alt=\"\">"
+      },
+      {
+        "href": "https://es.ign.com/john-wick-4/173367/feature/7-peliculas-al-estilo-john-wick-que-te-recomendamos",
+        "inner_text": "7 películas al estilo John Wick que te recomendamos",
+        "inner_html": "<img src=\"https://sm.ign.com/t/ign_es/slotter/default/peliculas-john-wick_reru.560.jpg\" alt=\"7 películas al estilo John Wick que te recomendamos\" class=\"thumb\" srcset=\"https://sm.ign.com/t/ign_es/slotter/default/peliculas-john-wick_reru.560.jpg, https://sm.ign.com/t/ign_es/slotter/default/peliculas-john-wick_reru.1280.jpg 2x\">\n\t  <h3 class=\"caption\">7 películas al estilo John Wick que te recomendamos</h3>"
+      },
+      {
+        "href": "https://es.ign.com/deathloop/173346/feature/deathloop-hemos-visto-mucho-sobre-el-prometedor-juego-de-arkane-y-os-contamos-todo-lo-que-debeis-sab",
+        "inner_text": "Deathloop: Hemos visto mucho sobre el prometedor juego de Arkane y os lo contamos todo",
+        "inner_html": "<img src=\"https://sm.ign.com/t/ign_es/slotter/3/37038/37038_cjv6.560.jpg\" alt=\"Deathloop: Hemos visto mucho sobre el prometedor juego de Arkane y os lo contamos todo\" class=\"thumb\" srcset=\"https://sm.ign.com/t/ign_es/slotter/3/37038/37038_cjv6.560.jpg, https://sm.ign.com/t/ign_es/slotter/3/37038/37038_cjv6.1280.jpg 2x\">\n\t  <h3 class=\"caption\">Deathloop: Hemos visto mucho sobre el prometedor juego de Arkane y os lo contamos todo</h3>"
+      },
+      {
+        "href": "https://es.ign.com/mario-1/173328/feature/que-es-la-narrativa-en-los-videojuegos-y-por-que-no-debes-confundirla-con-historia-trama-guion-lore",
+        "inner_text": "Qué es la narrativa en los videojuegos y por qué no debes confundirla con historia, trama, guion, lore y otros términos",
+        "inner_html": "<img src=\"https://sm.ign.com/t/ign_es/slotter/3/37036/37036_hvek.560.jpg\" alt=\"Qué es la narrativa en los videojuegos y por qué no debes confundirla con historia, trama, guion, lore y otros términos\" class=\"thumb\" srcset=\"https://sm.ign.com/t/ign_es/slotter/3/37036/37036_hvek.560.jpg, https://sm.ign.com/t/ign_es/slotter/3/37036/37036_hvek.1280.jpg 2x\">\n\t  <h3 class=\"caption\">Qué es la narrativa en los videojuegos y por qué no debes confundirla con historia, trama, guion, lore y otros términos</h3>"
+      },
+      {
+        "href": "https://es.ign.com/army-of-the-dead-1/173138/review/critica-de-ejercito-de-los-muertos-zack-snyder-reinterpreta-el-genero-junto-a-netflix",
+        "inner_text": "Crítica de Ejército de los Muertos, Zack Snyder reinterpreta el género junto a Netflix",
+        "inner_html": "<img src=\"https://sm.ign.com/t/ign_es/slotter/3/37008/37008_9t3u.560.jpg\" alt=\"Crítica de Ejército de los Muertos, Zack Snyder reinterpreta el género junto a Netflix\" class=\"thumb\" srcset=\"https://sm.ign.com/t/ign_es/slotter/3/37008/37008_9t3u.560.jpg, https://sm.ign.com/t/ign_es/slotter/3/37008/37008_9t3u.1280.jpg 2x\">\n\t  <h3 class=\"caption\">Crítica de Ejército de los Muertos, Zack Snyder reinterpreta el género junto a Netflix</h3>"
+      },
+      {
+        "href": "https://es.ign.com/doctor-strange-in-the-multiverse-of-madness/173397/feature/todos-los-actores-actrices-y-personajes-confirmados-para-doctor-extrano-en-el-multiverso-de-la-locur",
+        "inner_text": "",
+        "inner_html": "<img src=\"https://sm.ign.com/t/ign_es/screenshot/default/personajes-doctor-extrano-multiverso-locura_5cng.320.jpg\" alt=\"Todos los actores, actrices y personajes confirmados para Doctor Extraño en el Multiverso de la Locura&nbsp;hasta el momento\" class=\"thumb\" srcset=\"https://sm.ign.com/t/ign_es/screenshot/default/personajes-doctor-extrano-multiverso-locura_5cng.320.jpg, https://sm.ign.com/t/ign_es/screenshot/default/personajes-doctor-extrano-multiverso-locura_5cng.640.jpg 2x\">"
+      },
+      {
+        "href": "https://es.ign.com/super-hero-1/173381/feature/quien-es-kate-bishop-el-personaje-de-hailee-steinfeld-en-la-serie-de-ojo-de-halcon-explicado",
+        "inner_text": "",
+        "inner_html": "<img src=\"https://sm.ign.com/t/ign_es/feature/h/hawkeyes-k/hawkeyes-kate-bishop-explained-who-is-hailee-steinfelds-mcu_ar96.320.jpg\" alt=\"¿Quién es Kate Bishop? El personaje de Hailee Steinfeld en la serie de Ojo de Halcón explicado\" class=\"thumb\" srcset=\"https://sm.ign.com/t/ign_es/feature/h/hawkeyes-k/hawkeyes-kate-bishop-explained-who-is-hailee-steinfelds-mcu_ar96.320.jpg, https://sm.ign.com/t/ign_es/feature/h/hawkeyes-k/hawkeyes-kate-bishop-explained-who-is-hailee-steinfelds-mcu_ar96.640.jpg 2x\">"
+      },
+      {
+        "href": "https://es.ign.com/timesplitters-future-perfect/173373/news/confirmado-habra-nuevo-juego-de-timesplitters-con-sus-creadores-originales",
+        "inner_text": "",
+        "inner_html": "<img src=\"https://sm.ign.com/t/ign_es/news/t/timesplitt/timesplitters-studio-free-radicals-reforms-to-make-a-new-ent_q8yu.320.jpg\" alt=\"Confirmado: Habrá nuevo juego de TimeSplitters con sus creadores originales\" class=\"thumb\" srcset=\"https://sm.ign.com/t/ign_es/news/t/timesplitt/timesplitters-studio-free-radicals-reforms-to-make-a-new-ent_q8yu.320.jpg, https://sm.ign.com/t/ign_es/news/t/timesplitt/timesplitters-studio-free-radicals-reforms-to-make-a-new-ent_q8yu.640.jpg 2x\">"
+      },
+      {
+        "href": "https://es.ign.com/berserker-unbound/173379/news/fallece-kentaro-miura-autor-de-berserk-a-los-54-anos-de-edad",
+        "inner_text": "",
+        "inner_html": "<img src=\"https://sm.ign.com/t/ign_es/screenshot/default/mangaka-5h9e1280_hjb1.320.jpg\" alt=\"Fallece Kentaro Miura, autor de Berserk, a los 54 años de edad\" class=\"thumb\" srcset=\"https://sm.ign.com/t/ign_es/screenshot/default/mangaka-5h9e1280_hjb1.320.jpg, https://sm.ign.com/t/ign_es/screenshot/default/mangaka-5h9e1280_hjb1.640.jpg 2x\">"
+      },
+      {
+        "href": "https://es.ign.com/secret-invasion-tv/173400/feature/todos-los-actores-actrices-y-personajes-confirmados-para-secret-invasion-de-marvel-hasta-ahora",
+        "inner_text": "",
+        "inner_html": "<img src=\"https://sm.ign.com/t/ign_es/screenshot/default/secret-invasion-personajes-reparto-confirmado_guk9.280.jpg\" alt=\"Todos los actores, actrices y personajes confirmados para Secret Invasion de Marvel hasta ahora (Reportaje Secret Invasion)\" class=\"thumb\" srcset=\"https://sm.ign.com/t/ign_es/screenshot/default/secret-invasion-personajes-reparto-confirmado_guk9.280.jpg, https://sm.ign.com/t/ign_es/screenshot/default/secret-invasion-personajes-reparto-confirmado_guk9.600.jpg 2x\">"
+      },
+      {
+        "href": "https://es.ign.com/the-dark-pictures-house-of-ashes/173401/video/the-dark-pictures-anthology-house-of-ashes-nuevo-teaser-trailer",
+        "inner_text": "01:28",
+        "inner_html": "<img src=\"https://sm.ign.com/t/ign_es/screenshot/default/ash_e6jx.280.jpg\" alt=\"The Dark Pictures Anthology: House of Ashes. Nuevo Teaser Tráiler (Video The Dark Pictures: House of Ashes)\" class=\"thumb\" srcset=\"https://sm.ign.com/t/ign_es/screenshot/default/ash_e6jx.280.jpg, https://sm.ign.com/t/ign_es/screenshot/default/ash_e6jx.600.jpg 2x\">\n      \n      <span class=\"duration\"><svg class=\"icon icon-playhead\" width=\"52\" height=\"52\" viewBox=\"0 0 52 52\" xmlns=\"http://www.w3.org/2000/svg\"><g fill=\"none\" fill-rule=\"evenodd\"><circle fill=\"#FFF\" cx=\"26\" cy=\"26\" r=\"26\"></circle><path class=\"playhead-triangle\" d=\"M36.185 24.937c.962.537.96 1.41 0 1.945l-16.13 9.015c-.962.537-1.74.086-1.74-1.03V16.95c0-1.106.78-1.567 1.74-1.03l16.13 9.015z\" fill=\"#bf1313\"></path></g></svg><span class=\"duration-text\">01:28</span></span>"
+      },
+      {
+        "href": "https://es.ign.com/the-dark-pictures-house-of-ashes/173399/news/the-dark-pictures-anthology-house-of-ashes-se-mostrara-la-proxima-semana-y-ya-tenemos-un-avance",
+        "inner_text": "",
+        "inner_html": "<img src=\"https://sm.ign.com/t/ign_es/screenshot/default/ash_3j1n.280.jpg\" alt=\"The Dark Pictures Anthology: House of Ashes se mostrará la próxima semana y ya tenemos un avance (Noticias The Dark Pictures: House of Ashes)\" class=\"thumb\" srcset=\"https://sm.ign.com/t/ign_es/screenshot/default/ash_3j1n.280.jpg, https://sm.ign.com/t/ign_es/screenshot/default/ash_3j1n.600.jpg 2x\">"
+      },
+      {
+        "href": "https://es.ign.com/epic-games-store/173398/news/epic-games-store-revela-el-juego-gratis-misterioso-de-esta-semana-y-no-sera-el-unico",
+        "inner_text": "",
+        "inner_html": "<img src=\"https://sm.ign.com/t/ign_es/screenshot/default/mist_wr5h.280.jpg\" alt=\"Epic Games Store revela el juego gratis &quot;misterioso&quot; de esta semana y no será el único (Noticias Epic Games Store)\" class=\"thumb\" srcset=\"https://sm.ign.com/t/ign_es/screenshot/default/mist_wr5h.280.jpg, https://sm.ign.com/t/ign_es/screenshot/default/mist_wr5h.600.jpg 2x\">"
+      },
+      {
+        "href": "https://es.ign.com/sonic-la-pelicula-2/173395/news/se-filtra-la-sinopsis-de-sonic-la-pelicula-2-y-confirma-la-presencia-de-knuckles",
+        "inner_text": "",
+        "inner_html": "<img src=\"https://sm.ign.com/t/ign_es/news/s/sonic-the-/sonic-the-hedgehog-2-the-movie-plot-synopsis-leaks-includes_n6xr.280.jpg\" alt=\"Se filtra la sinopsis de Sonic: La Película 2 y confirma la presencia de Knuckles (Noticias Sonic: La película 2)\" class=\"thumb\" srcset=\"https://sm.ign.com/t/ign_es/news/s/sonic-the-/sonic-the-hedgehog-2-the-movie-plot-synopsis-leaks-includes_n6xr.280.jpg, https://sm.ign.com/t/ign_es/news/s/sonic-the-/sonic-the-hedgehog-2-the-movie-plot-synopsis-leaks-includes_n6xr.600.jpg 2x\">"
+      },
+      {
+        "href": "https://es.ign.com/ni-no-kuni-ii-el-renacer-de-un-reino/173394/video/ni-no-kuni-ii-el-renacer-de-un-reino-princes-edition-trailer-de-anuncio-para-nintendo-switch",
+        "inner_text": "02:18",
+        "inner_html": "<img src=\"https://sm.ign.com/t/ign_es/screenshot/default/kun_vgq6.280.jpg\" alt=\"Ni no Kuni II: El renacer de un reino - Prince’s Edition. Tráiler de anuncio para Nintendo Switch (Video Ni No Kuni II: El Renacer de un Reino)\" class=\"thumb\" srcset=\"https://sm.ign.com/t/ign_es/screenshot/default/kun_vgq6.280.jpg, https://sm.ign.com/t/ign_es/screenshot/default/kun_vgq6.600.jpg 2x\">\n      \n      <span class=\"duration\"><svg class=\"icon icon-playhead\" width=\"52\" height=\"52\" viewBox=\"0 0 52 52\" xmlns=\"http://www.w3.org/2000/svg\"><g fill=\"none\" fill-rule=\"evenodd\"><circle fill=\"#FFF\" cx=\"26\" cy=\"26\" r=\"26\"></circle><path class=\"playhead-triangle\" d=\"M36.185 24.937c.962.537.96 1.41 0 1.945l-16.13 9.015c-.962.537-1.74.086-1.74-1.03V16.95c0-1.106.78-1.567 1.74-1.03l16.13 9.015z\" fill=\"#bf1313\"></path></g></svg><span class=\"duration-text\">02:18</span></span>"
+      },
+      {
+        "href": "https://es.ign.com/resident-evil-oscuridad-infinita/173349/news/resident-evil-oscuridad-infinita-confirma-su-fecha-de-estreno-y-muestra-un-nuevo-trailer",
+        "inner_text": "",
+        "inner_html": "<img src=\"https://sm.ign.com/t/ign_es/screenshot/default/resident-evil-oscuridad-infinita-fecha_9jrk.320.jpg\" alt=\"Resident Evil: Oscuridad infinita confirma su fecha de estreno y muestra un nuevo tráiler\" class=\"thumb\" srcset=\"https://sm.ign.com/t/ign_es/screenshot/default/resident-evil-oscuridad-infinita-fecha_9jrk.320.jpg, https://sm.ign.com/t/ign_es/screenshot/default/resident-evil-oscuridad-infinita-fecha_9jrk.640.jpg 2x\">"
+      },
+      {
+        "href": "https://es.ign.com/batman-heroe/173361/news/una-nueva-serie-animada-de-batman-de-bruce-timm-matt-reeves-y-jj-abrams-llegara-a-hbo-max",
+        "inner_text": "",
+        "inner_html": "<img src=\"https://sm.ign.com/t/ign_es/news/a/a-new-batm/a-new-batman-animated-series-from-bruce-timm-matt-reeves-and_bd5a.320.jpg\" alt=\"Una nueva serie animada de Batman de Bruce Timm, Matt Reeves y J.J. Abrams llegará a HBO Max\" class=\"thumb\" srcset=\"https://sm.ign.com/t/ign_es/news/a/a-new-batm/a-new-batman-animated-series-from-bruce-timm-matt-reeves-and_bd5a.320.jpg, https://sm.ign.com/t/ign_es/news/a/a-new-batm/a-new-batman-animated-series-from-bruce-timm-matt-reeves-and_bd5a.640.jpg 2x\">"
+      },
+      {
+        "href": "https://es.ign.com/los-eternos-de-marvel/173258/feature/el-origen-de-los-celestiales-su-futuro-y-el-enlace-de-marvel-con-disney-del-primer-firmamento-a-loga",
+        "inner_text": "",
+        "inner_html": "<img src=\"https://sm.ign.com/t/ign_es/screenshot/default/celestials-b6bz1200_dgbq.320.jpg\" alt=\"El origen de los Celestiales, su futuro y el enlace de Marvel con Disney: del Primer Firmamento a Logan\" class=\"thumb\" srcset=\"https://sm.ign.com/t/ign_es/screenshot/default/celestials-b6bz1200_dgbq.320.jpg, https://sm.ign.com/t/ign_es/screenshot/default/celestials-b6bz1200_dgbq.640.jpg 2x\">"
+      },
+      {
+        "href": "https://es.ign.com/venom-2/173052/feature/venom-habra-matanza-desbrozamos-los-secretos-del-trailer-con-su-director-andy-serkis",
+        "inner_text": "",
+        "inner_html": "<img src=\"https://sm.ign.com/t/ign_es/screenshot/default/venom-blogroll-2_mq96.320.jpg\" alt=\"Venom: Habrá Matanza - Desbrozamos los secretos del nuevo tráiler con su director, Andy Serkis\" class=\"thumb\" srcset=\"https://sm.ign.com/t/ign_es/screenshot/default/venom-blogroll-2_mq96.320.jpg, https://sm.ign.com/t/ign_es/screenshot/default/venom-blogroll-2_mq96.640.jpg 2x\">"
+      },
+      {
+        "href": "https://es.ign.com/ni-no-kuni-ii-el-renacer-de-un-reino/173393/news/ni-no-kuni-2-ya-tiene-fecha-de-lanzamiento-para-nintendo-switch",
+        "inner_text": "",
+        "inner_html": "<img src=\"https://sm.ign.com/t/ign_es/screenshot/default/kun_a916.280.jpg\" alt=\"Ni No Kuni 2 ya tiene fecha de lanzamiento para Nintendo Switch (Noticias Ni No Kuni II: El Renacer de un Reino)\" class=\"thumb\" srcset=\"https://sm.ign.com/t/ign_es/screenshot/default/kun_a916.280.jpg, https://sm.ign.com/t/ign_es/screenshot/default/kun_a916.600.jpg 2x\">"
+      },
+      {
+        "href": "https://es.ign.com/rocket-league/173391/news/rocket-league-recibira-coches-de-formula-1-con-licencia-oficial",
+        "inner_text": "",
+        "inner_html": "<img src=\"https://sm.ign.com/t/ign_es/news/o/official-f/official-formula-1-decals-are-coming-to-rocket-league_aq3e.280.jpg\" alt=\"Rocket League recibirá coches de Fórmula 1 con licencia oficial (Noticias Rocket League)\" class=\"thumb\" srcset=\"https://sm.ign.com/t/ign_es/news/o/official-f/official-formula-1-decals-are-coming-to-rocket-league_aq3e.280.jpg, https://sm.ign.com/t/ign_es/news/o/official-f/official-formula-1-decals-are-coming-to-rocket-league_aq3e.600.jpg 2x\">"
+      },
+      {
+        "href": "https://es.ign.com/e3/173390/news/bethesda-y-microsoft-tendran-una-conferencia-conjunta-en-el-e3-2021",
+        "inner_text": "",
+        "inner_html": "<img src=\"https://sm.ign.com/t/ign_es/news/b/bethesdas-/bethesdas-e3-2021-conference-will-be-connected-to-microsofts_tfmv.280.jpg\" alt=\"Bethesda y Microsoft tendrán una conferencia conjunta en el E3 2021 (Noticias E3)\" class=\"thumb\" srcset=\"https://sm.ign.com/t/ign_es/news/b/bethesdas-/bethesdas-e3-2021-conference-will-be-connected-to-microsofts_tfmv.280.jpg, https://sm.ign.com/t/ign_es/news/b/bethesdas-/bethesdas-e3-2021-conference-will-be-connected-to-microsofts_tfmv.600.jpg 2x\">"
+      },
+      {
+        "href": "https://es.ign.com/green-lantern-1/173389/news/linterna-verde-jeremy-irvine-podria-interpretar-a-alan-scott-en-la-serie-de-hbo",
+        "inner_text": "",
+        "inner_html": "<img src=\"https://sm.ign.com/t/ign_es/news/g/green-lant/green-lantern-jeremy-irvine-may-play-alan-scott-in-hbo-max-s_fddn.280.jpg\" alt=\"Linterna Verde: Jeremy Irvine podría interpretar a Alan Scott en la serie de HBO (Noticias Green Lantern)\" class=\"thumb\" srcset=\"https://sm.ign.com/t/ign_es/news/g/green-lant/green-lantern-jeremy-irvine-may-play-alan-scott-in-hbo-max-s_fddn.280.jpg, https://sm.ign.com/t/ign_es/news/g/green-lant/green-lantern-jeremy-irvine-may-play-alan-scott-in-hbo-max-s_fddn.600.jpg 2x\">"
+      },
+      {
+        "href": "https://es.ign.com/monster-hunter-rise/173388/news/anunciado-un-evento-de-monster-hunter-para-la-proxima-semana",
+        "inner_text": "",
+        "inner_html": "<img src=\"https://sm.ign.com/t/ign_es/news/m/monster-hu/monster-hunter-event-announced-for-next-week_pmbr.280.jpg\" alt=\"Anunciado un evento de Monster Hunter para la próxima semana (Noticias Monster Hunter Rise)\" class=\"thumb\" srcset=\"https://sm.ign.com/t/ign_es/news/m/monster-hu/monster-hunter-event-announced-for-next-week_pmbr.280.jpg, https://sm.ign.com/t/ign_es/news/m/monster-hu/monster-hunter-event-announced-for-next-week_pmbr.600.jpg 2x\">"
+      },
+      {
+        "href": "https://es.ign.com/rick-morty/173378/news/adult-swim-anuncia-que-rick-morty-tendra-un-spin-off-junto-a-otras-de-sus-series",
+        "inner_text": "",
+        "inner_html": "<img src=\"https://sm.ign.com/t/ign_es/news/r/rick-morty/rick-morty-and-three-other-adult-swim-shows-are-getting-spin_x5h4.280.jpg\" alt=\"Adult Swim anuncia que Rick &amp; Morty tendrá un spin-off junto a otras de sus series (Noticias Rick y Morty)\" class=\"thumb\" srcset=\"https://sm.ign.com/t/ign_es/news/r/rick-morty/rick-morty-and-three-other-adult-swim-shows-are-getting-spin_x5h4.280.jpg, https://sm.ign.com/t/ign_es/news/r/rick-morty/rick-morty-and-three-other-adult-swim-shows-are-getting-spin_x5h4.600.jpg 2x\">"
+      },
+      {
+        "href": "https://es.ign.com/liga-de-la-justicia/173142/news/gal-gadot-confirma-que-joss-whedon-amenazo-su-carrera-durante-las-re-grabaciones-de-liga-de-la-justi",
+        "inner_text": "",
+        "inner_html": "<img src=\"https://sm.ign.com/t/ign_es/news/g/gal-gadot-/gal-gadot-confirms-joss-whedon-threatened-her-career-during_qag6.320.jpg\" alt=\"Gal Gadot confirma que Joss Whedon amenazó su carrera durante las re-grabaciones de Liga de la Justicia\" class=\"thumb\" srcset=\"https://sm.ign.com/t/ign_es/news/g/gal-gadot-/gal-gadot-confirms-joss-whedon-threatened-her-career-during_qag6.320.jpg, https://sm.ign.com/t/ign_es/news/g/gal-gadot-/gal-gadot-confirms-joss-whedon-threatened-her-career-during_qag6.640.jpg 2x\">"
+      },
+      {
+        "href": "https://es.ign.com/assassins-creed-valhalla/173182/feature/analisis-de-la-ira-de-los-druidas-de-assassins-creed-valhalla-merece-la-pena-la-primera-expansion-de",
+        "inner_text": "",
+        "inner_html": "<img src=\"https://sm.ign.com/t/ign_es/screenshot/default/valhalla-druidas-portada_9a8b.320.jpg\" alt=\"Análisis de La Ira de los Druidas de Assassin's Creed Valhalla, ¿merece la pena la primera expansión de pago?\" class=\"thumb\" srcset=\"https://sm.ign.com/t/ign_es/screenshot/default/valhalla-druidas-portada_9a8b.320.jpg, https://sm.ign.com/t/ign_es/screenshot/default/valhalla-druidas-portada_9a8b.640.jpg 2x\">"
+      },
+      {
+        "href": "https://es.ign.com/resident-evil-village/172929/review/analisis-de-resident-evil-village-la-graduacion-de-ethan-winters",
+        "inner_text": "",
+        "inner_html": "<img src=\"https://sm.ign.com/t/ign_es/screenshot/default/resident-evil-village-ps5-playstation-5original_nu79.320.jpg\" alt=\"Análisis de Resident Evil Village, la graduación de Ethan Winters\" class=\"thumb\" srcset=\"https://sm.ign.com/t/ign_es/screenshot/default/resident-evil-village-ps5-playstation-5original_nu79.320.jpg, https://sm.ign.com/t/ign_es/screenshot/default/resident-evil-village-ps5-playstation-5original_nu79.640.jpg 2x\">"
+      },
+      {
+        "href": "https://es.ign.com/new-pokemon-snap-nintendo-switch/172947/review/analisis-de-new-pokemon-snap-para-switch-hazte-con-todos-en-foto",
+        "inner_text": "",
+        "inner_html": "<img src=\"https://sm.ign.com/t/ign_es/screenshot/default/new-pokemon-snap-official-gameplay-trailer-nf9p1280_8qzz.320.jpg\" alt=\"Análisis de New Pokémon Snap para Switch, ¡hazte con todos (en foto)!\" class=\"thumb\" srcset=\"https://sm.ign.com/t/ign_es/screenshot/default/new-pokemon-snap-official-gameplay-trailer-nf9p1280_8qzz.320.jpg, https://sm.ign.com/t/ign_es/screenshot/default/new-pokemon-snap-official-gameplay-trailer-nf9p1280_8qzz.640.jpg 2x\">"
+      },
+      {
+        "href": "https://es.ign.com/the-batman-theater/173377/news/una-filtracion-de-la-pelicula-the-batman-nos-muestra-una-nueva-imagen-de-the-riddler",
+        "inner_text": "",
+        "inner_html": "<img src=\"https://sm.ign.com/t/ign_es/news/t/the-batman/the-batman-paul-danos-riddler-looks-a-lot-like-the-zodiac-ki_yupp.280.jpg\" alt=\"Una filtración de la película The Batman nos muestra una nueva imagen de The Riddler (Noticias the-batman)\" class=\"thumb\" srcset=\"https://sm.ign.com/t/ign_es/news/t/the-batman/the-batman-paul-danos-riddler-looks-a-lot-like-the-zodiac-ki_yupp.280.jpg, https://sm.ign.com/t/ign_es/news/t/the-batman/the-batman-paul-danos-riddler-looks-a-lot-like-the-zodiac-ki_yupp.600.jpg 2x\">"
+      },
+      {
+        "href": "https://es.ign.com/movie/173375/news/kevin-feige-se-arrepiente-de-algunas-decisiones-con-el-anciano-en-doctor-strange",
+        "inner_text": "",
+        "inner_html": "<img src=\"https://sm.ign.com/t/ign_es/news/k/kevin-feig/kevin-feige-regrets-whitewashing-the-ancient-one-in-doctor-s_nrn2.280.jpg\" alt=\"Kevin Feige se arrepiente de algunas decisiones con El anciano en Doctor Strange (Noticias movie)\" class=\"thumb\" srcset=\"https://sm.ign.com/t/ign_es/news/k/kevin-feig/kevin-feige-regrets-whitewashing-the-ancient-one-in-doctor-s_nrn2.280.jpg, https://sm.ign.com/t/ign_es/news/k/kevin-feig/kevin-feige-regrets-whitewashing-the-ancient-one-in-doctor-s_nrn2.600.jpg 2x\">"
+      },
+      {
+        "href": "https://es.ign.com/movie/173374/news/la-pelicula-de-batgirl-estara-dirigida-por-los-creadores-de-bad-boys-for-life",
+        "inner_text": "",
+        "inner_html": "<img src=\"https://sm.ign.com/t/ign_es/news/b/batgirl-mo/batgirl-movie-will-be-directed-by-bad-boys-for-life-ms-marve_31wn.280.jpg\" alt=\"La película de Batgirl estará dirigida por los creadores de Bad Boys for Life (Noticias movie)\" class=\"thumb\" srcset=\"https://sm.ign.com/t/ign_es/news/b/batgirl-mo/batgirl-movie-will-be-directed-by-bad-boys-for-life-ms-marve_31wn.280.jpg, https://sm.ign.com/t/ign_es/news/b/batgirl-mo/batgirl-movie-will-be-directed-by-bad-boys-for-life-ms-marve_31wn.600.jpg 2x\">"
+      },
+      {
+        "href": "https://es.ign.com/netflix/173372/news/arnold-schwarzenegger-protagonizara-una-serie-de-espias-en-netflix",
+        "inner_text": "",
+        "inner_html": "<img src=\"https://sm.ign.com/t/ign_es/news/n/new-arnold/new-arnold-schwarzenegger-spy-series-heads-to-netflix_9tyq.280.jpg\" alt=\"Arnold Schwarzenegger protagonizará una serie de espías en Netflix (Noticias Netflix)\" class=\"thumb\" srcset=\"https://sm.ign.com/t/ign_es/news/n/new-arnold/new-arnold-schwarzenegger-spy-series-heads-to-netflix_9tyq.280.jpg, https://sm.ign.com/t/ign_es/news/n/new-arnold/new-arnold-schwarzenegger-spy-series-heads-to-netflix_9tyq.600.jpg 2x\">"
+      },
+      {
+        "href": "https://es.ign.com/injustice-2/173371/news/warner-bros-tendria-prevista-una-adaptacion-animada-de-injustice",
+        "inner_text": "",
+        "inner_html": "<img src=\"https://sm.ign.com/t/ign_es/news/i/injustice-/injustice-gods-among-us-animated-movie-officially-announced_prpn.280.jpg\" alt=\"Warner Bros. tendría prevista una adaptación animada de Injustice (Noticias Injustice 2)\" class=\"thumb\" srcset=\"https://sm.ign.com/t/ign_es/news/i/injustice-/injustice-gods-among-us-animated-movie-officially-announced_prpn.280.jpg, https://sm.ign.com/t/ign_es/news/i/injustice-/injustice-gods-among-us-animated-movie-officially-announced_prpn.600.jpg 2x\">"
+      },
+      {
+        "href": "https://es.ign.com/los-eternos-de-marvel/173370/news/los-eternos-salma-hayek-nunca-penso-que-marvel-la-elegiria-para-formar-parte-del-ucm",
+        "inner_text": "",
+        "inner_html": "<img src=\"https://sm.ign.com/t/ign_es/screenshot/default/ajak-salma-hayek_p68y.280.jpg\" alt=\"Los Eternos: Salma Hayek nunca pensó que Marvel la elegiría para formar parte del UCM (Noticias Los Eternos de Marvel)\" class=\"thumb\" srcset=\"https://sm.ign.com/t/ign_es/screenshot/default/ajak-salma-hayek_p68y.280.jpg, https://sm.ign.com/t/ign_es/screenshot/default/ajak-salma-hayek_p68y.600.jpg 2x\">"
+      },
+      {
+        "href": "https://es.ign.com/returnal-ps5/172813/review/analisis-de-returnal-para-ps5",
+        "inner_text": "",
+        "inner_html": "<img src=\"https://sm.ign.com/t/ign_es/screenshot/default/returnal-analisis-ps5_67yf.320.jpg\" alt=\"Análisis de Returnal para PS5\" class=\"thumb\" srcset=\"https://sm.ign.com/t/ign_es/screenshot/default/returnal-analisis-ps5_67yf.320.jpg, https://sm.ign.com/t/ign_es/screenshot/default/returnal-analisis-ps5_67yf.640.jpg 2x\">"
+      },
+      {
+        "href": "https://es.ign.com/star-wars/172845/news/star-wars-se-desvela-el-destino-de-la-mano-perdida-de-luke-skywalker",
+        "inner_text": "",
+        "inner_html": "<img src=\"https://sm.ign.com/t/ign_es/news/s/star-wars-/star-wars-the-fate-of-luke-skywalkers-missing-hand-revealed_s5wc.320.jpg\" alt=\"Star Wars: Se desvela el destino de la mano perdida de Luke Skywalker\" class=\"thumb\" srcset=\"https://sm.ign.com/t/ign_es/news/s/star-wars-/star-wars-the-fate-of-luke-skywalkers-missing-hand-revealed_s5wc.320.jpg, https://sm.ign.com/t/ign_es/news/s/star-wars-/star-wars-the-fate-of-luke-skywalkers-missing-hand-revealed_s5wc.640.jpg 2x\">"
+      },
+      {
+        "href": "https://es.ign.com/movie/172133/feature/la-serie-de-obi-wan-kenobi-el-regreso-de-hayden-christensen-puede-resolver-un-gran-misterio-de-la-hi",
+        "inner_text": "",
+        "inner_html": "<img src=\"https://sm.ign.com/t/ign_es/feature/o/obi-wan-ke/obi-wan-kenobi-series-hayden-christensens-return-can-solve-a_fcpa.320.jpg\" alt=\"La serie de Obi-Wan Kenobi puede resolver un gran misterio de la historia de Star Wars\" class=\"thumb\" srcset=\"https://sm.ign.com/t/ign_es/feature/o/obi-wan-ke/obi-wan-kenobi-series-hayden-christensens-return-can-solve-a_fcpa.320.jpg, https://sm.ign.com/t/ign_es/feature/o/obi-wan-ke/obi-wan-kenobi-series-hayden-christensens-return-can-solve-a_fcpa.640.jpg 2x\">"
+      },
+      {
+        "href": "https://es.ign.com/star-wars-obi-wan-kenobi/172084/feature/star-wars-los-mejores-momentos-de-obi-wan-kenobi",
+        "inner_text": "",
+        "inner_html": "<img src=\"https://sm.ign.com/t/ign_es/feature/s/star-wars-/star-wars-obi-wan-kenobis-greatest-moments_uk12.320.jpg\" alt=\"Star Wars: Los mejores momentos de Obi-Wan Kenobi\" class=\"thumb\" srcset=\"https://sm.ign.com/t/ign_es/feature/s/star-wars-/star-wars-obi-wan-kenobis-greatest-moments_uk12.320.jpg, https://sm.ign.com/t/ign_es/feature/s/star-wars-/star-wars-obi-wan-kenobis-greatest-moments_uk12.640.jpg 2x\">"
+      },
+      {
+        "href": "https://es.ign.com/marvels-loki/173369/news/quien-es-la-senorita-minutos-de-la-serie-loki-de-marvel",
+        "inner_text": "",
+        "inner_html": "<img src=\"https://sm.ign.com/t/ign_es/news/m/marvels-lo/marvels-loki-we-now-know-who-that-weird-cartoon-clock-charac_bpxd.280.jpg\" alt=\"¿Quién es la Señorita Minutos de la serie Loki de Marvel? (Noticias Marvel's Loki)\" class=\"thumb\" srcset=\"https://sm.ign.com/t/ign_es/news/m/marvels-lo/marvels-loki-we-now-know-who-that-weird-cartoon-clock-charac_bpxd.280.jpg, https://sm.ign.com/t/ign_es/news/m/marvels-lo/marvels-loki-we-now-know-who-that-weird-cartoon-clock-charac_bpxd.600.jpg 2x\">"
+      },
+      {
+        "href": "https://es.ign.com/marvels-loki/173380/trailer/trailer-de-loki-anuncio-senorita-minutos",
+        "inner_text": "01:00",
+        "inner_html": "<img src=\"https://sm.ign.com/t/ign_es/screenshot/default/loki-minutos_8j5e.280.jpg\" alt=\"Tráiler de Loki | Anuncio: Señorita Minutos en español (Trailer Marvel's Loki)\" class=\"thumb\" srcset=\"https://sm.ign.com/t/ign_es/screenshot/default/loki-minutos_8j5e.280.jpg, https://sm.ign.com/t/ign_es/screenshot/default/loki-minutos_8j5e.600.jpg 2x\">\n      \n      <span class=\"duration\"><svg class=\"icon icon-playhead\" width=\"52\" height=\"52\" viewBox=\"0 0 52 52\" xmlns=\"http://www.w3.org/2000/svg\"><g fill=\"none\" fill-rule=\"evenodd\"><circle fill=\"#FFF\" cx=\"26\" cy=\"26\" r=\"26\"></circle><path class=\"playhead-triangle\" d=\"M36.185 24.937c.962.537.96 1.41 0 1.945l-16.13 9.015c-.962.537-1.74.086-1.74-1.03V16.95c0-1.106.78-1.567 1.74-1.03l16.13 9.015z\" fill=\"#bf1313\"></path></g></svg><span class=\"duration-text\">01:00</span></span>"
+      },
+      {
+        "href": "https://es.ign.com/harry-potter/173368/news/harry-potter-tendra-una-serie-de-television-aunque-no-es-lo-que-esperas",
+        "inner_text": "",
+        "inner_html": "<img src=\"https://sm.ign.com/t/ign_es/news/h/harry-pott/harry-potter-getting-a-tv-series-but-its-a-quiz-show_qb3e.280.jpg\" alt=\"Harry Potter tendrá una serie de televisión, aunque no es lo que esperas (Noticias Harry Potter)\" class=\"thumb\" srcset=\"https://sm.ign.com/t/ign_es/news/h/harry-pott/harry-potter-getting-a-tv-series-but-its-a-quiz-show_qb3e.280.jpg, https://sm.ign.com/t/ign_es/news/h/harry-pott/harry-potter-getting-a-tv-series-but-its-a-quiz-show_qb3e.600.jpg 2x\">"
+      },
+      {
+        "href": "https://es.ign.com/the-last-of-us-parte-2/173366/news/the-last-of-us-parte-2-recibe-una-actualizacion-de-rendimiento-exclusiva-para-ps5",
+        "inner_text": "",
+        "inner_html": "<img src=\"https://sm.ign.com/t/ign_es/news/t/the-last-o/the-last-of-us-part-2-is-getting-a-ps5-exclusive-performance_1rqn.280.jpg\" alt=\"The Last of Us Parte 2 recibe una actualización de rendimiento exclusiva para PS5 (Noticias The Last of Us - Parte 2)\" class=\"thumb\" srcset=\"https://sm.ign.com/t/ign_es/news/t/the-last-o/the-last-of-us-part-2-is-getting-a-ps5-exclusive-performance_1rqn.280.jpg, https://sm.ign.com/t/ign_es/news/t/the-last-o/the-last-of-us-part-2-is-getting-a-ps5-exclusive-performance_1rqn.600.jpg 2x\">"
+      },
+      {
+        "href": "https://es.ign.com/superman-1/173365/news/una-nueva-serie-animada-de-superman-estara-protagonizada-por-jack-quaid-de-the-boys-como-clark-kent",
+        "inner_text": "",
+        "inner_html": "<img src=\"https://sm.ign.com/t/ign_es/news/n/new-animat/new-animated-superman-series-stars-the-boys-jack-quaid-as-cl_3mt7.280.jpg\" alt=\"Una nueva serie animada de Superman estará protagonizada por Jack Quaid, de The Boys, como Clark Kent (Noticias Superman)\" class=\"thumb\" srcset=\"https://sm.ign.com/t/ign_es/news/n/new-animat/new-animated-superman-series-stars-the-boys-jack-quaid-as-cl_3mt7.280.jpg, https://sm.ign.com/t/ign_es/news/n/new-animat/new-animated-superman-series-stars-the-boys-jack-quaid-as-cl_3mt7.600.jpg 2x\">"
+      },
+      {
+        "href": "https://es.ign.com/summer-game-fest/173364/news/el-summer-game-fest-de-geoff-keighley-y-su-gran-estreno-ya-tienen-fecha",
+        "inner_text": "",
+        "inner_html": "<img src=\"https://sm.ign.com/t/ign_es/news/g/geoff-keig/geoff-keighleys-summer-game-fest-begins-june-10-with-world-p_wdfu.280.jpg\" alt=\"El Summer Game Fest de Geoff Keighley y su gran estreno ya tienen fecha (Noticias Summer Game Fest)\" class=\"thumb\" srcset=\"https://sm.ign.com/t/ign_es/news/g/geoff-keig/geoff-keighleys-summer-game-fest-begins-june-10-with-world-p_wdfu.280.jpg, https://sm.ign.com/t/ign_es/news/g/geoff-keig/geoff-keighleys-summer-game-fest-begins-june-10-with-world-p_wdfu.600.jpg 2x\">"
+      },
+      {
+        "href": "https://es.ign.com/star-wars-obi-wan-kenobi/172132/news/todos-los-actores-actrices-y-personajes-confirmados-de-obi-wan-kenobi-la-serie-de-disney",
+        "inner_text": "",
+        "inner_html": "<img src=\"https://sm.ign.com/t/ign_es/slotter/3/36858/36858_amnh.320.jpg\" alt=\"Todos los actores, actrices y personajes confirmados de Obi-Wan Kenobi, la serie de Disney+\" class=\"thumb\" srcset=\"https://sm.ign.com/t/ign_es/slotter/3/36858/36858_amnh.320.jpg, https://sm.ign.com/t/ign_es/slotter/3/36858/36858_amnh.640.jpg 2x\">"
+      },
+      {
+        "href": "https://es.ign.com/liga-de-la-justicia/172389/news/liga-de-la-justicia-ray-fisher-afirma-que-se-produjo-gaslighting-durante-los-reshoots-de-joss-whedon",
+        "inner_text": "",
+        "inner_html": "<img src=\"https://sm.ign.com/t/ign_es/screenshot/default/ray_kk58.320.jpg\" alt=\"Liga de la Justicia: Ray Fisher afirma que se produjo 'gaslighting' durante los reshoots de Joss Whedon\" class=\"thumb\" srcset=\"https://sm.ign.com/t/ign_es/screenshot/default/ray_kk58.320.jpg, https://sm.ign.com/t/ign_es/screenshot/default/ray_kk58.640.jpg 2x\">"
+      },
+      {
+        "href": "https://es.ign.com/la-liga-de-la-justicia-zack-snyder/172175/news/la-liga-de-la-justicia-zack-snyder-comparte-la-escena-final-eliminada-en-la-que-el-joker-dice-vivimo",
+        "inner_text": "",
+        "inner_html": "<img src=\"https://sm.ign.com/t/ign_es/news/z/zack-snyde/zack-snyders-justice-league-deleted-scene-finally-lets-joker_qdks.320.jpg\" alt=\"La Liga de la Justicia: Zack Snyder comparte la escena final eliminada en la que el Joker dice &quot;vivimos en una sociedad&quot;\" class=\"thumb\" srcset=\"https://sm.ign.com/t/ign_es/news/z/zack-snyde/zack-snyders-justice-league-deleted-scene-finally-lets-joker_qdks.320.jpg, https://sm.ign.com/t/ign_es/news/z/zack-snyde/zack-snyders-justice-league-deleted-scene-finally-lets-joker_qdks.640.jpg 2x\">"
+      },
+      {
+        "href": "https://es.ign.com/la-liga-de-la-justicia-zack-snyder/172074/news/la-liga-de-la-justicia-zack-snyder-aclara-un-importante-agujero-en-la-trama-de-darkseid",
+        "inner_text": "",
+        "inner_html": "<img src=\"https://sm.ign.com/t/ign_es/screenshot/default/seids_q1ns.320.png\" alt=\"La Liga de la Justicia: Zack Snyder aclara un importante agujero en la trama de Darkseid\" class=\"thumb\" srcset=\"https://sm.ign.com/t/ign_es/screenshot/default/seids_q1ns.320.png, https://sm.ign.com/t/ign_es/screenshot/default/seids_q1ns.640.png 2x\">"
+      },
+      {
+        "href": "https://es.ign.com/nintendo-switch-online/173359/news/joe-mac-caveman-ninja-magical-drop-2-y-mas-llegan-a-nintendo-switch-online",
+        "inner_text": "",
+        "inner_html": "<img src=\"https://sm.ign.com/t/ign_es/screenshot/default/caveman_thcu.280.jpg\" alt=\"Joe &amp; Mac: Caveman Ninja, Magical Drop 2 y más llegan a Nintendo Switch Online (Noticias Nintendo Switch Online)\" class=\"thumb\" srcset=\"https://sm.ign.com/t/ign_es/screenshot/default/caveman_thcu.280.jpg, https://sm.ign.com/t/ign_es/screenshot/default/caveman_thcu.600.jpg 2x\">"
+      },
+      {
+        "href": "https://es.ign.com/netflix/173358/news/la-trilogia-de-la-calle-del-terror-ya-tiene-fecha-de-estreno-en-netflix-con-un-formato-inedito-hasta",
+        "inner_text": "",
+        "inner_html": "<img src=\"https://sm.ign.com/t/ign_es/screenshot/default/la-calle-del-terror-netflix_bv8a.280.jpg\" alt=\"La trilogía de La Calle del Terror ya tiene fecha de estreno en Netflix con un formato inédito hasta la fecha (Noticias Netflix)\" class=\"thumb\" srcset=\"https://sm.ign.com/t/ign_es/screenshot/default/la-calle-del-terror-netflix_bv8a.280.jpg, https://sm.ign.com/t/ign_es/screenshot/default/la-calle-del-terror-netflix_bv8a.600.jpg 2x\">"
+      },
+      {
+        "href": "https://es.ign.com/street-fighter-5/173355/news/anunciado-un-glosario-de-los-juegos-de-lucha-que-recopila-la-principal-terminologia-del-genero",
+        "inner_text": "",
+        "inner_html": "<img src=\"https://sm.ign.com/t/ign_es/news/t/the-fighti/the-fighting-game-glossary-is-an-incredible-resource-for-new_942a.280.jpg\" alt=\"Anunciado un glosario de los juegos de lucha que recopila la principal terminología del género (Noticias Street Fighter V)\" class=\"thumb\" srcset=\"https://sm.ign.com/t/ign_es/news/t/the-fighti/the-fighting-game-glossary-is-an-incredible-resource-for-new_942a.280.jpg, https://sm.ign.com/t/ign_es/news/t/the-fighti/the-fighting-game-glossary-is-an-incredible-resource-for-new_942a.600.jpg 2x\">"
+      },
+      {
+        "href": "https://es.ign.com/the-legend-of-zelda-skyward-sword-hd/173354/news/the-legend-of-zelda-skyward-sword-hd-recibira-un-amiibo-muy-especial",
+        "inner_text": "",
+        "inner_html": "<img src=\"https://sm.ign.com/t/ign_es/news/t/the-legend/the-legend-of-zelda-skyward-sword-hd-is-getting-an-amiibo-th_bk18.280.jpg\" alt=\"The Legend of Zelda: Skyward Sword HD recibirá un amiibo muy especial (Noticias The Legend of Zelda: Skyward Sword HD)\" class=\"thumb\" srcset=\"https://sm.ign.com/t/ign_es/news/t/the-legend/the-legend-of-zelda-skyward-sword-hd-is-getting-an-amiibo-th_bk18.280.jpg, https://sm.ign.com/t/ign_es/news/t/the-legend/the-legend-of-zelda-skyward-sword-hd-is-getting-an-amiibo-th_bk18.600.jpg 2x\">"
+      },
+      {
+        "href": "https://es.ign.com/ghost-recon-breakpoint/173353/news/nueva-informacion-y-fecha-de-la-actualizacion-de-ghost-recon-breakpoint-centrada-en-los-companeros-d",
+        "inner_text": "",
+        "inner_html": "<img src=\"https://sm.ign.com/t/ign_es/screenshot/default/ghost-recon-breakpoint-actualizacion_a84q.280.jpg\" alt=\"Nueva información y fecha de la actualización de Ghost Recon Breakpoint centrada en los compañeros de equipo (Noticias Tom Clancy's Ghost Recon Breakpoint)\" class=\"thumb\" srcset=\"https://sm.ign.com/t/ign_es/screenshot/default/ghost-recon-breakpoint-actualizacion_a84q.280.jpg, https://sm.ign.com/t/ign_es/screenshot/default/ghost-recon-breakpoint-actualizacion_a84q.600.jpg 2x\">"
+      },
+      {
+        "href": "https://es.ign.com/grand-theft-auto-v/173352/news/un-jugador-completa-gta-v-en-nueve-horas-sin-recibir-un-solo-golpe",
+        "inner_text": "",
+        "inner_html": "<img src=\"https://sm.ign.com/t/ign_es/screenshot/default/gta-v-sin-recibir-dano_hcsx.280.jpg\" alt=\"Un jugador completa GTA V en nueve horas sin recibir un solo golpe (Noticias Grand Theft Auto V)\" class=\"thumb\" srcset=\"https://sm.ign.com/t/ign_es/screenshot/default/gta-v-sin-recibir-dano_hcsx.280.jpg, https://sm.ign.com/t/ign_es/screenshot/default/gta-v-sin-recibir-dano_hcsx.600.jpg 2x\">"
+      },
+      {
+        "href": "https://es.ign.com/a-todo-gas-fast-furious-saga/173351/news/aparecen-las-primeras-criticas-de-fast-furious-9-que-opinan-hasta-el-momento",
+        "inner_text": "",
+        "inner_html": "<img src=\"https://sm.ign.com/t/ign_es/screenshot/default/fast-and-furious-9_ph4d.280.jpg\" alt=\"Aparecen las primeras críticas de Fast &amp; Furious 9: ¿Qué opinan hasta el momento? (Noticias A todo gas / Fast &amp; Furious (Saga))\" class=\"thumb\" srcset=\"https://sm.ign.com/t/ign_es/screenshot/default/fast-and-furious-9_ph4d.280.jpg, https://sm.ign.com/t/ign_es/screenshot/default/fast-and-furious-9_ph4d.600.jpg 2x\">"
+      },
+      {
+        "href": "https://es.ign.com/marvels-voices-pride/173343/news/marvel-presenta-un-nuevo-heroe-lgbt-un-poderoso-mutante-con-vinculos-con-los-x-men",
+        "inner_text": "",
+        "inner_html": "<img src=\"https://sm.ign.com/t/ign_es/news/m/marvel-rev/marvel-reveals-somnus-new-lgbtq-mutant-hero_nsvt.280.jpg\" alt=\"Marvel presenta un nuevo héroe LGBT+: Un poderoso mutante con vínculos con los X-Men (Noticias Marvel's Voices: Pride)\" class=\"thumb\" srcset=\"https://sm.ign.com/t/ign_es/news/m/marvel-rev/marvel-reveals-somnus-new-lgbtq-mutant-hero_nsvt.280.jpg, https://sm.ign.com/t/ign_es/news/m/marvel-rev/marvel-reveals-somnus-new-lgbtq-mutant-hero_nsvt.600.jpg 2x\">"
+      },
+      {
+        "href": "https://es.ign.com/black-panther-2018/173342/news/marvel-comics-trabaja-en-una-serie-de-black-panther-con-el-guionista-de-12-anos-de-esclavitud",
+        "inner_text": "",
+        "inner_html": "<img src=\"https://sm.ign.com/t/ign_es/news/m/marvel-com/marvel-comics-relaunches-black-panther-with-12-years-a-slave_9gub.280.jpg\" alt=\"Marvel Comics trabaja en una serie de Black Panther con el guionista de 12 años de esclavitud (Noticias Black Panther [2018])\" class=\"thumb\" srcset=\"https://sm.ign.com/t/ign_es/news/m/marvel-com/marvel-comics-relaunches-black-panther-with-12-years-a-slave_9gub.280.jpg, https://sm.ign.com/t/ign_es/news/m/marvel-com/marvel-comics-relaunches-black-panther-with-12-years-a-slave_9gub.600.jpg 2x\">"
+      },
+      {
+        "href": "https://es.ign.com/google/173341/news/todos-los-anuncios-del-evento-google-io-2021",
+        "inner_text": "",
+        "inner_html": "<img src=\"https://sm.ign.com/t/ign_es/news/e/everything/everything-announced-at-google-io-2021_eetk.280.jpg\" alt=\"Todos los anuncios del evento Google I/O 2021: Grandes cambios para Android y Google Fotos (Noticias Google)\" class=\"thumb\" srcset=\"https://sm.ign.com/t/ign_es/news/e/everything/everything-announced-at-google-io-2021_eetk.280.jpg, https://sm.ign.com/t/ign_es/news/e/everything/everything-announced-at-google-io-2021_eetk.600.jpg 2x\">"
+      },
+      {
+        "href": "https://es.ign.com/grand-theft-auto-vi-rumored-title/173340/news/los-planes-de-take-two-no-dejan-mucho-espacio-para-gta-6-a-corto-plazo",
+        "inner_text": "",
+        "inner_html": "<img src=\"https://sm.ign.com/t/ign_es/news/g/gta-6-unli/gta-6-unlikely-this-year-as-take-two-plans-21-games-for-rele_hucs.280.jpg\" alt=\"Los planes de Take Two no dejan mucho espacio para GTA 6 a corto plazo (Noticias Grand Theft Auto VI [rumored title])\" class=\"thumb\" srcset=\"https://sm.ign.com/t/ign_es/news/g/gta-6-unli/gta-6-unlikely-this-year-as-take-two-plans-21-games-for-rele_hucs.280.jpg, https://sm.ign.com/t/ign_es/news/g/gta-6-unli/gta-6-unlikely-this-year-as-take-two-plans-21-games-for-rele_hucs.600.jpg 2x\">"
+      },
+      {
+        "href": "https://es.ign.com/resident-evil-oscuridad-infinita/173350/trailer/trailer-oficial-de-resident-evil-oscuridad-infinita",
+        "inner_text": "02:23",
+        "inner_html": "<img src=\"https://sm.ign.com/t/ign_es/screenshot/default/resident-evil-oscuridad-infinita-trailer_6dp7.280.jpg\" alt=\"Tráiler oficial de Resident Evil: Oscuridad infinita (Trailer Resident Evil: Oscuridad Infinita)\" class=\"thumb\" srcset=\"https://sm.ign.com/t/ign_es/screenshot/default/resident-evil-oscuridad-infinita-trailer_6dp7.280.jpg, https://sm.ign.com/t/ign_es/screenshot/default/resident-evil-oscuridad-infinita-trailer_6dp7.600.jpg 2x\">\n      \n      <span class=\"duration\"><svg class=\"icon icon-playhead\" width=\"52\" height=\"52\" viewBox=\"0 0 52 52\" xmlns=\"http://www.w3.org/2000/svg\"><g fill=\"none\" fill-rule=\"evenodd\"><circle fill=\"#FFF\" cx=\"26\" cy=\"26\" r=\"26\"></circle><path class=\"playhead-triangle\" d=\"M36.185 24.937c.962.537.96 1.41 0 1.945l-16.13 9.015c-.962.537-1.74.086-1.74-1.03V16.95c0-1.106.78-1.567 1.74-1.03l16.13 9.015z\" fill=\"#bf1313\"></path></g></svg><span class=\"duration-text\">02:23</span></span>"
+      },
+      {
+        "href": "https://es.ign.com/call-of-duty-warzone/173339/news/rambo-y-john-mcclane-llegan-a-call-of-duty-warzone",
+        "inner_text": "",
+        "inner_html": "<img src=\"https://sm.ign.com/t/ign_es/news/c/call-of-du/call-of-duty-warzone-rambo-and-john-mcclane-release-date-ann_6d67.280.jpg\" alt=\"Rambo y John McClane llegan a Call of Duty Warzone (Noticias Call of Duty: Warzone)\" class=\"thumb\" srcset=\"https://sm.ign.com/t/ign_es/news/c/call-of-du/call-of-duty-warzone-rambo-and-john-mcclane-release-date-ann_6d67.280.jpg, https://sm.ign.com/t/ign_es/news/c/call-of-du/call-of-duty-warzone-rambo-and-john-mcclane-release-date-ann_6d67.600.jpg 2x\">"
+      },
+      {
+        "href": "https://es.ign.com/call-of-duty-warzone/173348/trailer/call-of-duty-warzone-trailer-de-la-temporada-3-heroes-de-accion-de-los-80",
+        "inner_text": "01:00",
+        "inner_html": "<img src=\"https://sm.ign.com/t/ign_es/screenshot/default/warzone-heroes-accion-80_69d3.280.jpg\" alt=\"Call of Duty Warzone, Tráiler de la Temporada 3: Héroes de acción de los 80 (Trailer Call of Duty: Warzone)\" class=\"thumb\" srcset=\"https://sm.ign.com/t/ign_es/screenshot/default/warzone-heroes-accion-80_69d3.280.jpg, https://sm.ign.com/t/ign_es/screenshot/default/warzone-heroes-accion-80_69d3.600.jpg 2x\">\n      \n      <span class=\"duration\"><svg class=\"icon icon-playhead\" width=\"52\" height=\"52\" viewBox=\"0 0 52 52\" xmlns=\"http://www.w3.org/2000/svg\"><g fill=\"none\" fill-rule=\"evenodd\"><circle fill=\"#FFF\" cx=\"26\" cy=\"26\" r=\"26\"></circle><path class=\"playhead-triangle\" d=\"M36.185 24.937c.962.537.96 1.41 0 1.945l-16.13 9.015c-.962.537-1.74.086-1.74-1.03V16.95c0-1.106.78-1.567 1.74-1.03l16.13 9.015z\" fill=\"#bf1313\"></path></g></svg><span class=\"duration-text\">01:00</span></span>"
+      },
+      {
+        "href": "https://es.ign.com/no-mans-sky/173338/news/no-mans-sky-estara-entre-los-primeros-juegos-de-realidad-virtual-compatibles-con-nvidia-dlss",
+        "inner_text": "",
+        "inner_html": "<img src=\"https://sm.ign.com/t/ign_es/news/n/no-mans-sk/no-mans-sky-among-the-first-vr-games-to-support-nvidia-dlss_zpgr.280.jpg\" alt=\"No Man's Sky estará entre los primeros juegos de realidad virtual compatibles con Nvidia DLSS (Noticias No Man's Sky)\" class=\"thumb\" srcset=\"https://sm.ign.com/t/ign_es/news/n/no-mans-sk/no-mans-sky-among-the-first-vr-games-to-support-nvidia-dlss_zpgr.280.jpg, https://sm.ign.com/t/ign_es/news/n/no-mans-sk/no-mans-sky-among-the-first-vr-games-to-support-nvidia-dlss_zpgr.600.jpg 2x\">"
+      },
+      {
+        "href": "https://es.ign.com/hollow-knight-silksong/173337/news/no-habra-noticias-de-hollow-knight-silksong-en-el-e3-2021",
+        "inner_text": "",
+        "inner_html": "<img src=\"https://sm.ign.com/t/ign_es/shot/b/bhollow-kn/bhollow-knight-silksongbbrnintendo-came-out-with-a-truckload_d1su.280.jpg\" alt=\"No habrá noticias de Hollow Knight: Silksong en el E3 2021 (Noticias Hollow Knight: Silksong)\" class=\"thumb\" srcset=\"https://sm.ign.com/t/ign_es/shot/b/bhollow-kn/bhollow-knight-silksongbbrnintendo-came-out-with-a-truckload_d1su.280.jpg, https://sm.ign.com/t/ign_es/shot/b/bhollow-kn/bhollow-knight-silksongbbrnintendo-came-out-with-a-truckload_d1su.600.jpg 2x\">"
+      },
+      {
+        "href": "https://es.ign.com/saints-row-the-third-remastered/173334/news/saints-row-the-third-remastered-llegara-a-ps5-xbox-series-x-y-pc",
+        "inner_text": "",
+        "inner_html": "<img src=\"https://sm.ign.com/t/ign_es/screenshot/default/rows_f6zs.280.png\" alt=\"Saints Row: The Third Remastered llegará a PS5, Xbox Series X y PC (Noticias Saints Row The Third: Remastered)\" class=\"thumb\" srcset=\"https://sm.ign.com/t/ign_es/screenshot/default/rows_f6zs.280.png, https://sm.ign.com/t/ign_es/screenshot/default/rows_f6zs.600.png 2x\">"
+      },
+      {
+        "href": "https://es.ign.com/final-fantasy-vii-remake-intergrade/173332/news/final-fantasy-7-remake-intergrade-nuevas-imagenes-muestran-el-minijuego-de-fuerte-condor-a-ramuh-a-n",
+        "inner_text": "",
+        "inner_html": "<img src=\"https://sm.ign.com/t/ign_es/news/f/final-fant/final-fantasy-7-remake-intergrade-new-images-showcase-ramuh_97nk.280.jpg\" alt=\"Final Fantasy 7 Remake Intergrade: nuevas imágenes muestran el minijuego de Fuerte Cóndor, a Ramuh, a Nero y más (Noticias Final Fantasy VII Remake Intergrade)\" class=\"thumb\" srcset=\"https://sm.ign.com/t/ign_es/news/f/final-fant/final-fantasy-7-remake-intergrade-new-images-showcase-ramuh_97nk.280.jpg, https://sm.ign.com/t/ign_es/news/f/final-fant/final-fantasy-7-remake-intergrade-new-images-showcase-ramuh_97nk.600.jpg 2x\">"
+      },
+      {
+        "href": "https://es.ign.com/the-ascent/173331/news/the-ascent-exclusivo-de-xbox-y-pc-que-llegara-a-game-pass-ya-tiene-fecha-de-lanzamiento",
+        "inner_text": "",
+        "inner_html": "<img src=\"https://sm.ign.com/t/ign_es/news/x/xbox-and-p/xbox-and-pc-exclusive-the-ascent-gets-release-date-coming-to_fd4v.280.jpg\" alt=\"The Ascent, exclusivo de Xbox y PC que llegará a Game Pass, ya tiene fecha de lanzamiento (Noticias The Ascent)\" class=\"thumb\" srcset=\"https://sm.ign.com/t/ign_es/news/x/xbox-and-p/xbox-and-pc-exclusive-the-ascent-gets-release-date-coming-to_fd4v.280.jpg, https://sm.ign.com/t/ign_es/news/x/xbox-and-p/xbox-and-pc-exclusive-the-ascent-gets-release-date-coming-to_fd4v.600.jpg 2x\">"
+      },
+      {
+        "href": "https://es.ign.com/gods-will-be-watching/173330/news/ya-disponible-essays-on-empathy-de-deconstructeam-10-juegos-10-historias-que-contarnos",
+        "inner_text": "",
+        "inner_html": "<img src=\"https://sm.ign.com/t/ign_es/screenshot/default/essays-on-empathy_1zr7.280.jpg\" alt=\"Ya disponible Essays on Empathy de Deconstructeam: 10 juegos, 10 historias que contarnos (Noticias Gods Will Be Watching)\" class=\"thumb\" srcset=\"https://sm.ign.com/t/ign_es/screenshot/default/essays-on-empathy_1zr7.280.jpg, https://sm.ign.com/t/ign_es/screenshot/default/essays-on-empathy_1zr7.600.jpg 2x\">"
+      },
+      {
+        "href": "https://es.ign.com/elite-dangerous-odyssey/173329/trailer/trailer-de-elite-dangerous-odyssey-con-fecha-de-lanzamiento",
+        "inner_text": "01:59",
+        "inner_html": "<img src=\"https://sm.ign.com/t/ign_es/screenshot/default/elite-dangerous-odyssey-lanzamiento_csap.280.jpg\" alt=\"Tráiler de Elite Dangerous: Odyssey con fecha de lanzamiento (Trailer Elite Dangerous: Odyssey)\" class=\"thumb\" srcset=\"https://sm.ign.com/t/ign_es/screenshot/default/elite-dangerous-odyssey-lanzamiento_csap.280.jpg, https://sm.ign.com/t/ign_es/screenshot/default/elite-dangerous-odyssey-lanzamiento_csap.600.jpg 2x\">\n      \n      <span class=\"duration\"><svg class=\"icon icon-playhead\" width=\"52\" height=\"52\" viewBox=\"0 0 52 52\" xmlns=\"http://www.w3.org/2000/svg\"><g fill=\"none\" fill-rule=\"evenodd\"><circle fill=\"#FFF\" cx=\"26\" cy=\"26\" r=\"26\"></circle><path class=\"playhead-triangle\" d=\"M36.185 24.937c.962.537.96 1.41 0 1.945l-16.13 9.015c-.962.537-1.74.086-1.74-1.03V16.95c0-1.106.78-1.567 1.74-1.03l16.13 9.015z\" fill=\"#bf1313\"></path></g></svg><span class=\"duration-text\">01:59</span></span>"
+      },
+      {
+        "href": "https://es.ign.com/grand-theft-auto-v/173327/news/gta-5-y-gta-online-la-actualizacion-de-ps5-y-xbox-series-x-s-ya-tiene-fecha-de-lanzamiento",
+        "inner_text": "",
+        "inner_html": "<img src=\"https://sm.ign.com/t/ign_es/news/g/gta-5-and-/gta-5-and-gta-online-ps5-and-xbox-series-xs-upgrades-coming_wqmr.280.jpg\" alt=\"GTA 5 y GTA Online: la actualización de PS5 y Xbox Series X / S ya tiene fecha de lanzamiento (Noticias Grand Theft Auto V)\" class=\"thumb\" srcset=\"https://sm.ign.com/t/ign_es/news/g/gta-5-and-/gta-5-and-gta-online-ps5-and-xbox-series-xs-upgrades-coming_wqmr.280.jpg, https://sm.ign.com/t/ign_es/news/g/gta-5-and-/gta-5-and-gta-online-ps5-and-xbox-series-xs-upgrades-coming_wqmr.600.jpg 2x\">"
+      },
+      {
+        "href": "https://es.ign.com/xbox-game-pass/173326/news/snowrunner-conan-exiles-maneater-y-mas-llegan-a-xbox-game-pass",
+        "inner_text": "",
+        "inner_html": "<img src=\"https://sm.ign.com/t/ign_es/preview/m/maneater-h/maneater-hands-on-with-the-first-hour-of-gameplay_51bc.280.jpg\" alt=\"SnowRunner, Conan Exiles, Maneater y más llegan a Xbox Game Pass (Noticias Xbox Game Pass)\" class=\"thumb\" srcset=\"https://sm.ign.com/t/ign_es/preview/m/maneater-h/maneater-hands-on-with-the-first-hour-of-gameplay_51bc.280.jpg, https://sm.ign.com/t/ign_es/preview/m/maneater-h/maneater-hands-on-with-the-first-hour-of-gameplay_51bc.600.jpg 2x\">"
+      },
+      {
+        "href": "https://es.ign.com/guilty-gear-2020/173324/news/una-actriz-de-guilty-gear-strive-renuncia-a-su-trabajo-para-apoyar-a-las-actrices-de-voz-negras",
+        "inner_text": "",
+        "inner_html": "<img src=\"https://sm.ign.com/t/ign_es/news/g/guilty-gea/guilty-gear-actress-stepped-down-to-support-black-voice-actr_z6pv.280.jpg\" alt=\"Una actriz de Guilty Gear Strive renuncia a su trabajo para apoyar a las actrices de voz negras (Noticias Guilty Gear Strive)\" class=\"thumb\" srcset=\"https://sm.ign.com/t/ign_es/news/g/guilty-gea/guilty-gear-actress-stepped-down-to-support-black-voice-actr_z6pv.280.jpg, https://sm.ign.com/t/ign_es/news/g/guilty-gea/guilty-gear-actress-stepped-down-to-support-black-voice-actr_z6pv.600.jpg 2x\">"
+      },
+      {
+        "href": "https://es.ign.com/mass-effect-legendary-edition/173322/news/la-nueva-actualizacion-de-mass-effect-legendary-edition-incluye-aun-mas-mejoras-visuales",
+        "inner_text": "",
+        "inner_html": "<img src=\"https://sm.ign.com/t/ign_es/news/m/mass-effec/mass-effect-legendary-edition-update-includes-even-more-visu_xmm2.280.jpg\" alt=\"La nueva actualización de Mass Effect Legendary Edition incluye aún más mejoras visuales (Noticias Mass Effect: Legendary Edition)\" class=\"thumb\" srcset=\"https://sm.ign.com/t/ign_es/news/m/mass-effec/mass-effect-legendary-edition-update-includes-even-more-visu_xmm2.280.jpg, https://sm.ign.com/t/ign_es/news/m/mass-effec/mass-effect-legendary-edition-update-includes-even-more-visu_xmm2.600.jpg 2x\">"
+      },
+      {
+        "href": "https://es.ign.com/fifa-21/173321/news/fifa-21-rinde-homenaje-a-una-joven-promesa-asesinada-en-2006",
+        "inner_text": "",
+        "inner_html": "<img src=\"https://sm.ign.com/t/ign_es/screenshot/default/kiyan-prince_wfkx.280.jpg\" alt=\"FIFA 21 rinde homenaje a una joven promesa asesinada en 2006 (Noticias FIFA 21)\" class=\"thumb\" srcset=\"https://sm.ign.com/t/ign_es/screenshot/default/kiyan-prince_wfkx.280.jpg, https://sm.ign.com/t/ign_es/screenshot/default/kiyan-prince_wfkx.600.jpg 2x\">"
+      },
+      {
+        "href": "https://es.ign.com/steam/173319/news/la-pagina-de-playstation-en-steam-sugiere-que-llegaran-mas-exclusivos-de-sony-a-pc",
+        "inner_text": "",
+        "inner_html": "<img src=\"https://sm.ign.com/t/ign_es/screenshot/default/playstation-pc-steam_qe1u.280.jpg\" alt=\"La página de PlayStation en Steam sugiere que llegarán más exclusivos de Sony a PC (Noticias Steam)\" class=\"thumb\" srcset=\"https://sm.ign.com/t/ign_es/screenshot/default/playstation-pc-steam_qe1u.280.jpg, https://sm.ign.com/t/ign_es/screenshot/default/playstation-pc-steam_qe1u.600.jpg 2x\">"
+      },
+      {
+        "href": "https://es.ign.com/snowrunner/173320/trailer/trailer-de-lanzamiento-de-snowrunner-en-nintendo-switch",
+        "inner_text": "01:13",
+        "inner_html": "<img src=\"https://sm.ign.com/t/ign_es/screenshot/default/snowrunner-switchannouncement-logo-01_x1we.280.jpg\" alt=\"Tráiler de lanzamiento de SnowRunner en Nintendo Switch (Trailer SnowRunner)\" class=\"thumb\" srcset=\"https://sm.ign.com/t/ign_es/screenshot/default/snowrunner-switchannouncement-logo-01_x1we.280.jpg, https://sm.ign.com/t/ign_es/screenshot/default/snowrunner-switchannouncement-logo-01_x1we.600.jpg 2x\">\n      \n      <span class=\"duration\"><svg class=\"icon icon-playhead\" width=\"52\" height=\"52\" viewBox=\"0 0 52 52\" xmlns=\"http://www.w3.org/2000/svg\"><g fill=\"none\" fill-rule=\"evenodd\"><circle fill=\"#FFF\" cx=\"26\" cy=\"26\" r=\"26\"></circle><path class=\"playhead-triangle\" d=\"M36.185 24.937c.962.537.96 1.41 0 1.945l-16.13 9.015c-.962.537-1.74.086-1.74-1.03V16.95c0-1.106.78-1.567 1.74-1.03l16.13 9.015z\" fill=\"#bf1313\"></path></g></svg><span class=\"duration-text\">01:13</span></span>"
+      },
+      {
+        "href": "https://es.ign.com/playstation-1/173316/news/estas-son-las-nuevas-recompensas-gratuitas-de-play-at-home-incluyendo-juegos-como-warzone-rocket-lea",
+        "inner_text": "",
+        "inner_html": "<img src=\"https://sm.ign.com/t/ign_es/screenshot/default/play-at-home-contenido-in-game_tvjv.280.jpg\" alt=\"Estas son las nuevas recompensas gratuitas de Play at Home, incluyendo juegos como Warzone, Rocket League y más (Noticias PlayStation)\" class=\"thumb\" srcset=\"https://sm.ign.com/t/ign_es/screenshot/default/play-at-home-contenido-in-game_tvjv.280.jpg, https://sm.ign.com/t/ign_es/screenshot/default/play-at-home-contenido-in-game_tvjv.600.jpg 2x\">"
+      },
+      {
+        "href": "https://es.ign.com/studio-ghibli/173318/trailer/trailer-de-el-viaje-de-chihiro-en-espanol-por-su-20-aniversario",
+        "inner_text": "01:26",
+        "inner_html": "<img src=\"https://sm.ign.com/t/ign_es/screenshot/default/el-viaje-de-chihiro-trailer-espanol_8yur.280.jpg\" alt=\"Tráiler de El Viaje de Chihiro en español por su 20 aniversario (Trailer Studio Ghibli)\" class=\"thumb\" srcset=\"https://sm.ign.com/t/ign_es/screenshot/default/el-viaje-de-chihiro-trailer-espanol_8yur.280.jpg, https://sm.ign.com/t/ign_es/screenshot/default/el-viaje-de-chihiro-trailer-espanol_8yur.600.jpg 2x\">\n      \n      <span class=\"duration\"><svg class=\"icon icon-playhead\" width=\"52\" height=\"52\" viewBox=\"0 0 52 52\" xmlns=\"http://www.w3.org/2000/svg\"><g fill=\"none\" fill-rule=\"evenodd\"><circle fill=\"#FFF\" cx=\"26\" cy=\"26\" r=\"26\"></circle><path class=\"playhead-triangle\" d=\"M36.185 24.937c.962.537.96 1.41 0 1.945l-16.13 9.015c-.962.537-1.74.086-1.74-1.03V16.95c0-1.106.78-1.567 1.74-1.03l16.13 9.015z\" fill=\"#bf1313\"></path></g></svg><span class=\"duration-text\">01:26</span></span>"
+      },
+      {
+        "href": "https://es.ign.com/pelicula/173317/news/el-viaje-de-chihiro-regresa-a-los-cines-esta-misma-semana-para-celebrar-su-20-aniversario",
+        "inner_text": "",
+        "inner_html": "<img src=\"https://sm.ign.com/t/ign_es/screenshot/default/el-viaje-de-chihiro-estreno-cines_d2yj.280.jpg\" alt=\"El viaje de Chihiro regresa a los cines esta misma semana para celebrar su 20 aniversario (Noticias Studio Ghibli)\" class=\"thumb\" srcset=\"https://sm.ign.com/t/ign_es/screenshot/default/el-viaje-de-chihiro-estreno-cines_d2yj.280.jpg, https://sm.ign.com/t/ign_es/screenshot/default/el-viaje-de-chihiro-estreno-cines_d2yj.600.jpg 2x\">"
+      },
+      {
+        "href": "https://es.ign.com/mary-elizabeth-winstead/173314/news/primer-vistazo-a-kate-la-nueva-pelicula-de-netflix-al-mas-puro-estilo-john-wick",
+        "inner_text": "",
+        "inner_html": "<img src=\"https://sm.ign.com/t/ign_es/screenshot/default/kate-netflix_zzkw.280.jpg\" alt=\"Primer vistazo a Kate, la nueva película de Netflix al más puro estilo John Wick (Noticias Mary Elizabeth Winstead)\" class=\"thumb\" srcset=\"https://sm.ign.com/t/ign_es/screenshot/default/kate-netflix_zzkw.280.jpg, https://sm.ign.com/t/ign_es/screenshot/default/kate-netflix_zzkw.600.jpg 2x\">"
+      }
+    ],
+    "social": [
+      {
+        "href": "https://www.facebook.com/ignespana",
+        "inner_text": "Facebook",
+        "inner_html": "Facebook"
+      },
+      {
+        "href": "https://twitter.com/ign_es",
+        "inner_text": "Twitter",
+        "inner_html": "Twitter"
+      },
+      {
+        "href": "https://www.instagram.com/ignespana",
+        "inner_text": "Instagram",
+        "inner_html": "Instagram"
+      },
+      {
+        "href": "https://www.youtube.com/channel/UCh-vUXb6yAa0urKEgI1p2WA",
+        "inner_text": "Youtube",
+        "inner_html": "Youtube"
+      }
+    ],
+    "keywords": [
+      {
+        "href": "https://es.ign.com/page/58722/condiciones-legales",
+        "inner_text": "Condiciones Legales",
+        "inner_html": "Condiciones Legales"
+      }
+    ]
+  },
+  "unsafeForms": [],
+  "browsing_history": [
+    "https://es.ign.com/"
+  ],
+  "websockets": {},
+  "cookies": [
+    {
+      "name": "_ga",
+      "value": "GA1.2.1056863017.1621528341",
+      "domain": "ign.com",
+      "path": "/",
+      "expires": 1684600340,
+      "size": 30,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2023-05-20T16:32:20.000Z",
+      "expiresDays": 730,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 495,
+            "lineNumber": 30,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "zc",
+            "source": "    at zc (https://www.google-analytics.com/analytics.js:30:495)"
+          },
+          {
+            "columnNumber": 401,
+            "lineNumber": 59,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "ma",
+            "source": "    at ma (https://www.google-analytics.com/analytics.js:59:401)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T16:32:20.688Z",
+        "location": "https://es.ign.com/"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "UID",
+      "value": "1NDQD0GMTSXC0BII8VDFREg1621528340",
+      "domain": "scorecardresearch.com",
+      "path": "/",
+      "expires": 1683736340.467147,
+      "size": 36,
+      "httpOnly": false,
+      "secure": true,
+      "session": false,
+      "sameSite": "None",
+      "expiresUTC": "2023-05-10T16:32:20.467Z",
+      "expiresDays": 720,
+      "firstPartyStorage": false
+    },
+    {
+      "name": "IDE",
+      "value": "AHWqTUlfd9u_a9AMRp8E7dZRF_ELp1-eLVed6kdq-E1guxcWS7FJx7Bn3dS_J9qGqjg",
+      "domain": "doubleclick.net",
+      "path": "/",
+      "expires": 1655224341.522237,
+      "size": 70,
+      "httpOnly": true,
+      "secure": true,
+      "session": false,
+      "sameSite": "None",
+      "expiresUTC": "2022-06-14T16:32:21.522Z",
+      "expiresDays": 390,
+      "firstPartyStorage": false
+    },
+    {
+      "name": "__gads",
+      "value": "ID=67cad89f533d4f95:T=1621528340:S=ALNI_MaOHt9HGsyHkpzzalXDck4fjHkq2Q",
+      "domain": "ign.com",
+      "path": "/",
+      "expires": 1655224340,
+      "size": 75,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2022-06-14T16:32:20.000Z",
+      "expiresDays": 390,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 99328,
+            "lineNumber": 6,
+            "fileName": "https://securepubads.g.doubleclick.net/gpt/pubads_impl_2021051801.js?31061226",
+            "functionName": "Pb.set",
+            "source": "    at Pb.set (https://securepubads.g.doubleclick.net/gpt/pubads_impl_2021051801.js?31061226:6:99328)"
+          },
+          {
+            "columnNumber": 100191,
+            "lineNumber": 6,
+            "fileName": "https://securepubads.g.doubleclick.net/gpt/pubads_impl_2021051801.js?31061226",
+            "functionName": "xs",
+            "source": "    at xs (https://securepubads.g.doubleclick.net/gpt/pubads_impl_2021051801.js?31061226:6:100191)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T16:32:22.659Z",
+        "location": "https://es.ign.com"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "uid",
+      "value": "870d4694-53a6-447f-adde-9c31ad110724",
+      "domain": "criteo.com",
+      "path": "/",
+      "expires": 1653064343.699943,
+      "size": 39,
+      "httpOnly": false,
+      "secure": true,
+      "session": false,
+      "sameSite": "None",
+      "expiresUTC": "2022-05-20T16:32:23.699Z",
+      "expiresDays": 365,
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://gum.criteo.com/syncframe?topUrl=es.ign.com",
+            "source": "set in Set-Cookie HTTP response header for https://gum.criteo.com/syncframe?topUrl=es.ign.com"
+          }
+        ],
+        "type": "Cookie.HTTP",
+        "timestamp": "2021-05-20T16:32:23.702Z",
+        "location": "https://es.ign.com/"
+      },
+      "firstPartyStorage": false
+    },
+    {
+      "name": "audit",
+      "value": "1|0o8zzNO5o4ZU7qkZrery6RPcX3cEtlh2BDCYSA8hGCVbYcN1LjvEsBuJgc/Lc2GRJhsHlJbldDfZgSZU0QeQU6Zr5ZVxLWDe",
+      "domain": "rubiconproject.com",
+      "path": "/",
+      "expires": 1653064342.243483,
+      "size": 103,
+      "httpOnly": false,
+      "secure": true,
+      "session": false,
+      "sameSite": "None",
+      "expiresUTC": "2022-05-20T16:32:22.243Z",
+      "expiresDays": 365,
+      "firstPartyStorage": false
+    },
+    {
+      "name": "khaos",
+      "value": "KOX43WAK-1S-GNK8",
+      "domain": "rubiconproject.com",
+      "path": "/",
+      "expires": 1653064342.243322,
+      "size": 21,
+      "httpOnly": false,
+      "secure": true,
+      "session": false,
+      "sameSite": "None",
+      "expiresUTC": "2022-05-20T16:32:22.243Z",
+      "expiresDays": 365,
+      "firstPartyStorage": false
+    },
+    {
+      "name": "uuid2",
+      "value": "6488560805384933446",
+      "domain": "adnxs.com",
+      "path": "/",
+      "expires": 1629304342.121945,
+      "size": 24,
+      "httpOnly": true,
+      "secure": true,
+      "session": false,
+      "sameSite": "None",
+      "expiresUTC": "2021-08-18T16:32:22.121Z",
+      "expiresDays": 90,
+      "firstPartyStorage": false
+    },
+    {
+      "name": "icu",
+      "value": "ChgI46pYEAoYASABKAEwlp6ahQY4AUABSAEQlp6ahQYYAA..",
+      "domain": "adnxs.com",
+      "path": "/",
+      "expires": 1629304342.121873,
+      "size": 51,
+      "httpOnly": true,
+      "secure": true,
+      "session": false,
+      "sameSite": "None",
+      "expiresUTC": "2021-08-18T16:32:22.121Z",
+      "expiresDays": 90,
+      "firstPartyStorage": false
+    },
+    {
+      "name": "_gid",
+      "value": "GA1.2.393296470.1621528341",
+      "domain": "ign.com",
+      "path": "/",
+      "expires": 1621614740,
+      "size": 30,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2021-05-21T16:32:20.000Z",
+      "expiresDays": 1,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 495,
+            "lineNumber": 30,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "zc",
+            "source": "    at zc (https://www.google-analytics.com/analytics.js:30:495)"
+          },
+          {
+            "columnNumber": 401,
+            "lineNumber": 59,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "ma",
+            "source": "    at ma (https://www.google-analytics.com/analytics.js:59:401)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T16:32:20.688Z",
+        "location": "https://es.ign.com/"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "vis2",
+      "value": "240434^1",
+      "domain": "rubiconproject.com",
+      "path": "/",
+      "expires": 1621576799.243465,
+      "size": 12,
+      "httpOnly": false,
+      "secure": true,
+      "session": false,
+      "sameSite": "None",
+      "expiresUTC": "2021-05-21T05:59:59.243Z",
+      "expiresDays": 0.56,
+      "firstPartyStorage": false
+    },
+    {
+      "name": "ses2",
+      "value": "",
+      "domain": "rubiconproject.com",
+      "path": "/",
+      "expires": 1621576799.243419,
+      "size": 4,
+      "httpOnly": false,
+      "secure": true,
+      "session": false,
+      "sameSite": "None",
+      "expiresUTC": "2021-05-21T05:59:59.243Z",
+      "expiresDays": 0.56,
+      "firstPartyStorage": false
+    },
+    {
+      "name": "geoCC",
+      "value": "ES",
+      "domain": "ign.com",
+      "path": "/",
+      "expires": 1621542740.098192,
+      "size": 7,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2021-05-20T20:32:20.098Z",
+      "expiresDays": 0.17,
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://es.ign.com/",
+            "source": "set in Set-Cookie HTTP response header for https://es.ign.com/"
+          }
+        ],
+        "type": "Cookie.HTTP",
+        "timestamp": "2021-05-20T16:32:20.102Z",
+        "location": "about:blank"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "_gat_ignus",
+      "value": "1",
+      "domain": "ign.com",
+      "path": "/",
+      "expires": 1621528400,
+      "size": 11,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2021-05-20T16:33:20.000Z",
+      "expiresDays": 0,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 495,
+            "lineNumber": 30,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "zc",
+            "source": "    at zc (https://www.google-analytics.com/analytics.js:30:495)"
+          },
+          {
+            "columnNumber": 31,
+            "lineNumber": 73,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "Qd",
+            "source": "    at Qd (https://www.google-analytics.com/analytics.js:73:31)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T16:32:20.688Z",
+        "location": "https://es.ign.com/"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "rsid",
+      "value": "1|HtC7NkcHr+vRXCfuzNEvJhnvpsxMOKmt0RpqCfqkeGAowZmWUmvmQMHyZrOLiuakSHO3tj2oYW2peULKM3KhK1XE/2wGlVwK8BMqZcvhERw6pmjGE6JBO6mTT8+MdB7/ANSf",
+      "domain": "rubiconproject.com",
+      "path": "/",
+      "expires": -1,
+      "size": 138,
+      "httpOnly": false,
+      "secure": true,
+      "session": true,
+      "sameSite": "None",
+      "firstPartyStorage": false
+    }
+  ],
+  "localStorage": {
+    "https://es.ign.com": {
+      "criteo_fast_bid_expires": {
+        "value": 1621614743556,
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T16:32:23.561Z",
+          "location": "https://es.ign.com/"
+        }
+      },
+      "criteo_fast_bid": {
+        "value": "// Hash: HVHthVFsOftwUe0/y7YJhNR4mRAQI7wTExI8yCbdtljn8dmSdvvdicpcLovhuU08vk/c6JeCRTGDvBkQNPzg7IsCcALyWEOQo0P24frUkkdB+bI+GdljsfmhfKg4MYkmUCOE8PjQ1ywwKXbkeyuTqF90waxF2biPLOzSLhT/WDY=\n!function(){\"use strict\";var n=function(e,t){return(n=Object.setPrototypeOf||{__proto__:[]}instanceof Array&&function(e,t){e.__proto__=t}||function(e,t){for(var i in t)t.hasOwnProperty(i)&&(e[i]=t[i])})(e,t)};function e(e,t){function i(){this.constructor=e}n(e,t),e.prototype=null===t?Object.create(t):(i.prototype=t.prototype,new i)}var _=function(){return(_=Object.assign||function(e){for(var t,i=1,n=arguments.length;i<n;i++)for(var o in t=arguments[i])Object.prototype.hasOwnProperty.call(t,o)&&(e[o]=t[o]);return e}).apply(this,arguments)};var i=(o.prototype.isAdBlocked=function(e){var t=this;this.createPixel(o.allowedPixelUrl,function(){(t.allowedPixelLoaded=!0)===t.blockedPixelFailed&&e(!0)},function(){}),this.createPixel(o.blockedPixelUrl,function(){e(!1)},function(){(t.blockedPixelFailed=!0)===t.allowedPixelLoaded&&e(!0)})},o.prototype.createPixel=function(e,t,i){var n=document.createElement(\"img\");n.src=e,n.height=1,n.width=1,n.style.display=\"none\",n.onload=t,n.onerror=i},o.allowedPixelUrl=\"https://static.criteo.net/images/pixel.gif?ch=1\",o.blockedPixelUrl=\"https://static.criteo.net/images/pixel.gif?ch=2\",o);function o(){this.allowedPixelLoaded=!1,this.blockedPixelFailed=!1}var S=(t.create=function(e){return new t(e)},t.prototype.adBlockFlagEnabled=function(){var e=t.ADBLOCK_FLAG_KEY;return null!==this.localStorageHelper.getItem(e)},t.prototype.enableAdBlockFlag=function(){var e=t.ADBLOCK_FLAG_KEY;this.localStorageHelper.setItem(e,\"1\",t.ADBLOCK_FLAG_LIFETIME)},t.prototype.disableAdBlockFlag=function(){var e=t.ADBLOCK_FLAG_KEY;this.localStorageHelper.removeItem(e)},t.prototype.setAdBlockFlagTimer=function(e){var t=this;this.adBlockFlagEnabled()||!this.timerEnabled||this.timerStarted||(this.timerStarted=!0,setTimeout(function(){t.timerEnabled&&(t.refreshAdblockFlag(),t.timerEnabled=!1)},e))},t.prototype.disableAdBlockFlagTimer=function(){this.timerEnabled=!1,this.adBlockFlagEnabled()&&this.refreshAdblockFlag()},t.prototype.refreshAdblockFlag=function(){var t=this;(new i).isAdBlocked(function(e){e?t.enableAdBlockFlag():t.disableAdBlockFlag()})},t.ADBLOCK_FLAG_KEY=\"criteo_adblock_flag\",t.ADBLOCK_FLAG_LIFETIME=864e5,t);function t(e){this.timerEnabled=!0,this.timerStarted=!1,this.localStorageHelper=e}function r(e){return e.replace(/</g,\"&lt;\").replace(/>/g,\"&gt;\").replace(/\"/g,\"&quot;\")}var s,u,a,R=(e(d,s=function(){}),d.prototype.ResizeFrame=function(e,t){if(this.document.defaultView&&this.document.defaultView.frameElement){var i=this.document.defaultView.frameElement;i.width=e.toString(),i.height=t.toString()}},d.prototype.Write=function(e){this.document.open(),this.document.write(e),this.document.close()},d.prototype.LoadScript=function(e){this.Write(\"<script type='text/javascript' src='\"+r(e)+\"'><\\/script>\")},d);function d(e){var t=s.call(this)||this;return t.document=e,t}(a=u=u||{})[a.Error=0]=\"Error\",a[a.Warning=1]=\"Warning\",a[a.Debug=2]=\"Debug\";var c=[\"color: #fff;\",\"background: #ff8f1c;\",\"display: inline-block;\",\"padding: 1px 4px;\",\"border-radius: 3px;\"].join(\" \"),M=(l.Log=function(e,t){if(!(l.LOGLEVEL<e)){var i=u[e].toUpperCase(),n=window.navigator.userAgent,o=0<n.indexOf(\"MSIE \")||0<n.indexOf(\"Trident/\");window.console&&(o?console.log(\"[PubTag] \"+i+\": \"+t):console.log(\"%cPubTag\",c,i+\": \"+t))}},l.Debug=function(e){l.Log(u.Debug,e)},l.Warning=function(e){l.Log(u.Warning,e)},l.Error=function(e){l.Log(u.Error,e)},l.LOGLEVEL=u.Error,l);function l(){}var T=(p.prototype.filterNoBidSlots=function(e){var t=this.bidManager.filterNoBidSlots(e);return this.context.shouldIgnoreSilentMode?(t.length!==e.length&&this.context.setSilentModeIgnored&&this.context.setSilentModeIgnored(),e):t},p.prototype.silentModeEnabled=function(){var e=!1;return this.silentModeManager.silentModeEnabled()&&(this.context.shouldIgnoreSilentMode&&this.context.setSilentModeIgnored?this.context.setSilentModeIgnored():e=!0),e},p.prototype.getCachedBids=function(e){return this.bidManager.getRequestCachedBids(e)},p.prototype.removeBid=function(e){this.bidManager.removeBid(e)},p.prototype.handleResponse=function(e,t,i,n){var o=i.time_to_next_call;0<o&&(M.Debug(\"Global silent mode enabled for \"+o+\" seconds\"),this.silentModeManager.enableSilentMode(1e3*o));var r={};if(i.slots)for(var s=0,a=i.slots;s<a.length;s++)(f=a[s]).ttl&&(r[f.imp_id]=f.ttl);var d=[];if(t.slots)for(var c=0,l=t.slots;c<l.length;c++){var u=0;(f=l[c]).slotid in r&&(u=r[f.slotid],delete r[f.slotid]),0<u&&(M.Debug(\"Bid for slot '\"+f.impid+\"' cached for \"+u+\" seconds\"),d.push({slot:f,ttl:u}))}this.bidManager.storeResponseBids(d);var p=[];for(var h in r)if(r.hasOwnProperty(h))for(var v=0,g=e;v<g.length;v++){var f;(f=g[v]).slotId===h&&(u=r[h],M.Debug(\"Silent mode for slot '\"+f.impId+\"' enabled for \"+u+\" seconds\"),p.push({slot:f,ttl:u}))}this.bidManager.storeRequestNoBids(p)},p.prototype.clearExpiredItems=function(){var e=this;setTimeout(function(){e.bidManager.clearExpiredItems()},3e3)},p);function p(e,t,i){this.silentModeManager=e,this.bidManager=t,this.context=i}var h=(v.prototype.eval=function(e){},v);function v(e){this.name=e}var g,f=(e(m,g=h),m.prototype.eval=function(e){this.callback&&this.callback.apply(this)},m.NAME=\"genericEvent\",m);function m(e){var t=g.call(this,m.NAME)||this;return t.callback=e,t}var y=(C.prototype.generateRandomId=function(){return Math.random().toString(36).replace(/[^a-z]+/g,\"\").substr(0,6)},C);function C(e,t,i,n,o,r,s){this.id=this.generateRandomId(),this.slotId=e,this.impressionId=t,this.cpm=i,this.width=n,this.height=o,this.zoneId=r,this.dealCode=s}var E,P=(e(w,E=y),w.prototype.GenerateEvent=function(e){var t=this;return e.ResizeFrame(this.width,this.height),new f(function(){return e.LoadScript(t.displayUrl)})},w.prototype.GenerateMessage=function(){return{displayUrl:this.displayUrl}},w);function w(e,t,i,n,o,r,s,a){var d=E.call(this,e,t,i,n,o,r,a)||this;return d.displayUrl=s,d}var b,x=(e(I,b=y),I.prototype.GenerateEvent=function(e){var t=this;return e.ResizeFrame(this.width,this.height),new f(function(){return e.Write(t.creative)})},I.prototype.GenerateMessage=function(){return{creative:this.creative}},I);function I(e,t,i,n,o,r,s,a){var d=b.call(this,e,t,i,n,o,r,a)||this;return d.creative=s,d}var A,D=(e(O,A=y),O.prototype.GenerateEvent=function(e){var t=this;return\"function\"!=typeof this.nativeCallback?(M.Error(\"'nativeCallback' parameter is not a function in placements object\"),new f(void 0)):\"object\"!=typeof this.nativePayload?(M.Error(\"'nativePayload' parameter is not an object in placements object\"),new f(void 0)):new f(function(){return t.nativeCallback(t.nativePayload)})},O.prototype.GenerateMessage=function(){return{nativePayload:this.nativePayload}},O);function O(e,t,i,n,o,r,s,a,d){var c=A.call(this,e,t,i,n,o,r,d)||this;return c.nativeCallback=s,c.nativePayload=a,c}var k=(B.prototype.getMetricsManager=function(){return this.metricsManager},B.prototype.withElapsed=function(e){return this.elapsed=Math.round(e),this},B.prototype.withIsTimeout=function(e){return(this.isTimeout=e)&&this.events.push({eventId:\"CdbCallTimeout\"}),this},B.prototype.withAdapterStartElapsed=function(e){return this.adapterStartElapsed=Math.round(e),this.events.push({eventId:\"AdapterBidStart\",elapsed:this.adapterStartElapsed}),this},B.prototype.withCdbCallStartElapsed=function(e){return this.cdbCallStartElapsed=Math.round(e),this.events.push({eventId:\"CdbCallStart\",elapsed:this.cdbCallStartElapsed}),this},B.prototype.withCdbCallEndElapsed=function(e){return this.cdbCallEndElapsed=Math.round(e),this.events.push({eventId:\"CdbCallEnd\",elapsed:this.cdbCallEndElapsed}),this},B.prototype.withAdapterEndElapsed=function(e){return this.adapterEndElapsed=Math.round(e),this.events.push({eventId:\"AdapterBidEnd\",elapsed:this.adapterEndElapsed}),this},B.prototype.withAdapterTimeout=function(e){return this.adapterTimeout=e&&Math.round(e),this},B.prototype.withSlotIdsMatchedByCache=function(e){return 0<(this.slotIdsMatchedByCache=e).length&&this.events.push({eventId:\"CachedBidUsed\",slots:this.slotIdsMatchedByCache}),this},B.prototype.withTimeToFirstByte=function(e){return this.timeToFirstByte=e&&Math.round(e),this.timeToFirstByte&&this.events.push({eventId:\"TimeToFirstByte\",elapsed:this.timeToFirstByte}),this},B.prototype.withConnectionEstablishmentTime=function(e){return this.connectionEstablishmentTime=e&&Math.round(e),this.connectionEstablishmentTime&&this.events.push({eventId:\"TcpConnectionElapsedTime\",elapsed:this.connectionEstablishmentTime}),this},B.prototype.withDomainLookupTime=function(e){return this.domainLookupTime=e&&Math.round(e),this.domainLookupTime&&this.events.push({eventId:\"DomainLookupElapsedTime\",elapsed:this.domainLookupTime}),this},B.prototype.withUserPreviousTimestamp=function(e){return e&&this.events.push({eventId:\"UserReturnTime\",elapsed:(new Date).getTime()-e}),this},B.prototype.buildEvents=function(e){if(this.events.length){var t={requestId:e,events:this.events};return void 0!==this.adapterTimeout&&this.adapterEndElapsed>this.adapterTimeout&&t.events.push({eventId:\"AdapterTimeout\"}),t}},B.prototype.clear=function(){this.events=[]},B);function B(e){this.elapsed=0,this.isTimeout=!1,this.adapterStartElapsed=0,this.cdbCallStartElapsed=0,this.cdbCallEndElapsed=0,this.adapterEndElapsed=0,this.slotIdsMatchedByCache=[],this.events=[],this.metricsManager=e}function F(e){try{return JSON.parse(e)}catch(e){return}}var U,N,L=(H.generateCacheBuster=function(){return Math.floor(99999999999*Math.random())},H);function H(){}function q(e){switch(e.toLowerCase()){case\"amp\":return U.AMP;default:return U.Unspecified}}(N=U=U||{})[N.Unspecified=0]=\"Unspecified\",N[N.AMP=1]=\"AMP\";var W=106,K=(z.prototype.buildUrl=function(e,t,i,n,o){void 0===i&&(i=U.Unspecified);var r=z.CRITEO_BIDDER_URL+this.getHandlerPath();return r+=\"?ptv=\"+W,!0===t.isAdBlocked&&(r+=\"&abp=1\"),r=this.appendCommonParameters(r,e,n,o),r+=t.ctoIdOnPublisherDomain?\"&idcpy=\"+t.ctoIdOnPublisherDomain:\"\",r+=t.secureId?\"&sid=\"+t.secureId:\"\",r+=t.isOptOut?\"&optout=1\":\"\",r+=t.bundle?\"&bundle=\"+t.bundle:\"\",i!==U.Unspecified&&(r+=\"&im=\"+i),r+=t.silentModeIgnored?\"&smi=1\":\"\",r+=\"&cb=\"+String(L.generateCacheBuster()),r+=t.getContextFlags()},z.prototype.buildErrorUrl=function(){return z.CRITEO_BIDDER_URL+z.CRITEO_ERROR_HANDLER},z.prototype.buildCsmEventsUrl=function(){return z.CRITEO_BIDDER_URL+z.CRITEO_CSM_EVENTS_HANDLER},z.prototype.buildCsmCountersUrl=function(){return z.CRITEO_BIDDER_URL+z.CRITEO_CSM_COUNTERS_HANDLER},z.prototype.appendCommonParameters=function(e,t,i,n){return e+=\"&profileId=\"+String(t),void 0!==i&&(e+=\"&av=\"+String(i)),void 0!==n&&(e+=\"&wv=\"+encodeURIComponent(n)),e},z.prototype.getHandlerPath=function(){return this.auditMode?z.CRITEO_BIDDER_AUDIT_HANDLER:z.CRITEO_BIDDER_HANDLER},z.CRITEO_BIDDER_URL=\"https://bidder.criteo.com/\",z.CRITEO_BIDDER_HANDLER=\"cdb\",z.CRITEO_CSM_HANDLER=\"csm\",z.CRITEO_CSM_EVENTS_HANDLER=\"csm/events\",z.CRITEO_CSM_COUNTERS_HANDLER=\"csm/counters\",z.CRITEO_ERROR_HANDLER=\"error\",z.CRITEO_BIDDER_AUDIT_HANDLER=\"prebid/audit\",z);function z(e){void 0===e&&(e=!1),this.auditMode=e}var G=(V.prototype.sendEventsToBeacon=function(e,t){navigator.sendBeacon&&e&&navigator.sendBeacon(t,JSON.stringify(e))},V);function V(){this.urlBuilder=new K}var Y,j=(e(J,Y=G),J.prototype.getManagerMetrics=function(){var e=this.localStorageHelper.getItem(J.MANAGER_METRICS_STORAGE_KEY);if(null==e)return{};var t=F(e);return void 0===t?{}:t},J.prototype.setManagerMetrics=function(e){this.localStorageHelper.setItem(J.MANAGER_METRICS_STORAGE_KEY,JSON.stringify(e))},J.prototype.getSilentModeRequestCount=function(e){void 0===e&&(e=!1);var t=this.getManagerMetrics().silentModeRequestCount;return e&&this.resetSilentModeRequestCount(),isNaN(t)?0:t},J.prototype.incSilentModeRequestCount=function(){var e=this.getManagerMetrics();e.silentModeRequestCount=isNaN(e.silentModeRequestCount)?1:e.silentModeRequestCount+1,this.setManagerMetrics(e)},J.prototype.resetSilentModeRequestCount=function(){var e=this.getManagerMetrics();e.silentModeRequestCount=0,this.setManagerMetrics(e)},J.prototype.getLocalStorageKeyCount=function(){return this.localStorageHelper.getAllItemsByPrefix(\"criteo_\").length+this.localStorageHelper.getAllItemsByPrefix(\"cto_\").length},J.prototype.getPreviousBuildRequestTimestamp=function(){var e=this.getManagerMetrics().previousBuildRequestTimestamp;return isNaN(e)?void 0:e},J.prototype.resetPreviousBuildRequestTimestamp=function(){var e=this.getManagerMetrics();e.previousBuildRequestTimestamp=(new Date).getTime().toString(),this.setManagerMetrics(e)},J.prototype.sendEvents=function(e,t,i){void 0===i&&(i=!1),i&&(e.withUserPreviousTimestamp(this.getPreviousBuildRequestTimestamp()),this.resetPreviousBuildRequestTimestamp()),this.sendEventsToBeacon(e.buildEvents(t),this.urlBuilder.buildCsmEventsUrl()),e.clear()},J.MANAGER_METRICS_STORAGE_KEY=\"criteo_pt_cdb_mngr_metrics\",J);function J(e){var t=Y.call(this)||this;return t.localStorageHelper=e,t}var X=(Z.tryInsertPlaceholder=function(e,t,i){var n=document.getElementById(e);if(null===n)return M.Warning(\"Unable to insert ad placeholder : impression id \"+e+\" not found.\"),!1;if(n.appendChild(this.createPlaceholder()),!t&&this.isVisible(n))return!0;this.removePlaceholder(e,i);var o=n.parentElement;if(null===o)return!1;var r=this.createClone(n);return o.insertBefore(r,n),r.appendChild(this.createPlaceholder()),this.isVisible(r)?(i[e]=r,!0):(M.Warning(\"Ad placeholder created but not visible : can't render.\"),o.removeChild(r),!1)},Z.isVisible=function(e){return 0!==e.offsetWidth&&0!==e.offsetHeight&&0!==e.getClientRects().length},Z.createClone=function(e){var t=e.cloneNode(!1);return t.id=this.generateRandomId(),t.className=\"\",\"none\"===t.style.display&&t.style.removeProperty(\"display\"),\"SPAN\"===t.tagName&&(t.style.display=\"block\"),e.style.display=\"none\",t},Z.generateRandomId=function(){for(var e=\"1234567890abcdefghijklmnopqrstuvwxyz\",t=\"\",i=0;i<20;i++){var n=Math.floor(Math.random()*e.length);t+=e.charAt(n)}return t},Z.createPlaceholder=function(){var e=document.createElement(\"div\");return e.style.width=\"1px\",e.style.height=\"1px\",e.style.display=\"block\",e.className=Z.PLACEHOLDER_NAME,e},Z.removePlaceholder=function(e,t){var i=t[e];void 0!==i&&null!==i.parentNode&&i.parentNode.removeChild(i);var n=document.getElementById(e);if(null!==n)for(var o=0,r=n.getElementsByClassName(Z.PLACEHOLDER_NAME);o<r.length;o++){var s=r[o];null!==s.parentNode&&s.parentNode.removeChild(s)}},Z.insertAdIFrame=function(e,t){var i,n=t[e];if(void 0!==n)i=n;else{var o=document.getElementById(e);if(null===o)return null;i=o}for(var r=0,s=i.getElementsByClassName(Z.PLACEHOLDER_NAME);r<s.length;r++){for(var a=s[r],d=0,c=a.childNodes;d<c.length;d++){var l=c[d];null!==l.parentNode&&l.parentNode.removeChild(l)}var u=this.createAdIFrame();return a.appendChild(u),a.style.width=\"\",a.style.height=\"\",a.style.display=\"\",u}return null},Z.createAdIFrame=function(){var e=document.createElement(\"iframe\");return e.scrolling=\"no\",e.marginWidth=\"0\",e.marginHeight=\"0\",e.frameBorder=\"0\",e.style.border=\"0\",e.style.verticalAlign=\"bottom\",e},Z.removePlaceholders=function(e,t,i){for(var n=0,o=e;n<o.length;n++){var r=o[n].impId;-1===t.indexOf(r)&&Z.removePlaceholder(r,i)}},Z.tryInsertPlaceholders=function(e,t,i){for(var n=[],o=0,r=e;o<r.length;o++){var s=r[o],a=s.impId;Z.tryInsertPlaceholder(a,t,i)&&n.push(s)}return n},Z.PLACEHOLDER_NAME=\"criteo_placeholder\",Z);function Z(){}var Q=($.prototype.isValid=function(){return 0<this.slots.length},$.prototype.getRequest=function(){for(var e=[],t=0,i=this.slots;t<i.length;t++){var n=i[t],o={slotid:n.slotId,impid:n.impId};if(void 0!==n.zoneId&&(o.zoneid=n.zoneId),void 0!==n.nativeCallback&&(o.native=!0),void 0!==n.transactionId&&(o.transactionid=n.transactionId),void 0!==n.publisherSubId&&(o.publishersubid=n.publisherSubId),void 0!==n.sizes){for(var r=[],s=0,a=n.sizes;s<a.length;s++){var d=a[s];r.push(d.width+\"x\"+d.height)}o.sizes=r}if(void 0!==n.video){var c={playersizes:this.parsePlayerSizes(n.video.playersize),mimes:n.video.mimes,protocols:n.video.protocols,maxduration:n.video.maxduration,api:n.video.api,skip:n.video.skip,placement:n.video.placement,playbackmethod:n.video.playbackmethod,minduration:n.video.minduration,startdelay:n.video.startdelay};o.video=c}if(void 0!==this.viewportComputer){var l=this.viewportComputer.getSlotPosition(n);void 0!==l&&(o.position={top:l.top,left:l.left})}void 0!==n.ext&&(o.ext=n.ext),e.push(o)}var u={ceh:this.context.ceh,uspOptout:this.context.ccpaOptout,ext:this.context.getUserExtWithContextualData()},p={publisher:{url:this.context.highestAccessibleUrl,ext:this.context.getPublisherExt()},slots:e,user:u};if(void 0!==this.networkId&&(p.publisher.networkid=this.networkId),this.privacyWrapper&&(this.privacyWrapper.gdprConsent&&(p.gdprConsent=this.privacyWrapper.gdprConsent),this.privacyWrapper.ccpaIabConsent&&(u.uspIab=this.privacyWrapper.ccpaIabConsent.uspString)),void 0!==this.viewportComputer){var h=this.viewportComputer.getViewport();p.viewport={width:h.width,height:h.height,scrollTop:h.scrollTop,scrollLeft:h.scrollLeft}}return void 0!==this.adapterTimeout&&(p.tmax=this.adapterTimeout),void 0!==this.auctionStart&&(p.auctionStart=this.auctionStart),void 0!==this.clientRequestId&&(p.id=this.clientRequestId),void 0!==this.userIds&&(p.eids=this.userIds),p},$.parsePlayerSize=function(e){return e[0]+\"x\"+e[1]},$.prototype.parsePlayerSizes=function(e){return Array.isArray(e[0])?e.map(function(e){return $.parsePlayerSize(e)}):[$.parsePlayerSize(e)]},$.prototype.getUrl=function(){return this.urlBuilder.buildUrl(this.profileId,this.context,this.integrationMode,this.adapterVersion,this.wrapperVersion)},$);function $(e,t,i,n,o,r,s,a,d,c,l,u,p,h){this.slots=e,this.context=t,this.urlBuilder=i,this.profileId=n,this.integrationMode=o||U.Unspecified,this.networkId=r,this.adapterVersion=s,this.privacyWrapper=a,this.wrapperVersion=d,this.viewportComputer=c,this.adapterTimeout=l,this.clientRequestId=u,this.userIds=p,this.auctionStart=h}function ee(e){var t={slots:void 0,time_to_next_call:0};return void 0!==e.exd&&(void 0!==e.exd.time_to_next_call&&(t.time_to_next_call=e.exd.time_to_next_call),t.slots=e.exd.slots,delete e.exd),t}function te(){var i=(new Date).getTime();return\"undefined\"!=typeof performance&&\"function\"==typeof performance.now&&(i+=performance.now()),\"xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx\".replace(/[xy]/g,function(e){var t=(i+16*Math.random())%16|0;return i=Math.floor(i/16),(\"x\"===e?t:3&t|8).toString(16)})}var ie=function(e,t,i,n,o,r,s,a,d){this.slotId=te().replace(/-/g,\"\"),this.impId=e,this.zoneId=t,this.nativeCallback=i,this.transactionId=n,this.sizes=o,this.publisherSubId=r,this.mediaTypes=s,this.video=a,this.ext=d},ne=function(e,t,i,n,o,r,s,a,d,c){this.playersize=e,this.mimes=t,this.protocols=i,this.maxduration=n,this.api=o,this.skip=r,this.placement=s,this.playbackmethod=a,this.minduration=d,this.startdelay=c},oe=(re.CreateRunning=function(){var e=new re;return e.start(),e},re.CreateWithStartTime=function(e){var t=new re(!1);return t.startTime=e,t},re.TimeSincePageLoad=function(){if(window.performance){if(window.performance.now)return window.performance.now();if(window.performance.timing&&window.performance.timing.navigationStart)return(new Date).getTime()-performance.timing.navigationStart}return 0},re.prototype.start=function(){this.startTime=this.now()},re.prototype.elapsed=function(){return this.now()-this.startTime},re);function re(e){void 0===e&&(e=!0),e&&window.performance&&window.performance.now?this.now=window.performance.now.bind(window.performance):Date.now?this.now=Date.now:this.now=function(){return(new Date).getTime()}}var se=(ae.prototype.sendRequest=function(e){this.url=e,this.sendTime=oe.CreateRunning(),this.builder.withCdbCallStartElapsed(this.timer.elapsed())},ae.prototype.requestReceived=function(e){void 0===e&&(e=!1),this.builder.withElapsed(function(e){if(window.performance&&window.performance.getEntries)for(var t=window.performance.getEntries(),i=t.length-1;0<=i;--i){var n=t[i];if(n.name===e&&n.duration)return Math.round(n.duration)}}(this.url)||this.sendTime.elapsed()),this.builder.withCdbCallEndElapsed(this.timer.elapsed()),this.builder.withIsTimeout(e)},ae.prototype.finish=function(){this.builder.withAdapterEndElapsed(this.timer.elapsed());var e=ae.getLastCdbTiming();void 0!==e&&(this.builder.withTimeToFirstByte(ae.computeTimeToFirstByte(e)),this.builder.withConnectionEstablishmentTime(ae.computeConnectionEstablishmentTime(e)),this.builder.withDomainLookupTime(ae.computeDomainLookupTime(e)))},ae.getLastCdbTiming=function(){if(void 0!==window.performance&&void 0!==window.performance.getEntriesByType&&\"function\"==typeof window.performance.getEntriesByType){var e=window.performance.getEntriesByType(\"resource\");if(void 0!==e){var t=e.filter(function(e){return 0<=e.name.indexOf(\"cdb\")});return void 0!==t&&0<t.length?t[t.length-1]:void 0}}},ae.computeTimeToFirstByte=function(e){var t=e.responseStart,i=e.requestStart;if(void 0!==t&&void 0!==i)return t-i},ae.computeConnectionEstablishmentTime=function(e){var t=e.connectEnd-e.connectStart;return isNaN(t)?void 0:t},ae.computeDomainLookupTime=function(e){var t=e.domainLookupEnd-e.domainLookupStart;return isNaN(t)?void 0:t},ae);function ae(e,t,i){this.builder=e,this.timer=void 0!==t?oe.CreateWithStartTime(t):oe.CreateRunning();var n=this.timer.elapsed();this.builder.withAdapterStartElapsed(n),void 0!==i&&this.builder.withAdapterTimeout(i)}var de=(ce.prototype.toString=function(){return this.width+\"x\"+this.height},ce);function ce(e,t){this.width=e,this.height=t}function le(e){var t=\"number\"==typeof window.PREBID_TIMEOUT?window.PREBID_TIMEOUT:void 0;return e&&t?Math.min(e,t):e||t||void 0}var ue=function(e,t){this.top=e,this.left=t},pe=function(e,t,i,n){this.width=e,this.height=t,this.scrollTop=i,this.scrollLeft=n},he=(ve.getHighestAccessibleWindow=function(e){var t=e,i=!1;try{for(;t.parent.document!==t.document;){if(!t.parent.document){i=!0;break}t=t.parent}}catch(e){i=!0}return{topFrame:t,err:i}},ve.getHighestAccessibleUrl=function(e){var t=e.topFrame;if(!e.err)return t.location.href;try{var i=t.top.location.href;if(i)return i}catch(e){}try{var n=t.location.ancestorOrigins;if(n)return n[n.length-1]}catch(e){}return t.document.referrer},ve.inIframe=function(){try{return window.self!==window.top}catch(e){return!0}},ve);function ve(){}var ge=(fe.prototype.getViewport=function(){var e=he.getHighestAccessibleWindow(window).topFrame,t=e.document,i=e.innerWidth||t.documentElement.clientWidth,n=e.innerHeight||t.documentElement.clientHeight,o=t.documentElement.scrollTop||t.body&&t.body.scrollTop||0,r=t.documentElement.scrollLeft||t.body&&t.body.scrollLeft||0;return new pe(i,n,o,r)},fe.prototype.getSlotPosition=function(e){var t=e.impId,i=document.getElementById(t);if(null!==i){var n=i.getBoundingClientRect();return new ue(n.top,n.left)}},fe);function fe(){}var me=(ye.prototype.checkLocalStorage=function(e){if(!this.localStorage)return!1;var t=this.CHECK_STORAGE_KEY;try{return this.localStorage.setItem(t,t),this.localStorage.removeItem(t),!!this.checkTcfPurposeOne(e)||(M.Debug(\"Purpose One not granted\"),!1)}catch(e){return!1}},ye.prototype.checkTcfPurposeOne=function(e){return!e||!e.purposes||!0===e.purposes[1]},ye.prototype.removeItem=function(e){this.localStorageEnabled&&(this.localStorage.removeItem(e),this.localStorage.removeItem(e+this.EXPIRE_SUFFIX))},ye.prototype.getItem=function(e,t){if(!this.localStorageEnabled)return null;var i=(new Date).getTime(),n=this.localStorage.getItem(e+this.EXPIRE_SUFFIX),o=n?parseInt(n,10):-1;return-1!==o&&o<i||t&&(-1===o||t<o-i)?(this.removeItem(e),null):this.localStorage.getItem(e)},ye.prototype.setItem=function(e,t,i){if(this.localStorageEnabled)try{if(this.localStorage.setItem(e,t),i){var n=(new Date).getTime()+i;this.localStorage.setItem(e+this.EXPIRE_SUFFIX,n.toString())}}catch(e){}},ye.prototype.getAllItemsByPrefix=function(e){var t=[];if(this.localStorageEnabled)for(var i in localStorage)0===i.indexOf(e)&&t.push(i);return t},ye);function ye(e,t){this.EXPIRE_SUFFIX=\"_expires\",this.CHECK_STORAGE_KEY=\"criteo_localstorage_check\",this.localStorage=function(e){try{return e.localStorage}catch(e){return}}(e||window),this.localStorageEnabled=this.checkLocalStorage(t)}var Ce=(Ee.prototype.silentModeEnabled=function(){var e=Ee.SILENT_MODE_KEY;return null!==this.localStorageHelper.getItem(e)},Ee.prototype.enableSilentMode=function(e){var t=Ee.SILENT_MODE_KEY;this.localStorageHelper.setItem(t,\"1\",e)},Ee.SILENT_MODE_KEY=\"criteo_silent_mode\",Ee);function Ee(e){this.localStorageHelper=e}function we(){return(new Date).getTime()}var be=(Ie.prototype.toString=function(){return\"ImpId\"+this.impressionId},Ie);function Ie(e){this.impressionId=e}var _e,Se=(e(Te,_e=be),Te.prototype.toString=function(){return _e.prototype.toString.call(this)+\"_Size\"+this.size+\"_NetworkId\"+this.networkId},Te);function Te(e,t,i){var n=_e.call(this,e)||this;return n.size=t,n.networkId=i,n}var Ae,Re=(e(Me,Ae=be),Me.prototype.toString=function(){return Ae.prototype.toString.call(this)+\"_ZoneId\"+this.zoneId},Me);function Me(e,t){var i=Ae.call(this,e)||this;return i.zoneId=t,i}var Pe=(xe.prototype.createKeysFromSlotRequest=function(e){if(this.useZoneIdIntegration)return[new Re(e.impId,e.zoneId)];for(var t=[],i=0,n=e.sizes;i<n.length;i++){var o=n[i];t.push(new Se(e.impId,o,this.networkId))}return t},xe.prototype.createKeyFromSlotResponse=function(e){return this.useZoneIdIntegration?new Re(e.impid,e.zoneid):new Se(e.impid,new de(e.width,e.height),this.networkId)},xe.prototype.createKeyFromBid=function(e){return this.useZoneIdIntegration?new Re(e.impressionId,e.zoneId):new Se(e.impressionId,new de(e.width,e.height),this.networkId)},xe);function xe(e,t){this.useZoneIdIntegration=e,this.networkId=t}var De=(Oe.useZoneIdIntegration=function(e,t){return void 0===t||0===e.filter(function(e){return void 0!==e.sizes&&0<e.sizes.length}).length},Oe.prototype.getBySlotKey=function(e,t){var i=t.toString();if(i in e){var n=e[i];if(void 0!==n)return void 0!==n.bid&&void 0!==n.expiration&&n.expiration<we()&&(n.bid=void 0,n.expiration=void 0),n}return{}},Oe.prototype.setBySlotKey=function(e,t,i){var n=t.toString();void 0!==i.bid||void 0!==i.expiration&&i.expiration>we()?e[n]=i:n in e&&delete e[n]},Oe.prototype.filterNoBidSlots=function(e){for(var t=[],i=this.localStorageHelper.getItem(Oe.BIDCACHE_STORAGE_KEY),n=i&&F(i)||{},o=0,r=e;o<r.length;o++){for(var s=r[o],a=[],d=0,c=this.slotKeyFactory.createKeysFromSlotRequest(s);d<c.length;d++){var l=c[d];this.getBidFromMap(n,l,0)!==Oe.NO_BID&&(l instanceof Se?a.push(l.size):t.push(s))}0<a.length&&(s.sizes=a,t.push(s))}return t},Oe.prototype.getRequestCachedBids=function(e,t){void 0===t&&(t=5e3);for(var i={},n=this.localStorageHelper.getItem(Oe.BIDCACHE_STORAGE_KEY),o=n&&F(n)||{},r=0,s=e;r<s.length;r++)for(var a=s[r],d=0,c=this.slotKeyFactory.createKeysFromSlotRequest(a);d<c.length;d++){var l=c[d],u=this.getBidFromMap(o,l,t);void 0!==u&&u!==Oe.NO_BID&&(i[a.slotId]=u)}return this.localStorageHelper.setItem(Oe.BIDCACHE_STORAGE_KEY,JSON.stringify(o)),i},Oe.prototype.getBid=function(e,t){void 0===t&&(t=5e3);var i=this.localStorageHelper.getItem(Oe.BIDCACHE_STORAGE_KEY),n=i&&F(i)||{},o=this.getBidFromMap(n,e,t);return this.localStorageHelper.setItem(Oe.BIDCACHE_STORAGE_KEY,JSON.stringify(n)),o},Oe.prototype.getBidFromMap=function(e,t,i){void 0===i&&(i=5e3);var n=this.getBySlotKey(e,t);return void 0===n.bid&&n.expiration&&n.expiration>we()?Oe.NO_BID:0<i&&void 0!==n.bid?(delete e[t.toString()],n.bid):void 0},Oe.prototype.storeResponseBids=function(e){for(var t=this.localStorageHelper.getItem(Oe.BIDCACHE_STORAGE_KEY),n=t&&F(t)||{},i=function(i){var e=o.slotKeyFactory.createKeyFromSlotResponse(i.slot);o.modifyCache(n,e,function(e){var t=we()+1e3*i.ttl;(void 0===e.expiration||e.expiration<t)&&(e.bid=i.slot,e.expiration=t)})},o=this,r=0,s=e;r<s.length;r++)i(s[r]);this.localStorageHelper.setItem(Oe.BIDCACHE_STORAGE_KEY,JSON.stringify(n))},Oe.prototype.storeRequestNoBids=function(e){for(var t=this.localStorageHelper.getItem(Oe.BIDCACHE_STORAGE_KEY),o=t&&F(t)||{},i=function(t){for(var e=0,i=r.slotKeyFactory.createKeysFromSlotRequest(t.slot);e<i.length;e++){var n=i[e];r.modifyCache(o,n,function(e){e.bid=void 0,e.expiration=Math.max(e.expiration||0,we()+1e3*t.ttl)})}},r=this,n=0,s=e;n<s.length;n++)i(s[n]);this.localStorageHelper.setItem(Oe.BIDCACHE_STORAGE_KEY,JSON.stringify(o))},Oe.prototype.removeBid=function(t){var e=this.localStorageHelper.getItem(Oe.BIDCACHE_STORAGE_KEY),i=e&&F(e)||{},n=this.slotKeyFactory.createKeyFromBid(t);this.modifyCache(i,n,function(e){void 0!==e.bid&&e.bid.slotid===t.slotId&&(e.bid=void 0,e.expiration=void 0)}),this.localStorageHelper.setItem(Oe.BIDCACHE_STORAGE_KEY,JSON.stringify(i))},Oe.prototype.modifyCache=function(e,t,i){var n=this.getBySlotKey(e,t);i(n),this.setBySlotKey(e,t,n)},Oe.prototype.clearExpiredItems=function(){for(var e=this.localStorageHelper.getItem(Oe.BIDCACHE_STORAGE_KEY),t=e&&F(e)||{},i=0,n=Object.keys(t);i<n.length;i++){var o=n[i],r=t[o];void 0!==r&&void 0!==r.expiration&&r.expiration<we()&&delete t[o]}this.localStorageHelper.setItem(Oe.BIDCACHE_STORAGE_KEY,JSON.stringify(t))},Oe.NO_BID=\"nobid\",Oe.BIDCACHE_STORAGE_KEY=\"criteo_pt_cdb_bidcachemap\",Oe);function Oe(e,t,i){this.localStorageHelper=e,this.slotKeyFactory=new Pe(t,i)}var ke=(Be.prototype.send=function(e,t,i,n){var o=void 0!==this.data?\"POST\":\"GET\",r=this.getXMLHttpRequest(o,e,t,i,n);if(void 0!==r)r.send(this.data);else{var s=this.getXDomainRequest(o,e,t,i,n);void 0!==s&&s.send(this.data)}},Be.prototype.getXMLHttpRequest=function(e,t,i,n,o){var r=new XMLHttpRequest;if(\"withCredentials\"in r)return r.open(e,this.url,!0),r.timeout=o||Be.LOCAL_PASSBACK_TIMEOUT,this.contentType?r.setRequestHeader(\"Content-type\",this.contentType):\"POST\"===e&&r.setRequestHeader(\"Content-type\",\"application/x-www-form-urlencoded\"),r.withCredentials=this.withCredentials,r.onload=function(){4===r.readyState&&200===r.status?t(r.responseText):i(r.readyState,r.status)},r.onerror=function(){i(void 0,void 0)},n&&(r.ontimeout=n),r},Be.prototype.getXDomainRequest=function(e,t,i,n,o){if(\"undefined\"!=typeof XDomainRequest){var r=new XDomainRequest;return r.timeout=o||Be.LOCAL_PASSBACK_TIMEOUT,r.open(e,this.url),r.onload=function(){void 0!==r.responseText?t(r.responseText):i(void 0,void 0)},r.onerror&&(r.onerror=function(){i(void 0,void 0)}),r.ontimeout&&n&&(r.ontimeout=n),r}},Be.LOCAL_PASSBACK_TIMEOUT=3e4,Be);function Be(e,t,i,n){void 0===n&&(n=!0),this.url=e,this.data=t,this.contentType=i,this.withCredentials=n}var Fe=(Ue.prototype.retrievePixels=function(e,t,i){var n=this;new ke(this.getUserSyncUrl(e,t,i)).send(function(e){if(e){var t=Ue.parseUserSyncResponse(e);t?n.onPixelsRetrieved(t):n.errorReporter.log(\"Error\",\"Unable to parse response from user sync\")}},function(e,t){M.Warning(\"User Sync Pixel endpoint error; readyState \"+e+\"; requestStatus \"+t)},function(){M.Warning(\"User Sync Pixel endpoint timeout\")},this.pixelSyncTimeout)},Ue.prototype.getUserSyncUrl=function(e,t,i){var n=[];return(null==e?void 0:e.consentData)&&n.push(\"gdpr=\"+e.consentData),(null==e?void 0:e.gdprApplies)&&n.push(\"gdprapplies=\"+e.gdprApplies),(null==t?void 0:t.uspString)&&n.push(\"ccpa=\"+t.uspString),(null==i?void 0:i.country_code)&&n.push(\"countrycode=\"+i.country_code),this.debug&&n.push(\"debug=1\"),this.pixelSyncEndpoint+(n.length?\"?\"+n.join(\"&\"):\"\")},Ue.parseUserSyncResponse=function(e){var t=F(e);return t?(\"pixels\"in t?Array.isArray(t.pixels)?t.pixels=t.pixels.filter(function(t){try{return new URL(t),!0}catch(e){return M.Warning(\"Failed to parse User Sync Pixel URL: \"+t),!1}}):(M.Warning(\"pixels field in user sync response is not an array: \"+t.pixels),t.pixels=[]):t.pixels=[],t):void M.Warning(\"Failed to parse user sync pixel JSON payload\")},Ue);function Ue(e,t,i){void 0===i&&(i=!1),this.pixelSyncEndpoint=\"https://3pd.criteo.com/user-sync/pixels\",this.pixelSyncTimeout=2e3,this.errorReporter=t,this.onPixelsRetrieved=e,this.debug=i}var Ne=(Le.execUserSync=function(e,t,i,n,o){void 0===o&&(o=!1),new Fe(Le.appendUserSyncPixels,e,o).retrievePixels(t,i,n)},Le.getOrCreateTagContainer=function(){var e=document.getElementById(Le.tagElementName);if(e)return e;var t=document.createElement(\"div\");return t.setAttribute(\"id\",Le.tagElementName),t.style.display=\"none\",document.body.appendChild(t),t},Le.appendUserSyncPixels=function(e){if(e.pixels.length)for(var t=Le.getOrCreateTagContainer(),i=0,n=e.pixels;i<n.length;i++){var o=n[i],r=new Image;r.src=o,t.appendChild(r)}},Le.tagElementName=\"criteoUserSyncTagsContainer\",Le);function Le(){}var He,qe;(qe=He=He||{}).Native=\"native\",qe.Banner=\"banner\",qe.Video=\"video\";var We=(Ke.prototype.hasValidNativeParams=function(e){return!(e.nativeParams&&(e.nativeParams.image&&(!0!==e.nativeParams.image.sendId||!0===e.nativeParams.image.sendTargetingKeys)||e.nativeParams.icon&&(!0!==e.nativeParams.icon.sendId||!0===e.nativeParams.icon.sendTargetingKeys)||e.nativeParams.clickUrl&&(!0!==e.nativeParams.clickUrl.sendId||!0===e.nativeParams.clickUrl.sendTargetingKeys)||e.nativeParams.displayUrl&&(!0!==e.nativeParams.displayUrl.sendId||!0===e.nativeParams.displayUrl.sendTargetingKeys)||e.nativeParams.privacyLink&&(!0!==e.nativeParams.privacyLink.sendId||!0===e.nativeParams.privacyLink.sendTargetingKeys)||e.nativeParams.privacyIcon&&(!0!==e.nativeParams.privacyIcon.sendId||!0===e.nativeParams.privacyIcon.sendTargetingKeys)))},Ke.prototype.buildCdbUrl=function(){return this.url},Ke.prototype.buildCdbRequest=function(){if(this.cache.silentModeEnabled())return M.Debug(\"Request ignored because the global silent mode is enabled\"),void this.metricsManager.incSilentModeRequestCount();if(this.requestBuilder.isValid()){var e=Math.min((this.timeout||5e3)+1e3,5e3);return this.adBlockFlagManager.setAdBlockFlagTimer(e),this.timer.sendRequest(this.url),this.requestBuilder.getRequest()}M.Debug(\"Request ignored because it doesnt contain any slot\")},Ke.GetAllAdapters=function(){return(window.Criteo_prebid_106||window.Criteo).prebid_adapters},Ke.GetAdapter=function(e){var t=\"string\"==typeof e?e:e.bidRequests[0].auctionId,i=Ke.GetAllAdapters();if(i&&t in i)return i[t]},Ke.createCriteoNativeAdWithCallback=function(e,t,i){var n=r(e);return window.criteo_prebid_native_slots=window.criteo_prebid_native_slots||{},window.criteo_prebid_native_slots[n]={callback:i,payload:t},'<script type=\"text/javascript\">\\n            var win = window;\\n            for (var i = 0; i < 10; ++i) {\\n                win = win.parent;\\n                if (win.criteo_prebid_native_slots) {\\n                    var responseSlot = win.criteo_prebid_native_slots[\"'+n+'\"];\\n                    responseSlot.callback(responseSlot.payload);\\n                    break;\\n                }\\n            }\\n        <\\/script>'},Ke.createPrebidNativeAd=function(e){return{sendTargetingKeys:!1,title:e.products[0].title,body:e.products[0].description,sponsoredBy:e.advertiser.description,icon:e.advertiser.logo,image:e.products[0].image,clickUrl:e.products[0].click_url,privacyLink:e.privacy.optout_click_url,privacyIcon:e.privacy.optout_image_url,cta:e.products[0].call_to_action,price:e.products[0].price,impressionTrackers:e.impression_pixels.map(function(e){return e.url})}},Ke.prototype.getBidRequestForSlot=function(e){for(var t=0,i=this.bidRequests;t<i.length;t++){var n=i[t];if(n.adUnitCode===e.impid&&(!n.params.zoneId||parseInt(n.params.zoneId,10)===e.zoneid))return n}},Ke.prototype.getSlotForAdUnitCode=function(e){for(var t=0,i=this.slots;t<i.length;t++){var n=i[t];if(n&&n.impId===e)return n}},Ke.getVideoInfoFromBidRequest=function(e){if(Ke.hasVideoMediaType(e))return new ne(e.mediaTypes.video.playerSize,e.mediaTypes.video.mimes,e.mediaTypes.video.protocols,e.mediaTypes.video.maxduration,e.mediaTypes.video.api,e.params.video.skip,e.params.video.placement,e.params.video.playbackmethod,e.params.video.minduration,e.params.video.startdelay)},Ke.hasVideoMediaType=function(e){return void 0!==e.params&&void 0!==e.params.video&&!(void 0===e.mediaTypes||void 0===e.mediaTypes.video)},Ke.prototype.interpretResponse=function(e,t){var i=window.criteo_pubtag_prebid_106||window.criteo_pubtag;this.timer.requestReceived(),this.adBlockFlagManager.disableAdBlockFlagTimer();var n=ee(e),o={};if(void 0!==n.slots)for(var r=0,s=n.slots;r<s.length;r++)o[(w=s[r]).imp_id]=w;var a,d,c,l,u,p,h,v,g,f,m,y=[];if(e.slots&&Array.isArray(e.slots))for(var C=0,E=e.slots;C<E.length;C++){var w=E[C],b=this.getBidRequestForSlot(w);if(b)if(!0===i.context.isAdBlocked){if(void 0!==(a=w.slotid,d=w.impid,c=w.cpm,l=w.width,u=w.height,p=w.zoneid,h=b.params.nativeCallback,v=w.native,g=w.displayurl,f=w.creative,m=w.deal,A=void 0!==h&&void 0!==v?new D(a,d,c,l,u,p,h,v,m):void 0===g||void 0!==f&&\"<script\"!==f.substr(0,7)?void 0!==f?new x(a,d,c,l,u,p,f,m):void 0:new P(a,d,c,l,u,p,g,m))&&X.tryInsertPlaceholder(b.adUnitCode,!0,i.context.cloneByImpressionId)){var I=X.insertAdIFrame(b.adUnitCode,i.context.cloneByImpressionId);if(null!=I){var _=new R(I.contentDocument);A.GenerateEvent(_).eval(window.criteo_pubtag_prebid_106)}}}else{var S=b.bidId,T=w.ttl||o[w.slotid]&&o[w.slotid].ttl||60,A={requestId:S,adId:te(),cpm:w.cpm,currency:w.currency,netRevenue:!0,ttl:T,creativeId:S,width:w.width,height:w.height,dealId:w.deal};w.native?b.params.nativeCallback?A.ad=Ke.createCriteoNativeAdWithCallback(S,w.native,b.params.nativeCallback):(A.native=Ke.createPrebidNativeAd(w.native),A.mediaType=He.Native):w.video?(A.vastUrl=w.displayurl,A.mediaType=He.Video):A.ad=w.creative,y.push(A)}else M.Error(\"Unable to bid request for slot \"+w)}return this.cache.handleResponse(this.slots,e,n,!1),this.timer.finish(),this.metricsManager.sendEvents(this.metricBuilder,this.clientRequestId,!0),this.cache.clearExpiredItems(),!0===e.user_sync&&Ne.execUserSync(i.context.remoteLogging,this.gdprConsent,this.ccpaIabConsent,e),y},Ke.prototype.handleBidWon=function(){},Ke.prototype.handleBidTimeout=function(){this.timer.requestReceived(!0),this.timer.finish(),this.metricsManager.sendEvents(this.metricBuilder,this.clientRequestId,!0),this.cache.clearExpiredItems()},Ke.prototype.handleSetTargeting=function(){},Ke.prototype.getBannerSizes=function(e){var t,i;return(null===(i=null===(t=e.mediaTypes)||void 0===t?void 0:t.banner)||void 0===i?void 0:i.sizes)||e.sizes||[]},Ke.prototype.getNativeSizes=function(e){var t,i,n;return(null===(n=null===(i=null===(t=e.mediaTypes)||void 0===t?void 0:t.native)||void 0===i?void 0:i.image)||void 0===n?void 0:n.sizes)||[]},Ke.prototype.getSizes=function(e){var t,i=this.getBannerSizes(e).map(function(e){return new de(e[0],e[1])}),n=this.getNativeSizes(e).map(function(e){return new de(e[0],e[1])}),o=i.concat(n);return(null===(t=e.mediaTypes)||void 0===t?void 0:t.native)&&(0===o.length?o=[new de(2,2)]:o.forEach(function(e,t,i){void 0===e.height&&void 0===e.width&&(i[t]=new de(2,2))})),o.filter(function(e,t,i){return i.indexOf(e)===t})},Ke.prototype.getFloorsForSizes=function(e,o,r){var s={},t=r.getFloor({currency:\"USD\",size:\"*\",mediaType:o});if(\"USD\"!==t.currency)throw new Error(\"Currency for floors is not in USD, or cannot be converted to USD\");return s[\"*\"]=t.floor,e.forEach(function(e,t,i){var n=new de(e[0],e[1]);s[n.toString()]=r.getFloor({currency:\"USD\",size:e,mediaType:o}).floor}),s},Ke);function Ke(e,t,i,n,o){var r,s,a,d=window.criteo_pubtag_prebid_106||window.criteo_pubtag;this.clientRequestId=te(),this.gdprConsent={},n.gdprConsent&&(void 0!==n.gdprConsent.consentString&&(this.gdprConsent.consentData=n.gdprConsent.consentString),void 0!==n.gdprConsent.gdprApplies&&(this.gdprConsent.gdprApplies=!!n.gdprConsent.gdprApplies),this.gdprConsent.version=n.gdprConsent.apiVersion),this.ccpaIabConsent={uspString:n.uspConsent};var c=new me(void 0,this.gdprConsent);this.timeout=le(n.timeout),this.metricsManager=new j(c),this.metricBuilder=new k(this.metricsManager),this.timer=new se(this.metricBuilder,n.start,this.timeout);var l,u,p=new ge;this.adBlockFlagManager=S.create(c),this.adBlockFlagManager.adBlockFlagEnabled()&&(e=280,d.context.isAdBlocked=!0),this.auctionId=n.auctionId,this.bidRequests=i,this.slots=[];for(var h,v=!0,g=0,f=i;g<f.length;g++){var m=void 0;(w=f[g]).fpd&&w.fpd.context&&(m=w.fpd.context),w.params.ext&&(m=_(_({},m),w.params.ext)),v=this.hasValidNativeParams(w);try{var y={};if(w.getFloor&&((null===(r=w.mediaTypes)||void 0===r?void 0:r.banner)&&(y.banner=this.getFloorsForSizes(this.getBannerSizes(w),\"banner\",w)),(null===(s=w.mediaTypes)||void 0===s?void 0:s.native)&&(y.native=this.getFloorsForSizes(this.getNativeSizes(w),\"native\",w)),null===(a=w.mediaTypes)||void 0===a?void 0:a.video)){var C=w.mediaTypes.video.playerSize||[];y.video=0<C.length&&\"number\"==typeof C[0]?this.getFloorsForSizes([C],\"video\",w):this.getFloorsForSizes(C,\"video\",w)}Object.keys(y).length&&(m=_(_({},m),{floors:y}))}catch(e){M.Debug(\"Could not parse floors from Prebid: \"+e)}this.slots.push(new ie(w.adUnitCode,w.params.zoneId,w.params.nativeCallback,w.transactionId,this.getSizes(w),w.params.publisherSubId,w.mediaTypes,Ke.getVideoInfoFromBidRequest(w),m)),l=w.params.networkId||l,h=n.ceh,(window.criteo_pubtag_prebid_106||window.criteo_pubtag).context.ceh=h,w.params.integrationMode&&(u=q(w.params.integrationMode))}v||M.Warning(\"All native assets containing URL should be sent as placeholders with sendId(icon, image, clickUrl, privacyLink, privacyIcon)\");var E,w,b=new K(!1);0<i.length&&(w=i[0]).userIdAsEids&&0<w.userIdAsEids.length&&(E=w.userIdAsEids);\"function\"==typeof d.context.setPublisherExt&&\"function\"==typeof d.context.setUserExt?(d.context.setPublisherExt(n.publisherExt),d.context.setUserExt(n.userExt)):(d.context.publisherExt=n.publisherExt,d.context.userExt=n.userExt);var I=De.useZoneIdIntegration(this.slots,l);this.cache=new T(new Ce(c),new De(c,I,l),d.context),this.requestBuilder=new Q(this.cache.filterNoBidSlots(this.slots),d.context,b,e,u,l,t,{ccpaIabConsent:this.ccpaIabConsent,gdprConsent:this.gdprConsent},o,p,this.timeout,this.clientRequestId,E,n.start),this.url=this.requestBuilder.getUrl(),(window.Criteo_prebid_106||window.Criteo).prebid_adapters=(window.Criteo_prebid_106||window.Criteo).prebid_adapters||{},(window.Criteo_prebid_106||window.Criteo).prebid_adapters[this.auctionId]=this}function ze(e){try{return JSON.parse(e)}catch(e){return}}var Ge=(Ve.prototype.getCMPFrame=function(){for(var e,t=this.currentWindow,i=0;i<10;++i){try{t.frames.__uspapiLocator&&(e=t)}catch(e){}if(t===this.currentWindow.top)break;t=t.parent}return e},Ve.prototype.hasCallerFunctionInWindow=function(){return\"function\"==typeof this.currentWindow.__uspapi},Ve.prototype.readyToRetrieve=function(){return this.hasCallerFunctionInWindow()||void 0!==this.getCMPFrame()},Ve.prototype.retrieveConsent=function(i){var n=this,o=!1,r=window.setTimeout(function(){o=!0,n.logger(\"Timeout: Unable to resolve CCPA consent after \"+n.timeout+\"ms\"),i(void 0)},this.timeout);this.executeCommand(\"getUSPData\",1,function(e,t){o||(clearTimeout(r),t?(n.logger(\"CCPA consent retrieved\"),n.processResponseData(e,i)):(n.logger(\"Error retrieving CCPA consent data from CMP\"),i(void 0)))})},Ve.prototype.processResponseData=function(e,t){e?t(e):(this.logger(\"Unable to read CCPA consent data from CMP\"),t(void 0))},Ve.prototype.executeCommand=function(e,t,i){var r=this;if(!this.hasCallerFunctionInWindow()){this.logger(\"No CCPA CMP defined on current frame\");var s=this.getCMPFrame();this.currentWindow.__uspapi=function(e,t,i){if(!s)return r.logger(\"CCPA CMP not found in any frame\"),void i({msg:\"CCPA CMP not found in any frame\"},!1);var n=Math.random().toString(10),o={__uspapiCall:{command:e,parameter:t,callId:n}};r.uspapiCallbacks[n]=i,s.postMessage(o,\"*\")},this.currentWindow.addEventListener(\"message\",function(e){var t=\"string\"==typeof e.data?ze(e.data):e.data;if(t&&t.__uspapiReturn&&t.__uspapiReturn.callId&&t.__uspapiReturn.returnValue){var i=t.__uspapiReturn;r.uspapiCallbacks&&r.uspapiCallbacks[i.callId]&&(r.uspapiCallbacks[i.callId](i.returnValue,i.success),delete r.uspapiCallbacks[i.callId])}},!1)}this.currentWindow.__uspapi(e,t,i)},Ve.prototype.hasUserOptOut=function(e){return!(!e||!e.uspString||\"1YNY\"===e.uspString.toUpperCase()||\"1YNN\"===e.uspString.toUpperCase()||\"1YN-\"===e.uspString.toUpperCase()||\"1-N-\"===e.uspString.toUpperCase()||\"1---\"===e.uspString)},Ve);function Ve(e,t,i){void 0===i&&(i=function(e){}),this.uspapiCallbacks={},this.currentWindow=e,this.timeout=t.uspApiTimeout,this.logger=i}var Ye=(je.prototype.getReadyToRetrieveProvider=function(){return this.tcfv2ConsentProvider.hasCallerFunctionInFrame()?this.tcfv2ConsentProvider:this.tcfv1ConsentProvider.hasCallerFunctionInFrame()?this.tcfv1ConsentProvider:void 0!==this.tcfv2ConsentProvider.getCMPFrame()?this.tcfv2ConsentProvider:void 0!==this.tcfv1ConsentProvider.getCMPFrame()?this.tcfv1ConsentProvider:void 0},je.prototype.retrieveConsentForPassback=function(e){var t=this.getReadyToRetrieveProvider();void 0===t&&(this.logger(\"No compatible GDPR privacy provider found\"),e(void 0)),t===this.tcfv1ConsentProvider?this.tcfv1ConsentProvider.retrieveConsentForPassback(e):t===this.tcfv2ConsentProvider&&this.tcfv2ConsentProvider.retrieveConsent(e)},je.prototype.retrieveConsent=function(e){var t=this.getReadyToRetrieveProvider();void 0===t&&(this.logger(\"No compatible GDPR privacy provider found\"),e(void 0)),null==t||t.retrieveConsent(e)},je.prototype.readyToRetrieve=function(){return this.tcfv2ConsentProvider.readyToRetrieve()||this.tcfv1ConsentProvider.readyToRetrieve()},je);function je(e,t,i){void 0===i&&(i=function(e){}),this.tcfv1ConsentProvider=e,this.tcfv2ConsentProvider=t,this.logger=i}var Je=(Xe.prototype.getCMPFrame=function(){for(var e,t=this.currentWindow,i=0;i<10;++i){try{t.frames.__cmpLocator&&(e=t)}catch(e){}if(t===this.currentWindow.top)break;t=t.parent}return e},Xe.prototype.hasCallerFunctionInFrame=function(){return\"function\"==typeof this.currentWindow.__cmp},Xe.prototype.readyToRetrieve=function(){return this.hasCallerFunctionInFrame()||void 0!==this.getCMPFrame()},Xe.prototype.pingWithTimeout=function(n,e,t,i){function o(e,t){r.logger(t),clearTimeout(e),i()}var r=this;return window.setTimeout(function(){var i=window.setTimeout(function(){o(n,\"Timeout: Unable to get ping return after \"+e+\"ms\")},e);r.executeCommand(\"ping\",null,function(e,t){clearTimeout(i),t?(r.logger(\"GDPR CMP ping returned\"),!0!==e.cmpLoaded&&o(n,\"GDPR ping returned cmpLoaded which is not true\"),r.logger(\"GDPR ping returned cmpLoaded which is true\")):o(n,\"Error sending ping to GDPR CMP\")})},t)},Xe.prototype.retrieveConsent=function(e){this.executeRetrieveConsent(\"getConsentData\",null,e)},Xe.prototype.retrieveConsentForPassback=function(e){this.executeRetrieveConsent(\"getVendorConsents\",[91],e)},Xe.prototype.executeRetrieveConsent=function(e,t,i){var n=this,o=!1,r=window.setTimeout(function(){o=!0,n.logger(\"Timeout: Unable to resolve GDPR consent after \"+n.timeout+\"ms\"),i(void 0)},this.timeout),s=!1!==this.cmpAutoDetect?this.pingWithTimeout(r,this.pingTimeout,this.pingDelay,function(){o=!0,n.logger(\"Timeout: Unable to ping GDPR API after \"+n.pingTimeout+\"ms\"),i(void 0)}):void 0;this.executeCommand(e,t,function(e,t){clearTimeout(s),o||(clearTimeout(r),t?(n.logger(\"GDPR consent retrieved\"),n.processConsentData(e,i)):(n.logger(\"Error retrieving GDPR consent data from CMP\"),i(void 0)))})},Xe.prototype.processConsentData=function(e,t){if(e){var i={};void 0!==e.consentData&&(i.consentData=e.consentData),void 0!==e.gdprApplies&&(i.gdprApplies=!!e.gdprApplies),t(i)}else this.logger(\"Unable to read GDPR consent data from CMP\"),t(void 0)},Xe.prototype.executeCommand=function(e,t,i){var r=this;if(!this.hasCallerFunctionInFrame()){this.logger(\"No GDPR CMP defined on current frame\");var s=this.getCMPFrame();this.currentWindow.__cmp=function(e,t,i){if(!s)return r.logger(\"GDPR CMP not found in any frame\"),void i({msg:\"GDPR CMP not found in any frame\"},!1);var n=Math.random().toString(10),o={__cmpCall:{command:e,parameter:t,callId:n}};r.cmpCallbacks[n]=i,s.postMessage(o,\"*\")},this.currentWindow.addEventListener(\"message\",function(e){var t=\"string\"==typeof e.data?ze(e.data):e.data;if(t&&t.__cmpReturn&&t.__cmpReturn.callId&&t.__cmpReturn.returnValue){var i=t.__cmpReturn;r.cmpCallbacks&&r.cmpCallbacks[i.callId]&&(r.cmpCallbacks[i.callId](i.returnValue,i.success),delete r.cmpCallbacks[i.callId])}},!1)}this.currentWindow.__cmp(e,t,i)},Xe);function Xe(e,t,i){void 0===i&&(i=function(e){}),this.cmpCallbacks={},this.currentWindow=e,this.timeout=t.tcfTimeout,this.pingTimeout=t.tcfPingTimeout,this.pingDelay=t.tcfPingDelay,this.cmpAutoDetect=t.cmpAutoDetect,this.logger=i}var Ze=(Qe.prototype.getCMPFrame=function(){for(var e,t=this.currentWindow,i=0;i<10;++i){try{t.frames.__tcfapiLocator&&(e=t)}catch(e){}if(t===this.currentWindow.top)break;t=t.parent}return e},Qe.prototype.hasCallerFunctionInFrame=function(){return\"function\"==typeof this.currentWindow.__tcfapi},Qe.prototype.readyToRetrieve=function(){return this.hasCallerFunctionInFrame()||void 0!==this.getCMPFrame()},Qe.prototype.pingWithTimeout=function(i,e,t,n){function o(e,t){r.logger(t),clearTimeout(e),n()}var r=this;return window.setTimeout(function(){var t=window.setTimeout(function(){o(i,\"Timeout: Unable to get TCFv2 ping return after \"+e+\"ms\")},e);r.executeCommand(\"ping\",2,function(e){clearTimeout(t),r.logger(\"TCFv2 CMP ping returned in ms\"),\"error\"===e.cmpStatus?o(i,\"Error status on ping to TCFv2 CMP\"):!0!==e.cmpLoaded?o(i,\"TCFv2 ping returned cmpLoaded = false\"):r.logger(\"TCFv2 ping returned cmpLoaded = true\")})},t)},Qe.prototype.retrieveConsent=function(i){var n=this,o=!1,r=window.setTimeout(function(){o=!0,n.logger(\"Timeout: Unable to resolve TCFv2 consent after \"+n.timeout+\"ms\"),i(void 0)},this.timeout),s=!1!==this.cmpAutoDetect?this.pingWithTimeout(r,this.pingTimeout,this.pingDelay,function(){o=!0,n.logger(\"Timeout: Unable to ping TCFv2 API after \"+n.pingTimeout+\"ms\"),i(void 0)}):void 0;this.executeCommand(\"getTCData\",2,function(e,t){clearTimeout(s),o||(clearTimeout(r),t?(n.logger(\"TCFv2 consent retrieved in ms\"),n.processResponseData(e,i)):(n.logger(\"Error retrieving TCFv2 consent data from CMP\"),i(void 0)))},[91])},Qe.prototype.processResponseData=function(e,t){var i;if(e){var n={};void 0!==e.tcString&&(n.consentData=e.tcString),void 0!==e.gdprApplies&&(n.gdprApplies=!!e.gdprApplies),n.version=e.tcfPolicyVersion?e.tcfPolicyVersion:2,n.purposes=null===(i=null==e?void 0:e.purpose)||void 0===i?void 0:i.consents,t(n)}else this.logger(\"Unable to read GDPR consent data from CMP\"),t(void 0)},Qe.prototype.executeCommand=function(e,t,i,n){var s=this;if(!this.hasCallerFunctionInFrame()){this.logger(\"No TCFv2 CMP defined on current frame\");var a=this.getCMPFrame();this.currentWindow.__tcfapi=function(e,t,i,n){if(!a)return s.logger(\"TCFv2 CMP not found in any frame\"),void i({msg:\"TCFv2 CMP not found in any frame\"},!1);var o=Math.random().toString(10),r={__tcfapiCall:{command:e,version:t,parameter:n,callId:o}};s.cmpCallbacks[o]=i,a.postMessage(r,\"*\")},this.currentWindow.addEventListener(\"message\",function(e){var t=\"string\"==typeof e.data?ze(e.data):e.data;if(t&&t.__tcfapiReturn&&t.__tcfapiReturn.callId&&t.__tcfapiReturn.returnValue){var i=t.__tcfapiReturn;s.cmpCallbacks&&s.cmpCallbacks[i.callId]&&\"function\"==typeof s.cmpCallbacks[i.callId]&&(s.cmpCallbacks[i.callId](i.returnValue,i.success),delete s.cmpCallbacks[i.callId])}},!1)}this.currentWindow.__tcfapi(e,t,i,n)},Qe);function Qe(e,t,i){void 0===i&&(i=function(e){}),this.cmpCallbacks={},this.currentWindow=e,this.timeout=t.tcfTimeout,this.pingTimeout=t.tcfPingTimeout,this.pingDelay=t.tcfPingDelay,this.cmpAutoDetect=t.cmpAutoDetect,this.logger=i}var $e=(et.prototype.checkTcfPurposeOne=function(e){return!e||!e.purposes||!0===e.purposes[1]},et.prototype.setCookie=function(e,t,i,n,o){void 0===o&&(o=!1);var r=n||document,s=r.location.hostname,a=new Date;a.setTime(a.getTime()+60*i*60*1e3);var d=\"expires=\"+a.toUTCString();if(!o)return this.setCookieString(e,t,d,void 0,r),s;for(var c=s.split(\".\"),l=0;l<c.length;++l){var u=c.slice(c.length-l-1,c.length).join(\".\");this.setCookieString(e,t,d,u,r);var p=this.getCookie(e,n);if(p&&p===t)return u}return s},et.prototype.deleteCookie=function(e,t,i){void 0===i&&(i=!1),this.setCookie(e,\"\",0,t,i)},et.prototype.getCookie=function(e,t){if(this.cookiesEnabled)for(var i=0,n=(t||document).cookie.split(\";\");i<n.length;i++){var o=n[i],r=o.substr(0,o.indexOf(\"=\")).replace(/^\\s+|\\s+$/g,\"\"),s=o.substr(o.indexOf(\"=\")+1);if(r===e)return decodeURIComponent(s)}},et.prototype.setCookieString=function(e,t,i,n,o){if(this.cookiesEnabled){var r=e+\"=\"+encodeURIComponent(t)+\";\"+i+\";\";n&&\"\"!==n&&(r+=\"domain=.\"+n+\";\"),o.cookie=r+\"path=/\"}},et);function et(e){this.cookiesEnabled=this.checkTcfPurposeOne(e)}var tt=(it.prototype.initializeServices=function(){var n=this;this.initializing=!0,this.retrievePrivacyConsent(function(e,t){var i={localStorageHelper:new me(n.topFrame,t),gdprConsent:t,ccpaConsentProvider:n.ccpaConsentProvider,ccpaConsent:e,cookieHelper:new $e(t)};n.services=i,n.initialized=!0,n.initializing=!1,n.postInitiliazeServicesCallbacks.forEach(function(e){e(i)})})},it.prototype.getServicesAsync=function(e){this.initialized?e(this.services):(this.postInitiliazeServicesCallbacks.push(e),this.initializing||this.initializeServices())},it.prototype.retrievePrivacyConsent=function(t){var e=this.tcfCompatibleConsentProvider.readyToRetrieve(),i=this.ccpaConsentProvider.readyToRetrieve();e||i||t(void 0,void 0);var n,o,r=[];e&&r.push(Ye),i&&r.push(Ge),e&&this.tcfCompatibleConsentProvider.retrieveConsent(function(e){r.splice(r.indexOf(\"TCF\"),1),0===r.length?t(o,e):n=e}),i&&this.ccpaConsentProvider.retrieveConsent(function(e){r.splice(r.indexOf(\"CCPA\"),1),0===r.length?t(e,n):o=e})},it);function it(e,t,i,n){this.initializing=!1,this.initialized=!1,this.postInitiliazeServicesCallbacks=[],this.topFrame=e||window;var o,r=(o=n,{uspApiTimeout:parseInt(\"50\",10),tcfTimeout:parseInt(\"10000\",10),tcfPingTimeout:Math.min(parseInt(\"10000\",10),parseInt(\"50\",10)),tcfPingDelay:Math.min(parseInt(\"10000\",10),parseInt(\"1000\",10)),cmpAutoDetect:null==o?void 0:o.cmpAutoDetect});this.ccpaConsentProvider=t||new Ge(window,r,M.Warning);var s=new Je(window,r,M.Warning),a=new Ze(window,r,M.Warning);this.tcfCompatibleConsentProvider=i||new Ye(s,a,M.Warning),this.initializeServices()}var nt,ot=(e(rt,nt=h),rt.prototype.getMetricBuilder=function(){return this.metricBuilder},rt.prototype.eval=function(e){this.evalWithTimeout(e,void 0)},rt.prototype.evalWithTimeout=function(t,i){var n=this;(this.serviceProvider||new tt).getServicesAsync(function(e){n.metricsManager||(n.metricsManager=new j(e.localStorageHelper)),n.metricBuilder||(n.metricBuilder=new k(n.metricsManager)),n.innerEval(t,n.metricBuilder,e.gdprConsent,e.ccpaConsent,i)})},rt.prototype.innerEval=function(n,o,r,s,e){var a=this,d=te(),t=rt.getCriteoAdapterBidRequest(),i=rt.getRequestAuctionStart(t),c=e||le(t&&t.timeout),l=new se(o,i,c),u=new Q(this.slots,n.context,this.urlBuilder,this.profileId,this.integrationMode,this.networkId,this.adapterVersion,{ccpaIabConsent:s,gdprConsent:r},void 0,this.viewportComputer,c,d,n.context.userIds,Math.round(new Date/1e3));if(!u.isValid()||\"undefined\"==typeof JSON)return M.Debug(\"Request ignored because it doesnt contain any slot\"),void this.callbackError(void 0,void 0);var p=u.getRequest(),h=JSON.stringify(p),v=u.getUrl(),g=new ke(v,h,\"application/x-www-form-urlencoded\");l.sendRequest(v),g.send(function(e){try{l.requestReceived();var t=F(e)||{},i=ee(t);void 0!==a.callbackSuccess&&a.callbackSuccess(JSON.stringify(t),i),l.finish(),!0===t.user_sync&&Ne.execUserSync(n.context.remoteLogging,r,s,t),o.getMetricsManager().sendEvents(o,d,!0)}catch(e){a.reportAsyncRequestException(n,\"onSuccess\",e)}n.context.remoteLogging.sendErrorReport(a.urlBuilder,d),a.metricBuilder=void 0},function(e,t){try{l.requestReceived(),void 0!==a.callbackError&&a.callbackError(e,t),l.finish(),o.getMetricsManager().sendEvents(o,d,!0)}catch(e){a.reportAsyncRequestException(n,\"onError\",e)}n.context.remoteLogging.sendErrorReport(a.urlBuilder,d),a.metricBuilder=void 0},function(){try{l.requestReceived(!0),void 0!==a.callbackTimeout&&a.callbackTimeout(),l.finish(),o.getMetricsManager().sendEvents(o,d,!0)}catch(e){a.reportAsyncRequestException(n,\"onTimeout\",e)}n.context.remoteLogging.sendErrorReport(a.urlBuilder,d),a.metricBuilder=void 0},this.timeout)},rt.prototype.reportAsyncRequestException=function(e,t,i){var n=i.stack?i.stack:i.toString();e.context.remoteLogging.log(\"Exception\",\"Exception caught in AsyncRequest \"+t+\" callback:\\n\"+n),M.Error(\"Error \"+t+\":\\n\\t\"+n)},rt.getCriteoAdapterBidRequest=function(){try{return window.pbjs._bidsRequested.find(function(e){return\"criteo\"===e.bidderCode})}catch(e){return}},rt.getRequestAuctionStart=function(e){return e&&e.auctionStart},rt.NAME=\"directbidding\",rt);function rt(e,t,i,n,o,r,s,a,d,c,l,u,p){var h=nt.call(this,rt.NAME)||this;return h.profileId=e,h.urlBuilder=t,h.slots=i,h.callbackSuccess=n,h.callbackError=o,h.callbackTimeout=r,h.serviceProvider=s,h.timeout=d,h.networkId=c,h.integrationMode=l,h.adapterVersion=u,h.viewportComputer=p,h.metricsManager=a,h.metricsManager&&(h.metricBuilder=new k(h.metricsManager)),h}var st,at=(e(dt,st=h),dt.prototype.eval=function(e){var t=this;if(this.cache.silentModeEnabled())return M.Debug(\"Request ignored because the global silent mode is enabled\"),this.metricsManager.incSilentModeRequestCount(),void this.callbackSuccess(\"\",void 0);setTimeout(function(){return t.onTimeout()},this.timeout||3e3),this.directBiddingEvent.evalWithTimeout(e,this.timeout)},dt.prototype.onSuccess=function(e,t){if(this.hasResponded=!0,void 0!==t){var i=F(e);this.cache.handleResponse(this.slots,i,t,this.hasTimeouted)}this.hasTimeouted||this.callbackSuccess(e,t),this.cache.clearExpiredItems()},dt.prototype.onError=function(e,t){this.hasResponded=!0,this.hasTimeouted||this.callbackError(e,t),this.cache.clearExpiredItems()},dt.prototype.onHttpTimeout=function(){this.hasResponded=!0,this.hasTimeouted||this.callbackTimeout(),this.cache.clearExpiredItems()},dt.prototype.onTimeout=function(){var e;if(!this.hasResponded){this.hasTimeouted=!0;var t=this.cache.getCachedBids(this.slots),i=Object.keys(t),n=i.map(function(e){return t[e]});0===Object.keys(t).length?this.callbackTimeout():(M.Debug(\"Cached bids returned because of timeout: ['\"+n.map(function(e){return e.impid}).join(\"', '\")+\"']\"),null===(e=this.getMetricBuilder())||void 0===e||e.withSlotIdsMatchedByCache(i),this.callbackSuccess(JSON.stringify({slots:n}),void 0))}},dt.prototype.getMetricBuilder=function(){return this.directBiddingEvent.getMetricBuilder()},dt.prototype.getBidCache=function(){return this.cache},dt.NAME=\"directbidding\",dt);function dt(e,t,i,n,o,r,s,a,d,c,l,u,p,h){var v=st.call(this,dt.NAME)||this,g=Math.max(10*(c||3e3),3e3);return v.cache=a,v.directBiddingEvent=new ot(e,t,v.cache.filterNoBidSlots(i),function(e,t){return v.onSuccess(e,t)},function(e,t){return v.onError(e,t)},function(){return v.onHttpTimeout()},d,s,g,l,u,p,h),v.slots=i,v.callbackSuccess=n,v.callbackError=o,v.callbackTimeout=r,v.timeout=c,v.hasTimeouted=!1,v.hasResponded=!1,v.metricsManager=s,v}var ct={prebid:\"criteo_fast_bid\",index:\"criteo_fast_bid_index\"};function lt(e){function t(){try{return i.apply(this,arguments)}catch(e){M.Error(\"Exception caught: \"+e.toString())}}var i=e;for(var n in t.prototype=i.prototype,i)i.hasOwnProperty(n)&&(t[n]=i[n]);return t}var ut=\"undefined\"!=typeof globalThis?globalThis:\"undefined\"!=typeof window?window:\"undefined\"!=typeof global?global:\"undefined\"!=typeof self?self:{};var pt,ht,vt,gt=(function(e,t){var i;i=function(){function d(e){return\"function\"==typeof e}var i=Array.isArray?Array.isArray:function(e){return\"[object Array]\"===Object.prototype.toString.call(e)},n=0,t=void 0,o=void 0,s=function(e,t){p[n]=e,p[n+1]=t,2===(n+=2)&&(o?o(h):y())};var e=\"undefined\"!=typeof window?window:void 0,r=e||{},a=r.MutationObserver||r.WebKitMutationObserver,c=\"undefined\"==typeof self&&\"undefined\"!=typeof process&&\"[object process]\"==={}.toString.call(process),l=\"undefined\"!=typeof Uint8ClampedArray&&\"undefined\"!=typeof importScripts&&\"undefined\"!=typeof MessageChannel;function u(){var e=setTimeout;return function(){return e(h,1)}}var p=new Array(1e3);function h(){for(var e=0;e<n;e+=2){(0,p[e])(p[e+1]),p[e]=void 0,p[e+1]=void 0}n=0}var v,g,f,m,y=void 0;function C(e,t){var i=this,n=new this.constructor(b);void 0===n[w]&&F(n);var o=i._state;if(o){var r=arguments[o-1];s(function(){return k(o,n,r,i._result)})}else D(i,n,e,t);return n}function E(e){if(e&&\"object\"==typeof e&&e.constructor===this)return e;var t=new this(b);return R(t,e),t}y=c?function(){return process.nextTick(h)}:a?(g=0,f=new a(h),m=document.createTextNode(\"\"),f.observe(m,{characterData:!0}),function(){m.data=g=++g%2}):l?((v=new MessageChannel).port1.onmessage=h,function(){return v.port2.postMessage(0)}):(void 0===e?function(){try{var e=Function(\"return this\")().require(\"vertx\");return void 0!==(t=e.runOnLoop||e.runOnContext)?function(){t(h)}:u()}catch(e){return u()}}:u)();var w=Math.random().toString(36).substring(2);function b(){}var I=void 0,_=1,S=2;function T(e,n,o){s(function(t){var i=!1,e=function(e,t,i,n){try{e.call(t,i,n)}catch(e){return e}}(o,n,function(e){i||(i=!0,(n!==e?R:P)(t,e))},function(e){i||(i=!0,x(t,e))},t._label);!i&&e&&(i=!0,x(t,e))},e)}function A(e,t,i){var n,o;t.constructor===e.constructor&&i===C&&t.constructor.resolve===E?(n=e,(o=t)._state===_?P(n,o._result):o._state===S?x(n,o._result):D(o,void 0,function(e){return R(n,e)},function(e){return x(n,e)})):void 0===i?P(e,t):d(i)?T(e,t,i):P(e,t)}function R(t,e){if(t===e)x(t,new TypeError(\"You cannot resolve a promise with itself\"));else if(o=typeof(n=e),null===n||\"object\"!=o&&\"function\"!=o)P(t,e);else{var i=void 0;try{i=e.then}catch(e){return void x(t,e)}A(t,e,i)}var n,o}function M(e){e._onerror&&e._onerror(e._result),O(e)}function P(e,t){e._state===I&&(e._result=t,e._state=_,0!==e._subscribers.length&&s(O,e))}function x(e,t){e._state===I&&(e._state=S,e._result=t,s(M,e))}function D(e,t,i,n){var o=e._subscribers,r=o.length;e._onerror=null,o[r]=t,o[r+_]=i,o[r+S]=n,0===r&&e._state&&s(O,e)}function O(e){var t=e._subscribers,i=e._state;if(0!==t.length){for(var n=void 0,o=void 0,r=e._result,s=0;s<t.length;s+=3)n=t[s],o=t[s+i],n?k(i,n,o,r):o(r);e._subscribers.length=0}}function k(e,t,i,n){var o=d(i),r=void 0,s=void 0,a=!0;if(o){try{r=i(n)}catch(e){a=!1,s=e}if(t===r)return void x(t,new TypeError(\"A promises callback cannot return that same promise.\"))}else r=n;t._state!==I||(o&&a?R(t,r):!1===a?x(t,s):e===_?P(t,r):e===S&&x(t,r))}var B=0;function F(e){e[w]=B++,e._state=void 0,e._result=void 0,e._subscribers=[]}var U=(N.prototype._enumerate=function(e){for(var t=0;this._state===I&&t<e.length;t++)this._eachEntry(e[t],t)},N.prototype._eachEntry=function(t,e){var i=this._instanceConstructor,n=i.resolve;if(n===E){var o=void 0,r=void 0,s=!1;try{o=t.then}catch(e){s=!0,r=e}if(o===C&&t._state!==I)this._settledAt(t._state,e,t._result);else if(\"function\"!=typeof o)this._remaining--,this._result[e]=t;else if(i===L){var a=new i(b);s?x(a,r):A(a,t,o),this._willSettleAt(a,e)}else this._willSettleAt(new i(function(e){return e(t)}),e)}else this._willSettleAt(n(t),e)},N.prototype._settledAt=function(e,t,i){var n=this.promise;n._state===I&&(this._remaining--,e===S?x(n,i):this._result[t]=i),0===this._remaining&&P(n,this._result)},N.prototype._willSettleAt=function(e,t){var i=this;D(e,void 0,function(e){return i._settledAt(_,t,e)},function(e){return i._settledAt(S,t,e)})},N);function N(e,t){this._instanceConstructor=e,this.promise=new e(b),this.promise[w]||F(this.promise),i(t)?(this.length=t.length,this._remaining=t.length,this._result=new Array(this.length),0===this.length?P(this.promise,this._result):(this.length=this.length||0,this._enumerate(t),0===this._remaining&&P(this.promise,this._result))):x(this.promise,new Error(\"Array Methods must be provided an Array\"))}var L=(H.prototype.catch=function(e){return this.then(null,e)},H.prototype.finally=function(t){var i=this.constructor;return d(t)?this.then(function(e){return i.resolve(t()).then(function(){return e})},function(e){return i.resolve(t()).then(function(){throw e})}):this.then(t,t)},H);function H(e){this[w]=B++,this._result=this._state=void 0,this._subscribers=[],b!==e&&(\"function\"!=typeof e&&function(){throw new TypeError(\"You must pass a resolver function as the first argument to the promise constructor\")}(),this instanceof H?function(t,e){try{e(function(e){R(t,e)},function(e){x(t,e)})}catch(e){x(t,e)}}(this,e):function(){throw new TypeError(\"Failed to construct 'Promise': Please use the 'new' operator, this object constructor cannot be called as a function.\")}())}return L.prototype.then=C,L.all=function(e){return new U(this,e).promise},L.race=function(o){var r=this;return i(o)?new r(function(e,t){for(var i=o.length,n=0;n<i;n++)r.resolve(o[n]).then(e,t)}):new r(function(e,t){return t(new TypeError(\"You must pass an array to race.\"))})},L.resolve=E,L.reject=function(e){var t=new this(b);return x(t,e),t},L._setScheduler=function(e){o=e},L._setAsap=function(e){s=e},L._asap=s,L.polyfill=function(){var e=void 0;if(void 0!==ut)e=ut;else if(\"undefined\"!=typeof self)e=self;else try{e=Function(\"return this\")()}catch(e){throw new Error(\"polyfill failed because global object is unavailable in this environment\")}var t=e.Promise;if(t){var i=null;try{i=Object.prototype.toString.call(t.resolve())}catch(e){}if(\"[object Promise]\"===i&&!t.cast)return}e.Promise=L},L.Promise=L},e.exports=i()}(pt={exports:{}},pt.exports),pt.exports).polyfill,ft=(mt.LoadPolyfills=function(){mt.DefineIsArray(),mt.DefineIndexOf(),mt.DefineFilter(),mt.DefinePromise()},mt.DefinePromise=function(){window.Promise||gt()},mt.DefineIsArray=function(){Array.isArray||(Array.isArray=function(e){return\"[object Array]\"===Object.prototype.toString.call(e)})},mt.DefineIndexOf=function(){Array.prototype.indexOf||(Array.prototype.indexOf=function(e,t){if(void 0===t&&(t=0),void 0===this)throw new TypeError(\"'this' is null or not defined\");var i=this.length;if(0===i)return-1;if(i<=t)return-1;for(var n=Math.max(0<=t?t:i-Math.abs(t),0);n<i;){if(n in this&&this[n]===e)return n;n++}return-1})},mt.DefineFilter=function(){Array.prototype.filter||(Array.prototype.filter=function(e){if(void 0===this||void 0===this)throw new TypeError;var t=this.length;if(\"function\"!=typeof e)throw new TypeError;for(var i=[],n=2<=arguments.length?arguments[1]:void 0,o=0;o<t;o++)if(o in this){var r=this[o];e.call(n,r,o,this)&&i.push(r)}return i})},mt);function mt(){}function yt(t,i){try{return decodeURIComponent(t)}catch(e){return void 0!==i?i:t}}(vt=ht=ht||{})[vt.None=0]=\"None\",vt[vt.Cookie=1]=\"Cookie\",vt[vt.LocalStorage=2]=\"LocalStorage\";var Ct=(Et.prototype.synchronizeCriteoUid=function(e,t){var i=this;if(this.gdprConsent=e,this.topWin.addEventListener)if(\"complete\"===this.topDoc.readyState)this.appendGumIframeIfDoesNotExist(t);else{var n=function(){i.topDoc.removeEventListener(\"DOMContentLoaded\",n),i.topWin.removeEventListener(\"load\",n),i.appendGumIframeIfDoesNotExist(t)};this.topWin.addEventListener(\"load\",n,!1),this.topDoc.addEventListener(\"DOMContentLoaded\",n,!1)}},Et.prototype.appendGumIframeIfDoesNotExist=function(r){var s=this,e=this.createGumIframe();this.topDoc.getElementById(Et.SYNCFRAME_ID)||(this.topWin.addEventListener(\"message\",function(e){var t=e.data;if(t&&e.origin==Et.SYNCFRAME_ORIGIN)if(e.stopImmediatePropagation(),t.optout)s.setClientSideOptOut(),s.deleteClientSideUid(),s.deleteClientSideSecureId(),s.deleteBundle();else{if(t.uid&&s.setClientSideUid(t.uid),t.callbacks)for(var i=0,n=\"string\"==typeof t.callbacks?[t.callbacks]:t.callbacks;i<n.length;i++){var o=n[i];(new Image).src=o}else t.bundle&&(s.setBundle(t.bundle),r&&r(t.enableEsp?t.bundle:\"\"));t.removeSid?s.deleteClientSideSecureId():t.sid&&s.setClientSideSecureId(t.sid)}},!0),this.topDoc.body.appendChild(e))},Et.prototype.getClientSideUid=function(){return this.getFromAllStorages(Et.GUID_COOKIE_NAME)},Et.prototype.setClientSideUid=function(e){this.writeOnAllStorages(Et.GUID_COOKIE_NAME,e,Et.GUID_RETENTION_TIME_HOUR)},Et.prototype.deleteClientSideUid=function(){this.deleteFromAllStorage(Et.GUID_COOKIE_NAME)},Et.prototype.getBundle=function(){return this.getFromAllStorages(Et.BUNDLE_COOKIE_NAME)},Et.prototype.setBundle=function(e){this.writeOnAllStorages(Et.BUNDLE_COOKIE_NAME,e,Et.GUID_RETENTION_TIME_HOUR)},Et.prototype.deleteBundle=function(){this.deleteFromAllStorage(Et.BUNDLE_COOKIE_NAME)},Et.prototype.getClientSideOptOut=function(){var e=this.getFromAllStorages(Et.OPTOUT_COOKIE_NAME);return{value:\"1\"===e.value,origin:e.origin}},Et.prototype.setClientSideOptOut=function(){this.writeOnAllStorages(Et.OPTOUT_COOKIE_NAME,\"1\",Et.OPTOUT_RETENTION_TIME_HOUR)},Et.prototype.getClientSideSecureId=function(){return this.getFromAllStorages(Et.SECURE_ID_COOKIE_NAME)},Et.prototype.setClientSideSecureId=function(e){this.writeOnAllStorages(Et.SECURE_ID_COOKIE_NAME,e,Et.GUID_RETENTION_TIME_HOUR)},Et.prototype.deleteClientSideSecureId=function(){this.deleteFromAllStorage(Et.SECURE_ID_COOKIE_NAME)},Et.prototype.getClientSideLocalWebId=function(){return this.getFromAllStorages(Et.LOCAL_WEB_ID_COOKIE_NAME)},Et.prototype.getIfa=function(){return this.getFromAllStorages(Et.IFA_COOKIE_NAME)},Et.prototype.checkCookiesAreWriteable=function(){var e=\"cto_writeable\";this.cookieHelper.setCookie(e,\"1\",1,this.topDoc,!0);var t=\"1\"===this.cookieHelper.getCookie(e,this.topDoc);return this.cookieHelper.deleteCookie(e,this.topDoc,!0),t},Et.prototype.createGumIframe=function(){var e=this.topDoc.createElement(\"iframe\");return e.src=this.buildSyncframeSrc(),e.id=Et.SYNCFRAME_ID,e.style.display=\"none\",e},Et.prototype.writeOnAllStorages=function(e,t,i){this.localStorageHelper.setItem(e,t),this.cookieHelper.setCookie(e,t,i,this.topDoc,!0)},Et.prototype.getFromAllStorages=function(e){var t=this.cookieHelper.getCookie(e,this.topDoc),i=this.localStorageHelper.getItem(e)||void 0;return{value:t||i,origin:(t&&ht.Cookie)|(i&&ht.LocalStorage)}},Et.prototype.deleteFromAllStorage=function(e){this.cookieHelper.deleteCookie(e,this.topDoc,!0),this.localStorageHelper.removeItem(e)},Et.prototype.getTld=function(){var e=this.cookieHelper.setCookie(Et.TLD_TEST_COOKIE_NAME,\"test\",1,this.topDoc,!0);return this.cookieHelper.deleteCookie(Et.TLD_TEST_COOKIE_NAME,this.topDoc,!0),e},Et.prototype.buildSyncframeSrc=function(){var e,t,i=this.getClientSideUid(),n=this.getClientSideOptOut(),o=this.getClientSideSecureId(),r=this.getClientSideLocalWebId(),s=this.getBundle(),a=this.getIfa(),d=this.getTld(),c=encodeURIComponent((e=this.topUrl,(t=document.createElement(\"a\")).href=e,{protocol:t.protocol,host:t.host,hostname:t.hostname,pathname:\"/\"===t.pathname[0]?t.pathname.slice(1):t.pathname,search:t.search,href:t.href}).hostname),l=this.canWriteCookies,u=this.localStorageHelper.localStorageEnabled,p=[];p.push(\"topUrl=\"+c),this.gdprConsent&&(void 0!==this.gdprConsent.gdprApplies&&p.push(\"gdpr=\"+(this.gdprConsent.gdprApplies?1:0)),p.push(\"gdpr_consent=\"+(this.gdprConsent.consentData?this.gdprConsent.consentData:\"\"))),this.isDebug&&p.push(\"debug=1\");var h=JSON.stringify({optout:n,uid:i,sid:o,origin:\"publishertag\",version:106,lwid:r,tld:d,bundle:s,topUrl:c,cw:l,ifa:a,lsw:u});return Et.SYNCFRAME_ENDPOINT+\"?\"+p.join(\"&\")+\"#\"+h},Et.GUID_COOKIE_NAME=\"cto_idcpy\",Et.GUID_RETENTION_TIME_HOUR=9360,Et.SECURE_ID_COOKIE_NAME=\"cto_sid\",Et.LOCAL_WEB_ID_COOKIE_NAME=\"cto_lwid\",Et.BUNDLE_COOKIE_NAME=\"cto_bundle\",Et.OPTOUT_COOKIE_NAME=\"cto_optout\",Et.IFA_COOKIE_NAME=\"id_controller_ifa\",Et.OPTOUT_RETENTION_TIME_HOUR=43200,Et.TLD_TEST_COOKIE_NAME=\"cto_pub_test_tld\",Et.SYNCFRAME_ID=\"criteo-syncframe\",Et.SYNCFRAME_ORIGIN=\"https://gum.criteo.com\",Et.SYNCFRAME_ENDPOINT=\"https://gum.criteo.com/syncframe\",Et);function Et(e,t,i,n,o){this.isDebug=n,this.topWin=i,this.topDoc=i.document,this.cookieHelper=e,this.localStorageHelper=t,this.canWriteCookies=this.checkCookiesAreWriteable(),this.topUrl=o}var wt=function(e,t){this.errorType=e,this.messages=t},bt=function(e,t,i){this.environment=e,this.errors=t,this.requestId=i},It=(_t.prototype.withMessage=function(e,t){return e in this.messages||(this.messages[e]=new Array),this.messages[e].push(t),this},_t.prototype.withRequestId=function(e){return this.requestId=e,this},_t.prototype.build=function(){var e=Array();for(var t in this.messages)null!=t&&e.push(new wt(t,this.messages[t]));return new bt(this.environment,e,this.requestId)},_t);function _t(e){this.messages={},this.environment=e}var St,Tt,At=(Rt.prototype.reportPending=function(){return this.shouldSend},Rt.prototype.sendErrorReport=function(e,t){if(this.shouldSend){void 0!==t&&this.builder.withRequestId(t);var i=this.builder.build(),n=e.buildErrorUrl();n+=this.debug?\"?debug=1\":\"\";var o=JSON.stringify(i);navigator.sendBeacon&&navigator.sendBeacon(n,o),this.shouldSend=!1,this.builder=new It(Rt.environment)}},Rt.prototype.log=function(e,t){this.shouldSend=!0,this.builder.withMessage(e,t)},Rt.environment=\"PublisherTag Version \"+W,Rt);function Rt(e){void 0===e&&(e=!1),this.builder=new It(Rt.environment),this.shouldSend=!1,this.debug=e}function Mt(e){window.googletag=window.googletag||{},window.googletag.cmd=window.googletag.cmd||[],window.googletag.cmd.push(e)}(Tt=St=St||{})[Tt.InFriendlyIframe=1]=\"InFriendlyIframe\",Tt[Tt.InUnfriendlyIframe=2]=\"InUnfriendlyIframe\",Tt[Tt.DirectIntegration=3]=\"DirectIntegration\";var Pt=(xt.prototype.getUserContextualData=function(){var e,t,i,n,o,r,s,a,d,c,l,u,p,h;return{data:{contentLanguage:this.getContentLanguage(),navigatorLanguage:null===(t=null===(e=this.window)||void 0===e?void 0:e.navigator)||void 0===t?void 0:t.language,orientation:this.getOrientation(),windowInnerWidth:null===(i=this.window)||void 0===i?void 0:i.innerWidth,windowInnerHeight:null===(n=this.window)||void 0===n?void 0:n.innerHeight,pageWidth:null===(s=null===(r=null===(o=this.window)||void 0===o?void 0:o.document)||void 0===r?void 0:r.documentElement)||void 0===s?void 0:s.scrollWidth,pageHeight:null===(c=null===(d=null===(a=this.window)||void 0===a?void 0:a.document)||void 0===d?void 0:d.documentElement)||void 0===c?void 0:c.scrollHeight,sessionDuration:oe.TimeSincePageLoad()},device:{w:null===(u=null===(l=this.window)||void 0===l?void 0:l.screen)||void 0===u?void 0:u.width,h:null===(h=null===(p=this.window)||void 0===p?void 0:p.screen)||void 0===h?void 0:h.height}}},xt.prototype.getOrientation=function(){var e,t,i,n,o,r;return((null===(t=null===(e=this.window)||void 0===e?void 0:e.screen)||void 0===t?void 0:t.orientation)||{}).type||(null===(n=null===(i=this.window)||void 0===i?void 0:i.screen)||void 0===n?void 0:n.mozOrientation)||(null===(r=null===(o=this.window)||void 0===o?void 0:o.screen)||void 0===r?void 0:r.msOrientation)},xt.prototype.getContentLanguage=function(){var e,t,i,n,o,r=null===(i=null===(t=null===(e=this.window)||void 0===e?void 0:e.document)||void 0===t?void 0:t.documentElement)||void 0===i?void 0:i.lang;if(!r&&\"function\"==typeof(null===(o=null===(n=this.window)||void 0===n?void 0:n.document)||void 0===o?void 0:o.querySelector)){var s=this.window.document.querySelector('meta[http-equiv=\"Content-Language\"]');r=null==s?void 0:s.content}return r},xt);function xt(e){this.window=e}var Dt,Ot=(e(kt,Dt=G),kt.prototype.sendSetEspPromiseTime=function(){this.sendEvents({eventId:\"SetEspPromise\",elapsed:oe.TimeSincePageLoad()})},kt.prototype.sendReturnEspPromiseToGptTime=function(){this.sendEvents({eventId:\"ReturnEspPromiseToGpt\",elapsed:oe.TimeSincePageLoad()})},kt.prototype.sendResolveEspPromiseTime=function(){this.sendEvents({eventId:\"ResolveEspPromise\",elapsed:oe.TimeSincePageLoad()})},kt.prototype.sendEvents=function(e){var t={requestId:this.context.getClientSessionId(),events:[e]};this.context.isEligibleForCsmEvents()&&this.sendEventsToBeacon(t,this.urlBuilder.buildCsmEventsUrl())},kt);function kt(e){var t=Dt.call(this)||this;return t.context=e,t}var Bt=(Ft.prototype.getContextFlags=function(){var e=\"\";return e+=this.debugMode?\"&debug=1\":\"\",e+=this.noLog?\"&nolog=1\":\"\"},Ft.prototype.isEligibleForCsmEvents=function(){return this.sessionRandomId%100==0},Ft.prototype.getClientSessionId=function(){return this.clientSessionId},Ft.prototype.getMetricsManager=function(){return this.contextMetricsManager},Ft.prototype.getDisplayContext=function(e){return he.inIframe()?e.err?St.InUnfriendlyIframe:St.InFriendlyIframe:St.DirectIntegration},Ft.prototype.getQueryStringParams=function(e){var t={},i=e.split(\"?\");if(1<i.length)for(var n=0,o=i[1].split(\"&\");n<o.length;n++){var r=o[n].split(\"=\");t[yt(r[0])]=yt(r[1])}return t},Ft.prototype.synchronizeCriteoUid=function(e,t,i){var n,o=this,r=(null===(n=this.cookieSynchronizerFactory)||void 0===n?void 0:n.call(this))||new Ct(t,e,this.highestAccessibleWindowStruct.topFrame,this.debugMode,this.highestAccessibleUrl);this.ctoIdOnPublisherDomain=r.getClientSideUid().value,this.isOptOut=r.getClientSideOptOut().value,this.secureId=r.getClientSideSecureId().value,this.bundle=r.getBundle().value;var s,a,d=new Promise(function(t,e){r.synchronizeCriteoUid(i,function(e){M.Debug(\"Resolving GPT ESP Promise\"),o.contextMetricsManager.sendResolveEspPromiseTime(),t(e)})});window.googletag&&(s=this.contextMetricsManager,a=d,Mt(function(){var e;window.googletag.encryptedSignalSource=null!==(e=window.googletag.encryptedSignalSource)&&void 0!==e?e:{},M.Debug(\"Promise set for GPT ESP\"),window.googletag.encryptedSignalSource.criteo=function(){return M.Debug(\"Returning Promise to GPT\"),s.sendReturnEspPromiseToGptTime(),a},s.sendSetEspPromiseTime()}))},Ft.prototype.getIdfs=function(){return[\"\",this.secureId].join(\":\")},Ft.prototype.setIdfs=function(e){var t=e.split(\":\");t[1]&&(this.secureId=t[1])},Ft.prototype.computeShouldIgnoreSilentMode=function(){return Math.floor(100*Math.random())<5},Ft.prototype.setSilentModeIgnored=function(){this.silentModeIgnored=!0},Ft.prototype.setPublisherExt=function(e){this.publisherExt=e},Ft.prototype.getPublisherExt=function(){return this.publisherExt},Ft.prototype.setUserExt=function(e){this.userExt=e},Ft.prototype.getUserExtWithContextualData=function(){this.userExt=this.userExt||{};var e=this.userContextualDataManager.getUserContextualData();return this.userExt.data=_(_({},this.userExt.data),null==e?void 0:e.data),this.userExt.device=_(_({},this.userExt.device),null==e?void 0:e.device),this.userExt},Ft);function Ft(e,t,i,n,o,r,s,a){var d=this;void 0===s&&(s=(new Date).getUTCMilliseconds()),void 0===a&&(a=te()),this.cloneByImpressionId={},this.sessionRandomId=s,this.clientSessionId=a,this.contextMetricsManager=new Ot(this),this.charset=e.charset||e.characterSet||\"\",this.highestAccessibleWindowStruct=he.getHighestAccessibleWindow(t),this.displayContext=this.getDisplayContext(this.highestAccessibleWindowStruct),this.highestAccessibleUrl=he.getHighestAccessibleUrl(this.highestAccessibleWindowStruct),this.cookieSynchronizerFactory=i;var c,l=this.getQueryStringParams(this.highestAccessibleUrl);this.debugMode=\"1\"===l.pbt_debug||!1,this.noLog=\"1\"===l.pbt_nolog||!1,this.shouldIgnoreSilentMode=this.computeShouldIgnoreSilentMode(),this.silentModeIgnored=!1,this.remoteLogging=new At(this.debugMode),this.debugMode&&(c=u.Debug,M.LOGLEVEL=c),this.location=t.location,this.dising=!1,this.ct0=void 0,this.wpdt0=void 0,this.isAdBlocked=void 0,this.rtaVarNames=[],this.serviceProvider=n||new tt(this.highestAccessibleWindowStruct.topFrame,void 0,void 0,o),this.serviceProvider.getServicesAsync(function(e){var t;(null===(t=e.ccpaConsentProvider)||void 0===t?void 0:t.hasUserOptOut(e.ccpaConsent))||d.synchronizeCriteoUid(e.localStorageHelper,e.cookieHelper,e.gdprConsent)}),this.userContextualDataManager=r||new Pt(t)}var Ut=function(){this.bids={},this.lineItemRanges=[],this.impIds=[]};var Nt,Lt,Ht,qt=(Wt.prototype.push=function(){for(var e=[],t=0;t<arguments.length;t++)e[t]=arguments[t];for(var i=0,n=e;i<n.length;i++){var o=n[i];this.events.push(o)}this.evalEvents()},Wt.prototype.evalEvents=function(){for(var e=0;e<this.events.length;){var t=this.events[e];if(\"conditionalEvent\"!==t.name||t.canEval()){var i=this.events.splice(e,1);try{i[0].eval(this)}catch(e){M.Error(\"An exception occurred processing an event: \"+e.toString())}}else e++}},Wt.VERSION=W,Wt);function Wt(e){var t;void 0===e&&(e=null===(t=window.Criteo_prebid_106||window.Criteo)||void 0===t?void 0:t.config),this.standaloneBidder=new Ut,this.events=[],this.context=new Bt(document,window,void 0,void 0,e),M.Debug(\"Publisher Tag loaded\")}Nt=function e(t){for(var i in t)if(i in t){var n=t[i];\"function\"==typeof n?t[i]=lt(n):\"object\"==typeof n&&(t[i]=e(n))}return t}({PubTag:{Adapters:{Prebid:We},DirectBidding:{DirectBiddingEvent:at,DirectBiddingSlot:ie,DirectBiddingUrlBuilder:K,Size:de}},events:window.Criteo?window.Criteo.events:[],passbackEvents:window.Criteo?window.Criteo.passbackEvents:[],usePrebidEvents:!window.Criteo||window.Criteo.usePrebidEvents}),window.criteo_pubtag&&\"serviceProvider\"in window.criteo_pubtag.context||(ft.LoadPolyfills(),window.criteo_pubtag=new qt,window.criteo_pubtag_prebid_106=window.criteo_pubtag),window.Criteo=Nt,window.Criteo_prebid_106=window.Criteo,M.Debug(\"Publisher Tag initialized with window.criteo_pubtag|criteo_pubtag_prebid_106, window.Criteo|Criteo_prebid_106\"),!1!==window.Criteo.usePrebidEvents&&(window.Criteo.events=(Lt=window.Criteo.events,Ht={push:function(){for(var e=[],t=0;t<arguments.length;t++)e[t]=arguments[t];if(void 0!==e)for(var i=0,n=e;i<n.length;i++){var o=n[i];\"function\"==typeof o&&lt(o)()}}},Lt&&Array.isArray(Lt)&&Ht.push.apply(Ht,Lt),Ht)),window.criteo_pubtag.context.serviceProvider.getServicesAsync(function(e){var t,i,n;t=e.localStorageHelper,n=ct[i=\"prebid\"],null===t.getItem(n,864e5)&&new ke(\"https://static.criteo.net/js/ld/publishertag.\"+i+\".js\",void 0,void 0,!1).send(function(e){t.setItem(n,e,864e5)},function(e,t){M.Error(\"Could not update FastBid\"+(t?\" (\"+t+\")\":\"\"))})})}();",
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T16:32:23.559Z",
+          "location": "https://es.ign.com/"
+        }
+      }
+    }
+  },
+  "beacons": [
+    {
+      "url": "https://www.google-analytics.com/collect?v=1&_v=j90&a=217333067&t=pageview&_s=3&dl=https%3A%2F%2Fes.ign.com%2F&dp=%2F%3Fpage%3D3&ul=en-us&de=UTF-8&dt=IGN%20Espa%C3%B1a&sd=24-bit&sr=1680x927&vp=1680x927&je=0&_u=6EDAAAABAAAAAC~&jid=&gjid=&cid=1056863017.1621528341&tid=UA-71985660-5&_gid=393296470.1621528341&z=281164654",
+      "query": {
+        "v": 1,
+        "_v": "j90",
+        "a": 217333067,
+        "t": "pageview",
+        "_s": 3,
+        "dl": "https://es.ign.com/",
+        "dp": "/?page=3",
+        "ul": "en-us",
+        "de": "UTF-8",
+        "dt": "IGN España",
+        "sd": "24-bit",
+        "sr": "1680x927",
+        "vp": "1680x927",
+        "je": 0,
+        "_u": "6EDAAAABAAAAAC~",
+        "jid": "",
+        "gjid": "",
+        "cid": 1056863017.1621529,
+        "tid": "UA-71985660-5",
+        "_gid": 393296470.1621528,
+        "z": 281164654
+      },
+      "filter": "||google-analytics.com/collect",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://es.ign.com/",
+            "source": "requested from https://es.ign.com/ and matched with easyprivacy.txt filter ||google-analytics.com/collect"
+          }
+        ],
+        "timestamp": "2021-05-20T16:32:28.470Z"
+      },
+      "occurrances": 5
+    },
+    {
+      "url": "https://static.criteo.net/js/ld/publishertag.prebid.js",
+      "query": null,
+      "filter": "||criteo.net^$third-party",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "",
+            "source": "requested from  and matched with easyprivacy.txt filter ||criteo.net^$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T16:32:23.555Z"
+      },
+      "occurrances": 2
+    },
+    {
+      "url": "https://gum.criteo.com/syncframe?topUrl=es.ign.com",
+      "query": {
+        "topUrl": "es.ign.com"
+      },
+      "filter": "||criteo.com^$third-party",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "",
+            "source": "requested from  and matched with easyprivacy.txt filter ||criteo.com^$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T16:32:23.553Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://pagead2.googlesyndication.com/pagead/gen_204?id=sodar2&v=222&t=2&li=gpt_2021051801&jk=3621550264750294&bg=!PzylPHjNAAZ7hX_Ue4U7ACkAdvg8WmMpePONx4koMWskrhi6WFDyR7b63R9b-E1aWuH09nIIMA-xJwIAAACEUgAAABFoAQeZAnLsOqWxsrgEK1pgnalrAPghkxpodltx04MNiUz_NG6dBYjDhjGBqi9H2hJY0e0zwkZBpf4sb_ZUjr_HNVVmQ2vWhM-wA8UV_hDbdVA2e1rdfaFg0Uu8BdlaHiKgenxQDpr0mNVVt-satj04s6NFAk-nXYDuK1n9zgM-zg2lI6uOl8-Qn9dxIxgVnZnI77K5kOIJtPaBTFE6nH0N_VG_bJaCfhUEd3cmickRCznWn6HDH2DbBeIspHlm12DXPo6qL1THlbCPsdB5tAw3TpRQ3MMASpW8ViE6d3JpRlKNqqiI_po1UEscD3UJNjgrUJviyx2a3ulVxmXTgU87WSQl8ykDaVYtlZKbfxEM-bTAH8Y1Gwx3bYmZSoGRTDvZIhf_0ZwAfCFji56sc77BDofkYZQoOyWwZj2YZQwH11Qth7HCq6FP5WAkw5BQieilWyCfQC50-aUX2oxTv6yy8JIf5kC_Hc_zAw1bRm_EzJmM7MVO1isbiEMw0lkucx8OmUPG1trxlhVINyz-ocTYEpv-ogQR9fYmYhAbQqnMwjdkNiTrSPGSO2EuuAYfcumrvmtd_rSDf0J5RFWLI740f4IyPMQcqVYqQgUM29lVxeRHiQDAkwRZRylnWYI-_jh7PkG1m3HUlRsUv0JW7v-mHvEtHPp7Adi2rysKtaFnctRld16AwH9C3T4lvgDS6Q-wPxZx6FNqkurT_c-DsRXSKKRMUdnE0TsUBQxWu1sNcL2UvINabd6hc9xzsI9ARnR3fhSXup25I5yillUJO2UoLS_SAlkd9l7bTqZXbw3SA6sWxyD40vGtTLUMaj2490vEGfoJHPLy0w",
+      "query": {
+        "id": "sodar2",
+        "v": 222,
+        "t": 2,
+        "li": "gpt_2021051801",
+        "jk": 3621550264750294,
+        "bg": "!PzylPHjNAAZ7hX_Ue4U7ACkAdvg8WmMpePONx4koMWskrhi6WFDyR7b63R9b-E1aWuH09nIIMA-xJwIAAACEUgAAABFoAQeZAnLsOqWxsrgEK1pgnalrAPghkxpodltx04MNiUz_NG6dBYjDhjGBqi9H2hJY0e0zwkZBpf4sb_ZUjr_HNVVmQ2vWhM-wA8UV_hDbdVA2e1rdfaFg0Uu8BdlaHiKgenxQDpr0mNVVt-satj04s6NFAk-nXYDuK1n9zgM-zg2lI6uOl8-Qn9dxIxgVnZnI77K5kOIJtPaBTFE6nH0N_VG_bJaCfhUEd3cmickRCznWn6HDH2DbBeIspHlm12DXPo6qL1THlbCPsdB5tAw3TpRQ3MMASpW8ViE6d3JpRlKNqqiI_po1UEscD3UJNjgrUJviyx2a3ulVxmXTgU87WSQl8ykDaVYtlZKbfxEM-bTAH8Y1Gwx3bYmZSoGRTDvZIhf_0ZwAfCFji56sc77BDofkYZQoOyWwZj2YZQwH11Qth7HCq6FP5WAkw5BQieilWyCfQC50-aUX2oxTv6yy8JIf5kC_Hc_zAw1bRm_EzJmM7MVO1isbiEMw0lkucx8OmUPG1trxlhVINyz-ocTYEpv-ogQR9fYmYhAbQqnMwjdkNiTrSPGSO2EuuAYfcumrvmtd_rSDf0J5RFWLI740f4IyPMQcqVYqQgUM29lVxeRHiQDAkwRZRylnWYI-_jh7PkG1m3HUlRsUv0JW7v-mHvEtHPp7Adi2rysKtaFnctRld16AwH9C3T4lvgDS6Q-wPxZx6FNqkurT_c-DsRXSKKRMUdnE0TsUBQxWu1sNcL2UvINabd6hc9xzsI9ARnR3fhSXup25I5yillUJO2UoLS_SAlkd9l7bTqZXbw3SA6sWxyD40vGtTLUMaj2490vEGfoJHPLy0w"
+      },
+      "filter": "/gen_204?$image,other,ping,script",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "about:blank",
+            "source": "requested from about:blank and matched with easyprivacy.txt filter /gen_204?$image,other,ping,script"
+          }
+        ],
+        "timestamp": "2021-05-20T16:32:22.961Z"
+      },
+      "occurrances": 2
+    },
+    {
+      "url": "https://www.googletagservices.com/activeview/js/current/osd.js",
+      "query": null,
+      "filter": "||googletagservices.com^*/osd.js$third-party",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "about:blank",
+            "source": "requested from about:blank and matched with easyprivacy.txt filter ||googletagservices.com^*/osd.js$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T16:32:22.703Z"
+      },
+      "occurrances": 2
+    },
+    {
+      "url": "https://track.noddus.com/_pix",
+      "query": null,
+      "filter": "||track.noddus.com^",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "",
+            "source": "requested from  and matched with easyprivacy.txt filter ||track.noddus.com^"
+          }
+        ],
+        "timestamp": "2021-05-20T16:32:21.963Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://bidder.criteo.com/cdb?profileId=207&av=11&wv=1.19.0&cb=44172151257",
+      "query": {
+        "profileId": 207,
+        "av": 11,
+        "wv": "1.19.0",
+        "cb": 44172151257
+      },
+      "filter": "||criteo.com^$third-party",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "",
+            "source": "requested from  and matched with easyprivacy.txt filter ||criteo.com^$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T16:32:21.894Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://ib.adnxs.com/ut/v3/prebid",
+      "query": null,
+      "filter": "||ib.adnxs.com^",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "",
+            "source": "requested from  and matched with easyprivacy.txt filter ||ib.adnxs.com^"
+          }
+        ],
+        "timestamp": "2021-05-20T16:32:21.893Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://securepubads.g.doubleclick.net/pcs/view?xai=AKAOjsuRord30-hCVi9kvRsBGgvtYFjoH8Zlkz5fMooiFEGAtR2LGyZGRglTrLRp7yyUaLqYhdrhQLo2nV_rK3JGTewDh6vE9s8xUWlAGMb8p8c8Ybl0MU7sW4xjfcENL8Rcb0mBsBdQQntQ4MCtvkF0Tug2z_r3Uayen23n9PuYePDganvRDZRIHGNmwJAkAEEwxAQMp5ulsAHefQV83RkHRlsYisBUvbZIh6Y0o3SHATpQJQPKfuQTWvhDqCqaNoBICYvQsxHPfecAOxvYI3r1ptBNvKB74TEXX3HJR1X4uQ&sai=AMfl-YSPneL_sJTc-nfNhPo2TkSdNTb3O3KLwadAndp_-xba4pIZTGPiW93DhCBJ5XaB25beQbEvmKitqIwbDgqNNcK9l7Er_0VerSJnOpWctIiWlmt_c_L54hYpL-SvHl4&sig=Cg0ArKJSzDjxbBgh0XkuEAE&urlfix=1&adurl=",
+      "query": {
+        "xai": "AKAOjsuRord30-hCVi9kvRsBGgvtYFjoH8Zlkz5fMooiFEGAtR2LGyZGRglTrLRp7yyUaLqYhdrhQLo2nV_rK3JGTewDh6vE9s8xUWlAGMb8p8c8Ybl0MU7sW4xjfcENL8Rcb0mBsBdQQntQ4MCtvkF0Tug2z_r3Uayen23n9PuYePDganvRDZRIHGNmwJAkAEEwxAQMp5ulsAHefQV83RkHRlsYisBUvbZIh6Y0o3SHATpQJQPKfuQTWvhDqCqaNoBICYvQsxHPfecAOxvYI3r1ptBNvKB74TEXX3HJR1X4uQ",
+        "sai": "AMfl-YSPneL_sJTc-nfNhPo2TkSdNTb3O3KLwadAndp_-xba4pIZTGPiW93DhCBJ5XaB25beQbEvmKitqIwbDgqNNcK9l7Er_0VerSJnOpWctIiWlmt_c_L54hYpL-SvHl4",
+        "sig": "Cg0ArKJSzDjxbBgh0XkuEAE",
+        "urlfix": 1,
+        "adurl": ""
+      },
+      "filter": "||doubleclick.net^$image,third-party",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "",
+            "source": "requested from  and matched with easyprivacy.txt filter ||doubleclick.net^$image,third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T16:32:21.379Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://sb.scorecardresearch.com/b2?c1=2&c2=3000068&cs_ucfr=0&ns__t=1621528340428&ns_c=UTF-8&cv=3.5&c8=IGN%20Espa%C3%B1a&c7=https%3A%2F%2Fes.ign.com%2F&c9=",
+      "query": {
+        "c1": 2,
+        "c2": 3000068,
+        "cs_ucfr": 0,
+        "ns__t": 1621528340428,
+        "ns_c": "UTF-8",
+        "cv": 3.5,
+        "c8": "IGN España",
+        "c7": "https://es.ign.com/",
+        "c9": ""
+      },
+      "filter": "||scorecardresearch.com^$third-party",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://es.ign.com/",
+            "source": "requested from https://es.ign.com/ and matched with easyprivacy.txt filter ||scorecardresearch.com^$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T16:32:20.700Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://www.google-analytics.com/j/collect?v=1&_v=j90&a=217333067&t=pageview&_s=1&dl=https%3A%2F%2Fes.ign.com%2F&ul=en-us&de=UTF-8&dt=IGN%20Espa%C3%B1a&sd=24-bit&sr=1680x927&vp=1680x927&je=0&_u=YEDAAAABAAAAAC~&jid=1368991893&gjid=2003410515&cid=1056863017.1621528341&tid=UA-71985660-5&_gid=393296470.1621528341&_r=1&_slc=1&z=416951089",
+      "query": {
+        "v": 1,
+        "_v": "j90",
+        "a": 217333067,
+        "t": "pageview",
+        "_s": 1,
+        "dl": "https://es.ign.com/",
+        "ul": "en-us",
+        "de": "UTF-8",
+        "dt": "IGN España",
+        "sd": "24-bit",
+        "sr": "1680x927",
+        "vp": "1680x927",
+        "je": 0,
+        "_u": "YEDAAAABAAAAAC~",
+        "jid": 1368991893,
+        "gjid": 2003410515,
+        "cid": 1056863017.1621529,
+        "tid": "UA-71985660-5",
+        "_gid": 393296470.1621528,
+        "_r": 1,
+        "_slc": 1,
+        "z": 416951089
+      },
+      "filter": "/collect?*&cid=",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://es.ign.com/",
+            "source": "requested from https://es.ign.com/ and matched with easyprivacy.txt filter /collect?*&cid="
+          }
+        ],
+        "timestamp": "2021-05-20T16:32:20.690Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://sb.scorecardresearch.com/b?c1=2&c2=3000068&cs_ucfr=0&ns__t=1621528340428&ns_c=UTF-8&cv=3.5&c8=IGN%20Espa%C3%B1a&c7=https%3A%2F%2Fes.ign.com%2F&c9=",
+      "query": {
+        "c1": 2,
+        "c2": 3000068,
+        "cs_ucfr": 0,
+        "ns__t": 1621528340428,
+        "ns_c": "UTF-8",
+        "cv": 3.5,
+        "c8": "IGN España",
+        "c7": "https://es.ign.com/",
+        "c9": ""
+      },
+      "filter": "||scorecardresearch.com^$third-party",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://es.ign.com/",
+            "source": "requested from https://es.ign.com/ and matched with easyprivacy.txt filter ||scorecardresearch.com^$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T16:32:20.430Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://es.ign.com/cookienotice.js?437",
+      "query": {
+        "437": null
+      },
+      "filter": "/cookienotice.",
+      "listName": "fanboy-annoyance.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://es.ign.com/",
+            "source": "requested from https://es.ign.com/ and matched with fanboy-annoyance.txt filter /cookienotice."
+          }
+        ],
+        "timestamp": "2021-05-20T16:32:20.409Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://sb.scorecardresearch.com/beacon.js",
+      "query": null,
+      "filter": "||scorecardresearch.com^$third-party",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://es.ign.com/",
+            "source": "requested from https://es.ign.com/ and matched with easyprivacy.txt filter ||scorecardresearch.com^$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T16:32:20.133Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://www.google-analytics.com/analytics.js",
+      "query": null,
+      "filter": "||google-analytics.com/analytics.js",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://es.ign.com/",
+            "source": "requested from https://es.ign.com/ and matched with easyprivacy.txt filter ||google-analytics.com/analytics.js"
+          }
+        ],
+        "timestamp": "2021-05-20T16:32:20.131Z"
+      },
+      "occurrances": 1
+    }
+  ],
+  "hosts": {
+    "requests": {
+      "firstParty": [
+        "ign.com"
+      ],
+      "thirdParty": [
+        "www.ign.com",
+        "es.ign.com",
+        "sm.ign.com",
+        "www.google-analytics.com",
+        "sb.scorecardresearch.com",
+        "securepubads.g.doubleclick.net",
+        "ign-es.disqus.com",
+        "c.amazon-adsystem.com",
+        "adservice.google.es",
+        "adservice.google.com",
+        "8243582320892ec5b1cd2e041a18420a.safeframe.googlesyndication.com",
+        "tpc.googlesyndication.com",
+        "pagead2.googlesyndication.com",
+        "im.ziffdavisinternational.com",
+        "www.googletagservices.com",
+        "code.jquery.com",
+        "noddus.com",
+        "web.crea.acsta.net",
+        "d3ngfv5pf4ojug.cloudfront.net",
+        "ns.sascdn.com",
+        "ajax.googleapis.com",
+        "ib.adnxs.com",
+        "bidder.criteo.com",
+        "fastlane.rubiconproject.com",
+        "prg.smartadserver.com",
+        "as-sec.casalemedia.com",
+        "track.noddus.com",
+        "cc.noddus.com",
+        "a26942b7e34af17311534bf87b1a3cd3.safeframe.googlesyndication.com",
+        "www.google.com",
+        "static.criteo.net",
+        "gum.criteo.com"
+      ]
+    },
+    "beacons": {
+      "firstParty": [],
+      "thirdParty": [
+        "www.google-analytics.com",
+        "static.criteo.net",
+        "gum.criteo.com",
+        "pagead2.googlesyndication.com",
+        "www.googletagservices.com",
+        "track.noddus.com",
+        "bidder.criteo.com",
+        "ib.adnxs.com",
+        "securepubads.g.doubleclick.net",
+        "sb.scorecardresearch.com"
+      ]
+    },
+    "cookies": {
+      "firstParty": [
+        "ign.com"
+      ],
+      "thirdParty": [
+        "scorecardresearch.com",
+        "doubleclick.net",
+        "adnxs.com",
+        "rubiconproject.com",
+        "criteo.com"
+      ]
+    },
+    "localStorage": {
+      "firstParty": [],
+      "thirdParty": [
+        "es.ign.com"
+      ]
+    },
+    "links": {
+      "firstParty": [],
+      "thirdParty": [
+        "es.ign.com",
+        "www.ign.com",
+        "za.ign.com",
+        "nl.ign.com",
+        "br.ign.com",
+        "www.ign.com.cn",
+        "cz.ign.com",
+        "fr.ign.com",
+        "de.ign.com",
+        "gr.ign.com",
+        "hu.ign.com",
+        "in.ign.com",
+        "il.ign.com",
+        "it.ign.com",
+        "jp.ign.com",
+        "kr.ign.com",
+        "latam.ign.com",
+        "me.ign.com",
+        "nordic.ign.com",
+        "pl.ign.com",
+        "pt.ign.com",
+        "ru.ign.com",
+        "ap.ign.com",
+        "tr.ign.com",
+        "world.ign.com",
+        "corp.ign.com",
+        "www.facebook.com",
+        "twitter.com",
+        "www.instagram.com",
+        "www.youtube.com",
+        "www.twitch.tv",
+        "world.ziffdavis.com"
+      ]
+    }
+  }
+}

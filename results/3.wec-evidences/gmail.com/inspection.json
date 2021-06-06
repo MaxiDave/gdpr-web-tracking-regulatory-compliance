@@ -1,0 +1,239 @@
+{
+  "title": "Website Evidence Collection",
+  "task_description": null,
+  "uri_ins": "https://gmail.com",
+  "uri_refs": [
+    "https://gmail.com"
+  ],
+  "uri_dest": "https://accounts.google.com/signin/v2/identifier?service=mail&passive=true&rm=false&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&ss=1&scc=1&ltmpl=default&ltmplcache=2&emr=1&osid=1&flowName=GlifWebSignIn&flowEntry=ServiceLogin",
+  "uri_redirects": [
+    "https://gmail.com/",
+    "https://www.google.com/gmail/",
+    "https://mail.google.com/mail/"
+  ],
+  "secure_connection": {
+    "https_support": true,
+    "redirects": [
+      "https://www.google.com/gmail/",
+      "https://mail.google.com/mail/",
+      "https://accounts.google.com/ServiceLogin?service=mail&passive=true&rm=false&continue=https://mail.google.com/mail/&ss=1&scc=1&ltmpl=default&ltmplcache=2&emr=1&osid=1#"
+    ],
+    "https_redirect": true
+  },
+  "host": "gmail.com",
+  "script": {
+    "host": "sfod",
+    "version": {
+      "npm": "1.0.0",
+      "commit": null
+    },
+    "cmd_args": "-q --overwrite https://gmail.com -- --ignore-certificate-errors",
+    "environment": {
+      "CHROME_DESKTOP": "code-url-handler.desktop"
+    },
+    "node_version": "v14.17.0"
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "HeadlessChrome/80.0.3987.0",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3617.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "5.8.0-53-generic"
+    },
+    "extra_headers": {},
+    "preset_cookies": {}
+  },
+  "start_time": "2021-05-20T16:03:01.328Z",
+  "end_time": "2021-05-20T16:03:07.872Z",
+  "links": {
+    "firstParty": [],
+    "thirdParty": [
+      {
+        "href": "https://support.google.com/chrome/answer/6130773?hl=es",
+        "inner_text": "Más información",
+        "inner_html": "Más información"
+      },
+      {
+        "href": "https://support.google.com/accounts?hl=es",
+        "inner_text": "Ayuda",
+        "inner_html": "Ayuda"
+      },
+      {
+        "href": "https://accounts.google.com/TOS?loc=ES&hl=es&privacy=true",
+        "inner_text": "Privacidad",
+        "inner_html": "Privacidad"
+      },
+      {
+        "href": "https://accounts.google.com/TOS?loc=ES&hl=es",
+        "inner_text": "Términos",
+        "inner_html": "Términos"
+      }
+    ],
+    "social": [],
+    "keywords": [
+      {
+        "href": "https://accounts.google.com/TOS?loc=ES&hl=es&privacy=true",
+        "inner_text": "Privacidad",
+        "inner_html": "Privacidad"
+      }
+    ]
+  },
+  "unsafeForms": [],
+  "browsing_history": [
+    "https://accounts.google.com/signin/v2/identifier?service=mail&passive=true&rm=false&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&ss=1&scc=1&ltmpl=default&ltmplcache=2&emr=1&osid=1&flowName=GlifWebSignIn&flowEntry=ServiceLogin"
+  ],
+  "websockets": {},
+  "cookies": [
+    {
+      "name": "CONSENT",
+      "value": "PENDING+129",
+      "domain": "google.com",
+      "path": "/",
+      "expires": 2145916801.045634,
+      "size": 18,
+      "httpOnly": false,
+      "secure": true,
+      "session": false,
+      "expiresUTC": "2038-01-01T00:00:01.045Z",
+      "expiresDays": 6069.33,
+      "firstPartyStorage": false
+    },
+    {
+      "name": "__Host-GAPS",
+      "value": "1:lNl7h9qGe6MmfXSJIBzGC6hEDh-4fw:W83SNTDo_UBUyHJE",
+      "domain": "accounts.google.com",
+      "path": "/",
+      "expires": 1684598582.11413,
+      "size": 60,
+      "httpOnly": true,
+      "secure": true,
+      "session": false,
+      "expiresUTC": "2023-05-20T16:03:02.114Z",
+      "expiresDays": 730,
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://accounts.google.com/ServiceLogin?service=mail&passive=true&rm=false&continue=https://mail.google.com/mail/&ss=1&scc=1&ltmpl=default&ltmplcache=2&emr=1&osid=1",
+            "source": "set in Set-Cookie HTTP response header for https://accounts.google.com/ServiceLogin?service=mail&passive=true&rm=false&continue=https://mail.google.com/mail/&ss=1&scc=1&ltmpl=default&ltmplcache=2&emr=1&osid=1"
+          }
+        ],
+        "type": "Cookie.HTTP",
+        "timestamp": "2021-05-20T16:03:02.120Z",
+        "location": "about:blank"
+      },
+      "firstPartyStorage": false
+    },
+    {
+      "name": "NID",
+      "value": "216=OZPEhOm1M7pmfL901Hr_5IgYCubt7bE5q2hYsd0zUP4hbOVhZFE2oIBMa4VNV9CTQNiY02ln1FLQDY_g-d4ml-kdPBM5jF5HJxVLS9xpD80ye-EI31pSeVdEGdUPnpCpEnDDYCnBLmvB9FBKgSqLqw-2AxLhu3fnXv1s6RIST2g",
+      "domain": "google.com",
+      "path": "/",
+      "expires": 1637337782.971663,
+      "size": 178,
+      "httpOnly": true,
+      "secure": true,
+      "session": false,
+      "sameSite": "None",
+      "expiresUTC": "2021-11-19T16:03:02.971Z",
+      "expiresDays": 183,
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://accounts.google.com/_/bscframe",
+            "source": "set in Set-Cookie HTTP response header for https://accounts.google.com/_/bscframe"
+          }
+        ],
+        "type": "Cookie.HTTP",
+        "timestamp": "2021-05-20T16:03:02.974Z",
+        "location": "https://accounts.google.com/signin/v2/identifier?service=mail&passive=true&rm=false&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&ss=1&scc=1&ltmpl=default&ltmplcache=2&emr=1&osid=1&flowName=GlifWebSignIn&flowEntry=ServiceLogin"
+      },
+      "firstPartyStorage": false
+    },
+    {
+      "name": "CheckConnectionTempCookie503",
+      "value": "401001",
+      "domain": "accounts.youtube.com",
+      "path": "/accounts",
+      "expires": 1621526592,
+      "size": 34,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2021-05-20T16:03:12.000Z",
+      "expiresDays": 0,
+      "firstPartyStorage": false
+    }
+  ],
+  "localStorage": {
+    "https://accounts.google.com": {
+      "promo": {
+        "value": {},
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 30,
+              "lineNumber": 3618,
+              "fileName": "/accounts/static/_/js/k=gaia.gaiafe_glif.es.bh0yWGFT_HY.O/am=BsK4YUEBCAAABAAAAAAgAABgBAkoBI1D4Q8/d=1/rs=ABkqax0pw6b7AjmV0guhugN7xnHzeETeHw/m=glifb,identifier_view,unknownerror_view",
+              "functionName": "Object._.WVa",
+              "source": "    at Object._.WVa (/accounts/static/_/js/k=gaia.gaiafe_glif.es.bh0yWGFT_HY.O/am=BsK4YUEBCAAABAAAAAAgAABgBAkoBI1D4Q8/d=1/rs=ABkqax0pw6b7AjmV0guhugN7xnHzeETeHw/m=glifb,identifier_view,unknownerror_view:3618:30)"
+            },
+            {
+              "columnNumber": 136,
+              "lineNumber": 3617,
+              "fileName": "/accounts/static/_/js/k=gaia.gaiafe_glif.es.bh0yWGFT_HY.O/am=BsK4YUEBCAAABAAAAAAgAABgBAkoBI1D4Q8/d=1/rs=ABkqax0pw6b7AjmV0guhugN7xnHzeETeHw/m=glifb,identifier_view,unknownerror_view",
+              "functionName": "new _.yN",
+              "source": "    at new _.yN (/accounts/static/_/js/k=gaia.gaiafe_glif.es.bh0yWGFT_HY.O/am=BsK4YUEBCAAABAAAAAAgAABgBAkoBI1D4Q8/d=1/rs=ABkqax0pw6b7AjmV0guhugN7xnHzeETeHw/m=glifb,identifier_view,unknownerror_view:3617:136)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T16:03:02.922Z",
+          "location": "https://accounts.google.com/signin/v2/identifier?service=mail&passive=true&rm=false&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&ss=1&scc=1&ltmpl=default&ltmplcache=2&emr=1&osid=1&flowName=GlifWebSignIn&flowEntry=ServiceLogin"
+        }
+      }
+    }
+  },
+  "beacons": [],
+  "hosts": {
+    "requests": {
+      "firstParty": [
+        "gmail.com"
+      ],
+      "thirdParty": [
+        "www.google.com",
+        "mail.google.com",
+        "accounts.google.com",
+        "fonts.gstatic.com",
+        "ssl.gstatic.com",
+        "accounts.youtube.com",
+        "play.google.com"
+      ]
+    },
+    "beacons": {
+      "firstParty": [],
+      "thirdParty": []
+    },
+    "cookies": {
+      "firstParty": [],
+      "thirdParty": [
+        "accounts.youtube.com",
+        "accounts.google.com",
+        "google.com"
+      ]
+    },
+    "localStorage": {
+      "firstParty": [],
+      "thirdParty": [
+        "accounts.google.com"
+      ]
+    },
+    "links": {
+      "firstParty": [],
+      "thirdParty": [
+        "support.google.com",
+        "accounts.google.com"
+      ]
+    }
+  }
+}

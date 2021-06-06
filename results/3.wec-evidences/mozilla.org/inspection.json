@@ -1,0 +1,848 @@
+{
+  "title": "Website Evidence Collection",
+  "task_description": null,
+  "uri_ins": "https://mozilla.org",
+  "uri_refs": [
+    "https://mozilla.org"
+  ],
+  "uri_dest": "https://www.mozilla.org/en-US/",
+  "uri_redirects": [
+    "https://mozilla.org/",
+    "https://www.mozilla.org/"
+  ],
+  "secure_connection": {
+    "https_support": true,
+    "redirects": [
+      "https://mozilla.org/",
+      "https://www.mozilla.org/",
+      "https://www.mozilla.org/en-US/"
+    ],
+    "https_redirect": true
+  },
+  "host": "mozilla.org",
+  "script": {
+    "host": "sfod",
+    "version": {
+      "npm": "1.0.0",
+      "commit": null
+    },
+    "cmd_args": "-q --overwrite https://mozilla.org -- --ignore-certificate-errors",
+    "environment": {
+      "CHROME_DESKTOP": "code-url-handler.desktop"
+    },
+    "node_version": "v14.17.0"
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "HeadlessChrome/80.0.3987.0",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3617.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "5.8.0-53-generic"
+    },
+    "extra_headers": {},
+    "preset_cookies": {}
+  },
+  "start_time": "2021-05-20T16:47:58.034Z",
+  "end_time": "2021-05-20T16:48:06.795Z",
+  "links": {
+    "firstParty": [],
+    "thirdParty": [
+      {
+        "href": "https://www.mozilla.org/en-US/",
+        "inner_text": "",
+        "inner_html": "<img class=\"c-navigation-logo-image\" src=\"https://www.mozilla.org/media/protocol/img/logos/mozilla/logo-word-hor.e20791bb4dd4.svg\" alt=\"Mozilla\" width=\"112\" height=\"32\">"
+      },
+      {
+        "href": "https://www.mozilla.org/firefox/download/thanks/",
+        "inner_text": "Download Firefox",
+        "inner_html": "Download Firefox"
+      },
+      {
+        "href": "https://www.mozilla.org/en-US/privacy/firefox/",
+        "inner_text": "\n      Firefox Privacy Notice\n    ",
+        "inner_html": "Firefox Privacy Notice"
+      },
+      {
+        "href": "https://accounts.firefox.com/signup?entrypoint=mozilla.org-globalnav&form_type=button&utm_source=mozilla.org-globalnav&utm_medium=referral&utm_campaign=navigation&utm_content=get-firefox-account",
+        "inner_text": "Get a Firefox Account",
+        "inner_html": "Get a Firefox Account"
+      },
+      {
+        "href": "https://www.mozilla.org/en-US/firefox/browsers/",
+        "inner_text": "Firefox Browsers",
+        "inner_html": "Firefox Browsers"
+      },
+      {
+        "href": "https://www.mozilla.org/en-US/firefox/new/",
+        "inner_text": "\n                \n                Firefox for Desktop\n                Get the not-for-profit-backed browser on Windows, Mac or Linux.\n              ",
+        "inner_html": "<img src=\"https://www.mozilla.org/media/protocol/img/logos/firefox/browser/logo-sm.f2523d97cbe0.png\" class=\"c-menu-item-icon\" width=\"32\" height=\"32\" alt=\"\" loading=\"lazy\">\n                <h4 class=\"c-menu-item-title\">Firefox for Desktop</h4>\n                <p class=\"c-menu-item-desc\">Get the not-for-profit-backed browser on Windows, Mac or Linux.</p>"
+      },
+      {
+        "href": "https://www.mozilla.org/en-US/firefox/mobile/",
+        "inner_text": "\n                \n                Firefox for Android\n                Get the customizable mobile browser for Android smartphones.\n              ",
+        "inner_html": "<img src=\"https://www.mozilla.org/media/protocol/img/logos/firefox/browser/logo-sm.f2523d97cbe0.png\" class=\"c-menu-item-icon\" width=\"32\" height=\"32\" alt=\"\" loading=\"lazy\">\n                <h4 class=\"c-menu-item-title\">Firefox for Android</h4>\n                <p class=\"c-menu-item-desc\">Get the customizable mobile browser for Android smartphones.</p>"
+      },
+      {
+        "href": "https://www.mozilla.org/en-US/firefox/privacy/",
+        "inner_text": "\n                \n                Privacy Promise\n                Learn how Firefox treats your data with respect.\n              ",
+        "inner_html": "<img src=\"https://www.mozilla.org/media/img/nav/icons/icon-privacy-promise.eee1662acb03.svg\" class=\"c-menu-item-icon\" width=\"32\" height=\"32\" alt=\"\" loading=\"lazy\">\n                <h4 class=\"c-menu-item-title\">Privacy Promise</h4>\n                <p class=\"c-menu-item-desc\">Learn how Firefox treats your data with respect.</p>"
+      },
+      {
+        "href": "https://blog.mozilla.org/firefox/?utm_source=www.mozilla.org&utm_medium=referral&utm_campaign=nav&utm_content=firefox",
+        "inner_text": "\n                \n                Firefox Blog\n                Read about new Firefox features and ways to stay safe online.\n              ",
+        "inner_html": "<svg class=\"c-menu-item-icon\" xmlns=\"http://www.w3.org/2000/svg\" width=\"32\" height=\"32\" viewBox=\"0 0 32 32\"><path fill=\"#42435a\" d=\"M21.1 7.5c-.2-.2-.2-.5 0-.7l.5-.5c.8-.8 2.1-.8 2.9 0l1.2 1.2c.8.8.8 2.1 0 2.9l-.5.5c-.2.2-.5.2-.7 0l-3.4-3.4zm2.3 4.5c.2.2.2.5 0 .7L12.7 23.4c-.2.2-.4.3-.6.4l-5.7 2.4c-.3.1-.6 0-.7-.3-.1-.1-.1-.3 0-.4L8.1 20c.1-.2.3-.5.4-.6L19.2 8.6c.2-.2.5-.2.7 0l3.5 3.4zM11.5 22.7l-3.9 1.7 1.7-3.9c0-.1.1-.2.2-.2l2.3 2.3c-.1 0-.2.1-.3.1z\"></path></svg>\n                <h4 class=\"c-menu-item-title\">Firefox Blog</h4>\n                <p class=\"c-menu-item-desc\">Read about new Firefox features and ways to stay safe online.</p>"
+      },
+      {
+        "href": "https://www.mozilla.org/firefox/88.0.1/releasenotes/",
+        "inner_text": "\n                \n                Release Notes\n              \n                Get the details on the latest Firefox updates.\n              \n              ",
+        "inner_html": "<svg class=\"c-menu-item-icon\" xmlns=\"http://www.w3.org/2000/svg\" width=\"32\" height=\"32\" viewBox=\"0 0 32 32\"><path fill=\"#42435a\" d=\"M2.7 23.6c0 2.4 2 4.4 4.4 4.4h5.6c1.4 0 2.3.5 3.3 1.5 1-1 2-1.5 3.3-1.5h5.6c2.4 0 4.4-2 4.4-4.4V8.4c0-2.4-2-4.4-4.4-4.4h-5.6C18 4 17 4.2 16 5.2c-1-1-2-1.2-3.3-1.2H7.1C4.6 4 2.7 6 2.7 8.4v15.2zm24 0c0 1-.8 1.7-1.7 1.7h-5.6c-1.3 0-2.3.2-3.3 1.2-1-1-2-1.2-3.3-1.2H7.1c-1 0-1.7-.8-1.7-1.7V8.4c0-1 .8-1.7 1.7-1.7h5.6c1.3 0 2.3.5 3.3 1.5 1-1 2-1.5 3.3-1.5h5.6c1 0 1.7.8 1.7 1.7v15.2zM13.3 10.7H8c-.4 0-.7-.3-.7-.7 0-.4.3-.7.7-.7h5.3c.4 0 .7.3.7.7 0 .4-.3.7-.7.7zm-5.3 4h5.3c.4 0 .7-.3.7-.7s-.3-.7-.7-.7H8c-.4 0-.7.3-.7.7s.3.7.7.7zm5.3 4H8c-.4 0-.7-.3-.7-.7s.3-.7.7-.7h5.3c.4 0 .7.3.7.7s-.3.7-.7.7zm-5.3 4h3.4c.4 0 .7-.3.7-.7s-.3-.7-.7-.7H8c-.4 0-.7.3-.7.7s.3.7.7.7z\"></path></svg>\n                <h4 class=\"c-menu-item-title\">Release Notes</h4>\n              \n                <p class=\"c-menu-item-desc\">Get the details on the latest Firefox updates.</p>"
+      },
+      {
+        "href": "https://www.mozilla.org/en-US/firefox/products/",
+        "inner_text": "Products",
+        "inner_html": "Products"
+      },
+      {
+        "href": "https://monitor.firefox.com/?utm_source=www.mozilla.org&utm_medium=referral&utm_campaign=nav&utm_content=products",
+        "inner_text": "\n                \n                Firefox Monitor\n                See if your email has appeared in a company’s data breach.\n              ",
+        "inner_html": "<img src=\"https://www.mozilla.org/media/protocol/img/logos/firefox/monitor/logo-sm.0bc3e6ae9d32.png\" class=\"c-menu-item-icon\" width=\"32\" height=\"32\" alt=\"\" loading=\"lazy\">\n                <h4 class=\"c-menu-item-title\">Firefox Monitor</h4>\n                <p class=\"c-menu-item-desc\">See if your email has appeared in a company’s data breach.</p>"
+      },
+      {
+        "href": "https://www.mozilla.org/en-US/firefox/facebookcontainer/",
+        "inner_text": "\n                \n                Facebook Container\n              \n                Help prevent Facebook from collecting your data outside their site.\n              \n              ",
+        "inner_html": "<svg class=\"c-menu-item-icon\" xmlns=\"http://www.w3.org/2000/svg\" width=\"32\" height=\"32\" viewBox=\"0 0 32 32\"><path fill=\"#f80073\" d=\"M27 1H5C2.8 1 1 2.8 1 5v22c0 2.2 1.8 4 4 4h22c2.2 0 4-1.8 4-4V5c0-2.2-1.8-4-4-4z\"></path><path fill=\"#fff\" d=\"M26 8.8l-1.4-1.4c-.1-.1-.2-.1-.3 0l-1.4 1.4-.1.1v2.8h-2.3V8.9L19 7.4c-.1-.1-.2-.1-.3 0l-1.4 1.4-.1.1v2.8h-2.3V8.9l-1.4-1.4c-.1-.1-.2-.1-.3 0l-1.4 1.4-.1.1v2.8H9.2V8.9L7.8 7.4c-.1-.1-.2-.1-.3 0L6 8.8l-.1.1v15c0 .1.1.2.2.2H9c.1 0 .2-.1.2-.2v-2.8h2.3V24c0 .1.1.2.2.2h2.8c.1 0 .2-.1.2-.2v-2.8H17V24c0 .1.1.2.2.2H20c.1 0 .2-.1.2-.2v-2.8h2.3V24c0 .1.1.2.2.2h2.8c.1 0 .2-.1.2-.2V9c.4-.1.3-.2.3-.2zm-14.7 11H9.2v-6.6h2.3v6.6h-.2zm5.6 0h-2.1v-6.6h2.3v6.6h-.2zm5.7 0h-2.1v-6.6h2.3v6.6h-.2z\"></path></svg>\n                <h4 class=\"c-menu-item-title\">Facebook Container</h4>\n              \n                <p class=\"c-menu-item-desc\">Help prevent Facebook from collecting your data outside their site.</p>"
+      },
+      {
+        "href": "https://getpocket.com/firefox_learnmore/?utm_source=www.mozilla.org&utm_medium=referral&utm_campaign=nav&utm_content=products",
+        "inner_text": "\n                \n                Pocket\n                Save and discover the best stories from across the web.\n              ",
+        "inner_html": "<img src=\"https://www.mozilla.org/media/protocol/img/logos/pocket/logo.17446bc33a5d.svg\" class=\"c-menu-item-icon\" width=\"32\" height=\"32\" alt=\"\" loading=\"lazy\">\n                <h4 class=\"c-menu-item-title\">Pocket</h4>\n                <p class=\"c-menu-item-desc\">Save and discover the best stories from across the web.</p>"
+      },
+      {
+        "href": "https://www.mozilla.org/en-US/products/vpn/",
+        "inner_text": "\n                \n                Mozilla VPN\n                Get protection beyond your browser, on all your devices.\n              ",
+        "inner_html": "<svg class=\"c-menu-item-icon\" xmlns=\"http://www.w3.org/2000/svg\" width=\"32\" height=\"32\" viewBox=\"0 0 32 32\"><path fill=\"#42435a\" d=\"M26 10.4c-2.5 0-4.7 1.7-5.4 4h-9.3c-.1-.4-.3-.7-.4-1.1l2.4-2.4c.8.4 1.7.7 2.7.7 3.1 0 5.6-2.5 5.6-5.6S19.1.4 16 .4 10.4 2.9 10.4 6c0 1 .2 1.9.7 2.7l-2.4 2.4c-.8-.5-1.7-.7-2.7-.7C2.9 10.4.4 12.9.4 16s2.5 5.6 5.6 5.6c2.5 0 4.7-1.7 5.4-4h9.3c.1.4.3.7.4 1.1l-2.4 2.4c-.8-.4-1.7-.7-2.7-.7-3.1 0-5.6 2.5-5.6 5.6s2.5 5.6 5.6 5.6 5.6-2.5 5.6-5.6c0-1-.2-1.9-.7-2.7l2.4-2.4c.8.4 1.7.7 2.7.7 3.1 0 5.6-2.5 5.6-5.6s-2.5-5.6-5.6-5.6zM16 3.6c1.3 0 2.4 1.1 2.4 2.4S17.3 8.4 16 8.4 13.6 7.3 13.6 6s1.1-2.4 2.4-2.4zM6 18.4c-1.3 0-2.4-1.1-2.4-2.4s1.1-2.4 2.4-2.4c1.3 0 2.4 1.1 2.4 2.4S7.3 18.4 6 18.4zm10 10c-.5 0-1-.2-1.3-.4-.3-.2-.5-.4-.6-.6-.3-.4-.4-.8-.4-1.3s.2-1 .4-1.3c.2-.3.4-.5.6-.6.4-.3.8-.4 1.3-.4 1.3 0 2.4 1.1 2.4 2.4s-1.1 2.2-2.4 2.2zm10-10c-1.3 0-2.4-1.1-2.4-2.4s1.1-2.4 2.4-2.4 2.4 1.1 2.4 2.4-1.1 2.4-2.4 2.4z\"></path></svg>\n                <h4 class=\"c-menu-item-title\">Mozilla VPN</h4>\n                <p class=\"c-menu-item-desc\">Get protection beyond your browser, on all your devices.</p>"
+      },
+      {
+        "href": "https://www.mozilla.org/en-US/firefox/privacy/products/",
+        "inner_text": "\n                \n                Product Promise\n              \n                Learn how each Firefox product protects and respects your data.\n              \n              ",
+        "inner_html": "<svg class=\"c-menu-item-icon\" xmlns=\"http://www.w3.org/2000/svg\" width=\"32\" height=\"32\" viewBox=\"0 0 32 32\"><path fill=\"#42435a\" d=\"M27.3 7.6c0-1.5-1.1-2.8-2.6-3L16 3.1 7.2 4.6c-1.5.2-2.6 1.5-2.6 3 0 2.4 0 5.5.2 7 .4 4.5 1.3 7 3.5 9.8 1.9 2.4 4.6 4 7.6 4.4h.4c3-.5 5.7-2 7.6-4.4 2.2-2.8 3-5.3 3.5-9.8-.1-1.6-.1-5.1-.1-7zm-2.9 6.7c-.4 4-1.1 6-2.9 8.4-1.4 1.7-3.3 2.9-5.5 3.3-2.2-.4-4.1-1.6-5.5-3.3-1.8-2.4-2.5-4.4-2.9-8.4-.1-1.1-.1-3.5-.1-6.7 0-.1.1-.2.2-.2L16 6l8.3 1.4c.1 0 .2.1.2.2 0 3.2 0 5.7-.1 6.7zm-13.9-.2c0-.4-.1-1.5-.1-4.3l5.6-.9v14.2c-1.3-.3-2.4-1.1-3.2-2.1-1.4-1.8-2-3.1-2.3-6.9z\"></path></svg>\n                <h4 class=\"c-menu-item-title\">Product Promise</h4>\n              \n                <p class=\"c-menu-item-desc\">Learn how each Firefox product protects and respects your data.</p>"
+      },
+      {
+        "href": "https://relay.firefox.com/?utm_source=www.mozilla.org&utm_medium=referral&utm_campaign=nav&utm_content=products",
+        "inner_text": "\n                \n                Firefox Relay\n              \n                Sign up for new accounts without handing over your email address.\n              \n              ",
+        "inner_html": "<img src=\"https://www.mozilla.org/media/img/nav/icons/icon-relay.aca61c9bb349.svg\" class=\"c-menu-item-icon\" width=\"32\" height=\"32\" alt=\"\" loading=\"lazy\">\n                <h4 class=\"c-menu-item-title\">Firefox Relay</h4>\n              \n                <p class=\"c-menu-item-desc\">Sign up for new accounts without handing over your email address.</p>"
+      },
+      {
+        "href": "https://fpn.firefox.com/?utm_source=www.mozilla.org&utm_medium=referral&utm_campaign=nav&utm_content=products",
+        "inner_text": "\n                \n                Firefox Private Network (beta)\n              \n                Protect your browser’s connection to the internet.\n              \n              ",
+        "inner_html": "<img src=\"https://www.mozilla.org/media/img/nav/icons/icon-fpn-beta.9e7bc3a29f6e.svg\" class=\"c-menu-item-icon\" width=\"32\" height=\"32\" alt=\"\" loading=\"lazy\">\n                <h4 class=\"c-menu-item-title\">Firefox Private Network (beta)</h4>\n              \n                <p class=\"c-menu-item-desc\">Protect your browser’s connection to the internet.</p>"
+      },
+      {
+        "href": "https://www.mozilla.org/en-US/about/",
+        "inner_text": "Who We Are",
+        "inner_html": "Who We Are"
+      },
+      {
+        "href": "https://www.mozilla.org/en-US/about/manifesto/",
+        "inner_text": "\n                \n                Mozilla Manifesto\n              \n                Learn about the values and principles that guide our mission.\n              \n              ",
+        "inner_html": "<svg class=\"c-menu-item-icon\" xmlns=\"http://www.w3.org/2000/svg\" width=\"32\" height=\"32\" viewBox=\"0 0 32 32\"><path fill=\"#42435a\" d=\"M9.5 28.6h13.1c2.6 0 4.6-2.1 4.6-4.6V8.1c0-2.6-2.1-4.6-4.6-4.6H9.5c-2.6 0-4.6 2.1-4.6 4.6V24c-.1 2.5 2 4.6 4.6 4.6zM7.6 8.1c0-1 .8-1.8 1.8-1.8h13.1c1 0 1.8.8 1.8 1.8V24c0 1-.8 1.8-1.8 1.8h-13c-1 0-1.8-.8-1.8-1.8V8.1zm12.6 2.3h-8.4c-.4 0-.7-.3-.7-.7 0-.4.3-.7.7-.7h8.4c.4 0 .7.3.7.7 0 .4-.3.7-.7.7zm-8.4 4.2h8.4c.4 0 .7-.3.7-.7s-.3-.7-.7-.7h-8.4c-.4 0-.7.3-.7.7s.3.7.7.7zm8.4 4.2h-8.4c-.4 0-.7-.3-.7-.7s.3-.7.7-.7h8.4c.4 0 .7.3.7.7s-.3.7-.7.7zM11.8 23h3.6c.4 0 .7-.3.7-.7s-.3-.7-.7-.7h-3.6c-.4 0-.7.3-.7.7s.3.7.7.7z\"></path></svg>\n                <h4 class=\"c-menu-item-title\">Mozilla Manifesto</h4>\n              \n                <p class=\"c-menu-item-desc\">Learn about the values and principles that guide our mission.</p>"
+      },
+      {
+        "href": "https://foundation.mozilla.org/?utm_source=www.mozilla.org&utm_medium=referral&utm_campaign=nav&utm_content=who-we-are",
+        "inner_text": "\n                \n                Mozilla Foundation\n                Meet the not-for-profit behind Firefox that stands for a better web.\n              ",
+        "inner_html": "<svg class=\"c-menu-item-icon\" xmlns=\"http://www.w3.org/2000/svg\" width=\"32\" height=\"32\" viewBox=\"0 0 32 32\"><path fill=\"#42435a\" d=\"M16 9.3V4H2.7v24h26.7V9.3H16zm-8 16H5.3v-2.7H8v2.7zM8 20H5.3v-2.7H8V20zm0-5.3H5.3V12H8v2.7zm0-5.4H5.3V6.7H8v2.6zm5.3 16h-2.7v-2.7h2.7v2.7zm0-5.3h-2.7v-2.7h2.7V20zm0-5.3h-2.7V12h2.7v2.7zm0-5.4h-2.7V6.7h2.7v2.6zm13.4 16H16v-2.7h2.7V20H16v-2.7h2.7v-2.7H16V12h10.7v13.3zM24 14.7h-2.7v2.7H24v-2.7zm0 5.3h-2.7v2.7H24V20z\"></path></svg>\n                <h4 class=\"c-menu-item-title\">Mozilla Foundation</h4>\n                <p class=\"c-menu-item-desc\">Meet the not-for-profit behind Firefox that stands for a better web.</p>"
+      },
+      {
+        "href": "https://www.mozilla.org/en-US/contribute/",
+        "inner_text": "\n                \n                Get involved\n                Join the fight for a healthy internet.\n              ",
+        "inner_html": "<svg class=\"c-menu-item-icon\" xmlns=\"http://www.w3.org/2000/svg\" width=\"32\" height=\"32\" viewBox=\"0 0 32 32\"><path fill=\"#42435a\" d=\"M12 22.7l4-3.9c-.5-.1-.9-.1-1.3-.1C11.1 18.7 4 20.5 4 24v2.7h12l-4-4zm2.7-6.7c2.9 0 5.3-2.4 5.3-5.3s-2.4-5.3-5.3-5.3-5.3 2.4-5.3 5.3c-.1 2.9 2.3 5.3 5.3 5.3z\"></path><path fill=\"#42435a\" d=\"M20.6 27.3L16 22.7l1.9-1.9 2.8 2.8 6.8-6.9 1.9 1.9-8.8 8.7z\"></path></svg>\n                <h4 class=\"c-menu-item-title\">Get involved</h4>\n                <p class=\"c-menu-item-desc\">Join the fight for a healthy internet.</p>"
+      },
+      {
+        "href": "https://www.mozilla.org/en-US/about/leadership/",
+        "inner_text": "\n                \n                Leadership\n              \n                Meet the team that’s building technology for a better internet.\n              \n              ",
+        "inner_html": "<svg class=\"c-menu-item-icon\" xmlns=\"http://www.w3.org/2000/svg\" width=\"32\" height=\"32\" viewBox=\"0 0 32 32\"><path fill=\"#42435a\" d=\"M22.7 13.9V2.7H9.3v11.2c0 .5.2.9.7 1.1l5.6 3.3-1.3 3.1-4.5.4 3.5 3-1.1 4.4L16 27l3.9 2.4-1-4.4 3.5-3-4.5-.4-1.3-3.1 5.6-3.3c.2-.4.5-.8.5-1.3zm-5.4 2.4l-1.3.8-1.3-.8V4h2.7v12.3z\"></path></svg>\n                <h4 class=\"c-menu-item-title\">Leadership</h4>\n              \n                <p class=\"c-menu-item-desc\">Meet the team that’s building technology for a better internet.</p>"
+      },
+      {
+        "href": "https://careers.mozilla.org/?utm_source=www.mozilla.org&utm_medium=referral&utm_campaign=nav&utm_content=who-we-are",
+        "inner_text": "\n                \n                Careers\n                Work for a mission-driven organization that makes people-first products.\n              ",
+        "inner_html": "<svg class=\"c-menu-item-icon\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 32 32\" width=\"32\" height=\"32\"><path fill=\"#42435a\" d=\"M13.3 21.3V20H4v5.3C4 26.8 5.2 28 6.7 28h18.7c1.5 0 2.7-1.2 2.7-2.7V20h-9.3v1.3h-5.5zm13.4-12h-5.3V6.7L18.7 4h-5.3l-2.7 2.7v2.7H5.3c-1.5 0-2.7 1.2-2.7 2.7v4c0 1.5 1.2 2.7 2.7 2.7h8V16h5.3v2.7h8c1.5 0 2.7-1.2 2.7-2.7v-4c0-1.5-1.2-2.7-2.6-2.7zm-8 0h-5.3V6.7h5.3v2.6z\"></path></svg>\n                <h4 class=\"c-menu-item-title\">Careers</h4>\n                <p class=\"c-menu-item-desc\">Work for a mission-driven organization that makes people-first products.</p>"
+      },
+      {
+        "href": "http://blog.mozilla.org/?utm_source=www.mozilla.org&utm_medium=referral&utm_campaign=nav&utm_content=who-we-are",
+        "inner_text": "\n                \n                Mozilla Blog\n              \n                Learn about Mozilla and the issues that matter to us.\n              \n              ",
+        "inner_html": "<svg class=\"c-menu-item-icon\" xmlns=\"http://www.w3.org/2000/svg\" width=\"32\" height=\"32\" viewBox=\"0 0 32 32\"><path fill=\"#42435a\" d=\"M21.1 7.5c-.2-.2-.2-.5 0-.7l.5-.5c.8-.8 2.1-.8 2.9 0l1.2 1.2c.8.8.8 2.1 0 2.9l-.5.5c-.2.2-.5.2-.7 0l-3.4-3.4zm2.3 4.5c.2.2.2.5 0 .7L12.7 23.4c-.2.2-.4.3-.6.4l-5.7 2.4c-.3.1-.6 0-.7-.3-.1-.1-.1-.3 0-.4L8.1 20c.1-.2.3-.5.4-.6L19.2 8.6c.2-.2.5-.2.7 0l3.5 3.4zM11.5 22.7l-3.9 1.7 1.7-3.9c0-.1.1-.2.2-.2l2.3 2.3c-.1 0-.2.1-.3.1z\"></path></svg>\n                <h4 class=\"c-menu-item-title\">Mozilla Blog</h4>\n              \n                <p class=\"c-menu-item-desc\">Learn about Mozilla and the issues that matter to us.</p>"
+      },
+      {
+        "href": "https://labs.mozilla.org/?utm_source=www.mozilla.org&utm_medium=referral&utm_campaign=nav&utm_content=innovation",
+        "inner_text": "Innovation",
+        "inner_html": "Innovation"
+      },
+      {
+        "href": "https://hubs.mozilla.com/?utm_source=www.mozilla.org&utm_medium=referral&utm_campaign=nav&utm_content=innovation",
+        "inner_text": "\n                \n                Mozilla Hubs\n                Gather in this interactive, online, multi-dimensional social space.\n              ",
+        "inner_html": "<svg class=\"c-menu-item-icon\" xmlns=\"http://www.w3.org/2000/svg\" width=\"32\" height=\"32\" viewBox=\"0 0 32 32\"><linearGradient id=\"a\" x1=\"17.2471\" x2=\"17.2471\" y1=\"30\" y2=\"3.1989\" gradientTransform=\"matrix(1 0 0 -1 0 34)\" gradientUnits=\"userSpaceOnUse\"><stop offset=\"0\" stop-color=\"#ffc000\"></stop><stop offset=\"1\" stop-color=\"#ffd600\"></stop></linearGradient><path fill=\"url(#a)\" d=\"M7.5 24.7c-.3.8-1 1.5-1.9 2-.9-1.3-1.4-2.8-1.4-4.5 0-3.4 2-6.4 4.9-7.7-2.8-1.1-5.4-2.8-5.4-4.6 0-1.9 1.7-1.5 3.9-1.1h.1c.6-2.8 3.1-4.9 6-4.9 3.4 0 6.2 2.8 6.2 6.2 0 2.2-1.1 4.1-2.8 5.2 1.5.5 3.3.9 5.5.7 3-.4 4-2 4.6-2.9.3-.5.5-.8.8-.6 2.9 2.2 3.8 7.5 1.7 11.7-.5.9-1 1.7-1.7 2.4-.8 0-2-2-2-2-.2.6-2.3 2.7-4.6 2.7-2.1 0-4-1.1-4.6-2.7-.7 1.6-2.5 2.7-4.6 2.7-2.2.1-4.1-1-4.7-2.6\"></path><circle cx=\"11.3\" cy=\"9.6\" r=\"1.7\" transform=\"matrix(.9997 -.02585 .02585 .9997 -.2454 .2941)\"></circle><path fill=\"#ff8a00\" d=\"M7.9 8.3c-.1.2-.1.4-.2.6-2.2-.5-4-.9-4 1 0 1.8 2.6 3.5 5.4 4.6.2-3.2.3-4.6-1.2-6.2z\"></path><circle cx=\"11.8\" cy=\"9.2\" r=\".5\" fill=\"#fff\"></circle></svg>\n                <h4 class=\"c-menu-item-title\">Mozilla Hubs</h4>\n                <p class=\"c-menu-item-desc\">Gather in this interactive, online, multi-dimensional social space.</p>"
+      },
+      {
+        "href": "https://www.mozilla.org/en-US/firefox/developer/",
+        "inner_text": "\n                \n                Firefox Developer Edition\n                Get the Firefox browser built just for developers.\n              ",
+        "inner_html": "<img src=\"https://www.mozilla.org/media/protocol/img/logos/firefox/browser/developer/logo-sm.d3157a6ac671.png\" class=\"c-menu-item-icon\" width=\"32\" height=\"32\" alt=\"\" loading=\"lazy\">\n                <h4 class=\"c-menu-item-title\">Firefox Developer Edition</h4>\n                <p class=\"c-menu-item-desc\">Get the Firefox browser built just for developers.</p>"
+      },
+      {
+        "href": "https://developer.mozilla.org/?utm_source=www.mozilla.org&utm_medium=referral&utm_campaign=nav&utm_content=innovation",
+        "inner_text": "\n                \n                MDN Web Docs\n                Check out the home for web developer resources.\n              ",
+        "inner_html": "<svg class=\"c-menu-item-icon\" xmlns=\"http://www.w3.org/2000/svg\" width=\"32\" height=\"32\" viewBox=\"0 0 32 32\"><path fill=\"#42435a\" d=\"M4 26.7c0 .7.6 1.3 1.3 1.3s1.3-.6 1.3-1.3V5.3C6.7 4.6 6.1 4 5.3 4S4 4.6 4 5.3v21.4zm10.7 0c0 .7.6 1.3 1.3 1.3.7 0 1.3-.6 1.3-1.3V8c0-.7-.6-1.3-1.3-1.3-.7 0-1.3.6-1.3 1.3v18.7zm-5.4 0c0 .7.6 1.3 1.3 1.3.7 0 1.3-.6 1.3-1.3V9.3c.1-.7-.5-1.3-1.2-1.3-.8 0-1.4.6-1.4 1.3v17.4zM26.7 28c-.6 0-1.1-.4-1.3-.9l-6-18.7c-.2-.7.2-1.4.9-1.6s1.4.1 1.7.8l6 18.7c.2.7-.2 1.5-.9 1.7h-.4z\"></path></svg>\n                <h4 class=\"c-menu-item-title\">MDN Web Docs</h4>\n                <p class=\"c-menu-item-desc\">Check out the home for web developer resources.</p>"
+      },
+      {
+        "href": "https://mixedreality.mozilla.org/firefox-reality/?utm_source=www.mozilla.org&utm_medium=referral&utm_campaign=nav&utm_content=innovation",
+        "inner_text": "\n                \n                Firefox Reality\n                Explore the web with the Firefox browser for virtual reality.\n              ",
+        "inner_html": "<img class=\"c-menu-item-icon\" src=\"https://www.mozilla.org/media/img/logos/firefox/logo-reality.6bcc5b8e7099.png\" alt=\"\" width=\"32\" height=\"32\" loading=\"lazy\">\n                <h4 class=\"c-menu-item-title\">Firefox Reality</h4>\n                <p class=\"c-menu-item-desc\">Explore the web with the Firefox browser for virtual reality.</p>"
+      },
+      {
+        "href": "https://commonvoice.mozilla.org/?utm_source=www.mozilla.org&utm_medium=referral&utm_campaign=nav&utm_content=innovation",
+        "inner_text": "\n                \n                Common Voice\n                Donate your voice so the future of the web can hear everyone.\n              ",
+        "inner_html": "<img class=\"c-menu-item-icon\" src=\"https://www.mozilla.org/media/img/nav/icons/icon-common-voice.127fa3f5dcb0.svg\" alt=\"\" loading=\"lazy\">\n                <h4 class=\"c-menu-item-title\">Common Voice</h4>\n                <p class=\"c-menu-item-desc\">Donate your voice so the future of the web can hear everyone.</p>"
+      },
+      {
+        "href": "https://research.mozilla.org/webassembly/?utm_source=www.mozilla.org&utm_medium=referral&utm_campaign=nav&utm_content=innovation",
+        "inner_text": "\n                \n                WebAssembly\n              \n                Learn more about the new, low-level, assembly-like language.\n              \n              ",
+        "inner_html": "<svg class=\"c-menu-item-icon\" xmlns=\"http://www.w3.org/2000/svg\" width=\"32\" height=\"32\" viewBox=\"0 0 32 32\"><path fill=\"#42435a\" d=\"M17.2 27l8.7-4.3c.2-.1.4-.2.5-.4.1-.2.2-.4.2-.6V10.9l-9.3 4.7V27zm-2.4 0V15.6l-9.3-4.7v10.7c0 .4.2.9.6 1l8.7 4.4zM25.1 9l-8.5-4.3c-.2-.1-.3-.1-.5-.1s-.4 0-.5.1L6.9 9l9.1 4.5L25.1 9zm-7.5-6.4l9.3 4.7c.6.3 1.1.7 1.4 1.3.3.6.5 1.2.5 1.8v11.1c0 .7-.2 1.3-.5 1.8-.3.6-.8 1-1.4 1.3l-9.3 4.7c-.5.2-1 .4-1.6.4-.5 0-1.1-.1-1.6-.4l-9.3-4.7c-.6-.2-1.1-.6-1.4-1.2-.3-.6-.5-1.2-.5-1.8V10.4c0-.7.2-1.3.5-1.8.3-.6.8-1 1.4-1.3l9.3-4.7c.5-.2 1-.4 1.6-.4s1.1.2 1.6.4z\"></path></svg>\n                <h4 class=\"c-menu-item-title\">WebAssembly</h4>\n              \n                <p class=\"c-menu-item-desc\">Learn more about the new, low-level, assembly-like language.</p>"
+      },
+      {
+        "href": "https://www.mozilla.org/en-US/firefox/mobile/get-app/",
+        "inner_text": "Get It Now",
+        "inner_html": "Get It Now"
+      },
+      {
+        "href": "https://app.adjust.com/2uo1qc?redirect=https%3A%2F%2Fplay.google.com%2Fstore%2Fapps%2Fdetails%3Fid%3Dorg.mozilla.firefox&campaign=www.mozilla.org&adgroup=firefox-daylight-promo-banner",
+        "inner_text": "\n  \n",
+        "inner_html": "<img class=\"\" src=\"https://www.mozilla.org/media/img/l10n/en-US/firefox/android/btn-google-play.77bdbc935c58.png\" srcset=\"https://www.mozilla.org/media/img/l10n/en-US/firefox/android/btn-google-play-high-res.87d9720bbc8b.png 1.5x\" alt=\"Get it on Google Play\" width=\"152\" height=\"45\">"
+      },
+      {
+        "href": "https://app.adjust.com/2uo1qc?redirect=https%3A%2F%2Fitunes.apple.com%2Fus%2Fapp%2Ffirefox-private-safe-browser%2Fid989804926&campaign=www.mozilla.org&adgroup=firefox-daylight-promo-banner",
+        "inner_text": "\n              \n            ",
+        "inner_html": "<img src=\"https://www.mozilla.org/media/img/l10n/en-US/firefox/ios/btn-app-store.1cfd5dba4a92.svg\" alt=\"Download on the App Store\" width=\"152\" height=\"45\">"
+      },
+      {
+        "href": "https://www.mozilla.org/en-US/firefox/features/picture-in-picture/",
+        "inner_text": "Video\nGame on with Firefox Picture-in-Picture\n\nGot things to do and games to watch? Do both using Picture-in-Picture in Firefox.",
+        "inner_html": "<div class=\"mzp-c-card-media-wrapper\">\n      \n      \n      \n        <div class=\"lazy-image-container\"><img class=\"mzp-c-card-image\" src=\"https://www.mozilla.org/media/contentcards/img/home-en/card_1/pip.1ebb8ae444d5.png\" alt=\"\" srcset=\"https://www.mozilla.org/media/contentcards/img/home-en/card_1/pip-high-res.c39591c4da67.png 2x\"><noscript><img class=\"mzp-c-card-image\" src=\"https://www.mozilla.org/media/contentcards/img/home-en/card_1/pip.1ebb8ae444d5.png\" data-srcset=\"https://www.mozilla.org/media/contentcards/img/home-en/card_1/pip-high-res.c39591c4da67.png 2x\" alt=\"\" ></noscript></div>\n      \n    </div>\n    \n    <div class=\"mzp-c-card-content\">\n    \n      <div class=\"mzp-c-card-tag\">Video</div>\n    \n      <h2 class=\"mzp-c-card-title\"><span>Game on with Firefox Picture-in-Picture</span></h2>\n    \n      <p class=\"mzp-c-card-desc\">Got things to do and games to watch? Do both using Picture-in-Picture in Firefox. </p>\n    \n    \n    \n    </div>"
+      },
+      {
+        "href": "https://blog.mozilla.org/blog/2021/03/19/reinstating-net-neutrality-in-the-us/?utm_source=www.mozilla.org&utm_medium=referral&utm_campaign=homepage&utm_content=card",
+        "inner_text": "Policy\nIt's time to reinstate net neutrality\n\nNet neutrality is good for people, personal expression, business, innovation, our economic recovery, and the internet.",
+        "inner_html": "<div class=\"mzp-c-card-media-wrapper\">\n      \n      \n      \n        <div class=\"lazy-image-container\"><img class=\"mzp-c-card-image\" src=\"https://www.mozilla.org/media/contentcards/img/home-en/card_2/net.ea5792d929b3.png\" alt=\"\" srcset=\"https://www.mozilla.org/media/contentcards/img/home-en/card_2/net-high-res.f64055ffccc7.png 2x\"><noscript><img class=\"mzp-c-card-image\" src=\"https://www.mozilla.org/media/contentcards/img/home-en/card_2/net.ea5792d929b3.png\" data-srcset=\"https://www.mozilla.org/media/contentcards/img/home-en/card_2/net-high-res.f64055ffccc7.png 2x\" alt=\"\" ></noscript></div>\n      \n    </div>\n    \n    <div class=\"mzp-c-card-content\">\n    \n      <div class=\"mzp-c-card-tag\">Policy</div>\n    \n      <h2 class=\"mzp-c-card-title\"><span>It's time to reinstate net neutrality</span></h2>\n    \n      <p class=\"mzp-c-card-desc\">Net neutrality is good for people, personal expression, business, innovation, our economic recovery, and the internet.</p>\n    \n    \n    \n    </div>"
+      },
+      {
+        "href": "https://www.mozilla.org/products/vpn/",
+        "inner_text": "Security\nClose the gap in your online security\n\nMozilla VPN offers an encrypted connection on-demand for all your devices to keep your online activity safe from prying eyes on any network.",
+        "inner_html": "<div class=\"mzp-c-card-media-wrapper\">\n      \n      \n      \n        <div class=\"lazy-image-container\"><img class=\"mzp-c-card-image\" src=\"https://www.mozilla.org/media/img/placeholder.71a50dbba44c.png\" data-src=\"https://www.mozilla.org/media/contentcards/img/home-en/card_3/vpn.9fb041abb74c.png\" data-srcset=\"https://www.mozilla.org/media/contentcards/img/home-en/card_3/vpn-high-res.3c96a0c32a07.png 2x\" alt=\"\"><noscript><img class=\"mzp-c-card-image\" src=\"https://www.mozilla.org/media/contentcards/img/home-en/card_3/vpn.9fb041abb74c.png\" data-srcset=\"https://www.mozilla.org/media/contentcards/img/home-en/card_3/vpn-high-res.3c96a0c32a07.png 2x\" alt=\"\" ></noscript></div>\n      \n    </div>\n    \n    <div class=\"mzp-c-card-content\">\n    \n      <div class=\"mzp-c-card-tag\">Security</div>\n    \n      <h2 class=\"mzp-c-card-title\"><span>Close the gap in your online security</span></h2>\n    \n      <p class=\"mzp-c-card-desc\">Mozilla VPN offers an encrypted connection on-demand for all your devices to keep your online activity safe from prying eyes on any network.</p>\n    \n    \n    \n    </div>"
+      },
+      {
+        "href": "https://relay.firefox.com/?utm_source=www.mozilla.org&utm_medium=referral&utm_campaign=homepage&utm_content=card",
+        "inner_text": "Extension\nFirefox Relay cuts down on email spam\n\nHide your real email address to help protect your online accounts — and your identity — from hackers.",
+        "inner_html": "<div class=\"mzp-c-card-media-wrapper\">\n      \n      \n      \n        <div class=\"lazy-image-container\"><img class=\"mzp-c-card-image\" src=\"https://www.mozilla.org/media/img/placeholder.71a50dbba44c.png\" data-src=\"https://www.mozilla.org/media/contentcards/img/home-en/card_4/relay.4f18eca2f862.png\" data-srcset=\"https://www.mozilla.org/media/contentcards/img/home-en/card_4/relay-high-res.f50381f4d5c7.png 2x\" alt=\"\"><noscript><img class=\"mzp-c-card-image\" src=\"https://www.mozilla.org/media/contentcards/img/home-en/card_4/relay.4f18eca2f862.png\" data-srcset=\"https://www.mozilla.org/media/contentcards/img/home-en/card_4/relay-high-res.f50381f4d5c7.png 2x\" alt=\"\" ></noscript></div>\n      \n    </div>\n    \n    <div class=\"mzp-c-card-content\">\n    \n      <div class=\"mzp-c-card-tag\">Extension</div>\n    \n      <h2 class=\"mzp-c-card-title\"><span>Firefox Relay cuts down on email spam</span></h2>\n    \n      <p class=\"mzp-c-card-desc\">Hide your real email address to help protect your online accounts — and your identity — from hackers.</p>\n    \n    \n    \n    </div>"
+      },
+      {
+        "href": "https://hubs.mozilla.com/?utm_source=www.mozilla.org&utm_medium=referral&utm_campaign=homepage&utm_content=card",
+        "inner_text": "Mozilla Hubs\nMozilla Hubs\n\nCreate and share an instant virtual room with friends. Watch videos, play with 3D objects, or just hang out.",
+        "inner_html": "<div class=\"mzp-c-card-media-wrapper\">\n      \n      \n      \n        <div class=\"lazy-image-container\"><img class=\"mzp-c-card-image\" src=\"https://www.mozilla.org/media/img/placeholder.71a50dbba44c.png\" data-src=\"https://www.mozilla.org/media/contentcards/img/home-en/card_5/hubs.95233913391e.jpg\" data-srcset=\"https://www.mozilla.org/media/contentcards/img/home-en/card_5/hubs-high-res.653483202ee4.jpg 2x\" alt=\"\"><noscript><img class=\"mzp-c-card-image\" src=\"https://www.mozilla.org/media/contentcards/img/home-en/card_5/hubs.95233913391e.jpg\" data-srcset=\"https://www.mozilla.org/media/contentcards/img/home-en/card_5/hubs-high-res.653483202ee4.jpg 2x\" alt=\"\" ></noscript></div>\n      \n    </div>\n    \n    <div class=\"mzp-c-card-content\">\n    \n      <div class=\"mzp-c-card-tag\">Mozilla Hubs</div>\n    \n      <h2 class=\"mzp-c-card-title\"><span>Mozilla Hubs</span></h2>\n    \n      <p class=\"mzp-c-card-desc\">Create and share an instant virtual room with friends. Watch videos, play with 3D objects, or just hang out.</p>\n    \n    \n    \n    </div>"
+      },
+      {
+        "href": "https://getpocket.com/?utm_source=www.mozilla.org&utm_medium=referral&utm_campaign=homepage&utm_content=hero",
+        "inner_text": "Try Pocket",
+        "inner_html": "Try Pocket"
+      },
+      {
+        "href": "https://getpocket.com/@MozillaHQ",
+        "inner_text": "Subscribe",
+        "inner_html": "Subscribe"
+      },
+      {
+        "href": "https://www.theguardian.com/technology/2021/may/08/work-can-virtual-meeting-spaces-save-us-all-from-zoom-fatigue",
+        "inner_text": "theguardian.com\nCan virtual meeting spaces save us all from Zoom fatigue?",
+        "inner_html": "<div class=\"mzp-c-card-media-wrapper\">\n      \n      \n      \n        <div class=\"lazy-image-container\"><img class=\"mzp-c-card-image\" src=\"https://www.mozilla.org/media/img/placeholder.71a50dbba44c.png\" data-src=\"https://img-getpocket.cdn.mozilla.net/direct?url=https%3A%2F%2Fi.guim.co.uk%2Fimg%2Fmedia%2Ff3b78da338b58652c70794b6a5a1deeab4a3b436%2F0_182_3993_2856%2Fmaster%2F3993.jpg%3Fwidth%3D465%26quality%3D45%26auto%3Dformat%26fit%3Dmax%26dpr%3D2%26s%3Dd4e7ed2415b295b20b26c472b36b5c83&amp;resize=w450\" alt=\"\"><noscript><img class=\"mzp-c-card-image\" src=\"https://img-getpocket.cdn.mozilla.net/direct?url=https%3A%2F%2Fi.guim.co.uk%2Fimg%2Fmedia%2Ff3b78da338b58652c70794b6a5a1deeab4a3b436%2F0_182_3993_2856%2Fmaster%2F3993.jpg%3Fwidth%3D465%26quality%3D45%26auto%3Dformat%26fit%3Dmax%26dpr%3D2%26s%3Dd4e7ed2415b295b20b26c472b36b5c83&resize=w450\"  alt=\"\" ></noscript></div>\n      \n    </div>\n    \n    <div class=\"mzp-c-card-content\">\n    \n      <div class=\"mzp-c-card-tag\">theguardian.com</div>\n    \n      <h2 class=\"mzp-c-card-title\"><span>Can virtual meeting spaces save us all from Zoom fatigue?</span></h2>\n    \n    \n    \n    </div>"
+      },
+      {
+        "href": "https://www.howtogeek.com/722570/how-to-quickly-search-open-tabs-in-firefox/",
+        "inner_text": "howtogeek.com\nHow to Quickly Search Open Tabs in Firefox",
+        "inner_html": "<div class=\"mzp-c-card-media-wrapper\">\n      \n      \n      \n        <div class=\"lazy-image-container\"><img class=\"mzp-c-card-image\" src=\"https://www.mozilla.org/media/img/placeholder.71a50dbba44c.png\" data-src=\"https://img-getpocket.cdn.mozilla.net/direct?url=https%3A%2F%2Fwww.howtogeek.com%2Fwp-content%2Fuploads%2F2021%2F04%2Ffirefox_hero_1200px.jpg%3Fwidth%3D1200%26trim%3D1%2C1%26bg-color%3D000%26pad%3D1%2C1&amp;resize=w450\" alt=\"\"><noscript><img class=\"mzp-c-card-image\" src=\"https://img-getpocket.cdn.mozilla.net/direct?url=https%3A%2F%2Fwww.howtogeek.com%2Fwp-content%2Fuploads%2F2021%2F04%2Ffirefox_hero_1200px.jpg%3Fwidth%3D1200%26trim%3D1%2C1%26bg-color%3D000%26pad%3D1%2C1&resize=w450\"  alt=\"\" ></noscript></div>\n      \n    </div>\n    \n    <div class=\"mzp-c-card-content\">\n    \n      <div class=\"mzp-c-card-tag\">howtogeek.com</div>\n    \n      <h2 class=\"mzp-c-card-title\"><span>How to Quickly Search Open Tabs in Firefox</span></h2>\n    \n    \n    \n    </div>"
+      },
+      {
+        "href": "https://arstechnica.com/gadgets/2021/05/96-of-us-users-opt-out-of-app-tracking-in-ios-14-5-analytics-find/",
+        "inner_text": "arstechnica.com\n96% of US users opt out of app tracking in iOS 14.5, analytics find",
+        "inner_html": "<div class=\"mzp-c-card-media-wrapper\">\n      \n      \n      \n        <div class=\"lazy-image-container\"><img class=\"mzp-c-card-image\" src=\"https://www.mozilla.org/media/img/placeholder.71a50dbba44c.png\" data-src=\"https://img-getpocket.cdn.mozilla.net/direct?url=https%3A%2F%2Fcdn.arstechnica.net%2Fwp-content%2Fuploads%2F2021%2F05%2Fappprivacy-800x491.jpg&amp;resize=w450\" alt=\"\"><noscript><img class=\"mzp-c-card-image\" src=\"https://img-getpocket.cdn.mozilla.net/direct?url=https%3A%2F%2Fcdn.arstechnica.net%2Fwp-content%2Fuploads%2F2021%2F05%2Fappprivacy-800x491.jpg&resize=w450\"  alt=\"\" ></noscript></div>\n      \n    </div>\n    \n    <div class=\"mzp-c-card-content\">\n    \n      <div class=\"mzp-c-card-tag\">arstechnica.com</div>\n    \n      <h2 class=\"mzp-c-card-title\"><span>96% of US users opt out of app tracking in iOS 14.5, analytics find</span></h2>\n    \n    \n    \n    </div>"
+      },
+      {
+        "href": "https://www.protocol.com/mitchell-baker-mozilla",
+        "inner_text": "protocol.com\nMozilla is trying to save the internet one user at a time",
+        "inner_html": "<div class=\"mzp-c-card-media-wrapper\">\n      \n      \n      \n        <div class=\"lazy-image-container\"><img class=\"mzp-c-card-image\" src=\"https://www.mozilla.org/media/img/placeholder.71a50dbba44c.png\" data-src=\"https://img-getpocket.cdn.mozilla.net/direct?url=https%3A%2F%2Fwww.protocol.com%2Fmedia-library%2FeyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpbWFnZSI6Imh0dHBzOi8vYXNzZXRzLnJibC5tcy8yNTg5Mzk4MS9vcmlnaW4uanBnIiwiZXhwaXJlc19hdCI6MTY2NTA0NjU4N30.wc3XeEUZRqtc7YJrQT0MSbpPlUanDP78iW-oQD1zcqc%2Fimage.jpg%3Fwidth%3D1200%26coordinates%3D0%252C0%252C0%252C341%26height%3D600&amp;resize=w450\" alt=\"\"><noscript><img class=\"mzp-c-card-image\" src=\"https://img-getpocket.cdn.mozilla.net/direct?url=https%3A%2F%2Fwww.protocol.com%2Fmedia-library%2FeyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpbWFnZSI6Imh0dHBzOi8vYXNzZXRzLnJibC5tcy8yNTg5Mzk4MS9vcmlnaW4uanBnIiwiZXhwaXJlc19hdCI6MTY2NTA0NjU4N30.wc3XeEUZRqtc7YJrQT0MSbpPlUanDP78iW-oQD1zcqc%2Fimage.jpg%3Fwidth%3D1200%26coordinates%3D0%252C0%252C0%252C341%26height%3D600&resize=w450\"  alt=\"\" ></noscript></div>\n      \n    </div>\n    \n    <div class=\"mzp-c-card-content\">\n    \n      <div class=\"mzp-c-card-tag\">protocol.com</div>\n    \n      <h2 class=\"mzp-c-card-title\"><span>Mozilla is trying to save the internet one user at a time</span></h2>\n    \n    \n    \n    </div>"
+      },
+      {
+        "href": "https://foundation.mozilla.org/?utm_source=www.mozilla.org&utm_medium=referral&utm_campaign=homepage&utm_content=billboard",
+        "inner_text": "Visit the Mozilla Foundation",
+        "inner_html": "Visit the Mozilla Foundation"
+      },
+      {
+        "href": "https://2020.internethealthreport.org/?utm_source=www.mozilla.org&utm_medium=referral&utm_campaign=homepage&utm_content=card",
+        "inner_text": "Internet Health\nInternet Health Report 2020\n\nWe asked 100+ people to share their expertise on what can be done to make the internet healthier. Here's what we heard.",
+        "inner_html": "<div class=\"mzp-c-card-media-wrapper\">\n      \n      \n      \n        <div class=\"lazy-image-container\"><img class=\"mzp-c-card-image\" src=\"https://www.mozilla.org/media/img/placeholder.71a50dbba44c.png\" data-src=\"https://www.mozilla.org/media/contentcards/img/home-en/card_6/ihr.919b6c2be53f.png\" data-srcset=\"https://www.mozilla.org/media/contentcards/img/home-en/card_6/ihr-high-res.5caec9562b9c.png 2x\" alt=\"\"><noscript><img class=\"mzp-c-card-image\" src=\"https://www.mozilla.org/media/contentcards/img/home-en/card_6/ihr.919b6c2be53f.png\" data-srcset=\"https://www.mozilla.org/media/contentcards/img/home-en/card_6/ihr-high-res.5caec9562b9c.png 2x\" alt=\"\" ></noscript></div>\n      \n    </div>\n    \n    <div class=\"mzp-c-card-content\">\n    \n      <div class=\"mzp-c-card-tag\">Internet Health</div>\n    \n      <h2 class=\"mzp-c-card-title\"><span>Internet Health Report 2020</span></h2>\n    \n      <p class=\"mzp-c-card-desc\">We asked 100+ people to share their expertise on what can be done to make the internet healthier. Here's what we heard.</p>\n    \n    \n    \n    </div>"
+      },
+      {
+        "href": "https://foundation.mozilla.org/en/blog/mozilla-explains-what-is-ai/?utm_source=www.mozilla.org&utm_medium=referral&utm_campaign=homepage&utm_content=card",
+        "inner_text": "Video\nMozilla Explains: AI\n\nHow does an algorithm train a machine learning model, and what happens next?",
+        "inner_html": "<div class=\"mzp-c-card-media-wrapper\">\n      \n      \n      \n        <div class=\"lazy-image-container\"><img class=\"mzp-c-card-image\" src=\"https://www.mozilla.org/media/img/placeholder.71a50dbba44c.png\" data-src=\"https://www.mozilla.org/media/contentcards/img/home-en/card_7/ml.d06d29620974.jpg\" data-srcset=\"https://www.mozilla.org/media/contentcards/img/home-en/card_7/ml-high-res.f70b81dc486e.jpg 2x\" alt=\"\"><noscript><img class=\"mzp-c-card-image\" src=\"https://www.mozilla.org/media/contentcards/img/home-en/card_7/ml.d06d29620974.jpg\" data-srcset=\"https://www.mozilla.org/media/contentcards/img/home-en/card_7/ml-high-res.f70b81dc486e.jpg 2x\" alt=\"\" ></noscript></div>\n      \n    </div>\n    \n    <div class=\"mzp-c-card-content\">\n    \n      <div class=\"mzp-c-card-tag\">Video</div>\n    \n      <h2 class=\"mzp-c-card-title\"><span>Mozilla Explains: AI</span></h2>\n    \n      <p class=\"mzp-c-card-desc\">How does an algorithm train a machine learning model, and what happens next?</p>\n    \n    \n    \n    </div>"
+      },
+      {
+        "href": "https://blog.mozilla.org/firefox/what-is-an-ip-address/?utm_source=www.mozilla.org&utm_medium=referral&utm_campaign=homepage&utm_content=card",
+        "inner_text": "Mozilla Explains\nWhat is an IP address?\n\nWe have answers all of your questions about IP addresses from what is an IP address, to how it works, and if you should hide it.",
+        "inner_html": "<div class=\"mzp-c-card-media-wrapper\">\n      \n      \n      \n        <div class=\"lazy-image-container\"><img class=\"mzp-c-card-image\" src=\"https://www.mozilla.org/media/img/placeholder.71a50dbba44c.png\" data-src=\"https://www.mozilla.org/media/contentcards/img/home-en/card_8/explains.eb21a5734821.jpg\" data-srcset=\"https://www.mozilla.org/media/contentcards/img/home-en/card_8/explains-high-res.7922a96889b0.jpg 2x\" alt=\"\"><noscript><img class=\"mzp-c-card-image\" src=\"https://www.mozilla.org/media/contentcards/img/home-en/card_8/explains.eb21a5734821.jpg\" data-srcset=\"https://www.mozilla.org/media/contentcards/img/home-en/card_8/explains-high-res.7922a96889b0.jpg 2x\" alt=\"\" ></noscript></div>\n      \n    </div>\n    \n    <div class=\"mzp-c-card-content\">\n    \n      <div class=\"mzp-c-card-tag\">Mozilla Explains</div>\n    \n      <h2 class=\"mzp-c-card-title\"><span>What is an IP address?</span></h2>\n    \n      <p class=\"mzp-c-card-desc\">We have answers all of your questions about IP addresses from what is an IP address, to how it works, and if you should hide it.</p>\n    \n    \n    \n    </div>"
+      },
+      {
+        "href": "https://blog.mozilla.org/firefox/tag/womens-history-month-2021/?utm_source=www.mozilla.org&utm_medium=referral&utm_campaign=homepage&utm_content=card",
+        "inner_text": "Interviews\nDoing business through the pandemic\n\nLet your imagination run wild with this curated collection exploring eleven out-there scientific “What ifs?”",
+        "inner_html": "<div class=\"mzp-c-card-media-wrapper\">\n      \n      \n      \n        <div class=\"lazy-image-container\"><img class=\"mzp-c-card-image\" src=\"https://www.mozilla.org/media/img/placeholder.71a50dbba44c.png\" data-src=\"https://www.mozilla.org/media/contentcards/img/home-en/card_9/quote.6afa696b54ff.jpg\" data-srcset=\"https://www.mozilla.org/media/contentcards/img/home-en/card_9/quote-high-res.03697c31e7a2.jpg 2x\" alt=\"\"><noscript><img class=\"mzp-c-card-image\" src=\"https://www.mozilla.org/media/contentcards/img/home-en/card_9/quote.6afa696b54ff.jpg\" data-srcset=\"https://www.mozilla.org/media/contentcards/img/home-en/card_9/quote-high-res.03697c31e7a2.jpg 2x\" alt=\"\" ></noscript></div>\n      \n    </div>\n    \n    <div class=\"mzp-c-card-content\">\n    \n      <div class=\"mzp-c-card-tag\">Interviews</div>\n    \n      <h2 class=\"mzp-c-card-title\"><span>Doing business through the pandemic</span></h2>\n    \n      <p class=\"mzp-c-card-desc\">Let your imagination run wild with this curated collection exploring eleven out-there scientific “What ifs?”</p>\n    \n    \n    \n    </div>"
+      },
+      {
+        "href": "https://foundation.mozilla.org/en/blog/category/moz-news-beat/?utm_source=www.mozilla.org&utm_medium=referral&utm_campaign=homepage&utm_content=card",
+        "inner_text": "Mozilla Foundation\nInternet news, from best to worst\n\nEvery week we take a fun look at what’s going on in the world and on the internet from awesome to awful.",
+        "inner_html": "<div class=\"mzp-c-card-media-wrapper\">\n      \n      \n      \n        <div class=\"lazy-image-container\"><img class=\"mzp-c-card-image\" src=\"https://www.mozilla.org/media/img/placeholder.71a50dbba44c.png\" data-src=\"https://www.mozilla.org/media/contentcards/img/home-en/card_10/news.fa123da109e6.jpg\" data-srcset=\"https://www.mozilla.org/media/contentcards/img/home-en/card_10/news-high-res.15e44ac9b354.jpg 2x\" alt=\"\"><noscript><img class=\"mzp-c-card-image\" src=\"https://www.mozilla.org/media/contentcards/img/home-en/card_10/news.fa123da109e6.jpg\" data-srcset=\"https://www.mozilla.org/media/contentcards/img/home-en/card_10/news-high-res.15e44ac9b354.jpg 2x\" alt=\"\" ></noscript></div>\n      \n    </div>\n    \n    <div class=\"mzp-c-card-content\">\n    \n      <div class=\"mzp-c-card-tag\">Mozilla Foundation</div>\n    \n      <h2 class=\"mzp-c-card-title\"><span>Internet news, from best to worst</span></h2>\n    \n      <p class=\"mzp-c-card-desc\">Every week we take a fun look at what’s going on in the world and on the internet from awesome to awful.</p>\n    \n    \n    \n    </div>"
+      },
+      {
+        "href": "https://getpocket.com/explore/item/what-if-11-highly-hypothetical-science-questions-answered?utm_source=www.mozilla.org&utm_medium=referral&utm_campaign=homepage&utm_content=card",
+        "inner_text": "Pocket Collection\nThere are no stupid questions\n\nLet your imagination run wild with this curated collection exploring eleven out-there scientific “What ifs?”",
+        "inner_html": "<div class=\"mzp-c-card-media-wrapper\">\n      \n      \n      \n        <div class=\"lazy-image-container\"><img class=\"mzp-c-card-image\" src=\"https://www.mozilla.org/media/img/placeholder.71a50dbba44c.png\" data-src=\"https://www.mozilla.org/media/contentcards/img/home-en/card_11/collection.98d4f5c6d176.jpg\" data-srcset=\"https://www.mozilla.org/media/contentcards/img/home-en/card_11/collection-high-res.6724e69dfcbb.jpg 2x\" alt=\"\"><noscript><img class=\"mzp-c-card-image\" src=\"https://www.mozilla.org/media/contentcards/img/home-en/card_11/collection.98d4f5c6d176.jpg\" data-srcset=\"https://www.mozilla.org/media/contentcards/img/home-en/card_11/collection-high-res.6724e69dfcbb.jpg 2x\" alt=\"\" ></noscript></div>\n      \n    </div>\n    \n    <div class=\"mzp-c-card-content\">\n    \n      <div class=\"mzp-c-card-tag\">Pocket Collection</div>\n    \n      <h2 class=\"mzp-c-card-title\"><span>There are no stupid questions</span></h2>\n    \n      <p class=\"mzp-c-card-desc\">Let your imagination run wild with this curated collection exploring eleven out-there scientific “What ifs?”</p>\n    \n    \n    \n    </div>"
+      },
+      {
+        "href": "https://www.mozilla.org/en-US/privacy/websites/",
+        "inner_text": "this Privacy Notice",
+        "inner_html": "this Privacy Notice"
+      },
+      {
+        "href": "https://www.mozilla.org/en-US/firefox/accounts/",
+        "inner_text": "Learn more",
+        "inner_html": "Learn more"
+      },
+      {
+        "href": "https://blog.mozilla.org/press/?utm_source=www.mozilla.org&utm_medium=referral&utm_campaign=footer&utm_content=company",
+        "inner_text": "Press Center",
+        "inner_html": "Press Center"
+      },
+      {
+        "href": "https://blog.mozilla.org/?utm_source=www.mozilla.org&utm_medium=referral&utm_campaign=footer&utm_content=company",
+        "inner_text": "Corporate Blog",
+        "inner_html": "Corporate Blog"
+      },
+      {
+        "href": "https://careers.mozilla.org/?utm_source=www.mozilla.org&utm_medium=referral&utm_campaign=footer&utm_content=company",
+        "inner_text": "Careers",
+        "inner_html": "Careers"
+      },
+      {
+        "href": "https://www.mozilla.org/en-US/contact/",
+        "inner_text": "Contact",
+        "inner_html": "Contact"
+      },
+      {
+        "href": "https://donate.mozilla.org/en-US/?presets=50,30,20,10&amount=30&utm_source=mozilla.org&utm_medium=referral&utm_content=company&currency=usd&utm_campaign=footer",
+        "inner_text": "Donate",
+        "inner_html": "Donate"
+      },
+      {
+        "href": "https://www.mozilla.org/en-US/privacy/",
+        "inner_text": "Privacy Hub",
+        "inner_html": "Privacy Hub"
+      },
+      {
+        "href": "https://www.mozilla.org/en-US/firefox/browsers/compare/",
+        "inner_text": "Browser Comparison",
+        "inner_html": "Browser Comparison"
+      },
+      {
+        "href": "https://mozilla.design/?utm_source=www.mozilla.org&utm_medium=referral&utm_campaign=footer&utm_content=resources",
+        "inner_text": "Brand Standards",
+        "inner_html": "Brand Standards"
+      },
+      {
+        "href": "https://support.mozilla.org/?utm_source=www.mozilla.org&utm_medium=referral&utm_campaign=footer&utm_content=support",
+        "inner_text": "Product Help",
+        "inner_html": "Product Help"
+      },
+      {
+        "href": "https://bugzilla.mozilla.org/?utm_source=www.mozilla.org&utm_medium=referral&utm_campaign=footer&utm_content=support",
+        "inner_text": "File a Bug",
+        "inner_html": "File a Bug"
+      },
+      {
+        "href": "https://www.mozilla.org/en-US/firefox/channel/desktop/",
+        "inner_text": "Beta",
+        "inner_html": "Beta"
+      },
+      {
+        "href": "https://www.mozilla.org/en-US/firefox/enterprise/",
+        "inner_text": "Enterprise",
+        "inner_html": "Enterprise"
+      },
+      {
+        "href": "https://developer.mozilla.org/docs/Tools/?utm_source=www.mozilla.org&utm_medium=referral&utm_campaign=footer&utm_content=developers",
+        "inner_text": "Tools",
+        "inner_html": "Tools"
+      },
+      {
+        "href": "https://twitter.com/mozilla",
+        "inner_text": "Twitter (@mozilla)",
+        "inner_html": "Twitter<span> (@mozilla)</span>"
+      },
+      {
+        "href": "https://www.instagram.com/mozilla/",
+        "inner_text": "Instagram (@mozilla)",
+        "inner_html": "Instagram<span> (@mozilla)</span>"
+      },
+      {
+        "href": "https://twitter.com/firefox",
+        "inner_text": "Twitter (@firefox)",
+        "inner_html": "Twitter<span> (@firefox)</span>"
+      },
+      {
+        "href": "https://www.instagram.com/firefox/",
+        "inner_text": "Instagram (@firefox)",
+        "inner_html": "Instagram<span> (@firefox)</span>"
+      },
+      {
+        "href": "https://www.youtube.com/user/firefoxchannel",
+        "inner_text": "YouTube (@firefoxchannel)",
+        "inner_html": "YouTube<span> (@firefoxchannel)</span>"
+      },
+      {
+        "href": "https://www.mozilla.org/locales/",
+        "inner_text": "Language",
+        "inner_html": "Language"
+      },
+      {
+        "href": "https://www.mozilla.org/en-US/about/legal/",
+        "inner_text": "Legal",
+        "inner_html": "Legal"
+      },
+      {
+        "href": "https://www.mozilla.org/en-US/about/governance/policies/participation/",
+        "inner_text": "Community Participation Guidelines",
+        "inner_html": "Community Participation Guidelines"
+      },
+      {
+        "href": "https://foundation.mozilla.org/?utm_source=www.mozilla.org&utm_medium=referral&utm_campaign=footer",
+        "inner_text": "Mozilla Foundation",
+        "inner_html": "Mozilla Foundation"
+      },
+      {
+        "href": "https://www.mozilla.org/en-US/foundation/licensing/website-content/",
+        "inner_text": "Creative Commons license",
+        "inner_html": "Creative Commons license"
+      }
+    ],
+    "social": [
+      {
+        "href": "https://twitter.com/mozilla",
+        "inner_text": "Twitter (@mozilla)",
+        "inner_html": "Twitter<span> (@mozilla)</span>"
+      },
+      {
+        "href": "https://www.instagram.com/mozilla/",
+        "inner_text": "Instagram (@mozilla)",
+        "inner_html": "Instagram<span> (@mozilla)</span>"
+      },
+      {
+        "href": "https://twitter.com/firefox",
+        "inner_text": "Twitter (@firefox)",
+        "inner_html": "Twitter<span> (@firefox)</span>"
+      },
+      {
+        "href": "https://www.instagram.com/firefox/",
+        "inner_text": "Instagram (@firefox)",
+        "inner_html": "Instagram<span> (@firefox)</span>"
+      },
+      {
+        "href": "https://www.youtube.com/user/firefoxchannel",
+        "inner_text": "YouTube (@firefoxchannel)",
+        "inner_html": "YouTube<span> (@firefoxchannel)</span>"
+      }
+    ],
+    "keywords": [
+      {
+        "href": "https://www.mozilla.org/en-US/privacy/firefox/",
+        "inner_text": "\n      Firefox Privacy Notice\n    ",
+        "inner_html": "Firefox Privacy Notice"
+      },
+      {
+        "href": "https://www.mozilla.org/en-US/firefox/privacy/",
+        "inner_text": "\n                \n                Privacy Promise\n                Learn how Firefox treats your data with respect.\n              ",
+        "inner_html": "<img src=\"https://www.mozilla.org/media/img/nav/icons/icon-privacy-promise.eee1662acb03.svg\" class=\"c-menu-item-icon\" width=\"32\" height=\"32\" alt=\"\" loading=\"lazy\">\n                <h4 class=\"c-menu-item-title\">Privacy Promise</h4>\n                <p class=\"c-menu-item-desc\">Learn how Firefox treats your data with respect.</p>"
+      },
+      {
+        "href": "https://www.mozilla.org/en-US/firefox/privacy/products/",
+        "inner_text": "\n                \n                Product Promise\n              \n                Learn how each Firefox product protects and respects your data.\n              \n              ",
+        "inner_html": "<svg class=\"c-menu-item-icon\" xmlns=\"http://www.w3.org/2000/svg\" width=\"32\" height=\"32\" viewBox=\"0 0 32 32\"><path fill=\"#42435a\" d=\"M27.3 7.6c0-1.5-1.1-2.8-2.6-3L16 3.1 7.2 4.6c-1.5.2-2.6 1.5-2.6 3 0 2.4 0 5.5.2 7 .4 4.5 1.3 7 3.5 9.8 1.9 2.4 4.6 4 7.6 4.4h.4c3-.5 5.7-2 7.6-4.4 2.2-2.8 3-5.3 3.5-9.8-.1-1.6-.1-5.1-.1-7zm-2.9 6.7c-.4 4-1.1 6-2.9 8.4-1.4 1.7-3.3 2.9-5.5 3.3-2.2-.4-4.1-1.6-5.5-3.3-1.8-2.4-2.5-4.4-2.9-8.4-.1-1.1-.1-3.5-.1-6.7 0-.1.1-.2.2-.2L16 6l8.3 1.4c.1 0 .2.1.2.2 0 3.2 0 5.7-.1 6.7zm-13.9-.2c0-.4-.1-1.5-.1-4.3l5.6-.9v14.2c-1.3-.3-2.4-1.1-3.2-2.1-1.4-1.8-2-3.1-2.3-6.9z\"></path></svg>\n                <h4 class=\"c-menu-item-title\">Product Promise</h4>\n              \n                <p class=\"c-menu-item-desc\">Learn how each Firefox product protects and respects your data.</p>"
+      },
+      {
+        "href": "https://arstechnica.com/gadgets/2021/05/96-of-us-users-opt-out-of-app-tracking-in-ios-14-5-analytics-find/",
+        "inner_text": "arstechnica.com\n96% of US users opt out of app tracking in iOS 14.5, analytics find",
+        "inner_html": "<div class=\"mzp-c-card-media-wrapper\">\n      \n      \n      \n        <div class=\"lazy-image-container\"><img class=\"mzp-c-card-image\" src=\"https://www.mozilla.org/media/img/placeholder.71a50dbba44c.png\" data-src=\"https://img-getpocket.cdn.mozilla.net/direct?url=https%3A%2F%2Fcdn.arstechnica.net%2Fwp-content%2Fuploads%2F2021%2F05%2Fappprivacy-800x491.jpg&amp;resize=w450\" alt=\"\"><noscript><img class=\"mzp-c-card-image\" src=\"https://img-getpocket.cdn.mozilla.net/direct?url=https%3A%2F%2Fcdn.arstechnica.net%2Fwp-content%2Fuploads%2F2021%2F05%2Fappprivacy-800x491.jpg&resize=w450\"  alt=\"\" ></noscript></div>\n      \n    </div>\n    \n    <div class=\"mzp-c-card-content\">\n    \n      <div class=\"mzp-c-card-tag\">arstechnica.com</div>\n    \n      <h2 class=\"mzp-c-card-title\"><span>96% of US users opt out of app tracking in iOS 14.5, analytics find</span></h2>\n    \n    \n    \n    </div>"
+      },
+      {
+        "href": "https://www.mozilla.org/en-US/privacy/websites/",
+        "inner_text": "this Privacy Notice",
+        "inner_html": "this Privacy Notice"
+      },
+      {
+        "href": "https://www.mozilla.org/en-US/privacy/",
+        "inner_text": "Privacy Hub",
+        "inner_html": "Privacy Hub"
+      },
+      {
+        "href": "https://www.mozilla.org/en-US/about/legal/",
+        "inner_text": "Legal",
+        "inner_html": "Legal"
+      }
+    ]
+  },
+  "unsafeForms": [],
+  "browsing_history": [
+    "https://www.mozilla.org/en-US/"
+  ],
+  "websockets": {},
+  "cookies": [
+    {
+      "name": "_ga",
+      "value": "GA1.2.1961177267.1621529280",
+      "domain": "mozilla.org",
+      "path": "/",
+      "expires": 1684601280,
+      "size": 30,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2023-05-20T16:48:00.000Z",
+      "expiresDays": 730,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 495,
+            "lineNumber": 30,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "zc",
+            "source": "    at zc (https://www.google-analytics.com/analytics.js:30:495)"
+          },
+          {
+            "columnNumber": 15,
+            "lineNumber": 60,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "ma",
+            "source": "    at ma (https://www.google-analytics.com/analytics.js:60:15)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T16:48:00.331Z",
+        "location": "https://www.mozilla.org/en-US/"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "_gid",
+      "value": "GA1.2.1594084391.1621529280",
+      "domain": "mozilla.org",
+      "path": "/",
+      "expires": 1621615680,
+      "size": 31,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2021-05-21T16:48:00.000Z",
+      "expiresDays": 1,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 495,
+            "lineNumber": 30,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "zc",
+            "source": "    at zc (https://www.google-analytics.com/analytics.js:30:495)"
+          },
+          {
+            "columnNumber": 401,
+            "lineNumber": 59,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "ma",
+            "source": "    at ma (https://www.google-analytics.com/analytics.js:59:401)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T16:48:00.331Z",
+        "location": "https://www.mozilla.org/en-US/"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "_gat_UA-36116321-1",
+      "value": "1",
+      "domain": "mozilla.org",
+      "path": "/",
+      "expires": 1621529340,
+      "size": 19,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2021-05-20T16:49:00.000Z",
+      "expiresDays": 0,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 495,
+            "lineNumber": 30,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "zc",
+            "source": "    at zc (https://www.google-analytics.com/analytics.js:30:495)"
+          },
+          {
+            "columnNumber": 31,
+            "lineNumber": 73,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "Qd",
+            "source": "    at Qd (https://www.google-analytics.com/analytics.js:73:31)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T16:48:00.371Z",
+        "location": "https://www.mozilla.org/en-US/"
+      },
+      "firstPartyStorage": true
+    }
+  ],
+  "localStorage": {},
+  "beacons": [
+    {
+      "url": "https://www.google-analytics.com/j/collect?v=1&_v=j90&aip=1&a=825652789&t=pageview&_s=1&dl=https%3A%2F%2Fwww.mozilla.org%2Fen-US%2F&dp=%2Fen-US%2F&ul=en-us&de=UTF-8&dt=Internet%20for%20people%2C%20not%20profit%20%E2%80%94%20Mozilla&sd=24-bit&sr=1680x927&vp=1680x927&je=0&_u=aGBAAEAjAAAAAC~&jid=894787242&gjid=1616443080&cid=1961177267.1621529280&tid=UA-36116321-1&_gid=1594084391.1621529280&_r=1&gtm=2wg5c1MW3R8V&cd9=&cd13=&cd14=&cd32=0&cd40=(not%20set)&cd41=(not%20set)&cd42=(not%20set)&cd43=(not%20set)&cd44=(not%20set)&cd51=false&cd53=false&cd54=false&cd55=true&cd56=Mozilla%2F5.0%20(X11%3B%20Linux%20x86_64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F72.0.3617.0%20Safari%2F537.36&cd58=Homepage&cd59=88.0.1&cd64=GA%20Pageview%20-%20Core%20Tracking&cd65=Not%20Firefox&cd66=(not%20set)&cd67=(not%20set)&cd68=(not%20set)&z=1396810206",
+      "query": {
+        "v": 1,
+        "_v": "j90",
+        "aip": 1,
+        "a": 825652789,
+        "t": "pageview",
+        "_s": 1,
+        "dl": "https://www.mozilla.org/en-US/",
+        "dp": "/en-US/",
+        "ul": "en-us",
+        "de": "UTF-8",
+        "dt": "Internet for people, not profit — Mozilla",
+        "sd": "24-bit",
+        "sr": "1680x927",
+        "vp": "1680x927",
+        "je": 0,
+        "_u": "aGBAAEAjAAAAAC~",
+        "jid": 894787242,
+        "gjid": 1616443080,
+        "cid": 1961177267.162153,
+        "tid": "UA-36116321-1",
+        "_gid": 1594084391.162153,
+        "_r": 1,
+        "gtm": "2wg5c1MW3R8V",
+        "cd9": "",
+        "cd13": "",
+        "cd14": "",
+        "cd32": 0,
+        "cd40": "(not set)",
+        "cd41": "(not set)",
+        "cd42": "(not set)",
+        "cd43": "(not set)",
+        "cd44": "(not set)",
+        "cd51": false,
+        "cd53": false,
+        "cd54": false,
+        "cd55": true,
+        "cd56": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3617.0 Safari/537.36",
+        "cd58": "Homepage",
+        "cd59": "88.0.1",
+        "cd64": "GA Pageview - Core Tracking",
+        "cd65": "Not Firefox",
+        "cd66": "(not set)",
+        "cd67": "(not set)",
+        "cd68": "(not set)",
+        "z": 1396810206
+      },
+      "filter": "/collect?*&cid=",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.mozilla.org/en-US/",
+            "source": "requested from https://www.mozilla.org/en-US/ and matched with easyprivacy.txt filter /collect?*&cid="
+          }
+        ],
+        "timestamp": "2021-05-20T16:48:00.379Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://www.google-analytics.com/plugins/ua/linkid.js",
+      "query": null,
+      "filter": "||google-analytics.com/plugins/",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.mozilla.org/en-US/",
+            "source": "requested from https://www.mozilla.org/en-US/ and matched with easyprivacy.txt filter ||google-analytics.com/plugins/"
+          }
+        ],
+        "timestamp": "2021-05-20T16:48:00.329Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://www.google-analytics.com/analytics.js",
+      "query": null,
+      "filter": "||google-analytics.com/analytics.js",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.mozilla.org/en-US/",
+            "source": "requested from https://www.mozilla.org/en-US/ and matched with easyprivacy.txt filter ||google-analytics.com/analytics.js"
+          }
+        ],
+        "timestamp": "2021-05-20T16:48:00.074Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://www.mozilla.org/media/protocol/img/icons/social/youtube/white.0c853775ae15.svg",
+      "query": null,
+      "filter": "/icons/social/*",
+      "listName": "fanboy-annoyance.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.mozilla.org/en-US/",
+            "source": "requested from https://www.mozilla.org/en-US/ and matched with fanboy-annoyance.txt filter /icons/social/*"
+          }
+        ],
+        "timestamp": "2021-05-20T16:47:59.604Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://www.mozilla.org/media/protocol/img/icons/social/instagram/white.7ca00b3abbfd.svg",
+      "query": null,
+      "filter": "/icons/social/*",
+      "listName": "fanboy-annoyance.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.mozilla.org/en-US/",
+            "source": "requested from https://www.mozilla.org/en-US/ and matched with fanboy-annoyance.txt filter /icons/social/*"
+          }
+        ],
+        "timestamp": "2021-05-20T16:47:59.602Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://www.mozilla.org/media/protocol/img/icons/social/twitter/white.3dbd28e41ea3.svg",
+      "query": null,
+      "filter": "/icons/social/*",
+      "listName": "fanboy-annoyance.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.mozilla.org/en-US/",
+            "source": "requested from https://www.mozilla.org/en-US/ and matched with fanboy-annoyance.txt filter /icons/social/*"
+          }
+        ],
+        "timestamp": "2021-05-20T16:47:59.600Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://www.googletagmanager.com/gtm.js?id=GTM-MW3R8V&l=dataLayer",
+      "query": {
+        "id": "GTM-MW3R8V",
+        "l": "dataLayer"
+      },
+      "filter": "/gtm.js",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.mozilla.org/en-US/",
+            "source": "requested from https://www.mozilla.org/en-US/ and matched with easyprivacy.txt filter /gtm.js"
+          }
+        ],
+        "timestamp": "2021-05-20T16:47:59.220Z"
+      },
+      "occurrances": 1
+    }
+  ],
+  "hosts": {
+    "requests": {
+      "firstParty": [
+        "mozilla.org"
+      ],
+      "thirdParty": [
+        "www.mozilla.org",
+        "firefox.com",
+        "www.googletagmanager.com",
+        "www.firefox.com",
+        "www.google-analytics.com",
+        "img-getpocket.cdn.mozilla.net"
+      ]
+    },
+    "beacons": {
+      "firstParty": [],
+      "thirdParty": [
+        "www.google-analytics.com",
+        "www.googletagmanager.com"
+      ]
+    },
+    "cookies": {
+      "firstParty": [
+        "mozilla.org"
+      ],
+      "thirdParty": []
+    },
+    "localStorage": {
+      "firstParty": [],
+      "thirdParty": []
+    },
+    "links": {
+      "firstParty": [],
+      "thirdParty": [
+        "www.mozilla.org",
+        "accounts.firefox.com",
+        "blog.mozilla.org",
+        "monitor.firefox.com",
+        "getpocket.com",
+        "relay.firefox.com",
+        "fpn.firefox.com",
+        "foundation.mozilla.org",
+        "careers.mozilla.org",
+        "labs.mozilla.org",
+        "hubs.mozilla.com",
+        "developer.mozilla.org",
+        "mixedreality.mozilla.org",
+        "commonvoice.mozilla.org",
+        "research.mozilla.org",
+        "app.adjust.com",
+        "www.theguardian.com",
+        "www.howtogeek.com",
+        "arstechnica.com",
+        "www.protocol.com",
+        "2020.internethealthreport.org",
+        "donate.mozilla.org",
+        "mozilla.design",
+        "support.mozilla.org",
+        "bugzilla.mozilla.org",
+        "twitter.com",
+        "www.instagram.com",
+        "www.youtube.com"
+      ]
+    }
+  }
+}

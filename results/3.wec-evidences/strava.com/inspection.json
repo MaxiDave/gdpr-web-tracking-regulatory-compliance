@@ -1,0 +1,504 @@
+{
+  "title": "Website Evidence Collection",
+  "task_description": null,
+  "uri_ins": "https://strava.com",
+  "uri_refs": [
+    "https://strava.com"
+  ],
+  "uri_dest": "https://www.strava.com/",
+  "uri_redirects": [
+    "https://strava.com/"
+  ],
+  "secure_connection": {
+    "https_support": true,
+    "redirects": [
+      "https://www.strava.com/"
+    ],
+    "https_redirect": true
+  },
+  "host": "strava.com",
+  "script": {
+    "host": "sfod",
+    "version": {
+      "npm": "1.0.0",
+      "commit": null
+    },
+    "cmd_args": "-q --overwrite https://strava.com -- --ignore-certificate-errors",
+    "environment": {
+      "CHROME_DESKTOP": "code-url-handler.desktop"
+    },
+    "node_version": "v14.17.0"
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "HeadlessChrome/80.0.3987.0",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3617.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "5.8.0-53-generic"
+    },
+    "extra_headers": {},
+    "preset_cookies": {}
+  },
+  "start_time": "2021-05-20T16:02:02.264Z",
+  "end_time": "2021-05-20T16:02:10.025Z",
+  "links": {
+    "firstParty": [
+      {
+        "href": "https://strava.com/legal/cookie_policy",
+        "inner_text": "More options",
+        "inner_html": "More options"
+      },
+      {
+        "href": "https://strava.com/features",
+        "inner_text": "FEATURES",
+        "inner_html": "Features"
+      },
+      {
+        "href": "https://strava.com/gopremium",
+        "inner_text": "SUBSCRIPTION",
+        "inner_html": "Subscription"
+      },
+      {
+        "href": "https://strava.com/about",
+        "inner_text": "ABOUT",
+        "inner_html": "About"
+      },
+      {
+        "href": "https://strava.com/careers",
+        "inner_text": "CAREERS",
+        "inner_html": "Careers"
+      },
+      {
+        "href": "https://strava.com/local",
+        "inner_text": "LOCAL",
+        "inner_html": "Local"
+      },
+      {
+        "href": "https://strava.com/legal/terms",
+        "inner_text": "TERMS",
+        "inner_html": "Terms"
+      },
+      {
+        "href": "https://strava.com/legal/privacy",
+        "inner_text": "PRIVACY",
+        "inner_html": "Privacy"
+      }
+    ],
+    "thirdParty": [
+      {
+        "href": "https://www.strava.com/legal/cookie_policy",
+        "inner_text": "Cookies Policy.",
+        "inner_html": "Cookies Policy."
+      },
+      {
+        "href": "https://www.strava.com/login",
+        "inner_text": "Log In",
+        "inner_html": "Log In"
+      },
+      {
+        "href": "https://www.facebook.com/v3.2/dialog/oauth?access_type=offline&client_id=284597785309&redirect_uri=https%3A%2F%2Fwww.strava.com%2Fo_auth%2Ffacebook&response_type=code&scope=email&state=%7B%22context%22%3A%22facebook_web_signup_flow_v1%22%2C%22state%22%3A%22eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdGF0ZV9wYXJhbSI6IjQ0am1na2luaTR0NDY2N3M0YjE0MGN2ZjU3Nm02OTN2In0.r48wZ_vZIvg0OyYxcb0eJUqDeH2eY-oI2x5KdJeubL8%22%2C%22with_newsletter%22%3Afalse%7D",
+        "inner_text": "Sign up with Facebook",
+        "inner_html": "Sign up with Facebook"
+      },
+      {
+        "href": "https://accounts.google.com/o/oauth2/auth?access_type=offline&client_id=541588808765.apps.googleusercontent.com&redirect_uri=https%3A%2F%2Fwww.strava.com%2Fo_auth%2Fgoogle&response_type=code&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fplus.login+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fplus.me+email+profile&state=%7B%22context%22%3A%22google_web_signup_flow_v1%22%2C%22state%22%3A%22eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdGF0ZV9wYXJhbSI6IjQ0am1na2luaTR0NDY2N3M0YjE0MGN2ZjU3Nm02OTN2In0.r48wZ_vZIvg0OyYxcb0eJUqDeH2eY-oI2x5KdJeubL8%22%7D",
+        "inner_text": "Sign up with Google",
+        "inner_html": "Sign up with Google"
+      },
+      {
+        "href": "https://www.strava.com/register/free?cta=sign-up&element=button&source=website_show",
+        "inner_text": "Use my email",
+        "inner_html": "Use my email"
+      },
+      {
+        "href": "https://www.strava.com/legal/terms",
+        "inner_text": "Terms of Service",
+        "inner_html": "Terms of Service"
+      },
+      {
+        "href": "https://www.strava.com/legal/privacy",
+        "inner_text": "Privacy Policy",
+        "inner_html": "Privacy Policy"
+      },
+      {
+        "href": "https://blog.strava.com/",
+        "inner_text": "BLOG",
+        "inner_html": "Blog"
+      },
+      {
+        "href": "https://support.strava.com/",
+        "inner_text": "SUPPORT",
+        "inner_html": "Support"
+      },
+      {
+        "href": "https://business.strava.com/",
+        "inner_text": "BUSINESS",
+        "inner_html": "Business"
+      },
+      {
+        "href": "https://www.facebook.com/Strava",
+        "inner_text": "FACEBOOK",
+        "inner_html": "Facebook"
+      },
+      {
+        "href": "https://www.instagram.com/strava",
+        "inner_text": "INSTAGRAM",
+        "inner_html": "Instagram"
+      },
+      {
+        "href": "https://www.twitter.com/strava",
+        "inner_text": "TWITTER",
+        "inner_html": "Twitter"
+      },
+      {
+        "href": "https://www.youtube.com/stravainc",
+        "inner_text": "YOUTUBE",
+        "inner_html": "YouTube"
+      },
+      {
+        "href": "https://www.strava.com/register/free?cta=sign-up&element=global-footer&source=website_show",
+        "inner_text": "SIGN UP",
+        "inner_html": "Sign Up"
+      }
+    ],
+    "social": [
+      {
+        "href": "https://www.facebook.com/v3.2/dialog/oauth?access_type=offline&client_id=284597785309&redirect_uri=https%3A%2F%2Fwww.strava.com%2Fo_auth%2Ffacebook&response_type=code&scope=email&state=%7B%22context%22%3A%22facebook_web_signup_flow_v1%22%2C%22state%22%3A%22eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdGF0ZV9wYXJhbSI6IjQ0am1na2luaTR0NDY2N3M0YjE0MGN2ZjU3Nm02OTN2In0.r48wZ_vZIvg0OyYxcb0eJUqDeH2eY-oI2x5KdJeubL8%22%2C%22with_newsletter%22%3Afalse%7D",
+        "inner_text": "Sign up with Facebook",
+        "inner_html": "Sign up with Facebook"
+      },
+      {
+        "href": "https://www.facebook.com/Strava",
+        "inner_text": "FACEBOOK",
+        "inner_html": "Facebook"
+      },
+      {
+        "href": "https://www.instagram.com/strava",
+        "inner_text": "INSTAGRAM",
+        "inner_html": "Instagram"
+      },
+      {
+        "href": "https://www.twitter.com/strava",
+        "inner_text": "TWITTER",
+        "inner_html": "Twitter"
+      },
+      {
+        "href": "https://www.youtube.com/stravainc",
+        "inner_text": "YOUTUBE",
+        "inner_html": "YouTube"
+      }
+    ],
+    "keywords": [
+      {
+        "href": "https://www.strava.com/legal/cookie_policy",
+        "inner_text": "Cookies Policy.",
+        "inner_html": "Cookies Policy."
+      },
+      {
+        "href": "https://strava.com/legal/cookie_policy",
+        "inner_text": "More options",
+        "inner_html": "More options"
+      },
+      {
+        "href": "https://www.strava.com/login",
+        "inner_text": "Log In",
+        "inner_html": "Log In"
+      },
+      {
+        "href": "https://accounts.google.com/o/oauth2/auth?access_type=offline&client_id=541588808765.apps.googleusercontent.com&redirect_uri=https%3A%2F%2Fwww.strava.com%2Fo_auth%2Fgoogle&response_type=code&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fplus.login+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fplus.me+email+profile&state=%7B%22context%22%3A%22google_web_signup_flow_v1%22%2C%22state%22%3A%22eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdGF0ZV9wYXJhbSI6IjQ0am1na2luaTR0NDY2N3M0YjE0MGN2ZjU3Nm02OTN2In0.r48wZ_vZIvg0OyYxcb0eJUqDeH2eY-oI2x5KdJeubL8%22%7D",
+        "inner_text": "Sign up with Google",
+        "inner_html": "Sign up with Google"
+      },
+      {
+        "href": "https://www.strava.com/legal/terms",
+        "inner_text": "Terms of Service",
+        "inner_html": "Terms of Service"
+      },
+      {
+        "href": "https://www.strava.com/legal/privacy",
+        "inner_text": "Privacy Policy",
+        "inner_html": "Privacy Policy"
+      },
+      {
+        "href": "https://strava.com/legal/terms",
+        "inner_text": "TERMS",
+        "inner_html": "Terms"
+      },
+      {
+        "href": "https://strava.com/legal/privacy",
+        "inner_text": "PRIVACY",
+        "inner_html": "Privacy"
+      }
+    ]
+  },
+  "unsafeForms": [],
+  "browsing_history": [
+    "https://www.strava.com/"
+  ],
+  "websockets": {},
+  "cookies": [
+    {
+      "name": "_sp_id.047d",
+      "value": "7689120b-8a13-4f6b-bd41-92c86ed431fc.1621526523.1.1621526529.1621526523.f7927c1e-4677-4e06-b603-dd54e554bb5f",
+      "domain": "www.strava.com",
+      "path": "/",
+      "expires": 1684598529,
+      "size": 119,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2023-05-20T16:02:09.000Z",
+      "expiresDays": 730,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 568,
+            "lineNumber": 9,
+            "fileName": "https://dy9z4910shqac.cloudfront.net/1oG5icild0laCtJMi45LjA.js",
+            "functionName": "Object.cookie",
+            "source": "    at Object.cookie (https://dy9z4910shqac.cloudfront.net/1oG5icild0laCtJMi45LjA.js:9:568)"
+          },
+          {
+            "columnNumber": 56870,
+            "lineNumber": 9,
+            "fileName": "https://dy9z4910shqac.cloudfront.net/1oG5icild0laCtJMi45LjA.js",
+            "functionName": "ba",
+            "source": "    at ba (https://dy9z4910shqac.cloudfront.net/1oG5icild0laCtJMi45LjA.js:9:56870)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T16:02:09.505Z",
+        "location": "https://www.strava.com/"
+      },
+      "firstPartyStorage": false
+    },
+    {
+      "name": "sp",
+      "value": "ae4c18a9-2fd2-4494-b951-393995fe2ca6",
+      "domain": "strava.com",
+      "path": "/",
+      "expires": 1653062529.601181,
+      "size": 38,
+      "httpOnly": false,
+      "secure": true,
+      "session": false,
+      "sameSite": "None",
+      "expiresUTC": "2022-05-20T16:02:09.601Z",
+      "expiresDays": 365,
+      "firstPartyStorage": true
+    },
+    {
+      "name": "_sp_ses.047d",
+      "value": "*",
+      "domain": "www.strava.com",
+      "path": "/",
+      "expires": 1621528329,
+      "size": 13,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2021-05-20T16:32:09.000Z",
+      "expiresDays": 0.02,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 568,
+            "lineNumber": 9,
+            "fileName": "https://dy9z4910shqac.cloudfront.net/1oG5icild0laCtJMi45LjA.js",
+            "functionName": "Object.cookie",
+            "source": "    at Object.cookie (https://dy9z4910shqac.cloudfront.net/1oG5icild0laCtJMi45LjA.js:9:568)"
+          },
+          {
+            "columnNumber": 56870,
+            "lineNumber": 9,
+            "fileName": "https://dy9z4910shqac.cloudfront.net/1oG5icild0laCtJMi45LjA.js",
+            "functionName": "ba",
+            "source": "    at ba (https://dy9z4910shqac.cloudfront.net/1oG5icild0laCtJMi45LjA.js:9:56870)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T16:02:09.506Z",
+        "location": "https://www.strava.com/"
+      },
+      "firstPartyStorage": false
+    },
+    {
+      "name": "_strava4_session",
+      "value": "44jmgkini4t4667s4b140cvf576m693v",
+      "domain": "strava.com",
+      "path": "/",
+      "expires": -1,
+      "size": 48,
+      "httpOnly": true,
+      "secure": true,
+      "session": true,
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.strava.com/",
+            "source": "set in Set-Cookie HTTP response header for https://www.strava.com/"
+          }
+        ],
+        "type": "Cookie.HTTP",
+        "timestamp": "2021-05-20T16:02:02.951Z",
+        "location": "about:blank"
+      },
+      "firstPartyStorage": true
+    }
+  ],
+  "localStorage": {
+    "https://www.strava.com": {
+      "snowplowOutQueue_snowplow_cf_get": {
+        "value": [],
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 29472,
+              "lineNumber": 9,
+              "fileName": "https://dy9z4910shqac.cloudfront.net/1oG5icild0laCtJMi45LjA.js",
+              "functionName": "Object.d.attemptWriteLocalStorage",
+              "source": "    at Object.d.attemptWriteLocalStorage (https://dy9z4910shqac.cloudfront.net/1oG5icild0laCtJMi45LjA.js:9:29472)"
+            },
+            {
+              "columnNumber": 49361,
+              "lineNumber": 9,
+              "fileName": "https://dy9z4910shqac.cloudfront.net/1oG5icild0laCtJMi45LjA.js",
+              "functionName": "Image.F.onload",
+              "source": "    at Image.F.onload (https://dy9z4910shqac.cloudfront.net/1oG5icild0laCtJMi45LjA.js:9:49361)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T16:02:09.687Z",
+          "location": "https://www.strava.com/"
+        }
+      }
+    }
+  },
+  "beacons": [
+    {
+      "url": "https://c.strava.com/i?stm=1621526529502&e=ue&ue_px=eyJzY2hlbWEiOiJpZ2x1OmNvbS5zbm93cGxvd2FuYWx5dGljcy5zbm93cGxvdy91bnN0cnVjdF9ldmVudC9qc29uc2NoZW1hLzEtMC0wIiwiZGF0YSI6eyJzY2hlbWEiOiJpZ2x1OmNvbS5zdHJhdmEvdHJhY2svanNvbnNjaGVtYS8xLTAtMCIsImRhdGEiOnsiY2F0ZWdvcnkiOiJwYWdlX3Njcm9sbGVkIiwiZWxlbWVudCI6bnVsbCwicHJvcGVydGllcyI6e319fX0&tv=js-2.9.0&tna=cf&aid=strava-web&p=web&tz=Europe%2FBerlin&lang=en-US&cs=UTF-8&res=1680x927&cd=24&cookie=1&eid=d434ad52-fb2b-473b-8d50-506f0c58a85c&dtm=1621526529496&vp=1680x927&ds=1680x1198&vid=1&sid=f7927c1e-4677-4e06-b603-dd54e554bb5f&duid=7689120b-8a13-4f6b-bd41-92c86ed431fc&fp=1241602503&url=https%3A%2F%2Fwww.strava.com%2F",
+      "query": {
+        "stm": 1621526529502,
+        "e": "ue",
+        "ue_px": "eyJzY2hlbWEiOiJpZ2x1OmNvbS5zbm93cGxvd2FuYWx5dGljcy5zbm93cGxvdy91bnN0cnVjdF9ldmVudC9qc29uc2NoZW1hLzEtMC0wIiwiZGF0YSI6eyJzY2hlbWEiOiJpZ2x1OmNvbS5zdHJhdmEvdHJhY2svanNvbnNjaGVtYS8xLTAtMCIsImRhdGEiOnsiY2F0ZWdvcnkiOiJwYWdlX3Njcm9sbGVkIiwiZWxlbWVudCI6bnVsbCwicHJvcGVydGllcyI6e319fX0",
+        "tv": "js-2.9.0",
+        "tna": "cf",
+        "aid": "strava-web",
+        "p": "web",
+        "tz": "Europe/Berlin",
+        "lang": "en-US",
+        "cs": "UTF-8",
+        "res": "1680x927",
+        "cd": 24,
+        "cookie": 1,
+        "eid": "d434ad52-fb2b-473b-8d50-506f0c58a85c",
+        "dtm": 1621526529496,
+        "vp": "1680x927",
+        "ds": "1680x1198",
+        "vid": 1,
+        "sid": "f7927c1e-4677-4e06-b603-dd54e554bb5f",
+        "duid": "7689120b-8a13-4f6b-bd41-92c86ed431fc",
+        "fp": 1241602503,
+        "url": "https://www.strava.com/"
+      },
+      "filter": "/i?stm=",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.strava.com/",
+            "source": "requested from https://www.strava.com/ and matched with easyprivacy.txt filter /i?stm="
+          }
+        ],
+        "timestamp": "2021-05-20T16:02:09.512Z"
+      },
+      "occurrances": 3
+    },
+    {
+      "url": "https://d3nn82uaxijpm6.cloudfront.net/assets/website/landing-page/icon-facebook-9ddcb5e9f2a1950d462ad216d4955f16d576437de4312625c67895d42302a0a0.svg",
+      "query": null,
+      "filter": "/icon-facebook-",
+      "listName": "fanboy-annoyance.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.strava.com/",
+            "source": "requested from https://www.strava.com/ and matched with fanboy-annoyance.txt filter /icon-facebook-"
+          }
+        ],
+        "timestamp": "2021-05-20T16:02:03.407Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://www.strava.com/cookie-banner",
+      "query": null,
+      "filter": "/cookie-banner",
+      "listName": "fanboy-annoyance.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.strava.com/",
+            "source": "requested from https://www.strava.com/ and matched with fanboy-annoyance.txt filter /cookie-banner"
+          }
+        ],
+        "timestamp": "2021-05-20T16:02:02.983Z"
+      },
+      "occurrances": 1
+    }
+  ],
+  "hosts": {
+    "requests": {
+      "firstParty": [
+        "strava.com"
+      ],
+      "thirdParty": [
+        "www.strava.com",
+        "d3nn82uaxijpm6.cloudfront.net",
+        "www.google.com",
+        "appleid.cdn-apple.com",
+        "dy9z4910shqac.cloudfront.net",
+        "www.gstatic.com",
+        "c.strava.com"
+      ]
+    },
+    "beacons": {
+      "firstParty": [],
+      "thirdParty": [
+        "c.strava.com"
+      ]
+    },
+    "cookies": {
+      "firstParty": [
+        "strava.com"
+      ],
+      "thirdParty": [
+        "www.strava.com"
+      ]
+    },
+    "localStorage": {
+      "firstParty": [],
+      "thirdParty": [
+        "www.strava.com"
+      ]
+    },
+    "links": {
+      "firstParty": [
+        "strava.com"
+      ],
+      "thirdParty": [
+        "www.strava.com",
+        "www.facebook.com",
+        "accounts.google.com",
+        "blog.strava.com",
+        "support.strava.com",
+        "business.strava.com",
+        "www.instagram.com",
+        "www.twitter.com",
+        "www.youtube.com"
+      ]
+    }
+  }
+}

@@ -1,0 +1,1156 @@
+{
+  "title": "Website Evidence Collection",
+  "task_description": null,
+  "uri_ins": "https://fotocasa.es",
+  "uri_refs": [
+    "https://fotocasa.es"
+  ],
+  "uri_dest": "https://www.fotocasa.es/es/",
+  "uri_redirects": [
+    "https://fotocasa.es/"
+  ],
+  "secure_connection": {
+    "https_support": true,
+    "redirects": [
+      "https://www.fotocasa.es/es/"
+    ],
+    "https_redirect": true
+  },
+  "host": "fotocasa.es",
+  "script": {
+    "host": "sfod",
+    "version": {
+      "npm": "1.0.0",
+      "commit": null
+    },
+    "cmd_args": "-q --overwrite https://fotocasa.es -- --ignore-certificate-errors",
+    "environment": {
+      "CHROME_DESKTOP": "code-url-handler.desktop"
+    },
+    "node_version": "v14.17.0"
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "HeadlessChrome/80.0.3987.0",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3617.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "5.8.0-53-generic"
+    },
+    "extra_headers": {},
+    "preset_cookies": {}
+  },
+  "start_time": "2021-05-20T15:37:10.491Z",
+  "end_time": "2021-05-20T15:37:17.304Z",
+  "links": {
+    "firstParty": [],
+    "thirdParty": [
+      {
+        "href": "https://www.fotocasa.es/es/",
+        "inner_text": "Logo de Fotocasa",
+        "inner_html": "<svg class=\"re-SharedTopbar-logoSource\" viewBox=\"0 0 94 17\"><path fill=\"#303ab2\" d=\"M2 17V8H0V5.3h2V5c0-1.8.4-2.7 1.3-3.4.6-.5 1.6-.7 3-.7h1.2v2.3H6.4c-1 0-1.6.5-1.6 1.6v.8H7V8H5v9h-3m5.6-6.4c0-1.7.7-3.3 2-4.4a6.3 6.3 0 0 1 4.4-1.8c2.6 0 5 1.4 6 3.7 1 2.4.5 5.1-1.4 6.9a6.4 6.4 0 0 1-4.4 1.8c-1.7 0-3.4-.6-4.6-1.8a6.1 6.1 0 0 1-1.9-4.4m9 2.6c.7-.7 1-1.6 1-2.6s-.3-2-1-2.6c-.6-.7-1.6-1-2.5-1a3.6 3.6 0 0 0-3.7 3.5c0 1 .3 2 1 2.7.7.7 1.6 1 2.6 1s2-.3 2.6-1m6-5.8h-1.4V5h1.4V.5h2.8v4.4h2.5v2.5h-2.5v5.1c0 1.3.4 1.8 1.4 1.8l1-.1v2.4l-1.5.1c-2.4 0-3.7-1.2-3.7-3.9V7.4m6.4 3.2c0-1.7.7-3.3 2-4.4a6.3 6.3 0 0 1 4.4-1.8c2.6 0 5 1.4 6 3.8 1 2.3.4 5-1.4 6.8a6.3 6.3 0 0 1-4.6 1.8 6.3 6.3 0 0 1-6.4-6.2m9 2.6c.7-.7 1-1.6 1-2.6s-.3-2-1-2.6c-.7-.7-1.6-1-2.6-1-1-.1-1.9.3-2.5 1-.7.6-1.1 1.5-1.1 2.5s.4 2 1 2.7c.7.7 1.6 1 2.6 1s2-.3 2.6-1M54 6.4l-1.7 1.8a4 4 0 0 0-3-1.3c-1 0-1.9.3-2.5 1-.7.7-1.1 1.6-1.1 2.7 0 1 .4 1.9 1 2.6.7.7 1.6 1 2.6 1a4 4 0 0 0 3-1.2l1.8 1.7c-1.2 1.4-3 2-4.8 2-1.7 0-3.3-.6-4.5-1.7a5.9 5.9 0 0 1-2-4.4c0-1.8.7-3.2 2-4.4a6.5 6.5 0 0 1 4.5-1.8c1.9 0 3.4.6 4.7 2m10.2-.1V4.7h2.8v8c0 1 .3 1.3 1 1.3h.6v2.2c-.4.2-.9.2-1.5.2a3 3 0 0 1-1.6-.3c-.5-.4-.8-.9-1-1.4-.8 1.2-2.1 1.8-4 1.8a6 6 0 0 1-5.9-6c0-1.8.6-3.2 1.6-4.4 1.3-1 2.6-1.7 4.3-1.7 1.9 0 3.3.8 3.8 1.9m-.9 6.7c.7-.7 1-1.5 1-2.5s-.3-2-1-2.6c-.6-.7-1.5-1-2.6-1-1 0-1.8.3-2.5 1-.6.7-1 1.5-1 2.6 0 1 .4 1.8 1 2.5.7.6 1.5 1 2.6 1 1 0 1.9-.4 2.6-1m7.6-.2c.7 1 1.8 1.6 3 1.6 1.5 0 2-.7 2-1.3 0-.4-.2-.8-.6-1l-1-.4c-.4 0-1-.4-1.4-.5-1.9-.6-2.9-1.6-2.9-3.3 0-1 .4-2 1.2-2.5.8-.7 1.8-1 2.9-1 1.4 0 2.8.6 3.7 1.7l-1.5 1.6c-.5-.6-1.3-.9-2.2-.9-1 0-1.4.4-1.4 1 0 .5.2.6.5.8l1 .5 1.3.5c2.1.7 3.1 1.7 3.1 3.4 0 2.2-1.6 3.8-4.7 3.8-2.3 0-4-1-4.8-2.4l1.8-1.6m18.5-6.5V4.7h2.8v8c0 1 .3 1.3 1 1.3h.5v2.2c-.5.2-1 .3-1.4.2a3 3 0 0 1-1.6-.3c-.5-.4-.8-.9-1-1.4-.8 1.2-2.1 1.8-4 1.8a6 6 0 0 1-5.9-6c0-1.8.5-3.2 1.6-4.4A5.8 5.8 0 0 1 86 4.4c2 0 3.4.8 3.9 1.9m-1 6.7c.8-.7 1.2-1.5 1.2-2.5s-.4-2-1.1-2.6c-.7-.7-1.5-1-2.6-1-1 0-1.8.3-2.5 1s-1 1.5-1 2.6c0 1 .4 1.8 1 2.5.7.6 1.5 1 2.6 1 1 0 1.8-.4 2.5-1\"></path></svg><span class=\"re-SharedTopbar-logoAssistiveText\">Logo de Fotocasa</span>"
+      },
+      {
+        "href": "https://www.fotocasa.es/blog/",
+        "inner_text": "Blog",
+        "inner_html": "Blog"
+      },
+      {
+        "href": "https://hipotecas.fotocasa.es/",
+        "inner_text": "Compara tu hipoteca",
+        "inner_html": "Compara tu hipoteca"
+      },
+      {
+        "href": "https://www.fotocasa.es/es/comprar/viviendas/espana/todas-las-zonas/l?filter=isnewconstruction",
+        "inner_text": "",
+        "inner_html": "<picture><source srcset=\"https://frtassets.fotocasa.es/statics/img/home_inspirational_block_1.webp\" type=\"image/webp\"><img alt=\"Lo último en obra nueva\" height=\"245\" src=\"https://frtassets.fotocasa.es/statics/img/home_inspirational_block_1.jpg\" width=\"416\"></picture>"
+      },
+      {
+        "href": "https://www.fotocasa.es/es/comprar/pisos/espana/todas-las-zonas/l?sortType=price&sortOrderDesc=false",
+        "inner_text": "",
+        "inner_html": "<picture><source srcset=\"https://frtassets.fotocasa.es/statics/img/home_inspirational_block_2.webp\" type=\"image/webp\"><img alt=\"Pisos baratos para todos los bolsillos\" height=\"245\" src=\"https://frtassets.fotocasa.es/statics/img/home_inspirational_block_2.jpg\" width=\"416\"></picture>"
+      },
+      {
+        "href": "https://www.fotocasa.es/es/comprar/casas-de-lujo",
+        "inner_text": "",
+        "inner_html": "<picture><source srcset=\"https://frtassets.fotocasa.es/statics/img/home_inspirational_block_3.webp\" type=\"image/webp\"><img alt=\"Descubre estas casas de lujo\" height=\"245\" src=\"https://frtassets.fotocasa.es/statics/img/home_inspirational_block_3.jpg\" width=\"416\"></picture>"
+      },
+      {
+        "href": "https://www.fotocasa.es/es/comprar/viviendas/espana/todas-las-zonas/terraza/l?sortType=publicationDate&propertySubtypeIds=6;3;7;5",
+        "inner_text": "",
+        "inner_html": "<picture><source srcset=\"https://frtassets.fotocasa.es/statics/img/home_inspirational_block_4.webp\" type=\"image/webp\"><img alt=\"Pon un piso con terraza en tu vida\" height=\"245\" loading=\"lazy\" src=\"https://frtassets.fotocasa.es/statics/img/home_inspirational_block_4.jpg\" width=\"416\"></picture>"
+      },
+      {
+        "href": "https://www.fotocasa.es/es/comprar/pisos/espana/todas-las-zonas/l?otherIds=1",
+        "inner_text": "",
+        "inner_html": "<picture><source srcset=\"https://frtassets.fotocasa.es/statics/img/home_inspirational_block_5.webp\" type=\"image/webp\"><img alt=\"Ofertas de pisos de bancos\" height=\"245\" loading=\"lazy\" src=\"https://frtassets.fotocasa.es/statics/img/home_inspirational_block_5.jpg\" width=\"416\"></picture>"
+      },
+      {
+        "href": "https://www.fotocasa.es/es/comprar/aticos/espana/todas-las-zonas/l",
+        "inner_text": "",
+        "inner_html": "<picture><source srcset=\"https://frtassets.fotocasa.es/statics/img/home_inspirational_block_6.webp\" type=\"image/webp\"><img alt=\"Áticos con vistas de tu ciudad\" height=\"245\" loading=\"lazy\" src=\"https://frtassets.fotocasa.es/statics/img/home_inspirational_block_6.jpg\" width=\"416\"></picture>"
+      },
+      {
+        "href": "https://www.fotocasa.es/es/comprar/viviendas",
+        "inner_text": "Comprar",
+        "inner_html": "Comprar"
+      },
+      {
+        "href": "https://www.fotocasa.es/es/alquiler/viviendas",
+        "inner_text": "Alquilar",
+        "inner_html": "Alquilar"
+      },
+      {
+        "href": "https://www.fotocasa.es/es/comprar/viviendas/espana/todas-las-zonas/l",
+        "inner_text": "Casas en venta",
+        "inner_html": "Casas en venta"
+      },
+      {
+        "href": "https://www.fotocasa.es/es/comprar/pisos/espana/todas-las-zonas/l",
+        "inner_text": "Pisos en venta",
+        "inner_html": "Pisos en venta"
+      },
+      {
+        "href": "https://www.fotocasa.es/es/comprar/terrenos/espana/todas-las-zonas/l",
+        "inner_text": "Terrenos en venta",
+        "inner_html": "Terrenos en venta"
+      },
+      {
+        "href": "https://www.fotocasa.es/es/comprar/viviendas/espana/todas-las-zonas/l?sortType=price&sortOrderDesc=false",
+        "inner_text": "Pisos y casas baratas",
+        "inner_html": "Pisos y casas baratas"
+      },
+      {
+        "href": "https://www.fotocasa.es/es/comprar/chalets/espana/todas-las-zonas/l",
+        "inner_text": "Chalets en venta",
+        "inner_html": "Chalets en venta"
+      },
+      {
+        "href": "https://www.fotocasa.es/es/comprar/viviendas/espana/todas-las-zonas/l?&conservationStatusIds=8",
+        "inner_text": "Pisos reformados",
+        "inner_html": "Pisos reformados"
+      },
+      {
+        "href": "https://www.fotocasa.es/es/comprar/apartamentos/espana/todas-las-zonas/l",
+        "inner_text": "Apartamentos en venta",
+        "inner_html": "Apartamentos en venta"
+      },
+      {
+        "href": "https://www.fotocasa.es/es/comprar/locales/espana/todas-las-zonas/l",
+        "inner_text": "Locales en venta",
+        "inner_html": "Locales en venta"
+      },
+      {
+        "href": "https://www.fotocasa.es/es/comprar/viviendas/espana/todas-las-zonas/piscina/l",
+        "inner_text": "Casas con piscina en venta",
+        "inner_html": "Casas con piscina en venta"
+      },
+      {
+        "href": "https://www.fotocasa.es/es/alquiler/pisos/espana/todas-las-zonas/l",
+        "inner_text": "Pisos de alquiler",
+        "inner_html": "Pisos de alquiler"
+      },
+      {
+        "href": "https://www.fotocasa.es/es/alquiler/viviendas/espana/todas-las-zonas/l",
+        "inner_text": "Casas en alquiler",
+        "inner_html": "Casas en alquiler"
+      },
+      {
+        "href": "https://www.fotocasa.es/es/alquiler-con-opcion-a-compra/viviendas/espana/todas-las-zonas/l",
+        "inner_text": "Alquiler con opción a compra",
+        "inner_html": "Alquiler con opción a compra"
+      },
+      {
+        "href": "https://www.fotocasa.es/es/alquiler/pisos/espana/todas-las-zonas/l?sortType=price&sortOrderDesc=false",
+        "inner_text": "Pisos en alquiler baratos",
+        "inner_html": "Pisos en alquiler baratos"
+      },
+      {
+        "href": "https://www.fotocasa.es/es/alquiler/apartamentos/espana/todas-las-zonas/l",
+        "inner_text": "Apartamentos en alquiler",
+        "inner_html": "Apartamentos en alquiler"
+      },
+      {
+        "href": "https://www.fotocasa.es/es/alquiler/casas-rurales/espana/todas-las-zonas/l",
+        "inner_text": "Alquiler casa rural",
+        "inner_html": "Alquiler casa rural"
+      },
+      {
+        "href": "https://www.fotocasa.es/es/alquiler/chalets/espana/todas-las-zonas/l",
+        "inner_text": "Chalets en alquiler",
+        "inner_html": "Chalets en alquiler"
+      },
+      {
+        "href": "https://www.fotocasa.es/es/alquiler/estudios/espana/todas-las-zonas/l",
+        "inner_text": "Estudios en alquiler",
+        "inner_html": "Estudios en alquiler"
+      },
+      {
+        "href": "https://www.fotocasa.es/es/compartir/pisos/espana/todas-las-zonas/l",
+        "inner_text": "Alquiler habitación",
+        "inner_html": "Alquiler habitación"
+      },
+      {
+        "href": "https://www.fotocasa.es/es/alquiler-vacacional/viviendas/espana/todas-las-zonas/l",
+        "inner_text": "Alquiler vacacional",
+        "inner_html": "Alquiler vacacional"
+      },
+      {
+        "href": "https://www.fotocasa.es/es/alquiler/garajes/espana/todas-las-zonas/l",
+        "inner_text": "Alquiler plaza de garaje",
+        "inner_html": "Alquiler plaza de garaje"
+      },
+      {
+        "href": "https://www.fotocasa.es/es/comprar/pisos/madrid-capital/todas-las-zonas/l",
+        "inner_text": "Venta de pisos en Madrid capital",
+        "inner_html": "Venta de pisos en Madrid capital"
+      },
+      {
+        "href": "https://www.fotocasa.es/es/comprar/viviendas/madrid-provincia/todas-las-zonas/l?filter=isnewconstruction",
+        "inner_text": "Obra nueva Madrid",
+        "inner_html": "Obra nueva Madrid"
+      },
+      {
+        "href": "https://www.fotocasa.es/es/comprar/pisos/barcelona-capital/todas-las-zonas/l",
+        "inner_text": "Pisos en venta Barcelona capital",
+        "inner_html": "Pisos en venta Barcelona capital"
+      },
+      {
+        "href": "https://www.fotocasa.es/es/comprar/pisos/valencia-provincia/todas-las-zonas/l",
+        "inner_text": "Pisos en venta en Valencia",
+        "inner_html": "Pisos en venta en Valencia"
+      },
+      {
+        "href": "https://www.fotocasa.es/es/comprar/pisos/zaragoza-capital/todas-las-zonas/l",
+        "inner_text": "Pisos en venta en Zaragoza capital",
+        "inner_html": "Pisos en venta en Zaragoza capital"
+      },
+      {
+        "href": "https://www.fotocasa.es/es/comprar/pisos/gijon/todas-las-zonas/l",
+        "inner_text": "Pisos en venta en Gijón",
+        "inner_html": "Pisos en venta en Gijón"
+      },
+      {
+        "href": "https://www.fotocasa.es/es/comprar/pisos/malaga-provincia/todas-las-zonas/l",
+        "inner_text": "Pisos en venta en Málaga",
+        "inner_html": "Pisos en venta en Málaga"
+      },
+      {
+        "href": "https://www.fotocasa.es/es/comprar/pisos/santander/todas-las-zonas/l",
+        "inner_text": "Pisos en venta en Santander",
+        "inner_html": "Pisos en venta en Santander"
+      },
+      {
+        "href": "https://www.fotocasa.es/es/comprar/pisos/a-coruna-provincia/todas-las-zonas/l",
+        "inner_text": "Pisos en venta en Coruña",
+        "inner_html": "Pisos en venta en Coruña"
+      },
+      {
+        "href": "https://www.fotocasa.es/es/comprar/pisos/sevilla-capital/todas-las-zonas/l",
+        "inner_text": "Pisos en venta en Sevilla capital",
+        "inner_html": "Pisos en venta en Sevilla capital"
+      },
+      {
+        "href": "https://www.fotocasa.es/es/comprar/pisos/valladolid-provincia/todas-las-zonas/l",
+        "inner_text": "Pisos en venta en Valladolid",
+        "inner_html": "Pisos en venta en Valladolid"
+      },
+      {
+        "href": "https://www.fotocasa.es/es/comprar/pisos/bilbao/todas-las-zonas/l",
+        "inner_text": "Pisos en venta en Bilbao",
+        "inner_html": "Pisos en venta en Bilbao"
+      },
+      {
+        "href": "https://www.fotocasa.es/es/comprar/pisos/fuenlabrada/todas-las-zonas/l",
+        "inner_text": "Pisos en venta en Fuenlabrada",
+        "inner_html": "Pisos en venta en Fuenlabrada"
+      },
+      {
+        "href": "https://www.fotocasa.es/es/comprar/pisos/mostoles/todas-las-zonas/l",
+        "inner_text": "Pisos en venta en Móstoles",
+        "inner_html": "Pisos en venta en Móstoles"
+      },
+      {
+        "href": "https://www.fotocasa.es/es/comprar/pisos/pamplona-iruna/todas-las-zonas/l",
+        "inner_text": "Pisos en venta en Pamplona",
+        "inner_html": "Pisos en venta en Pamplona"
+      },
+      {
+        "href": "https://www.fotocasa.es/es/comprar/pisos/alcala-de-henares/todas-las-zonas/l",
+        "inner_text": "Pisos en venta en Alcalá de Henares",
+        "inner_html": "Pisos en venta en Alcalá de Henares"
+      },
+      {
+        "href": "https://www.fotocasa.es/es/comprar/pisos/granada-capital/todas-las-zonas/l",
+        "inner_text": "Pisos en venta en Granada capital",
+        "inner_html": "Pisos en venta en Granada capital"
+      },
+      {
+        "href": "https://www.fotocasa.es/es/comprar/pisos/oviedo/todas-las-zonas/l",
+        "inner_text": "Pisos en venta en Oviedo",
+        "inner_html": "Pisos en venta en Oviedo"
+      },
+      {
+        "href": "https://www.fotocasa.es/es/comprar/pisos/vigo/todas-las-zonas/l",
+        "inner_text": "Pisos en venta en Vigo",
+        "inner_html": "Pisos en venta en Vigo"
+      },
+      {
+        "href": "https://www.fotocasa.es/es/comprar/pisos/logrono/todas-las-zonas/l",
+        "inner_text": "Pisos en venta en Logroño",
+        "inner_html": "Pisos en venta en Logroño"
+      },
+      {
+        "href": "https://www.fotocasa.es/es/comprar/pisos/sabadell/todas-las-zonas/l",
+        "inner_text": "Pisos en venta en Sabadell",
+        "inner_html": "Pisos en venta en Sabadell"
+      },
+      {
+        "href": "https://www.fotocasa.es/es/alquiler/pisos/madrid-provincia/todas-las-zonas/l",
+        "inner_text": "Pisos alquiler Madrid",
+        "inner_html": "Pisos alquiler Madrid"
+      },
+      {
+        "href": "https://www.fotocasa.es/es/alquiler/pisos/madrid-provincia/todas-las-zonas/l?sortType=price&sortOrderDesc=false",
+        "inner_text": "Pisos alquiler Madrid baratos",
+        "inner_html": "Pisos alquiler Madrid baratos"
+      },
+      {
+        "href": "https://www.fotocasa.es/es/alquiler/pisos/barcelona-provincia/todas-las-zonas/l",
+        "inner_text": "Pisos alquiler Barcelona",
+        "inner_html": "Pisos alquiler Barcelona"
+      },
+      {
+        "href": "https://www.fotocasa.es/es/alquiler/pisos/barcelona-provincia/todas-las-zonas/l?sortType=price&sortOrderDesc=false",
+        "inner_text": "Pisos alquiler Barcelona baratos",
+        "inner_html": "Pisos alquiler Barcelona baratos"
+      },
+      {
+        "href": "https://www.fotocasa.es/es/alquiler/pisos/valencia-provincia/todas-las-zonas/l",
+        "inner_text": "Pisos alquiler Valencia",
+        "inner_html": "Pisos alquiler Valencia"
+      },
+      {
+        "href": "https://www.fotocasa.es/es/alquiler/pisos/zaragoza-provincia/todas-las-zonas/l",
+        "inner_text": "Pisos alquiler Zaragoza",
+        "inner_html": "Pisos alquiler Zaragoza"
+      },
+      {
+        "href": "https://www.fotocasa.es/es/alquiler/pisos/sevilla-provincia/todas-las-zonas/l",
+        "inner_text": "Pisos alquiler Sevilla",
+        "inner_html": "Pisos alquiler Sevilla"
+      },
+      {
+        "href": "https://www.fotocasa.es/es/alquiler/pisos/alicante-provincia/todas-las-zonas/l",
+        "inner_text": "Pisos alquiler Alicante",
+        "inner_html": "Pisos alquiler Alicante"
+      },
+      {
+        "href": "https://www.fotocasa.es/es/alquiler/pisos/malaga-provincia/todas-las-zonas/l",
+        "inner_text": "Pisos alquiler Málaga",
+        "inner_html": "Pisos alquiler Málaga"
+      },
+      {
+        "href": "https://www.fotocasa.es/es/alquiler/pisos/a-coruna-provincia/todas-las-zonas/l",
+        "inner_text": "Pisos alquiler Coruña",
+        "inner_html": "Pisos alquiler Coruña"
+      },
+      {
+        "href": "https://www.fotocasa.es/es/alquiler/pisos/vigo/todas-las-zonas/l",
+        "inner_text": "Pisos alquiler Vigo",
+        "inner_html": "Pisos alquiler Vigo"
+      },
+      {
+        "href": "https://www.fotocasa.es/es/alquiler/pisos/granada-provincia/todas-las-zonas/l",
+        "inner_text": "Pisos alquiler Granada",
+        "inner_html": "Pisos alquiler Granada"
+      },
+      {
+        "href": "https://www.fotocasa.es/es/alquiler/pisos/pamplona-iruna/todas-las-zonas/l",
+        "inner_text": "Pisos alquiler Pamplona",
+        "inner_html": "Pisos alquiler Pamplona"
+      },
+      {
+        "href": "https://www.fotocasa.es/es/alquiler/pisos/valladolid-provincia/todas-las-zonas/l",
+        "inner_text": "Pisos alquiler Valladolid",
+        "inner_html": "Pisos alquiler Valladolid"
+      },
+      {
+        "href": "https://www.fotocasa.es/es/alquiler/pisos/murcia-provincia/todas-las-zonas/l",
+        "inner_text": "Pisos alquiler Murcia",
+        "inner_html": "Pisos alquiler Murcia"
+      },
+      {
+        "href": "https://www.fotocasa.es/es/alquiler/pisos/santiago-de-compostela/todas-las-zonas/l",
+        "inner_text": "Pisos alquiler Santiago de Compostela",
+        "inner_html": "Pisos alquiler Santiago de Compostela"
+      },
+      {
+        "href": "https://www.fotocasa.es/es/alquiler/pisos/bilbao/todas-las-zonas/l",
+        "inner_text": "Pisos alquiler Bilbao",
+        "inner_html": "Pisos alquiler Bilbao"
+      },
+      {
+        "href": "https://www.fotocasa.es/es/alquiler/pisos/gijon/todas-las-zonas/l",
+        "inner_text": "Pisos alquiler Gijón",
+        "inner_html": "Pisos alquiler Gijón"
+      },
+      {
+        "href": "https://www.fotocasa.es/es/alquiler/pisos/vitoria-gasteiz/todas-las-zonas/l",
+        "inner_text": "Pisos alquiler Vitoria",
+        "inner_html": "Pisos alquiler Vitoria"
+      },
+      {
+        "href": "https://www.fotocasa.es/es/alquiler/pisos/terrassa/todas-las-zonas/l",
+        "inner_text": "Pisos alquiler Terrassa",
+        "inner_html": "Pisos alquiler Terrassa"
+      },
+      {
+        "href": "https://www.fotocasa.es/es/alquiler/pisos/tarragona-provincia/todas-las-zonas/l",
+        "inner_text": "Pisos alquiler Tarragona",
+        "inner_html": "Pisos alquiler Tarragona"
+      },
+      {
+        "href": "https://www.fotocasa.es/es/alquiler/pisos/jaen-provincia/todas-las-zonas/l",
+        "inner_text": "Pisos alquiler Jaen",
+        "inner_html": "Pisos alquiler Jaen"
+      },
+      {
+        "href": "https://www.fotocasa.es/es/alquiler/pisos/martorell/todas-las-zonas/l",
+        "inner_text": "Pisos alquiler Martorell",
+        "inner_html": "Pisos alquiler Martorell"
+      },
+      {
+        "href": "https://www.fotocasa.es/es/alquiler/pisos/lugo-provincia/todas-las-zonas/l",
+        "inner_text": "Pisos alquiler Lugo",
+        "inner_html": "Pisos alquiler Lugo"
+      },
+      {
+        "href": "https://www.fotocasa.es/es/comprar/pisos/terrassa/todas-las-zonas/l",
+        "inner_text": "Pisos en venta en Terrassa",
+        "inner_html": "Pisos en venta en Terrassa"
+      },
+      {
+        "href": "https://www.fotocasa.es/es/alquiler/oficinas/madrid-capital/todas-las-zonas/l",
+        "inner_text": "Alquiler oficinas",
+        "inner_html": "Alquiler oficinas"
+      },
+      {
+        "href": "https://www.fotocasa.es/es/comprar/terrenos/barcelona-provincia/todas-las-zonas/l",
+        "inner_text": "Terrenos en venta Barcelona",
+        "inner_html": "Terrenos en venta Barcelona"
+      },
+      {
+        "href": "https://www.fotocasa.es/es/comprar/viviendas/espana/todas-las-zonas/l?text=de-madera",
+        "inner_text": "Casas de madera",
+        "inner_html": "Casas de madera"
+      },
+      {
+        "href": "https://www.fotocasa.es/es/comprar/viviendas/espana/todas-las-zonas/l?text=modulares",
+        "inner_text": "Casas modulares",
+        "inner_html": "Casas modulares"
+      },
+      {
+        "href": "https://www.fotocasa.es/es/comprar/viviendas/espana/todas-las-zonas/l?text=con-piscina-privada",
+        "inner_text": "Casas con piscina privada",
+        "inner_html": "Casas con piscina privada"
+      },
+      {
+        "href": "https://www.fotocasa.es/es/comprar/casas-rurales/espana/todas-las-zonas/l?text=con-piscina-privada",
+        "inner_text": "Casas rurales con piscina privada",
+        "inner_html": "Casas rurales con piscina privada"
+      },
+      {
+        "href": "https://www.fotocasa.es/blog/sector/casas-prefabricadas-por-menos-de-50-000-euros/",
+        "inner_text": "Casas prefabricadas baratas",
+        "inner_html": "Casas prefabricadas baratas"
+      },
+      {
+        "href": "https://www.fotocasa.es/es/comprar/viviendas/espana/todas-las-zonas/l?text=pasivas",
+        "inner_text": "Casas pasivas",
+        "inner_html": "Casas pasivas"
+      },
+      {
+        "href": "https://www.fotocasa.es/es/comprar/viviendas/espana/todas-las-zonas/l?text=en-la-playa",
+        "inner_text": "Casas en la playa",
+        "inner_html": "Casas en la playa"
+      },
+      {
+        "href": "https://www.fotocasa.es/es/comprar/viviendas/espana/todas-las-zonas/l?text=de-pueblo",
+        "inner_text": "Casas de pueblo",
+        "inner_html": "Casas de pueblo"
+      },
+      {
+        "href": "https://itunes.apple.com/es/app/fotocasa/id332699841?mt=8",
+        "inner_text": "",
+        "inner_html": "<svg viewBox=\"0 0 135 40\" width=\"135\" height=\"40\"><rect width=\"135\" height=\"39.999\" rx=\"6\" ry=\"6\" fill=\"#1f2573\"></rect><path d=\"M130 .8c2.3 0 4.2 1.9 4.2 4.2v30c0 2.3-1.9 4.2-4.2 4.2H5C2.7 39.2.8 37.3.8 35V5C.8 2.7 2.7.8 5 .8h125m0-.8H5C2.2 0 0 2.2 0 5v30c0 2.8 2.2 5 5 5h125c2.8 0 5-2.2 5-5V5c0-2.8-2.2-5-5-5z\" fill=\"#999\"></path><g fill=\"#fff\"><path d=\"M24.769 20.3a4.949 4.949 0 012.356-4.151 5.066 5.066 0 00-3.99-2.158c-1.68-.176-3.308 1.005-4.164 1.005-.872 0-2.19-.988-3.608-.958a5.315 5.315 0 00-4.473 2.728c-1.934 3.348-.491 8.269 1.361 10.976.927 1.325 2.01 2.805 3.428 2.753 1.387-.058 1.905-.885 3.58-.885 1.658 0 2.144.885 3.59.852 1.489-.025 2.426-1.332 3.32-2.67a10.962 10.962 0 001.52-3.092 4.782 4.782 0 01-2.92-4.4zM22.037 12.21a4.872 4.872 0 001.115-3.49 4.957 4.957 0 00-3.208 1.66A4.636 4.636 0 0018.8 13.74a4.1 4.1 0 003.237-1.53z\"></path><path d=\"M41 11.716c0-1.935 1.03-3.13 2.688-3.13a2.384 2.384 0 012.48 2.068h-.922a1.535 1.535 0 00-1.559-1.204c-1.07 0-1.74.873-1.74 2.266 0 1.39.67 2.262 1.744 2.262a1.495 1.495 0 001.555-1.1h.923a2.328 2.328 0 01-2.478 1.964c-1.658 0-2.691-1.195-2.691-3.126zM47.183 12.444a2.133 2.133 0 114.247 0 2.134 2.134 0 11-4.247 0zm3.333 0c0-.976-.439-1.547-1.208-1.547-.773 0-1.207.571-1.207 1.547 0 .984.434 1.55 1.207 1.55.77 0 1.208-.57 1.208-1.55zM52.622 10.195h.856v.715h.066a1.348 1.348 0 011.344-.802 1.465 1.465 0 011.558 1.675v2.915h-.888v-2.692c0-.724-.315-1.084-.972-1.084a1.033 1.033 0 00-1.075 1.141v2.635h-.889zM59.467 10.108c1.013 0 1.675.471 1.762 1.265h-.853c-.082-.33-.405-.541-.91-.541-.495 0-.872.235-.872.586 0 .27.227.439.716.55l.748.174c.856.199 1.257.567 1.257 1.229 0 .847-.79 1.414-1.865 1.414-1.071 0-1.77-.484-1.848-1.282h.89a.914.914 0 00.979.562c.553 0 .947-.248.947-.608 0-.269-.21-.442-.662-.55l-.785-.182c-.857-.203-1.253-.587-1.253-1.257 0-.798.731-1.36 1.749-1.36zM62.438 9.442l1.038-1.422h1.042l-1.163 1.422zm.091.753h.885v4.503h-.885zM64.798 15.148h.909c.075.327.451.538 1.05.538.741 0 1.18-.352 1.18-.947v-.864h-.067a1.514 1.514 0 01-1.39.756c-1.149 0-1.86-.888-1.86-2.236 0-1.373.719-2.275 1.87-2.275a1.56 1.56 0 011.413.794h.07v-.72h.852v4.54c0 1.03-.806 1.684-2.08 1.684-1.125 0-1.852-.504-1.947-1.27zm3.155-2.758c0-.897-.464-1.472-1.22-1.472-.765 0-1.195.575-1.195 1.472 0 .898.43 1.472 1.194 1.472.762 0 1.221-.57 1.221-1.472zM74.038 14.698h-.857v-.716h-.07a1.35 1.35 0 01-1.36.803 1.463 1.463 0 01-1.552-1.667v-2.923h.89v2.692c0 .727.293 1.075.947 1.075a1.022 1.022 0 001.112-1.133v-2.634h.89zM79.261 13.482a1.828 1.828 0 01-1.95 1.303 2.045 2.045 0 01-2.081-2.325 2.077 2.077 0 012.076-2.352c1.253 0 2.009.856 2.009 2.27v.31h-3.18v.05a1.19 1.19 0 001.2 1.29 1.08 1.08 0 001.07-.546zm-3.126-1.451h2.275a1.086 1.086 0 00-1.109-1.167 1.152 1.152 0 00-1.166 1.167zM80.55 8.437h.888v6.26h-.889zM82.673 12.444a2.133 2.133 0 114.247 0 2.134 2.134 0 11-4.247 0zm3.333 0c0-.976-.438-1.547-1.208-1.547-.772 0-1.207.571-1.207 1.547 0 .984.435 1.55 1.207 1.55.77 0 1.208-.57 1.208-1.55zM94.364 13.482a1.828 1.828 0 01-1.951 1.303 2.045 2.045 0 01-2.08-2.325 2.077 2.077 0 012.076-2.352c1.253 0 2.008.856 2.008 2.27v.31h-3.18v.05a1.19 1.19 0 001.2 1.29 1.08 1.08 0 001.071-.546zm-3.126-1.451h2.274a1.086 1.086 0 00-1.108-1.167 1.152 1.152 0 00-1.166 1.167zM95.61 10.195h.856v.715h.067a1.348 1.348 0 011.343-.802 1.465 1.465 0 011.56 1.675v2.915h-.89v-2.692c0-.724-.314-1.084-.971-1.084a1.033 1.033 0 00-1.075 1.141v2.635h-.89zM107.06 13.482a1.828 1.828 0 01-1.951 1.303 2.045 2.045 0 01-2.08-2.325 2.077 2.077 0 012.076-2.352c1.253 0 2.009.856 2.009 2.27v.31h-3.18v.05a1.19 1.19 0 001.2 1.29 1.08 1.08 0 001.07-.546zm-3.126-1.451h2.274a1.086 1.086 0 00-1.108-1.167 1.152 1.152 0 00-1.166 1.167zM108.348 8.437h.889v6.26h-.889z\"></path><path d=\"M48.875 27.14h-4.733l-1.137 3.356H41l4.483-12.418h2.083l4.484 12.418h-2.04zm-4.243-1.55h3.752l-1.85-5.446h-.052zM61.732 25.97c0 2.813-1.505 4.62-3.778 4.62a3.07 3.07 0 01-2.849-1.583h-.043v4.484h-1.858V21.442h1.799v1.506h.034a3.212 3.212 0 012.883-1.6c2.298 0 3.812 1.816 3.812 4.622zm-1.91 0c0-1.833-.947-3.038-2.392-3.038-1.42 0-2.375 1.23-2.375 3.038 0 1.824.955 3.046 2.375 3.046 1.445 0 2.392-1.197 2.392-3.046zM71.697 25.97c0 2.813-1.506 4.62-3.778 4.62a3.07 3.07 0 01-2.849-1.583h-.043v4.484H63.17V21.442h1.799v1.506h.034a3.212 3.212 0 012.883-1.6c2.298 0 3.812 1.816 3.812 4.622zm-1.91 0c0-1.833-.947-3.038-2.392-3.038-1.42 0-2.375 1.23-2.375 3.038 0 1.824.955 3.046 2.375 3.046 1.445 0 2.392-1.197 2.392-3.046zM78.283 27.036c.138 1.232 1.334 2.04 2.969 2.04 1.566 0 2.693-.808 2.693-1.919 0-.964-.68-1.54-2.289-1.936l-1.61-.388c-2.28-.55-3.338-1.617-3.338-3.348 0-2.142 1.867-3.614 4.519-3.614 2.624 0 4.422 1.472 4.483 3.614h-1.876c-.112-1.239-1.137-1.987-2.634-1.987s-2.521.757-2.521 1.858c0 .878.654 1.395 2.255 1.79l1.368.336c2.548.603 3.606 1.626 3.606 3.443 0 2.323-1.85 3.778-4.794 3.778-2.754 0-4.613-1.42-4.733-3.667zM89.919 19.3v2.142h1.722v1.472h-1.722v4.991c0 .776.345 1.137 1.102 1.137a5.808 5.808 0 00.61-.043v1.463a5.104 5.104 0 01-1.031.086c-1.833 0-2.548-.689-2.548-2.445v-5.189h-1.317v-1.472h1.317V19.3zM92.638 25.97c0-2.849 1.677-4.639 4.294-4.639 2.625 0 4.295 1.79 4.295 4.639 0 2.856-1.662 4.638-4.295 4.638s-4.294-1.782-4.294-4.638zm6.695 0c0-1.954-.895-3.108-2.401-3.108s-2.4 1.162-2.4 3.108c0 1.962.894 3.106 2.4 3.106s2.401-1.144 2.401-3.106zM102.759 21.442h1.772v1.541h.043a2.16 2.16 0 012.178-1.635 2.866 2.866 0 01.637.069v1.738a2.598 2.598 0 00-.835-.112 1.873 1.873 0 00-1.937 2.083v5.37h-1.858zM115.957 27.837c-.25 1.643-1.85 2.771-3.898 2.771-2.634 0-4.269-1.764-4.269-4.595 0-2.84 1.644-4.682 4.19-4.682 2.505 0 4.08 1.72 4.08 4.466v.637h-6.394v.112a2.358 2.358 0 002.436 2.564 2.048 2.048 0 002.09-1.273zm-6.282-2.702h4.526a2.177 2.177 0 00-2.22-2.298 2.292 2.292 0 00-2.306 2.298z\"></path></g></svg>"
+      },
+      {
+        "href": "https://play.google.com/store/apps/details?id=com.anuntis.fotocasa",
+        "inner_text": "",
+        "inner_html": "<svg viewBox=\"0 0 135 40\" width=\"135\" height=\"40\"><rect width=\"135\" height=\"39.999\" rx=\"6\" ry=\"6\" fill=\"#1f2573\"></rect><path d=\"M130 .8c2.3 0 4.2 1.9 4.2 4.2v30c0 2.3-1.9 4.2-4.2 4.2H5C2.7 39.2.8 37.3.8 35V5C.8 2.7 2.7.8 5 .8h125m0-.8H5C2.2 0 0 2.2 0 5v30c0 2.8 2.2 5 5 5h125c2.8 0 5-2.2 5-5V5c0-2.8-2.2-5-5-5z\" fill=\"#999\"></path><g><path d=\"M10.732 7.587c-.3.4-.5.9-.5 1.4v22.1c0 .5.1 1 .5 1.4l.1.1 12.4-12.4v-.3l-12.5-12.3z\" fill=\"url(#SVGID_1_)\"></path><path d=\"M27.332 24.387l-4.1-4.1v-.3l4.1-4.1h.1l4.9 2.8c1.4.8 1.4 2.1 0 2.9l-4.9 2.8h-.1z\" fill=\"url(#SVGID_2_)\"></path><path d=\"M27.432 24.287l-4.2-4.2-12.5 12.5c.6.5 1.5.5 2.1.1l14.6-8.4\" fill=\"url(#SVGID_3_)\"></path><path d=\"M27.432 15.887l-14.6-8.3c-.6-.5-1.5-.5-2.1.1l12.5 12.5 4.2-4.3z\" fill=\"url(#SVGID_4_)\"></path><path d=\"M27.332 24.187l-14.5 8.3c-.6.4-1.4.4-2 0l-.1.1h.1c.6.4 1.4.4 2 0l14.6-8.3-.1-.1z\" opacity=\".2\"></path><path d=\"M10.732 32.387c-.3-.4-.5-.9-.5-1.4v.2c0 .5.1 1 .5 1.4v-.2zM32.332 21.387l-5 2.8.1.1 4.9-2.8c.6-.3.9-.8 1-1.4-.1.6-.5 1-1 1.3z\" opacity=\".12\"></path><path d=\"M12.832 7.687l19.5 11.1c.5.3.9.7 1 1.3-.1-.6-.4-1.2-1-1.4l-19.5-11.1c-1.4-.8-2.5-.1-2.5 1.5v.1c0-1.6 1.1-2.3 2.5-1.5z\" fill=\"#fff\" opacity=\".25\"></path><g transform=\"translate(-.23)\"><path d=\"M68.432 21.787c-2.3 0-4.2 1.9-4.2 4.3 0 2.3 1.9 4.2 4.3 4.2 2.3 0 4.2-1.9 4.2-4.2 0-2.3-1.8-4.2-4.1-4.3h-.2zm0 6.9c-1.4.1-2.7-1-2.8-2.4-.1-1.4 1-2.7 2.4-2.8 1.4-.1 2.7 1 2.8 2.4v.2c.1 1.4-.9 2.5-2.4 2.6.1 0 .1 0 0 0zm-9.3-6.8c-2.3 0-4.2 1.9-4.2 4.3 0 2.3 1.9 4.2 4.3 4.2 2.3 0 4.2-1.9 4.2-4.2 0-2.3-1.8-4.2-4.1-4.3-.1-.1-.1-.1-.2 0zm0 6.8c-1.4.1-2.7-1-2.8-2.4-.1-1.4 1-2.7 2.4-2.8 1.4-.1 2.7 1 2.8 2.4v.2c.1 1.4-1 2.5-2.4 2.6.1 0 0 0 0 0zm-11.1-5.5v1.8h4.3c-.1.8-.4 1.6-1 2.3-.9.9-2.1 1.4-3.3 1.3-2.7 0-4.8-2.1-4.8-4.8 0-2.7 2.1-4.8 4.8-4.8 1.2 0 2.4.4 3.3 1.3l1.3-1.3c-1.2-1.2-2.8-1.9-4.5-1.9-3.6-.1-6.7 2.7-6.9 6.3-.1 3.6 2.7 6.7 6.3 6.9h.5c1.7.1 3.4-.6 4.6-1.8 1-1.2 1.6-2.7 1.6-4.2 0-.4 0-.8-.1-1.1h-6.1zm45.4 1.4c-.5-1.6-2-2.6-3.6-2.7-2.2 0-4 1.8-4 4v.3c0 2.3 1.8 4.2 4.1 4.2h.2c1.4 0 2.8-.7 3.5-1.9l-1.4-1c-.4.7-1.2 1.2-2.1 1.2-.9 0-1.7-.5-2.1-1.3l5.7-2.3-.3-.5zm-5.8 1.4c-.1-1.3.9-2.4 2.2-2.5.7 0 1.3.3 1.6.9l-3.8 1.6zm-4.7 4.1h1.9v-12.5h-1.9v12.5zm-3-7.3c-.6-.6-1.5-1-2.3-1-2.3.1-4.2 2.1-4 4.5.1 2.2 1.9 3.9 4 4 .9 0 1.7-.4 2.2-1h.1v.6c0 1.6-.9 2.5-2.3 2.5-1 0-1.8-.6-2.1-1.5l-1.7.7c.6 1.5 2.1 2.5 3.8 2.5 2.2 0 4-1.3 4-4.4v-7.6h-1.7v.7zm-2.2 5.9c-1.4-.1-2.5-1.4-2.4-2.8.1-1.3 1.1-2.2 2.4-2.4 1.3.1 2.3 1.2 2.3 2.5v.1c.1 1.3-.9 2.5-2.2 2.6h-.1zm24.4-11.1h-4.5v12.5h1.9v-4.7h2.6c2.1.2 4-1.5 4.2-3.6.2-2.1-1.5-4-3.6-4.2h-.6zm0 6h-2.6v-4.3h2.7c1.2 0 2.1 1 2.1 2.1s-1 2.2-2.2 2.2zm11.5-1.8c-1.4-.1-2.7.7-3.3 1.9l1.7.7c.3-.6 1-1 1.7-.9 1-.1 1.9.6 2 1.6v.1c-.6-.3-1.3-.5-1.9-.5-1.8 0-3.6 1-3.6 2.8.1 1.6 1.4 2.8 3 2.8h.1c1 .1 1.9-.4 2.4-1.2h.1v1h1.8v-4.8c-.1-2.2-1.8-3.5-4-3.5zm-.2 6.8c-.6 0-1.5-.3-1.5-1.1 0-1 1.1-1.3 2-1.3.6 0 1.2.1 1.7.4-.1 1.2-1 2.1-2.2 2zm10.6-6.5l-2.1 5.4h-.1l-2.2-5.4h-2l3.3 7.6-1.9 4.2h1.9l5.1-11.8h-2zm-16.8 8h1.9v-12.5h-1.9v12.5z\" fill=\"#fff\"></path><path d=\"M41.632 13.087v-6h1.8c.8 0 1.6.3 2.2.8.6.6.9 1.4.8 2.2 0 .8-.3 1.6-.8 2.2-.6.6-1.4.9-2.2.8h-1.8zm.7-.7h1.1c.6 0 1.2-.2 1.7-.6.4-.4.6-1 .6-1.7.1-1.2-.8-2.2-1.9-2.3H42.432v4.6zM47.532 13.087v-6h.8v6h-.8zM51.432 13.187c-.5 0-.9-.2-1.3-.4-.4-.3-.7-.7-.8-1.2l.7-.3c.1.3.3.6.5.8.2.2.6.3.9.3.3 0 .6-.1.9-.3.2-.2.4-.4.4-.7 0-.3-.1-.6-.4-.8-.3-.2-.7-.4-1.1-.5-.4-.1-.9-.3-1.2-.6-.3-.3-.4-.6-.4-1s.2-.8.5-1.1c.4-.3.8-.5 1.3-.5.4 0 .9.1 1.2.4.2.3.4.5.6.9l-.7.3c-.1-.2-.2-.4-.4-.5-.5-.3-1.1-.3-1.5 0-.2.1-.3.4-.3.6 0 .2.1.4.3.6.3.2.5.3.8.4.3.1.5.2.7.3.2.1.4.2.6.4.2.1.4.3.5.5.1.2.2.5.2.8 0 .3-.1.5-.2.8-.1.2-.3.4-.5.5l-.6.3h-.7zM55.332 13.087h-.8v-6h2c.5 0 1 .2 1.3.5.7.7.8 1.8.1 2.5l-.1.1c-.4.3-.8.5-1.3.5h-1.2v2.4zm0-3.2h1.3c.3 0 .6-.1.8-.3.4-.4.4-1 0-1.4 0 0 0 0 0 0-.2-.2-.5-.3-.8-.3h-1.3v2zM64.332 12.287c-1.2 1.2-3.2 1.2-4.4 0-1.2-1.2-1.2-3.2 0-4.4 1.2-1.2 3.2-1.2 4.4 0 0 0 0 0 0 0 1.2 1.2 1.2 3.2 0 4.4zm-3.8-.5c.9.9 2.4.9 3.3 0 .9-1 .9-2.5 0-3.4-.9-.9-2.4-.9-3.3 0-.9 1-.9 2.4 0 3.4zM66.332 13.087v-6h.9l2.9 4.7h0v-4.7h.8v6h-.8l-3.1-4.9h0v4.9h-.7zM72.332 13.087v-6h.8v6h-.8zM74.432 13.087v-6h2.2c.5 0 .9.2 1.2.5.3.3.5.7.5 1.2 0 .3-.1.5-.2.8-.1.2-.4.4-.6.5h0c.3.1.5.3.7.5.2.2.3.5.3.9 0 .5-.2.9-.5 1.2-.3.3-.8.5-1.3.5l-2.3-.1zm.8-3.4h1.4c.3 0 .5-.1.7-.3.4-.3.4-.9.1-1.3 0 0 0 0 0 0-.2-.2-.4-.3-.7-.3h-1.5v1.9zm0 2.7h1.6c.3 0 .5-.1.7-.3.2-.2.3-.4.3-.7 0-.6-.4-1-1-1h-1.5l-.1 2zM79.532 13.087v-6h.8v5.3h2.6v.7h-3.4zM87.432 7.787h-2.7v1.9h2.5v.7h-2.5v1.9h2.7v.7h-3.5v-6h3.5v.8zM94.132 7.787h-2.7v1.9h2.4v.7h-2.5v1.9h2.7v.7h-3.5v-6h3.5v.8zM95.332 13.087v-6h1l2.9 4.7h0v-4.7h.8v6h-.8l-3.1-4.9h0v4.9h-.8z\" fill=\"#fff\" stroke=\"#fff\" stroke-miterlimit=\"10\" stroke-width=\".2\"></path></g></g><linearGradient id=\"SVGID_1_\" gradientUnits=\"userSpaceOnUse\" x1=\"22.302\" y1=\"599.212\" x2=\"5.522\" y2=\"615.992\" gradientTransform=\"translate(-.168 -590.413)\"><stop offset=\"0\" stop-color=\"#00a0ff\"></stop><stop offset=\".01\" stop-color=\"#00a1ff\"></stop><stop offset=\".26\" stop-color=\"#00beff\"></stop><stop offset=\".51\" stop-color=\"#00d2ff\"></stop><stop offset=\".76\" stop-color=\"#00dfff\"></stop><stop offset=\"1\" stop-color=\"#00e3ff\"></stop></linearGradient><linearGradient id=\"SVGID_2_\" gradientUnits=\"userSpaceOnUse\" x1=\"34.33\" y1=\"610.5\" x2=\"10.14\" y2=\"610.5\" gradientTransform=\"translate(-.168 -590.413)\"><stop offset=\"0\" stop-color=\"#ffe000\"></stop><stop offset=\".41\" stop-color=\"#ffbd00\"></stop><stop offset=\".78\" stop-color=\"orange\"></stop><stop offset=\"1\" stop-color=\"#ff9c00\"></stop></linearGradient><linearGradient id=\"SVGID_3_\" gradientUnits=\"userSpaceOnUse\" x1=\"25.328\" y1=\"612.798\" x2=\"2.567\" y2=\"635.548\" gradientTransform=\"translate(-.168 -590.413)\"><stop offset=\"0\" stop-color=\"#ff3a44\"></stop><stop offset=\"1\" stop-color=\"#c31162\"></stop></linearGradient><linearGradient id=\"SVGID_4_\" gradientUnits=\"userSpaceOnUse\" x1=\"7.798\" y1=\"590.683\" x2=\"17.957\" y2=\"600.842\" gradientTransform=\"translate(-.168 -590.413)\"><stop offset=\"0\" stop-color=\"#32a071\"></stop><stop offset=\".07\" stop-color=\"#2da771\"></stop><stop offset=\".48\" stop-color=\"#15cf74\"></stop><stop offset=\".8\" stop-color=\"#06e775\"></stop><stop offset=\"1\" stop-color=\"#00f076\"></stop></linearGradient></svg>"
+      },
+      {
+        "href": "https://www.facebook.com/fotocasa/",
+        "inner_text": "",
+        "inner_html": "<span class=\"sui-AtomIcon sui-AtomIcon--medium sui-AtomIcon--currentColor\" role=\"img\"><span><svg viewBox=\"0 0 24 24\"><path fill-rule=\"evenodd\" d=\"M24 12.073C24 5.405 18.627 0 12 0S0 5.405 0 12.073C0 18.1 4.388 23.094 10.125 24v-8.437H7.078v-3.49h3.047v-2.66c0-3.025 1.792-4.697 4.533-4.697 1.312 0 2.686.236 2.686.236v2.971H15.83c-1.491 0-1.956.93-1.956 1.886v2.264h3.328l-.532 3.49h-2.796V24C19.612 23.094 24 18.1 24 12.073\"></path></svg></span></span>"
+      },
+      {
+        "href": "https://www.instagram.com/fotocasa/",
+        "inner_text": "",
+        "inner_html": "<span class=\"sui-AtomIcon sui-AtomIcon--medium sui-AtomIcon--currentColor\" role=\"img\"><span><svg viewBox=\"0 0 24 24\"><g fill-rule=\"evenodd\"><path d=\"M12 0C8.741 0 8.332.014 7.052.072 5.775.13 4.902.333 4.14.63a5.881 5.881 0 0 0-2.126 1.384A5.881 5.881 0 0 0 .63 4.14c-.297.763-.5 1.635-.558 2.912C.014 8.332 0 8.741 0 12c0 3.259.014 3.668.072 4.948.058 1.277.261 2.15.558 2.912.307.79.717 1.459 1.384 2.126A5.881 5.881 0 0 0 4.14 23.37c.763.297 1.635.5 2.912.558C8.332 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 1.277-.058 2.15-.261 2.912-.558a5.881 5.881 0 0 0 2.126-1.384 5.881 5.881 0 0 0 1.384-2.126c.297-.763.5-1.635.558-2.912.058-1.28.072-1.689.072-4.948 0-3.259-.014-3.668-.072-4.948-.058-1.277-.261-2.15-.558-2.912a5.881 5.881 0 0 0-1.384-2.126A5.881 5.881 0 0 0 19.86.63c-.763-.297-1.635-.5-2.912-.558C15.668.014 15.259 0 12 0zm0 2.162c3.204 0 3.584.012 4.849.07 1.17.053 1.805.249 2.228.413.56.218.96.478 1.38.898.42.42.68.82.898 1.38.164.423.36 1.058.413 2.228.058 1.265.07 1.645.07 4.849s-.012 3.584-.07 4.849c-.053 1.17-.249 1.805-.413 2.228-.218.56-.478.96-.898 1.38-.42.42-.82.68-1.38.898-.423.164-1.058.36-2.228.413-1.265.058-1.645.07-4.849.07s-3.584-.012-4.849-.07c-1.17-.053-1.805-.249-2.228-.413a3.724 3.724 0 0 1-1.38-.898c-.42-.42-.68-.82-.898-1.38-.164-.423-.36-1.058-.413-2.228-.058-1.265-.07-1.645-.07-4.849s.012-3.584.07-4.849c.053-1.17.249-1.805.413-2.228.218-.56.478-.96.898-1.38.42-.42.82-.68 1.38-.898.423-.164 1.058-.36 2.228-.413 1.265-.058 1.645-.07 4.849-.07z\" mask=\"url(#prefix__b)\"></path><path d=\"M12 16.052a4.052 4.052 0 1 1 0-8.104 4.052 4.052 0 0 1 0 8.104zm0-10.286a6.234 6.234 0 1 0 0 12.468 6.234 6.234 0 0 0 0-12.468zm7.792-.156a1.403 1.403 0 1 1-2.805 0 1.403 1.403 0 0 1 2.805 0\"></path></g></svg></span></span>"
+      },
+      {
+        "href": "https://twitter.com/fotocasa/",
+        "inner_text": "",
+        "inner_html": "<span class=\"sui-AtomIcon sui-AtomIcon--medium sui-AtomIcon--currentColor\" role=\"img\"><span><svg viewBox=\"0 0 24 24\"><path d=\"M17.942 9.725c.006.124.008.249.008.374 0 3.822-2.869 8.23-8.115 8.23a7.99 7.99 0 0 1-4.372-1.299 5.671 5.671 0 0 0 4.223-1.198 2.861 2.861 0 0 1-2.664-2.01 2.776 2.776 0 0 0 1.288-.049 2.885 2.885 0 0 1-2.289-2.836l.001-.037c.384.217.824.348 1.292.362a2.9 2.9 0 0 1-1.27-2.408c0-.53.142-1.026.387-1.454a8.06 8.06 0 0 0 5.879 3.023 2.872 2.872 0 0 1-.074-.66c0-1.597 1.277-2.893 2.852-2.893.82 0 1.562.352 2.082.914.65-.13 1.26-.37 1.811-.702a2.891 2.891 0 0 1-1.254 1.6 5.638 5.638 0 0 0 1.638-.455 5.846 5.846 0 0 1-1.423 1.498zM12 0C5.466 0 .169 5.373.169 12S5.466 24 12 24s11.831-5.373 11.831-12S18.534 0 12 0z\" mask=\"url(#prefix__b)\" fill-rule=\"evenodd\"></path></svg></span></span>"
+      },
+      {
+        "href": "https://www.youtube.com/user/fotocasa/",
+        "inner_text": "",
+        "inner_html": "<span class=\"sui-AtomIcon sui-AtomIcon--medium sui-AtomIcon--currentColor\" role=\"img\"><span><svg viewBox=\"0 0 24 24\"><g fill-rule=\"evenodd\"><path d=\"M10.295 14.479 14.651 12l-4.356-2.478z\"></path><path d=\"M19.986 16.038a2.097 2.097 0 0 1-1.474 1.483c-1.3.35-6.512.35-6.512.35s-5.212 0-6.512-.35a2.094 2.094 0 0 1-1.473-1.483C3.666 14.73 3.666 12 3.666 12s0-2.73.35-4.038a2.09 2.09 0 0 1 1.472-1.483C6.788 6.13 12 6.13 12 6.13s5.212 0 6.512.35a2.095 2.095 0 0 1 1.474 1.483c.348 1.309.348 4.038.348 4.038s0 2.73-.348 4.038M12 0C5.373 0 0 5.373 0 12c0 6.628 5.373 12 12 12s12-5.372 12-12c0-6.627-5.373-12-12-12\"></path></g></svg></span></span>"
+      },
+      {
+        "href": "https://www.pinterest.es/fotocasaoficial/",
+        "inner_text": "",
+        "inner_html": "<span class=\"sui-AtomIcon sui-AtomIcon--medium sui-AtomIcon--currentColor\" role=\"img\"><span><svg viewBox=\"0 0 24 24\"><path d=\"M3.61 3.47C5.95 1.19 8.75.03 12 0c3.5.06 6.37 1.26 8.6 3.59C22.84 5.91 23.97 8.72 24 12c-.06 3.38-1.26 6.21-3.61 8.51C18.05 22.8 15.25 23.97 12 24c-1.13 0-2.25-.17-3.37-.52.21-.34.43-.73.65-1.17.25-.53.56-1.53.94-3 .09-.4.23-.95.42-1.64.22.38.59.72 1.13 1.03 1.4.66 2.89.6 4.45-.18 1.62-.94 2.75-2.4 3.37-4.36.57-2.07.5-3.98-.21-5.74-.7-1.77-1.96-3.04-3.77-3.83-2.28-.65-4.5-.58-6.66.22-2.15.79-3.65 2.16-4.5 4.1-.21.71-.35 1.43-.39 2.13-.05.7-.03 1.39.07 2.06.09.67.32 1.28.7 1.81.37.53.87.94 1.5 1.22.15.06.28.06.37 0 .13-.07.25-.31.38-.75.12-.44.17-.74.14-.89-.03-.06-.09-.17-.19-.33-.65-1.06-.87-2.18-.65-3.35.22-1.17.7-2.17 1.45-2.98a6.578 6.578 0 0 1 4.05-1.69c1.55-.09 2.87.33 3.96 1.27.6.69.98 1.51 1.15 2.48.17.97.17 1.9 0 2.79a8.48 8.48 0 0 1-.91 2.51c-.79 1.22-1.71 1.84-2.77 1.88-.62-.04-1.13-.28-1.52-.73-.39-.46-.51-.98-.35-1.57.06-.34.25-1.02.56-2.02.31-1 .48-1.75.51-2.25-.09-1.18-.64-1.79-1.64-1.83-.78.1-1.36.45-1.73 1.06-.38.61-.58 1.3-.61 2.08.09.91.23 1.54.42 1.88-.34 1.41-.61 2.53-.8 3.37-.06.22-.23.89-.51 2.02s-.44 1.98-.47 2.58v1.31c-2.22-1.03-3.97-2.52-5.25-4.48C.64 16.54 0 14.38 0 12c.06-3.4 1.26-6.25 3.61-8.53z\"></path></svg></span></span>"
+      },
+      {
+        "href": "https://www.linkedin.com/company/fotocasa/",
+        "inner_text": "",
+        "inner_html": "<span class=\"sui-AtomIcon sui-AtomIcon--medium sui-AtomIcon--currentColor\" role=\"img\"><span><svg viewBox=\"0 0 24 24\"><path d=\"M12 0C5.374 0 0 5.374 0 12s5.374 12 12 12 12-5.374 12-12S18.626 0 12 0zM8.513 18.14H5.59V9.349h2.923v8.793zM7.052 8.148h-.02c-.98 0-1.614-.675-1.614-1.518 0-.863.653-1.52 1.653-1.52s1.615.657 1.634 1.52c0 .843-.634 1.518-1.653 1.518zm11.999 9.994h-2.922v-4.704c0-1.182-.423-1.989-1.48-1.989-.808 0-1.289.544-1.5 1.07-.077.187-.096.45-.096.712v4.91H10.13s.039-7.967 0-8.792h2.923v1.245c.388-.6 1.083-1.451 2.633-1.451 1.923 0 3.365 1.256 3.365 3.957v5.042z\"></path></svg></span></span>"
+      },
+      {
+        "href": "https://www.fotocasa.es/es/quienes-somos/",
+        "inner_text": "¿Quiénes somos?",
+        "inner_html": "¿Quiénes somos?"
+      },
+      {
+        "href": "https://www.fotocasa.es/es/mapa-web",
+        "inner_text": "Mapa web",
+        "inner_html": "Mapa web"
+      },
+      {
+        "href": "https://prensa.fotocasa.es/",
+        "inner_text": "Sala de prensa",
+        "inner_html": "Sala de prensa"
+      },
+      {
+        "href": "https://www.fotocasa.es/indice/",
+        "inner_text": "Índice de precios",
+        "inner_html": "Índice de precios"
+      },
+      {
+        "href": "https://www.adevinta.com/es/careers/job-openings/?brand=Adevinta+in+Spain",
+        "inner_text": "Trabaja con nosotros",
+        "inner_html": "Trabaja con nosotros"
+      },
+      {
+        "href": "https://ayuda.fotocasa.es/",
+        "inner_text": "Preguntas frecuentes - FAQ",
+        "inner_html": "Preguntas frecuentes - FAQ"
+      },
+      {
+        "href": "https://www.fotocasa.es/es/politica-privacidad/p",
+        "inner_text": "Política de privacidad",
+        "inner_html": "Política de privacidad"
+      },
+      {
+        "href": "https://www.fotocasa.es/es/catalogo-productos/",
+        "inner_text": "Catálogo de productos",
+        "inner_html": "Catálogo de productos"
+      },
+      {
+        "href": "https://login.inmofactory.com/Account/LogOn?origin=fotocasa&section=footer",
+        "inner_text": "Anúnciate",
+        "inner_html": "Anúnciate"
+      },
+      {
+        "href": "https://blogprofesional.fotocasa.es/contacto/",
+        "inner_text": "Contacta con Fotocasa",
+        "inner_html": "Contacta con Fotocasa"
+      },
+      {
+        "href": "https://cursosonline.fotocasa.es/",
+        "inner_text": "Fotocasa Academy",
+        "inner_html": "Fotocasa Academy"
+      },
+      {
+        "href": "https://blogprofesional.fotocasa.es/",
+        "inner_text": "Blog para profesionales",
+        "inner_html": "Blog para profesionales"
+      },
+      {
+        "href": "https://login.inmofactory.com/Account/LogOn",
+        "inner_text": "Entra en tu cuenta",
+        "inner_html": "Entra en tu cuenta"
+      },
+      {
+        "href": "https://www.adevinta.com/es/spain",
+        "inner_text": "familia Adevinta",
+        "inner_html": "familia Adevinta"
+      },
+      {
+        "href": "https://www.habitaclia.com/",
+        "inner_text": "habitaclia",
+        "inner_html": "habitaclia"
+      },
+      {
+        "href": "https://www.infojobs.net/",
+        "inner_text": "InfoJobs",
+        "inner_html": "InfoJobs"
+      },
+      {
+        "href": "https://www.coches.net/",
+        "inner_text": "coches.net",
+        "inner_html": "coches.net"
+      },
+      {
+        "href": "https://motos.coches.net/",
+        "inner_text": "motos.net",
+        "inner_html": "motos.net"
+      },
+      {
+        "href": "https://www.milanuncios.com/",
+        "inner_text": "Milanuncios",
+        "inner_html": "Milanuncios"
+      },
+      {
+        "href": "https://www.fotocasa.es/es/aviso-legal/ln",
+        "inner_text": "Aviso legal",
+        "inner_html": "Aviso legal"
+      }
+    ],
+    "social": [
+      {
+        "href": "https://www.facebook.com/fotocasa/",
+        "inner_text": "",
+        "inner_html": "<span class=\"sui-AtomIcon sui-AtomIcon--medium sui-AtomIcon--currentColor\" role=\"img\"><span><svg viewBox=\"0 0 24 24\"><path fill-rule=\"evenodd\" d=\"M24 12.073C24 5.405 18.627 0 12 0S0 5.405 0 12.073C0 18.1 4.388 23.094 10.125 24v-8.437H7.078v-3.49h3.047v-2.66c0-3.025 1.792-4.697 4.533-4.697 1.312 0 2.686.236 2.686.236v2.971H15.83c-1.491 0-1.956.93-1.956 1.886v2.264h3.328l-.532 3.49h-2.796V24C19.612 23.094 24 18.1 24 12.073\"></path></svg></span></span>"
+      },
+      {
+        "href": "https://www.instagram.com/fotocasa/",
+        "inner_text": "",
+        "inner_html": "<span class=\"sui-AtomIcon sui-AtomIcon--medium sui-AtomIcon--currentColor\" role=\"img\"><span><svg viewBox=\"0 0 24 24\"><g fill-rule=\"evenodd\"><path d=\"M12 0C8.741 0 8.332.014 7.052.072 5.775.13 4.902.333 4.14.63a5.881 5.881 0 0 0-2.126 1.384A5.881 5.881 0 0 0 .63 4.14c-.297.763-.5 1.635-.558 2.912C.014 8.332 0 8.741 0 12c0 3.259.014 3.668.072 4.948.058 1.277.261 2.15.558 2.912.307.79.717 1.459 1.384 2.126A5.881 5.881 0 0 0 4.14 23.37c.763.297 1.635.5 2.912.558C8.332 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 1.277-.058 2.15-.261 2.912-.558a5.881 5.881 0 0 0 2.126-1.384 5.881 5.881 0 0 0 1.384-2.126c.297-.763.5-1.635.558-2.912.058-1.28.072-1.689.072-4.948 0-3.259-.014-3.668-.072-4.948-.058-1.277-.261-2.15-.558-2.912a5.881 5.881 0 0 0-1.384-2.126A5.881 5.881 0 0 0 19.86.63c-.763-.297-1.635-.5-2.912-.558C15.668.014 15.259 0 12 0zm0 2.162c3.204 0 3.584.012 4.849.07 1.17.053 1.805.249 2.228.413.56.218.96.478 1.38.898.42.42.68.82.898 1.38.164.423.36 1.058.413 2.228.058 1.265.07 1.645.07 4.849s-.012 3.584-.07 4.849c-.053 1.17-.249 1.805-.413 2.228-.218.56-.478.96-.898 1.38-.42.42-.82.68-1.38.898-.423.164-1.058.36-2.228.413-1.265.058-1.645.07-4.849.07s-3.584-.012-4.849-.07c-1.17-.053-1.805-.249-2.228-.413a3.724 3.724 0 0 1-1.38-.898c-.42-.42-.68-.82-.898-1.38-.164-.423-.36-1.058-.413-2.228-.058-1.265-.07-1.645-.07-4.849s.012-3.584.07-4.849c.053-1.17.249-1.805.413-2.228.218-.56.478-.96.898-1.38.42-.42.82-.68 1.38-.898.423-.164 1.058-.36 2.228-.413 1.265-.058 1.645-.07 4.849-.07z\" mask=\"url(#prefix__b)\"></path><path d=\"M12 16.052a4.052 4.052 0 1 1 0-8.104 4.052 4.052 0 0 1 0 8.104zm0-10.286a6.234 6.234 0 1 0 0 12.468 6.234 6.234 0 0 0 0-12.468zm7.792-.156a1.403 1.403 0 1 1-2.805 0 1.403 1.403 0 0 1 2.805 0\"></path></g></svg></span></span>"
+      },
+      {
+        "href": "https://twitter.com/fotocasa/",
+        "inner_text": "",
+        "inner_html": "<span class=\"sui-AtomIcon sui-AtomIcon--medium sui-AtomIcon--currentColor\" role=\"img\"><span><svg viewBox=\"0 0 24 24\"><path d=\"M17.942 9.725c.006.124.008.249.008.374 0 3.822-2.869 8.23-8.115 8.23a7.99 7.99 0 0 1-4.372-1.299 5.671 5.671 0 0 0 4.223-1.198 2.861 2.861 0 0 1-2.664-2.01 2.776 2.776 0 0 0 1.288-.049 2.885 2.885 0 0 1-2.289-2.836l.001-.037c.384.217.824.348 1.292.362a2.9 2.9 0 0 1-1.27-2.408c0-.53.142-1.026.387-1.454a8.06 8.06 0 0 0 5.879 3.023 2.872 2.872 0 0 1-.074-.66c0-1.597 1.277-2.893 2.852-2.893.82 0 1.562.352 2.082.914.65-.13 1.26-.37 1.811-.702a2.891 2.891 0 0 1-1.254 1.6 5.638 5.638 0 0 0 1.638-.455 5.846 5.846 0 0 1-1.423 1.498zM12 0C5.466 0 .169 5.373.169 12S5.466 24 12 24s11.831-5.373 11.831-12S18.534 0 12 0z\" mask=\"url(#prefix__b)\" fill-rule=\"evenodd\"></path></svg></span></span>"
+      },
+      {
+        "href": "https://www.youtube.com/user/fotocasa/",
+        "inner_text": "",
+        "inner_html": "<span class=\"sui-AtomIcon sui-AtomIcon--medium sui-AtomIcon--currentColor\" role=\"img\"><span><svg viewBox=\"0 0 24 24\"><g fill-rule=\"evenodd\"><path d=\"M10.295 14.479 14.651 12l-4.356-2.478z\"></path><path d=\"M19.986 16.038a2.097 2.097 0 0 1-1.474 1.483c-1.3.35-6.512.35-6.512.35s-5.212 0-6.512-.35a2.094 2.094 0 0 1-1.473-1.483C3.666 14.73 3.666 12 3.666 12s0-2.73.35-4.038a2.09 2.09 0 0 1 1.472-1.483C6.788 6.13 12 6.13 12 6.13s5.212 0 6.512.35a2.095 2.095 0 0 1 1.474 1.483c.348 1.309.348 4.038.348 4.038s0 2.73-.348 4.038M12 0C5.373 0 0 5.373 0 12c0 6.628 5.373 12 12 12s12-5.372 12-12c0-6.627-5.373-12-12-12\"></path></g></svg></span></span>"
+      },
+      {
+        "href": "https://www.linkedin.com/company/fotocasa/",
+        "inner_text": "",
+        "inner_html": "<span class=\"sui-AtomIcon sui-AtomIcon--medium sui-AtomIcon--currentColor\" role=\"img\"><span><svg viewBox=\"0 0 24 24\"><path d=\"M12 0C5.374 0 0 5.374 0 12s5.374 12 12 12 12-5.374 12-12S18.626 0 12 0zM8.513 18.14H5.59V9.349h2.923v8.793zM7.052 8.148h-.02c-.98 0-1.614-.675-1.614-1.518 0-.863.653-1.52 1.653-1.52s1.615.657 1.634 1.52c0 .843-.634 1.518-1.653 1.518zm11.999 9.994h-2.922v-4.704c0-1.182-.423-1.989-1.48-1.989-.808 0-1.289.544-1.5 1.07-.077.187-.096.45-.096.712v4.91H10.13s.039-7.967 0-8.792h2.923v1.245c.388-.6 1.083-1.451 2.633-1.451 1.923 0 3.365 1.256 3.365 3.957v5.042z\"></path></svg></span></span>"
+      }
+    ],
+    "keywords": [
+      {
+        "href": "https://login.inmofactory.com/Account/LogOn?origin=fotocasa&section=footer",
+        "inner_text": "Anúnciate",
+        "inner_html": "Anúnciate"
+      },
+      {
+        "href": "https://login.inmofactory.com/Account/LogOn",
+        "inner_text": "Entra en tu cuenta",
+        "inner_html": "Entra en tu cuenta"
+      },
+      {
+        "href": "https://www.fotocasa.es/es/aviso-legal/ln",
+        "inner_text": "Aviso legal",
+        "inner_html": "Aviso legal"
+      }
+    ]
+  },
+  "unsafeForms": [],
+  "browsing_history": [
+    "https://www.fotocasa.es/es/"
+  ],
+  "websockets": {},
+  "cookies": [
+    {
+      "name": "ajs_anonymous_id",
+      "value": "%22c1a844bd-f2b9-4804-b198-d03ee8b22f52%22",
+      "domain": "fotocasa.es",
+      "path": "/",
+      "expires": 1653061031,
+      "size": 58,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "sameSite": "Lax",
+      "expiresUTC": "2022-05-20T15:37:11.000Z",
+      "expiresDays": 365,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 29580,
+            "lineNumber": 12,
+            "fileName": "https://frtassets.fotocasa.es/external-scripts/analytics-pro.js",
+            "functionName": "o",
+            "source": "    at o (https://frtassets.fotocasa.es/external-scripts/analytics-pro.js:12:29580)"
+          },
+          {
+            "columnNumber": 30189,
+            "lineNumber": 12,
+            "fileName": "https://frtassets.fotocasa.es/external-scripts/analytics-pro.js",
+            "functionName": "t.exports",
+            "source": "    at t.exports (https://frtassets.fotocasa.es/external-scripts/analytics-pro.js:12:30189)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T15:37:11.690Z",
+        "location": "https://www.fotocasa.es/es/"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "re_uuid",
+      "value": "kGCtfHTJfzfhCSBlikvBT",
+      "domain": "www.fotocasa.es",
+      "path": "/",
+      "expires": 1621525931.045807,
+      "size": 28,
+      "httpOnly": true,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2021-05-20T15:52:11.045Z",
+      "expiresDays": 0.01,
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.fotocasa.es/es/",
+            "source": "set in Set-Cookie HTTP response header for https://www.fotocasa.es/es/"
+          }
+        ],
+        "type": "Cookie.HTTP",
+        "timestamp": "2021-05-20T15:37:11.051Z",
+        "location": "about:blank"
+      },
+      "firstPartyStorage": false
+    }
+  ],
+  "localStorage": {
+    "https://www.fotocasa.es": {
+      "segmentio.7cea9dbd-b854-41c3-8e93-3615777a1fac.reclaimStart": {
+        "value": null,
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 40255,
+              "lineNumber": 12,
+              "fileName": "https://frtassets.fotocasa.es/external-scripts/analytics-pro.js",
+              "functionName": "o.set",
+              "source": "    at o.set (https://frtassets.fotocasa.es/external-scripts/analytics-pro.js:12:40255)"
+            },
+            {
+              "columnNumber": 37044,
+              "lineNumber": 12,
+              "fileName": "https://frtassets.fotocasa.es/external-scripts/analytics-pro.js",
+              "functionName": "i._ack",
+              "source": "    at i._ack (https://frtassets.fotocasa.es/external-scripts/analytics-pro.js:12:37044)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T15:37:16.499Z",
+          "location": "https://www.fotocasa.es/es/"
+        }
+      },
+      "ajs_group_id": {
+        "value": null,
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 4638,
+              "lineNumber": 13,
+              "fileName": "https://frtassets.fotocasa.es/external-scripts/analytics-pro.js",
+              "functionName": "Object.t.set",
+              "source": "    at Object.t.set (https://frtassets.fotocasa.es/external-scripts/analytics-pro.js:13:4638)"
+            },
+            {
+              "columnNumber": 7301,
+              "lineNumber": 5,
+              "fileName": "https://frtassets.fotocasa.es/external-scripts/analytics-pro.js",
+              "functionName": "o.set",
+              "source": "    at o.set (https://frtassets.fotocasa.es/external-scripts/analytics-pro.js:5:7301)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T15:37:11.434Z",
+          "location": "https://www.fotocasa.es/es/"
+        }
+      },
+      "ajs_user_id": {
+        "value": null,
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 4638,
+              "lineNumber": 13,
+              "fileName": "https://frtassets.fotocasa.es/external-scripts/analytics-pro.js",
+              "functionName": "Object.t.set",
+              "source": "    at Object.t.set (https://frtassets.fotocasa.es/external-scripts/analytics-pro.js:13:4638)"
+            },
+            {
+              "columnNumber": 7301,
+              "lineNumber": 5,
+              "fileName": "https://frtassets.fotocasa.es/external-scripts/analytics-pro.js",
+              "functionName": "o.set",
+              "source": "    at o.set (https://frtassets.fotocasa.es/external-scripts/analytics-pro.js:5:7301)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T15:37:11.433Z",
+          "location": "https://www.fotocasa.es/es/"
+        }
+      },
+      "visitCount": {
+        "value": 1,
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 217641,
+              "lineNumber": 1,
+              "fileName": "https://frtassets.fotocasa.es/vendor.a9d4e497.js",
+              "functionName": "e.t.set",
+              "source": "    at e.t.set (https://frtassets.fotocasa.es/vendor.a9d4e497.js:1:217641)"
+            },
+            {
+              "columnNumber": 3999,
+              "lineNumber": 1,
+              "fileName": "https://frtassets.fotocasa.es/190.c929d8ed.js",
+              "source": "    at https://frtassets.fotocasa.es/190.c929d8ed.js:1:3999"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T15:37:11.667Z",
+          "location": "https://www.fotocasa.es/es/"
+        }
+      },
+      "ajs_group_properties": {
+        "value": {},
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 4638,
+              "lineNumber": 13,
+              "fileName": "https://frtassets.fotocasa.es/external-scripts/analytics-pro.js",
+              "functionName": "Object.t.set",
+              "source": "    at Object.t.set (https://frtassets.fotocasa.es/external-scripts/analytics-pro.js:13:4638)"
+            },
+            {
+              "columnNumber": 7301,
+              "lineNumber": 5,
+              "fileName": "https://frtassets.fotocasa.es/external-scripts/analytics-pro.js",
+              "functionName": "o.set",
+              "source": "    at o.set (https://frtassets.fotocasa.es/external-scripts/analytics-pro.js:5:7301)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T15:37:11.440Z",
+          "location": "https://www.fotocasa.es/es/"
+        }
+      },
+      "ajs_user_traits": {
+        "value": {},
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 4638,
+              "lineNumber": 13,
+              "fileName": "https://frtassets.fotocasa.es/external-scripts/analytics-pro.js",
+              "functionName": "Object.t.set",
+              "source": "    at Object.t.set (https://frtassets.fotocasa.es/external-scripts/analytics-pro.js:13:4638)"
+            },
+            {
+              "columnNumber": 7301,
+              "lineNumber": 5,
+              "fileName": "https://frtassets.fotocasa.es/external-scripts/analytics-pro.js",
+              "functionName": "o.set",
+              "source": "    at o.set (https://frtassets.fotocasa.es/external-scripts/analytics-pro.js:5:7301)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T15:37:11.433Z",
+          "location": "https://www.fotocasa.es/es/"
+        }
+      },
+      "segmentio.7cea9dbd-b854-41c3-8e93-3615777a1fac.ack": {
+        "value": 1621525035427,
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 40255,
+              "lineNumber": 12,
+              "fileName": "https://frtassets.fotocasa.es/external-scripts/analytics-pro.js",
+              "functionName": "o.set",
+              "source": "    at o.set (https://frtassets.fotocasa.es/external-scripts/analytics-pro.js:12:40255)"
+            },
+            {
+              "columnNumber": 36992,
+              "lineNumber": 12,
+              "fileName": "https://frtassets.fotocasa.es/external-scripts/analytics-pro.js",
+              "functionName": "i._ack",
+              "source": "    at i._ack (https://frtassets.fotocasa.es/external-scripts/analytics-pro.js:12:36992)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T15:37:16.498Z",
+          "location": "https://www.fotocasa.es/es/"
+        }
+      },
+      "segmentio.7cea9dbd-b854-41c3-8e93-3615777a1fac.queue": {
+        "value": [],
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 40255,
+              "lineNumber": 12,
+              "fileName": "https://frtassets.fotocasa.es/external-scripts/analytics-pro.js",
+              "functionName": "o.set",
+              "source": "    at o.set (https://frtassets.fotocasa.es/external-scripts/analytics-pro.js:12:40255)"
+            },
+            {
+              "columnNumber": 36646,
+              "lineNumber": 12,
+              "fileName": "https://frtassets.fotocasa.es/external-scripts/analytics-pro.js",
+              "functionName": "i._processHead",
+              "source": "    at i._processHead (https://frtassets.fotocasa.es/external-scripts/analytics-pro.js:12:36646)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T15:37:11.442Z",
+          "location": "https://www.fotocasa.es/es/"
+        }
+      },
+      "ajs_anonymous_id": {
+        "value": "c1a844bd-f2b9-4804-b198-d03ee8b22f52",
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 4638,
+              "lineNumber": 13,
+              "fileName": "https://frtassets.fotocasa.es/external-scripts/analytics-pro.js",
+              "functionName": "Object.t.set",
+              "source": "    at Object.t.set (https://frtassets.fotocasa.es/external-scripts/analytics-pro.js:13:4638)"
+            },
+            {
+              "columnNumber": 7301,
+              "lineNumber": 5,
+              "fileName": "https://frtassets.fotocasa.es/external-scripts/analytics-pro.js",
+              "functionName": "o.set",
+              "source": "    at o.set (https://frtassets.fotocasa.es/external-scripts/analytics-pro.js:5:7301)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T15:37:11.690Z",
+          "location": "https://www.fotocasa.es/es/"
+        }
+      },
+      "debug": {
+        "value": "undefined",
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 21714,
+              "lineNumber": 13,
+              "fileName": "https://frtassets.fotocasa.es/external-scripts/analytics-pro.js",
+              "functionName": "Function.r [as save]",
+              "source": "    at Function.r [as save] (https://frtassets.fotocasa.es/external-scripts/analytics-pro.js:13:21714)"
+            },
+            {
+              "columnNumber": 22946,
+              "lineNumber": 13,
+              "fileName": "https://frtassets.fotocasa.es/external-scripts/analytics-pro.js",
+              "functionName": "Function.a [as enable]",
+              "source": "    at Function.a [as enable] (https://frtassets.fotocasa.es/external-scripts/analytics-pro.js:13:22946)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T15:37:11.426Z",
+          "location": "https://www.fotocasa.es/es/"
+        }
+      },
+      "segmentio.7cea9dbd-b854-41c3-8e93-3615777a1fac.reclaimEnd": {
+        "value": null,
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 40255,
+              "lineNumber": 12,
+              "fileName": "https://frtassets.fotocasa.es/external-scripts/analytics-pro.js",
+              "functionName": "o.set",
+              "source": "    at o.set (https://frtassets.fotocasa.es/external-scripts/analytics-pro.js:12:40255)"
+            },
+            {
+              "columnNumber": 37090,
+              "lineNumber": 12,
+              "fileName": "https://frtassets.fotocasa.es/external-scripts/analytics-pro.js",
+              "functionName": "i._ack",
+              "source": "    at i._ack (https://frtassets.fotocasa.es/external-scripts/analytics-pro.js:12:37090)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T15:37:16.499Z",
+          "location": "https://www.fotocasa.es/es/"
+        }
+      },
+      "segmentio.7cea9dbd-b854-41c3-8e93-3615777a1fac.inProgress": {
+        "value": {},
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 40255,
+              "lineNumber": 12,
+              "fileName": "https://frtassets.fotocasa.es/external-scripts/analytics-pro.js",
+              "functionName": "o.set",
+              "source": "    at o.set (https://frtassets.fotocasa.es/external-scripts/analytics-pro.js:12:40255)"
+            },
+            {
+              "columnNumber": 36671,
+              "lineNumber": 12,
+              "fileName": "https://frtassets.fotocasa.es/external-scripts/analytics-pro.js",
+              "functionName": "i._processHead",
+              "source": "    at i._processHead (https://frtassets.fotocasa.es/external-scripts/analytics-pro.js:12:36671)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T15:37:11.442Z",
+          "location": "https://www.fotocasa.es/es/"
+        }
+      }
+    }
+  },
+  "beacons": [
+    {
+      "url": "https://www.googletagmanager.com/gtm.js?id=GTM-PG3T4ZJ&l=dataLayer",
+      "query": {
+        "id": "GTM-PG3T4ZJ",
+        "l": "dataLayer"
+      },
+      "filter": "/gtm.js",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.fotocasa.es/es/",
+            "source": "requested from https://www.fotocasa.es/es/ and matched with easyprivacy.txt filter /gtm.js"
+          }
+        ],
+        "timestamp": "2021-05-20T15:37:11.505Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://sb.scorecardresearch.com/beacon.js",
+      "query": null,
+      "filter": "||scorecardresearch.com^$third-party",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.fotocasa.es/es/",
+            "source": "requested from https://www.fotocasa.es/es/ and matched with easyprivacy.txt filter ||scorecardresearch.com^$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T15:37:11.079Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://frtassets.fotocasa.es/external-scripts/optimizely.js",
+      "query": null,
+      "filter": "/optimizely.$domain=~optimizely.com",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.fotocasa.es/es/",
+            "source": "requested from https://www.fotocasa.es/es/ and matched with easyprivacy.txt filter /optimizely.$domain=~optimizely.com"
+          }
+        ],
+        "timestamp": "2021-05-20T15:37:11.078Z"
+      },
+      "occurrances": 1
+    }
+  ],
+  "hosts": {
+    "requests": {
+      "firstParty": [
+        "fotocasa.es"
+      ],
+      "thirdParty": [
+        "www.fotocasa.es",
+        "frtassets.fotocasa.es",
+        "sb.scorecardresearch.com",
+        "www.googletagmanager.com",
+        "ms-adit--operations-gateway.spain.advgo.net",
+        "ms-adit--mushroom.spain.advgo.net"
+      ]
+    },
+    "beacons": {
+      "firstParty": [],
+      "thirdParty": [
+        "www.googletagmanager.com",
+        "sb.scorecardresearch.com",
+        "frtassets.fotocasa.es"
+      ]
+    },
+    "cookies": {
+      "firstParty": [
+        "fotocasa.es"
+      ],
+      "thirdParty": [
+        "www.fotocasa.es"
+      ]
+    },
+    "localStorage": {
+      "firstParty": [],
+      "thirdParty": [
+        "www.fotocasa.es"
+      ]
+    },
+    "links": {
+      "firstParty": [],
+      "thirdParty": [
+        "www.fotocasa.es",
+        "hipotecas.fotocasa.es",
+        "itunes.apple.com",
+        "play.google.com",
+        "www.facebook.com",
+        "www.instagram.com",
+        "twitter.com",
+        "www.youtube.com",
+        "www.pinterest.es",
+        "www.linkedin.com",
+        "prensa.fotocasa.es",
+        "www.adevinta.com",
+        "ayuda.fotocasa.es",
+        "login.inmofactory.com",
+        "blogprofesional.fotocasa.es",
+        "cursosonline.fotocasa.es",
+        "www.habitaclia.com",
+        "www.infojobs.net",
+        "www.coches.net",
+        "motos.coches.net",
+        "www.milanuncios.com"
+      ]
+    }
+  }
+}

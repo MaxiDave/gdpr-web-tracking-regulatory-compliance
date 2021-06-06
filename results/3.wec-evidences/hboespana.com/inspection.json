@@ -1,0 +1,608 @@
+{
+  "title": "Website Evidence Collection",
+  "task_description": null,
+  "uri_ins": "https://hboespana.com",
+  "uri_refs": [
+    "https://hboespana.com"
+  ],
+  "uri_dest": "https://es.hboespana.com/",
+  "uri_redirects": [
+    "https://hboespana.com/"
+  ],
+  "secure_connection": {
+    "https_support": true,
+    "redirects": [
+      "https://es.hboespana.com/"
+    ],
+    "https_redirect": true
+  },
+  "host": "hboespana.com",
+  "script": {
+    "host": "sfod",
+    "version": {
+      "npm": "1.0.0",
+      "commit": null
+    },
+    "cmd_args": "-q --overwrite https://hboespana.com -- --ignore-certificate-errors",
+    "environment": {
+      "CHROME_DESKTOP": "code-url-handler.desktop"
+    },
+    "node_version": "v14.17.0"
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "HeadlessChrome/80.0.3987.0",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3617.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "5.8.0-53-generic"
+    },
+    "extra_headers": {},
+    "preset_cookies": {}
+  },
+  "start_time": "2021-05-20T15:44:50.136Z",
+  "end_time": "2021-05-20T15:44:59.463Z",
+  "links": {
+    "firstParty": [],
+    "thirdParty": [
+      {
+        "href": "https://es.hboespana.com/",
+        "inner_text": "",
+        "inner_html": "<img src=\"https://apps.hbonordic.com/webapp/v3.20.5/images/tenant/hboe-main.svg\">"
+      },
+      {
+        "href": "https://es.hboespana.com/home",
+        "inner_text": "HOME",
+        "inner_html": "Home"
+      },
+      {
+        "href": "https://es.hboespana.com/kids",
+        "inner_text": "KIDS",
+        "inner_html": "Kids"
+      },
+      {
+        "href": "https://es.hboespana.com/sign-up",
+        "inner_text": "PRUEBA GRATIS",
+        "inner_html": "Prueba gratis"
+      },
+      {
+        "href": "https://es.hboespana.com/sign-in",
+        "inner_text": "INICIAR SESIÓN",
+        "inner_html": "Iniciar sesión"
+      },
+      {
+        "href": "https://www.youtube.com/watch?v=d5gQkRSo9dc",
+        "inner_text": "",
+        "inner_html": "<svg width=\"20\" height=\"26\" viewBox=\"0 0 20 26\" xmlns=\"http://www.w3.org/2000/svg\" aria-label=\"Haz clic para reproducir el contenido\" class=\"_27Bb4\"><g id=\"icon-play-symbols\" fill=\"none\" fill-rule=\"evenodd\"><g id=\"icon-play\" transform=\"translate(-25 -20)\"><path d=\"M45.5 22.106c0-1.106-.76-1.536-1.701-.958L26.197 31.956c-.94.577-.94 1.511 0 2.09L43.8 44.852c.94.577 1.701.157 1.701-.958V22.106z\" id=\"icon-play-path-2\" fill=\"currentColor\" transform=\"matrix(-1 0 0 1 70.5 0)\"></path></g></g></svg>"
+      },
+      {
+        "href": "https://es.hboespana.com/how-to-watch/Apple%20TV",
+        "inner_text": "APPLE TV",
+        "inner_html": "<figure class=\"_3DnZZ\"><div class=\"_18Z0b _3v1lG\"><img src=\"https://cms.hboespana.com/images/d740ef28-1efa-4ecc-b34b-14160e0ef8b4.png\" class=\"_2XJqF\"></div><figcaption class=\"_3rYwm _3v1lG\"><div class=\"vmLp- _3C5GD\">Apple TV</div></figcaption></figure>"
+      },
+      {
+        "href": "https://es.hboespana.com/how-to-watch/Chromecast",
+        "inner_text": "CHROMECAST",
+        "inner_html": "<figure class=\"_3DnZZ\"><div class=\"_18Z0b _3v1lG\"><img src=\"https://cms.hboespana.com/images/89a13032-5e74-4914-9800-e7ba5314a73a.png\" class=\"_2XJqF\"></div><figcaption class=\"_3rYwm _3v1lG\"><div class=\"vmLp- _3C5GD\">Chromecast</div></figcaption></figure>"
+      },
+      {
+        "href": "https://es.hboespana.com/how-to-watch/M%C3%B3vil%20y%20Tablet",
+        "inner_text": "MÓVIL Y TABLET",
+        "inner_html": "<figure class=\"_3DnZZ\"><div class=\"_18Z0b _3v1lG\"><img src=\"https://cms.hboespana.com/images/7e540dba-bd3e-4d84-b34f-f4fa75f51fcd.png\" class=\"_2XJqF\"></div><figcaption class=\"_3rYwm _3v1lG\"><div class=\"vmLp- _3C5GD\">Móvil y Tablet</div></figcaption></figure>"
+      },
+      {
+        "href": "https://es.hboespana.com/how-to-watch/Smart%20TV",
+        "inner_text": "SMART TV",
+        "inner_html": "<figure class=\"_3DnZZ\"><div class=\"_18Z0b _3v1lG\"><img src=\"https://cms.hboespana.com/images/565c7a6b-02d0-4499-981f-6c3fa7f7f650.png\" class=\"_2XJqF\"></div><figcaption class=\"_3rYwm _3v1lG\"><div class=\"vmLp- _3C5GD\">Smart TV</div></figcaption></figure>"
+      },
+      {
+        "href": "https://es.hboespana.com/how-to-watch/WEB",
+        "inner_text": "WEB",
+        "inner_html": "<figure class=\"_3DnZZ\"><div class=\"_18Z0b _3v1lG\"><img src=\"https://cms.hboespana.com/images/0b99ba7f-bc78-4bf0-aedf-53e6146264b2.png\" class=\"_2XJqF\"></div><figcaption class=\"_3rYwm _3v1lG\"><div class=\"vmLp- _3C5GD\">WEB</div></figcaption></figure>"
+      },
+      {
+        "href": "https://es.hboespana.com/how-to-watch/Playstation",
+        "inner_text": "PLAYSTATION",
+        "inner_html": "<figure class=\"_3DnZZ\"><div class=\"_18Z0b _3v1lG\"><img src=\"https://cms.hboespana.com/images/0ac0d86a-a4f8-46b4-916b-88112b7499dd.png\" class=\"_2XJqF\"></div><figcaption class=\"_3rYwm _3v1lG\"><div class=\"vmLp- _3C5GD\">Playstation</div></figcaption></figure>"
+      },
+      {
+        "href": "https://es.hboespana.com/how-to-watch/Vodafone%20TV",
+        "inner_text": "VODAFONE TV",
+        "inner_html": "<figure class=\"_3DnZZ\"><div class=\"_18Z0b _3v1lG\"><img src=\"https://cms.hboespana.com/images/2efb0c8e-244d-4c9d-aaab-58e495baac6d.png\" class=\"_2XJqF\"></div><figcaption class=\"_3rYwm _3v1lG\"><div class=\"vmLp- _3C5GD\">Vodafone TV</div></figcaption></figure>"
+      },
+      {
+        "href": "https://es.hboespana.com/how-to-watch",
+        "inner_text": "CÓMO VER HBO ESPAÑA",
+        "inner_html": "Cómo ver HBO España"
+      },
+      {
+        "href": "https://es.hboespana.com/about",
+        "inner_text": "SOBRE NOSOTROS",
+        "inner_html": "Sobre nosotros"
+      },
+      {
+        "href": "https://es.hboespana.com/faq",
+        "inner_text": "FAQS",
+        "inner_html": "FAQs"
+      },
+      {
+        "href": "https://es.hboespana.com/contact",
+        "inner_text": "CONTACTO",
+        "inner_html": "Contacto"
+      },
+      {
+        "href": "https://es.hboespana.com/press",
+        "inner_text": "PRENSA",
+        "inner_html": "Prensa"
+      },
+      {
+        "href": "https://es.hboespana.com/terms-and-conditions",
+        "inner_text": "TÉRMINOS Y CONDICIONES",
+        "inner_html": "Términos y Condiciones"
+      },
+      {
+        "href": "https://es.hboespana.com/data-policy",
+        "inner_text": "POLÍTICA DE DATOS PERSONALES (ACTUALIZADO)",
+        "inner_html": "Política de Datos Personales (Actualizado)"
+      },
+      {
+        "href": "https://www.youtube.com/channel/UCBZY_8jva8y73h9cXIDEHHg",
+        "inner_text": "",
+        "inner_html": "<img src=\"https://cms.hboespana.com/images/c99be598-ecba-47a7-bda8-3278bf0bbe85.png\" class=\"cTytv\">"
+      },
+      {
+        "href": "https://www.facebook.com/HBOEspana/",
+        "inner_text": "",
+        "inner_html": "<img src=\"https://cms.hboespana.com/images/944a874f-5d74-4d5f-b515-abe0b7db340a.png\" class=\"cTytv\">"
+      },
+      {
+        "href": "https://twitter.com/hbo_es",
+        "inner_text": "",
+        "inner_html": "<img src=\"https://cms.hboespana.com/images/b337f6b7-788a-4216-95cb-5616b8b1944c.png\" class=\"cTytv\">"
+      },
+      {
+        "href": "https://www.hbostore.eu/",
+        "inner_text": "",
+        "inner_html": "<img src=\"https://cms.hboespana.com/images/4a5f3dc7-0e48-45a3-a769-94d38e74ffbf.png\" class=\"cTytv\">"
+      },
+      {
+        "href": "https://en.hboespana.com/",
+        "inner_text": "English",
+        "inner_html": "English"
+      },
+      {
+        "href": "https://es.hboespana.com/read-more",
+        "inner_text": "MÁS OPCIONES",
+        "inner_html": "Más opciones"
+      }
+    ],
+    "social": [
+      {
+        "href": "https://www.youtube.com/watch?v=d5gQkRSo9dc",
+        "inner_text": "",
+        "inner_html": "<svg width=\"20\" height=\"26\" viewBox=\"0 0 20 26\" xmlns=\"http://www.w3.org/2000/svg\" aria-label=\"Haz clic para reproducir el contenido\" class=\"_27Bb4\"><g id=\"icon-play-symbols\" fill=\"none\" fill-rule=\"evenodd\"><g id=\"icon-play\" transform=\"translate(-25 -20)\"><path d=\"M45.5 22.106c0-1.106-.76-1.536-1.701-.958L26.197 31.956c-.94.577-.94 1.511 0 2.09L43.8 44.852c.94.577 1.701.157 1.701-.958V22.106z\" id=\"icon-play-path-2\" fill=\"currentColor\" transform=\"matrix(-1 0 0 1 70.5 0)\"></path></g></g></svg>"
+      },
+      {
+        "href": "https://www.youtube.com/channel/UCBZY_8jva8y73h9cXIDEHHg",
+        "inner_text": "",
+        "inner_html": "<img src=\"https://cms.hboespana.com/images/c99be598-ecba-47a7-bda8-3278bf0bbe85.png\" class=\"cTytv\">"
+      },
+      {
+        "href": "https://www.facebook.com/HBOEspana/",
+        "inner_text": "",
+        "inner_html": "<img src=\"https://cms.hboespana.com/images/944a874f-5d74-4d5f-b515-abe0b7db340a.png\" class=\"cTytv\">"
+      },
+      {
+        "href": "https://twitter.com/hbo_es",
+        "inner_text": "",
+        "inner_html": "<img src=\"https://cms.hboespana.com/images/b337f6b7-788a-4216-95cb-5616b8b1944c.png\" class=\"cTytv\">"
+      }
+    ],
+    "keywords": []
+  },
+  "unsafeForms": [],
+  "browsing_history": [
+    "https://es.hboespana.com/"
+  ],
+  "websockets": {},
+  "cookies": [],
+  "localStorage": {
+    "https://es.hboespana.com": {
+      "localforage/reduxPersist:continueWatching": {
+        "value": "{\"kidsFilterOption\":false}",
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 14729,
+              "lineNumber": 81,
+              "fileName": "https://apps.hbonordic.com/webapp/v3.20.5/app.js",
+              "source": "    at https://apps.hbonordic.com/webapp/v3.20.5/app.js:81:14729"
+            },
+            {
+              "columnNumber": 8680,
+              "lineNumber": 81,
+              "fileName": "https://apps.hbonordic.com/webapp/v3.20.5/app.js",
+              "functionName": "Object.k [as serialize]",
+              "source": "    at Object.k [as serialize] (https://apps.hbonordic.com/webapp/v3.20.5/app.js:81:8680)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T15:44:52.240Z",
+          "location": "https://es.hboespana.com/"
+        }
+      },
+      "localforage/reduxPersist:voucher": {
+        "value": "{\"stashedVoucher\":\"\"}",
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 14729,
+              "lineNumber": 81,
+              "fileName": "https://apps.hbonordic.com/webapp/v3.20.5/app.js",
+              "source": "    at https://apps.hbonordic.com/webapp/v3.20.5/app.js:81:14729"
+            },
+            {
+              "columnNumber": 8680,
+              "lineNumber": 81,
+              "fileName": "https://apps.hbonordic.com/webapp/v3.20.5/app.js",
+              "functionName": "Object.k [as serialize]",
+              "source": "    at Object.k [as serialize] (https://apps.hbonordic.com/webapp/v3.20.5/app.js:81:8680)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T15:44:53.391Z",
+          "location": "https://es.hboespana.com/"
+        }
+      },
+      "localforage/reduxPersist:tenant": {
+        "value": "{\"product\":\"HBOE\",\"country\":\"es\"}",
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 14729,
+              "lineNumber": 81,
+              "fileName": "https://apps.hbonordic.com/webapp/v3.20.5/app.js",
+              "source": "    at https://apps.hbonordic.com/webapp/v3.20.5/app.js:81:14729"
+            },
+            {
+              "columnNumber": 8680,
+              "lineNumber": 81,
+              "fileName": "https://apps.hbonordic.com/webapp/v3.20.5/app.js",
+              "functionName": "Object.k [as serialize]",
+              "source": "    at Object.k [as serialize] (https://apps.hbonordic.com/webapp/v3.20.5/app.js:81:8680)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T15:44:53.388Z",
+          "location": "https://es.hboespana.com/"
+        }
+      },
+      "localforage/reduxPersist:recentSearch": {
+        "value": "{\"byMode\":{\"main\":{\"guids\":[],\"itemMap\":{}},\"kids\":{\"guids\":[],\"itemMap\":{}}}}",
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 14729,
+              "lineNumber": 81,
+              "fileName": "https://apps.hbonordic.com/webapp/v3.20.5/app.js",
+              "source": "    at https://apps.hbonordic.com/webapp/v3.20.5/app.js:81:14729"
+            },
+            {
+              "columnNumber": 8680,
+              "lineNumber": 81,
+              "fileName": "https://apps.hbonordic.com/webapp/v3.20.5/app.js",
+              "functionName": "Object.k [as serialize]",
+              "source": "    at Object.k [as serialize] (https://apps.hbonordic.com/webapp/v3.20.5/app.js:81:8680)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T15:44:52.228Z",
+          "location": "https://es.hboespana.com/"
+        }
+      },
+      "localforage/reduxPersist:settings": {
+        "value": "{\"pin\":\"\",\"ignoreKidsPin\":false,\"dismissedOffers\":[]}",
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 14729,
+              "lineNumber": 81,
+              "fileName": "https://apps.hbonordic.com/webapp/v3.20.5/app.js",
+              "source": "    at https://apps.hbonordic.com/webapp/v3.20.5/app.js:81:14729"
+            },
+            {
+              "columnNumber": 8680,
+              "lineNumber": 81,
+              "fileName": "https://apps.hbonordic.com/webapp/v3.20.5/app.js",
+              "functionName": "Object.k [as serialize]",
+              "source": "    at Object.k [as serialize] (https://apps.hbonordic.com/webapp/v3.20.5/app.js:81:8680)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T15:44:53.390Z",
+          "location": "https://es.hboespana.com/"
+        }
+      },
+      "localforage/cl/version": {
+        "value": "3.20.5",
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 14729,
+              "lineNumber": 81,
+              "fileName": "https://apps.hbonordic.com/webapp/v3.20.5/app.js",
+              "source": "    at https://apps.hbonordic.com/webapp/v3.20.5/app.js:81:14729"
+            },
+            {
+              "columnNumber": 8680,
+              "lineNumber": 81,
+              "fileName": "https://apps.hbonordic.com/webapp/v3.20.5/app.js",
+              "functionName": "Object.k [as serialize]",
+              "source": "    at Object.k [as serialize] (https://apps.hbonordic.com/webapp/v3.20.5/app.js:81:8680)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T15:44:52.197Z",
+          "location": "https://es.hboespana.com/"
+        }
+      },
+      "localforage/cl/https://api.hboespana.com/cloffice/client/web/browse/2515c85d-3fb5-43b1-851a-59fe7d7fb422?max=8&language=es_hboespana": {
+        "value": "{\"response\":{\"title\":\"Why HBO\",\"description\":\"Tus Series favoritas con más de 5.000 episodios y una selección de las mejores Películas. Prueba un mes gratis hoy y accede a estrenos exclusivos.\",\"guid\":\"2515c85d-3fb5-43b1-851a-59fe7d7fb422\",\"category\":\"Why HBO\",\"clearleap:analyticsLabel\":\"Why HBO\",\"language\":\"es_hboespana\",\"ttl\":180,\"link\":\"https://api.hboespana.com/cloffice/client/web/browse/\",\"pubDate\":\"Tue May 18 03:54:04 UTC 2021\",\"clearleap:totalResults\":1,\"items\":[{\"title\":\"Carousel\",\"guid\":\"20f6c6b3-e948-4104-a603-1ef735dd73bc\",\"clearleap:shortcutToGuid\":\"20f6c6b3-e948-4104-a603-1ef735dd73bc\",\"category\":\"Why HBO/Carousel\",\"clearleap:analyticsLabel\":\"Carousel\",\"clearleap:itemType\":\"CATEGORY\",\"link\":\"https://api.hboespana.com/cloffice/client/web/browse/20f6c6b3-e948-4104-a603-1ef735dd73bc\",\"clearleap:displayName\":\"\",\"media:keywords\":[\"carousel\"],\"clearleap:tagline\":{\"lines\":[\"Estreno\",null,null]},\"clearleap:meta\":{\"title\":\"\",\"description\":\"\"},\"slug\":\"carousel\"}],\"slug\":\"why-hbo\"},\"expires\":\"2021-05-20T18:44:53.353Z\"}",
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 14729,
+              "lineNumber": 81,
+              "fileName": "https://apps.hbonordic.com/webapp/v3.20.5/app.js",
+              "source": "    at https://apps.hbonordic.com/webapp/v3.20.5/app.js:81:14729"
+            },
+            {
+              "columnNumber": 8680,
+              "lineNumber": 81,
+              "fileName": "https://apps.hbonordic.com/webapp/v3.20.5/app.js",
+              "functionName": "Object.k [as serialize]",
+              "source": "    at Object.k [as serialize] (https://apps.hbonordic.com/webapp/v3.20.5/app.js:81:8680)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T15:44:53.368Z",
+          "location": "https://es.hboespana.com/"
+        }
+      },
+      "localforage/reduxPersist:auth": {
+        "value": "{}",
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 14729,
+              "lineNumber": 81,
+              "fileName": "https://apps.hbonordic.com/webapp/v3.20.5/app.js",
+              "source": "    at https://apps.hbonordic.com/webapp/v3.20.5/app.js:81:14729"
+            },
+            {
+              "columnNumber": 8680,
+              "lineNumber": 81,
+              "fileName": "https://apps.hbonordic.com/webapp/v3.20.5/app.js",
+              "functionName": "Object.k [as serialize]",
+              "source": "    at Object.k [as serialize] (https://apps.hbonordic.com/webapp/v3.20.5/app.js:81:8680)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T15:44:53.395Z",
+          "location": "https://es.hboespana.com/"
+        }
+      },
+      "localforage/cl/https://api.hboespana.com/cloffice/client/web/browse?language=es_hboespana": {
+        "value": "{\"response\":{\"title\":\"ROOT\",\"guid\":\"ROOT\",\"category\":\"ROOT\",\"clearleap:analyticsLabel\":\"ROOT\",\"language\":\"es_hboespana\",\"ttl\":180,\"link\":\"https://api.hboespana.com/cloffice/client/web/browse/\",\"pubDate\":\"Thu May 20 03:41:35 UTC 2021\",\"clearleap:totalResults\":7,\"items\":[{\"title\":\"Inicio\",\"guid\":\"a95eb623-acf6-4c60-bfa6-68437b24d8d6\",\"clearleap:shortcutToGuid\":\"a95eb623-acf6-4c60-bfa6-68437b24d8d6\",\"category\":\"Home\",\"clearleap:analyticsLabel\":\"Home\",\"clearleap:itemType\":\"CATEGORY\",\"link\":\"https://api.hboespana.com/cloffice/client/web/browse/a95eb623-acf6-4c60-bfa6-68437b24d8d6\",\"clearleap:displayName\":\"Inicio\",\"media:keywords\":[\"landing\"],\"clearleap:tagline\":{\"lines\":[\"HBO España | Watch hundreds of series and movies online.\",\"Watch all seasons of the most popular series, a selection of great movies and content for kids on HBO España. Start your free trial now.\",null]},\"clearleap:meta\":{\"title\":\"HBO España | Las mejores series y películas online.\",\"description\":\"Ver todas las temporadas de las mejores series, películas y contenido infantil online en HBO España. Comienza ahora tu período de prueba gratis.\\r\\n\"},\"slug\":\"home\"},{\"title\":\"Series\",\"description\":\"Spanish Series Description\",\"guid\":\"3b87978d-e8a7-44a7-a21b-ad1a60208cbc\",\"clearleap:shortcutToGuid\":\"3b87978d-e8a7-44a7-a21b-ad1a60208cbc\",\"category\":\"Series\",\"clearleap:analyticsLabel\":\"Series\",\"clearleap:itemType\":\"CATEGORY\",\"link\":\"https://api.hboespana.com/cloffice/client/web/browse/3b87978d-e8a7-44a7-a21b-ad1a60208cbc\",\"clearleap:displayName\":\"\",\"media:thumbnail\":{\"HBOE-POSTER-965x542\":{\"url\":\"https://production-static.hboespana.com/p/categoryThumbnails/44db3aa9-0e79-4631-bba4-1941ca0ee5d9.jpg\",\"profile\":\"HBOE-POSTER-965x542\",\"width\":965,\"height\":542},\"HBOE-POSTER-644x363\":{\"url\":\"https://production-static.hboespana.com/p/categoryThumbnails/8975868c-817f-4255-bca6-445613ce63d0.jpg\",\"profile\":\"HBOE-POSTER-644x363\",\"width\":644,\"height\":363},\"HBOE-POSTER-208x118\":{\"url\":\"https://production-static.hboespana.com/p/categoryThumbnails/4621bfa6-51c0-4fb8-bfe4-3c4d88fb9445.jpg\",\"profile\":\"HBOE-POSTER-208x118\",\"width\":208,\"height\":118},\"NORDIC-SEASONAL-HUG\":{\"url\":\"https://production-static.hboespana.com/p/categoryThumbnails/d42eb05b-d028-41c6-a583-a69265fcd4e9.jpg\",\"profile\":\"NORDIC-SEASONAL-HUG\",\"width\":1720,\"height\":560},\"NORDIC-POSTER-LARGE\":{\"url\":\"https://production-static.hboespana.com/p/categoryThumbnails/70d566bf-5d51-4936-b096-1da2db5ee007.jpg\",\"profile\":\"NORDIC-POSTER-LARGE\",\"width\":1120,\"height\":630},\"NORDIC-CAROUSEL\":{\"url\":\"https://production-static.hboespana.com/p/categoryThumbnails/5bb8f5f5-0f9e-4246-b82b-4c173bebaf6d.jpg\",\"profile\":\"NORDIC-CAROUSEL\",\"width\":1720,\"height\":720},\"NORDIC-THUMB\":{\"url\":\"https://production-static.hboespana.com/p/categoryThumbnails/d69567be-7fd2-4669-b862-917258e2d3a3.jpg\",\"profile\":\"NORDIC-THUMB\",\"width\":224,\"height\":126},\"HBOE-POSTER-310x175\":{\"url\":\"https://production-static.hboespana.com/p/categoryThumbnails/1ddb4087-568c-4db7-b36e-1e24458acd27.jpg\",\"profile\":\"HBOE-POSTER-310x175\",\"width\":310,\"height\":175},\"NORDIC-POSTER\":{\"url\":\"https://production-static.hboespana.com/p/categoryThumbnails/b0ab8ccf-32ed-4623-8866-56de7038c051.jpg\",\"profile\":\"NORDIC-POSTER\",\"width\":960,\"height\":540},\"HBON-MOVIE-BANNER-720-290\":{\"url\":\"https://production-static.hboespana.com/p/categoryThumbnails/647e33c5-e927-41e0-bf11-1cd9eb1f0171.jpg\",\"profile\":\"HBON-MOVIE-BANNER-720-290\",\"width\":720,\"height\":290}},\"clearleap:meta\":{\"title\":\"Ver series online en HBO España\",\"description\":\"Prueba gratis y disfruta de las mejores series online en HBO España\\r\\n\"},\"slug\":\"series\"},{\"title\":\"Películas\",\"description\":\"Spanish Movies Description\",\"guid\":\"d426871a-de73-4f8a-9e8e-4c6f76955b79\",\"clearleap:shortcutToGuid\":\"d426871a-de73-4f8a-9e8e-4c6f76955b79\",\"category\":\"Movies\",\"clearleap:analyticsLabel\":\"Movies\",\"clearleap:itemType\":\"CATEGORY\",\"link\":\"https://api.hboespana.com/cloffice/client/web/browse/d426871a-de73-4f8a-9e8e-4c6f76955b79\",\"clearleap:displayName\":\"\",\"media:thumbnail\":{\"NORDIC-SEASONAL-HUG\":{\"url\":\"https://production-static.hboespana.com/p/categoryThumbnails/cf04becb-2c10-4fcf-84c2-8ac7134c98b5.jpg\",\"profile\":\"NORDIC-SEASONAL-HUG\",\"width\":1720,\"height\":560}},\"clearleap:meta\":{\"title\":\"Ver películas online en HBO España\",\"description\":\"Prueba gratis y disfruta de cientos de películas online en HBO España.\"},\"slug\":\"movies\"},{\"title\":\"Identity\",\"guid\":\"1efe5d7a-d855-4da5-b2b1-a5f9347c496f\",\"clearleap:shortcutToGuid\":\"1efe5d7a-d855-4da5-b2b1-a5f9347c496f\",\"category\":\"Identity\",\"clearleap:analyticsLabel\":\"Identity\",\"clearleap:itemType\":\"IDENTITY\",\"link\":\"https://api.hboespana.com/cloffice/client/identities\",\"slug\":\"identity\"},{\"title\":\"Kids\",\"guid\":\"f53ebac1-0cf2-457e-92f3-0617d87b5140\",\"clearleap:shortcutToGuid\":\"f53ebac1-0cf2-457e-92f3-0617d87b5140\",\"category\":\"Kids\",\"clearleap:analyticsLabel\":\"Kids\",\"clearleap:itemType\":\"CATEGORY\",\"link\":\"https://api.hboespana.com/cloffice/client/web/browse/f53ebac1-0cf2-457e-92f3-0617d87b5140\",\"clearleap:displayName\":\"\",\"media:keywords\":[\"kids\",\"lockable\"],\"clearleap:meta\":{\"title\":\"Ver dibujos y películas para toda la familia en HBO España\",\"description\":\"Prueba gratis y disfruta de dibujos y películas online en HBO España\\r\\n\"},\"slug\":\"kids\"},{\"title\":\"Buscar\",\"guid\":\"6f05e47e-122b-4c9a-8cfd-2c71051d0679\",\"clearleap:shortcutToGuid\":\"6f05e47e-122b-4c9a-8cfd-2c71051d0679\",\"category\":\"Search\",\"clearleap:analyticsLabel\":\"Search\",\"clearleap:itemType\":\"SEARCH\",\"link\":\"https://api.hboespana.com/cloffice/client/web/search/\",\"clearleap:suggestions\":\"https://api.hboespana.com/cloffice/client/web/suggest/\",\"clearleap:displayName\":\"\",\"clearleap:meta\":{\"title\":\"\",\"description\":\"\"},\"slug\":\"search\"},{\"title\":\"Why HBO\",\"description\":\"Tus Series favoritas con más de 5.000 episodios y una selección de las mejores Películas. Prueba un mes gratis hoy y accede a estrenos exclusivos.\",\"guid\":\"2515c85d-3fb5-43b1-851a-59fe7d7fb422\",\"clearleap:shortcutToGuid\":\"2515c85d-3fb5-43b1-851a-59fe7d7fb422\",\"category\":\"Why HBO\",\"clearleap:analyticsLabel\":\"Why HBO\",\"clearleap:itemType\":\"CATEGORY\",\"link\":\"https://api.hboespana.com/cloffice/client/web/browse/2515c85d-3fb5-43b1-851a-59fe7d7fb422\",\"clearleap:displayName\":\"\",\"media:keywords\":[\"why_hbo\"],\"clearleap:meta\":{\"title\":\"Ver las Mejores Series Online | HBO España\",\"description\":\"Tus Series favoritas con más de 5.000 episodios y una selección de las mejores Películas. Prueba gratis hoy y accede a estrenos exclusivos.\"},\"slug\":\"why-hbo\"}],\"slug\":\"root\"},\"expires\":\"2021-05-20T18:44:52.785Z\"}",
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 14729,
+              "lineNumber": 81,
+              "fileName": "https://apps.hbonordic.com/webapp/v3.20.5/app.js",
+              "source": "    at https://apps.hbonordic.com/webapp/v3.20.5/app.js:81:14729"
+            },
+            {
+              "columnNumber": 8680,
+              "lineNumber": 81,
+              "fileName": "https://apps.hbonordic.com/webapp/v3.20.5/app.js",
+              "functionName": "Object.k [as serialize]",
+              "source": "    at Object.k [as serialize] (https://apps.hbonordic.com/webapp/v3.20.5/app.js:81:8680)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T15:44:52.794Z",
+          "location": "https://es.hboespana.com/"
+        }
+      },
+      "localforage/reduxPersist:signupUI": {
+        "value": "{\"inSignupFlow\":false}",
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 14729,
+              "lineNumber": 81,
+              "fileName": "https://apps.hbonordic.com/webapp/v3.20.5/app.js",
+              "source": "    at https://apps.hbonordic.com/webapp/v3.20.5/app.js:81:14729"
+            },
+            {
+              "columnNumber": 8680,
+              "lineNumber": 81,
+              "fileName": "https://apps.hbonordic.com/webapp/v3.20.5/app.js",
+              "functionName": "Object.k [as serialize]",
+              "source": "    at Object.k [as serialize] (https://apps.hbonordic.com/webapp/v3.20.5/app.js:81:8680)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T15:44:53.330Z",
+          "location": "https://es.hboespana.com/"
+        }
+      },
+      "raygun4js-userid": {
+        "value": "3f2aeada-c223-bd6c-cc19-be6273a608fb",
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 4258,
+              "lineNumber": 6,
+              "fileName": "https://apps.hbonordic.com/webapp/v3.20.5/vendors/raygun.vanilla.min.js",
+              "functionName": "u",
+              "source": "    at u (https://apps.hbonordic.com/webapp/v3.20.5/vendors/raygun.vanilla.min.js:6:4258)"
+            },
+            {
+              "columnNumber": 27897,
+              "lineNumber": 5,
+              "fileName": "https://apps.hbonordic.com/webapp/v3.20.5/vendors/raygun.vanilla.min.js",
+              "functionName": "f",
+              "source": "    at f (https://apps.hbonordic.com/webapp/v3.20.5/vendors/raygun.vanilla.min.js:5:27897)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T15:44:52.221Z",
+          "location": "https://es.hboespana.com/"
+        }
+      },
+      "localforage/reduxPersist:paymentUI": {
+        "value": "{\"voucher\":{},\"paypalChosen\":false}",
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 14729,
+              "lineNumber": 81,
+              "fileName": "https://apps.hbonordic.com/webapp/v3.20.5/app.js",
+              "source": "    at https://apps.hbonordic.com/webapp/v3.20.5/app.js:81:14729"
+            },
+            {
+              "columnNumber": 8680,
+              "lineNumber": 81,
+              "fileName": "https://apps.hbonordic.com/webapp/v3.20.5/app.js",
+              "functionName": "Object.k [as serialize]",
+              "source": "    at Object.k [as serialize] (https://apps.hbonordic.com/webapp/v3.20.5/app.js:81:8680)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T15:44:53.403Z",
+          "location": "https://es.hboespana.com/"
+        }
+      },
+      "localforage/reduxPersist:watchlist": {
+        "value": "{\"kidsFilterOption\":false}",
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 14729,
+              "lineNumber": 81,
+              "fileName": "https://apps.hbonordic.com/webapp/v3.20.5/app.js",
+              "source": "    at https://apps.hbonordic.com/webapp/v3.20.5/app.js:81:14729"
+            },
+            {
+              "columnNumber": 8680,
+              "lineNumber": 81,
+              "fileName": "https://apps.hbonordic.com/webapp/v3.20.5/app.js",
+              "functionName": "Object.k [as serialize]",
+              "source": "    at Object.k [as serialize] (https://apps.hbonordic.com/webapp/v3.20.5/app.js:81:8680)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T15:44:53.399Z",
+          "location": "https://es.hboespana.com/"
+        }
+      }
+    }
+  },
+  "beacons": [
+    {
+      "url": "https://cdn.optimizely.com/datafiles/CUQ2rUFtnjiRwD7xWRWTE.json",
+      "query": null,
+      "filter": "||optimizely.com^$third-party",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://es.hboespana.com/",
+            "source": "requested from https://es.hboespana.com/ and matched with easyprivacy.txt filter ||optimizely.com^$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T15:44:52.797Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://api.raygun.io/events?apikey=HqfXoFL9BeD5%2BQwlXNx6uw%3D%3D",
+      "query": {
+        "apikey": "HqfXoFL9BeD5+QwlXNx6uw=="
+      },
+      "filter": "||raygun.io/events?",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://es.hboespana.com/",
+            "source": "requested from https://es.hboespana.com/ and matched with easyprivacy.txt filter ||raygun.io/events?"
+          }
+        ],
+        "timestamp": "2021-05-20T15:44:52.223Z"
+      },
+      "occurrances": 2
+    }
+  ],
+  "hosts": {
+    "requests": {
+      "firstParty": [
+        "hboespana.com"
+      ],
+      "thirdParty": [
+        "es.hboespana.com",
+        "cloud.typography.com",
+        "fonts.googleapis.com",
+        "apps.hbonordic.com",
+        "api-discovery.hbo.eu",
+        "api.raygun.io",
+        "api.hboespana.com",
+        "cdn.optimizely.com",
+        "cms.hboespana.com"
+      ]
+    },
+    "beacons": {
+      "firstParty": [],
+      "thirdParty": [
+        "cdn.optimizely.com",
+        "api.raygun.io"
+      ]
+    },
+    "cookies": {
+      "firstParty": [],
+      "thirdParty": []
+    },
+    "localStorage": {
+      "firstParty": [],
+      "thirdParty": [
+        "es.hboespana.com"
+      ]
+    },
+    "links": {
+      "firstParty": [],
+      "thirdParty": [
+        "es.hboespana.com",
+        "www.youtube.com",
+        "www.facebook.com",
+        "twitter.com",
+        "www.hbostore.eu",
+        "en.hboespana.com"
+      ]
+    }
+  }
+}

@@ -1,0 +1,673 @@
+{
+  "title": "Website Evidence Collection",
+  "task_description": null,
+  "uri_ins": "https://abanca.com",
+  "uri_refs": [
+    "https://abanca.com"
+  ],
+  "uri_dest": "https://www.abanca.com/es/",
+  "uri_redirects": [
+    "https://abanca.com/",
+    "https://www.abanca.com/"
+  ],
+  "secure_connection": {
+    "https_support": true,
+    "redirects": [
+      "https://www.abanca.com/",
+      "https://www.abanca.com/es/"
+    ],
+    "https_redirect": true
+  },
+  "host": "abanca.com",
+  "script": {
+    "host": "sfod",
+    "version": {
+      "npm": "1.0.0",
+      "commit": null
+    },
+    "cmd_args": "-q --overwrite https://abanca.com -- --ignore-certificate-errors",
+    "environment": {
+      "CHROME_DESKTOP": "code-url-handler.desktop"
+    },
+    "node_version": "v14.17.0"
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "HeadlessChrome/80.0.3987.0",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3617.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "5.8.0-53-generic"
+    },
+    "extra_headers": {},
+    "preset_cookies": {}
+  },
+  "start_time": "2021-05-20T15:30:28.990Z",
+  "end_time": "2021-05-20T15:30:36.472Z",
+  "links": {
+    "firstParty": [],
+    "thirdParty": [
+      {
+        "href": "https://www.abanca.com/es/ayuda/",
+        "inner_text": " Te ayudamos",
+        "inner_html": "<span class=\"fa fa-search\"></span> <span class=\"telresponsive\">Te ayudamos</span>"
+      },
+      {
+        "href": "https://www.abanca.com/es/oficinas",
+        "inner_text": " Oficinas",
+        "inner_html": "<span class=\"fa-fw fa fa-map-marker\"></span> <span>Oficinas</span>"
+      },
+      {
+        "href": "https://twitter.com/somosABANCA",
+        "inner_text": " @somosABANCA",
+        "inner_html": "<span class=\"fa-fw fa fa-twitter\"></span> <span>@somosABANCA</span>"
+      },
+      {
+        "href": "https://www.facebook.com/SomosABANCA",
+        "inner_text": "fa fa-facebook",
+        "inner_html": "<span class=\"fa-fw fa fa-facebook\"></span><span class=\"accessible_hidden\">fa fa-facebook</span>"
+      },
+      {
+        "href": "https://es.linkedin.com/company/abanca",
+        "inner_text": "fa fa-linkedin",
+        "inner_html": "<span class=\"fa-fw fa fa-linkedin\"></span><span class=\"accessible_hidden\">fa fa-linkedin</span>"
+      },
+      {
+        "href": "https://www.instagram.com/somosabanca/",
+        "inner_text": "fa fa-instagram",
+        "inner_html": "<span class=\"fa-fw fa fa-instagram\"></span><span class=\"accessible_hidden\">fa fa-instagram</span>"
+      },
+      {
+        "href": "https://www.cuentasclaras.es/?utm_source=webabanca&utm_medium=link_blog&utm_campaign=home_es",
+        "inner_text": "Blog",
+        "inner_html": "<span>Blog</span>"
+      },
+      {
+        "href": "https://comunicacion.abanca.com/es",
+        "inner_text": "Sala de comunicación",
+        "inner_html": "<span>Sala de comunicación</span>"
+      },
+      {
+        "href": "https://www.abanca.com/es/banca-privada/",
+        "inner_text": "Banca Privada",
+        "inner_html": "<span>Banca Privada</span>"
+      },
+      {
+        "href": "https://www.abanca.com/es/banca-personal",
+        "inner_text": "Banca Personal",
+        "inner_html": "<span>Banca Personal</span>"
+      },
+      {
+        "href": "https://www.abanca.com/es",
+        "inner_text": "ABANCA",
+        "inner_html": "ABANCA"
+      },
+      {
+        "href": "https://www.abanca.com/es/",
+        "inner_text": "Para ti",
+        "inner_html": "Para ti"
+      },
+      {
+        "href": "https://www.abanca.com/es/empresas/",
+        "inner_text": "Para tu empresa",
+        "inner_html": "Para tu empresa"
+      },
+      {
+        "href": "https://bancaelectronica.abanca.com/",
+        "inner_text": " Área cliente",
+        "inner_html": "<span class=\"fa-fw fa fa-user\"></span> Área cliente"
+      },
+      {
+        "href": "https://www.abanca.com/es/cuentas/cuenta-clara-haztecliente/",
+        "inner_text": "Hazte cliente ",
+        "inner_html": "Hazte cliente <span class=\"fa-fw fa fa-angle-double-right\"></span>"
+      },
+      {
+        "href": "https://www.abanca.com/es/productos-abanca/",
+        "inner_text": "  Todos los productos ",
+        "inner_html": "<span class=\"fa-fw fa fa-ellipsis-h\"></span> Todos los productos"
+      },
+      {
+        "href": "https://www.abanca.com/es/oficinas/",
+        "inner_text": "  Dónde estamos ",
+        "inner_html": "<span class=\"fa-fw fa fa-map-marker\"></span> Dónde estamos"
+      },
+      {
+        "href": "https://www.abanca.com/es/banca-personal/",
+        "inner_text": "  Banca Personal ",
+        "inner_html": "<span class=\"fa-fw fa fa-address-card\"></span> Banca Personal"
+      },
+      {
+        "href": "https://tecnologia.tusitiodecompras.es/",
+        "inner_text": "  Tusitiodecompras.es ",
+        "inner_html": "<span class=\"fa-fw fa fa-book\"></span> Tusitiodecompras.es"
+      },
+      {
+        "href": "https://www.abanca.com/es/vive-la-vida/",
+        "inner_text": "  Vive la vida ",
+        "inner_html": "<span class=\"fa-fw fa fa-user\"></span> Vive la vida"
+      },
+      {
+        "href": "https://www.abanca.com/gl",
+        "inner_text": "En galego",
+        "inner_html": "<span class=\"fa fa-fw fa-globe\"></span>En galego"
+      },
+      {
+        "href": "https://www.abanca.com/es/cuentas/cuenta-online/",
+        "inner_text": "¡Me interesa! ",
+        "inner_html": "¡Me interesa! <span class=\"fa-fw fa fa-angle-double-right\"></span>"
+      },
+      {
+        "href": "https://www.abanca.com/es/seguros/seguro-coche-abanca/",
+        "inner_text": "Conócelo ",
+        "inner_html": "Conócelo <span class=\"fa-fw fa fa-angle-double-right\"></span>"
+      },
+      {
+        "href": "https://www.abanca.com/es/cuentas-y-depositos/",
+        "inner_text": "Cuentas y ahorro",
+        "inner_html": "<h2> <picture> <source type=\"image/webp\" srcset=\"\"> <source type=\"image/jpeg\" srcset=\"//www.abanca.com/img/internas/ico-producto-cuentas-ef376f33.svg\"> <img class=\"acc-svg\" src=\"//www.abanca.com/img/internas/ico-producto-cuentas-ef376f33.svg\" title=\"ico-producto-cuentas\" alt=\"ico-producto-cuentas\" width=\"60\" height=\"60\"> </picture> Cuentas <strong>y ahorro</strong> </h2>"
+      },
+      {
+        "href": "https://www.abanca.com/es/tarjetas/",
+        "inner_text": "Tarjetas",
+        "inner_html": "<h2> <picture> <source type=\"image/webp\" srcset=\"\"> <source type=\"image/jpeg\" srcset=\"//www.abanca.com/img/internas/ico-producto-tarjetas-ab53e12a.svg\"> <img class=\"acc-svg\" src=\"//www.abanca.com/img/internas/ico-producto-tarjetas-ab53e12a.svg\" title=\"ico-producto-tarjetas\" alt=\"ico-producto-tarjetas\" width=\"60\" height=\"60\"> </picture> Tarjetas </h2>"
+      },
+      {
+        "href": "https://www.abanca.com/es/prestamos/",
+        "inner_text": "Préstamos",
+        "inner_html": "<h2> <picture> <source type=\"image/webp\" srcset=\"\"> <source type=\"image/jpeg\" srcset=\"//www.abanca.com/img/internas/ico-producto-creditos-a6708beb.svg\"> <img class=\"acc-svg\" src=\"//www.abanca.com/img/internas/ico-producto-creditos-a6708beb.svg\" title=\"ico-producto-creditos\" alt=\"ico-producto-creditos\" width=\"60\" height=\"60\"> </picture> Préstamos </h2>"
+      },
+      {
+        "href": "https://www.abanca.com/es/hipotecas/",
+        "inner_text": "Hipotecas",
+        "inner_html": "<h2> <picture> <source type=\"image/webp\" srcset=\"\"> <source type=\"image/jpeg\" srcset=\"//www.abanca.com/img/internas/ico-producto-hipotecas-8a625423.svg\"> <img class=\"acc-svg\" src=\"//www.abanca.com/img/internas/ico-producto-hipotecas-8a625423.svg\" title=\"ico-producto-hipotecas\" alt=\"ico-producto-hipotecas\" width=\"60\" height=\"60\"> </picture> Hipotecas </h2>"
+      },
+      {
+        "href": "https://www.abanca.com/es/seguros/",
+        "inner_text": "Seguros",
+        "inner_html": "<h2> <picture> <source type=\"image/webp\" srcset=\"\"> <source type=\"image/jpeg\" srcset=\"//www.abanca.com/img/internas/ico-producto-seguros-ddc18c11.svg\"> <img class=\"acc-svg\" src=\"//www.abanca.com/img/internas/ico-producto-seguros-ddc18c11.svg\" title=\"ico-producto-seguros\" alt=\"ico-producto-seguros\" width=\"60\" height=\"60\"> </picture> Seguros </h2>"
+      },
+      {
+        "href": "https://www.abanca.com/es/inversion/",
+        "inner_text": "Inversión y bolsa",
+        "inner_html": "<h2> <picture> <source type=\"image/webp\" srcset=\"\"> <source type=\"image/jpeg\" srcset=\"//www.abanca.com/img/internas/ico-producto-inversion-69c1455d.svg\"> <img class=\"acc-svg\" src=\"//www.abanca.com/img/internas/ico-producto-inversion-69c1455d.svg\" title=\"ico-producto-inversion\" alt=\"ico-producto-inversion\" width=\"60\" height=\"60\"> </picture> Inversión <strong>y bolsa</strong> </h2>"
+      },
+      {
+        "href": "https://www.abanca.com/es/planes-pensiones/planes-pensiones/",
+        "inner_text": "Planes de pensiones",
+        "inner_html": "<h2> <picture> <source type=\"image/webp\" srcset=\"\"> <source type=\"image/jpeg\" srcset=\"//www.abanca.com/img/internas/ico-producto-planes-de-pensiones1-d751d767.svg\"> <img class=\"acc-svg\" src=\"//www.abanca.com/img/internas/ico-producto-planes-de-pensiones1-d751d767.svg\" title=\"ico-producto-planes-de-pensiones1\" alt=\"ico-producto-planes-de-pensiones1\" width=\"60\" height=\"60\"> </picture> Planes de pensiones </h2>"
+      },
+      {
+        "href": "https://www.abanca.com/es/banca-a-distancia/banca-movil/",
+        "inner_text": "App banca móvil",
+        "inner_html": "<img class=\"acc-svg\" src=\"//www.abanca.com/img/internas/ico-menu-app-abanca-34c1a3ba.svg\" alt=\"ico-menu-app-abanca\" width=\"60\" height=\"60\"> App banca móvil"
+      },
+      {
+        "href": "https://bancaelectronica.abanca.com/?url=abro",
+        "inner_text": "Bróker online",
+        "inner_html": "<img class=\"acc-svg\" src=\"//www.abanca.com/img/internas/ico-menu-broker-online-54a0bf31.svg\" alt=\"ico-menu-broker-online\" width=\"60\" height=\"60\"> Bróker online"
+      },
+      {
+        "href": "https://www.abanca.com/es/renting-coches-particulares/",
+        "inner_text": "Renting ABANCA\n\nSi estás pensando en cambiar de coche, no te pierdas nuestra oferta de Renting.\n\n Todos los modelos",
+        "inner_html": "<article class=\"profile\"> <div class=\"profile-image\"> <img src=\"//www.abanca.com/img/internas/_mediaformats/ico-renting-portada-150-2287779e.png\" alt=\"ico-renting-portada\" width=\"150\" height=\"150\"> </div> <div> <header class=\"profile-header\"> <h4 class=\"profile-title\">Renting ABANCA</h4> </header> <div class=\"profile-intro\"> <p>Si estás pensando en cambiar de coche, no te pierdas nuestra oferta de Renting.</p> </div> <nav class=\"profile-nav\"> <span class=\"fa fa-angle-double-right\"></span> Todos los modelos </nav> </div> </article>"
+      },
+      {
+        "href": "https://www.abanca.com/es/banca-a-distancia/gestiones-habituales/",
+        "inner_text": "Toda tu documentación desde casa\n\nCertificado de titularidad, de información fiscal y más desde tu banca electrónica y app.\n\n No vayas a la oficina si no es necesario",
+        "inner_html": "<article class=\"profile\"> <div class=\"profile-image\"> <img src=\"//www.abanca.com/img/internas/_mediaformats/ico-tramites-online-perfil-150-2a89009b.png\" alt=\"ico-tramites-online-perfil\" width=\"150\" height=\"150\"> </div> <div> <header class=\"profile-header\"> <h4 class=\"profile-title\">Toda tu documentación desde casa</h4> </header> <div class=\"profile-intro\"> <p>Certificado de titularidad, de información fiscal y más desde tu banca electrónica y app.</p> </div> <nav class=\"profile-nav\"> <span class=\"fa fa-angle-double-right\"></span> No vayas a la oficina si no es necesario </nav> </div> </article>"
+      },
+      {
+        "href": "https://www.abanca.com/es/cuidemonos/",
+        "inner_text": "Todo sobre COVID-19\n\nAyudas para el alquiler, financiación. Te contamos cómo podemos ayudarte.\n\n Cuidémonos entre todos",
+        "inner_html": "<article class=\"profile\"> <div class=\"profile-image\"> <img src=\"//www.abanca.com/img/internas/_mediaformats/ico-repositorio-covid-perfil-150-307b8711.png\" alt=\"ico-repositorio-covid-perfil\" width=\"150\" height=\"150\"> </div> <div> <header class=\"profile-header\"> <h4 class=\"profile-title\">Todo sobre COVID-19</h4> </header> <div class=\"profile-intro\"> <p>Ayudas para el alquiler, financiación. Te contamos cómo podemos ayudarte.</p> </div> <nav class=\"profile-nav\"> <span class=\"fa fa-angle-double-right\"></span> Cuidémonos entre todos </nav> </div> </article>"
+      },
+      {
+        "href": "https://www.youtube.com/channel/UCcp8tm5xD5BRVgtSwBma_KA",
+        "inner_text": "fa fa-youtube",
+        "inner_html": "<span class=\"fa-fw fa fa-youtube\"></span> <span class=\"accessible_hidden\">fa fa-youtube</span>"
+      },
+      {
+        "href": "https://www.linkedin.com/company/5258170",
+        "inner_text": "fa fa-linkedin",
+        "inner_html": "<span class=\"fa-fw fa fa-linkedin\"></span> <span class=\"accessible_hidden\">fa fa-linkedin</span>"
+      },
+      {
+        "href": "https://www.cuentasclaras.es/?utm_source=webabanca&utm_medium=link_blog&utm_campaign=pie_pagina_es",
+        "inner_text": "fa fa-bold",
+        "inner_html": "<span class=\"fa-fw fa fa-bold\"></span> <span class=\"accessible_hidden\">fa fa-bold</span>"
+      },
+      {
+        "href": "https://www.abanca.com/es/ayuda/sobre-esta-web",
+        "inner_text": "Esta web",
+        "inner_html": "Esta web"
+      },
+      {
+        "href": "http://www.abancacorporacionbancaria.com/",
+        "inner_text": "Información corporativa",
+        "inner_html": "Información corporativa"
+      },
+      {
+        "href": "https://www.abanca.com/es/abanca-internacional/",
+        "inner_text": "Presencia Internacional",
+        "inner_html": "Presencia Internacional"
+      },
+      {
+        "href": "https://www.abanca.com/es/banesco-internacional/",
+        "inner_text": "Banesco Internacional",
+        "inner_html": "Banesco Internacional"
+      },
+      {
+        "href": "https://empleo.abanca.com/",
+        "inner_text": "Trabaja con nosotros",
+        "inner_html": "Trabaja con nosotros"
+      },
+      {
+        "href": "https://www.abanca.com/es/contacto-clientes/",
+        "inner_text": "Contáctanos",
+        "inner_html": "Contáctanos"
+      },
+      {
+        "href": "https://www.abanca.com/es/legal/atencion-cliente/",
+        "inner_text": "Servicio de Atención al Cliente",
+        "inner_html": "Servicio de Atención al Cliente"
+      },
+      {
+        "href": "https://www.abanca.com/es/legal/politica-privacidad/",
+        "inner_text": "Política de privacidad",
+        "inner_html": "Política de privacidad"
+      },
+      {
+        "href": "https://www.abanca.com/es/legal/accesibilidad/",
+        "inner_text": "Somos accesibles",
+        "inner_html": "Somos accesibles"
+      },
+      {
+        "href": "https://www.abanca.com/es/legal/cookies/",
+        "inner_text": "Política de cookies",
+        "inner_html": "Política de cookies"
+      },
+      {
+        "href": "https://www.abanca.com/es/legal/aviso-legal/",
+        "inner_text": "Aviso legal",
+        "inner_html": "Aviso legal"
+      },
+      {
+        "href": "https://www.abanca.com/es/legal/tablon-anuncios/",
+        "inner_text": "Tablón de anuncios",
+        "inner_html": "Tablón de anuncios"
+      },
+      {
+        "href": "https://www.abanca.com/es/perfil/seguridad/",
+        "inner_text": "Seguridad",
+        "inner_html": "Seguridad"
+      },
+      {
+        "href": "https://www.abanca.com/es/legal/productos/",
+        "inner_text": "Otra información legal",
+        "inner_html": "Otra información legal"
+      },
+      {
+        "href": "https://www.cuentasclaras.es/?utm_source=webabanca&utm_medium=link_blog&utm_campaign=pie_webs_red_es",
+        "inner_text": "Cuentas Claras: Blog ABANCA",
+        "inner_html": "Cuentas Claras: Blog ABANCA"
+      },
+      {
+        "href": "https://be.abanca.com/",
+        "inner_text": "Área cliente empresas",
+        "inner_html": "Área cliente empresas"
+      },
+      {
+        "href": "https://abancaserfin.com/",
+        "inner_text": "ABANCA Servicios financieros",
+        "inner_html": "ABANCA Servicios financieros"
+      },
+      {
+        "href": "https://www.abancausa.com/es/?&utm_source=webabanca&utm_medium=link_usa&utm_campaign=pie_webs_red_es",
+        "inner_text": "ABANCA USA",
+        "inner_html": "ABANCA USA"
+      },
+      {
+        "href": "https://www.abanca.pt/pt/?&utm_source=webabanca&utm_medium=link_pt&utm_campaign=pie_webs_red_es",
+        "inner_text": "ABANCA Portugal",
+        "inner_html": "ABANCA Portugal"
+      },
+      {
+        "href": "http://entradas.abanca.com/",
+        "inner_text": "Compra de entradas",
+        "inner_html": "Compra de entradas"
+      },
+      {
+        "href": "http://www.escogecasa.es/",
+        "inner_text": "Escogecasa",
+        "inner_html": "Escogecasa"
+      },
+      {
+        "href": "https://openbanking.abanca.com/",
+        "inner_text": "Open Banking",
+        "inner_html": "Open Banking"
+      },
+      {
+        "href": "https://www.abanca.com/es/cuentas-y-depositos",
+        "inner_text": "Cuentas y ahorro",
+        "inner_html": "Cuentas y ahorro"
+      },
+      {
+        "href": "https://www.abanca.com/es/empresas/productos/",
+        "inner_text": "Todos los productos para empresas",
+        "inner_html": "Todos los productos para empresas"
+      },
+      {
+        "href": "https://www.unepfi.org/banking/banking/banking-members/",
+        "inner_text": "",
+        "inner_html": "<img src=\"//www.abanca.com/img/internas/prb-logo-colour-9c76a67e.svg\" alt=\"prb-logo-colour\">"
+      },
+      {
+        "href": "https://www.onetrust.com/products/cookie-consent/",
+        "inner_text": "",
+        "inner_html": ""
+      }
+    ],
+    "social": [
+      {
+        "href": "https://twitter.com/somosABANCA",
+        "inner_text": " @somosABANCA",
+        "inner_html": "<span class=\"fa-fw fa fa-twitter\"></span> <span>@somosABANCA</span>"
+      },
+      {
+        "href": "https://www.facebook.com/SomosABANCA",
+        "inner_text": "fa fa-facebook",
+        "inner_html": "<span class=\"fa-fw fa fa-facebook\"></span><span class=\"accessible_hidden\">fa fa-facebook</span>"
+      },
+      {
+        "href": "https://es.linkedin.com/company/abanca",
+        "inner_text": "fa fa-linkedin",
+        "inner_html": "<span class=\"fa-fw fa fa-linkedin\"></span><span class=\"accessible_hidden\">fa fa-linkedin</span>"
+      },
+      {
+        "href": "https://www.instagram.com/somosabanca/",
+        "inner_text": "fa fa-instagram",
+        "inner_html": "<span class=\"fa-fw fa fa-instagram\"></span><span class=\"accessible_hidden\">fa fa-instagram</span>"
+      },
+      {
+        "href": "https://www.youtube.com/channel/UCcp8tm5xD5BRVgtSwBma_KA",
+        "inner_text": "fa fa-youtube",
+        "inner_html": "<span class=\"fa-fw fa fa-youtube\"></span> <span class=\"accessible_hidden\">fa fa-youtube</span>"
+      },
+      {
+        "href": "https://www.linkedin.com/company/5258170",
+        "inner_text": "fa fa-linkedin",
+        "inner_html": "<span class=\"fa-fw fa fa-linkedin\"></span> <span class=\"accessible_hidden\">fa fa-linkedin</span>"
+      }
+    ],
+    "keywords": [
+      {
+        "href": "https://www.abanca.com/es/legal/atencion-cliente/",
+        "inner_text": "Servicio de Atención al Cliente",
+        "inner_html": "Servicio de Atención al Cliente"
+      },
+      {
+        "href": "https://www.abanca.com/es/legal/politica-privacidad/",
+        "inner_text": "Política de privacidad",
+        "inner_html": "Política de privacidad"
+      },
+      {
+        "href": "https://www.abanca.com/es/legal/accesibilidad/",
+        "inner_text": "Somos accesibles",
+        "inner_html": "Somos accesibles"
+      },
+      {
+        "href": "https://www.abanca.com/es/legal/cookies/",
+        "inner_text": "Política de cookies",
+        "inner_html": "Política de cookies"
+      },
+      {
+        "href": "https://www.abanca.com/es/legal/aviso-legal/",
+        "inner_text": "Aviso legal",
+        "inner_html": "Aviso legal"
+      },
+      {
+        "href": "https://www.abanca.com/es/legal/tablon-anuncios/",
+        "inner_text": "Tablón de anuncios",
+        "inner_html": "Tablón de anuncios"
+      },
+      {
+        "href": "https://www.abanca.com/es/legal/productos/",
+        "inner_text": "Otra información legal",
+        "inner_html": "Otra información legal"
+      }
+    ]
+  },
+  "unsafeForms": [],
+  "browsing_history": [
+    "https://www.abanca.com/es/"
+  ],
+  "websockets": {},
+  "cookies": [
+    {
+      "name": "OptanonConsent",
+      "value": "isGpcEnabled=0&datestamp=Thu+May+20+2021+17%3A30%3A31+GMT%2B0200+(Central+European+Summer+Time)&version=6.18.0&isIABGlobal=false&hosts=&consentId=a8bac3c3-b24b-4088-aece-a349b6984bf9&interactionCount=0&landingPath=https%3A%2F%2Fwww.abanca.com%2Fes%2F&groups=C0001%3A1%2CC0002%3A0%2CC0003%3A0%2CC0004%3A0",
+      "domain": "abanca.com",
+      "path": "/",
+      "expires": 1653060631,
+      "size": 317,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "sameSite": "Lax",
+      "expiresUTC": "2022-05-20T15:30:31.000Z",
+      "expiresDays": 365,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 43570,
+            "lineNumber": 7,
+            "fileName": "https://cdn.cookielaw.org/scripttemplates/6.18.0/otBannerSdk.js",
+            "functionName": "Tt.setCookie",
+            "source": "    at Tt.setCookie (https://cdn.cookielaw.org/scripttemplates/6.18.0/otBannerSdk.js:7:43570)"
+          },
+          {
+            "columnNumber": 41848,
+            "lineNumber": 7,
+            "fileName": "https://cdn.cookielaw.org/scripttemplates/6.18.0/otBannerSdk.js",
+            "functionName": "Tt.writeCookieParam",
+            "source": "    at Tt.writeCookieParam (https://cdn.cookielaw.org/scripttemplates/6.18.0/otBannerSdk.js:7:41848)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T15:30:31.928Z",
+        "location": "https://www.abanca.com/es/"
+      },
+      "firstPartyStorage": true
+    }
+  ],
+  "localStorage": {
+    "https://www.abanca.com": {
+      "com.adobe.reactor.dataElementCookiesMigrated": {
+        "value": true,
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 20569,
+              "lineNumber": 11,
+              "fileName": "https://assets.adobedtm.com/8a1010ec6a7a/289491c7db8d/launch-4d7a1cd28fba.min.js",
+              "functionName": "Object.setItem",
+              "source": "    at Object.setItem (https://assets.adobedtm.com/8a1010ec6a7a/289491c7db8d/launch-4d7a1cd28fba.min.js:11:20569)"
+            },
+            {
+              "columnNumber": 21443,
+              "lineNumber": 11,
+              "fileName": "https://assets.adobedtm.com/8a1010ec6a7a/289491c7db8d/launch-4d7a1cd28fba.min.js",
+              "functionName": "Object.migrateCookieData",
+              "source": "    at Object.migrateCookieData (https://assets.adobedtm.com/8a1010ec6a7a/289491c7db8d/launch-4d7a1cd28fba.min.js:11:21443)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T15:30:30.755Z",
+          "location": "https://www.abanca.com/es/"
+        }
+      }
+    }
+  },
+  "beacons": [
+    {
+      "url": "https://assets.adobedtm.com/8a1010ec6a7a/289491c7db8d/4771dcb58ed5/RCa53b01ed7fc14c089a64bd1c320af651-source.min.js",
+      "query": null,
+      "filter": "||adobedtm.com^$third-party,domain=~adobe.com",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.abanca.com/es/",
+            "source": "requested from https://www.abanca.com/es/ and matched with easyprivacy.txt filter ||adobedtm.com^$third-party,domain=~adobe.com"
+          }
+        ],
+        "timestamp": "2021-05-20T15:30:31.997Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://assets.adobedtm.com/8a1010ec6a7a/289491c7db8d/4771dcb58ed5/RC57778f96c98f4d528707662ba7a5c32d-source.min.js",
+      "query": null,
+      "filter": "||adobedtm.com^$third-party,domain=~adobe.com",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.abanca.com/es/",
+            "source": "requested from https://www.abanca.com/es/ and matched with easyprivacy.txt filter ||adobedtm.com^$third-party,domain=~adobe.com"
+          }
+        ],
+        "timestamp": "2021-05-20T15:30:31.932Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://geolocation.onetrust.com/cookieconsentpub/v1/geo/location",
+      "query": null,
+      "filter": "||onetrust.com^$third-party",
+      "listName": "fanboy-annoyance.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.abanca.com/es/",
+            "source": "requested from https://www.abanca.com/es/ and matched with fanboy-annoyance.txt filter ||onetrust.com^$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T15:30:31.030Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://assets.adobedtm.com/extensions/EPbde2f7ca14e540399dcc1f8208860b7b/AppMeasurement_Module_ActivityMap.min.js",
+      "query": null,
+      "filter": "||adobedtm.com^$third-party,domain=~adobe.com",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.abanca.com/es/",
+            "source": "requested from https://www.abanca.com/es/ and matched with easyprivacy.txt filter ||adobedtm.com^$third-party,domain=~adobe.com"
+          }
+        ],
+        "timestamp": "2021-05-20T15:30:30.762Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://assets.adobedtm.com/extensions/EPbde2f7ca14e540399dcc1f8208860b7b/AppMeasurement.min.js",
+      "query": null,
+      "filter": "||adobedtm.com^$third-party,domain=~adobe.com",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.abanca.com/es/",
+            "source": "requested from https://www.abanca.com/es/ and matched with easyprivacy.txt filter ||adobedtm.com^$third-party,domain=~adobe.com"
+          }
+        ],
+        "timestamp": "2021-05-20T15:30:30.761Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://www.googletagmanager.com/gtm.js?id=GTM-TTXV57",
+      "query": {
+        "id": "GTM-TTXV57"
+      },
+      "filter": "/gtm.js",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.abanca.com/es/",
+            "source": "requested from https://www.abanca.com/es/ and matched with easyprivacy.txt filter /gtm.js"
+          }
+        ],
+        "timestamp": "2021-05-20T15:30:30.136Z"
+      },
+      "occurrances": 1
+    }
+  ],
+  "hosts": {
+    "requests": {
+      "firstParty": [
+        "abanca.com"
+      ],
+      "thirdParty": [
+        "www.abanca.com",
+        "assets.adobedtm.com",
+        "www.googletagmanager.com",
+        "cdn.cookielaw.org",
+        "geolocation.onetrust.com"
+      ]
+    },
+    "beacons": {
+      "firstParty": [],
+      "thirdParty": [
+        "assets.adobedtm.com",
+        "www.googletagmanager.com"
+      ]
+    },
+    "cookies": {
+      "firstParty": [
+        "abanca.com"
+      ],
+      "thirdParty": []
+    },
+    "localStorage": {
+      "firstParty": [],
+      "thirdParty": [
+        "www.abanca.com"
+      ]
+    },
+    "links": {
+      "firstParty": [],
+      "thirdParty": [
+        "www.abanca.com",
+        "twitter.com",
+        "www.facebook.com",
+        "es.linkedin.com",
+        "www.instagram.com",
+        "www.cuentasclaras.es",
+        "comunicacion.abanca.com",
+        "bancaelectronica.abanca.com",
+        "tecnologia.tusitiodecompras.es",
+        "www.youtube.com",
+        "www.linkedin.com",
+        "www.abancacorporacionbancaria.com",
+        "empleo.abanca.com",
+        "be.abanca.com",
+        "abancaserfin.com",
+        "www.abancausa.com",
+        "www.abanca.pt",
+        "entradas.abanca.com",
+        "www.escogecasa.es",
+        "openbanking.abanca.com",
+        "www.unepfi.org",
+        "www.onetrust.com"
+      ]
+    }
+  }
+}

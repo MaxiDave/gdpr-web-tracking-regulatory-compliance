@@ -1,0 +1,1304 @@
+{
+  "title": "Website Evidence Collection",
+  "task_description": null,
+  "uri_ins": "https://office.com",
+  "uri_refs": [
+    "https://office.com"
+  ],
+  "uri_dest": "https://www.office.com/",
+  "uri_redirects": [
+    "https://office.com/"
+  ],
+  "secure_connection": {
+    "https_support": true,
+    "redirects": [
+      "https://www.office.com/"
+    ],
+    "https_redirect": true
+  },
+  "host": "office.com",
+  "script": {
+    "host": "sfod",
+    "version": {
+      "npm": "1.0.0",
+      "commit": null
+    },
+    "cmd_args": "-q --overwrite https://office.com -- --ignore-certificate-errors",
+    "environment": {
+      "CHROME_DESKTOP": "code-url-handler.desktop"
+    },
+    "node_version": "v14.17.0"
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "HeadlessChrome/80.0.3987.0",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3617.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "5.8.0-53-generic"
+    },
+    "extra_headers": {},
+    "preset_cookies": {}
+  },
+  "start_time": "2021-05-20T18:30:24.500Z",
+  "end_time": "2021-05-20T18:30:31.321Z",
+  "links": {
+    "firstParty": [],
+    "thirdParty": [
+      {
+        "href": "https://www.office.com/",
+        "inner_text": "",
+        "inner_html": ""
+      },
+      {
+        "href": "https://go.microsoft.com/fwlink/?LinkId=521839",
+        "inner_text": "Privacy Statement",
+        "inner_html": "Privacy Statement"
+      },
+      {
+        "href": "https://www.microsoft.com/",
+        "inner_text": "Microsoft",
+        "inner_html": "<img alt=\"\" itemprop=\"logo\" class=\"c-image\" src=\"https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE1Mu3b?ver=5c31\" role=\"presentation\" aria-hidden=\"true\">\n                        <span itemprop=\"name\" role=\"presentation\" aria-hidden=\"true\">Microsoft</span>"
+      },
+      {
+        "href": "https://www.microsoft.com/en-us/microsoft-365/buy/compare-all-microsoft-365-products",
+        "inner_text": "Plans and pricing",
+        "inner_html": "Plans and pricing"
+      },
+      {
+        "href": "https://www.microsoft.com/en-us/microsoft-365/p/microsoft-365-family/cfq7ttc0k5dm",
+        "inner_text": "For families",
+        "inner_html": "For families"
+      },
+      {
+        "href": "https://www.microsoft.com/en-us/microsoft-365/p/microsoft-365-personal/cfq7ttc0k5bf",
+        "inner_text": "For individuals",
+        "inner_html": "For individuals"
+      },
+      {
+        "href": "https://www.microsoft.com/en-us/education/products/office",
+        "inner_text": "For students",
+        "inner_html": "For students"
+      },
+      {
+        "href": "https://www.microsoft.com/en-us/microsoft-365/explore-microsoft-365-for-home",
+        "inner_text": "See all home",
+        "inner_html": "See all home"
+      },
+      {
+        "href": "https://www.microsoft.com/en-us/microsoft-365/business/compare-all-microsoft-365-business-products",
+        "inner_text": "Plans and pricing",
+        "inner_html": "Plans and pricing"
+      },
+      {
+        "href": "https://www.microsoft.com/en-us/microsoft-365/business",
+        "inner_text": "Small business",
+        "inner_html": "Small business"
+      },
+      {
+        "href": "https://go.microsoft.com/fwlink/p/?linkid=864773",
+        "inner_text": "Schools",
+        "inner_html": "Schools"
+      },
+      {
+        "href": "https://www.microsoft.com/en-us/microsoft-365/compare-microsoft-365-enterprise-plans",
+        "inner_text": "Plans and pricing",
+        "inner_html": "Plans and pricing"
+      },
+      {
+        "href": "https://www.microsoft.com/en-us/microsoft-365/enterprise",
+        "inner_text": "Enterprise",
+        "inner_html": "Enterprise"
+      },
+      {
+        "href": "https://www.microsoft.com/en-us/microsoft-365/enterprise/frontline",
+        "inner_text": "Frontline workers",
+        "inner_html": "Frontline workers"
+      },
+      {
+        "href": "https://www.microsoft.com/en-us/microsoft-365/excel",
+        "inner_text": "Excel",
+        "inner_html": "Excel"
+      },
+      {
+        "href": "https://www.microsoft.com/en-us/microsoft-365/family-safety",
+        "inner_text": "Microsoft Family Safety",
+        "inner_html": "Microsoft Family Safety"
+      },
+      {
+        "href": "https://www.microsoft.com/en-us/microsoft-teams/group-chat-software",
+        "inner_text": "Microsoft Teams",
+        "inner_html": "Microsoft Teams"
+      },
+      {
+        "href": "https://www.microsoft.com/en-us/microsoft-365/onedrive/online-cloud-storage",
+        "inner_text": "OneDrive",
+        "inner_html": "OneDrive"
+      },
+      {
+        "href": "https://www.microsoft.com/en-us/microsoft-365/outlook/email-and-calendar-software-microsoft-outlook",
+        "inner_text": "Outlook",
+        "inner_html": "Outlook"
+      },
+      {
+        "href": "https://www.microsoft.com/en-us/microsoft-365/powerpoint",
+        "inner_text": "PowerPoint",
+        "inner_html": "PowerPoint"
+      },
+      {
+        "href": "https://www.microsoft.com/en-us/microsoft-365/sharepoint/collaboration",
+        "inner_text": "SharePoint",
+        "inner_html": "SharePoint"
+      },
+      {
+        "href": "https://www.microsoft.com/en-us/microsoft-365/word",
+        "inner_text": "Word",
+        "inner_html": "Word"
+      },
+      {
+        "href": "https://www.microsoft.com/en-us/microsoft-365/products-apps-services",
+        "inner_text": "See all apps and services",
+        "inner_html": "See all apps and services"
+      },
+      {
+        "href": "https://www.microsoft.com/en-us/microsoft-365/microsoft-office",
+        "inner_text": "Microsoft Office",
+        "inner_html": "Microsoft Office"
+      },
+      {
+        "href": "https://www.microsoft.com/en-us/microsoft-365/office-365",
+        "inner_text": "Office 365",
+        "inner_html": "Office 365"
+      },
+      {
+        "href": "https://www.microsoft.com/en-us/microsoft-365/windows",
+        "inner_text": "Windows",
+        "inner_html": "Windows"
+      },
+      {
+        "href": "https://www.microsoft.com/en-us/microsoft-365/enterprise-mobility-security",
+        "inner_text": "Enterprise Mobility + Security",
+        "inner_html": "Enterprise Mobility + Security"
+      },
+      {
+        "href": "https://products.office.com/business/office-365-customer-stories-office-testimonials",
+        "inner_text": "Customer stories",
+        "inner_html": "Customer stories"
+      },
+      {
+        "href": "https://products.office.com/microsoft-office-for-home-and-school-faq",
+        "inner_text": "Frequently asked questions",
+        "inner_html": "Frequently asked questions"
+      },
+      {
+        "href": "https://go.microsoft.com/fwlink/p/?LinkID=717124",
+        "inner_text": "Install Office",
+        "inner_html": "Install Office"
+      },
+      {
+        "href": "https://products.office.com/business/office-for-it-pros",
+        "inner_text": "IT Pro resources",
+        "inner_html": "IT Pro resources"
+      },
+      {
+        "href": "https://blogs.office.com/",
+        "inner_text": "Office blog",
+        "inner_html": "Office blog"
+      },
+      {
+        "href": "https://products.office.com/business/office-365-trust-center-welcome",
+        "inner_text": "Security & compliance",
+        "inner_html": "Security &amp; compliance"
+      },
+      {
+        "href": "https://products.office.com/office-system-requirements",
+        "inner_text": "System requirements",
+        "inner_html": "System requirements"
+      },
+      {
+        "href": "https://templates.office.com/",
+        "inner_text": "Templates",
+        "inner_html": "Templates"
+      },
+      {
+        "href": "https://support.office.com/",
+        "inner_text": "Support",
+        "inner_html": "Support"
+      },
+      {
+        "href": "https://office.live.com/start/MyAccount.aspx",
+        "inner_text": "My account",
+        "inner_html": "My account"
+      },
+      {
+        "href": "https://www.microsoft.com/microsoft-365/compare-all-microsoft-365-products?&activetab=tab:primaryr1",
+        "inner_text": "Buy now",
+        "inner_html": "Buy now"
+      },
+      {
+        "href": "https://www.microsoft.com/microsoft-365",
+        "inner_text": "Microsoft 365",
+        "inner_html": "Microsoft 365"
+      },
+      {
+        "href": "https://www.microsoft.com/en-us/windows/",
+        "inner_text": "Windows",
+        "inner_html": "Windows"
+      },
+      {
+        "href": "https://www.microsoft.com/en-us/surface",
+        "inner_text": "Surface",
+        "inner_html": "Surface"
+      },
+      {
+        "href": "https://www.xbox.com/",
+        "inner_text": "Xbox",
+        "inner_html": "Xbox"
+      },
+      {
+        "href": "https://www.microsoft.com/en-us/store/b/sale?icid=gm_nav_L0_salepage",
+        "inner_text": "Deals",
+        "inner_html": "Deals"
+      },
+      {
+        "href": "https://support.microsoft.com/en-us",
+        "inner_text": "Support",
+        "inner_html": "Support"
+      },
+      {
+        "href": "https://www.microsoft.com/en-us/store/apps/windows?icid=CNavAppsWindowsApps",
+        "inner_text": "Windows Apps",
+        "inner_html": "Windows Apps"
+      },
+      {
+        "href": "https://onedrive.live.com/about/en-us/",
+        "inner_text": "OneDrive",
+        "inner_html": "OneDrive"
+      },
+      {
+        "href": "https://outlook.live.com/owa/",
+        "inner_text": "Outlook",
+        "inner_html": "Outlook"
+      },
+      {
+        "href": "https://www.skype.com/en/",
+        "inner_text": "Skype",
+        "inner_html": "Skype"
+      },
+      {
+        "href": "https://www.onenote.com/",
+        "inner_text": "OneNote",
+        "inner_html": "OneNote"
+      },
+      {
+        "href": "https://www.microsoft.com/en-us/microsoft-teams/free?icid=SSM_AS_Promo_Apps_MicrosoftTeams",
+        "inner_text": "Microsoft Teams",
+        "inner_html": "Microsoft Teams"
+      },
+      {
+        "href": "https://www.microsoft.com/edge",
+        "inner_text": "Microsoft Edge",
+        "inner_html": "Microsoft Edge"
+      },
+      {
+        "href": "https://www.microsoft.com/en-us/store/b/pc?icid=CNavDevicesPC",
+        "inner_text": "Computers",
+        "inner_html": "Computers"
+      },
+      {
+        "href": "https://www.microsoft.com/en-us/store/b/xbox?icid=CNavDevicesXbox",
+        "inner_text": "Shop Xbox",
+        "inner_html": "Shop Xbox"
+      },
+      {
+        "href": "https://www.microsoft.com/en-us/store/b/accessories?icid=CNavDevicesAccessories",
+        "inner_text": "Accessories",
+        "inner_html": "Accessories"
+      },
+      {
+        "href": "https://www.microsoft.com/en-us/store/b/virtualreality?icid=CNavVirtualReality",
+        "inner_text": "VR & mixed reality",
+        "inner_html": "VR &amp; mixed reality"
+      },
+      {
+        "href": "https://www.microsoft.com/en-us/store/b/mobile?icid=CNavDevicesMobile",
+        "inner_text": "Phones",
+        "inner_html": "Phones"
+      },
+      {
+        "href": "https://www.microsoft.com/en-us/p/xbox-game-pass-ultimate/cfq7ttc0khs0?WT.mc_id=CNavGamesXboxGamePassUltimate",
+        "inner_text": "Xbox Game Pass Ultimate",
+        "inner_html": "Xbox Game Pass Ultimate"
+      },
+      {
+        "href": "https://www.microsoft.com/en-us/p/xbox-live-gold/cfq7ttc0k5dj?WT.mc_id=CNavGamesXboxLiveGold",
+        "inner_text": "Xbox Live Gold",
+        "inner_html": "Xbox Live Gold"
+      },
+      {
+        "href": "https://www.microsoft.com/en-us/store/games/windows?icid=CNavGamesWindowsGames",
+        "inner_text": "PC games",
+        "inner_html": "PC games"
+      },
+      {
+        "href": "https://www.microsoft.com/en-us/store/games/windows?icid=TopNavWindowsGames",
+        "inner_text": "Windows digital games",
+        "inner_html": "Windows digital games"
+      },
+      {
+        "href": "https://www.microsoft.com/en-us/store/movies-and-tv?icid=TopNavMoviesTv",
+        "inner_text": "Movies & TV",
+        "inner_html": "Movies &amp; TV"
+      },
+      {
+        "href": "https://azure.microsoft.com/en-us/",
+        "inner_text": "Microsoft Azure",
+        "inner_html": "Microsoft Azure"
+      },
+      {
+        "href": "https://www.microsoft.com/en-us/dynamics365/home",
+        "inner_text": "Microsoft Dynamics 365",
+        "inner_html": "Microsoft Dynamics 365"
+      },
+      {
+        "href": "https://www.microsoft.com/microsoft-365/business/all-business",
+        "inner_text": "Microsoft 365",
+        "inner_html": "Microsoft 365"
+      },
+      {
+        "href": "https://www.microsoft.com/en-us/enterprise",
+        "inner_text": "Microsoft Industry",
+        "inner_html": "Microsoft Industry"
+      },
+      {
+        "href": "https://www.microsoft.com/en-us/sql-server/",
+        "inner_text": "Data platform",
+        "inner_html": "Data platform"
+      },
+      {
+        "href": "https://go.microsoft.com/fwlink/?linkid=2026638",
+        "inner_text": "Microsoft Advertising",
+        "inner_html": "Microsoft Advertising"
+      },
+      {
+        "href": "https://powerplatform.microsoft.com/en-us",
+        "inner_text": "Power Platform",
+        "inner_html": "Power Platform"
+      },
+      {
+        "href": "https://www.microsoft.com/en-us/store/b/business?icid=CNavBusinessStore",
+        "inner_text": "Shop Business",
+        "inner_html": "Shop Business"
+      },
+      {
+        "href": "https://www.microsoft.com/net/",
+        "inner_text": ".NET",
+        "inner_html": ".NET"
+      },
+      {
+        "href": "https://visualstudio.microsoft.com/",
+        "inner_text": "Visual Studio",
+        "inner_html": "Visual Studio"
+      },
+      {
+        "href": "https://www.microsoft.com/cloud-platform/windows-server",
+        "inner_text": "Windows Server",
+        "inner_html": "Windows Server"
+      },
+      {
+        "href": "https://developer.microsoft.com/en-us/windows",
+        "inner_text": "Windows Dev Center",
+        "inner_html": "Windows Dev Center"
+      },
+      {
+        "href": "https://docs.microsoft.com/en-us/",
+        "inner_text": "Docs",
+        "inner_html": "Docs"
+      },
+      {
+        "href": "https://powerapps.microsoft.com/en-us",
+        "inner_text": "Power Apps",
+        "inner_html": "Power Apps"
+      },
+      {
+        "href": "https://www.microsoft.com/en-us/hololens",
+        "inner_text": "HoloLens 2",
+        "inner_html": "HoloLens 2"
+      },
+      {
+        "href": "https://www.microsoft.com/rewards",
+        "inner_text": "Microsoft Rewards ",
+        "inner_html": "Microsoft Rewards"
+      },
+      {
+        "href": "https://www.microsoft.com/en-us/download/default.aspx",
+        "inner_text": "Free downloads & security",
+        "inner_html": "Free downloads &amp; security"
+      },
+      {
+        "href": "https://www.microsoft.com/en-us/education?icid=CNavMSCOML0_Studentsandeducation",
+        "inner_text": "Education",
+        "inner_html": "Education"
+      },
+      {
+        "href": "https://www.microsoft.com/en-us/store/workshops-training-and-events?icid=vl_uf_932020",
+        "inner_text": "Virtual workshops and training",
+        "inner_html": "Virtual workshops and training"
+      },
+      {
+        "href": "https://www.microsoft.com/en-us/store/b/gift-cards",
+        "inner_text": "Gift cards",
+        "inner_html": "Gift cards"
+      },
+      {
+        "href": "https://www.microsoft.com/licensing/default",
+        "inner_text": "Licensing",
+        "inner_html": "Licensing"
+      },
+      {
+        "href": "https://www.microsoft.com/en-us/store/locations/ny/new-york/fifth-avenue-/store-1087?ICID=uhf_h_mec",
+        "inner_text": "Microsoft Experience Center",
+        "inner_html": "Microsoft Experience Center"
+      },
+      {
+        "href": "https://www.microsoft.com/en-us/sitemap.aspx",
+        "inner_text": "View Sitemap",
+        "inner_html": "View Sitemap"
+      },
+      {
+        "href": "https://www.office.com/login?es=Click&ru=%2F&msafed=0",
+        "inner_text": "Sign in to your account\nSign in",
+        "inner_html": "<span class=\"mectrl_screen_reader_text\">Sign in to your account</span><div class=\"mectrl_topHeader\" aria-hidden=\"true\" role=\"presentation\"><div class=\"mectrl_header_text mectrl_truncate\">Sign in</div><div id=\"mectrl_headerPicture\" class=\"mectrl_profilepic mectrl_glyph mectrl_signIn_circle_glyph\" aria-hidden=\"true\" role=\"presentation\"></div></div>"
+      },
+      {
+        "href": "https://www.microsoft.com/en-us/education/remote-learning",
+        "inner_text": "Remote Learning in education. Learn more >",
+        "inner_html": "<p class=\"c-paragraph color-brand-blue\" data-m=\"{&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c11c4c1m1r1a1&quot;,&quot;sN&quot;:11,&quot;aN&quot;:&quot;c4c1m1r1a1&quot;}\">\n        Remote Learning in education. Learn more &gt;\n    </p>"
+      },
+      {
+        "href": "https://www.office.com/login?es=Click&ru=%2F",
+        "inner_text": "Sign in",
+        "inner_html": "Sign in"
+      },
+      {
+        "href": "https://products.office.com/compare-all-microsoft-office-products?tab=1",
+        "inner_text": "Get Office",
+        "inner_html": "Get Office"
+      },
+      {
+        "href": "https://signup.live.com/signup?mkt=en-US&uiflavor=web&lw=1&fl=easi2&client_id=4345a7b9-9a63-4910-a426-35363201d503&wreply=https%3A%2F%2Fwww.office.com%2F%3Fauth%3D1%26from%3DOdotComFreeSignup",
+        "inner_text": "Sign up for the free version of Office",
+        "inner_html": "<span class=\"animated-link--text\">Sign up for the free version of Office</span><span class=\"ms-Icon ms-Icon--chevronRight animated-link--arrow\" aria-hidden=\"true\"></span>"
+      },
+      {
+        "href": "https://products.office.com/compare-all-microsoft-office-products?tab=2",
+        "inner_text": "For business",
+        "inner_html": "<span class=\"animated-link--text\">For business</span><span class=\"ms-Icon ms-Icon--chevronRight animated-link--arrow\" aria-hidden=\"true\"></span>"
+      },
+      {
+        "href": "https://products.office.com/en-US/student/office-in-education",
+        "inner_text": "For education",
+        "inner_html": "<span class=\"animated-link--text\">For education</span><span class=\"ms-Icon ms-Icon--chevronRight animated-link--arrow\" aria-hidden=\"true\"></span>"
+      },
+      {
+        "href": "https://www.linkedin.com/company/3509299",
+        "inner_text": "",
+        "inner_html": "<picture class=\"lazy\">\n                <source type=\"image/png\" media=\"(-ms-high-contrast: white-on-black)\" data-srcset=\"https://officehome.cdn.office.net/images/content/images/linkedin-hc-77fefd2418.png\">\n                <img class=\"social-media__link--image\" data-src=\"https://officehome.cdn.office.net/images/content/images/linkedin-refresh-02734a460c.png\" aria-hidden=\"true\" alt=\"\">\n            </picture>"
+      },
+      {
+        "href": "https://go.microsoft.com/fwlink/p/?LinkID=506743",
+        "inner_text": "",
+        "inner_html": "<picture class=\"lazy\">\n                <source type=\"image/png\" media=\"(-ms-high-contrast: white-on-black)\" data-srcset=\"https://officehome.cdn.office.net/images/content/images/facebook-hc-b6ac21c866.png\">\n                <img class=\"social-media__link--image\" data-src=\"https://officehome.cdn.office.net/images/content/images/facebook-refresh-090a700c0f.png\" aria-hidden=\"true\" alt=\"\">\n            </picture>"
+      },
+      {
+        "href": "https://go.microsoft.com/fwlink/p/?LinkId=506744",
+        "inner_text": "",
+        "inner_html": "<picture class=\"lazy\">\n                <source type=\"image/png\" media=\"(-ms-high-contrast: white-on-black)\" data-srcset=\"https://officehome.cdn.office.net/images/content/images/twitter-hc-e34f4d31bc.png\">\n                <img class=\"social-media__link--image\" data-src=\"https://officehome.cdn.office.net/images/content/images/twitter-refresh-93ca1a80ff.png\" aria-hidden=\"true\" alt=\"\">\n            </picture>"
+      },
+      {
+        "href": "https://go.microsoft.com/fwlink/p/?LinkId=524828",
+        "inner_text": "",
+        "inner_html": "<picture class=\"lazy\">\n                <source type=\"image/png\" media=\"(-ms-high-contrast: white-on-black)\" data-srcset=\"https://officehome.cdn.office.net/images/content/images/instagram-hc-9fd0f4b194.png\">\n                <img class=\"social-media__link--image\" data-src=\"https://officehome.cdn.office.net/images/content/images/instagram-refresh-5d315a943e.png\" aria-hidden=\"true\" alt=\"\">\n            </picture>"
+      },
+      {
+        "href": "https://go.microsoft.com/fwlink/p/?LinkID=506712",
+        "inner_text": "",
+        "inner_html": "<picture class=\"lazy\">\n                <source type=\"image/png\" media=\"(-ms-high-contrast: white-on-black)\" data-srcset=\"https://officehome.cdn.office.net/images/content/images/blog-hc-bcc394c1aa.png\">\n                <img class=\"social-media__link--image\" data-src=\"https://officehome.cdn.office.net/images/content/images/blog-33305b0d90.png\" aria-hidden=\"true\" alt=\"\">\n            </picture>"
+      },
+      {
+        "href": "https://www.microsoft.com/en-us/p/surface-laptop-4/946627FB12T1",
+        "inner_text": "Surface Laptop 4",
+        "inner_html": "Surface Laptop 4"
+      },
+      {
+        "href": "https://www.microsoft.com/en-us/p/surface-laptop-go/94FC0BDGQ7WV",
+        "inner_text": "Surface Laptop Go",
+        "inner_html": "Surface Laptop Go"
+      },
+      {
+        "href": "https://www.microsoft.com/en-us/p/surface-go-2/8PT3S2VJMDR6",
+        "inner_text": "Surface Go 2",
+        "inner_html": "Surface Go 2"
+      },
+      {
+        "href": "https://www.microsoft.com/en-us/p/surface-pro-x/8QG3BMRHNWHK",
+        "inner_text": "Surface Pro X",
+        "inner_html": "Surface Pro X"
+      },
+      {
+        "href": "https://www.microsoft.com/en-us/p/Surface-Duo/8p98gbqkdzl5",
+        "inner_text": "Surface Duo",
+        "inner_html": "Surface Duo"
+      },
+      {
+        "href": "https://www.microsoft.com/en-us/windows/windows-10-apps",
+        "inner_text": "Windows 10 apps",
+        "inner_html": "Windows 10 apps"
+      },
+      {
+        "href": "https://account.microsoft.com/",
+        "inner_text": "Account profile",
+        "inner_html": "Account profile"
+      },
+      {
+        "href": "https://www.microsoft.com/en-us/download",
+        "inner_text": "Download Center",
+        "inner_html": "Download Center"
+      },
+      {
+        "href": "https://go.microsoft.com/fwlink/?linkid=2139749",
+        "inner_text": "Microsoft Store support",
+        "inner_html": "Microsoft Store support"
+      },
+      {
+        "href": "https://go.microsoft.com/fwlink/p/?LinkID=824764&clcid=0x409",
+        "inner_text": "Returns",
+        "inner_html": "Returns"
+      },
+      {
+        "href": "https://account.microsoft.com/orders",
+        "inner_text": "Order tracking",
+        "inner_html": "Order tracking"
+      },
+      {
+        "href": "https://www.microsoft.com/en-us/store/b/why-microsoft-store?icid=footer_why-msft-store_7102020",
+        "inner_text": "Microsoft Store Promise",
+        "inner_html": "Microsoft Store Promise"
+      },
+      {
+        "href": "https://www.microsoft.com/en-us/store/b/financing?icid=footer_financing_10142020",
+        "inner_text": "Financing",
+        "inner_html": "Financing"
+      },
+      {
+        "href": "https://www.microsoft.com/en-us/education",
+        "inner_text": "Microsoft in education",
+        "inner_html": "Microsoft in education"
+      },
+      {
+        "href": "https://www.microsoft.com/en-us/education/products/office/default.aspx",
+        "inner_text": "Office for students",
+        "inner_html": "Office for students"
+      },
+      {
+        "href": "https://products.office.com/en-us/academic/compare-office-365-education-plans",
+        "inner_text": "Office 365 for schools",
+        "inner_html": "Office 365 for schools"
+      },
+      {
+        "href": "https://www.microsoft.com/en-us/store/b/education?icid=CNavfooter_Studentsandeducation",
+        "inner_text": "Deals for students & parents",
+        "inner_html": "Deals for students &amp; parents"
+      },
+      {
+        "href": "https://azure.microsoft.com/en-us/community/education/",
+        "inner_text": "Microsoft Azure in education",
+        "inner_html": "Microsoft Azure in education"
+      },
+      {
+        "href": "https://azure.microsoft.com/",
+        "inner_text": "Azure",
+        "inner_html": "Azure"
+      },
+      {
+        "href": "https://go.microsoft.com/fwlink/?LinkID=808093",
+        "inner_text": "AppSource",
+        "inner_html": "AppSource"
+      },
+      {
+        "href": "https://www.microsoft.com/en-us/enterprise/automotive",
+        "inner_text": "Automotive",
+        "inner_html": "Automotive"
+      },
+      {
+        "href": "https://www.microsoft.com/en-us/enterprise/government",
+        "inner_text": "Government",
+        "inner_html": "Government"
+      },
+      {
+        "href": "https://www.microsoft.com/en-us/enterprise/health",
+        "inner_text": "Healthcare",
+        "inner_html": "Healthcare"
+      },
+      {
+        "href": "https://www.microsoft.com/en-us/enterprise/manufacturing",
+        "inner_text": "Manufacturing",
+        "inner_html": "Manufacturing"
+      },
+      {
+        "href": "https://www.microsoft.com/en-us/enterprise/financial-services/banking-and-capital-markets",
+        "inner_text": "Financial services",
+        "inner_html": "Financial services"
+      },
+      {
+        "href": "https://www.microsoft.com/en-us/enterprise/retail-consumer-goods",
+        "inner_text": "Retail",
+        "inner_html": "Retail"
+      },
+      {
+        "href": "https://developer.microsoft.com/",
+        "inner_text": "Developer Center",
+        "inner_html": "Developer Center"
+      },
+      {
+        "href": "https://developer.microsoft.com/en-us/store/register",
+        "inner_text": "Microsoft developer program",
+        "inner_html": "Microsoft developer program"
+      },
+      {
+        "href": "https://channel9.msdn.com/",
+        "inner_text": "Channel 9",
+        "inner_html": "Channel 9"
+      },
+      {
+        "href": "https://developer.microsoft.com/en-us/office",
+        "inner_text": "Office Dev Center",
+        "inner_html": "Office Dev Center"
+      },
+      {
+        "href": "https://www.microsoft.com/en-us/garage/",
+        "inner_text": "Microsoft Garage",
+        "inner_html": "Microsoft Garage"
+      },
+      {
+        "href": "https://careers.microsoft.com/",
+        "inner_text": "Careers",
+        "inner_html": "Careers"
+      },
+      {
+        "href": "https://www.microsoft.com/en-us/about",
+        "inner_text": "About Microsoft",
+        "inner_html": "About Microsoft"
+      },
+      {
+        "href": "https://news.microsoft.com/",
+        "inner_text": "Company news",
+        "inner_html": "Company news"
+      },
+      {
+        "href": "https://privacy.microsoft.com/en-us",
+        "inner_text": "Privacy at Microsoft",
+        "inner_html": "Privacy at Microsoft"
+      },
+      {
+        "href": "https://www.microsoft.com/investor/default.aspx",
+        "inner_text": "Investors",
+        "inner_html": "Investors"
+      },
+      {
+        "href": "https://www.microsoft.com/en-us/diversity/",
+        "inner_text": "Diversity and inclusion",
+        "inner_html": "Diversity and inclusion"
+      },
+      {
+        "href": "https://www.microsoft.com/en-us/accessibility",
+        "inner_text": "Accessibility",
+        "inner_html": "Accessibility"
+      },
+      {
+        "href": "https://www.microsoft.com/en-us/security/default.aspx",
+        "inner_text": "Security",
+        "inner_html": "Security"
+      },
+      {
+        "href": "https://store.office.com/worldwide.aspx?rs=en-us&returnURL=https%3a%2f%2fwww.office.com%2f&cmapid=2",
+        "inner_text": "English (United States)",
+        "inner_html": "English (United States)"
+      },
+      {
+        "href": "https://www.microsoft.com/en-us/sitemap1.aspx",
+        "inner_text": "Sitemap",
+        "inner_html": "Sitemap"
+      },
+      {
+        "href": "https://support.microsoft.com/contactus",
+        "inner_text": "Contact Microsoft",
+        "inner_html": "Contact Microsoft"
+      },
+      {
+        "href": "https://go.microsoft.com/fwlink/?LinkID=206977",
+        "inner_text": "Terms of use",
+        "inner_html": "Terms of use"
+      },
+      {
+        "href": "https://www.microsoft.com/trademarks",
+        "inner_text": "Trademarks",
+        "inner_html": "Trademarks"
+      },
+      {
+        "href": "https://www.microsoft.com/en-us/devices/safety-and-eco",
+        "inner_text": "Safety & eco",
+        "inner_html": "Safety &amp; eco"
+      },
+      {
+        "href": "https://choice.microsoft.com/",
+        "inner_text": "About our ads",
+        "inner_html": "About our ads"
+      }
+    ],
+    "social": [
+      {
+        "href": "https://www.linkedin.com/company/3509299",
+        "inner_text": "",
+        "inner_html": "<picture class=\"lazy\">\n                <source type=\"image/png\" media=\"(-ms-high-contrast: white-on-black)\" data-srcset=\"https://officehome.cdn.office.net/images/content/images/linkedin-hc-77fefd2418.png\">\n                <img class=\"social-media__link--image\" data-src=\"https://officehome.cdn.office.net/images/content/images/linkedin-refresh-02734a460c.png\" aria-hidden=\"true\" alt=\"\">\n            </picture>"
+      }
+    ],
+    "keywords": [
+      {
+        "href": "https://go.microsoft.com/fwlink/?LinkId=521839",
+        "inner_text": "Privacy Statement",
+        "inner_html": "Privacy Statement"
+      },
+      {
+        "href": "https://www.office.com/login?es=Click&ru=%2F&msafed=0",
+        "inner_text": "Sign in to your account\nSign in",
+        "inner_html": "<span class=\"mectrl_screen_reader_text\">Sign in to your account</span><div class=\"mectrl_topHeader\" aria-hidden=\"true\" role=\"presentation\"><div class=\"mectrl_header_text mectrl_truncate\">Sign in</div><div id=\"mectrl_headerPicture\" class=\"mectrl_profilepic mectrl_glyph mectrl_signIn_circle_glyph\" aria-hidden=\"true\" role=\"presentation\"></div></div>"
+      },
+      {
+        "href": "https://www.office.com/login?es=Click&ru=%2F",
+        "inner_text": "Sign in",
+        "inner_html": "Sign in"
+      },
+      {
+        "href": "https://privacy.microsoft.com/en-us",
+        "inner_text": "Privacy at Microsoft",
+        "inner_html": "Privacy at Microsoft"
+      }
+    ]
+  },
+  "unsafeForms": [],
+  "browsing_history": [
+    "https://www.office.com/"
+  ],
+  "websockets": {},
+  "cookies": [
+    {
+      "name": "SRM_I",
+      "value": "23D6464F581E66C513D156725C1E6078",
+      "domain": "c.bing.com",
+      "path": "/",
+      "expires": 1655231425.835002,
+      "size": 37,
+      "httpOnly": false,
+      "secure": true,
+      "session": false,
+      "sameSite": "None",
+      "expiresUTC": "2022-06-14T18:30:25.835Z",
+      "expiresDays": 390,
+      "firstPartyStorage": false
+    },
+    {
+      "name": "SRM_B",
+      "value": "23D6464F581E66C513D156725C1E6078",
+      "domain": "c.bing.com",
+      "path": "/",
+      "expires": 1655231425.834982,
+      "size": 37,
+      "httpOnly": false,
+      "secure": true,
+      "session": false,
+      "sameSite": "None",
+      "expiresUTC": "2022-06-14T18:30:25.834Z",
+      "expiresDays": 390,
+      "firstPartyStorage": false
+    },
+    {
+      "name": "MUID",
+      "value": "23D6464F581E66C513D156725C1E6078",
+      "domain": "bing.com",
+      "path": "/",
+      "expires": 1655231425.834932,
+      "size": 36,
+      "httpOnly": false,
+      "secure": true,
+      "session": false,
+      "sameSite": "None",
+      "expiresUTC": "2022-06-14T18:30:25.834Z",
+      "expiresDays": 390,
+      "firstPartyStorage": false
+    },
+    {
+      "name": "MUID",
+      "value": "23D6464F581E66C513D156725C1E6078",
+      "domain": "microsoft.com",
+      "path": "/",
+      "expires": 1655231425.765105,
+      "size": 36,
+      "httpOnly": false,
+      "secure": true,
+      "session": false,
+      "sameSite": "None",
+      "expiresUTC": "2022-06-14T18:30:25.765Z",
+      "expiresDays": 390,
+      "firstPartyStorage": false
+    },
+    {
+      "name": "MUID",
+      "value": "013784FC99A76FBE0AA694C198906EF9",
+      "domain": "office.com",
+      "path": "/",
+      "expires": 1655231424.833573,
+      "size": 36,
+      "httpOnly": false,
+      "secure": true,
+      "session": false,
+      "expiresUTC": "2022-06-14T18:30:24.833Z",
+      "expiresDays": 390,
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.office.com/",
+            "source": "set in Set-Cookie HTTP response header for https://www.office.com/"
+          }
+        ],
+        "type": "Cookie.HTTP",
+        "timestamp": "2021-05-20T18:30:24.838Z",
+        "location": "about:blank"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "MC1",
+      "value": "GUID=cd0dfea03d304ee4b6aff9be8e9b202d&HASH=cd0d&LV=202105&V=4&LU=1621535425571",
+      "domain": "microsoft.com",
+      "path": "/",
+      "expires": 1653071425.594125,
+      "size": 81,
+      "httpOnly": false,
+      "secure": true,
+      "session": false,
+      "sameSite": "None",
+      "expiresUTC": "2022-05-20T18:30:25.594Z",
+      "expiresDays": 365,
+      "firstPartyStorage": false
+    },
+    {
+      "name": "MSFPC",
+      "value": "GUID=cd0dfea03d304ee4b6aff9be8e9b202d&HASH=cd0d&LV=202105&V=4&LU=1621535425571",
+      "domain": "www.office.com",
+      "path": "/",
+      "expires": 1653071425,
+      "size": 83,
+      "httpOnly": false,
+      "secure": true,
+      "session": false,
+      "sameSite": "None",
+      "expiresUTC": "2022-05-20T18:30:25.000Z",
+      "expiresDays": 365,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 16,
+            "lineNumber": 1,
+            "fileName": "https://web.vortex.data.microsoft.com/collect/v1/t.js?ver=%272.1%27&name=%27Ms.Webi.PageView%27&time=%272021-05-20T18%3A30%3A25.433Z%27&os=%27Unix%27&appId=%27JS%3Awww.office.com-unauth%27&*baseType=%27Ms.Content.PageView%27&-ver=%271.0%27&-impressionGuid=%27f20b78a6-aa5c-4153-80e8-658dee029eab%27&-pageName=%27UnauthOhp%27&-uri=%27https%3A%2F%2Fwww.office.com%2F%27&-pageTags=%27%7B%22metaTags%22%3A%7B%22expengine%22%3A%22office.com%22%2C%22expstatus%22%3A%22prod%22%2C%22ver%22%3A%225%22%2C%22ms.lang%22%3A%22en%22%2C%22ms.loc%22%3A%22US%22%2C%22ms.ocpub.assetid%22%3A%22UnauthOhp%22%2C%22ms.env%22%3A%22prod%22%2C%22ms.sitever%22%3A%225%22%2C%22ms.flightid%22%3A%22tfltile%7Ccsslicensing%7Cmsasbstringa%7Ctemplatepvpwa%7Cremoveteams%7Cvisiodocaspx%7Ctemplatepreview%7Cwachostprodhwa%7Ctemplatepreviewsih%7Cthumbnailcall%7Cshelldtt%7Cewuseraction%7Cmeetnow%7Cidlechunks%7CP-D-68024-1-40%22%7D%7D%27&-behavior=0&-resHeight=927&-resWidth=1680&-market=%27en-US%27&*cookieEnabled=true&*flashInstalled=false&*isJs=true&*title=%27Office%20365%20Login%20%7C%20Microsoft%20Office%27&*isLoggedIn=false&ext-javascript-ver=%271.1%27&ext-javascript-libVer=%274.1.0%27&ext-javascript-domain=%27www.office.com%27&ext-user-localId=%27t%3A013784FC99A76FBE0AA694C198906EF9%27",
+            "source": "    at https://web.vortex.data.microsoft.com/collect/v1/t.js?ver=%272.1%27&name=%27Ms.Webi.PageView%27&time=%272021-05-20T18%3A30%3A25.433Z%27&os=%27Unix%27&appId=%27JS%3Awww.office.com-unauth%27&*baseType=%27Ms.Content.PageView%27&-ver=%271.0%27&-impressionGuid=%27f20b78a6-aa5c-4153-80e8-658dee029eab%27&-pageName=%27UnauthOhp%27&-uri=%27https%3A%2F%2Fwww.office.com%2F%27&-pageTags=%27%7B%22metaTags%22%3A%7B%22expengine%22%3A%22office.com%22%2C%22expstatus%22%3A%22prod%22%2C%22ver%22%3A%225%22%2C%22ms.lang%22%3A%22en%22%2C%22ms.loc%22%3A%22US%22%2C%22ms.ocpub.assetid%22%3A%22UnauthOhp%22%2C%22ms.env%22%3A%22prod%22%2C%22ms.sitever%22%3A%225%22%2C%22ms.flightid%22%3A%22tfltile%7Ccsslicensing%7Cmsasbstringa%7Ctemplatepvpwa%7Cremoveteams%7Cvisiodocaspx%7Ctemplatepreview%7Cwachostprodhwa%7Ctemplatepreviewsih%7Cthumbnailcall%7Cshelldtt%7Cewuseraction%7Cmeetnow%7Cidlechunks%7CP-D-68024-1-40%22%7D%7D%27&-behavior=0&-resHeight=927&-resWidth=1680&-market=%27en-US%27&*cookieEnabled=true&*flashInstalled=false&*isJs=true&*title=%27Office%20365%20Login%20%7C%20Microsoft%20Office%27&*isLoggedIn=false&ext-javascript-ver=%271.1%27&ext-javascript-libVer=%274.1.0%27&ext-javascript-domain=%27www.office.com%27&ext-user-localId=%27t%3A013784FC99A76FBE0AA694C198906EF9%27:1:16"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T18:30:25.618Z",
+        "location": "https://www.office.com/"
+      },
+      "firstPartyStorage": false
+    },
+    {
+      "name": "MS0",
+      "value": "3631c75927e44801b3a836ff5a176519",
+      "domain": "microsoft.com",
+      "path": "/",
+      "expires": 1621537225.594188,
+      "size": 35,
+      "httpOnly": false,
+      "secure": true,
+      "session": false,
+      "sameSite": "None",
+      "expiresUTC": "2021-05-20T19:00:25.594Z",
+      "expiresDays": 0.02,
+      "firstPartyStorage": false
+    },
+    {
+      "name": "ANONCHK",
+      "value": "0",
+      "domain": "c1.microsoft.com",
+      "path": "/",
+      "expires": 1621536025.899431,
+      "size": 8,
+      "httpOnly": false,
+      "secure": true,
+      "session": false,
+      "sameSite": "None",
+      "expiresUTC": "2021-05-20T18:40:25.899Z",
+      "expiresDays": 0.01,
+      "firstPartyStorage": false
+    },
+    {
+      "name": "OH.SID",
+      "value": "49d9ed53-2e81-4f54-87ab-1f3b30620276",
+      "domain": "www.office.com",
+      "path": "/",
+      "expires": -1,
+      "size": 42,
+      "httpOnly": true,
+      "secure": true,
+      "session": true,
+      "sameSite": "None",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.office.com/",
+            "source": "set in Set-Cookie HTTP response header for https://www.office.com/"
+          }
+        ],
+        "type": "Cookie.HTTP",
+        "timestamp": "2021-05-20T18:30:24.838Z",
+        "location": "about:blank"
+      },
+      "firstPartyStorage": false
+    },
+    {
+      "name": "OH.DCAffinity",
+      "value": "OH-suk",
+      "domain": "www.office.com",
+      "path": "/",
+      "expires": -1,
+      "size": 19,
+      "httpOnly": true,
+      "secure": true,
+      "session": true,
+      "sameSite": "None",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.office.com/",
+            "source": "set in Set-Cookie HTTP response header for https://www.office.com/"
+          }
+        ],
+        "type": "Cookie.HTTP",
+        "timestamp": "2021-05-20T18:30:24.838Z",
+        "location": "about:blank"
+      },
+      "firstPartyStorage": false
+    },
+    {
+      "name": "SM",
+      "value": "C",
+      "domain": "c1.microsoft.com",
+      "path": "/",
+      "expires": -1,
+      "size": 3,
+      "httpOnly": false,
+      "secure": true,
+      "session": true,
+      "sameSite": "None",
+      "firstPartyStorage": false
+    }
+  ],
+  "localStorage": {},
+  "beacons": [
+    {
+      "url": "https://officehome.cdn.office.net/images/content/images/instagram-refresh-5d315a943e.png",
+      "query": null,
+      "filter": "/images/instagram-",
+      "listName": "fanboy-annoyance.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.office.com/",
+            "source": "requested from https://www.office.com/ and matched with fanboy-annoyance.txt filter /images/instagram-"
+          }
+        ],
+        "timestamp": "2021-05-20T18:30:30.485Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://officehome.cdn.office.net/images/content/images/twitter-refresh-93ca1a80ff.png",
+      "query": null,
+      "filter": "/images/*twitter-",
+      "listName": "fanboy-annoyance.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.office.com/",
+            "source": "requested from https://www.office.com/ and matched with fanboy-annoyance.txt filter /images/*twitter-"
+          }
+        ],
+        "timestamp": "2021-05-20T18:30:30.484Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://officehome.cdn.office.net/images/content/images/facebook-refresh-090a700c0f.png",
+      "query": null,
+      "filter": "/images/facebook",
+      "listName": "fanboy-annoyance.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.office.com/",
+            "source": "requested from https://www.office.com/ and matched with fanboy-annoyance.txt filter /images/facebook"
+          }
+        ],
+        "timestamp": "2021-05-20T18:30:30.483Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://officehome.cdn.office.net/images/content/images/linkedin-refresh-02734a460c.png",
+      "query": null,
+      "filter": "/Images/linkedin",
+      "listName": "fanboy-annoyance.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.office.com/",
+            "source": "requested from https://www.office.com/ and matched with fanboy-annoyance.txt filter /Images/linkedin"
+          }
+        ],
+        "timestamp": "2021-05-20T18:30:30.482Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://browser.pipe.aria.microsoft.com/Collector/3.0/?qsp=true&content-type=application%2Fbond-compact-binary&client-id=NO_AUTH&sdk-version=AWT-Web-JS-1.6.1&x-apikey=ea6758984c4b43529f9929667d8d3198-c52d4a8b-47fe-4fdf-99b8-5f897ff4e33b-7365&client-time-epoch-millis=1621535427468&time-delta-to-apply-millis=901",
+      "query": {
+        "qsp": true,
+        "content-type": "application/bond-compact-binary",
+        "client-id": "NO_AUTH",
+        "sdk-version": "AWT-Web-JS-1.6.1",
+        "x-apikey": "ea6758984c4b43529f9929667d8d3198-c52d4a8b-47fe-4fdf-99b8-5f897ff4e33b-7365",
+        "client-time-epoch-millis": 1621535427468,
+        "time-delta-to-apply-millis": 901
+      },
+      "filter": "||microsoft.com/Collector/",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.office.com/",
+            "source": "requested from https://www.office.com/ and matched with easyprivacy.txt filter ||microsoft.com/Collector/"
+          }
+        ],
+        "timestamp": "2021-05-20T18:30:27.473Z"
+      },
+      "occurrances": 2
+    },
+    {
+      "url": "https://c1.microsoft.com/c.gif?DI=4050&did=1&t=&CtsSyncId=591D411558224E9CBE22D16C1F16036C&MUID=23D6464F581E66C513D156725C1E6078",
+      "query": {
+        "DI": 4050,
+        "did": 1,
+        "t": "",
+        "CtsSyncId": "591D411558224E9CBE22D16C1F16036C",
+        "MUID": "23D6464F581E66C513D156725C1E6078"
+      },
+      "filter": "://c1.*/c.gif?",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.office.com/",
+            "source": "requested from https://www.office.com/ and matched with easyprivacy.txt filter ://c1.*/c.gif?"
+          }
+        ],
+        "timestamp": "2021-05-20T18:30:25.838Z"
+      },
+      "occurrances": 2
+    },
+    {
+      "url": "https://c.bing.com/c.gif?DI=4050&did=1&t=&CtsSyncId=591D411558224E9CBE22D16C1F16036C&RedC=c1.microsoft.com&MXFR=23D6464F581E66C513D156725C1E6078",
+      "query": {
+        "DI": 4050,
+        "did": 1,
+        "t": "",
+        "CtsSyncId": "591D411558224E9CBE22D16C1F16036C",
+        "RedC": "c1.microsoft.com",
+        "MXFR": "23D6464F581E66C513D156725C1E6078"
+      },
+      "filter": "://c.*/c.gif?",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.office.com/",
+            "source": "requested from https://www.office.com/ and matched with easyprivacy.txt filter ://c.*/c.gif?"
+          }
+        ],
+        "timestamp": "2021-05-20T18:30:25.769Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://web.vortex.data.microsoft.com/collect/v1",
+      "query": null,
+      "filter": "||microsoft.com/collect/",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.office.com/",
+            "source": "requested from https://www.office.com/ and matched with easyprivacy.txt filter ||microsoft.com/collect/"
+          }
+        ],
+        "timestamp": "2021-05-20T18:30:25.632Z"
+      },
+      "occurrances": 2
+    },
+    {
+      "url": "https://web.vortex.data.microsoft.com/collect/v1/t.js?ver=%272.1%27&name=%27Ms.Webi.PageView%27&time=%272021-05-20T18%3A30%3A25.433Z%27&os=%27Unix%27&appId=%27JS%3Awww.office.com-unauth%27&*baseType=%27Ms.Content.PageView%27&-ver=%271.0%27&-impressionGuid=%27f20b78a6-aa5c-4153-80e8-658dee029eab%27&-pageName=%27UnauthOhp%27&-uri=%27https%3A%2F%2Fwww.office.com%2F%27&-pageTags=%27%7B%22metaTags%22%3A%7B%22expengine%22%3A%22office.com%22%2C%22expstatus%22%3A%22prod%22%2C%22ver%22%3A%225%22%2C%22ms.lang%22%3A%22en%22%2C%22ms.loc%22%3A%22US%22%2C%22ms.ocpub.assetid%22%3A%22UnauthOhp%22%2C%22ms.env%22%3A%22prod%22%2C%22ms.sitever%22%3A%225%22%2C%22ms.flightid%22%3A%22tfltile%7Ccsslicensing%7Cmsasbstringa%7Ctemplatepvpwa%7Cremoveteams%7Cvisiodocaspx%7Ctemplatepreview%7Cwachostprodhwa%7Ctemplatepreviewsih%7Cthumbnailcall%7Cshelldtt%7Cewuseraction%7Cmeetnow%7Cidlechunks%7CP-D-68024-1-40%22%7D%7D%27&-behavior=0&-resHeight=927&-resWidth=1680&-market=%27en-US%27&*cookieEnabled=true&*flashInstalled=false&*isJs=true&*title=%27Office%20365%20Login%20%7C%20Microsoft%20Office%27&*isLoggedIn=false&ext-javascript-ver=%271.1%27&ext-javascript-libVer=%274.1.0%27&ext-javascript-domain=%27www.office.com%27&ext-user-localId=%27t%3A013784FC99A76FBE0AA694C198906EF9%27",
+      "query": {
+        "ver": "'2.1'",
+        "name": "'Ms.Webi.PageView'",
+        "time": "'2021-05-20T18:30:25.433Z'",
+        "os": "'Unix'",
+        "appId": "'JS:www.office.com-unauth'",
+        "*baseType": "'Ms.Content.PageView'",
+        "-ver": "'1.0'",
+        "-impressionGuid": "'f20b78a6-aa5c-4153-80e8-658dee029eab'",
+        "-pageName": "'UnauthOhp'",
+        "-uri": "'https://www.office.com/'",
+        "-pageTags": "'{\"metaTags\":{\"expengine\":\"office.com\",\"expstatus\":\"prod\",\"ver\":\"5\",\"ms.lang\":\"en\",\"ms.loc\":\"US\",\"ms.ocpub.assetid\":\"UnauthOhp\",\"ms.env\":\"prod\",\"ms.sitever\":\"5\",\"ms.flightid\":\"tfltile|csslicensing|msasbstringa|templatepvpwa|removeteams|visiodocaspx|templatepreview|wachostprodhwa|templatepreviewsih|thumbnailcall|shelldtt|ewuseraction|meetnow|idlechunks|P-D-68024-1-40\"}}'",
+        "-behavior": 0,
+        "-resHeight": 927,
+        "-resWidth": 1680,
+        "-market": "'en-US'",
+        "*cookieEnabled": true,
+        "*flashInstalled": false,
+        "*isJs": true,
+        "*title": "'Office 365 Login | Microsoft Office'",
+        "*isLoggedIn": false,
+        "ext-javascript-ver": "'1.1'",
+        "ext-javascript-libVer": "'4.1.0'",
+        "ext-javascript-domain": "'www.office.com'",
+        "ext-user-localId": "'t:013784FC99A76FBE0AA694C198906EF9'"
+      },
+      "filter": "||microsoft.com/collect/",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.office.com/",
+            "source": "requested from https://www.office.com/ and matched with easyprivacy.txt filter ||microsoft.com/collect/"
+          }
+        ],
+        "timestamp": "2021-05-20T18:30:25.455Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://wcpstatic.microsoft.com/mscc/lib/v2/wcp-consent.js",
+      "query": null,
+      "filter": "||microsoft.com/mscc/",
+      "listName": "fanboy-annoyance.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.office.com/",
+            "source": "requested from https://www.office.com/ and matched with fanboy-annoyance.txt filter ||microsoft.com/mscc/"
+          }
+        ],
+        "timestamp": "2021-05-20T18:30:24.875Z"
+      },
+      "occurrances": 1
+    }
+  ],
+  "hosts": {
+    "requests": {
+      "firstParty": [
+        "office.com"
+      ],
+      "thirdParty": [
+        "www.office.com",
+        "officehome.cdn.office.net",
+        "www.microsoft.com",
+        "statics-marketingsites-neu-ms-com.akamaized.net",
+        "img-prod-cms-rt-microsoft-com.akamaized.net",
+        "wcpstatic.microsoft.com",
+        "mem.gfx.ms",
+        "c.s-microsoft.com",
+        "web.vortex.data.microsoft.com",
+        "c1.microsoft.com",
+        "c.bing.com",
+        "browser.pipe.aria.microsoft.com"
+      ]
+    },
+    "beacons": {
+      "firstParty": [],
+      "thirdParty": [
+        "browser.pipe.aria.microsoft.com",
+        "c1.microsoft.com",
+        "c.bing.com",
+        "web.vortex.data.microsoft.com"
+      ]
+    },
+    "cookies": {
+      "firstParty": [
+        "office.com"
+      ],
+      "thirdParty": [
+        "www.office.com",
+        "microsoft.com",
+        "bing.com",
+        "c.bing.com",
+        "c1.microsoft.com"
+      ]
+    },
+    "localStorage": {
+      "firstParty": [],
+      "thirdParty": []
+    },
+    "links": {
+      "firstParty": [],
+      "thirdParty": [
+        "www.office.com",
+        "go.microsoft.com",
+        "www.microsoft.com",
+        "products.office.com",
+        "blogs.office.com",
+        "templates.office.com",
+        "support.office.com",
+        "office.live.com",
+        "www.xbox.com",
+        "support.microsoft.com",
+        "onedrive.live.com",
+        "outlook.live.com",
+        "www.skype.com",
+        "www.onenote.com",
+        "azure.microsoft.com",
+        "powerplatform.microsoft.com",
+        "visualstudio.microsoft.com",
+        "developer.microsoft.com",
+        "docs.microsoft.com",
+        "powerapps.microsoft.com",
+        "signup.live.com",
+        "www.linkedin.com",
+        "account.microsoft.com",
+        "channel9.msdn.com",
+        "careers.microsoft.com",
+        "news.microsoft.com",
+        "privacy.microsoft.com",
+        "store.office.com",
+        "choice.microsoft.com"
+      ]
+    }
+  }
+}

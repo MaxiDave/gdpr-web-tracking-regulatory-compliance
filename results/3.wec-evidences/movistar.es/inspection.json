@@ -1,0 +1,586 @@
+{
+  "title": "Website Evidence Collection",
+  "task_description": null,
+  "uri_ins": "https://movistar.es",
+  "uri_refs": [
+    "https://movistar.es"
+  ],
+  "uri_dest": "https://movistar.es/",
+  "uri_redirects": [],
+  "secure_connection": {
+    "https_support": true,
+    "redirects": [
+      "http://www.movistar.es/",
+      "https://www.movistar.es/"
+    ],
+    "https_redirect": true
+  },
+  "host": "movistar.es",
+  "script": {
+    "host": "sfod",
+    "version": {
+      "npm": "1.0.0",
+      "commit": null
+    },
+    "cmd_args": "-q --overwrite https://movistar.es -- --ignore-certificate-errors",
+    "environment": {
+      "CHROME_DESKTOP": "code-url-handler.desktop"
+    },
+    "node_version": "v14.17.0"
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "HeadlessChrome/80.0.3987.0",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3617.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "5.8.0-53-generic"
+    },
+    "extra_headers": {},
+    "preset_cookies": {}
+  },
+  "start_time": "2021-05-20T15:24:49.017Z",
+  "end_time": "2021-05-20T15:24:56.126Z",
+  "links": {
+    "firstParty": [],
+    "thirdParty": [],
+    "social": [],
+    "keywords": []
+  },
+  "unsafeForms": [],
+  "browsing_history": [
+    "https://movistar.es/"
+  ],
+  "websockets": {},
+  "cookies": [
+    {
+      "name": "_ga",
+      "value": "GA1.2.755048331.1621524291",
+      "domain": "movistar.es",
+      "path": "/",
+      "expires": 1684596291,
+      "size": 29,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2023-05-20T15:24:51.000Z",
+      "expiresDays": 730,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 495,
+            "lineNumber": 30,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "zc",
+            "source": "    at zc (https://www.google-analytics.com/analytics.js:30:495)"
+          },
+          {
+            "columnNumber": 15,
+            "lineNumber": 60,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "ma",
+            "source": "    at ma (https://www.google-analytics.com/analytics.js:60:15)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T15:24:51.349Z",
+        "location": "https://movistar.es"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "_mt-uuid",
+      "value": "c5810a86-0fa8-49ad-af05-d12414b48453",
+      "domain": "mantix.col.movistar.es",
+      "path": "/",
+      "expires": 1684596290.545069,
+      "size": 44,
+      "httpOnly": true,
+      "secure": true,
+      "session": false,
+      "sameSite": "None",
+      "expiresUTC": "2023-05-20T15:24:50.545Z",
+      "expiresDays": 730,
+      "firstPartyStorage": false
+    },
+    {
+      "name": "_gcl_au",
+      "value": "1.1.1052697428.1621524290",
+      "domain": "movistar.es",
+      "path": "/",
+      "expires": 1629300290,
+      "size": 32,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2021-08-18T15:24:50.000Z",
+      "expiresDays": 90,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 1258,
+            "lineNumber": 6021,
+            "fileName": "https://www.googletagmanager.com/gtm.js?id=GTM-TQWMMR&l=dataLayerGTM",
+            "functionName": "Ef",
+            "source": "    at Ef (https://www.googletagmanager.com/gtm.js?id=GTM-TQWMMR&l=dataLayerGTM:6021:1258)"
+          },
+          {
+            "columnNumber": 179,
+            "lineNumber": 6023,
+            "fileName": "https://www.googletagmanager.com/gtm.js?id=GTM-TQWMMR&l=dataLayerGTM",
+            "functionName": "If",
+            "source": "    at If (https://www.googletagmanager.com/gtm.js?id=GTM-TQWMMR&l=dataLayerGTM:6023:179)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T15:24:50.265Z",
+        "location": "https://movistar.es"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "_gid",
+      "value": "GA1.2.171454753.1621524291",
+      "domain": "movistar.es",
+      "path": "/",
+      "expires": 1621610691,
+      "size": 30,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2021-05-21T15:24:51.000Z",
+      "expiresDays": 1,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 495,
+            "lineNumber": 30,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "zc",
+            "source": "    at zc (https://www.google-analytics.com/analytics.js:30:495)"
+          },
+          {
+            "columnNumber": 401,
+            "lineNumber": 59,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "ma",
+            "source": "    at ma (https://www.google-analytics.com/analytics.js:59:401)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T15:24:51.350Z",
+        "location": "https://movistar.es"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "AMP_TOKEN",
+      "value": "%24NOT_FOUND",
+      "domain": "movistar.es",
+      "path": "/",
+      "expires": 1621527891,
+      "size": 21,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2021-05-20T16:24:51.000Z",
+      "expiresDays": 0.04,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 495,
+            "lineNumber": 30,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "zc",
+            "source": "    at zc (https://www.google-analytics.com/analytics.js:30:495)"
+          },
+          {
+            "columnNumber": 124,
+            "lineNumber": 36,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "xc",
+            "source": "    at xc (https://www.google-analytics.com/analytics.js:36:124)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T15:24:51.348Z",
+        "location": "https://movistar.es"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "TS97bd1ea1029",
+      "value": "08c8cbb80bab2800e27c36c0a128dcd8eff217cafce297414dcc7c6294e0353d399c8c47d226aa49090939e2117262ab",
+      "domain": "www.movistar.es",
+      "path": "/",
+      "expires": 1621524319.851401,
+      "size": 109,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2021-05-20T15:25:19.851Z",
+      "expiresDays": 0,
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.movistar.es/estaticos/404.html",
+            "source": "set in Set-Cookie HTTP response header for https://www.movistar.es/estaticos/404.html"
+          }
+        ],
+        "type": "Cookie.HTTP",
+        "timestamp": "2021-05-20T15:24:49.854Z",
+        "location": "https://movistar.es/"
+      },
+      "firstPartyStorage": false
+    },
+    {
+      "name": "TS97bd1ea1029",
+      "value": "08c8cbb80bab2800fbd2990b6cb41bac7f55e5b8cfd3cfc1c83f3e193ec100ffff607ab4ee1295f16fbb8ea09165d57b",
+      "domain": "movistar.es",
+      "path": "/",
+      "expires": 1621524319.508465,
+      "size": 109,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2021-05-20T15:25:19.508Z",
+      "expiresDays": 0,
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://movistar.es/",
+            "source": "set in Set-Cookie HTTP response header for https://movistar.es/"
+          }
+        ],
+        "type": "Cookie.HTTP",
+        "timestamp": "2021-05-20T15:24:49.512Z",
+        "location": "about:blank"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "JSESSIONID",
+      "value": "JdnRgm1BRhRMNG1zqhd0HyTxKzRRj0C59p2ZJrJPhYQR36Sg36zJ!2114220480",
+      "domain": "movistar.es",
+      "path": "/",
+      "expires": -1,
+      "size": 73,
+      "httpOnly": true,
+      "secure": false,
+      "session": true,
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://movistar.es/",
+            "source": "set in Set-Cookie HTTP response header for https://movistar.es/"
+          }
+        ],
+        "type": "Cookie.HTTP",
+        "timestamp": "2021-05-20T15:24:49.512Z",
+        "location": "about:blank"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "TS01a2d395",
+      "value": "019b07b3d6703c16665ca07cda9906450bcb29807a7d3ccdd3ea1ef8f6aaefa95d24b561f3a1a6b4530da0c3cd59761c7179365beb91cc257ad98c02347be5a83622ce403b",
+      "domain": "movistar.es",
+      "path": "/",
+      "expires": -1,
+      "size": 148,
+      "httpOnly": false,
+      "secure": false,
+      "session": true,
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://movistar.es/",
+            "source": "set in Set-Cookie HTTP response header for https://movistar.es/"
+          }
+        ],
+        "type": "Cookie.HTTP",
+        "timestamp": "2021-05-20T15:24:49.512Z",
+        "location": "about:blank"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "TS388cebcb027",
+      "value": "08c8cbb80bab200097a2757e454623b0544cce6b72e85aaef8824dcdf48bcf075627183af292edc908c8c5e3381130007dcd6d99d946110655e595fe7ca084092228e7e5015768241e791ea2b758f3136df15a1fc8410f1a648220832c130c11",
+      "domain": "movistar.es",
+      "path": "/",
+      "expires": -1,
+      "size": 205,
+      "httpOnly": false,
+      "secure": false,
+      "session": true,
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://movistar.es/",
+            "source": "set in Set-Cookie HTTP response header for https://movistar.es/"
+          }
+        ],
+        "type": "Cookie.HTTP",
+        "timestamp": "2021-05-20T15:24:49.512Z",
+        "location": "about:blank"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "TS0105fdb4",
+      "value": "019b07b3d6ceee3986239cf731e5214cc3fa6fda425178c4939eb5baeb63914ce70cb1edb57057bb3af1306d5276edae21e176fd33",
+      "domain": "www.movistar.es",
+      "path": "/",
+      "expires": -1,
+      "size": 116,
+      "httpOnly": false,
+      "secure": false,
+      "session": true,
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.movistar.es/estaticos/404.html",
+            "source": "set in Set-Cookie HTTP response header for https://www.movistar.es/estaticos/404.html"
+          }
+        ],
+        "type": "Cookie.HTTP",
+        "timestamp": "2021-05-20T15:24:49.854Z",
+        "location": "https://movistar.es/"
+      },
+      "firstPartyStorage": false
+    },
+    {
+      "name": "TS388cebcb027",
+      "value": "08c8cbb80bab20009e125ccabe72218d388f98dfc30429b7bc0c022875722d29f7868ab76b04059208f97ef61d1130002d0c28f1fe98ea16d0d28022fb6c26490d0ed0e6c7f0f15f4a84770d436fd9eb4875b1cd5f6a74d43b66adb135f902bd",
+      "domain": "www.movistar.es",
+      "path": "/",
+      "expires": -1,
+      "size": 205,
+      "httpOnly": false,
+      "secure": false,
+      "session": true,
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.movistar.es/estaticos/404.html",
+            "source": "set in Set-Cookie HTTP response header for https://www.movistar.es/estaticos/404.html"
+          }
+        ],
+        "type": "Cookie.HTTP",
+        "timestamp": "2021-05-20T15:24:49.854Z",
+        "location": "https://movistar.es/"
+      },
+      "firstPartyStorage": false
+    },
+    {
+      "name": "_mt-sessid",
+      "value": "1621524290491",
+      "domain": "mantix.col.movistar.es",
+      "path": "/",
+      "expires": -1,
+      "size": 23,
+      "httpOnly": true,
+      "secure": true,
+      "session": true,
+      "sameSite": "None",
+      "firstPartyStorage": false
+    },
+    {
+      "name": "_mt-sessorigin",
+      "value": "",
+      "domain": "mantix.col.movistar.es",
+      "path": "/",
+      "expires": -1,
+      "size": 14,
+      "httpOnly": true,
+      "secure": true,
+      "session": true,
+      "sameSite": "None",
+      "firstPartyStorage": false
+    }
+  ],
+  "localStorage": {},
+  "beacons": [
+    {
+      "url": "https://www.google-analytics.com/collect?v=1&_v=j90&a=242371666&t=pageview&ni=0&_s=2&dl=https%3A%2F%2Fwww.movistar.es%2Festaticos%2F404.html&dr=https%3A%2F%2Fmovistar.es%2F&ul=en-us&de=UTF-8&dt=Movistar&sd=24-bit&sr=1680x927&vp=1664x911&je=0&_u=aGBAAEArAAQC~&cid=755048331.1621524291&tid=UA-46169604-5&_gid=171454753.1621524291&gtm=2wg5c1TQWMMR&cd4=not-set&cd11=non-set&cd14=&cd18=sin-origen&cd30=&cd31=not-set&cd32=not-set&cd33=0&cd50=&cd81=https%3A%2F%2Fwww.movistar.es%2Festaticos%2F404.html&cd89=false&cd111=not-set&cd135=Mozilla%2F5.0%20(X11%3B%20Linux%20x86_64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F72.0.3617.0%20Safari%2F537.36&cd166=&cd167=&cd172=&cd173=&cd174=&cd195=&z=1873374490",
+      "query": {
+        "v": 1,
+        "_v": "j90",
+        "a": 242371666,
+        "t": "pageview",
+        "ni": 0,
+        "_s": 2,
+        "dl": "https://www.movistar.es/estaticos/404.html",
+        "dr": "https://movistar.es/",
+        "ul": "en-us",
+        "de": "UTF-8",
+        "dt": "Movistar",
+        "sd": "24-bit",
+        "sr": "1680x927",
+        "vp": "1664x911",
+        "je": 0,
+        "_u": "aGBAAEArAAQC~",
+        "cid": 755048331.1621524,
+        "tid": "UA-46169604-5",
+        "_gid": 171454753.16215244,
+        "gtm": "2wg5c1TQWMMR",
+        "cd4": "not-set",
+        "cd11": "non-set",
+        "cd14": "",
+        "cd18": "sin-origen",
+        "cd30": "",
+        "cd31": "not-set",
+        "cd32": "not-set",
+        "cd33": 0,
+        "cd50": "",
+        "cd81": "https://www.movistar.es/estaticos/404.html",
+        "cd89": false,
+        "cd111": "not-set",
+        "cd135": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3617.0 Safari/537.36",
+        "cd166": "",
+        "cd167": "",
+        "cd172": "",
+        "cd173": "",
+        "cd174": "",
+        "cd195": "",
+        "z": 1873374490
+      },
+      "filter": "||google-analytics.com/collect",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.movistar.es/estaticos/404.html",
+            "source": "requested from https://www.movistar.es/estaticos/404.html and matched with easyprivacy.txt filter ||google-analytics.com/collect"
+          }
+        ],
+        "timestamp": "2021-05-20T15:24:51.363Z"
+      },
+      "occurrances": 2
+    },
+    {
+      "url": "https://www.google-analytics.com/plugins/ua/ec.js",
+      "query": null,
+      "filter": "||google-analytics.com/plugins/",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.movistar.es/estaticos/404.html",
+            "source": "requested from https://www.movistar.es/estaticos/404.html and matched with easyprivacy.txt filter ||google-analytics.com/plugins/"
+          }
+        ],
+        "timestamp": "2021-05-20T15:24:50.769Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://www.google-analytics.com/plugins/ua/linkid.js",
+      "query": null,
+      "filter": "||google-analytics.com/plugins/",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.movistar.es/estaticos/404.html",
+            "source": "requested from https://www.movistar.es/estaticos/404.html and matched with easyprivacy.txt filter ||google-analytics.com/plugins/"
+          }
+        ],
+        "timestamp": "2021-05-20T15:24:50.767Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://www.google-analytics.com/analytics.js",
+      "query": null,
+      "filter": "||google-analytics.com/analytics.js",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.movistar.es/estaticos/404.html",
+            "source": "requested from https://www.movistar.es/estaticos/404.html and matched with easyprivacy.txt filter ||google-analytics.com/analytics.js"
+          }
+        ],
+        "timestamp": "2021-05-20T15:24:50.309Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://www.googletagmanager.com/gtm.js?id=GTM-NNT429T&l=dataLayerGTM",
+      "query": {
+        "id": "GTM-NNT429T",
+        "l": "dataLayerGTM"
+      },
+      "filter": "/gtm.js",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.movistar.es/estaticos/404.html",
+            "source": "requested from https://www.movistar.es/estaticos/404.html and matched with easyprivacy.txt filter /gtm.js"
+          }
+        ],
+        "timestamp": "2021-05-20T15:24:50.267Z"
+      },
+      "occurrances": 2
+    },
+    {
+      "url": "https://www.movistar.es/estaticos/js/tealium/s_code.js",
+      "query": null,
+      "filter": "/js/tealium/*",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.movistar.es/estaticos/404.html",
+            "source": "requested from https://www.movistar.es/estaticos/404.html and matched with easyprivacy.txt filter /js/tealium/*"
+          }
+        ],
+        "timestamp": "2021-05-20T15:24:49.870Z"
+      },
+      "occurrances": 1
+    }
+  ],
+  "hosts": {
+    "requests": {
+      "firstParty": [
+        "movistar.es"
+      ],
+      "thirdParty": [
+        "www.movistar.es",
+        "www.googletagmanager.com",
+        "mantix.col.movistar.es",
+        "www.google-analytics.com",
+        "ampcid.google.com",
+        "ampcid.google.es"
+      ]
+    },
+    "beacons": {
+      "firstParty": [],
+      "thirdParty": [
+        "www.google-analytics.com",
+        "www.googletagmanager.com",
+        "www.movistar.es"
+      ]
+    },
+    "cookies": {
+      "firstParty": [
+        "movistar.es"
+      ],
+      "thirdParty": [
+        "www.movistar.es",
+        "mantix.col.movistar.es"
+      ]
+    },
+    "localStorage": {
+      "firstParty": [],
+      "thirdParty": []
+    },
+    "links": {
+      "firstParty": [],
+      "thirdParty": []
+    }
+  }
+}

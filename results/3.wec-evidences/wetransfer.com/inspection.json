@@ -1,0 +1,397 @@
+{
+  "title": "Website Evidence Collection",
+  "task_description": null,
+  "uri_ins": "https://wetransfer.com",
+  "uri_refs": [
+    "https://wetransfer.com"
+  ],
+  "uri_dest": "https://wetransfer.com/",
+  "uri_redirects": [],
+  "secure_connection": {
+    "https_support": true,
+    "redirects": [
+      "https://wetransfer.com/"
+    ],
+    "https_redirect": true
+  },
+  "host": "wetransfer.com",
+  "script": {
+    "host": "sfod",
+    "version": {
+      "npm": "1.0.0",
+      "commit": null
+    },
+    "cmd_args": "-q --overwrite https://wetransfer.com -- --ignore-certificate-errors",
+    "environment": {
+      "CHROME_DESKTOP": "code-url-handler.desktop"
+    },
+    "node_version": "v14.17.0"
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "HeadlessChrome/80.0.3987.0",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3617.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "5.8.0-53-generic"
+    },
+    "extra_headers": {},
+    "preset_cookies": {}
+  },
+  "start_time": "2021-05-20T15:22:36.476Z",
+  "end_time": "2021-05-20T15:22:44.163Z",
+  "links": {
+    "firstParty": [
+      {
+        "href": "https://wetransfer.com/help",
+        "inner_text": "Help",
+        "inner_html": "<span class=\"nav__label\">Help</span>"
+      },
+      {
+        "href": "https://wetransfer.com/pro?trk=WT202005_signup",
+        "inner_text": "Sign up",
+        "inner_html": "<span class=\"nav__label\">Sign up</span>"
+      },
+      {
+        "href": "https://wetransfer.com/log-in",
+        "inner_text": "Log in",
+        "inner_html": "<span class=\"nav__label\">Log in</span>"
+      }
+    ],
+    "thirdParty": [
+      {
+        "href": "https://wetransfer.zendesk.com/",
+        "inner_text": "help center",
+        "inner_html": "help center"
+      },
+      {
+        "href": "https://about.wetransfer.com/products",
+        "inner_text": "Products",
+        "inner_html": "<span class=\"nav__label\">Products</span>"
+      },
+      {
+        "href": "https://about.wetransfer.com/",
+        "inner_text": "Company",
+        "inner_html": "<span class=\"nav__label\">Company</span>"
+      }
+    ],
+    "social": [],
+    "keywords": []
+  },
+  "unsafeForms": [],
+  "browsing_history": [
+    "https://wetransfer.com/"
+  ],
+  "websockets": {},
+  "cookies": [
+    {
+      "name": "_wt_snowplowid.38f1",
+      "value": "a202569a-d306-42be-893c-b2f5aabdff83.1621524156.1.1621524159.1621524156.7cdb7adb-2003-4ed6-ba46-f38312899bc9",
+      "domain": "wetransfer.com",
+      "path": "/",
+      "expires": 1684596159,
+      "size": 127,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2023-05-20T15:22:39.000Z",
+      "expiresDays": 730,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 779,
+            "lineNumber": 23,
+            "fileName": "https://d19ptbnuzhibkh.cloudfront.net/2.10.2/sp.js",
+            "functionName": "Object.cookie",
+            "source": "    at Object.cookie (https://d19ptbnuzhibkh.cloudfront.net/2.10.2/sp.js:23:779)"
+          },
+          {
+            "columnNumber": 80281,
+            "lineNumber": 23,
+            "fileName": "https://d19ptbnuzhibkh.cloudfront.net/2.10.2/sp.js",
+            "functionName": "Ge",
+            "source": "    at Ge (https://d19ptbnuzhibkh.cloudfront.net/2.10.2/sp.js:23:80281)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T15:22:39.039Z",
+        "location": "https://wetransfer.com/"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "did_compat",
+      "value": "s%3Av0%3A36470020-b97f-11eb-8796-ed50ebe5c4bb.fZ%2Fz2cD2rAuNlC8ehQNxigIumjN3qsVVOGL7Sc1lWKI",
+      "domain": "auth.wetransfer.com",
+      "path": "/",
+      "expires": 1653081758.810422,
+      "size": 101,
+      "httpOnly": true,
+      "secure": true,
+      "session": false,
+      "expiresUTC": "2022-05-20T21:22:38.810Z",
+      "expiresDays": 365.25,
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://auth.wetransfer.com/authorize?audience=aud%3A%2F%2Ftransfer-api-prod.wetransfer%2F&client_id=dXWFQjiW1jxWCFG0hOVpqrk4h9vGeanc&redirect_uri=https%3A%2F%2Fwetransfer.com&scope=openid%20profile%20email&response_type=code&response_mode=web_message&state=YVpfTzhScjlhLmFZb1BqTV9VaS0xVU12bWVqUkpHaklEc2lCZTlGOGtNbw%3D%3D&nonce=aHRvcUV6NmVhdG9xN0pmMDlYLllRR2pubzFOQWRhNGF5c0E0TlhIOVlVVQ%3D%3D&code_challenge=2NRcMo7k2tmWz1rPuHjQkQfpwkGZ9NqQxYc3g3ILwDE&code_challenge_method=S256&prompt=none&auth0Client=eyJuYW1lIjoiYXV0aDAtc3BhLWpzIiwidmVyc2lvbiI6IjEuMTUuMCJ9",
+            "source": "set in Set-Cookie HTTP response header for https://auth.wetransfer.com/authorize?audience=aud%3A%2F%2Ftransfer-api-prod.wetransfer%2F&client_id=dXWFQjiW1jxWCFG0hOVpqrk4h9vGeanc&redirect_uri=https%3A%2F%2Fwetransfer.com&scope=openid%20profile%20email&response_type=code&response_mode=web_message&state=YVpfTzhScjlhLmFZb1BqTV9VaS0xVU12bWVqUkpHaklEc2lCZTlGOGtNbw%3D%3D&nonce=aHRvcUV6NmVhdG9xN0pmMDlYLllRR2pubzFOQWRhNGF5c0E0TlhIOVlVVQ%3D%3D&code_challenge=2NRcMo7k2tmWz1rPuHjQkQfpwkGZ9NqQxYc3g3ILwDE&code_challenge_method=S256&prompt=none&auth0Client=eyJuYW1lIjoiYXV0aDAtc3BhLWpzIiwidmVyc2lvbiI6IjEuMTUuMCJ9"
+          }
+        ],
+        "type": "Cookie.HTTP",
+        "timestamp": "2021-05-20T15:22:38.815Z",
+        "location": "https://wetransfer.com/"
+      },
+      "firstPartyStorage": false
+    },
+    {
+      "name": "did",
+      "value": "s%3Av0%3A36470020-b97f-11eb-8796-ed50ebe5c4bb.fZ%2Fz2cD2rAuNlC8ehQNxigIumjN3qsVVOGL7Sc1lWKI",
+      "domain": "auth.wetransfer.com",
+      "path": "/",
+      "expires": 1653081758.810327,
+      "size": 94,
+      "httpOnly": true,
+      "secure": true,
+      "session": false,
+      "sameSite": "None",
+      "expiresUTC": "2022-05-20T21:22:38.810Z",
+      "expiresDays": 365.25,
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://auth.wetransfer.com/authorize?audience=aud%3A%2F%2Ftransfer-api-prod.wetransfer%2F&client_id=dXWFQjiW1jxWCFG0hOVpqrk4h9vGeanc&redirect_uri=https%3A%2F%2Fwetransfer.com&scope=openid%20profile%20email&response_type=code&response_mode=web_message&state=YVpfTzhScjlhLmFZb1BqTV9VaS0xVU12bWVqUkpHaklEc2lCZTlGOGtNbw%3D%3D&nonce=aHRvcUV6NmVhdG9xN0pmMDlYLllRR2pubzFOQWRhNGF5c0E0TlhIOVlVVQ%3D%3D&code_challenge=2NRcMo7k2tmWz1rPuHjQkQfpwkGZ9NqQxYc3g3ILwDE&code_challenge_method=S256&prompt=none&auth0Client=eyJuYW1lIjoiYXV0aDAtc3BhLWpzIiwidmVyc2lvbiI6IjEuMTUuMCJ9",
+            "source": "set in Set-Cookie HTTP response header for https://auth.wetransfer.com/authorize?audience=aud%3A%2F%2Ftransfer-api-prod.wetransfer%2F&client_id=dXWFQjiW1jxWCFG0hOVpqrk4h9vGeanc&redirect_uri=https%3A%2F%2Fwetransfer.com&scope=openid%20profile%20email&response_type=code&response_mode=web_message&state=YVpfTzhScjlhLmFZb1BqTV9VaS0xVU12bWVqUkpHaklEc2lCZTlGOGtNbw%3D%3D&nonce=aHRvcUV6NmVhdG9xN0pmMDlYLllRR2pubzFOQWRhNGF5c0E0TlhIOVlVVQ%3D%3D&code_challenge=2NRcMo7k2tmWz1rPuHjQkQfpwkGZ9NqQxYc3g3ILwDE&code_challenge_method=S256&prompt=none&auth0Client=eyJuYW1lIjoiYXV0aDAtc3BhLWpzIiwidmVyc2lvbiI6IjEuMTUuMCJ9"
+          }
+        ],
+        "type": "Cookie.HTTP",
+        "timestamp": "2021-05-20T15:22:38.815Z",
+        "location": "https://wetransfer.com/"
+      },
+      "firstPartyStorage": false
+    },
+    {
+      "name": "sp",
+      "value": "dcaa1168-f2f7-47c0-8fd4-b373e35a7d5e",
+      "domain": "wetransfer.com",
+      "path": "/",
+      "expires": 1653060159.590483,
+      "size": 38,
+      "httpOnly": false,
+      "secure": true,
+      "session": false,
+      "sameSite": "None",
+      "expiresUTC": "2022-05-20T15:22:39.590Z",
+      "expiresDays": 365,
+      "firstPartyStorage": true
+    },
+    {
+      "name": "_wt_snowplowses.38f1",
+      "value": "*",
+      "domain": "wetransfer.com",
+      "path": "/",
+      "expires": 1621525959,
+      "size": 21,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2021-05-20T15:52:39.000Z",
+      "expiresDays": 0.02,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 779,
+            "lineNumber": 23,
+            "fileName": "https://d19ptbnuzhibkh.cloudfront.net/2.10.2/sp.js",
+            "functionName": "Object.cookie",
+            "source": "    at Object.cookie (https://d19ptbnuzhibkh.cloudfront.net/2.10.2/sp.js:23:779)"
+          },
+          {
+            "columnNumber": 80281,
+            "lineNumber": 23,
+            "fileName": "https://d19ptbnuzhibkh.cloudfront.net/2.10.2/sp.js",
+            "functionName": "Ge",
+            "source": "    at Ge (https://d19ptbnuzhibkh.cloudfront.net/2.10.2/sp.js:23:80281)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T15:22:39.039Z",
+        "location": "https://wetransfer.com/"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "_wt_session",
+      "value": "RkpWQytnUGdXeTd5alRHenVORzl1OGhPZTBydG1oeGZVTFFJaGh0eEd1WUhtWUtZN3FjMU5TcmREQk9KOCt4Skhjc1pMdGozNE0zN0toNEM5S1JUQlZ2UlJCTG4rL0phYndCNUFLeG9VT3g2RzNZcEp2MUZ2QmV1UW50SnNLeEF1ajVqYVU5MENPbGdsOVJJMzBBSC93PT0tLWdqWXNpdmJhVWFLcXlpOTVSbEdBMnc9PQ%3D%3D--4d85eba1555b9c140559ba541b674f79f9d40de0",
+      "domain": "wetransfer.com",
+      "path": "/",
+      "expires": -1,
+      "size": 297,
+      "httpOnly": true,
+      "secure": true,
+      "session": true,
+      "sameSite": "Lax",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://wetransfer.com/",
+            "source": "set in Set-Cookie HTTP response header for https://wetransfer.com/"
+          }
+        ],
+        "type": "Cookie.HTTP",
+        "timestamp": "2021-05-20T15:22:37.100Z",
+        "location": "about:blank"
+      },
+      "firstPartyStorage": true
+    }
+  ],
+  "localStorage": {
+    "https://wetransfer.com": {
+      "wt_fontsHaveBeenLoaded": {
+        "value": true,
+        "firstPartyStorage": [
+          "wetransfer.com",
+          "wetransfer.com"
+        ],
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 464949,
+              "lineNumber": 1,
+              "fileName": "https://prod-cdn.wetransfer.net/packs/esm/application-4c900fd43415b188fa14.es6.js",
+              "functionName": "Object.setItem",
+              "source": "    at Object.setItem (https://prod-cdn.wetransfer.net/packs/esm/application-4c900fd43415b188fa14.es6.js:1:464949)"
+            },
+            {
+              "columnNumber": 465310,
+              "lineNumber": 1,
+              "fileName": "https://prod-cdn.wetransfer.net/packs/esm/application-4c900fd43415b188fa14.es6.js",
+              "functionName": "a",
+              "source": "    at a (https://prod-cdn.wetransfer.net/packs/esm/application-4c900fd43415b188fa14.es6.js:1:465310)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T15:22:38.686Z",
+          "location": "https://wetransfer.com/"
+        }
+      }
+    }
+  },
+  "beacons": [
+    {
+      "url": "https://events.launchdarkly.com/events/bulk/5b82f23280914154b163996e",
+      "query": null,
+      "filter": "||events.launchdarkly.com^$third-party",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://wetransfer.com/",
+            "source": "requested from https://wetransfer.com/ and matched with easyprivacy.txt filter ||events.launchdarkly.com^$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T15:22:41.519Z"
+      },
+      "occurrances": 2
+    },
+    {
+      "url": "https://snowplow.wetransfer.com/com.snowplowanalytics.snowplow/tp2",
+      "query": null,
+      "filter": ".snowplowanalytics.$domain=~snowplowanalytics.com",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://wetransfer.com/",
+            "source": "requested from https://wetransfer.com/ and matched with easyprivacy.txt filter .snowplowanalytics.$domain=~snowplowanalytics.com"
+          }
+        ],
+        "timestamp": "2021-05-20T15:22:39.520Z"
+      },
+      "occurrances": 3
+    },
+    {
+      "url": "https://www.googletagmanager.com/gtm.js?id=GTM-K878LCS&l=dataLayer",
+      "query": {
+        "id": "GTM-K878LCS",
+        "l": "dataLayer"
+      },
+      "filter": "/gtm.js",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://wetransfer.com/",
+            "source": "requested from https://wetransfer.com/ and matched with easyprivacy.txt filter /gtm.js"
+          }
+        ],
+        "timestamp": "2021-05-20T15:22:38.459Z"
+      },
+      "occurrances": 2
+    },
+    {
+      "url": "https://d19ptbnuzhibkh.cloudfront.net/2.10.2/sp.js",
+      "query": null,
+      "filter": "||cloudfront.net*/sp.js|",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://wetransfer.com/",
+            "source": "requested from https://wetransfer.com/ and matched with easyprivacy.txt filter ||cloudfront.net*/sp.js|"
+          }
+        ],
+        "timestamp": "2021-05-20T15:22:37.876Z"
+      },
+      "occurrances": 1
+    }
+  ],
+  "hosts": {
+    "requests": {
+      "firstParty": [
+        "wetransfer.com"
+      ],
+      "thirdParty": [
+        "prod-cdn.wetransfer.net",
+        "d19ptbnuzhibkh.cloudfront.net",
+        "www.googletagmanager.com",
+        "app.launchdarkly.com",
+        "auth.wetransfer.com",
+        "snowplow.wetransfer.com",
+        "events.launchdarkly.com"
+      ]
+    },
+    "beacons": {
+      "firstParty": [],
+      "thirdParty": [
+        "events.launchdarkly.com",
+        "snowplow.wetransfer.com",
+        "www.googletagmanager.com",
+        "d19ptbnuzhibkh.cloudfront.net"
+      ]
+    },
+    "cookies": {
+      "firstParty": [
+        "wetransfer.com"
+      ],
+      "thirdParty": [
+        "auth.wetransfer.com"
+      ]
+    },
+    "localStorage": {
+      "firstParty": [
+        "wetransfer.com"
+      ],
+      "thirdParty": []
+    },
+    "links": {
+      "firstParty": [
+        "wetransfer.com"
+      ],
+      "thirdParty": [
+        "wetransfer.zendesk.com",
+        "about.wetransfer.com"
+      ]
+    }
+  }
+}

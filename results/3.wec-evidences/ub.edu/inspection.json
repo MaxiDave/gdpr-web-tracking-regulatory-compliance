@@ -1,0 +1,1185 @@
+{
+  "title": "Website Evidence Collection",
+  "task_description": null,
+  "uri_ins": "https://ub.edu",
+  "uri_refs": [
+    "https://ub.edu"
+  ],
+  "uri_dest": "https://www.ub.edu/web/portal/ca/",
+  "uri_redirects": [
+    "https://ub.edu/",
+    "https://www.ub.edu/"
+  ],
+  "secure_connection": {
+    "https_support": true,
+    "redirects": [
+      "http://www.ub.edu/",
+      "https://www.ub.edu/web/portal/ca/"
+    ],
+    "https_redirect": true
+  },
+  "host": "ub.edu",
+  "script": {
+    "host": "sfod",
+    "version": {
+      "npm": "1.0.0",
+      "commit": null
+    },
+    "cmd_args": "-q --overwrite https://ub.edu -- --ignore-certificate-errors",
+    "environment": {
+      "CHROME_DESKTOP": "code-url-handler.desktop"
+    },
+    "node_version": "v14.17.0"
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "HeadlessChrome/80.0.3987.0",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3617.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "5.8.0-53-generic"
+    },
+    "extra_headers": {},
+    "preset_cookies": {}
+  },
+  "start_time": "2021-05-20T15:22:45.664Z",
+  "end_time": "2021-05-20T15:22:55.015Z",
+  "links": {
+    "firstParty": [],
+    "thirdParty": [
+      {
+        "href": "https://www.ub.edu/web/portal/en/cookie-policy/",
+        "inner_text": "Cookie Policy on the University of Barcelona website",
+        "inner_html": "Cookie Policy on the University of Barcelona website"
+      },
+      {
+        "href": "https://www.ub.edu/web/portal/ca/",
+        "inner_text": " Use necessary cookies only ",
+        "inner_html": "Use necessary cookies only"
+      },
+      {
+        "href": "https://www.cloudflare.com/security-policy/",
+        "inner_text": "Cloudflare",
+        "inner_html": "Cloudflare"
+      },
+      {
+        "href": "https://policies.google.com/privacy",
+        "inner_text": "Google",
+        "inner_html": "Google"
+      },
+      {
+        "href": "https://newrelic.com/privacy",
+        "inner_text": "New Relic",
+        "inner_html": "New Relic"
+      },
+      {
+        "href": "http://nice264.com/",
+        "inner_text": "Nice264",
+        "inner_html": "Nice264"
+      },
+      {
+        "href": "https://www.sharethis.com/privacy/",
+        "inner_text": "Sharethis",
+        "inner_html": "Sharethis"
+      },
+      {
+        "href": "https://www.cookiebot.com/goto/privacy-policy/",
+        "inner_text": "Cookiebot",
+        "inner_html": "Cookiebot"
+      },
+      {
+        "href": "https://www.linkedin.com/legal/privacy-policy",
+        "inner_text": "LinkedIn",
+        "inner_html": "LinkedIn"
+      },
+      {
+        "href": "https://www.hotjar.com/legal/policies/privacy",
+        "inner_text": "Hotjar",
+        "inner_html": "Hotjar"
+      },
+      {
+        "href": "https://www.akamai.com/us/en/privacy-policies/",
+        "inner_text": "Akamai",
+        "inner_html": "Akamai"
+      },
+      {
+        "href": "https://privacy.microsoft.com/en-us/privacystatement",
+        "inner_text": "Microsoft",
+        "inner_html": "Microsoft"
+      },
+      {
+        "href": "https://statcounter.com/about/legal/",
+        "inner_text": "Statcounter",
+        "inner_html": "Statcounter"
+      },
+      {
+        "href": "http://statcounter.com/about/cookies/",
+        "inner_text": "Statcounter",
+        "inner_html": "Statcounter"
+      },
+      {
+        "href": "https://vimeo.com/features/video-privacy",
+        "inner_text": "Vimeo",
+        "inner_html": "Vimeo"
+      },
+      {
+        "href": "https://www.oracle.com/legal/privacy/addthis-privacy-policy.html",
+        "inner_text": "AddThis",
+        "inner_html": "AddThis"
+      },
+      {
+        "href": "https://www.iabeurope.eu/",
+        "inner_text": "IAB Europe",
+        "inner_html": "IAB Europe"
+      },
+      {
+        "href": "https://www.facebook.com/policies/cookies/",
+        "inner_text": "Facebook",
+        "inner_html": "Facebook"
+      },
+      {
+        "href": "http://www.addthis.com/privacy",
+        "inner_text": "Oracle",
+        "inner_html": "Oracle"
+      },
+      {
+        "href": "https://www.facebook.com/policy.php",
+        "inner_text": "Facebook",
+        "inner_html": "Facebook"
+      },
+      {
+        "href": "https://www.cookiebot.com/",
+        "inner_text": "Cookiebot",
+        "inner_html": "Cookiebot"
+      },
+      {
+        "href": "https://www.ub.edu/web/portal/es/",
+        "inner_text": "ES",
+        "inner_html": "ES"
+      },
+      {
+        "href": "https://www.ub.edu/web/portal/en/",
+        "inner_text": "EN",
+        "inner_html": "EN"
+      },
+      {
+        "href": "https://www.ub.edu/web/portal/ca",
+        "inner_text": "",
+        "inner_html": "<img src=\"/web/portal/assets/img/logo.png\" alt=\"Universitat de Barcelona\">"
+      },
+      {
+        "href": "https://www.facebook.com/UniversitatdeBarcelona",
+        "inner_text": "",
+        "inner_html": "<i class=\"icon -facebook\"></i>"
+      },
+      {
+        "href": "https://www.twitter.com/UniBarcelona",
+        "inner_text": "",
+        "inner_html": "<i class=\"icon -twitter\"></i>"
+      },
+      {
+        "href": "https://www.instagram.com/UniBarcelona",
+        "inner_text": "",
+        "inner_html": "<i class=\"icon -instagram\"></i>"
+      },
+      {
+        "href": "https://www.youtube.com/user/UB",
+        "inner_text": "",
+        "inner_html": "<i class=\"icon -youtube\"></i>"
+      },
+      {
+        "href": "https://www.linkedin.com/school/university-of-barcelona",
+        "inner_text": "",
+        "inner_html": "<i class=\"icon -linkedin\"></i>"
+      },
+      {
+        "href": "https://www.ub.edu/web/portal/ca/apren/",
+        "inner_text": "Aprèn",
+        "inner_html": "Aprèn"
+      },
+      {
+        "href": "https://www.ub.edu/web/portal/ca/investiga/",
+        "inner_text": "Investiga",
+        "inner_html": "Investiga"
+      },
+      {
+        "href": "https://www.ub.edu/web/portal/ca/col-labora/",
+        "inner_text": "Col·labora",
+        "inner_html": "Col·labora"
+      },
+      {
+        "href": "https://www.ub.edu/web/portal/ca/la-ub/",
+        "inner_text": "La UB",
+        "inner_html": "La UB"
+      },
+      {
+        "href": "http://www.ub.edu/benvinguda/",
+        "inner_text": "Benvinguda",
+        "inner_html": "Benvinguda"
+      },
+      {
+        "href": "https://www.ub.edu/web/portal/ca/internacional/estudia-a-la-ub",
+        "inner_text": "Internacional",
+        "inner_html": "Internacional"
+      },
+      {
+        "href": "https://www.ub.edu/web/ub/ca/universitat/per_a_empreses/per_a_empreses.html",
+        "inner_text": "Empreses",
+        "inner_html": "Empreses"
+      },
+      {
+        "href": "http://www.ub.edu/startub/",
+        "inner_text": "Emprenedoria",
+        "inner_html": "Emprenedoria"
+      },
+      {
+        "href": "https://www.alumni.ub.edu/",
+        "inner_text": "Alumni",
+        "inner_html": "Alumni"
+      },
+      {
+        "href": "http://www.ub.edu/espais/ca/vols-llogar-un-espai-la-ub",
+        "inner_text": "Espais UB",
+        "inner_html": "Espais UB"
+      },
+      {
+        "href": "https://www.ub.edu/dyn/cms/continguts_ca/menu_eines/sala_de_premsa/index.html",
+        "inner_text": "Sala de premsa",
+        "inner_html": "Sala de premsa"
+      },
+      {
+        "href": "https://www.ub.edu/web/ub/ca/menu_peu/contacte/contacte.html",
+        "inner_text": "Contacte",
+        "inner_html": "Contacte"
+      },
+      {
+        "href": "https://www.ub.edu/web/portal/ca/apren/perque-la-ub/raons-estudiar-ub",
+        "inner_text": "Per què la UB?",
+        "inner_html": "Per què la UB?"
+      },
+      {
+        "href": "https://www.ub.edu/web/portal/ca/apren/graus/",
+        "inner_text": "Graus",
+        "inner_html": "Graus"
+      },
+      {
+        "href": "https://www.ub.edu/web/portal/ca/apren/masters-universitaris/",
+        "inner_text": "Màsters universitaris",
+        "inner_html": "Màsters universitaris"
+      },
+      {
+        "href": "https://www.ub.edu/web/portal/ca/apren/masters-i-postgraus-propis/",
+        "inner_text": "Màsters i postgraus propis",
+        "inner_html": "Màsters i postgraus propis"
+      },
+      {
+        "href": "https://www.ub.edu/web/portal/ca/apren/doctorat/",
+        "inner_text": "Doctorat",
+        "inner_html": "Doctorat"
+      },
+      {
+        "href": "https://www.ub.edu/web/portal/ca/apren/formacio-continuada/",
+        "inner_text": "Formació continuada",
+        "inner_html": "Formació continuada"
+      },
+      {
+        "href": "https://www.ub.edu/web/portal/ca/investiga/recerca-a-la-ub/casos-d-exit",
+        "inner_text": "Recerca a la UB",
+        "inner_html": "Recerca a la UB"
+      },
+      {
+        "href": "https://www.ub.edu/web/portal/ca/investiga/produccio-cientifica/",
+        "inner_text": "Producció científica",
+        "inner_html": "Producció científica"
+      },
+      {
+        "href": "https://www.ub.edu/web/portal/ca/investiga/divulgacio-cientifica/",
+        "inner_text": "Divulgació científica",
+        "inner_html": "Divulgació científica"
+      },
+      {
+        "href": "https://www.ub.edu/web/portal/ca/investiga/transferencia-i-innovacio/",
+        "inner_text": "Transferència i innovació",
+        "inner_html": "Transferència i innovació"
+      },
+      {
+        "href": "https://www.ub.edu/web/portal/ca/investiga/fes-la-tesi-a-la-ub/",
+        "inner_text": "Fes la tesi a la UB",
+        "inner_html": "Fes la tesi a la UB"
+      },
+      {
+        "href": "https://www.mecenes.ub.edu/?lang=ca",
+        "inner_text": "Mecenatge",
+        "inner_html": "Mecenatge"
+      },
+      {
+        "href": "https://www.ub.edu/catedres",
+        "inner_text": "Càtedres UB",
+        "inner_html": "Càtedres UB"
+      },
+      {
+        "href": "http://www.solidaritat.ub.edu/voluntariat/",
+        "inner_text": "Voluntariat",
+        "inner_html": "Voluntariat"
+      },
+      {
+        "href": "https://www.ub.edu/ateneu/",
+        "inner_text": "Ateneu UB",
+        "inner_html": "Ateneu UB"
+      },
+      {
+        "href": "https://www.ub.edu/web/portal/ca/la-ub/la-universitat/sobre-la-ub",
+        "inner_text": "La Universitat",
+        "inner_html": "La Universitat"
+      },
+      {
+        "href": "https://www.ub.edu/web/portal/ca/la-ub/campus/facultats",
+        "inner_text": "Campus",
+        "inner_html": "Campus"
+      },
+      {
+        "href": "https://www.ub.edu/web/portal/ca/la-ub/compromis/responsabilitat-social",
+        "inner_text": "Compromís",
+        "inner_html": "Compromís"
+      },
+      {
+        "href": "https://www.ub.edu/web/portal/ca/la-ub/treballa-a-la-ub/",
+        "inner_text": "Treballa a la UB",
+        "inner_html": "Treballa a la UB"
+      },
+      {
+        "href": "https://www.ub.edu/web/portal/ca/internacional/estudia-a-la-ub/",
+        "inner_text": "Estudia a la UB",
+        "inner_html": "Estudia a la UB"
+      },
+      {
+        "href": "https://www.ub.edu/web/portal/ca/internacional/investiga-a-la-ub/",
+        "inner_text": "Investiga a la UB",
+        "inner_html": "Investiga a la UB"
+      },
+      {
+        "href": "https://www.ub.edu/web/portal/ca/jordi-serra-cobo",
+        "inner_text": "Entrevista completa",
+        "inner_html": "Entrevista completa"
+      },
+      {
+        "href": "http://www.ub.edu/eleccions/2021/",
+        "inner_text": "Més informació",
+        "inner_html": "Més informació"
+      },
+      {
+        "href": "https://www.ub.edu/web/portal/ca/sdeub",
+        "inner_text": "Reportatge complet",
+        "inner_html": "Reportatge complet"
+      },
+      {
+        "href": "https://www.ub.edu/web/portal/ca/la-ub/la-universitat/sobre-la-ub/la-ub-en-xifres/",
+        "inner_text": "Totes les xifres",
+        "inner_html": "Totes les xifres"
+      },
+      {
+        "href": "https://www.ub.edu/web/portal/ca/la-ub/campus/facultats/",
+        "inner_text": "Totes les facultats",
+        "inner_html": "Totes les facultats"
+      },
+      {
+        "href": "https://www.ub.edu/dyn/cms/continguts_ca/menu_eines/noticies/index.html",
+        "inner_text": "Descobreix tota l’actualitat",
+        "inner_html": "Descobreix tota l’actualitat"
+      },
+      {
+        "href": "https://www.ub.edu/web/ub/ca/menu_eines/noticies/2021/05/030.html",
+        "inner_text": "Més informació",
+        "inner_html": "Més informació"
+      },
+      {
+        "href": "https://www.ub.edu/web/ub/ca/menu_eines/noticies/2021/05/029.html",
+        "inner_text": "Més informació",
+        "inner_html": "Més informació"
+      },
+      {
+        "href": "https://www.ub.edu/web/ub/ca/menu_eines/noticies/2021/05/033.html",
+        "inner_text": "Més informació",
+        "inner_html": "Més informació"
+      },
+      {
+        "href": "https://www.ub.edu/web/ub/ca/menu_eines/noticies/2021/05/032.html",
+        "inner_text": "Més informació",
+        "inner_html": "Més informació"
+      },
+      {
+        "href": "https://www.ub.edu/web/ub/ca/menu_eines/noticies/2021/05/044.html",
+        "inner_text": "Més informació",
+        "inner_html": "Més informació"
+      },
+      {
+        "href": "https://www.ub.edu/web/ub/ca/menu_eines/noticies/2021/05/041.html",
+        "inner_text": "Més informació",
+        "inner_html": "Més informació"
+      },
+      {
+        "href": "https://www.ub.edu/web/ub/ca/menu_eines/noticies/2021/05/034.html",
+        "inner_text": "Més informació",
+        "inner_html": "Més informació"
+      },
+      {
+        "href": "https://www.ub.edu/web/ub/ca/menu_eines/noticies/2021/05/031.html",
+        "inner_text": "Més informació",
+        "inner_html": "Més informació"
+      },
+      {
+        "href": "https://www.ub.edu/web/ub/ca/menu_eines/noticies/2021/05/038.html",
+        "inner_text": "Més informació",
+        "inner_html": "Més informació"
+      },
+      {
+        "href": "https://www.ub.edu/web/ub/ca/menu_eines/noticies/2021/05/036.html",
+        "inner_text": "Més informació",
+        "inner_html": "Més informació"
+      },
+      {
+        "href": "https://www.ub.edu/web/portal/ca/mapa-web",
+        "inner_text": "Mapa web",
+        "inner_html": "Mapa web"
+      },
+      {
+        "href": "https://crai.ub.edu/",
+        "inner_text": "Biblioteques",
+        "inner_html": "Biblioteques"
+      },
+      {
+        "href": "http://www.publicacions.ub.edu/",
+        "inner_text": "Edicions UB",
+        "inner_html": "Edicions UB"
+      },
+      {
+        "href": "http://directori.ub.edu/dir/?lang=ca",
+        "inner_text": "Directori",
+        "inner_html": "Directori"
+      },
+      {
+        "href": "https://www.ub.edu/web/ub/ca/sites/llengues/portada/index.html",
+        "inner_text": "Llengües",
+        "inner_html": "Llengües"
+      },
+      {
+        "href": "https://www.ub.edu/web/portal/ca/legal",
+        "inner_text": "Avís legal",
+        "inner_html": "Avís legal"
+      },
+      {
+        "href": "https://www.ub.edu/ubtv/",
+        "inner_text": "UBtv",
+        "inner_html": "UBtv"
+      },
+      {
+        "href": "https://www.ub.edu/web/portal/ca/politiques-de-galetes/",
+        "inner_text": "Galetes",
+        "inner_html": "Galetes"
+      },
+      {
+        "href": "https://www.ub.edu/dyn/cms/continguts_ca/menu_eines/agenda/index.html",
+        "inner_text": "Agenda",
+        "inner_html": "Agenda"
+      },
+      {
+        "href": "https://www.ub.edu/web/portal/ca/ub-coronavirus/",
+        "inner_text": "Covid-19",
+        "inner_html": "Covid-19"
+      },
+      {
+        "href": "http://www.ub.edu/monub/",
+        "inner_text": "Estudiants",
+        "inner_html": "Estudiants"
+      },
+      {
+        "href": "https://intranet.ub.edu/dyn/cms/",
+        "inner_text": "PAS i PDI",
+        "inner_html": "PAS i PDI"
+      },
+      {
+        "href": "https://seu.ub.edu/index.gsp?lang=ca_ES",
+        "inner_text": "Seu electrònica",
+        "inner_html": "Seu electrònica"
+      },
+      {
+        "href": "https://www.ub.edu/web/ub/ca/sites/transparencia/index.html",
+        "inner_text": "Portal de transparència",
+        "inner_html": "Portal de transparència"
+      },
+      {
+        "href": "https://www.ub.edu/web/ub/ca/recerca_innovacio/recerca_a_la_UB/leru/index.html",
+        "inner_text": "",
+        "inner_html": "<img alt=\"Leru\" src=\"/web/portal/assets/img/leru-logo.png\">"
+      },
+      {
+        "href": "https://charm-eu.eu/",
+        "inner_text": "",
+        "inner_html": "<img alt=\"Charm eu\" src=\"/web/portal/assets/img/logo-charm-eu_transp.png\">"
+      },
+      {
+        "href": "https://www.ub.edu/web/ub/ca/recerca_innovacio/hr_excellence/index.html",
+        "inner_text": "",
+        "inner_html": "<img alt=\"International excellence\" src=\"/web/portal/assets/img/hr-logo.png\">"
+      }
+    ],
+    "social": [
+      {
+        "href": "https://www.linkedin.com/legal/privacy-policy",
+        "inner_text": "LinkedIn",
+        "inner_html": "LinkedIn"
+      },
+      {
+        "href": "https://vimeo.com/features/video-privacy",
+        "inner_text": "Vimeo",
+        "inner_html": "Vimeo"
+      },
+      {
+        "href": "https://www.facebook.com/policies/cookies/",
+        "inner_text": "Facebook",
+        "inner_html": "Facebook"
+      },
+      {
+        "href": "https://www.facebook.com/policy.php",
+        "inner_text": "Facebook",
+        "inner_html": "Facebook"
+      },
+      {
+        "href": "https://www.facebook.com/UniversitatdeBarcelona",
+        "inner_text": "",
+        "inner_html": "<i class=\"icon -facebook\"></i>"
+      },
+      {
+        "href": "https://www.twitter.com/UniBarcelona",
+        "inner_text": "",
+        "inner_html": "<i class=\"icon -twitter\"></i>"
+      },
+      {
+        "href": "https://www.instagram.com/UniBarcelona",
+        "inner_text": "",
+        "inner_html": "<i class=\"icon -instagram\"></i>"
+      },
+      {
+        "href": "https://www.youtube.com/user/UB",
+        "inner_text": "",
+        "inner_html": "<i class=\"icon -youtube\"></i>"
+      },
+      {
+        "href": "https://www.linkedin.com/school/university-of-barcelona",
+        "inner_text": "",
+        "inner_html": "<i class=\"icon -linkedin\"></i>"
+      }
+    ],
+    "keywords": [
+      {
+        "href": "https://policies.google.com/privacy",
+        "inner_text": "Google",
+        "inner_html": "Google"
+      },
+      {
+        "href": "https://newrelic.com/privacy",
+        "inner_text": "New Relic",
+        "inner_html": "New Relic"
+      },
+      {
+        "href": "https://www.sharethis.com/privacy/",
+        "inner_text": "Sharethis",
+        "inner_html": "Sharethis"
+      },
+      {
+        "href": "https://www.cookiebot.com/goto/privacy-policy/",
+        "inner_text": "Cookiebot",
+        "inner_html": "Cookiebot"
+      },
+      {
+        "href": "https://www.linkedin.com/legal/privacy-policy",
+        "inner_text": "LinkedIn",
+        "inner_html": "LinkedIn"
+      },
+      {
+        "href": "https://www.hotjar.com/legal/policies/privacy",
+        "inner_text": "Hotjar",
+        "inner_html": "Hotjar"
+      },
+      {
+        "href": "https://www.akamai.com/us/en/privacy-policies/",
+        "inner_text": "Akamai",
+        "inner_html": "Akamai"
+      },
+      {
+        "href": "https://privacy.microsoft.com/en-us/privacystatement",
+        "inner_text": "Microsoft",
+        "inner_html": "Microsoft"
+      },
+      {
+        "href": "https://statcounter.com/about/legal/",
+        "inner_text": "Statcounter",
+        "inner_html": "Statcounter"
+      },
+      {
+        "href": "https://vimeo.com/features/video-privacy",
+        "inner_text": "Vimeo",
+        "inner_html": "Vimeo"
+      },
+      {
+        "href": "https://www.oracle.com/legal/privacy/addthis-privacy-policy.html",
+        "inner_text": "AddThis",
+        "inner_html": "AddThis"
+      },
+      {
+        "href": "http://www.addthis.com/privacy",
+        "inner_text": "Oracle",
+        "inner_html": "Oracle"
+      },
+      {
+        "href": "https://www.ub.edu/web/portal/ca/legal",
+        "inner_text": "Avís legal",
+        "inner_html": "Avís legal"
+      }
+    ]
+  },
+  "unsafeForms": [],
+  "browsing_history": [
+    "https://www.ub.edu/web/portal/ca/"
+  ],
+  "websockets": {},
+  "cookies": [
+    {
+      "name": "_hjid",
+      "value": "38e05572-1efd-45b2-8613-02dd049cd5ad",
+      "domain": "ub.edu",
+      "path": "/",
+      "expires": 1653060167,
+      "size": 41,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "sameSite": "Lax",
+      "expiresUTC": "2022-05-20T15:22:47.000Z",
+      "expiresDays": 365,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 210490,
+            "lineNumber": 1,
+            "fileName": "https://script.hotjar.com/modules.87b9cf5e358c50dcc8af.js",
+            "functionName": "r.set",
+            "source": "    at r.set (https://script.hotjar.com/modules.87b9cf5e358c50dcc8af.js:1:210490)"
+          },
+          {
+            "columnNumber": 200696,
+            "lineNumber": 1,
+            "fileName": "https://script.hotjar.com/modules.87b9cf5e358c50dcc8af.js",
+            "functionName": "Object.get",
+            "source": "    at Object.get (https://script.hotjar.com/modules.87b9cf5e358c50dcc8af.js:1:200696)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T15:22:47.945Z",
+        "location": "https://www.ub.edu/web/portal/ca/"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "_fbp",
+      "value": "fb.1.1621524167812.719771378",
+      "domain": "ub.edu",
+      "path": "/",
+      "expires": 1629300168,
+      "size": 32,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2021-08-18T15:22:48.000Z",
+      "expiresDays": 90,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 5326,
+            "lineNumber": 25,
+            "fileName": "https://connect.facebook.net/signals/config/711415396341134?v=2.9.39&r=stable",
+            "functionName": "C",
+            "source": "    at C (https://connect.facebook.net/signals/config/711415396341134?v=2.9.39&r=stable:25:5326)"
+          },
+          {
+            "columnNumber": 5633,
+            "lineNumber": 25,
+            "fileName": "https://connect.facebook.net/signals/config/711415396341134?v=2.9.39&r=stable",
+            "functionName": "D",
+            "source": "    at D (https://connect.facebook.net/signals/config/711415396341134?v=2.9.39&r=stable:25:5633)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T15:22:48.324Z",
+        "location": "https://www.ub.edu/web/portal/ca/"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "_hjFirstSeen",
+      "value": "1",
+      "domain": "ub.edu",
+      "path": "/",
+      "expires": 1621525967,
+      "size": 13,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "sameSite": "Lax",
+      "expiresUTC": "2021-05-20T15:52:47.000Z",
+      "expiresDays": 0.02,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 210490,
+            "lineNumber": 1,
+            "fileName": "https://script.hotjar.com/modules.87b9cf5e358c50dcc8af.js",
+            "functionName": "r.set",
+            "source": "    at r.set (https://script.hotjar.com/modules.87b9cf5e358c50dcc8af.js:1:210490)"
+          },
+          {
+            "columnNumber": 217440,
+            "lineNumber": 1,
+            "fileName": "https://script.hotjar.com/modules.87b9cf5e358c50dcc8af.js",
+            "functionName": "Object.setFirstSeen",
+            "source": "    at Object.setFirstSeen (https://script.hotjar.com/modules.87b9cf5e358c50dcc8af.js:1:217440)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T15:22:47.946Z",
+        "location": "https://www.ub.edu/web/portal/ca/"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "_hjAbsoluteSessionInProgress",
+      "value": "0",
+      "domain": "ub.edu",
+      "path": "/",
+      "expires": 1621525967,
+      "size": 29,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "sameSite": "Lax",
+      "expiresUTC": "2021-05-20T15:52:47.000Z",
+      "expiresDays": 0.02,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 210490,
+            "lineNumber": 1,
+            "fileName": "https://script.hotjar.com/modules.87b9cf5e358c50dcc8af.js",
+            "functionName": "r.set",
+            "source": "    at r.set (https://script.hotjar.com/modules.87b9cf5e358c50dcc8af.js:1:210490)"
+          },
+          {
+            "columnNumber": 85770,
+            "lineNumber": 1,
+            "fileName": "https://script.hotjar.com/modules.87b9cf5e358c50dcc8af.js",
+            "functionName": "Object.<anonymous>",
+            "source": "    at Object.<anonymous> (https://script.hotjar.com/modules.87b9cf5e358c50dcc8af.js:1:85770)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T15:22:47.960Z",
+        "location": "https://www.ub.edu/web/portal/ca/"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "_hjIncludedInSessionSample",
+      "value": "1",
+      "domain": "www.ub.edu",
+      "path": "/",
+      "expires": 1621524287,
+      "size": 27,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "sameSite": "Lax",
+      "expiresUTC": "2021-05-20T15:24:47.000Z",
+      "expiresDays": 0,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 210490,
+            "lineNumber": 1,
+            "fileName": "https://script.hotjar.com/modules.87b9cf5e358c50dcc8af.js",
+            "functionName": "r.set",
+            "source": "    at r.set (https://script.hotjar.com/modules.87b9cf5e358c50dcc8af.js:1:210490)"
+          },
+          {
+            "columnNumber": 203753,
+            "lineNumber": 1,
+            "fileName": "https://script.hotjar.com/modules.87b9cf5e358c50dcc8af.js",
+            "functionName": "u",
+            "source": "    at u (https://script.hotjar.com/modules.87b9cf5e358c50dcc8af.js:1:203753)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T15:22:47.960Z",
+        "location": "https://www.ub.edu/web/portal/ca/"
+      },
+      "firstPartyStorage": false
+    },
+    {
+      "name": "_hjTLDTest",
+      "value": "1",
+      "domain": "ub.edu",
+      "path": "/",
+      "expires": -1,
+      "size": 11,
+      "httpOnly": false,
+      "secure": false,
+      "session": true,
+      "sameSite": "Lax",
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 64893,
+            "lineNumber": 1,
+            "fileName": "https://script.hotjar.com/modules.87b9cf5e358c50dcc8af.js",
+            "functionName": "Object.<anonymous>",
+            "source": "    at Object.<anonymous> (https://script.hotjar.com/modules.87b9cf5e358c50dcc8af.js:1:64893)"
+          },
+          {
+            "columnNumber": 22122,
+            "lineNumber": 1,
+            "fileName": "https://script.hotjar.com/modules.87b9cf5e358c50dcc8af.js",
+            "functionName": "Object._checkCookieAccessToDomain",
+            "source": "    at Object._checkCookieAccessToDomain (https://script.hotjar.com/modules.87b9cf5e358c50dcc8af.js:1:22122)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T15:22:47.944Z",
+        "location": "https://www.ub.edu/web/portal/ca/"
+      },
+      "firstPartyStorage": true
+    }
+  ],
+  "localStorage": {
+    "https://www.ub.edu": {
+      "_hjid": {
+        "value": "38e05572-1efd-45b2-8613-02dd049cd5ad",
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 210618,
+              "lineNumber": 1,
+              "fileName": "https://script.hotjar.com/modules.87b9cf5e358c50dcc8af.js",
+              "functionName": "r.set",
+              "source": "    at r.set (https://script.hotjar.com/modules.87b9cf5e358c50dcc8af.js:1:210618)"
+            },
+            {
+              "columnNumber": 200696,
+              "lineNumber": 1,
+              "fileName": "https://script.hotjar.com/modules.87b9cf5e358c50dcc8af.js",
+              "functionName": "Object.get",
+              "source": "    at Object.get (https://script.hotjar.com/modules.87b9cf5e358c50dcc8af.js:1:200696)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T15:22:47.946Z",
+          "location": "https://www.ub.edu/web/portal/ca/"
+        }
+      }
+    }
+  },
+  "beacons": [
+    {
+      "url": "https://consent.cookiebot.com/88355e31-7fef-4d33-b6e9-f715351dd339/cc.js?renew=false&referer=www.ub.edu&dnt=false&forceshow=false&cbid=88355e31-7fef-4d33-b6e9-f715351dd339&brandid=CookieConsent&framework=",
+      "query": {
+        "renew": false,
+        "referer": "www.ub.edu",
+        "dnt": false,
+        "forceshow": false,
+        "cbid": "88355e31-7fef-4d33-b6e9-f715351dd339",
+        "brandid": "CookieConsent",
+        "framework": ""
+      },
+      "filter": "||cookiebot.com^$third-party",
+      "listName": "fanboy-annoyance.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.ub.edu/web/portal/ca/",
+            "source": "requested from https://www.ub.edu/web/portal/ca/ and matched with fanboy-annoyance.txt filter ||cookiebot.com^$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T15:22:48.556Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://www.facebook.com/tr/?id=711415396341134&ev=Microdata&dl=https%3A%2F%2Fwww.ub.edu%2Fweb%2Fportal%2Fca%2F&rl=&if=false&ts=1621524168321&cd[DataLayer]=%5B%5D&cd[Meta]=%7B%22title%22%3A%22Universitat%20de%20Barcelona%22%2C%22meta%3Adescription%22%3A%22La%20Universitat%20de%20Barcelona%20lidera%20els%20principals%20r%C3%A0nquings%20cient%C3%ADfics%20en%20l%E2%80%99%C3%A0mbit%20espanyol.%20Disposa%20d%E2%80%99una%20oferta%20formativa%20%C3%A0mplia%20i%20completa%20de%20graus%2C%20m%C3%A0sters%20universitaris%2C%20m%C3%A0sters%20i%20postgraus%20propis%2C%20i%20doctorats.%20Forma%20part%20de%20la%20Lliga%20d%E2%80%99Universitats%20de%20Recerca%20Europees%2C%20les%20vint-i-tres%20millors%20universitats%20en%20recerca%20d%E2%80%99Europa.%20La%20seva%20recerca%20de%20qualitat%20es%20transfereix%20a%20la%20societat%2C%20amb%20l%E2%80%99objectiu%20de%20contribuir%20al%20progr%C3%A9s%20de%20la%20societat.%20El%20comprom%C3%ADs%20social%20%C3%A9s%20el%20quart%20pilar%20de%20la%20Universita%22%7D&cd[OpenGraph]=%7B%22og%3Atype%22%3A%22website%22%2C%22og%3Atitle%22%3A%22Universitat%20de%20Barcelona%22%2C%22og%3Adescription%22%3A%22La%20Universitat%20de%20Barcelona%20lidera%20els%20principals%20r%C3%A0nquings%20cient%C3%ADfics%20en%20l%E2%80%99%C3%A0mbit%20espanyol.%20Disposa%20d%E2%80%99una%20oferta%20formativa%20%C3%A0mplia%20i%20completa%20de%20graus%2C%20m%C3%A0s...%22%2C%22og%3Asite_name%22%3A%22Universitat%20de%20Barcelona%22%7D&cd[Schema.org]=%5B%5D&cd[JSON-LD]=%5B%5D&sw=1680&sh=927&v=2.9.39&r=stable&ec=1&o=30&fbp=fb.1.1621524167812.719771378&it=1621524167656&coo=false&es=automatic&tm=3&exp=l0&rqm=GET",
+      "query": {
+        "id": 711415396341134,
+        "ev": "Microdata",
+        "dl": "https://www.ub.edu/web/portal/ca/",
+        "rl": "",
+        "if": false,
+        "ts": 1621524168321,
+        "cd[DataLayer]": [],
+        "cd[Meta]": {
+          "title": "Universitat de Barcelona",
+          "meta:description": "La Universitat de Barcelona lidera els principals rànquings científics en l’àmbit espanyol. Disposa d’una oferta formativa àmplia i completa de graus, màsters universitaris, màsters i postgraus propis, i doctorats. Forma part de la Lliga d’Universitats de Recerca Europees, les vint-i-tres millors universitats en recerca d’Europa. La seva recerca de qualitat es transfereix a la societat, amb l’objectiu de contribuir al progrés de la societat. El compromís social és el quart pilar de la Universita"
+        },
+        "cd[OpenGraph]": {
+          "og:type": "website",
+          "og:title": "Universitat de Barcelona",
+          "og:description": "La Universitat de Barcelona lidera els principals rànquings científics en l’àmbit espanyol. Disposa d’una oferta formativa àmplia i completa de graus, màs...",
+          "og:site_name": "Universitat de Barcelona"
+        },
+        "cd[Schema.org]": [],
+        "cd[JSON-LD]": [],
+        "sw": 1680,
+        "sh": 927,
+        "v": "2.9.39",
+        "r": "stable",
+        "ec": 1,
+        "o": 30,
+        "fbp": "fb.1.1621524167812.719771378",
+        "it": 1621524167656,
+        "coo": false,
+        "es": "automatic",
+        "tm": 3,
+        "exp": "l0",
+        "rqm": "GET"
+      },
+      "filter": "||facebook.com/tr$third-party",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.ub.edu/web/portal/ca/",
+            "source": "requested from https://www.ub.edu/web/portal/ca/ and matched with easyprivacy.txt filter ||facebook.com/tr$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T15:22:48.330Z"
+      },
+      "occurrances": 2
+    },
+    {
+      "url": "https://consentcdn.cookiebot.com/sdk/bc-v3.min.html",
+      "query": null,
+      "filter": "||cookiebot.com^$third-party",
+      "listName": "fanboy-annoyance.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "",
+            "source": "requested from  and matched with fanboy-annoyance.txt filter ||cookiebot.com^$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T15:22:47.889Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://vars.hotjar.com/box-21ccaa45726c0f3c8c458f7a87eb2298.html",
+      "query": null,
+      "filter": "||hotjar.com^$third-party",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "",
+            "source": "requested from  and matched with easyprivacy.txt filter ||hotjar.com^$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T15:22:47.716Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://script.hotjar.com/modules.87b9cf5e358c50dcc8af.js",
+      "query": null,
+      "filter": "||hotjar.com^$third-party",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.ub.edu/web/portal/ca/",
+            "source": "requested from https://www.ub.edu/web/portal/ca/ and matched with easyprivacy.txt filter ||hotjar.com^$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T15:22:47.664Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://connect.facebook.net/signals/config/711415396341134?v=2.9.39&r=stable",
+      "query": {
+        "v": "2.9.39",
+        "r": "stable"
+      },
+      "filter": "||connect.facebook.net/signals/$third-party",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.ub.edu/web/portal/ca/",
+            "source": "requested from https://www.ub.edu/web/portal/ca/ and matched with easyprivacy.txt filter ||connect.facebook.net/signals/$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T15:22:47.661Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://connect.facebook.net/en_US/fbevents.js",
+      "query": null,
+      "filter": "/fbevents.js",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.ub.edu/web/portal/ca/",
+            "source": "requested from https://www.ub.edu/web/portal/ca/ and matched with easyprivacy.txt filter /fbevents.js"
+          }
+        ],
+        "timestamp": "2021-05-20T15:22:47.387Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://consent.cookiebot.com/uc.js?cbid=88355e31-7fef-4d33-b6e9-f715351dd339",
+      "query": {
+        "cbid": "88355e31-7fef-4d33-b6e9-f715351dd339"
+      },
+      "filter": "||cookiebot.com^$third-party",
+      "listName": "fanboy-annoyance.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.ub.edu/web/portal/ca/",
+            "source": "requested from https://www.ub.edu/web/portal/ca/ and matched with fanboy-annoyance.txt filter ||cookiebot.com^$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T15:22:47.386Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://static.hotjar.com/c/hotjar-1859237.js?sv=7",
+      "query": {
+        "sv": 7
+      },
+      "filter": "||hotjar.com^$third-party",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.ub.edu/web/portal/ca/",
+            "source": "requested from https://www.ub.edu/web/portal/ca/ and matched with easyprivacy.txt filter ||hotjar.com^$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T15:22:47.382Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://www.googletagmanager.com/gtm.js?id=GTM-MLPG24R",
+      "query": {
+        "id": "GTM-MLPG24R"
+      },
+      "filter": "/gtm.js",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.ub.edu/web/portal/ca/",
+            "source": "requested from https://www.ub.edu/web/portal/ca/ and matched with easyprivacy.txt filter /gtm.js"
+          }
+        ],
+        "timestamp": "2021-05-20T15:22:46.583Z"
+      },
+      "occurrances": 1
+    }
+  ],
+  "hosts": {
+    "requests": {
+      "firstParty": [
+        "ub.edu"
+      ],
+      "thirdParty": [
+        "www.ub.edu",
+        "fonts.googleapis.com",
+        "cdn.jsdelivr.net",
+        "stackpath.bootstrapcdn.com",
+        "code.jquery.com",
+        "www.googletagmanager.com",
+        "img.youtube.com",
+        "fonts.gstatic.com",
+        "static.hotjar.com",
+        "consent.cookiebot.com",
+        "connect.facebook.net",
+        "script.hotjar.com",
+        "vars.hotjar.com",
+        "www.facebook.com",
+        "consentcdn.cookiebot.com"
+      ]
+    },
+    "beacons": {
+      "firstParty": [],
+      "thirdParty": [
+        "www.facebook.com",
+        "vars.hotjar.com",
+        "script.hotjar.com",
+        "connect.facebook.net",
+        "static.hotjar.com",
+        "www.googletagmanager.com"
+      ]
+    },
+    "cookies": {
+      "firstParty": [
+        "ub.edu"
+      ],
+      "thirdParty": [
+        "www.ub.edu"
+      ]
+    },
+    "localStorage": {
+      "firstParty": [],
+      "thirdParty": [
+        "www.ub.edu"
+      ]
+    },
+    "links": {
+      "firstParty": [],
+      "thirdParty": [
+        "www.ub.edu",
+        "www.cloudflare.com",
+        "policies.google.com",
+        "newrelic.com",
+        "nice264.com",
+        "www.sharethis.com",
+        "www.cookiebot.com",
+        "www.linkedin.com",
+        "www.hotjar.com",
+        "www.akamai.com",
+        "privacy.microsoft.com",
+        "statcounter.com",
+        "vimeo.com",
+        "www.oracle.com",
+        "www.iabeurope.eu",
+        "www.facebook.com",
+        "www.addthis.com",
+        "www.twitter.com",
+        "www.instagram.com",
+        "www.youtube.com",
+        "www.alumni.ub.edu",
+        "www.mecenes.ub.edu",
+        "www.solidaritat.ub.edu",
+        "crai.ub.edu",
+        "www.publicacions.ub.edu",
+        "directori.ub.edu",
+        "intranet.ub.edu",
+        "seu.ub.edu",
+        "charm-eu.eu"
+      ]
+    }
+  }
+}

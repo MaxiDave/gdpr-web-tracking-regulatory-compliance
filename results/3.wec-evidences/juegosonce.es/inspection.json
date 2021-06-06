@@ -1,0 +1,807 @@
+{
+  "title": "Website Evidence Collection",
+  "task_description": null,
+  "uri_ins": "https://juegosonce.es",
+  "uri_refs": [
+    "https://juegosonce.es"
+  ],
+  "uri_dest": "https://www.juegosonce.es/",
+  "uri_redirects": [
+    "https://juegosonce.es/"
+  ],
+  "secure_connection": {
+    "https_support": true,
+    "redirects": [
+      "https://www.juegosonce.es/"
+    ],
+    "https_redirect": true
+  },
+  "host": "juegosonce.es",
+  "script": {
+    "host": "sfod",
+    "version": {
+      "npm": "1.0.0",
+      "commit": null
+    },
+    "cmd_args": "-q --overwrite https://juegosonce.es -- --ignore-certificate-errors",
+    "environment": {
+      "CHROME_DESKTOP": "code-url-handler.desktop"
+    },
+    "node_version": "v14.17.0"
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "HeadlessChrome/80.0.3987.0",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3617.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "5.8.0-53-generic"
+    },
+    "extra_headers": {},
+    "preset_cookies": {}
+  },
+  "start_time": "2021-05-20T15:38:21.406Z",
+  "end_time": "2021-05-20T15:38:28.767Z",
+  "links": {
+    "firstParty": [],
+    "thirdParty": [
+      {
+        "href": "https://www.juegosonce.es/politica-cookies",
+        "inner_text": "Política de Cookies.",
+        "inner_html": "Política de <span class=\"lenguaje\" lang=\"en\">Cookies</span>."
+      },
+      {
+        "href": "https://www.juegosonce.es/",
+        "inner_text": "Salto a contenido",
+        "inner_html": "Salto a contenido"
+      },
+      {
+        "href": "https://www.juegosonce.es/login",
+        "inner_text": "\n                        \n                    ",
+        "inner_html": "<img alt=\"usuario\" src=\"https://www1.juegosonce.es/images/iconos/user-icon.svg\">"
+      },
+      {
+        "href": "https://www.juegosonce.es/carrito",
+        "inner_text": "",
+        "inner_html": "<span aria-hidden=\"true\" class=\"items\">0</span>\n                            <img alt=\"Carrito\" aria-hidden=\"true\" src=\"https://www1.juegosonce.es/images/iconos/cart-icon.svg\">"
+      },
+      {
+        "href": "https://www.juegosonce.es/registro",
+        "inner_text": "Regístrate",
+        "inner_html": "Regístrate"
+      },
+      {
+        "href": "https://www.juegosonce.es/recordar-password",
+        "inner_text": "He olvidado mi contraseña",
+        "inner_html": "He olvidado mi contraseña"
+      },
+      {
+        "href": "https://www.juegosonce.es/sueldazo-fin-de-semana",
+        "inner_text": "\n\t        \t\n\t        ",
+        "inner_html": "<img alt=\"El Sueldazo del fin de semana. Gana 5.000 € al mes durante 20 años.\" src=\"https://www1.juegosonce.es/images/banners//menu/DOM/bannermenu_DOM.jpg\">"
+      },
+      {
+        "href": "https://www.juegosonce.es/cupon-diario",
+        "inner_text": "35.000 €",
+        "inner_html": "<span class=\"imagen\"><img alt=\"Cupón Diario\" src=\"https://www1.juegosonce.es/images/logos/logo_ORD_big.png\"></span>\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t<span class=\"bote\">35.000 €</span>"
+      },
+      {
+        "href": "https://www.juegosonce.es/cuponazo",
+        "inner_text": "15.000.000 €\nViernes 21 mayo",
+        "inner_html": "<span class=\"imagen\"><img alt=\"Cuponazo\" src=\"https://www1.juegosonce.es/images/logos/logo_VIE_new_big.png\"></span>\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t<span class=\"bote\">15.000.000 €</span>\n\t\t\t\t<span class=\"fecha\">Viernes 21 mayo</span>"
+      },
+      {
+        "href": "https://www.juegosonce.es/eurojackpot",
+        "inner_text": "78.000.000 €\nViernes 21 mayo",
+        "inner_html": "<span class=\"imagen\"><img alt=\"Eurojackpot\" src=\"https://www1.juegosonce.es/images/logos/logo_LT2_big.png\"></span>\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t<span class=\"bote\">78.000.000 €</span>\n\t\t\t\t<span class=\"fecha\">Viernes 21 mayo</span>"
+      },
+      {
+        "href": "https://www.juegosonce.es/superonce",
+        "inner_text": "1.000.000 €",
+        "inner_html": "<span class=\"imagen\"><img alt=\"Super Once\" src=\"https://www1.juegosonce.es/images/logos/logo_SUP_big.png\"></span>\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t<span class=\"bote\">1.000.000 €</span>"
+      },
+      {
+        "href": "https://www.juegosonce.es/triplex",
+        "inner_text": "150 €",
+        "inner_html": "<span class=\"imagen\"><img alt=\"Triplex de la ONCE\" src=\"https://www1.juegosonce.es/images/logos/logo_LT3_big.png\"></span>\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t<span class=\"bote\">150 €</span>"
+      },
+      {
+        "href": "https://www.juegosonce.es/mi-dia-once",
+        "inner_text": "Miles de premios",
+        "inner_html": "<span class=\"imagen\"><img alt=\"Mi día\" src=\"https://www1.juegosonce.es/images/logos/logo_LT4_big.png\"></span>\n\t\t\t\t<span class=\"bote\">Miles de premios</span>"
+      },
+      {
+        "href": "https://www.juegosonce.es/pack-compradirecta?pack=PCK_VIE&activos=eurojackpot&pasivos=cuponazo&pasSorteos=1&pasPaga=2",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tPack\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tViernes\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tV\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
+        "inner_html": "<p>Pack\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<span class=\"bote\">Viernes</span>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<span aria-hidden=\"true\" class=\"verde\">V</span></p>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<p></p>"
+      },
+      {
+        "href": "https://www.juegosonce.es/pack-compradirecta?pack=PCK_FIND&activos=eurojackpot&pasivos=cuponazo,sueldazo-fin-de-semana&pasSorteos=1,2",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tPack\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tFin de semana\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tV-S-D\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
+        "inner_html": "<p>Pack\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<span class=\"bote\">Fin de semana</span>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<span aria-hidden=\"true\" class=\"verde\">V-S-D</span></p>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<p></p>"
+      },
+      {
+        "href": "https://www.juegosonce.es/pack-pasivos-compradirecta?pack=PCK_ORD4&tipoProd=cupon-diario&numSorteos=4&numCupones=1&numeroUnico=0&numeroBuscar=*****&jugarPaga=1",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tPack\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tCupón Diario X4\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tL-M-X-J\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
+        "inner_html": "<p>Pack\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<span class=\"bote\">Cupón Diario X4</span>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<span aria-hidden=\"true\" class=\"verde\">L-M-X-J</span></p>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<p></p>"
+      },
+      {
+        "href": "https://www.juegosonce.es/packs-once",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tVer todos los packs\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
+        "inner_html": "<img alt=\"Packs de la ONCE\" src=\"https://www1.juegosonce.es/images/logos/logo-packs.png\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t<span class=\"enlacepacks\">Ver todos los packs</span>"
+      },
+      {
+        "href": "https://www.juegosonce.es/rasca-tropical",
+        "inner_text": "150.000 €",
+        "inner_html": "<img alt=\"Rasca Tropical\" src=\"https://www1.juegosonce.es/images/logos/rascas/EC4/logo.png\">\n\t\t\t\t\t\t\t\t\t    \t\t\t\t<span class=\"bote\">150.000 €</span>"
+      },
+      {
+        "href": "https://www.juegosonce.es/rasca-mega-millonario-2020",
+        "inner_text": "1.000.000 €\nal instante",
+        "inner_html": "<img alt=\"Mega Millonario\" src=\"https://www1.juegosonce.es/images/logos/rascas/E29_01/logo.png\">\n\t\t\t\t\t\t\t\t\t    \t\t\t\t<span class=\"bote\">1.000.000 €</span>\n\t\t\t\t\t\t\t\t\t    \t\t\t\t<span>al instante</span>"
+      },
+      {
+        "href": "https://www.juegosonce.es/rasca-colorful",
+        "inner_text": "28.000 €",
+        "inner_html": "<img alt=\"Rasca Colorful\" src=\"https://www1.juegosonce.es/images/logos/rascas/EB2_01/logo.png\">\n\t\t\t\t\t\t\t\t\t    \t\t\t\t<span class=\"bote\">28.000 €</span>"
+      },
+      {
+        "href": "https://www.juegosonce.es/rasca-slingo",
+        "inner_text": "500.000 €\nal instante",
+        "inner_html": "<img alt=\"Slingo\" src=\"https://www1.juegosonce.es/images/logos/rascas/EB8/logo.png\">\n\t\t\t\t\t\t\t\t\t    \t\t\t\t<span class=\"bote\">500.000 €</span>\n\t\t\t\t\t\t\t\t\t    \t\t\t\t<span>al instante</span>"
+      },
+      {
+        "href": "https://www.juegosonce.es/rasca-cajas-fuertes",
+        "inner_text": "15.000 €",
+        "inner_html": "<img alt=\"Rasca Cajas Fuertes\" src=\"https://www1.juegosonce.es/images/logos/rascas/EC3/logo.png\">\n\t\t\t\t\t\t\t\t\t    \t\t\t\t<span class=\"bote\">15.000 €</span>"
+      },
+      {
+        "href": "https://www.juegosonce.es/rascas-once",
+        "inner_text": "Ver más rascas",
+        "inner_html": "<img alt=\"Rascas de la ONCE\" src=\"https://www1.juegosonce.es/images/banners/rascas/logorascas.png\">\n\t\t\t\t\t\t\t\t\t<span class=\"enlacerasca\">Ver más rascas</span>"
+      },
+      {
+        "href": "https://www.juegosonce.es/resultados-cupon-diario",
+        "inner_text": "Resultados Cupón Diario",
+        "inner_html": "Resultados <span class=\"ocu\">Cupón Diario</span>"
+      },
+      {
+        "href": "https://www.juegosonce.es/comprobar-cupon-diario",
+        "inner_text": "Comprueba Cupón Diario",
+        "inner_html": "Comprueba <span class=\"ocu\">Cupón Diario</span>"
+      },
+      {
+        "href": "https://www.juegosonce.es/resultados-cuponazo",
+        "inner_text": "Resultados Cuponazo",
+        "inner_html": "Resultados <span class=\"ocu\">Cuponazo</span>"
+      },
+      {
+        "href": "https://www.juegosonce.es/comprobar-cuponazo",
+        "inner_text": "Comprueba Cuponazo",
+        "inner_html": "Comprueba <span class=\"ocu\">Cuponazo</span>"
+      },
+      {
+        "href": "https://www.juegosonce.es/resultados-sueldazo-fin-de-semana",
+        "inner_text": "Resultados Sueldazo",
+        "inner_html": "Resultados <span class=\"ocu\">Sueldazo</span>"
+      },
+      {
+        "href": "https://www.juegosonce.es/comprobar-sueldazo-fin-de-semana",
+        "inner_text": "Comprueba Sueldazo",
+        "inner_html": "Comprueba <span class=\"ocu\">Sueldazo</span>"
+      },
+      {
+        "href": "https://www.juegosonce.es/resultados-once-dia-de-la-madre-2021",
+        "inner_text": "Resultados Extra Día de la Madre",
+        "inner_html": "Resultados <span class=\"ocu\">Extra Día de la Madre</span>"
+      },
+      {
+        "href": "https://www.juegosonce.es/comprobar-dia-de-la-madre",
+        "inner_text": "Comprueba Extra Día de la Madre",
+        "inner_html": "Comprueba <span class=\"ocu\">Extra Día de la Madre</span>"
+      },
+      {
+        "href": "https://www.juegosonce.es/resultados-eurojackpot",
+        "inner_text": "Resultados Eurojackpot",
+        "inner_html": "Resultados <span class=\"ocu\">Eurojackpot</span>"
+      },
+      {
+        "href": "https://www.juegosonce.es/comprobar-eurojackpot",
+        "inner_text": "Comprueba Eurojackpot",
+        "inner_html": "Comprueba <span class=\"ocu\">Eurojackpot</span>"
+      },
+      {
+        "href": "https://www.juegosonce.es/resultados-superonce",
+        "inner_text": "Resultados Super Once",
+        "inner_html": "Resultados <span class=\"ocu\">Super Once</span>"
+      },
+      {
+        "href": "https://www.juegosonce.es/comprobar-superonce",
+        "inner_text": "Comprueba Super Once",
+        "inner_html": "Comprueba <span class=\"ocu\">Super Once</span>"
+      },
+      {
+        "href": "https://www.juegosonce.es/resultados-mi-dia-once",
+        "inner_text": "Resultados Mi día",
+        "inner_html": "Resultados <span class=\"ocu\">Mi día</span>"
+      },
+      {
+        "href": "https://www.juegosonce.es/comprobar-mi-dia-once",
+        "inner_text": "Comprueba Mi día",
+        "inner_html": "Comprueba <span class=\"ocu\">Mi día</span>"
+      },
+      {
+        "href": "https://www.juegosonce.es/resultados-triplex",
+        "inner_text": "Resultados Triplex de la ONCE",
+        "inner_html": "Resultados <span class=\"ocu\">Triplex de la ONCE</span>"
+      },
+      {
+        "href": "https://www.juegosonce.es/comprobar-triplex",
+        "inner_text": "Comprueba Triplex de la ONCE",
+        "inner_html": "Comprueba <span class=\"ocu\">Triplex de la ONCE</span>"
+      },
+      {
+        "href": "https://www.juegosonce.es/historico-resultados-cupones-once",
+        "inner_text": "Histórico de resultados de cupones",
+        "inner_html": "Histórico de resultados de cupones"
+      },
+      {
+        "href": "https://www.juegosonce.es/resultados-ultimos-sorteos-once",
+        "inner_text": "Últimos resultados",
+        "inner_html": "Últimos resultados"
+      },
+      {
+        "href": "https://www.juegosonce.es/pago-de-premios",
+        "inner_text": "Pago de premios",
+        "inner_html": "Pago de premios"
+      },
+      {
+        "href": "https://www.juegosonce.es/horarios",
+        "inner_text": "Horarios",
+        "inner_html": "Horarios"
+      },
+      {
+        "href": "https://www.juegosonce.es/juego-responsable",
+        "inner_text": "Juego responsable",
+        "inner_html": "Juego responsable"
+      },
+      {
+        "href": "https://www.juegosonce.es/autoexclusion",
+        "inner_text": "Autoexclusión",
+        "inner_html": "Autoexclusión"
+      },
+      {
+        "href": "https://www.juegosonce.es/prohibicion-menores-edad",
+        "inner_text": "Prohibición menores de edad",
+        "inner_html": "Prohibición menores de edad"
+      },
+      {
+        "href": "https://www.juegosonce.es/quienes-somos",
+        "inner_text": "¿Quiénes somos?",
+        "inner_html": "¿Quiénes somos?"
+      },
+      {
+        "href": "https://www.juegosonce.es/la-ONCE-y-su-fundacion",
+        "inner_text": "La ONCE y su Fundación",
+        "inner_html": "La ONCE y su Fundación"
+      },
+      {
+        "href": "https://www.juegosonce.es/accesibilidad",
+        "inner_text": "Comprometidos con la accesibilidad",
+        "inner_html": "Comprometidos con la accesibilidad"
+      },
+      {
+        "href": "https://www.juegosonce.es/contacto",
+        "inner_text": "Contacto",
+        "inner_html": "Contacto"
+      },
+      {
+        "href": "https://www.juegosonce.es/seguridad",
+        "inner_text": "Seguridad",
+        "inner_html": "Seguridad"
+      },
+      {
+        "href": "https://www.juegosonce.es/preguntas-frecuentes",
+        "inner_text": "Preguntas frecuentes",
+        "inner_html": "Preguntas frecuentes"
+      },
+      {
+        "href": "https://www.juegosonce.es/promociones",
+        "inner_text": "Promociones y sorteos. Cada mes en JuegosONCE.\nDescúbrelos",
+        "inner_html": "<span class=\"ocu\">Promociones y sorteos. Cada mes en JuegosONCE.</span>\n            <span aria-hidden=\"true\" class=\"rojo\">Descúbrelos</span>"
+      },
+      {
+        "href": "https://www.juegosonce.es/botes-y-premios",
+        "inner_text": "botes y premios",
+        "inner_html": "botes y premios"
+      },
+      {
+        "href": "https://www.juegosonce.es/jugar-rasca-tropical",
+        "inner_text": "Jugar\na Rasca Tropical\n150.000 €",
+        "inner_html": "<span>Jugar\n                        <span class=\"ocu\"> a Rasca Tropical</span></span>\n                        <span>150.000 €</span>"
+      },
+      {
+        "href": "https://www.juegosonce.es/jugar-rasca-slingo",
+        "inner_text": "Jugar\na Slingo\n500.000 €",
+        "inner_html": "<span>Jugar\n                        <span class=\"ocu\"> a Slingo</span></span>\n                        <span>500.000 €</span>"
+      },
+      {
+        "href": "https://www.juegosonce.es/jugar-rasca-colorful",
+        "inner_text": "Jugar\na Rasca Colorful\n28.000 €",
+        "inner_html": "<span>Jugar\n                        <span class=\"ocu\"> a Rasca Colorful</span></span>\n                        <span>28.000 €</span>"
+      },
+      {
+        "href": "https://www.juegosonce.es/rasca-monopoly",
+        "inner_text": "Más información\n¡SOLO WEB!\n2 € - 3 € - 5 €",
+        "inner_html": "<img class=\"veinte\" alt=\"Rasca Monopoly. Gana hasta 500.000 €\" src=\"https://www1.juegosonce.es/images/banners//rascas/distributiva/M13/banner_M13_25.jpg\">\n\t                    <span class=\"masinforasca\">\n\t                      <span>Más información</span>\n\t                    </span>\n\t                    <span class=\"rnew\">¡SOLO WEB!</span>\n\t                    <span class=\"rpvp\">2 € - 3 € - 5 €</span>"
+      },
+      {
+        "href": "https://www.juegosonce.es/jugar-rasca-monopoly",
+        "inner_text": "Jugar\na Monopoly\n500.000 €",
+        "inner_html": "<span>Jugar\n                        <span class=\"ocu\"> a Monopoly</span></span>\n                        <span>500.000 €</span>"
+      },
+      {
+        "href": "https://www.juegosonce.es/resultados-cupon-diario-19-mayo-2021",
+        "inner_text": "Ver detalle del resultado\n de Cupón Diario.",
+        "inner_html": "Ver detalle del resultado<span class=\"ocu\">&nbsp;de Cupón Diario.</span>"
+      },
+      {
+        "href": "https://www.juegosonce.es/resultados-cuponazo-14-mayo-2021",
+        "inner_text": "Ver detalle del resultado\n de Cuponazo.",
+        "inner_html": "Ver detalle del resultado<span class=\"ocu\">&nbsp;de Cuponazo.</span>"
+      },
+      {
+        "href": "https://www.juegosonce.es/resultados-sueldazo-fin-de-semana-16-mayo-2021",
+        "inner_text": "Ver detalle del resultado\n de El Sueldazo.",
+        "inner_html": "Ver detalle del resultado<span class=\"ocu\">&nbsp;de El Sueldazo.</span>"
+      },
+      {
+        "href": "https://www.juegosonce.es/resultados-eurojackpot-14-mayo-2021",
+        "inner_text": "Ver escrutinio de este sorteo\n de Eurojackpot.",
+        "inner_html": "Ver escrutinio de este sorteo<span class=\"ocu\">&nbsp;de Eurojackpot.</span>"
+      },
+      {
+        "href": "https://www.juegosonce.es/resultados-mi-dia-once-13-mayo-2021",
+        "inner_text": "Ver escrutinio de este sorteo\n de Mi día.",
+        "inner_html": "Ver escrutinio de este sorteo<span class=\"ocu\">&nbsp;de Mi día.</span>"
+      },
+      {
+        "href": "https://www.juegosonce.es/resultados-triplex-20-mayo-2021",
+        "inner_text": "Ver detalle del resultado\n de Triplex de la ONCE.",
+        "inner_html": "Ver detalle del resultado<span class=\"ocu\">&nbsp;de Triplex de la ONCE.</span>"
+      },
+      {
+        "href": "https://www.juegosonce.es/resultados-superonce-20-mayo-2021",
+        "inner_text": "Ver escrutinio de este sorteo\n del Super Once.",
+        "inner_html": "Ver escrutinio de este sorteo<span class=\"ocu\">&nbsp;del Super Once.</span>"
+      },
+      {
+        "href": "https://www.juegosonce.es/campeonas/",
+        "inner_text": "DESCUBRE MÁS",
+        "inner_html": "Descubre más"
+      },
+      {
+        "href": "https://twitter.com/juegosonce",
+        "inner_text": "\n                            \n                        ",
+        "inner_html": "<img alt=\"Logotipo de Twitter. Accede al Twitter JuegosONCE. Se abrirá en ventana nueva.\" src=\"https://www1.juegosonce.es/images/logos/twitter.png\">"
+      },
+      {
+        "href": "https://www.facebook.com/juegosonce",
+        "inner_text": "\n                            \n                        ",
+        "inner_html": "<img alt=\"Logotipo de Facebook. Accede al Facebook de JuegosONCE. Se abrirá en ventana nueva.\" src=\"https://www1.juegosonce.es/images/logos/facebook.png\">"
+      },
+      {
+        "href": "https://www.youtube.com/user/JuegosONCE",
+        "inner_text": "\n                            \n                        ",
+        "inner_html": "<img alt=\"Logotipo de Youtube. JuegosONCE en Youtube. Se abrirá en ventana nueva.\" src=\"https://www1.juegosonce.es/images/logos/youtube.png\">"
+      },
+      {
+        "href": "https://www.juegosonce.es/rss/juegosonce2.rss",
+        "inner_text": "\n                            \n                        ",
+        "inner_html": "<img alt=\"Logotipo de RSS. Accede al canal RSS de JuegosONCE.\" src=\"https://www1.juegosonce.es/images/logos/rss.png\">"
+      },
+      {
+        "href": "https://www.juegosonce.es/rss/sorteos2.xml",
+        "inner_text": "\n                            \n                        ",
+        "inner_html": "<img alt=\"Información XML sobre los últimos sorteos de JuegosONCE\" src=\"https://www1.juegosonce.es/images/logos/xml.png\">"
+      },
+      {
+        "href": "http://www.once.es/",
+        "inner_text": "\n                    \n                ",
+        "inner_html": "<img alt=\"Logotipo de la ONCE.\" src=\"https://www1.juegosonce.es/images/logos/logo-once-landing.jpg\">"
+      },
+      {
+        "href": "https://www.juegosonce.es/loteria",
+        "inner_text": "NUESTRA LOTERÍA CUPÓN",
+        "inner_html": "NUESTRA LOTERÍA CUPÓN"
+      },
+      {
+        "href": "https://www.juegosonce.es/apuestas",
+        "inner_text": "NUESTROS JUEGOS ACTIVOS",
+        "inner_html": "NUESTROS JUEGOS ACTIVOS"
+      },
+      {
+        "href": "https://www.juegosonce.es/rasca-7-de-la-suerte",
+        "inner_text": "7 de la Suerte",
+        "inner_html": "7 de la Suerte"
+      },
+      {
+        "href": "https://www.juegosonce.es/rasca-colores-ganadores",
+        "inner_text": "Colores Ganadores",
+        "inner_html": "Colores Ganadores"
+      },
+      {
+        "href": "https://www.juegosonce.es/club-mis-numeros-preferidos",
+        "inner_text": "Club Mis Números Preferidos",
+        "inner_html": "Club Mis Números Preferidos"
+      },
+      {
+        "href": "https://clubmisnumerospreferidos.juegosonce.es/login/admin.aspx",
+        "inner_text": "Acceso al Club",
+        "inner_html": "Acceso al Club"
+      },
+      {
+        "href": "https://www.juegosonce.es/historico-resultados-eurojackpot",
+        "inner_text": "Resultado del Eurojackpot",
+        "inner_html": "Resultado del Eurojackpot"
+      },
+      {
+        "href": "https://www.juegosonce.es/historico-resultados-mi-dia-once",
+        "inner_text": "Resultados de Mi día",
+        "inner_html": "Resultados de Mi día"
+      },
+      {
+        "href": "https://www.juegosonce.es/historico-resultados-superonce",
+        "inner_text": "Resultados del Super Once",
+        "inner_html": "Resultados del Super Once"
+      },
+      {
+        "href": "https://www.juegosonce.es/historico-resultados-triplex-once",
+        "inner_text": "Resultados de Triplex de la ONCE",
+        "inner_html": "Resultados de Triplex de la ONCE"
+      },
+      {
+        "href": "https://www.juegosonce.es/comprobar-cupones",
+        "inner_text": "Comprueba tu Cupón",
+        "inner_html": "Comprueba tu Cupón"
+      },
+      {
+        "href": "https://www.juegosonce.es/sorteo-directoHtml",
+        "inner_text": "Retransmisión de sorteos",
+        "inner_html": "Retransmisión de sorteos"
+      },
+      {
+        "href": "https://www.juegosonce.es/asignacion-premios-anteriores",
+        "inner_text": "Asignación premios sorteos anteriores",
+        "inner_html": "Asignación premios sorteos anteriores"
+      },
+      {
+        "href": "https://www.juegosonce.es/estadisticas-cupones-numero",
+        "inner_text": "Estadísticas por número",
+        "inner_html": "Estadísticas por número"
+      },
+      {
+        "href": "https://www.juegosonce.es/estadisticas-cupones-terminacion",
+        "inner_text": "Estadísticas por terminación",
+        "inner_html": "Estadísticas por terminación"
+      },
+      {
+        "href": "https://www.juegosonce.es/productoscomplementarios",
+        "inner_text": "PRODUCTOS COMPLEMENTARIOS",
+        "inner_html": "Productos complementarios"
+      },
+      {
+        "href": "https://www.juegosonce.es/campeonas",
+        "inner_text": "Campeonas",
+        "inner_html": "Campeonas"
+      },
+      {
+        "href": "https://www.juegosonce.es/mapa-del-sitio",
+        "inner_text": "Mapa Web",
+        "inner_html": "Mapa Web"
+      },
+      {
+        "href": "https://www.juegosonce.es/ganadores-ultimas-promociones",
+        "inner_text": "Ganadores últimas promociones",
+        "inner_html": "Ganadores últimas promociones"
+      },
+      {
+        "href": "https://www.juegosonce.es/reglamentos",
+        "inner_text": "Reglamentos",
+        "inner_html": "Reglamentos"
+      },
+      {
+        "href": "https://www.juegosonce.es/aviso-legal-es",
+        "inner_text": "Aviso legal",
+        "inner_html": "Aviso legal"
+      },
+      {
+        "href": "https://www1.juegosonce.es/pdf/reglamentos/Condiciones_del_Contrato_de_Juego_de_la_Web_Oficial_de_Juego_de_la_ONCE.pdf",
+        "inner_text": "Condiciones de Contrato de Juego",
+        "inner_html": "Condiciones de Contrato de Juego"
+      },
+      {
+        "href": "https://www.juegosonce.es/condiciones-generales",
+        "inner_text": "Condiciones de uso de la Web",
+        "inner_html": "Condiciones de uso de la Web"
+      },
+      {
+        "href": "https://www.juegosonce.es/privacidad",
+        "inner_text": "Política de privacidad",
+        "inner_html": "Política de privacidad"
+      },
+      {
+        "href": "https://www.juegosonce.es/politicaVerificacion",
+        "inner_text": "Política de verificación",
+        "inner_html": "Política de verificación"
+      },
+      {
+        "href": "https://www1.juegosonce.es/pdf/politica_verificacion/Informacion_adicional.pdf",
+        "inner_text": "Política de Protección de Datos",
+        "inner_html": "Política de Protección de Datos"
+      },
+      {
+        "href": "https://www.once.es/",
+        "inner_text": "",
+        "inner_html": "<img alt=\"Logotipo de la ONCE.\" src=\"https://www1.juegosonce.es/images/logos/logo-once-landing.jpg\">"
+      },
+      {
+        "href": "https://itunes.apple.com/es/app/juegosonce/id518586562?mt=8&ign-mptuo%3D4",
+        "inner_text": "",
+        "inner_html": "<img alt=\"Consíguelo en el App Store.\" src=\"https://www1.juegosonce.es/images/logos/appstore.png\">"
+      },
+      {
+        "href": "https://play.google.com/store/apps/details?id=es.once.juegosonce.mobile",
+        "inner_text": "",
+        "inner_html": "<img alt=\"Disponible en Google Play\" src=\"https://www1.juegosonce.es/images/logos/googleplay.png\">"
+      },
+      {
+        "href": "https://www.confianzaonline.es/empresas/once.htm",
+        "inner_text": "",
+        "inner_html": "<img alt=\"Logotipo de Confianza Online. Abre en ventana nueva.\" src=\"https://www1.juegosonce.es/images/logos/logoConfianzaOnline.png\">"
+      },
+      {
+        "href": "https://trustsealinfo.verisign.com/splash?form_file=fdf/splash.fdf&dn=www.juegosonce.es&lang=es",
+        "inner_text": "",
+        "inner_html": "<img alt=\"Logotipo de Certificado Verisign. Abre en ventana nueva.\" src=\"https://www1.juegosonce.es/images/logos/logoVersiSign.png\">"
+      },
+      {
+        "href": "https://www1.juegosonce.es/pdf/juego_responsable/Certificado_WLA.pdf",
+        "inner_text": "",
+        "inner_html": "<img alt=\"Logotipo de certificación Juego Responsable WLA. Documento PDF, abre en ventana nueva.\" src=\"https://www1.juegosonce.es/images/logos/wla_cert.png\">"
+      },
+      {
+        "href": "https://www1.juegosonce.es/pdf/juego_responsable/Cert_JueRes_EurLot.pdf",
+        "inner_text": "",
+        "inner_html": "<img alt=\"Logotipo de certificación de Juego Responsable de Loterías Europeas. Documento PDF, abre en ventana nueva.\" src=\"https://www1.juegosonce.es/images/logos/cert_el.png\">"
+      },
+      {
+        "href": "https://www1.juegosonce.es/pdf/juego_responsable/Certificado_ISO_87680.pdf",
+        "inner_text": "",
+        "inner_html": "<img alt=\"Logotipo de certificación ISO 27001. Documento PDF, abre en ventana nueva.\" src=\"https://www1.juegosonce.es/images/logos/wla_cert.png\">"
+      },
+      {
+        "href": "https://www1.juegosonce.es/pdf/juego_responsable/Certificado_WLA_87679-esp.pdf",
+        "inner_text": "",
+        "inner_html": "<img alt=\"Logotipo de certificación WLA. Documento PDF, abre en ventana nueva.\" src=\"https://www1.juegosonce.es/images/logos/bsi_cert2.png\">"
+      },
+      {
+        "href": "https://www1.juegosonce.es/pdf/juego_responsable/Certificado_ISO_27001.pdf",
+        "inner_text": "",
+        "inner_html": "<img alt=\"Logotipo de Certificación BSI ISO/IE 27001. Documento PDF, abre en ventana nueva.\" src=\"https://www1.juegosonce.es/images/logos/bsi_cert.png\">"
+      },
+      {
+        "href": "http://certiaccesibilidad.technosite.es/Recursos/Certificado.aspx?codigo=nzluvulhngngzqcazdwt554417556NZLUVULHNGNGZQCAZDWTR",
+        "inner_text": "",
+        "inner_html": "<img alt=\"Logotipo de Certificación WCAG-WAI AA, ILUNION Tecnología y Accesibilidad. Documento PDF, abre en ventana nueva.\" src=\"https://www1.juegosonce.es/images/logos/cert-ilunion.png\">"
+      },
+      {
+        "href": "https://www.once.es/conocenos/con-los-organismos-publicos",
+        "inner_text": "",
+        "inner_html": "<img alt=\"Grupo Social ONCE. Fundación ONCE. ILUNION. ONCE.\" class=\"logoncelio\" src=\"https://www1.juegosonce.es/images/logos/logoOnce.png\">"
+      },
+      {
+        "href": "https://www.jugarbien.es/",
+        "inner_text": "",
+        "inner_html": "<img alt=\"Logotipo de Jugar Bien. Acceso a la Web de Jugar Bien. Se abrirá en ventana nueva.\" src=\"https://www1.juegosonce.es/images/logos/jugarbien.png\">"
+      }
+    ],
+    "social": [
+      {
+        "href": "https://twitter.com/juegosonce",
+        "inner_text": "\n                            \n                        ",
+        "inner_html": "<img alt=\"Logotipo de Twitter. Accede al Twitter JuegosONCE. Se abrirá en ventana nueva.\" src=\"https://www1.juegosonce.es/images/logos/twitter.png\">"
+      },
+      {
+        "href": "https://www.facebook.com/juegosonce",
+        "inner_text": "\n                            \n                        ",
+        "inner_html": "<img alt=\"Logotipo de Facebook. Accede al Facebook de JuegosONCE. Se abrirá en ventana nueva.\" src=\"https://www1.juegosonce.es/images/logos/facebook.png\">"
+      },
+      {
+        "href": "https://www.youtube.com/user/JuegosONCE",
+        "inner_text": "\n                            \n                        ",
+        "inner_html": "<img alt=\"Logotipo de Youtube. JuegosONCE en Youtube. Se abrirá en ventana nueva.\" src=\"https://www1.juegosonce.es/images/logos/youtube.png\">"
+      }
+    ],
+    "keywords": [
+      {
+        "href": "https://www.juegosonce.es/login",
+        "inner_text": "\n                        \n                    ",
+        "inner_html": "<img alt=\"usuario\" src=\"https://www1.juegosonce.es/images/iconos/user-icon.svg\">"
+      },
+      {
+        "href": "https://clubmisnumerospreferidos.juegosonce.es/login/admin.aspx",
+        "inner_text": "Acceso al Club",
+        "inner_html": "Acceso al Club"
+      },
+      {
+        "href": "https://www.juegosonce.es/aviso-legal-es",
+        "inner_text": "Aviso legal",
+        "inner_html": "Aviso legal"
+      }
+    ]
+  },
+  "unsafeForms": [],
+  "browsing_history": [
+    "https://www.juegosonce.es/"
+  ],
+  "websockets": {},
+  "cookies": [
+    {
+      "name": "JSESSIONID",
+      "value": "Kt6nRIPN8xJYcQPk81GioZ41SmsNiTmnCg0NNjX_.juonapsv1-37.vm.juegosonce.local:juonapsv1-37",
+      "domain": "www.juegosonce.es",
+      "path": "/",
+      "expires": -1,
+      "size": 96,
+      "httpOnly": true,
+      "secure": true,
+      "session": true,
+      "sameSite": "None",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.juegosonce.es/",
+            "source": "set in Set-Cookie HTTP response header for https://www.juegosonce.es/"
+          }
+        ],
+        "type": "Cookie.HTTP",
+        "timestamp": "2021-05-20T15:38:22.566Z",
+        "location": "about:blank"
+      },
+      "firstPartyStorage": false
+    }
+  ],
+  "localStorage": {},
+  "beacons": [
+    {
+      "url": "https://www.googletagmanager.com/gtm.js?id=GTM-N72284",
+      "query": {
+        "id": "GTM-N72284"
+      },
+      "filter": "/gtm.js",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.juegosonce.es/",
+            "source": "requested from https://www.juegosonce.es/ and matched with easyprivacy.txt filter /gtm.js"
+          }
+        ],
+        "timestamp": "2021-05-20T15:38:22.852Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://www1.juegosonce.es/images/logos/rss.png",
+      "query": null,
+      "filter": "/rss.png",
+      "listName": "fanboy-annoyance.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.juegosonce.es/",
+            "source": "requested from https://www.juegosonce.es/ and matched with fanboy-annoyance.txt filter /rss.png"
+          }
+        ],
+        "timestamp": "2021-05-20T15:38:22.624Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://www1.juegosonce.es/images/logos/youtube.png",
+      "query": null,
+      "filter": "/youtube.png",
+      "listName": "fanboy-annoyance.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.juegosonce.es/",
+            "source": "requested from https://www.juegosonce.es/ and matched with fanboy-annoyance.txt filter /youtube.png"
+          }
+        ],
+        "timestamp": "2021-05-20T15:38:22.623Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://www1.juegosonce.es/images/logos/facebook.png",
+      "query": null,
+      "filter": "/images/*facebook.png$domain=~facebook.com",
+      "listName": "fanboy-annoyance.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.juegosonce.es/",
+            "source": "requested from https://www.juegosonce.es/ and matched with fanboy-annoyance.txt filter /images/*facebook.png$domain=~facebook.com"
+          }
+        ],
+        "timestamp": "2021-05-20T15:38:22.622Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://www1.juegosonce.es/images/logos/twitter.png",
+      "query": null,
+      "filter": "/logos/twitter.",
+      "listName": "fanboy-annoyance.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.juegosonce.es/",
+            "source": "requested from https://www.juegosonce.es/ and matched with fanboy-annoyance.txt filter /logos/twitter."
+          }
+        ],
+        "timestamp": "2021-05-20T15:38:22.620Z"
+      },
+      "occurrances": 1
+    }
+  ],
+  "hosts": {
+    "requests": {
+      "firstParty": [
+        "juegosonce.es"
+      ],
+      "thirdParty": [
+        "www.juegosonce.es",
+        "www1.juegosonce.es",
+        "ajax.googleapis.com",
+        "www.googletagmanager.com"
+      ]
+    },
+    "beacons": {
+      "firstParty": [],
+      "thirdParty": [
+        "www.googletagmanager.com"
+      ]
+    },
+    "cookies": {
+      "firstParty": [],
+      "thirdParty": [
+        "www.juegosonce.es"
+      ]
+    },
+    "localStorage": {
+      "firstParty": [],
+      "thirdParty": []
+    },
+    "links": {
+      "firstParty": [],
+      "thirdParty": [
+        "www.juegosonce.es",
+        "twitter.com",
+        "www.facebook.com",
+        "www.youtube.com",
+        "www.once.es",
+        "clubmisnumerospreferidos.juegosonce.es",
+        "www1.juegosonce.es",
+        "itunes.apple.com",
+        "play.google.com",
+        "www.confianzaonline.es",
+        "trustsealinfo.verisign.com",
+        "certiaccesibilidad.technosite.es",
+        "www.jugarbien.es"
+      ]
+    }
+  }
+}

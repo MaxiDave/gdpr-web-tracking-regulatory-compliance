@@ -1,0 +1,124 @@
+{
+  "title": "Website Evidence Collection",
+  "task_description": null,
+  "uri_ins": "https://ibercajadirecto.com",
+  "uri_refs": [
+    "https://ibercajadirecto.com"
+  ],
+  "uri_dest": "https://ibercajadirecto.com/Login.html",
+  "uri_redirects": [
+    "https://ibercajadirecto.com/"
+  ],
+  "secure_connection": {
+    "https_support": false,
+    "https_error": "RequestError: Error: unable to verify the first certificate",
+    "redirects": [
+      "http://ibercajadirecto.com/Login.html"
+    ],
+    "https_redirect": false
+  },
+  "host": "ibercajadirecto.com",
+  "script": {
+    "host": "sfod",
+    "version": {
+      "npm": "1.0.0",
+      "commit": null
+    },
+    "cmd_args": "-q --overwrite https://ibercajadirecto.com -- --ignore-certificate-errors",
+    "environment": {
+      "CHROME_DESKTOP": "code-url-handler.desktop"
+    },
+    "node_version": "v14.17.0"
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "HeadlessChrome/80.0.3987.0",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3617.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "5.8.0-53-generic"
+    },
+    "extra_headers": {},
+    "preset_cookies": {}
+  },
+  "start_time": "2021-05-20T16:47:38.024Z",
+  "end_time": "2021-05-20T16:47:43.698Z",
+  "links": {
+    "firstParty": [
+      {
+        "href": "https://ibercajadirecto.com/Login.html",
+        "inner_text": "",
+        "inner_html": ""
+      }
+    ],
+    "thirdParty": [],
+    "social": [],
+    "keywords": [
+      {
+        "href": "https://ibercajadirecto.com/Login.html",
+        "inner_text": "",
+        "inner_html": ""
+      }
+    ]
+  },
+  "unsafeForms": [],
+  "browsing_history": [
+    "https://ibercajadirecto.com/Login.html"
+  ],
+  "websockets": {},
+  "cookies": [
+    {
+      "name": "ASPSESSIONIDQADRQASA",
+      "value": "CHHDCPNCIHKFAIMKJPBEKMGE",
+      "domain": "ibercajadirecto.com",
+      "path": "/",
+      "expires": -1,
+      "size": 44,
+      "httpOnly": false,
+      "secure": false,
+      "session": true,
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://ibercajadirecto.com/",
+            "source": "set in Set-Cookie HTTP response header for https://ibercajadirecto.com/"
+          }
+        ],
+        "type": "Cookie.HTTP",
+        "timestamp": "2021-05-20T16:47:38.919Z",
+        "location": "about:blank"
+      },
+      "firstPartyStorage": true
+    }
+  ],
+  "localStorage": {},
+  "beacons": [],
+  "hosts": {
+    "requests": {
+      "firstParty": [
+        "ibercajadirecto.com"
+      ],
+      "thirdParty": []
+    },
+    "beacons": {
+      "firstParty": [],
+      "thirdParty": []
+    },
+    "cookies": {
+      "firstParty": [
+        "ibercajadirecto.com"
+      ],
+      "thirdParty": []
+    },
+    "localStorage": {
+      "firstParty": [],
+      "thirdParty": []
+    },
+    "links": {
+      "firstParty": [
+        "ibercajadirecto.com"
+      ],
+      "thirdParty": []
+    }
+  }
+}

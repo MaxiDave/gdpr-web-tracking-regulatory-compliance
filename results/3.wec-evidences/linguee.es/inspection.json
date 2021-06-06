@@ -1,0 +1,329 @@
+{
+  "title": "Website Evidence Collection",
+  "task_description": null,
+  "uri_ins": "https://linguee.es",
+  "uri_refs": [
+    "https://linguee.es"
+  ],
+  "uri_dest": "https://www.linguee.es/",
+  "uri_redirects": [
+    "https://linguee.es/"
+  ],
+  "secure_connection": {
+    "https_support": true,
+    "redirects": [
+      "https://www.linguee.es/"
+    ],
+    "https_redirect": true
+  },
+  "host": "linguee.es",
+  "script": {
+    "host": "sfod",
+    "version": {
+      "npm": "1.0.0",
+      "commit": null
+    },
+    "cmd_args": "-q --overwrite https://linguee.es -- --ignore-certificate-errors",
+    "environment": {
+      "CHROME_DESKTOP": "code-url-handler.desktop"
+    },
+    "node_version": "v14.17.0"
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "HeadlessChrome/80.0.3987.0",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3617.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "5.8.0-53-generic"
+    },
+    "extra_headers": {},
+    "preset_cookies": {}
+  },
+  "start_time": "2021-05-20T16:02:11.504Z",
+  "end_time": "2021-05-20T16:02:18.805Z",
+  "links": {
+    "firstParty": [],
+    "thirdParty": [
+      {
+        "href": "https://www.deepl.com/translator",
+        "inner_text": "DeepL",
+        "inner_html": "DeepL"
+      },
+      {
+        "href": "https://www.linguee.es/",
+        "inner_text": "Linguee",
+        "inner_html": "Linguee"
+      },
+      {
+        "href": "https://itunes.apple.com/es/app/id338225335?mt=8",
+        "inner_text": "",
+        "inner_html": "<div class=\"AppStoreBadge appstore-logo\"></div>"
+      },
+      {
+        "href": "https://play.google.com/store/apps/details?id=com.linguee.linguee&referrer=utm_source%3Dlinguee%26utm_medium%3Dunknown%26utm_campaign%3Dstart",
+        "inner_text": "",
+        "inner_html": "<div class=\"PlayStoreBadge\"></div>"
+      },
+      {
+        "href": "https://play.google.com/store/apps/details?id=com.linguee.linguee&referrer=utm_source%3Dlinguee%26utm_medium%3Dunknown%26utm_campaign%3DaboutClosure",
+        "inner_text": "",
+        "inner_html": "<div class=\"PlayStoreBadge\"></div>"
+      },
+      {
+        "href": "https://www.linguee.com/?chooseDomain=1",
+        "inner_text": "Linguee in English",
+        "inner_html": "<span>Linguee</span>&nbsp;in&nbsp;English"
+      },
+      {
+        "href": "https://www.linguee.es/espanol-ingles/page/login.php",
+        "inner_text": "Iniciar sesión",
+        "inner_html": "Iniciar sesión"
+      },
+      {
+        "href": "https://www.linguee.es/espanol-ingles/page/imprint.php",
+        "inner_text": "Editores",
+        "inner_html": "Editores"
+      },
+      {
+        "href": "https://www.linguee.es/espanol-ingles/page/termsAndConditions.php",
+        "inner_text": "Términos y condiciones",
+        "inner_html": "Términos y condiciones"
+      },
+      {
+        "href": "https://www.linguee.es/espanol-ingles/page/privacy.php",
+        "inner_text": "Política de privacidad",
+        "inner_html": "Política de privacidad"
+      },
+      {
+        "href": "https://twitter.com/DeepLcom",
+        "inner_text": "",
+        "inner_html": ""
+      },
+      {
+        "href": "https://www.facebook.com/DeepLcom/",
+        "inner_text": "",
+        "inner_html": ""
+      },
+      {
+        "href": "https://www.linkedin.com/company/linkedin-com-company-deepl/",
+        "inner_text": "",
+        "inner_html": ""
+      },
+      {
+        "href": "https://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1528874672298&uri=CELEX%3A32016R0679",
+        "inner_text": "EU law",
+        "inner_html": "EU law"
+      }
+    ],
+    "social": [
+      {
+        "href": "https://twitter.com/DeepLcom",
+        "inner_text": "",
+        "inner_html": ""
+      },
+      {
+        "href": "https://www.facebook.com/DeepLcom/",
+        "inner_text": "",
+        "inner_html": ""
+      },
+      {
+        "href": "https://www.linkedin.com/company/linkedin-com-company-deepl/",
+        "inner_text": "",
+        "inner_html": ""
+      }
+    ],
+    "keywords": [
+      {
+        "href": "https://www.linguee.es/espanol-ingles/page/login.php",
+        "inner_text": "Iniciar sesión",
+        "inner_html": "Iniciar sesión"
+      },
+      {
+        "href": "https://www.linguee.es/espanol-ingles/page/privacy.php",
+        "inner_text": "Política de privacidad",
+        "inner_html": "Política de privacidad"
+      },
+      {
+        "href": "https://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1528874672298&uri=CELEX%3A32016R0679",
+        "inner_text": "EU law",
+        "inner_html": "EU law"
+      }
+    ]
+  },
+  "unsafeForms": [],
+  "browsing_history": [
+    "https://www.linguee.es/"
+  ],
+  "websockets": {},
+  "cookies": [
+    {
+      "name": "cookie",
+      "value": "4a5ef713-6a2b-8ce9-4b26-8d51ba35a812:0",
+      "domain": "linguee.es",
+      "path": "/",
+      "expires": 1684598532.173816,
+      "size": 44,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2023-05-20T16:02:12.173Z",
+      "expiresDays": 730,
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.linguee.es/",
+            "source": "set in Set-Cookie HTTP response header for https://www.linguee.es/"
+          }
+        ],
+        "type": "Cookie.HTTP",
+        "timestamp": "2021-05-20T16:02:12.179Z",
+        "location": "about:blank"
+      },
+      "firstPartyStorage": true
+    }
+  ],
+  "localStorage": {
+    "https://www.linguee.es": {
+      "prebid.cookieTest": {
+        "value": 1,
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 46214,
+              "lineNumber": 3,
+              "fileName": "https://cdn.snigelweb.com/prebid/latest/prebid.js",
+              "functionName": "n",
+              "source": "    at n (https://cdn.snigelweb.com/prebid/latest/prebid.js:3:46214)"
+            },
+            {
+              "columnNumber": 45261,
+              "lineNumber": 3,
+              "fileName": "https://cdn.snigelweb.com/prebid/latest/prebid.js",
+              "functionName": "s",
+              "source": "    at s (https://cdn.snigelweb.com/prebid/latest/prebid.js:3:45261)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T16:02:13.244Z",
+          "location": "https://www.linguee.es/"
+        }
+      }
+    }
+  },
+  "beacons": [
+    {
+      "url": "https://cdn.snigelweb.com/sncmp/latest/sncmp.min.js",
+      "query": null,
+      "filter": "/sncmp.min.js",
+      "listName": "fanboy-annoyance.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.linguee.es/",
+            "source": "requested from https://www.linguee.es/ and matched with fanboy-annoyance.txt filter /sncmp.min.js"
+          }
+        ],
+        "timestamp": "2021-05-20T16:02:13.093Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://d1wigddrwdtsce.cloudfront.net/img5/icon_linkedin_v2.svg",
+      "query": null,
+      "filter": "/icon_linkedin_",
+      "listName": "fanboy-annoyance.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.linguee.es/",
+            "source": "requested from https://www.linguee.es/ and matched with fanboy-annoyance.txt filter /icon_linkedin_"
+          }
+        ],
+        "timestamp": "2021-05-20T16:02:12.817Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://d1wigddrwdtsce.cloudfront.net/img5/icon_fb_v2.svg",
+      "query": null,
+      "filter": "/icon_fb_",
+      "listName": "fanboy-annoyance.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.linguee.es/",
+            "source": "requested from https://www.linguee.es/ and matched with fanboy-annoyance.txt filter /icon_fb_"
+          }
+        ],
+        "timestamp": "2021-05-20T16:02:12.815Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://d1wigddrwdtsce.cloudfront.net/img5/icon_twitter_v2.svg",
+      "query": null,
+      "filter": "/icon_twitter_",
+      "listName": "fanboy-annoyance.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.linguee.es/",
+            "source": "requested from https://www.linguee.es/ and matched with fanboy-annoyance.txt filter /icon_twitter_"
+          }
+        ],
+        "timestamp": "2021-05-20T16:02:12.812Z"
+      },
+      "occurrances": 1
+    }
+  ],
+  "hosts": {
+    "requests": {
+      "firstParty": [
+        "linguee.es"
+      ],
+      "thirdParty": [
+        "www.linguee.es",
+        "cdn.snigelweb.com",
+        "d1wigddrwdtsce.cloudfront.net",
+        "fonts.googleapis.com",
+        "fonts.gstatic.com",
+        "s.deepl.com",
+        "c.amazon-adsystem.com",
+        "geo-eu.snigelweb.com",
+        "securepubads.g.doubleclick.net"
+      ]
+    },
+    "beacons": {
+      "firstParty": [],
+      "thirdParty": []
+    },
+    "cookies": {
+      "firstParty": [
+        "linguee.es"
+      ],
+      "thirdParty": []
+    },
+    "localStorage": {
+      "firstParty": [],
+      "thirdParty": [
+        "www.linguee.es"
+      ]
+    },
+    "links": {
+      "firstParty": [],
+      "thirdParty": [
+        "www.deepl.com",
+        "www.linguee.es",
+        "itunes.apple.com",
+        "play.google.com",
+        "www.linguee.com",
+        "twitter.com",
+        "www.facebook.com",
+        "www.linkedin.com",
+        "eur-lex.europa.eu"
+      ]
+    }
+  }
+}

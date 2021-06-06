@@ -1,0 +1,552 @@
+{
+  "title": "Website Evidence Collection",
+  "task_description": null,
+  "uri_ins": "https://inversis.com",
+  "uri_refs": [
+    "https://inversis.com"
+  ],
+  "uri_dest": "https://www.inversis.com/",
+  "uri_redirects": [
+    "https://inversis.com/"
+  ],
+  "secure_connection": {
+    "https_support": true,
+    "redirects": [
+      "https://www.inversis.com/"
+    ],
+    "https_redirect": true
+  },
+  "host": "inversis.com",
+  "script": {
+    "host": "sfod",
+    "version": {
+      "npm": "1.0.0",
+      "commit": null
+    },
+    "cmd_args": "-q --overwrite https://inversis.com -- --ignore-certificate-errors",
+    "environment": {
+      "CHROME_DESKTOP": "code-url-handler.desktop"
+    },
+    "node_version": "v14.17.0"
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "HeadlessChrome/80.0.3987.0",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3617.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "5.8.0-53-generic"
+    },
+    "extra_headers": {},
+    "preset_cookies": {}
+  },
+  "start_time": "2021-05-20T16:43:08.907Z",
+  "end_time": "2021-05-20T16:43:15.437Z",
+  "links": {
+    "firstParty": [],
+    "thirdParty": [
+      {
+        "href": "https://www.inversis.com/",
+        "inner_text": "Idioma (ES)",
+        "inner_html": "Idioma (ES)"
+      },
+      {
+        "href": "https://www.inversis.com/trans/inversis/SvlIdioma?codIdioma=02",
+        "inner_text": "Inglés",
+        "inner_html": "Inglés"
+      },
+      {
+        "href": "https://www.inversis.com/index.html",
+        "inner_text": "",
+        "inner_html": "<img src=\"/servlet/Satellite?blobcol=urlcontenido&amp;blobheader=png&amp;blobkey=id&amp;blobtable=ContenidoCobranding&amp;blobwhere=1225374654482&amp;ssbinary=true\" alt=\"\">"
+      },
+      {
+        "href": "https://www.inversis.com/trans/inversis/SvlControlIfr?accion=contenedorIFR&path=/dnie/index.jsp&accion=identificarUsuario",
+        "inner_text": "Acceso con DNI electrónico",
+        "inner_html": "<span class=\"alt\">Acceso con DNI electrónico</span>"
+      },
+      {
+        "href": "https://www.inversis.com/trans/inversis/SvlForwardDelegator?accion=mapaSite&cobranding=cbInversiones",
+        "inner_text": "Mapa web",
+        "inner_html": "Mapa web"
+      },
+      {
+        "href": "https://www.inversis.com/inversion/microsites/seguridad?cobranding=cbInversiones",
+        "inner_text": "Seguridad",
+        "inner_html": "Seguridad"
+      },
+      {
+        "href": "https://www.inversis.com/trans/inversis/SvlControlIfr?accion=contenedorIFR&path=/pagEstaticas/tablonAnuncios_1.html&cobranding=cbInversiones",
+        "inner_text": "Tablón de anuncios",
+        "inner_html": "Tablón de anuncios"
+      },
+      {
+        "href": "https://www.inversis.com/inversion/microsites/aviso-legal?cobranding=cbInversiones",
+        "inner_text": "Nota legal",
+        "inner_html": "Nota legal"
+      },
+      {
+        "href": "https://www.inversis.com/inversion/microsites/gobierno-corporativo?cobranding=cbInversiones",
+        "inner_text": "Gobierno corporativo y Política de remuneraciones",
+        "inner_html": "Gobierno corporativo y Política de remuneraciones"
+      },
+      {
+        "href": "https://www.inversis.com/?opennewwindow=true&menufunc=funPoliticaProtecDatos&cobranding=cbInversiones",
+        "inner_text": "Política de protección de datos",
+        "inner_html": "Política de protección de datos"
+      },
+      {
+        "href": "https://www.inversis.com/mobile?cobranding=cbInversiones",
+        "inner_text": "Web Mobile",
+        "inner_html": "Web Mobile"
+      },
+      {
+        "href": "https://www.inversis.com/tablet?cobranding=cbInversiones",
+        "inner_text": "Web Tablet",
+        "inner_html": "Web Tablet"
+      },
+      {
+        "href": "https://www.inversis.com/?opennewwindow=true&menufunc=funPSD2&cobranding=cbInversiones",
+        "inner_text": "PSD2",
+        "inner_html": "PSD2"
+      }
+    ],
+    "social": [],
+    "keywords": [
+      {
+        "href": "https://www.inversis.com/inversion/microsites/aviso-legal?cobranding=cbInversiones",
+        "inner_text": "Nota legal",
+        "inner_html": "Nota legal"
+      }
+    ]
+  },
+  "unsafeForms": [],
+  "browsing_history": [
+    "https://www.inversis.com/"
+  ],
+  "websockets": {},
+  "cookies": [
+    {
+      "name": "euCookiesPolicyAcceptance",
+      "value": "false",
+      "domain": "www.inversis.com",
+      "path": "/",
+      "expires": 253404889200,
+      "size": 30,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "+010000-01-30T23:00:00.000Z",
+      "expiresDays": 2914159.26,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 456,
+            "lineNumber": 1,
+            "fileName": "https://www.inversis.com/js/inversiones/cookies.js",
+            "functionName": "Function.Cookies.set",
+            "source": "    at Function.Cookies.set (https://www.inversis.com/js/inversiones/cookies.js:1:456)"
+          },
+          {
+            "columnNumber": 18,
+            "lineNumber": 1103,
+            "fileName": "https://www.inversis.com/",
+            "functionName": "HTMLDocument.<anonymous>",
+            "source": "    at HTMLDocument.<anonymous> (https://www.inversis.com/:1103:18)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T16:43:10.306Z",
+        "location": "https://www.inversis.com/"
+      },
+      "firstPartyStorage": false
+    },
+    {
+      "name": "xtidc",
+      "value": "210420184310155752",
+      "domain": "inversis.com",
+      "path": "/",
+      "expires": 1936888990,
+      "size": 23,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2031-05-18T16:43:10.000Z",
+      "expiresDays": 3650,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 66,
+            "lineNumber": 59,
+            "fileName": "https://www.inversis.com/js/xtfirst.js?1621528989621",
+            "functionName": "wck",
+            "source": "    at wck (https://www.inversis.com/js/xtfirst.js?1621528989621:59:66)"
+          },
+          {
+            "columnNumber": 68,
+            "lineNumber": 63,
+            "fileName": "https://www.inversis.com/js/xtfirst.js?1621528989621",
+            "source": "    at https://www.inversis.com/js/xtfirst.js?1621528989621:63:68"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T16:43:10.187Z",
+        "location": "https://www.inversis.com/"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "xtvrn",
+      "value": "$454668$",
+      "domain": "inversis.com",
+      "path": "/",
+      "expires": 1936888990,
+      "size": 13,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2031-05-18T16:43:10.000Z",
+      "expiresDays": 3650,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 66,
+            "lineNumber": 59,
+            "fileName": "https://www.inversis.com/js/xtfirst.js?1621528989621",
+            "functionName": "wck",
+            "source": "    at wck (https://www.inversis.com/js/xtfirst.js?1621528989621:59:66)"
+          },
+          {
+            "columnNumber": 14,
+            "lineNumber": 159,
+            "fileName": "https://www.inversis.com/js/xtfirst.js?1621528989621",
+            "source": "    at https://www.inversis.com/js/xtfirst.js?1621528989621:159:14"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T16:43:10.189Z",
+        "location": "https://www.inversis.com/"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "xtan454668",
+      "value": "-",
+      "domain": "inversis.com",
+      "path": "/",
+      "expires": 1936888990,
+      "size": 11,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2031-05-18T16:43:10.000Z",
+      "expiresDays": 3650,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 66,
+            "lineNumber": 59,
+            "fileName": "https://www.inversis.com/js/xtfirst.js?1621528989621",
+            "functionName": "wck",
+            "source": "    at wck (https://www.inversis.com/js/xtfirst.js?1621528989621:59:66)"
+          },
+          {
+            "columnNumber": 124,
+            "lineNumber": 159,
+            "fileName": "https://www.inversis.com/js/xtfirst.js?1621528989621",
+            "source": "    at https://www.inversis.com/js/xtfirst.js?1621528989621:159:124"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T16:43:10.190Z",
+        "location": "https://www.inversis.com/"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "xtant454668",
+      "value": "1",
+      "domain": "inversis.com",
+      "path": "/",
+      "expires": 1936888990,
+      "size": 12,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2031-05-18T16:43:10.000Z",
+      "expiresDays": 3650,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 66,
+            "lineNumber": 59,
+            "fileName": "https://www.inversis.com/js/xtfirst.js?1621528989621",
+            "functionName": "wck",
+            "source": "    at wck (https://www.inversis.com/js/xtfirst.js?1621528989621:59:66)"
+          },
+          {
+            "columnNumber": 160,
+            "lineNumber": 159,
+            "fileName": "https://www.inversis.com/js/xtfirst.js?1621528989621",
+            "source": "    at https://www.inversis.com/js/xtfirst.js?1621528989621:159:160"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T16:43:10.191Z",
+        "location": "https://www.inversis.com/"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "nmstat",
+      "value": "23352557-e094-eda1-86fe-d820fe5d7eb9",
+      "domain": "inversis.com",
+      "path": "/",
+      "expires": 1707928990,
+      "size": 42,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "sameSite": "Lax",
+      "expiresUTC": "2024-02-14T16:43:10.000Z",
+      "expiresDays": 1000,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 6902,
+            "lineNumber": 1,
+            "fileName": "https://siteimproveanalytics.com/js/siteanalyze_6104451.js",
+            "functionName": "Object.cookie",
+            "source": "    at Object.cookie (https://siteimproveanalytics.com/js/siteanalyze_6104451.js:1:6902)"
+          },
+          {
+            "columnNumber": 9746,
+            "lineNumber": 1,
+            "fileName": "https://siteimproveanalytics.com/js/siteanalyze_6104451.js",
+            "functionName": "Object.getsessid",
+            "source": "    at Object.getsessid (https://siteimproveanalytics.com/js/siteanalyze_6104451.js:1:9746)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T16:43:10.592Z",
+        "location": "https://www.inversis.com/"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "cobranding",
+      "value": "cbInversiones",
+      "domain": "www.inversis.com",
+      "path": "/",
+      "expires": 1653064989.640086,
+      "size": 23,
+      "httpOnly": true,
+      "secure": true,
+      "session": false,
+      "expiresUTC": "2022-05-20T16:43:09.640Z",
+      "expiresDays": 365,
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.inversis.com/",
+            "source": "set in Set-Cookie HTTP response header for https://www.inversis.com/"
+          }
+        ],
+        "type": "Cookie.HTTP",
+        "timestamp": "2021-05-20T16:43:09.642Z",
+        "location": "about:blank"
+      },
+      "firstPartyStorage": false
+    },
+    {
+      "name": "visid_incap_141033",
+      "value": "JCZB9eieRPeFJTJLnOEeJp2RpmAAAAAAQUIPAAAAAABViU9olvWSjoOVE3AnWzQD",
+      "domain": "inversis.com",
+      "path": "/",
+      "expires": 1653053924.42408,
+      "size": 82,
+      "httpOnly": true,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2022-05-20T13:38:44.424Z",
+      "expiresDays": 364.87,
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://inversis.com/",
+            "source": "set in Set-Cookie HTTP response header for https://inversis.com/"
+          }
+        ],
+        "type": "Cookie.HTTP",
+        "timestamp": "2021-05-20T16:43:09.428Z",
+        "location": "about:blank"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "incap_ses_1395_141033",
+      "value": "/MTBXMYUoxMksZstOglcE52RpmAAAAAAmZrfzxH52Xz+ZZZZYvau3g==",
+      "domain": "inversis.com",
+      "path": "/",
+      "expires": -1,
+      "size": 77,
+      "httpOnly": false,
+      "secure": false,
+      "session": true,
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://inversis.com/",
+            "source": "set in Set-Cookie HTTP response header for https://inversis.com/"
+          }
+        ],
+        "type": "Cookie.HTTP",
+        "timestamp": "2021-05-20T16:43:09.428Z",
+        "location": "about:blank"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "JSESSIONID",
+      "value": "b-WKqM980JkQlpPLFHh9SJXIG0q-fUDLMMhkcP_yMKtwkPxlxgiI!545303692!592988516",
+      "domain": "www.inversis.com",
+      "path": "/",
+      "expires": -1,
+      "size": 82,
+      "httpOnly": true,
+      "secure": true,
+      "session": true,
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.inversis.com/",
+            "source": "set in Set-Cookie HTTP response header for https://www.inversis.com/"
+          }
+        ],
+        "type": "Cookie.HTTP",
+        "timestamp": "2021-05-20T16:43:09.642Z",
+        "location": "about:blank"
+      },
+      "firstPartyStorage": false
+    },
+    {
+      "name": "SJID",
+      "value": "D2E923BD577D30AF55231742A1E5C46A",
+      "domain": "www.inversis.com",
+      "path": "/",
+      "expires": -1,
+      "size": 36,
+      "httpOnly": true,
+      "secure": true,
+      "session": true,
+      "firstPartyStorage": false
+    },
+    {
+      "name": "AWSELB",
+      "value": "1981F7471278D2E5200322457FFB222DB8AF541B057095385CB5B7C14B792926FCB43A208B513CCA34086B3756D95E2C0F81EECB8A61032B05EE35F212879AD0D8B7CB5E14",
+      "domain": "6104451.global.siteimproveanalytics.io",
+      "path": "/",
+      "expires": -1,
+      "size": 144,
+      "httpOnly": false,
+      "secure": false,
+      "session": true,
+      "firstPartyStorage": false
+    },
+    {
+      "name": "AWSELBCORS",
+      "value": "1981F7471278D2E5200322457FFB222DB8AF541B057095385CB5B7C14B792926FCB43A208B513CCA34086B3756D95E2C0F81EECB8A61032B05EE35F212879AD0D8B7CB5E14",
+      "domain": "6104451.global.siteimproveanalytics.io",
+      "path": "/",
+      "expires": -1,
+      "size": 148,
+      "httpOnly": false,
+      "secure": true,
+      "session": true,
+      "sameSite": "None",
+      "firstPartyStorage": false
+    }
+  ],
+  "localStorage": {},
+  "beacons": [
+    {
+      "url": "https://6104451.global.siteimproveanalytics.io/image.aspx?url=https%3A%2F%2Fwww.inversis.com%2F&title=Inversis&res=1680x927&accountid=6104451&rt=1601&prev=23352557-e094-eda1-86fe-d820fe5d7eb9&luid=18c8db21-bd55-ef1c-c6e2-4ec3e067c78d&rnd=73891",
+      "query": {
+        "url": "https://www.inversis.com/",
+        "title": "Inversis",
+        "res": "1680x927",
+        "accountid": 6104451,
+        "rt": 1601,
+        "prev": "23352557-e094-eda1-86fe-d820fe5d7eb9",
+        "luid": "18c8db21-bd55-ef1c-c6e2-4ec3e067c78d",
+        "rnd": 73891
+      },
+      "filter": "||siteimproveanalytics.io^$third-party",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.inversis.com/",
+            "source": "requested from https://www.inversis.com/ and matched with easyprivacy.txt filter ||siteimproveanalytics.io^$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T16:43:10.594Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://siteimproveanalytics.com/js/siteanalyze_6104451.js",
+      "query": null,
+      "filter": "||siteimproveanalytics.com^$third-party",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.inversis.com/",
+            "source": "requested from https://www.inversis.com/ and matched with easyprivacy.txt filter ||siteimproveanalytics.com^$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T16:43:10.196Z"
+      },
+      "occurrances": 1
+    }
+  ],
+  "hosts": {
+    "requests": {
+      "firstParty": [
+        "inversis.com"
+      ],
+      "thirdParty": [
+        "www.inversis.com",
+        "siteimproveanalytics.com",
+        "6104451.global.siteimproveanalytics.io"
+      ]
+    },
+    "beacons": {
+      "firstParty": [],
+      "thirdParty": [
+        "6104451.global.siteimproveanalytics.io",
+        "siteimproveanalytics.com"
+      ]
+    },
+    "cookies": {
+      "firstParty": [
+        "inversis.com"
+      ],
+      "thirdParty": [
+        "www.inversis.com",
+        "6104451.global.siteimproveanalytics.io"
+      ]
+    },
+    "localStorage": {
+      "firstParty": [],
+      "thirdParty": []
+    },
+    "links": {
+      "firstParty": [],
+      "thirdParty": [
+        "www.inversis.com"
+      ]
+    }
+  }
+}

@@ -1,0 +1,1143 @@
+{
+  "title": "Website Evidence Collection",
+  "task_description": null,
+  "uri_ins": "http://bankinter.com",
+  "uri_refs": [
+    "http://bankinter.com"
+  ],
+  "uri_dest": "https://www.bankinter.com/banca/en/home",
+  "uri_redirects": [
+    "http://bankinter.com/",
+    "https://www.bankinter.com/",
+    "https://www.bankinter.com/banca/inicio"
+  ],
+  "secure_connection": {
+    "https_support": false,
+    "https_error": "RequestError: Error: Client network socket disconnected before secure TLS connection was established",
+    "redirects": [
+      "https://www.bankinter.com",
+      "https://www.bankinter.com/banca/inicio"
+    ],
+    "https_redirect": true
+  },
+  "host": "bankinter.com",
+  "script": {
+    "host": "sfod",
+    "version": {
+      "npm": "1.0.0",
+      "commit": null
+    },
+    "cmd_args": "-q --overwrite http://bankinter.com -- --ignore-certificate-errors",
+    "environment": {
+      "CHROME_DESKTOP": "code-url-handler.desktop"
+    },
+    "node_version": "v14.17.0"
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "HeadlessChrome/80.0.3987.0",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3617.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "5.8.0-53-generic"
+    },
+    "extra_headers": {},
+    "preset_cookies": {}
+  },
+  "start_time": "2021-05-20T15:44:00.115Z",
+  "end_time": "2021-05-20T15:44:22.393Z",
+  "links": {
+    "firstParty": [],
+    "thirdParty": [
+      {
+        "href": "https://www.bankinter.com/banca/en/home",
+        "inner_text": "Saltar a zona de contenidos",
+        "inner_html": "Saltar a zona de contenidos"
+      },
+      {
+        "href": "https://bancaonline.bankinter.com/gestion/cookies.xhtml",
+        "inner_text": "Cookie Policy.",
+        "inner_html": "<strong>Cookie Policy.</strong>"
+      },
+      {
+        "href": "https://www.bankinter.com/banca/en/",
+        "inner_text": "INDIVIDUALS",
+        "inner_html": "Individuals"
+      },
+      {
+        "href": "https://www.bankinter.com/empresas/",
+        "inner_text": "ENTERPRISES",
+        "inner_html": "Enterprises"
+      },
+      {
+        "href": "https://www.bankinter.com/broker/",
+        "inner_text": "BRÓKER",
+        "inner_html": "Bróker"
+      },
+      {
+        "href": "https://bancaonline.bankinter.com/publico/buscador_oficinas_cajeros.xhtml",
+        "inner_text": "BRANCHES AND ATMS",
+        "inner_html": "<span class=\"icon--location-16 icon--24\"> </span>\n                                  \n                              <span class=\"header-button__link-name-nav\">Branches and ATMs</span>"
+      },
+      {
+        "href": "https://www.bankinter.com/banca/en/open-your-account",
+        "inner_text": "OPEN AN ACCOUNT",
+        "inner_html": "<span class=\"icon--check-circle-16 icon--24\"></span>\n                                  \n                              Open an account"
+      },
+      {
+        "href": "https://bancaonline.bankinter.com/gestion/login.xhtml",
+        "inner_text": "CUSTOMER LOG IN",
+        "inner_html": "<span class=\"icon icon--user-16 icon--24\" aria-hidden=\"true\"></span>\n                                  \n                              Customer log in"
+      },
+      {
+        "href": "https://bancaonline.bankinter.com/clientes/solicitar_ayuda.xhtml",
+        "inner_text": "Contacto",
+        "inner_html": "<span class=\"icon--help-16 icon--24\"></span><span class=\"sr-only\">Contacto</span><span class=\"header-button__link-name-nav d-none\" style=\"width: auto;\"></span>"
+      },
+      {
+        "href": "https://bancaonline.bankinter.com/conversaciones/secure/conversacion_detalle.xhtml",
+        "inner_text": "Notifications14Notificaciones ",
+        "inner_html": "<span class=\"header-button__link-name-nav--text-messages d-none d-md-flex\">Notifications</span><span class=\"icon icon--notification-16 icon--24\" aria-hidden=\"true\"><span class=\"header-button__link-nav-circle\"></span></span><span class=\"header-button__link-name-nav--messages\">14</span><span class=\"sr-only\">Notificaciones</span>"
+      },
+      {
+        "href": "https://bancaonline.bankinter.com/extracto/secure/extracto_integral.xhtml",
+        "inner_text": "Return to Global position",
+        "inner_html": "Return to Global position"
+      },
+      {
+        "href": "https://bancaonline.bankinter.com/gestion/secure/prelogout.xhtml",
+        "inner_text": "Log out",
+        "inner_html": "<div><span class=\"icon icon--logout-16 icon--24\"></span><span class=\"sr-only\">Log out</span></div>"
+      },
+      {
+        "href": "https://www.bankinter.com/banca/en/accounts-cards/accounts",
+        "inner_text": "\n        \n        \n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tAccounts\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n        \n    ",
+        "inner_html": "Accounts"
+      },
+      {
+        "href": "https://www.bankinter.com/banca/en/accounts-cards/cards",
+        "inner_text": "\n        \n        \n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tCards\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n        \n    ",
+        "inner_html": "Cards"
+      },
+      {
+        "href": "https://www.bankinter.com/banca/en/help/transfer-products-from-other-banks",
+        "inner_text": "\n        \n        \n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tSwitch Service\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n        \n    ",
+        "inner_html": "Switch Service"
+      },
+      {
+        "href": "https://www.bankinter.com/banca/en/accounts-cards/accounts/financial-aggregator",
+        "inner_text": "\n        \n        \n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tFinancial aggregation\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n        \n    ",
+        "inner_html": "Financial aggregation"
+      },
+      {
+        "href": "https://www.bankinter.com/banca/en/accounts-cards/accounts/direct-debit-bills",
+        "inner_text": "\n        \n        \n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tDirect Debits To Pay Bills\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n        \n    ",
+        "inner_html": "Direct Debits To Pay Bills"
+      },
+      {
+        "href": "https://www.bankinter.com/banca/en/help/account-management",
+        "inner_text": "\n        \n        \n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tAccount management\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n        \n    ",
+        "inner_html": "Account management"
+      },
+      {
+        "href": "https://www.bankinter.com/banca/en/accounts-cards/accounts/bizum",
+        "inner_text": "\n        \n        \n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tBizum\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n        \n    ",
+        "inner_html": "Bizum"
+      },
+      {
+        "href": "https://www.bankinter.com/banca/en/accounts-cards/accounts/take-cash-out-without-a-card",
+        "inner_text": "\n        \n        \n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tTransfer to ATM\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n        \n    ",
+        "inner_html": "Transfer to ATM"
+      },
+      {
+        "href": "https://www.bankinter.com/banca/en/accounts-cards/cards/manage-your-cards",
+        "inner_text": "\n        \n        \n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tSmart services\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n        \n    ",
+        "inner_html": "Smart services"
+      },
+      {
+        "href": "https://www.bankinter.com/banca/en/accounts-cards/accounts/arrange-bank-account-transfer-for-free",
+        "inner_text": "\n        \n        \n\t\t\t\t\t\t\t                          \n\t\t\t\t\t\t\t                            \n\n    \n\n\t\t\t\t\t\t\t                            \n\t\t\t\t\t\t\t                              Come to Bankinter! Account transfer service.\n\t\t\t\t\t\t\t                              The entire process online and with all the help you need.\n\t\t\t\t\t\t\t                            \n\t\t\t\t\t\t\t                          \n\t\t\t\t\t\t\t                         \n        \n    ",
+        "inner_html": "<div class=\"header-banner__content header-banner__content--cyan\">\n\t\t\t\t\t\t\t                            \n\n    <img src=\"/file_source/nbol/cabecera-2020/banners/cuentas_tarjetas.jpg\" alt=\" \" class=\"header-banner__img\">\n\n\t\t\t\t\t\t\t                            <div class=\"header-banner__content-text align-self-end\">\n\t\t\t\t\t\t\t                              <p class=\"header-banner__title\">Come to Bankinter! Account transfer service.</p>\n\t\t\t\t\t\t\t                              <p class=\"header-banner__paragraph\">The entire process online and with all the help you need.</p>\n\t\t\t\t\t\t\t                            </div>\n\t\t\t\t\t\t\t                          </div>"
+      },
+      {
+        "href": "https://www.bankinter.com/banca/en/investment-savings/investment-funds",
+        "inner_text": "\n        \n        \n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tInvestment funds\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n        \n    ",
+        "inner_html": "Investment funds"
+      },
+      {
+        "href": "https://www.bankinter.com/banca/en/investment-savings/what-to-invest-in",
+        "inner_text": "\n        \n        \n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tRegular investment\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n        \n    ",
+        "inner_html": "Regular investment"
+      },
+      {
+        "href": "https://www.bankinter.com/banca/en/investment-savings/retirement",
+        "inner_text": "\n        \n        \n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tRetirement\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n        \n    ",
+        "inner_html": "Retirement"
+      },
+      {
+        "href": "https://www.bankinter.com/banca/en/investment-savings/investment-services",
+        "inner_text": "\n        \n        \n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tInvestment Services\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n        \n    ",
+        "inner_html": "Investment Services"
+      },
+      {
+        "href": "https://www.bankinter.com/banca/en/investment-savings/markets",
+        "inner_text": "\n        \n        \n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tMarkets\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n        \n    ",
+        "inner_html": "Markets"
+      },
+      {
+        "href": "https://www.bankinter.com/banca/en/investment-savings/savings",
+        "inner_text": "\n        \n        \n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tDeposits\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n        \n    ",
+        "inner_html": "Deposits"
+      },
+      {
+        "href": "https://bancaonline.bankinter.com/fondos/buscador_fondos.xhtml",
+        "inner_text": "\n        \n        \n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tFund finder\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n        \n    ",
+        "inner_html": "Fund finder"
+      },
+      {
+        "href": "https://bancaonline.bankinter.com/fondoinversion/comparadorfondos.xhtml",
+        "inner_text": "\n        \n        \n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tFund comparison tool\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n        \n    ",
+        "inner_html": "Fund comparison tool"
+      },
+      {
+        "href": "https://bancaonline.bankinter.com/fondoinversion/simulador/simulador.xhtml",
+        "inner_text": "\n        \n        \n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tRegular investment calculator\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n        \n    ",
+        "inner_html": "Regular investment calculator"
+      },
+      {
+        "href": "https://bancaonline.bankinter.com/productos/simulador/jubilacion/simulador-jubilacion-pension-publica.xhtml",
+        "inner_text": "\n        \n        \n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tState pension calculator\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n        \n    ",
+        "inner_html": "State pension calculator"
+      },
+      {
+        "href": "https://bancaonline.bankinter.com/productos/simulador/jubilacion/simulador-jubilacion-plan-pensiones.xhtml",
+        "inner_text": "\n        \n        \n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tRetirement savings calculator\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n        \n    ",
+        "inner_html": "Retirement savings calculator"
+      },
+      {
+        "href": "https://bancaonline.bankinter.com/planespensiones/simulador/jubilacion/simulador-rescate-plan-pensiones.xhtml",
+        "inner_text": "\n        \n        \n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tPension plan and EPSV redemption simulator\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n        \n    ",
+        "inner_html": "Pension plan and EPSV redemption simulator"
+      },
+      {
+        "href": "https://www.bankinter.com/banca/en/investment-savings/investment-funds/investment-fund-courses",
+        "inner_text": "\n        \n        \n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tFund training and events\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n        \n    ",
+        "inner_html": "Fund training and events"
+      },
+      {
+        "href": "https://www.bankinter.com/banca/en/investment-savings/investment/analysis",
+        "inner_text": "\n        \n        \n\t\t\t\t\t\t\t                          \n\t\t\t\t\t\t\t                            \n\n    \n\n\t\t\t\t\t\t\t                            \n\t\t\t\t\t\t\t                              Forecasts, opportunities, strategies, and more. \n\t\t\t\t\t\t\t                              Bankinter investment analysis.\n\t\t\t\t\t\t\t                            \n\t\t\t\t\t\t\t                          \n\t\t\t\t\t\t\t                         \n        \n    ",
+        "inner_html": "<div class=\"header-banner__content header-banner__content--cyan\">\n\t\t\t\t\t\t\t                            \n\n    <img src=\"/file_source/nbol/cabecera-2020/banners/ahorro_inversion.jpg\" alt=\" \" class=\"header-banner__img\">\n\n\t\t\t\t\t\t\t                            <div class=\"header-banner__content-text align-self-end\">\n\t\t\t\t\t\t\t                              <p class=\"header-banner__title\">Forecasts, opportunities, strategies, and more. </p>\n\t\t\t\t\t\t\t                              <p class=\"header-banner__paragraph\">Bankinter investment analysis.</p>\n\t\t\t\t\t\t\t                            </div>\n\t\t\t\t\t\t\t                          </div>"
+      },
+      {
+        "href": "https://www.bankinter.com/banca/en/mortgages-loans/mortgages",
+        "inner_text": "\n        \n        \n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tMortgages\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n        \n    ",
+        "inner_html": "Mortgages"
+      },
+      {
+        "href": "https://www.bankinter.com/banca/en/mortgages-loans/loans",
+        "inner_text": "\n        \n        \n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tLoans\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n        \n    ",
+        "inner_html": "Loans"
+      },
+      {
+        "href": "https://bancaonline.bankinter.com/simuladorHip/simulador-hipoteca.xhtml",
+        "inner_text": "\n        \n        \n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tMortgage calculator\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n        \n    ",
+        "inner_html": "Mortgage calculator"
+      },
+      {
+        "href": "https://bancaonline.bankinter.com/simuladorHip/simulador-gastos-hipoteca.xhtml",
+        "inner_text": "\n        \n        \n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tMortgage costs calculator\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n        \n    ",
+        "inner_html": "Mortgage costs calculator"
+      },
+      {
+        "href": "https://bancaonline.bankinter.com/simuladorHip/hipotecas-prestamos/hipotecas/hipotecas-oferta-personalizada.xhtml",
+        "inner_text": "\n        \n        \n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tPersonalised offer\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n        \n    ",
+        "inner_html": "Personalised offer"
+      },
+      {
+        "href": "https://www.bankinter.com/www/es-es/cgi/ebk+inm+home",
+        "inner_text": "\n        \n        \n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tReal state portal\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n        \n    ",
+        "inner_html": "Real state portal"
+      },
+      {
+        "href": "https://bancaonline.bankinter.com/prestamos/simulador-prestamos-inicio.xhtml",
+        "inner_text": "\n        \n        \n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tLoan calculator\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n        \n    ",
+        "inner_html": "Loan calculator"
+      },
+      {
+        "href": "https://www.bankinter.com/banca/en/mortgages-loans/mortgages/fixed-rate-mortgage",
+        "inner_text": "\n        \n        \n\t\t\t\t\t\t\t                          \n\t\t\t\t\t\t\t                            \n\n    \n\n\t\t\t\t\t\t\t                            \n\t\t\t\t\t\t\t                              The same instalment today, tomorrow and in 20 years' time.\n\t\t\t\t\t\t\t                              Bankinter fixed-rate mortgage.\n\t\t\t\t\t\t\t                            \n\t\t\t\t\t\t\t                          \n\t\t\t\t\t\t\t                         \n        \n    ",
+        "inner_html": "<div class=\"header-banner__content header-banner__content--cyan\">\n\t\t\t\t\t\t\t                            \n\n    <img src=\"/file_source/nbol/cabecera-2020/banners/hipotecas_prestamos.jpg\" alt=\" \" class=\"header-banner__img\">\n\n\t\t\t\t\t\t\t                            <div class=\"header-banner__content-text align-self-end\">\n\t\t\t\t\t\t\t                              <p class=\"header-banner__title\">The same instalment today, tomorrow and in 20 years' time.</p>\n\t\t\t\t\t\t\t                              <p class=\"header-banner__paragraph\">Bankinter fixed-rate mortgage.</p>\n\t\t\t\t\t\t\t                            </div>\n\t\t\t\t\t\t\t                          </div>"
+      },
+      {
+        "href": "https://www.bankinter.com/banca/en/insurance/insurance-for-you",
+        "inner_text": "\n        \n        \n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tFor you and your family\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n        \n    ",
+        "inner_html": "For you and your family"
+      },
+      {
+        "href": "https://www.bankinter.com/banca/en/insurance/insurance-for-business",
+        "inner_text": "\n        \n        \n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tFor your business\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n        \n    ",
+        "inner_html": "For your business"
+      },
+      {
+        "href": "https://bancaonline.bankinter.com/productos/banca/seguros/seguros-para-ti/vida/simulador-seguro-de-vida.xhtml",
+        "inner_text": "\n        \n        \n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tLife insurance calculator\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n        \n    ",
+        "inner_html": "Life insurance calculator"
+      },
+      {
+        "href": "https://bancaonline.bankinter.com/productos/simulador/hogar/datos_vivienda.xhtml",
+        "inner_text": "\n        \n        \n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tHome insurance simulator\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n        \n    ",
+        "inner_html": "Home insurance simulator"
+      },
+      {
+        "href": "https://www.bankinter.com/banca/en/solutions/family",
+        "inner_text": "\n        \n        \n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tBankinter Family\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n        \n    ",
+        "inner_html": "Bankinter Family"
+      },
+      {
+        "href": "https://www.bankinter.com/banca/en/nav/young-people",
+        "inner_text": "\n        \n        \n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tYouth Area\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n        \n    ",
+        "inner_html": "Youth Area"
+      },
+      {
+        "href": "https://www.bankinter.com/banca/en/nav/retail-banking",
+        "inner_text": "\n        \n        \n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tIndividual retail banking\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n        \n    ",
+        "inner_html": "Individual retail banking"
+      },
+      {
+        "href": "https://www.bankinter.com/banca/en/nav/personal-banking",
+        "inner_text": "\n        \n        \n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tPersonal banking\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n        \n    ",
+        "inner_html": "Personal banking"
+      },
+      {
+        "href": "https://www.bankinter.com/banca/en/nav/private-banking",
+        "inner_text": "\n        \n        \n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tPrivate banking\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n        \n    ",
+        "inner_html": "Private banking"
+      },
+      {
+        "href": "https://www.bankinter.com/banca/en/nav/banking-products-for-non-residents",
+        "inner_text": "\n        \n        \n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tNon-residents\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n        \n    ",
+        "inner_html": "Non-residents"
+      },
+      {
+        "href": "https://www.bankinter.com/banca/en/help",
+        "inner_text": "Services",
+        "inner_html": "<span class=\"icon icon--arrow-left-16 icon--32 d-none\" header-icon=\"\"></span>\n\t\t\t\t\t           \t\tServices"
+      },
+      {
+        "href": "https://onboarding.bankinter.com/web/es-es/ppff/reg/formulario?P1=8700&P3=1000124001",
+        "inner_text": "BECOME A CUSTOMER",
+        "inner_html": "Become a customer"
+      },
+      {
+        "href": "https://www.bankinter.com/banca/en/investment-savings/what-to-invest-in/regular-contributions-promotion",
+        "inner_text": "YOU'RE INTERESTED",
+        "inner_html": "You're interested"
+      },
+      {
+        "href": "https://www.bankinter.com/banca/en/investment-savings/investment-funds/funds-for-beginners",
+        "inner_text": "I HAVE FIVE MINUTES",
+        "inner_html": "I have five minutes"
+      },
+      {
+        "href": "https://www.bankinter.com/",
+        "inner_text": "WWW.BANKINTER.COM",
+        "inner_html": "www.bankinter.com"
+      },
+      {
+        "href": "http://www.dgsfp.mineco.es/",
+        "inner_text": "http://www.dgsfp.mineco.es",
+        "inner_html": "http://www.dgsfp.mineco.es"
+      },
+      {
+        "href": "https://www.bankinter.com/broker",
+        "inner_text": "https://www.bankinter.com/broker",
+        "inner_html": "https://www.bankinter.com/broker"
+      },
+      {
+        "href": "https://www.bankinter.com/banca/en/accounts-cards/accounts/payroll-account",
+        "inner_text": "Salary account",
+        "inner_html": "Salary account"
+      },
+      {
+        "href": "https://www.bankinter.com/banca/en/tools",
+        "inner_text": "All tools",
+        "inner_html": "All tools"
+      },
+      {
+        "href": "https://www.bankinter.com/banca/en/faqs",
+        "inner_text": "FAQs",
+        "inner_html": "FAQs"
+      },
+      {
+        "href": "https://www.bankinter.com/banca/en/financial-dictionary",
+        "inner_text": "Financial Dictionary",
+        "inner_html": "Financial Dictionary"
+      },
+      {
+        "href": "https://www.bankinter.com/banca/en/financial-resources",
+        "inner_text": "Financial resources",
+        "inner_html": "Financial resources"
+      },
+      {
+        "href": "https://www.bankinter.com/blog/",
+        "inner_text": "Economy blog",
+        "inner_html": "Economy blog"
+      },
+      {
+        "href": "https://www.fundacionbankinter.org/",
+        "inner_text": "Fundación Innovación",
+        "inner_html": "Fundación Innovación"
+      },
+      {
+        "href": "https://www.bankinter.com/banca/en/nav/online-events",
+        "inner_text": "Online events",
+        "inner_html": "Online events"
+      },
+      {
+        "href": "https://webcorporativa.bankinter.com/www/es-es/cgi/ebk+gwc+home",
+        "inner_text": "Corporate website",
+        "inner_html": "Corporate website"
+      },
+      {
+        "href": "https://www.bankinter.com/banca/en/nav/customer-service",
+        "inner_text": "Contact us",
+        "inner_html": "Contact us"
+      },
+      {
+        "href": "https://www.bankinter.com/banca/en/nav/sitemap",
+        "inner_text": "Site Map",
+        "inner_html": "Site Map"
+      },
+      {
+        "href": "https://www.bankinter.com/banca/en/nav/legal-notice",
+        "inner_text": "Legal information",
+        "inner_html": "Legal information"
+      },
+      {
+        "href": "https://www.bankinter.com/banca/en/nav/security-privacy",
+        "inner_text": "Security and Privacy",
+        "inner_html": "Security and Privacy"
+      },
+      {
+        "href": "https://www.bankinter.com/banca/en/nav/notices-charges",
+        "inner_text": "Notices and charges",
+        "inner_html": "Notices and charges"
+      },
+      {
+        "href": "https://www.bankinter.com/banca/en/nav/accessibility",
+        "inner_text": "Accessibility",
+        "inner_html": "Accessibility"
+      },
+      {
+        "href": "https://www.bankinter.com/banca/inicio",
+        "inner_text": "Español",
+        "inner_html": "Español"
+      },
+      {
+        "href": "https://www.bankinter.com/banca/ca/inici",
+        "inner_text": "Català",
+        "inner_html": "Català"
+      },
+      {
+        "href": "https://www.facebook.com/bankinter?sk=info",
+        "inner_text": "Facebook",
+        "inner_html": "<span aria-hidden=\"true\" class=\"pictoDSL pictoDSL-facebook_32 pictoDSL-24\"></span><span class=\"sr-only\">Facebook</span>"
+      },
+      {
+        "href": "https://es.linkedin.com/company/bankinter",
+        "inner_text": "Linkedin",
+        "inner_html": "<span aria-hidden=\"true\" class=\"pictoDSL pictoDSL-linkedin_32 pictoDSL-24\"></span><span class=\"sr-only\">Linkedin</span>"
+      },
+      {
+        "href": "https://www.youtube.com/user/bankinter",
+        "inner_text": "YouTube",
+        "inner_html": "<span aria-hidden=\"true\" class=\"pictoDSL pictoDSL-youtube_32 pictoDSL-24\"></span><span class=\"sr-only\">YouTube</span>"
+      },
+      {
+        "href": "https://twitter.com/Bankinter",
+        "inner_text": "Twitter",
+        "inner_html": "<span aria-hidden=\"true\" class=\"pictoDSL pictoDSL-twitter_32 pictoDSL-24\"></span><span class=\"sr-only\">Twitter</span>"
+      },
+      {
+        "href": "https://blog.bankinter.com/",
+        "inner_text": "Bankinter blog",
+        "inner_html": "<span aria-hidden=\"true\" class=\"pictoDSL pictoDSL-blog_32 pictoDSL-24\"></span><span class=\"sr-only\">Bankinter blog</span>"
+      },
+      {
+        "href": "https://wa.me/34666443333",
+        "inner_text": "WhatsApp",
+        "inner_html": "<span aria-hidden=\"true\" class=\"icon icon--whatsapp-16 icon--32\"></span><span class=\"sr-only\">WhatsApp</span>"
+      }
+    ],
+    "social": [
+      {
+        "href": "https://www.facebook.com/bankinter?sk=info",
+        "inner_text": "Facebook",
+        "inner_html": "<span aria-hidden=\"true\" class=\"pictoDSL pictoDSL-facebook_32 pictoDSL-24\"></span><span class=\"sr-only\">Facebook</span>"
+      },
+      {
+        "href": "https://es.linkedin.com/company/bankinter",
+        "inner_text": "Linkedin",
+        "inner_html": "<span aria-hidden=\"true\" class=\"pictoDSL pictoDSL-linkedin_32 pictoDSL-24\"></span><span class=\"sr-only\">Linkedin</span>"
+      },
+      {
+        "href": "https://www.youtube.com/user/bankinter",
+        "inner_text": "YouTube",
+        "inner_html": "<span aria-hidden=\"true\" class=\"pictoDSL pictoDSL-youtube_32 pictoDSL-24\"></span><span class=\"sr-only\">YouTube</span>"
+      },
+      {
+        "href": "https://twitter.com/Bankinter",
+        "inner_text": "Twitter",
+        "inner_html": "<span aria-hidden=\"true\" class=\"pictoDSL pictoDSL-twitter_32 pictoDSL-24\"></span><span class=\"sr-only\">Twitter</span>"
+      }
+    ],
+    "keywords": [
+      {
+        "href": "https://bancaonline.bankinter.com/gestion/login.xhtml",
+        "inner_text": "CUSTOMER LOG IN",
+        "inner_html": "<span class=\"icon icon--user-16 icon--24\" aria-hidden=\"true\"></span>\n                                  \n                              Customer log in"
+      },
+      {
+        "href": "https://www.bankinter.com/banca/en/nav/legal-notice",
+        "inner_text": "Legal information",
+        "inner_html": "Legal information"
+      },
+      {
+        "href": "https://www.bankinter.com/banca/en/nav/security-privacy",
+        "inner_text": "Security and Privacy",
+        "inner_html": "Security and Privacy"
+      }
+    ]
+  },
+  "unsafeForms": [],
+  "browsing_history": [
+    "https://www.bankinter.com/banca/en/home"
+  ],
+  "websockets": {},
+  "cookies": [
+    {
+      "name": "ebk",
+      "value": "1MHJE8WYY8E37QLY1621525443398",
+      "domain": "bankinter.com",
+      "path": "/",
+      "expires": 2409925442.410982,
+      "size": 32,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2046-05-14T15:44:02.410Z",
+      "expiresDays": 9125,
+      "firstPartyStorage": true
+    },
+    {
+      "name": "bkpolicy",
+      "value": "pendiente//version=0",
+      "domain": "bankinter.com",
+      "path": "/",
+      "expires": 1684597443.805941,
+      "size": 28,
+      "httpOnly": false,
+      "secure": true,
+      "session": false,
+      "expiresUTC": "2023-05-20T15:44:03.805Z",
+      "expiresDays": 730,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 17,
+            "lineNumber": 242,
+            "fileName": "https://bancaonline.bankinter.com/res/js/bkpolicy.js",
+            "functionName": "setBkpolicy",
+            "source": "    at setBkpolicy (https://bancaonline.bankinter.com/res/js/bkpolicy.js:242:17)"
+          },
+          {
+            "columnNumber": 4,
+            "lineNumber": 83,
+            "fileName": "https://bancaonline.bankinter.com/res/js/bkpolicy.js",
+            "functionName": "mostrarConfiguracionInicialV4",
+            "source": "    at mostrarConfiguracionInicialV4 (https://bancaonline.bankinter.com/res/js/bkpolicy.js:83:4)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T15:44:03.439Z",
+        "location": "https://www.bankinter.com/banca/en/home"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "_ga",
+      "value": "GA1.2.1662839612.1621525444",
+      "domain": "bankinter.com",
+      "path": "/",
+      "expires": 1684597443,
+      "size": 30,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2023-05-20T15:44:03.000Z",
+      "expiresDays": 730,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 495,
+            "lineNumber": 30,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "zc",
+            "source": "    at zc (https://www.google-analytics.com/analytics.js:30:495)"
+          },
+          {
+            "columnNumber": 15,
+            "lineNumber": 60,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "ma",
+            "source": "    at ma (https://www.google-analytics.com/analytics.js:60:15)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T15:44:03.870Z",
+        "location": "https://www.bankinter.com/banca/en/home"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "ebk_idioma_alt",
+      "value": "en",
+      "domain": "www.bankinter.com",
+      "path": "/",
+      "expires": 1637077442.446283,
+      "size": 16,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2021-11-16T15:44:02.446Z",
+      "expiresDays": 180,
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.bankinter.com/banca/en/home",
+            "source": "set in Set-Cookie HTTP response header for https://www.bankinter.com/banca/en/home"
+          }
+        ],
+        "type": "Cookie.HTTP",
+        "timestamp": "2021-05-20T15:44:02.449Z",
+        "location": "about:blank"
+      },
+      "firstPartyStorage": false
+    },
+    {
+      "name": "_gid",
+      "value": "GA1.2.1848566001.1621525444",
+      "domain": "bankinter.com",
+      "path": "/",
+      "expires": 1621611843,
+      "size": 31,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2021-05-21T15:44:03.000Z",
+      "expiresDays": 1,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 495,
+            "lineNumber": 30,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "zc",
+            "source": "    at zc (https://www.google-analytics.com/analytics.js:30:495)"
+          },
+          {
+            "columnNumber": 401,
+            "lineNumber": 59,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "ma",
+            "source": "    at ma (https://www.google-analytics.com/analytics.js:59:401)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T15:44:03.870Z",
+        "location": "https://www.bankinter.com/banca/en/home"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "JSESSIONID",
+      "value": "0000-Xm-k15N1xOxyVMXtr4nc3F:1b89rvql4",
+      "domain": "bancaonline.bankinter.com",
+      "path": "/gestion",
+      "expires": -1,
+      "size": 47,
+      "httpOnly": true,
+      "secure": true,
+      "session": true,
+      "firstPartyStorage": false
+    },
+    {
+      "name": "JSESSIONID",
+      "value": "00001xYS0wp3mda_NepuW_f_428:1cqdgnp4q",
+      "domain": "www.bankinter.com",
+      "path": "/",
+      "expires": -1,
+      "size": 47,
+      "httpOnly": true,
+      "secure": false,
+      "session": true,
+      "sameSite": "None",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.bankinter.com/banca/en/home",
+            "source": "set in Set-Cookie HTTP response header for https://www.bankinter.com/banca/en/home"
+          }
+        ],
+        "type": "Cookie.HTTP",
+        "timestamp": "2021-05-20T15:44:02.449Z",
+        "location": "about:blank"
+      },
+      "firstPartyStorage": false
+    },
+    {
+      "name": "dtSa",
+      "value": "-",
+      "domain": "bankinter.com",
+      "path": "/",
+      "expires": -1,
+      "size": 5,
+      "httpOnly": false,
+      "secure": false,
+      "session": true,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 249,
+            "lineNumber": 17,
+            "fileName": "https://www.bankinter.com/ruxitagentjs_ICA2SVfgqru_10199200831173248.js",
+            "functionName": "Ga",
+            "source": "    at Ga (https://www.bankinter.com/ruxitagentjs_ICA2SVfgqru_10199200831173248.js:17:249)"
+          },
+          {
+            "columnNumber": 177,
+            "lineNumber": 15,
+            "fileName": "https://www.bankinter.com/ruxitagentjs_ICA2SVfgqru_10199200831173248.js",
+            "functionName": "Bb",
+            "source": "    at Bb (https://www.bankinter.com/ruxitagentjs_ICA2SVfgqru_10199200831173248.js:15:177)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T15:44:02.750Z",
+        "location": "https://www.bankinter.com/banca/en/home"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "bgSs",
+      "value": "29657891609904599931817654371",
+      "domain": "bankinter.com",
+      "path": "/",
+      "expires": -1,
+      "size": 33,
+      "httpOnly": false,
+      "secure": false,
+      "session": true,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 243,
+            "lineNumber": 3,
+            "functionName": "gtsssn",
+            "source": "    at gtsssn (<anonymous>:3:243)"
+          },
+          {
+            "columnNumber": 334,
+            "lineNumber": 3,
+            "source": "    at <anonymous>:3:334"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T15:44:03.893Z",
+        "location": "https://www.bankinter.com/banca/en/home"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "rxvt",
+      "value": "1621527244135|1621525442702",
+      "domain": "bankinter.com",
+      "path": "/",
+      "expires": -1,
+      "size": 31,
+      "httpOnly": false,
+      "secure": false,
+      "session": true,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 249,
+            "lineNumber": 17,
+            "fileName": "https://www.bankinter.com/ruxitagentjs_ICA2SVfgqru_10199200831173248.js",
+            "functionName": "Ga",
+            "source": "    at Ga (https://www.bankinter.com/ruxitagentjs_ICA2SVfgqru_10199200831173248.js:17:249)"
+          },
+          {
+            "columnNumber": 177,
+            "lineNumber": 15,
+            "fileName": "https://www.bankinter.com/ruxitagentjs_ICA2SVfgqru_10199200831173248.js",
+            "functionName": "Bb",
+            "source": "    at Bb (https://www.bankinter.com/ruxitagentjs_ICA2SVfgqru_10199200831173248.js:15:177)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T15:44:04.140Z",
+        "location": "https://www.bankinter.com/banca/en/home"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "rxVisitor",
+      "value": "1621525442693FFH3IJTEE8H7J3996GQH1N9N3E5RQG0G",
+      "domain": "bankinter.com",
+      "path": "/",
+      "expires": -1,
+      "size": 54,
+      "httpOnly": false,
+      "secure": false,
+      "session": true,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 249,
+            "lineNumber": 17,
+            "fileName": "https://www.bankinter.com/ruxitagentjs_ICA2SVfgqru_10199200831173248.js",
+            "functionName": "Ga",
+            "source": "    at Ga (https://www.bankinter.com/ruxitagentjs_ICA2SVfgqru_10199200831173248.js:17:249)"
+          },
+          {
+            "columnNumber": 177,
+            "lineNumber": 15,
+            "fileName": "https://www.bankinter.com/ruxitagentjs_ICA2SVfgqru_10199200831173248.js",
+            "functionName": "Bb",
+            "source": "    at Bb (https://www.bankinter.com/ruxitagentjs_ICA2SVfgqru_10199200831173248.js:15:177)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T15:44:09.923Z",
+        "location": "https://www.bankinter.com/banca/en/home"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "dtPC",
+      "value": "2$325442684_600h-vMPAHGKBWICDWGCCVRHCHFTPKKBHIMERV-0e1",
+      "domain": "bankinter.com",
+      "path": "/",
+      "expires": -1,
+      "size": 58,
+      "httpOnly": false,
+      "secure": false,
+      "session": true,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 249,
+            "lineNumber": 17,
+            "fileName": "https://www.bankinter.com/ruxitagentjs_ICA2SVfgqru_10199200831173248.js",
+            "functionName": "Ga",
+            "source": "    at Ga (https://www.bankinter.com/ruxitagentjs_ICA2SVfgqru_10199200831173248.js:17:249)"
+          },
+          {
+            "columnNumber": 177,
+            "lineNumber": 15,
+            "fileName": "https://www.bankinter.com/ruxitagentjs_ICA2SVfgqru_10199200831173248.js",
+            "functionName": "Bb",
+            "source": "    at Bb (https://www.bankinter.com/ruxitagentjs_ICA2SVfgqru_10199200831173248.js:15:177)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T15:44:05.893Z",
+        "location": "https://www.bankinter.com/banca/en/home"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "dtLatC",
+      "value": "1",
+      "domain": "bankinter.com",
+      "path": "/",
+      "expires": -1,
+      "size": 7,
+      "httpOnly": false,
+      "secure": false,
+      "session": true,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 249,
+            "lineNumber": 17,
+            "fileName": "https://www.bankinter.com/ruxitagentjs_ICA2SVfgqru_10199200831173248.js",
+            "functionName": "Ga",
+            "source": "    at Ga (https://www.bankinter.com/ruxitagentjs_ICA2SVfgqru_10199200831173248.js:17:249)"
+          },
+          {
+            "columnNumber": 177,
+            "lineNumber": 15,
+            "fileName": "https://www.bankinter.com/ruxitagentjs_ICA2SVfgqru_10199200831173248.js",
+            "functionName": "Bb",
+            "source": "    at Bb (https://www.bankinter.com/ruxitagentjs_ICA2SVfgqru_10199200831173248.js:15:177)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T15:44:05.906Z",
+        "location": "https://www.bankinter.com/banca/en/home"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "dtCookie",
+      "value": "v_4_srv_2_sn_4B2E7E1A42CD5AC09D4547A0E02801FB_perc_100000_ol_0_mul_1_app-3A034022f7146fb141_1_app-3Abc8804d6bfa6712b_1",
+      "domain": "bankinter.com",
+      "path": "/",
+      "expires": -1,
+      "size": 126,
+      "httpOnly": false,
+      "secure": false,
+      "session": true,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 249,
+            "lineNumber": 17,
+            "fileName": "https://www.bankinter.com/ruxitagentjs_ICA2SVfgqru_10199200831173248.js",
+            "functionName": "Ga",
+            "source": "    at Ga (https://www.bankinter.com/ruxitagentjs_ICA2SVfgqru_10199200831173248.js:17:249)"
+          },
+          {
+            "columnNumber": 177,
+            "lineNumber": 15,
+            "fileName": "https://www.bankinter.com/ruxitagentjs_ICA2SVfgqru_10199200831173248.js",
+            "functionName": "Bb",
+            "source": "    at Bb (https://www.bankinter.com/ruxitagentjs_ICA2SVfgqru_10199200831173248.js:15:177)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T15:44:09.922Z",
+        "location": "https://www.bankinter.com/banca/en/home"
+      },
+      "firstPartyStorage": true
+    }
+  ],
+  "localStorage": {},
+  "beacons": [
+    {
+      "url": "https://www.google-analytics.com/collect?v=1&_v=j90&aip=1&a=1092917656&t=event&ni=0&_s=1&dl=https%3A%2F%2Fwww.bankinter.com%2Fbanca%2Fen%2Fhome&ul=en-us&de=UTF-8&dt=Online%20Banking%20and%20Financial%20Services%20%7C%20Individuals%20%7C%20Bankinter&sd=24-bit&sr=1680x927&vp=1680x927&je=0&ec=Banner&ea=Visibilidad&el=Banner%20cookies&_u=aGBAAEADQ~&cid=855441211.1621525444&tid=UA-9003287-67&_gid=925584160.1621525444&gtm=2wg5c1W69F66G&cd1=NBOL&cd4=GTM-W69F66G%3A19&cd5=Produccion&cd6=ES&cd7=Web&cd8=Publico&cd9=Mozilla%2F5.0%20(X11%3B%20Linux%20x86_64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F72.0.3617.0%20Safari%2F537.36&cd10=5%2F20%2F2021%205%3A44%3A04%20PM&cd16=1MHJE8WYY8E37QLY1621525443398&cd31=EN&cd32=https%3A%2F%2Fwww.bankinter.com%2Fbanca%2Fen%2Fhome&cd33=&cd200=gtm.elementVisibility&cd3=855441211.1621525444&cd15=855441211.1621525444&z=1768921068",
+      "query": {
+        "v": 1,
+        "_v": "j90",
+        "aip": 1,
+        "a": 1092917656,
+        "t": "event",
+        "ni": 0,
+        "_s": 1,
+        "dl": "https://www.bankinter.com/banca/en/home",
+        "ul": "en-us",
+        "de": "UTF-8",
+        "dt": "Online Banking and Financial Services | Individuals | Bankinter",
+        "sd": "24-bit",
+        "sr": "1680x927",
+        "vp": "1680x927",
+        "je": 0,
+        "ec": "Banner",
+        "ea": "Visibilidad",
+        "el": "Banner cookies",
+        "_u": "aGBAAEADQ~",
+        "cid": 855441211.1621525,
+        "tid": "UA-9003287-67",
+        "_gid": 925584160.1621525,
+        "gtm": "2wg5c1W69F66G",
+        "cd1": "NBOL",
+        "cd4": "GTM-W69F66G:19",
+        "cd5": "Produccion",
+        "cd6": "ES",
+        "cd7": "Web",
+        "cd8": "Publico",
+        "cd9": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3617.0 Safari/537.36",
+        "cd10": "5/20/2021 5:44:04 PM",
+        "cd16": "1MHJE8WYY8E37QLY1621525443398",
+        "cd31": "EN",
+        "cd32": "https://www.bankinter.com/banca/en/home",
+        "cd33": "",
+        "cd200": "gtm.elementVisibility",
+        "cd3": 855441211.1621525,
+        "cd15": 855441211.1621525,
+        "z": 1768921068
+      },
+      "filter": "||google-analytics.com/collect",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.bankinter.com/banca/en/home",
+            "source": "requested from https://www.bankinter.com/banca/en/home and matched with easyprivacy.txt filter ||google-analytics.com/collect"
+          }
+        ],
+        "timestamp": "2021-05-20T15:44:04.096Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://www.google-analytics.com/gtm/js?id=GTM-PKPFLHW&cid=1662839612.1621525444",
+      "query": {
+        "id": "GTM-PKPFLHW",
+        "cid": 1662839612.1621525
+      },
+      "filter": "||google-analytics.com/gtm/js?",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.bankinter.com/banca/en/home",
+            "source": "requested from https://www.bankinter.com/banca/en/home and matched with easyprivacy.txt filter ||google-analytics.com/gtm/js?"
+          }
+        ],
+        "timestamp": "2021-05-20T15:44:03.874Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://www.googletagmanager.com/gtm.js?id=GTM-W69F66G&l=dataLayer",
+      "query": {
+        "id": "GTM-W69F66G",
+        "l": "dataLayer"
+      },
+      "filter": "/gtm.js",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.bankinter.com/banca/en/home",
+            "source": "requested from https://www.bankinter.com/banca/en/home and matched with easyprivacy.txt filter /gtm.js"
+          }
+        ],
+        "timestamp": "2021-05-20T15:44:03.872Z"
+      },
+      "occurrances": 2
+    },
+    {
+      "url": "https://www.bankinter.com/res/img/documento_cargado.gif?v=0&u=https://www.bankinter.com/banca/en/home&eC=-1&eG=&p0=1621525440204&p3=1753&p4=1753&p5=1753&p6=1753&p8=1753&p9=1754&p10=2242&p11=2324&p14=2251&p15=3451&p17=3451&p18=3541",
+      "query": {
+        "v": 0,
+        "u": "https://www.bankinter.com/banca/en/home",
+        "eC": -1,
+        "eG": "",
+        "p0": 1621525440204,
+        "p3": 1753,
+        "p4": 1753,
+        "p5": 1753,
+        "p6": 1753,
+        "p8": 1753,
+        "p9": 1754,
+        "p10": 2242,
+        "p11": 2324,
+        "p14": 2251,
+        "p15": 3451,
+        "p17": 3451,
+        "p18": 3541
+      },
+      "filter": "||bankinter.com/res/img/documento_cargado.gif?",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.bankinter.com/banca/en/home",
+            "source": "requested from https://www.bankinter.com/banca/en/home and matched with easyprivacy.txt filter ||bankinter.com/res/img/documento_cargado.gif?"
+          }
+        ],
+        "timestamp": "2021-05-20T15:44:03.828Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://www.google-analytics.com/analytics.js",
+      "query": null,
+      "filter": "||google-analytics.com/analytics.js",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.bankinter.com/banca/en/home",
+            "source": "requested from https://www.bankinter.com/banca/en/home and matched with easyprivacy.txt filter ||google-analytics.com/analytics.js"
+          }
+        ],
+        "timestamp": "2021-05-20T15:44:03.436Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://www.bankinter.com/ruxitagentjs_ICA2SVfgqru_10199200831173248.js",
+      "query": null,
+      "filter": "/ruxitagentjs_",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.bankinter.com/banca/en/home",
+            "source": "requested from https://www.bankinter.com/banca/en/home and matched with easyprivacy.txt filter /ruxitagentjs_"
+          }
+        ],
+        "timestamp": "2021-05-20T15:44:02.473Z"
+      },
+      "occurrances": 1
+    }
+  ],
+  "hosts": {
+    "requests": {
+      "firstParty": [
+        "bankinter.com"
+      ],
+      "thirdParty": [
+        "www.bankinter.com",
+        "bancaonline.bankinter.com",
+        "www.google-analytics.com",
+        "www.googletagmanager.com",
+        "static.browseranalytic.com"
+      ]
+    },
+    "beacons": {
+      "firstParty": [],
+      "thirdParty": [
+        "www.google-analytics.com",
+        "www.googletagmanager.com",
+        "www.bankinter.com"
+      ]
+    },
+    "cookies": {
+      "firstParty": [
+        "bankinter.com"
+      ],
+      "thirdParty": [
+        "bancaonline.bankinter.com",
+        "www.bankinter.com"
+      ]
+    },
+    "localStorage": {
+      "firstParty": [],
+      "thirdParty": []
+    },
+    "links": {
+      "firstParty": [],
+      "thirdParty": [
+        "www.bankinter.com",
+        "bancaonline.bankinter.com",
+        "onboarding.bankinter.com",
+        "www.dgsfp.mineco.es",
+        "www.fundacionbankinter.org",
+        "webcorporativa.bankinter.com",
+        "www.facebook.com",
+        "es.linkedin.com",
+        "www.youtube.com",
+        "twitter.com",
+        "blog.bankinter.com",
+        "wa.me"
+      ]
+    }
+  }
+}

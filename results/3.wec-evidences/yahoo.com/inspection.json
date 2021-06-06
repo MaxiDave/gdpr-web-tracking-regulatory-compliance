@@ -1,0 +1,351 @@
+{
+  "title": "Website Evidence Collection",
+  "task_description": null,
+  "uri_ins": "https://yahoo.com",
+  "uri_refs": [
+    "https://yahoo.com"
+  ],
+  "uri_dest": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_ca5bfa1f-1288-4a11-8109-86143c9a9667",
+  "uri_redirects": [
+    "https://yahoo.com/",
+    "https://www.yahoo.com/",
+    "https://es.yahoo.com/?p=us",
+    "https://guce.yahoo.com/consent?brandType=eu&gcrumb=aPwh4Y4&lang=es-ES&done=https%3A%2F%2Fes.yahoo.com%2F%3Fp%3Dus"
+  ],
+  "secure_connection": {
+    "https_support": true,
+    "redirects": [
+      "https://yahoo.com/",
+      "https://www.yahoo.com/",
+      "https://es.yahoo.com/?p=us"
+    ],
+    "https_redirect": true
+  },
+  "host": "yahoo.com",
+  "script": {
+    "host": "sfod",
+    "version": {
+      "npm": "1.0.0",
+      "commit": null
+    },
+    "cmd_args": "-q --overwrite https://yahoo.com -- --ignore-certificate-errors",
+    "environment": {
+      "CHROME_DESKTOP": "code-url-handler.desktop"
+    },
+    "node_version": "v14.17.0"
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "HeadlessChrome/80.0.3987.0",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3617.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "5.8.0-53-generic"
+    },
+    "extra_headers": {},
+    "preset_cookies": {}
+  },
+  "start_time": "2021-05-20T14:41:14.075Z",
+  "end_time": "2021-05-20T14:41:26.459Z",
+  "links": {
+    "firstParty": [],
+    "thirdParty": [
+      {
+        "href": "https://es.yahoo.com/",
+        "inner_text": "guce",
+        "inner_html": "<img class=\"_yb_79ao3 _yb_k65f1 _yb_hbb93\" src=\"https://s.yimg.com/rz/p/yahoo_frontpage_en-US_s_f_p_bestfit_frontpage.png\" srcset=\"https://s.yimg.com/rz/p/yahoo_frontpage_en-US_s_f_p_bestfit_frontpage.png 1x, https://s.yimg.com/rz/p/yahoo_frontpage_en-US_s_f_p_bestfit_frontpage_2x.png 2x\" alt=\"\"><img class=\"_yb_79ao3 _yb_1qg8w _yb_hbb93\" src=\"https://s.yimg.com/rz/p/yahoo_frontpage_en-US_s_f_w_bestfit_frontpage.png\" srcset=\"https://s.yimg.com/rz/p/yahoo_frontpage_en-US_s_f_w_bestfit_frontpage.png 1x, https://s.yimg.com/rz/p/yahoo_frontpage_en-US_s_f_w_bestfit_frontpage_2x.png 2x\" alt=\"\">     guce"
+      },
+      {
+        "href": "https://consent.yahoo.com/v2/partners?sessionId=1_cc-session_ca5bfa1f-1288-4a11-8109-86143c9a9667",
+        "inner_text": "nuestros socios",
+        "inner_html": "nuestros socios"
+      },
+      {
+        "href": "https://consent.yahoo.com/redirect?to=https%3A%2F%2Fwww.verizonmedia.com%2Fpolicies%2Fie%2Fes%2Fverizonmedia%2Fprivacy%2Fdashboard%2Findex.html&brandDomain=&brandId=yahoo&tos=eu&step=&sessionId=1_cc-session_ca5bfa1f-1288-4a11-8109-86143c9a9667&userType=NON_REG",
+        "inner_text": "Tus controles de privacidad",
+        "inner_html": "Tus controles de privacidad"
+      },
+      {
+        "href": "https://consent.yahoo.com/redirect?to=https%3A%2F%2Fwww.verizonmedia.com%2Fpolicies%2Fie%2Fes%2Fverizonmedia%2Fprivacy%2Findex.html&brandDomain=&brandId=yahoo&tos=eu&step=&sessionId=1_cc-session_ca5bfa1f-1288-4a11-8109-86143c9a9667&userType=NON_REG",
+        "inner_text": "Política de privacidad",
+        "inner_html": "Política de privacidad"
+      },
+      {
+        "href": "https://consent.yahoo.com/redirect?to=https%3A%2F%2Fwww.verizonmedia.com%2Fpolicies%2Fie%2Fes%2Fverizonmedia%2Fprivacy%2Ftopics%2Fcookies%2Findex.html&brandDomain=&brandId=yahoo&tos=eu&step=&sessionId=1_cc-session_ca5bfa1f-1288-4a11-8109-86143c9a9667&userType=NON_REG",
+        "inner_text": "Política de cookies",
+        "inner_html": "Política de cookies"
+      }
+    ],
+    "social": [],
+    "keywords": [
+      {
+        "href": "https://consent.yahoo.com/redirect?to=https%3A%2F%2Fwww.verizonmedia.com%2Fpolicies%2Fie%2Fes%2Fverizonmedia%2Fprivacy%2Fdashboard%2Findex.html&brandDomain=&brandId=yahoo&tos=eu&step=&sessionId=1_cc-session_ca5bfa1f-1288-4a11-8109-86143c9a9667&userType=NON_REG",
+        "inner_text": "Tus controles de privacidad",
+        "inner_html": "Tus controles de privacidad"
+      },
+      {
+        "href": "https://consent.yahoo.com/redirect?to=https%3A%2F%2Fwww.verizonmedia.com%2Fpolicies%2Fie%2Fes%2Fverizonmedia%2Fprivacy%2Findex.html&brandDomain=&brandId=yahoo&tos=eu&step=&sessionId=1_cc-session_ca5bfa1f-1288-4a11-8109-86143c9a9667&userType=NON_REG",
+        "inner_text": "Política de privacidad",
+        "inner_html": "Política de privacidad"
+      },
+      {
+        "href": "https://consent.yahoo.com/redirect?to=https%3A%2F%2Fwww.verizonmedia.com%2Fpolicies%2Fie%2Fes%2Fverizonmedia%2Fprivacy%2Ftopics%2Fcookies%2Findex.html&brandDomain=&brandId=yahoo&tos=eu&step=&sessionId=1_cc-session_ca5bfa1f-1288-4a11-8109-86143c9a9667&userType=NON_REG",
+        "inner_text": "Política de cookies",
+        "inner_html": "Política de cookies"
+      }
+    ]
+  },
+  "unsafeForms": [],
+  "browsing_history": [
+    "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_ca5bfa1f-1288-4a11-8109-86143c9a9667"
+  ],
+  "websockets": {},
+  "cookies": [
+    {
+      "name": "B",
+      "value": "d0pnqkdgact8a&b=3&s=c1",
+      "domain": "yahoo.com",
+      "path": "/",
+      "expires": 1653079279.16377,
+      "size": 23,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2022-05-20T20:41:19.163Z",
+      "expiresDays": 365.25,
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://es.yahoo.com/?p=us",
+            "source": "set in Set-Cookie HTTP response header for https://es.yahoo.com/?p=us"
+          }
+        ],
+        "type": "Cookie.HTTP",
+        "timestamp": "2021-05-20T14:41:15.533Z",
+        "location": "about:blank"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "GUCS",
+      "value": "AWj8IeGO",
+      "domain": "yahoo.com",
+      "path": "/",
+      "expires": 1621523475.530874,
+      "size": 12,
+      "httpOnly": false,
+      "secure": true,
+      "session": false,
+      "expiresUTC": "2021-05-20T15:11:15.530Z",
+      "expiresDays": 0.02,
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://es.yahoo.com/?p=us",
+            "source": "set in Set-Cookie HTTP response header for https://es.yahoo.com/?p=us"
+          }
+        ],
+        "type": "Cookie.HTTP",
+        "timestamp": "2021-05-20T14:41:15.533Z",
+        "location": "about:blank"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "RRC",
+      "value": "st=1621521675&cnt=1",
+      "domain": "www.yahoo.com",
+      "path": "/",
+      "expires": 1621521705.393256,
+      "size": 22,
+      "httpOnly": true,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2021-05-20T14:41:45.393Z",
+      "expiresDays": 0,
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.yahoo.com/",
+            "source": "set in Set-Cookie HTTP response header for https://www.yahoo.com/"
+          }
+        ],
+        "type": "Cookie.HTTP",
+        "timestamp": "2021-05-20T14:41:15.395Z",
+        "location": "about:blank"
+      },
+      "firstPartyStorage": false
+    }
+  ],
+  "localStorage": {},
+  "beacons": [
+    {
+      "url": "https://csp.yahoo.com/beacon/csp?src=guce",
+      "query": {
+        "src": "guce"
+      },
+      "filter": "||yahoo.com/beacon/",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_ca5bfa1f-1288-4a11-8109-86143c9a9667",
+            "source": "requested from https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_ca5bfa1f-1288-4a11-8109-86143c9a9667 and matched with easyprivacy.txt filter ||yahoo.com/beacon/"
+          }
+        ],
+        "timestamp": "2021-05-20T14:41:20.510Z"
+      },
+      "occurrances": 16
+    },
+    {
+      "url": "https://vop-yahoo.akamaized.net/pixel.gif?rand=vqnh8z93v",
+      "query": {
+        "rand": "vqnh8z93v"
+      },
+      "filter": "/pixel.gif?",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_ca5bfa1f-1288-4a11-8109-86143c9a9667",
+            "source": "requested from https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_ca5bfa1f-1288-4a11-8109-86143c9a9667 and matched with easyprivacy.txt filter /pixel.gif?"
+          }
+        ],
+        "timestamp": "2021-05-20T14:41:18.772Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://vop-yahoo.secure.footprint.net/pixel.gif?rand=rdyzxfkzy",
+      "query": {
+        "rand": "rdyzxfkzy"
+      },
+      "filter": "/pixel.gif?",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_ca5bfa1f-1288-4a11-8109-86143c9a9667",
+            "source": "requested from https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_ca5bfa1f-1288-4a11-8109-86143c9a9667 and matched with easyprivacy.txt filter /pixel.gif?"
+          }
+        ],
+        "timestamp": "2021-05-20T14:41:18.769Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://yahoovod.hs.llnwd.net/pixel.gif?rand=eu1dx9vag",
+      "query": {
+        "rand": "eu1dx9vag"
+      },
+      "filter": "/pixel.gif?",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_ca5bfa1f-1288-4a11-8109-86143c9a9667",
+            "source": "requested from https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_ca5bfa1f-1288-4a11-8109-86143c9a9667 and matched with easyprivacy.txt filter /pixel.gif?"
+          }
+        ],
+        "timestamp": "2021-05-20T14:41:18.768Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://edge-mcdn-beacon.secure.yahoo.com/noquery/pixel.gif?rand=vbui7jkaw",
+      "query": {
+        "rand": "vbui7jkaw"
+      },
+      "filter": "/pixel.gif?",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_ca5bfa1f-1288-4a11-8109-86143c9a9667",
+            "source": "requested from https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_ca5bfa1f-1288-4a11-8109-86143c9a9667 and matched with easyprivacy.txt filter /pixel.gif?"
+          }
+        ],
+        "timestamp": "2021-05-20T14:41:18.767Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://d1vl8wytztdz.cloudfront.net/pixel.gif?rand=jsyq4h4l9",
+      "query": {
+        "rand": "jsyq4h4l9"
+      },
+      "filter": "/pixel.gif?",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_ca5bfa1f-1288-4a11-8109-86143c9a9667",
+            "source": "requested from https://consent.yahoo.com/v2/collectConsent?sessionId=1_cc-session_ca5bfa1f-1288-4a11-8109-86143c9a9667 and matched with easyprivacy.txt filter /pixel.gif?"
+          }
+        ],
+        "timestamp": "2021-05-20T14:41:18.765Z"
+      },
+      "occurrances": 1
+    }
+  ],
+  "hosts": {
+    "requests": {
+      "firstParty": [
+        "yahoo.com"
+      ],
+      "thirdParty": [
+        "www.yahoo.com",
+        "es.yahoo.com",
+        "guce.yahoo.com",
+        "consent.yahoo.com",
+        "s.yimg.com",
+        "edge-mcdn.secure.yahoo.com",
+        "csp.yahoo.com",
+        "v-a5cxmz7cbz.wc.yahoodns.net",
+        "v-blf6pfpcpt.wc.yahoodns.net",
+        "v-ca2h9u2l2d.wc.yahoodns.net",
+        "dns-g9sph4sd5.sombrero.yahoo.net",
+        "d1vl8wytztdz.cloudfront.net",
+        "edge-mcdn-beacon.secure.yahoo.com",
+        "yahoovod.hs.llnwd.net",
+        "vop-yahoo.secure.footprint.net",
+        "edgecast-vod.yahoo.net",
+        "vop-yahoo.akamaized.net",
+        "ybar-mcdn-report.wc.yahoodns.net",
+        "ybar-blf6pfpcptreport.wc.yahoodns.net",
+        "ybar-a5cxmz7cbzreport.wc.yahoodns.net",
+        "ybar-ca2h9u2l2dreport.wc.yahoodns.net"
+      ]
+    },
+    "beacons": {
+      "firstParty": [],
+      "thirdParty": [
+        "csp.yahoo.com",
+        "vop-yahoo.akamaized.net",
+        "vop-yahoo.secure.footprint.net",
+        "yahoovod.hs.llnwd.net",
+        "edge-mcdn-beacon.secure.yahoo.com",
+        "d1vl8wytztdz.cloudfront.net"
+      ]
+    },
+    "cookies": {
+      "firstParty": [
+        "yahoo.com"
+      ],
+      "thirdParty": [
+        "www.yahoo.com"
+      ]
+    },
+    "localStorage": {
+      "firstParty": [],
+      "thirdParty": []
+    },
+    "links": {
+      "firstParty": [],
+      "thirdParty": [
+        "es.yahoo.com",
+        "consent.yahoo.com"
+      ]
+    }
+  }
+}

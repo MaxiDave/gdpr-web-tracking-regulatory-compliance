@@ -1,0 +1,279 @@
+{
+  "title": "Website Evidence Collection",
+  "task_description": null,
+  "uri_ins": "https://youtube.com",
+  "uri_refs": [
+    "https://youtube.com"
+  ],
+  "uri_dest": "https://consent.youtube.com/m?continue=https%3A%2F%2Fyoutube.com%2F&gl=ES&m=0&pc=yt&uxe=23983172&hl=en&src=1",
+  "uri_redirects": [
+    "https://youtube.com/"
+  ],
+  "secure_connection": {
+    "https_support": true,
+    "redirects": [],
+    "https_redirect": false
+  },
+  "host": "youtube.com",
+  "script": {
+    "host": "sfod",
+    "version": {
+      "npm": "1.0.0",
+      "commit": null
+    },
+    "cmd_args": "-q --overwrite https://youtube.com -- --ignore-certificate-errors",
+    "environment": {
+      "CHROME_DESKTOP": "code-url-handler.desktop"
+    },
+    "node_version": "v14.17.0"
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "HeadlessChrome/80.0.3987.0",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3617.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "5.8.0-53-generic"
+    },
+    "extra_headers": {},
+    "preset_cookies": {}
+  },
+  "start_time": "2021-05-20T14:39:51.367Z",
+  "end_time": "2021-05-20T14:40:32.541Z",
+  "links": {
+    "firstParty": [],
+    "thirdParty": [
+      {
+        "href": "https://accounts.google.com/ServiceLogin?hl=en&continue=https://youtube.com/&gae=cb-23983172",
+        "inner_text": "",
+        "inner_html": ""
+      },
+      {
+        "href": "https://policies.google.com/technologies/cookies?hl=en&utm_source=ucb",
+        "inner_text": "cookies",
+        "inner_html": "cookies"
+      },
+      {
+        "href": "https://consent.youtube.com/d?continue=https://youtube.com/&gl=ES&hl=en&pc=yt&uxe=23983172&src=1",
+        "inner_text": "",
+        "inner_html": ""
+      },
+      {
+        "href": "https://policies.google.com/privacy?hl=en&utm_soure=ucb",
+        "inner_text": "",
+        "inner_html": ""
+      },
+      {
+        "href": "https://policies.google.com/terms?hl=en&utm_soure=ucb",
+        "inner_text": "",
+        "inner_html": ""
+      },
+      {
+        "href": "https://policies.google.com/privacy?hl=en&utm_source=ucb",
+        "inner_text": "",
+        "inner_html": ""
+      },
+      {
+        "href": "https://policies.google.com/terms?hl=en&utm_source=ucb",
+        "inner_text": "",
+        "inner_html": ""
+      }
+    ],
+    "social": [
+      {
+        "href": "https://accounts.google.com/ServiceLogin?hl=en&continue=https://youtube.com/&gae=cb-23983172",
+        "inner_text": "",
+        "inner_html": ""
+      },
+      {
+        "href": "https://consent.youtube.com/d?continue=https://youtube.com/&gl=ES&hl=en&pc=yt&uxe=23983172&src=1",
+        "inner_text": "",
+        "inner_html": ""
+      }
+    ],
+    "keywords": [
+      {
+        "href": "https://accounts.google.com/ServiceLogin?hl=en&continue=https://youtube.com/&gae=cb-23983172",
+        "inner_text": "",
+        "inner_html": ""
+      },
+      {
+        "href": "https://policies.google.com/privacy?hl=en&utm_soure=ucb",
+        "inner_text": "",
+        "inner_html": ""
+      },
+      {
+        "href": "https://policies.google.com/privacy?hl=en&utm_source=ucb",
+        "inner_text": "",
+        "inner_html": ""
+      }
+    ]
+  },
+  "unsafeForms": [],
+  "browsing_history": [
+    "https://consent.youtube.com/m?continue=https%3A%2F%2Fyoutube.com%2F&gl=ES&m=0&pc=yt&uxe=23983172&hl=en&src=1"
+  ],
+  "websockets": {},
+  "cookies": [
+    {
+      "name": "CONSENT",
+      "value": "PENDING+724",
+      "domain": "google.com",
+      "path": "/",
+      "expires": 2145916802.544958,
+      "size": 18,
+      "httpOnly": false,
+      "secure": true,
+      "session": false,
+      "expiresUTC": "2038-01-01T00:00:02.544Z",
+      "expiresDays": 6069.39,
+      "firstPartyStorage": false
+    },
+    {
+      "name": "CONSENT",
+      "value": "PENDING+068",
+      "domain": "youtube.com",
+      "path": "/",
+      "expires": 2145916800.546272,
+      "size": 18,
+      "httpOnly": false,
+      "secure": true,
+      "session": false,
+      "expiresUTC": "2038-01-01T00:00:00.546Z",
+      "expiresDays": 6069.39,
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://youtube.com/",
+            "source": "set in Set-Cookie HTTP response header for https://youtube.com/"
+          }
+        ],
+        "type": "Cookie.HTTP",
+        "timestamp": "2021-05-20T14:39:52.552Z",
+        "location": "about:blank"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "OTZ",
+      "value": "5986960_48_52_123900_48_436380",
+      "domain": "consent.youtube.com",
+      "path": "/",
+      "expires": 1624113601,
+      "size": 33,
+      "httpOnly": false,
+      "secure": true,
+      "session": false,
+      "expiresUTC": "2021-06-19T14:40:01.000Z",
+      "expiresDays": 30,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 421,
+            "lineNumber": 460,
+            "fileName": "https://www.gstatic.com/_/mss/boq-identity/_/js/k=boq-identity.ConsentUi.en.T9eNQLkzNMQ.es5.O/ck=boq-identity.ConsentUi.f8RZOh5FGT8.L.B1.O/am=CwAQ/d=1/exm=LEikZe,_b,_tp,byfTOb,lsjVmc/excm=_b,_tp,mainview/ed=1/wt=2/rs=AOaEmlEx_t12YSW7I38wH0QkgAVaS1pQCg/m=n73qwf,ws9Tlc,IZT63,e5qFLc,GkRiKb,UUJqVe,O1Gjze,xUdipf,blwjVc,fKUV3e,aurFic,COQbmf,U0aPgd,ZwDk9d,V3dDOb,WO9ee,O6y8ed,NpD4ec,PrPYRd,iWP1Yb,MpJwZc,O8k1Cd,NwH0H,OmgaI,HLo3Ef,x60fie,xiqEse,XVMNvd,L1AAkb,KUM7Z,lfpdyf,s39S4,lwddkf,gychg,w9hDv,RMhBfe,SdcwHb,aW3pY,YLQSd,PQaYAf,pw70Gc,EFQ78c,Ulmmrd,ZfAoz,CBlRxf,MdUzUe,xQtZb,lPKSwe,QIhFr,JNoxi,pB6Zqd,rHjpXd,yDVVkb,SF3gsd,iTsyac,hc6Ubd,KG2eXe,SpsfSb,tfTN8c,o02Jie,VwDzFe,zbML3c,HDvRde,Uas9Hd,BVgquf,A7fCU,UgAtXe,pjICDe",
+            "functionName": "_.uF._.h.set",
+            "source": "    at _.uF._.h.set (https://www.gstatic.com/_/mss/boq-identity/_/js/k=boq-identity.ConsentUi.en.T9eNQLkzNMQ.es5.O/ck=boq-identity.ConsentUi.f8RZOh5FGT8.L.B1.O/am=CwAQ/d=1/exm=LEikZe,_b,_tp,byfTOb,lsjVmc/excm=_b,_tp,mainview/ed=1/wt=2/rs=AOaEmlEx_t12YSW7I38wH0QkgAVaS1pQCg/m=n73qwf,ws9Tlc,IZT63,e5qFLc,GkRiKb,UUJqVe,O1Gjze,xUdipf,blwjVc,fKUV3e,aurFic,COQbmf,U0aPgd,ZwDk9d,V3dDOb,WO9ee,O6y8ed,NpD4ec,PrPYRd,iWP1Yb,MpJwZc,O8k1Cd,NwH0H,OmgaI,HLo3Ef,x60fie,xiqEse,XVMNvd,L1AAkb,KUM7Z,lfpdyf,s39S4,lwddkf,gychg,w9hDv,RMhBfe,SdcwHb,aW3pY,YLQSd,PQaYAf,pw70Gc,EFQ78c,Ulmmrd,ZfAoz,CBlRxf,MdUzUe,xQtZb,lPKSwe,QIhFr,JNoxi,pB6Zqd,rHjpXd,yDVVkb,SF3gsd,iTsyac,hc6Ubd,KG2eXe,SpsfSb,tfTN8c,o02Jie,VwDzFe,zbML3c,HDvRde,Uas9Hd,BVgquf,A7fCU,UgAtXe,pjICDe:460:421)"
+          },
+          {
+            "columnNumber": 244,
+            "lineNumber": 40,
+            "fileName": "https://www.gstatic.com/_/mss/boq-identity/_/js/k=boq-identity.ConsentUi.en.T9eNQLkzNMQ.es5.O/ck=boq-identity.ConsentUi.f8RZOh5FGT8.L.B1.O/am=CwAQ/d=1/exm=A4UTCb,A7fCU,BVgquf,CBlRxf,COQbmf,EFQ78c,EGNJFf,GkRiKb,HDvRde,HLo3Ef,IZT63,JNoxi,KG2eXe,KUM7Z,L1AAkb,LEikZe,MdUzUe,MpJwZc,NpD4ec,NwH0H,O1Gjze,O6y8ed,O8k1Cd,OmgaI,PQaYAf,PrPYRd,QIhFr,RAnnUd,RMhBfe,SF3gsd,SdcwHb,SpsfSb,U0aPgd,UMu52b,UUJqVe,Uas9Hd,UgAtXe,Ulmmrd,V3dDOb,VwDzFe,WO9ee,XVMNvd,YLQSd,ZfAoz,ZwDk9d,_b,_tp,aW3pY,aurFic,blwjVc,byfTOb,e5qFLc,fKUV3e,fkuQ3,gychg,hZ9Bt,hc6Ubd,i5dxUd,iSvg6e,iTsyac,iWP1Yb,lPKSwe,lfpdyf,lsjVmc,lwddkf,m9oV,n73qwf,nKuFpb,o02Jie,pB6Zqd,pjICDe,pw70Gc,rHjpXd,s39S4,soHxf,tfTN8c,uY3Nvd,uu7UOe,w9hDv,ws9Tlc,x60fie,xQtZb,xUdipf,xiqEse,yDVVkb,zbML3c/excm=_b,_tp,mainview/ed=1/wt=2/rs=AOaEmlEx_t12YSW7I38wH0QkgAVaS1pQCg/m=Wt6vjf,_latency,FCpbqb,WhJNk",
+            "functionName": "new kM",
+            "source": "    at new kM (https://www.gstatic.com/_/mss/boq-identity/_/js/k=boq-identity.ConsentUi.en.T9eNQLkzNMQ.es5.O/ck=boq-identity.ConsentUi.f8RZOh5FGT8.L.B1.O/am=CwAQ/d=1/exm=A4UTCb,A7fCU,BVgquf,CBlRxf,COQbmf,EFQ78c,EGNJFf,GkRiKb,HDvRde,HLo3Ef,IZT63,JNoxi,KG2eXe,KUM7Z,L1AAkb,LEikZe,MdUzUe,MpJwZc,NpD4ec,NwH0H,O1Gjze,O6y8ed,O8k1Cd,OmgaI,PQaYAf,PrPYRd,QIhFr,RAnnUd,RMhBfe,SF3gsd,SdcwHb,SpsfSb,U0aPgd,UMu52b,UUJqVe,Uas9Hd,UgAtXe,Ulmmrd,V3dDOb,VwDzFe,WO9ee,XVMNvd,YLQSd,ZfAoz,ZwDk9d,_b,_tp,aW3pY,aurFic,blwjVc,byfTOb,e5qFLc,fKUV3e,fkuQ3,gychg,hZ9Bt,hc6Ubd,i5dxUd,iSvg6e,iTsyac,iWP1Yb,lPKSwe,lfpdyf,lsjVmc,lwddkf,m9oV,n73qwf,nKuFpb,o02Jie,pB6Zqd,pjICDe,pw70Gc,rHjpXd,s39S4,soHxf,tfTN8c,uY3Nvd,uu7UOe,w9hDv,ws9Tlc,x60fie,xQtZb,xUdipf,xiqEse,yDVVkb,zbML3c/excm=_b,_tp,mainview/ed=1/wt=2/rs=AOaEmlEx_t12YSW7I38wH0QkgAVaS1pQCg/m=Wt6vjf,_latency,FCpbqb,WhJNk:40:244)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T14:40:01.301Z",
+        "location": "https://consent.youtube.com/m?continue=https%3A%2F%2Fyoutube.com%2F&gl=ES&m=0&pc=yt&uxe=23983172&hl=en&src=1"
+      },
+      "firstPartyStorage": false
+    }
+  ],
+  "localStorage": {},
+  "beacons": [
+    {
+      "url": "https://play.google.com/log?format=json&hasfast=true",
+      "query": {
+        "format": "json",
+        "hasfast": true
+      },
+      "filter": "||google.com/log?",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://consent.youtube.com/m?continue=https%3A%2F%2Fyoutube.com%2F&gl=ES&m=0&pc=yt&uxe=23983172&hl=en&src=1",
+            "source": "requested from https://consent.youtube.com/m?continue=https%3A%2F%2Fyoutube.com%2F&gl=ES&m=0&pc=yt&uxe=23983172&hl=en&src=1 and matched with easyprivacy.txt filter ||google.com/log?"
+          }
+        ],
+        "timestamp": "2021-05-20T14:40:01.296Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://consent.youtube.com/_/ConsentUi/browserinfo?f.sid=-8384926784800221702&bl=boq_identityfrontenduiserver_20210518.05_p0&hl=en&gl=ES&_reqid=59997&rt=j",
+      "query": {
+        "f.sid": -8384926784800222000,
+        "bl": "boq_identityfrontenduiserver_20210518.05_p0",
+        "hl": "en",
+        "gl": "ES",
+        "_reqid": 59997,
+        "rt": "j"
+      },
+      "filter": "/consentUI/*",
+      "listName": "fanboy-annoyance.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://consent.youtube.com/m?continue=https%3A%2F%2Fyoutube.com%2F&gl=ES&m=0&pc=yt&uxe=23983172&hl=en&src=1",
+            "source": "requested from https://consent.youtube.com/m?continue=https%3A%2F%2Fyoutube.com%2F&gl=ES&m=0&pc=yt&uxe=23983172&hl=en&src=1 and matched with fanboy-annoyance.txt filter /consentUI/*"
+          }
+        ],
+        "timestamp": "2021-05-20T14:39:56.541Z"
+      },
+      "occurrances": 1
+    }
+  ],
+  "hosts": {
+    "requests": {
+      "firstParty": [
+        "youtube.com"
+      ],
+      "thirdParty": [
+        "consent.youtube.com",
+        "fonts.googleapis.com",
+        "www.gstatic.com",
+        "fonts.gstatic.com",
+        "play.google.com"
+      ]
+    },
+    "beacons": {
+      "firstParty": [],
+      "thirdParty": [
+        "play.google.com"
+      ]
+    },
+    "cookies": {
+      "firstParty": [
+        "youtube.com"
+      ],
+      "thirdParty": [
+        "consent.youtube.com",
+        "google.com"
+      ]
+    },
+    "localStorage": {
+      "firstParty": [],
+      "thirdParty": []
+    },
+    "links": {
+      "firstParty": [],
+      "thirdParty": [
+        "accounts.google.com",
+        "policies.google.com",
+        "consent.youtube.com"
+      ]
+    }
+  }
+}

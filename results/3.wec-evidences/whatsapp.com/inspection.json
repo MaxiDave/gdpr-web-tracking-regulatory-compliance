@@ -1,0 +1,986 @@
+{
+  "title": "Website Evidence Collection",
+  "task_description": null,
+  "uri_ins": "https://whatsapp.com",
+  "uri_refs": [
+    "https://whatsapp.com"
+  ],
+  "uri_dest": "https://www.whatsapp.com/",
+  "uri_redirects": [
+    "https://whatsapp.com/"
+  ],
+  "secure_connection": {
+    "https_support": true,
+    "redirects": [
+      "https://whatsapp.com/",
+      "https://www.whatsapp.com/",
+      "https://www.facebook.com/unsupportedbrowser"
+    ],
+    "https_redirect": true
+  },
+  "host": "whatsapp.com",
+  "script": {
+    "host": "sfod",
+    "version": {
+      "npm": "1.0.0",
+      "commit": null
+    },
+    "cmd_args": "-q --overwrite https://whatsapp.com -- --ignore-certificate-errors",
+    "environment": {
+      "CHROME_DESKTOP": "code-url-handler.desktop"
+    },
+    "node_version": "v14.17.0"
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "HeadlessChrome/80.0.3987.0",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3617.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "5.8.0-53-generic"
+    },
+    "extra_headers": {},
+    "preset_cookies": {}
+  },
+  "start_time": "2021-05-20T15:22:18.145Z",
+  "end_time": "2021-05-20T15:22:24.458Z",
+  "links": {
+    "firstParty": [],
+    "thirdParty": [
+      {
+        "href": "https://www.whatsapp.com/?lang=cs",
+        "inner_text": "čeština",
+        "inner_html": "čeština"
+      },
+      {
+        "href": "https://www.whatsapp.com/?lang=de",
+        "inner_text": "Deutsch",
+        "inner_html": "Deutsch"
+      },
+      {
+        "href": "https://www.whatsapp.com/?lang=en",
+        "inner_text": "English",
+        "inner_html": "English"
+      },
+      {
+        "href": "https://www.whatsapp.com/?lang=es",
+        "inner_text": "español",
+        "inner_html": "español"
+      },
+      {
+        "href": "https://www.whatsapp.com/?lang=fr",
+        "inner_text": "français",
+        "inner_html": "français"
+      },
+      {
+        "href": "https://www.whatsapp.com/?lang=it",
+        "inner_text": "italiano",
+        "inner_html": "italiano"
+      },
+      {
+        "href": "https://www.whatsapp.com/?lang=hu",
+        "inner_text": "magyar",
+        "inner_html": "magyar"
+      },
+      {
+        "href": "https://www.whatsapp.com/?lang=nl",
+        "inner_text": "Nederlands",
+        "inner_html": "Nederlands"
+      },
+      {
+        "href": "https://www.whatsapp.com/?lang=pl",
+        "inner_text": "polski",
+        "inner_html": "polski"
+      },
+      {
+        "href": "https://www.whatsapp.com/?lang=pt_pt",
+        "inner_text": "Português (Portugal)",
+        "inner_html": "Português (Portugal)"
+      },
+      {
+        "href": "https://www.whatsapp.com/?lang=ro",
+        "inner_text": "română",
+        "inner_html": "română"
+      },
+      {
+        "href": "https://www.whatsapp.com/?lang=sk",
+        "inner_text": "slovenčina",
+        "inner_html": "slovenčina"
+      },
+      {
+        "href": "https://www.whatsapp.com/?lang=sl",
+        "inner_text": "slovenščina",
+        "inner_html": "slovenščina"
+      },
+      {
+        "href": "https://www.whatsapp.com/?lang=sv",
+        "inner_text": "svenska",
+        "inner_html": "svenska"
+      },
+      {
+        "href": "https://www.whatsapp.com/legal/cookies/",
+        "inner_text": "Cookie Policy",
+        "inner_html": "Cookie Policy"
+      },
+      {
+        "href": "https://www.whatsapp.com/",
+        "inner_text": "MANAGE COOKIES",
+        "inner_html": "Manage Cookies"
+      },
+      {
+        "href": "https://support.google.com/chrome/answer/95647",
+        "inner_text": "Google Chrome",
+        "inner_html": "Google Chrome"
+      },
+      {
+        "href": "https://support.microsoft.com/en-us/topic/delete-and-manage-cookies-168dab11-0753-043d-7c16-ede5947fc64d",
+        "inner_text": "Internet Explorer",
+        "inner_html": "Internet Explorer"
+      },
+      {
+        "href": "https://support.mozilla.org/en-US/kb/enhanced-tracking-protection-firefox-desktop",
+        "inner_text": "Firefox",
+        "inner_html": "Firefox"
+      },
+      {
+        "href": "https://support.apple.com/en-ie/guide/safari/sfri11471/mac",
+        "inner_text": "Safari",
+        "inner_html": "Safari"
+      },
+      {
+        "href": "https://support.apple.com/en-us/HT201265",
+        "inner_text": "Safari Mobile",
+        "inner_html": "Safari Mobile"
+      },
+      {
+        "href": "https://blogs.opera.com/news/2015/08/how-to-manage-cookies-in-opera/",
+        "inner_text": "Opera",
+        "inner_html": "Opera"
+      },
+      {
+        "href": "https://www.whatsapp.com/?lang=az",
+        "inner_text": "azərbaycan",
+        "inner_html": "azərbaycan"
+      },
+      {
+        "href": "https://www.whatsapp.com/?lang=af",
+        "inner_text": "Afrikaans",
+        "inner_html": "Afrikaans"
+      },
+      {
+        "href": "https://www.whatsapp.com/?lang=id",
+        "inner_text": "Bahasa Indonesia",
+        "inner_html": "Bahasa Indonesia"
+      },
+      {
+        "href": "https://www.whatsapp.com/?lang=ms",
+        "inner_text": "Melayu",
+        "inner_html": "Melayu"
+      },
+      {
+        "href": "https://www.whatsapp.com/?lang=ca",
+        "inner_text": "català",
+        "inner_html": "català"
+      },
+      {
+        "href": "https://www.whatsapp.com/?lang=da",
+        "inner_text": "dansk",
+        "inner_html": "dansk"
+      },
+      {
+        "href": "https://www.whatsapp.com/?lang=et",
+        "inner_text": "eesti",
+        "inner_html": "eesti"
+      },
+      {
+        "href": "https://www.whatsapp.com/?lang=ga",
+        "inner_text": "Gaeilge",
+        "inner_html": "Gaeilge"
+      },
+      {
+        "href": "https://www.whatsapp.com/?lang=hr",
+        "inner_text": "hrvatski",
+        "inner_html": "hrvatski"
+      },
+      {
+        "href": "https://www.whatsapp.com/?lang=sw",
+        "inner_text": "Kiswahili",
+        "inner_html": "Kiswahili"
+      },
+      {
+        "href": "https://www.whatsapp.com/?lang=lv",
+        "inner_text": "latviešu",
+        "inner_html": "latviešu"
+      },
+      {
+        "href": "https://www.whatsapp.com/?lang=lt",
+        "inner_text": "lietuvių",
+        "inner_html": "lietuvių"
+      },
+      {
+        "href": "https://www.whatsapp.com/?lang=nb",
+        "inner_text": "norsk bokmål",
+        "inner_html": "norsk bokmål"
+      },
+      {
+        "href": "https://www.whatsapp.com/?lang=uz",
+        "inner_text": "o‘zbek",
+        "inner_html": "o‘zbek"
+      },
+      {
+        "href": "https://www.whatsapp.com/?lang=tl",
+        "inner_text": "Filipino",
+        "inner_html": "Filipino"
+      },
+      {
+        "href": "https://www.whatsapp.com/?lang=pt_br",
+        "inner_text": "Português (Brasil)",
+        "inner_html": "Português (Brasil)"
+      },
+      {
+        "href": "https://www.whatsapp.com/?lang=sq",
+        "inner_text": "shqip",
+        "inner_html": "shqip"
+      },
+      {
+        "href": "https://www.whatsapp.com/?lang=fi",
+        "inner_text": "suomi",
+        "inner_html": "suomi"
+      },
+      {
+        "href": "https://www.whatsapp.com/?lang=vi",
+        "inner_text": "Tiếng Việt",
+        "inner_html": "Tiếng Việt"
+      },
+      {
+        "href": "https://www.whatsapp.com/?lang=tr",
+        "inner_text": "Türkçe",
+        "inner_html": "Türkçe"
+      },
+      {
+        "href": "https://www.whatsapp.com/?lang=el",
+        "inner_text": "Ελληνικά",
+        "inner_html": "Ελληνικά"
+      },
+      {
+        "href": "https://www.whatsapp.com/?lang=bg",
+        "inner_text": "български",
+        "inner_html": "български"
+      },
+      {
+        "href": "https://www.whatsapp.com/?lang=kk",
+        "inner_text": "қазақ тілі",
+        "inner_html": "қазақ тілі"
+      },
+      {
+        "href": "https://www.whatsapp.com/?lang=mk",
+        "inner_text": "македонски",
+        "inner_html": "македонски"
+      },
+      {
+        "href": "https://www.whatsapp.com/?lang=ru",
+        "inner_text": "русский",
+        "inner_html": "русский"
+      },
+      {
+        "href": "https://www.whatsapp.com/?lang=sr",
+        "inner_text": "српски",
+        "inner_html": "српски"
+      },
+      {
+        "href": "https://www.whatsapp.com/?lang=uk",
+        "inner_text": "українська",
+        "inner_html": "українська"
+      },
+      {
+        "href": "https://www.whatsapp.com/?lang=he",
+        "inner_text": "עברית",
+        "inner_html": "עברית"
+      },
+      {
+        "href": "https://www.whatsapp.com/?lang=ar",
+        "inner_text": "العربية",
+        "inner_html": "العربية"
+      },
+      {
+        "href": "https://www.whatsapp.com/?lang=fa",
+        "inner_text": "فارسی",
+        "inner_html": "فارسی"
+      },
+      {
+        "href": "https://www.whatsapp.com/?lang=ur",
+        "inner_text": "اردو",
+        "inner_html": "اردو"
+      },
+      {
+        "href": "https://www.whatsapp.com/?lang=bn",
+        "inner_text": "বাংলা",
+        "inner_html": "বাংলা"
+      },
+      {
+        "href": "https://www.whatsapp.com/?lang=hi",
+        "inner_text": "हिन्दी",
+        "inner_html": "हिन्दी"
+      },
+      {
+        "href": "https://www.whatsapp.com/?lang=gu",
+        "inner_text": "ગુજરાતી",
+        "inner_html": "ગુજરાતી"
+      },
+      {
+        "href": "https://www.whatsapp.com/?lang=kn",
+        "inner_text": "ಕನ್ನಡ",
+        "inner_html": "ಕನ್ನಡ"
+      },
+      {
+        "href": "https://www.whatsapp.com/?lang=mr",
+        "inner_text": "मराठी",
+        "inner_html": "मराठी"
+      },
+      {
+        "href": "https://www.whatsapp.com/?lang=pa",
+        "inner_text": "ਪੰਜਾਬੀ",
+        "inner_html": "ਪੰਜਾਬੀ"
+      },
+      {
+        "href": "https://www.whatsapp.com/?lang=ta",
+        "inner_text": "தமிழ்",
+        "inner_html": "தமிழ்"
+      },
+      {
+        "href": "https://www.whatsapp.com/?lang=te",
+        "inner_text": "తెలుగు",
+        "inner_html": "తెలుగు"
+      },
+      {
+        "href": "https://www.whatsapp.com/?lang=ml",
+        "inner_text": "മലയാളം",
+        "inner_html": "മലയാളം"
+      },
+      {
+        "href": "https://www.whatsapp.com/?lang=th",
+        "inner_text": "ไทย",
+        "inner_html": "ไทย"
+      },
+      {
+        "href": "https://www.whatsapp.com/?lang=zh_cn",
+        "inner_text": "简体中文",
+        "inner_html": "简体中文"
+      },
+      {
+        "href": "https://www.whatsapp.com/?lang=zh_tw",
+        "inner_text": "繁體中文（台灣）",
+        "inner_html": "繁體中文（台灣）"
+      },
+      {
+        "href": "https://www.whatsapp.com/?lang=ja",
+        "inner_text": "日本語",
+        "inner_html": "日本語"
+      },
+      {
+        "href": "https://www.whatsapp.com/?lang=ko",
+        "inner_text": "한국어",
+        "inner_html": "한국어"
+      },
+      {
+        "href": "https://web.whatsapp.com/",
+        "inner_text": "WHATSAPP WEB",
+        "inner_html": "WhatsApp Web"
+      },
+      {
+        "href": "https://www.whatsapp.com/features/",
+        "inner_text": "FEATURES",
+        "inner_html": "Features"
+      },
+      {
+        "href": "https://www.whatsapp.com/download/",
+        "inner_text": "DOWNLOAD",
+        "inner_html": "Download"
+      },
+      {
+        "href": "https://www.whatsapp.com/security/",
+        "inner_text": "SECURITY",
+        "inner_html": "Security"
+      },
+      {
+        "href": "https://faq.whatsapp.com/",
+        "inner_text": "HELP CENTER",
+        "inner_html": "Help Center"
+      },
+      {
+        "href": "https://www.whatsapp.com/contact/",
+        "inner_text": "",
+        "inner_html": "Get in touch"
+      },
+      {
+        "href": "https://www.whatsapp.com/download",
+        "inner_text": "Download now",
+        "inner_html": "Download now"
+      },
+      {
+        "href": "https://play.google.com/store/apps/details?id=com.whatsapp",
+        "inner_text": " Android",
+        "inner_html": "<img class=\"_36oq\" src=\"https://static.whatsapp.net/rsrc.php/yE/r/TDpp7fh8s7a.svg\"> Android"
+      },
+      {
+        "href": "http://itunes.apple.com/us/app/whatsapp-messenger/id310633997?mt=8",
+        "inner_text": " iPhone",
+        "inner_html": "<img class=\"_36oq\" src=\"https://static.whatsapp.net/rsrc.php/yX/r/QBqjMTNuxPz.svg\"> iPhone"
+      },
+      {
+        "href": "https://www.whatsapp.com/business",
+        "inner_text": "WhatsApp Business",
+        "inner_html": "WhatsApp Business"
+      },
+      {
+        "href": "https://www.whatsapp.com/business/api",
+        "inner_text": "WhatsApp Business API.",
+        "inner_html": "WhatsApp Business API."
+      },
+      {
+        "href": "https://www.whatsapp.com/business/",
+        "inner_text": "Business",
+        "inner_html": "Business"
+      },
+      {
+        "href": "https://www.whatsapp.com/privacy",
+        "inner_text": "Privacy",
+        "inner_html": "Privacy"
+      },
+      {
+        "href": "https://www.whatsapp.com/about/",
+        "inner_text": "About",
+        "inner_html": "About"
+      },
+      {
+        "href": "https://www.whatsapp.com/join/",
+        "inner_text": "Careers",
+        "inner_html": "Careers"
+      },
+      {
+        "href": "https://www.whatsappbrand.com/",
+        "inner_text": "Brand Center",
+        "inner_html": "Brand Center"
+      },
+      {
+        "href": "https://blog.whatsapp.com/",
+        "inner_text": "Blog",
+        "inner_html": "Blog"
+      },
+      {
+        "href": "https://www.whatsapp.com/stories/",
+        "inner_text": "WhatsApp Stories",
+        "inner_html": "WhatsApp Stories"
+      },
+      {
+        "href": "https://www.whatsapp.com/android/",
+        "inner_text": "Android",
+        "inner_html": "Android"
+      },
+      {
+        "href": "https://www.whatsapp.com/appstore/",
+        "inner_text": "iPhone",
+        "inner_html": "iPhone"
+      },
+      {
+        "href": "https://twitter.com/whatsapp",
+        "inner_text": "Twitter",
+        "inner_html": "Twitter"
+      },
+      {
+        "href": "https://www.facebook.com/WhatsApp",
+        "inner_text": "Facebook",
+        "inner_html": "Facebook"
+      },
+      {
+        "href": "https://www.whatsapp.com/coronavirus/",
+        "inner_text": "Coronavirus",
+        "inner_html": "Coronavirus"
+      },
+      {
+        "href": "https://www.whatsapp.com/legal/",
+        "inner_text": "Privacy & Terms",
+        "inner_html": "Privacy &amp; Terms"
+      }
+    ],
+    "social": [
+      {
+        "href": "https://www.whatsapp.com/?lang=cs",
+        "inner_text": "čeština",
+        "inner_html": "čeština"
+      },
+      {
+        "href": "https://www.whatsapp.com/?lang=de",
+        "inner_text": "Deutsch",
+        "inner_html": "Deutsch"
+      },
+      {
+        "href": "https://www.whatsapp.com/?lang=en",
+        "inner_text": "English",
+        "inner_html": "English"
+      },
+      {
+        "href": "https://www.whatsapp.com/?lang=es",
+        "inner_text": "español",
+        "inner_html": "español"
+      },
+      {
+        "href": "https://www.whatsapp.com/?lang=fr",
+        "inner_text": "français",
+        "inner_html": "français"
+      },
+      {
+        "href": "https://www.whatsapp.com/?lang=it",
+        "inner_text": "italiano",
+        "inner_html": "italiano"
+      },
+      {
+        "href": "https://www.whatsapp.com/?lang=hu",
+        "inner_text": "magyar",
+        "inner_html": "magyar"
+      },
+      {
+        "href": "https://www.whatsapp.com/?lang=nl",
+        "inner_text": "Nederlands",
+        "inner_html": "Nederlands"
+      },
+      {
+        "href": "https://www.whatsapp.com/?lang=pl",
+        "inner_text": "polski",
+        "inner_html": "polski"
+      },
+      {
+        "href": "https://www.whatsapp.com/?lang=pt_pt",
+        "inner_text": "Português (Portugal)",
+        "inner_html": "Português (Portugal)"
+      },
+      {
+        "href": "https://www.whatsapp.com/?lang=ro",
+        "inner_text": "română",
+        "inner_html": "română"
+      },
+      {
+        "href": "https://www.whatsapp.com/?lang=sk",
+        "inner_text": "slovenčina",
+        "inner_html": "slovenčina"
+      },
+      {
+        "href": "https://www.whatsapp.com/?lang=sl",
+        "inner_text": "slovenščina",
+        "inner_html": "slovenščina"
+      },
+      {
+        "href": "https://www.whatsapp.com/?lang=sv",
+        "inner_text": "svenska",
+        "inner_html": "svenska"
+      },
+      {
+        "href": "https://www.whatsapp.com/legal/cookies/",
+        "inner_text": "Cookie Policy",
+        "inner_html": "Cookie Policy"
+      },
+      {
+        "href": "https://www.whatsapp.com/",
+        "inner_text": "MANAGE COOKIES",
+        "inner_html": "Manage Cookies"
+      },
+      {
+        "href": "https://www.whatsapp.com/?lang=az",
+        "inner_text": "azərbaycan",
+        "inner_html": "azərbaycan"
+      },
+      {
+        "href": "https://www.whatsapp.com/?lang=af",
+        "inner_text": "Afrikaans",
+        "inner_html": "Afrikaans"
+      },
+      {
+        "href": "https://www.whatsapp.com/?lang=id",
+        "inner_text": "Bahasa Indonesia",
+        "inner_html": "Bahasa Indonesia"
+      },
+      {
+        "href": "https://www.whatsapp.com/?lang=ms",
+        "inner_text": "Melayu",
+        "inner_html": "Melayu"
+      },
+      {
+        "href": "https://www.whatsapp.com/?lang=ca",
+        "inner_text": "català",
+        "inner_html": "català"
+      },
+      {
+        "href": "https://www.whatsapp.com/?lang=da",
+        "inner_text": "dansk",
+        "inner_html": "dansk"
+      },
+      {
+        "href": "https://www.whatsapp.com/?lang=et",
+        "inner_text": "eesti",
+        "inner_html": "eesti"
+      },
+      {
+        "href": "https://www.whatsapp.com/?lang=ga",
+        "inner_text": "Gaeilge",
+        "inner_html": "Gaeilge"
+      },
+      {
+        "href": "https://www.whatsapp.com/?lang=hr",
+        "inner_text": "hrvatski",
+        "inner_html": "hrvatski"
+      },
+      {
+        "href": "https://www.whatsapp.com/?lang=sw",
+        "inner_text": "Kiswahili",
+        "inner_html": "Kiswahili"
+      },
+      {
+        "href": "https://www.whatsapp.com/?lang=lv",
+        "inner_text": "latviešu",
+        "inner_html": "latviešu"
+      },
+      {
+        "href": "https://www.whatsapp.com/?lang=lt",
+        "inner_text": "lietuvių",
+        "inner_html": "lietuvių"
+      },
+      {
+        "href": "https://www.whatsapp.com/?lang=nb",
+        "inner_text": "norsk bokmål",
+        "inner_html": "norsk bokmål"
+      },
+      {
+        "href": "https://www.whatsapp.com/?lang=uz",
+        "inner_text": "o‘zbek",
+        "inner_html": "o‘zbek"
+      },
+      {
+        "href": "https://www.whatsapp.com/?lang=tl",
+        "inner_text": "Filipino",
+        "inner_html": "Filipino"
+      },
+      {
+        "href": "https://www.whatsapp.com/?lang=pt_br",
+        "inner_text": "Português (Brasil)",
+        "inner_html": "Português (Brasil)"
+      },
+      {
+        "href": "https://www.whatsapp.com/?lang=sq",
+        "inner_text": "shqip",
+        "inner_html": "shqip"
+      },
+      {
+        "href": "https://www.whatsapp.com/?lang=fi",
+        "inner_text": "suomi",
+        "inner_html": "suomi"
+      },
+      {
+        "href": "https://www.whatsapp.com/?lang=vi",
+        "inner_text": "Tiếng Việt",
+        "inner_html": "Tiếng Việt"
+      },
+      {
+        "href": "https://www.whatsapp.com/?lang=tr",
+        "inner_text": "Türkçe",
+        "inner_html": "Türkçe"
+      },
+      {
+        "href": "https://www.whatsapp.com/?lang=el",
+        "inner_text": "Ελληνικά",
+        "inner_html": "Ελληνικά"
+      },
+      {
+        "href": "https://www.whatsapp.com/?lang=bg",
+        "inner_text": "български",
+        "inner_html": "български"
+      },
+      {
+        "href": "https://www.whatsapp.com/?lang=kk",
+        "inner_text": "қазақ тілі",
+        "inner_html": "қазақ тілі"
+      },
+      {
+        "href": "https://www.whatsapp.com/?lang=mk",
+        "inner_text": "македонски",
+        "inner_html": "македонски"
+      },
+      {
+        "href": "https://www.whatsapp.com/?lang=ru",
+        "inner_text": "русский",
+        "inner_html": "русский"
+      },
+      {
+        "href": "https://www.whatsapp.com/?lang=sr",
+        "inner_text": "српски",
+        "inner_html": "српски"
+      },
+      {
+        "href": "https://www.whatsapp.com/?lang=uk",
+        "inner_text": "українська",
+        "inner_html": "українська"
+      },
+      {
+        "href": "https://www.whatsapp.com/?lang=he",
+        "inner_text": "עברית",
+        "inner_html": "עברית"
+      },
+      {
+        "href": "https://www.whatsapp.com/?lang=ar",
+        "inner_text": "العربية",
+        "inner_html": "العربية"
+      },
+      {
+        "href": "https://www.whatsapp.com/?lang=fa",
+        "inner_text": "فارسی",
+        "inner_html": "فارسی"
+      },
+      {
+        "href": "https://www.whatsapp.com/?lang=ur",
+        "inner_text": "اردو",
+        "inner_html": "اردو"
+      },
+      {
+        "href": "https://www.whatsapp.com/?lang=bn",
+        "inner_text": "বাংলা",
+        "inner_html": "বাংলা"
+      },
+      {
+        "href": "https://www.whatsapp.com/?lang=hi",
+        "inner_text": "हिन्दी",
+        "inner_html": "हिन्दी"
+      },
+      {
+        "href": "https://www.whatsapp.com/?lang=gu",
+        "inner_text": "ગુજરાતી",
+        "inner_html": "ગુજરાતી"
+      },
+      {
+        "href": "https://www.whatsapp.com/?lang=kn",
+        "inner_text": "ಕನ್ನಡ",
+        "inner_html": "ಕನ್ನಡ"
+      },
+      {
+        "href": "https://www.whatsapp.com/?lang=mr",
+        "inner_text": "मराठी",
+        "inner_html": "मराठी"
+      },
+      {
+        "href": "https://www.whatsapp.com/?lang=pa",
+        "inner_text": "ਪੰਜਾਬੀ",
+        "inner_html": "ਪੰਜਾਬੀ"
+      },
+      {
+        "href": "https://www.whatsapp.com/?lang=ta",
+        "inner_text": "தமிழ்",
+        "inner_html": "தமிழ்"
+      },
+      {
+        "href": "https://www.whatsapp.com/?lang=te",
+        "inner_text": "తెలుగు",
+        "inner_html": "తెలుగు"
+      },
+      {
+        "href": "https://www.whatsapp.com/?lang=ml",
+        "inner_text": "മലയാളം",
+        "inner_html": "മലയാളം"
+      },
+      {
+        "href": "https://www.whatsapp.com/?lang=th",
+        "inner_text": "ไทย",
+        "inner_html": "ไทย"
+      },
+      {
+        "href": "https://www.whatsapp.com/?lang=zh_cn",
+        "inner_text": "简体中文",
+        "inner_html": "简体中文"
+      },
+      {
+        "href": "https://www.whatsapp.com/?lang=zh_tw",
+        "inner_text": "繁體中文（台灣）",
+        "inner_html": "繁體中文（台灣）"
+      },
+      {
+        "href": "https://www.whatsapp.com/?lang=ja",
+        "inner_text": "日本語",
+        "inner_html": "日本語"
+      },
+      {
+        "href": "https://www.whatsapp.com/?lang=ko",
+        "inner_text": "한국어",
+        "inner_html": "한국어"
+      },
+      {
+        "href": "https://web.whatsapp.com/",
+        "inner_text": "WHATSAPP WEB",
+        "inner_html": "WhatsApp Web"
+      },
+      {
+        "href": "https://www.whatsapp.com/features/",
+        "inner_text": "FEATURES",
+        "inner_html": "Features"
+      },
+      {
+        "href": "https://www.whatsapp.com/download/",
+        "inner_text": "DOWNLOAD",
+        "inner_html": "Download"
+      },
+      {
+        "href": "https://www.whatsapp.com/security/",
+        "inner_text": "SECURITY",
+        "inner_html": "Security"
+      },
+      {
+        "href": "https://faq.whatsapp.com/",
+        "inner_text": "HELP CENTER",
+        "inner_html": "Help Center"
+      },
+      {
+        "href": "https://www.whatsapp.com/contact/",
+        "inner_text": "",
+        "inner_html": "Get in touch"
+      },
+      {
+        "href": "https://www.whatsapp.com/download",
+        "inner_text": "Download now",
+        "inner_html": "Download now"
+      },
+      {
+        "href": "https://www.whatsapp.com/business",
+        "inner_text": "WhatsApp Business",
+        "inner_html": "WhatsApp Business"
+      },
+      {
+        "href": "https://www.whatsapp.com/business/api",
+        "inner_text": "WhatsApp Business API.",
+        "inner_html": "WhatsApp Business API."
+      },
+      {
+        "href": "https://www.whatsapp.com/business/",
+        "inner_text": "Business",
+        "inner_html": "Business"
+      },
+      {
+        "href": "https://www.whatsapp.com/privacy",
+        "inner_text": "Privacy",
+        "inner_html": "Privacy"
+      },
+      {
+        "href": "https://www.whatsapp.com/about/",
+        "inner_text": "About",
+        "inner_html": "About"
+      },
+      {
+        "href": "https://www.whatsapp.com/join/",
+        "inner_text": "Careers",
+        "inner_html": "Careers"
+      },
+      {
+        "href": "https://blog.whatsapp.com/",
+        "inner_text": "Blog",
+        "inner_html": "Blog"
+      },
+      {
+        "href": "https://www.whatsapp.com/stories/",
+        "inner_text": "WhatsApp Stories",
+        "inner_html": "WhatsApp Stories"
+      },
+      {
+        "href": "https://www.whatsapp.com/android/",
+        "inner_text": "Android",
+        "inner_html": "Android"
+      },
+      {
+        "href": "https://www.whatsapp.com/appstore/",
+        "inner_text": "iPhone",
+        "inner_html": "iPhone"
+      },
+      {
+        "href": "https://twitter.com/whatsapp",
+        "inner_text": "Twitter",
+        "inner_html": "Twitter"
+      },
+      {
+        "href": "https://www.facebook.com/WhatsApp",
+        "inner_text": "Facebook",
+        "inner_html": "Facebook"
+      },
+      {
+        "href": "https://www.whatsapp.com/coronavirus/",
+        "inner_text": "Coronavirus",
+        "inner_html": "Coronavirus"
+      },
+      {
+        "href": "https://www.whatsapp.com/legal/",
+        "inner_text": "Privacy & Terms",
+        "inner_html": "Privacy &amp; Terms"
+      }
+    ],
+    "keywords": [
+      {
+        "href": "https://www.whatsapp.com/legal/cookies/",
+        "inner_text": "Cookie Policy",
+        "inner_html": "Cookie Policy"
+      },
+      {
+        "href": "https://www.whatsapp.com/privacy",
+        "inner_text": "Privacy",
+        "inner_html": "Privacy"
+      },
+      {
+        "href": "https://www.whatsapp.com/legal/",
+        "inner_text": "Privacy & Terms",
+        "inner_html": "Privacy &amp; Terms"
+      }
+    ]
+  },
+  "unsafeForms": [],
+  "browsing_history": [
+    "https://www.whatsapp.com/"
+  ],
+  "websockets": {},
+  "cookies": [],
+  "localStorage": {},
+  "beacons": [],
+  "hosts": {
+    "requests": {
+      "firstParty": [
+        "whatsapp.com"
+      ],
+      "thirdParty": [
+        "www.whatsapp.com",
+        "static.whatsapp.net"
+      ]
+    },
+    "beacons": {
+      "firstParty": [],
+      "thirdParty": []
+    },
+    "cookies": {
+      "firstParty": [],
+      "thirdParty": []
+    },
+    "localStorage": {
+      "firstParty": [],
+      "thirdParty": []
+    },
+    "links": {
+      "firstParty": [],
+      "thirdParty": [
+        "www.whatsapp.com",
+        "support.google.com",
+        "support.microsoft.com",
+        "support.mozilla.org",
+        "support.apple.com",
+        "blogs.opera.com",
+        "web.whatsapp.com",
+        "faq.whatsapp.com",
+        "play.google.com",
+        "itunes.apple.com",
+        "www.whatsappbrand.com",
+        "blog.whatsapp.com",
+        "twitter.com",
+        "www.facebook.com"
+      ]
+    }
+  }
+}

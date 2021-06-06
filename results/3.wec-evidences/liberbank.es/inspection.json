@@ -1,0 +1,840 @@
+{
+  "title": "Website Evidence Collection",
+  "task_description": null,
+  "uri_ins": "https://liberbank.es",
+  "uri_refs": [
+    "https://liberbank.es"
+  ],
+  "uri_dest": "https://www.liberbank.es/",
+  "uri_redirects": [
+    "https://liberbank.es/"
+  ],
+  "secure_connection": {
+    "https_support": true,
+    "redirects": [
+      "https://liberbank.es/",
+      "https://www.liberbank.es/"
+    ],
+    "https_redirect": true
+  },
+  "host": "liberbank.es",
+  "script": {
+    "host": "sfod",
+    "version": {
+      "npm": "1.0.0",
+      "commit": null
+    },
+    "cmd_args": "-q --overwrite https://liberbank.es -- --ignore-certificate-errors",
+    "environment": {
+      "CHROME_DESKTOP": "code-url-handler.desktop"
+    },
+    "node_version": "v14.17.0"
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "HeadlessChrome/80.0.3987.0",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3617.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "5.8.0-53-generic"
+    },
+    "extra_headers": {},
+    "preset_cookies": {}
+  },
+  "start_time": "2021-05-20T15:18:55.915Z",
+  "end_time": "2021-05-20T15:19:04.151Z",
+  "links": {
+    "firstParty": [],
+    "thirdParty": [
+      {
+        "href": "https://www.liberbank.es/",
+        "inner_text": "\n\n\n",
+        "inner_html": "<img class=\"positive\" src=\"/system/sites/logos/000/000/002/original/regular.png?1592297706\">\n<img class=\"negative\" src=\"/system/sites/logo_negatives/000/000/002/original/logo-negativo.png?1574321506\">"
+      },
+      {
+        "href": "https://www.liberbank.es/cuentas-y-tarjetas/cuentas/cuenta-online-sin",
+        "inner_text": "Cuenta Online SIN",
+        "inner_html": "Cuenta Online SIN"
+      },
+      {
+        "href": "https://www.liberbank.es/cuentas-y-tarjetas/cuentas/cuentas-a-la-vista",
+        "inner_text": "Cuentas a la vista",
+        "inner_html": "Cuentas a la vista"
+      },
+      {
+        "href": "https://www.liberbank.es/cuentas-y-tarjetas/cuentas",
+        "inner_text": "Más Cuentas",
+        "inner_html": "Más Cuentas"
+      },
+      {
+        "href": "https://www.liberbank.es/cuentas-y-tarjetas/tarjetas/mastercard-classic",
+        "inner_text": "Tarjeta de Crédito",
+        "inner_html": "Tarjeta de Crédito"
+      },
+      {
+        "href": "https://www.liberbank.es/cuentas-y-tarjetas/tarjetas/mastercard",
+        "inner_text": "Tarjeta de Débito",
+        "inner_html": "Tarjeta de Débito"
+      },
+      {
+        "href": "https://realmadrid.liberbank.es/",
+        "inner_text": "Tarjeta de Débito Real Madrid",
+        "inner_html": "Tarjeta de Débito Real Madrid"
+      },
+      {
+        "href": "https://www.liberbank.es/tarjeta-prepago",
+        "inner_text": "Tarjetas Prepago",
+        "inner_html": "Tarjetas Prepago"
+      },
+      {
+        "href": "https://www.liberbank.es/cuentas-y-tarjetas/tarjetas",
+        "inner_text": "Más Tarjetas",
+        "inner_html": "Más Tarjetas"
+      },
+      {
+        "href": "https://www.liberbank.es/cuentas-y-tarjetas/tarjetas/pago-con-movil",
+        "inner_text": "Bizum y Pago con Móvil",
+        "inner_html": "Bizum y Pago con Móvil"
+      },
+      {
+        "href": "https://www.tarjetaplaystation.com/credito",
+        "inner_text": "Tarjeta de Crédito PlayStation",
+        "inner_html": "Tarjeta de Crédito PlayStation"
+      },
+      {
+        "href": "https://www.tarjetaplaystation.com/debito",
+        "inner_text": "Tarjeta de Débito PlayStation",
+        "inner_html": "Tarjeta de Débito PlayStation"
+      },
+      {
+        "href": "https://www.tarjetaplaystation.com/prepago-teens",
+        "inner_text": "Tarjeta Prepago PlayStation Teens",
+        "inner_html": "Tarjeta Prepago PlayStation Teens"
+      },
+      {
+        "href": "https://www.liberbank.es/hipotecas-y-prestamos/hipotecas/hipoteca-online/",
+        "inner_text": "Hipoteca 100% Online",
+        "inner_html": "Hipoteca 100% Online"
+      },
+      {
+        "href": "https://www.liberbank.es/hipotecas-y-prestamos/hipotecas",
+        "inner_text": "Más Hipotecas",
+        "inner_html": "Más Hipotecas"
+      },
+      {
+        "href": "https://www.liberbank.es/hipotecas-y-prestamos/prestamos/prestamo-100-online",
+        "inner_text": "Préstamo 100% Online",
+        "inner_html": "Préstamo 100% Online"
+      },
+      {
+        "href": "https://www.liberbank.es/hipotecas-y-prestamos/prestamos/prestamo-ecomovilidad",
+        "inner_text": "Novedad: Préstamo vehículo ecológico",
+        "inner_html": "Novedad: Préstamo vehículo ecológico"
+      },
+      {
+        "href": "https://www.liberbank.es/hipotecas-y-prestamos/prestamos",
+        "inner_text": "Más Préstamos",
+        "inner_html": "Más Préstamos"
+      },
+      {
+        "href": "https://www.liberbank.es/inversion-y-ahorro/depositos/e-deposito-liberbank",
+        "inner_text": "e-depósito Liberbank",
+        "inner_html": "e-depósito Liberbank"
+      },
+      {
+        "href": "https://www.liberbank.es/inversion-y-ahorro/fondos-de-inversion",
+        "inner_text": "Fondos Liberbank",
+        "inner_html": "Fondos Liberbank"
+      },
+      {
+        "href": "https://www.liberbank.es/inversion-y-ahorro/fondos-de-inversion/otros-fondos",
+        "inner_text": "Fondos de otras Gestoras",
+        "inner_html": "Fondos de otras Gestoras"
+      },
+      {
+        "href": "https://www.liberbank.es/inversion-y-ahorro/gestion-delegada-de-carteras",
+        "inner_text": "Gestión Delegada de Carteras",
+        "inner_html": "Gestión Delegada de Carteras"
+      },
+      {
+        "href": "https://bancaadistancia.liberbank.es/BEWeb/2048/W048/CABEm_CONEX_LBKPC.action?PGDESTI=COFOM",
+        "inner_text": "Contratar Cuenta de Fondos",
+        "inner_html": "Contratar Cuenta de Fondos"
+      },
+      {
+        "href": "https://bancaadistancia.liberbank.es/BEWeb/2048/W048/CABEm_CONEX_LBKPC.action?PGDESTI=ACCESOINVERSISFONDOS",
+        "inner_text": "Gestiona tus Fondos de Inversión",
+        "inner_html": "Gestiona tus Fondos de Inversión"
+      },
+      {
+        "href": "https://www.liberbank.es/inversion-y-ahorro/planes-de-pensiones",
+        "inner_text": "Nuestros Planes de Pensiones",
+        "inner_html": "Nuestros Planes de Pensiones"
+      },
+      {
+        "href": "https://bancaadistancia.liberbank.es/BEWeb/2048/W048/CABEm_CONEX_LBKPC.action?PGDESTI=CONTRATARPLAN",
+        "inner_text": "Contratar Plan de Pensiones",
+        "inner_html": "Contratar Plan de Pensiones"
+      },
+      {
+        "href": "https://www.liberbank.es/inversion-y-ahorro/valores",
+        "inner_text": "Descubre nuestra Cuenta de valores",
+        "inner_html": "Descubre nuestra Cuenta de valores"
+      },
+      {
+        "href": "https://bancaadistancia.liberbank.es/BEWeb/2048/W048/CABEm_CONEX_LBKPC.action?PGDESTI=CONTVALORES",
+        "inner_text": "Contratar Cuenta de Valores",
+        "inner_html": "Contratar Cuenta de Valores"
+      },
+      {
+        "href": "https://bancaadistancia.liberbank.es/BEWeb/2048/W048/CABEm_CONEX_LBKPC.action?PGDESTI=ACCESOINVERSISVALORES",
+        "inner_text": "Gestiona tu Cartera",
+        "inner_html": "Gestiona tu Cartera"
+      },
+      {
+        "href": "https://www.liberbank.es/seguros/viviendas-y-edificios/seguro-multirriesgo-hogar-proteccion",
+        "inner_text": "Vivienda",
+        "inner_html": "Vivienda"
+      },
+      {
+        "href": "https://www.liberbank.es/seguros/automovil/seguro-caser-auto",
+        "inner_text": "Automóvil",
+        "inner_html": "Automóvil"
+      },
+      {
+        "href": "https://www.liberbank.es/seguros/salud-y-personas",
+        "inner_text": "Salud y Personas",
+        "inner_html": "Salud y Personas"
+      },
+      {
+        "href": "https://www.liberbank.es/seguros",
+        "inner_text": "Más Seguros",
+        "inner_html": "Más Seguros"
+      },
+      {
+        "href": "https://www.liberbank.es/servicios-y-promociones/promociones/promocion-nomina",
+        "inner_text": "150€ por tu nómina",
+        "inner_html": "150€ por tu nómina"
+      },
+      {
+        "href": "https://www.liberbank.es/servicios-y-promociones/promociones/fondos-de-inversion",
+        "inner_text": "2% Fondos de Inversión",
+        "inner_html": "2% Fondos de Inversión"
+      },
+      {
+        "href": "https://www.euro6000.com/landings/liberbank",
+        "inner_text": "Descuentos Privilegios Euro 6000",
+        "inner_html": "Descuentos Privilegios Euro 6000"
+      },
+      {
+        "href": "https://www.liberbank.es/servicios-y-promociones/servicios/banca-digital",
+        "inner_text": "Banca Digital",
+        "inner_html": "Banca Digital"
+      },
+      {
+        "href": "https://www.liberbank.es/servicios-y-promociones/servicios/pagoamigo",
+        "inner_text": "PagoAmigo",
+        "inner_html": "PagoAmigo"
+      },
+      {
+        "href": "https://www.liberbank.es/servicios-y-promociones/servicios/agrega-tus-bancos",
+        "inner_text": "Agrega tus Bancos",
+        "inner_html": "Agrega tus Bancos"
+      },
+      {
+        "href": "https://www.liberbank.es/promociones-vehiculos",
+        "inner_text": "Movilidad",
+        "inner_html": "Movilidad"
+      },
+      {
+        "href": "https://www.liberbank.es/servicios-y-promociones/servicios/renting-leaseplan",
+        "inner_text": "Renting",
+        "inner_html": "Renting"
+      },
+      {
+        "href": "https://entradas.liberbank.es/janto/",
+        "inner_text": "Venta de entradas",
+        "inner_html": "Venta de entradas"
+      },
+      {
+        "href": "https://www.liberbank.es/servicios-y-promociones/servicios/cajas-de-alquiler",
+        "inner_text": "Alquiler de Cajas de Seguridad",
+        "inner_html": "Alquiler de Cajas de Seguridad"
+      },
+      {
+        "href": "https://www.liberbank.es/atencion-al-cliente",
+        "inner_text": "\nAtención al cliente\n",
+        "inner_html": "<img src=\"/system/cms_multimedia/cms_medias/files/000/016/627/original/icoAtencionClienteG.png?1600784685\">\nAtención al cliente"
+      },
+      {
+        "href": "https://www.liberbank.es/localizador-de-oficinas-y-cajeros",
+        "inner_text": "\nOficinas y Cajeros\n",
+        "inner_html": "<img src=\"/system/cms_multimedia/cms_medias/files/000/016/630/original/icoOficinasCajerosG.png?1600784732\">\nOficinas y Cajeros"
+      },
+      {
+        "href": "https://bonline.liberbank.es/CorreoWeb/?_ga=2.204824661.47240118.1592374449-1258244622.1592374449",
+        "inner_text": "\nCorreo Web\n",
+        "inner_html": "<img src=\"/system/cms_multimedia/cms_medias/files/000/016/633/original/correo_web_hover_pro.png?1600784782\">\nCorreo Web"
+      },
+      {
+        "href": "https://www.liberbank.es/buscador",
+        "inner_text": "\nBuscador\n",
+        "inner_html": "<img src=\"/system/cms_multimedia/cms_medias/files/000/016/486/original/lupa-1c98ff4aa879dcff88dd5aefccda39db600716514f8c6808fec20cc061edd628_%281%29.svg?1599642928\">\nBuscador"
+      },
+      {
+        "href": "https://www.liberbank.es/clientes",
+        "inner_text": ".",
+        "inner_html": "."
+      },
+      {
+        "href": "https://www.liberbank.es/empresas-y-negocios/negocios",
+        "inner_text": "Empresas y Negocios",
+        "inner_html": "Empresas y Negocios"
+      },
+      {
+        "href": "https://www.liberbankbancaprivada.es/",
+        "inner_text": "Banca Privada",
+        "inner_html": "Banca Privada"
+      },
+      {
+        "href": "https://corporativo.liberbank.es/",
+        "inner_text": "Portal Corporativo",
+        "inner_html": "Portal Corporativo"
+      },
+      {
+        "href": "https://www.haya.es/liberbank/",
+        "inner_text": "Haya Inmobiliaria",
+        "inner_html": "Haya Inmobiliaria"
+      },
+      {
+        "href": "https://www.liberbankgestion.es/",
+        "inner_text": "Liberbank Gestión",
+        "inner_html": "Liberbank Gestión"
+      },
+      {
+        "href": "https://play.google.com/store/apps/details?id=es.liberbank.cajasturapp",
+        "inner_text": "Descargar App",
+        "inner_html": "Descargar App"
+      },
+      {
+        "href": "https://apps.apple.com/us/app/banca-digital-liberbank/id654900789",
+        "inner_text": "Descargar App",
+        "inner_html": "Descargar App"
+      },
+      {
+        "href": "https://altacliente.liberbank.es/",
+        "inner_text": "Hacerme cliente",
+        "inner_html": "Hacerme cliente"
+      },
+      {
+        "href": "https://bancaadistancia.liberbank.es/BEWeb/2048/W048/CABEm_CONEX_LBKPC.action",
+        "inner_text": "Entrar",
+        "inner_html": "Entrar"
+      },
+      {
+        "href": "https://realmadrid.liberbank.es/promocion-meet-and-greet-basket",
+        "inner_text": "Quiero saber más",
+        "inner_html": "Quiero saber más"
+      },
+      {
+        "href": "https://www.liberbank.es/hipotecas-y-prestamos/prestamos/prestamo-100-online/",
+        "inner_text": "Saber más",
+        "inner_html": "Saber más"
+      },
+      {
+        "href": "https://realmadrid.liberbank.es/hipoteca",
+        "inner_text": "Quiero saber más",
+        "inner_html": "Quiero saber más"
+      },
+      {
+        "href": "https://www.tarjetaplaystation.com/promociones/6plus20?_gl=1*xq3aeb*_ga*MTYwMTMzODEyMC4xNjIxNTAxMzUz*_ga_PWE7GW0PDL*MTYyMTUwMTM1My4xLjEuMTYyMTUwMTQ0NC41Mg..&_ga=2.89865499.1413604460.1621501353-1601338120.1621501353",
+        "inner_text": "Ver promoción",
+        "inner_html": "Ver promoción"
+      },
+      {
+        "href": "https://www.tarjetaplaystation.com/promociones/teens3plusmayo21",
+        "inner_text": "Quiero ver esta tarjeta",
+        "inner_html": "Quiero ver esta tarjeta"
+      },
+      {
+        "href": "https://www.liberbank.es/cuidemonos-covid19",
+        "inner_text": "Más información",
+        "inner_html": "Más información"
+      },
+      {
+        "href": "https://bancaadistancia.liberbank.es/BEWeb/2048/W048/CABEm_CONEX_LBKPC.action?PGDESTI=CITA",
+        "inner_text": "Pedir cita previa",
+        "inner_html": "Pedir cita previa"
+      },
+      {
+        "href": "https://www.facebook.com/liberbank",
+        "inner_text": "",
+        "inner_html": "<img loading=\"lazy\" class=\"lazyload\" alt=\"Facebook\" src=\"https://www.liberbank.es/system/cms_multimedia/cms_medias/files/000/020/244/original/icoFacebook.svg?1620890052\" data-src=\"https://www.liberbank.es/system/cms_multimedia/cms_medias/files/000/020/244/original/icoFacebook.svg?1620890052\" style=\"height: 36px; width: 37px;\">"
+      },
+      {
+        "href": "https://es.linkedin.com/company/liberbank",
+        "inner_text": "",
+        "inner_html": "<img loading=\"lazy\" class=\"lazyload\" alt=\"LinkedIn\" src=\"https://www.liberbank.es/system/cms_multimedia/cms_medias/files/000/020/247/original/icoLinkedIn.svg?1620890052\" data-src=\"https://www.liberbank.es/system/cms_multimedia/cms_medias/files/000/020/247/original/icoLinkedIn.svg?1620890052\" style=\"width: 36px; height: 37px;\">"
+      },
+      {
+        "href": "https://www.twitter.com/liberbank",
+        "inner_text": "",
+        "inner_html": "<img loading=\"lazy\" class=\"lazyload\" alt=\"Twitter\" src=\"https://www.liberbank.es/system/cms_multimedia/cms_medias/files/000/020/250/original/icoTwitter.svg?1620890052\" data-src=\"https://www.liberbank.es/system/cms_multimedia/cms_medias/files/000/020/250/original/icoTwitter.svg?1620890052\" style=\"width: 36px; height: 37px;\">"
+      },
+      {
+        "href": "https://www.youtube.com/user/BancoLiberbank",
+        "inner_text": "",
+        "inner_html": "<img loading=\"lazy\" class=\"lazyload\" alt=\"YouTube\" src=\"https://www.liberbank.es/system/cms_multimedia/cms_medias/files/000/020/253/original/icoYouTube.svg?1620890052\" data-src=\"https://www.liberbank.es/system/cms_multimedia/cms_medias/files/000/020/253/original/icoYouTube.svg?1620890052\" style=\"width: 37px; height: 37px;\">"
+      },
+      {
+        "href": "https://www.confianzaonline.es/empresas/liberbank.htm",
+        "inner_text": "",
+        "inner_html": "<img loading=\"lazy\" class=\"lazyload\" alt=\"Confianza Online\" src=\"https://www.liberbank.es/system/cms_multimedia/cms_medias/files/000/020/268/original/icoConfianzaEnLinea.svg?1621318584\" data-src=\"https://www.liberbank.es/system/cms_multimedia/cms_medias/files/000/020/268/original/icoConfianzaEnLinea.svg?1621318584\" style=\"width: 65px; height: 64px;\">"
+      },
+      {
+        "href": "https://www.liberbank.es/tablon-de-anuncios",
+        "inner_text": "Tablón de anuncios",
+        "inner_html": "Tablón de anuncios"
+      },
+      {
+        "href": "https://www.liberbank.es/mifid",
+        "inner_text": "MIFID",
+        "inner_html": "MIFID"
+      },
+      {
+        "href": "https://corporativo.liberbank.es/sobre-liberbank",
+        "inner_text": "Sobre Liberbank",
+        "inner_html": "Sobre Liberbank"
+      },
+      {
+        "href": "https://www.tarjetaplaystation.com/",
+        "inner_text": "Tarjeta PlayStation",
+        "inner_html": "Tarjeta PlayStation"
+      },
+      {
+        "href": "https://corporativo.liberbank.es/inversores-y-accionistas",
+        "inner_text": "Inversores y accionistas",
+        "inner_html": "Inversores y accionistas"
+      },
+      {
+        "href": "https://entradas.liberbank.es/",
+        "inner_text": "Venta de entradas",
+        "inner_html": "Venta de entradas"
+      },
+      {
+        "href": "https://bonline.liberbank.es/CorreoWeb",
+        "inner_text": "Correo Web",
+        "inner_html": "Correo Web"
+      },
+      {
+        "href": "https://www.liberbank.es/cookies",
+        "inner_text": "Cookies",
+        "inner_html": "Cookies"
+      },
+      {
+        "href": "https://www.liberbank.es/aviso-legal",
+        "inner_text": "Aviso Legal",
+        "inner_html": "Aviso Legal"
+      },
+      {
+        "href": "https://www.liberbank.es/politica-de-privacidad-y-seguridad",
+        "inner_text": "Política de privacidad y seguridad",
+        "inner_html": "Política de privacidad y seguridad"
+      }
+    ],
+    "social": [
+      {
+        "href": "https://www.facebook.com/liberbank",
+        "inner_text": "",
+        "inner_html": "<img loading=\"lazy\" class=\"lazyload\" alt=\"Facebook\" src=\"https://www.liberbank.es/system/cms_multimedia/cms_medias/files/000/020/244/original/icoFacebook.svg?1620890052\" data-src=\"https://www.liberbank.es/system/cms_multimedia/cms_medias/files/000/020/244/original/icoFacebook.svg?1620890052\" style=\"height: 36px; width: 37px;\">"
+      },
+      {
+        "href": "https://es.linkedin.com/company/liberbank",
+        "inner_text": "",
+        "inner_html": "<img loading=\"lazy\" class=\"lazyload\" alt=\"LinkedIn\" src=\"https://www.liberbank.es/system/cms_multimedia/cms_medias/files/000/020/247/original/icoLinkedIn.svg?1620890052\" data-src=\"https://www.liberbank.es/system/cms_multimedia/cms_medias/files/000/020/247/original/icoLinkedIn.svg?1620890052\" style=\"width: 36px; height: 37px;\">"
+      },
+      {
+        "href": "https://www.twitter.com/liberbank",
+        "inner_text": "",
+        "inner_html": "<img loading=\"lazy\" class=\"lazyload\" alt=\"Twitter\" src=\"https://www.liberbank.es/system/cms_multimedia/cms_medias/files/000/020/250/original/icoTwitter.svg?1620890052\" data-src=\"https://www.liberbank.es/system/cms_multimedia/cms_medias/files/000/020/250/original/icoTwitter.svg?1620890052\" style=\"width: 36px; height: 37px;\">"
+      },
+      {
+        "href": "https://www.youtube.com/user/BancoLiberbank",
+        "inner_text": "",
+        "inner_html": "<img loading=\"lazy\" class=\"lazyload\" alt=\"YouTube\" src=\"https://www.liberbank.es/system/cms_multimedia/cms_medias/files/000/020/253/original/icoYouTube.svg?1620890052\" data-src=\"https://www.liberbank.es/system/cms_multimedia/cms_medias/files/000/020/253/original/icoYouTube.svg?1620890052\" style=\"width: 37px; height: 37px;\">"
+      }
+    ],
+    "keywords": [
+      {
+        "href": "https://www.liberbank.es/aviso-legal",
+        "inner_text": "Aviso Legal",
+        "inner_html": "Aviso Legal"
+      }
+    ]
+  },
+  "unsafeForms": [],
+  "browsing_history": [
+    "https://www.liberbank.es/"
+  ],
+  "websockets": {},
+  "cookies": [
+    {
+      "name": "CONSENT",
+      "value": "PENDING+036",
+      "domain": "google.com",
+      "path": "/",
+      "expires": 2145916800.435448,
+      "size": 18,
+      "httpOnly": false,
+      "secure": true,
+      "session": false,
+      "expiresUTC": "2038-01-01T00:00:00.435Z",
+      "expiresDays": 6069.36,
+      "firstPartyStorage": false
+    },
+    {
+      "name": "visid_incap_2055692",
+      "value": "e6Y53+3jTBeqtfzRSrYR6OB9pmAAAAAAQUIPAAAAAADhUm10ULz3mwy5t/mNSaIk",
+      "domain": "liberbank.es",
+      "path": "/",
+      "expires": 1653034125.296993,
+      "size": 83,
+      "httpOnly": true,
+      "secure": true,
+      "session": false,
+      "sameSite": "None",
+      "expiresUTC": "2022-05-20T08:08:45.296Z",
+      "expiresDays": 364.7,
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.liberbank.es/",
+            "source": "set in Set-Cookie HTTP response header for https://www.liberbank.es/"
+          }
+        ],
+        "type": "Cookie.HTTP",
+        "timestamp": "2021-05-20T15:18:56.302Z",
+        "location": "about:blank"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "nlbi_2055692",
+      "value": "Hq6mTrN+JSWpcwh7SmV2mAAAAACU+r5sxc8bJoPnJODchHKb",
+      "domain": "liberbank.es",
+      "path": "/",
+      "expires": -1,
+      "size": 60,
+      "httpOnly": false,
+      "secure": true,
+      "session": true,
+      "sameSite": "None",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.liberbank.es/",
+            "source": "set in Set-Cookie HTTP response header for https://www.liberbank.es/"
+          }
+        ],
+        "type": "Cookie.HTTP",
+        "timestamp": "2021-05-20T15:18:56.302Z",
+        "location": "about:blank"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "incap_ses_505_2055692",
+      "value": "VrxDMFfr3UiBAuQrNx8CB+B9pmAAAAAA9QofZOpLywZeV3NkyEZqsg==",
+      "domain": "liberbank.es",
+      "path": "/",
+      "expires": -1,
+      "size": 77,
+      "httpOnly": false,
+      "secure": true,
+      "session": true,
+      "sameSite": "None",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.liberbank.es/",
+            "source": "set in Set-Cookie HTTP response header for https://www.liberbank.es/"
+          }
+        ],
+        "type": "Cookie.HTTP",
+        "timestamp": "2021-05-20T15:18:56.302Z",
+        "location": "about:blank"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "_base-app_session",
+      "value": "zvYYHwvUfgRMUTMr6lMSAojuDPJBITo7zDWtPE%2F9GIlIo1Lb6eb%2FHcAVRzWRTr9X%2BJ3T%2F%2FtLUKQdGepWR9ZLC80CdHX653nWrdTExTXgYMyi1g00nOe6%2FoFHoFyUOUPByy9fwrFvr4%2BXLrrAkDOL8%2FdT2TlGwQMfNJHPnkhOLGhUHinIVuyO7yaxP%2BAOCmfCjnkxD0CPRI9qt4Kbjwfw69w6nDd0jZI%2FMw8E7QVmYHHXvgMAt7PzhDb4Lqn%2BTSC2SYH9qcGc1H43tiDaVbWvgmwvZsyvusW%2FRbzDE%2BL8IrNW0ltKQ5XIl94HaHTWTezPC2NS7za0%2BWSaq9S9HO0Klb0%2BMUkAZRawyJrhAFvO1yY6LEnV9QKpUN0oCMPvcHebE0CuAmD23wLlkQHqNZ7MFIZbswZVz5xOT0P6er6axPr9iZwr3VoEyNewQrseQgm4W%2FVeTuS2uk77puiDW3ANR%2B74ClC4%2B1XiFhrXCK3TcNpK%2BlCU7LmX4HcJJ%2FjPqE%2F5ISp9ubMffvvUG4pbqVwsEj%2FDuKdvPTDgj9DRmF0bEpOOG%2BoFbydRl%2Bl258OV%2F9WrT6uvXfd5j7RH96mCstjDxF6KRSj97o3ubbxo2Q8BD9DsrzIrHyqHRpeVIGJIKu0YTKcoPZtlfy3JCb%2FUDz9o3IAtLgKCxXBqCfw0GTgGLOn7Q3IRBNF7eZNgLOWxtuhTyQHf0d%2F%2B1Iz758uFUCbQWI4vE5TVK8lXw2HsJwhQjW3MgVNgmJU0yIIjFwPUmGncRhrh3TVaOcdCB7aebIgxkSCTOUHIbVzIi%2FSfV4y%2FvmrDDZCzkdygbXv3txNe4nahsQ%3D%3D--thbql9jZOKruuqhX--a5Ywm9KYES6yR6yQbC67GQ%3D%3D",
+      "domain": "www.liberbank.es",
+      "path": "/",
+      "expires": -1,
+      "size": 965,
+      "httpOnly": true,
+      "secure": true,
+      "session": true,
+      "firstPartyStorage": false
+    }
+  ],
+  "localStorage": {
+    "https://openbanking.liberbank.es": {
+      "utmCampaign": {
+        "value": "na",
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 26,
+              "lineNumber": 9,
+              "fileName": "https://openbanking.liberbank.es//externals/crossLocalStorage/crssls.js",
+              "source": "    at https://openbanking.liberbank.es//externals/crossLocalStorage/crssls.js:9:26"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T15:18:58.010Z",
+          "location": "https://www.liberbank.es"
+        }
+      },
+      "utmTerm": {
+        "value": "na",
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 26,
+              "lineNumber": 9,
+              "fileName": "https://openbanking.liberbank.es//externals/crossLocalStorage/crssls.js",
+              "source": "    at https://openbanking.liberbank.es//externals/crossLocalStorage/crssls.js:9:26"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T15:18:58.013Z",
+          "location": "https://www.liberbank.es"
+        }
+      },
+      "utmSource": {
+        "value": "na",
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 26,
+              "lineNumber": 9,
+              "fileName": "https://openbanking.liberbank.es//externals/crossLocalStorage/crssls.js",
+              "source": "    at https://openbanking.liberbank.es//externals/crossLocalStorage/crssls.js:9:26"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T15:18:58.011Z",
+          "location": "https://www.liberbank.es"
+        }
+      },
+      "utmMedium": {
+        "value": "na",
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 26,
+              "lineNumber": 9,
+              "fileName": "https://openbanking.liberbank.es//externals/crossLocalStorage/crssls.js",
+              "source": "    at https://openbanking.liberbank.es//externals/crossLocalStorage/crssls.js:9:26"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T15:18:58.011Z",
+          "location": "https://www.liberbank.es"
+        }
+      },
+      "randId": {
+        "value": 5750039389.162152,
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 26,
+              "lineNumber": 9,
+              "fileName": "https://openbanking.liberbank.es//externals/crossLocalStorage/crssls.js",
+              "source": "    at https://openbanking.liberbank.es//externals/crossLocalStorage/crssls.js:9:26"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T15:18:58.010Z",
+          "location": "https://www.liberbank.es"
+        }
+      }
+    }
+  },
+  "beacons": [
+    {
+      "url": "https://www.liberbank.es/system/cms_multimedia/cms_medias/files/000/020/250/original/icoTwitter.svg?1620890052",
+      "query": {
+        "1620890052": null
+      },
+      "filter": "/icotwitter.",
+      "listName": "fanboy-annoyance.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.liberbank.es/",
+            "source": "requested from https://www.liberbank.es/ and matched with fanboy-annoyance.txt filter /icotwitter."
+          }
+        ],
+        "timestamp": "2021-05-20T15:19:02.716Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://www.liberbank.es/system/cms_multimedia/cms_medias/files/000/020/247/original/icoLinkedIn.svg?1620890052",
+      "query": {
+        "1620890052": null
+      },
+      "filter": "/icolinkedin.",
+      "listName": "fanboy-annoyance.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.liberbank.es/",
+            "source": "requested from https://www.liberbank.es/ and matched with fanboy-annoyance.txt filter /icolinkedin."
+          }
+        ],
+        "timestamp": "2021-05-20T15:19:02.716Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://www.liberbank.es/system/cms_multimedia/cms_medias/files/000/020/244/original/icoFacebook.svg?1620890052",
+      "query": {
+        "1620890052": null
+      },
+      "filter": "/icofacebook.",
+      "listName": "fanboy-annoyance.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.liberbank.es/",
+            "source": "requested from https://www.liberbank.es/ and matched with fanboy-annoyance.txt filter /icofacebook."
+          }
+        ],
+        "timestamp": "2021-05-20T15:19:02.715Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://www.liberbank.es/system/wilson_cms/files_store/cookies_v5_wp/externals/cookies/cookies.css?1621523938048",
+      "query": {
+        "1621523938048": null
+      },
+      "filter": "/cookies/cookies.",
+      "listName": "fanboy-annoyance.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.liberbank.es/",
+            "source": "requested from https://www.liberbank.es/ and matched with fanboy-annoyance.txt filter /cookies/cookies."
+          }
+        ],
+        "timestamp": "2021-05-20T15:18:58.054Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://www.liberbank.es/system/wilson_cms/files_store/cookies_v5_wp/externals/cookies/cookies.js",
+      "query": null,
+      "filter": "/cookies/cookies.",
+      "listName": "fanboy-annoyance.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.liberbank.es/",
+            "source": "requested from https://www.liberbank.es/ and matched with fanboy-annoyance.txt filter /cookies/cookies."
+          }
+        ],
+        "timestamp": "2021-05-20T15:18:58.002Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://www.liberbank.es/assets/cookies_acceptance-4a1ef38a850b98397bdfdca7856332120cdc92a71e7c691c390ebe0a26dc7e12.css",
+      "query": null,
+      "filter": "/assets/cookies_",
+      "listName": "fanboy-annoyance.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.liberbank.es/",
+            "source": "requested from https://www.liberbank.es/ and matched with fanboy-annoyance.txt filter /assets/cookies_"
+          }
+        ],
+        "timestamp": "2021-05-20T15:18:56.334Z"
+      },
+      "occurrances": 1
+    }
+  ],
+  "hosts": {
+    "requests": {
+      "firstParty": [
+        "liberbank.es"
+      ],
+      "thirdParty": [
+        "www.liberbank.es",
+        "use.typekit.net",
+        "use.fontawesome.com",
+        "fonts.googleapis.com",
+        "maxcdn.bootstrapcdn.com",
+        "static.browseranalytic.com",
+        "openbanking.liberbank.es",
+        "fonts.gstatic.com",
+        "www.google.com",
+        "cse.google.com",
+        "api-glbk.liberbank.es"
+      ]
+    },
+    "beacons": {
+      "firstParty": [],
+      "thirdParty": []
+    },
+    "cookies": {
+      "firstParty": [
+        "liberbank.es"
+      ],
+      "thirdParty": [
+        "www.liberbank.es",
+        "google.com"
+      ]
+    },
+    "localStorage": {
+      "firstParty": [],
+      "thirdParty": [
+        "openbanking.liberbank.es"
+      ]
+    },
+    "links": {
+      "firstParty": [],
+      "thirdParty": [
+        "www.liberbank.es",
+        "realmadrid.liberbank.es",
+        "www.tarjetaplaystation.com",
+        "bancaadistancia.liberbank.es",
+        "www.euro6000.com",
+        "entradas.liberbank.es",
+        "bonline.liberbank.es",
+        "www.liberbankbancaprivada.es",
+        "corporativo.liberbank.es",
+        "www.haya.es",
+        "www.liberbankgestion.es",
+        "play.google.com",
+        "apps.apple.com",
+        "altacliente.liberbank.es",
+        "www.facebook.com",
+        "es.linkedin.com",
+        "www.twitter.com",
+        "www.youtube.com",
+        "www.confianzaonline.es"
+      ]
+    }
+  }
+}

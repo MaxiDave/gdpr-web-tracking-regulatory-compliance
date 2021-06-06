@@ -1,0 +1,408 @@
+{
+  "title": "Website Evidence Collection",
+  "task_description": null,
+  "uri_ins": "https://fnac.es",
+  "uri_refs": [
+    "https://fnac.es"
+  ],
+  "uri_dest": "https://www.fnac.es/",
+  "uri_redirects": [
+    "https://fnac.es/"
+  ],
+  "secure_connection": {
+    "https_support": true,
+    "redirects": [
+      "https://www.fnac.es/"
+    ],
+    "https_redirect": true
+  },
+  "host": "fnac.es",
+  "script": {
+    "host": "sfod",
+    "version": {
+      "npm": "1.0.0",
+      "commit": null
+    },
+    "cmd_args": "-q --overwrite https://fnac.es -- --ignore-certificate-errors",
+    "environment": {
+      "CHROME_DESKTOP": "code-url-handler.desktop"
+    },
+    "node_version": "v14.17.0"
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "HeadlessChrome/80.0.3987.0",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3617.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "5.8.0-53-generic"
+    },
+    "extra_headers": {},
+    "preset_cookies": {}
+  },
+  "start_time": "2021-05-20T16:45:37.999Z",
+  "end_time": "2021-05-20T16:45:45.013Z",
+  "links": {
+    "firstParty": [],
+    "thirdParty": [],
+    "social": [],
+    "keywords": []
+  },
+  "unsafeForms": [],
+  "browsing_history": [
+    "https://www.fnac.es/"
+  ],
+  "websockets": {},
+  "cookies": [
+    {
+      "name": "_ga",
+      "value": "GA1.2.406633924.1621529140",
+      "domain": "captcha-delivery.com",
+      "path": "/",
+      "expires": 1684601140,
+      "size": 29,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2023-05-20T16:45:40.000Z",
+      "expiresDays": 730,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 495,
+            "lineNumber": 30,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "zc",
+            "source": "    at zc (https://www.google-analytics.com/analytics.js:30:495)"
+          },
+          {
+            "columnNumber": 15,
+            "lineNumber": 60,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "ma",
+            "source": "    at ma (https://www.google-analytics.com/analytics.js:60:15)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T16:45:40.245Z",
+        "location": "https://www.fnac.es"
+      },
+      "firstPartyStorage": false
+    },
+    {
+      "name": "kameleoonVisitorCode",
+      "value": "6de05c7e0d5706776d4c22592279996a",
+      "domain": "fnac.es",
+      "path": "/",
+      "expires": 1654361139.070938,
+      "size": 52,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2022-06-04T16:45:39.070Z",
+      "expiresDays": 380,
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.fnac.es/",
+            "source": "set in Set-Cookie HTTP response header for https://www.fnac.es/"
+          }
+        ],
+        "type": "Cookie.HTTP",
+        "timestamp": "2021-05-20T16:45:39.073Z",
+        "location": "about:blank"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "GeeTestUser",
+      "value": "326704f2d0e677e00932a8265a656caf",
+      "domain": "api-na.geetest.com",
+      "path": "/",
+      "expires": 1653065140.580017,
+      "size": 43,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2022-05-20T16:45:40.580Z",
+      "expiresDays": 365,
+      "firstPartyStorage": false
+    },
+    {
+      "name": "datadome",
+      "value": "aVwO9I1yhRXz7KVERGi.bm6yW5DrcI_SymOv~fDRZ3ohlSeil0p92qqnVbuwquw4-MTpDBFZMxWoUKxfJ~RYyY2pnIYcPQ5GOmgFW1DU29",
+      "domain": "fnac.es",
+      "path": "/",
+      "expires": 1653065139.070879,
+      "size": 114,
+      "httpOnly": false,
+      "secure": true,
+      "session": false,
+      "sameSite": "Lax",
+      "expiresUTC": "2022-05-20T16:45:39.070Z",
+      "expiresDays": 365,
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.fnac.es/",
+            "source": "set in Set-Cookie HTTP response header for https://www.fnac.es/"
+          }
+        ],
+        "type": "Cookie.HTTP",
+        "timestamp": "2021-05-20T16:45:39.073Z",
+        "location": "about:blank"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "_gid",
+      "value": "GA1.2.366008707.1621529140",
+      "domain": "captcha-delivery.com",
+      "path": "/",
+      "expires": 1621615540,
+      "size": 30,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2021-05-21T16:45:40.000Z",
+      "expiresDays": 1,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 495,
+            "lineNumber": 30,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "zc",
+            "source": "    at zc (https://www.google-analytics.com/analytics.js:30:495)"
+          },
+          {
+            "columnNumber": 401,
+            "lineNumber": 59,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "ma",
+            "source": "    at ma (https://www.google-analytics.com/analytics.js:59:401)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T16:45:40.246Z",
+        "location": "https://www.fnac.es"
+      },
+      "firstPartyStorage": false
+    },
+    {
+      "name": "_gat",
+      "value": "1",
+      "domain": "captcha-delivery.com",
+      "path": "/",
+      "expires": 1621529200,
+      "size": 5,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2021-05-20T16:46:40.000Z",
+      "expiresDays": 0,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 495,
+            "lineNumber": 30,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "zc",
+            "source": "    at zc (https://www.google-analytics.com/analytics.js:30:495)"
+          },
+          {
+            "columnNumber": 31,
+            "lineNumber": 73,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "Qd",
+            "source": "    at Qd (https://www.google-analytics.com/analytics.js:73:31)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T16:45:40.246Z",
+        "location": "https://www.fnac.es"
+      },
+      "firstPartyStorage": false
+    },
+    {
+      "name": "akavpau_ESPRD_FNACCOM",
+      "value": "1621529439~id=43699726d8227877ffa0016baa0af26a",
+      "domain": "fnac.es",
+      "path": "/",
+      "expires": -1,
+      "size": 67,
+      "httpOnly": true,
+      "secure": true,
+      "session": true,
+      "sameSite": "None",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.fnac.es/",
+            "source": "set in Set-Cookie HTTP response header for https://www.fnac.es/"
+          }
+        ],
+        "type": "Cookie.HTTP",
+        "timestamp": "2021-05-20T16:45:39.073Z",
+        "location": "about:blank"
+      },
+      "firstPartyStorage": true
+    }
+  ],
+  "localStorage": {},
+  "beacons": [
+    {
+      "url": "https://www.google-analytics.com/j/collect?v=1&_v=j90&a=720641102&t=pageview&_s=1&dl=https%3A%2F%2Fgeo.captcha-delivery.com%2Fcaptcha%2F%3FinitialCid%3DAHrlqAAAAAMAbbu380RFpncAJXjH7A%253D%253D%26hash%3D4BA90718940D0114F409A57DFAF6AF%26cid%3DaVwO9I1yhRXz7KVERGi.bm6yW5DrcI_SymOv~fDRZ3ohlSeil0p92qqnVbuwquw4-MTpDBFZMxWoUKxfJ~RYyY2pnIYcPQ5GOmgFW1DU29%26t%3Dfe%26referer%3Dhttps%253A%252F%252Fwww.fnac.es%252F%26s%3D3901&dr=https%3A%2F%2Fwww.fnac.es%2F&ul=en-us&de=UTF-8&dt=You%20have%20been%20blocked&sd=24-bit&sr=1680x927&vp=1680x927&je=0&_u=IEBAAEABAAAAAC~&jid=26619261&gjid=1431059964&cid=406633924.1621529140&tid=UA-71254111-3&_gid=366008707.1621529140&_r=1&_slc=1&z=91992125",
+      "query": {
+        "v": 1,
+        "_v": "j90",
+        "a": 720641102,
+        "t": "pageview",
+        "_s": 1,
+        "dl": "https://geo.captcha-delivery.com/captcha/?initialCid=AHrlqAAAAAMAbbu380RFpncAJXjH7A%3D%3D&hash=4BA90718940D0114F409A57DFAF6AF&cid=aVwO9I1yhRXz7KVERGi.bm6yW5DrcI_SymOv~fDRZ3ohlSeil0p92qqnVbuwquw4-MTpDBFZMxWoUKxfJ~RYyY2pnIYcPQ5GOmgFW1DU29&t=fe&referer=https%3A%2F%2Fwww.fnac.es%2F&s=3901",
+        "dr": "https://www.fnac.es/",
+        "ul": "en-us",
+        "de": "UTF-8",
+        "dt": "You have been blocked",
+        "sd": "24-bit",
+        "sr": "1680x927",
+        "vp": "1680x927",
+        "je": 0,
+        "_u": "IEBAAEABAAAAAC~",
+        "jid": 26619261,
+        "gjid": 1431059964,
+        "cid": 406633924.1621529,
+        "tid": "UA-71254111-3",
+        "_gid": 366008707.1621529,
+        "_r": 1,
+        "_slc": 1,
+        "z": 91992125
+      },
+      "filter": "/collect?*&cid=",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://geo.captcha-delivery.com/captcha/?initialCid=AHrlqAAAAAMAbbu380RFpncAJXjH7A%3D%3D&hash=4BA90718940D0114F409A57DFAF6AF&cid=aVwO9I1yhRXz7KVERGi.bm6yW5DrcI_SymOv~fDRZ3ohlSeil0p92qqnVbuwquw4-MTpDBFZMxWoUKxfJ~RYyY2pnIYcPQ5GOmgFW1DU29&t=fe&referer=https%3A%2F%2Fwww.fnac.es%2F&s=3901",
+            "source": "requested from https://geo.captcha-delivery.com/captcha/?initialCid=AHrlqAAAAAMAbbu380RFpncAJXjH7A%3D%3D&hash=4BA90718940D0114F409A57DFAF6AF&cid=aVwO9I1yhRXz7KVERGi.bm6yW5DrcI_SymOv~fDRZ3ohlSeil0p92qqnVbuwquw4-MTpDBFZMxWoUKxfJ~RYyY2pnIYcPQ5GOmgFW1DU29&t=fe&referer=https%3A%2F%2Fwww.fnac.es%2F&s=3901 and matched with easyprivacy.txt filter /collect?*&cid="
+          }
+        ],
+        "timestamp": "2021-05-20T16:45:40.249Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://www.google-analytics.com/analytics.js",
+      "query": null,
+      "filter": "||google-analytics.com/analytics.js",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://geo.captcha-delivery.com/captcha/?initialCid=AHrlqAAAAAMAbbu380RFpncAJXjH7A%3D%3D&hash=4BA90718940D0114F409A57DFAF6AF&cid=aVwO9I1yhRXz7KVERGi.bm6yW5DrcI_SymOv~fDRZ3ohlSeil0p92qqnVbuwquw4-MTpDBFZMxWoUKxfJ~RYyY2pnIYcPQ5GOmgFW1DU29&t=fe&referer=https%3A%2F%2Fwww.fnac.es%2F&s=3901",
+            "source": "requested from https://geo.captcha-delivery.com/captcha/?initialCid=AHrlqAAAAAMAbbu380RFpncAJXjH7A%3D%3D&hash=4BA90718940D0114F409A57DFAF6AF&cid=aVwO9I1yhRXz7KVERGi.bm6yW5DrcI_SymOv~fDRZ3ohlSeil0p92qqnVbuwquw4-MTpDBFZMxWoUKxfJ~RYyY2pnIYcPQ5GOmgFW1DU29&t=fe&referer=https%3A%2F%2Fwww.fnac.es%2F&s=3901 and matched with easyprivacy.txt filter ||google-analytics.com/analytics.js"
+          }
+        ],
+        "timestamp": "2021-05-20T16:45:39.970Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://api-js.datadome.co/js/",
+      "query": null,
+      "filter": "||datadome.co^$third-party",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://geo.captcha-delivery.com/captcha/?initialCid=AHrlqAAAAAMAbbu380RFpncAJXjH7A%3D%3D&hash=4BA90718940D0114F409A57DFAF6AF&cid=aVwO9I1yhRXz7KVERGi.bm6yW5DrcI_SymOv~fDRZ3ohlSeil0p92qqnVbuwquw4-MTpDBFZMxWoUKxfJ~RYyY2pnIYcPQ5GOmgFW1DU29&t=fe&referer=https%3A%2F%2Fwww.fnac.es%2F&s=3901",
+            "source": "requested from https://geo.captcha-delivery.com/captcha/?initialCid=AHrlqAAAAAMAbbu380RFpncAJXjH7A%3D%3D&hash=4BA90718940D0114F409A57DFAF6AF&cid=aVwO9I1yhRXz7KVERGi.bm6yW5DrcI_SymOv~fDRZ3ohlSeil0p92qqnVbuwquw4-MTpDBFZMxWoUKxfJ~RYyY2pnIYcPQ5GOmgFW1DU29&t=fe&referer=https%3A%2F%2Fwww.fnac.es%2F&s=3901 and matched with easyprivacy.txt filter ||datadome.co^$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T16:45:39.953Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://js.datadome.co/tags.js",
+      "query": null,
+      "filter": "||datadome.co^$third-party",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://geo.captcha-delivery.com/captcha/?initialCid=AHrlqAAAAAMAbbu380RFpncAJXjH7A%3D%3D&hash=4BA90718940D0114F409A57DFAF6AF&cid=aVwO9I1yhRXz7KVERGi.bm6yW5DrcI_SymOv~fDRZ3ohlSeil0p92qqnVbuwquw4-MTpDBFZMxWoUKxfJ~RYyY2pnIYcPQ5GOmgFW1DU29&t=fe&referer=https%3A%2F%2Fwww.fnac.es%2F&s=3901",
+            "source": "requested from https://geo.captcha-delivery.com/captcha/?initialCid=AHrlqAAAAAMAbbu380RFpncAJXjH7A%3D%3D&hash=4BA90718940D0114F409A57DFAF6AF&cid=aVwO9I1yhRXz7KVERGi.bm6yW5DrcI_SymOv~fDRZ3ohlSeil0p92qqnVbuwquw4-MTpDBFZMxWoUKxfJ~RYyY2pnIYcPQ5GOmgFW1DU29&t=fe&referer=https%3A%2F%2Fwww.fnac.es%2F&s=3901 and matched with easyprivacy.txt filter ||datadome.co^$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T16:45:39.779Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://www.googletagmanager.com/gtm.js?id=GTM-5KTHT2G",
+      "query": {
+        "id": "GTM-5KTHT2G"
+      },
+      "filter": "/gtm.js",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://geo.captcha-delivery.com/captcha/?initialCid=AHrlqAAAAAMAbbu380RFpncAJXjH7A%3D%3D&hash=4BA90718940D0114F409A57DFAF6AF&cid=aVwO9I1yhRXz7KVERGi.bm6yW5DrcI_SymOv~fDRZ3ohlSeil0p92qqnVbuwquw4-MTpDBFZMxWoUKxfJ~RYyY2pnIYcPQ5GOmgFW1DU29&t=fe&referer=https%3A%2F%2Fwww.fnac.es%2F&s=3901",
+            "source": "requested from https://geo.captcha-delivery.com/captcha/?initialCid=AHrlqAAAAAMAbbu380RFpncAJXjH7A%3D%3D&hash=4BA90718940D0114F409A57DFAF6AF&cid=aVwO9I1yhRXz7KVERGi.bm6yW5DrcI_SymOv~fDRZ3ohlSeil0p92qqnVbuwquw4-MTpDBFZMxWoUKxfJ~RYyY2pnIYcPQ5GOmgFW1DU29&t=fe&referer=https%3A%2F%2Fwww.fnac.es%2F&s=3901 and matched with easyprivacy.txt filter /gtm.js"
+          }
+        ],
+        "timestamp": "2021-05-20T16:45:39.771Z"
+      },
+      "occurrances": 1
+    }
+  ],
+  "hosts": {
+    "requests": {
+      "firstParty": [
+        "fnac.es"
+      ],
+      "thirdParty": [
+        "www.fnac.es",
+        "ct.captcha-delivery.com",
+        "geo.captcha-delivery.com",
+        "static.captcha-delivery.com",
+        "fonts.googleapis.com",
+        "www.googletagmanager.com",
+        "js.datadome.co",
+        "fonts.gstatic.com",
+        "api-na.geetest.com",
+        "api-js.datadome.co",
+        "www.google-analytics.com",
+        "static.geetest.com"
+      ]
+    },
+    "beacons": {
+      "firstParty": [],
+      "thirdParty": [
+        "www.google-analytics.com",
+        "api-js.datadome.co",
+        "js.datadome.co",
+        "www.googletagmanager.com"
+      ]
+    },
+    "cookies": {
+      "firstParty": [
+        "fnac.es"
+      ],
+      "thirdParty": [
+        "captcha-delivery.com",
+        "api-na.geetest.com"
+      ]
+    },
+    "localStorage": {
+      "firstParty": [],
+      "thirdParty": []
+    },
+    "links": {
+      "firstParty": [],
+      "thirdParty": []
+    }
+  }
+}

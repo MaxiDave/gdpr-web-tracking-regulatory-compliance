@@ -1,0 +1,272 @@
+{
+  "title": "Website Evidence Collection",
+  "task_description": null,
+  "uri_ins": "https://adoptauntio.es",
+  "uri_refs": [
+    "https://adoptauntio.es"
+  ],
+  "uri_dest": "https://www.adoptauntio.es/",
+  "uri_redirects": [
+    "https://adoptauntio.es/"
+  ],
+  "secure_connection": {
+    "https_support": true,
+    "redirects": [
+      "http://www.adoptauntio.es/",
+      "https://www.adoptauntio.es/"
+    ],
+    "https_redirect": true
+  },
+  "host": "adoptauntio.es",
+  "script": {
+    "host": "sfod",
+    "version": {
+      "npm": "1.0.0",
+      "commit": null
+    },
+    "cmd_args": "-q --overwrite https://adoptauntio.es -- --ignore-certificate-errors",
+    "environment": {
+      "CHROME_DESKTOP": "code-url-handler.desktop"
+    },
+    "node_version": "v14.17.0"
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "HeadlessChrome/80.0.3987.0",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3617.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "5.8.0-53-generic"
+    },
+    "extra_headers": {},
+    "preset_cookies": {}
+  },
+  "start_time": "2021-05-20T16:52:28.801Z",
+  "end_time": "2021-05-20T16:52:38.132Z",
+  "links": {
+    "firstParty": [],
+    "thirdParty": [
+      {
+        "href": "https://www.adoptauntio.es/cookies",
+        "inner_text": "Nuestros socios",
+        "inner_html": "Nuestros socios"
+      },
+      {
+        "href": "https://www.adoptauntio.es/home",
+        "inner_text": "",
+        "inner_html": "<img src=\"https://s.adoptauntio.es/es/www/img/v4/commons/logos/cart.svg?92c0dfeab20f6fe81f111a6bbf72f7a5\" alt=\"AdoptaUnTío.es\">"
+      },
+      {
+        "href": "https://www.adoptauntio.es/",
+        "inner_text": "¿Has olvidado tu contraseña?",
+        "inner_html": "¿Has olvidado tu contraseña?"
+      },
+      {
+        "href": "https://policies.google.com/privacy",
+        "inner_text": " Política de confidencialidad ",
+        "inner_html": "Política de confidencialidad"
+      },
+      {
+        "href": "https://policies.google.com/terms",
+        "inner_text": " Condiciones de Uso ",
+        "inner_html": "Condiciones de Uso"
+      },
+      {
+        "href": "https://www.adoptauntio.es/help",
+        "inner_text": "AYUDA & SERVICIOS",
+        "inner_html": "ayuda &amp; servicios"
+      },
+      {
+        "href": "https://www.adoptauntio.es/contact",
+        "inner_text": "CONTÁCTANOS",
+        "inner_html": "contáctanos"
+      },
+      {
+        "href": "https://adoptauntio.prezly.com/",
+        "inner_text": "PRENSA",
+        "inner_html": "Prensa"
+      },
+      {
+        "href": "https://www.adoptauntio.es/mobile",
+        "inner_text": "MÓVIL",
+        "inner_html": "Móvil"
+      },
+      {
+        "href": "https://www.adoptauntio.es/lab",
+        "inner_text": "LAB",
+        "inner_html": "Lab"
+      },
+      {
+        "href": "https://instagram.com/adoptauntio",
+        "inner_text": "INSTAGRAM",
+        "inner_html": "Instagram"
+      },
+      {
+        "href": "https://www.adoptauntio.es/legal",
+        "inner_text": "MENCIONES LEGALES",
+        "inner_html": "menciones legales"
+      }
+    ],
+    "social": [
+      {
+        "href": "https://instagram.com/adoptauntio",
+        "inner_text": "INSTAGRAM",
+        "inner_html": "Instagram"
+      }
+    ],
+    "keywords": [
+      {
+        "href": "https://policies.google.com/privacy",
+        "inner_text": " Política de confidencialidad ",
+        "inner_html": "Política de confidencialidad"
+      },
+      {
+        "href": "https://www.adoptauntio.es/legal",
+        "inner_text": "MENCIONES LEGALES",
+        "inner_html": "menciones legales"
+      }
+    ]
+  },
+  "unsafeForms": [],
+  "browsing_history": [
+    "https://www.adoptauntio.es/"
+  ],
+  "websockets": {},
+  "cookies": [],
+  "localStorage": {
+    "https://www.adoptauntio.es": {
+      "jStorage": {
+        "value": {},
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 292,
+              "lineNumber": 595,
+              "fileName": "https://s.adoptauntio.es/es/www/js/common.prod.js?d65295d2b9ef5688a17d27510c0626bb",
+              "functionName": "d",
+              "source": "    at d (https://s.adoptauntio.es/es/www/js/common.prod.js?d65295d2b9ef5688a17d27510c0626bb:595:292)"
+            },
+            {
+              "columnNumber": 369,
+              "lineNumber": 607,
+              "fileName": "https://s.adoptauntio.es/es/www/js/common.prod.js?d65295d2b9ef5688a17d27510c0626bb",
+              "source": "    at https://s.adoptauntio.es/es/www/js/common.prod.js?d65295d2b9ef5688a17d27510c0626bb:607:369"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T16:52:30.378Z",
+          "location": "https://www.adoptauntio.es/"
+        }
+      }
+    },
+    "https://www.google.com": {
+      "rc::a": {
+        "value": "M2J0b3R3MXZxa3poOQ==",
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 182,
+              "lineNumber": 358,
+              "fileName": "https://www.gstatic.com/recaptcha/releases/eWmgPeIYKJsH2R2FrgakEIkq/recaptcha__en.js",
+              "functionName": "Array.<anonymous>",
+              "source": "    at Array.<anonymous> (https://www.gstatic.com/recaptcha/releases/eWmgPeIYKJsH2R2FrgakEIkq/recaptcha__en.js:358:182)"
+            },
+            {
+              "columnNumber": 281,
+              "lineNumber": 264,
+              "fileName": "https://www.gstatic.com/recaptcha/releases/eWmgPeIYKJsH2R2FrgakEIkq/recaptcha__en.js",
+              "functionName": "Kb.<anonymous>",
+              "source": "    at Kb.<anonymous> (https://www.gstatic.com/recaptcha/releases/eWmgPeIYKJsH2R2FrgakEIkq/recaptcha__en.js:264:281)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T16:52:31.078Z",
+          "location": "https://www.adoptauntio.es"
+        }
+      }
+    }
+  },
+  "beacons": [
+    {
+      "url": "https://s.adoptauntio.es/es/www/img/v3/commons/pictos/back_to_top.svg?238d24b8d724ac703bb5ca06458cd78c",
+      "query": {
+        "238d24b8d724ac703bb5ca06458cd78c": null
+      },
+      "filter": "/back_to_top.",
+      "listName": "fanboy-annoyance.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.adoptauntio.es/",
+            "source": "requested from https://www.adoptauntio.es/ and matched with fanboy-annoyance.txt filter /back_to_top."
+          }
+        ],
+        "timestamp": "2021-05-20T16:52:30.607Z"
+      },
+      "occurrances": 2
+    },
+    {
+      "url": "https://www.googletagmanager.com/gtm.js?id=GTM-NSQFRH2",
+      "query": {
+        "id": "GTM-NSQFRH2"
+      },
+      "filter": "/gtm.js",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.adoptauntio.es/",
+            "source": "requested from https://www.adoptauntio.es/ and matched with easyprivacy.txt filter /gtm.js"
+          }
+        ],
+        "timestamp": "2021-05-20T16:52:29.617Z"
+      },
+      "occurrances": 1
+    }
+  ],
+  "hosts": {
+    "requests": {
+      "firstParty": [
+        "adoptauntio.es"
+      ],
+      "thirdParty": [
+        "www.adoptauntio.es",
+        "s.adoptauntio.es",
+        "www.google.com",
+        "www.googletagmanager.com",
+        "www.gstatic.com",
+        "connect.facebook.net",
+        "www.facebook.com",
+        "fonts.gstatic.com"
+      ]
+    },
+    "beacons": {
+      "firstParty": [],
+      "thirdParty": [
+        "www.googletagmanager.com"
+      ]
+    },
+    "cookies": {
+      "firstParty": [],
+      "thirdParty": []
+    },
+    "localStorage": {
+      "firstParty": [],
+      "thirdParty": [
+        "www.adoptauntio.es",
+        "www.google.com"
+      ]
+    },
+    "links": {
+      "firstParty": [],
+      "thirdParty": [
+        "www.adoptauntio.es",
+        "policies.google.com",
+        "adoptauntio.prezly.com",
+        "instagram.com"
+      ]
+    }
+  }
+}

@@ -1,0 +1,169 @@
+{
+  "title": "Website Evidence Collection",
+  "task_description": null,
+  "uri_ins": "https://espintime.com",
+  "uri_refs": [
+    "https://espintime.com"
+  ],
+  "uri_dest": "https://espintime.com/",
+  "uri_redirects": [],
+  "secure_connection": {
+    "https_support": false,
+    "https_error": "RequestError: Error: write EPROTO 140625578006336:error:1425F102:SSL routines:ssl_choose_client_version:unsupported protocol:../deps/openssl/openssl/ssl/statem/statem_lib.c:1958:\n",
+    "http_error": "RequestError: Error: write EPROTO 140625578006336:error:1425F102:SSL routines:ssl_choose_client_version:unsupported protocol:../deps/openssl/openssl/ssl/statem/statem_lib.c:1958:\n"
+  },
+  "host": "espintime.com",
+  "script": {
+    "host": "sfod",
+    "version": {
+      "npm": "1.0.0",
+      "commit": null
+    },
+    "cmd_args": "-q --overwrite https://espintime.com -- --ignore-certificate-errors",
+    "environment": {
+      "CHROME_DESKTOP": "code-url-handler.desktop"
+    },
+    "node_version": "v14.17.0"
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "HeadlessChrome/80.0.3987.0",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3617.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "5.8.0-53-generic"
+    },
+    "extra_headers": {},
+    "preset_cookies": {}
+  },
+  "start_time": "2021-05-20T16:44:19.296Z",
+  "end_time": "2021-05-20T16:44:24.199Z",
+  "links": {
+    "firstParty": [],
+    "thirdParty": [
+      {
+        "href": "http://www.espintime.com/ca/",
+        "inner_text": "Benvingut",
+        "inner_html": "Benvingut"
+      },
+      {
+        "href": "http://www.espintime.com/es/",
+        "inner_text": "Bienvenido",
+        "inner_html": "Bienvenido"
+      },
+      {
+        "href": "http://www.abcpyme.com/",
+        "inner_text": "",
+        "inner_html": "<img border=\"0\" src=\"images/logoABCPyme_p.gif\" width=\"92\" height=\"34\" alt=\"Punto de encuentro de las pymes\">"
+      },
+      {
+        "href": "http://www.aern.net/",
+        "inner_text": "",
+        "inner_html": "<img border=\"0\" src=\"images/logoAERN_p.gif\" width=\"92\" height=\"31\" alt=\"redes neuronales mercados de capitales AERN\">"
+      },
+      {
+        "href": "http://www.aularius.com/",
+        "inner_text": "",
+        "inner_html": "<img border=\"0\" src=\"images/logoAularius_p.gif\" alt=\"Aularius elearning enseñanza online\" width=\"92\" height=\"41\">"
+      },
+      {
+        "href": "http://www.alanjo.net/",
+        "inner_text": "",
+        "inner_html": "<img border=\"0\" src=\"images/logoAlanjo_p.gif\" alt=\"Alanjo infonomics Auditorias de seguridad\" width=\"92\" height=\"36\">"
+      }
+    ],
+    "social": [],
+    "keywords": []
+  },
+  "unsafeForms": [],
+  "browsing_history": [
+    "https://espintime.com/"
+  ],
+  "websockets": {},
+  "cookies": [
+    {
+      "name": "num_visits",
+      "value": "1",
+      "domain": "espintime.com",
+      "path": "/",
+      "expires": 1653065059,
+      "size": 11,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2022-05-20T16:44:19.000Z",
+      "expiresDays": 365,
+      "firstPartyStorage": true
+    },
+    {
+      "name": "SpinSkin",
+      "value": "1",
+      "domain": "espintime.com",
+      "path": "/",
+      "expires": 1653065059,
+      "size": 9,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2022-05-20T16:44:19.000Z",
+      "expiresDays": 365,
+      "firstPartyStorage": true
+    }
+  ],
+  "localStorage": {},
+  "beacons": [
+    {
+      "url": "http://www.google-analytics.com/urchin.js",
+      "query": null,
+      "filter": "/urchin.js",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://espintime.com/",
+            "source": "requested from https://espintime.com/ and matched with easyprivacy.txt filter /urchin.js"
+          }
+        ],
+        "timestamp": "2021-05-20T16:44:19.648Z"
+      },
+      "occurrances": 1
+    }
+  ],
+  "hosts": {
+    "requests": {
+      "firstParty": [
+        "espintime.com"
+      ],
+      "thirdParty": [
+        "www.espintime.com",
+        "www.google-analytics.com"
+      ]
+    },
+    "beacons": {
+      "firstParty": [],
+      "thirdParty": [
+        "www.google-analytics.com"
+      ]
+    },
+    "cookies": {
+      "firstParty": [
+        "espintime.com"
+      ],
+      "thirdParty": []
+    },
+    "localStorage": {
+      "firstParty": [],
+      "thirdParty": []
+    },
+    "links": {
+      "firstParty": [],
+      "thirdParty": [
+        "www.espintime.com",
+        "www.abcpyme.com",
+        "www.aern.net",
+        "www.aularius.com",
+        "www.alanjo.net"
+      ]
+    }
+  }
+}

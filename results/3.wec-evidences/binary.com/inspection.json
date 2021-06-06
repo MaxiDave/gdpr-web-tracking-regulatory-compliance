@@ -1,0 +1,2857 @@
+{
+  "title": "Website Evidence Collection",
+  "task_description": null,
+  "uri_ins": "https://binary.com",
+  "uri_refs": [
+    "https://binary.com"
+  ],
+  "uri_dest": "https://www.binary.com/",
+  "uri_redirects": [
+    "https://binary.com/"
+  ],
+  "secure_connection": {
+    "https_support": true,
+    "redirects": [
+      "https://www.binary.com/"
+    ],
+    "https_redirect": true
+  },
+  "host": "binary.com",
+  "script": {
+    "host": "sfod",
+    "version": {
+      "npm": "1.0.0",
+      "commit": null
+    },
+    "cmd_args": "-q --overwrite https://binary.com -- --ignore-certificate-errors",
+    "environment": {
+      "CHROME_DESKTOP": "code-url-handler.desktop"
+    },
+    "node_version": "v14.17.0"
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "HeadlessChrome/80.0.3987.0",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3617.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "5.8.0-53-generic"
+    },
+    "extra_headers": {},
+    "preset_cookies": {}
+  },
+  "start_time": "2021-05-20T16:28:39.775Z",
+  "end_time": "2021-05-20T16:28:46.094Z",
+  "links": {
+    "firstParty": [],
+    "thirdParty": [
+      {
+        "href": "https://www.binary.com/es/why-us.html",
+        "inner_text": "¿Por Qué Nosotros?",
+        "inner_html": "¿Por qué nosotros?"
+      },
+      {
+        "href": "https://www.binary.com/es/get-started.html",
+        "inner_text": "Comenzar",
+        "inner_html": "Comenzar"
+      },
+      {
+        "href": "https://www.binary.com/es/tour.html",
+        "inner_text": "Visita",
+        "inner_html": "Visita"
+      },
+      {
+        "href": "https://www.binary.com/es/platforms.html",
+        "inner_text": "Plataformas",
+        "inner_html": "Plataformas"
+      },
+      {
+        "href": "https://www.binary.com/es/trading.html",
+        "inner_text": "SmartTrader",
+        "inner_html": "SmartTrader"
+      },
+      {
+        "href": "https://webtrader.binary.com/",
+        "inner_text": "WebTrader",
+        "inner_html": "WebTrader"
+      },
+      {
+        "href": "https://www.binary.bot/",
+        "inner_text": "Binary Bot",
+        "inner_html": "Binary Bot"
+      },
+      {
+        "href": "https://www.binary.com/es/user/metatrader.html",
+        "inner_text": "MetaTrader 5",
+        "inner_html": "MetaTrader 5"
+      },
+      {
+        "href": "https://app.deriv.com/?utm_source=binary&utm_medium=referral",
+        "inner_text": "Deriv",
+        "inner_html": "Deriv"
+      },
+      {
+        "href": "https://www.binary.com/es/user/portfoliows.html",
+        "inner_text": "Cartera",
+        "inner_html": "Cartera"
+      },
+      {
+        "href": "https://www.binary.com/es/user/profit_tablews.html",
+        "inner_text": "Tabla de ganancias",
+        "inner_html": "Tabla de ganancias"
+      },
+      {
+        "href": "https://www.binary.com/es/user/statementws.html",
+        "inner_text": "Extracto",
+        "inner_html": "Extracto"
+      },
+      {
+        "href": "https://www.binary.com/es/cashier.html",
+        "inner_text": "Cajero",
+        "inner_html": "Cajero"
+      },
+      {
+        "href": "https://www.binary.com/es/resources/asset_indexws.html",
+        "inner_text": "Índice de activos",
+        "inner_html": "Índice de activos"
+      },
+      {
+        "href": "https://www.binary.com/es/resources/market_timesws.html",
+        "inner_text": "Horarios del mercado",
+        "inner_html": "Horarios del mercado"
+      },
+      {
+        "href": "https://www.binary.com/es/resources/economic_calendar.html",
+        "inner_text": "Calendario económico",
+        "inner_html": "Calendario económico"
+      },
+      {
+        "href": "https://www.binary.com/es/mt5-signals.html",
+        "inner_text": "Señales MT5",
+        "inner_html": "Señales MT5"
+      },
+      {
+        "href": "https://tradingview.binary.com/",
+        "inner_text": "TradingView",
+        "inner_html": "TradingView"
+      },
+      {
+        "href": "https://charts.binary.com/",
+        "inner_text": "SmartCharts",
+        "inner_html": "SmartCharts"
+      },
+      {
+        "href": "https://www.binary.com/es/user/settingsws.html",
+        "inner_text": "Perfil",
+        "inner_html": "Perfil"
+      },
+      {
+        "href": "https://www.binary.com/es/user/securityws.html",
+        "inner_text": "Seguridad y límites",
+        "inner_html": "Seguridad y límites"
+      },
+      {
+        "href": "https://www.binary.com/es/paymentagent/transferws.html",
+        "inner_text": "Agente de Pagos",
+        "inner_html": "Agente de Pagos"
+      },
+      {
+        "href": "https://www.binary.com/es/user/accounts.html",
+        "inner_text": "Lista de cuentas",
+        "inner_html": "<li class=\"topMenuAccounts\">Lista de cuentas</li>"
+      },
+      {
+        "href": "https://www.binary.com/es/cashier/account_transfer.html",
+        "inner_text": "Transferencia entre cuentas",
+        "inner_html": "<li>Transferencia entre cuentas</li>"
+      },
+      {
+        "href": "https://www.binary.com/es/home.html?account_tabs=binary_options&market_tabs=binary",
+        "inner_text": "",
+        "inner_html": "<img class=\"responsive\" src=\"/images/pages/binary-mobile-menu.svg\">"
+      },
+      {
+        "href": "https://www.binary.com/es/resources.html",
+        "inner_text": "Recursos",
+        "inner_html": "Recursos"
+      },
+      {
+        "href": "https://deriv.com/es/interim/faq/?utm_source=binary&utm_medium=referral&utm_campaign=ww-banner-deriv-1020-en&utm_content=deriv-banner-rebranding",
+        "inner_text": "Binary.com cambia de marca a Deriv.comDescubra las novedades",
+        "inner_html": "<img class=\"deriv_banner_background\" src=\"/images/deriv/deriv-banner-bg.png\"><img class=\"deriv_banner_background deriv_banner_background_mobile\" src=\"/images/deriv/deriv-banner-bg-mobile.png\"><img class=\"deriv_banner_chevron\" src=\"/images/deriv/chevron_right.svg\"><h3 class=\"deriv_banner_standards\">Binary.com cambia de marca a Deriv.com</h3><img class=\"deriv_banner_platform\" src=\"/images/deriv/deriv-platform.png\"><h3 class=\"deriv_banner_explore\">Descubra las novedades</h3>"
+      },
+      {
+        "href": "https://deriv.com/es/trade-types/multiplier/?utm_source=binary&utm_medium=referral&utm_campaign=ww-banner-deriv-1020-en&utm_content=multiplier-banner-synthetic-indices-amplified",
+        "inner_text": "Multiplicadores\nÍndices sintéticos AMPLIFICADOS\n\nPruebe los Multiplicadores en DTrader\n\nPruébelo ahora",
+        "inner_html": "<div class=\"multiplier_banner_title\"><img class=\"multiplier_banner_logo\" src=\"/images/deriv/deriv-logo.svg\"><h3>Multiplicadores</h3><img class=\"multiplier_banner_phone\" src=\"/images/deriv/phone.png\"></div><div class=\"multiplier_banner_text\"><div><h3>Índices sintéticos AMPLIFICADOS</h3><p>Pruebe los Multiplicadores en DTrader</p></div><div><div class=\"multiplier_banner_btn\">Pruébelo ahora</div></div></div>"
+      },
+      {
+        "href": "https://www.binary.com/es/home.html?account_tabs=binary_options",
+        "inner_text": "Opciones binarias",
+        "inner_html": "Opciones binarias"
+      },
+      {
+        "href": "https://www.binary.com/es/home.html?account_tabs=mt5",
+        "inner_text": "MetaTrader 5",
+        "inner_html": "MetaTrader 5"
+      },
+      {
+        "href": "https://www.binary.com/es/home.html?market_tabs=binary",
+        "inner_text": "Opciones binarias",
+        "inner_html": "Opciones binarias"
+      },
+      {
+        "href": "https://www.binary.com/es/home.html?market_tabs=forex",
+        "inner_text": "Forex",
+        "inner_html": "Forex"
+      },
+      {
+        "href": "https://www.binary.com/es/home.html?market_tabs=crypto",
+        "inner_text": "Cripto",
+        "inner_html": "Cripto"
+      },
+      {
+        "href": "https://www.binary.com/es/home.html?market_tabs=cfds",
+        "inner_text": "CFD",
+        "inner_html": "CFD"
+      },
+      {
+        "href": "https://www.binary.com/es/home.html?market_tabs=metals",
+        "inner_text": "Metales",
+        "inner_html": "Metales"
+      },
+      {
+        "href": "https://www.binary.com/es/home.html?market_tabs=lookbacks",
+        "inner_text": "Retroactivos",
+        "inner_html": "Retroactivos"
+      },
+      {
+        "href": "https://www.binary.com/es/cashier/payment_methods.html?anchor=visa",
+        "inner_text": "",
+        "inner_html": "<img class=\"gr-12 gr-centered\" src=\"/images/pages/home/payment/visa.svg\">"
+      },
+      {
+        "href": "https://www.binary.com/es/cashier/payment_methods.html?anchor=mastercard",
+        "inner_text": "",
+        "inner_html": "<img class=\"gr-12 gr-centered\" src=\"/images/pages/home/payment/mastercard.svg\">"
+      },
+      {
+        "href": "https://www.binary.com/es/cashier/payment_methods.html?anchor=maestro",
+        "inner_text": "",
+        "inner_html": "<img class=\"gr-12 gr-centered\" src=\"/images/pages/home/payment/maestro.svg\">"
+      },
+      {
+        "href": "https://www.binary.com/es/cashier/payment_methods.html?anchor=bank-transfer",
+        "inner_text": "",
+        "inner_html": "<img class=\"gr-12 gr-centered\" src=\"/images/pages/home/payment/bank_transfer.svg\">"
+      },
+      {
+        "href": "https://www.binary.com/es/cashier/payment_methods.html?anchor=paytrust",
+        "inner_text": "",
+        "inner_html": "<img class=\"gr-12 gr-centered\" src=\"/images/pages/home/payment/paytrust.svg\">"
+      },
+      {
+        "href": "https://www.binary.com/es/cashier/payment_methods.html?anchor=neteller",
+        "inner_text": "",
+        "inner_html": "<img class=\"gr-12 gr-centered\" src=\"/images/pages/home/payment/neteller.svg\">"
+      },
+      {
+        "href": "https://www.binary.com/es/cashier/payment_methods.html?anchor=fasapay",
+        "inner_text": "",
+        "inner_html": "<img class=\"gr-12 gr-centered\" src=\"/images/pages/home/payment/fasapay.svg\">"
+      },
+      {
+        "href": "https://www.binary.com/es/cashier/payment_methods.html?anchor=perfect-money",
+        "inner_text": "",
+        "inner_html": "<img class=\"gr-12 gr-centered\" src=\"/images/pages/home/payment/perfect_money.svg\">"
+      },
+      {
+        "href": "https://www.binary.com/es/cashier/payment_methods.html?anchor=skrill",
+        "inner_text": "",
+        "inner_html": "<img class=\"gr-12 gr-centered\" src=\"/images/pages/home/payment/skrill.svg\">"
+      },
+      {
+        "href": "https://www.binary.com/es/cashier/payment_methods.html?anchor=qiwi",
+        "inner_text": "",
+        "inner_html": "<img class=\"gr-12 gr-centered\" src=\"/images/pages/home/payment/qiwi.svg\">"
+      },
+      {
+        "href": "https://www.binary.com/es/cashier/payment_methods.html?anchor=webmoney",
+        "inner_text": "",
+        "inner_html": "<img class=\"gr-12 gr-centered\" src=\"/images/pages/home/payment/webmoney.svg\">"
+      },
+      {
+        "href": "https://www.binary.com/es/cashier/payment_methods.html?anchor=paysafe",
+        "inner_text": "",
+        "inner_html": "<img class=\"gr-12 gr-centered\" src=\"/images/pages/home/payment/paysafe.svg\">"
+      },
+      {
+        "href": "https://www.binary.com/es/cashier/payment_methods.html?anchor=jeton",
+        "inner_text": "",
+        "inner_html": "<img class=\"gr-12 gr-centered\" src=\"/images/pages/home/payment/jeton.svg\">"
+      },
+      {
+        "href": "https://www.binary.com/es/cashier/payment_methods.html?anchor=sticpay",
+        "inner_text": "",
+        "inner_html": "<img class=\"gr-12 gr-centered\" src=\"/images/pages/home/payment/sticpay.svg\">"
+      },
+      {
+        "href": "https://www.binary.com/es/cashier/payment_methods.html?anchor=airtm",
+        "inner_text": "",
+        "inner_html": "<img class=\"gr-12 gr-centered\" src=\"/images/pages/home/payment/airtm.svg\">"
+      },
+      {
+        "href": "https://www.binary.com/es/about-us.html",
+        "inner_text": "Sobre nosotros",
+        "inner_html": "Sobre nosotros"
+      },
+      {
+        "href": "https://www.binary.com/es/group-history.html",
+        "inner_text": "Historia corporativa",
+        "inner_html": "Historia corporativa"
+      },
+      {
+        "href": "https://www.binary.com/es/binary-in-numbers.html",
+        "inner_text": "Binary en números",
+        "inner_html": "Binary en números"
+      },
+      {
+        "href": "https://deriv.com/careers",
+        "inner_text": "Nuestro Staff",
+        "inner_html": "Nuestro Staff"
+      },
+      {
+        "href": "https://www.binary.com/es/legal/us_patents.html",
+        "inner_text": "Patentes",
+        "inner_html": "Patentes"
+      },
+      {
+        "href": "https://www.binary.com/es/contact.html",
+        "inner_text": "Contáctenos",
+        "inner_html": "Contáctenos"
+      },
+      {
+        "href": "http://www.gamcare.org.uk/",
+        "inner_text": "GamCare",
+        "inner_html": "GamCare"
+      },
+      {
+        "href": "https://www.binary.com/es/keep-safe.html",
+        "inner_text": "Manténgase seguro",
+        "inner_html": "Manténgase seguro"
+      },
+      {
+        "href": "https://www.binary.com/es/cashier/payment_methods.html",
+        "inner_text": "Métodos de pago",
+        "inner_html": "Métodos de pago"
+      },
+      {
+        "href": "https://www.binary.com/es/regulation.html",
+        "inner_text": "Información regulatoria",
+        "inner_html": "Información regulatoria"
+      },
+      {
+        "href": "https://www.binary.com/es/terms-and-conditions.html",
+        "inner_text": "Términos y Condiciones",
+        "inner_html": "Términos y Condiciones"
+      },
+      {
+        "href": "https://www.binary.com/es/terms-and-conditions.html?anchor=security-and-privacy",
+        "inner_text": "Seguridad y privacidad",
+        "inner_html": "Seguridad y privacidad"
+      },
+      {
+        "href": "https://www.binary.com/es/responsible-trading.html",
+        "inner_text": "Comercio responsable",
+        "inner_html": "Comercio responsable"
+      },
+      {
+        "href": "https://binarycom.statuspage.io/",
+        "inner_text": "Estado de la red",
+        "inner_html": "Estado de la red"
+      },
+      {
+        "href": "https://www.binary.com/es/affiliate-ib.html",
+        "inner_text": "Programa de Afiliados e IB",
+        "inner_html": "Programa de Afiliados e IB"
+      },
+      {
+        "href": "https://developers.binary.com/",
+        "inner_text": "API",
+        "inner_html": "API"
+      },
+      {
+        "href": "https://shop.binary.com/",
+        "inner_text": "Tienda Binary.com",
+        "inner_html": "Tienda Binary.com"
+      },
+      {
+        "href": "https://www.binary.com/es/partners.html",
+        "inner_text": "Todas las opciones de asociación",
+        "inner_html": "Todas las opciones de asociación"
+      },
+      {
+        "href": "https://www.vfsc.vu/",
+        "inner_text": "",
+        "inner_html": "<img class=\"responsive\" src=\"/images/pages/regulation/vanuatu-logo.png\">"
+      },
+      {
+        "href": "http://www.bvifsc.vg/",
+        "inner_text": "",
+        "inner_html": "<img class=\"responsive\" src=\"/images/pages/regulation/bvi.png\">"
+      },
+      {
+        "href": "https://www.labuanibfc.com/",
+        "inner_text": "",
+        "inner_html": "<img class=\"responsive\" src=\"/images/pages/footer/labuan_FSA.svg\">"
+      },
+      {
+        "href": "https://www.youtube.com/user/BinaryTradingVideos",
+        "inner_text": "",
+        "inner_html": "<img src=\"/images/pages/footer/youtube.svg\">"
+      },
+      {
+        "href": "https://www.facebook.com/derivdotcom",
+        "inner_text": "",
+        "inner_html": "<img src=\"/images/pages/footer/facebook.svg\">"
+      },
+      {
+        "href": "https://www.twitter.com/derivdotcom",
+        "inner_text": "",
+        "inner_html": "<img src=\"/images/pages/footer/twitter.svg\">"
+      },
+      {
+        "href": "https://t.me/binarydotcom",
+        "inner_text": "",
+        "inner_html": "<img src=\"/images/pages/footer/telegram.svg\">"
+      },
+      {
+        "href": "https://www.reddit.com/user/Deriv_official/",
+        "inner_text": "",
+        "inner_html": "<img src=\"/images/pages/footer/reddit.svg\">"
+      },
+      {
+        "href": "https://www.binary.com/download/WS-Deriv-Investments-Europe-Limited.pdf",
+        "inner_text": "licencia núm. IS/70156",
+        "inner_html": "licencia núm. IS/70156"
+      },
+      {
+        "href": "https://www.binary.com/download/regulation/Vanuatu-license.pdf",
+        "inner_text": "ver licencia",
+        "inner_html": "ver licencia"
+      },
+      {
+        "href": "https://www.binary.com/download/regulation/BVI_license.pdf",
+        "inner_text": "licencia núm. SIBA/L/18/1114",
+        "inner_html": "licencia núm. SIBA/L/18/1114"
+      },
+      {
+        "href": "https://www.binary.com/download/regulation/Labuan-license.pdf",
+        "inner_text": "licencia núm. MB/18/0024",
+        "inner_html": "licencia núm. MB/18/0024"
+      },
+      {
+        "href": "https://www.gov.im/gambling/",
+        "inner_text": "",
+        "inner_html": "<img class=\"responsive\" src=\"/images/pages/footer/isle-of-man.png\">"
+      },
+      {
+        "href": "https://www.gamstop.co.uk/",
+        "inner_text": "",
+        "inner_html": "<img class=\"responsive\" src=\"/images/pages/footer/gamstop.svg\">"
+      },
+      {
+        "href": "https://www.authorisation.mga.org.mt/verification.aspx?lang=EN&company=a5fd1edc-d072-4c26-b0cd-ab3fa0f0cc40&details=1",
+        "inner_text": "",
+        "inner_html": "<img class=\"responsive\" src=\"/images/pages/footer/mga-logo-footer.svg\">"
+      },
+      {
+        "href": "https://beta.gamblingcommission.gov.uk/public-register/business/detail/39172",
+        "inner_text": "acuenta núm. 39172",
+        "inner_html": "acuenta núm. 39172"
+      },
+      {
+        "href": "https://deriv.com/regulatory/Deriv_(MX)_Ltd.pdf",
+        "inner_text": "ver licencia",
+        "inner_html": "ver licencia"
+      },
+      {
+        "href": "https://www.binary.com/download/regulation/MGA_licence.pdf",
+        "inner_text": "licencia núm. MGA/B2C/102/2000% 4), por (2) la Comisión del Juego para clientes en Gran Bretaña bajo ",
+        "inner_html": "licencia núm. MGA/B2C/102/2000% 4), por (2) la Comisión del Juego para clientes en Gran Bretaña bajo"
+      },
+      {
+        "href": "https://beta.gamblingcommission.gov.uk/public-register/business/detail/39495",
+        "inner_text": "acuenta núm. 39495",
+        "inner_html": "acuenta núm. 39495"
+      },
+      {
+        "href": "https://www.binary.com/es/terms-and-conditions.html?anchor=cookies-and-device-information",
+        "inner_text": "consulte nuestra política",
+        "inner_html": "consulte nuestra política"
+      }
+    ],
+    "social": [
+      {
+        "href": "https://www.youtube.com/user/BinaryTradingVideos",
+        "inner_text": "",
+        "inner_html": "<img src=\"/images/pages/footer/youtube.svg\">"
+      },
+      {
+        "href": "https://www.facebook.com/derivdotcom",
+        "inner_text": "",
+        "inner_html": "<img src=\"/images/pages/footer/facebook.svg\">"
+      },
+      {
+        "href": "https://www.twitter.com/derivdotcom",
+        "inner_text": "",
+        "inner_html": "<img src=\"/images/pages/footer/twitter.svg\">"
+      }
+    ],
+    "keywords": [
+      {
+        "href": "https://www.binary.com/es/legal/us_patents.html",
+        "inner_text": "Patentes",
+        "inner_html": "Patentes"
+      },
+      {
+        "href": "https://www.binary.com/es/terms-and-conditions.html?anchor=security-and-privacy",
+        "inner_text": "Seguridad y privacidad",
+        "inner_html": "Seguridad y privacidad"
+      }
+    ]
+  },
+  "unsafeForms": [],
+  "browsing_history": [
+    "https://www.binary.com/"
+  ],
+  "websockets": {
+    "57529.3": {
+      "timestamp": "2021-05-20T16:28:40.596Z",
+      "url": "wss://frontend.binaryws.com/websockets/v3?app_id=1&brand=binary",
+      "messages": [
+        {
+          "timestamp": 14068.34932,
+          "io": "out",
+          "m": [
+            {
+              "website_status": "1"
+            }
+          ]
+        },
+        {
+          "timestamp": 14068.718114,
+          "io": "in",
+          "m": [
+            {
+              "echo_req": {
+                "website_status": 1
+              },
+              "msg_type": "website_status",
+              "website_status": {
+                "api_call_limits": {
+                  "max_proposal_subscription": {
+                    "applies_to": "subscribing to proposal concurrently",
+                    "max": 5
+                  },
+                  "max_requestes_general": {
+                    "applies_to": "rest of calls",
+                    "hourly": 14400,
+                    "minutely": 180
+                  },
+                  "max_requests_outcome": {
+                    "applies_to": "portfolio, statement and proposal",
+                    "hourly": 1500,
+                    "minutely": 25
+                  },
+                  "max_requests_pricing": {
+                    "applies_to": "proposal and proposal_open_contract",
+                    "hourly": 3600,
+                    "minutely": 80
+                  }
+                },
+                "clients_country": "es",
+                "crypto_config": {
+                  "BTC": {
+                    "minimum_withdrawal": 0.0006262
+                  },
+                  "BUSD": {
+                    "minimum_withdrawal": 25.01
+                  },
+                  "DAI": {
+                    "minimum_withdrawal": 24.86
+                  },
+                  "ETH": {
+                    "minimum_withdrawal": 0.0109891
+                  },
+                  "EURS": {
+                    "minimum_withdrawal": 20.48
+                  },
+                  "IDK": {
+                    "minimum_withdrawal": 72
+                  },
+                  "LTC": {
+                    "minimum_withdrawal": 0.02397852
+                  },
+                  "PAX": {
+                    "minimum_withdrawal": 25.05
+                  },
+                  "TUSD": {
+                    "minimum_withdrawal": 25
+                  },
+                  "USB": {
+                    "minimum_withdrawal": 25
+                  },
+                  "USDC": {
+                    "minimum_withdrawal": 25
+                  },
+                  "USDK": {
+                    "minimum_withdrawal": 21.38
+                  },
+                  "UST": {
+                    "minimum_withdrawal": 24.94
+                  },
+                  "eUSDT": {
+                    "minimum_withdrawal": 24.94
+                  }
+                },
+                "currencies_config": {
+                  "AUD": {
+                    "fractional_digits": 2,
+                    "is_deposit_suspended": 0,
+                    "is_suspended": 0,
+                    "is_withdrawal_suspended": 0,
+                    "name": "Australian Dollar",
+                    "stake_default": 10,
+                    "transfer_between_accounts": {
+                      "fees": {
+                        "BTC": 2,
+                        "BUSD": 2,
+                        "DAI": 2,
+                        "ETH": 2,
+                        "EUR": 1,
+                        "EURS": 2,
+                        "GBP": 1,
+                        "IDK": 2,
+                        "LTC": 2,
+                        "PAX": 2,
+                        "TUSD": 2,
+                        "USB": 2,
+                        "USD": 1,
+                        "USDC": 2,
+                        "USDK": 2,
+                        "UST": 2,
+                        "eUSDT": 2
+                      },
+                      "limits": {
+                        "max": 3218.08,
+                        "min": 1.29
+                      },
+                      "limits_dxtrade": {
+                        "max": 3217.92,
+                        "min": 1.29
+                      },
+                      "limits_mt5": {
+                        "max": 3217.92,
+                        "min": 1.29
+                      }
+                    },
+                    "type": "fiat"
+                  },
+                  "BTC": {
+                    "fractional_digits": 8,
+                    "is_deposit_suspended": 0,
+                    "is_suspended": 0,
+                    "is_withdrawal_suspended": 0,
+                    "name": "Bitcoin",
+                    "stake_default": 0.0002,
+                    "transfer_between_accounts": {
+                      "fees": {
+                        "AUD": 2,
+                        "EUR": 2,
+                        "GBP": 2,
+                        "USD": 2
+                      },
+                      "limits": {
+                        "max": 0.06267151,
+                        "min": 0.00002507
+                      },
+                      "limits_dxtrade": {
+                        "max": 0.06261952,
+                        "min": 0.00002505
+                      },
+                      "limits_mt5": {
+                        "max": 0.06261952,
+                        "min": 0.00002505
+                      }
+                    },
+                    "type": "crypto"
+                  },
+                  "BUSD": {
+                    "fractional_digits": 2,
+                    "is_deposit_suspended": 1,
+                    "is_suspended": 1,
+                    "is_withdrawal_suspended": 1,
+                    "name": "Binance USD",
+                    "stake_default": 10,
+                    "transfer_between_accounts": {
+                      "fees": {
+                        "AUD": 2,
+                        "EUR": 2,
+                        "GBP": 2,
+                        "USD": 2
+                      },
+                      "limits": {
+                        "max": 2500.75,
+                        "min": 1
+                      },
+                      "limits_dxtrade": {
+                        "max": 2500.75,
+                        "min": 1
+                      },
+                      "limits_mt5": {
+                        "max": 2500.75,
+                        "min": 1
+                      }
+                    },
+                    "type": "crypto"
+                  },
+                  "DAI": {
+                    "fractional_digits": 2,
+                    "is_deposit_suspended": 1,
+                    "is_suspended": 1,
+                    "is_withdrawal_suspended": 1,
+                    "name": "Multi-Collateral DAI",
+                    "stake_default": 10,
+                    "transfer_between_accounts": {
+                      "fees": {
+                        "AUD": 2,
+                        "EUR": 2,
+                        "GBP": 2,
+                        "USD": 2
+                      },
+                      "limits": {
+                        "max": 2486.29,
+                        "min": 0.99
+                      },
+                      "limits_dxtrade": {
+                        "max": 2486.29,
+                        "min": 0.99
+                      },
+                      "limits_mt5": {
+                        "max": 2486.29,
+                        "min": 0.99
+                      }
+                    },
+                    "type": "crypto"
+                  },
+                  "ETH": {
+                    "fractional_digits": 8,
+                    "is_deposit_suspended": 0,
+                    "is_suspended": 0,
+                    "is_withdrawal_suspended": 0,
+                    "name": "Ethereum",
+                    "stake_default": 0.006,
+                    "transfer_between_accounts": {
+                      "fees": {
+                        "AUD": 2,
+                        "EUR": 2,
+                        "GBP": 2,
+                        "USD": 2
+                      },
+                      "limits": {
+                        "max": 0.92548718,
+                        "min": 0.00037019
+                      },
+                      "limits_dxtrade": {
+                        "max": 0.91575846,
+                        "min": 0.0003663
+                      },
+                      "limits_mt5": {
+                        "max": 0.91575846,
+                        "min": 0.0003663
+                      }
+                    },
+                    "type": "crypto"
+                  },
+                  "EUR": {
+                    "fractional_digits": 2,
+                    "is_deposit_suspended": 0,
+                    "is_suspended": 0,
+                    "is_withdrawal_suspended": 0,
+                    "name": "Euro",
+                    "stake_default": 10,
+                    "transfer_between_accounts": {
+                      "fees": {
+                        "AUD": 1,
+                        "BTC": 2,
+                        "BUSD": 2,
+                        "DAI": 2,
+                        "ETH": 2,
+                        "EURS": 2,
+                        "GBP": 1,
+                        "IDK": 2,
+                        "LTC": 2,
+                        "PAX": 2,
+                        "TUSD": 2,
+                        "USB": 2,
+                        "USD": 1,
+                        "USDC": 2,
+                        "USDK": 2,
+                        "UST": 2,
+                        "eUSDT": 2
+                      },
+                      "limits": {
+                        "max": 2046.4,
+                        "min": 0.82
+                      },
+                      "limits_dxtrade": {
+                        "max": 2046.01,
+                        "min": 0.82
+                      },
+                      "limits_mt5": {
+                        "max": 2046.01,
+                        "min": 0.82
+                      }
+                    },
+                    "type": "fiat"
+                  },
+                  "EURS": {
+                    "fractional_digits": 2,
+                    "is_deposit_suspended": 1,
+                    "is_suspended": 1,
+                    "is_withdrawal_suspended": 1,
+                    "name": "STATIS Euro",
+                    "stake_default": 10,
+                    "transfer_between_accounts": {
+                      "fees": {
+                        "AUD": 2,
+                        "EUR": 2,
+                        "GBP": 2,
+                        "USD": 2
+                      },
+                      "limits": {
+                        "max": 2048.26,
+                        "min": 0.82
+                      },
+                      "limits_dxtrade": {
+                        "max": 2048.26,
+                        "min": 0.82
+                      },
+                      "limits_mt5": {
+                        "max": 2048.26,
+                        "min": 0.82
+                      }
+                    },
+                    "type": "crypto"
+                  },
+                  "GBP": {
+                    "fractional_digits": 2,
+                    "is_deposit_suspended": 0,
+                    "is_suspended": 0,
+                    "is_withdrawal_suspended": 0,
+                    "name": "Pound Sterling",
+                    "stake_default": 10,
+                    "transfer_between_accounts": {
+                      "fees": {
+                        "AUD": 1,
+                        "BTC": 2,
+                        "BUSD": 2,
+                        "DAI": 2,
+                        "ETH": 2,
+                        "EUR": 1,
+                        "EURS": 2,
+                        "IDK": 2,
+                        "LTC": 2,
+                        "PAX": 2,
+                        "TUSD": 2,
+                        "USB": 2,
+                        "USD": 1,
+                        "USDC": 2,
+                        "USDK": 2,
+                        "UST": 2,
+                        "eUSDT": 2
+                      },
+                      "limits": {
+                        "max": 1763.12,
+                        "min": 0.71
+                      },
+                      "limits_dxtrade": {
+                        "max": 1763.07,
+                        "min": 0.71
+                      },
+                      "limits_mt5": {
+                        "max": 1763.07,
+                        "min": 0.71
+                      }
+                    },
+                    "type": "fiat"
+                  },
+                  "IDK": {
+                    "fractional_digits": 0,
+                    "is_deposit_suspended": 1,
+                    "is_suspended": 1,
+                    "is_withdrawal_suspended": 1,
+                    "name": "IDK",
+                    "stake_default": 140,
+                    "transfer_between_accounts": {
+                      "fees": {
+                        "AUD": 2,
+                        "EUR": 2,
+                        "GBP": 2,
+                        "USD": 2
+                      },
+                      "limits": {
+                        "max": 35920,
+                        "min": 14
+                      },
+                      "limits_dxtrade": {
+                        "max": 35920,
+                        "min": 14
+                      },
+                      "limits_mt5": {
+                        "max": 35920,
+                        "min": 14
+                      }
+                    },
+                    "type": "crypto"
+                  },
+                  "LTC": {
+                    "fractional_digits": 8,
+                    "is_deposit_suspended": 0,
+                    "is_suspended": 0,
+                    "is_withdrawal_suspended": 0,
+                    "name": "Litecoin",
+                    "stake_default": 0.06,
+                    "transfer_between_accounts": {
+                      "fees": {
+                        "AUD": 2,
+                        "EUR": 2,
+                        "GBP": 2,
+                        "USD": 2
+                      },
+                      "limits": {
+                        "max": 12.02269886,
+                        "min": 0.00480908
+                      },
+                      "limits_dxtrade": {
+                        "max": 11.98925763,
+                        "min": 0.0047957
+                      },
+                      "limits_mt5": {
+                        "max": 11.98925763,
+                        "min": 0.0047957
+                      }
+                    },
+                    "type": "crypto"
+                  },
+                  "PAX": {
+                    "fractional_digits": 2,
+                    "is_deposit_suspended": 1,
+                    "is_suspended": 1,
+                    "is_withdrawal_suspended": 1,
+                    "name": "Paxos Standard",
+                    "stake_default": 10,
+                    "transfer_between_accounts": {
+                      "fees": {
+                        "AUD": 2,
+                        "EUR": 2,
+                        "GBP": 2,
+                        "USD": 2
+                      },
+                      "limits": {
+                        "max": 2505.01,
+                        "min": 1
+                      },
+                      "limits_dxtrade": {
+                        "max": 2505.01,
+                        "min": 1
+                      },
+                      "limits_mt5": {
+                        "max": 2505.01,
+                        "min": 1
+                      }
+                    },
+                    "type": "crypto"
+                  },
+                  "TUSD": {
+                    "fractional_digits": 2,
+                    "is_deposit_suspended": 1,
+                    "is_suspended": 1,
+                    "is_withdrawal_suspended": 1,
+                    "name": "True USD",
+                    "stake_default": 10,
+                    "transfer_between_accounts": {
+                      "fees": {
+                        "AUD": 2,
+                        "EUR": 2,
+                        "GBP": 2,
+                        "USD": 2
+                      },
+                      "limits": {
+                        "max": 2499.86,
+                        "min": 1
+                      },
+                      "limits_dxtrade": {
+                        "max": 2499.86,
+                        "min": 1
+                      },
+                      "limits_mt5": {
+                        "max": 2499.86,
+                        "min": 1
+                      }
+                    },
+                    "type": "crypto"
+                  },
+                  "USB": {
+                    "fractional_digits": 2,
+                    "is_deposit_suspended": 1,
+                    "is_suspended": 1,
+                    "is_withdrawal_suspended": 1,
+                    "name": "Binary Coin",
+                    "stake_default": 10,
+                    "transfer_between_accounts": {
+                      "fees": {
+                        "AUD": 2,
+                        "EUR": 2,
+                        "GBP": 2,
+                        "USD": 2
+                      },
+                      "limits": {
+                        "max": 2500,
+                        "min": 1
+                      },
+                      "limits_dxtrade": {
+                        "max": 2500,
+                        "min": 1
+                      },
+                      "limits_mt5": {
+                        "max": 2500,
+                        "min": 1
+                      }
+                    },
+                    "type": "crypto"
+                  },
+                  "USD": {
+                    "fractional_digits": 2,
+                    "is_deposit_suspended": 0,
+                    "is_suspended": 0,
+                    "is_withdrawal_suspended": 0,
+                    "name": "US Dollar",
+                    "stake_default": 10,
+                    "transfer_between_accounts": {
+                      "fees": {
+                        "AUD": 1,
+                        "BTC": 2,
+                        "BUSD": 2,
+                        "DAI": 2,
+                        "ETH": 2,
+                        "EUR": 1,
+                        "EURS": 2,
+                        "GBP": 1,
+                        "IDK": 2,
+                        "LTC": 2,
+                        "PAX": 2,
+                        "TUSD": 2,
+                        "USB": 2,
+                        "USDC": 2,
+                        "USDK": 2,
+                        "UST": 2,
+                        "eUSDT": 2
+                      },
+                      "limits": {
+                        "max": 2500,
+                        "min": 1
+                      },
+                      "limits_dxtrade": {
+                        "max": 2500,
+                        "min": 1
+                      },
+                      "limits_mt5": {
+                        "max": 2500,
+                        "min": 1
+                      }
+                    },
+                    "type": "fiat"
+                  },
+                  "USDC": {
+                    "fractional_digits": 2,
+                    "is_deposit_suspended": 0,
+                    "is_suspended": 0,
+                    "is_withdrawal_suspended": 0,
+                    "name": "USD Coin",
+                    "stake_default": 10,
+                    "transfer_between_accounts": {
+                      "fees": {
+                        "AUD": 2,
+                        "EUR": 2,
+                        "GBP": 2,
+                        "USD": 2
+                      },
+                      "limits": {
+                        "max": 2499.88,
+                        "min": 1
+                      },
+                      "limits_dxtrade": {
+                        "max": 2499.88,
+                        "min": 1
+                      },
+                      "limits_mt5": {
+                        "max": 2499.88,
+                        "min": 1
+                      }
+                    },
+                    "type": "crypto"
+                  },
+                  "USDK": {
+                    "fractional_digits": 2,
+                    "is_deposit_suspended": 1,
+                    "is_suspended": 1,
+                    "is_withdrawal_suspended": 1,
+                    "name": "USDK",
+                    "stake_default": 10,
+                    "transfer_between_accounts": {
+                      "fees": {
+                        "AUD": 2,
+                        "EUR": 2,
+                        "GBP": 2,
+                        "USD": 2
+                      },
+                      "limits": {
+                        "max": 2138.4,
+                        "min": 0.86
+                      },
+                      "limits_dxtrade": {
+                        "max": 2138.4,
+                        "min": 0.86
+                      },
+                      "limits_mt5": {
+                        "max": 2138.4,
+                        "min": 0.86
+                      }
+                    },
+                    "type": "crypto"
+                  },
+                  "UST": {
+                    "fractional_digits": 2,
+                    "is_deposit_suspended": 0,
+                    "is_suspended": 0,
+                    "is_withdrawal_suspended": 0,
+                    "name": "Tether Omni",
+                    "stake_default": 10,
+                    "transfer_between_accounts": {
+                      "fees": {
+                        "AUD": 2,
+                        "EUR": 2,
+                        "GBP": 2,
+                        "USD": 2
+                      },
+                      "limits": {
+                        "max": 2494.49,
+                        "min": 1
+                      },
+                      "limits_dxtrade": {
+                        "max": 2494.49,
+                        "min": 1
+                      },
+                      "limits_mt5": {
+                        "max": 2494.49,
+                        "min": 1
+                      }
+                    },
+                    "type": "crypto"
+                  },
+                  "eUSDT": {
+                    "fractional_digits": 2,
+                    "is_deposit_suspended": 1,
+                    "is_suspended": 1,
+                    "is_withdrawal_suspended": 1,
+                    "name": "Tether ERC20",
+                    "stake_default": 10,
+                    "transfer_between_accounts": {
+                      "fees": {
+                        "AUD": 2,
+                        "EUR": 2,
+                        "GBP": 2,
+                        "USD": 2
+                      },
+                      "limits": {
+                        "max": 2494.49,
+                        "min": 1
+                      },
+                      "limits_dxtrade": {
+                        "max": 2494.49,
+                        "min": 1
+                      },
+                      "limits_mt5": {
+                        "max": 2494.49,
+                        "min": 1
+                      }
+                    },
+                    "type": "crypto"
+                  }
+                },
+                "p2p_config": {
+                  "adverts_active_limit": 3,
+                  "cancellation_block_duration": 24,
+                  "cancellation_count_period": 24,
+                  "cancellation_grace_period": 15,
+                  "cancellation_limit": 3,
+                  "maximum_advert_amount": 5001,
+                  "maximum_order_amount": 1000,
+                  "order_daily_limit": 200,
+                  "order_payment_period": 120
+                },
+                "site_status": "up",
+                "supported_languages": [
+                  "EN",
+                  "ID",
+                  "RU",
+                  "ES",
+                  "FR",
+                  "IT",
+                  "PT",
+                  "PL",
+                  "DE",
+                  "ZH_CN",
+                  "VI",
+                  "ZH_TW",
+                  "TH"
+                ],
+                "terms_conditions_version": "Version 48 2019-05-10"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "57529.294": {
+      "timestamp": "2021-05-20T16:28:43.007Z",
+      "url": "wss://blue.binaryws.com/websockets/v3?app_id=1&l=ES&brand=binary",
+      "messages": [
+        {
+          "timestamp": 14070.760725,
+          "io": "out",
+          "m": [
+            {
+              "website_status": 1,
+              "subscribe": 1,
+              "req_id": 1,
+              "passthrough": {}
+            }
+          ]
+        },
+        {
+          "timestamp": 14070.760861,
+          "io": "out",
+          "m": [
+            {
+              "time": 1,
+              "req_id": 2,
+              "passthrough": {}
+            }
+          ]
+        },
+        {
+          "timestamp": 14070.94487,
+          "io": "in",
+          "m": [
+            {
+              "echo_req": {
+                "passthrough": {},
+                "req_id": 2,
+                "time": 1
+              },
+              "msg_type": "time",
+              "passthrough": {},
+              "req_id": 2,
+              "time": 1621528123
+            }
+          ]
+        },
+        {
+          "timestamp": 14071.046222,
+          "io": "in",
+          "m": [
+            {
+              "echo_req": {
+                "passthrough": {},
+                "req_id": 1,
+                "subscribe": 1,
+                "website_status": 1
+              },
+              "msg_type": "website_status",
+              "passthrough": {},
+              "req_id": 1,
+              "subscription": {
+                "id": "22ecf7aa-c86f-e074-a9f5-2c5ed54e972e"
+              },
+              "website_status": {
+                "api_call_limits": {
+                  "max_proposal_subscription": {
+                    "applies_to": "subscribing to proposal concurrently",
+                    "max": 5
+                  },
+                  "max_requestes_general": {
+                    "applies_to": "rest of calls",
+                    "hourly": 14400,
+                    "minutely": 180
+                  },
+                  "max_requests_outcome": {
+                    "applies_to": "portfolio, statement and proposal",
+                    "hourly": 1500,
+                    "minutely": 25
+                  },
+                  "max_requests_pricing": {
+                    "applies_to": "proposal and proposal_open_contract",
+                    "hourly": 3600,
+                    "minutely": 80
+                  }
+                },
+                "clients_country": "es",
+                "crypto_config": {
+                  "BTC": {
+                    "minimum_withdrawal": 0.00062599
+                  },
+                  "BUSD": {
+                    "minimum_withdrawal": 25.01
+                  },
+                  "DAI": {
+                    "minimum_withdrawal": 24.86
+                  },
+                  "ETH": {
+                    "minimum_withdrawal": 0.01098103
+                  },
+                  "EURS": {
+                    "minimum_withdrawal": 20.48
+                  },
+                  "IDK": {
+                    "minimum_withdrawal": 72
+                  },
+                  "LTC": {
+                    "minimum_withdrawal": 0.02396472
+                  },
+                  "PAX": {
+                    "minimum_withdrawal": 25.05
+                  },
+                  "TUSD": {
+                    "minimum_withdrawal": 25
+                  },
+                  "USB": {
+                    "minimum_withdrawal": 25
+                  },
+                  "USDC": {
+                    "minimum_withdrawal": 25
+                  },
+                  "USDK": {
+                    "minimum_withdrawal": 21.38
+                  },
+                  "UST": {
+                    "minimum_withdrawal": 24.94
+                  },
+                  "eUSDT": {
+                    "minimum_withdrawal": 24.94
+                  }
+                },
+                "currencies_config": {
+                  "AUD": {
+                    "fractional_digits": 2,
+                    "is_deposit_suspended": 0,
+                    "is_suspended": 0,
+                    "is_withdrawal_suspended": 0,
+                    "name": "Australian Dollar",
+                    "stake_default": 10,
+                    "transfer_between_accounts": {
+                      "fees": {
+                        "BTC": 2,
+                        "BUSD": 2,
+                        "DAI": 2,
+                        "ETH": 2,
+                        "EUR": 1,
+                        "EURS": 2,
+                        "GBP": 1,
+                        "IDK": 2,
+                        "LTC": 2,
+                        "PAX": 2,
+                        "TUSD": 2,
+                        "USB": 2,
+                        "USD": 1,
+                        "USDC": 2,
+                        "USDK": 2,
+                        "UST": 2,
+                        "eUSDT": 2
+                      },
+                      "limits": {
+                        "max": 3218.04,
+                        "min": 1.29
+                      },
+                      "limits_dxtrade": {
+                        "max": 3217.88,
+                        "min": 1.29
+                      },
+                      "limits_mt5": {
+                        "max": 3217.88,
+                        "min": 1.29
+                      }
+                    },
+                    "type": "fiat"
+                  },
+                  "BTC": {
+                    "fractional_digits": 8,
+                    "is_deposit_suspended": 0,
+                    "is_suspended": 0,
+                    "is_withdrawal_suspended": 0,
+                    "name": "Bitcoin",
+                    "stake_default": 0.0002,
+                    "transfer_between_accounts": {
+                      "fees": {
+                        "AUD": 2,
+                        "EUR": 2,
+                        "GBP": 2,
+                        "USD": 2
+                      },
+                      "limits": {
+                        "max": 0.06266792,
+                        "min": 0.00002507
+                      },
+                      "limits_dxtrade": {
+                        "max": 0.06259906,
+                        "min": 0.00002504
+                      },
+                      "limits_mt5": {
+                        "max": 0.06259906,
+                        "min": 0.00002504
+                      }
+                    },
+                    "type": "crypto"
+                  },
+                  "BUSD": {
+                    "fractional_digits": 2,
+                    "is_deposit_suspended": 1,
+                    "is_suspended": 1,
+                    "is_withdrawal_suspended": 1,
+                    "name": "Binance USD",
+                    "stake_default": 10,
+                    "transfer_between_accounts": {
+                      "fees": {
+                        "AUD": 2,
+                        "EUR": 2,
+                        "GBP": 2,
+                        "USD": 2
+                      },
+                      "limits": {
+                        "max": 2500.75,
+                        "min": 1
+                      },
+                      "limits_dxtrade": {
+                        "max": 2500.75,
+                        "min": 1
+                      },
+                      "limits_mt5": {
+                        "max": 2500.75,
+                        "min": 1
+                      }
+                    },
+                    "type": "crypto"
+                  },
+                  "DAI": {
+                    "fractional_digits": 2,
+                    "is_deposit_suspended": 1,
+                    "is_suspended": 1,
+                    "is_withdrawal_suspended": 1,
+                    "name": "Multi-Collateral DAI",
+                    "stake_default": 10,
+                    "transfer_between_accounts": {
+                      "fees": {
+                        "AUD": 2,
+                        "EUR": 2,
+                        "GBP": 2,
+                        "USD": 2
+                      },
+                      "limits": {
+                        "max": 2486.29,
+                        "min": 0.99
+                      },
+                      "limits_dxtrade": {
+                        "max": 2486.29,
+                        "min": 0.99
+                      },
+                      "limits_mt5": {
+                        "max": 2486.29,
+                        "min": 0.99
+                      }
+                    },
+                    "type": "crypto"
+                  },
+                  "ETH": {
+                    "fractional_digits": 8,
+                    "is_deposit_suspended": 0,
+                    "is_suspended": 0,
+                    "is_withdrawal_suspended": 0,
+                    "name": "Ethereum",
+                    "stake_default": 0.006,
+                    "transfer_between_accounts": {
+                      "fees": {
+                        "AUD": 2,
+                        "EUR": 2,
+                        "GBP": 2,
+                        "USD": 2
+                      },
+                      "limits": {
+                        "max": 0.920196,
+                        "min": 0.00036808
+                      },
+                      "limits_dxtrade": {
+                        "max": 0.91508555,
+                        "min": 0.00036603
+                      },
+                      "limits_mt5": {
+                        "max": 0.91508555,
+                        "min": 0.00036603
+                      }
+                    },
+                    "type": "crypto"
+                  },
+                  "EUR": {
+                    "fractional_digits": 2,
+                    "is_deposit_suspended": 0,
+                    "is_suspended": 0,
+                    "is_withdrawal_suspended": 0,
+                    "name": "Euro",
+                    "stake_default": 10,
+                    "transfer_between_accounts": {
+                      "fees": {
+                        "AUD": 1,
+                        "BTC": 2,
+                        "BUSD": 2,
+                        "DAI": 2,
+                        "ETH": 2,
+                        "EURS": 2,
+                        "GBP": 1,
+                        "IDK": 2,
+                        "LTC": 2,
+                        "PAX": 2,
+                        "TUSD": 2,
+                        "USB": 2,
+                        "USD": 1,
+                        "USDC": 2,
+                        "USDK": 2,
+                        "UST": 2,
+                        "eUSDT": 2
+                      },
+                      "limits": {
+                        "max": 2046.33,
+                        "min": 0.82
+                      },
+                      "limits_dxtrade": {
+                        "max": 2046.01,
+                        "min": 0.82
+                      },
+                      "limits_mt5": {
+                        "max": 2046.01,
+                        "min": 0.82
+                      }
+                    },
+                    "type": "fiat"
+                  },
+                  "EURS": {
+                    "fractional_digits": 2,
+                    "is_deposit_suspended": 1,
+                    "is_suspended": 1,
+                    "is_withdrawal_suspended": 1,
+                    "name": "STATIS Euro",
+                    "stake_default": 10,
+                    "transfer_between_accounts": {
+                      "fees": {
+                        "AUD": 2,
+                        "EUR": 2,
+                        "GBP": 2,
+                        "USD": 2
+                      },
+                      "limits": {
+                        "max": 2048.26,
+                        "min": 0.82
+                      },
+                      "limits_dxtrade": {
+                        "max": 2048.26,
+                        "min": 0.82
+                      },
+                      "limits_mt5": {
+                        "max": 2048.26,
+                        "min": 0.82
+                      }
+                    },
+                    "type": "crypto"
+                  },
+                  "GBP": {
+                    "fractional_digits": 2,
+                    "is_deposit_suspended": 0,
+                    "is_suspended": 0,
+                    "is_withdrawal_suspended": 0,
+                    "name": "Pound Sterling",
+                    "stake_default": 10,
+                    "transfer_between_accounts": {
+                      "fees": {
+                        "AUD": 1,
+                        "BTC": 2,
+                        "BUSD": 2,
+                        "DAI": 2,
+                        "ETH": 2,
+                        "EUR": 1,
+                        "EURS": 2,
+                        "IDK": 2,
+                        "LTC": 2,
+                        "PAX": 2,
+                        "TUSD": 2,
+                        "USB": 2,
+                        "USD": 1,
+                        "USDC": 2,
+                        "USDK": 2,
+                        "UST": 2,
+                        "eUSDT": 2
+                      },
+                      "limits": {
+                        "max": 1763.2,
+                        "min": 0.71
+                      },
+                      "limits_dxtrade": {
+                        "max": 1763.06,
+                        "min": 0.71
+                      },
+                      "limits_mt5": {
+                        "max": 1763.06,
+                        "min": 0.71
+                      }
+                    },
+                    "type": "fiat"
+                  },
+                  "IDK": {
+                    "fractional_digits": 0,
+                    "is_deposit_suspended": 1,
+                    "is_suspended": 1,
+                    "is_withdrawal_suspended": 1,
+                    "name": "IDK",
+                    "stake_default": 140,
+                    "transfer_between_accounts": {
+                      "fees": {
+                        "AUD": 2,
+                        "EUR": 2,
+                        "GBP": 2,
+                        "USD": 2
+                      },
+                      "limits": {
+                        "max": 35920,
+                        "min": 14
+                      },
+                      "limits_dxtrade": {
+                        "max": 35920,
+                        "min": 14
+                      },
+                      "limits_mt5": {
+                        "max": 35920,
+                        "min": 14
+                      }
+                    },
+                    "type": "crypto"
+                  },
+                  "LTC": {
+                    "fractional_digits": 8,
+                    "is_deposit_suspended": 0,
+                    "is_suspended": 0,
+                    "is_withdrawal_suspended": 0,
+                    "name": "Litecoin",
+                    "stake_default": 0.06,
+                    "transfer_between_accounts": {
+                      "fees": {
+                        "AUD": 2,
+                        "EUR": 2,
+                        "GBP": 2,
+                        "USD": 2
+                      },
+                      "limits": {
+                        "max": 12.01201201,
+                        "min": 0.0048048
+                      },
+                      "limits_dxtrade": {
+                        "max": 11.98236196,
+                        "min": 0.00479294
+                      },
+                      "limits_mt5": {
+                        "max": 11.98236196,
+                        "min": 0.00479294
+                      }
+                    },
+                    "type": "crypto"
+                  },
+                  "PAX": {
+                    "fractional_digits": 2,
+                    "is_deposit_suspended": 1,
+                    "is_suspended": 1,
+                    "is_withdrawal_suspended": 1,
+                    "name": "Paxos Standard",
+                    "stake_default": 10,
+                    "transfer_between_accounts": {
+                      "fees": {
+                        "AUD": 2,
+                        "EUR": 2,
+                        "GBP": 2,
+                        "USD": 2
+                      },
+                      "limits": {
+                        "max": 2505.01,
+                        "min": 1
+                      },
+                      "limits_dxtrade": {
+                        "max": 2505.01,
+                        "min": 1
+                      },
+                      "limits_mt5": {
+                        "max": 2505.01,
+                        "min": 1
+                      }
+                    },
+                    "type": "crypto"
+                  },
+                  "TUSD": {
+                    "fractional_digits": 2,
+                    "is_deposit_suspended": 1,
+                    "is_suspended": 1,
+                    "is_withdrawal_suspended": 1,
+                    "name": "True USD",
+                    "stake_default": 10,
+                    "transfer_between_accounts": {
+                      "fees": {
+                        "AUD": 2,
+                        "EUR": 2,
+                        "GBP": 2,
+                        "USD": 2
+                      },
+                      "limits": {
+                        "max": 2499.86,
+                        "min": 1
+                      },
+                      "limits_dxtrade": {
+                        "max": 2499.86,
+                        "min": 1
+                      },
+                      "limits_mt5": {
+                        "max": 2499.86,
+                        "min": 1
+                      }
+                    },
+                    "type": "crypto"
+                  },
+                  "USB": {
+                    "fractional_digits": 2,
+                    "is_deposit_suspended": 1,
+                    "is_suspended": 1,
+                    "is_withdrawal_suspended": 1,
+                    "name": "Binary Coin",
+                    "stake_default": 10,
+                    "transfer_between_accounts": {
+                      "fees": {
+                        "AUD": 2,
+                        "EUR": 2,
+                        "GBP": 2,
+                        "USD": 2
+                      },
+                      "limits": {
+                        "max": 2500,
+                        "min": 1
+                      },
+                      "limits_dxtrade": {
+                        "max": 2500,
+                        "min": 1
+                      },
+                      "limits_mt5": {
+                        "max": 2500,
+                        "min": 1
+                      }
+                    },
+                    "type": "crypto"
+                  },
+                  "USD": {
+                    "fractional_digits": 2,
+                    "is_deposit_suspended": 0,
+                    "is_suspended": 0,
+                    "is_withdrawal_suspended": 0,
+                    "name": "US Dollar",
+                    "stake_default": 10,
+                    "transfer_between_accounts": {
+                      "fees": {
+                        "AUD": 1,
+                        "BTC": 2,
+                        "BUSD": 2,
+                        "DAI": 2,
+                        "ETH": 2,
+                        "EUR": 1,
+                        "EURS": 2,
+                        "GBP": 1,
+                        "IDK": 2,
+                        "LTC": 2,
+                        "PAX": 2,
+                        "TUSD": 2,
+                        "USB": 2,
+                        "USDC": 2,
+                        "USDK": 2,
+                        "UST": 2,
+                        "eUSDT": 2
+                      },
+                      "limits": {
+                        "max": 2500,
+                        "min": 1
+                      },
+                      "limits_dxtrade": {
+                        "max": 2500,
+                        "min": 1
+                      },
+                      "limits_mt5": {
+                        "max": 2500,
+                        "min": 1
+                      }
+                    },
+                    "type": "fiat"
+                  },
+                  "USDC": {
+                    "fractional_digits": 2,
+                    "is_deposit_suspended": 0,
+                    "is_suspended": 0,
+                    "is_withdrawal_suspended": 0,
+                    "name": "USD Coin",
+                    "stake_default": 10,
+                    "transfer_between_accounts": {
+                      "fees": {
+                        "AUD": 2,
+                        "EUR": 2,
+                        "GBP": 2,
+                        "USD": 2
+                      },
+                      "limits": {
+                        "max": 2499.88,
+                        "min": 1
+                      },
+                      "limits_dxtrade": {
+                        "max": 2499.88,
+                        "min": 1
+                      },
+                      "limits_mt5": {
+                        "max": 2499.88,
+                        "min": 1
+                      }
+                    },
+                    "type": "crypto"
+                  },
+                  "USDK": {
+                    "fractional_digits": 2,
+                    "is_deposit_suspended": 1,
+                    "is_suspended": 1,
+                    "is_withdrawal_suspended": 1,
+                    "name": "USDK",
+                    "stake_default": 10,
+                    "transfer_between_accounts": {
+                      "fees": {
+                        "AUD": 2,
+                        "EUR": 2,
+                        "GBP": 2,
+                        "USD": 2
+                      },
+                      "limits": {
+                        "max": 2138.4,
+                        "min": 0.86
+                      },
+                      "limits_dxtrade": {
+                        "max": 2138.4,
+                        "min": 0.86
+                      },
+                      "limits_mt5": {
+                        "max": 2138.4,
+                        "min": 0.86
+                      }
+                    },
+                    "type": "crypto"
+                  },
+                  "UST": {
+                    "fractional_digits": 2,
+                    "is_deposit_suspended": 0,
+                    "is_suspended": 0,
+                    "is_withdrawal_suspended": 0,
+                    "name": "Tether Omni",
+                    "stake_default": 10,
+                    "transfer_between_accounts": {
+                      "fees": {
+                        "AUD": 2,
+                        "EUR": 2,
+                        "GBP": 2,
+                        "USD": 2
+                      },
+                      "limits": {
+                        "max": 2494.49,
+                        "min": 1
+                      },
+                      "limits_dxtrade": {
+                        "max": 2494.49,
+                        "min": 1
+                      },
+                      "limits_mt5": {
+                        "max": 2494.49,
+                        "min": 1
+                      }
+                    },
+                    "type": "crypto"
+                  },
+                  "eUSDT": {
+                    "fractional_digits": 2,
+                    "is_deposit_suspended": 1,
+                    "is_suspended": 1,
+                    "is_withdrawal_suspended": 1,
+                    "name": "Tether ERC20",
+                    "stake_default": 10,
+                    "transfer_between_accounts": {
+                      "fees": {
+                        "AUD": 2,
+                        "EUR": 2,
+                        "GBP": 2,
+                        "USD": 2
+                      },
+                      "limits": {
+                        "max": 2494.49,
+                        "min": 1
+                      },
+                      "limits_dxtrade": {
+                        "max": 2494.49,
+                        "min": 1
+                      },
+                      "limits_mt5": {
+                        "max": 2494.49,
+                        "min": 1
+                      }
+                    },
+                    "type": "crypto"
+                  }
+                },
+                "p2p_config": {
+                  "adverts_active_limit": 3,
+                  "cancellation_block_duration": 24,
+                  "cancellation_count_period": 24,
+                  "cancellation_grace_period": 15,
+                  "cancellation_limit": 3,
+                  "maximum_advert_amount": 5001,
+                  "maximum_order_amount": 1000,
+                  "order_daily_limit": 200,
+                  "order_payment_period": 120
+                },
+                "site_status": "up",
+                "supported_languages": [
+                  "EN",
+                  "ID",
+                  "RU",
+                  "ES",
+                  "FR",
+                  "IT",
+                  "PT",
+                  "PL",
+                  "DE",
+                  "ZH_CN",
+                  "VI",
+                  "ZH_TW",
+                  "TH"
+                ],
+                "terms_conditions_version": "Version 48 2019-05-10"
+              }
+            }
+          ]
+        },
+        {
+          "timestamp": 14071.098837,
+          "io": "out",
+          "m": [
+            {
+              "landing_company": "es",
+              "req_id": 3,
+              "passthrough": {}
+            }
+          ]
+        },
+        {
+          "timestamp": 14071.325991,
+          "io": "in",
+          "m": [
+            {
+              "echo_req": {
+                "landing_company": "es",
+                "passthrough": {},
+                "req_id": 3
+              },
+              "landing_company": {
+                "config": {
+                  "tin_format": [
+                    "^[KkLlMmXxYyZz]\\d{7}[A-Za-z]$",
+                    "^\\d{8}[A-Za-z]$"
+                  ]
+                },
+                "financial_company": {
+                  "address": [
+                    "W Business Centre",
+                    "Level 3",
+                    "Triq Dun Karm",
+                    "Birkirkara",
+                    "BKR 9033",
+                    "Malta"
+                  ],
+                  "changeable_fields": {
+                    "only_before_auth": [
+                      "tax_residence",
+                      "tax_identification_number"
+                    ]
+                  },
+                  "country": "Malta",
+                  "currency_config": {
+                    "forex": {
+                      "EUR": {
+                        "max_payout": 50000,
+                        "min_stake": 5
+                      },
+                      "GBP": {
+                        "max_payout": 50000,
+                        "min_stake": 5
+                      },
+                      "USD": {
+                        "max_payout": 50000,
+                        "min_stake": 5
+                      }
+                    }
+                  },
+                  "has_reality_check": 0,
+                  "legal_allowed_contract_categories": [
+                    "multiplier"
+                  ],
+                  "legal_allowed_currencies": [
+                    "EUR",
+                    "GBP",
+                    "USD"
+                  ],
+                  "legal_allowed_markets": [
+                    "forex"
+                  ],
+                  "legal_default_currency": "EUR",
+                  "name": "Deriv Investments (Europe) Limited",
+                  "requirements": {
+                    "signup": [
+                      "salutation",
+                      "citizen",
+                      "tax_residence",
+                      "tax_identification_number",
+                      "first_name",
+                      "last_name",
+                      "date_of_birth",
+                      "residence",
+                      "address_line_1",
+                      "address_city",
+                      "account_opening_reason"
+                    ]
+                  },
+                  "shortcode": "maltainvest"
+                },
+                "id": "es",
+                "minimum_age": 18,
+                "mt_financial_company": {
+                  "financial": {
+                    "address": [
+                      "W Business Centre",
+                      "Level 3",
+                      "Triq Dun Karm",
+                      "Birkirkara",
+                      "BKR 9033",
+                      "Malta"
+                    ],
+                    "changeable_fields": {
+                      "only_before_auth": [
+                        "tax_residence",
+                        "tax_identification_number"
+                      ]
+                    },
+                    "country": "Malta",
+                    "currency_config": {
+                      "forex": {
+                        "EUR": {
+                          "max_payout": 50000,
+                          "min_stake": 5
+                        },
+                        "GBP": {
+                          "max_payout": 50000,
+                          "min_stake": 5
+                        },
+                        "USD": {
+                          "max_payout": 50000,
+                          "min_stake": 5
+                        }
+                      }
+                    },
+                    "has_reality_check": 0,
+                    "legal_allowed_contract_categories": [
+                      "multiplier"
+                    ],
+                    "legal_allowed_currencies": [
+                      "EUR",
+                      "GBP",
+                      "USD"
+                    ],
+                    "legal_allowed_markets": [
+                      "forex"
+                    ],
+                    "legal_default_currency": "EUR",
+                    "name": "Deriv Investments (Europe) Limited",
+                    "requirements": {
+                      "signup": [
+                        "salutation",
+                        "citizen",
+                        "tax_residence",
+                        "tax_identification_number",
+                        "first_name",
+                        "last_name",
+                        "date_of_birth",
+                        "residence",
+                        "address_line_1",
+                        "address_city",
+                        "account_opening_reason"
+                      ]
+                    },
+                    "shortcode": "maltainvest"
+                  },
+                  "swap_free": {
+                    "address": [
+                      "W Business Centre",
+                      "Level 3",
+                      "Triq Dun Karm",
+                      "Birkirkara",
+                      "BKR 9033",
+                      "Malta"
+                    ],
+                    "changeable_fields": {
+                      "only_before_auth": [
+                        "tax_residence",
+                        "tax_identification_number"
+                      ]
+                    },
+                    "country": "Malta",
+                    "currency_config": {
+                      "forex": {
+                        "EUR": {
+                          "max_payout": 50000,
+                          "min_stake": 5
+                        },
+                        "GBP": {
+                          "max_payout": 50000,
+                          "min_stake": 5
+                        },
+                        "USD": {
+                          "max_payout": 50000,
+                          "min_stake": 5
+                        }
+                      }
+                    },
+                    "has_reality_check": 0,
+                    "legal_allowed_contract_categories": [
+                      "multiplier"
+                    ],
+                    "legal_allowed_currencies": [
+                      "EUR",
+                      "GBP",
+                      "USD"
+                    ],
+                    "legal_allowed_markets": [
+                      "forex"
+                    ],
+                    "legal_default_currency": "EUR",
+                    "name": "Deriv Investments (Europe) Limited",
+                    "requirements": {
+                      "signup": [
+                        "salutation",
+                        "citizen",
+                        "tax_residence",
+                        "tax_identification_number",
+                        "first_name",
+                        "last_name",
+                        "date_of_birth",
+                        "residence",
+                        "address_line_1",
+                        "address_city",
+                        "account_opening_reason"
+                      ]
+                    },
+                    "shortcode": "maltainvest"
+                  }
+                },
+                "name": "Spain",
+                "virtual_company": "virtual"
+              },
+              "msg_type": "landing_company",
+              "passthrough": {},
+              "req_id": 3
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "cookies": [
+    {
+      "name": "language",
+      "value": "ES",
+      "domain": "binary.com",
+      "path": "/",
+      "expires": 2114424000,
+      "size": 10,
+      "httpOnly": false,
+      "secure": true,
+      "session": false,
+      "sameSite": "None",
+      "expiresUTC": "2037-01-01T12:00:00.000Z",
+      "expiresDays": 5704.81,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 1024,
+            "lineNumber": 35,
+            "fileName": "https://www.binary.com/js/vendor.min.js?7e35b7efdd3891020b72025dfe5105ed91e281ff",
+            "functionName": "Function.r [as set]",
+            "source": "    at Function.r [as set] (https://www.binary.com/js/vendor.min.js?7e35b7efdd3891020b72025dfe5105ed91e281ff:35:1024)"
+          },
+          {
+            "columnNumber": 1419029,
+            "lineNumber": 1,
+            "fileName": "https://www.binary.com/js/binary.min.js?uhzd4y6w",
+            "functionName": "b.write",
+            "source": "    at b.write (https://www.binary.com/js/binary.min.js?uhzd4y6w:1:1419029)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T16:28:43.380Z",
+        "location": "https://www.binary.com/es/home.html"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "__lc2_cst",
+      "value": "33cf035c0a540b3762d0d851d21edb15dae09483d5a62f930bf8904202d87df4bdf53e04fd3e158df2b8e2d282de8e2ba71275d9167a57ad3cf1baa64a97",
+      "domain": "accounts.livechatinc.com",
+      "path": "/licence",
+      "expires": 1684600125.343001,
+      "size": 133,
+      "httpOnly": true,
+      "secure": true,
+      "session": false,
+      "sameSite": "None",
+      "expiresUTC": "2023-05-20T16:28:45.343Z",
+      "expiresDays": 730,
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://accounts.livechatinc.com/customer?license_id=12049137&flow=button&response_type=token&client_id=c5e4f61e1a6c3b1521b541bc5c5a2ac5&redirect_uri=https%3A%2F%2Fsecure.livechatinc.com%2Flicence%2F12049137%2Fv2%2Fopen_chat.cgi&post_message_uri=https%3A%2F%2Fsecure.livechatinc.com%2Flicence%2F12049137%2Fv2%2Fopen_chat.cgi&state=%40livechat%2Fcustomer-auth",
+            "source": "set in Set-Cookie HTTP response header for https://accounts.livechatinc.com/customer?license_id=12049137&flow=button&response_type=token&client_id=c5e4f61e1a6c3b1521b541bc5c5a2ac5&redirect_uri=https%3A%2F%2Fsecure.livechatinc.com%2Flicence%2F12049137%2Fv2%2Fopen_chat.cgi&post_message_uri=https%3A%2F%2Fsecure.livechatinc.com%2Flicence%2F12049137%2Fv2%2Fopen_chat.cgi&state=%40livechat%2Fcustomer-auth"
+          }
+        ],
+        "type": "Cookie.HTTP",
+        "timestamp": "2021-05-20T16:28:45.371Z",
+        "location": "https://www.binary.com/es/home.html?account_tabs=binary_options&market_tabs=binary"
+      },
+      "firstPartyStorage": false
+    },
+    {
+      "name": "__lc2_cid",
+      "value": "2942532c-33b2-4236-60f8-b0e034dfa059",
+      "domain": "accounts.livechatinc.com",
+      "path": "/licence",
+      "expires": 1684600125.342982,
+      "size": 45,
+      "httpOnly": true,
+      "secure": true,
+      "session": false,
+      "sameSite": "None",
+      "expiresUTC": "2023-05-20T16:28:45.342Z",
+      "expiresDays": 730,
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://accounts.livechatinc.com/customer?license_id=12049137&flow=button&response_type=token&client_id=c5e4f61e1a6c3b1521b541bc5c5a2ac5&redirect_uri=https%3A%2F%2Fsecure.livechatinc.com%2Flicence%2F12049137%2Fv2%2Fopen_chat.cgi&post_message_uri=https%3A%2F%2Fsecure.livechatinc.com%2Flicence%2F12049137%2Fv2%2Fopen_chat.cgi&state=%40livechat%2Fcustomer-auth",
+            "source": "set in Set-Cookie HTTP response header for https://accounts.livechatinc.com/customer?license_id=12049137&flow=button&response_type=token&client_id=c5e4f61e1a6c3b1521b541bc5c5a2ac5&redirect_uri=https%3A%2F%2Fsecure.livechatinc.com%2Flicence%2F12049137%2Fv2%2Fopen_chat.cgi&post_message_uri=https%3A%2F%2Fsecure.livechatinc.com%2Flicence%2F12049137%2Fv2%2Fopen_chat.cgi&state=%40livechat%2Fcustomer-auth"
+          }
+        ],
+        "type": "Cookie.HTTP",
+        "timestamp": "2021-05-20T16:28:45.371Z",
+        "location": "https://www.binary.com/es/home.html?account_tabs=binary_options&market_tabs=binary"
+      },
+      "firstPartyStorage": false
+    },
+    {
+      "name": "__lc_cst",
+      "value": "33cf035c0a540b3762d0d851d21edb15dae09483d5a62f930bf8904202d87df4bdf53e04fd3e158df2b8e2d282de8e2ba71275d9167a57ad3cf1baa64a97",
+      "domain": "accounts.livechatinc.com",
+      "path": "/customer",
+      "expires": 1684600125.342962,
+      "size": 132,
+      "httpOnly": true,
+      "secure": true,
+      "session": false,
+      "sameSite": "None",
+      "expiresUTC": "2023-05-20T16:28:45.342Z",
+      "expiresDays": 730,
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://accounts.livechatinc.com/customer?license_id=12049137&flow=button&response_type=token&client_id=c5e4f61e1a6c3b1521b541bc5c5a2ac5&redirect_uri=https%3A%2F%2Fsecure.livechatinc.com%2Flicence%2F12049137%2Fv2%2Fopen_chat.cgi&post_message_uri=https%3A%2F%2Fsecure.livechatinc.com%2Flicence%2F12049137%2Fv2%2Fopen_chat.cgi&state=%40livechat%2Fcustomer-auth",
+            "source": "set in Set-Cookie HTTP response header for https://accounts.livechatinc.com/customer?license_id=12049137&flow=button&response_type=token&client_id=c5e4f61e1a6c3b1521b541bc5c5a2ac5&redirect_uri=https%3A%2F%2Fsecure.livechatinc.com%2Flicence%2F12049137%2Fv2%2Fopen_chat.cgi&post_message_uri=https%3A%2F%2Fsecure.livechatinc.com%2Flicence%2F12049137%2Fv2%2Fopen_chat.cgi&state=%40livechat%2Fcustomer-auth"
+          }
+        ],
+        "type": "Cookie.HTTP",
+        "timestamp": "2021-05-20T16:28:45.371Z",
+        "location": "https://www.binary.com/es/home.html?account_tabs=binary_options&market_tabs=binary"
+      },
+      "firstPartyStorage": false
+    },
+    {
+      "name": "__lc_cid",
+      "value": "2942532c-33b2-4236-60f8-b0e034dfa059",
+      "domain": "accounts.livechatinc.com",
+      "path": "/customer",
+      "expires": 1684600125.342913,
+      "size": 44,
+      "httpOnly": true,
+      "secure": true,
+      "session": false,
+      "sameSite": "None",
+      "expiresUTC": "2023-05-20T16:28:45.342Z",
+      "expiresDays": 730,
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://accounts.livechatinc.com/customer?license_id=12049137&flow=button&response_type=token&client_id=c5e4f61e1a6c3b1521b541bc5c5a2ac5&redirect_uri=https%3A%2F%2Fsecure.livechatinc.com%2Flicence%2F12049137%2Fv2%2Fopen_chat.cgi&post_message_uri=https%3A%2F%2Fsecure.livechatinc.com%2Flicence%2F12049137%2Fv2%2Fopen_chat.cgi&state=%40livechat%2Fcustomer-auth",
+            "source": "set in Set-Cookie HTTP response header for https://accounts.livechatinc.com/customer?license_id=12049137&flow=button&response_type=token&client_id=c5e4f61e1a6c3b1521b541bc5c5a2ac5&redirect_uri=https%3A%2F%2Fsecure.livechatinc.com%2Flicence%2F12049137%2Fv2%2Fopen_chat.cgi&post_message_uri=https%3A%2F%2Fsecure.livechatinc.com%2Flicence%2F12049137%2Fv2%2Fopen_chat.cgi&state=%40livechat%2Fcustomer-auth"
+          }
+        ],
+        "type": "Cookie.HTTP",
+        "timestamp": "2021-05-20T16:28:45.371Z",
+        "location": "https://www.binary.com/es/home.html?account_tabs=binary_options&market_tabs=binary"
+      },
+      "firstPartyStorage": false
+    },
+    {
+      "name": "utm_data",
+      "value": "{%22utm_source%22:%22binary_direct%22}",
+      "domain": "binary.com",
+      "path": "/",
+      "expires": 1629476923,
+      "size": 46,
+      "httpOnly": false,
+      "secure": true,
+      "session": false,
+      "sameSite": "None",
+      "expiresUTC": "2021-08-20T16:28:43.000Z",
+      "expiresDays": 92,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 1024,
+            "lineNumber": 35,
+            "fileName": "https://www.binary.com/js/vendor.min.js?7e35b7efdd3891020b72025dfe5105ed91e281ff",
+            "functionName": "Function.r [as set]",
+            "source": "    at Function.r [as set] (https://www.binary.com/js/vendor.min.js?7e35b7efdd3891020b72025dfe5105ed91e281ff:35:1024)"
+          },
+          {
+            "columnNumber": 1419288,
+            "lineNumber": 1,
+            "fileName": "https://www.binary.com/js/binary.min.js?uhzd4y6w",
+            "functionName": "b.set",
+            "source": "    at b.set (https://www.binary.com/js/binary.min.js?uhzd4y6w:1:1419288)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T16:28:43.383Z",
+        "location": "https://www.binary.com/es/home.html"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "__oauth_redirect_detector",
+      "value": "counter=1&t=1621528155&tag=5b3302f7d3d0b462e1c28ab540fdab2977de20d9",
+      "domain": "accounts.livechatinc.com",
+      "path": "/",
+      "expires": 1621528155.343019,
+      "size": 92,
+      "httpOnly": true,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2021-05-20T16:29:15.343Z",
+      "expiresDays": 0,
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://accounts.livechatinc.com/customer?license_id=12049137&flow=button&response_type=token&client_id=c5e4f61e1a6c3b1521b541bc5c5a2ac5&redirect_uri=https%3A%2F%2Fsecure.livechatinc.com%2Flicence%2F12049137%2Fv2%2Fopen_chat.cgi&post_message_uri=https%3A%2F%2Fsecure.livechatinc.com%2Flicence%2F12049137%2Fv2%2Fopen_chat.cgi&state=%40livechat%2Fcustomer-auth",
+            "source": "set in Set-Cookie HTTP response header for https://accounts.livechatinc.com/customer?license_id=12049137&flow=button&response_type=token&client_id=c5e4f61e1a6c3b1521b541bc5c5a2ac5&redirect_uri=https%3A%2F%2Fsecure.livechatinc.com%2Flicence%2F12049137%2Fv2%2Fopen_chat.cgi&post_message_uri=https%3A%2F%2Fsecure.livechatinc.com%2Flicence%2F12049137%2Fv2%2Fopen_chat.cgi&state=%40livechat%2Fcustomer-auth"
+          }
+        ],
+        "type": "Cookie.HTTP",
+        "timestamp": "2021-05-20T16:28:45.371Z",
+        "location": "https://www.binary.com/es/home.html?account_tabs=binary_options&market_tabs=binary"
+      },
+      "firstPartyStorage": false
+    }
+  ],
+  "localStorage": {
+    "https://www.binary.com": {
+      "deriv_banner_type": {
+        "value": "multiplier",
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 269018,
+              "lineNumber": 1,
+              "fileName": "https://www.binary.com/js/binary.min.js?uhzd4y6w",
+              "functionName": "Object.chooseBanner",
+              "source": "    at Object.chooseBanner (https://www.binary.com/js/binary.min.js?uhzd4y6w:1:269018)"
+            },
+            {
+              "columnNumber": 443191,
+              "lineNumber": 1,
+              "fileName": "https://www.binary.com/js/binary.min.js?uhzd4y6w",
+              "functionName": "HTMLDocument.init",
+              "source": "    at HTMLDocument.init (https://www.binary.com/js/binary.min.js?uhzd4y6w:1:443191)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T16:28:43.007Z",
+          "location": "https://www.binary.com/es/home.html"
+        }
+      },
+      "date_first_contact": {
+        "value": "2021-05-20",
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 1417249,
+              "lineNumber": 1,
+              "fileName": "https://www.binary.com/js/binary.min.js?uhzd4y6w",
+              "functionName": "h.set",
+              "source": "    at h.set (https://www.binary.com/js/binary.min.js?uhzd4y6w:1:1417249)"
+            },
+            {
+              "columnNumber": 128455,
+              "lineNumber": 1,
+              "fileName": "https://www.binary.com/js/binary.min.js?uhzd4y6w",
+              "source": "    at https://www.binary.com/js/binary.min.js?uhzd4y6w:1:128455"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T16:28:43.841Z",
+          "location": "https://www.binary.com/es/home.html?account_tabs=binary_options&market_tabs=binary"
+        }
+      },
+      "fakePushToken": {
+        "value": "mAn589AIMcksHuUM2yg6NW146lW5ir0I",
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 35579,
+              "lineNumber": 233,
+              "fileName": "https://www.binary.com/js/vendor.min.js?7e35b7efdd3891020b72025dfe5105ed91e281ff",
+              "functionName": "d",
+              "source": "    at d (https://www.binary.com/js/vendor.min.js?7e35b7efdd3891020b72025dfe5105ed91e281ff:233:35579)"
+            },
+            {
+              "columnNumber": 36215,
+              "lineNumber": 233,
+              "fileName": "https://www.binary.com/js/vendor.min.js?7e35b7efdd3891020b72025dfe5105ed91e281ff",
+              "functionName": "Object.t.generateHwid",
+              "source": "    at Object.t.generateHwid (https://www.binary.com/js/vendor.min.js?7e35b7efdd3891020b72025dfe5105ed91e281ff:233:36215)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T16:28:43.790Z",
+          "location": "https://www.binary.com/es/home.html?account_tabs=binary_options&market_tabs=binary"
+        }
+      },
+      "signup_device": {
+        "value": "desktop",
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 1417249,
+              "lineNumber": 1,
+              "fileName": "https://www.binary.com/js/binary.min.js?uhzd4y6w",
+              "functionName": "h.set",
+              "source": "    at h.set (https://www.binary.com/js/binary.min.js?uhzd4y6w:1:1417249)"
+            },
+            {
+              "columnNumber": 128532,
+              "lineNumber": 1,
+              "fileName": "https://www.binary.com/js/binary.min.js?uhzd4y6w",
+              "functionName": "Object.onLoad",
+              "source": "    at Object.onLoad (https://www.binary.com/js/binary.min.js?uhzd4y6w:1:128532)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T16:28:43.383Z",
+          "location": "https://www.binary.com/es/home.html"
+        }
+      }
+    },
+    "https://secure.livechatinc.com": {
+      "12049137:state": {
+        "value": {
+          "clientLimitExceededLifted": {
+            "value": false,
+            "expires": 1621529924854
+          },
+          "eyeCatcherHidden": {
+            "value": false,
+            "expires": 1621529924854
+          },
+          "invitationHiddenIds": {
+            "value": [],
+            "expires": 1621529924854
+          },
+          "invitationDisplayedIds": {
+            "value": [],
+            "expires": 1621529924854
+          },
+          "maximized": {
+            "value": false,
+            "expires": 1621529924854
+          },
+          "visibility": {
+            "value": {
+              "state": "minimized"
+            },
+            "expires": 1621529924854
+          },
+          "muted": {
+            "value": false,
+            "expires": 1621529924854
+          },
+          "limitReached": {
+            "value": false,
+            "expires": 1621529924854
+          },
+          "greetingsMuted": {
+            "value": false,
+            "expires": 1621529924854
+          }
+        },
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 117757,
+              "lineNumber": 1,
+              "fileName": "https://cdn.livechatinc.com/widget/static/js/iframe.ceda95d1.chunk.js",
+              "source": "    at https://cdn.livechatinc.com/widget/static/js/iframe.ceda95d1.chunk.js:1:117757"
+            },
+            {
+              "columnNumber": 41670,
+              "lineNumber": 2,
+              "fileName": "https://cdn.livechatinc.com/widget/static/js/7.119fa325.chunk.js",
+              "functionName": "v",
+              "source": "    at v (https://cdn.livechatinc.com/widget/static/js/7.119fa325.chunk.js:2:41670)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T16:28:44.862Z",
+          "location": "https://www.binary.com"
+        }
+      },
+      "_livechat_has_visited": {
+        "value": true,
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 225364,
+              "lineNumber": 1,
+              "fileName": "https://cdn.livechatinc.com/widget/static/js/iframe.ceda95d1.chunk.js",
+              "functionName": "Object.38",
+              "source": "    at Object.38 (https://cdn.livechatinc.com/widget/static/js/iframe.ceda95d1.chunk.js:1:225364)"
+            },
+            {
+              "columnNumber": 2269,
+              "lineNumber": 1,
+              "fileName": "https://secure.livechatinc.com/licence/12049137/v2/open_chat.cgi?license=12049137&group=41&embedded=1&widget_version=3&unique_groups=0",
+              "functionName": "i",
+              "source": "    at i (https://secure.livechatinc.com/licence/12049137/v2/open_chat.cgi?license=12049137&group=41&embedded=1&widget_version=3&unique_groups=0:1:2269)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T16:28:44.837Z",
+          "location": "https://www.binary.com"
+        }
+      }
+    }
+  },
+  "beacons": [
+    {
+      "url": "https://d04e6-fa474.api.pushwoosh.com/json/1.3/setTags",
+      "query": null,
+      "filter": "||pushwoosh.com^$third-party",
+      "listName": "fanboy-annoyance.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.binary.com/es/home.html?account_tabs=binary_options&market_tabs=binary",
+            "source": "requested from https://www.binary.com/es/home.html?account_tabs=binary_options&market_tabs=binary and matched with fanboy-annoyance.txt filter ||pushwoosh.com^$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T16:28:44.455Z"
+      },
+      "occurrances": 2
+    },
+    {
+      "url": "https://d04e6-fa474.api.pushwoosh.com/json/1.3/getTags",
+      "query": null,
+      "filter": "||pushwoosh.com^$third-party",
+      "listName": "fanboy-annoyance.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.binary.com/es/home.html?account_tabs=binary_options&market_tabs=binary",
+            "source": "requested from https://www.binary.com/es/home.html?account_tabs=binary_options&market_tabs=binary and matched with fanboy-annoyance.txt filter ||pushwoosh.com^$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T16:28:44.363Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://d04e6-fa474.api.pushwoosh.com/json/1.3/applicationOpen",
+      "query": null,
+      "filter": "||pushwoosh.com^$third-party",
+      "listName": "fanboy-annoyance.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.binary.com/es/home.html?account_tabs=binary_options&market_tabs=binary",
+            "source": "requested from https://www.binary.com/es/home.html?account_tabs=binary_options&market_tabs=binary and matched with fanboy-annoyance.txt filter ||pushwoosh.com^$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T16:28:44.011Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://browser-update.org/update.min.js",
+      "query": null,
+      "filter": "||browser-update.org^$third-party",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.binary.com/es/home.html",
+            "source": "requested from https://www.binary.com/es/home.html and matched with easyprivacy.txt filter ||browser-update.org^$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T16:28:43.007Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://www.binary.com/images/social/apple.svg",
+      "query": null,
+      "filter": "/images/social/*",
+      "listName": "fanboy-annoyance.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.binary.com/es/home.html",
+            "source": "requested from https://www.binary.com/es/home.html and matched with fanboy-annoyance.txt filter /images/social/*"
+          }
+        ],
+        "timestamp": "2021-05-20T16:28:43.005Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://www.binary.com/images/social/facebook.svg",
+      "query": null,
+      "filter": "/images/social/*",
+      "listName": "fanboy-annoyance.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.binary.com/es/home.html",
+            "source": "requested from https://www.binary.com/es/home.html and matched with fanboy-annoyance.txt filter /images/social/*"
+          }
+        ],
+        "timestamp": "2021-05-20T16:28:43.005Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://www.binary.com/images/social/google.svg",
+      "query": null,
+      "filter": "/images/social/*",
+      "listName": "fanboy-annoyance.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.binary.com/es/home.html",
+            "source": "requested from https://www.binary.com/es/home.html and matched with fanboy-annoyance.txt filter /images/social/*"
+          }
+        ],
+        "timestamp": "2021-05-20T16:28:43.004Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://static.cloudflareinsights.com/beacon.min.js",
+      "query": null,
+      "filter": "||cloudflareinsights.com^$third-party",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.binary.com/es/home.html",
+            "source": "requested from https://www.binary.com/es/home.html and matched with easyprivacy.txt filter ||cloudflareinsights.com^$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T16:28:42.073Z"
+      },
+      "occurrances": 2
+    },
+    {
+      "url": "https://www.binary.com/images/pages/footer/twitter.svg",
+      "query": null,
+      "filter": "/footer/twitter.",
+      "listName": "fanboy-annoyance.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.binary.com/es/home.html",
+            "source": "requested from https://www.binary.com/es/home.html and matched with fanboy-annoyance.txt filter /footer/twitter."
+          }
+        ],
+        "timestamp": "2021-05-20T16:28:42.067Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://www.binary.com/images/pages/footer/facebook.svg",
+      "query": null,
+      "filter": "/footer/facebook.",
+      "listName": "fanboy-annoyance.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.binary.com/es/home.html",
+            "source": "requested from https://www.binary.com/es/home.html and matched with fanboy-annoyance.txt filter /footer/facebook."
+          }
+        ],
+        "timestamp": "2021-05-20T16:28:42.067Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://www.binary.com/images/pages/footer/youtube.svg",
+      "query": null,
+      "filter": "/footer/youtube.",
+      "listName": "fanboy-annoyance.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.binary.com/es/home.html",
+            "source": "requested from https://www.binary.com/es/home.html and matched with fanboy-annoyance.txt filter /footer/youtube."
+          }
+        ],
+        "timestamp": "2021-05-20T16:28:42.066Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://www.binary.com/pushwoosh-web-notifications.js",
+      "query": null,
+      "filter": "/pushwoosh-",
+      "listName": "fanboy-annoyance.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.binary.com/es/home.html",
+            "source": "requested from https://www.binary.com/es/home.html and matched with fanboy-annoyance.txt filter /pushwoosh-"
+          }
+        ],
+        "timestamp": "2021-05-20T16:28:42.038Z"
+      },
+      "occurrances": 1
+    }
+  ],
+  "hosts": {
+    "requests": {
+      "firstParty": [
+        "binary.com"
+      ],
+      "thirdParty": [
+        "www.binary.com",
+        "static.cloudflareinsights.com",
+        "fonts.googleapis.com",
+        "fonts.gstatic.com",
+        "cdn.livechatinc.com",
+        "browser-update.org",
+        "cdn.elev.io",
+        "api.livechatinc.com",
+        "d04e6-fa474.api.pushwoosh.com",
+        "secure.livechatinc.com",
+        "accounts.livechatinc.com"
+      ]
+    },
+    "beacons": {
+      "firstParty": [],
+      "thirdParty": [
+        "browser-update.org",
+        "static.cloudflareinsights.com"
+      ]
+    },
+    "cookies": {
+      "firstParty": [
+        "binary.com"
+      ],
+      "thirdParty": [
+        "accounts.livechatinc.com"
+      ]
+    },
+    "localStorage": {
+      "firstParty": [],
+      "thirdParty": [
+        "www.binary.com",
+        "secure.livechatinc.com"
+      ]
+    },
+    "links": {
+      "firstParty": [],
+      "thirdParty": [
+        "www.binary.com",
+        "webtrader.binary.com",
+        "www.binary.bot",
+        "app.deriv.com",
+        "tradingview.binary.com",
+        "charts.binary.com",
+        "deriv.com",
+        "www.gamcare.org.uk",
+        "binarycom.statuspage.io",
+        "developers.binary.com",
+        "shop.binary.com",
+        "www.vfsc.vu",
+        "www.bvifsc.vg",
+        "www.labuanibfc.com",
+        "www.youtube.com",
+        "www.facebook.com",
+        "www.twitter.com",
+        "t.me",
+        "www.reddit.com",
+        "www.gov.im",
+        "www.gamstop.co.uk",
+        "www.authorisation.mga.org.mt",
+        "beta.gamblingcommission.gov.uk"
+      ]
+    }
+  }
+}

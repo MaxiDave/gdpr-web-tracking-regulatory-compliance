@@ -1,0 +1,941 @@
+{
+  "title": "Website Evidence Collection",
+  "task_description": null,
+  "uri_ins": "https://cocinatis.com",
+  "uri_refs": [
+    "https://cocinatis.com"
+  ],
+  "uri_dest": "https://www.cocinatis.com/",
+  "uri_redirects": [
+    "https://cocinatis.com/"
+  ],
+  "secure_connection": {
+    "https_support": true,
+    "redirects": [
+      "https://www.cocinatis.com/"
+    ],
+    "https_redirect": true
+  },
+  "host": "cocinatis.com",
+  "script": {
+    "host": "sfod",
+    "version": {
+      "npm": "1.0.0",
+      "commit": null
+    },
+    "cmd_args": "-q --overwrite https://cocinatis.com -- --ignore-certificate-errors",
+    "environment": {
+      "CHROME_DESKTOP": "code-url-handler.desktop"
+    },
+    "node_version": "v14.17.0"
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "HeadlessChrome/80.0.3987.0",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3617.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "5.8.0-53-generic"
+    },
+    "extra_headers": {},
+    "preset_cookies": {}
+  },
+  "start_time": "2021-05-20T16:45:57.092Z",
+  "end_time": "2021-05-20T16:46:05.402Z",
+  "links": {
+    "firstParty": [],
+    "thirdParty": [
+      {
+        "href": "https://www.facebook.com/cocinatis/",
+        "inner_text": "",
+        "inner_html": "<i class=\"fab fa-facebook-f text-white\"></i>"
+      },
+      {
+        "href": "https://twitter.com/cocinatis",
+        "inner_text": "",
+        "inner_html": "<i class=\"fab fa-twitter text-white\"></i>"
+      },
+      {
+        "href": "https://www.instagram.com/cocinatis/",
+        "inner_text": "",
+        "inner_html": "<i class=\"fab fa-instagram text-white\"></i>"
+      },
+      {
+        "href": "https://www.pinterest.es/cocinatis/",
+        "inner_text": "",
+        "inner_html": "<i class=\"fab fa-pinterest-p text-white\"></i>"
+      },
+      {
+        "href": "https://www.youtube.com/user/cocinatis",
+        "inner_text": "",
+        "inner_html": "<i class=\"fab fa-youtube text-white\"></i>"
+      },
+      {
+        "href": "https://www.cocinatis.com/",
+        "inner_text": "",
+        "inner_html": "<img src=\"/static/img/cocinatis_logo.png\" class=\"img img-fluid header-logo\" alt=\"Cocinatis\">"
+      },
+      {
+        "href": "https://www.cocinatis.com/login?next=https://www.cocinatis.com/",
+        "inner_text": "ENTRA",
+        "inner_html": "ENTRA"
+      },
+      {
+        "href": "https://www.cocinatis.com/registro-cocinatis",
+        "inner_text": "REGÍSTRATE",
+        "inner_html": "REGÍSTRATE"
+      },
+      {
+        "href": "https://www.cocinatis.com/como-cocinar/consejos-trucos/",
+        "inner_text": "CONSEJOS Y TRUCOS",
+        "inner_html": "CONSEJOS Y TRUCOS"
+      },
+      {
+        "href": "https://www.cocinatis.com/como-cocinar/a-prueba/",
+        "inner_text": "A PRUEBA",
+        "inner_html": "A PRUEBA"
+      },
+      {
+        "href": "https://www.cocinatis.com/que-cocino-hoy",
+        "inner_text": "¿QUÉ COCINO HOY?",
+        "inner_html": "¿QUÉ COCINO HOY?"
+      },
+      {
+        "href": "https://www.cocinatis.com/que-tengo/recetas-con-arroces-y-cereales",
+        "inner_text": "\n                        Arroces y cereales \n                    ",
+        "inner_html": "<strong class=\"menu-option-title d-block\">Arroces y cereales </strong>"
+      },
+      {
+        "href": "https://www.cocinatis.com/que-tengo/recetas-con-marisco",
+        "inner_text": "\n                        Marisco \n                    ",
+        "inner_html": "<strong class=\"menu-option-title d-block\">Marisco </strong>"
+      },
+      {
+        "href": "https://www.cocinatis.com/que-tengo/recetas-con-verduras",
+        "inner_text": "\n                        Verduras \n                    ",
+        "inner_html": "<strong class=\"menu-option-title d-block\">Verduras </strong>"
+      },
+      {
+        "href": "https://www.cocinatis.com/que-tengo/recetas-con-panes-y-masas",
+        "inner_text": "\n                        Panes y masas \n                    ",
+        "inner_html": "<strong class=\"menu-option-title d-block\">Panes y masas </strong>"
+      },
+      {
+        "href": "https://www.cocinatis.com/que-tengo/recetas-con-huevos-y-lacteos",
+        "inner_text": "\n                        Huevos y lácteos \n                    ",
+        "inner_html": "<strong class=\"menu-option-title d-block\">Huevos y lácteos </strong>"
+      },
+      {
+        "href": "https://www.cocinatis.com/que-tengo/recetas-con-setas-y-hongos",
+        "inner_text": "\n                        Setas y hongos \n                    ",
+        "inner_html": "<strong class=\"menu-option-title d-block\">Setas y hongos </strong>"
+      },
+      {
+        "href": "https://www.cocinatis.com/que-tengo/recetas-con-chocolate",
+        "inner_text": "\n                        Chocolate \n                    ",
+        "inner_html": "<strong class=\"menu-option-title d-block\">Chocolate </strong>"
+      },
+      {
+        "href": "https://www.cocinatis.com/recetas-por-experiencia/recetas-faciles",
+        "inner_text": "\n             Fácil\n        ",
+        "inner_html": "<span class=\"menu-option-icon bg-icon menu-recipes-difficulty recetas-faciles mr-sm-3 mr-md-1\"></span> <strong class=\"menu-option-title\">Fácil</strong>"
+      },
+      {
+        "href": "https://www.cocinatis.com/recetas-por-experiencia/recetas-amateurs",
+        "inner_text": "\n             Media\n        ",
+        "inner_html": "<span class=\"menu-option-icon bg-icon menu-recipes-difficulty recetas-amateurs mr-sm-3 mr-md-1\"></span> <strong class=\"menu-option-title\">Media</strong>"
+      },
+      {
+        "href": "https://www.cocinatis.com/recetas-por-experiencia/recetas-elaboradas",
+        "inner_text": "\n             Experto\n        ",
+        "inner_html": "<span class=\"menu-option-icon bg-icon menu-recipes-difficulty recetas-elaboradas mr-sm-3 mr-md-1\"></span> <strong class=\"menu-option-title\">Experto</strong>"
+      },
+      {
+        "href": "https://www.cocinatis.com/recetas-por-tipo-de-plato/entrantes",
+        "inner_text": "\n             Entrantes\n        ",
+        "inner_html": "<span class=\"menu-option-icon bg-icon menu-recipes-recipe-type entrantes mr-sm-3 mr-md-1\"></span> <strong class=\"menu-option-title\">Entrantes</strong>"
+      },
+      {
+        "href": "https://www.cocinatis.com/recetas-por-tipo-de-plato/primeros",
+        "inner_text": "\n             Primeros\n        ",
+        "inner_html": "<span class=\"menu-option-icon bg-icon menu-recipes-recipe-type primeros mr-sm-3 mr-md-1\"></span> <strong class=\"menu-option-title\">Primeros</strong>"
+      },
+      {
+        "href": "https://www.cocinatis.com/recetas-por-tipo-de-plato/segundos",
+        "inner_text": "\n             Segundos\n        ",
+        "inner_html": "<span class=\"menu-option-icon bg-icon menu-recipes-recipe-type segundos mr-sm-3 mr-md-1\"></span> <strong class=\"menu-option-title\">Segundos</strong>"
+      },
+      {
+        "href": "https://www.cocinatis.com/recetas-por-tipo-de-plato/postres",
+        "inner_text": "\n             Postres\n        ",
+        "inner_html": "<span class=\"menu-option-icon bg-icon menu-recipes-recipe-type postres mr-sm-3 mr-md-1\"></span> <strong class=\"menu-option-title\">Postres</strong>"
+      },
+      {
+        "href": "https://www.cocinatis.com/recetas-por-tipo-de-plato/cocteles-y-bebidas",
+        "inner_text": "\n             Bebidas\n        ",
+        "inner_html": "<span class=\"menu-option-icon bg-icon menu-recipes-recipe-type cocteles-y-bebidas mr-sm-3 mr-md-1\"></span> <strong class=\"menu-option-title\">Bebidas</strong>"
+      },
+      {
+        "href": "https://www.cocinatis.com/recetas-por-tiempo-de-elaboracion/recetas-rapidas",
+        "inner_text": "\n             - 30 minutos\n        ",
+        "inner_html": "<span class=\"menu-option-icon bg-icon menu-recipes-time recetas-rapidas mr-sm-3 mr-md-1\"></span> <strong class=\"menu-option-title\">- 30 minutos</strong>"
+      },
+      {
+        "href": "https://www.cocinatis.com/recetas-por-tiempo-de-elaboracion/recetas-en-una-hora",
+        "inner_text": "\n             - 60 minutos\n        ",
+        "inner_html": "<span class=\"menu-option-icon bg-icon menu-recipes-time recetas-en-una-hora mr-sm-3 mr-md-1\"></span> <strong class=\"menu-option-title\">- 60 minutos</strong>"
+      },
+      {
+        "href": "https://www.cocinatis.com/recetas-por-tiempo-de-elaboracion/recetas-menos-dos-horas",
+        "inner_text": "\n             - 90 minutos\n        ",
+        "inner_html": "<span class=\"menu-option-icon bg-icon menu-recipes-time recetas-menos-dos-horas mr-sm-3 mr-md-1\"></span> <strong class=\"menu-option-title\">- 90 minutos</strong>"
+      },
+      {
+        "href": "https://www.cocinatis.com/recetas-por-tiempo-de-elaboracion/recetas-larga-duracion",
+        "inner_text": "\n             + 90 minutos\n        ",
+        "inner_html": "<span class=\"menu-option-icon bg-icon menu-recipes-time recetas-larga-duracion mr-sm-3 mr-md-1\"></span> <strong class=\"menu-option-title\">+ 90 minutos</strong>"
+      },
+      {
+        "href": "https://www.cocinatis.com/mas-buscadas/recetas-de-cocina-para-veganos",
+        "inner_text": "\n        \n        Veganos\n    ",
+        "inner_html": "<img class=\"menu-recipes-category\" src=\"/media/iconos_listados/Recurso_38_ENGObnu.svg\" alt=\"Veganos\" width=\"80\" height=\"50\">\n        <span class=\"d-block mt-2 mb-2 text-center font-weight-bold text-secondary\">Veganos</span>"
+      },
+      {
+        "href": "https://www.cocinatis.com/mas-buscadas/recetas-del-mundo",
+        "inner_text": "\n        \n        Recetas del mundo\n    ",
+        "inner_html": "<img class=\"menu-recipes-category\" src=\"/media/iconos_listados/recetas-del-mundo-cocinatis.png\" alt=\"Recetas del mundo\" width=\"80\" height=\"50\">\n        <span class=\"d-block mt-2 mb-2 text-center font-weight-bold text-secondary\">Recetas del mundo</span>"
+      },
+      {
+        "href": "https://www.cocinatis.com/mas-buscadas/recetas-que-gustan-a-los-peques",
+        "inner_text": "\n        \n        Niños\n    ",
+        "inner_html": "<img class=\"menu-recipes-category\" src=\"/media/iconos_listados/Recurso_37.svg\" alt=\"Niños\" width=\"80\" height=\"50\">\n        <span class=\"d-block mt-2 mb-2 text-center font-weight-bold text-secondary\">Niños</span>"
+      },
+      {
+        "href": "https://www.cocinatis.com/mas-buscadas/recetas-aptas-para-diabeticos",
+        "inner_text": "\n        \n        Diabéticos\n    ",
+        "inner_html": "<img class=\"menu-recipes-category\" src=\"/media/iconos_listados/Recurso_39.svg\" alt=\"Diabéticos\" width=\"80\" height=\"50\">\n        <span class=\"d-block mt-2 mb-2 text-center font-weight-bold text-secondary\">Diabéticos</span>"
+      },
+      {
+        "href": "https://www.cocinatis.com/mas-buscadas",
+        "inner_text": "VER TODAS",
+        "inner_html": "<strong>VER TODAS</strong>"
+      },
+      {
+        "href": "https://www.cocinatis.com/contacto-cocinatis",
+        "inner_text": "Contacto",
+        "inner_html": "Contacto"
+      },
+      {
+        "href": "https://www.cocinatis.com/aviso-legal/",
+        "inner_text": "Aviso Legal",
+        "inner_html": "Aviso Legal"
+      },
+      {
+        "href": "https://www.cocinatis.com/privacidad/",
+        "inner_text": "Política de privacidad",
+        "inner_html": "Política de privacidad"
+      },
+      {
+        "href": "https://www.cocinatis.com/cookies/",
+        "inner_text": "Política de cookies",
+        "inner_html": "Política de cookies"
+      },
+      {
+        "href": "https://www.cocinatis.com/suscripcion",
+        "inner_text": "Suscríbete a Cocinatis",
+        "inner_html": "<u>Suscríbete a Cocinatis</u>"
+      },
+      {
+        "href": "https://www.cocinatis.com/receta/croquetas-de-jamon",
+        "inner_text": "",
+        "inner_html": "<picture>\n            <source media=\"(max-width: 414px)\" srcset=\"/media/photologue/photos/cache/CTIS0549-receta-croquetas-jamon_mobile_horizontal_full_width.jpg\">\n            <source media=\"(min-width: 415px)\" srcset=\"/media/photologue/photos/cache/CTIS0549-receta-croquetas-jamon_desktop_horizontal_full_width.jpg\">\n            <img class=\"img-fluid w-100 lozad\" data-src=\"/media/photologue/photos/cache/CTIS0549-receta-croquetas-jamon_desktop_horizontal_full_width.jpg\" alt=\"Croquetas de jamón caseras (fáciles y cremosas)\">\n        </picture>"
+      },
+      {
+        "href": "https://www.cocinatis.com/receta/ensalada-de-escarola-y-mandarinas",
+        "inner_text": "\n                \n                    \n                    \n                    \n                \n            ",
+        "inner_html": "<picture>\n                    <source media=\"(max-width: 414px)\" srcset=\"/media/photologue/photos/cache/CTIS0288-Ensalada-de-escarola-y-mandarinas-xl_mobile_horizontal_full_width.jpg\">\n                    <source media=\"(min-width: 415px)\" srcset=\"/media/photologue/photos/cache/CTIS0288-Ensalada-de-escarola-y-mandarinas-xl_desktop_highlight_carousel.jpg\">\n                    <img class=\"img-fluid w-100 mb-2 lozad\" data-src=\"/media/photologue/photos/cache/CTIS0288-Ensalada-de-escarola-y-mandarinas-xl_desktop_highlight_carousel.jpg\" alt=\"Ensalada de escarola y mandarinas\">\n                </picture>"
+      },
+      {
+        "href": "https://www.cocinatis.com/receta/golosinas-caseras-de-naranja",
+        "inner_text": "\n                \n                    \n                    \n                    \n                \n            ",
+        "inner_html": "<picture>\n                    <source media=\"(max-width: 414px)\" srcset=\"/media/photologue/photos/cache/CTIS0483-receta-golosinas-caseras-de-naranja_mobile_horizontal_full_width.jpg\">\n                    <source media=\"(min-width: 415px)\" srcset=\"/media/photologue/photos/cache/CTIS0483-receta-golosinas-caseras-de-naranja_desktop_highlight_carousel.jpg\">\n                    <img class=\"img-fluid w-100 mb-2 lozad\" data-src=\"/media/photologue/photos/cache/CTIS0483-receta-golosinas-caseras-de-naranja_desktop_highlight_carousel.jpg\" alt=\"Cómo hacer golosinas de naranja\">\n                </picture>"
+      },
+      {
+        "href": "https://www.cocinatis.com/receta/rollo-de-tortilla-con-brocoli-jamon-y-queso",
+        "inner_text": "\n                \n                    \n                    \n                    \n                \n            ",
+        "inner_html": "<picture>\n                    <source media=\"(max-width: 414px)\" srcset=\"/media/photologue/photos/cache/CTIS0675-receta-rollo-de-tortilla-con-jamon-queso-y-brocoli_mobile_horizontal_full_width.jpg\">\n                    <source media=\"(min-width: 415px)\" srcset=\"/media/photologue/photos/cache/CTIS0675-receta-rollo-de-tortilla-con-jamon-queso-y-brocoli_desktop_highlight_carousel.jpg\">\n                    <img class=\"img-fluid w-100 mb-2 lozad\" data-src=\"/media/photologue/photos/cache/CTIS0675-receta-rollo-de-tortilla-con-jamon-queso-y-brocoli_desktop_highlight_carousel.jpg\" alt=\"Rollo de tortilla con brócoli, jamón y queso (al horno)\">\n                </picture>"
+      },
+      {
+        "href": "https://www.cocinatis.com/receta/pan-de-queso-o-chipa",
+        "inner_text": "\n                \n                    \n                    \n                    \n                \n            ",
+        "inner_html": "<picture>\n                    <source media=\"(max-width: 414px)\" srcset=\"/media/photologue/photos/cache/CTIS0492-receta-chipa-o-pan-de-queso_mobile_horizontal_full_width.jpg\">\n                    <source media=\"(min-width: 415px)\" srcset=\"/media/photologue/photos/cache/CTIS0492-receta-chipa-o-pan-de-queso_desktop_highlight_carousel.jpg\">\n                    <img class=\"img-fluid w-100 mb-2 lozad\" data-src=\"/media/photologue/photos/cache/CTIS0492-receta-chipa-o-pan-de-queso_desktop_highlight_carousel.jpg\" alt=\"Pan de queso o chipa (sin levadura)\">\n                </picture>"
+      },
+      {
+        "href": "https://www.cocinatis.com/recetas-de-arroz",
+        "inner_text": "\n                \n                    \n                    \n                \n            ",
+        "inner_html": "<picture>\n                    <source media=\"(max-width: 800px)\" srcset=\"/media/photologue/photos/cache/recetas-de-arroz-faciles-y-deliciosas-3_mobile_half_width.jpg\">\n                    <img class=\"img-fluid lozad\" style=\"width: inherit;\" data-src=\"/media/photologue/photos/cache/recetas-de-arroz-faciles-y-deliciosas-3_mobile_half_width.jpg\" alt=\"Recetas de arroz\">\n                </picture>"
+      },
+      {
+        "href": "https://www.cocinatis.com/verduras",
+        "inner_text": "\n                \n                    \n                    \n                \n            ",
+        "inner_html": "<picture>\n                    <source media=\"(max-width: 800px)\" srcset=\"/media/photologue/photos/cache/cocina-alimentos-verduras_mobile_gallery_small.jpg\">\n                    <img class=\"img-fluid lozad\" style=\"width: inherit;\" data-src=\"/media/photologue/photos/cache/cocina-alimentos-verduras_mobile_gallery_small.jpg\" alt=\"Verduras\">\n                </picture>"
+      },
+      {
+        "href": "https://www.cocinatis.com/guisos-y-potajes",
+        "inner_text": "\n                \n                    \n                    \n                \n            ",
+        "inner_html": "<picture>\n                    <source media=\"(max-width: 800px)\" srcset=\"/media/photologue/photos/cache/recetas-guisos-potajes_mobile_gallery_small.jpg\">\n                    <img class=\"img-fluid lozad\" style=\"width: inherit;\" data-src=\"/media/photologue/photos/cache/recetas-guisos-potajes_mobile_gallery_small.jpg\" alt=\"Guisos y potajes\">\n                </picture>"
+      },
+      {
+        "href": "https://www.cocinatis.com/recetas-de-tartas",
+        "inner_text": "\n                \n                    \n                    \n                \n            ",
+        "inner_html": "<picture>\n                    <source media=\"(max-width: 800px)\" srcset=\"/media/photologue/photos/cache/CTIS0277-Tarta-tres-chocolates-sin-nata_mobile_gallery_small.jpg\">\n                    <img class=\"img-fluid lozad\" style=\"width: inherit;\" data-src=\"/media/photologue/photos/cache/CTIS0277-Tarta-tres-chocolates-sin-nata_mobile_gallery_small.jpg\" alt=\"Recetas de tartas\">\n                </picture>"
+      },
+      {
+        "href": "https://www.cocinatis.com/panes-y-masas",
+        "inner_text": "\n                \n                    \n                    \n                \n            ",
+        "inner_html": "<picture>\n                    <source media=\"(max-width: 800px)\" srcset=\"/media/photologue/photos/cache/CTIS0314-Como-hacer-pan-casero-principal_mobile_half_width.jpg\">\n                    <img class=\"img-fluid lozad\" style=\"width: inherit;\" data-src=\"/media/photologue/photos/cache/CTIS0314-Como-hacer-pan-casero-principal_mobile_half_width.jpg\" alt=\"Panes y masas\">\n                </picture>"
+      },
+      {
+        "href": "https://www.cocinatis.com/mas-buscadas/recetas-de-cocina-para-vegetarianos",
+        "inner_text": "\n                \n                    \n                    \n                \n            ",
+        "inner_html": "<picture>\n                    <source media=\"(max-width: 800px)\" srcset=\"/media/photologue/photos/cache/CTIS0263-receta-lentejas-con-arroz-paso-5_mobile_gallery_small.jpg\">\n                    <img class=\"img-fluid lozad\" style=\"width: inherit;\" data-src=\"/media/photologue/photos/cache/CTIS0263-receta-lentejas-con-arroz-paso-5_mobile_gallery_small.jpg\" alt=\"Vegetarianos\">\n                </picture>"
+      },
+      {
+        "href": "https://www.cocinatis.com/como-cocinar/recetas-faciles-bizcochos-para-hacer-en-casa",
+        "inner_text": "",
+        "inner_html": "<picture>\n            <source media=\"(max-width: 414px)\" srcset=\"/media/photologue/photos/cache/recetas-faciles-de-bizcochos-para-hacer-en-casa-cocinatis_mobile_horizontal_full_width.jpg\">\n            <source media=\"(min-width: 415px)\" srcset=\"/media/photologue/photos/cache/recetas-faciles-de-bizcochos-para-hacer-en-casa-cocinatis_desktop_horizontal_full_width.jpg\">\n            <img class=\"img-fluid w-100\" data-src=\"/media/photologue/photos/cache/recetas-faciles-de-bizcochos-para-hacer-en-casa-cocinatis_desktop_horizontal_full_width.jpg\" alt=\"Cómo conseguir un bizcocho esponjoso y recetas fáciles para hacer en casa\" src=\"/media/photologue/photos/cache/recetas-faciles-de-bizcochos-para-hacer-en-casa-cocinatis_desktop_horizontal_full_width.jpg\">\n        </picture>"
+      },
+      {
+        "href": "https://www.cocinatis.com/como-cocinar/canapes-faciles-y-deliciosos-para-cualquier-ocasion-especial",
+        "inner_text": "",
+        "inner_html": "<picture>\n                <source media=\"(max-width: 414px)\" srcset=\"/media/photologue/photos/cache/canapes-de-anchoas-5_mobile_half_width.jpg\">\n                <source media=\"(min-width: 415px)\" srcset=\"/media/photologue/photos/cache/canapes-de-anchoas-5_desktop_half_width.jpg\">\n                <img class=\"img-fluid lozad\" data-src=\"/media/photologue/photos/cache/canapes-de-anchoas-5_desktop_half_width.jpg\" alt=\"5 canapés fáciles y deliciosos para cualquier ocasión especial\">\n            </picture>"
+      },
+      {
+        "href": "https://www.cocinatis.com/como-cocinar/como-hacer-las-mejores-crepes-con-trucos-consejos-y-recetas-faciles-muy-diferentes",
+        "inner_text": "",
+        "inner_html": "<picture>\n                <source media=\"(max-width: 414px)\" srcset=\"/media/photologue/photos/cache/como-hacer-las-mejores-crepes-consejos-trucos-y-recetas_mobile_half_width.jpg\">\n                <source media=\"(min-width: 415px)\" srcset=\"/media/photologue/photos/cache/como-hacer-las-mejores-crepes-consejos-trucos-y-recetas_desktop_half_width.jpg\">\n                <img class=\"img-fluid lozad\" data-src=\"/media/photologue/photos/cache/como-hacer-las-mejores-crepes-consejos-trucos-y-recetas_desktop_half_width.jpg\" alt=\"Cómo hacer las mejores crepes con trucos, consejos y ¡hasta 7 recetas diferentes!\">\n            </picture>"
+      },
+      {
+        "href": "https://www.cocinatis.com/como-cocinar/cinco-cosas-que-no-sabias-de-la-carne-de-conejo",
+        "inner_text": "",
+        "inner_html": "<picture>\n                <source media=\"(max-width: 414px)\" srcset=\"/media/photologue/photos/cache/conejo-frito-con-pimientos-verdes_mobile_half_width.jpg\">\n                <source media=\"(min-width: 415px)\" srcset=\"/media/photologue/photos/cache/conejo-frito-con-pimientos-verdes_desktop_half_width.jpg\">\n                <img class=\"img-fluid lozad\" data-src=\"/media/photologue/photos/cache/conejo-frito-con-pimientos-verdes_desktop_half_width.jpg\" alt=\"5 cosas que no sabías de la carne de conejo\">\n            </picture>"
+      },
+      {
+        "href": "https://www.cocinatis.com/como-cocinar/dulces-tipicos-de-semana-santa-y-pascua-perfectos-para-preparar-con-los-ninos",
+        "inner_text": "",
+        "inner_html": "<picture>\n                <source media=\"(max-width: 414px)\" srcset=\"/media/photologue/photos/cache/recetas-dulces-tipicos-semana-santa-pascua-ninos_mobile_half_width.jpg\">\n                <source media=\"(min-width: 415px)\" srcset=\"/media/photologue/photos/cache/recetas-dulces-tipicos-semana-santa-pascua-ninos_desktop_half_width.jpg\">\n                <img class=\"img-fluid lozad\" data-src=\"/media/photologue/photos/cache/recetas-dulces-tipicos-semana-santa-pascua-ninos_desktop_half_width.jpg\" alt=\"9 dulces típicos de Semana Santa y Pascua ¡perfectos para preparar con los niños!\">\n            </picture>"
+      },
+      {
+        "href": "https://www.cocinatis.com/como-cocinar/air-nuts-una-nueva-forma-de-consumir-frutos-secos",
+        "inner_text": "",
+        "inner_html": "<picture>\n                <source media=\"(max-width: 414px)\" srcset=\"/media/photologue/photos/cache/air-nuts-snacks-saludables-de-frutos-secos_mobile_half_width.jpg\">\n                <source media=\"(min-width: 415px)\" srcset=\"/media/photologue/photos/cache/air-nuts-snacks-saludables-de-frutos-secos_desktop_half_width.jpg\">\n                <img class=\"img-fluid lozad\" data-src=\"/media/photologue/photos/cache/air-nuts-snacks-saludables-de-frutos-secos_desktop_half_width.jpg\" alt=\"Air Nuts, una nueva forma de consumir frutos secos\">\n            </picture>"
+      },
+      {
+        "href": "https://www.cocinatis.com/recetas-de-bizcocho",
+        "inner_text": "\n                \n                    \n                    \n                \n            ",
+        "inner_html": "<picture>\n                    <source media=\"(max-width: 800px)\" srcset=\"/media/photologue/photos/cache/CTIS0190-receta-bizcocho-manzana-nueces-paso6_mobile_half_width.jpg\">\n                    <img class=\"img-fluid lozad\" style=\"width: inherit;\" data-src=\"/media/photologue/photos/cache/CTIS0190-receta-bizcocho-manzana-nueces-paso6_mobile_half_width.jpg\" alt=\"Recetas de bizcocho\">\n                </picture>"
+      },
+      {
+        "href": "https://www.cocinatis.com/recetas-mermeladas-caseras",
+        "inner_text": "\n                \n                    \n                    \n                \n            ",
+        "inner_html": "<picture>\n                    <source media=\"(max-width: 800px)\" srcset=\"/media/photologue/photos/cache/CTIS147-receta-mermelada-fresa-_principal_JSpLYNt_mobile_gallery_small.jpg\">\n                    <img class=\"img-fluid lozad\" style=\"width: inherit;\" data-src=\"/media/photologue/photos/cache/CTIS147-receta-mermelada-fresa-_principal_JSpLYNt_mobile_gallery_small.jpg\" alt=\"Recetas de mermeladas\">\n                </picture>"
+      },
+      {
+        "href": "https://www.cocinatis.com/recetas-de-galletas",
+        "inner_text": "\n                \n                    \n                    \n                \n            ",
+        "inner_html": "<picture>\n                    <source media=\"(max-width: 800px)\" srcset=\"/media/photologue/photos/cache/CTIS0366-Galletas-de-chocolate-agrietadas-paso-7_mobile_gallery_small.jpg\">\n                    <img class=\"img-fluid lozad\" style=\"width: inherit;\" data-src=\"/media/photologue/photos/cache/CTIS0366-Galletas-de-chocolate-agrietadas-paso-7_mobile_gallery_small.jpg\" alt=\"Recetas de galletas\">\n                </picture>"
+      },
+      {
+        "href": "https://www.cocinatis.com/postres",
+        "inner_text": "\n                \n                    \n                    \n                \n            ",
+        "inner_html": "<picture>\n                    <source media=\"(max-width: 800px)\" srcset=\"/media/photologue/photos/cache/CTIS0190-receta-bizcocho-manzana-nueces_ymHDqcu_mobile_half_width.jpg\">\n                    <img class=\"img-fluid lozad\" style=\"width: inherit;\" data-src=\"/media/photologue/photos/cache/CTIS0190-receta-bizcocho-manzana-nueces_ymHDqcu_mobile_half_width.jpg\" alt=\"Postres\">\n                </picture>"
+      },
+      {
+        "href": "https://www.cocinatis.com/cocteles-y-bebidas",
+        "inner_text": "\n                \n                    \n                    \n                \n            ",
+        "inner_html": "<picture>\n                    <source media=\"(max-width: 800px)\" srcset=\"/media/photologue/photos/cache/CTIS0597-receta-bebida-de-arroz_mobile_gallery_small.jpg\">\n                    <img class=\"img-fluid lozad\" style=\"width: inherit;\" data-src=\"/media/photologue/photos/cache/CTIS0597-receta-bebida-de-arroz_mobile_gallery_small.jpg\" alt=\"Cócteles y bebidas\">\n                </picture>"
+      },
+      {
+        "href": "https://www.cocinatis.com/como-cocinar/apuntate-a-la-cocina-saludable-con-la-plancha-de-asar-de-jata",
+        "inner_text": "",
+        "inner_html": "<picture>\n                <source media=\"(max-width: 414px)\" srcset=\"/media/photologue/photos/cache/plancha-asar-jata-1_mobile_half_width.jpg\">\n                <source media=\"(min-width: 415px)\" srcset=\"/media/photologue/photos/cache/plancha-asar-jata-1_desktop_half_width.jpg\">\n                <img class=\"img-fluid lozad\" data-src=\"/media/photologue/photos/cache/plancha-asar-jata-1_desktop_half_width.jpg\" alt=\"Apúntate a la cocina saludable con la plancha de asar de Jata\">\n            </picture>"
+      },
+      {
+        "href": "https://www.cocinatis.com/como-cocinar/la-paellera-electrica-xxl-de-jata-perfecta-para-compartir-con-amigos-y-familiares",
+        "inner_text": "",
+        "inner_html": "<picture>\n                <source media=\"(max-width: 414px)\" srcset=\"/media/photologue/photos/cache/paellera-electrica-1_mobile_half_width.jpg\">\n                <source media=\"(min-width: 415px)\" srcset=\"/media/photologue/photos/cache/paellera-electrica-1_desktop_half_width.jpg\">\n                <img class=\"img-fluid lozad\" data-src=\"/media/photologue/photos/cache/paellera-electrica-1_desktop_half_width.jpg\" alt=\"La paellera eléctrica XXL de Jata, perfecta para compartir con amigos y familiares\">\n            </picture>"
+      },
+      {
+        "href": "https://www.cocinatis.com/como-cocinar/cocinar-sano-y-rico-es-muy-facil-con-la-plancha-de-asar-de-terracota-jata",
+        "inner_text": "",
+        "inner_html": "<picture>\n                <source media=\"(max-width: 414px)\" srcset=\"/media/photologue/photos/cache/plancha-de-asar-terracota-jata-3_mobile_half_width.jpg\">\n                <source media=\"(min-width: 415px)\" srcset=\"/media/photologue/photos/cache/plancha-de-asar-terracota-jata-3_desktop_half_width.jpg\">\n                <img class=\"img-fluid lozad\" data-src=\"/media/photologue/photos/cache/plancha-de-asar-terracota-jata-3_desktop_half_width.jpg\" alt=\"Cocinar sano y rico es muy fácil con la plancha de asar de Terracota Jata\">\n            </picture>"
+      },
+      {
+        "href": "https://www.cocinatis.com/como-cocinar/las-mejores-freidoras-domesticas-jata",
+        "inner_text": "",
+        "inner_html": "<picture>\n                <source media=\"(max-width: 414px)\" srcset=\"/media/photologue/photos/cache/CTIS0795-receta-empanadillas-de-salmon-queso-y-cebolla-caramelizada-2_qXfda9X_mobile_half_width.jpg\">\n                <source media=\"(min-width: 415px)\" srcset=\"/media/photologue/photos/cache/CTIS0795-receta-empanadillas-de-salmon-queso-y-cebolla-caramelizada-2_qXfda9X_desktop_half_width.jpg\">\n                <img class=\"img-fluid lozad\" data-src=\"/media/photologue/photos/cache/CTIS0795-receta-empanadillas-de-salmon-queso-y-cebolla-caramelizada-2_qXfda9X_desktop_half_width.jpg\" alt=\"Las 4 mejores freidoras domésticas Jata\">\n            </picture>"
+      },
+      {
+        "href": "https://www.cocinatis.com/como-cocinar/batidora-de-varilla-de-jata-el-regalo-perfecto-para-los-amantes-de-la-cocina",
+        "inner_text": "",
+        "inner_html": "<picture>\n                <source media=\"(max-width: 414px)\" srcset=\"/media/photologue/photos/cache/CTIS0788-receta-vasitos-de-tarta-de-queso-con-frambuesas-1_mobile_half_width.jpg\">\n                <source media=\"(min-width: 415px)\" srcset=\"/media/photologue/photos/cache/CTIS0788-receta-vasitos-de-tarta-de-queso-con-frambuesas-1_desktop_half_width.jpg\">\n                <img class=\"img-fluid lozad\" data-src=\"/media/photologue/photos/cache/CTIS0788-receta-vasitos-de-tarta-de-queso-con-frambuesas-1_desktop_half_width.jpg\" alt=\"Batidora de varilla de Jata, ¡el regalo perfecto para los amantes de la cocina!\">\n            </picture>"
+      },
+      {
+        "href": "https://www.cocinatis.com/como-cocinar/grill-plancha-y-sandwichera-todo-en-uno-tuesta-asa-y-gratina-con-el-grill-de-asar-doble-de-jata",
+        "inner_text": "",
+        "inner_html": "<picture>\n                <source media=\"(max-width: 414px)\" srcset=\"/media/photologue/photos/cache/grill-asar-doble-sandwichera-3_mobile_half_width.jpg\">\n                <source media=\"(min-width: 415px)\" srcset=\"/media/photologue/photos/cache/grill-asar-doble-sandwichera-3_desktop_half_width.jpg\">\n                <img class=\"img-fluid lozad\" data-src=\"/media/photologue/photos/cache/grill-asar-doble-sandwichera-3_desktop_half_width.jpg\" alt=\"Grill, plancha y sandwichera ¡todo en uno con el grill de asar doble de Jata!\">\n            </picture>"
+      },
+      {
+        "href": "https://www.cocinatis.com/receta/pollo-frito-estilo-kentucky",
+        "inner_text": "",
+        "inner_html": "<picture>\n            <source media=\"(max-width: 414px)\" srcset=\"/media/photologue/photos/cache/CTIS0063-pollo-frito-estilo-kentucky-xlf_mobile_horizontal_full_width.jpg\">\n            <source media=\"(min-width: 415px)\" srcset=\"/media/photologue/photos/cache/CTIS0063-pollo-frito-estilo-kentucky-xlf_desktop_half_width.jpg\">\n            <img class=\"img-fluid w-100 related-recipe-photo lozad\" data-src=\"/media/photologue/photos/cache/CTIS0063-pollo-frito-estilo-kentucky-xlf_desktop_half_width.jpg\" alt=\"Pollo frito estilo Kentucky\">\n        </picture>"
+      },
+      {
+        "href": "https://www.cocinatis.com/receta/mousse-de-limon-un-postre-cremoso-y-refrescante",
+        "inner_text": "",
+        "inner_html": "<picture>\n            <source media=\"(max-width: 414px)\" srcset=\"/media/photologue/photos/cache/CTIS0889-Receta-mousse-limon-ctis_mobile_horizontal_full_width.jpg\">\n            <source media=\"(min-width: 415px)\" srcset=\"/media/photologue/photos/cache/CTIS0889-Receta-mousse-limon-ctis_desktop_half_width.jpg\">\n            <img class=\"img-fluid w-100 related-recipe-photo lozad\" data-src=\"/media/photologue/photos/cache/CTIS0889-Receta-mousse-limon-ctis_desktop_half_width.jpg\" alt=\"Mousse de limón, un postre cremoso y refrescante que ¡conquista a todo el mundo!\">\n        </picture>"
+      },
+      {
+        "href": "https://www.cocinatis.com/receta/mojo-rojo-canario",
+        "inner_text": "",
+        "inner_html": "<picture>\n            <source media=\"(max-width: 414px)\" srcset=\"/media/photologue/photos/cache/CTIS0051-Mojo-rojo-paso-xlf_mobile_horizontal_full_width.jpg\">\n            <source media=\"(min-width: 415px)\" srcset=\"/media/photologue/photos/cache/CTIS0051-Mojo-rojo-paso-xlf_desktop_half_width.jpg\">\n            <img class=\"img-fluid w-100 related-recipe-photo lozad\" data-src=\"/media/photologue/photos/cache/CTIS0051-Mojo-rojo-paso-xlf_desktop_half_width.jpg\" alt=\"Cómo hacer mojo rojo canario\">\n        </picture>"
+      },
+      {
+        "href": "https://www.cocinatis.com/receta/arroz-brut-un-arroz-con-carne-y-especias-de-sabor-intenso",
+        "inner_text": "",
+        "inner_html": "<picture>\n            <source media=\"(max-width: 414px)\" srcset=\"/media/photologue/photos/cache/CTIS0853-receta-arroz-brut-1-ctis_mobile_horizontal_full_width.jpg\">\n            <source media=\"(min-width: 415px)\" srcset=\"/media/photologue/photos/cache/CTIS0853-receta-arroz-brut-1-ctis_desktop_half_width.jpg\">\n            <img class=\"img-fluid w-100 related-recipe-photo lozad\" data-src=\"/media/photologue/photos/cache/CTIS0853-receta-arroz-brut-1-ctis_desktop_half_width.jpg\" alt=\"Arroz Brut, una receta mallorquina de arroz especiado y un intenso sabor único\">\n        </picture>"
+      },
+      {
+        "href": "https://www.cocinatis.com/login",
+        "inner_text": "Iniciar sesión",
+        "inner_html": "Iniciar sesión"
+      }
+    ],
+    "social": [
+      {
+        "href": "https://www.facebook.com/cocinatis/",
+        "inner_text": "",
+        "inner_html": "<i class=\"fab fa-facebook-f text-white\"></i>"
+      },
+      {
+        "href": "https://twitter.com/cocinatis",
+        "inner_text": "",
+        "inner_html": "<i class=\"fab fa-twitter text-white\"></i>"
+      },
+      {
+        "href": "https://www.instagram.com/cocinatis/",
+        "inner_text": "",
+        "inner_html": "<i class=\"fab fa-instagram text-white\"></i>"
+      },
+      {
+        "href": "https://www.youtube.com/user/cocinatis",
+        "inner_text": "",
+        "inner_html": "<i class=\"fab fa-youtube text-white\"></i>"
+      }
+    ],
+    "keywords": [
+      {
+        "href": "https://www.cocinatis.com/login?next=https://www.cocinatis.com/",
+        "inner_text": "ENTRA",
+        "inner_html": "ENTRA"
+      },
+      {
+        "href": "https://www.cocinatis.com/aviso-legal/",
+        "inner_text": "Aviso Legal",
+        "inner_html": "Aviso Legal"
+      },
+      {
+        "href": "https://www.cocinatis.com/login",
+        "inner_text": "Iniciar sesión",
+        "inner_html": "Iniciar sesión"
+      }
+    ]
+  },
+  "unsafeForms": [],
+  "browsing_history": [
+    "https://www.cocinatis.com/"
+  ],
+  "websockets": {},
+  "cookies": [
+    {
+      "name": "cmp-reset",
+      "value": "1",
+      "domain": "www.cocinatis.com",
+      "path": "/",
+      "expires": 1653065157,
+      "size": 10,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2022-05-20T16:45:57.000Z",
+      "expiresDays": 365,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 24,
+            "lineNumber": 26,
+            "fileName": "https://www.cocinatis.com/",
+            "functionName": "setCookie",
+            "source": "    at setCookie (https://www.cocinatis.com/:26:24)"
+          },
+          {
+            "columnNumber": 9,
+            "lineNumber": 31,
+            "fileName": "https://www.cocinatis.com/",
+            "functionName": "activateCookie",
+            "source": "    at activateCookie (https://www.cocinatis.com/:31:9)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T16:45:57.903Z",
+        "location": "https://www.cocinatis.com/"
+      },
+      "firstPartyStorage": false
+    }
+  ],
+  "localStorage": {
+    "https://www.cocinatis.com": {
+      "google_experiment_mod36": {
+        "value": 701,
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 107,
+              "lineNumber": 55,
+              "fileName": "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js",
+              "functionName": "Tc",
+              "source": "    at Tc (https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js:55:107)"
+            },
+            {
+              "columnNumber": 641,
+              "lineNumber": 77,
+              "fileName": "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js",
+              "functionName": "<computed>.a.<computed>",
+              "source": "    at <computed>.a.<computed> (https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js:77:641)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T16:45:58.505Z",
+          "location": "https://www.cocinatis.com/"
+        }
+      },
+      "google_experiment_mod53": {
+        "value": 666,
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 107,
+              "lineNumber": 55,
+              "fileName": "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js",
+              "functionName": "Tc",
+              "source": "    at Tc (https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js:55:107)"
+            },
+            {
+              "columnNumber": 641,
+              "lineNumber": 77,
+              "fileName": "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js",
+              "functionName": "<computed>.a.<computed>",
+              "source": "    at <computed>.a.<computed> (https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js:77:641)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T16:45:58.504Z",
+          "location": "https://www.cocinatis.com/"
+        }
+      },
+      "google_experiment_mod37": {
+        "value": 985,
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 107,
+              "lineNumber": 55,
+              "fileName": "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js",
+              "functionName": "Tc",
+              "source": "    at Tc (https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js:55:107)"
+            },
+            {
+              "columnNumber": 641,
+              "lineNumber": 77,
+              "fileName": "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js",
+              "functionName": "<computed>.a.<computed>",
+              "source": "    at <computed>.a.<computed> (https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js:77:641)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T16:45:58.505Z",
+          "location": "https://www.cocinatis.com/"
+        }
+      },
+      "goog_pem_mod": {
+        "value": 167,
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 107,
+              "lineNumber": 55,
+              "fileName": "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js",
+              "functionName": "Tc",
+              "source": "    at Tc (https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js:55:107)"
+            },
+            {
+              "columnNumber": 467,
+              "lineNumber": 90,
+              "fileName": "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js",
+              "functionName": "eh",
+              "source": "    at eh (https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js:90:467)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T16:45:58.502Z",
+          "location": "https://www.cocinatis.com/"
+        }
+      },
+      "google_experiment_mod44": {
+        "value": 898,
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 107,
+              "lineNumber": 55,
+              "fileName": "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js",
+              "functionName": "Tc",
+              "source": "    at Tc (https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js:55:107)"
+            },
+            {
+              "columnNumber": 641,
+              "lineNumber": 77,
+              "fileName": "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js",
+              "functionName": "<computed>.a.<computed>",
+              "source": "    at <computed>.a.<computed> (https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js:77:641)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T16:45:58.505Z",
+          "location": "https://www.cocinatis.com/"
+        }
+      },
+      "CMPList": {
+        "value": {
+          "lastUpdated": "2021-05-06T17:03:14Z",
+          "CMP": [
+            "2",
+            "3",
+            "5",
+            "6",
+            "7",
+            "9",
+            "10",
+            "14",
+            "18",
+            "21",
+            "23",
+            "25",
+            "27",
+            "28",
+            "30",
+            "31",
+            "38",
+            "44",
+            "45",
+            "46",
+            "47",
+            "50",
+            "54",
+            "58",
+            "59",
+            "61",
+            "63",
+            "65",
+            "68",
+            "69",
+            "72",
+            "76",
+            "77",
+            "79",
+            "84",
+            "90",
+            "92",
+            "96",
+            "104",
+            "105",
+            "113",
+            "123",
+            "125",
+            "129",
+            "134",
+            "141",
+            "162",
+            "167",
+            "168",
+            "170",
+            "171",
+            "181",
+            "185",
+            "193",
+            "198",
+            "212",
+            "217",
+            "218",
+            "221",
+            "222",
+            "224",
+            "225",
+            "227",
+            "229",
+            "231",
+            "235",
+            "236",
+            "237",
+            "242",
+            "246",
+            "247",
+            "252",
+            "258",
+            "259",
+            "264",
+            "273",
+            "277",
+            "279",
+            "280",
+            "282",
+            "284",
+            "287",
+            "291",
+            "292",
+            "294",
+            "297",
+            "299",
+            "300",
+            "302",
+            "303",
+            "304",
+            "305",
+            "306",
+            "307",
+            "308",
+            "309",
+            "310",
+            "312",
+            "316",
+            "318",
+            "319",
+            "321",
+            "322",
+            "323",
+            "327",
+            "329",
+            "330",
+            "332",
+            "335",
+            "338",
+            "339",
+            "343",
+            "345",
+            "348",
+            "350",
+            "351",
+            "352",
+            "353",
+            "355",
+            "358",
+            "359",
+            "360",
+            "361",
+            "367",
+            "369"
+          ],
+          "expiry": 1621788358796
+        },
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 196982,
+              "lineNumber": 1,
+              "fileName": "https://quantcast.mgr.consensu.org/tcfv2/cmp2.js?referer=www.cocinatis.com",
+              "functionName": "e.value",
+              "source": "    at e.value (https://quantcast.mgr.consensu.org/tcfv2/cmp2.js?referer=www.cocinatis.com:1:196982)"
+            },
+            {
+              "columnNumber": 197204,
+              "lineNumber": 1,
+              "fileName": "https://quantcast.mgr.consensu.org/tcfv2/cmp2.js?referer=www.cocinatis.com",
+              "functionName": "e.value",
+              "source": "    at e.value (https://quantcast.mgr.consensu.org/tcfv2/cmp2.js?referer=www.cocinatis.com:1:197204)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T16:45:58.879Z",
+          "location": "https://www.cocinatis.com/"
+        }
+      },
+      "google_experiment_mod34": {
+        "value": 203,
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 107,
+              "lineNumber": 55,
+              "fileName": "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js",
+              "functionName": "Tc",
+              "source": "    at Tc (https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js:55:107)"
+            },
+            {
+              "columnNumber": 641,
+              "lineNumber": 77,
+              "fileName": "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js",
+              "functionName": "<computed>.a.<computed>",
+              "source": "    at <computed>.a.<computed> (https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js:77:641)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T16:45:58.503Z",
+          "location": "https://www.cocinatis.com/"
+        }
+      }
+    }
+  },
+  "beacons": [
+    {
+      "url": "https://audit-tcfv2.quantcast.mgr.consensu.org/?log=%7B%22accountId%22%3A%22bdVG2mVLSsxB8%22%2C%22domain%22%3A%22www.cocinatis.com%22%2C%22publisher%22%3A%22Cocinatis%22%2C%22cmpId%22%3A10%2C%22cmpVersion%22%3A%222.30%22%2C%22displayType%22%3A%22tcfui%3Amandatory%22%2C%22configurationHashCode%22%3A%22jJO6A1bDUdbwRCp6hy1AvQ%22%2C%22clientTimestamp%22%3A1621529159036%2C%22operationType%22%3A%22init%22%2C%22sessionId%22%3A%22GDPR-a70djh459r5095x2t84m%22%7D",
+      "query": {
+        "log": {
+          "accountId": "bdVG2mVLSsxB8",
+          "domain": "www.cocinatis.com",
+          "publisher": "Cocinatis",
+          "cmpId": 10,
+          "cmpVersion": "2.30",
+          "displayType": "tcfui:mandatory",
+          "configurationHashCode": "jJO6A1bDUdbwRCp6hy1AvQ",
+          "clientTimestamp": 1621529159036,
+          "operationType": "init",
+          "sessionId": "GDPR-a70djh459r5095x2t84m"
+        }
+      },
+      "filter": "||consensu.org/?log=",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.cocinatis.com/",
+            "source": "requested from https://www.cocinatis.com/ and matched with easyprivacy.txt filter ||consensu.org/?log="
+          }
+        ],
+        "timestamp": "2021-05-20T16:45:59.039Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://rules.quantcount.com/rules-p-bdVG2mVLSsxB8.js",
+      "query": null,
+      "filter": "||quantcount.com^$third-party",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.cocinatis.com/",
+            "source": "requested from https://www.cocinatis.com/ and matched with easyprivacy.txt filter ||quantcount.com^$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T16:45:58.760Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://quantcast.mgr.consensu.org/tcfv2/cmp2.js?referer=www.cocinatis.com",
+      "query": {
+        "referer": "www.cocinatis.com"
+      },
+      "filter": ".js?referer=",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.cocinatis.com/",
+            "source": "requested from https://www.cocinatis.com/ and matched with easyprivacy.txt filter .js?referer="
+          }
+        ],
+        "timestamp": "2021-05-20T16:45:58.536Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://secure.quantserve.com/quant.js",
+      "query": null,
+      "filter": "/quant.js",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.cocinatis.com/",
+            "source": "requested from https://www.cocinatis.com/ and matched with easyprivacy.txt filter /quant.js"
+          }
+        ],
+        "timestamp": "2021-05-20T16:45:58.535Z"
+      },
+      "occurrances": 1
+    }
+  ],
+  "hosts": {
+    "requests": {
+      "firstParty": [
+        "cocinatis.com"
+      ],
+      "thirdParty": [
+        "www.cocinatis.com",
+        "s3.eu-central-1.amazonaws.com",
+        "sc-devel.s3.eu-central-1.amazonaws.com",
+        "cdn.smartclip-services.com",
+        "pagead2.googlesyndication.com",
+        "cdnjs.cloudflare.com",
+        "cdn.rawgit.com",
+        "quantcast.mgr.consensu.org",
+        "googleads.g.doubleclick.net",
+        "smartclipcloud.compat.objectstorage.eu-frankfurt-1.oraclecloud.com",
+        "secure.quantserve.com",
+        "rules.quantcount.com",
+        "test.quantcast.mgr.consensu.org",
+        "audit-tcfv2.quantcast.mgr.consensu.org"
+      ]
+    },
+    "beacons": {
+      "firstParty": [],
+      "thirdParty": [
+        "audit-tcfv2.quantcast.mgr.consensu.org",
+        "rules.quantcount.com",
+        "quantcast.mgr.consensu.org",
+        "secure.quantserve.com"
+      ]
+    },
+    "cookies": {
+      "firstParty": [],
+      "thirdParty": [
+        "www.cocinatis.com"
+      ]
+    },
+    "localStorage": {
+      "firstParty": [],
+      "thirdParty": [
+        "www.cocinatis.com"
+      ]
+    },
+    "links": {
+      "firstParty": [],
+      "thirdParty": [
+        "www.facebook.com",
+        "twitter.com",
+        "www.instagram.com",
+        "www.pinterest.es",
+        "www.youtube.com",
+        "www.cocinatis.com"
+      ]
+    }
+  }
+}

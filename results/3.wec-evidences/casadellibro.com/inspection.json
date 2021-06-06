@@ -1,0 +1,3169 @@
+{
+  "title": "Website Evidence Collection",
+  "task_description": null,
+  "uri_ins": "https://casadellibro.com",
+  "uri_refs": [
+    "https://casadellibro.com"
+  ],
+  "uri_dest": "https://www.casadellibro.com/",
+  "uri_redirects": [
+    "https://casadellibro.com/"
+  ],
+  "secure_connection": {
+    "https_support": true,
+    "redirects": [
+      "https://www.casadellibro.com/"
+    ],
+    "https_redirect": true
+  },
+  "host": "casadellibro.com",
+  "script": {
+    "host": "sfod",
+    "version": {
+      "npm": "1.0.0",
+      "commit": null
+    },
+    "cmd_args": "-q --overwrite https://casadellibro.com -- --ignore-certificate-errors",
+    "environment": {
+      "CHROME_DESKTOP": "code-url-handler.desktop"
+    },
+    "node_version": "v14.17.0"
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "HeadlessChrome/80.0.3987.0",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3617.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "5.8.0-53-generic"
+    },
+    "extra_headers": {},
+    "preset_cookies": {}
+  },
+  "start_time": "2021-05-20T16:04:57.088Z",
+  "end_time": "2021-05-20T16:05:13.398Z",
+  "links": {
+    "firstParty": [],
+    "thirdParty": [
+      {
+        "href": "https://www.casadellibro.com/libros",
+        "inner_text": "Envío en 1 día gratis a partir de 19 €",
+        "inner_html": "<span class=\"v-btn__content\">\n            Envío en 1 día gratis a partir de 19 €\n          </span>"
+      },
+      {
+        "href": "https://blog.casadellibro.com/",
+        "inner_text": "Blog",
+        "inner_html": "<span class=\"v-btn__content\">\n        Blog\n      </span>"
+      },
+      {
+        "href": "https://www.casadellibro.com/atc/asistente",
+        "inner_text": "Ayuda",
+        "inner_html": "<span class=\"v-btn__content\">\n        Ayuda\n      </span>"
+      },
+      {
+        "href": "https://www.casadellibro.com/empresas/empresas",
+        "inner_text": "Venta a empresas e instituciones",
+        "inner_html": "<span class=\"v-btn__content\">\n        Venta a empresas e instituciones\n      </span>"
+      },
+      {
+        "href": "https://www.casadellibro.com/",
+        "inner_text": "",
+        "inner_html": "<img alt=\"Casa del Libro - Home\" src=\"data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxNS4wLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+DQo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkNhcGFfMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeD0iMHB4IiB5PSIwcHgiDQoJIHdpZHRoPSIyMjBweCIgaGVpZ2h0PSI0N3B4IiB2aWV3Qm94PSIwIDAgMjIwIDQ3IiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCAyMjAgNDciIHhtbDpzcGFjZT0icHJlc2VydmUiPg0KPGc+DQoJPHBhdGggZmlsbD0iI0ZGRkZGRiIgZD0iTTE2OS45NywxOC40NXYxMy44MzZoMi42MDF2LTE1Ljk4bC0zLjI0NSwwLjk1OUwxNjkuOTcsMTguNDVMMTY5Ljk3LDE4LjQ1eiBNMTcxLjM3NSwxMS4xNQ0KCQljLTAuODI1LDAtMS44MzYsMC42MDgtMS44MzYsMS41NjljMCwwLjg2NCwwLjY0MiwxLjQ3MywxLjQzOCwxLjQ3M2MwLjgyOCwwLDEuODA4LTAuNjA4LDEuODA4LTEuNTY5DQoJCUMxNzIuNzg1LDExLjc5LDE3Mi4xNzIsMTEuMTUsMTcxLjM3NSwxMS4xNUwxNzEuMzc1LDExLjE1eiBNMTU4LjI2OCw4Ljk3MWgtMy40NjRsMC43MDgsMS4yNXYyMi4wNjVoMTAuOTk2bDAuNzY2LTIuMTE0aC05LjAwNw0KCQlMMTU4LjI2OCw4Ljk3MUwxNTguMjY4LDguOTcxeiBNMTg2LjM1NiwzMC4xMDdjLTAuNzA2LDAuNDQ3LTEuNTYzLDAuNTc0LTIuMzksMC41NzRjLTEuNjUzLDAtMy4yMTctMC43MDMtNC4zODEtMS44ODh2LTkuMTU5DQoJCWMwLjk3OS0wLjk2MiwxLjg3LTEuMzQ0LDMuMjE2LTEuMzQ0YzMuNDYyLDAsNi4wOTcsMi45NzcsNi4wOTcsNi41NjNDMTg4Ljg5OCwyNi44NzMsMTg4LjA0LDI5LjAyLDE4Ni4zNTYsMzAuMTA3TDE4Ni4zNTYsMzAuMTA3eg0KCQkgTTE4NC4yNzEsMTYuMzA3Yy0xLjgwNywwLTMuMjQ1LDAuNzA0LTQuNjg2LDEuNzZWOC41ODZsLTMuMjQ3LDAuOTYxbDAuNjQyLDEuMTg1djIwLjcxOWMwLjIxNywwLjA2NCwwLjgsMC4xOTMsMC45ODIsMC4xOTMNCgkJYzAuMTg1LDAsMC4yNDYtMC42NDIsMC4zNjYtMC42NDJjMC4wOTQsMCwwLjEyMywwLjA5NSwwLjIxNiwwLjE2YzAuMjE1LDAuMTYsMC40NiwwLjMxNywwLjcwNCwwLjQ0OA0KCQljMS4xOTQsMC42NzMsMi41MTIsMS4wNTcsMy44NTksMS4wNTdjMS4yNTUsMCwyLjQ4LTAuMzUsMy41ODQtMC45OTNsMS4xOTYtMC43MDRjMi4zNTUtMS4zNzUsMy42NDQtNC4wNjYsMy42NDQtNi44NTENCgkJQzE5MS41MzIsMTkuODU4LDE4OC40MDUsMTYuMzA3LDE4NC4yNzEsMTYuMzA3TDE4NC4yNzEsMTYuMzA3eiBNMjE1LjM5MywyOS4zNjljLTAuMTg0LDAuMTkzLTAuNTgzLDAuNjA5LTAuNzk3LDAuNzM4DQoJCWMtMC42MTMsMC4zODYtMS42NTMsMC41NzQtMi4zNTcsMC41NzRjLTMuNDYyLDAtNi4wMzQtMy4wMDktNi4wMzQtNi41NjNjMC0yLjAxOSwwLjg1NS00LjE2NCwyLjU0MS01LjI1Mw0KCQljMC43MDYtMC40NDksMS41MDEtMC41NzUsMi4zMjctMC41NzVjMy40NjQsMCw2LjA2NywzLjAwOCw2LjA2Nyw2LjU2M0MyMTcuMTQsMjYuNTIxLDIxNi40OTQsMjguMTUsMjE1LjM5MywyOS4zNjlMMjE1LjM5MywyOS4zNjkNCgkJeiBNMjEyLjIzOCwxNi4zMDdjLTEuMzgsMC0yLjYzNywwLjM1MS0zLjgzMSwxLjA1NGMtMC4zOTYsMC4yMjQtMC43OTQsMC40ODMtMS4xOTEsMC43MDZjLTIuMzU5LDEuNDA3LTMuNjc4LDMuOTM4LTMuNjc4LDYuNzg5DQoJCWMwLDQuMzg3LDMuMzM5LDcuODEzLDcuNTM0LDcuODEzYzEuMzc4LDAsMi42NjctMC4zODIsMy44NjItMS4wODdjMC4zOTgtMC4yMjUsMC43NjUtMC40ODIsMS4xNjMtMC43MDUNCgkJYzIuMzU2LTEuNDQxLDMuNjc3LTMuOTA2LDMuNjc3LTYuNzU1QzIxOS43NzQsMTkuNywyMTYuNDM2LDE2LjMwNywyMTIuMjM4LDE2LjMwN0wyMTIuMjM4LDE2LjMwN3ogTTE5OC45NzMsMTcuMjAyDQoJCWMtMC40ODUsMC4zMi0xLjMxMywwLjg5OC0xLjY1MywxLjM3NnYtMi4yNzJsLTMuMjEzLDAuOTZsMC42NDEsMS4xODR2MTMuODM2aDIuNjA0VjIwLjM3MWMwLjc2Ny0xLjI4LDEuNTYzLTEuOTg0LDMuMDM1LTEuOTg0DQoJCWMwLjkxOSwwLDEuNTkxLDAuMjg3LDIuNDUsMC42MDhsMC42NzMtMi4zMDZjLTAuNDkxLTAuMjU3LTEuMDcyLTAuMzgzLTEuNjIzLTAuMzgzQzIwMC43MjEsMTYuMzA2LDE5OS45NTQsMTYuNTYxLDE5OC45NzMsMTcuMjAyDQoJCUwxOTguOTczLDE3LjIwMnogTTE0MS43NzMsMTYuOTU2VjMyLjE1aDEuODM2VjE1LjQ0MmwtMi4yODgsMC42NzdMMTQxLjc3MywxNi45NTZMMTQxLjc3MywxNi45NTZ6IE0xMzAuNjk0LDI1LjUxNA0KCQljMC4xNTEtMS4xMDcsMC43MzQtMi4zMDQsMS42NjQtMi44ODljMC40NzUtMC4zMTgsMS4wNTgtMC4zNjQsMS42MTktMC4zNjRjMS44MzYsMCwzLjQxMywxLjMzMywzLjY3MiwzLjI1M0gxMzAuNjk0DQoJCUwxMzAuNjk0LDI1LjUxNHogTTEzNC42NDcsMjAuODg0Yy0xLjQyNCwwLTIuMTE3LDAuNDczLTMuMzA3LDEuMjJjLTEuNjM5LDEuMDM4LTIuNTksMi43OTgtMi41OSw0LjgwOA0KCQljMCwzLjEzOSwyLjM5Nyw1LjUxLDUuMzgsNS41MWMxLjEsMCwyLjItMC4zMTYsMy4xNDktMC44ODJjMC42NDctMC4zODMsMS4yNTUtMC43MjIsMS43OTItMS4yNDFsLTAuNDI5LTAuODEzDQoJCWMtMS4yNTQsMC45Ny0xLjk4OSwxLjU1OS0zLjYzMiwxLjU1OWMtMS44MTMsMC0zLjQ3NS0xLjE3Ni00LjA4LTIuOTgyYy0wLjEwNi0wLjMzNi0wLjIzOC0wLjc2OS0wLjIzOC0xLjEyNw0KCQljMC0wLjA0NywwLjA0NS0wLjExMiwwLjA2My0wLjE1OGg4LjU1NWMwLTAuNzIzLDAuMDQyLTEuNDAxLTAuMTMxLTIuMTAxQzEzOC42NDQsMjIuNDY1LDEzNi44NTEsMjAuODg0LDEzNC42NDcsMjAuODg0eg0KCQkgTTgzLjY2OSwyMC44NzVjLTAuMDA3LTAuNjQyLDAuMzE3LTEuNjA3LDAuODk2LTEuOTAxYzAuMjEyLTAuMTMsMC44MjUtMC4yMDMsMS4wNjktMC4yMDhjMS4yODctMC4wMTUsMi42NDIsMC42NzQsMy42MzMsMS41MjUNCgkJbDAuODMyLTIuMjgyYy0xLjExMy0wLjgxOS0yLjQwNC0xLjI1Mi0zLjc4My0xLjIzNWMtMC43NjUsMC4wMS0xLjQ5NywwLjI0MS0yLjE2NywwLjYzNWwtMS4xODYsMC43Mg0KCQljLTEuMjE3LDAuNzE4LTEuOTA2LDIuMDczLTEuODksMy41MTNjMC4wNjMsNS40MTMsNy4xMDgsMi43MzEsNy4xNTgsNy4yMTVjMC4wMTksMS4zMTEtMC43MzQsMi4zMTEtMi4wMjEsMi4zMjgNCgkJYy0xLjU5NCwwLjAyMS0yLjk4MS0wLjc2NS00LjIxNy0xLjc0bC0wLjg2MiwyLjM0OGMxLjIwNCwwLjg4MywyLjY4MSwxLjM3Niw0LjE1MSwxLjM1N2MwLjgxNi0wLjAxMiwxLjYxNy0wLjI0MSwyLjMyLTAuNjcNCgkJbDEuMTU0LTAuNzE3YzEuMjc3LTAuNzg1LDIuMDg4LTIuMTcyLDIuMDctMy43NDJDOTAuNzYzLDIyLjQ4Miw4My43MTgsMjUuMDY4LDgzLjY2OSwyMC44NzVMODMuNjY5LDIwLjg3NXogTTk5LjE5NywzMS4wNTkNCgkJYy0xLjgwNywwLjAyMi0zLjQ0My0xLjEwOS0zLjQ2OS0zLjEyOWMtMC4wMTEtMC45OTIsMC4zNzUtMi4yMTMsMS4yMjQtMi43NzFjMS4wNjQtMC42ODUsMy45MTEtMC44NzcsNS4xNjctMC45MjVsMC4wNTQsNC43NzENCgkJQzEwMS40NSwzMC4wNywxMDAuNTQyLDMxLjA0Miw5OS4xOTcsMzEuMDU5TDk5LjE5NywzMS4wNTl6IE0xMDQuNzcxLDI4LjUyM2wtMC4wODktNy42NTJjLTAuMDM0LTIuODgzLTIuMDQxLTQuMjk5LTQuNjQ2LTQuMjY5DQoJCWMtMi4yOTUsMC4wMjgtMy43MjksMC43Mi01LjY3NiwxLjg5NmwwLjQ0MywxLjE3OWMxLjEyNy0wLjY1NCwyLjUzMS0xLjA1NywzLjgxNy0xLjA3MmMxLjcxNy0wLjAyLDMuMTkzLDAuODU4LDMuMzQxLDIuNzc4DQoJCWMwLjA5NiwwLjM4MywwLjA0LDAuODM0LDAuMTA0LDEuMjQ4Yy0xLjc3MywwLjA4Ny0zLjk3OCwwLjM2OC01LjUyNywxLjM0OGwtMS4xODcsMC43NTNjLTEuNDksMC45NDUtMi4yMSwyLjI2OC0yLjE4OCw0LjA5NQ0KCQljMC4wMjgsMi42NTMsMi4wNjksNC4yLDQuNDg4LDQuMTczYzEuNTk0LTAuMDIxLDMuNzIxLTEuMzMxLDQuNzc5LTIuNTI1YzAuMzI2LDEuNzU2LDEuMzQ0LDIuMTkyLDIuOTM3LDIuMTcybDAuODU4LTAuMDENCgkJbDAuNjgyLTEuODk3QzEwNS4yODcsMzAuNzYsMTA0Ljc5NCwzMC4yMjMsMTA0Ljc3MSwyOC41MjNMMTA0Ljc3MSwyOC41MjN6IE03MS40NzcsMzEuNGMtMS44MDksMC4wMjItMy40NDQtMS4xMTItMy40NjktMy4xMjkNCgkJYy0wLjAxMS0wLjk5MiwwLjM3NS0yLjIxNSwxLjIyNS0yLjc3MmMxLjA2My0wLjY4NSwzLjkxMi0wLjg3Nyw1LjE2Ny0wLjkyNmwwLjA1Niw0Ljc3MkM3My43MzEsMzAuNDEyLDcyLjgyMiwzMS4zODMsNzEuNDc3LDMxLjR6DQoJCSBNNzcuMDUzLDI4Ljg2NGwtMC4wOS03LjY1MmMtMC4wMzMtMi44ODEtMi4wNDEtNC4yOTctNC42NDYtNC4yNjdjLTIuMjk3LDAuMDMtMy43MjcsMC43MTgtNS42NzUsMS44OTVsMC40NDMsMS4xODINCgkJYzEuMTI2LTAuNjU1LDIuNTI5LTEuMDU3LDMuODE2LTEuMDc0YzEuNzE1LTAuMDIxLDMuMTk0LDAuODU3LDMuMzQxLDIuNzc4YzAuMDk4LDAuMzgzLDAuMDM4LDAuODMxLDAuMTA1LDEuMjQ4DQoJCWMtMS43NzYsMC4wODQtMy45NzksMC4zNy01LjUyOCwxLjM0OWwtMS4xODgsMC43NTFjLTEuNDksMC45NDUtMi4yMDgsMi4yNy0yLjE4OCw0LjA5NWMwLjAzMSwyLjY1NywyLjA3MSw0LjIwMSw0LjQ5MSw0LjE3Mw0KCQljMS41OTQtMC4wMjEsMy43MjItMS4zMjgsNC43NzktMi41MjVjMC4zMjYsMS43NTgsMS4zNDUsMi4xOTEsMi45MzcsMi4xNzNsMC44NTgtMC4wMTFsMC42ODQtMS44OTYNCgkJQzc3LjU3MSwzMS4xLDc3LjA3NCwzMC41NjMsNzcuMDUzLDI4Ljg2NEw3Ny4wNTMsMjguODY0eiBNMTI0LjY3LDMwLjA5NmMtMC42MjcsMC42NTYtMS40MDQsMC45MjYtMi4yNjksMC45MjYNCgkJYy0yLjQ0MSwwLTQuMjk4LTIuMTIxLTQuMjk4LTQuNjI3YzAtMS40MjQsMC42MjUtMi45MzYsMS44MTUtMy43MDRjMC40OTUtMC4zMTcsMS4wNzgtMC40MDcsMS42NDEtMC40MDcNCgkJYzEuMTY1LDAsMi4yOSwwLjQ5OCwzLjEwOSwxLjM3N0wxMjQuNjcsMzAuMDk2TDEyNC42NywzMC4wOTZ6IE0xMjQuNjcsMTYuOTU2djQuNzM5Yy0wLjczNC0wLjUxOC0xLjYwMS0wLjgxMS0yLjQ4Mi0wLjgxMQ0KCQljLTAuODk3LDAuMDAxLTEuNzc4LDAuMjUxLTIuNTUxLDAuNzIzbC0wLjgxOCwwLjQ5N2MtMS42NDUsMC45OTMtMi41OTMsMi44MjItMi41OTMsNC44MDhjMCwzLjAyMywyLjIyNCw1LjUxLDUuMTQxLDUuNTENCgkJYzEuMzE2LDAsMi4yNjgtMC41MiwzLjMyNS0xLjI2NXYwLjk5M2gxLjgxNFYxNS40NDJsLTIuMzEyLDAuNjc3TDEyNC42NywxNi45NTZMMTI0LjY3LDE2Ljk1NnogTTU2Ljg2NiwzMS41MTgNCgkJYy01LjQ4MiwwLjA2My05Ljk3OS00LjU1Ny0xMC4wNDYtMTAuMjg3Yy0wLjA0LTMuMzYzLDEuNDgyLTYuODQsNC4yODEtOC42MzRjMS4zMDctMC44NSwyLjgwNy0xLjEyNSw0LjMwNy0xLjE0NA0KCQljMi4yOTYtMC4wMjgsNC4yNjQsMC41MjQsNi4yMzcsMS43NzlsMC45Mi0yLjYwNGMtMS45MS0wLjkzOC0zLjkzOC0xLjM2Mi02LjA1LTEuMzM2Yy0yLjA1MiwwLjAyOC0zLjk0NSwwLjY1Ni01Ljc0LDEuNzA1DQoJCWMtMC40MjUsMC4yNjEtMC44MiwwLjQ5LTEuMjQ2LDAuNzUzYy0zLjQ5OSwyLjE1Ni01LjU2Nyw2LjAyNi01LjUxOSwxMC4yNTFjMC4wNzgsNi41OTcsNS4zMTYsMTEuNzIyLDExLjU2MywxMS42NDQNCgkJYzMuMzM5LTAuMDQxLDQuNzQtMC42NjYsNy41MS0yLjRsLTAuMjMzLTEuNDY3QzYwLjkzNCwzMC45NTIsNTkuMTAyLDMxLjQ4OSw1Ni44NjYsMzEuNTE4eiIvPg0KCTxwYXRoIGZpbGw9IiNENTlCMzQiIGQ9Ik0zOS4xNDIsMzUuNDE3YzAsMCwwLjE5LDIuMTEyLDAuMDYxLDIuOTg1Yy0wLjA2MywwLjM5OC01LjcyMyw4LjI5NS0xNi4wNDEsOC4zMDYNCgkJYy01LjY0MSwwLjAwOC04LjM3OC00LjA1Ni0xNi4wMDMtMy43Yy0yLjYwNCwwLjEyMi01LjI5MiwxLjE0NS03LjA4NywyLjYyOGMtMC4yMTUtMC42MjYtMC4zNjgtMS4yNTYtMC4yNjUtMS43MDYNCgkJYzAuNjg5LTEuMzEzLDEuNzU1LTIuNDQ3LDIuOTU3LTMuMzM0YzMuMjQ4LTUuMjU4LDUuMjQtMjQuOTI5LDMuOTAzLTM4LjI3MWMxLjEyOC0xLjIsMi41NzItMi4yMjUsNC4xMDctMi42MTYNCgkJYzAsMCwwLjYxMSwxLjE4NCwwLjY4OCwyLjk2N2MwLjI4Myw2LjMwNy0xLjk2MSwyNi41NTktNS4yNywzNi4wM2MwLDAsMi44NjYtMC43NzQsNS4zODktMC40MDkNCgkJYzQuNTc1LDAuNjcyLDguMTg4LDUuMDE0LDE0LjI3Niw0Ljc3N0MzNC40NTMsNDIuNzQsMzkuMTQyLDM1LjQxNywzOS4xNDIsMzUuNDE3Ii8+DQoJPHBhdGggZmlsbD0iI0Q1OUIzNCIgZD0iTTMzLjQxOCwzNS4zNDhsMC4wMTctMC4wMzNjLTAuNDM3LDAuMTc3LTAuODc1LDAuMzQ4LTEuMzEzLDAuNTE1Yy0wLjU0MSwwLjIwOC0xLjA4OSwwLjQ0Mi0xLjY1MywwLjU2Nw0KCQljLTAuNjUsMC4xNDQtMS4zMDEsMC4yOC0xLjk0NCwwLjQ1OWMtMC4xMDksMC4wMy0wLjIyMSwwLjA2My0wLjMzLDAuMTA0Yy0wLjE3MiwwLjA2OS0wLjM0LDAuMjA3LTAuNDY4LDAuMzQNCgkJYy0wLjM0NCwwLjM2Mi0wLjQ1NCwwLjg5NC0wLjI4MywxLjM2OGMwLjE3NywwLjQ4OCwwLjYzOSwwLjg2MSwxLjE0NiwwLjg5NWMwLjM5MSwwLjAyNiwwLjc2Ni0wLjEyOSwxLjExNy0wLjI5MQ0KCQljMC4zNjgtMC4xNjYsMC43MzMtMC4zNSwxLjA3MS0wLjU2OWMwLjQzOC0wLjI5MiwwLjg0MS0wLjYzNiwxLjIwMS0xLjAyMWMwLjYzNC0wLjY3MywxLjEyOS0xLjQ2OSwxLjQ1Ni0yLjM0Mg0KCQlDMzMuNDMsMzUuMzQyLDMzLjQyNSwzNS4zNDYsMzMuNDE4LDM1LjM0OCIvPg0KPC9nPg0KPC9zdmc+DQo=\" class=\"full-text-logo\" data-v-1cc7eb3e=\"\">"
+      },
+      {
+        "href": "https://www.casadellibro.com/programadesocios",
+        "inner_text": "Alta Socio",
+        "inner_html": "<span class=\"v-btn__content\"><img src=\"https://imagessl.casadellibro.com/t1e/i//generico-inv.svg\" width=\"28\" class=\"mr-1\" data-v-1226d388=\"\">\n  Alta Socio\n</span>"
+      },
+      {
+        "href": "https://www.casadellibro.com/ebooks",
+        "inner_text": "eBooks",
+        "inner_html": "<span class=\"v-btn__content\">\n    eBooks\n  </span>"
+      },
+      {
+        "href": "https://www.casadellibro.com/libros-mas-vendidos",
+        "inner_text": "Más leídos",
+        "inner_html": "<span class=\"v-btn__content\">\n    Más leídos\n  </span>"
+      },
+      {
+        "href": "https://www.casadellibro.com/libros-recomendados",
+        "inner_text": "Recomendados",
+        "inner_html": "<span class=\"v-btn__content\">\n    Recomendados\n  </span>"
+      },
+      {
+        "href": "https://www.casadellibro.com/novedades-libros",
+        "inner_text": "Novedades",
+        "inner_html": "<span class=\"v-btn__content\">\n    Novedades\n  </span>"
+      },
+      {
+        "href": "https://www.casadellibro.com/libros/infantil/117000000",
+        "inner_text": "Infantil",
+        "inner_html": "<span class=\"v-btn__content\">\n    Infantil\n  </span>"
+      },
+      {
+        "href": "https://www.casadellibro.com/llibres-en-catala",
+        "inner_text": "Català",
+        "inner_html": "<span class=\"v-btn__content\">\n    Català\n  </span>"
+      },
+      {
+        "href": "https://www.casadellibro.com/nosotros/nuestras-tiendas-nuestrastiendas/0",
+        "inner_text": "\n  \n",
+        "inner_html": "<span class=\"v-btn__content\"><span aria-hidden=\"true\" class=\"v-icon notranslate theme--dark\" style=\"font-size:28px;height:28px;width:28px;\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" role=\"img\" aria-hidden=\"true\" class=\"v-icon__svg\" style=\"font-size:28px;height:28px;width:28px;\"><path d=\"M12,6.5A2.5,2.5 0 0,1 14.5,9A2.5,2.5 0 0,1 12,11.5A2.5,2.5 0 0,1 9.5,9A2.5,2.5 0 0,1 12,6.5M12,2A7,7 0 0,1 19,9C19,14.25 12,22 12,22C12,22 5,14.25 5,9A7,7 0 0,1 12,2M12,4A5,5 0 0,0 7,9C7,10 7,12 12,18.71C17,12 17,10 17,9A5,5 0 0,0 12,4Z\"></path></svg></span>\n  \n</span>"
+      },
+      {
+        "href": "https://www.casadellibro.com/recogida-en-tienda",
+        "inner_text": "",
+        "inner_html": "<img title=\"\" alt=\"\" src=\"https://imagessl.casadellibro.com/t1e/c/destacado-prueba-01.jpg\" data-src=\"https://imagessl.casadellibro.com/t1e/c/destacado-prueba-01.jpg\" class=\"mb-0 cdl-img active\" style=\"max-height:undefinedpx;max-width:undefinedpx;\" data-v-cc06b1b8=\"\">"
+      },
+      {
+        "href": "https://www.casadellibro.com/libros-firmados",
+        "inner_text": "",
+        "inner_html": "<img title=\"\" alt=\"\" src=\"https://imagessl.casadellibro.com/t1e/c/63/libro%20firmado%20370x200.jpg\" data-src=\"https://imagessl.casadellibro.com/t1e/c/63/libro%20firmado%20370x200.jpg\" class=\"mb-0 cdl-img active\" style=\"max-height:undefinedpx;max-width:undefinedpx;\" data-v-cc06b1b8=\"\">"
+      },
+      {
+        "href": "https://www.casadellibro.com/programadesociosleo",
+        "inner_text": "",
+        "inner_html": "<img title=\"\" alt=\"\" src=\"https://imagessl.casadellibro.com/t1e/c/63/SOCIOS-LEO-4T-2020_370x200.jpg\" data-src=\"https://imagessl.casadellibro.com/t1e/c/63/SOCIOS-LEO-4T-2020_370x200.jpg\" class=\"mb-0 cdl-img active\" style=\"max-height:undefinedpx;max-width:undefinedpx;\" data-v-cc06b1b8=\"\">"
+      },
+      {
+        "href": "https://www.casadellibro.com/libros-jo-nesbo",
+        "inner_text": "Ver libros",
+        "inner_html": "<span class=\"v-btn__content\"><span class=\"text-caption hidden-md-and-up\" data-v-3c58fb2e=\"\">\n            Ver libros\n          </span> <span class=\"hidden-sm-and-down\" data-v-3c58fb2e=\"\">\n            Ver libros\n          </span></span>"
+      },
+      {
+        "href": "https://www.casadellibro.com/libro-infierno-en-el-paraiso/9788408242260/12230956",
+        "inner_text": "Ver libro",
+        "inner_html": "<span class=\"v-btn__content\"><span class=\"text-caption hidden-md-and-up\" data-v-3c58fb2e=\"\">\n            Ver libro\n          </span> <span class=\"hidden-sm-and-down\" data-v-3c58fb2e=\"\">\n            Ver libro\n          </span></span>"
+      },
+      {
+        "href": "https://www.casadellibro.com/libros-de-actualidad",
+        "inner_text": "Toda la actualidad en los libros",
+        "inner_html": "Toda la actualidad en los libros"
+      },
+      {
+        "href": "https://www.casadellibro.com/libro-sira/9788408241911/12163002",
+        "inner_text": "https://www.casadellibro.com/libro-sira/9788408241911/12163002",
+        "inner_html": "https://www.casadellibro.com/libro-sira/9788408241911/12163002"
+      },
+      {
+        "href": "https://www.casadellibro.com/libro-a-fuego-lento/9788408246367/12349647",
+        "inner_text": "https://www.casadellibro.com/libro-a-fuego-lento/9788408246367/12349647",
+        "inner_html": "https://www.casadellibro.com/libro-a-fuego-lento/9788408246367/12349647"
+      },
+      {
+        "href": "https://www.casadellibro.com/libro-el-olvido-que-seremos/9788420426402/5804791",
+        "inner_text": "https://www.casadellibro.com/libro-el-olvido-que-seremos/9788420426402/5804791",
+        "inner_html": "https://www.casadellibro.com/libro-el-olvido-que-seremos/9788420426402/5804791"
+      },
+      {
+        "href": "https://www.casadellibro.com/libro-castellano/9788423359561/12231057",
+        "inner_text": "https://www.casadellibro.com/libro-castellano/9788423359561/12231057",
+        "inner_html": "https://www.casadellibro.com/libro-castellano/9788423359561/12231057"
+      },
+      {
+        "href": "https://www.casadellibro.com/libro-el-humor-de-mi-vida/9788491396208/12176549",
+        "inner_text": "https://www.casadellibro.com/libro-el-humor-de-mi-vida/9788491396208/12176549",
+        "inner_html": "https://www.casadellibro.com/libro-el-humor-de-mi-vida/9788491396208/12176549"
+      },
+      {
+        "href": "https://www.casadellibro.com/libro-un-trozo-de-cielo-azul-ejemplar-firmado-por-el-autor/2910024206167/12347549",
+        "inner_text": "https://www.casadellibro.com/libro-un-trozo-de-cielo-azul-ejemplar-firmado-por-el-autor/2910024206167/12347549",
+        "inner_html": "https://www.casadellibro.com/libro-un-trozo-de-cielo-azul-ejemplar-firmado-por-el-autor/2910024206167/12347549"
+      },
+      {
+        "href": "https://www.casadellibro.com/libro-vivir-con-arte/9788417247966/12225210",
+        "inner_text": "https://www.casadellibro.com/libro-vivir-con-arte/9788417247966/12225210",
+        "inner_html": "https://www.casadellibro.com/libro-vivir-con-arte/9788417247966/12225210"
+      },
+      {
+        "href": "https://www.casadellibro.com/libro-el-infinito-en-un-junco-la-invencion-de-los-libros-del-mundo-antiguo/9788417860790/9963976",
+        "inner_text": "https://www.casadellibro.com/libro-el-infinito-en-un-junco-la-invencion-de-los-libros-del-mundo-antiguo/9788417860790/9963976",
+        "inner_html": "https://www.casadellibro.com/libro-el-infinito-en-un-junco-la-invencion-de-los-libros-del-mundo-antiguo/9788417860790/9963976"
+      },
+      {
+        "href": "https://www.casadellibro.com/libro-alas-de-plata/9788418184390/12257783",
+        "inner_text": "https://www.casadellibro.com/libro-alas-de-plata/9788418184390/12257783",
+        "inner_html": "https://www.casadellibro.com/libro-alas-de-plata/9788418184390/12257783"
+      },
+      {
+        "href": "https://www.casadellibro.com/libro-el-mundo-en-la-antiguedad-tardia/9788430623402/11925106",
+        "inner_text": "https://www.casadellibro.com/libro-el-mundo-en-la-antiguedad-tardia/9788430623402/11925106",
+        "inner_html": "https://www.casadellibro.com/libro-el-mundo-en-la-antiguedad-tardia/9788430623402/11925106"
+      },
+      {
+        "href": "https://www.casadellibro.com/libro-los-anos-extraordinarios/9788439738848/12244519",
+        "inner_text": "https://www.casadellibro.com/libro-los-anos-extraordinarios/9788439738848/12244519",
+        "inner_html": "https://www.casadellibro.com/libro-los-anos-extraordinarios/9788439738848/12244519"
+      },
+      {
+        "href": "https://www.casadellibro.com/libro-un-mar-sin-limites-una-historia-humana-de-los-oceanos/9788491993056/12231145",
+        "inner_text": "https://www.casadellibro.com/libro-un-mar-sin-limites-una-historia-humana-de-los-oceanos/9788491993056/12231145",
+        "inner_html": "https://www.casadellibro.com/libro-un-mar-sin-limites-una-historia-humana-de-los-oceanos/9788491993056/12231145"
+      },
+      {
+        "href": "https://www.casadellibro.com/libros-ebooks/maria-duenas/139385",
+        "inner_text": "MARIA DUEÑAS",
+        "inner_html": "<span data-v-5264de2e=\"\">MARIA DUEÑAS</span> <span class=\"separateSpan ml-n2 mr-2\" data-v-5264de2e=\"\">, </span>"
+      },
+      {
+        "href": "https://www.casadellibro.com/libros-ebooks/paula-hawkins/20096005",
+        "inner_text": "PAULA HAWKINS",
+        "inner_html": "<span data-v-5264de2e=\"\">PAULA HAWKINS</span> <span class=\"separateSpan ml-n2 mr-2\" data-v-5264de2e=\"\">, </span>"
+      },
+      {
+        "href": "https://www.casadellibro.com/libros-ebooks/hector-abad-faciolince/16635",
+        "inner_text": "HECTOR ABAD FACIOLINCE",
+        "inner_html": "<span data-v-5264de2e=\"\">HECTOR ABAD FACIOLINCE</span> <span class=\"separateSpan ml-n2 mr-2\" data-v-5264de2e=\"\">, </span>"
+      },
+      {
+        "href": "https://www.casadellibro.com/libros-ebooks/lorenzo-silva/19898",
+        "inner_text": "LORENZO SILVA",
+        "inner_html": "<span data-v-5264de2e=\"\">LORENZO SILVA</span> <span class=\"separateSpan ml-n2 mr-2\" data-v-5264de2e=\"\">, </span>"
+      },
+      {
+        "href": "https://www.casadellibro.com/libros-ebooks/paz-padilla/20088275",
+        "inner_text": "PAZ PADILLA",
+        "inner_html": "<span data-v-5264de2e=\"\">PAZ PADILLA</span> <span class=\"separateSpan ml-n2 mr-2\" data-v-5264de2e=\"\">, </span>"
+      },
+      {
+        "href": "https://www.casadellibro.com/libros-ebooks/alonso-caparros/63867",
+        "inner_text": "ALONSO CAPARROS",
+        "inner_html": "<span data-v-5264de2e=\"\">ALONSO CAPARROS</span> <span class=\"separateSpan ml-n2 mr-2\" data-v-5264de2e=\"\">, </span>"
+      },
+      {
+        "href": "https://www.casadellibro.com/libros-ebooks/joaquin-sanchez/20111745",
+        "inner_text": "JOAQUIN SANCHEZ",
+        "inner_html": "<span data-v-5264de2e=\"\">JOAQUIN SANCHEZ</span> <span class=\"separateSpan ml-n2 mr-2\" data-v-5264de2e=\"\">, </span>"
+      },
+      {
+        "href": "https://www.casadellibro.com/libros-ebooks/irene-vallejo/87476",
+        "inner_text": "IRENE VALLEJO",
+        "inner_html": "<span data-v-5264de2e=\"\">IRENE VALLEJO</span> <span class=\"separateSpan ml-n2 mr-2\" data-v-5264de2e=\"\">, </span>"
+      },
+      {
+        "href": "https://www.casadellibro.com/libros-ebooks/camilla-lackberg/121705",
+        "inner_text": "CAMILLA LACKBERG",
+        "inner_html": "<span data-v-5264de2e=\"\">CAMILLA LACKBERG</span> <span class=\"separateSpan ml-n2 mr-2\" data-v-5264de2e=\"\">, </span>"
+      },
+      {
+        "href": "https://www.casadellibro.com/libros-ebooks/peter-brown/4745",
+        "inner_text": "PETER BROWN",
+        "inner_html": "<span data-v-5264de2e=\"\">PETER BROWN</span> <span class=\"separateSpan ml-n2 mr-2\" data-v-5264de2e=\"\">, </span>"
+      },
+      {
+        "href": "https://www.casadellibro.com/libros-ebooks/rodrigo-cortes/20087434",
+        "inner_text": "RODRIGO CORTES",
+        "inner_html": "<span data-v-5264de2e=\"\">RODRIGO CORTES</span> <span class=\"separateSpan ml-n2 mr-2\" data-v-5264de2e=\"\">, </span>"
+      },
+      {
+        "href": "https://www.casadellibro.com/libros-ebooks/david-abulafia/50927",
+        "inner_text": "DAVID ABULAFIA",
+        "inner_html": "<span data-v-5264de2e=\"\">DAVID ABULAFIA</span> <span class=\"separateSpan ml-n2 mr-2\" data-v-5264de2e=\"\">, </span>"
+      },
+      {
+        "href": "https://www.casadellibro.com/libros/libros-de-texto-y-formacion/cuadernos-de-vacaciones/132004000",
+        "inner_text": "Ver cuadernos",
+        "inner_html": "<span class=\"v-btn__content\"><span class=\"text-caption hidden-md-and-up\" data-v-3c58fb2e=\"\">\n            Ver cuadernos\n          </span> <span class=\"hidden-sm-and-down\" data-v-3c58fb2e=\"\">\n            Ver cuadernos\n          </span></span>"
+      },
+      {
+        "href": "https://www.casadellibro.com/libros-geronimo-stilton",
+        "inner_text": "Saber más",
+        "inner_html": "<span class=\"v-btn__content\"><span class=\"text-caption hidden-md-and-up\" data-v-3c58fb2e=\"\">\n            Saber más\n          </span> <span class=\"hidden-sm-and-down\" data-v-3c58fb2e=\"\">\n            Saber más\n          </span></span>"
+      },
+      {
+        "href": "https://www.casadellibro.com/libro-el-juego-del-alma/9788491293545/11923398",
+        "inner_text": "",
+        "inner_html": "<!----> <img title=\"EL JUEGO DEL ALMA - 9788491293545 - JAVIER CASTILLO\" alt=\"el juego del alma-javier castillo-9788491293545\" src=\"\" data-src=\"https://imagessl5.casadellibro.com/a/l/t1/45/9788491293545.jpg\" width=\"auto\" class=\"product-img show-shadow cdl-img\" style=\"max-height:350px;max-width:150px;width:auto;\" data-v-86bff28a=\"\">"
+      },
+      {
+        "href": "https://www.casadellibro.com/libros-ebooks/javier-castillo/101034",
+        "inner_text": "JAVIER CASTILLO",
+        "inner_html": "<span data-v-5264de2e=\"\">JAVIER CASTILLO</span> <span class=\"separateSpan ml-n2 mr-2\" data-v-5264de2e=\"\">, </span>"
+      },
+      {
+        "href": "https://www.casadellibro.com/libro-el-arte-de-enganar-al-karma/9788491291930/12137611",
+        "inner_text": "",
+        "inner_html": "<!----> <img title=\"EL ARTE DE ENGAÑAR AL KARMA - 9788491291930 - ELISABET BENAVENT\" alt=\"el arte de engañar al karma-elisabet benavent-9788491291930\" src=\"\" data-src=\"https://imagessl0.casadellibro.com/a/l/t1/30/9788491291930.jpg\" width=\"auto\" class=\"product-img show-shadow cdl-img\" style=\"max-height:350px;max-width:150px;width:auto;\" data-v-86bff28a=\"\">"
+      },
+      {
+        "href": "https://www.casadellibro.com/libros-ebooks/elisabet-benavent/20090633",
+        "inner_text": "ELISABET BENAVENT",
+        "inner_html": "<span data-v-5264de2e=\"\">ELISABET BENAVENT</span> <span class=\"separateSpan ml-n2 mr-2\" data-v-5264de2e=\"\">, </span>"
+      },
+      {
+        "href": "https://www.casadellibro.com/libro-independencia-terra-alta-2/9788490669297/12074311",
+        "inner_text": "",
+        "inner_html": "<!----> <img title=\"INDEPENDENCIA (TERRA ALTA 2) - 9788490669297 - JAVIER CERCAS\" alt=\"independencia (terra alta 2)-javier cercas-9788490669297\" src=\"\" data-src=\"https://imagessl7.casadellibro.com/a/l/t1/97/9788490669297.jpg\" width=\"auto\" class=\"product-img show-shadow cdl-img\" style=\"max-height:350px;max-width:150px;width:auto;\" data-v-86bff28a=\"\">"
+      },
+      {
+        "href": "https://www.casadellibro.com/libros-ebooks/javier-cercas/57042",
+        "inner_text": "JAVIER CERCAS",
+        "inner_html": "<span data-v-5264de2e=\"\">JAVIER CERCAS</span> <span class=\"separateSpan ml-n2 mr-2\" data-v-5264de2e=\"\">, </span>"
+      },
+      {
+        "href": "https://www.casadellibro.com/libro-transbordo-en-moscu/9788432238543/12173407",
+        "inner_text": "",
+        "inner_html": "<!----> <img title=\"TRANSBORDO EN MOSCÚ - 9788432238543 - EDUARDO MENDOZA\" alt=\"transbordo en moscú-eduardo mendoza-9788432238543\" src=\"\" data-src=\"https://imagessl3.casadellibro.com/a/l/t1/43/9788432238543.jpg\" width=\"auto\" class=\"product-img show-shadow cdl-img\" style=\"max-height:350px;max-width:150px;width:auto;\" data-v-86bff28a=\"\">"
+      },
+      {
+        "href": "https://www.casadellibro.com/libros-ebooks/eduardo-mendoza/1146",
+        "inner_text": "EDUARDO MENDOZA",
+        "inner_html": "<span data-v-5264de2e=\"\">EDUARDO MENDOZA</span> <span class=\"separateSpan ml-n2 mr-2\" data-v-5264de2e=\"\">, </span>"
+      },
+      {
+        "href": "https://www.casadellibro.com/libro-a-traves-de-mi-ventana/9788420451916/9179412",
+        "inner_text": "",
+        "inner_html": "<!----> <img title=\"A TRAVES DE MI VENTANA - 9788420451916 - ARIANA GODOY\" alt=\"a traves de mi ventana-ariana godoy-9788420451916\" src=\"\" data-src=\"https://imagessl6.casadellibro.com/a/l/t1/16/9788420451916.jpg\" width=\"auto\" class=\"product-img show-shadow cdl-img\" style=\"max-height:350px;max-width:150px;width:auto;\" data-v-86bff28a=\"\">"
+      },
+      {
+        "href": "https://www.casadellibro.com/libros-ebooks/ariana-godoy/20105739",
+        "inner_text": "ARIANA GODOY",
+        "inner_html": "<span data-v-5264de2e=\"\">ARIANA GODOY</span> <span class=\"separateSpan ml-n2 mr-2\" data-v-5264de2e=\"\">, </span>"
+      },
+      {
+        "href": "https://www.casadellibro.com/libro-boulevard-boulevard-1/9789807909068/11530873",
+        "inner_text": "",
+        "inner_html": "<!----> <img title=\"BOULEVARD (BOULEVARD #1) - 9789807909068 - FLOR M SALVADOR\" alt=\"boulevard (boulevard #1)-flor m salvador-9789807909068\" src=\"\" data-src=\"https://imagessl8.casadellibro.com/a/l/t1/68/9789807909068.jpg\" width=\"auto\" class=\"product-img show-shadow cdl-img\" style=\"max-height:350px;max-width:150px;width:auto;\" data-v-86bff28a=\"\">"
+      },
+      {
+        "href": "https://www.casadellibro.com/libros-ebooks/flor-m-salvador/20109672",
+        "inner_text": "FLOR M SALVADOR",
+        "inner_html": "<span data-v-5264de2e=\"\">FLOR M SALVADOR</span> <span class=\"separateSpan ml-n2 mr-2\" data-v-5264de2e=\"\">, </span>"
+      },
+      {
+        "href": "https://www.casadellibro.com/libro-el-principito--edicion-de-lujo/9788418174193/11663311",
+        "inner_text": "",
+        "inner_html": "<!----> <img title=\"EL PRINCIPITO  (EDICIÓN DE LUJO) - 9788418174193 - ANTOINE DE SAINT-EXUPERY\" alt=\"el principito  (edición de lujo)-antoine de saint-exupery-9788418174193\" src=\"\" data-src=\"https://imagessl3.casadellibro.com/a/l/t1/93/9788418174193.jpg\" width=\"auto\" class=\"product-img show-shadow cdl-img\" style=\"max-height:350px;max-width:150px;width:auto;\" data-v-86bff28a=\"\">"
+      },
+      {
+        "href": "https://www.casadellibro.com/libros-ebooks/antoine-de-saint-exupery/23595",
+        "inner_text": "ANTOINE DE SAINT-EXUPERY",
+        "inner_html": "<span data-v-5264de2e=\"\">ANTOINE DE SAINT-EXUPERY</span> <span class=\"separateSpan ml-n2 mr-2\" data-v-5264de2e=\"\">, </span>"
+      },
+      {
+        "href": "https://www.casadellibro.com/libros/infantil/infantil-0-a-2-anos/117001000",
+        "inner_text": "",
+        "inner_html": "<img title=\"\" alt=\"Libros infantiles 0-2 años\" src=\"\" data-src=\"https://imagessl.casadellibro.com/t1e/c/63/0%20a%202%20nuevo.png\" class=\"cdl-img\" style=\"max-height:undefinedpx;max-width:undefinedpx;\" data-v-069de76b=\"\">"
+      },
+      {
+        "href": "https://www.casadellibro.com/libros/infantil/infantil-3-a-5-anos/117005000",
+        "inner_text": "",
+        "inner_html": "<img title=\"\" alt=\"Libros infantiles 3-5 años\" src=\"\" data-src=\"https://imagessl.casadellibro.com/t1e/c/63/3%20a%205%20nuevo.png\" class=\"cdl-img\" style=\"max-height:undefinedpx;max-width:undefinedpx;\" data-v-069de76b=\"\">"
+      },
+      {
+        "href": "https://www.casadellibro.com/libros/infantil/infantil-6-a-8-anos/117002000",
+        "inner_text": "",
+        "inner_html": "<img title=\"\" alt=\"Libros infantiles 6-8 años\" src=\"\" data-src=\"https://imagessl.casadellibro.com/t1e/c/63/6%20a%208%20nuevo.png\" class=\"cdl-img\" style=\"max-height:undefinedpx;max-width:undefinedpx;\" data-v-069de76b=\"\">"
+      },
+      {
+        "href": "https://www.casadellibro.com/libros/infantil/infantil-9-a-12-anos/117003000",
+        "inner_text": "",
+        "inner_html": "<img title=\"\" alt=\"Libros infantiles 9-12 años\" src=\"\" data-src=\"https://imagessl.casadellibro.com/t1e/c/63/9%20a%2012%20nuevo.png\" class=\"cdl-img\" style=\"max-height:undefinedpx;max-width:undefinedpx;\" data-v-069de76b=\"\">"
+      },
+      {
+        "href": "https://www.casadellibro.com/libros/comics-manga-infantil-y-juvenil/412000000",
+        "inner_text": "",
+        "inner_html": "<img title=\"\" alt=\"Cómic infantil\" src=\"\" data-src=\"https://imagessl.casadellibro.com/t1e/c/63/comic%20infantil.png\" class=\"cdl-img\" style=\"max-height:undefinedpx;max-width:undefinedpx;\" data-v-069de76b=\"\">"
+      },
+      {
+        "href": "https://www.casadellibro.com/libros/juvenil/117001014",
+        "inner_text": "",
+        "inner_html": "<img title=\"\" alt=\"Libros juveniles\" src=\"\" data-src=\"https://imagessl.casadellibro.com/t1e/c/63/juvenil%20nuevo.png\" class=\"cdl-img\" style=\"max-height:undefinedpx;max-width:undefinedpx;\" data-v-069de76b=\"\">"
+      },
+      {
+        "href": "https://www.casadellibro.com/novedades-libros-infantiles",
+        "inner_text": "Novedades infantiles",
+        "inner_html": "Novedades infantiles"
+      },
+      {
+        "href": "https://www.casadellibro.com/libro-pack-de-el-orinal-de-lulu/9788413189123/12316757",
+        "inner_text": "",
+        "inner_html": "<!----> <img title=\"PACK DE EL ORINAL DE LULÚ - 9788413189123 - CAMILLA REID\" alt=\"pack de el orinal de lulú-camilla reid-9788413189123\" src=\"\" data-src=\"https://imagessl3.casadellibro.com/a/l/t1/23/9788413189123.jpg\" width=\"auto\" class=\"product-img show-shadow cdl-img\" style=\"max-height:350px;max-width:150px;width:auto;\" data-v-86bff28a=\"\">"
+      },
+      {
+        "href": "https://www.casadellibro.com/libros-ebooks/camilla-reid/131443",
+        "inner_text": "CAMILLA REID",
+        "inner_html": "<span data-v-5264de2e=\"\">CAMILLA REID</span> <span class=\"separateSpan ml-n2 mr-2\" data-v-5264de2e=\"\">, </span>"
+      },
+      {
+        "href": "https://www.casadellibro.com/libro-mi-primer-principito-con-pictogramas/9788469663387/12271633",
+        "inner_text": "",
+        "inner_html": "<!----> <img title=\"MI PRIMER PRINCIPITO CON PICTOGRAMAS - 9788469663387 - ANTOINE DE SAINT-EXUPERY\" alt=\"mi primer principito con pictogramas-antoine de saint-exupery-9788469663387\" src=\"\" data-src=\"https://imagessl7.casadellibro.com/a/l/t1/87/9788469663387.jpg\" width=\"auto\" class=\"product-img show-shadow cdl-img\" style=\"max-height:350px;max-width:150px;width:auto;\" data-v-86bff28a=\"\">"
+      },
+      {
+        "href": "https://www.casadellibro.com/libro-futbolisimos-19-el-misterio-de-las-brujas-futbolistas/9788413921594/12316767",
+        "inner_text": "",
+        "inner_html": "<!----> <img title=\"FUTBOLISIMOS 19: EL MISTERIO DE LAS BRUJAS FUTBOLISTAS - 9788413921594 - ROBERTO SANTIAGO\" alt=\"futbolisimos 19: el misterio de las brujas futbolistas-roberto santiago-9788413921594\" src=\"\" data-src=\"https://imagessl4.casadellibro.com/a/l/t1/94/9788413921594.jpg\" width=\"auto\" class=\"product-img show-shadow cdl-img\" style=\"max-height:350px;max-width:150px;width:auto;\" data-v-86bff28a=\"\">"
+      },
+      {
+        "href": "https://www.casadellibro.com/libros-ebooks/roberto-santiago/14700",
+        "inner_text": "ROBERTO SANTIAGO",
+        "inner_html": "<span data-v-5264de2e=\"\">ROBERTO SANTIAGO</span> <span class=\"separateSpan ml-n2 mr-2\" data-v-5264de2e=\"\">, </span>"
+      },
+      {
+        "href": "https://www.casadellibro.com/libro-anna-kadabra-6-pasteles-peligrosos/9788408241973/12230952",
+        "inner_text": "",
+        "inner_html": "<!----> <img title=\"ANNA KADABRA 6. PASTELES PELIGROSOS - 9788408241973 - PEDRO MAÑAS\" alt=\"anna kadabra 6. pasteles peligrosos-pedro mañas-9788408241973\" src=\"\" data-src=\"https://imagessl3.casadellibro.com/a/l/t1/73/9788408241973.jpg\" width=\"auto\" class=\"product-img show-shadow cdl-img\" style=\"max-height:350px;max-width:150px;width:auto;\" data-v-86bff28a=\"\">"
+      },
+      {
+        "href": "https://www.casadellibro.com/libros-ebooks/pedro-manas/138598",
+        "inner_text": "PEDRO MAÑAS",
+        "inner_html": "<span data-v-5264de2e=\"\">PEDRO MAÑAS</span> <span class=\"separateSpan ml-n2 mr-2\" data-v-5264de2e=\"\">, </span>"
+      },
+      {
+        "href": "https://www.casadellibro.com/libro-diario-de-una-adolescente/9788418318818/12225241",
+        "inner_text": "",
+        "inner_html": "<!----> <img title=\"DIARIO DE UNA ADOLESCENTE - 9788418318818 - ANDREA PALAZON\" alt=\"diario de una adolescente-andrea palazon-9788418318818\" src=\"\" data-src=\"https://imagessl8.casadellibro.com/a/l/t1/18/9788418318818.jpg\" width=\"auto\" class=\"product-img show-shadow cdl-img\" style=\"max-height:350px;max-width:150px;width:auto;\" data-v-86bff28a=\"\">"
+      },
+      {
+        "href": "https://www.casadellibro.com/libros-ebooks/andrea-palazon/20111791",
+        "inner_text": "ANDREA PALAZON",
+        "inner_html": "<span data-v-5264de2e=\"\">ANDREA PALAZON</span> <span class=\"separateSpan ml-n2 mr-2\" data-v-5264de2e=\"\">, </span>"
+      },
+      {
+        "href": "https://www.casadellibro.com/libro-el-amuleto-perdido-amanda-black-2/9788418054327/12254784",
+        "inner_text": "",
+        "inner_html": "<!----> <img title=\"EL AMULETO PERDIDO (AMANDA BLACK 2) - 9788418054327 - JUAN GOMEZ-JURADO\" alt=\"el amuleto perdido (amanda black 2)-juan gomez-jurado-barbara montes-9788418054327\" src=\"\" data-src=\"https://imagessl7.casadellibro.com/a/l/t1/27/9788418054327.jpg\" width=\"auto\" class=\"product-img show-shadow cdl-img\" style=\"max-height:350px;max-width:150px;width:auto;\" data-v-86bff28a=\"\">"
+      },
+      {
+        "href": "https://www.casadellibro.com/libros-ebooks/juan-gomez-jurado/112700",
+        "inner_text": "JUAN GOMEZ-JURADO ,",
+        "inner_html": "<span data-v-5264de2e=\"\">JUAN GOMEZ-JURADO</span> <span class=\"separateSpan ml-n2 mr-2\" data-v-5264de2e=\"\">, </span>"
+      },
+      {
+        "href": "https://www.casadellibro.com/libros-ebooks/barbara-montes/20109466",
+        "inner_text": "BARBARA MONTES",
+        "inner_html": "<span data-v-5264de2e=\"\">BARBARA MONTES</span> <span class=\"separateSpan ml-n2 mr-2\" data-v-5264de2e=\"\">, </span>"
+      },
+      {
+        "href": "https://www.casadellibro.com/libro-exi-bienvenidos-a-glitch-city/9788408240389/12173315",
+        "inner_text": "",
+        "inner_html": "<!----> <img title=\"EXI. BIENVENIDOS A GLITCH CITY - 9788408240389 - EXI\" alt=\"exi. bienvenidos a glitch city-9788408240389\" src=\"\" data-src=\"https://imagessl9.casadellibro.com/a/l/t1/89/9788408240389.jpg\" width=\"auto\" class=\"product-img show-shadow cdl-img\" style=\"max-height:350px;max-width:150px;width:auto;\" data-v-86bff28a=\"\">"
+      },
+      {
+        "href": "https://www.casadellibro.com/libros-ebooks/exi/20110904",
+        "inner_text": "EXI",
+        "inner_html": "<span data-v-5264de2e=\"\">EXI</span> <span class=\"separateSpan ml-n2 mr-2\" data-v-5264de2e=\"\">, </span>"
+      },
+      {
+        "href": "https://www.casadellibro.com/libro-epic-battle/9788427048379/12173395",
+        "inner_text": "",
+        "inner_html": "<!----> <img title=\"EPIC BATTLE - 9788427048379 - YOSOYPLEX\" alt=\"epic battle-9788427048379\" src=\"\" data-src=\"https://imagessl9.casadellibro.com/a/l/t1/79/9788427048379.jpg\" width=\"auto\" class=\"product-img show-shadow cdl-img\" style=\"max-height:350px;max-width:150px;width:auto;\" data-v-86bff28a=\"\">"
+      },
+      {
+        "href": "https://www.casadellibro.com/libros-ebooks/yosoyplex/20111191",
+        "inner_text": "YOSOYPLEX",
+        "inner_html": "<span data-v-5264de2e=\"\">YOSOYPLEX</span> <span class=\"separateSpan ml-n2 mr-2\" data-v-5264de2e=\"\">, </span>"
+      },
+      {
+        "href": "https://www.casadellibro.com/libro-el-hilo-invisible-un-cuento-sobre-los-vinculos-que-nos-unen/9788417921330/11603323",
+        "inner_text": "",
+        "inner_html": "<!----> <img title=\"EL HILO INVISIBLE. UN CUENTO SOBRE LOS VÍNCULOS QUE NOS UNEN - 9788417921330 - MIRIAM TIRADO\" alt=\"el hilo invisible. un cuento sobre los vínculos que nos unen-miriam tirado-9788417921330\" src=\"\" data-src=\"https://imagessl0.casadellibro.com/a/l/t1/30/9788417921330.jpg\" width=\"auto\" class=\"product-img show-shadow cdl-img\" style=\"max-height:350px;max-width:150px;width:auto;\" data-v-86bff28a=\"\">"
+      },
+      {
+        "href": "https://www.casadellibro.com/libros-ebooks/miriam-tirado/109317",
+        "inner_text": "MIRIAM TIRADO",
+        "inner_html": "<span data-v-5264de2e=\"\">MIRIAM TIRADO</span> <span class=\"separateSpan ml-n2 mr-2\" data-v-5264de2e=\"\">, </span>"
+      },
+      {
+        "href": "https://www.casadellibro.com/libro-los-compas-perdidos-en-el-espacio/9788427048348/12231068",
+        "inner_text": "",
+        "inner_html": "<!----> <img title=\"LOS COMPAS PERDIDOS EN EL ESPACIO - 9788427048348 - MIKECRACK\" alt=\"los compas perdidos en el espacio-9788427048348\" src=\"\" data-src=\"https://imagessl8.casadellibro.com/a/l/t1/48/9788427048348.jpg\" width=\"auto\" class=\"product-img show-shadow cdl-img\" style=\"max-height:350px;max-width:150px;width:auto;\" data-v-86bff28a=\"\">"
+      },
+      {
+        "href": "https://www.casadellibro.com/libros-ebooks/mikecrack/20100494",
+        "inner_text": "MIKECRACK ,",
+        "inner_html": "<span data-v-5264de2e=\"\">MIKECRACK</span> <span class=\"separateSpan ml-n2 mr-2\" data-v-5264de2e=\"\">, </span>"
+      },
+      {
+        "href": "https://www.casadellibro.com/libros-ebooks/el-trollino/20100492",
+        "inner_text": "EL TROLLINO ,",
+        "inner_html": "<span data-v-5264de2e=\"\">EL TROLLINO</span> <span class=\"separateSpan ml-n2 mr-2\" data-v-5264de2e=\"\">, </span>"
+      },
+      {
+        "href": "https://www.casadellibro.com/libros-ebooks/timba-vk/20100493",
+        "inner_text": "TIMBA VK",
+        "inner_html": "<span data-v-5264de2e=\"\">TIMBA VK</span> <span class=\"separateSpan ml-n2 mr-2\" data-v-5264de2e=\"\">, </span>"
+      },
+      {
+        "href": "https://www.casadellibro.com/libro-trolardy-y-el-pan-dorado/9788427048065/12074256",
+        "inner_text": "",
+        "inner_html": "<!----> <img title=\"TROLARDY Y EL PAN DORADO - 9788427048065 - TROLEROTUTOS Y HARDY\" alt=\"trolardy y el pan dorado-9788427048065\" src=\"\" data-src=\"https://imagessl5.casadellibro.com/a/l/t1/65/9788427048065.jpg\" width=\"auto\" class=\"product-img show-shadow cdl-img\" style=\"max-height:350px;max-width:150px;width:auto;\" data-v-86bff28a=\"\">"
+      },
+      {
+        "href": "https://www.casadellibro.com/libros-ebooks/trolerotutos-y-hardy/20110037",
+        "inner_text": "TROLEROTUTOS Y HARDY",
+        "inner_html": "<span data-v-5264de2e=\"\">TROLEROTUTOS Y HARDY</span> <span class=\"separateSpan ml-n2 mr-2\" data-v-5264de2e=\"\">, </span>"
+      },
+      {
+        "href": "https://www.casadellibro.com/libro-el-caliz-y-la-espada/9788412281804/12314866",
+        "inner_text": "EL CÁLIZ Y LA ESPADA",
+        "inner_html": "EL CÁLIZ Y LA ESPADA"
+      },
+      {
+        "href": "https://www.casadellibro.com/libros-ebooks/riane-eisler/9649",
+        "inner_text": "RIANE EISLER",
+        "inner_html": "<span data-v-5264de2e=\"\">RIANE EISLER</span> <span class=\"separateSpan ml-n2 mr-2\" data-v-5264de2e=\"\">, </span>"
+      },
+      {
+        "href": "https://www.casadellibro.com/libros/historia/115000000",
+        "inner_text": "Ver todos ",
+        "inner_html": "Ver todos\n        <span aria-hidden=\"true\" class=\"v-icon notranslate theme--light black--text\" data-v-30d24a62=\"\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" role=\"img\" aria-hidden=\"true\" class=\"v-icon__svg\"><path d=\"M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z\"></path></svg></span>"
+      },
+      {
+        "href": "https://www.casadellibro.com/libro-resetea-tu-mente-descubre-de-lo-que-eres-capaz/9788467062045/12074305",
+        "inner_text": "RESETEA TU MENTE. DESCUBRE DE LO QUE ERES CAPAZ",
+        "inner_html": "RESETEA TU MENTE. DESCUBRE DE LO QUE ERES CAPAZ"
+      },
+      {
+        "href": "https://www.casadellibro.com/libros-ebooks/mario-alonso-puig/102985",
+        "inner_text": "MARIO ALONSO PUIG",
+        "inner_html": "<span data-v-5264de2e=\"\">MARIO ALONSO PUIG</span> <span class=\"separateSpan ml-n2 mr-2\" data-v-5264de2e=\"\">, </span>"
+      },
+      {
+        "href": "https://www.casadellibro.com/libros/autoayuda-y-espiritualidad/102000000",
+        "inner_text": "Ver todos ",
+        "inner_html": "Ver todos\n        <span aria-hidden=\"true\" class=\"v-icon notranslate theme--light black--text\" data-v-30d24a62=\"\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" role=\"img\" aria-hidden=\"true\" class=\"v-icon__svg\"><path d=\"M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z\"></path></svg></span>"
+      },
+      {
+        "href": "https://www.casadellibro.com/libro-dime-que-comes-y-te-dire-que-bacterias-tienes/9788417752927/11391041",
+        "inner_text": "DIME QUE COMES Y TE DIRE QUE BACTERIAS TIENES",
+        "inner_html": "DIME QUE COMES Y TE DIRE QUE BACTERIAS TIENES"
+      },
+      {
+        "href": "https://www.casadellibro.com/libros-ebooks/blanca-garcia-orea/20100229",
+        "inner_text": "BLANCA GARCIA-OREA",
+        "inner_html": "<span data-v-5264de2e=\"\">BLANCA GARCIA-OREA</span> <span class=\"separateSpan ml-n2 mr-2\" data-v-5264de2e=\"\">, </span>"
+      },
+      {
+        "href": "https://www.casadellibro.com/libro-es-la-microbiota-idiota/9788413440682/12074183",
+        "inner_text": "¡ES LA MICROBIOTA, IDIOTA!",
+        "inner_html": "¡ES LA MICROBIOTA, IDIOTA!"
+      },
+      {
+        "href": "https://www.casadellibro.com/libros-ebooks/sari-arponen/20110407",
+        "inner_text": "SARI ARPONEN",
+        "inner_html": "<span data-v-5264de2e=\"\">SARI ARPONEN</span> <span class=\"separateSpan ml-n2 mr-2\" data-v-5264de2e=\"\">, </span>"
+      },
+      {
+        "href": "https://www.casadellibro.com/libro-cocina-comida-real-mas-de-100-recetas-para-realfooders/9788449336836/11240317",
+        "inner_text": "COCINA COMIDA REAL: MAS DE 100 RECETAS PARA REALFOODERS",
+        "inner_html": "COCINA COMIDA REAL: MAS DE 100 RECETAS PARA REALFOODERS"
+      },
+      {
+        "href": "https://www.casadellibro.com/libros-ebooks/carlos-rios/20104351",
+        "inner_text": "CARLOS RIOS ,",
+        "inner_html": "<span data-v-5264de2e=\"\">CARLOS RIOS</span> <span class=\"separateSpan ml-n2 mr-2\" data-v-5264de2e=\"\">, </span>"
+      },
+      {
+        "href": "https://www.casadellibro.com/libros-ebooks/david-guibert/20107535",
+        "inner_text": "DAVID GUIBERT",
+        "inner_html": "<span data-v-5264de2e=\"\">DAVID GUIBERT</span> <span class=\"separateSpan ml-n2 mr-2\" data-v-5264de2e=\"\">, </span>"
+      },
+      {
+        "href": "https://www.casadellibro.com/libros/salud-y-dietas/131000000",
+        "inner_text": "Ver todos ",
+        "inner_html": "Ver todos\n        <span aria-hidden=\"true\" class=\"v-icon notranslate theme--light black--text\" data-v-30d24a62=\"\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" role=\"img\" aria-hidden=\"true\" class=\"v-icon__svg\"><path d=\"M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z\"></path></svg></span>"
+      },
+      {
+        "href": "https://www.casadellibro.com/libros/novela-contemporanea/128000000",
+        "inner_text": "Contemporánea",
+        "inner_html": "<img src=\"https://imagessl.casadellibro.com/t1e/c/63/contemporanea%20icon.png\" alt=\"Literatura contemporánea\" title=\"Contemporánea\" class=\"d-none d-sm-flex\" style=\"margin:0 auto;max-width:150px;\" data-v-aef96f40=\"\"> <div class=\"v-card__text d-flex justify-sm-center px-0\" data-v-aef96f40=\"\"><span aria-hidden=\"true\" class=\"v-icon notranslate d-sm-none theme--light accent--text\" data-v-aef96f40=\"\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" role=\"img\" aria-hidden=\"true\" class=\"v-icon__svg\"><path d=\"M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z\"></path></svg></span> <p class=\"accent2--text mb-0 text-sm-center\" data-v-aef96f40=\"\">\n          Contemporánea\n        </p></div>"
+      },
+      {
+        "href": "https://www.casadellibro.com/libros/ciencias/103000000",
+        "inner_text": "Ciencias",
+        "inner_html": "<img src=\"https://imagessl.casadellibro.com/t1e/c/63/ciencias%20ico.png\" alt=\"Ciencias\" title=\"Ciencias\" class=\"d-none d-sm-flex\" style=\"margin:0 auto;max-width:150px;\" data-v-aef96f40=\"\"> <div class=\"v-card__text d-flex justify-sm-center px-0\" data-v-aef96f40=\"\"><span aria-hidden=\"true\" class=\"v-icon notranslate d-sm-none theme--light accent--text\" data-v-aef96f40=\"\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" role=\"img\" aria-hidden=\"true\" class=\"v-icon__svg\"><path d=\"M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z\"></path></svg></span> <p class=\"accent2--text mb-0 text-sm-center\" data-v-aef96f40=\"\">\n          Ciencias\n        </p></div>"
+      },
+      {
+        "href": "https://www.casadellibro.com/libros/arte/101000000",
+        "inner_text": "\n                    Arte",
+        "inner_html": "<span aria-hidden=\"true\" class=\"v-icon notranslate theme--light accent--text\" data-v-aef96f40=\"\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" role=\"img\" aria-hidden=\"true\" class=\"v-icon__svg\"><path d=\"M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z\"></path></svg></span>\n                    Arte"
+      },
+      {
+        "href": "https://www.casadellibro.com/libros/ciencias-humanas/104000000",
+        "inner_text": "\n                    Ciencias Humanas",
+        "inner_html": "<span aria-hidden=\"true\" class=\"v-icon notranslate theme--light accent--text\" data-v-aef96f40=\"\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" role=\"img\" aria-hidden=\"true\" class=\"v-icon__svg\"><path d=\"M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z\"></path></svg></span>\n                    Ciencias Humanas"
+      },
+      {
+        "href": "https://www.casadellibro.com/libros/ciencias-politicas-y-sociales/105000000",
+        "inner_text": "\n                    Ciencias Políticas y Sociales",
+        "inner_html": "<span aria-hidden=\"true\" class=\"v-icon notranslate theme--light accent--text\" data-v-aef96f40=\"\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" role=\"img\" aria-hidden=\"true\" class=\"v-icon__svg\"><path d=\"M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z\"></path></svg></span>\n                    Ciencias Políticas y Sociales"
+      },
+      {
+        "href": "https://www.casadellibro.com/libros/cocina/106000000",
+        "inner_text": "\n                    Cocina",
+        "inner_html": "<span aria-hidden=\"true\" class=\"v-icon notranslate theme--light accent--text\" data-v-aef96f40=\"\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" role=\"img\" aria-hidden=\"true\" class=\"v-icon__svg\"><path d=\"M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z\"></path></svg></span>\n                    Cocina"
+      },
+      {
+        "href": "https://www.casadellibro.com/libros/comics/411000000",
+        "inner_text": "\n                    Cómics",
+        "inner_html": "<span aria-hidden=\"true\" class=\"v-icon notranslate theme--light accent--text\" data-v-aef96f40=\"\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" role=\"img\" aria-hidden=\"true\" class=\"v-icon__svg\"><path d=\"M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z\"></path></svg></span>\n                    Cómics"
+      },
+      {
+        "href": "https://www.casadellibro.com/libros/deportes-y-juegos/108000000",
+        "inner_text": "\n                    Deportes y juegos",
+        "inner_html": "<span aria-hidden=\"true\" class=\"v-icon notranslate theme--light accent--text\" data-v-aef96f40=\"\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" role=\"img\" aria-hidden=\"true\" class=\"v-icon__svg\"><path d=\"M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z\"></path></svg></span>\n                    Deportes y juegos"
+      },
+      {
+        "href": "https://www.casadellibro.com/libros/derecho/109000000",
+        "inner_text": "\n                    Derecho",
+        "inner_html": "<span aria-hidden=\"true\" class=\"v-icon notranslate theme--light accent--text\" data-v-aef96f40=\"\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" role=\"img\" aria-hidden=\"true\" class=\"v-icon__svg\"><path d=\"M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z\"></path></svg></span>\n                    Derecho"
+      },
+      {
+        "href": "https://www.casadellibro.com/libros/economia/110000000",
+        "inner_text": "\n                    Economía",
+        "inner_html": "<span aria-hidden=\"true\" class=\"v-icon notranslate theme--light accent--text\" data-v-aef96f40=\"\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" role=\"img\" aria-hidden=\"true\" class=\"v-icon__svg\"><path d=\"M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z\"></path></svg></span>\n                    Economía"
+      },
+      {
+        "href": "https://www.casadellibro.com/libros/empresa/111000000",
+        "inner_text": "\n                    Empresa",
+        "inner_html": "<span aria-hidden=\"true\" class=\"v-icon notranslate theme--light accent--text\" data-v-aef96f40=\"\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" role=\"img\" aria-hidden=\"true\" class=\"v-icon__svg\"><path d=\"M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z\"></path></svg></span>\n                    Empresa"
+      },
+      {
+        "href": "https://www.casadellibro.com/libros/filologia/112000000",
+        "inner_text": "\n                    Filología",
+        "inner_html": "<span aria-hidden=\"true\" class=\"v-icon notranslate theme--light accent--text\" data-v-aef96f40=\"\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" role=\"img\" aria-hidden=\"true\" class=\"v-icon__svg\"><path d=\"M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z\"></path></svg></span>\n                    Filología"
+      },
+      {
+        "href": "https://www.casadellibro.com/libros/fotografia/113000000",
+        "inner_text": "\n                    Fotografía",
+        "inner_html": "<span aria-hidden=\"true\" class=\"v-icon notranslate theme--light accent--text\" data-v-aef96f40=\"\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" role=\"img\" aria-hidden=\"true\" class=\"v-icon__svg\"><path d=\"M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z\"></path></svg></span>\n                    Fotografía"
+      },
+      {
+        "href": "https://www.casadellibro.com/libros/guias-de-viaje/114000000",
+        "inner_text": "\n                    Guías de viaje",
+        "inner_html": "<span aria-hidden=\"true\" class=\"v-icon notranslate theme--light accent--text\" data-v-aef96f40=\"\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" role=\"img\" aria-hidden=\"true\" class=\"v-icon__svg\"><path d=\"M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z\"></path></svg></span>\n                    Guías de viaje"
+      },
+      {
+        "href": "https://www.casadellibro.com/libros/idiomas/116000000",
+        "inner_text": "\n                    Idiomas",
+        "inner_html": "<span aria-hidden=\"true\" class=\"v-icon notranslate theme--light accent--text\" data-v-aef96f40=\"\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" role=\"img\" aria-hidden=\"true\" class=\"v-icon__svg\"><path d=\"M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z\"></path></svg></span>\n                    Idiomas"
+      },
+      {
+        "href": "https://www.casadellibro.com/libros/informatica/118000000",
+        "inner_text": "\n                    Informática",
+        "inner_html": "<span aria-hidden=\"true\" class=\"v-icon notranslate theme--light accent--text\" data-v-aef96f40=\"\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" role=\"img\" aria-hidden=\"true\" class=\"v-icon__svg\"><path d=\"M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z\"></path></svg></span>\n                    Informática"
+      },
+      {
+        "href": "https://www.casadellibro.com/libros/ingenieria/119000000",
+        "inner_text": "\n                    Ingeniería",
+        "inner_html": "<span aria-hidden=\"true\" class=\"v-icon notranslate theme--light accent--text\" data-v-aef96f40=\"\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" role=\"img\" aria-hidden=\"true\" class=\"v-icon__svg\"><path d=\"M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z\"></path></svg></span>\n                    Ingeniería"
+      },
+      {
+        "href": "https://www.casadellibro.com/libros/libros-de-texto-y-formacion/132000000",
+        "inner_text": "\n                    Libros de Texto y Formación",
+        "inner_html": "<span aria-hidden=\"true\" class=\"v-icon notranslate theme--light accent--text\" data-v-aef96f40=\"\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" role=\"img\" aria-hidden=\"true\" class=\"v-icon__svg\"><path d=\"M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z\"></path></svg></span>\n                    Libros de Texto y Formación"
+      },
+      {
+        "href": "https://www.casadellibro.com/libros/literatura/121000000",
+        "inner_text": "\n                    Literatura",
+        "inner_html": "<span aria-hidden=\"true\" class=\"v-icon notranslate theme--light accent--text\" data-v-aef96f40=\"\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" role=\"img\" aria-hidden=\"true\" class=\"v-icon__svg\"><path d=\"M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z\"></path></svg></span>\n                    Literatura"
+      },
+      {
+        "href": "https://www.casadellibro.com/libros/manualidades/122000000",
+        "inner_text": "\n                    Manualidades",
+        "inner_html": "<span aria-hidden=\"true\" class=\"v-icon notranslate theme--light accent--text\" data-v-aef96f40=\"\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" role=\"img\" aria-hidden=\"true\" class=\"v-icon__svg\"><path d=\"M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z\"></path></svg></span>\n                    Manualidades"
+      },
+      {
+        "href": "https://www.casadellibro.com/libros/medicina/123000000",
+        "inner_text": "\n                    Medicina",
+        "inner_html": "<span aria-hidden=\"true\" class=\"v-icon notranslate theme--light accent--text\" data-v-aef96f40=\"\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" role=\"img\" aria-hidden=\"true\" class=\"v-icon__svg\"><path d=\"M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z\"></path></svg></span>\n                    Medicina"
+      },
+      {
+        "href": "https://www.casadellibro.com/libros/musica/124000000",
+        "inner_text": "\n                    Música",
+        "inner_html": "<span aria-hidden=\"true\" class=\"v-icon notranslate theme--light accent--text\" data-v-aef96f40=\"\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" role=\"img\" aria-hidden=\"true\" class=\"v-icon__svg\"><path d=\"M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z\"></path></svg></span>\n                    Música"
+      },
+      {
+        "href": "https://www.casadellibro.com/libros/narrativa-historica/125000000",
+        "inner_text": "\n                    Narrativa histórica",
+        "inner_html": "<span aria-hidden=\"true\" class=\"v-icon notranslate theme--light accent--text\" data-v-aef96f40=\"\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" role=\"img\" aria-hidden=\"true\" class=\"v-icon__svg\"><path d=\"M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z\"></path></svg></span>\n                    Narrativa histórica"
+      },
+      {
+        "href": "https://www.casadellibro.com/libros/novela-negra/126000000",
+        "inner_text": "\n                    Novela negra",
+        "inner_html": "<span aria-hidden=\"true\" class=\"v-icon notranslate theme--light accent--text\" data-v-aef96f40=\"\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" role=\"img\" aria-hidden=\"true\" class=\"v-icon__svg\"><path d=\"M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z\"></path></svg></span>\n                    Novela negra"
+      },
+      {
+        "href": "https://www.casadellibro.com/libros/oposiciones/129000000",
+        "inner_text": "\n                    Oposiciones",
+        "inner_html": "<span aria-hidden=\"true\" class=\"v-icon notranslate theme--light accent--text\" data-v-aef96f40=\"\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" role=\"img\" aria-hidden=\"true\" class=\"v-icon__svg\"><path d=\"M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z\"></path></svg></span>\n                    Oposiciones"
+      },
+      {
+        "href": "https://www.casadellibro.com/libros/psicologia-y-pedagogia/130000000",
+        "inner_text": "\n                    Psicología y Pedagogía",
+        "inner_html": "<span aria-hidden=\"true\" class=\"v-icon notranslate theme--light accent--text\" data-v-aef96f40=\"\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" role=\"img\" aria-hidden=\"true\" class=\"v-icon__svg\"><path d=\"M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z\"></path></svg></span>\n                    Psicología y Pedagogía"
+      },
+      {
+        "href": "https://www.casadellibro.com/libros/romantica-y-erotica/416000000",
+        "inner_text": "\n                    Romántica y erótica",
+        "inner_html": "<span aria-hidden=\"true\" class=\"v-icon notranslate theme--light accent--text\" data-v-aef96f40=\"\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" role=\"img\" aria-hidden=\"true\" class=\"v-icon__svg\"><path d=\"M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z\"></path></svg></span>\n                    Romántica y erótica"
+      },
+      {
+        "href": "https://www.casadellibro.com/agenda-cultural-online",
+        "inner_text": "",
+        "inner_html": "<img title=\"\" alt=\"Agenda cultural online\" src=\"\" data-src=\"https://imagessl.casadellibro.com/t1e/c/63/agenda%20nuevo%20f.png\" class=\"cdl-img\" style=\"max-height:undefinedpx;max-width:undefinedpx;\" data-v-069de76b=\"\">"
+      },
+      {
+        "href": "https://www.casadellibro.com/libro-y-pelicula",
+        "inner_text": "",
+        "inner_html": "<img title=\"\" alt=\"Libros de peli y series\" src=\"\" data-src=\"https://imagessl.casadellibro.com/t1e/c/63/libros%20de%20peli%C3%8C%C2%81cula%20green.png\" class=\"cdl-img\" style=\"max-height:undefinedpx;max-width:undefinedpx;\" data-v-069de76b=\"\">"
+      },
+      {
+        "href": "https://www.casadellibro.com/libros-el-principito",
+        "inner_text": "",
+        "inner_html": "<img title=\"\" alt=\"Libros El Principito\" src=\"\" data-src=\"https://imagessl.casadellibro.com/t1e/c/63/Principito.png\" class=\"cdl-img\" style=\"max-height:undefinedpx;max-width:undefinedpx;\" data-v-069de76b=\"\">"
+      },
+      {
+        "href": "https://www.casadellibro.com/libros-descuentos-especiales",
+        "inner_text": "",
+        "inner_html": "<img title=\"\" alt=\"Ediciones con regalo\" src=\"\" data-src=\"https://imagessl.casadellibro.com/t1e/c/63/pildora%20con%20regalo.png\" class=\"cdl-img\" style=\"max-height:undefinedpx;max-width:undefinedpx;\" data-v-069de76b=\"\">"
+      },
+      {
+        "href": "https://www.casadellibro.com/libros-disney",
+        "inner_text": "Saber más",
+        "inner_html": "<span class=\"v-btn__content\"><span class=\"text-caption hidden-md-and-up\" data-v-3c58fb2e=\"\">\n            Saber más\n          </span> <span class=\"hidden-sm-and-down\" data-v-3c58fb2e=\"\">\n            Saber más\n          </span></span>"
+      },
+      {
+        "href": "https://www.casadellibro.com/un-mes-un-libro-infantil",
+        "inner_text": "Ver libros",
+        "inner_html": "<span class=\"v-btn__content\"><span class=\"text-caption hidden-md-and-up\" data-v-3c58fb2e=\"\">\n            Ver libros\n          </span> <span class=\"hidden-sm-and-down\" data-v-3c58fb2e=\"\">\n            Ver libros\n          </span></span>"
+      },
+      {
+        "href": "https://www.casadellibro.com/libro-feria/9788412226720/11849119",
+        "inner_text": "FERIA",
+        "inner_html": "FERIA"
+      },
+      {
+        "href": "https://www.casadellibro.com/libros-ebooks/ana-iris-simon/20109235",
+        "inner_text": "ANA IRIS SIMON",
+        "inner_html": "<span data-v-5264de2e=\"\">ANA IRIS SIMON</span> <span class=\"separateSpan ml-n2 mr-2\" data-v-5264de2e=\"\">, </span>"
+      },
+      {
+        "href": "https://www.casadellibro.com/libro-el-reino/9788418052033/12184608",
+        "inner_text": "EL REINO",
+        "inner_html": "EL REINO"
+      },
+      {
+        "href": "https://www.casadellibro.com/libros-ebooks/jo-nesbo/125094",
+        "inner_text": "JO NESBO",
+        "inner_html": "<span data-v-5264de2e=\"\">JO NESBO</span> <span class=\"separateSpan ml-n2 mr-2\" data-v-5264de2e=\"\">, </span>"
+      },
+      {
+        "href": "https://www.casadellibro.com/libro-la-ruta-infinita/9788491393979/10013289",
+        "inner_text": "LA RUTA INFINITA",
+        "inner_html": "LA RUTA INFINITA"
+      },
+      {
+        "href": "https://www.casadellibro.com/libros-ebooks/jose-calvo-poyato/21270",
+        "inner_text": "JOSE CALVO POYATO",
+        "inner_html": "<span data-v-5264de2e=\"\">JOSE CALVO POYATO</span> <span class=\"separateSpan ml-n2 mr-2\" data-v-5264de2e=\"\">, </span>"
+      },
+      {
+        "href": "https://www.casadellibro.com/libro-al-servicio-del-imperio-una-cohorte-cantabra-en-judea/9788416970773/6454605",
+        "inner_text": "AL SERVICIO DEL IMPERIO: UNA COHORTE CANTABRA EN JUDEA",
+        "inner_html": "AL SERVICIO DEL IMPERIO: UNA COHORTE CANTABRA EN JUDEA"
+      },
+      {
+        "href": "https://www.casadellibro.com/libros-ebooks/pedro-santamaria-fernandez/20101994",
+        "inner_text": "PEDRO SANTAMARIA FERNANDEZ",
+        "inner_html": "<span data-v-5264de2e=\"\">PEDRO SANTAMARIA FERNANDEZ</span> <span class=\"separateSpan ml-n2 mr-2\" data-v-5264de2e=\"\">, </span>"
+      },
+      {
+        "href": "https://www.casadellibro.com/libro-una-vida-en-nuestro-planeta-mi-testimonio-y-una-vision-para-el-futuro/9788491993117/12231148",
+        "inner_text": "",
+        "inner_html": "<!----> <img title=\"UNA VIDA EN NUESTRO PLANETA: MI TESTIMONIO Y UNA VISIÓN PARA EL FUTURO - 9788491993117 - DAVID ATTENBOROUGH\" alt=\"una vida en nuestro planeta: mi testimonio y una visión para el futuro-david attenborough-9788491993117\" src=\"\" data-src=\"https://imagessl7.casadellibro.com/a/l/t1/17/9788491993117.jpg\" width=\"auto\" class=\"product-img show-shadow cdl-img\" style=\"max-height:350px;max-width:150px;width:auto;\" data-v-86bff28a=\"\">"
+      },
+      {
+        "href": "https://www.casadellibro.com/libros-ebooks/david-attenborough/58572",
+        "inner_text": "DAVID ATTENBOROUGH",
+        "inner_html": "<span data-v-5264de2e=\"\">DAVID ATTENBOROUGH</span> <span class=\"separateSpan ml-n2 mr-2\" data-v-5264de2e=\"\">, </span>"
+      },
+      {
+        "href": "https://www.casadellibro.com/libro-en-el-limbo/9788425359729/11401854",
+        "inner_text": "",
+        "inner_html": "<!----> <img title=\"EN EL LIMBO - 9788425359729 - ESTANISLAO BACHRACH\" alt=\"en el limbo-estanislao bachrach-9788425359729\" src=\"\" data-src=\"https://imagessl9.casadellibro.com/a/l/t1/29/9788425359729.jpg\" width=\"auto\" class=\"product-img show-shadow cdl-img\" style=\"max-height:350px;max-width:150px;width:auto;\" data-v-86bff28a=\"\">"
+      },
+      {
+        "href": "https://www.casadellibro.com/libros-ebooks/estanislao-bachrach/20086510",
+        "inner_text": "ESTANISLAO BACHRACH",
+        "inner_html": "<span data-v-5264de2e=\"\">ESTANISLAO BACHRACH</span> <span class=\"separateSpan ml-n2 mr-2\" data-v-5264de2e=\"\">, </span>"
+      },
+      {
+        "href": "https://www.casadellibro.com/libro-la-memoria-secreta-de-las-hojas/9788408242628/12230970",
+        "inner_text": "",
+        "inner_html": "<!----> <img title=\"LA MEMORIA SECRETA DE LAS HOJAS - 9788408242628 - HOPE JAHREN\" alt=\"la memoria secreta de las hojas-hope jahren-9788408242628\" src=\"\" data-src=\"https://imagessl8.casadellibro.com/a/l/t1/28/9788408242628.jpg\" width=\"auto\" class=\"product-img show-shadow cdl-img\" style=\"max-height:350px;max-width:150px;width:auto;\" data-v-86bff28a=\"\">"
+      },
+      {
+        "href": "https://www.casadellibro.com/libros-ebooks/hope-jahren/20098548",
+        "inner_text": "HOPE JAHREN",
+        "inner_html": "<span data-v-5264de2e=\"\">HOPE JAHREN</span> <span class=\"separateSpan ml-n2 mr-2\" data-v-5264de2e=\"\">, </span>"
+      },
+      {
+        "href": "https://www.casadellibro.com/libro-invertir-con-john-neff/9788423432530/12231066",
+        "inner_text": "",
+        "inner_html": "<!----> <img title=\"INVERTIR CON JOHN NEFF - 9788423432530 - JOHN NEFF\" alt=\"invertir con john neff-john neff-9788423432530\" src=\"\" data-src=\"https://imagessl0.casadellibro.com/a/l/t1/30/9788423432530.jpg\" width=\"auto\" class=\"product-img show-shadow cdl-img\" style=\"max-height:350px;max-width:150px;width:auto;\" data-v-86bff28a=\"\">"
+      },
+      {
+        "href": "https://www.casadellibro.com/libros-ebooks/john-neff/20110852",
+        "inner_text": "JOHN NEFF",
+        "inner_html": "<span data-v-5264de2e=\"\">JOHN NEFF</span> <span class=\"separateSpan ml-n2 mr-2\" data-v-5264de2e=\"\">, </span>"
+      },
+      {
+        "href": "https://www.casadellibro.com/libro-mision-economia-una-carrera-espacial-para-cambiar-el-capitalismo/9788430623822/12225274",
+        "inner_text": "",
+        "inner_html": "<!----> <img title=\"MISION ECONOMIA: UNA CARRERA ESPACIAL PARA CAMBIAR EL CAPITALISMO - 9788430623822 - MARIANA MAZZUCATO\" alt=\"mision economia: una carrera espacial para cambiar el capitalismo-mariana mazzucato-9788430623822\" src=\"\" data-src=\"https://imagessl2.casadellibro.com/a/l/t1/22/9788430623822.jpg\" width=\"auto\" class=\"product-img show-shadow cdl-img\" style=\"max-height:350px;max-width:150px;width:auto;\" data-v-86bff28a=\"\">"
+      },
+      {
+        "href": "https://www.casadellibro.com/libros-ebooks/mariana-mazzucato/20098053",
+        "inner_text": "MARIANA MAZZUCATO",
+        "inner_html": "<span data-v-5264de2e=\"\">MARIANA MAZZUCATO</span> <span class=\"separateSpan ml-n2 mr-2\" data-v-5264de2e=\"\">, </span>"
+      },
+      {
+        "href": "https://www.casadellibro.com/libro-la-cuestion-moral-de-los-combustibles-fosiles/9788423432547/12231067",
+        "inner_text": "",
+        "inner_html": "<!----> <img title=\"LA CUESTION MORAL DE LOS COMBUSTIBLES FOSILES - 9788423432547 - ALEX EPSTEIN\" alt=\"la cuestion moral de los combustibles fosiles-alex epstein-9788423432547\" src=\"\" data-src=\"https://imagessl7.casadellibro.com/a/l/t1/47/9788423432547.jpg\" width=\"auto\" class=\"product-img show-shadow cdl-img\" style=\"max-height:350px;max-width:150px;width:auto;\" data-v-86bff28a=\"\">"
+      },
+      {
+        "href": "https://www.casadellibro.com/libros-ebooks/alex-epstein/20111022",
+        "inner_text": "ALEX EPSTEIN",
+        "inner_html": "<span data-v-5264de2e=\"\">ALEX EPSTEIN</span> <span class=\"separateSpan ml-n2 mr-2\" data-v-5264de2e=\"\">, </span>"
+      },
+      {
+        "href": "https://www.casadellibro.com/libro-en-deuda-una-historia-alternativa-de-la-economia/9788434433533/12231087",
+        "inner_text": "",
+        "inner_html": "<!----> <img title=\"EN DEUDA: UNA HISTORIA ALTERNATIVA DE LA ECONOMIA - 9788434433533 - DAVID GRAEBER\" alt=\"en deuda: una historia alternativa de la economia-david graeber-9788434433533\" src=\"\" data-src=\"https://imagessl3.casadellibro.com/a/l/t1/33/9788434433533.jpg\" width=\"auto\" class=\"product-img show-shadow cdl-img\" style=\"max-height:350px;max-width:150px;width:auto;\" data-v-86bff28a=\"\">"
+      },
+      {
+        "href": "https://www.casadellibro.com/libros-ebooks/david-graeber/20080886",
+        "inner_text": "DAVID GRAEBER",
+        "inner_html": "<span data-v-5264de2e=\"\">DAVID GRAEBER</span> <span class=\"separateSpan ml-n2 mr-2\" data-v-5264de2e=\"\">, </span>"
+      },
+      {
+        "href": "https://www.casadellibro.com/libro-bezonomics-como-amazon-esta-cambiando-nuestras-vidas-y-lo-que-hace-de-ella-las-mejores-companias-del-mundo/9788417992385/12225217",
+        "inner_text": "",
+        "inner_html": "<!----> <img title=\"BEZONOMICS: COMO AMAZON ESTA CAMBIANDO NUESTRAS VIDAS Y LO QUE HACE DE ELLA LAS MEJORES COMPAÑÍAS DEL MUNDO - 9788417992385 - BRIAN DUMAINE\" alt=\"bezonomics: como amazon esta cambiando nuestras vidas y lo que hace de ella las mejores compañías del mundo-brian dumaine-9788417992385\" src=\"\" data-src=\"https://imagessl5.casadellibro.com/a/l/t1/85/9788417992385.jpg\" width=\"auto\" class=\"product-img show-shadow cdl-img\" style=\"max-height:350px;max-width:150px;width:auto;\" data-v-86bff28a=\"\">"
+      },
+      {
+        "href": "https://www.casadellibro.com/libros-ebooks/brian-dumaine/20110660",
+        "inner_text": "BRIAN DUMAINE",
+        "inner_html": "<span data-v-5264de2e=\"\">BRIAN DUMAINE</span> <span class=\"separateSpan ml-n2 mr-2\" data-v-5264de2e=\"\">, </span>"
+      },
+      {
+        "href": "https://www.casadellibro.com/libro-reciclar-la-ecologia--pensar-el-mundo-tras-el-fin-de-la-naturaleza/9788417511807/12225211",
+        "inner_text": "",
+        "inner_html": "<!----> <img title=\"RECICLAR LA ECOLOGIA:  PENSAR EL MUNDO TRAS EL FIN DE LA NATURALEZA - 9788417511807 - TIMOTHY MORTON\" alt=\"reciclar la ecologia:  pensar el mundo tras el fin de la naturaleza-timothy morton-9788417511807\" src=\"\" data-src=\"https://imagessl7.casadellibro.com/a/l/t1/07/9788417511807.jpg\" width=\"auto\" class=\"product-img show-shadow cdl-img\" style=\"max-height:350px;max-width:150px;width:auto;\" data-v-86bff28a=\"\">"
+      },
+      {
+        "href": "https://www.casadellibro.com/libros-ebooks/timothy-morton/20102166",
+        "inner_text": "TIMOTHY MORTON",
+        "inner_html": "<span data-v-5264de2e=\"\">TIMOTHY MORTON</span> <span class=\"separateSpan ml-n2 mr-2\" data-v-5264de2e=\"\">, </span>"
+      },
+      {
+        "href": "https://www.casadellibro.com/libro-el-tao-de-charlie-munger/9788413440842/12230985",
+        "inner_text": "",
+        "inner_html": "<!----> <img title=\"EL TAO DE CHARLIE MUNGER - 9788413440842 - DAVID CLARK\" alt=\"el tao de charlie munger-david clark-9788413440842\" src=\"\" data-src=\"https://imagessl2.casadellibro.com/a/l/t1/42/9788413440842.jpg\" width=\"auto\" class=\"product-img show-shadow cdl-img\" style=\"max-height:350px;max-width:150px;width:auto;\" data-v-86bff28a=\"\">"
+      },
+      {
+        "href": "https://www.casadellibro.com/libros-ebooks/david-clark/50564",
+        "inner_text": "DAVID CLARK",
+        "inner_html": "<span data-v-5264de2e=\"\">DAVID CLARK</span> <span class=\"separateSpan ml-n2 mr-2\" data-v-5264de2e=\"\">, </span>"
+      },
+      {
+        "href": "https://www.casadellibro.com/libro-tu-dieta-puede-salvar-el-planeta/9788449338205/12231106",
+        "inner_text": "",
+        "inner_html": "<!----> <img title=\"TU DIETA PUEDE SALVAR EL PLANETA - 9788449338205 - AITOR SANCHEZ GARCIA\" alt=\"tu dieta puede salvar el planeta-aitor sanchez garcia-9788449338205\" src=\"\" data-src=\"https://imagessl5.casadellibro.com/a/l/t1/05/9788449338205.jpg\" width=\"auto\" class=\"product-img show-shadow cdl-img\" style=\"max-height:350px;max-width:150px;width:auto;\" data-v-86bff28a=\"\">"
+      },
+      {
+        "href": "https://www.casadellibro.com/libros-ebooks/aitor-sanchez-garcia/20097991",
+        "inner_text": "AITOR SANCHEZ GARCIA",
+        "inner_html": "<span data-v-5264de2e=\"\">AITOR SANCHEZ GARCIA</span> <span class=\"separateSpan ml-n2 mr-2\" data-v-5264de2e=\"\">, </span>"
+      },
+      {
+        "href": "https://www.casadellibro.com/libro-la-vida-es-trading/9788413440828/12230983",
+        "inner_text": "",
+        "inner_html": "<!----> <img title=\"LA VIDA ES TRADING - 9788413440828 - ISMAEL BEIRO PEREZ\" alt=\"la vida es trading-ismael beiro perez-9788413440828\" src=\"\" data-src=\"https://imagessl8.casadellibro.com/a/l/t1/28/9788413440828.jpg\" width=\"auto\" class=\"product-img show-shadow cdl-img\" style=\"max-height:350px;max-width:150px;width:auto;\" data-v-86bff28a=\"\">"
+      },
+      {
+        "href": "https://www.casadellibro.com/libros-ebooks/ismael-beiro-perez/20111873",
+        "inner_text": "ISMAEL BEIRO PEREZ",
+        "inner_html": "<span data-v-5264de2e=\"\">ISMAEL BEIRO PEREZ</span> <span class=\"separateSpan ml-n2 mr-2\" data-v-5264de2e=\"\">, </span>"
+      },
+      {
+        "href": "https://www.casadellibro.com/app-gratis",
+        "inner_text": "Saber más",
+        "inner_html": "<span class=\"v-btn__content\"><span class=\"text-caption hidden-md-and-up\" data-v-3c58fb2e=\"\">\n            Saber más\n          </span> <span class=\"hidden-sm-and-down\" data-v-3c58fb2e=\"\">\n            Saber más\n          </span></span>"
+      },
+      {
+        "href": "https://www.casadellibro.com/papeleria-ereader-tagus-gaia-eco-plus/8437013765626/9862145",
+        "inner_text": "Ver más",
+        "inner_html": "<span class=\"v-btn__content\"><span class=\"text-caption hidden-md-and-up\" data-v-3c58fb2e=\"\">\n            Ver más\n          </span> <span class=\"hidden-sm-and-down\" data-v-3c58fb2e=\"\">\n            Ver más\n          </span></span>"
+      },
+      {
+        "href": "https://www.casadellibro.com/ebook-sira-ebook/9788408242659/12170752",
+        "inner_text": "",
+        "inner_html": "<!----> <img title=\"SIRA (EBOOK) - 9788408242659 - MARIA DUEÑAS\" alt=\"sira (ebook)-maria dueñas-9788408242659\" src=\"\" data-src=\"https://imagessl9.casadellibro.com/a/l/t1/59/9788408242659.jpg\" width=\"auto\" class=\"product-img show-shadow cdl-img\" style=\"max-height:350px;max-width:150px;width:auto;\" data-v-86bff28a=\"\">"
+      },
+      {
+        "href": "https://www.casadellibro.com/ebook-la-hermana-perdida-las-siete-hermanas-7-ebook/9788401026461/12335459",
+        "inner_text": "",
+        "inner_html": "<!----> <img title=\"LA HERMANA PERDIDA (LAS SIETE HERMANAS 7) (EBOOK) - 9788401026461 - LUCINDA RILEY\" alt=\"la hermana perdida (las siete hermanas 7) (ebook)-lucinda riley-9788401026461\" src=\"\" data-src=\"https://imagessl1.casadellibro.com/a/l/t1/61/9788401026461.jpg\" width=\"auto\" class=\"product-img show-shadow cdl-img\" style=\"max-height:350px;max-width:150px;width:auto;\" data-v-86bff28a=\"\">"
+      },
+      {
+        "href": "https://www.casadellibro.com/libros-ebooks/lucinda-riley/158009",
+        "inner_text": "LUCINDA RILEY",
+        "inner_html": "<span data-v-5264de2e=\"\">LUCINDA RILEY</span> <span class=\"separateSpan ml-n2 mr-2\" data-v-5264de2e=\"\">, </span>"
+      },
+      {
+        "href": "https://www.casadellibro.com/ebook-el-reino-ebook/9788418052293/12257387",
+        "inner_text": "",
+        "inner_html": "<!----> <img title=\"EL REINO (EBOOK) - 9788418052293 - JO NESBO\" alt=\"el reino (ebook)-jo nesbo-9788418052293\" src=\"\" data-src=\"https://imagessl3.casadellibro.com/a/l/t1/93/9788418052293.jpg\" width=\"auto\" class=\"product-img show-shadow cdl-img\" style=\"max-height:350px;max-width:150px;width:auto;\" data-v-86bff28a=\"\">"
+      },
+      {
+        "href": "https://www.casadellibro.com/ebook-castellano-ebook/9788423359738/12266889",
+        "inner_text": "",
+        "inner_html": "<!----> <img title=\"CASTELLANO (EBOOK) - 9788423359738 - LORENZO SILVA\" alt=\"castellano (ebook)-lorenzo silva-9788423359738\" src=\"\" data-src=\"https://imagessl8.casadellibro.com/a/l/t1/38/9788423359738.jpg\" width=\"auto\" class=\"product-img show-shadow cdl-img\" style=\"max-height:350px;max-width:150px;width:auto;\" data-v-86bff28a=\"\">"
+      },
+      {
+        "href": "https://www.casadellibro.com/ebook-el-juego-del-alma-ebook/9788491295150/12140437",
+        "inner_text": "",
+        "inner_html": "<!----> <img title=\"EL JUEGO DEL ALMA (EBOOK) - 9788491295150 - JAVIER CASTILLO\" alt=\"el juego del alma (ebook)-javier castillo-9788491295150\" src=\"\" data-src=\"https://imagessl0.casadellibro.com/a/l/t1/50/9788491295150.jpg\" width=\"auto\" class=\"product-img show-shadow cdl-img\" style=\"max-height:350px;max-width:150px;width:auto;\" data-v-86bff28a=\"\">"
+      },
+      {
+        "href": "https://www.casadellibro.com/ebook-el-arte-de-enganar-al-karma-ebook/9788491291947/12211566",
+        "inner_text": "",
+        "inner_html": "<!----> <img title=\"EL ARTE DE ENGAÑAR AL KARMA (EBOOK) - 9788491291947 - ELISABET BENAVENT\" alt=\"el arte de engañar al karma (ebook)-elisabet benavent-9788491291947\" src=\"\" data-src=\"https://imagessl7.casadellibro.com/a/l/t1/47/9788491291947.jpg\" width=\"auto\" class=\"product-img show-shadow cdl-img\" style=\"max-height:350px;max-width:150px;width:auto;\" data-v-86bff28a=\"\">"
+      },
+      {
+        "href": "https://www.casadellibro.com/ebook-alegrame-la-vista-ebook/9788408236764/11931429",
+        "inner_text": "",
+        "inner_html": "<!----> <img title=\"ALÉGRAME LA VISTA (EBOOK) - 9788408236764 - MEGAN MAXWELL\" alt=\"alégrame la vista (ebook)-megan maxwell-9788408236764\" src=\"\" data-src=\"https://imagessl4.casadellibro.com/a/l/t1/64/9788408236764.jpg\" width=\"auto\" class=\"product-img show-shadow cdl-img\" style=\"max-height:350px;max-width:150px;width:auto;\" data-v-86bff28a=\"\">"
+      },
+      {
+        "href": "https://www.casadellibro.com/libros-ebooks/megan-maxwell/158151",
+        "inner_text": "MEGAN MAXWELL",
+        "inner_html": "<span data-v-5264de2e=\"\">MEGAN MAXWELL</span> <span class=\"separateSpan ml-n2 mr-2\" data-v-5264de2e=\"\">, </span>"
+      },
+      {
+        "href": "https://www.casadellibro.com/ebook-rey-blanco-ebook/9788466668613/11652147",
+        "inner_text": "",
+        "inner_html": "<!----> <img title=\"REY BLANCO (EBOOK) - 9788466668613 - JUAN GOMEZ-JURADO\" alt=\"rey blanco (ebook)-juan gomez-jurado-9788466668613\" src=\"\" data-src=\"https://imagessl3.casadellibro.com/a/l/t1/13/9788466668613.jpg\" width=\"auto\" class=\"product-img show-shadow cdl-img\" style=\"max-height:350px;max-width:150px;width:auto;\" data-v-86bff28a=\"\">"
+      },
+      {
+        "href": "https://www.casadellibro.com/ebook-el-humor-de-mi-vida-ebook/9788491396239/12256725",
+        "inner_text": "",
+        "inner_html": "<!----> <img title=\"EL HUMOR DE MI VIDA (EBOOK) - 9788491396239 - PAZ PADILLA\" alt=\"el humor de mi vida (ebook)-paz padilla-9788491396239\" src=\"\" data-src=\"https://imagessl9.casadellibro.com/a/l/t1/39/9788491396239.jpg\" width=\"auto\" class=\"product-img show-shadow cdl-img\" style=\"max-height:350px;max-width:150px;width:auto;\" data-v-86bff28a=\"\">"
+      },
+      {
+        "href": "https://www.casadellibro.com/ebook-el-olvido-que-seremos-ebook/9789585428362/5997775",
+        "inner_text": "",
+        "inner_html": "<!----> <img title=\"EL OLVIDO QUE SEREMOS (EBOOK) - 9789585428362 - HECTOR ABAD FACIOLINCE\" alt=\"el olvido que seremos (ebook)-hector abad faciolince-9789585428362\" src=\"\" data-src=\"https://imagessl2.casadellibro.com/a/l/t1/62/9789585428362.jpg\" width=\"auto\" class=\"product-img show-shadow cdl-img\" style=\"max-height:350px;max-width:150px;width:auto;\" data-v-86bff28a=\"\">"
+      },
+      {
+        "href": "https://www.casadellibro.com/ebook-transbordo-en-moscu-ebook/9788432238666/12249799",
+        "inner_text": "",
+        "inner_html": "<!----> <img title=\"TRANSBORDO EN MOSCÚ (EBOOK) - 9788432238666 - EDUARDO MENDOZA\" alt=\"transbordo en moscú (ebook)-eduardo mendoza-9788432238666\" src=\"\" data-src=\"https://imagessl6.casadellibro.com/a/l/t1/66/9788432238666.jpg\" width=\"auto\" class=\"product-img show-shadow cdl-img\" style=\"max-height:350px;max-width:150px;width:auto;\" data-v-86bff28a=\"\">"
+      },
+      {
+        "href": "https://www.casadellibro.com/ebook-alas-de-plata-ebook/9788418184505/12266882",
+        "inner_text": "",
+        "inner_html": "<!----> <img title=\"ALAS DE PLATA (EBOOK) - 9788418184505 - CAMILLA LACKBERG\" alt=\"alas de plata (ebook)-camilla lackberg-9788418184505\" src=\"\" data-src=\"https://imagessl5.casadellibro.com/a/l/t1/05/9788418184505.jpg\" width=\"auto\" class=\"product-img show-shadow cdl-img\" style=\"max-height:350px;max-width:150px;width:auto;\" data-v-86bff28a=\"\">"
+      },
+      {
+        "href": "https://www.casadellibro.com/ofertas-mr-wonderful",
+        "inner_text": "",
+        "inner_html": "<img title=\"\" alt=\"\" src=\"\" data-src=\"https://imagessl.casadellibro.com/t1e/c/63/Wonder.v7.370x200%20(2)%20(1).jpg\" class=\"mb-0 cdl-img\" style=\"max-height:undefinedpx;max-width:undefinedpx;\" data-v-cc06b1b8=\"\">"
+      },
+      {
+        "href": "https://www.casadellibro.com/ofertas-peliculas",
+        "inner_text": "",
+        "inner_html": "<img title=\"\" alt=\"\" src=\"\" data-src=\"https://imagessl.casadellibro.com/t1e/c/63/peliculas_80.dto_370x200.jpg\" class=\"mb-0 cdl-img\" style=\"max-height:undefinedpx;max-width:undefinedpx;\" data-v-cc06b1b8=\"\">"
+      },
+      {
+        "href": "https://www.casadellibro.com/regalos-originales-arte-literatura",
+        "inner_text": "",
+        "inner_html": "<img title=\"\" alt=\"\" src=\"\" data-src=\"https://imagessl.casadellibro.com/t1e/c/63/21.01.custom.370x200v2%20(1)%20(1).jpg\" class=\"mb-0 cdl-img\" style=\"max-height:undefinedpx;max-width:undefinedpx;\" data-v-cc06b1b8=\"\">"
+      },
+      {
+        "href": "https://www.casadellibro.com/papeleria",
+        "inner_text": "Papelería, regalos y agendas",
+        "inner_html": "Papelería, regalos y agendas"
+      },
+      {
+        "href": "https://www.casadellibro.com/papeleria-dragon-ball-z---trivial-bite/5036905040983/11854946",
+        "inner_text": "",
+        "inner_html": "<!----> <img title=\"DRAGON BALL Z - TRIVIAL BITE - 5036905040983\" alt=\"dragon ball z - trivial bite-5036905040983\" src=\"\" data-src=\"https://imagessl3.casadellibro.com/a/a/t1/83/5036905040983.jpg\" width=\"auto\" class=\"product-img show-shadow cdl-img\" style=\"max-height:350px;max-width:150px;width:auto;\" data-v-86bff28a=\"\">"
+      },
+      {
+        "href": "https://www.casadellibro.com/papeleria-djeco-juego-little-association-38553--272/3070900085534/2979665",
+        "inner_text": "",
+        "inner_html": "<!----> <img title=\"DJECO JUEGO LITTLE ASSOCIATION 38553  272 - 3070900085534\" alt=\"djeco juego little association 38553  272-3070900085534\" src=\"\" data-src=\"https://imagessl4.casadellibro.com/a/a/t1/34/3070900085534.jpg\" width=\"auto\" class=\"product-img show-shadow cdl-img\" style=\"max-height:350px;max-width:150px;width:auto;\" data-v-86bff28a=\"\">"
+      },
+      {
+        "href": "https://www.casadellibro.com/papeleria-super-mario-bros---monopoly/5010993720859/11780250",
+        "inner_text": "",
+        "inner_html": "<!----> <img title=\"SUPER MARIO BROS - MONOPOLY - 5010993720859\" alt=\"super mario bros - monopoly-5010993720859\" src=\"\" data-src=\"https://imagessl9.casadellibro.com/a/a/t1/59/5010993720859.jpg\" width=\"auto\" class=\"product-img show-shadow cdl-img\" style=\"max-height:350px;max-width:150px;width:auto;\" data-v-86bff28a=\"\">"
+      },
+      {
+        "href": "https://www.casadellibro.com/papeleria-asmodee-jungle-speed-ecologico/3558380078388/11666859",
+        "inner_text": "",
+        "inner_html": "<!----> <img title=\"ASMODEE JUNGLE SPEED ECOLÓGICO - 3558380078388\" alt=\"asmodee jungle speed ecológico-3558380078388\" src=\"\" data-src=\"https://imagessl8.casadellibro.com/a/a/t1/88/3558380078388.jpg\" width=\"auto\" class=\"product-img show-shadow cdl-img\" style=\"max-height:350px;max-width:150px;width:auto;\" data-v-86bff28a=\"\">"
+      },
+      {
+        "href": "https://www.casadellibro.com/papeleria-mr-wonderful-taza---hay-profes-y-profes-y-luego-estas-tu/8435460787406/12342889",
+        "inner_text": "",
+        "inner_html": "<!----> <img title=\"MR. WONDERFUL TAZA - HAY PROFES Y PROFES Y LUEGO ESTÁS TÚ - 8435460787406\" alt=\"mr. wonderful taza - hay profes y profes y luego estás tú-8435460787406\" src=\"\" data-src=\"https://imagessl6.casadellibro.com/a/a/t1/06/8435460787406.jpg\" width=\"auto\" class=\"product-img show-shadow cdl-img\" style=\"max-height:350px;max-width:150px;width:auto;\" data-v-86bff28a=\"\">"
+      },
+      {
+        "href": "https://www.casadellibro.com/papeleria-mr-wonderful-planificador-de-estudio---dejen-paso-que-este-curso-arraso/8435460790277/12342888",
+        "inner_text": "",
+        "inner_html": "<!----> <img title=\"MR. WONDERFUL PLANIFICADOR DE ESTUDIO - DEJEN PASO QUE ESTE CURSO ARRASO - 8435460790277\" alt=\"mr. wonderful planificador de estudio - dejen paso que este curso arraso-8435460790277\" src=\"\" data-src=\"https://imagessl7.casadellibro.com/a/a/t1/77/8435460790277.jpg\" width=\"auto\" class=\"product-img show-shadow cdl-img\" style=\"max-height:350px;max-width:150px;width:auto;\" data-v-86bff28a=\"\">"
+      },
+      {
+        "href": "https://www.casadellibro.com/papeleria-tantanfan-copa-paquita-salas-torreznos/8436589531321/11920686",
+        "inner_text": "",
+        "inner_html": "<!----> <img title=\"TANTANFAN COPA PAQUITA SALAS TORREZNOS - 8436589531321\" alt=\"tantanfan copa paquita salas torreznos-8436589531321\" src=\"\" data-src=\"https://imagessl1.casadellibro.com/a/a/t1/21/8436589531321.jpg\" width=\"auto\" class=\"product-img show-shadow cdl-img\" style=\"max-height:350px;max-width:150px;width:auto;\" data-v-86bff28a=\"\">"
+      },
+      {
+        "href": "https://www.casadellibro.com/papeleria-artepapel-marcapaginas-65x195-lady-alice/2910022810229/10075090",
+        "inner_text": "",
+        "inner_html": "<!----> <img title=\"ARTEPAPEL MARCAPAGINAS 6,5X19,5 LADY ALICE - 2910022810229\" alt=\"artepapel marcapaginas 6,5x19,5 lady alice-2910022810229\" src=\"\" data-src=\"https://imagessl9.casadellibro.com/a/a/t1/29/2910022810229.jpg\" width=\"auto\" class=\"product-img show-shadow cdl-img\" style=\"max-height:350px;max-width:150px;width:auto;\" data-v-86bff28a=\"\">"
+      },
+      {
+        "href": "https://www.casadellibro.com/papeleria-mr-wonderful-botella---voy-a-pasarlo-muy-pero-que-muy-bien-ref-woa10133es/8435460767880/11658527",
+        "inner_text": "",
+        "inner_html": "<!----> <img title=\"MR. WONDERFUL BOTELLA - VOY A PASARLO MUY PERO QUE MUY BIEN REF. WOA10133ES - 8435460767880\" alt=\"mr. wonderful botella - voy a pasarlo muy pero que muy bien ref. woa10133es-8435460767880\" src=\"\" data-src=\"https://imagessl0.casadellibro.com/a/a/t1/80/8435460767880.jpg\" width=\"auto\" class=\"product-img show-shadow cdl-img\" style=\"max-height:350px;max-width:150px;width:auto;\" data-v-86bff28a=\"\">"
+      },
+      {
+        "href": "https://www.casadellibro.com/papeleria-curso-caja-escuela-master-chef-dirigida-por-jordi-cruz/8437013992008/2536980",
+        "inner_text": "",
+        "inner_html": "<!----> <img title=\"CURSO CAJA ESCUELA MASTER CHEF DIRIGIDA POR JORDI CRUZ - 8437013992008\" alt=\"curso caja escuela master chef dirigida por jordi cruz-8437013992008\" src=\"\" data-src=\"https://imagessl8.casadellibro.com/a/a/t1/08/8437013992008.jpg\" width=\"auto\" class=\"product-img show-shadow cdl-img\" style=\"max-height:350px;max-width:150px;width:auto;\" data-v-86bff28a=\"\">"
+      },
+      {
+        "href": "https://www.casadellibro.com/papeleria-mr-wonderful-bolis-con-forma---linea-clasica/8435460748742/9478983",
+        "inner_text": "",
+        "inner_html": "<!----> <img title=\"MR WONDERFUL BOLIS CON FORMA - LÍNEA CLÁSICA - 8435460748742\" alt=\"mr wonderful bolis con forma - línea clásica-8435460748742\" src=\"\" data-src=\"https://imagessl2.casadellibro.com/a/a/t1/42/8435460748742.jpg\" width=\"auto\" class=\"product-img show-shadow cdl-img\" style=\"max-height:350px;max-width:150px;width:auto;\" data-v-86bff28a=\"\">"
+      },
+      {
+        "href": "https://www.casadellibro.com/proximamente",
+        "inner_text": "próximos lanzamientos de libros",
+        "inner_html": "próximos lanzamientos de libros"
+      },
+      {
+        "href": "https://www.casadellibro.com/autores",
+        "inner_text": "escritores",
+        "inner_html": "escritores"
+      },
+      {
+        "href": "https://www.casadellibro.com/premios-literarios",
+        "inner_text": "libros premiados",
+        "inner_html": "libros premiados"
+      },
+      {
+        "href": "https://www.casadellibro.com/libro-el-principito/9788478887194/795940",
+        "inner_text": "El Principito",
+        "inner_html": "El Principito"
+      },
+      {
+        "href": "https://www.casadellibro.com/libro-rayuela/9788437624747/1203982",
+        "inner_text": "Rayuela ",
+        "inner_html": "Rayuela"
+      },
+      {
+        "href": "https://www.casadellibro.com/libro-el-arte-de-la-guerra/9788497775311/1260207",
+        "inner_text": "El arte de la guerra ",
+        "inner_html": "El arte de la guerra"
+      },
+      {
+        "href": "https://www.casadellibro.com/librosdetexto",
+        "inner_text": "buscar libros por ISBN",
+        "inner_html": "buscar libros por ISBN"
+      },
+      {
+        "href": "https://www.casadellibro.com/libros/romantica-y-erotica/narrativa-romantica/127000000",
+        "inner_text": "novela romántica",
+        "inner_html": "novela romántica"
+      },
+      {
+        "href": "https://www.casadellibro.com/libros/romantica-y-erotica/narrativa-erotica/121004005",
+        "inner_text": "libros eróticos",
+        "inner_html": "libros eróticos"
+      },
+      {
+        "href": "https://www.casadellibro.com/libros/psicologia-y-pedagogia/psicologia/130006000",
+        "inner_text": "libros de psicología",
+        "inner_html": "libros de psicología"
+      },
+      {
+        "href": "https://www.casadellibro.com/libros/historia/biografias/115002000",
+        "inner_text": "biografías",
+        "inner_html": "biografías"
+      },
+      {
+        "href": "https://www.casadellibro.com/libros/literatura/generos-literarios/narrativa-fantastica/121004006",
+        "inner_text": "libros de fantasía",
+        "inner_html": "libros de fantasía"
+      },
+      {
+        "href": "https://www.casadellibro.com/libros/ciencias-politicas-y-sociales/sociologia/feminismo-y-mujer/105003005",
+        "inner_text": "libros feministas",
+        "inner_html": "libros feministas"
+      },
+      {
+        "href": "https://www.casadellibro.com/libros/economia/marketing-y-publicidad/110018000",
+        "inner_text": "libros de marketing,",
+        "inner_html": "libros de marketing,"
+      },
+      {
+        "href": "https://blog.casadellibro.com/libros-para-dejar-de-fumar/",
+        "inner_text": "libros para dejar de fumar",
+        "inner_html": "libros para dejar de fumar"
+      },
+      {
+        "href": "https://www.casadellibro.com/libros/libros-de-texto-y-formacion/bachillerato/132001000",
+        "inner_text": "libros de bachillerato",
+        "inner_html": "libros de bachillerato"
+      },
+      {
+        "href": "https://www.casadellibro.com/sagas-de-libros",
+        "inner_text": "sagas de libros",
+        "inner_html": "sagas de libros"
+      },
+      {
+        "href": "https://www.casadellibro.com/libros-harry-potter",
+        "inner_text": "Harry Potter",
+        "inner_html": "Harry Potter"
+      },
+      {
+        "href": "https://www.casadellibro.com/libros-juego-de-tronos/193",
+        "inner_text": "libros de Juego de Tronos",
+        "inner_html": "libros de Juego de Tronos"
+      },
+      {
+        "href": "https://www.casadellibro.com/libros-star-wars/251",
+        "inner_text": "libros Star Wars",
+        "inner_html": "libros Star Wars"
+      },
+      {
+        "href": "https://www.casadellibro.com/libros-ebooks/paulo-coelho/34590",
+        "inner_text": "libros de Paulo Coelho",
+        "inner_html": "libros de Paulo Coelho"
+      },
+      {
+        "href": "https://www.casadellibro.com/libros-imprescindibles",
+        "inner_text": "imprescindibles",
+        "inner_html": "imprescindibles"
+      },
+      {
+        "href": "https://www.casadellibro.com/libros-que-enganchan",
+        "inner_text": "que enganchan",
+        "inner_html": "que enganchan"
+      },
+      {
+        "href": "https://www.casadellibro.com/libros-ebooks/gabriel-garcia-marquez/20092",
+        "inner_text": "Gabriel García Márquez",
+        "inner_html": "Gabriel García Márquez"
+      },
+      {
+        "href": "https://www.casadellibro.com/libros-ebooks/julio-verne/20401",
+        "inner_text": "Julio Verne",
+        "inner_html": "Julio Verne"
+      },
+      {
+        "href": "https://www.casadellibro.com/libros-segunda-mano",
+        "inner_text": "comprar libros de segunda mano",
+        "inner_html": "comprar libros de segunda mano"
+      },
+      {
+        "href": "https://www.casadellibro.com/vende-con-nosotros",
+        "inner_text": "vender libros",
+        "inner_html": "vender libros"
+      },
+      {
+        "href": "https://www.casadellibro.com/papeleria-mr-wonderful-agenda5fclas5f19-sem-af-las-tropocientas-mil/8435460734837/7408734",
+        "inner_text": "Mr Wonderful",
+        "inner_html": "Mr Wonderful"
+      },
+      {
+        "href": "https://www.casadellibro.com/papeleria/accesorios-de-escritorio/escritura/plumas/209007004",
+        "inner_text": "plumas ",
+        "inner_html": "plumas"
+      },
+      {
+        "href": "https://www.casadellibro.com/libros-lamy/2377",
+        "inner_text": "LAMY",
+        "inner_html": "LAMY"
+      },
+      {
+        "href": "https://www.casadellibro.com/Mundo-Tagus",
+        "inner_text": "libros electrónicos",
+        "inner_html": "libros electrónicos"
+      },
+      {
+        "href": "https://www.casadellibro.com/papeleria-tagus-iris-2018-negro/8437013765411/5693316",
+        "inner_text": "Tagus Iris 2018",
+        "inner_html": "Tagus Iris 2018"
+      },
+      {
+        "href": "https://www.casadellibro.com/autopublicacion/landingAutopub",
+        "inner_text": "publicar un libro",
+        "inner_html": "publicar un libro"
+      },
+      {
+        "href": "https://www.casadellibro.com/Tagus-Apps",
+        "inner_text": "app de lectura.",
+        "inner_html": "app de lectura."
+      },
+      {
+        "href": "https://www.casadellibro.com/cdlweb/programadesocios",
+        "inner_text": "Socios Casa del Libro",
+        "inner_html": "<strong>Socios Casa del Libro</strong>"
+      },
+      {
+        "href": "https://www.casadellibro.com/nosotros/nuestras-tiendas/madrid/28",
+        "inner_text": "libros en Madrid",
+        "inner_html": "libros en Madrid"
+      },
+      {
+        "href": "https://www.casadellibro.com/nosotros/nuestras-tiendas/barcelona/8",
+        "inner_text": "libros Barcelona",
+        "inner_html": "libros Barcelona"
+      },
+      {
+        "href": "https://www.casadellibro.com/nosotros/nuestras-tiendas/valencia/46",
+        "inner_text": "libros Valencia",
+        "inner_html": "libros Valencia"
+      },
+      {
+        "href": "https://www.casadellibro.com/nosotros/nuestras-tiendas/sevilla/41",
+        "inner_text": "libros Sevilla",
+        "inner_html": "libros Sevilla"
+      },
+      {
+        "href": "https://www.casadellibro.com/libros/novela-contemporanea/narrativa-en-gallego/128006000",
+        "inner_text": "libros en gallego",
+        "inner_html": "libros en gallego"
+      },
+      {
+        "href": "https://www.casadellibro.com/libros/novela-contemporanea/narrativa-en-euskera/128005000",
+        "inner_text": "libros en euskera",
+        "inner_html": "libros en euskera"
+      },
+      {
+        "href": "https://www.casadellibro.com/libros/literatura/en-otros-idiomas/literatura-en-ingles/121003002",
+        "inner_text": "libros en inglés",
+        "inner_html": "libros en inglés"
+      },
+      {
+        "href": "https://www.casadellibro.com/libros/literatura/en-otros-idiomas/literatura-en-frances/121003001",
+        "inner_text": "libros en francés",
+        "inner_html": "libros en francés"
+      },
+      {
+        "href": "https://latam.casadellibro.com/",
+        "inner_text": "Casa del Libro México",
+        "inner_html": "Casa del Libro México"
+      },
+      {
+        "href": "https://www.facebook.com/casadellibro",
+        "inner_text": "",
+        "inner_html": "<span class=\"v-btn__content\"><span aria-hidden=\"true\" class=\"v-icon notranslate theme--light\" style=\"font-size:40px;height:40px;width:40px;\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" role=\"img\" aria-hidden=\"true\" class=\"v-icon__svg\" style=\"font-size:40px;height:40px;width:40px;\"><path d=\"M14,12H12.48v5.53h-2.3V12H9.08v-2h1.1V8.81A2.15,2.15,0,0,1,12.5,6.49h1.7v1.9H13a.46.46,0,0,0-.48.53v1.15h1.75L14,12Z\"></path></svg></span></span>"
+      },
+      {
+        "href": "https://twitter.com/casadellibro",
+        "inner_text": "",
+        "inner_html": "<span class=\"v-btn__content\"><span aria-hidden=\"true\" class=\"v-icon notranslate theme--light\" style=\"font-size:40px;height:40px;width:40px;\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" role=\"img\" aria-hidden=\"true\" class=\"v-icon__svg\" style=\"font-size:40px;height:40px;width:40px;\"><path d=\"M17,9.39c0,.1,0,.2,0,.31A6.85,6.85,0,0,1,6.43,15.47l.57,0a4.82,4.82,0,0,0,3-1A2.42,2.42,0,0,1,7.74,12.8a2.32,2.32,0,0,0,.46,0,2.65,2.65,0,0,0,.63-.08A2.42,2.42,0,0,1,6.9,10.4v0a2.44,2.44,0,0,0,1.09.3,2.41,2.41,0,0,1-1.07-2,2.48,2.48,0,0,1,.32-1.21,6.85,6.85,0,0,0,5,2.52A2.4,2.4,0,0,1,14,7.08,2.59,2.59,0,0,1,14.55,7a2.44,2.44,0,0,1,1.76.76,4.74,4.74,0,0,0,1.53-.58,2.42,2.42,0,0,1-1.06,1.33,4.5,4.5,0,0,0,1.38-.38A4.76,4.76,0,0,1,17,9.39Z\"></path></svg></span></span>"
+      },
+      {
+        "href": "https://www.instagram.com/casadellibro/?hl=es",
+        "inner_text": "",
+        "inner_html": "<span class=\"v-btn__content\"><span aria-hidden=\"true\" class=\"v-icon notranslate theme--light\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" role=\"img\" aria-hidden=\"true\" class=\"v-icon__svg\"><path d=\"M12,24C5.4,24,0,18.6,0,12S5.4,0,12,0s12,5.4,12,12S18.6,24,12,24z M12,22.6c5.9,0,10.6-4.8,10.6-10.6 S17.9,1.4,12,1.4S1.4,6.1,1.4,12v0C1.4,17.9,6.1,22.6,12,22.6z M6.4,9.2v5.9c0,1.5,1.2,2.7,2.7,2.8h5.9c1.5,0,2.7-1.2,2.8-2.7l0,0 V9.2c0-1.5-1.2-2.7-2.7-2.8H9.2C7.7,6.4,6.4,7.6,6.4,9.2L6.4,9.2z M5.1,9.2c0-2.2,1.8-4.1,4-4.1c0,0,0,0,0,0h5.9 c2.2,0,4.1,1.8,4.1,4c0,0,0,0,0,0l0,0V15c0,2.2-1.8,4.1-4,4.1c0,0,0,0,0,0H9.2c-2.2,0-4.1-1.8-4.1-4c0,0,0,0,0,0l0,0V9.2z  M12.1,15.9c-2,0-3.7-1.6-3.7-3.7c0-2,1.6-3.7,3.7-3.7c2,0,3.7,1.6,3.7,3.7c0,0,0,0,0,0C15.8,14.2,14.2,15.9,12.1,15.9 C12.1,15.9,12.1,15.9,12.1,15.9z M12.1,14.6c1.3,0,2.4-1.1,2.4-2.4c0-1.3-1.1-2.4-2.4-2.4s-2.4,1.1-2.4,2.4c0,0,0,0,0,0 C9.7,13.5,10.8,14.6,12.1,14.6C12.1,14.6,12.1,14.6,12.1,14.6z M15.9,7.5c0.5,0,0.9,0.4,0.9,0.9s-0.4,0.9-0.9,0.9S15,8.9,15,8.4 S15.4,7.5,15.9,7.5z\"></path></svg></span></span>"
+      },
+      {
+        "href": "https://www.youtube.com/user/casadellibropuntocom",
+        "inner_text": "",
+        "inner_html": "<span class=\"v-btn__content\"><span aria-hidden=\"true\" class=\"v-icon notranslate theme--light\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" role=\"img\" aria-hidden=\"true\" class=\"v-icon__svg\"><path d=\"M11.9,0c6.6,0,11.9,5.3,11.9,11.9s-5.3,11.9-11.9,11.9S0,18.4,0,11.9S5.3,0,11.9,0z M15.7,14.6h-1.1v0.5 c0,0.1,0,0.2,0.1,0.3c0,0.1,0.1,0.1,0.2,0.1c0.1,0,0.2,0,0.2-0.1c0.1-0.1,0.1-0.2,0.1-0.3V15h0.6v0.1c0,0.2-0.1,0.5-0.2,0.7 c-0.2,0.2-0.4,0.2-0.6,0.2c-0.2,0-0.4-0.1-0.6-0.2c-0.2-0.2-0.2-0.4-0.2-0.6v-1.3c0-0.2,0.1-0.5,0.2-0.6c0.2-0.2,0.4-0.2,0.6-0.2 c0.2,0,0.4,0.1,0.6,0.2c0.2,0.2,0.2,0.4,0.2,0.6L15.7,14.6z M13.8,15.4c0,0.2,0,0.3-0.1,0.5C13.5,16,13.4,16,13.2,16 c-0.1,0-0.2,0-0.3-0.1c-0.1,0-0.2-0.1-0.2-0.2V16h-0.6v-3.9h0.6v1.3c0.1-0.1,0.2-0.1,0.2-0.2c0.1,0,0.2-0.1,0.3-0.1 c0.2,0,0.3,0.1,0.4,0.2c0.1,0.2,0.2,0.3,0.1,0.5V15.4z M11.7,16h-0.6v-0.3c-0.1,0.1-0.2,0.2-0.3,0.3C10.7,16,10.6,16,10.4,16 c-0.1,0-0.2,0-0.3-0.1c-0.1-0.1-0.1-0.2-0.1-0.4v-2.4h0.6v2.2c0,0,0,0.1,0,0.1c0,0,0.1,0,0.1,0c0.1,0,0.1,0,0.2-0.1 c0.1,0,0.1-0.1,0.2-0.2v-2.2h0.6L11.7,16L11.7,16z M9.8,12.7H9.1V16H8.5v-3.3H7.8v-0.6h2V12.7z M15.5,11.4H8.3 c-1.1,0-2.1,0.9-2.1,2.1v1.7c0,1.1,0.9,2.1,2.1,2.1h7.2c1.1,0,2.1-0.9,2.1-2.1l0,0v-1.7C17.5,12.3,16.6,11.4,15.5,11.4L15.5,11.4z  M14.9,13.6c-0.1,0-0.2,0-0.2,0.1c-0.1,0.1-0.1,0.2-0.1,0.3v0.3h0.5v-0.3c0-0.1,0-0.2-0.1-0.3C15.1,13.6,15,13.6,14.9,13.6  M12.9,13.6h-0.1l-0.1,0.1v1.8c0,0,0.1,0.1,0.1,0.1H13c0.1,0,0.1,0,0.2-0.1c0-0.1,0-0.1,0-0.2v-1.4c0-0.1,0-0.2-0.1-0.2 C13,13.6,12.9,13.5,12.9,13.6 M9.2,10.4h0.7V8.6l0.8-2.5H10L9.6,7.8l0,0L9.1,6.1H8.3l0.9,2.6V10.4 M11.5,7.9c0-0.1,0-0.1,0.1-0.2 c0.1,0,0.1-0.1,0.2-0.1c0.1,0,0.1,0,0.2,0.1c0,0,0.1,0.1,0.1,0.2v1.7c0,0.1,0,0.1-0.1,0.2c-0.1,0-0.1,0.1-0.2,0.1 c-0.1,0-0.2-0.1-0.3-0.2c0,0,0,0,0-0.1C11.5,9.7,11.5,7.9,11.5,7.9z M11.8,10.5c0.3,0,0.5-0.1,0.7-0.2c0.2-0.2,0.3-0.4,0.3-0.6V8 c0-0.2-0.1-0.4-0.3-0.6c-0.2-0.2-0.4-0.2-0.7-0.2c-0.3,0-0.5,0.1-0.7,0.2c-0.2,0.1-0.3,0.4-0.3,0.6v1.6c0,0.2,0.1,0.5,0.3,0.6 C11.3,10.4,11.5,10.5,11.8,10.5z M13.7,10.5c0.1,0,0.3-0.1,0.4-0.1c0.1-0.1,0.3-0.2,0.4-0.3v0.4h0.6V7.2h-0.6v2.5 c-0.1,0.1-0.1,0.1-0.2,0.2c-0.1,0-0.1,0.1-0.2,0.1c-0.1,0-0.1,0-0.1,0c0-0.1,0-0.1,0-0.2V7.2h-0.6v2.7c0,0.1,0,0.3,0.1,0.4 C13.5,10.4,13.6,10.4,13.7,10.5\"></path></svg></span></span>"
+      },
+      {
+        "href": "https://www.pinterest.es/casadellibro",
+        "inner_text": "",
+        "inner_html": "<span class=\"v-btn__content\"><span aria-hidden=\"true\" class=\"v-icon notranslate theme--light\" style=\"font-size:40px;height:40px;width:40px;\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" role=\"img\" aria-hidden=\"true\" class=\"v-icon__svg\" style=\"font-size:40px;height:40px;width:40px;\"><path d=\"M12.29,6.19c-3.27,0-4.92,2.34-4.92,4.3a2.64,2.64,0,0,0,1.41,2.63A.24.24,0,0,0,9.12,13l.14-.55a.33.33,0,0,0-.1-.39,2,2,0,0,1-.45-1.35,3.26,3.26,0,0,1,3.39-3.3A2.57,2.57,0,0,1,15,10c0,2-.87,3.66-2.18,3.66a1.06,1.06,0,0,1-1.09-1.32,14.73,14.73,0,0,0,.61-2.45.92.92,0,0,0-.93-1c-.73,0-1.32.76-1.32,1.78a2.65,2.65,0,0,0,.22,1.09s-.76,3.19-.89,3.75a7.79,7.79,0,0,0,0,2.62.09.09,0,0,0,.16,0,7.32,7.32,0,0,0,1.25-2.25l.48-1.9a2,2,0,0,0,1.68.86c2.22,0,3.72-2,3.72-4.72a4.11,4.11,0,0,0-4.36-3.94\"></path></svg></span></span>"
+      },
+      {
+        "href": "https://open.spotify.com/user/wi2k27ijtmw114f531okf8nd4?si=JEaWkM75S56kXufnbmExww",
+        "inner_text": "",
+        "inner_html": "<span class=\"v-btn__content\"><span aria-hidden=\"true\" class=\"v-icon notranslate theme--light\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" role=\"img\" aria-hidden=\"true\" class=\"v-icon__svg\"><path d=\"M19.098 10.638c-3.868-2.297-10.248-2.508-13.941-1.387-.593.18-1.22-.155-1.399-.748-.18-.593.154-1.22.748-1.4 4.239-1.287 11.285-1.038 15.738 1.605.533.317.708 1.005.392 1.538-.316.533-1.005.709-1.538.392zm-.126 3.403c-.272.44-.847.578-1.287.308-3.225-1.982-8.142-2.557-11.958-1.399-.494.15-1.017-.129-1.167-.623-.149-.495.13-1.016.624-1.167 4.358-1.322 9.776-.682 13.48 1.595.44.27.578.847.308 1.286zm-1.469 3.267c-.215.354-.676.465-1.028.249-2.818-1.722-6.365-2.111-10.542-1.157-.402.092-.803-.16-.895-.562-.092-.403.159-.804.562-.896 4.571-1.045 8.492-.595 11.655 1.338.353.215.464.676.248 1.028zm-5.503-17.308c-6.627 0-12 5.373-12 12 0 6.628 5.373 12 12 12 6.628 0 12-5.372 12-12 0-6.627-5.372-12-12-12z\"></path></svg></span></span>"
+      },
+      {
+        "href": "https://www.tiktok.com/@casadellibro?lang=es",
+        "inner_text": "",
+        "inner_html": "<span class=\"v-btn__content\"><img title=\"\" alt=\"\" src=\"\" data-src=\"/img/tiktok.png\" width=\"28px\" height=\"34px\" class=\"cdl-img\" style=\"max-height:undefinedpx;max-width:undefinedpx;width:28px;height:34px;\"></span>"
+      },
+      {
+        "href": "https://www.casadellibro.com/politica-cookies",
+        "inner_text": "Más información",
+        "inner_html": "Más información"
+      },
+      {
+        "href": "https://www.cookiepro.com/products/cookie-consent/",
+        "inner_text": "",
+        "inner_html": ""
+      }
+    ],
+    "social": [
+      {
+        "href": "https://www.facebook.com/casadellibro",
+        "inner_text": "",
+        "inner_html": "<span class=\"v-btn__content\"><span aria-hidden=\"true\" class=\"v-icon notranslate theme--light\" style=\"font-size:40px;height:40px;width:40px;\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" role=\"img\" aria-hidden=\"true\" class=\"v-icon__svg\" style=\"font-size:40px;height:40px;width:40px;\"><path d=\"M14,12H12.48v5.53h-2.3V12H9.08v-2h1.1V8.81A2.15,2.15,0,0,1,12.5,6.49h1.7v1.9H13a.46.46,0,0,0-.48.53v1.15h1.75L14,12Z\"></path></svg></span></span>"
+      },
+      {
+        "href": "https://twitter.com/casadellibro",
+        "inner_text": "",
+        "inner_html": "<span class=\"v-btn__content\"><span aria-hidden=\"true\" class=\"v-icon notranslate theme--light\" style=\"font-size:40px;height:40px;width:40px;\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" role=\"img\" aria-hidden=\"true\" class=\"v-icon__svg\" style=\"font-size:40px;height:40px;width:40px;\"><path d=\"M17,9.39c0,.1,0,.2,0,.31A6.85,6.85,0,0,1,6.43,15.47l.57,0a4.82,4.82,0,0,0,3-1A2.42,2.42,0,0,1,7.74,12.8a2.32,2.32,0,0,0,.46,0,2.65,2.65,0,0,0,.63-.08A2.42,2.42,0,0,1,6.9,10.4v0a2.44,2.44,0,0,0,1.09.3,2.41,2.41,0,0,1-1.07-2,2.48,2.48,0,0,1,.32-1.21,6.85,6.85,0,0,0,5,2.52A2.4,2.4,0,0,1,14,7.08,2.59,2.59,0,0,1,14.55,7a2.44,2.44,0,0,1,1.76.76,4.74,4.74,0,0,0,1.53-.58,2.42,2.42,0,0,1-1.06,1.33,4.5,4.5,0,0,0,1.38-.38A4.76,4.76,0,0,1,17,9.39Z\"></path></svg></span></span>"
+      },
+      {
+        "href": "https://www.instagram.com/casadellibro/?hl=es",
+        "inner_text": "",
+        "inner_html": "<span class=\"v-btn__content\"><span aria-hidden=\"true\" class=\"v-icon notranslate theme--light\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" role=\"img\" aria-hidden=\"true\" class=\"v-icon__svg\"><path d=\"M12,24C5.4,24,0,18.6,0,12S5.4,0,12,0s12,5.4,12,12S18.6,24,12,24z M12,22.6c5.9,0,10.6-4.8,10.6-10.6 S17.9,1.4,12,1.4S1.4,6.1,1.4,12v0C1.4,17.9,6.1,22.6,12,22.6z M6.4,9.2v5.9c0,1.5,1.2,2.7,2.7,2.8h5.9c1.5,0,2.7-1.2,2.8-2.7l0,0 V9.2c0-1.5-1.2-2.7-2.7-2.8H9.2C7.7,6.4,6.4,7.6,6.4,9.2L6.4,9.2z M5.1,9.2c0-2.2,1.8-4.1,4-4.1c0,0,0,0,0,0h5.9 c2.2,0,4.1,1.8,4.1,4c0,0,0,0,0,0l0,0V15c0,2.2-1.8,4.1-4,4.1c0,0,0,0,0,0H9.2c-2.2,0-4.1-1.8-4.1-4c0,0,0,0,0,0l0,0V9.2z  M12.1,15.9c-2,0-3.7-1.6-3.7-3.7c0-2,1.6-3.7,3.7-3.7c2,0,3.7,1.6,3.7,3.7c0,0,0,0,0,0C15.8,14.2,14.2,15.9,12.1,15.9 C12.1,15.9,12.1,15.9,12.1,15.9z M12.1,14.6c1.3,0,2.4-1.1,2.4-2.4c0-1.3-1.1-2.4-2.4-2.4s-2.4,1.1-2.4,2.4c0,0,0,0,0,0 C9.7,13.5,10.8,14.6,12.1,14.6C12.1,14.6,12.1,14.6,12.1,14.6z M15.9,7.5c0.5,0,0.9,0.4,0.9,0.9s-0.4,0.9-0.9,0.9S15,8.9,15,8.4 S15.4,7.5,15.9,7.5z\"></path></svg></span></span>"
+      },
+      {
+        "href": "https://www.youtube.com/user/casadellibropuntocom",
+        "inner_text": "",
+        "inner_html": "<span class=\"v-btn__content\"><span aria-hidden=\"true\" class=\"v-icon notranslate theme--light\"><svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" role=\"img\" aria-hidden=\"true\" class=\"v-icon__svg\"><path d=\"M11.9,0c6.6,0,11.9,5.3,11.9,11.9s-5.3,11.9-11.9,11.9S0,18.4,0,11.9S5.3,0,11.9,0z M15.7,14.6h-1.1v0.5 c0,0.1,0,0.2,0.1,0.3c0,0.1,0.1,0.1,0.2,0.1c0.1,0,0.2,0,0.2-0.1c0.1-0.1,0.1-0.2,0.1-0.3V15h0.6v0.1c0,0.2-0.1,0.5-0.2,0.7 c-0.2,0.2-0.4,0.2-0.6,0.2c-0.2,0-0.4-0.1-0.6-0.2c-0.2-0.2-0.2-0.4-0.2-0.6v-1.3c0-0.2,0.1-0.5,0.2-0.6c0.2-0.2,0.4-0.2,0.6-0.2 c0.2,0,0.4,0.1,0.6,0.2c0.2,0.2,0.2,0.4,0.2,0.6L15.7,14.6z M13.8,15.4c0,0.2,0,0.3-0.1,0.5C13.5,16,13.4,16,13.2,16 c-0.1,0-0.2,0-0.3-0.1c-0.1,0-0.2-0.1-0.2-0.2V16h-0.6v-3.9h0.6v1.3c0.1-0.1,0.2-0.1,0.2-0.2c0.1,0,0.2-0.1,0.3-0.1 c0.2,0,0.3,0.1,0.4,0.2c0.1,0.2,0.2,0.3,0.1,0.5V15.4z M11.7,16h-0.6v-0.3c-0.1,0.1-0.2,0.2-0.3,0.3C10.7,16,10.6,16,10.4,16 c-0.1,0-0.2,0-0.3-0.1c-0.1-0.1-0.1-0.2-0.1-0.4v-2.4h0.6v2.2c0,0,0,0.1,0,0.1c0,0,0.1,0,0.1,0c0.1,0,0.1,0,0.2-0.1 c0.1,0,0.1-0.1,0.2-0.2v-2.2h0.6L11.7,16L11.7,16z M9.8,12.7H9.1V16H8.5v-3.3H7.8v-0.6h2V12.7z M15.5,11.4H8.3 c-1.1,0-2.1,0.9-2.1,2.1v1.7c0,1.1,0.9,2.1,2.1,2.1h7.2c1.1,0,2.1-0.9,2.1-2.1l0,0v-1.7C17.5,12.3,16.6,11.4,15.5,11.4L15.5,11.4z  M14.9,13.6c-0.1,0-0.2,0-0.2,0.1c-0.1,0.1-0.1,0.2-0.1,0.3v0.3h0.5v-0.3c0-0.1,0-0.2-0.1-0.3C15.1,13.6,15,13.6,14.9,13.6  M12.9,13.6h-0.1l-0.1,0.1v1.8c0,0,0.1,0.1,0.1,0.1H13c0.1,0,0.1,0,0.2-0.1c0-0.1,0-0.1,0-0.2v-1.4c0-0.1,0-0.2-0.1-0.2 C13,13.6,12.9,13.5,12.9,13.6 M9.2,10.4h0.7V8.6l0.8-2.5H10L9.6,7.8l0,0L9.1,6.1H8.3l0.9,2.6V10.4 M11.5,7.9c0-0.1,0-0.1,0.1-0.2 c0.1,0,0.1-0.1,0.2-0.1c0.1,0,0.1,0,0.2,0.1c0,0,0.1,0.1,0.1,0.2v1.7c0,0.1,0,0.1-0.1,0.2c-0.1,0-0.1,0.1-0.2,0.1 c-0.1,0-0.2-0.1-0.3-0.2c0,0,0,0,0-0.1C11.5,9.7,11.5,7.9,11.5,7.9z M11.8,10.5c0.3,0,0.5-0.1,0.7-0.2c0.2-0.2,0.3-0.4,0.3-0.6V8 c0-0.2-0.1-0.4-0.3-0.6c-0.2-0.2-0.4-0.2-0.7-0.2c-0.3,0-0.5,0.1-0.7,0.2c-0.2,0.1-0.3,0.4-0.3,0.6v1.6c0,0.2,0.1,0.5,0.3,0.6 C11.3,10.4,11.5,10.5,11.8,10.5z M13.7,10.5c0.1,0,0.3-0.1,0.4-0.1c0.1-0.1,0.3-0.2,0.4-0.3v0.4h0.6V7.2h-0.6v2.5 c-0.1,0.1-0.1,0.1-0.2,0.2c-0.1,0-0.1,0.1-0.2,0.1c-0.1,0-0.1,0-0.1,0c0-0.1,0-0.1,0-0.2V7.2h-0.6v2.7c0,0.1,0,0.3,0.1,0.4 C13.5,10.4,13.6,10.4,13.7,10.5\"></path></svg></span></span>"
+      },
+      {
+        "href": "https://www.tiktok.com/@casadellibro?lang=es",
+        "inner_text": "",
+        "inner_html": "<span class=\"v-btn__content\"><img title=\"\" alt=\"\" src=\"\" data-src=\"/img/tiktok.png\" width=\"28px\" height=\"34px\" class=\"cdl-img\" style=\"max-height:undefinedpx;max-width:undefinedpx;width:28px;height:34px;\"></span>"
+      }
+    ],
+    "keywords": []
+  },
+  "unsafeForms": [],
+  "browsing_history": [
+    "https://www.casadellibro.com/"
+  ],
+  "websockets": {},
+  "cookies": [
+    {
+      "name": "cklector",
+      "value": "3638003634353231323532403440383438323733323633373740403331310111022402120318180410230500110519%23es%23EUR%23%230",
+      "domain": "www.casadellibro.com",
+      "path": "/",
+      "expires": 1725206699.579971,
+      "size": 120,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2024-09-01T16:04:59.579Z",
+      "expiresDays": 1200,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 481209,
+            "lineNumber": 2,
+            "fileName": "https://staticsni.casadellibro.com/js/1621316809250-vendors.app.js",
+            "functionName": "Object.set",
+            "source": "    at Object.set (https://staticsni.casadellibro.com/js/1621316809250-vendors.app.js:2:481209)"
+          },
+          {
+            "columnNumber": 481452,
+            "lineNumber": 2,
+            "fileName": "https://staticsni.casadellibro.com/js/1621316809250-vendors.app.js",
+            "source": "    at https://staticsni.casadellibro.com/js/1621316809250-vendors.app.js:2:481452"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T16:04:59.726Z",
+        "location": "https://www.casadellibro.com/"
+      },
+      "firstPartyStorage": false
+    },
+    {
+      "name": "_ga_GXN6GNPWEN",
+      "value": "GS1.1.1621526700.1.0.1621526706.54",
+      "domain": "casadellibro.com",
+      "path": "/",
+      "expires": 1684598706,
+      "size": 48,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2023-05-20T16:05:06.000Z",
+      "expiresDays": 730,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 1258,
+            "lineNumber": 352,
+            "fileName": "https://www.googletagmanager.com/gtag/js?id=G-GXN6GNPWEN&l=dataLayer&cx=c",
+            "functionName": "Ef",
+            "source": "    at Ef (https://www.googletagmanager.com/gtag/js?id=G-GXN6GNPWEN&l=dataLayer&cx=c:352:1258)"
+          },
+          {
+            "columnNumber": 179,
+            "lineNumber": 354,
+            "fileName": "https://www.googletagmanager.com/gtag/js?id=G-GXN6GNPWEN&l=dataLayer&cx=c",
+            "functionName": "If",
+            "source": "    at If (https://www.googletagmanager.com/gtag/js?id=G-GXN6GNPWEN&l=dataLayer&cx=c:354:179)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T16:05:06.013Z",
+        "location": "https://www.casadellibro.com/"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "_ga",
+      "value": "GA1.2.1338865966.1621526701",
+      "domain": "casadellibro.com",
+      "path": "/",
+      "expires": 1684598701,
+      "size": 30,
+      "httpOnly": false,
+      "secure": true,
+      "session": false,
+      "sameSite": "None",
+      "expiresUTC": "2023-05-20T16:05:01.000Z",
+      "expiresDays": 730,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 495,
+            "lineNumber": 30,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "zc",
+            "source": "    at zc (https://www.google-analytics.com/analytics.js:30:495)"
+          },
+          {
+            "columnNumber": 15,
+            "lineNumber": 60,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "ma",
+            "source": "    at ma (https://www.google-analytics.com/analytics.js:60:15)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T16:05:01.102Z",
+        "location": "https://www.casadellibro.com/"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "IDE",
+      "value": "AHWqTUmlFI1i1IqMfKJeyl0vdm8AGST-7wnHbtrantlKZeNoXBDGabBXJ4jNCWum_GE",
+      "domain": "doubleclick.net",
+      "path": "/",
+      "expires": 1655222700.601879,
+      "size": 70,
+      "httpOnly": true,
+      "secure": true,
+      "session": false,
+      "sameSite": "None",
+      "expiresUTC": "2022-06-14T16:05:00.601Z",
+      "expiresDays": 390,
+      "firstPartyStorage": false
+    },
+    {
+      "name": "ts",
+      "value": "1621526700",
+      "domain": "creativecdn.com",
+      "path": "/",
+      "expires": 1653062700.333837,
+      "size": 12,
+      "httpOnly": false,
+      "secure": true,
+      "session": false,
+      "sameSite": "None",
+      "expiresUTC": "2022-05-20T16:05:00.333Z",
+      "expiresDays": 365,
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://creativecdn.com/tags?type=iframe&id=pr_PL2fvRw4Rycye30FoQFz&id=pr_PL2fvRw4Rycye30FoQFz_lid_LgdPOQwMs4bYO5yXi9OJ&su=https%3A%2F%2Fwww.casadellibro.com%2F&sr=&ts=1621526700125",
+            "source": "set in Set-Cookie HTTP response header for https://creativecdn.com/tags?type=iframe&id=pr_PL2fvRw4Rycye30FoQFz&id=pr_PL2fvRw4Rycye30FoQFz_lid_LgdPOQwMs4bYO5yXi9OJ&su=https%3A%2F%2Fwww.casadellibro.com%2F&sr=&ts=1621526700125"
+          }
+        ],
+        "type": "Cookie.HTTP",
+        "timestamp": "2021-05-20T16:05:00.338Z",
+        "location": "https://www.casadellibro.com/"
+      },
+      "firstPartyStorage": false
+    },
+    {
+      "name": "u",
+      "value": "Au8KKobtqnrec9P0EtyB",
+      "domain": "creativecdn.com",
+      "path": "/",
+      "expires": 1653062700.333782,
+      "size": 21,
+      "httpOnly": false,
+      "secure": true,
+      "session": false,
+      "sameSite": "None",
+      "expiresUTC": "2022-05-20T16:05:00.333Z",
+      "expiresDays": 365,
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://creativecdn.com/tags?type=iframe&id=pr_PL2fvRw4Rycye30FoQFz&id=pr_PL2fvRw4Rycye30FoQFz_lid_LgdPOQwMs4bYO5yXi9OJ&su=https%3A%2F%2Fwww.casadellibro.com%2F&sr=&ts=1621526700125",
+            "source": "set in Set-Cookie HTTP response header for https://creativecdn.com/tags?type=iframe&id=pr_PL2fvRw4Rycye30FoQFz&id=pr_PL2fvRw4Rycye30FoQFz_lid_LgdPOQwMs4bYO5yXi9OJ&su=https%3A%2F%2Fwww.casadellibro.com%2F&sr=&ts=1621526700125"
+          }
+        ],
+        "type": "Cookie.HTTP",
+        "timestamp": "2021-05-20T16:05:00.338Z",
+        "location": "https://www.casadellibro.com/"
+      },
+      "firstPartyStorage": false
+    },
+    {
+      "name": "_hjid",
+      "value": "13c68734-6f27-4354-be01-63bc5857dc2a",
+      "domain": "casadellibro.com",
+      "path": "/",
+      "expires": 1653062700,
+      "size": 41,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "sameSite": "Lax",
+      "expiresUTC": "2022-05-20T16:05:00.000Z",
+      "expiresDays": 365,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 210490,
+            "lineNumber": 1,
+            "fileName": "https://script.hotjar.com/modules.87b9cf5e358c50dcc8af.js",
+            "functionName": "r.set",
+            "source": "    at r.set (https://script.hotjar.com/modules.87b9cf5e358c50dcc8af.js:1:210490)"
+          },
+          {
+            "columnNumber": 200696,
+            "lineNumber": 1,
+            "fileName": "https://script.hotjar.com/modules.87b9cf5e358c50dcc8af.js",
+            "functionName": "Object.get",
+            "source": "    at Object.get (https://script.hotjar.com/modules.87b9cf5e358c50dcc8af.js:1:200696)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T16:05:00.364Z",
+        "location": "https://www.casadellibro.com/"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "OptanonConsent",
+      "value": "isIABGlobal=false&datestamp=Thu+May+20+2021+18%3A05%3A00+GMT%2B0200+(Central+European+Summer+Time)&version=6.7.0&hosts=&consentId=538cc08b-cf43-4fc1-81ba-b456837eb1af&interactionCount=0&landingPath=https%3A%2F%2Fwww.casadellibro.com%2F&groups=C0001%3A1%2CC0003%3A0%2CC0002%3A1%2CC0004%3A0%2CC0005%3A0",
+      "domain": "www.casadellibro.com",
+      "path": "/",
+      "expires": 1653062700,
+      "size": 314,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "sameSite": "Lax",
+      "expiresUTC": "2022-05-20T16:05:00.000Z",
+      "expiresDays": 365,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 61665,
+            "lineNumber": 7,
+            "fileName": "https://cookie-cdn.cookiepro.com/scripttemplates/6.7.0/otBannerSdk.js",
+            "functionName": "de.setCookie",
+            "source": "    at de.setCookie (https://cookie-cdn.cookiepro.com/scripttemplates/6.7.0/otBannerSdk.js:7:61665)"
+          },
+          {
+            "columnNumber": 59934,
+            "lineNumber": 7,
+            "fileName": "https://cookie-cdn.cookiepro.com/scripttemplates/6.7.0/otBannerSdk.js",
+            "functionName": "de.writeCookieParam",
+            "source": "    at de.writeCookieParam (https://cookie-cdn.cookiepro.com/scripttemplates/6.7.0/otBannerSdk.js:7:59934)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T16:05:00.817Z",
+        "location": "https://www.casadellibro.com/"
+      },
+      "firstPartyStorage": false
+    },
+    {
+      "name": "cookiesession1",
+      "value": "678A3E90BMNOPQRSTUVWXYZABCDEF025",
+      "domain": "www.casadellibro.com",
+      "path": "/",
+      "expires": 1653062699.566656,
+      "size": 46,
+      "httpOnly": true,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2022-05-20T16:04:59.566Z",
+      "expiresDays": 365,
+      "firstPartyStorage": false
+    },
+    {
+      "name": "_gcl_au",
+      "value": "1.1.1891140219.1621526700",
+      "domain": "casadellibro.com",
+      "path": "/",
+      "expires": 1629302700,
+      "size": 32,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2021-08-18T16:05:00.000Z",
+      "expiresDays": 90,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 1438,
+            "lineNumber": 2200,
+            "fileName": "https://www.googletagmanager.com/gtm.js?id=GTM-KWWQP77",
+            "functionName": "Gi",
+            "source": "    at Gi (https://www.googletagmanager.com/gtm.js?id=GTM-KWWQP77:2200:1438)"
+          },
+          {
+            "columnNumber": 234,
+            "lineNumber": 2202,
+            "fileName": "https://www.googletagmanager.com/gtm.js?id=GTM-KWWQP77",
+            "functionName": "Ki",
+            "source": "    at Ki (https://www.googletagmanager.com/gtm.js?id=GTM-KWWQP77:2202:234)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T16:05:00.128Z",
+        "location": "https://www.casadellibro.com/"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "_gid",
+      "value": "GA1.2.592410943.1621526701",
+      "domain": "casadellibro.com",
+      "path": "/",
+      "expires": 1621613101,
+      "size": 30,
+      "httpOnly": false,
+      "secure": true,
+      "session": false,
+      "sameSite": "None",
+      "expiresUTC": "2021-05-21T16:05:01.000Z",
+      "expiresDays": 1,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 495,
+            "lineNumber": 30,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "zc",
+            "source": "    at zc (https://www.google-analytics.com/analytics.js:30:495)"
+          },
+          {
+            "columnNumber": 401,
+            "lineNumber": 59,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "ma",
+            "source": "    at ma (https://www.google-analytics.com/analytics.js:59:401)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T16:05:01.103Z",
+        "location": "https://www.casadellibro.com/"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "_hjFirstSeen",
+      "value": "1",
+      "domain": "casadellibro.com",
+      "path": "/",
+      "expires": 1621528500,
+      "size": 13,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "sameSite": "Lax",
+      "expiresUTC": "2021-05-20T16:35:00.000Z",
+      "expiresDays": 0.02,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 210490,
+            "lineNumber": 1,
+            "fileName": "https://script.hotjar.com/modules.87b9cf5e358c50dcc8af.js",
+            "functionName": "r.set",
+            "source": "    at r.set (https://script.hotjar.com/modules.87b9cf5e358c50dcc8af.js:1:210490)"
+          },
+          {
+            "columnNumber": 217440,
+            "lineNumber": 1,
+            "fileName": "https://script.hotjar.com/modules.87b9cf5e358c50dcc8af.js",
+            "functionName": "Object.setFirstSeen",
+            "source": "    at Object.setFirstSeen (https://script.hotjar.com/modules.87b9cf5e358c50dcc8af.js:1:217440)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T16:05:00.365Z",
+        "location": "https://www.casadellibro.com/"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "_hjAbsoluteSessionInProgress",
+      "value": "1",
+      "domain": "casadellibro.com",
+      "path": "/",
+      "expires": 1621528500,
+      "size": 29,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "sameSite": "Lax",
+      "expiresUTC": "2021-05-20T16:35:00.000Z",
+      "expiresDays": 0.02,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 210490,
+            "lineNumber": 1,
+            "fileName": "https://script.hotjar.com/modules.87b9cf5e358c50dcc8af.js",
+            "functionName": "r.set",
+            "source": "    at r.set (https://script.hotjar.com/modules.87b9cf5e358c50dcc8af.js:1:210490)"
+          },
+          {
+            "columnNumber": 85563,
+            "lineNumber": 1,
+            "fileName": "https://script.hotjar.com/modules.87b9cf5e358c50dcc8af.js",
+            "functionName": "Object.<anonymous>",
+            "source": "    at Object.<anonymous> (https://script.hotjar.com/modules.87b9cf5e358c50dcc8af.js:1:85563)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T16:05:00.413Z",
+        "location": "https://www.casadellibro.com/"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "_hjIncludedInSessionSample",
+      "value": "0",
+      "domain": "www.casadellibro.com",
+      "path": "/",
+      "expires": 1621526820,
+      "size": 27,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "sameSite": "Lax",
+      "expiresUTC": "2021-05-20T16:07:00.000Z",
+      "expiresDays": 0,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 210490,
+            "lineNumber": 1,
+            "fileName": "https://script.hotjar.com/modules.87b9cf5e358c50dcc8af.js",
+            "functionName": "r.set",
+            "source": "    at r.set (https://script.hotjar.com/modules.87b9cf5e358c50dcc8af.js:1:210490)"
+          },
+          {
+            "columnNumber": 203798,
+            "lineNumber": 1,
+            "fileName": "https://script.hotjar.com/modules.87b9cf5e358c50dcc8af.js",
+            "functionName": "u",
+            "source": "    at u (https://script.hotjar.com/modules.87b9cf5e358c50dcc8af.js:1:203798)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T16:05:00.412Z",
+        "location": "https://www.casadellibro.com/"
+      },
+      "firstPartyStorage": false
+    },
+    {
+      "name": "_dc_gtm_UA-64299025-1",
+      "value": "1",
+      "domain": "casadellibro.com",
+      "path": "/",
+      "expires": 1621526761,
+      "size": 22,
+      "httpOnly": false,
+      "secure": true,
+      "session": false,
+      "sameSite": "None",
+      "expiresUTC": "2021-05-20T16:06:01.000Z",
+      "expiresDays": 0,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 495,
+            "lineNumber": 30,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "zc",
+            "source": "    at zc (https://www.google-analytics.com/analytics.js:30:495)"
+          },
+          {
+            "columnNumber": 31,
+            "lineNumber": 73,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "Qd",
+            "source": "    at Qd (https://www.google-analytics.com/analytics.js:73:31)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T16:05:01.104Z",
+        "location": "https://www.casadellibro.com/"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "gsp",
+      "value": "0",
+      "domain": "casadellibro.com",
+      "path": "/",
+      "expires": -1,
+      "size": 4,
+      "httpOnly": false,
+      "secure": false,
+      "session": true,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 481209,
+            "lineNumber": 2,
+            "fileName": "https://staticsni.casadellibro.com/js/1621316809250-vendors.app.js",
+            "functionName": "Object.set",
+            "source": "    at Object.set (https://staticsni.casadellibro.com/js/1621316809250-vendors.app.js:2:481209)"
+          },
+          {
+            "columnNumber": 481452,
+            "lineNumber": 2,
+            "fileName": "https://staticsni.casadellibro.com/js/1621316809250-vendors.app.js",
+            "source": "    at https://staticsni.casadellibro.com/js/1621316809250-vendors.app.js:2:481452"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T16:04:59.724Z",
+        "location": "https://www.casadellibro.com/"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "cop",
+      "value": "63-46-1-63-0-0-1-2-2--0-0-0-0-0-0-0.0-0",
+      "domain": "casadellibro.com",
+      "path": "/",
+      "expires": -1,
+      "size": 42,
+      "httpOnly": false,
+      "secure": false,
+      "session": true,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 481209,
+            "lineNumber": 2,
+            "fileName": "https://staticsni.casadellibro.com/js/1621316809250-vendors.app.js",
+            "functionName": "Object.set",
+            "source": "    at Object.set (https://staticsni.casadellibro.com/js/1621316809250-vendors.app.js:2:481209)"
+          },
+          {
+            "columnNumber": 481452,
+            "lineNumber": 2,
+            "fileName": "https://staticsni.casadellibro.com/js/1621316809250-vendors.app.js",
+            "source": "    at https://staticsni.casadellibro.com/js/1621316809250-vendors.app.js:2:481452"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T16:04:59.725Z",
+        "location": "https://www.casadellibro.com/"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "_hjTLDTest",
+      "value": "1",
+      "domain": "casadellibro.com",
+      "path": "/",
+      "expires": -1,
+      "size": 11,
+      "httpOnly": false,
+      "secure": false,
+      "session": true,
+      "sameSite": "Lax",
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 64893,
+            "lineNumber": 1,
+            "fileName": "https://script.hotjar.com/modules.87b9cf5e358c50dcc8af.js",
+            "functionName": "Object.<anonymous>",
+            "source": "    at Object.<anonymous> (https://script.hotjar.com/modules.87b9cf5e358c50dcc8af.js:1:64893)"
+          },
+          {
+            "columnNumber": 22122,
+            "lineNumber": 1,
+            "fileName": "https://script.hotjar.com/modules.87b9cf5e358c50dcc8af.js",
+            "functionName": "Object._checkCookieAccessToDomain",
+            "source": "    at Object._checkCookieAccessToDomain (https://script.hotjar.com/modules.87b9cf5e358c50dcc8af.js:1:22122)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T16:05:00.362Z",
+        "location": "https://www.casadellibro.com/"
+      },
+      "firstPartyStorage": true
+    }
+  ],
+  "localStorage": {
+    "https://www.casadellibro.com": {
+      "indigitall.repository.SERVICE_SYNC_TIME": {
+        "value": 60,
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 220866,
+              "lineNumber": 1,
+              "fileName": "https://www.casadellibro.com/scripts/indigitall/sdk-2021-02.min.js",
+              "functionName": "t.value",
+              "source": "    at t.value (https://www.casadellibro.com/scripts/indigitall/sdk-2021-02.min.js:1:220866)"
+            },
+            {
+              "columnNumber": 11242,
+              "lineNumber": 1,
+              "fileName": "https://www.casadellibro.com/scripts/indigitall/sdk-2021-02.min.js",
+              "functionName": "t.value",
+              "source": "    at t.value (https://www.casadellibro.com/scripts/indigitall/sdk-2021-02.min.js:1:11242)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T16:05:00.386Z",
+          "location": "https://www.casadellibro.com/"
+        }
+      },
+      "indigitall.repository.VAPID_PUBLIC": {
+        "value": "BC1ImGixl76Dalnn8d9q41fwDir48VjBVDSQ7eLYUi0Fl9GU7bYEs38El0rtujvwt3G_qROxk7e0y9Ra3ZsAdwk",
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 220866,
+              "lineNumber": 1,
+              "fileName": "https://www.casadellibro.com/scripts/indigitall/sdk-2021-02.min.js",
+              "functionName": "t.value",
+              "source": "    at t.value (https://www.casadellibro.com/scripts/indigitall/sdk-2021-02.min.js:1:220866)"
+            },
+            {
+              "columnNumber": 10728,
+              "lineNumber": 1,
+              "fileName": "https://www.casadellibro.com/scripts/indigitall/sdk-2021-02.min.js",
+              "functionName": "t.value",
+              "source": "    at t.value (https://www.casadellibro.com/scripts/indigitall/sdk-2021-02.min.js:1:10728)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T16:05:00.385Z",
+          "location": "https://www.casadellibro.com/"
+        }
+      },
+      "__rtbhouse.lid": {
+        "value": "LgdPOQwMs4bYO5yXi9OJ",
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 296,
+              "lineNumber": 1,
+              "source": "    at <anonymous>:1:296"
+            },
+            {
+              "columnNumber": 44,
+              "lineNumber": 3,
+              "source": "    at <anonymous>:3:44"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T16:05:00.134Z",
+          "location": "https://www.casadellibro.com/"
+        }
+      },
+      "indigitall.repository.OS_VERSION": {
+        "value": "",
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 220866,
+              "lineNumber": 1,
+              "fileName": "https://www.casadellibro.com/scripts/indigitall/sdk-2021-02.min.js",
+              "functionName": "t.value",
+              "source": "    at t.value (https://www.casadellibro.com/scripts/indigitall/sdk-2021-02.min.js:1:220866)"
+            },
+            {
+              "columnNumber": 13684,
+              "lineNumber": 1,
+              "fileName": "https://www.casadellibro.com/scripts/indigitall/sdk-2021-02.min.js",
+              "functionName": "t.value",
+              "source": "    at t.value (https://www.casadellibro.com/scripts/indigitall/sdk-2021-02.min.js:1:13684)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T16:05:00.228Z",
+          "location": "https://www.casadellibro.com/"
+        }
+      },
+      "indigitall.repository.PLATFORM": {
+        "value": "webpush",
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 220866,
+              "lineNumber": 1,
+              "fileName": "https://www.casadellibro.com/scripts/indigitall/sdk-2021-02.min.js",
+              "functionName": "t.value",
+              "source": "    at t.value (https://www.casadellibro.com/scripts/indigitall/sdk-2021-02.min.js:1:220866)"
+            },
+            {
+              "columnNumber": 12403,
+              "lineNumber": 1,
+              "fileName": "https://www.casadellibro.com/scripts/indigitall/sdk-2021-02.min.js",
+              "functionName": "t.<anonymous>",
+              "source": "    at t.<anonymous> (https://www.casadellibro.com/scripts/indigitall/sdk-2021-02.min.js:1:12403)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T16:05:00.229Z",
+          "location": "https://www.casadellibro.com/"
+        }
+      },
+      "indigitall.repository.LOCATION_ENABLED": {
+        "value": true,
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 220866,
+              "lineNumber": 1,
+              "fileName": "https://www.casadellibro.com/scripts/indigitall/sdk-2021-02.min.js",
+              "functionName": "t.value",
+              "source": "    at t.value (https://www.casadellibro.com/scripts/indigitall/sdk-2021-02.min.js:1:220866)"
+            },
+            {
+              "columnNumber": 11467,
+              "lineNumber": 1,
+              "fileName": "https://www.casadellibro.com/scripts/indigitall/sdk-2021-02.min.js",
+              "functionName": "t.value",
+              "source": "    at t.value (https://www.casadellibro.com/scripts/indigitall/sdk-2021-02.min.js:1:11467)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T16:05:00.387Z",
+          "location": "https://www.casadellibro.com/"
+        }
+      },
+      "indigitall.repository.APP_KEY": {
+        "value": "f7c9665c-3e0d-43b9-abd8-4b9cf749f12c",
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 220866,
+              "lineNumber": 1,
+              "fileName": "https://www.casadellibro.com/scripts/indigitall/sdk-2021-02.min.js",
+              "functionName": "t.value",
+              "source": "    at t.value (https://www.casadellibro.com/scripts/indigitall/sdk-2021-02.min.js:1:220866)"
+            },
+            {
+              "columnNumber": 10484,
+              "lineNumber": 1,
+              "fileName": "https://www.casadellibro.com/scripts/indigitall/sdk-2021-02.min.js",
+              "functionName": "t.<anonymous>",
+              "source": "    at t.<anonymous> (https://www.casadellibro.com/scripts/indigitall/sdk-2021-02.min.js:1:10484)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T16:04:59.963Z",
+          "location": "https://www.casadellibro.com/"
+        }
+      },
+      "vuex": {
+        "value": {
+          "auth": {
+            "authToken": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJ0aXBvY2xpZW50ZSI6MSwiaXNzIjoiaHR0cHM6Ly93d3cuY2FzYWRlbGxpYnJvLmNvbS8iLCJtb25lZGEiOiJFVVIiLCJpZGlvbWEiOiJlcyIsInBhaXNtb25lZGFkb21pbmlvdXNlciI6eyJpZFBhaXNPbml4Q2F0YWxvZ28iOjYzLCJpZE1vbmVkYU9uaXgiOjQ2LCJpZERvbWluaW9Pbml4IjoxLCJpZFBhaXNPbml4SXAiOjYzLCJpZFBhaXNPbml4Q29tYm9DYXRhbG9nbyI6NjMsImlkUGFpc09uaXhUYXJqZXRhIjowLCJpZFBhaXNPbml4RmFjdHVyYWNpb24iOjAsImlkUGFpc09uaXhVYmljYWNpb24iOjYzLCJpZFBhaXNPbml4Q29tYm9Nb25lZGEiOjAsImlkTW9uZWRhT25peFViaWNhY2lvbiI6NDYsImlkUGFpc09uaXhDb21ib01vbmVkYVBhaXMiOjAsImlkRXhjZXBjaW9uSXZhIjowLCJ1c2VySWRQYWlzT25peElwIjo2MywidXNlcklkUGFpc09uaXhDb21ib0NhdGFsb2dvIjo2MywidXNlcklkTW9uZWRhT25peENvbWJvIjo0NiwidXNlcklkTW9uZWRhT25peENvbWJvUGFpcyI6NjN9LCJleHAiOjE2MjY3MTA2OTksImlhdCI6MTYyMTUyNjY5OSwicGFpc21vbmVkYXNlc2lvbiI6eyJpZE1vbmVkYU9uaXhDb21ib1Nlc2lvbiI6NDYsImlkTW9uZWRhT25peENvbWJvUGFpc1Nlc2lvbiI6NjMsImlkUGFpc09uaXhDb21ib0NhdGFsb2dvU2VzaW9uIjo2MywiaWRQYWlzT25peFRhcmpldGFTZXNpb24iOjAsImlkUGFpc09uaXhGYWN0dXJhY2lvblNlc2lvbiI6MCwiaWRQYWlzT25peElwU2VzaW9uIjo2MywiY29kaWdvUG9zdGFsRmFjdHVyYWNpb25DYXJyaXRvIjpudWxsLCJpZFBhaXNQZWRpZG9GYWN0dXJhY2lvbkNhcnJpdG8iOjB9LCJpZGVudGlmaWNhZG9yIjoiMzEwMDMxMzYzNDMyMzUzNzM1MzIzNDM0MzYzNjMyMzMzMTM4MzIzNTMyMzczMzMyMzYzMzM3Mzc0MDQwMzMzMTMzMDExMTAyMjQwMjEyMDMxODE4MDQxMDIzMDUwMDExMDUxOSIsIm5pdmVsc29jaW8iOjB9.XZ-o4yNTqyiGYfFmOlMG7pi41WxgyvZmliGMqWv_Z9CoKsdgfnaiEJAsyXu4sXnanJNezDqNp54sKXeij1pTmw"
+          },
+          "forms": {
+            "provincias": {},
+            "paises": [],
+            "poblaciones": {},
+            "librerias": [],
+            "sectoresEmpresa": [],
+            "formErrors": []
+          }
+        },
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 487476,
+              "lineNumber": 2,
+              "fileName": "https://staticsni.casadellibro.com/js/1621316809250-vendors.app.js",
+              "functionName": "t.asyncStorage.saveState",
+              "source": "    at t.asyncStorage.saveState (https://staticsni.casadellibro.com/js/1621316809250-vendors.app.js:2:487476)"
+            },
+            {
+              "columnNumber": 487724,
+              "lineNumber": 2,
+              "fileName": "https://staticsni.casadellibro.com/js/1621316809250-vendors.app.js",
+              "source": "    at https://staticsni.casadellibro.com/js/1621316809250-vendors.app.js:2:487724"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T16:05:12.883Z",
+          "location": "https://www.casadellibro.com/"
+        }
+      },
+      "indigitall.repository.LOCATION_UPDATE_MINUTES": {
+        "value": 10,
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 220866,
+              "lineNumber": 1,
+              "fileName": "https://www.casadellibro.com/scripts/indigitall/sdk-2021-02.min.js",
+              "functionName": "t.value",
+              "source": "    at t.value (https://www.casadellibro.com/scripts/indigitall/sdk-2021-02.min.js:1:220866)"
+            },
+            {
+              "columnNumber": 11655,
+              "lineNumber": 1,
+              "fileName": "https://www.casadellibro.com/scripts/indigitall/sdk-2021-02.min.js",
+              "functionName": "t.value",
+              "source": "    at t.value (https://www.casadellibro.com/scripts/indigitall/sdk-2021-02.min.js:1:11655)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T16:05:00.387Z",
+          "location": "https://www.casadellibro.com/"
+        }
+      },
+      "indigitall.repository.SUPPORTED": {
+        "value": true,
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 220866,
+              "lineNumber": 1,
+              "fileName": "https://www.casadellibro.com/scripts/indigitall/sdk-2021-02.min.js",
+              "functionName": "t.value",
+              "source": "    at t.value (https://www.casadellibro.com/scripts/indigitall/sdk-2021-02.min.js:1:220866)"
+            },
+            {
+              "columnNumber": 14004,
+              "lineNumber": 1,
+              "fileName": "https://www.casadellibro.com/scripts/indigitall/sdk-2021-02.min.js",
+              "functionName": "t.value",
+              "source": "    at t.value (https://www.casadellibro.com/scripts/indigitall/sdk-2021-02.min.js:1:14004)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T16:05:00.229Z",
+          "location": "https://www.casadellibro.com/"
+        }
+      },
+      "origenClickV2": {
+        "value": [],
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 449794,
+              "lineNumber": 1,
+              "fileName": "https://staticsni.casadellibro.com/js/1621316809250-app.js",
+              "functionName": "new e",
+              "source": "    at new e (https://staticsni.casadellibro.com/js/1621316809250-app.js:1:449794)"
+            },
+            {
+              "columnNumber": 471895,
+              "lineNumber": 1,
+              "fileName": "https://staticsni.casadellibro.com/js/1621316809250-app.js",
+              "functionName": "Cn",
+              "source": "    at Cn (https://staticsni.casadellibro.com/js/1621316809250-app.js:1:471895)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T16:04:59.089Z",
+          "location": "https://www.casadellibro.com/"
+        }
+      },
+      "cn_tracker": {
+        "value": {},
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 68531,
+              "lineNumber": 1,
+              "fileName": "https://cdn.connectif.cloud/eu4/client-script/bc6a1bd9-8f7b-4a40-9fd4-e17108ce0b5a",
+              "functionName": "Object.C [as set]",
+              "source": "    at Object.C [as set] (https://cdn.connectif.cloud/eu4/client-script/bc6a1bd9-8f7b-4a40-9fd4-e17108ce0b5a:1:68531)"
+            },
+            {
+              "columnNumber": 53618,
+              "lineNumber": 1,
+              "fileName": "https://cdn.connectif.cloud/eu4/client-script/bc6a1bd9-8f7b-4a40-9fd4-e17108ce0b5a",
+              "source": "    at https://cdn.connectif.cloud/eu4/client-script/bc6a1bd9-8f7b-4a40-9fd4-e17108ce0b5a:1:53618"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T16:05:03.173Z",
+          "location": "https://www.casadellibro.com/"
+        }
+      },
+      "origenClickProduct": {
+        "value": [],
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 450075,
+              "lineNumber": 1,
+              "fileName": "https://staticsni.casadellibro.com/js/1621316809250-app.js",
+              "functionName": "new e",
+              "source": "    at new e (https://staticsni.casadellibro.com/js/1621316809250-app.js:1:450075)"
+            },
+            {
+              "columnNumber": 471895,
+              "lineNumber": 1,
+              "fileName": "https://staticsni.casadellibro.com/js/1621316809250-app.js",
+              "functionName": "Cn",
+              "source": "    at Cn (https://staticsni.casadellibro.com/js/1621316809250-app.js:1:471895)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T16:04:59.090Z",
+          "location": "https://www.casadellibro.com/"
+        }
+      },
+      "indigitall.repository.DEVICE_TYPE": {
+        "value": "desktop",
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 220866,
+              "lineNumber": 1,
+              "fileName": "https://www.casadellibro.com/scripts/indigitall/sdk-2021-02.min.js",
+              "functionName": "t.value",
+              "source": "    at t.value (https://www.casadellibro.com/scripts/indigitall/sdk-2021-02.min.js:1:220866)"
+            },
+            {
+              "columnNumber": 13843,
+              "lineNumber": 1,
+              "fileName": "https://www.casadellibro.com/scripts/indigitall/sdk-2021-02.min.js",
+              "functionName": "t.value",
+              "source": "    at t.value (https://www.casadellibro.com/scripts/indigitall/sdk-2021-02.min.js:1:13843)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T16:05:00.229Z",
+          "location": "https://www.casadellibro.com/"
+        }
+      },
+      "cn_previous_entity_info": {
+        "value": {
+          "_user_id": "undefined"
+        },
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 68531,
+              "lineNumber": 1,
+              "fileName": "https://cdn.connectif.cloud/eu4/client-script/bc6a1bd9-8f7b-4a40-9fd4-e17108ce0b5a",
+              "functionName": "Object.C [as set]",
+              "source": "    at Object.C [as set] (https://cdn.connectif.cloud/eu4/client-script/bc6a1bd9-8f7b-4a40-9fd4-e17108ce0b5a:1:68531)"
+            },
+            {
+              "columnNumber": 53386,
+              "lineNumber": 1,
+              "fileName": "https://cdn.connectif.cloud/eu4/client-script/bc6a1bd9-8f7b-4a40-9fd4-e17108ce0b5a",
+              "source": "    at https://cdn.connectif.cloud/eu4/client-script/bc6a1bd9-8f7b-4a40-9fd4-e17108ce0b5a:1:53386"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T16:05:01.575Z",
+          "location": "https://www.casadellibro.com/"
+        }
+      },
+      "indigitall.repository.PERMISSION_PUSH": {
+        "value": "reject",
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 220866,
+              "lineNumber": 1,
+              "fileName": "https://www.casadellibro.com/scripts/indigitall/sdk-2021-02.min.js",
+              "functionName": "t.value",
+              "source": "    at t.value (https://www.casadellibro.com/scripts/indigitall/sdk-2021-02.min.js:1:220866)"
+            },
+            {
+              "columnNumber": 14541,
+              "lineNumber": 1,
+              "fileName": "https://www.casadellibro.com/scripts/indigitall/sdk-2021-02.min.js",
+              "functionName": "t.value",
+              "source": "    at t.value (https://www.casadellibro.com/scripts/indigitall/sdk-2021-02.min.js:1:14541)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T16:05:00.837Z",
+          "location": "https://www.casadellibro.com/"
+        }
+      },
+      "indigitall.repository.DEVICE_ID": {
+        "value": "9c5e84dc-97bd-45f8-8dd4-21428a6e2f9a",
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 220866,
+              "lineNumber": 1,
+              "fileName": "https://www.casadellibro.com/scripts/indigitall/sdk-2021-02.min.js",
+              "functionName": "t.value",
+              "source": "    at t.value (https://www.casadellibro.com/scripts/indigitall/sdk-2021-02.min.js:1:220866)"
+            },
+            {
+              "columnNumber": 9571,
+              "lineNumber": 1,
+              "fileName": "https://www.casadellibro.com/scripts/indigitall/sdk-2021-02.min.js",
+              "functionName": "t.<anonymous>",
+              "source": "    at t.<anonymous> (https://www.casadellibro.com/scripts/indigitall/sdk-2021-02.min.js:1:9571)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T16:05:00.558Z",
+          "location": "https://www.casadellibro.com/"
+        }
+      },
+      "indigitall.repository.REQUEST_LOCATION": {
+        "value": true,
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 220866,
+              "lineNumber": 1,
+              "fileName": "https://www.casadellibro.com/scripts/indigitall/sdk-2021-02.min.js",
+              "functionName": "t.value",
+              "source": "    at t.value (https://www.casadellibro.com/scripts/indigitall/sdk-2021-02.min.js:1:220866)"
+            },
+            {
+              "columnNumber": 11993,
+              "lineNumber": 1,
+              "fileName": "https://www.casadellibro.com/scripts/indigitall/sdk-2021-02.min.js",
+              "functionName": "t.<anonymous>",
+              "source": "    at t.<anonymous> (https://www.casadellibro.com/scripts/indigitall/sdk-2021-02.min.js:1:11993)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T16:04:59.962Z",
+          "location": "https://www.casadellibro.com/"
+        }
+      },
+      "indigitall.repository.OS_NAME": {
+        "value": "Linux",
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 220866,
+              "lineNumber": 1,
+              "fileName": "https://www.casadellibro.com/scripts/indigitall/sdk-2021-02.min.js",
+              "functionName": "t.value",
+              "source": "    at t.value (https://www.casadellibro.com/scripts/indigitall/sdk-2021-02.min.js:1:220866)"
+            },
+            {
+              "columnNumber": 13436,
+              "lineNumber": 1,
+              "fileName": "https://www.casadellibro.com/scripts/indigitall/sdk-2021-02.min.js",
+              "functionName": "t.<anonymous>",
+              "source": "    at t.<anonymous> (https://www.casadellibro.com/scripts/indigitall/sdk-2021-02.min.js:1:13436)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T16:05:00.228Z",
+          "location": "https://www.casadellibro.com/"
+        }
+      },
+      "indigitall.repository.ENABLED": {
+        "value": true,
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 220866,
+              "lineNumber": 1,
+              "fileName": "https://www.casadellibro.com/scripts/indigitall/sdk-2021-02.min.js",
+              "functionName": "t.value",
+              "source": "    at t.value (https://www.casadellibro.com/scripts/indigitall/sdk-2021-02.min.js:1:220866)"
+            },
+            {
+              "columnNumber": 11086,
+              "lineNumber": 1,
+              "fileName": "https://www.casadellibro.com/scripts/indigitall/sdk-2021-02.min.js",
+              "functionName": "t.value",
+              "source": "    at t.value (https://www.casadellibro.com/scripts/indigitall/sdk-2021-02.min.js:1:11086)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T16:05:00.386Z",
+          "location": "https://www.casadellibro.com/"
+        }
+      },
+      "indigitall.repository.BROWSER_NAME": {
+        "value": "Chrome",
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 220866,
+              "lineNumber": 1,
+              "fileName": "https://www.casadellibro.com/scripts/indigitall/sdk-2021-02.min.js",
+              "functionName": "t.value",
+              "source": "    at t.value (https://www.casadellibro.com/scripts/indigitall/sdk-2021-02.min.js:1:220866)"
+            },
+            {
+              "columnNumber": 12874,
+              "lineNumber": 1,
+              "fileName": "https://www.casadellibro.com/scripts/indigitall/sdk-2021-02.min.js",
+              "functionName": "t.<anonymous>",
+              "source": "    at t.<anonymous> (https://www.casadellibro.com/scripts/indigitall/sdk-2021-02.min.js:1:12874)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T16:05:00.226Z",
+          "location": "https://www.casadellibro.com/"
+        }
+      },
+      "_hjid": {
+        "value": "13c68734-6f27-4354-be01-63bc5857dc2a",
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 210618,
+              "lineNumber": 1,
+              "fileName": "https://script.hotjar.com/modules.87b9cf5e358c50dcc8af.js",
+              "functionName": "r.set",
+              "source": "    at r.set (https://script.hotjar.com/modules.87b9cf5e358c50dcc8af.js:1:210618)"
+            },
+            {
+              "columnNumber": 200696,
+              "lineNumber": 1,
+              "fileName": "https://script.hotjar.com/modules.87b9cf5e358c50dcc8af.js",
+              "functionName": "Object.get",
+              "source": "    at Object.get (https://script.hotjar.com/modules.87b9cf5e358c50dcc8af.js:1:200696)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T16:05:00.364Z",
+          "location": "https://www.casadellibro.com/"
+        }
+      },
+      "indigitall.repository.BROWSER_VERSION": {
+        "value": "72.0.3617.0",
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 220866,
+              "lineNumber": 1,
+              "fileName": "https://www.casadellibro.com/scripts/indigitall/sdk-2021-02.min.js",
+              "functionName": "t.value",
+              "source": "    at t.value (https://www.casadellibro.com/scripts/indigitall/sdk-2021-02.min.js:1:220866)"
+            },
+            {
+              "columnNumber": 13142,
+              "lineNumber": 1,
+              "fileName": "https://www.casadellibro.com/scripts/indigitall/sdk-2021-02.min.js",
+              "functionName": "t.value",
+              "source": "    at t.value (https://www.casadellibro.com/scripts/indigitall/sdk-2021-02.min.js:1:13142)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T16:05:00.227Z",
+          "location": "https://www.casadellibro.com/"
+        }
+      }
+    }
+  },
+  "beacons": [
+    {
+      "url": "https://analytics.google.com/g/collect?v=2&tid=G-GXN6GNPWEN&gtm=2oe5c1&_p=1354735954&sr=1680x927&ul=en-us&cid=1338865966.1621526701&_s=2&dl=https%3A%2F%2Fwww.casadellibro.com%2F&dt=Libros%20e%20eBooks%2C%20descuentos%20y%20env%C3%ADos%20gratis%20%7C%20Casa%20del%20Libro&sid=1621526700&sct=1&seg=0&en=scroll&_et=5142&epn.percent_scrolled=90",
+      "query": {
+        "v": 2,
+        "tid": "G-GXN6GNPWEN",
+        "gtm": "2oe5c1",
+        "_p": 1354735954,
+        "sr": "1680x927",
+        "ul": "en-us",
+        "cid": 1338865966.1621528,
+        "_s": 2,
+        "dl": "https://www.casadellibro.com/",
+        "dt": "Libros e eBooks, descuentos y envíos gratis | Casa del Libro",
+        "sid": 1621526700,
+        "sct": 1,
+        "seg": 0,
+        "en": "scroll",
+        "_et": 5142,
+        "epn.percent_scrolled": 90
+      },
+      "filter": "://analytics.*/collect",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.casadellibro.com/",
+            "source": "requested from https://www.casadellibro.com/ and matched with easyprivacy.txt filter ://analytics.*/collect"
+          }
+        ],
+        "timestamp": "2021-05-20T16:05:12.887Z"
+      },
+      "occurrances": 2
+    },
+    {
+      "url": "https://eu4-api.connectif.cloud/integration-type/system/scrippet-notification/bc6a1bd9-8f7b-4a40-9fd4-e17108ce0b5a",
+      "query": null,
+      "filter": "||connectif.cloud^$third-party",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.casadellibro.com/",
+            "source": "requested from https://www.casadellibro.com/ and matched with easyprivacy.txt filter ||connectif.cloud^$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T16:05:01.576Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://www.google-analytics.com/collect?v=1&_v=j90&aip=1&a=1354735954&t=pageview&_s=1&dl=https%3A%2F%2Fwww.casadellibro.com%2F&dp=%2F&dh=www.casadellibro.com&ul=en-us&de=UTF-8&dt=home%2Fhome&sd=24-bit&sr=1680x927&vp=1680x927&je=0&_u=aCDAgEALQ~&jid=1066303401&gjid=1147645863&cid=1338865966.1621526701&tid=UA-64299025-1&_gid=592410943.1621526701&gtm=2wg5c1KWWQP77&cd1=%2F&cd2=home&cd3=https%3A%2F%2Fwww.casadellibro.com%2F&cd4=&cd6=es&cd7=es&cd16=Mozilla%2F5.0%20(X11%3B%20Linux%20x86_64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F72.0.3617.0%20Safari%2F537.36&cd31=cdl&cd32=cdl&cd37=pro&cd38=no&cd41=web_responsive&cd46=GTM-KWWQP77&cd47=184&cd55=not_logged&cd56=prospect&cd60=2021-05-20T18%3A05%3A00.138%2B02%3A00&cd62=743132996&cd159=no%20socio&z=496672942",
+      "query": {
+        "v": 1,
+        "_v": "j90",
+        "aip": 1,
+        "a": 1354735954,
+        "t": "pageview",
+        "_s": 1,
+        "dl": "https://www.casadellibro.com/",
+        "dp": "/",
+        "dh": "www.casadellibro.com",
+        "ul": "en-us",
+        "de": "UTF-8",
+        "dt": "home/home",
+        "sd": "24-bit",
+        "sr": "1680x927",
+        "vp": "1680x927",
+        "je": 0,
+        "_u": "aCDAgEALQ~",
+        "jid": 1066303401,
+        "gjid": 1147645863,
+        "cid": 1338865966.1621528,
+        "tid": "UA-64299025-1",
+        "_gid": 592410943.1621526,
+        "gtm": "2wg5c1KWWQP77",
+        "cd1": "/",
+        "cd2": "home",
+        "cd3": "https://www.casadellibro.com/",
+        "cd4": "",
+        "cd6": "es",
+        "cd7": "es",
+        "cd16": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3617.0 Safari/537.36",
+        "cd31": "cdl",
+        "cd32": "cdl",
+        "cd37": "pro",
+        "cd38": "no",
+        "cd41": "web_responsive",
+        "cd46": "GTM-KWWQP77",
+        "cd47": 184,
+        "cd55": "not_logged",
+        "cd56": "prospect",
+        "cd60": "2021-05-20T18:05:00.138+02:00",
+        "cd62": 743132996,
+        "cd159": "no socio",
+        "z": 496672942
+      },
+      "filter": "||google-analytics.com/collect",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.casadellibro.com/",
+            "source": "requested from https://www.casadellibro.com/ and matched with easyprivacy.txt filter ||google-analytics.com/collect"
+          }
+        ],
+        "timestamp": "2021-05-20T16:05:01.110Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j90&tid=UA-64299025-1&cid=1338865966.1621526701&jid=1066303401&gjid=1147645863&_gid=592410943.1621526701&_u=aCDAgEALQAAAAE~&z=358167517",
+      "query": {
+        "t": "dc",
+        "aip": 1,
+        "_r": 3,
+        "v": 1,
+        "_v": "j90",
+        "tid": "UA-64299025-1",
+        "cid": 1338865966.1621528,
+        "jid": 1066303401,
+        "gjid": 1147645863,
+        "_gid": 592410943.1621526,
+        "_u": "aCDAgEALQAAAAE~",
+        "z": 358167517
+      },
+      "filter": "||stats.g.doubleclick.net^",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.casadellibro.com/",
+            "source": "requested from https://www.casadellibro.com/ and matched with easyprivacy.txt filter ||stats.g.doubleclick.net^"
+          }
+        ],
+        "timestamp": "2021-05-20T16:05:01.106Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://www.google-analytics.com/gtm/js?id=GTM-NCFXTCS&t=gtm4&cid=1338865966.1621526701",
+      "query": {
+        "id": "GTM-NCFXTCS",
+        "t": "gtm4",
+        "cid": 1338865966.1621528
+      },
+      "filter": "||google-analytics.com/gtm/js?",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.casadellibro.com/",
+            "source": "requested from https://www.casadellibro.com/ and matched with easyprivacy.txt filter ||google-analytics.com/gtm/js?"
+          }
+        ],
+        "timestamp": "2021-05-20T16:05:00.995Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://www.google-analytics.com/plugins/ua/ec.js",
+      "query": null,
+      "filter": "||google-analytics.com/plugins/",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.casadellibro.com/",
+            "source": "requested from https://www.casadellibro.com/ and matched with easyprivacy.txt filter ||google-analytics.com/plugins/"
+          }
+        ],
+        "timestamp": "2021-05-20T16:05:00.993Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://stats.g.doubleclick.net/g/collect?v=2&tid=G-GXN6GNPWEN&cid=1338865966.1621526701&gtm=2oe5c1&aip=1",
+      "query": {
+        "v": 2,
+        "tid": "G-GXN6GNPWEN",
+        "cid": 1338865966.1621528,
+        "gtm": "2oe5c1",
+        "aip": 1
+      },
+      "filter": "||stats.g.doubleclick.net^",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.casadellibro.com/",
+            "source": "requested from https://www.casadellibro.com/ and matched with easyprivacy.txt filter ||stats.g.doubleclick.net^"
+          }
+        ],
+        "timestamp": "2021-05-20T16:05:00.891Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://www.googletagmanager.com/gtag/js?id=G-GXN6GNPWEN&l=dataLayer&cx=c",
+      "query": {
+        "id": "G-GXN6GNPWEN",
+        "l": "dataLayer",
+        "cx": "c"
+      },
+      "filter": "||googletagmanager.com/gtag/$third-party",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.casadellibro.com/",
+            "source": "requested from https://www.casadellibro.com/ and matched with easyprivacy.txt filter ||googletagmanager.com/gtag/$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T16:05:00.759Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://www.google-analytics.com/analytics.js",
+      "query": null,
+      "filter": "||google-analytics.com/analytics.js",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.casadellibro.com/",
+            "source": "requested from https://www.casadellibro.com/ and matched with easyprivacy.txt filter ||google-analytics.com/analytics.js"
+          }
+        ],
+        "timestamp": "2021-05-20T16:05:00.755Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://cookie-cdn.cookiepro.com/scripttemplates/6.7.0/assets/v2/otPcTab.json",
+      "query": null,
+      "filter": "||cookiepro.com^$third-party",
+      "listName": "fanboy-annoyance.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.casadellibro.com/",
+            "source": "requested from https://www.casadellibro.com/ and matched with fanboy-annoyance.txt filter ||cookiepro.com^$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T16:05:00.585Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://cookie-cdn.cookiepro.com/scripttemplates/6.7.0/assets/otCenterRounded.json",
+      "query": null,
+      "filter": "||cookiepro.com^$third-party",
+      "listName": "fanboy-annoyance.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.casadellibro.com/",
+            "source": "requested from https://www.casadellibro.com/ and matched with fanboy-annoyance.txt filter ||cookiepro.com^$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T16:05:00.584Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://cm.g.doubleclick.net/pixel?google_nid=rtb_house&google_cm=&google_sc=&google_ula=5153224&google_hm=QXU4S0tvYnRxbnJlYzlQMEV0eUI%3D&pi=adx&tdc=ams&chain=&google_tc=",
+      "query": {
+        "google_nid": "rtb_house",
+        "google_cm": "",
+        "google_sc": "",
+        "google_ula": 5153224,
+        "google_hm": "QXU4S0tvYnRxbnJlYzlQMEV0eUI=",
+        "pi": "adx",
+        "tdc": "ams",
+        "chain": "",
+        "google_tc": ""
+      },
+      "filter": "||doubleclick.net/pixel?$third-party",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://creativecdn.com/tags?type=iframe&id=pr_PL2fvRw4Rycye30FoQFz&id=pr_PL2fvRw4Rycye30FoQFz_lid_LgdPOQwMs4bYO5yXi9OJ&su=https%3A%2F%2Fwww.casadellibro.com%2F&sr=&ts=1621526700125&tc=1",
+            "source": "requested from https://creativecdn.com/tags?type=iframe&id=pr_PL2fvRw4Rycye30FoQFz&id=pr_PL2fvRw4Rycye30FoQFz_lid_LgdPOQwMs4bYO5yXi9OJ&su=https%3A%2F%2Fwww.casadellibro.com%2F&sr=&ts=1621526700125&tc=1 and matched with easyprivacy.txt filter ||doubleclick.net/pixel?$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T16:05:00.563Z"
+      },
+      "occurrances": 2
+    },
+    {
+      "url": "https://cookie-cdn.cookiepro.com/consent/c5661123-4781-4928-8ac5-d425ffc5b155/eb8e23b6-cb95-4713-bca4-4a96e5a7803a/es.json",
+      "query": null,
+      "filter": "||cookiepro.com^$third-party",
+      "listName": "fanboy-annoyance.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.casadellibro.com/",
+            "source": "requested from https://www.casadellibro.com/ and matched with fanboy-annoyance.txt filter ||cookiepro.com^$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T16:05:00.525Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://cookie-cdn.cookiepro.com/scripttemplates/6.7.0/otBannerSdk.js",
+      "query": null,
+      "filter": "||cookiepro.com^$third-party",
+      "listName": "fanboy-annoyance.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.casadellibro.com/",
+            "source": "requested from https://www.casadellibro.com/ and matched with fanboy-annoyance.txt filter ||cookiepro.com^$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T16:05:00.430Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://vc.hotjar.io/sessions/181860?s=0.25&r=0.1287546783051985",
+      "query": {
+        "s": 0.25,
+        "r": 0.1287546783051985
+      },
+      "filter": "||hotjar.io^$third-party",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.casadellibro.com/",
+            "source": "requested from https://www.casadellibro.com/ and matched with easyprivacy.txt filter ||hotjar.io^$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T16:05:00.414Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://creativecdn.com/tags?type=iframe&id=pr_PL2fvRw4Rycye30FoQFz&id=pr_PL2fvRw4Rycye30FoQFz_lid_LgdPOQwMs4bYO5yXi9OJ&su=https%3A%2F%2Fwww.casadellibro.com%2F&sr=&ts=1621526700125&tc=1",
+      "query": {
+        "type": "iframe",
+        "id": "pr_PL2fvRw4Rycye30FoQFz_lid_LgdPOQwMs4bYO5yXi9OJ",
+        "su": "https://www.casadellibro.com/",
+        "sr": "",
+        "ts": 1621526700125,
+        "tc": 1
+      },
+      "filter": "||creativecdn.com/tags?",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "",
+            "source": "requested from  and matched with easyprivacy.txt filter ||creativecdn.com/tags?"
+          }
+        ],
+        "timestamp": "2021-05-20T16:05:00.340Z"
+      },
+      "occurrances": 4
+    },
+    {
+      "url": "https://vars.hotjar.com/box-21ccaa45726c0f3c8c458f7a87eb2298.html",
+      "query": null,
+      "filter": "||hotjar.com^$third-party",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "",
+            "source": "requested from  and matched with easyprivacy.txt filter ||hotjar.com^$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T16:05:00.273Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://script.hotjar.com/modules.87b9cf5e358c50dcc8af.js",
+      "query": null,
+      "filter": "||hotjar.com^$third-party",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.casadellibro.com/",
+            "source": "requested from https://www.casadellibro.com/ and matched with easyprivacy.txt filter ||hotjar.com^$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T16:05:00.221Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://cdn.connectif.cloud/eu4/client-script/bc6a1bd9-8f7b-4a40-9fd4-e17108ce0b5a",
+      "query": null,
+      "filter": "||connectif.cloud^$third-party",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.casadellibro.com/",
+            "source": "requested from https://www.casadellibro.com/ and matched with easyprivacy.txt filter ||connectif.cloud^$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T16:05:00.133Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://api.ipify.org/?format=jsonp&callback=getIP",
+      "query": {
+        "format": "jsonp",
+        "callback": "getIP"
+      },
+      "filter": "||ipify.org^$third-party",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.casadellibro.com/",
+            "source": "requested from https://www.casadellibro.com/ and matched with easyprivacy.txt filter ||ipify.org^$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T16:05:00.132Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://static.hotjar.com/c/hotjar-181860.js?sv=6",
+      "query": {
+        "sv": 6
+      },
+      "filter": "||hotjar.com^$third-party",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.casadellibro.com/",
+            "source": "requested from https://www.casadellibro.com/ and matched with easyprivacy.txt filter ||hotjar.com^$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T16:05:00.131Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://www.dwin1.com/21491.js",
+      "query": null,
+      "filter": "||dwin1.com^$third-party",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.casadellibro.com/",
+            "source": "requested from https://www.casadellibro.com/ and matched with easyprivacy.txt filter ||dwin1.com^$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T16:05:00.129Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://geolocation.onetrust.com/cookieconsentpub/v1/geo/location",
+      "query": null,
+      "filter": "||onetrust.com^$third-party",
+      "listName": "fanboy-annoyance.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.casadellibro.com/",
+            "source": "requested from https://www.casadellibro.com/ and matched with fanboy-annoyance.txt filter ||onetrust.com^$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T16:04:59.961Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://www.googletagmanager.com/gtm.js?id=GTM-KWWQP77",
+      "query": {
+        "id": "GTM-KWWQP77"
+      },
+      "filter": "/gtm.js",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.casadellibro.com/",
+            "source": "requested from https://www.casadellibro.com/ and matched with easyprivacy.txt filter /gtm.js"
+          }
+        ],
+        "timestamp": "2021-05-20T16:04:59.849Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://500008751.collect.igodigital.com/collect.min.js",
+      "query": null,
+      "filter": "||collect.igodigital.com^",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.casadellibro.com/",
+            "source": "requested from https://www.casadellibro.com/ and matched with easyprivacy.txt filter ||collect.igodigital.com^"
+          }
+        ],
+        "timestamp": "2021-05-20T16:04:59.845Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://cookie-cdn.cookiepro.com/consent/c5661123-4781-4928-8ac5-d425ffc5b155/c5661123-4781-4928-8ac5-d425ffc5b155.json",
+      "query": null,
+      "filter": "||cookiepro.com^$third-party",
+      "listName": "fanboy-annoyance.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.casadellibro.com/",
+            "source": "requested from https://www.casadellibro.com/ and matched with fanboy-annoyance.txt filter ||cookiepro.com^$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T16:04:59.843Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://cookie-cdn.cookiepro.com/scripttemplates/otSDKStub.js",
+      "query": null,
+      "filter": "||cookiepro.com^$third-party",
+      "listName": "fanboy-annoyance.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.casadellibro.com/",
+            "source": "requested from https://www.casadellibro.com/ and matched with fanboy-annoyance.txt filter ||cookiepro.com^$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T16:04:59.737Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://cookie-cdn.cookiepro.com/consent/c5661123-4781-4928-8ac5-d425ffc5b155/OtAutoBlock.js",
+      "query": null,
+      "filter": "||cookiepro.com^$third-party",
+      "listName": "fanboy-annoyance.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.casadellibro.com/",
+            "source": "requested from https://www.casadellibro.com/ and matched with fanboy-annoyance.txt filter ||cookiepro.com^$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T16:04:59.735Z"
+      },
+      "occurrances": 1
+    }
+  ],
+  "hosts": {
+    "requests": {
+      "firstParty": [
+        "casadellibro.com"
+      ],
+      "thirdParty": [
+        "www.casadellibro.com",
+        "staticsni.casadellibro.com",
+        "imagessl.casadellibro.com",
+        "fonts.gstatic.com",
+        "cookie-cdn.cookiepro.com",
+        "500008751.collect.igodigital.com",
+        "www.googletagmanager.com",
+        "geolocation.onetrust.com",
+        "device-api.indigitall.com",
+        "www.dwin1.com",
+        "static.hotjar.com",
+        "api.ipify.org",
+        "cdn.connectif.cloud",
+        "creativecdn.com",
+        "script.hotjar.com",
+        "vars.hotjar.com",
+        "vc.hotjar.io",
+        "sync.teads.tv",
+        "cm.g.doubleclick.net",
+        "cm.creativecdn.com",
+        "www.google-analytics.com",
+        "analytics.google.com",
+        "stats.g.doubleclick.net",
+        "www.google.es",
+        "www.google.com",
+        "eu4-api.connectif.cloud",
+        "imagessl0.casadellibro.com",
+        "imagessl1.casadellibro.com",
+        "imagessl7.casadellibro.com",
+        "imagessl2.casadellibro.com",
+        "imagessl8.casadellibro.com",
+        "imagessl5.casadellibro.com",
+        "imagessl3.casadellibro.com",
+        "imagessl4.casadellibro.com",
+        "imagessl6.casadellibro.com",
+        "imagessl9.casadellibro.com"
+      ]
+    },
+    "beacons": {
+      "firstParty": [],
+      "thirdParty": [
+        "analytics.google.com",
+        "eu4-api.connectif.cloud",
+        "www.google-analytics.com",
+        "stats.g.doubleclick.net",
+        "www.googletagmanager.com",
+        "cm.g.doubleclick.net",
+        "vc.hotjar.io",
+        "creativecdn.com",
+        "vars.hotjar.com",
+        "script.hotjar.com",
+        "cdn.connectif.cloud",
+        "api.ipify.org",
+        "static.hotjar.com",
+        "www.dwin1.com",
+        "500008751.collect.igodigital.com"
+      ]
+    },
+    "cookies": {
+      "firstParty": [
+        "casadellibro.com"
+      ],
+      "thirdParty": [
+        "www.casadellibro.com",
+        "creativecdn.com",
+        "doubleclick.net"
+      ]
+    },
+    "localStorage": {
+      "firstParty": [],
+      "thirdParty": [
+        "www.casadellibro.com"
+      ]
+    },
+    "links": {
+      "firstParty": [],
+      "thirdParty": [
+        "www.casadellibro.com",
+        "blog.casadellibro.com",
+        "latam.casadellibro.com",
+        "www.facebook.com",
+        "twitter.com",
+        "www.instagram.com",
+        "www.youtube.com",
+        "www.pinterest.es",
+        "open.spotify.com",
+        "www.tiktok.com",
+        "www.cookiepro.com"
+      ]
+    }
+  }
+}

@@ -1,0 +1,2198 @@
+{
+  "title": "Website Evidence Collection",
+  "task_description": null,
+  "uri_ins": "https://bbc.com",
+  "uri_refs": [
+    "https://bbc.com"
+  ],
+  "uri_dest": "https://www.bbc.com/",
+  "uri_redirects": [
+    "https://bbc.com/"
+  ],
+  "secure_connection": {
+    "https_support": true,
+    "redirects": [
+      "https://bbc.com/",
+      "https://www.bbc.com/"
+    ],
+    "https_redirect": true
+  },
+  "host": "bbc.com",
+  "script": {
+    "host": "sfod",
+    "version": {
+      "npm": "1.0.0",
+      "commit": null
+    },
+    "cmd_args": "-q --overwrite https://bbc.com -- --ignore-certificate-errors",
+    "environment": {
+      "CHROME_DESKTOP": "code-url-handler.desktop"
+    },
+    "node_version": "v14.17.0"
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "HeadlessChrome/80.0.3987.0",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3617.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "5.8.0-53-generic"
+    },
+    "extra_headers": {},
+    "preset_cookies": {}
+  },
+  "start_time": "2021-05-20T16:04:25.951Z",
+  "end_time": "2021-05-20T16:04:36.318Z",
+  "links": {
+    "firstParty": [
+      {
+        "href": "https://bbc.com/usingthebbc/your-data-matters",
+        "inner_text": "Find out what's changed",
+        "inner_html": "Find out what's changed"
+      },
+      {
+        "href": "https://bbc.com/usingthebbc/cookies/what-do-i-need-to-know-about-cookies/",
+        "inner_text": "cookies",
+        "inner_html": "cookies"
+      },
+      {
+        "href": "https://bbc.com/usingthebbc/cookies/how-can-i-change-my-bbc-cookie-settings/",
+        "inner_text": "No, take me to settings",
+        "inner_html": "<span data-region-filter=\"gb\" style=\"display: none;\">No, take me to settings</span>\n                            <span data-region-filter=\"eu\">No, take me to settings</span>"
+      }
+    ],
+    "thirdParty": [
+      {
+        "href": "https://www.bbc.com/",
+        "inner_text": "Homepage",
+        "inner_html": "Homepage"
+      },
+      {
+        "href": "https://www.bbc.co.uk/accessibility/",
+        "inner_text": "Accessibility Help",
+        "inner_html": "Accessibility Help"
+      },
+      {
+        "href": "https://session.bbc.com/session?ptrt=https%3A%2F%2Fwww.bbc.com%2F&context=homepage&userOrigin=HOMEPAGE_GNL",
+        "inner_text": "Sign in",
+        "inner_html": "<span id=\"idcta-username\">Sign in</span>"
+      },
+      {
+        "href": "https://www.bbc.com/news",
+        "inner_text": "News",
+        "inner_html": "News"
+      },
+      {
+        "href": "https://www.bbc.com/sport",
+        "inner_text": "Sport",
+        "inner_html": "Sport"
+      },
+      {
+        "href": "https://www.bbc.com/reel",
+        "inner_text": "Reel",
+        "inner_html": "Reel"
+      },
+      {
+        "href": "https://www.bbc.com/worklife",
+        "inner_text": "Worklife",
+        "inner_html": "Worklife"
+      },
+      {
+        "href": "https://www.bbc.com/travel",
+        "inner_text": "Travel",
+        "inner_html": "Travel"
+      },
+      {
+        "href": "https://www.bbc.com/future",
+        "inner_text": "Future",
+        "inner_html": "Future"
+      },
+      {
+        "href": "https://www.bbc.com/culture",
+        "inner_text": "Culture",
+        "inner_html": "Culture"
+      },
+      {
+        "href": "https://www.bbc.com/culture/music",
+        "inner_text": "Music",
+        "inner_html": "Music"
+      },
+      {
+        "href": "https://www.bbc.co.uk/schedules/p00fzl9m",
+        "inner_text": "TV",
+        "inner_html": "TV"
+      },
+      {
+        "href": "https://www.bbc.com/weather",
+        "inner_text": "Weather",
+        "inner_html": "Weather"
+      },
+      {
+        "href": "https://www.bbc.co.uk/sounds",
+        "inner_text": "Sounds",
+        "inner_html": "Sounds"
+      },
+      {
+        "href": "https://search.bbc.co.uk/search",
+        "inner_text": "Search",
+        "inner_html": "Search"
+      },
+      {
+        "href": "https://www.bbc.com/news/live/world-middle-east-57183127",
+        "inner_text": "Israel cabinet to meet to assess Gaza truce terms",
+        "inner_html": "Israel cabinet to meet to assess Gaza truce terms"
+      },
+      {
+        "href": "https://www.bbc.com/news/world/middle_east",
+        "inner_text": "MIDDLE EAST",
+        "inner_html": "Middle East"
+      },
+      {
+        "href": "https://www.bbc.com/sport/live/golf/57134376",
+        "inner_text": "US PGA Championship round one - McIlroy & DeChambeau on course",
+        "inner_html": "US PGA Championship round one - McIlroy &amp; DeChambeau on course"
+      },
+      {
+        "href": "https://www.bbc.com/sport/golf",
+        "inner_text": "GOLF",
+        "inner_html": "Golf"
+      },
+      {
+        "href": "https://www.bbc.com/news/world-middle-east-57180718",
+        "inner_text": "Israel and Hamas 'close to Gaza ceasefire deal'",
+        "inner_html": "Israel and Hamas 'close to Gaza ceasefire deal'"
+      },
+      {
+        "href": "https://www.bbc.com/future/article/20210519-the-hidden-reason-processed-pet-foods-are-so-addictive",
+        "inner_text": "Why is pet food so addictive?",
+        "inner_html": "Why is pet food so addictive?"
+      },
+      {
+        "href": "http://www.bbc.com/future",
+        "inner_text": "FUTURE",
+        "inner_html": "Future"
+      },
+      {
+        "href": "https://www.bbc.com/travel/story/20210519-a-finnish-drink-with-a-heroic-past",
+        "inner_text": "A Nordic drink more desired than beer",
+        "inner_html": "A Nordic drink more desired than beer"
+      },
+      {
+        "href": "http://www.bbc.com/travel",
+        "inner_text": "TRAVEL",
+        "inner_html": "Travel"
+      },
+      {
+        "href": "https://www.bbc.com/news/world-us-canada-57180675",
+        "inner_text": "Biden chides graduates to clap: 'You're really dull'",
+        "inner_html": "Biden chides graduates to clap: 'You're really dull'"
+      },
+      {
+        "href": "https://www.bbc.com/news/world/us_and_canada",
+        "inner_text": "US & CANADA",
+        "inner_html": "US &amp; Canada"
+      },
+      {
+        "href": "https://www.bbc.com/news/uk-57189371",
+        "inner_text": "BBC criticised over 'deceitful' Diana interview",
+        "inner_html": "BBC criticised over 'deceitful' Diana interview"
+      },
+      {
+        "href": "https://www.bbc.com/news/uk",
+        "inner_text": "UK",
+        "inner_html": "UK"
+      },
+      {
+        "href": "https://www.bbc.com/news/world-europe-57184527",
+        "inner_text": "German soldier on trial for posing as refugee",
+        "inner_html": "German soldier on trial for posing as refugee"
+      },
+      {
+        "href": "https://www.bbc.com/news/world/europe",
+        "inner_text": "EUROPE",
+        "inner_html": "Europe"
+      },
+      {
+        "href": "https://www.bbc.com/sport/football/57183550",
+        "inner_text": "Dias named FWA men's footballer of year",
+        "inner_html": "Dias named FWA men's footballer of year"
+      },
+      {
+        "href": "https://www.bbc.com/sport/football",
+        "inner_text": "FOOTBALL",
+        "inner_html": "Football"
+      },
+      {
+        "href": "https://www.bbc.com/sport/football/57188042",
+        "inner_text": "Kane wants 'honest' talk about future",
+        "inner_html": "Kane wants 'honest' talk about future"
+      },
+      {
+        "href": "https://www.bbc.com/sport/basketball/57182387",
+        "inner_text": "James secures LA Lakers' play-offs spot",
+        "inner_html": "James secures LA Lakers' play-offs spot"
+      },
+      {
+        "href": "https://www.bbc.com/sport/basketball",
+        "inner_text": "BASKETBALL",
+        "inner_html": "Basketball"
+      },
+      {
+        "href": "https://www.bbc.com/weather/2643743?day=0",
+        "inner_text": "THU\n\n14°C\n\n11°C",
+        "inner_html": "<img class=\"forecast--image\" src=\"https://static.bbci.co.uk/weather/0.5.284/images/icons/individual_56_icons/en_on_light_bg/7.gif\" alt=\"Light Cloud\"> <h3 class=\"forecast--day\">Thu</h3>  <p class=\"forecast--high\">14°C</p>  <p class=\"forecast--low\">11°C</p>"
+      },
+      {
+        "href": "https://www.bbc.com/weather/2643743?day=1",
+        "inner_text": "FRI\n\n13°C\n\n9°C",
+        "inner_html": "<img class=\"forecast--image\" src=\"https://static.bbci.co.uk/weather/0.5.284/images/icons/individual_56_icons/en_on_light_bg/10.gif\" alt=\"Light Rain Showers\"> <h3 class=\"forecast--day\">Fri</h3>  <p class=\"forecast--high\">13°C</p>  <p class=\"forecast--low\">9°C</p>"
+      },
+      {
+        "href": "https://www.bbc.com/weather/2643743?day=2",
+        "inner_text": "SAT\n\n14°C\n\n7°C",
+        "inner_html": "<img class=\"forecast--image\" src=\"https://static.bbci.co.uk/weather/0.5.284/images/icons/individual_56_icons/en_on_light_bg/10.gif\" alt=\"Light Rain Showers\"> <h3 class=\"forecast--day\">Sat</h3>  <p class=\"forecast--high\">14°C</p>  <p class=\"forecast--low\">7°C</p>"
+      },
+      {
+        "href": "https://www.bbc.com/weather/2643743?day=3",
+        "inner_text": "SUN\n\n11°C\n\n7°C",
+        "inner_html": "<img class=\"forecast--image\" src=\"https://static.bbci.co.uk/weather/0.5.284/images/icons/individual_56_icons/en_on_light_bg/12.gif\" alt=\"Light Rain\"> <h3 class=\"forecast--day\">Sun</h3>  <p class=\"forecast--high\">11°C</p>  <p class=\"forecast--low\">7°C</p>"
+      },
+      {
+        "href": "https://www.bbc.com/reel/video/p08d53s8/why-we-all-fall-foul-of-the-dunning-kruger-effect",
+        "inner_text": "Why humility is the key to intelligence",
+        "inner_html": "<div class=\"media__image\"> <div class=\"responsive-image\"> <img src=\"data:image/gif;base64,R0lGODlhEAAJAIAAAP///wAAACH5BAEAAAAALAAAAAAQAAkAAAIKhI+py+0Po5yUFQA7\" class=\"image-replace\" alt=\"Why humility is the key to intelligence\" data-src=\"https://ychef.files.bbci.co.uk/{width}/p08dks21.jpg\"> </div> </div> <div class=\"media__content\"> <h3>Why humility is the key to intelligence</h3> </div>"
+      },
+      {
+        "href": "https://www.bbc.com/reel/video/p09hlqr1/geothermal-energy-our-oldest-and-most-reliable-resource",
+        "inner_text": "The ancient underground energy source harnessed by the Romans",
+        "inner_html": "<div class=\"media__image\"> <div class=\"responsive-image\"> <img src=\"data:image/gif;base64,R0lGODlhEAAJAIAAAP///wAAACH5BAEAAAAALAAAAAAQAAkAAAIKhI+py+0Po5yUFQA7\" class=\"image-replace\" alt=\"The ancient underground energy source harnessed by the Romans\" data-src=\"https://ychef.files.bbci.co.uk/{width}/p09j01yb.jpg\"> </div> </div> <div class=\"media__content\"> <h3>The ancient underground energy source harnessed by the Romans</h3> </div>"
+      },
+      {
+        "href": "https://www.bbc.com/reel/video/p09h8zff/ep2-a-family-s-destiny-in-one-of-russia-s-largest-gulags",
+        "inner_text": "'We used to find human bones while playing'",
+        "inner_html": "<div class=\"media__image\"> <div class=\"responsive-image\"> <img src=\"data:image/gif;base64,R0lGODlhEAAJAIAAAP///wAAACH5BAEAAAAALAAAAAAQAAkAAAIKhI+py+0Po5yUFQA7\" class=\"image-replace\" alt=\"'We used to find human bones while playing'\" data-src=\"https://ychef.files.bbci.co.uk/{width}/p09j0q4m.jpg\"> </div> </div> <div class=\"media__content\"> <h3>'We used to find human bones while playing'</h3> </div>"
+      },
+      {
+        "href": "https://www.bbc.com/culture/article/20210519-10-ways-to-make-a-better-world",
+        "inner_text": "10 visionary ideas for the future",
+        "inner_html": "10 visionary ideas for the future"
+      },
+      {
+        "href": "https://www.bbc.com/culture/designed",
+        "inner_text": "DESIGNED",
+        "inner_html": "Designed"
+      },
+      {
+        "href": "https://www.bbc.com/worklife/article/20210513-the-anxiety-that-limits-your-creative-genius",
+        "inner_text": "Should you constantly be creating?",
+        "inner_html": "Should you constantly be creating?"
+      },
+      {
+        "href": "http://www.bbc.com/worklife",
+        "inner_text": "WORKLIFE",
+        "inner_html": "Worklife"
+      },
+      {
+        "href": "https://www.bbc.com/travel/story/20210518-east-timor-a-young-nation-reviving-ancient-laws",
+        "inner_text": "Southeast Asia's least-visited country",
+        "inner_html": "Southeast Asia's least-visited country"
+      },
+      {
+        "href": "https://www.bbc.com/future/article/20210519-mucormycosis-the-black-fungus-hitting-indias-covid-patients",
+        "inner_text": "Why mucormycosis hits Covid patients",
+        "inner_html": "Why mucormycosis hits Covid patients"
+      },
+      {
+        "href": "https://www.bbc.com/culture/article/20210518-hockney-and-van-gogh-how-images-of-nature-bring-us-joy",
+        "inner_text": "How images of nature bring us joy",
+        "inner_html": "How images of nature bring us joy"
+      },
+      {
+        "href": "http://www.bbc.com/culture",
+        "inner_text": "CULTURE",
+        "inner_html": "Culture"
+      },
+      {
+        "href": "https://www.bbc.com/news/explainers-57163815",
+        "inner_text": "What is the Diana interview row all about?",
+        "inner_html": "What is the Diana interview row all about?"
+      },
+      {
+        "href": "https://www.bbc.com/news/world-us-canada-57182743",
+        "inner_text": "7 things the Friends trailer reveals about the reunion",
+        "inner_html": "7 things the Friends trailer reveals about the reunion"
+      },
+      {
+        "href": "https://www.bbc.com/news/technology-57185806",
+        "inner_text": "1\nElon Musk UK visit drives Tesla factory rumours",
+        "inner_html": "<span class=\"top-list-item__bullet\">1</span> <h3 class=\"top-list-item__headline\">Elon Musk UK visit drives Tesla factory rumours</h3>"
+      },
+      {
+        "href": "https://www.bbc.com/news/uk-politics-57183329",
+        "inner_text": "2\nMinisters discuss concerns over Australia trade deal",
+        "inner_html": "<span class=\"top-list-item__bullet\">2</span> <h3 class=\"top-list-item__headline\">Ministers discuss concerns over Australia trade deal</h3>"
+      },
+      {
+        "href": "https://www.bbc.com/news/business-57159264",
+        "inner_text": "3\nOatly float values Oprah-backed firm at $10bn",
+        "inner_html": "<span class=\"top-list-item__bullet\">3</span> <h3 class=\"top-list-item__headline\">Oatly float values Oprah-backed firm at $10bn</h3>"
+      },
+      {
+        "href": "https://www.bbc.com/news/business-57176431",
+        "inner_text": "4\nAmber list travel is legal, says EasyJet boss",
+        "inner_html": "<span class=\"top-list-item__bullet\">4</span> <h3 class=\"top-list-item__headline\">Amber list travel is legal, says EasyJet boss</h3>"
+      },
+      {
+        "href": "https://www.bbc.com/news/business-57181225",
+        "inner_text": "5\nByteDance co-founder Zhang to step down as CEO",
+        "inner_html": "<span class=\"top-list-item__bullet\">5</span> <h3 class=\"top-list-item__headline\">ByteDance co-founder Zhang to step down as CEO</h3>"
+      },
+      {
+        "href": "https://www.bbc.com/future/future-planet",
+        "inner_text": "Future Planet",
+        "inner_html": "<div> <div class=\"reel--logos-container\"> <span class=\"planet--title\">Future Planet</span> </div> <div class=\"reel--button-container planet--button-container\"> <div class=\"reel--button planet--button\"> <div class=\"reel--button-title planet--button-title\"></div> <div class=\"reel--button-icon planet--button-icon\"> <svg width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"#BBB\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"> <line x1=\"4\" y1=\"12\" x2=\"20\" y2=\"12\"></line> <polyline points=\"14 6 20 12 14 18\"></polyline> </svg> </div> </div> </div> </div>"
+      },
+      {
+        "href": "https://www.bbc.com/future/article/20210510-perus-urgent-search-for-slow-water",
+        "inner_text": "The pre-Incan invention revived by Peru",
+        "inner_html": "<div class=\"media__image\"> <div class=\"responsive-image\"> <img src=\"data:image/gif;base64,R0lGODlhEAAJAIAAAP///wAAACH5BAEAAAAALAAAAAAQAAkAAAIKhI+py+0Po5yUFQA7\" class=\"image-replace\" alt=\"The pre-Incan invention revived by Peru\" data-src=\"https://ychef.files.bbci.co.uk/{width}/p09hxkg0.jpg\"> </div> </div> <div class=\"media__content\"> <h3>The pre-Incan invention revived by Peru</h3> </div>"
+      },
+      {
+        "href": "https://www.bbc.com/future/article/20210510-how-to-recycle-any-plastic",
+        "inner_text": "The world's first 'infinite' plastic",
+        "inner_html": "<div class=\"media__image\"> <div class=\"responsive-image\"> <img src=\"data:image/gif;base64,R0lGODlhEAAJAIAAAP///wAAACH5BAEAAAAALAAAAAAQAAkAAAIKhI+py+0Po5yUFQA7\" class=\"image-replace\" alt=\"The world's first 'infinite' plastic\" data-src=\"https://ychef.files.bbci.co.uk/{width}/p09h83n2.jpg\"> </div> </div> <div class=\"media__content\"> <h3>The world's first 'infinite' plastic</h3> </div>"
+      },
+      {
+        "href": "https://www.bbc.com/future/article/20210430-the-woman-who-rescues-caribbean-coral",
+        "inner_text": "The long shot that saved Belize's coral",
+        "inner_html": "<div class=\"media__image\"> <div class=\"responsive-image\"> <img src=\"data:image/gif;base64,R0lGODlhEAAJAIAAAP///wAAACH5BAEAAAAALAAAAAAQAAkAAAIKhI+py+0Po5yUFQA7\" class=\"image-replace\" alt=\"The long shot that saved Belize's coral\" data-src=\"https://ychef.files.bbci.co.uk/{width}/p09g9cpq.jpg\"> </div> </div> <div class=\"media__content\"> <h3>The long shot that saved Belize's coral</h3> </div>"
+      },
+      {
+        "href": "https://www.bbc.com/news/business-45489065",
+        "inner_text": "NEW ECONOMY",
+        "inner_html": "New Economy"
+      },
+      {
+        "href": "https://www.bbc.com/news/business",
+        "inner_text": "BUSINESS",
+        "inner_html": "Business"
+      },
+      {
+        "href": "https://www.bbc.com/news/business-57156535",
+        "inner_text": "Why video calls might be behind a rise in male cosmetic surgery",
+        "inner_html": "Why video calls might be behind a rise in male cosmetic surgery"
+      },
+      {
+        "href": "https://www.bbc.com/news/business-11428889",
+        "inner_text": "TECHNOLOGY OF BUSINESS",
+        "inner_html": "Technology of Business"
+      },
+      {
+        "href": "https://www.bbc.com/news/business-57050689",
+        "inner_text": "Should encryption be curbed to combat child abuse?",
+        "inner_html": "Should encryption be curbed to combat child abuse?"
+      },
+      {
+        "href": "https://www.bbc.com/news/health-57182489",
+        "inner_text": "Campaigners react to PIP implant compensation win",
+        "inner_html": "Campaigners react to PIP implant compensation win"
+      },
+      {
+        "href": "https://www.bbc.com/news/health",
+        "inner_text": "HEALTH",
+        "inner_html": "Health"
+      },
+      {
+        "href": "https://www.bbc.com/news/world-middle-east-57029724",
+        "inner_text": "Dead fish mystery in Lebanese lake",
+        "inner_html": "Dead fish mystery in Lebanese lake"
+      },
+      {
+        "href": "https://www.bbc.com/news/world-asia-57027349",
+        "inner_text": "'I fled the Taliban and now my aim is the...",
+        "inner_html": "'I fled the Taliban and now my aim is the..."
+      },
+      {
+        "href": "https://www.bbc.com/news/world/asia",
+        "inner_text": "ASIA",
+        "inner_html": "Asia"
+      },
+      {
+        "href": "https://www.bbc.com/news/uk-57166303",
+        "inner_text": "'I still can't believe my sister's gone'",
+        "inner_html": "'I still can't believe my sister's gone'"
+      },
+      {
+        "href": "https://www.bbc.com/news/world-latin-america-57178193",
+        "inner_text": "The Venezuelans escaping violence at home",
+        "inner_html": "The Venezuelans escaping violence at home"
+      },
+      {
+        "href": "https://www.bbc.com/news/world/latin_america",
+        "inner_text": "LATIN AMERICA & CARIBBEAN",
+        "inner_html": "Latin America &amp; Caribbean"
+      },
+      {
+        "href": "http://www.bbc.co.uk/worldserviceradio/",
+        "inner_text": "BBC WORLD SERVICE",
+        "inner_html": "BBC World Service"
+      },
+      {
+        "href": "http://www.bbc.co.uk/programmes/p01k2bx3",
+        "inner_text": "ON AIR: BBC OS",
+        "inner_html": "<span class=\"wsradio__programme__onair\">On Air:</span> <span class=\"wsradio__programme__title\">BBC OS</span>"
+      },
+      {
+        "href": "https://www.bbc.com/news/uk-england-57170608",
+        "inner_text": "Detectorist finds stolen treasures on first hunt",
+        "inner_html": "Detectorist finds stolen treasures on first hunt"
+      },
+      {
+        "href": "http://www.bbc.com/news/uk",
+        "inner_text": "UK",
+        "inner_html": "UK"
+      },
+      {
+        "href": "https://www.bbc.com/news/business-57181224",
+        "inner_text": "Qantas accelerates cost cuts as $1.5bn loss looms",
+        "inner_html": "Qantas accelerates cost cuts as $1.5bn loss looms"
+      },
+      {
+        "href": "https://www.bbc.com/news/entertainment-arts-57164487",
+        "inner_text": "Are NFTs the the future of the music industry?",
+        "inner_html": "Are NFTs the the future of the music industry?"
+      },
+      {
+        "href": "https://www.bbc.com/news/entertainment_and_arts",
+        "inner_text": "ENTERTAINMENT & ARTS",
+        "inner_html": "Entertainment &amp; Arts"
+      },
+      {
+        "href": "https://www.bbc.com/news/technology-57186266",
+        "inner_text": "Farewell (again) to Microsoft's Internet Explorer",
+        "inner_html": "Farewell (again) to Microsoft's Internet Explorer"
+      },
+      {
+        "href": "https://www.bbc.com/news/technology",
+        "inner_text": "TECHNOLOGY",
+        "inner_html": "Technology"
+      },
+      {
+        "href": "https://www.bbc.com/news/science-environment-57191359",
+        "inner_text": "Europe plans sat-nav and telecoms network for Moon",
+        "inner_html": "Europe plans sat-nav and telecoms network for Moon"
+      },
+      {
+        "href": "https://www.bbc.com/news/science_and_environment",
+        "inner_text": "SCIENCE & ENVIRONMENT",
+        "inner_html": "Science &amp; Environment"
+      },
+      {
+        "href": "https://www.bbc.com/news/world-asia-india-57167322",
+        "inner_text": "Concern over 'black fungus' drug shortage in India",
+        "inner_html": "Concern over 'black fungus' drug shortage in India"
+      },
+      {
+        "href": "https://www.bbc.com/news/world/asia/india",
+        "inner_text": "INDIA",
+        "inner_html": "India"
+      },
+      {
+        "href": "https://www.bbc.com/news/health-57179180",
+        "inner_text": "Elation as PIP implant victims win compensation",
+        "inner_html": "Elation as PIP implant victims win compensation"
+      },
+      {
+        "href": "https://www.bbc.com/news/science-environment-57149059",
+        "inner_text": "Global ban on new gas boilers from 2025 proposed\nBy Matt McGrath",
+        "inner_html": "<div class=\"top-list-item__bullet\"> <div class=\"responsive-image\"><img src=\"data:image/gif;base64,R0lGODlhEAAJAIAAAP///wAAACH5BAEAAAAALAAAAAAQAAkAAAIKhI+py+0Po5yUFQA7\" class=\"image-replace\" alt=\"\" data-src=\"https://ichef.bbc.co.uk/wwhp/{width}/ibroadcast/images/live/p0/3r/tz/p03rtz5h.jpg\"></div> </div>  <h3 class=\"top-list-item__headline\"> Global ban on new gas boilers from 2025 proposed  <span class=\"top-list-item__byline\">By Matt McGrath</span>  </h3>"
+      },
+      {
+        "href": "https://www.bbc.com/news/technology-57157566",
+        "inner_text": "Google AI tool can help diagnose skin conditions\nBy Zoe Kleinman",
+        "inner_html": "<div class=\"top-list-item__bullet\"> <div class=\"responsive-image\"><img src=\"data:image/gif;base64,R0lGODlhEAAJAIAAAP///wAAACH5BAEAAAAALAAAAAAQAAkAAAIKhI+py+0Po5yUFQA7\" class=\"image-replace\" alt=\"\" data-src=\"https://ichef.bbc.co.uk/wwhp/{width}/ibroadcast/images/live/p0/7z/nr/p07znrkz.jpg\"></div> </div>  <h3 class=\"top-list-item__headline\"> Google AI tool can help diagnose skin conditions  <span class=\"top-list-item__byline\">By Zoe Kleinman</span>  </h3>"
+      },
+      {
+        "href": "https://www.bbc.com/news/health-57119579",
+        "inner_text": "How much faster does the Indian variant spread?\nBy James Gallagher",
+        "inner_html": "<div class=\"top-list-item__bullet\"> <div class=\"responsive-image\"><img src=\"data:image/gif;base64,R0lGODlhEAAJAIAAAP///wAAACH5BAEAAAAALAAAAAAQAAkAAAIKhI+py+0Po5yUFQA7\" class=\"image-replace\" alt=\"\" data-src=\"https://ichef.bbc.co.uk/wwhp/{width}/ibroadcast/images/live/p0/97/cg/p097cg94.jpg\"></div> </div>  <h3 class=\"top-list-item__headline\"> How much faster does the Indian variant spread?  <span class=\"top-list-item__byline\">By James Gallagher</span>  </h3>"
+      },
+      {
+        "href": "https://www.bbc.com/news/science-environment-57092135",
+        "inner_text": "Wastewater is 'polluting rivers with microplastic'\nBy Victoria Gill",
+        "inner_html": "<div class=\"top-list-item__bullet\"> <div class=\"responsive-image\"><img src=\"data:image/gif;base64,R0lGODlhEAAJAIAAAP///wAAACH5BAEAAAAALAAAAAAQAAkAAAIKhI+py+0Po5yUFQA7\" class=\"image-replace\" alt=\"\" data-src=\"https://ichef.bbc.co.uk/wwhp/{width}/ibroadcast/images/live/p0/6h/27/p06h27z1.jpg\"></div> </div>  <h3 class=\"top-list-item__headline\"> Wastewater is 'polluting rivers with microplastic'  <span class=\"top-list-item__byline\">By Victoria Gill</span>  </h3>"
+      },
+      {
+        "href": "https://www.bbc.com/news/science-environment-57102372",
+        "inner_text": "Calls for post-Covid 'revolution' in ventilation\nBy David Shukman",
+        "inner_html": "<div class=\"top-list-item__bullet\"> <div class=\"responsive-image\"><img src=\"data:image/gif;base64,R0lGODlhEAAJAIAAAP///wAAACH5BAEAAAAALAAAAAAQAAkAAAIKhI+py+0Po5yUFQA7\" class=\"image-replace\" alt=\"\" data-src=\"https://ichef.bbc.co.uk/wwhp/{width}/ibroadcast/images/live/p0/63/sw/p063swd3.jpg\"></div> </div>  <h3 class=\"top-list-item__headline\"> Calls for post-Covid 'revolution' in ventilation  <span class=\"top-list-item__byline\">By David Shukman</span>  </h3>"
+      },
+      {
+        "href": "https://www.bbc.com/news/world-middle-east-57092245",
+        "inner_text": "The strength and limitations of Hamas's arsenal\nBy Jonathan Marcus",
+        "inner_html": "<div class=\"top-list-item__bullet\"> <div class=\"responsive-image\"><img src=\"data:image/gif;base64,R0lGODlhEAAJAIAAAP///wAAACH5BAEAAAAALAAAAAAQAAkAAAIKhI+py+0Po5yUFQA7\" class=\"image-replace\" alt=\"\" data-src=\"https://ichef.bbc.co.uk/wwhp/{width}/ibroadcast/images/live/p0/3z/3j/p03z3jp4.jpg\"></div> </div>  <h3 class=\"top-list-item__headline\"> The strength and limitations of Hamas's arsenal  <span class=\"top-list-item__byline\">By Jonathan Marcus</span>  </h3>"
+      },
+      {
+        "href": "https://www.bbc.com/news/technology-57088382",
+        "inner_text": "Facebook moderator: 'Every day was a nightmare'\nBy Cristina Criddle",
+        "inner_html": "<div class=\"top-list-item__bullet\"> <div class=\"responsive-image\"><img src=\"data:image/gif;base64,R0lGODlhEAAJAIAAAP///wAAACH5BAEAAAAALAAAAAAQAAkAAAIKhI+py+0Po5yUFQA7\" class=\"image-replace\" alt=\"\" data-src=\"https://ichef.bbc.co.uk/wwhp/{width}/ibroadcast/images/live/p0/96/p0/p096p04s.jpg\"></div> </div>  <h3 class=\"top-list-item__headline\"> Facebook moderator: 'Every day was a nightmare'  <span class=\"top-list-item__byline\">By Cristina Criddle</span>  </h3>"
+      },
+      {
+        "href": "https://www.bbc.com/news/science-environment-57065612",
+        "inner_text": "France-sized forests regrown since 2000 - study\nBy Helen Briggs",
+        "inner_html": "<div class=\"top-list-item__bullet\"> <div class=\"responsive-image\"><img src=\"data:image/gif;base64,R0lGODlhEAAJAIAAAP///wAAACH5BAEAAAAALAAAAAAQAAkAAAIKhI+py+0Po5yUFQA7\" class=\"image-replace\" alt=\"\" data-src=\"https://ichef.bbc.co.uk/wwhp/{width}/ibroadcast/images/live/p0/6j/0s/p06j0skd.jpg\"></div> </div>  <h3 class=\"top-list-item__headline\"> France-sized forests regrown since 2000 - study  <span class=\"top-list-item__byline\">By Helen Briggs</span>  </h3>"
+      },
+      {
+        "href": "https://www.bbc.com/news/business-15521824",
+        "inner_text": "NEW TECH ECONOMY",
+        "inner_html": "New Tech Economy"
+      },
+      {
+        "href": "https://www.bbc.com/news/business-57085557",
+        "inner_text": "The app that lets you pay to control another person's life",
+        "inner_html": "The app that lets you pay to control another person's life"
+      },
+      {
+        "href": "https://www.bbc.com/culture/article/20210512-what-your-colour-choice-says-about-you",
+        "inner_text": "Why 1970s 'avocado green' is back",
+        "inner_html": "Why 1970s 'avocado green' is back"
+      },
+      {
+        "href": "https://www.bbc.com/news/in_pictures",
+        "inner_text": "World in pictures",
+        "inner_html": "World in pictures"
+      },
+      {
+        "href": "https://www.bbc.com/news/in-pictures-57062159",
+        "inner_text": "Powerful portraits on the cusp of adolescence",
+        "inner_html": "Powerful portraits on the cusp of adolescence"
+      },
+      {
+        "href": "https://www.bbc.com/news/world-middle-east-57154557",
+        "inner_text": "Fear and mourning as Israel-Gaza violence rages on",
+        "inner_html": "Fear and mourning as Israel-Gaza violence rages on"
+      },
+      {
+        "href": "https://www.bbc.com/news/in-pictures-57141035",
+        "inner_text": "In pictures: Lockdown eases in parts of the UK",
+        "inner_html": "In pictures: Lockdown eases in parts of the UK"
+      },
+      {
+        "href": "https://www.bbc.com/news/world-africa-57113907",
+        "inner_text": "How Senegal marks Eid in style",
+        "inner_html": "How Senegal marks Eid in style"
+      },
+      {
+        "href": "https://www.bbc.com/news/world/africa",
+        "inner_text": "AFRICA",
+        "inner_html": "Africa"
+      },
+      {
+        "href": "https://www.bbc.com/news/in-pictures-57086901",
+        "inner_text": "In pictures: Eid around the world",
+        "inner_html": "In pictures: Eid around the world"
+      },
+      {
+        "href": "https://www.bbc.com/worldserviceradio",
+        "inner_text": "BBC IN OTHER LANGUAGES",
+        "inner_html": "BBC in other languages"
+      },
+      {
+        "href": "https://www.bbc.com/russian/",
+        "inner_text": "Russian",
+        "inner_html": "Russian"
+      },
+      {
+        "href": "https://www.bbc.com/russian/news-57190828",
+        "inner_text": "Независимое расследование: Би-би-си скрыла \"обманную тактику\" интервью с принцессой Дианой",
+        "inner_html": "Независимое расследование: Би-би-си скрыла \"обманную тактику\" интервью с принцессой Дианой"
+      },
+      {
+        "href": "https://www.bbc.com/mundo/",
+        "inner_text": "Spanish",
+        "inner_html": "Spanish"
+      },
+      {
+        "href": "https://www.bbc.com/mundo/noticias-america-latina-57081595",
+        "inner_text": "Qué pasa con los millones de dólares de la corrupción en Venezuela decomisados en EE.UU. (y por qué es difícil que regresen al país sudamericano)",
+        "inner_html": "Qué pasa con los millones de dólares de la corrupción en Venezuela decomisados en EE.UU. (y por qué es difícil que regresen al país sudamericano)"
+      },
+      {
+        "href": "https://www.bbc.com/persian/",
+        "inner_text": "Persian",
+        "inner_html": "Persian"
+      },
+      {
+        "href": "https://www.bbc.com/persian/iran-57182015",
+        "inner_text": "مذاکره ایران و آژانس برای تمدید توافق موقت؛ روحانی از 'توافق اصلی' خبر داد",
+        "inner_html": "مذاکره ایران و آژانس برای تمدید توافق موقت؛ روحانی از 'توافق اصلی' خبر داد"
+      },
+      {
+        "href": "https://www.bbc.com/portuguese/",
+        "inner_text": "Portuguese",
+        "inner_html": "Portuguese"
+      },
+      {
+        "href": "https://www.bbc.com/portuguese/brasil-57188995",
+        "inner_text": "'Decisão não era minha', diz Pazuello à CPI da Covid sobre intervenção federal em Manaus",
+        "inner_html": "'Decisão não era minha', diz Pazuello à CPI da Covid sobre intervenção federal em Manaus"
+      },
+      {
+        "href": "https://www.bbc.com/ws/languages",
+        "inner_text": "More Languages",
+        "inner_html": "More Languages"
+      },
+      {
+        "href": "https://www.bbc.com/arabic/",
+        "inner_text": "Arabic عربي",
+        "inner_html": "<span class=\"ws-language__english\">Arabic</span> <span class=\"ws-language__native\"> عربي </span>"
+      },
+      {
+        "href": "https://www.bbc.com/azeri/",
+        "inner_text": "Azeri AZƏRBAYCAN",
+        "inner_html": "<span class=\"ws-language__english\">Azeri</span> <span class=\"ws-language__native\"> AZƏRBAYCAN </span>"
+      },
+      {
+        "href": "https://www.bbc.com/bengali/",
+        "inner_text": "Bangla বাংলা",
+        "inner_html": "<span class=\"ws-language__english\">Bangla</span> <span class=\"ws-language__native\"> বাংলা </span>"
+      },
+      {
+        "href": "https://www.bbc.com/burmese/",
+        "inner_text": "Burmese မြန်မာ",
+        "inner_html": "<span class=\"ws-language__english\">Burmese</span> <span class=\"ws-language__native\"> မြန်မာ </span>"
+      },
+      {
+        "href": "https://www.bbc.com/zhongwen/simp/",
+        "inner_text": "Chinese 中文网",
+        "inner_html": "<span class=\"ws-language__english\">Chinese</span> <span class=\"ws-language__native\"> 中文网 </span>"
+      },
+      {
+        "href": "https://www.bbc.com/afrique/",
+        "inner_text": "French AFRIQUE",
+        "inner_html": "<span class=\"ws-language__english\">French</span> <span class=\"ws-language__native\"> AFRIQUE </span>"
+      },
+      {
+        "href": "https://www.bbc.com/hausa/",
+        "inner_text": "Hausa HAUSA",
+        "inner_html": "<span class=\"ws-language__english\">Hausa</span> <span class=\"ws-language__native\"> HAUSA </span>"
+      },
+      {
+        "href": "https://www.bbc.com/hindi/",
+        "inner_text": "Hindi हिन्दी",
+        "inner_html": "<span class=\"ws-language__english\">Hindi</span> <span class=\"ws-language__native\"> हिन्दी </span>"
+      },
+      {
+        "href": "https://www.bbc.com/indonesia/",
+        "inner_text": "Indonesian INDONESIA",
+        "inner_html": "<span class=\"ws-language__english\">Indonesian</span> <span class=\"ws-language__native\"> INDONESIA </span>"
+      },
+      {
+        "href": "https://www.bbc.com/japanese/",
+        "inner_text": "Japanese 日本語",
+        "inner_html": "<span class=\"ws-language__english\">Japanese</span> <span class=\"ws-language__native\"> 日本語 </span>"
+      },
+      {
+        "href": "https://www.bbc.com/gahuza/",
+        "inner_text": "Kinyarwanda GAHUZA",
+        "inner_html": "<span class=\"ws-language__english\">Kinyarwanda</span> <span class=\"ws-language__native\"> GAHUZA </span>"
+      },
+      {
+        "href": "https://www.bbc.com/kyrgyz/",
+        "inner_text": "Kyrgyz Кыргыз",
+        "inner_html": "<span class=\"ws-language__english\">Kyrgyz</span> <span class=\"ws-language__native\"> Кыргыз </span>"
+      },
+      {
+        "href": "https://www.bbc.com/marathi/",
+        "inner_text": "Marathi मराठी",
+        "inner_html": "<span class=\"ws-language__english\">Marathi</span> <span class=\"ws-language__native\"> मराठी </span>"
+      },
+      {
+        "href": "https://www.bbc.com/nepali/",
+        "inner_text": "Nepali नेपाली",
+        "inner_html": "<span class=\"ws-language__english\">Nepali</span> <span class=\"ws-language__native\"> नेपाली </span>"
+      },
+      {
+        "href": "https://www.bbc.com/pashto/",
+        "inner_text": "Pashto پښتو",
+        "inner_html": "<span class=\"ws-language__english\">Pashto</span> <span class=\"ws-language__native\"> پښتو </span>"
+      },
+      {
+        "href": "https://www.bbc.com/sinhala/",
+        "inner_text": "Sinhala සිංහල",
+        "inner_html": "<span class=\"ws-language__english\">Sinhala</span> <span class=\"ws-language__native\"> සිංහල </span>"
+      },
+      {
+        "href": "https://www.bbc.com/somali/",
+        "inner_text": "Somali SOMALI",
+        "inner_html": "<span class=\"ws-language__english\">Somali</span> <span class=\"ws-language__native\"> SOMALI </span>"
+      },
+      {
+        "href": "https://www.bbc.com/swahili/",
+        "inner_text": "Swahili SWAHILI",
+        "inner_html": "<span class=\"ws-language__english\">Swahili</span> <span class=\"ws-language__native\"> SWAHILI </span>"
+      },
+      {
+        "href": "https://www.bbc.com/tamil/",
+        "inner_text": "Tamil தமிழ்",
+        "inner_html": "<span class=\"ws-language__english\">Tamil</span> <span class=\"ws-language__native\"> தமிழ் </span>"
+      },
+      {
+        "href": "https://www.bbc.com/turkce/",
+        "inner_text": "Turkish TÜRKÇE",
+        "inner_html": "<span class=\"ws-language__english\">Turkish</span> <span class=\"ws-language__native\"> TÜRKÇE </span>"
+      },
+      {
+        "href": "https://www.bbc.com/ukrainian/",
+        "inner_text": "Ukrainian УКРАЇНСЬКA",
+        "inner_html": "<span class=\"ws-language__english\">Ukrainian</span> <span class=\"ws-language__native\"> УКРАЇНСЬКA </span>"
+      },
+      {
+        "href": "https://www.bbc.com/urdu/",
+        "inner_text": "Urdu اردو",
+        "inner_html": "<span class=\"ws-language__english\">Urdu</span> <span class=\"ws-language__native\"> اردو </span>"
+      },
+      {
+        "href": "https://www.bbc.com/uzbek/",
+        "inner_text": "Uzbek O'ZBEK",
+        "inner_html": "<span class=\"ws-language__english\">Uzbek</span> <span class=\"ws-language__native\"> O'ZBEK </span>"
+      },
+      {
+        "href": "https://www.bbc.com/vietnamese/",
+        "inner_text": "Vietnamese TIẾNG VIỆT",
+        "inner_html": "<span class=\"ws-language__english\">Vietnamese</span> <span class=\"ws-language__native\"> TIẾNG VIỆT </span>"
+      },
+      {
+        "href": "https://www.bbc.co.uk/usingthebbc/terms/",
+        "inner_text": "Terms of Use",
+        "inner_html": "Terms of Use"
+      },
+      {
+        "href": "https://www.bbc.co.uk/aboutthebbc",
+        "inner_text": "About the BBC",
+        "inner_html": "About the BBC"
+      },
+      {
+        "href": "https://www.bbc.co.uk/usingthebbc/privacy/",
+        "inner_text": "Privacy Policy",
+        "inner_html": "Privacy Policy"
+      },
+      {
+        "href": "https://www.bbc.co.uk/usingthebbc/cookies/",
+        "inner_text": "Cookies",
+        "inner_html": "Cookies"
+      },
+      {
+        "href": "https://www.bbc.co.uk/guidance",
+        "inner_text": "Parental Guidance",
+        "inner_html": "Parental Guidance"
+      },
+      {
+        "href": "https://www.bbc.co.uk/contact",
+        "inner_text": "Contact the BBC",
+        "inner_html": "Contact the BBC"
+      },
+      {
+        "href": "https://www.bbc.co.uk/bbcnewsletter",
+        "inner_text": "Get Personalised Newsletters",
+        "inner_html": "Get Personalised Newsletters"
+      },
+      {
+        "href": "https://www.bbcglobalnews.com/",
+        "inner_text": "Advertise with us",
+        "inner_html": "Advertise with us"
+      },
+      {
+        "href": "https://www.bbc.com/usingthebbc/cookies/how-does-the-bbc-use-cookies-for-advertising/",
+        "inner_text": "AdChoices / Do Not Sell My Info",
+        "inner_html": "AdChoices / Do Not Sell My Info"
+      },
+      {
+        "href": "https://www.bbc.co.uk/editorialguidelines/guidance/feeds-and-links",
+        "inner_text": "Read about our approach to external linking.",
+        "inner_html": "Read about our approach to external linking."
+      }
+    ],
+    "social": [],
+    "keywords": [
+      {
+        "href": "https://www.bbc.com/news/business-57176431",
+        "inner_text": "4\nAmber list travel is legal, says EasyJet boss",
+        "inner_html": "<span class=\"top-list-item__bullet\">4</span> <h3 class=\"top-list-item__headline\">Amber list travel is legal, says EasyJet boss</h3>"
+      },
+      {
+        "href": "https://www.bbc.co.uk/usingthebbc/privacy/",
+        "inner_text": "Privacy Policy",
+        "inner_html": "Privacy Policy"
+      }
+    ]
+  },
+  "unsafeForms": [],
+  "browsing_history": [
+    "https://www.bbc.com/"
+  ],
+  "websockets": {},
+  "cookies": [
+    {
+      "name": "atuserid",
+      "value": "%7B%22name%22%3A%22atuserid%22%2C%22val%22%3A%222a69a00d-0d01-4673-b910-e224477208a1%22%2C%22options%22%3A%7B%22end%22%3A%222022-06-21T16%3A04%3A28.417Z%22%2C%22path%22%3A%22%2F%22%7D%7D",
+      "domain": "bbc.com",
+      "path": "/",
+      "expires": 1655827468,
+      "size": 194,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2022-06-21T16:04:28.000Z",
+      "expiresDays": 397,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 117116,
+            "lineNumber": 15,
+            "fileName": "https://mybbc-analytics.files.bbci.co.uk/echo-client-js/echo-12.17.0.min.js",
+            "functionName": "r.setData",
+            "source": "    at r.setData (https://mybbc-analytics.files.bbci.co.uk/echo-client-js/echo-12.17.0.min.js:15:117116)"
+          },
+          {
+            "columnNumber": 117325,
+            "lineNumber": 15,
+            "fileName": "https://mybbc-analytics.files.bbci.co.uk/echo-client-js/echo-12.17.0.min.js",
+            "functionName": "u",
+            "source": "    at u (https://mybbc-analytics.files.bbci.co.uk/echo-client-js/echo-12.17.0.min.js:15:117325)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T16:04:28.425Z",
+        "location": "https://www.bbc.com/"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "ckns_policy_exp",
+      "value": "1653062667518",
+      "domain": "bbc.com",
+      "path": "/",
+      "expires": 1655741067,
+      "size": 28,
+      "httpOnly": false,
+      "secure": true,
+      "session": false,
+      "sameSite": "None",
+      "expiresUTC": "2022-06-20T16:04:27.000Z",
+      "expiresDays": 396,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 10519,
+            "lineNumber": 2,
+            "fileName": "https://static.files.bbci.co.uk/cookies/a0354f8a4a10eccc2923da437dcf04c8/cookie-banner/cookie-banners.bundle.js",
+            "functionName": "Object.r.set",
+            "source": "    at Object.r.set (https://static.files.bbci.co.uk/cookies/a0354f8a4a10eccc2923da437dcf04c8/cookie-banner/cookie-banners.bundle.js:2:10519)"
+          },
+          {
+            "columnNumber": 8331,
+            "lineNumber": 2,
+            "fileName": "https://static.files.bbci.co.uk/cookies/a0354f8a4a10eccc2923da437dcf04c8/cookie-banner/cookie-banners.bundle.js",
+            "functionName": "_",
+            "source": "    at _ (https://static.files.bbci.co.uk/cookies/a0354f8a4a10eccc2923da437dcf04c8/cookie-banner/cookie-banners.bundle.js:2:8331)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T16:04:27.534Z",
+        "location": "https://www.bbc.com/"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "_cb_ls",
+      "value": "1",
+      "domain": "www.bbc.com",
+      "path": "/",
+      "expires": 1655654668,
+      "size": 7,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2022-06-19T16:04:28.000Z",
+      "expiresDays": 395,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 189,
+            "lineNumber": 30,
+            "fileName": "https://static.chartbeat.com/js/chartbeat.js",
+            "functionName": "Object.L.create",
+            "source": "    at Object.L.create (https://static.chartbeat.com/js/chartbeat.js:30:189)"
+          },
+          {
+            "columnNumber": 373,
+            "lineNumber": 32,
+            "fileName": "https://static.chartbeat.com/js/chartbeat.js",
+            "functionName": "Eb",
+            "source": "    at Eb (https://static.chartbeat.com/js/chartbeat.js:32:373)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T16:04:28.763Z",
+        "location": "https://www.bbc.com/"
+      },
+      "firstPartyStorage": false
+    },
+    {
+      "name": "_cb",
+      "value": "DGpUgLQVnBzClt62R",
+      "domain": "www.bbc.com",
+      "path": "/",
+      "expires": 1655654668,
+      "size": 20,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2022-06-19T16:04:28.000Z",
+      "expiresDays": 395,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 189,
+            "lineNumber": 30,
+            "fileName": "https://static.chartbeat.com/js/chartbeat.js",
+            "functionName": "Object.L.create",
+            "source": "    at Object.L.create (https://static.chartbeat.com/js/chartbeat.js:30:189)"
+          },
+          {
+            "columnNumber": 86,
+            "lineNumber": 33,
+            "fileName": "https://static.chartbeat.com/js/chartbeat.js",
+            "functionName": "Db.n.create",
+            "source": "    at Db.n.create (https://static.chartbeat.com/js/chartbeat.js:33:86)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T16:04:28.764Z",
+        "location": "https://www.bbc.com/"
+      },
+      "firstPartyStorage": false
+    },
+    {
+      "name": "_chartbeat2",
+      "value": ".1621526668742.1621526668742.1.B_kY3h0dUanD0XXLVBIN-4nBduuYg.1",
+      "domain": "www.bbc.com",
+      "path": "/",
+      "expires": 1655654668,
+      "size": 73,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2022-06-19T16:04:28.000Z",
+      "expiresDays": 395,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 189,
+            "lineNumber": 30,
+            "fileName": "https://static.chartbeat.com/js/chartbeat.js",
+            "functionName": "Object.L.create",
+            "source": "    at Object.L.create (https://static.chartbeat.com/js/chartbeat.js:30:189)"
+          },
+          {
+            "columnNumber": 86,
+            "lineNumber": 33,
+            "fileName": "https://static.chartbeat.com/js/chartbeat.js",
+            "functionName": "Db.n.create",
+            "source": "    at Db.n.create (https://static.chartbeat.com/js/chartbeat.js:33:86)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T16:04:28.765Z",
+        "location": "https://www.bbc.com/"
+      },
+      "firstPartyStorage": false
+    },
+    {
+      "name": "ckns_explicit",
+      "value": "0",
+      "domain": "bbc.com",
+      "path": "/",
+      "expires": 1653062667,
+      "size": 14,
+      "httpOnly": false,
+      "secure": true,
+      "session": false,
+      "sameSite": "None",
+      "expiresUTC": "2022-05-20T16:04:27.000Z",
+      "expiresDays": 365,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 10519,
+            "lineNumber": 2,
+            "fileName": "https://static.files.bbci.co.uk/cookies/a0354f8a4a10eccc2923da437dcf04c8/cookie-banner/cookie-banners.bundle.js",
+            "functionName": "Object.r.set",
+            "source": "    at Object.r.set (https://static.files.bbci.co.uk/cookies/a0354f8a4a10eccc2923da437dcf04c8/cookie-banner/cookie-banners.bundle.js:2:10519)"
+          },
+          {
+            "columnNumber": 14228,
+            "lineNumber": 2,
+            "fileName": "https://static.files.bbci.co.uk/cookies/a0354f8a4a10eccc2923da437dcf04c8/cookie-banner/cookie-banners.bundle.js",
+            "functionName": "r",
+            "source": "    at r (https://static.files.bbci.co.uk/cookies/a0354f8a4a10eccc2923da437dcf04c8/cookie-banner/cookie-banners.bundle.js:2:14228)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T16:04:27.531Z",
+        "location": "https://www.bbc.com/"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "ckns_policy",
+      "value": "000",
+      "domain": "bbc.com",
+      "path": "/",
+      "expires": 1653062667,
+      "size": 14,
+      "httpOnly": false,
+      "secure": true,
+      "session": false,
+      "sameSite": "None",
+      "expiresUTC": "2022-05-20T16:04:27.000Z",
+      "expiresDays": 365,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 10519,
+            "lineNumber": 2,
+            "fileName": "https://static.files.bbci.co.uk/cookies/a0354f8a4a10eccc2923da437dcf04c8/cookie-banner/cookie-banners.bundle.js",
+            "functionName": "Object.r.set",
+            "source": "    at Object.r.set (https://static.files.bbci.co.uk/cookies/a0354f8a4a10eccc2923da437dcf04c8/cookie-banner/cookie-banners.bundle.js:2:10519)"
+          },
+          {
+            "columnNumber": 8161,
+            "lineNumber": 2,
+            "fileName": "https://static.files.bbci.co.uk/cookies/a0354f8a4a10eccc2923da437dcf04c8/cookie-banner/cookie-banners.bundle.js",
+            "functionName": "_",
+            "source": "    at _ (https://static.files.bbci.co.uk/cookies/a0354f8a4a10eccc2923da437dcf04c8/cookie-banner/cookie-banners.bundle.js:2:8161)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T16:04:27.533Z",
+        "location": "https://www.bbc.com/"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "ckns_privacy",
+      "value": "july2019",
+      "domain": "bbc.com",
+      "path": "/",
+      "expires": 1653062667,
+      "size": 20,
+      "httpOnly": false,
+      "secure": true,
+      "session": false,
+      "sameSite": "None",
+      "expiresUTC": "2022-05-20T16:04:27.000Z",
+      "expiresDays": 365,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 10519,
+            "lineNumber": 2,
+            "fileName": "https://static.files.bbci.co.uk/cookies/a0354f8a4a10eccc2923da437dcf04c8/cookie-banner/cookie-banners.bundle.js",
+            "functionName": "Object.r.set",
+            "source": "    at Object.r.set (https://static.files.bbci.co.uk/cookies/a0354f8a4a10eccc2923da437dcf04c8/cookie-banner/cookie-banners.bundle.js:2:10519)"
+          },
+          {
+            "columnNumber": 14228,
+            "lineNumber": 2,
+            "fileName": "https://static.files.bbci.co.uk/cookies/a0354f8a4a10eccc2923da437dcf04c8/cookie-banner/cookie-banners.bundle.js",
+            "functionName": "r",
+            "source": "    at r (https://static.files.bbci.co.uk/cookies/a0354f8a4a10eccc2923da437dcf04c8/cookie-banner/cookie-banners.bundle.js:2:14228)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T16:04:27.535Z",
+        "location": "https://www.bbc.com/"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "optimizelyEndUserId",
+      "value": "oeu1621526667732r0.019138905897424285",
+      "domain": "bbc.com",
+      "path": "/",
+      "expires": 1653062667,
+      "size": 56,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2022-05-20T16:04:27.000Z",
+      "expiresDays": 365,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 16927,
+            "lineNumber": 46,
+            "fileName": "https://cdn.optimizely.com/public/4621041136/s/bbccom_prod.js",
+            "functionName": "Object.t.setCookie",
+            "source": "    at Object.t.setCookie (https://cdn.optimizely.com/public/4621041136/s/bbccom_prod.js:46:16927)"
+          },
+          {
+            "columnNumber": 15438,
+            "lineNumber": 46,
+            "fileName": "https://cdn.optimizely.com/public/4621041136/s/bbccom_prod.js",
+            "functionName": "Object.t.set",
+            "source": "    at Object.t.set (https://cdn.optimizely.com/public/4621041136/s/bbccom_prod.js:46:15438)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T16:04:27.777Z",
+        "location": "https://www.bbc.com/"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "_cb_svref",
+      "value": "null",
+      "domain": "www.bbc.com",
+      "path": "/",
+      "expires": 1621528468,
+      "size": 13,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2021-05-20T16:34:28.000Z",
+      "expiresDays": 0.02,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 189,
+            "lineNumber": 30,
+            "fileName": "https://static.chartbeat.com/js/chartbeat.js",
+            "functionName": "Object.L.create",
+            "source": "    at Object.L.create (https://static.chartbeat.com/js/chartbeat.js:30:189)"
+          },
+          {
+            "columnNumber": 86,
+            "lineNumber": 33,
+            "fileName": "https://static.chartbeat.com/js/chartbeat.js",
+            "functionName": "Db.n.create",
+            "source": "    at Db.n.create (https://static.chartbeat.com/js/chartbeat.js:33:86)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T16:04:28.766Z",
+        "location": "https://www.bbc.com/"
+      },
+      "firstPartyStorage": false
+    }
+  ],
+  "localStorage": {
+    "https://www.bbc.com": {
+      "_cb_svref": {
+        "value": null,
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 86,
+              "lineNumber": 31,
+              "fileName": "https://static.chartbeat.com/js/chartbeat.js",
+              "functionName": "Object.M.create",
+              "source": "    at Object.M.create (https://static.chartbeat.com/js/chartbeat.js:31:86)"
+            },
+            {
+              "columnNumber": 56,
+              "lineNumber": 33,
+              "fileName": "https://static.chartbeat.com/js/chartbeat.js",
+              "functionName": "Db.n.create",
+              "source": "    at Db.n.create (https://static.chartbeat.com/js/chartbeat.js:33:56)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T16:04:28.766Z",
+          "location": "https://www.bbc.com/"
+        }
+      },
+      "optimizely_data$$oeu1621526667732r0.019138905897424285$$8318630511$$tracker_optimizely": {
+        "value": {},
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 18933,
+              "lineNumber": 46,
+              "fileName": "https://cdn.optimizely.com/public/4621041136/s/bbccom_prod.js",
+              "functionName": "n.setItem",
+              "source": "    at n.setItem (https://cdn.optimizely.com/public/4621041136/s/bbccom_prod.js:46:18933)"
+            },
+            {
+              "columnNumber": 5361,
+              "lineNumber": 46,
+              "fileName": "https://cdn.optimizely.com/public/4621041136/s/bbccom_prod.js",
+              "functionName": "g",
+              "source": "    at g (https://cdn.optimizely.com/public/4621041136/s/bbccom_prod.js:46:5361)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T16:04:28.771Z",
+          "location": "https://www.bbc.com/"
+        }
+      },
+      "_cb": {
+        "value": "DGpUgLQVnBzClt62R",
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 86,
+              "lineNumber": 31,
+              "fileName": "https://static.chartbeat.com/js/chartbeat.js",
+              "functionName": "Object.M.create",
+              "source": "    at Object.M.create (https://static.chartbeat.com/js/chartbeat.js:31:86)"
+            },
+            {
+              "columnNumber": 56,
+              "lineNumber": 33,
+              "fileName": "https://static.chartbeat.com/js/chartbeat.js",
+              "functionName": "Db.n.create",
+              "source": "    at Db.n.create (https://static.chartbeat.com/js/chartbeat.js:33:56)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T16:04:28.763Z",
+          "location": "https://www.bbc.com/"
+        }
+      },
+      "optimizely_data$$oeu1621526667732r0.019138905897424285$$8318630511$$visitor_profile": {
+        "value": {
+          "profile": {
+            "visitorId": "oeu1621526667732r0.019138905897424285",
+            "customBehavior": {},
+            "first_session": true,
+            "browserId": "gc",
+            "browserVersion": "72.0.3617.0",
+            "device": "desktop",
+            "device_type": "desktop_laptop",
+            "referrer": null,
+            "source_type": "direct",
+            "currentTimestamp": 1621526667749,
+            "offset": -120
+          },
+          "metadata": {
+            "visitorId": {},
+            "events": {},
+            "customBehavior": {},
+            "first_session": {},
+            "browserId": {},
+            "browserVersion": {},
+            "device": {},
+            "device_type": {},
+            "referrer": {},
+            "source_type": {},
+            "currentTimestamp": {},
+            "offset": {}
+          }
+        },
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 18933,
+              "lineNumber": 46,
+              "fileName": "https://cdn.optimizely.com/public/4621041136/s/bbccom_prod.js",
+              "functionName": "n.setItem",
+              "source": "    at n.setItem (https://cdn.optimizely.com/public/4621041136/s/bbccom_prod.js:46:18933)"
+            },
+            {
+              "columnNumber": 5361,
+              "lineNumber": 46,
+              "fileName": "https://cdn.optimizely.com/public/4621041136/s/bbccom_prod.js",
+              "functionName": "g",
+              "source": "    at g (https://cdn.optimizely.com/public/4621041136/s/bbccom_prod.js:46:5361)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T16:04:27.780Z",
+          "location": "https://www.bbc.com/"
+        }
+      },
+      "_chartbeat2": {
+        "value": ".1621526668742.1621526668742.1.B_kY3h0dUanD0XXLVBIN-4nBduuYg.1",
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 86,
+              "lineNumber": 31,
+              "fileName": "https://static.chartbeat.com/js/chartbeat.js",
+              "functionName": "Object.M.create",
+              "source": "    at Object.M.create (https://static.chartbeat.com/js/chartbeat.js:31:86)"
+            },
+            {
+              "columnNumber": 56,
+              "lineNumber": 33,
+              "fileName": "https://static.chartbeat.com/js/chartbeat.js",
+              "functionName": "Db.n.create",
+              "source": "    at Db.n.create (https://static.chartbeat.com/js/chartbeat.js:33:56)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T16:04:28.764Z",
+          "location": "https://www.bbc.com/"
+        }
+      },
+      "_cb_svref_expires": {
+        "value": 1621528468751,
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 101,
+              "lineNumber": 31,
+              "fileName": "https://static.chartbeat.com/js/chartbeat.js",
+              "functionName": "Object.M.create",
+              "source": "    at Object.M.create (https://static.chartbeat.com/js/chartbeat.js:31:101)"
+            },
+            {
+              "columnNumber": 56,
+              "lineNumber": 33,
+              "fileName": "https://static.chartbeat.com/js/chartbeat.js",
+              "functionName": "Db.n.create",
+              "source": "    at Db.n.create (https://static.chartbeat.com/js/chartbeat.js:33:56)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T16:04:28.766Z",
+          "location": "https://www.bbc.com/"
+        }
+      },
+      "optimizely_data$$oeu1621526667732r0.019138905897424285$$8318630511$$event_queue": {
+        "value": [
+          {
+            "eb": {
+              "n": "8319781850_url_targeting_for_mvt_comrw09__basic_optimizely_tes_1_7",
+              "y": "pageview",
+              "c": "other"
+            },
+            "h": "2e93d427",
+            "tb": 1621526667759,
+            "ts": [
+              {
+                "d": 0,
+                "i": 0
+              }
+            ]
+          },
+          {
+            "eb": {
+              "n": "8318630511_bbc_homepage__mvt",
+              "y": "pageview",
+              "c": "other"
+            },
+            "h": "4627fbe2",
+            "tb": 1621526667762,
+            "ts": [
+              {
+                "d": 0,
+                "i": 1
+              }
+            ]
+          },
+          {
+            "eb": {
+              "n": "8318630511_headline_bbccom_homepage",
+              "y": "pageview",
+              "c": "other"
+            },
+            "h": "8651e7c1",
+            "tb": 1621526667766,
+            "ts": [
+              {
+                "d": 0,
+                "i": 2
+              }
+            ]
+          }
+        ],
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 18933,
+              "lineNumber": 46,
+              "fileName": "https://cdn.optimizely.com/public/4621041136/s/bbccom_prod.js",
+              "functionName": "n.setItem",
+              "source": "    at n.setItem (https://cdn.optimizely.com/public/4621041136/s/bbccom_prod.js:46:18933)"
+            },
+            {
+              "columnNumber": 5361,
+              "lineNumber": 46,
+              "fileName": "https://cdn.optimizely.com/public/4621041136/s/bbccom_prod.js",
+              "functionName": "g",
+              "source": "    at g (https://cdn.optimizely.com/public/4621041136/s/bbccom_prod.js:46:5361)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T16:04:27.778Z",
+          "location": "https://www.bbc.com/"
+        }
+      },
+      "_cb_expires": {
+        "value": 1655654668744,
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 101,
+              "lineNumber": 31,
+              "fileName": "https://static.chartbeat.com/js/chartbeat.js",
+              "functionName": "Object.M.create",
+              "source": "    at Object.M.create (https://static.chartbeat.com/js/chartbeat.js:31:101)"
+            },
+            {
+              "columnNumber": 56,
+              "lineNumber": 33,
+              "fileName": "https://static.chartbeat.com/js/chartbeat.js",
+              "functionName": "Db.n.create",
+              "source": "    at Db.n.create (https://static.chartbeat.com/js/chartbeat.js:33:56)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T16:04:28.763Z",
+          "location": "https://www.bbc.com/"
+        }
+      },
+      "optimizely_data$$oeu1621526667732r0.019138905897424285$$8318630511$$variation_map": {
+        "value": {},
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 18933,
+              "lineNumber": 46,
+              "fileName": "https://cdn.optimizely.com/public/4621041136/s/bbccom_prod.js",
+              "functionName": "n.setItem",
+              "source": "    at n.setItem (https://cdn.optimizely.com/public/4621041136/s/bbccom_prod.js:46:18933)"
+            },
+            {
+              "columnNumber": 5361,
+              "lineNumber": 46,
+              "fileName": "https://cdn.optimizely.com/public/4621041136/s/bbccom_prod.js",
+              "functionName": "g",
+              "source": "    at g (https://cdn.optimizely.com/public/4621041136/s/bbccom_prod.js:46:5361)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T16:04:27.780Z",
+          "location": "https://www.bbc.com/"
+        }
+      },
+      "optimizely_data$$pending_events": {
+        "value": {},
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 18933,
+              "lineNumber": 46,
+              "fileName": "https://cdn.optimizely.com/public/4621041136/s/bbccom_prod.js",
+              "functionName": "n.setItem",
+              "source": "    at n.setItem (https://cdn.optimizely.com/public/4621041136/s/bbccom_prod.js:46:18933)"
+            },
+            {
+              "columnNumber": 19693,
+              "lineNumber": 49,
+              "fileName": "https://cdn.optimizely.com/public/4621041136/s/bbccom_prod.js",
+              "functionName": "t.persistPendingEvents",
+              "source": "    at t.persistPendingEvents (https://cdn.optimizely.com/public/4621041136/s/bbccom_prod.js:49:19693)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T16:04:29.286Z",
+          "location": "https://www.bbc.com/"
+        }
+      },
+      "_chartbeat2_expires": {
+        "value": 1655654668745,
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 101,
+              "lineNumber": 31,
+              "fileName": "https://static.chartbeat.com/js/chartbeat.js",
+              "functionName": "Object.M.create",
+              "source": "    at Object.M.create (https://static.chartbeat.com/js/chartbeat.js:31:101)"
+            },
+            {
+              "columnNumber": 56,
+              "lineNumber": 33,
+              "fileName": "https://static.chartbeat.com/js/chartbeat.js",
+              "functionName": "Db.n.create",
+              "source": "    at Db.n.create (https://static.chartbeat.com/js/chartbeat.js:33:56)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T16:04:28.764Z",
+          "location": "https://www.bbc.com/"
+        }
+      },
+      "optimizely_data$$oeu1621526667732r0.019138905897424285$$8318630511$$layer_states": {
+        "value": [],
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 18933,
+              "lineNumber": 46,
+              "fileName": "https://cdn.optimizely.com/public/4621041136/s/bbccom_prod.js",
+              "functionName": "n.setItem",
+              "source": "    at n.setItem (https://cdn.optimizely.com/public/4621041136/s/bbccom_prod.js:46:18933)"
+            },
+            {
+              "columnNumber": 5361,
+              "lineNumber": 46,
+              "fileName": "https://cdn.optimizely.com/public/4621041136/s/bbccom_prod.js",
+              "functionName": "g",
+              "source": "    at g (https://cdn.optimizely.com/public/4621041136/s/bbccom_prod.js:46:5361)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T16:04:27.779Z",
+          "location": "https://www.bbc.com/"
+        }
+      },
+      "optimizely_data$$oeu1621526667732r0.019138905897424285$$8318630511$$layer_map": {
+        "value": {},
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 18933,
+              "lineNumber": 46,
+              "fileName": "https://cdn.optimizely.com/public/4621041136/s/bbccom_prod.js",
+              "functionName": "n.setItem",
+              "source": "    at n.setItem (https://cdn.optimizely.com/public/4621041136/s/bbccom_prod.js:46:18933)"
+            },
+            {
+              "columnNumber": 5361,
+              "lineNumber": 46,
+              "fileName": "https://cdn.optimizely.com/public/4621041136/s/bbccom_prod.js",
+              "functionName": "g",
+              "source": "    at g (https://cdn.optimizely.com/public/4621041136/s/bbccom_prod.js:46:5361)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T16:04:27.780Z",
+          "location": "https://www.bbc.com/"
+        }
+      },
+      "optimizely_data$$oeu1621526667732r0.019138905897424285$$8318630511$$session_state": {
+        "value": {
+          "lastSessionTimestamp": 1621526667739,
+          "sessionId": "8addc6a0-7d80-432a-a565-bbb1303a4d08"
+        },
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 18933,
+              "lineNumber": 46,
+              "fileName": "https://cdn.optimizely.com/public/4621041136/s/bbccom_prod.js",
+              "functionName": "n.setItem",
+              "source": "    at n.setItem (https://cdn.optimizely.com/public/4621041136/s/bbccom_prod.js:46:18933)"
+            },
+            {
+              "columnNumber": 5361,
+              "lineNumber": 46,
+              "fileName": "https://cdn.optimizely.com/public/4621041136/s/bbccom_prod.js",
+              "functionName": "g",
+              "source": "    at g (https://cdn.optimizely.com/public/4621041136/s/bbccom_prod.js:46:5361)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T16:04:27.779Z",
+          "location": "https://www.bbc.com/"
+        }
+      }
+    },
+    "https://a4621041136.cdn.optimizely.com": {
+      "https://www.bbc.com_oeu1621526667732r0.019138905897424285$$8318630511$$session_state": {
+        "value": {
+          "lastSessionTimestamp": 1621526667739,
+          "sessionId": "8addc6a0-7d80-432a-a565-bbb1303a4d08"
+        },
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 781,
+              "lineNumber": 7,
+              "fileName": "https://a4621041136.cdn.optimizely.com/client_storage/a4621041136.html",
+              "source": "    at https://a4621041136.cdn.optimizely.com/client_storage/a4621041136.html:7:781"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T16:04:28.153Z",
+          "location": "https://www.bbc.com"
+        }
+      },
+      "https://www.bbc.com_pending_events": {
+        "value": {},
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 781,
+              "lineNumber": 7,
+              "fileName": "https://a4621041136.cdn.optimizely.com/client_storage/a4621041136.html",
+              "source": "    at https://a4621041136.cdn.optimizely.com/client_storage/a4621041136.html:7:781"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T16:04:29.286Z",
+          "location": "https://www.bbc.com"
+        }
+      },
+      "https://www.bbc.com_oeu1621526667732r0.019138905897424285$$8318630511$$variation_map": {
+        "value": {},
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 781,
+              "lineNumber": 7,
+              "fileName": "https://a4621041136.cdn.optimizely.com/client_storage/a4621041136.html",
+              "source": "    at https://a4621041136.cdn.optimizely.com/client_storage/a4621041136.html:7:781"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T16:04:28.153Z",
+          "location": "https://www.bbc.com"
+        }
+      },
+      "https://www.bbc.com_oeu1621526667732r0.019138905897424285$$8318630511$$layer_map": {
+        "value": {},
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 781,
+              "lineNumber": 7,
+              "fileName": "https://a4621041136.cdn.optimizely.com/client_storage/a4621041136.html",
+              "source": "    at https://a4621041136.cdn.optimizely.com/client_storage/a4621041136.html:7:781"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T16:04:28.154Z",
+          "location": "https://www.bbc.com"
+        }
+      },
+      "https://www.bbc.com_oeu1621526667732r0.019138905897424285$$8318630511$$event_queue": {
+        "value": [
+          {
+            "eb": {
+              "n": "8319781850_url_targeting_for_mvt_comrw09__basic_optimizely_tes_1_7",
+              "y": "pageview",
+              "c": "other"
+            },
+            "h": "2e93d427",
+            "tb": 1621526667759,
+            "ts": [
+              {
+                "d": 0,
+                "i": 0
+              }
+            ]
+          },
+          {
+            "eb": {
+              "n": "8318630511_bbc_homepage__mvt",
+              "y": "pageview",
+              "c": "other"
+            },
+            "h": "4627fbe2",
+            "tb": 1621526667762,
+            "ts": [
+              {
+                "d": 0,
+                "i": 1
+              }
+            ]
+          },
+          {
+            "eb": {
+              "n": "8318630511_headline_bbccom_homepage",
+              "y": "pageview",
+              "c": "other"
+            },
+            "h": "8651e7c1",
+            "tb": 1621526667766,
+            "ts": [
+              {
+                "d": 0,
+                "i": 2
+              }
+            ]
+          }
+        ],
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 781,
+              "lineNumber": 7,
+              "fileName": "https://a4621041136.cdn.optimizely.com/client_storage/a4621041136.html",
+              "source": "    at https://a4621041136.cdn.optimizely.com/client_storage/a4621041136.html:7:781"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T16:04:28.152Z",
+          "location": "https://www.bbc.com"
+        }
+      },
+      "https://www.bbc.com_oeu1621526667732r0.019138905897424285$$8318630511$$visitor_profile": {
+        "value": {
+          "profile": {
+            "visitorId": "oeu1621526667732r0.019138905897424285",
+            "customBehavior": {},
+            "first_session": true,
+            "browserId": "gc",
+            "browserVersion": "72.0.3617.0",
+            "device": "desktop",
+            "device_type": "desktop_laptop",
+            "referrer": null,
+            "source_type": "direct",
+            "currentTimestamp": 1621526667749,
+            "offset": -120
+          },
+          "metadata": {
+            "visitorId": {},
+            "events": {},
+            "customBehavior": {},
+            "first_session": {},
+            "browserId": {},
+            "browserVersion": {},
+            "device": {},
+            "device_type": {},
+            "referrer": {},
+            "source_type": {},
+            "currentTimestamp": {},
+            "offset": {}
+          }
+        },
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 781,
+              "lineNumber": 7,
+              "fileName": "https://a4621041136.cdn.optimizely.com/client_storage/a4621041136.html",
+              "source": "    at https://a4621041136.cdn.optimizely.com/client_storage/a4621041136.html:7:781"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T16:04:28.153Z",
+          "location": "https://www.bbc.com"
+        }
+      },
+      "https://www.bbc.com_oeu1621526667732r0.019138905897424285$$8318630511$$layer_states": {
+        "value": [],
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 781,
+              "lineNumber": 7,
+              "fileName": "https://a4621041136.cdn.optimizely.com/client_storage/a4621041136.html",
+              "source": "    at https://a4621041136.cdn.optimizely.com/client_storage/a4621041136.html:7:781"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T16:04:28.153Z",
+          "location": "https://www.bbc.com"
+        }
+      },
+      "https://www.bbc.com_oeu1621526667732r0.019138905897424285$$8318630511$$tracker_optimizely": {
+        "value": {},
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 781,
+              "lineNumber": 7,
+              "fileName": "https://a4621041136.cdn.optimizely.com/client_storage/a4621041136.html",
+              "source": "    at https://a4621041136.cdn.optimizely.com/client_storage/a4621041136.html:7:781"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T16:04:28.772Z",
+          "location": "https://www.bbc.com"
+        }
+      }
+    }
+  },
+  "beacons": [
+    {
+      "url": "https://a1.api.bbc.co.uk/hit.xiti?s=598271&idclient=2a69a00d-0d01-4673-b910-e224477208a1&ts=1621526674564&vtag=5.27.0&ptag=js&r=1680x927x24x24&re=1680x927&hl=18x4x34&lng=en-US&content_type=Index-home&language=en&library_version=reverb-3.0.0&app_type=responsive&app_name=bbc_website&ati=PUB-[video]-[%27I%20fled%20the%20Taliban%20and%20now%20my%20aim%20is%20the%20Olympics%27]-[]-[CHD%3Dcard%3A%3A3]-[home.page]-[]-[Asia]-[%2Fnews%2Fworld-asia-57027349]&type=AT",
+      "query": {
+        "s": 598271,
+        "idclient": "2a69a00d-0d01-4673-b910-e224477208a1",
+        "ts": 1621526674564,
+        "vtag": "5.27.0",
+        "ptag": "js",
+        "r": "1680x927x24x24",
+        "re": "1680x927",
+        "hl": "18x4x34",
+        "lng": "en-US",
+        "content_type": "Index-home",
+        "language": "en",
+        "library_version": "reverb-3.0.0",
+        "app_type": "responsive",
+        "app_name": "bbc_website",
+        "ati": "PUB-[video]-['I fled the Taliban and now my aim is the Olympics']-[]-[CHD=card::3]-[home.page]-[]-[Asia]-[/news/world-asia-57027349]",
+        "type": "AT"
+      },
+      "filter": "/hit.xiti?",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.bbc.com/",
+            "source": "requested from https://www.bbc.com/ and matched with easyprivacy.txt filter /hit.xiti?"
+          }
+        ],
+        "timestamp": "2021-05-20T16:04:36.122Z"
+      },
+      "occurrances": 58
+    },
+    {
+      "url": "https://logx.optimizely.com/v1/events",
+      "query": null,
+      "filter": "||logx.optimizely.com^",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.bbc.com/",
+            "source": "requested from https://www.bbc.com/ and matched with easyprivacy.txt filter ||logx.optimizely.com^"
+          }
+        ],
+        "timestamp": "2021-05-20T16:04:28.771Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://ping.chartbeat.net/ping?h=bbc.co.uk&p=%2F%3Finternational&u=DGpUgLQVnBzClt62R&d=bbc.com&g=50924&g0=Homepage%2C%20Homepage%20-%20international&g1=No%20Author&n=1&f=00001&c=0&x=0&m=0&y=8551&o=1680&w=927&j=45&R=1&W=0&I=0&E=0&e=0&r=&b=2503&t=BS3anHBMvU8SD5G8CMo4zS2DFt5Ee&V=126&i=Homepage%20-%20international&tz=-120&sn=1&sv=B_kY3h0dUanD0XXLVBIN-4nBduuYg&sd=1&im=0e032c40&_",
+      "query": {
+        "h": "bbc.co.uk",
+        "p": "/?international",
+        "u": "DGpUgLQVnBzClt62R",
+        "d": "bbc.com",
+        "g": 50924,
+        "g0": "Homepage, Homepage - international",
+        "g1": "No Author",
+        "n": 1,
+        "f": "00001",
+        "c": 0,
+        "x": 0,
+        "m": 0,
+        "y": 8551,
+        "o": 1680,
+        "w": 927,
+        "j": 45,
+        "R": 1,
+        "W": 0,
+        "I": 0,
+        "E": 0,
+        "e": 0,
+        "r": "",
+        "b": 2503,
+        "t": "BS3anHBMvU8SD5G8CMo4zS2DFt5Ee",
+        "V": 126,
+        "i": "Homepage - international",
+        "tz": -120,
+        "sn": 1,
+        "sv": "B_kY3h0dUanD0XXLVBIN-4nBduuYg",
+        "sd": 1,
+        "im": "0e032c40",
+        "_": null
+      },
+      "filter": "/ping?h=",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.bbc.com/",
+            "source": "requested from https://www.bbc.com/ and matched with easyprivacy.txt filter /ping?h="
+          }
+        ],
+        "timestamp": "2021-05-20T16:04:28.768Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://static.chartbeat.com/js/chartbeat.js",
+      "query": null,
+      "filter": "||chartbeat.com^$third-party",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.bbc.com/",
+            "source": "requested from https://www.bbc.com/ and matched with easyprivacy.txt filter ||chartbeat.com^$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T16:04:28.547Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://mybbc-analytics.files.bbci.co.uk/analytics-remote-config/masterbrands.json",
+      "query": null,
+      "filter": "/mybbc-analytics.",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.bbc.com/",
+            "source": "requested from https://www.bbc.com/ and matched with easyprivacy.txt filter /mybbc-analytics."
+          }
+        ],
+        "timestamp": "2021-05-20T16:04:28.424Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://mybbc-analytics.files.bbci.co.uk/analytics-remote-config/producers.json",
+      "query": null,
+      "filter": "/mybbc-analytics.",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.bbc.com/",
+            "source": "requested from https://www.bbc.com/ and matched with easyprivacy.txt filter /mybbc-analytics."
+          }
+        ],
+        "timestamp": "2021-05-20T16:04:28.423Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://mybbc-analytics.files.bbci.co.uk/echo-client-js/echo-12.17.0.min.js",
+      "query": null,
+      "filter": "/mybbc-analytics.",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.bbc.com/",
+            "source": "requested from https://www.bbc.com/ and matched with easyprivacy.txt filter /mybbc-analytics."
+          }
+        ],
+        "timestamp": "2021-05-20T16:04:28.140Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://static.files.bbci.co.uk/cookies/a0354f8a4a10eccc2923da437dcf04c8/cookie-banner/cookie-prompt/en.min.js?callback=cookiePrompt",
+      "query": {
+        "callback": "cookiePrompt"
+      },
+      "filter": "/cookie-banner",
+      "listName": "fanboy-annoyance.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.bbc.com/",
+            "source": "requested from https://www.bbc.com/ and matched with fanboy-annoyance.txt filter /cookie-banner"
+          }
+        ],
+        "timestamp": "2021-05-20T16:04:27.795Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://a4621041136.cdn.optimizely.com/client_storage/a4621041136.html",
+      "query": null,
+      "filter": "||optimizely.com^$third-party",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "",
+            "source": "requested from  and matched with easyprivacy.txt filter ||optimizely.com^$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T16:04:27.782Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://static.files.bbci.co.uk/cookies/a0354f8a4a10eccc2923da437dcf04c8/cookie-banner/cookie-prompt/bbccookies.min.css",
+      "query": null,
+      "filter": "/cookie-banner",
+      "listName": "fanboy-annoyance.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.bbc.com/",
+            "source": "requested from https://www.bbc.com/ and matched with fanboy-annoyance.txt filter /cookie-banner"
+          }
+        ],
+        "timestamp": "2021-05-20T16:04:27.535Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://mybbc-analytics.files.bbci.co.uk/reverb-client-js/smarttag-5.27.0.min.js",
+      "query": null,
+      "filter": "/mybbc-analytics.",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.bbc.com/",
+            "source": "requested from https://www.bbc.com/ and matched with easyprivacy.txt filter /mybbc-analytics."
+          }
+        ],
+        "timestamp": "2021-05-20T16:04:27.461Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://cdn.optimizely.com/public/4621041136/s/bbccom_prod.js",
+      "query": null,
+      "filter": "||optimizely.com^$third-party",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.bbc.com/",
+            "source": "requested from https://www.bbc.com/ and matched with easyprivacy.txt filter ||optimizely.com^$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T16:04:26.950Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://static.files.bbci.co.uk/cookies/a0354f8a4a10eccc2923da437dcf04c8/cookie-banner/cookie-banners.bundle.js",
+      "query": null,
+      "filter": "/cookie-banner",
+      "listName": "fanboy-annoyance.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.bbc.com/",
+            "source": "requested from https://www.bbc.com/ and matched with fanboy-annoyance.txt filter /cookie-banner"
+          }
+        ],
+        "timestamp": "2021-05-20T16:04:26.335Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://mybbc-analytics.files.bbci.co.uk/reverb-client-js/reverb-3.0.0.js",
+      "query": null,
+      "filter": "/mybbc-analytics.",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.bbc.com/",
+            "source": "requested from https://www.bbc.com/ and matched with easyprivacy.txt filter /mybbc-analytics."
+          }
+        ],
+        "timestamp": "2021-05-20T16:04:26.313Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://static.files.bbci.co.uk/cookies/a0354f8a4a10eccc2923da437dcf04c8/cookie-banner/cookie-library.bundle.js",
+      "query": null,
+      "filter": "/cookie-banner",
+      "listName": "fanboy-annoyance.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.bbc.com/",
+            "source": "requested from https://www.bbc.com/ and matched with fanboy-annoyance.txt filter /cookie-banner"
+          }
+        ],
+        "timestamp": "2021-05-20T16:04:26.312Z"
+      },
+      "occurrances": 1
+    }
+  ],
+  "hosts": {
+    "requests": {
+      "firstParty": [
+        "bbc.com"
+      ],
+      "thirdParty": [
+        "www.bbc.com",
+        "static.files.bbci.co.uk",
+        "nav.files.bbci.co.uk",
+        "mybbc-analytics.files.bbci.co.uk",
+        "gn-web-assets.api.bbc.com",
+        "ichef.bbc.co.uk",
+        "static.bbci.co.uk",
+        "cdn.optimizely.com",
+        "idcta.api.bbc.co.uk",
+        "mybbc.files.bbci.co.uk",
+        "a4621041136.cdn.optimizely.com",
+        "emp.bbci.co.uk",
+        "a1.api.bbc.co.uk",
+        "emp.bbc.com",
+        "static.chartbeat.com",
+        "ping.chartbeat.net",
+        "logx.optimizely.com",
+        "ychef.files.bbci.co.uk",
+        "ychef.gnl-live.bbcverticals.com"
+      ]
+    },
+    "beacons": {
+      "firstParty": [],
+      "thirdParty": [
+        "a1.api.bbc.co.uk",
+        "logx.optimizely.com",
+        "ping.chartbeat.net",
+        "static.chartbeat.com",
+        "mybbc-analytics.files.bbci.co.uk",
+        "a4621041136.cdn.optimizely.com",
+        "cdn.optimizely.com"
+      ]
+    },
+    "cookies": {
+      "firstParty": [
+        "bbc.com"
+      ],
+      "thirdParty": [
+        "www.bbc.com"
+      ]
+    },
+    "localStorage": {
+      "firstParty": [],
+      "thirdParty": [
+        "www.bbc.com",
+        "a4621041136.cdn.optimizely.com"
+      ]
+    },
+    "links": {
+      "firstParty": [
+        "bbc.com"
+      ],
+      "thirdParty": [
+        "www.bbc.com",
+        "www.bbc.co.uk",
+        "session.bbc.com",
+        "search.bbc.co.uk",
+        "www.bbcglobalnews.com"
+      ]
+    }
+  }
+}

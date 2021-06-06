@@ -1,0 +1,601 @@
+{
+  "title": "Website Evidence Collection",
+  "task_description": null,
+  "uri_ins": "https://researchgate.net",
+  "uri_refs": [
+    "https://researchgate.net"
+  ],
+  "uri_dest": "https://www.researchgate.net/",
+  "uri_redirects": [
+    "https://researchgate.net/"
+  ],
+  "secure_connection": {
+    "https_support": true,
+    "redirects": [
+      "https://researchgate.net/",
+      "https://www.researchgate.net/"
+    ],
+    "https_redirect": true
+  },
+  "host": "researchgate.net",
+  "script": {
+    "host": "sfod",
+    "version": {
+      "npm": "1.0.0",
+      "commit": null
+    },
+    "cmd_args": "-q --overwrite https://researchgate.net -- --ignore-certificate-errors",
+    "environment": {
+      "CHROME_DESKTOP": "code-url-handler.desktop"
+    },
+    "node_version": "v14.17.0"
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "HeadlessChrome/80.0.3987.0",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3617.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "5.8.0-53-generic"
+    },
+    "extra_headers": {},
+    "preset_cookies": {}
+  },
+  "start_time": "2021-05-20T16:26:04.443Z",
+  "end_time": "2021-05-20T16:26:12.859Z",
+  "links": {
+    "firstParty": [],
+    "thirdParty": [
+      {
+        "href": "https://www.researchgate.net/",
+        "inner_text": "",
+        "inner_html": "<img src=\"https://c5.rgstatic.net/m/419438641133902/images/icons/svgicons/new-index-logo.svg\" alt=\"ResearchGate\">"
+      },
+      {
+        "href": "https://www.researchgate.net/login?_sg=8ruQNQdUCTnHRL2h-qpOctOAFVBP_4oIhjNtlcy6VD4n19QcT8g5zLuYa-sJTEgcNtnkmFX2pSRiShjWTvLz6g",
+        "inner_text": "Log in",
+        "inner_html": "Log in"
+      },
+      {
+        "href": "https://www.researchgate.net/signup.SignUp.html?ev=su_chnl_index&_sg=NVTXIqbdPxx8Htk2850_lcCzgqZY-I6Q_hATd1Wuohdy6oKBfCaxLvzyg_nwI7UGAW3bWpMWbnsg55b_13vvaJs",
+        "inner_text": "Join for free",
+        "inner_html": "Join for free"
+      },
+      {
+        "href": "https://www.researchgate.net/connector/linkedin",
+        "inner_text": "Connect with LinkedIn",
+        "inner_html": "Connect with LinkedIn"
+      },
+      {
+        "href": "https://www.researchgate.net/connector/facebook",
+        "inner_text": "Connect with Facebook",
+        "inner_html": "Connect with Facebook"
+      },
+      {
+        "href": "https://www.researchgate.net/topic/engineering?_sg=DrOWfKV-MXP7oJx4W4sMrxgVowfuj4HHHoM1e93bAAI5KwQN-FyBBF38htJjiYvoEXiyicXx-E8dHeKdPeLFNA",
+        "inner_text": "Engineering",
+        "inner_html": "<span class=\"index-connect__keyword-name\">Engineering</span>"
+      },
+      {
+        "href": "https://www.researchgate.net/topic/Mathematics?_sg=37i8_9PMSvk7OcJ_pSIve6-hBvQNoz7MwKsUmqcJ0dGP6JdeqBfcZ4Wit9_vgO2qLFsr-UTBnLCCmYeYld0ggQ",
+        "inner_text": "Mathematics",
+        "inner_html": "<span class=\"index-connect__keyword-name\">Mathematics</span>"
+      },
+      {
+        "href": "https://www.researchgate.net/topic/biology?_sg=eQSwwvrjLRFKLzpARKxWap7YM-dsgGVu-SoIg8XjaKk2Ttvuyj7zbnmWsdZjcrbKv3LI-8C8WNFRivdzybi3CQ",
+        "inner_text": "Biology",
+        "inner_html": "<span class=\"index-connect__keyword-name\">Biology</span>"
+      },
+      {
+        "href": "https://www.researchgate.net/topic/Computer-Science?_sg=9wjnqigxWCcoIGQp_m_5bfjR_WevLWXTW_Pjo_BsjKwDrEV5gVmHabi-_Zg2L8gy-Ea4Q0VHyiaioyk1ZKqsWg",
+        "inner_text": "Computer Science",
+        "inner_html": "<span class=\"index-connect__keyword-name\">Computer Science</span>"
+      },
+      {
+        "href": "https://www.researchgate.net/topic/Climate-Change?_sg=On_tfq4eIIJ-jwW_27r1KeGxba8DmNppQNRq6U6RjLkle6zuFtqJWRtsXnEcZxgr4Czew0bRrMlPTnWGFrpI1A",
+        "inner_text": "Climate Change",
+        "inner_html": "<span class=\"index-connect__keyword-name\">Climate Change</span>"
+      },
+      {
+        "href": "https://www.researchgate.net/topic/Medicine?_sg=-vvMb6qOKjtiNIcqOLBmRADnBcMa6sxcxmxv7Z6NP7D7P-M47rtnGVCkLs5PIPVtTfUtqlKgi9-5VWUo2yWmAw",
+        "inner_text": "Medicine",
+        "inner_html": "<span class=\"index-connect__keyword-name\">Medicine</span>"
+      },
+      {
+        "href": "https://www.researchgate.net/topic/physics?_sg=rKL7QbPO7TAy3Ip0RJoTtrPA31Z_OVhZQ4kdj9reJjgqJuH3AQ9MExYp_7SuVd-UOG02LnRZJtoeGN5mKbe2iw",
+        "inner_text": "Physics",
+        "inner_html": "<span class=\"index-connect__keyword-name\">Physics</span>"
+      },
+      {
+        "href": "https://www.researchgate.net/topic/Social-Science?_sg=k911SpJsCP1YpwO1lML-n3vco3fm-VS7-FA8bqYM4KwXa10DiOXe1Iq2j6_T-G368M6701dKmQeWK4EC3r_9og",
+        "inner_text": "Social Science",
+        "inner_html": "<span class=\"index-connect__keyword-name\">Social Science</span>"
+      },
+      {
+        "href": "https://www.researchgate.net/topic/Astrophysics?_sg=4rDCKT3qd_vtcFFR1uJ_1Rdvk0I3xFBEeei29Gsz-18BtS7NeaMTsm_OikANWPRqPveUdD35TI4XYThhFc1Q_Q",
+        "inner_text": "Astrophysics",
+        "inner_html": "<span class=\"index-connect__keyword-name\">Astrophysics</span>"
+      },
+      {
+        "href": "https://www.researchgate.net/topic/Chemistry?_sg=6hvocuJfIafWAQo1b-Ke9HT1HBsLF-BkBpow2ISf94YIy5_gRri07u5WJ_PEqhTf6zzY7AYeq1b9vDt2ELxMNA",
+        "inner_text": "Chemistry",
+        "inner_html": "<span class=\"index-connect__keyword-name\">Chemistry</span>"
+      },
+      {
+        "href": "https://www.researchgate.net/scientific-recruitment?utm_source=researchgate&utm_medium=community-loggedout&utm_campaign=recruitment-focused-index-footer&utm_content=recruiting",
+        "inner_text": "Scientific Recruitment\nHire qualified researchers and build the best teams in science.\nFind out more",
+        "inner_html": "<div class=\"index-footer__card\"><div class=\"index-footer__img-container\"><img src=\"https://www.researchgate.net/images/footer-hiring@2x.jpg\" alt=\"Hire professionals\" class=\"index-footer__img\"></div><div class=\"index-footer__info\"><h3 class=\"index-footer__text\">Scientific Recruitment</h3><div class=\"index-footer__subtext\">Hire qualified researchers and build the best teams in science.</div><span class=\"index-footer__btn\"><span class=\"index-footer__btn-label\">Find out more</span></span></div></div>"
+      },
+      {
+        "href": "https://www.researchgate.net/marketing-solutions?utm_source=researchgate&utm_medium=community-loggedout&utm_campaign=recruitment-focused-index-footer&utm_content=advertising",
+        "inner_text": "Marketing Solutions\nGrow your brand's impact in the scientific community with the world's leading network for scientists.\nFind out more",
+        "inner_html": "<div class=\"index-footer__card\"><div class=\"index-footer__img-container\"><img src=\"https://www.researchgate.net/images/footer-advertising@2x.jpg\" alt=\"Advertise to scientific community\" class=\"index-footer__img\"></div><div class=\"index-footer__info\"><h3 class=\"index-footer__text\">Marketing Solutions</h3><div class=\"index-footer__subtext\">Grow your brand's impact in the scientific community with the world's leading network for scientists.</div><span class=\"index-footer__btn\"><span class=\"index-footer__btn-label\">Find out more</span></span></div></div>"
+      },
+      {
+        "href": "https://www.researchgate.net/about",
+        "inner_text": "About us",
+        "inner_html": "<span>About us</span>"
+      },
+      {
+        "href": "https://www.researchgate.net/blog",
+        "inner_text": "News",
+        "inner_html": "<span>News</span>"
+      },
+      {
+        "href": "https://www.researchgate.net/careers",
+        "inner_text": "Careers",
+        "inner_html": "<span>Careers</span>"
+      },
+      {
+        "href": "https://www.researchgate.net/deref/https%3A%2F%2Fexplore.researchgate.net?forcePage=false",
+        "inner_text": "Help Center",
+        "inner_html": "<span>Help Center</span>"
+      },
+      {
+        "href": "https://www.researchgate.net/terms-of-service",
+        "inner_text": "Terms",
+        "inner_html": "<span>Terms</span>"
+      },
+      {
+        "href": "https://www.researchgate.net/privacy-policy",
+        "inner_text": "Privacy",
+        "inner_html": "<span>Privacy</span>"
+      },
+      {
+        "href": "https://www.researchgate.net/ip-policy",
+        "inner_text": "Copyright",
+        "inner_html": "<span>Copyright</span>"
+      },
+      {
+        "href": "https://www.researchgate.net/imprint",
+        "inner_text": "Imprint",
+        "inner_html": "<span>Imprint</span>"
+      },
+      {
+        "href": "https://www.researchgate.net/directory/profiles",
+        "inner_text": "Researchers",
+        "inner_html": "<span>Researchers</span>"
+      },
+      {
+        "href": "https://www.researchgate.net/topics",
+        "inner_text": "Q&A",
+        "inner_html": "<span>Q&amp;A</span>"
+      },
+      {
+        "href": "https://www.researchgate.net/directory/publications",
+        "inner_text": "Publications",
+        "inner_html": "<span>Publications</span>"
+      },
+      {
+        "href": "https://www.researchgate.net/jobs",
+        "inner_text": "Jobs",
+        "inner_html": "<span>Jobs</span>"
+      },
+      {
+        "href": "https://www.researchgate.net/scientific-recruitment?utm_source=researchgate&utm_medium=community-loggedout&utm_campaign=recruitment-focused-index-footer&utm_content=recruiting&_sg=-JQaPH8WzRqfC7aJry4NxEaZdUedIfZp0jGptluhzgAR7NbJZHXlwuJRLSzFasUlIXf9Ih6riPPWYhh9LyF9P8JcqrFG",
+        "inner_text": "Recruiting",
+        "inner_html": "<span>Recruiting</span>"
+      }
+    ],
+    "social": [],
+    "keywords": [
+      {
+        "href": "https://www.researchgate.net/login?_sg=8ruQNQdUCTnHRL2h-qpOctOAFVBP_4oIhjNtlcy6VD4n19QcT8g5zLuYa-sJTEgcNtnkmFX2pSRiShjWTvLz6g",
+        "inner_text": "Log in",
+        "inner_html": "Log in"
+      },
+      {
+        "href": "https://www.researchgate.net/privacy-policy",
+        "inner_text": "Privacy",
+        "inner_html": "<span>Privacy</span>"
+      }
+    ]
+  },
+  "unsafeForms": [],
+  "browsing_history": [
+    "https://www.researchgate.net/"
+  ],
+  "websockets": {},
+  "cookies": [
+    {
+      "name": "ptc",
+      "value": "RG1.5077277922561338554.1621527965",
+      "domain": "www.researchgate.net",
+      "path": "/",
+      "expires": 1684599965.419391,
+      "size": 37,
+      "httpOnly": true,
+      "secure": true,
+      "session": false,
+      "expiresUTC": "2023-05-20T16:26:05.419Z",
+      "expiresDays": 730,
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.researchgate.net/",
+            "source": "set in Set-Cookie HTTP response header for https://www.researchgate.net/"
+          }
+        ],
+        "type": "Cookie.HTTP",
+        "timestamp": "2021-05-20T16:26:05.422Z",
+        "location": "about:blank"
+      },
+      "firstPartyStorage": false
+    },
+    {
+      "name": "did",
+      "value": "Nn1QUH1NLueD6Zl3VdQJp6e3L3fNa28tsRC05AGwUSz1dBEsduGAIX44cmDRw7ab",
+      "domain": "www.researchgate.net",
+      "path": "/",
+      "expires": 1653063965.419281,
+      "size": 67,
+      "httpOnly": true,
+      "secure": true,
+      "session": false,
+      "expiresUTC": "2022-05-20T16:26:05.419Z",
+      "expiresDays": 365,
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.researchgate.net/",
+            "source": "set in Set-Cookie HTTP response header for https://www.researchgate.net/"
+          }
+        ],
+        "type": "Cookie.HTTP",
+        "timestamp": "2021-05-20T16:26:05.422Z",
+        "location": "about:blank"
+      },
+      "firstPartyStorage": false
+    },
+    {
+      "name": "test_cookie",
+      "value": "CheckForPermission",
+      "domain": "doubleclick.net",
+      "path": "/",
+      "expires": 1621528866.013933,
+      "size": 29,
+      "httpOnly": true,
+      "secure": true,
+      "session": false,
+      "sameSite": "None",
+      "expiresUTC": "2021-05-20T16:41:06.013Z",
+      "expiresDays": 0.01,
+      "firstPartyStorage": false
+    },
+    {
+      "name": "sid",
+      "value": "nX1bA4ZZ3bMYI9qKFLO8xJhkgwWbbZK1O0VJtT3abg9Aa1GNGfGvlYgP0weWzcFGd5zjuDfUsWD800il6j1BC8bb2fLcEgl50ZYu05GgbmARmRD6SGy739NK420WOyTN",
+      "domain": "www.researchgate.net",
+      "path": "/",
+      "expires": -1,
+      "size": 131,
+      "httpOnly": true,
+      "secure": true,
+      "session": true,
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.researchgate.net/",
+            "source": "set in Set-Cookie HTTP response header for https://www.researchgate.net/"
+          }
+        ],
+        "type": "Cookie.HTTP",
+        "timestamp": "2021-05-20T16:26:05.422Z",
+        "location": "about:blank"
+      },
+      "firstPartyStorage": false
+    }
+  ],
+  "localStorage": {
+    "https://www.researchgate.net": {
+      "Rg-Request-Token": {
+        "value": "aad-pMCBMl84kqerTkAK/5Ajg7iqIm6tUEnjJdz2n2g9td5rCGXlNtrq45DUAPdf8oZXl/tdYIqcq0JFaujUVVd/9nJZj0tKorVqob6FD7PaLjKQ0LkPPTS2yPKXLaZ7b1JQuVai0QIFw1sarvV2uBW4DxrX/O8G3W1AeK3nfClcq5CzchSR4D3o6zXhfuMw/iNRQ/E2GJnjciNnfWiBuu/zWwsx9KPhq9wBFZl4Ke5wIBGQuUsm3gz4jY1pX70cVC5mqyWpyOeZ3nomz+mk6P4=",
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 342325,
+              "lineNumber": 1,
+              "fileName": "https://c5.rgstatic.net/javascript/bundles/common.e3ee2d.js",
+              "functionName": "t.n.init",
+              "source": "    at t.n.init (https://c5.rgstatic.net/javascript/bundles/common.e3ee2d.js:1:342325)"
+            },
+            {
+              "columnNumber": 61777,
+              "lineNumber": 1,
+              "fileName": "https://c5.rgstatic.net/javascript/bundles/bootstrap.446a84.js",
+              "functionName": "Module.5114",
+              "source": "    at Module.5114 (https://c5.rgstatic.net/javascript/bundles/bootstrap.446a84.js:1:61777)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T16:26:06.199Z",
+          "location": "https://www.researchgate.net/"
+        }
+      },
+      "CMPList": {
+        "value": {
+          "lastUpdated": "2021-05-06T17:03:14Z",
+          "CMP": [
+            "2",
+            "3",
+            "5",
+            "6",
+            "7",
+            "9",
+            "10",
+            "14",
+            "18",
+            "21",
+            "23",
+            "25",
+            "27",
+            "28",
+            "30",
+            "31",
+            "38",
+            "44",
+            "45",
+            "46",
+            "47",
+            "50",
+            "54",
+            "58",
+            "59",
+            "61",
+            "63",
+            "65",
+            "68",
+            "69",
+            "72",
+            "76",
+            "77",
+            "79",
+            "84",
+            "90",
+            "92",
+            "96",
+            "104",
+            "105",
+            "113",
+            "123",
+            "125",
+            "129",
+            "134",
+            "141",
+            "162",
+            "167",
+            "168",
+            "170",
+            "171",
+            "181",
+            "185",
+            "193",
+            "198",
+            "212",
+            "217",
+            "218",
+            "221",
+            "222",
+            "224",
+            "225",
+            "227",
+            "229",
+            "231",
+            "235",
+            "236",
+            "237",
+            "242",
+            "246",
+            "247",
+            "252",
+            "258",
+            "259",
+            "264",
+            "273",
+            "277",
+            "279",
+            "280",
+            "282",
+            "284",
+            "287",
+            "291",
+            "292",
+            "294",
+            "297",
+            "299",
+            "300",
+            "302",
+            "303",
+            "304",
+            "305",
+            "306",
+            "307",
+            "308",
+            "309",
+            "310",
+            "312",
+            "316",
+            "318",
+            "319",
+            "321",
+            "322",
+            "323",
+            "327",
+            "329",
+            "330",
+            "332",
+            "335",
+            "338",
+            "339",
+            "343",
+            "345",
+            "348",
+            "350",
+            "351",
+            "352",
+            "353",
+            "355",
+            "358",
+            "359",
+            "360",
+            "361",
+            "367",
+            "369"
+          ],
+          "expiry": 1621787166737
+        },
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 229558,
+              "lineNumber": 1,
+              "fileName": "https://quantcast.mgr.consensu.org/tcfv2/23/cmp2.js",
+              "functionName": "e.value",
+              "source": "    at e.value (https://quantcast.mgr.consensu.org/tcfv2/23/cmp2.js:1:229558)"
+            },
+            {
+              "columnNumber": 229780,
+              "lineNumber": 1,
+              "fileName": "https://quantcast.mgr.consensu.org/tcfv2/23/cmp2.js",
+              "functionName": "e.value",
+              "source": "    at e.value (https://quantcast.mgr.consensu.org/tcfv2/23/cmp2.js:1:229780)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T16:26:06.824Z",
+          "location": "https://www.researchgate.net/"
+        }
+      }
+    }
+  },
+  "beacons": [
+    {
+      "url": "https://audit-tcfv2.quantcast.mgr.consensu.org/?log=%7B%22accountId%22%3A%22AaqDBHcavs6a0%22%2C%22domain%22%3A%22www.researchgate.net%22%2C%22publisher%22%3A%22ResearchGate%22%2C%22cmpId%22%3A10%2C%22cmpVersion%22%3A%222.23%22%2C%22displayType%22%3A%22tcfui%3Amandatory%22%2C%22configurationHashCode%22%3A%22masj86br8fU43ukN6bulCQ%22%2C%22clientTimestamp%22%3A1621527967005%2C%22operationType%22%3A%22init%22%2C%22sessionId%22%3A%22GDPR-31mj9kkqjevggvmwiizn%22%7D",
+      "query": {
+        "log": {
+          "accountId": "AaqDBHcavs6a0",
+          "domain": "www.researchgate.net",
+          "publisher": "ResearchGate",
+          "cmpId": 10,
+          "cmpVersion": "2.23",
+          "displayType": "tcfui:mandatory",
+          "configurationHashCode": "masj86br8fU43ukN6bulCQ",
+          "clientTimestamp": 1621527967005,
+          "operationType": "init",
+          "sessionId": "GDPR-31mj9kkqjevggvmwiizn"
+        }
+      },
+      "filter": "||consensu.org/?log=",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.researchgate.net/",
+            "source": "requested from https://www.researchgate.net/ and matched with easyprivacy.txt filter ||consensu.org/?log="
+          }
+        ],
+        "timestamp": "2021-05-20T16:26:07.025Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://pubads.g.doubleclick.net/activity;dc_iu=/83500759/DFPAudiencePixel;ord=6419420697935.186;dc_seg=132570010?",
+      "query": null,
+      "filter": "||doubleclick.net/activity$third-party",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.researchgate.net/",
+            "source": "requested from https://www.researchgate.net/ and matched with easyprivacy.txt filter ||doubleclick.net/activity$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T16:26:05.836Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://www.researchgate.net/javascript/cookie-consent/cookie-consent.js?rnd=1621527965801",
+      "query": {
+        "rnd": 1621527965801
+      },
+      "filter": "/cookie-consent.",
+      "listName": "fanboy-annoyance.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.researchgate.net/",
+            "source": "requested from https://www.researchgate.net/ and matched with fanboy-annoyance.txt filter /cookie-consent."
+          }
+        ],
+        "timestamp": "2021-05-20T16:26:05.810Z"
+      },
+      "occurrances": 1
+    }
+  ],
+  "hosts": {
+    "requests": {
+      "firstParty": [
+        "researchgate.net"
+      ],
+      "thirdParty": [
+        "www.researchgate.net",
+        "c5.rgstatic.net",
+        "fonts.googleapis.com",
+        "fonts.gstatic.com",
+        "quantcast.mgr.consensu.org",
+        "pubads.g.doubleclick.net",
+        "test.quantcast.mgr.consensu.org",
+        "audit-tcfv2.quantcast.mgr.consensu.org"
+      ]
+    },
+    "beacons": {
+      "firstParty": [],
+      "thirdParty": [
+        "audit-tcfv2.quantcast.mgr.consensu.org",
+        "pubads.g.doubleclick.net"
+      ]
+    },
+    "cookies": {
+      "firstParty": [],
+      "thirdParty": [
+        "www.researchgate.net",
+        "doubleclick.net"
+      ]
+    },
+    "localStorage": {
+      "firstParty": [],
+      "thirdParty": [
+        "www.researchgate.net"
+      ]
+    },
+    "links": {
+      "firstParty": [],
+      "thirdParty": [
+        "www.researchgate.net"
+      ]
+    }
+  }
+}

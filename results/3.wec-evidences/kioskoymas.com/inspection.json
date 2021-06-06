@@ -1,0 +1,699 @@
+{
+  "title": "Website Evidence Collection",
+  "task_description": null,
+  "uri_ins": "https://kioskoymas.com",
+  "uri_refs": [
+    "https://kioskoymas.com"
+  ],
+  "uri_dest": "https://www.kioskoymas.com/",
+  "uri_redirects": [
+    "https://kioskoymas.com/"
+  ],
+  "secure_connection": {
+    "https_support": true,
+    "redirects": [
+      "https://www.kioskoymas.com/"
+    ],
+    "https_redirect": true
+  },
+  "host": "kioskoymas.com",
+  "script": {
+    "host": "sfod",
+    "version": {
+      "npm": "1.0.0",
+      "commit": null
+    },
+    "cmd_args": "-q --overwrite https://kioskoymas.com -- --ignore-certificate-errors",
+    "environment": {
+      "CHROME_DESKTOP": "code-url-handler.desktop"
+    },
+    "node_version": "v14.17.0"
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "HeadlessChrome/80.0.3987.0",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3617.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "5.8.0-53-generic"
+    },
+    "extra_headers": {},
+    "preset_cookies": {}
+  },
+  "start_time": "2021-05-20T15:31:54.696Z",
+  "end_time": "2021-05-20T15:32:05.320Z",
+  "links": {
+    "firstParty": [],
+    "thirdParty": [
+      {
+        "href": "https://www.kioskoymas.com/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\tlogo\t\t\t\t\t\t\t",
+        "inner_html": "<svg id=\"ad38f50b-db25-4c20-8d7e-7b41681e87f3\" data-name=\"Capa 1\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 164.23 50.12\"><title>logo</title><polygon points=\"73.25 12.36 82.03 2.75 77.23 2.75 69.63 11.15 69.63 2.75 66.08 2.75 66.08 23.12 69.63 23.12 69.63 16.3 70.88 14.95 77.93 23.15 82.63 23.15 73.25 12.36\" style=\"fill:#1c1c1b\"></polygon><rect x=\"85.02\" y=\"2.74\" width=\"3.55\" height=\"20.4\" style=\"fill:#1c1c1b\"></rect><path d=\"M100.38,2.46c-6.2,0-9.48,3.62-9.48,10.47s3.28,10.47,9.48,10.47,9.51-3.62,9.51-10.47S106.6,2.46,100.38,2.46Zm5.93,10.47c0,5-1.72,7-5.93,7s-5.93-2-5.93-7,1.72-7,5.93-7S106.31,8,106.31,12.93Z\" style=\"fill:#1c1c1b\"></path><path d=\"M119.08,10.88l-.2.71h0l.2-.71c-2.36-.68-3.69-1.12-3.69-2.4C115.39,6.84,116.61,6,119,6a9,9,0,0,1,4.21,1l1.58.82V4l-.61-.3a12.29,12.29,0,0,0-5.32-1.21,7.44,7.44,0,0,0-5.46,1.9,5.75,5.75,0,0,0-1.63,4.12c0,4,3.56,5,6.16,5.74s4.25,1.29,4.25,3.19c0,2.13-2.49,2.45-4,2.45a9.84,9.84,0,0,1-4.92-1.22l-1.61-.92v4l.61.29a13.47,13.47,0,0,0,6,1.36c4.53,0,7.46-2.35,7.46-6C125.8,12.8,122.08,11.73,119.08,10.88Z\" style=\"fill:#1c1c1b\"></path><polygon points=\"144.24 2.75 139.44 2.75 131.83 11.15 131.83 2.75 128.29 2.75 128.29 23.12 131.83 23.12 131.83 16.3 133.08 14.95 140.14 23.15 144.84 23.15 135.46 12.36 144.24 2.75\" style=\"fill:#1c1c1b\"></polygon><path d=\"M153.73,2.46c-6.2,0-9.48,3.62-9.48,10.47s3.28,10.47,9.48,10.47,9.51-3.62,9.51-10.47S160,2.46,153.73,2.46Zm5.93,10.47c0,5-1.72,7-5.93,7s-5.93-2-5.93-7,1.72-7,5.93-7S159.66,8,159.66,12.93Z\" style=\"fill:#1c1c1b\"></path><polygon points=\"77.95 32.95 73.7 39.42 69.45 32.96 66.04 32.96 72.29 42.31 72.3 49.4 75.14 49.39 75.13 42.31 81.32 32.94 77.95 32.95\" style=\"fill:#be1521\"></polygon><polygon points=\"117.1 28.98 121.16 28.97 121.15 26.94 117.1 28.98\" style=\"fill:#be1521\"></polygon><polygon points=\"97.91 38 91.69 28.96 88.54 28.96 88.56 49.36 92.11 49.36 92.09 35.79 97.92 44.11 103.72 35.77 103.74 49.34 107.32 49.34 107.29 28.94 104.11 28.94 97.91 38\" style=\"fill:#1c1c1b\"></polygon><path d=\"M137.86,37l-.2.71h0l.2-.71c-2.36-.67-3.69-1.12-3.69-2.4,0-1.64,1.21-2.47,3.62-2.47a9.21,9.21,0,0,1,4.22,1l1.58.82v-3.9l-.61-.29a12.21,12.21,0,0,0-5.32-1.21,7.41,7.41,0,0,0-5.46,1.91,5.75,5.75,0,0,0-1.63,4.12c0,4,3.57,5,6.17,5.73S141,41.65,141,43.56c0,2.12-2.49,2.44-4,2.45a9.84,9.84,0,0,1-4.92-1.22l-1.61-.91v4l.6.29a13.48,13.48,0,0,0,6,1.35c4.53,0,7.46-2.36,7.45-6C144.59,38.94,140.86,37.88,137.86,37Z\" style=\"fill:#1c1c1b\"></path><path d=\"M117.17,30.18l-.18.46q-1.65,4-3.27,8.06l0,.09c-1.2,3-2.44,6-3.68,9.06l-.6,1.48h3.87l2.29-5.79h7.11c.27.64.52,1.29.78,1.94l0,.08c.44,1.1.84,2.1,1.26,3.1l.28.66h3.82L121,30.18ZM117,40.05l2.15-5.44L121.29,40Z\" style=\"fill:#1c1c1b\"></path><path d=\"M25.58.48A24.58,24.58,0,1,0,50.16,25.06,24.57,24.57,0,0,0,25.58.48ZM22.93,38.23,17.1,29.61l-2.35,2.62v6H8.32V15h6.43v9.41l8-9.41h7.63L21.57,25l9.09,13.23ZM39.81,19.4v4.47H35.29V19.4h-4.4V17.11L32.72,15h2.57V10.55h4.52V15h4.4V19.4Z\" style=\"fill:#be1521\"></path></svg>"
+      },
+      {
+        "href": "https://www.kioskoymas.com/catalogo",
+        "inner_text": "Publicaciones",
+        "inner_html": "<strong>Publicaciones</strong>"
+      },
+      {
+        "href": "https://www.kioskoymas.com/catalogo/filtro/periodicos",
+        "inner_text": "Periódicos",
+        "inner_html": "Periódicos"
+      },
+      {
+        "href": "https://www.kioskoymas.com/catalogo/filtro/revistas",
+        "inner_text": "Revistas",
+        "inner_html": "Revistas"
+      },
+      {
+        "href": "https://www.kioskoymas.com/titulares/fecha/20-05-2021",
+        "inner_text": "Titulares",
+        "inner_html": "<strong>Titulares</strong>"
+      },
+      {
+        "href": "https://www.kioskoymas.com/codigospromocionales",
+        "inner_text": "Canjea tu código",
+        "inner_html": "<strong>Canjea tu código</strong>"
+      },
+      {
+        "href": "https://www.kioskoymas.com/edicionimpresa",
+        "inner_text": "Suscriptor Edición\n\t\t\t\t\t\t\t\t\t\tImpresa",
+        "inner_html": "<strong>Suscriptor Edición\n\t\t\t\t\t\t\t\t\t\tImpresa</strong>"
+      },
+      {
+        "href": "https://www.kioskoymas.com/ofertas",
+        "inner_text": "Ofertas",
+        "inner_html": "<strong>Ofertas</strong>"
+      },
+      {
+        "href": "https://www.kioskoymas.com/tarifas",
+        "inner_text": "Tarifas",
+        "inner_html": "<strong>Tarifas</strong>"
+      },
+      {
+        "href": "https://www.kioskoymas.com/ofertas/empresa",
+        "inner_text": "Empresas",
+        "inner_html": "Empresas"
+      },
+      {
+        "href": "https://www.kioskoymas.com/colaboradores",
+        "inner_text": "Partners",
+        "inner_html": "Partners"
+      },
+      {
+        "href": "https://www.kioskoymas.com/contactar",
+        "inner_text": "Contacto",
+        "inner_html": "Contacto"
+      },
+      {
+        "href": "https://es-es.facebook.com/kioskoymas",
+        "inner_text": "Kiosko y más en Facebook",
+        "inner_html": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 32 32\"><title>Kiosko y más en Facebook</title><circle cx=\"16\" cy=\"16\" r=\"16\" style=\"fill:#fff;opacity:0.1\"></circle><g style=\"opacity:0.30000000000000004\"><path id=\"bc159c79-944d-463b-8519-fb079ca8d9d6\" data-name=\"Facebook\" d=\"M13.49,10.19V12.8H11.58V16h1.91v9.49h3.93V16h2.63s.25-1.53.37-3.2h-3V10.61a.93.93,0,0,1,.85-.77h2.14V6.52H17.51C13.39,6.52,13.49,9.72,13.49,10.19Z\" style=\"fill:#fff\"></path></g></svg>"
+      },
+      {
+        "href": "https://twitter.com/kioskoymas",
+        "inner_text": "Kiosko y más en Twitter",
+        "inner_html": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 32 32\"><title>Kiosko y más en Twitter</title><circle cx=\"16\" cy=\"16\" r=\"16\" style=\"fill:#fff;opacity:0.1\"></circle><g style=\"opacity:0.30000000000000004\"><path d=\"M24.78,10.64a7.13,7.13,0,0,1-2.06.55,3.66,3.66,0,0,0,1.59-2,7.25,7.25,0,0,1-2.29.85,3.59,3.59,0,0,0-6.22,2.41,3.68,3.68,0,0,0,.09.82A10.21,10.21,0,0,1,8.52,9.5,3.65,3.65,0,0,0,8,11.3a3.6,3.6,0,0,0,1.58,3A3.43,3.43,0,0,1,8,13.83v.05a3.58,3.58,0,0,0,2.85,3.54,3.69,3.69,0,0,1-.95.12,4.9,4.9,0,0,1-.67-.07A3.59,3.59,0,0,0,12.54,20a7.15,7.15,0,0,1-4.47,1.5,8.08,8.08,0,0,1-.85-.05A10.2,10.2,0,0,0,23,13c0-.16,0-.31,0-.47a7.32,7.32,0,0,0,1.8-1.84Zm0,0\" style=\"fill:#fff\"></path></g></svg>"
+      },
+      {
+        "href": "https://www.linkedin.com/company/2970228",
+        "inner_text": "Kiosko y más en Linkedin",
+        "inner_html": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 32 32\"><title>Kiosko y más en Linkedin</title><circle cx=\"16\" cy=\"16\" r=\"16\" style=\"fill:#fff;opacity:0.1\"></circle><g style=\"opacity:0.30000000000000004\"><path id=\"a1cc01ec-1662-448f-9b78-4935c6c5971f\" data-name=\"LinkedIn\" d=\"M24.85,16.91v6.55H21.06V17.35c0-1.53-.55-2.58-1.93-2.58a2.08,2.08,0,0,0-1.94,1.39,2.56,2.56,0,0,0-.13.92v6.38H13.27s.05-10.34,0-11.42h3.79v1.62l0,0h0v0a3.79,3.79,0,0,1,3.42-1.88C23,11.78,24.85,13.41,24.85,16.91ZM9.3,6.54a2,2,0,1,0-.05,4h0a2,2,0,1,0,0-3.95ZM7.38,23.46h3.79V12H7.38Z\" style=\"fill:#fff\"></path></g></svg>"
+      },
+      {
+        "href": "https://www.kioskoymas.com/ofertas/premium",
+        "inner_text": "PREMIUM",
+        "inner_html": "PREMIUM"
+      },
+      {
+        "href": "https://www.kioskoymas.com/carrito/resumen",
+        "inner_text": "",
+        "inner_html": "<span id=\"carrito_elementos\">\n\t\t\t\t\t\t\t\t\t\t\t<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 35 35\"><title>Carrito de la compra</title><circle cx=\"17.5\" cy=\"17.5\" r=\"14.65\" style=\"fill:#be1521;opacity:0.33\" class=\"back\"></circle><path d=\"M17.5,32.9A15.4,15.4,0,1,1,32.9,17.5,15.42,15.42,0,0,1,17.5,32.9Zm0-29.3A13.9,13.9,0,1,0,31.4,17.5,13.91,13.91,0,0,0,17.5,3.6Z\" style=\"fill:#be1521\"></path><polygon points=\"24.38 20.86 13 20.86 11.35 10.49 9.54 10.49 9.54 8.99 12.63 8.99 14.28 19.36 23.05 19.36 23.77 13.04 16.2 13.04 16.2 11.54 25.46 11.54 24.38 20.86\" style=\"fill:#be1521\"></polygon><circle cx=\"14.83\" cy=\"24.27\" r=\"1.74\" style=\"fill:#be1521\"></circle><circle cx=\"22.2\" cy=\"24.27\" r=\"1.74\" style=\"fill:#be1521\"></circle></svg>\t\t\t\t\t\t\t\t<span class=\"carrito_counter bg-primary\" id=\"carrito_counter\" hidden=\"\">0</span>\n\t\t\t\t\t\t\t\t</span>"
+      },
+      {
+        "href": "https://www.kioskoymas.com/login",
+        "inner_text": "",
+        "inner_html": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 35 35\"><title>Perfil de usuario</title><circle cx=\"17.5\" cy=\"17.5\" r=\"14.65\" style=\"fill:#be1521;opacity:0.33\" class=\"back\"></circle><path d=\"M22.17,21.11A6.84,6.84,0,1,0,12.89,21a8.83,8.83,0,0,0-3.42,4.14l1.4.55A7.23,7.23,0,0,1,14.19,22a6.78,6.78,0,0,0,6.66,0,7.32,7.32,0,0,1,3.28,3.7l1.4-.55A8.77,8.77,0,0,0,22.17,21.11Zm-9.94-5a5.34,5.34,0,1,1,5.33,5.33A5.34,5.34,0,0,1,12.23,16.08Z\" style=\"fill:#be1521\"></path><path d=\"M17.5,32.9A15.4,15.4,0,1,1,32.9,17.5,15.42,15.42,0,0,1,17.5,32.9Zm0-29.3A13.9,13.9,0,1,0,31.4,17.5,13.91,13.91,0,0,0,17.5,3.6Z\" style=\"fill:#be1521\"></path></svg>"
+      },
+      {
+        "href": "https://www.kioskoymas.com/inbox",
+        "inner_text": "",
+        "inner_html": "<span class=\"inbox_counter bg-primary\" id=\"inbox_counter\" hidden=\"\" style=\"display: none;\">0</span>"
+      },
+      {
+        "href": "https://www.kioskoymas.com/micuenta",
+        "inner_text": "Mi cuenta",
+        "inner_html": "Mi cuenta"
+      },
+      {
+        "href": "https://www.kioskoymas.com/micarpeta",
+        "inner_text": "Mis suscripciones",
+        "inner_html": "Mis suscripciones"
+      },
+      {
+        "href": "https://www.kioskoymas.com/logout",
+        "inner_text": "Cerrar sesión",
+        "inner_html": "Cerrar sesión"
+      },
+      {
+        "href": "https://www.kioskoymas.com/catalogo/prensa-generalista",
+        "inner_text": "Generalista",
+        "inner_html": "Generalista"
+      },
+      {
+        "href": "https://www.kioskoymas.com/catalogo/prensa-deportiva",
+        "inner_text": "Deportiva",
+        "inner_html": "Deportiva"
+      },
+      {
+        "href": "https://www.kioskoymas.com/catalogo/prensa-econ%C3%B3mica",
+        "inner_text": "Económica",
+        "inner_html": "Económica"
+      },
+      {
+        "href": "https://www.kioskoymas.com/catalogo/prensa-internacional",
+        "inner_text": "Internacional",
+        "inner_html": "Internacional"
+      },
+      {
+        "href": "https://www.kioskoymas.com/catalogo/revistas-actualidad-y-finanzas",
+        "inner_text": "Actualidad y\n\t\t\t\t\t\t\t\tFinanzas",
+        "inner_html": "Actualidad y\n\t\t\t\t\t\t\t\tFinanzas"
+      },
+      {
+        "href": "https://www.kioskoymas.com/catalogo/revistas-caza-y-pesca",
+        "inner_text": "Caza y Pesca",
+        "inner_html": "Caza y Pesca"
+      },
+      {
+        "href": "https://www.kioskoymas.com/catalogo/revistas-cocina",
+        "inner_text": "Cocina",
+        "inner_html": "Cocina"
+      },
+      {
+        "href": "https://www.kioskoymas.com/catalogo/revistas-coraz%C3%B3n",
+        "inner_text": "Corazón",
+        "inner_html": "Corazón"
+      },
+      {
+        "href": "https://www.kioskoymas.com/catalogo/revistas-cultura-y-divulgaci%C3%B3n",
+        "inner_text": "Cultura y\n\t\t\t\t\t\t\t\tDivulgación",
+        "inner_html": "Cultura y\n\t\t\t\t\t\t\t\tDivulgación"
+      },
+      {
+        "href": "https://www.kioskoymas.com/catalogo/revistas-deportes",
+        "inner_text": "Deportes",
+        "inner_html": "Deportes"
+      },
+      {
+        "href": "https://www.kioskoymas.com/catalogo/revistas-entretenimiento",
+        "inner_text": "Entretenimiento",
+        "inner_html": "Entretenimiento"
+      },
+      {
+        "href": "https://www.kioskoymas.com/catalogo/revistas-estilo-de-vida",
+        "inner_text": "Estilo de vida",
+        "inner_html": "Estilo de vida"
+      },
+      {
+        "href": "https://www.kioskoymas.com/catalogo/revistas-femeninas",
+        "inner_text": "Femeninas",
+        "inner_html": "Femeninas"
+      },
+      {
+        "href": "https://www.kioskoymas.com/catalogo/revistas-hogar-y-decoraci%C3%B3n",
+        "inner_text": "Hogar y Decoración",
+        "inner_html": "Hogar y Decoración"
+      },
+      {
+        "href": "https://www.kioskoymas.com/catalogo/revistas-infantiles",
+        "inner_text": "Infantiles",
+        "inner_html": "Infantiles"
+      },
+      {
+        "href": "https://www.kioskoymas.com/catalogo/revistas-masculinas",
+        "inner_text": "Masculinas",
+        "inner_html": "Masculinas"
+      },
+      {
+        "href": "https://www.kioskoymas.com/catalogo/revistas-motor",
+        "inner_text": "Motor",
+        "inner_html": "Motor"
+      },
+      {
+        "href": "https://www.kioskoymas.com/catalogo/revistas-m%C3%BAsica",
+        "inner_text": "Música",
+        "inner_html": "Música"
+      },
+      {
+        "href": "https://www.kioskoymas.com/catalogo/revistas-ongs",
+        "inner_text": "ONGs",
+        "inner_html": "ONGs"
+      },
+      {
+        "href": "https://www.kioskoymas.com/catalogo/revistas-profesionales",
+        "inner_text": "Profesionales",
+        "inner_html": "Profesionales"
+      },
+      {
+        "href": "https://www.kioskoymas.com/catalogo/revistas-religi%C3%B3n",
+        "inner_text": "Religión",
+        "inner_html": "Religión"
+      },
+      {
+        "href": "https://www.kioskoymas.com/catalogo/revistas-tecnolog%C3%ADa",
+        "inner_text": "Tecnología",
+        "inner_html": "Tecnología"
+      },
+      {
+        "href": "https://www.kioskoymas.com/catalogo/revistas-viajes-e-historia",
+        "inner_text": "Viajes e Historia",
+        "inner_html": "Viajes e Historia"
+      },
+      {
+        "href": "https://www.kioskoymas.com/fastpurchase?code=FLASH20212019&tag=kym_retargeting-Ofertas_Flash_2021-cid2019",
+        "inner_text": "",
+        "inner_html": ""
+      },
+      {
+        "href": "https://www.kioskoymas.com/fastpurchase?code=FLASH20212317&tag=kym_retargeting-Ofertas_Flash_2021-cid2317",
+        "inner_text": "",
+        "inner_html": ""
+      },
+      {
+        "href": "https://www.kioskoymas.com/fastpurchase?code=FLASH20212248&tag=kym_retargeting-Ofertas_Flash_2021-cid2248",
+        "inner_text": "",
+        "inner_html": ""
+      },
+      {
+        "href": "https://www.kioskoymas.com/fastpurchase?code=FLASH20212488&tag=kym_retargeting-Ofertas_Flash_2021-cid2488",
+        "inner_text": "",
+        "inner_html": ""
+      },
+      {
+        "href": "https://www.kioskoymas.com/fastpurchase?code=FLASH2021E07702&tag=kym_retargeting-Ofertas_Flash_2021_luike-cide077",
+        "inner_text": "",
+        "inner_html": ""
+      },
+      {
+        "href": "https://www.kioskoymas.com/fastpurchase?code=FLASH2021E081&tag=kym_retargeting-Ofertas_Flash_2021_luike-cide081",
+        "inner_text": "",
+        "inner_html": ""
+      },
+      {
+        "href": "https://www.kioskoymas.com/ofertas/premium?tag=kym_retargeting-kym_promociones-cidayce",
+        "inner_text": "",
+        "inner_html": ""
+      },
+      {
+        "href": "https://www.kioskoymas.com/fastpurchase?code=FLASH2021E688475&tag=kym_retargeting-Ofertas_Flash_2021_002-cide688",
+        "inner_text": "",
+        "inner_html": ""
+      },
+      {
+        "href": "https://www.kioskoymas.com/publicacion/portada/cincodias/2248",
+        "inner_text": "",
+        "inner_html": ""
+      },
+      {
+        "href": "https://www.kioskoymas.com/publicacion/portada/lavanguardia/2065",
+        "inner_text": "",
+        "inner_html": ""
+      },
+      {
+        "href": "https://www.kioskoymas.com/publicacion/portada/hoy/2201",
+        "inner_text": "",
+        "inner_html": ""
+      },
+      {
+        "href": "https://www.kioskoymas.com/publicacion/portada/larioja/2197",
+        "inner_text": "",
+        "inner_html": ""
+      },
+      {
+        "href": "https://www.kioskoymas.com/publicacion/portada/abc/2019",
+        "inner_text": "",
+        "inner_html": ""
+      },
+      {
+        "href": "https://www.kioskoymas.com/publicacion/portada/elpais/2317",
+        "inner_text": "",
+        "inner_html": ""
+      },
+      {
+        "href": "https://www.kioskoymas.com/publicacion/portada/heraldodearagon/3746",
+        "inner_text": "",
+        "inner_html": ""
+      },
+      {
+        "href": "https://www.kioskoymas.com/publicacion/portada/diariovasco/2196",
+        "inner_text": "",
+        "inner_html": ""
+      },
+      {
+        "href": "https://www.kioskoymas.com/publicacion/portada/lanuevacronica/e510",
+        "inner_text": "",
+        "inner_html": ""
+      },
+      {
+        "href": "https://www.kioskoymas.com/publicacion/portada/elcorreo/2200",
+        "inner_text": "",
+        "inner_html": ""
+      },
+      {
+        "href": "https://www.kioskoymas.com/publicacion/portada/as/2099",
+        "inner_text": "",
+        "inner_html": ""
+      },
+      {
+        "href": "https://www.kioskoymas.com/publicacion/portada/laregion/e213",
+        "inner_text": "",
+        "inner_html": ""
+      },
+      {
+        "href": "https://www.kioskoymas.com/publicacion/portada/nuevoestilo/e105",
+        "inner_text": "",
+        "inner_html": ""
+      },
+      {
+        "href": "https://www.kioskoymas.com/publicacion/portada/woman/3838",
+        "inner_text": "",
+        "inner_html": ""
+      },
+      {
+        "href": "https://www.kioskoymas.com/publicacion/portada/semana/3845",
+        "inner_text": "",
+        "inner_html": ""
+      },
+      {
+        "href": "https://www.kioskoymas.com/publicacion/portada/viajar/2388",
+        "inner_text": "",
+        "inner_html": ""
+      },
+      {
+        "href": "https://www.kioskoymas.com/publicacion/portada/cuerpomente/3808",
+        "inner_text": "",
+        "inner_html": ""
+      },
+      {
+        "href": "https://www.kioskoymas.com/publicacion/portada/elle/2488",
+        "inner_text": "",
+        "inner_html": ""
+      },
+      {
+        "href": "https://www.kioskoymas.com/publicacion/portada/elledecoration/ed64",
+        "inner_text": "",
+        "inner_html": ""
+      },
+      {
+        "href": "https://www.kioskoymas.com/publicacion/portada/historianationalgeographic/3810",
+        "inner_text": "",
+        "inner_html": ""
+      },
+      {
+        "href": "https://www.kioskoymas.com/publicacion/portada/gentleman/e817",
+        "inner_text": "",
+        "inner_html": ""
+      },
+      {
+        "href": "https://www.kioskoymas.com/publicacion/portada/hola/ebkm",
+        "inner_text": "",
+        "inner_html": ""
+      },
+      {
+        "href": "https://www.kioskoymas.com/publicacion/portada/eljueves/3743",
+        "inner_text": "",
+        "inner_html": ""
+      },
+      {
+        "href": "https://www.kioskoymas.com/publicacion/portada/nationalgeographic/3813",
+        "inner_text": "",
+        "inner_html": ""
+      },
+      {
+        "href": "https://play.google.com/store/apps/details?id=com.newspaperdirect.kioskoymas.android.hc&hl=es",
+        "inner_text": "",
+        "inner_html": "<img src=\"/img/v2/button_google_play.svg\" alt=\"Descargar desde Google Play\">"
+      },
+      {
+        "href": "https://itunes.apple.com/app/apple-store/id414292283?pt=493014&ct=kym_www_home_footer_button&mt=8",
+        "inner_text": "",
+        "inner_html": "<img src=\"/img/v2/button_app_store.svg\" alt=\"Descargar desde App Store\">"
+      },
+      {
+        "href": "https://www.kioskoymas.com/politicadeprivacidad",
+        "inner_text": "Privacidad",
+        "inner_html": "Privacidad"
+      },
+      {
+        "href": "https://ec.europa.eu/consumers/odr/main/index.cfm",
+        "inner_text": "Resolución de litigios",
+        "inner_html": "Resolución de litigios"
+      },
+      {
+        "href": "https://www.kioskoymas.com/politicadecookies",
+        "inner_text": "Cookies",
+        "inner_html": "Cookies"
+      },
+      {
+        "href": "https://www.kioskoymas.com/terminosdeuso",
+        "inner_text": "Condiciones de uso",
+        "inner_html": "Condiciones de uso"
+      },
+      {
+        "href": "https://www.kioskoymas.com/avisolegal",
+        "inner_text": "Legal",
+        "inner_html": "Legal"
+      },
+      {
+        "href": "https://www.kioskoymas.com/editores_participantes",
+        "inner_text": "Editores participantes",
+        "inner_html": "Editores participantes"
+      },
+      {
+        "href": "https://www.linkedin.com/company/kiosko-y-m-s",
+        "inner_text": "",
+        "inner_html": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 32 32\"><title>Kiosko y más en Linkedin</title><circle cx=\"16\" cy=\"16\" r=\"16\" style=\"fill:#fff;opacity:0.1\"></circle><g style=\"opacity:0.30000000000000004\"><path id=\"a1cc01ec-1662-448f-9b78-4935c6c5971f\" data-name=\"LinkedIn\" d=\"M24.85,16.91v6.55H21.06V17.35c0-1.53-.55-2.58-1.93-2.58a2.08,2.08,0,0,0-1.94,1.39,2.56,2.56,0,0,0-.13.92v6.38H13.27s.05-10.34,0-11.42h3.79v1.62l0,0h0v0a3.79,3.79,0,0,1,3.42-1.88C23,11.78,24.85,13.41,24.85,16.91ZM9.3,6.54a2,2,0,1,0-.05,4h0a2,2,0,1,0,0-3.95ZM7.38,23.46h3.79V12H7.38Z\" style=\"fill:#fff\"></path></g></svg>"
+      },
+      {
+        "href": "http://www.kioskoymas.com/dynamic/aaliasClick/7b2261645f6964223a223230222c22757365726964223a2230222c226e61766964223a22313632313532343731373239333930222c22726f746174696f6e42616e6e6572223a317d",
+        "inner_text": "",
+        "inner_html": "<div id=\"aalias_content1\"><div id=\"aalias_content2\"></div></div>"
+      },
+      {
+        "href": "https://www.kioskoymas.com/textos/politicadecookies",
+        "inner_text": "política de cookies",
+        "inner_html": "política de cookies"
+      }
+    ],
+    "social": [
+      {
+        "href": "https://es-es.facebook.com/kioskoymas",
+        "inner_text": "Kiosko y más en Facebook",
+        "inner_html": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 32 32\"><title>Kiosko y más en Facebook</title><circle cx=\"16\" cy=\"16\" r=\"16\" style=\"fill:#fff;opacity:0.1\"></circle><g style=\"opacity:0.30000000000000004\"><path id=\"bc159c79-944d-463b-8519-fb079ca8d9d6\" data-name=\"Facebook\" d=\"M13.49,10.19V12.8H11.58V16h1.91v9.49h3.93V16h2.63s.25-1.53.37-3.2h-3V10.61a.93.93,0,0,1,.85-.77h2.14V6.52H17.51C13.39,6.52,13.49,9.72,13.49,10.19Z\" style=\"fill:#fff\"></path></g></svg>"
+      },
+      {
+        "href": "https://twitter.com/kioskoymas",
+        "inner_text": "Kiosko y más en Twitter",
+        "inner_html": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 32 32\"><title>Kiosko y más en Twitter</title><circle cx=\"16\" cy=\"16\" r=\"16\" style=\"fill:#fff;opacity:0.1\"></circle><g style=\"opacity:0.30000000000000004\"><path d=\"M24.78,10.64a7.13,7.13,0,0,1-2.06.55,3.66,3.66,0,0,0,1.59-2,7.25,7.25,0,0,1-2.29.85,3.59,3.59,0,0,0-6.22,2.41,3.68,3.68,0,0,0,.09.82A10.21,10.21,0,0,1,8.52,9.5,3.65,3.65,0,0,0,8,11.3a3.6,3.6,0,0,0,1.58,3A3.43,3.43,0,0,1,8,13.83v.05a3.58,3.58,0,0,0,2.85,3.54,3.69,3.69,0,0,1-.95.12,4.9,4.9,0,0,1-.67-.07A3.59,3.59,0,0,0,12.54,20a7.15,7.15,0,0,1-4.47,1.5,8.08,8.08,0,0,1-.85-.05A10.2,10.2,0,0,0,23,13c0-.16,0-.31,0-.47a7.32,7.32,0,0,0,1.8-1.84Zm0,0\" style=\"fill:#fff\"></path></g></svg>"
+      },
+      {
+        "href": "https://www.linkedin.com/company/2970228",
+        "inner_text": "Kiosko y más en Linkedin",
+        "inner_html": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 32 32\"><title>Kiosko y más en Linkedin</title><circle cx=\"16\" cy=\"16\" r=\"16\" style=\"fill:#fff;opacity:0.1\"></circle><g style=\"opacity:0.30000000000000004\"><path id=\"a1cc01ec-1662-448f-9b78-4935c6c5971f\" data-name=\"LinkedIn\" d=\"M24.85,16.91v6.55H21.06V17.35c0-1.53-.55-2.58-1.93-2.58a2.08,2.08,0,0,0-1.94,1.39,2.56,2.56,0,0,0-.13.92v6.38H13.27s.05-10.34,0-11.42h3.79v1.62l0,0h0v0a3.79,3.79,0,0,1,3.42-1.88C23,11.78,24.85,13.41,24.85,16.91ZM9.3,6.54a2,2,0,1,0-.05,4h0a2,2,0,1,0,0-3.95ZM7.38,23.46h3.79V12H7.38Z\" style=\"fill:#fff\"></path></g></svg>"
+      },
+      {
+        "href": "https://www.linkedin.com/company/kiosko-y-m-s",
+        "inner_text": "",
+        "inner_html": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 32 32\"><title>Kiosko y más en Linkedin</title><circle cx=\"16\" cy=\"16\" r=\"16\" style=\"fill:#fff;opacity:0.1\"></circle><g style=\"opacity:0.30000000000000004\"><path id=\"a1cc01ec-1662-448f-9b78-4935c6c5971f\" data-name=\"LinkedIn\" d=\"M24.85,16.91v6.55H21.06V17.35c0-1.53-.55-2.58-1.93-2.58a2.08,2.08,0,0,0-1.94,1.39,2.56,2.56,0,0,0-.13.92v6.38H13.27s.05-10.34,0-11.42h3.79v1.62l0,0h0v0a3.79,3.79,0,0,1,3.42-1.88C23,11.78,24.85,13.41,24.85,16.91ZM9.3,6.54a2,2,0,1,0-.05,4h0a2,2,0,1,0,0-3.95ZM7.38,23.46h3.79V12H7.38Z\" style=\"fill:#fff\"></path></g></svg>"
+      }
+    ],
+    "keywords": [
+      {
+        "href": "https://www.kioskoymas.com/login",
+        "inner_text": "",
+        "inner_html": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 35 35\"><title>Perfil de usuario</title><circle cx=\"17.5\" cy=\"17.5\" r=\"14.65\" style=\"fill:#be1521;opacity:0.33\" class=\"back\"></circle><path d=\"M22.17,21.11A6.84,6.84,0,1,0,12.89,21a8.83,8.83,0,0,0-3.42,4.14l1.4.55A7.23,7.23,0,0,1,14.19,22a6.78,6.78,0,0,0,6.66,0,7.32,7.32,0,0,1,3.28,3.7l1.4-.55A8.77,8.77,0,0,0,22.17,21.11Zm-9.94-5a5.34,5.34,0,1,1,5.33,5.33A5.34,5.34,0,0,1,12.23,16.08Z\" style=\"fill:#be1521\"></path><path d=\"M17.5,32.9A15.4,15.4,0,1,1,32.9,17.5,15.42,15.42,0,0,1,17.5,32.9Zm0-29.3A13.9,13.9,0,1,0,31.4,17.5,13.91,13.91,0,0,0,17.5,3.6Z\" style=\"fill:#be1521\"></path></svg>"
+      },
+      {
+        "href": "https://www.kioskoymas.com/avisolegal",
+        "inner_text": "Legal",
+        "inner_html": "Legal"
+      }
+    ]
+  },
+  "unsafeForms": [],
+  "browsing_history": [
+    "https://www.kioskoymas.com/"
+  ],
+  "websockets": {},
+  "cookies": [
+    {
+      "name": "navid",
+      "value": "162152471729390",
+      "domain": "kioskoymas.com",
+      "path": "/",
+      "expires": 1683732717,
+      "size": 20,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2023-05-10T15:31:57.000Z",
+      "expiresDays": 720,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 36,
+            "lineNumber": 18,
+            "fileName": "https://www.kioskoymas.com/commonjs?1621524716",
+            "functionName": "kym_createCookie",
+            "source": "    at kym_createCookie (https://www.kioskoymas.com/commonjs?1621524716:18:36)"
+          },
+          {
+            "columnNumber": 102,
+            "lineNumber": 237,
+            "fileName": "https://www.kioskoymas.com/commonjs?1621524716",
+            "source": "    at https://www.kioskoymas.com/commonjs?1621524716:237:102"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T15:31:57.693Z",
+        "location": "https://www.kioskoymas.com/"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "fastpurchase_logout_redir",
+      "value": "0",
+      "domain": "kioskoymas.com",
+      "path": "/",
+      "expires": 1621611117,
+      "size": 26,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2021-05-21T15:31:57.000Z",
+      "expiresDays": 1,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 36,
+            "lineNumber": 18,
+            "fileName": "https://www.kioskoymas.com/commonjs?1621524716",
+            "functionName": "kym_createCookie",
+            "source": "    at kym_createCookie (https://www.kioskoymas.com/commonjs?1621524716:18:36)"
+          },
+          {
+            "columnNumber": 3,
+            "lineNumber": 98,
+            "fileName": "https://www.kioskoymas.com/",
+            "source": "    at https://www.kioskoymas.com/:98:3"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T15:31:57.696Z",
+        "location": "https://www.kioskoymas.com/"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "kioskoymas_admin",
+      "value": "a%3A5%3A%7Bs%3A10%3A%22session_id%22%3Bs%3A32%3A%22244e99b54b2febe8f80f5e43085b4170%22%3Bs%3A10%3A%22ip_address%22%3Bs%3A12%3A%2295.100.94.21%22%3Bs%3A10%3A%22user_agent%22%3Bs%3A103%3A%22Mozilla%2F5.0+%28X11%3B+Linux+x86_64%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Chrome%2F72.0.3617.0+Safari%2F537.36%22%3Bs%3A13%3A%22last_activity%22%3Bi%3A1621524716%3Bs%3A9%3A%22user_data%22%3Bs%3A0%3A%22%22%3B%7D0ddccb1b386a1a45da16adee1cda10c613ee5a50",
+      "domain": "kioskoymas.com",
+      "path": "/",
+      "expires": 1621531916.685508,
+      "size": 467,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2021-05-20T17:31:56.685Z",
+      "expiresDays": 0.08,
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.kioskoymas.com/",
+            "source": "set in Set-Cookie HTTP response header for https://www.kioskoymas.com/"
+          }
+        ],
+        "type": "Cookie.HTTP",
+        "timestamp": "2021-05-20T15:31:56.691Z",
+        "location": "about:blank"
+      },
+      "firstPartyStorage": true
+    }
+  ],
+  "localStorage": {},
+  "beacons": [
+    {
+      "url": "https://www.google-analytics.com/analytics.js",
+      "query": null,
+      "filter": "||google-analytics.com/analytics.js",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.kioskoymas.com/",
+            "source": "requested from https://www.kioskoymas.com/ and matched with easyprivacy.txt filter ||google-analytics.com/analytics.js"
+          }
+        ],
+        "timestamp": "2021-05-20T15:31:57.695Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://www.kioskoymas.com/img/transparent1x1.gif",
+      "query": null,
+      "filter": "/transparent1x1.",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.kioskoymas.com/",
+            "source": "requested from https://www.kioskoymas.com/ and matched with easyprivacy.txt filter /transparent1x1."
+          }
+        ],
+        "timestamp": "2021-05-20T15:31:56.720Z"
+      },
+      "occurrances": 1
+    }
+  ],
+  "hosts": {
+    "requests": {
+      "firstParty": [
+        "kioskoymas.com"
+      ],
+      "thirdParty": [
+        "www.kioskoymas.com",
+        "www.google-analytics.com"
+      ]
+    },
+    "beacons": {
+      "firstParty": [],
+      "thirdParty": [
+        "www.google-analytics.com",
+        "www.kioskoymas.com"
+      ]
+    },
+    "cookies": {
+      "firstParty": [
+        "kioskoymas.com"
+      ],
+      "thirdParty": []
+    },
+    "localStorage": {
+      "firstParty": [],
+      "thirdParty": []
+    },
+    "links": {
+      "firstParty": [],
+      "thirdParty": [
+        "www.kioskoymas.com",
+        "es-es.facebook.com",
+        "twitter.com",
+        "www.linkedin.com",
+        "play.google.com",
+        "itunes.apple.com",
+        "ec.europa.eu"
+      ]
+    }
+  }
+}

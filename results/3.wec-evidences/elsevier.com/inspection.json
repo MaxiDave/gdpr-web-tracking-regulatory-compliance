@@ -1,0 +1,755 @@
+{
+  "title": "Website Evidence Collection",
+  "task_description": null,
+  "uri_ins": "https://elsevier.com",
+  "uri_refs": [
+    "https://elsevier.com"
+  ],
+  "uri_dest": "https://www.elsevier.com/",
+  "uri_redirects": [
+    "https://elsevier.com/"
+  ],
+  "secure_connection": {
+    "https_support": true,
+    "redirects": [
+      "https://www.elsevier.com/"
+    ],
+    "https_redirect": true
+  },
+  "host": "elsevier.com",
+  "script": {
+    "host": "sfod",
+    "version": {
+      "npm": "1.0.0",
+      "commit": null
+    },
+    "cmd_args": "-q --overwrite https://elsevier.com -- --ignore-certificate-errors",
+    "environment": {
+      "CHROME_DESKTOP": "code-url-handler.desktop"
+    },
+    "node_version": "v14.17.0"
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "HeadlessChrome/80.0.3987.0",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3617.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "5.8.0-53-generic"
+    },
+    "extra_headers": {},
+    "preset_cookies": {}
+  },
+  "start_time": "2021-05-20T16:31:51.230Z",
+  "end_time": "2021-05-20T16:31:59.354Z",
+  "links": {
+    "firstParty": [],
+    "thirdParty": [
+      {
+        "href": "https://www.elsevier.com/",
+        "inner_text": "Skip to content",
+        "inner_html": "Skip to content"
+      },
+      {
+        "href": "https://www.elsevier.com/about",
+        "inner_text": "About Elsevier",
+        "inner_html": "About Elsevier"
+      },
+      {
+        "href": "https://www.elsevier.com/connect",
+        "inner_text": "\n                                                Elsevier Connect\n                                            ",
+        "inner_html": "Elsevier Connect"
+      },
+      {
+        "href": "https://www.elsevier.com/about/careers",
+        "inner_text": "\n                                                Careers\n                                            ",
+        "inner_html": "Careers"
+      },
+      {
+        "href": "https://www.elsevier.com/solutions",
+        "inner_text": "Products & Solutions",
+        "inner_html": "Products &amp; Solutions"
+      },
+      {
+        "href": "https://www.elsevier.com/rd-solutions",
+        "inner_text": "\n                                                R & D Solutions\n                                            ",
+        "inner_html": "R &amp; D Solutions"
+      },
+      {
+        "href": "https://www.elsevier.com/clinical-solutions",
+        "inner_text": "\n                                                Clinical Solutions\n                                            ",
+        "inner_html": "Clinical Solutions"
+      },
+      {
+        "href": "https://www.elsevier.com/research-platforms",
+        "inner_text": "\n                                                Research Platforms\n                                            ",
+        "inner_html": "Research Platforms"
+      },
+      {
+        "href": "https://www.elsevier.com/research-intelligence",
+        "inner_text": "\n                                                Research Intelligence\n                                            ",
+        "inner_html": "Research Intelligence"
+      },
+      {
+        "href": "https://www.elsevier.com/education",
+        "inner_text": "\n                                                Education\n                                            ",
+        "inner_html": "Education"
+      },
+      {
+        "href": "https://www.elsevier.com/authors",
+        "inner_text": "\n                                                Authors\n                                            ",
+        "inner_html": "Authors"
+      },
+      {
+        "href": "https://www.elsevier.com/editors",
+        "inner_text": "\n                                                Editors\n                                            ",
+        "inner_html": "Editors"
+      },
+      {
+        "href": "https://www.elsevier.com/reviewers",
+        "inner_text": "\n                                                Reviewers\n                                            ",
+        "inner_html": "Reviewers"
+      },
+      {
+        "href": "https://www.elsevier.com/librarians",
+        "inner_text": "\n                                                Librarians\n                                            ",
+        "inner_html": "Librarians"
+      },
+      {
+        "href": "https://www.elsevier.com/strategic-partners",
+        "inner_text": "\n                                                Strategic Partners\n                                            ",
+        "inner_html": "Strategic Partners"
+      },
+      {
+        "href": "https://www.elsevier.com/books-and-journals",
+        "inner_text": "Shop & Discover",
+        "inner_html": "Shop &amp; Discover"
+      },
+      {
+        "href": "https://webshop.elsevier.com/?utm_source=ecom&utm_medium=top&utm_campaign=webshop",
+        "inner_text": "\n                                                Author Webshop\n                                                (Opens new window)\n                                            ",
+        "inner_html": "Author Webshop\n                                                <span class=\"sr-only\">(Opens new window)</span>"
+      },
+      {
+        "href": "https://www.elsevier.com/search-results",
+        "inner_text": "Search",
+        "inner_html": "<span class=\"bigsearch-toggle-text\">Search</span>\n                            <svg xmlns=\"http://www.w3.org/2000/svg\" version=\"1.1\" focusable=\"false\" viewBox=\"0 0 100 128\" width=\"24\" height=\"24\" class=\"utility-icon\">\n                                <path d=\"m19.22 76.91c-5.84-5.84-9.05-13.6-9.05-21.85s3.21-16.01 9.05-21.85c5.84-5.83 13.59-9.05 21.85-9.05 8.25 0 16.01 3.22 21.84 9.05 5.84 5.84 9.05 13.6 9.05 21.85s-3.21 16.01-9.05 21.85c-5.83 5.83-13.59 9.05-21.84 9.05-8.26 0-16.01-3.22-21.85-9.05zm80.33 29.6l-26.32-26.32c5.61-7.15 8.68-15.9 8.68-25.13 0-10.91-4.25-21.17-11.96-28.88-7.72-7.71-17.97-11.96-28.88-11.96s-21.17 4.25-28.88 11.96c-7.72 7.71-11.97 17.97-11.97 28.88s4.25 21.17 11.97 28.88c7.71 7.71 17.97 11.96 28.88 11.96 9.23 0 17.98-3.07 25.13-8.68l26.32 26.32 7.03-7.03\"></path>\n                                <rect x=\"0\" y=\"0\" width=\"100%\" height=\"100%\" stroke=\"none\" opacity=\"0\">\n                                    <title>Search</title>\n                                </rect>\n                            </svg>"
+      },
+      {
+        "href": "https://global-checkout.elsevier.com/",
+        "inner_text": "",
+        "inner_html": "<svg xmlns=\"http://www.w3.org/2000/svg\" version=\"1.1\" focusable=\"false\" aria-label=\"View Cart\" viewBox=\"0 0 118 128\" width=\"24\" height=\"24\" class=\"utility-icon\">\n                                <path d=\"m35.22 2e1c-2.23-6-8.93-12-16.62-12h-18.6v1e1h18.6c3.94 0 7.4 3.22 7.4 6.9v57.04c0 9.15 7.14 16.06 16.6 16.06h67.4v-1e1h-67.4c-4.01 0-6.6-2.38-6.6-6.06v-51.96h71.2c-0.77 1e1 -1.91 23.77-2.44 27.28-0.54 3.62-3.95 6.28-8.9 6.95-5.59 0.77-34.69 4.12-47.86 5.71v10.08c12.55-1.52 43.3-5.07 49.22-5.88 9.37-1.29 16.21-7.32 17.43-15.38 0.85-5.62 2.84-32.24 2.93-33.37l0.4-5.37h-82.76m64.78 84c-5.53 0-1e1 4.47-1e1 1e1 0 5.52 4.47 1e1 1e1 1e1 5.52 0 1e1 -4.48 1e1 -1e1 0-5.53-4.48-1e1 -1e1 -1e1m-64 0c-5.52 0-1e1 4.47-1e1 1e1 0 5.52 4.48 1e1 1e1 1e1s1e1 -4.48 1e1 -1e1c0-5.53-4.48-1e1 -1e1 -1e1\"></path>\n                                <rect x=\"0\" y=\"0\" width=\"100%\" height=\"100%\" stroke=\"none\" opacity=\"0\">\n                                    <title>View Cart</title>\n                                </rect>\n                            </svg>\n\n                            <div class=\"cart-count-container gh-hide\">\n                                <span class=\"cart-count\">0</span>\n                            </div>\n                            <input id=\"criteo-hash\" type=\"hidden\">"
+      },
+      {
+        "href": "https://account.elsevier.com/auth",
+        "inner_text": "",
+        "inner_html": "<svg xmlns=\"http://www.w3.org/2000/svg\" version=\"1.1\" focusable=\"false\" viewBox=\"0 0 106 128\" width=\"24\" height=\"24\" class=\"utility-icon\">\n                                <path d=\"m11.07 1.2e2l0.84-9.29c1.97-18.79 23.34-22.93 41.09-22.93 17.74 0 39.11 4.13 41.08 22.84l0.84 9.38h10.04l-0.93-10.34c-2.15-20.43-20.14-31.66-51.03-31.66s-48.89 11.22-51.05 31.73l-0.91 10.27h10.03m41.93-102.29c-9.72 0-18.24 8.69-18.24 18.59 0 13.67 7.84 23.98 18.24 23.98s18.24-10.31 18.24-23.98c0-9.9-8.52-18.59-18.24-18.59zm0 52.29c-15.96 0-28-14.48-28-33.67 0-15.36 12.82-28.33 28-28.33s28 12.97 28 28.33c0 19.19-12.04 33.67-28 33.67\"></path>\n                            </svg>"
+      },
+      {
+        "href": "https://account.elsevier.com/account",
+        "inner_text": "\n                                            View account\n                                        ",
+        "inner_html": "<span class=\"button-text\">View account</span>"
+      },
+      {
+        "href": "https://account.elsevier.com/logout",
+        "inner_text": "\n                                            Sign out\n                                        ",
+        "inner_html": "<span class=\"button-text\">Sign out</span>"
+      },
+      {
+        "href": "https://www.elsevier.com/about/this-is-elsevier",
+        "inner_text": "Read more ",
+        "inner_html": "Read more"
+      },
+      {
+        "href": "https://www.sciencedirect.com/",
+        "inner_text": "",
+        "inner_html": "<img alt=\"Find articles\" src=\"https://www.elsevier.com/__data/assets/file/0020/1103519/find-articles-80x80.svg\">"
+      },
+      {
+        "href": "https://www.elsevier.com/authors/submit-your-paper",
+        "inner_text": "",
+        "inner_html": "<img alt=\"Submit your paper\" src=\"https://www.elsevier.com/__data/assets/file/0013/1103521/accepted-article-80x80.svg\">"
+      },
+      {
+        "href": "https://www.elsevier.com/editors/journal-and-article-metrics",
+        "inner_text": "",
+        "inner_html": "<img alt=\"Track your influence\" src=\"https://www.elsevier.com/__data/assets/file/0014/1103522/demonstrate-impact-80x80.svg\">"
+      },
+      {
+        "href": "https://www.elsevier.com/open-access",
+        "inner_text": "",
+        "inner_html": "<picture>\n            <source media=\"(min-width: 641px)\" srcset=\"https://www.elsevier.com/__data/assets/image/0010/1022977/transparency-tile-002.jpg\" alt=\"\">\n            <source srcset=\"https://www.elsevier.com/__data/assets/image/0010/1022977/transparency-tile-002.jpg\" alt=\"\">\n            <img src=\"https://www.elsevier.com/__data/assets/image/0010/1022977/transparency-tile-002.jpg\" alt=\"How Elsevier supports Open Access\">\n        </picture>"
+      },
+      {
+        "href": "https://www.elsevier.com/novel-coronavirus-covid-19",
+        "inner_text": "",
+        "inner_html": "<picture>\n            <source media=\"(min-width: 641px)\" srcset=\"https://www.elsevier.com/__data/assets/image/0007/1026781/fusion-medical-animation-657x372.jpg\" alt=\"coronavirus-tools-resources-657x372\">\n            <source srcset=\"https://www.elsevier.com/__data/assets/image/0005/979223/coronavirus-image-329x372.jpg\" alt=\"Coronavirus image\">\n            <img src=\"https://www.elsevier.com/__data/assets/image/0007/1026781/fusion-medical-animation-657x372.jpg\" alt=\"Responding to COVID-19\">\n        </picture>"
+      },
+      {
+        "href": "https://www.elsevier.com/about/elsevier-and-uk-research",
+        "inner_text": "",
+        "inner_html": "<picture>\n            <source media=\"(min-width: 641px)\" srcset=\"https://www.elsevier.com/__data/assets/image/0005/1168079/UK-Research-Hub-657x372darker.jpg\" alt=\"\">\n            <source srcset=\"https://www.elsevier.com/__data/assets/image/0006/1168080/UK-Research-Hub-mobile-darker.jpg\" alt=\"\">\n            <img src=\"https://www.elsevier.com/__data/assets/image/0005/1168079/UK-Research-Hub-657x372darker.jpg\" alt=\"Elsevier and the UK research community\">\n        </picture>"
+      },
+      {
+        "href": "https://www.elsevier.com/connect/uc-and-elsevier-sign-transformative-agreement",
+        "inner_text": "",
+        "inner_html": "<picture>\n            <source media=\"(min-width: 641px)\" srcset=\"https://www.elsevier.com/__data/assets/image/0005/1158638/657.jpg\" alt=\"\">\n            <source srcset=\"https://www.elsevier.com/__data/assets/image/0009/1147059/329.jpg\" alt=\"\">\n            <img src=\"https://www.elsevier.com/__data/assets/image/0005/1158638/657.jpg\" alt=\"A transformative agreement with University of California\">\n        </picture>"
+      },
+      {
+        "href": "https://www.elsevier.com/connect/gender-report",
+        "inner_text": "",
+        "inner_html": "<picture>\n            <source media=\"(min-width: 641px)\" srcset=\"https://www.elsevier.com/__data/assets/image/0011/985484/gender-report-large.jpg\" alt=\"gender-report-large\">\n            <source srcset=\"https://www.elsevier.com/__data/assets/image/0010/985483/gender-report-small.jpg\" alt=\"gender-report-small\">\n            <img src=\"https://www.elsevier.com/__data/assets/image/0011/985484/gender-report-large.jpg\" alt=\"Analyzing gender in the world of research\">\n        </picture>"
+      },
+      {
+        "href": "https://www.elsevier.com/connect/meet-the-winners-of-the-2021-owsd-elsevier-foundation-award",
+        "inner_text": "",
+        "inner_html": "<picture>\n            <source media=\"(min-width: 641px)\" srcset=\"https://www.elsevier.com/__data/assets/image/0003/1131771/owsd-small.jpg\" alt=\"\">\n            <source srcset=\"https://www.elsevier.com/__data/assets/image/0004/1131772/owsd-smaller.jpg\" alt=\"\">\n            <img src=\"https://www.elsevier.com/__data/assets/image/0003/1131771/owsd-small.jpg\" alt=\"Celebrating women scientists in the developing world\">\n        </picture>"
+      },
+      {
+        "href": "https://www.elsevier.com/connect/working-toward-racial-and-social-equality",
+        "inner_text": "",
+        "inner_html": "<picture>\n            <source media=\"(min-width: 641px)\" srcset=\"https://www.elsevier.com/__data/assets/image/0004/1044337/racial-equality-image-homepage-657x372.jpg\" alt=\"\">\n            <source srcset=\"https://www.elsevier.com/__data/assets/image/0003/1044336/racial-quality-image-homepage-329x372.jpg\" alt=\"\">\n            <img src=\"https://www.elsevier.com/__data/assets/image/0004/1044337/racial-equality-image-homepage-657x372.jpg\" alt=\"Toward racial and social equality\">\n        </picture>"
+      },
+      {
+        "href": "https://www.youtube.com/embed/duHa1zINBFE?rel=0&autoplay=1",
+        "inner_text": "",
+        "inner_html": "<picture>\n            <source media=\"(min-width: 641px)\" srcset=\"https://www.elsevier.com/__data/assets/image/0003/1145496/video-tile_accelerating-you_637x372.jpg\" alt=\"\">\n            <source srcset=\"https://www.elsevier.com/__data/assets/image/0017/1145501/video-tile_accelerating-you_329x372.jpg\" alt=\"\">\n            <img src=\"https://www.elsevier.com/__data/assets/image/0003/1145496/video-tile_accelerating-you_637x372.jpg\" alt=\"Watch \" accelerating=\"\" you\"\"=\"\">\n        </picture>"
+      },
+      {
+        "href": "https://www.elsevier.com/solutions/scopus",
+        "inner_text": "Scopus",
+        "inner_html": "Scopus"
+      },
+      {
+        "href": "https://www.elsevier.com/solutions/sciencedirect",
+        "inner_text": "ScienceDirect",
+        "inner_html": "ScienceDirect"
+      },
+      {
+        "href": "https://www.elsevier.com/solutions/mendeley",
+        "inner_text": "Mendeley",
+        "inner_html": "Mendeley"
+      },
+      {
+        "href": "https://www.elsevier.com/solutions/evolve",
+        "inner_text": "Evolve",
+        "inner_html": "Evolve"
+      },
+      {
+        "href": "https://www.elsevier.com/solutions/knovel-engineering-information",
+        "inner_text": "Knovel",
+        "inner_html": "Knovel"
+      },
+      {
+        "href": "https://www.elsevier.com/solutions/reaxys",
+        "inner_text": "Reaxys",
+        "inner_html": "Reaxys"
+      },
+      {
+        "href": "https://www.elsevier.com/solutions/clinicalkey",
+        "inner_text": "ClinicalKey",
+        "inner_html": "ClinicalKey"
+      },
+      {
+        "href": "https://www.elsevier.com/about/newsroom",
+        "inner_text": "Newsroom",
+        "inner_html": "Newsroom"
+      },
+      {
+        "href": "https://www.elsevier.com/events",
+        "inner_text": "Events",
+        "inner_html": "Events"
+      },
+      {
+        "href": "https://www.elsevier.com/publisher-relations",
+        "inner_text": "Publisher relations",
+        "inner_html": "Publisher relations"
+      },
+      {
+        "href": "https://www.elsevier.com/advertising-reprints-supplements",
+        "inner_text": "Advertising, reprints and supplements",
+        "inner_html": "Advertising, reprints and supplements"
+      },
+      {
+        "href": "https://www.elsevier.com/support",
+        "inner_text": "Support and Contact",
+        "inner_html": "Support and Contact"
+      },
+      {
+        "href": "https://www.facebook.com/ElsevierConnect",
+        "inner_text": "",
+        "inner_html": "<img loading=\"lazy\" alt=\"Icon social media facebook\" src=\"https://cdn.elsevier.io/matrix/includes/svg/icon-social-facebook.svg\">"
+      },
+      {
+        "href": "https://www.linkedin.com/company/elsevier",
+        "inner_text": "",
+        "inner_html": "<img loading=\"lazy\" alt=\"Icon social media linkedin\" src=\"https://cdn.elsevier.io/matrix/includes/svg/icon-social-linkedin.svg\">"
+      },
+      {
+        "href": "https://twitter.com/ElsevierConnect",
+        "inner_text": "",
+        "inner_html": "<img loading=\"lazy\" alt=\"Icon social media twitter\" src=\"https://cdn.elsevier.io/matrix/includes/svg/icon-social-twitter.svg\">"
+      },
+      {
+        "href": "https://www.youtube.com/c/elsevier/",
+        "inner_text": "",
+        "inner_html": "<img loading=\"lazy\" alt=\"Icon social media youtube\" src=\"https://cdn.elsevier.io/matrix/includes/svg/icon-social-youtube.svg\">"
+      },
+      {
+        "href": "https://www.elsevier.com/location-selector",
+        "inner_text": "Global - English",
+        "inner_html": "Global - English"
+      },
+      {
+        "href": "https://www.elsevier.com/legal/elsevier-website-terms-and-conditions",
+        "inner_text": "Terms and Conditions",
+        "inner_html": "Terms and Conditions"
+      },
+      {
+        "href": "https://www.elsevier.com/legal/privacy-policy",
+        "inner_text": "Privacy Policy",
+        "inner_html": "Privacy Policy"
+      },
+      {
+        "href": "https://www.elsevier.com/legal/cookienotice",
+        "inner_text": "Cookie Notice",
+        "inner_html": "Cookie Notice"
+      },
+      {
+        "href": "https://www.elsevier.com/sitemap",
+        "inner_text": "Sitemap",
+        "inner_html": "Sitemap"
+      },
+      {
+        "href": "https://www.relx.com/",
+        "inner_text": " \n                 \n            ",
+        "inner_html": "<img loading=\"lazy\" width=\"150\" alt=\"RELX Wordmark\" src=\"https://cdn.elsevier.io/matrix/includes/svg/logo-relxgroup.svg\" style=\"background: white\">"
+      },
+      {
+        "href": "https://survey.confirmit.com/wix2/p2683244022.aspx",
+        "inner_text": "Accept",
+        "inner_html": "Accept"
+      }
+    ],
+    "social": [
+      {
+        "href": "https://www.youtube.com/embed/duHa1zINBFE?rel=0&autoplay=1",
+        "inner_text": "",
+        "inner_html": "<picture>\n            <source media=\"(min-width: 641px)\" srcset=\"https://www.elsevier.com/__data/assets/image/0003/1145496/video-tile_accelerating-you_637x372.jpg\" alt=\"\">\n            <source srcset=\"https://www.elsevier.com/__data/assets/image/0017/1145501/video-tile_accelerating-you_329x372.jpg\" alt=\"\">\n            <img src=\"https://www.elsevier.com/__data/assets/image/0003/1145496/video-tile_accelerating-you_637x372.jpg\" alt=\"Watch \" accelerating=\"\" you\"\"=\"\">\n        </picture>"
+      },
+      {
+        "href": "https://www.facebook.com/ElsevierConnect",
+        "inner_text": "",
+        "inner_html": "<img loading=\"lazy\" alt=\"Icon social media facebook\" src=\"https://cdn.elsevier.io/matrix/includes/svg/icon-social-facebook.svg\">"
+      },
+      {
+        "href": "https://www.linkedin.com/company/elsevier",
+        "inner_text": "",
+        "inner_html": "<img loading=\"lazy\" alt=\"Icon social media linkedin\" src=\"https://cdn.elsevier.io/matrix/includes/svg/icon-social-linkedin.svg\">"
+      },
+      {
+        "href": "https://twitter.com/ElsevierConnect",
+        "inner_text": "",
+        "inner_html": "<img loading=\"lazy\" alt=\"Icon social media twitter\" src=\"https://cdn.elsevier.io/matrix/includes/svg/icon-social-twitter.svg\">"
+      },
+      {
+        "href": "https://www.youtube.com/c/elsevier/",
+        "inner_text": "",
+        "inner_html": "<img loading=\"lazy\" alt=\"Icon social media youtube\" src=\"https://cdn.elsevier.io/matrix/includes/svg/icon-social-youtube.svg\">"
+      }
+    ],
+    "keywords": [
+      {
+        "href": "https://www.elsevier.com/legal/elsevier-website-terms-and-conditions",
+        "inner_text": "Terms and Conditions",
+        "inner_html": "Terms and Conditions"
+      },
+      {
+        "href": "https://www.elsevier.com/legal/privacy-policy",
+        "inner_text": "Privacy Policy",
+        "inner_html": "Privacy Policy"
+      },
+      {
+        "href": "https://www.elsevier.com/legal/cookienotice",
+        "inner_text": "Cookie Notice",
+        "inner_html": "Cookie Notice"
+      }
+    ]
+  },
+  "unsafeForms": [],
+  "browsing_history": [
+    "https://www.elsevier.com/"
+  ],
+  "websockets": {},
+  "cookies": [
+    {
+      "name": "OptanonConsent",
+      "value": "isIABGlobal=false&datestamp=Thu+May+20+2021+18%3A31%3A53+GMT%2B0200+(Central+European+Summer+Time)&version=6.17.0&hosts=&consentId=f2c8bca2-1e75-4962-9680-51dcfc71e578&interactionCount=0&landingPath=https%3A%2F%2Fwww.elsevier.com%2F&groups=1%3A1%2C2%3A1%2C3%3A1%2C4%3A0",
+      "domain": "elsevier.com",
+      "path": "/",
+      "expires": 1653064313,
+      "size": 283,
+      "httpOnly": false,
+      "secure": true,
+      "session": false,
+      "sameSite": "None",
+      "expiresUTC": "2022-05-20T16:31:53.000Z",
+      "expiresDays": 365,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 43857,
+            "lineNumber": 7,
+            "fileName": "https://cdn.cookielaw.org/scripttemplates/6.17.0/otBannerSdk.js",
+            "functionName": "At.setCookie",
+            "source": "    at At.setCookie (https://cdn.cookielaw.org/scripttemplates/6.17.0/otBannerSdk.js:7:43857)"
+          },
+          {
+            "columnNumber": 42176,
+            "lineNumber": 7,
+            "fileName": "https://cdn.cookielaw.org/scripttemplates/6.17.0/otBannerSdk.js",
+            "functionName": "At.writeCookieParam",
+            "source": "    at At.writeCookieParam (https://cdn.cookielaw.org/scripttemplates/6.17.0/otBannerSdk.js:7:42176)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T16:31:53.128Z",
+        "location": "https://www.elsevier.com/"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "correlationId",
+      "value": "Ke9NMsrIheWbLb91tuQ1aTXLjGJyeuDY",
+      "domain": "elsevier.com",
+      "path": "/",
+      "expires": 1621614713.381103,
+      "size": 45,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2021-05-21T16:31:53.381Z",
+      "expiresDays": 1,
+      "firstPartyStorage": true
+    },
+    {
+      "name": "elsevier_user_country",
+      "value": "RO",
+      "domain": "elsevier.com",
+      "path": "/",
+      "expires": -1,
+      "size": 23,
+      "httpOnly": false,
+      "secure": false,
+      "session": true,
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://elsevier.com/",
+            "source": "set in Set-Cookie HTTP response header for https://elsevier.com/"
+          }
+        ],
+        "type": "Cookie.HTTP",
+        "timestamp": "2021-05-20T16:31:51.749Z",
+        "location": "about:blank"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "elsevier_user_country",
+      "value": "RO",
+      "domain": "www.elsevier.com",
+      "path": "/",
+      "expires": -1,
+      "size": 23,
+      "httpOnly": false,
+      "secure": false,
+      "session": true,
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.elsevier.com/",
+            "source": "set in Set-Cookie HTTP response header for https://www.elsevier.com/"
+          }
+        ],
+        "type": "Cookie.HTTP",
+        "timestamp": "2021-05-20T16:31:52.076Z",
+        "location": "about:blank"
+      },
+      "firstPartyStorage": false
+    },
+    {
+      "name": "correlationId",
+      "value": "Ke9NMsrIheWbLb91tuQ1aTXLjGJyeuDY",
+      "domain": "account.elsevier.com",
+      "path": "/",
+      "expires": -1,
+      "size": 45,
+      "httpOnly": false,
+      "secure": false,
+      "session": true,
+      "firstPartyStorage": false
+    },
+    {
+      "name": "connect.sid",
+      "value": "s%3AKe9NMsrIheWbLb91tuQ1aTXLjGJyeuDY.QFFNjBo1OGXO77i9mCISlq5iU%2BpnAhbUPdYiPkTtRBw",
+      "domain": "account.elsevier.com",
+      "path": "/",
+      "expires": -1,
+      "size": 93,
+      "httpOnly": true,
+      "secure": false,
+      "session": true,
+      "firstPartyStorage": false
+    }
+  ],
+  "localStorage": {},
+  "beacons": [
+    {
+      "url": "https://bam-cell.nr-data.net/events/1/ab1b161d5c?a=1177373033&sa=1&v=1198.fe6ec20&t=Unnamed%20Transaction&rst=2037&ck=0&ref=https://www.elsevier.com/",
+      "query": {
+        "a": 1177373033,
+        "sa": 1,
+        "v": "1198.fe6ec20",
+        "t": "Unnamed Transaction",
+        "rst": 2037,
+        "ck": 0,
+        "ref": "https://www.elsevier.com/"
+      },
+      "filter": "||nr-data.net^$third-party",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.elsevier.com/",
+            "source": "requested from https://www.elsevier.com/ and matched with easyprivacy.txt filter ||nr-data.net^$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T16:31:53.393Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://bam-cell.nr-data.net/1/ab1b161d5c?a=1177373033&sa=1&v=1198.fe6ec20&t=Unnamed%20Transaction&rst=1748&ck=0&ref=https://www.elsevier.com/&be=752&fe=1670&dc=1508&af=err,xhr,stn,ins,spa&perf=%7B%22timing%22:%7B%22of%22:1621528311352,%22n%22:0,%22f%22:395,%22dn%22:395,%22dne%22:591,%22c%22:591,%22s%22:602,%22ce%22:674,%22rq%22:674,%22rp%22:721,%22rpe%22:770,%22dl%22:729,%22di%22:1508,%22ds%22:1508,%22de%22:1517,%22dc%22:1670,%22l%22:1670,%22le%22:1673%7D,%22navigation%22:%7B%7D%7D&fp=1493&fcp=1493&jsonp=NREUM.setToken",
+      "query": {
+        "a": 1177373033,
+        "sa": 1,
+        "v": "1198.fe6ec20",
+        "t": "Unnamed Transaction",
+        "rst": 1748,
+        "ck": 0,
+        "ref": "https://www.elsevier.com/",
+        "be": 752,
+        "fe": 1670,
+        "dc": 1508,
+        "af": "err,xhr,stn,ins,spa",
+        "perf": {
+          "timing": {
+            "of": 1621528311352,
+            "n": 0,
+            "f": 395,
+            "dn": 395,
+            "dne": 591,
+            "c": 591,
+            "s": 602,
+            "ce": 674,
+            "rq": 674,
+            "rp": 721,
+            "rpe": 770,
+            "dl": 729,
+            "di": 1508,
+            "ds": 1508,
+            "de": 1517,
+            "dc": 1670,
+            "l": 1670,
+            "le": 1673
+          },
+          "navigation": {}
+        },
+        "fp": 1493,
+        "fcp": 1493,
+        "jsonp": "NREUM.setToken"
+      },
+      "filter": "||nr-data.net^$third-party",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.elsevier.com/",
+            "source": "requested from https://www.elsevier.com/ and matched with easyprivacy.txt filter ||nr-data.net^$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T16:31:53.108Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://js-agent.newrelic.com/nr-spa-1198.min.js",
+      "query": null,
+      "filter": "||js-agent.newrelic.com^",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.elsevier.com/",
+            "source": "requested from https://www.elsevier.com/ and matched with easyprivacy.txt filter ||js-agent.newrelic.com^"
+          }
+        ],
+        "timestamp": "2021-05-20T16:31:53.026Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://cdn.elsevier.io/matrix/includes/svg/icon-social-youtube.svg",
+      "query": null,
+      "filter": "/icon-social-",
+      "listName": "fanboy-annoyance.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.elsevier.com/",
+            "source": "requested from https://www.elsevier.com/ and matched with fanboy-annoyance.txt filter /icon-social-"
+          }
+        ],
+        "timestamp": "2021-05-20T16:31:52.886Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://cdn.elsevier.io/matrix/includes/svg/icon-social-twitter.svg",
+      "query": null,
+      "filter": "/icon-social-",
+      "listName": "fanboy-annoyance.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.elsevier.com/",
+            "source": "requested from https://www.elsevier.com/ and matched with fanboy-annoyance.txt filter /icon-social-"
+          }
+        ],
+        "timestamp": "2021-05-20T16:31:52.885Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://cdn.elsevier.io/matrix/includes/svg/icon-social-linkedin.svg",
+      "query": null,
+      "filter": "/icon-social-",
+      "listName": "fanboy-annoyance.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.elsevier.com/",
+            "source": "requested from https://www.elsevier.com/ and matched with fanboy-annoyance.txt filter /icon-social-"
+          }
+        ],
+        "timestamp": "2021-05-20T16:31:52.884Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://cdn.elsevier.io/matrix/includes/svg/icon-social-facebook.svg",
+      "query": null,
+      "filter": "/icon-social-",
+      "listName": "fanboy-annoyance.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.elsevier.com/",
+            "source": "requested from https://www.elsevier.com/ and matched with fanboy-annoyance.txt filter /icon-social-"
+          }
+        ],
+        "timestamp": "2021-05-20T16:31:52.882Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://www.googletagmanager.com/gtm.js?id=GTM-5P8J8X",
+      "query": {
+        "id": "GTM-5P8J8X"
+      },
+      "filter": "/gtm.js",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.elsevier.com/",
+            "source": "requested from https://www.elsevier.com/ and matched with easyprivacy.txt filter /gtm.js"
+          }
+        ],
+        "timestamp": "2021-05-20T16:31:52.736Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://geolocation.onetrust.com/cookieconsentpub/v1/geo/location",
+      "query": null,
+      "filter": "||onetrust.com^$third-party",
+      "listName": "fanboy-annoyance.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.elsevier.com/",
+            "source": "requested from https://www.elsevier.com/ and matched with fanboy-annoyance.txt filter ||onetrust.com^$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T16:31:52.335Z"
+      },
+      "occurrances": 1
+    }
+  ],
+  "hosts": {
+    "requests": {
+      "firstParty": [
+        "elsevier.com"
+      ],
+      "thirdParty": [
+        "www.elsevier.com",
+        "cdn.elsevier.io",
+        "cdn.cookielaw.org",
+        "geolocation.onetrust.com",
+        "www.googletagmanager.com",
+        "account.elsevier.com",
+        "js-agent.newrelic.com",
+        "bam-cell.nr-data.net"
+      ]
+    },
+    "beacons": {
+      "firstParty": [],
+      "thirdParty": [
+        "bam-cell.nr-data.net",
+        "js-agent.newrelic.com",
+        "www.googletagmanager.com"
+      ]
+    },
+    "cookies": {
+      "firstParty": [
+        "elsevier.com"
+      ],
+      "thirdParty": [
+        "www.elsevier.com",
+        "account.elsevier.com"
+      ]
+    },
+    "localStorage": {
+      "firstParty": [],
+      "thirdParty": []
+    },
+    "links": {
+      "firstParty": [],
+      "thirdParty": [
+        "www.elsevier.com",
+        "webshop.elsevier.com",
+        "global-checkout.elsevier.com",
+        "account.elsevier.com",
+        "www.sciencedirect.com",
+        "www.youtube.com",
+        "www.facebook.com",
+        "www.linkedin.com",
+        "twitter.com",
+        "www.relx.com",
+        "survey.confirmit.com"
+      ]
+    }
+  }
+}

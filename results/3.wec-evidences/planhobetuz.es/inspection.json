@@ -1,0 +1,173 @@
+{
+  "title": "Website Evidence Collection",
+  "task_description": null,
+  "uri_ins": "http://planhobetuz.es",
+  "uri_refs": [
+    "http://planhobetuz.es"
+  ],
+  "uri_dest": "http://planhobetuz.es/",
+  "uri_redirects": [],
+  "secure_connection": {
+    "https_support": false,
+    "https_error": "RequestError: Error: Client network socket disconnected before secure TLS connection was established",
+    "redirects": [],
+    "https_redirect": false
+  },
+  "host": "planhobetuz.es",
+  "script": {
+    "host": "sfod",
+    "version": {
+      "npm": "1.0.0",
+      "commit": null
+    },
+    "cmd_args": "-q --overwrite http://planhobetuz.es -- --ignore-certificate-errors",
+    "environment": {
+      "CHROME_DESKTOP": "code-url-handler.desktop"
+    },
+    "node_version": "v14.17.0"
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "HeadlessChrome/80.0.3987.0",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3617.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "5.8.0-53-generic"
+    },
+    "extra_headers": {},
+    "preset_cookies": {}
+  },
+  "start_time": "2021-05-20T15:49:41.128Z",
+  "end_time": "2021-05-20T15:49:58.727Z",
+  "links": {
+    "firstParty": [],
+    "thirdParty": [
+      {
+        "href": "https://www.arsys.es/dominios?utm_source=parking&utm_medium=link&utm_campaign=dominios",
+        "inner_text": "Registra el dominio",
+        "inner_html": "Registra el dominio"
+      },
+      {
+        "href": "https://www.arsys.es/correo?utm_source=parking&utm_medium=link&utm_campaign=correo",
+        "inner_text": "correo profesional",
+        "inner_html": "correo profesional"
+      },
+      {
+        "href": "https://www.arsys.es/dominios/ssl?utm_source=parking&utm_medium=link&utm_campaign=ssl",
+        "inner_text": "certificado SSL",
+        "inner_html": "certificado SSL"
+      },
+      {
+        "href": "https://www.arsys.es/hosting?utm_source=parking&utm_medium=link&utm_campaign=hosting",
+        "inner_text": "Hosting web en España",
+        "inner_html": "Hosting web en España"
+      },
+      {
+        "href": "https://www.arsys.es/crear/tienda?utm_source=parking&utm_medium=link&utm_campaign=tiendas",
+        "inner_text": "Tienda Online",
+        "inner_html": "Tienda Online"
+      },
+      {
+        "href": "https://www.arsys.es/backup?utm_source=parking&utm_medium=link&utm_campaign=backup",
+        "inner_text": "Cloud Backup",
+        "inner_html": "Cloud Backup"
+      },
+      {
+        "href": "https://www.arsys.es/servidores/vps?utm_source=parking&utm_medium=link&utm_campaign=vps",
+        "inner_text": "servidor VPS",
+        "inner_html": "servidor VPS"
+      },
+      {
+        "href": "https://www.arsys.es/servidores/dedicados?utm_source=parking&utm_medium=link&utm_campaign=dedicados",
+        "inner_text": "servidor dedicado",
+        "inner_html": "servidor dedicado"
+      },
+      {
+        "href": "https://www.arsys.es/servidores/cloud?utm_source=parking&utm_medium=link&utm_campaign=cloud",
+        "inner_text": "servidor cloud",
+        "inner_html": "servidor cloud"
+      },
+      {
+        "href": "https://www.arsys.es/hosting/revendedores?utm_source=parking&utm_medium=link&utm_campaign=reseller-hosting",
+        "inner_text": "reseller de hosting",
+        "inner_html": "reseller de hosting"
+      },
+      {
+        "href": "https://www.arsys.es/dominios/gestion?utm_source=parking&utm_medium=link&utm_campaign=reseller-dominios",
+        "inner_text": "reseller de dominios",
+        "inner_html": "reseller de dominios"
+      },
+      {
+        "href": "https://www.arsys.es/soluciones?utm_source=parking&utm_medium=link&utm_campaign=solutions",
+        "inner_text": "solución empresarial a medida",
+        "inner_html": "solución empresarial a medida"
+      },
+      {
+        "href": "https://www.arsys.es/partners?utm_source=parking&utm_medium=link&utm_campaign=partners",
+        "inner_text": "programa de partners",
+        "inner_html": "programa de partners"
+      },
+      {
+        "href": "https://www.arsys.es/?utm_source=parking&utm_medium=link&utm_campaign=arsys",
+        "inner_text": "",
+        "inner_html": "<div class=\"logo\"></div>"
+      }
+    ],
+    "social": [],
+    "keywords": []
+  },
+  "unsafeForms": [],
+  "browsing_history": [
+    "http://planhobetuz.es/"
+  ],
+  "websockets": {},
+  "cookies": [
+    {
+      "name": "DPX",
+      "value": "v1:O3VSkdKHCl:OqSzrqdT:60a6932a:es",
+      "domain": "www.arsys.es",
+      "path": "/",
+      "expires": 1621529381.677721,
+      "size": 37,
+      "httpOnly": true,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2021-05-20T16:49:41.677Z",
+      "expiresDays": 0.04,
+      "firstPartyStorage": false
+    }
+  ],
+  "localStorage": {},
+  "beacons": [],
+  "hosts": {
+    "requests": {
+      "firstParty": [
+        "planhobetuz.es"
+      ],
+      "thirdParty": [
+        "arsys.es",
+        "www.arsys.es"
+      ]
+    },
+    "beacons": {
+      "firstParty": [],
+      "thirdParty": []
+    },
+    "cookies": {
+      "firstParty": [],
+      "thirdParty": [
+        "www.arsys.es"
+      ]
+    },
+    "localStorage": {
+      "firstParty": [],
+      "thirdParty": []
+    },
+    "links": {
+      "firstParty": [],
+      "thirdParty": [
+        "www.arsys.es"
+      ]
+    }
+  }
+}

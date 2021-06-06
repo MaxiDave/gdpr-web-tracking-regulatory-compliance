@@ -1,0 +1,316 @@
+{
+  "title": "Website Evidence Collection",
+  "task_description": null,
+  "uri_ins": "https://googlevideo.com",
+  "uri_refs": [
+    "https://googlevideo.com"
+  ],
+  "uri_dest": "https://www.google.com/",
+  "uri_redirects": [
+    "https://googlevideo.com/"
+  ],
+  "secure_connection": {
+    "https_support": false,
+    "https_error": "RequestError: Error [ERR_TLS_CERT_ALTNAME_INVALID]: Hostname/IP does not match certificate's altnames: Host: googlevideo.com. is not in the cert's altnames: DNS:www.google.com",
+    "redirects": [
+      "http://video.google.com/",
+      "http://www.google.com/videohp"
+    ],
+    "https_redirect": false
+  },
+  "host": "googlevideo.com",
+  "script": {
+    "host": "sfod",
+    "version": {
+      "npm": "1.0.0",
+      "commit": null
+    },
+    "cmd_args": "-q --overwrite https://googlevideo.com -- --ignore-certificate-errors",
+    "environment": {
+      "CHROME_DESKTOP": "code-url-handler.desktop"
+    },
+    "node_version": "v14.17.0"
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "HeadlessChrome/80.0.3987.0",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3617.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "5.8.0-53-generic"
+    },
+    "extra_headers": {},
+    "preset_cookies": {}
+  },
+  "start_time": "2021-05-20T16:00:53.109Z",
+  "end_time": "2021-05-20T16:00:58.827Z",
+  "links": {
+    "firstParty": [],
+    "thirdParty": [
+      {
+        "href": "https://about.google/?fg=1&utm_source=google-ES&utm_medium=referral&utm_campaign=hp-header",
+        "inner_text": "Sobre Google",
+        "inner_html": "Sobre Google"
+      },
+      {
+        "href": "https://store.google.com/ES?utm_source=hp_header&utm_medium=google_ooo&utm_campaign=GS100042&hl=es-ES",
+        "inner_text": "Tienda",
+        "inner_html": "Tienda"
+      },
+      {
+        "href": "https://mail.google.com/mail/&ogbl",
+        "inner_text": "Gmail",
+        "inner_html": "Gmail"
+      },
+      {
+        "href": "https://www.google.es/imghp?hl=es&ogbl",
+        "inner_text": "Imágenes",
+        "inner_html": "Imágenes"
+      },
+      {
+        "href": "https://www.google.es/intl/es/about/products",
+        "inner_text": "",
+        "inner_html": "<svg class=\"gb_We\" focusable=\"false\" viewBox=\"0 0 24 24\"><path d=\"M6,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM16,6c0,1.1 0.9,2 2,2s2,-0.9 2,-2 -0.9,-2 -2,-2 -2,0.9 -2,2zM12,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2z\"></path></svg>"
+      },
+      {
+        "href": "https://accounts.google.com/ServiceLogin?hl=es&passive=true&continue=https://www.google.com/&ec=GAZAmgQ",
+        "inner_text": "Iniciar sesión",
+        "inner_html": "Iniciar sesión"
+      },
+      {
+        "href": "https://support.google.com/websearch/answer/106230?hl=es",
+        "inner_text": "Más información",
+        "inner_html": "Más información"
+      },
+      {
+        "href": "https://www.google.com/",
+        "inner_text": "Denunciar predicciones inadecuadas",
+        "inner_html": "Denunciar predicciones inadecuadas"
+      },
+      {
+        "href": "https://www.google.com/url?q=https://about.google/intl/ALL_es/stories/jason-barnes-accessibility-tools/%3Futm_source%3Dgoogle%26utm_medium%3Dhpp%26utm_campaign%3DES&source=hpp&id=19024430&ct=3&usg=AFQjCNFqWm_n2WIDJS-MGCx4V14jzTYqmQ&sa=X&ved=0ahUKEwjfvo_i0NjwAhWGkxQKHWXlDOUQ8IcBCBA",
+        "inner_text": "Descubre cómo Google y otras empresas están construyendo un mundo más accesible",
+        "inner_html": "Descubre cómo Google y otras empresas están construyendo un mundo más accesible"
+      },
+      {
+        "href": "https://www.google.com/setprefs?sig=0_fjeEQIF23RKHGr4LRcytd2J8rQA%3D&hl=ca&source=homepage&sa=X&ved=0ahUKEwjfvo_i0NjwAhWGkxQKHWXlDOUQ2ZgBCBI",
+        "inner_text": "català",
+        "inner_html": "català"
+      },
+      {
+        "href": "https://www.google.com/setprefs?sig=0_fjeEQIF23RKHGr4LRcytd2J8rQA%3D&hl=gl&source=homepage&sa=X&ved=0ahUKEwjfvo_i0NjwAhWGkxQKHWXlDOUQ2ZgBCBM",
+        "inner_text": "galego",
+        "inner_html": "galego"
+      },
+      {
+        "href": "https://www.google.com/setprefs?sig=0_fjeEQIF23RKHGr4LRcytd2J8rQA%3D&hl=eu&source=homepage&sa=X&ved=0ahUKEwjfvo_i0NjwAhWGkxQKHWXlDOUQ2ZgBCBQ",
+        "inner_text": "euskara",
+        "inner_html": "euskara"
+      },
+      {
+        "href": "https://www.google.com/setprefs?sig=0_fjeEQIF23RKHGr4LRcytd2J8rQA%3D&hl=en&source=homepage&sa=X&ved=0ahUKEwjfvo_i0NjwAhWGkxQKHWXlDOUQ2ZgBCBU",
+        "inner_text": "English",
+        "inner_html": "English"
+      },
+      {
+        "href": "https://www.google.com/intl/es_es/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1",
+        "inner_text": "Publicidad",
+        "inner_html": "Publicidad"
+      },
+      {
+        "href": "https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1",
+        "inner_text": "Empresa",
+        "inner_html": "Empresa"
+      },
+      {
+        "href": "https://google.com/search/howsearchworks/?fg=1",
+        "inner_text": "Cómo funciona la Búsqueda",
+        "inner_html": "Cómo funciona la Búsqueda"
+      },
+      {
+        "href": "https://sustainability.google/intl/es/commitments-europe/?utm_source=googlehpfooter&utm_medium=housepromos&utm_campaign=bottom-footer&utm_content=",
+        "inner_text": "Emisión neutra de carbono desde el 2007",
+        "inner_html": "<img src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAAYCAMAAAAiV0Z6AAAAPFBMVEVLoEN0wU6CzFKCzFKCzFKCzFKCzFJSo0MSczNDmkCCzFJPoUMTczNdr0gmgziCzFITczMTczMTczMTczPh00jOAAAAFHRSTlPF/+bIsms8Ad///hX+//5/tXw7aMEAx10AAACaSURBVHgBbc4HDoRQCATQ33tbvf9dF9QxaCT9UQaltLHOh/golXKhMs5Xqa0xU1lyoa2fXFyQOsDG38qsLy4TaV+sFislovyhPzLJJrBu6eQOtpW0LjbJkzTuTDLRVNKa3uxJI+VdiRqXSeu6GW+Qxi29eLIi8H7EsYrT42BD+mQtNO5JMjRuC4lSY8V4hsLX0egGijvUSEP9AbylEsOkeCgWAAAAAElFTkSuQmCC\" class=\"Pb9hCb\" alt=\"\" data-iml=\"1621526453891\" data-atf=\"1\"><span class=\"ktLKi\">Emisión neutra de carbono desde el 2007</span>"
+      },
+      {
+        "href": "https://policies.google.com/privacy?hl=es&fg=1",
+        "inner_text": "Privacidad",
+        "inner_html": "Privacidad"
+      },
+      {
+        "href": "https://policies.google.com/terms?hl=es&fg=1",
+        "inner_text": "Términos",
+        "inner_html": "Términos"
+      },
+      {
+        "href": "https://www.google.com/preferences?hl=es&fg=1",
+        "inner_text": "Configuración de búsqueda",
+        "inner_html": "Configuración de búsqueda"
+      },
+      {
+        "href": "https://www.google.com/advanced_search?hl=es&fg=1",
+        "inner_text": "Búsqueda avanzada",
+        "inner_html": "Búsqueda avanzada"
+      },
+      {
+        "href": "https://www.google.com/history/privacyadvisor/search/unauth?utm_source=googlemenu&fg=1",
+        "inner_text": "Tus datos",
+        "inner_html": "Tus datos"
+      },
+      {
+        "href": "https://www.google.com/history/optout?hl=es&fg=1",
+        "inner_text": "Historial de búsqueda",
+        "inner_html": "Historial de búsqueda"
+      },
+      {
+        "href": "https://support.google.com/websearch/?p=ws_results_help&hl=es&fg=1",
+        "inner_text": "Buscar en Ayuda",
+        "inner_html": "Buscar en Ayuda"
+      },
+      {
+        "href": "https://policies.google.com/technologies/cookies?utm_source=ucbs&hl=es",
+        "inner_text": "cookies",
+        "inner_html": "cookies"
+      },
+      {
+        "href": "https://policies.google.com/privacy?hl=es&fg=1&utm_source=ucbs",
+        "inner_text": "Privacidad",
+        "inner_html": "Privacidad"
+      },
+      {
+        "href": "https://policies.google.com/terms?hl=es&fg=1&utm_source=ucbs",
+        "inner_text": "Términos",
+        "inner_html": "Términos"
+      }
+    ],
+    "social": [],
+    "keywords": [
+      {
+        "href": "https://accounts.google.com/ServiceLogin?hl=es&passive=true&continue=https://www.google.com/&ec=GAZAmgQ",
+        "inner_text": "Iniciar sesión",
+        "inner_html": "Iniciar sesión"
+      },
+      {
+        "href": "https://policies.google.com/privacy?hl=es&fg=1",
+        "inner_text": "Privacidad",
+        "inner_html": "Privacidad"
+      },
+      {
+        "href": "https://www.google.com/history/privacyadvisor/search/unauth?utm_source=googlemenu&fg=1",
+        "inner_text": "Tus datos",
+        "inner_html": "Tus datos"
+      },
+      {
+        "href": "https://policies.google.com/privacy?hl=es&fg=1&utm_source=ucbs",
+        "inner_text": "Privacidad",
+        "inner_html": "Privacidad"
+      }
+    ]
+  },
+  "unsafeForms": [],
+  "browsing_history": [
+    "https://www.google.com/"
+  ],
+  "websockets": {},
+  "cookies": [
+    {
+      "name": "CONSENT",
+      "value": "PENDING+244",
+      "domain": "google.com",
+      "path": "/",
+      "expires": 2145916800.78769,
+      "size": 18,
+      "httpOnly": false,
+      "secure": true,
+      "session": false,
+      "expiresUTC": "2038-01-01T00:00:00.787Z",
+      "expiresDays": 6069.33,
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.google.com/",
+            "source": "set in Set-Cookie HTTP response header for https://www.google.com/"
+          }
+        ],
+        "type": "Cookie.HTTP",
+        "timestamp": "2021-05-20T16:00:53.793Z",
+        "location": "about:blank"
+      },
+      "firstPartyStorage": false
+    }
+  ],
+  "localStorage": {},
+  "beacons": [
+    {
+      "url": "https://www.google.com/gen_204?s=webhp&t=aft&atyp=csi&ei=tYemYJ-QKYanUuXKs6gO&rt=wsrt.611,aft.191,prt.164&imn=7&ima=5&imad=0&aftp=927&bl=vbim",
+      "query": {
+        "s": "webhp",
+        "t": "aft",
+        "atyp": "csi",
+        "ei": "tYemYJ-QKYanUuXKs6gO",
+        "rt": "wsrt.611,aft.191,prt.164",
+        "imn": 7,
+        "ima": 5,
+        "imad": 0,
+        "aftp": 927,
+        "bl": "vbim"
+      },
+      "filter": "/gen_204?$image,other,ping,script",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.google.com/",
+            "source": "requested from https://www.google.com/ and matched with easyprivacy.txt filter /gen_204?$image,other,ping,script"
+          }
+        ],
+        "timestamp": "2021-05-20T16:00:53.984Z"
+      },
+      "occurrances": 2
+    }
+  ],
+  "hosts": {
+    "requests": {
+      "firstParty": [
+        "googlevideo.com"
+      ],
+      "thirdParty": [
+        "www.google.com",
+        "www.gstatic.com",
+        "apis.google.com",
+        "ogs.google.com"
+      ]
+    },
+    "beacons": {
+      "firstParty": [],
+      "thirdParty": [
+        "www.google.com"
+      ]
+    },
+    "cookies": {
+      "firstParty": [],
+      "thirdParty": [
+        "google.com"
+      ]
+    },
+    "localStorage": {
+      "firstParty": [],
+      "thirdParty": []
+    },
+    "links": {
+      "firstParty": [],
+      "thirdParty": [
+        "about.google",
+        "store.google.com",
+        "mail.google.com",
+        "www.google.es",
+        "accounts.google.com",
+        "support.google.com",
+        "www.google.com",
+        "google.com",
+        "sustainability.google",
+        "policies.google.com"
+      ]
+    }
+  }
+}

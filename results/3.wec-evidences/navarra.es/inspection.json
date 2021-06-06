@@ -1,0 +1,947 @@
+{
+  "title": "Website Evidence Collection",
+  "task_description": null,
+  "uri_ins": "https://navarra.es",
+  "uri_refs": [
+    "https://navarra.es"
+  ],
+  "uri_dest": "https://www.navarra.es/es/inicio",
+  "uri_redirects": [
+    "https://www.navarra.es/home_es/"
+  ],
+  "secure_connection": {
+    "https_support": true,
+    "redirects": [
+      "http://www.navarra.es"
+    ],
+    "https_redirect": false
+  },
+  "host": "navarra.es",
+  "script": {
+    "host": "sfod",
+    "version": {
+      "npm": "1.0.0",
+      "commit": null
+    },
+    "cmd_args": "-q --overwrite https://navarra.es -- --ignore-certificate-errors",
+    "environment": {
+      "CHROME_DESKTOP": "code-url-handler.desktop"
+    },
+    "node_version": "v14.17.0"
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "HeadlessChrome/80.0.3987.0",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3617.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "5.8.0-53-generic"
+    },
+    "extra_headers": {},
+    "preset_cookies": {}
+  },
+  "start_time": "2021-05-20T15:27:11.698Z",
+  "end_time": "2021-05-20T15:27:19.937Z",
+  "links": {
+    "firstParty": [],
+    "thirdParty": [
+      {
+        "href": "https://www.navarra.es/es/inicio",
+        "inner_text": "Saltar al contenido",
+        "inner_html": "Saltar al contenido"
+      },
+      {
+        "href": "https://www.navarra.es/home_es",
+        "inner_text": "",
+        "inner_html": "<img class=\"img-fluid\" src=\"/documents/48192/2572156/logo-navarra-es.png/9f45c99d-a77d-5ca8-8aa0-1cfb176d48cb?t=1592225635000\" alt=\"Logotipo Gobierno de Navarra\" title=\"\">"
+      },
+      {
+        "href": "https://www.navarra.es/es/c/portal/update_language?p_l_id=4402462&redirect=%2Fes%2Finicio&languageId=eu_ES",
+        "inner_text": "EU",
+        "inner_html": "EU"
+      },
+      {
+        "href": "https://www.navarra.es/es/atencion-ciudadana",
+        "inner_text": "",
+        "inner_html": "<img class=\"img-responsive\" src=\"/documents/8047808/8048301/5501346/480fcdc8-93ff-f805-4ef1-6dd2803e3896?t=1620666960485\" alt=\"\" title=\"\">"
+      },
+      {
+        "href": "https://www.navarra.es/home_es/Navarra/",
+        "inner_text": "\n                                \n                                    Navarra\n                                    \n                                        arrow_right_alt\n                                    \n                                \n                        ",
+        "inner_html": "<div class=\"linkText linkBlack\">\n                                    Navarra\n                                    <div aria-hidden=\"true\" class=\"flecha\">\n                                        <span class=\"material-icons-round icon-color-1\">arrow_right_alt</span>\n                                    </div>\n                                </div>"
+      },
+      {
+        "href": "https://www.navarra.es/es/tramites",
+        "inner_text": "\n                                \n                                    Trámites-Sede electrónica\n                                    \n                                        arrow_right_alt\n                                    \n                                \n                        ",
+        "inner_html": "<div class=\"linkText linkBlack\">\n                                    Trámites-Sede electrónica\n                                    <div aria-hidden=\"true\" class=\"flecha\">\n                                        <span class=\"material-icons-round icon-color-1\">arrow_right_alt</span>\n                                    </div>\n                                </div>"
+      },
+      {
+        "href": "https://www.navarra.es/es/temas",
+        "inner_text": "\n                                \n                                    Temas\n                                    \n                                        arrow_right_alt\n                                    \n                                \n                        ",
+        "inner_html": "<div class=\"linkText linkBlack\">\n                                    Temas\n                                    <div aria-hidden=\"true\" class=\"flecha\">\n                                        <span class=\"material-icons-round icon-color-1\">arrow_right_alt</span>\n                                    </div>\n                                </div>"
+      },
+      {
+        "href": "https://www.navarra.es/es/gobierno-de-navarra",
+        "inner_text": "\n                                \n                                    Gobierno de Navarra\n                                    \n                                        arrow_right_alt\n                                    \n                                \n                        ",
+        "inner_html": "<div class=\"linkText linkBlack\">\n                                    Gobierno de Navarra\n                                    <div aria-hidden=\"true\" class=\"flecha\">\n                                        <span class=\"material-icons-round icon-color-1\">arrow_right_alt</span>\n                                    </div>\n                                </div>"
+      },
+      {
+        "href": "https://www.navarra.es/es/sala-de-prensa",
+        "inner_text": "\n                                \n                                    Sala de Prensa\n                                    \n                                        arrow_right_alt\n                                    \n                                \n                        ",
+        "inner_html": "<div class=\"linkText linkBlack\">\n                                    Sala de Prensa\n                                    <div aria-hidden=\"true\" class=\"flecha\">\n                                        <span class=\"material-icons-round icon-color-1\">arrow_right_alt</span>\n                                    </div>\n                                </div>"
+      },
+      {
+        "href": "https://www.navarra.es/es/c/portal/update_language?p_l_id=5722676&redirect=%2Fes%2Ftramites%2Fbuscador&languageId=eu_ES",
+        "inner_text": "EU",
+        "inner_html": "EU"
+      },
+      {
+        "href": "https://www.facebook.com/navarrainfociudadana",
+        "inner_text": "\n                            \n        \n                            \n                        ",
+        "inner_html": "<div class=\"col-item\">\n        <img class=\"\" src=\"/documents/8047808/8048300/6896328/d878d016-89cf-a226-0f47-c5349d4cb8f1?t=1620666980426\" alt=\"facebook\" title=\"\">\n                            </div>"
+      },
+      {
+        "href": "https://twitter.com/navarra",
+        "inner_text": "\n                            \n        \n                            \n                        ",
+        "inner_html": "<div class=\"col-item\">\n        <img class=\"\" src=\"/documents/8047808/8048300/6896330/fb55e1f2-dac9-d29f-cb0e-b42697af65a0?t=1620666980434\" alt=\"twitter\" title=\"\">\n                            </div>"
+      },
+      {
+        "href": "https://www.navarra.es/",
+        "inner_text": "Print",
+        "inner_html": "<span class=\"a2a_svg a2a_s__default a2a_s_print\" style=\"background-color: rgb(1, 102, 255); width: 48px; line-height: 48px; height: 48px; background-size: 48px; border-radius: 7px;\"><svg focusable=\"false\" aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 32 32\"><path d=\"M22.5 19.59V24h-13v-4.41z\" fill=\"#fff\" stroke=\"#fff\" stroke-linecap=\"round\" stroke-miterlimit=\"10\" stroke-width=\"1.4\"></path><path d=\"M9.44 21.12H6.38a.8.8 0 0 1-.87-.7v-7.35a.8.8 0 0 1 .88-.7h19.23a.8.8 0 0 1 .88.7v7.35a.8.8 0 0 1-.88.7h-3.06\" fill=\"none\" stroke=\"#fff\" stroke-linecap=\"round\" stroke-miterlimit=\"10\" stroke-width=\"1.4\"></path><path d=\"M22.5 12.32V8h-13v4.28\" fill=\"#fff\" stroke=\"#fff\" stroke-linecap=\"round\" stroke-miterlimit=\"10\" stroke-width=\"1.4\"></path></svg></span><span class=\"a2a_label\">Print</span>"
+      },
+      {
+        "href": "https://www.addtoany.com/share",
+        "inner_text": "Share",
+        "inner_html": "<span class=\"a2a_svg a2a_s__default a2a_s_a2a\" style=\"background-color: rgb(1, 102, 255); width: 48px; line-height: 48px; height: 48px; background-size: 48px; border-radius: 7px;\"><svg focusable=\"false\" aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 32 32\"><g fill=\"#FFF\"><path d=\"M14 7h4v18h-4z\"></path><path d=\"M7 14h18v4H7z\"></path></g></svg></span><span class=\"a2a_label a2a_localize\" data-a2a-localize=\"inner,Share\">Share</span>"
+      },
+      {
+        "href": "https://bon.navarra.es/es/inicio",
+        "inner_text": "arrow_right_alt\nBoletín Oficial de Navarra",
+        "inner_html": "<i class=\"material-icons-round\">arrow_right_alt</i>\n                                        <span>Boletín Oficial de Navarra</span>"
+      },
+      {
+        "href": "https://www.navarra.es/home_es/Temas/Empleo+y+Economia/Empleo/Empleo/Ofertas+de+empleo/Default.htm",
+        "inner_text": "arrow_right_alt\nOfertas de empleo",
+        "inner_html": "<i class=\"material-icons-round\">arrow_right_alt</i>\n                                        <span>Ofertas de empleo</span>"
+      },
+      {
+        "href": "https://www.navarra.es/es/empleo-publico",
+        "inner_text": "arrow_right_alt\nEmpleo público",
+        "inner_html": "<i class=\"material-icons-round\">arrow_right_alt</i>\n                                        <span>Empleo público</span>"
+      },
+      {
+        "href": "https://www.navarra.es/es/tramites/buscador/-/buscartramite/sort/relevancia/facet/5718397/rpp/10/page/1",
+        "inner_text": "arrow_right_alt\nAyudas y subvenciones",
+        "inner_html": "<i class=\"material-icons-round\">arrow_right_alt</i>\n                                        <span>Ayudas y subvenciones</span>"
+      },
+      {
+        "href": "https://www.navarra.es/es/tramites/on/-/line/Cita-previa-en-el-centro-de-salud",
+        "inner_text": "arrow_right_alt\nCita previa de Salud",
+        "inner_html": "<i class=\"material-icons-round\">arrow_right_alt</i>\n                                        <span>Cita previa de Salud</span>"
+      },
+      {
+        "href": "https://www.navarra.es/home_es/Servicios/ficha/8589/Cita-previa-para-registros-y-oficinas-de-Atencion-Ciudadana",
+        "inner_text": "Debido a la COVID-19, las oficinas de registro y de atención ciudadana funcionan con cita previa. PIDE CITA",
+        "inner_html": "Debido a la COVID-19, las oficinas de registro y de atención ciudadana funcionan con cita previa.&nbsp;<strong>PIDE CITA</strong>"
+      },
+      {
+        "href": "https://renta.navarra.es/",
+        "inner_text": "Campaña de la Renta 2020\narrow_forward",
+        "inner_html": "<span class=\"linkTitle\">Campaña de la Renta 2020</span>\n                                            <i class=\"material-icons-round icon-size-12 icon-color-4 pull-right\">arrow_forward</i>"
+      },
+      {
+        "href": "https://coronavirus.navarra.es/",
+        "inner_text": "CORONAVIRUS\nplay_circle_filled",
+        "inner_html": "<div class=\"thumbnail\">\n                                        <div class=\"caption\">\n                                                Coronavirus\n                                                <i class=\"itemRelatedLink material-icons-round icon-size-24 icon-color-4\">play_circle_filled</i>\n                                        </div>\n                                    </div>"
+      },
+      {
+        "href": "https://reactivar.navarra.es/es/",
+        "inner_text": "REACTIVAR NAVARRA\nplay_circle_filled",
+        "inner_html": "<div class=\"thumbnail\">\n                                        <div class=\"caption\">\n                                                Reactivar Navarra\n                                                <i class=\"itemRelatedLink material-icons-round icon-size-24 icon-color-4\">play_circle_filled</i>\n                                        </div>\n                                    </div>"
+      },
+      {
+        "href": "https://www.navarra.es/home_es/Temas/Empleo+y+Economia/Empleo/",
+        "inner_text": "Empleo\nOfertas de empleo, orientación y formación laboral.",
+        "inner_html": "<div class=\"thumbnail\">\n                                        <div class=\"caption\">\n                                            <div class=\"title\">\n                                                Empleo\n                                            </div>\n                                                <div class=\"subTitle\">\n                                                    Ofertas de empleo, orientación y formación laboral.\n                                                </div>\n                                        </div>\n                                    </div>"
+      },
+      {
+        "href": "https://www.navarra.es/home_es/Gobierno+de+Navarra/Organigrama/Los+departamentos/Economia+y+Hacienda/Organigrama/Estructura+Organica/Hacienda/",
+        "inner_text": "Hacienda\nPago de impuestos e información tributaria.",
+        "inner_html": "<div class=\"thumbnail\">\n                                        <div class=\"caption\">\n                                            <div class=\"title\">\n                                                Hacienda\n                                            </div>\n                                                <div class=\"subTitle\">\n                                                    Pago de impuestos e información tributaria.\n                                                </div>\n                                        </div>\n                                    </div>"
+      },
+      {
+        "href": "https://www.navarra.es/home_es/Temas/Portal+de+la+Salud/Ciudadania/",
+        "inner_text": "Salud\nCita previa en el centro de salud y consejos sanitarios.",
+        "inner_html": "<div class=\"thumbnail\">\n                                        <div class=\"caption\">\n                                            <div class=\"title\">\n                                                Salud\n                                            </div>\n                                                <div class=\"subTitle\">\n                                                    Cita previa en el centro de salud y consejos sanitarios.\n                                                </div>\n                                        </div>\n                                    </div>"
+      },
+      {
+        "href": "https://www.navarra.es/es/educacion",
+        "inner_text": "Educación\nOferta formativa y listas de contratación de docentes.",
+        "inner_html": "<div class=\"thumbnail\">\n                                        <div class=\"caption\">\n                                            <div class=\"title\">\n                                                Educación\n                                            </div>\n                                                <div class=\"subTitle\">\n                                                    Oferta formativa y listas de contratación de docentes.\n                                                </div>\n                                        </div>\n                                    </div>"
+      },
+      {
+        "href": "https://www.navarra.es/es/derechos-sociales",
+        "inner_text": "Asuntos sociales\nMayores, familias, discapacidad, exclusión y salud mental.",
+        "inner_html": "<div class=\"thumbnail\">\n                                        <div class=\"caption\">\n                                            <div class=\"title\">\n                                                Asuntos sociales\n                                            </div>\n                                                <div class=\"subTitle\">\n                                                    Mayores, familias, discapacidad, exclusión y salud mental.\n                                                </div>\n                                        </div>\n                                    </div>"
+      },
+      {
+        "href": "https://www.navarra.es/home_es/Temas/Vivienda/Ciudadanos/",
+        "inner_text": "Vivienda\nAyudas a la compraventa, alquiler y rehabilitación.",
+        "inner_html": "<div class=\"thumbnail\">\n                                        <div class=\"caption\">\n                                            <div class=\"title\">\n                                                Vivienda\n                                            </div>\n                                                <div class=\"subTitle\">\n                                                    Ayudas a la compraventa, alquiler y rehabilitación.\n                                                </div>\n                                        </div>\n                                    </div>"
+      },
+      {
+        "href": "https://www.navarra.es/es/cultura",
+        "inner_text": "Cultura\nProgramación cultural, bibliotecas, archivos y museos.",
+        "inner_html": "<div class=\"thumbnail\">\n                                        <div class=\"caption\">\n                                            <div class=\"title\">\n                                                Cultura\n                                            </div>\n                                                <div class=\"subTitle\">\n                                                    Programación cultural, bibliotecas, archivos y museos.\n                                                </div>\n                                        </div>\n                                    </div>"
+      },
+      {
+        "href": "https://www.navarra.es/home_es/Temas/Empleo+y+Economia/",
+        "inner_text": "Empresas y profesionales\nSectores económicos, emprendimiento, I+D+i.",
+        "inner_html": "<div class=\"thumbnail\">\n                                        <div class=\"caption\">\n                                            <div class=\"title\">\n                                                Empresas y profesionales\n                                            </div>\n                                                <div class=\"subTitle\">\n                                                    Sectores económicos, emprendimiento, I+D+i.\n                                                </div>\n                                        </div>\n                                    </div>"
+      },
+      {
+        "href": "https://www.navarra.es/es/accion-exterior",
+        "inner_text": "\n                                    \n                                        \n                                            \n                                                Acción Exterior\n                                            \n                                                \n                                                    Navarra en Europa, cooperación interregional y ciudadanía exterior.\n                                                \n                                        \n                                    \n                            ",
+        "inner_html": "<div class=\"thumbnail\">\n                                        <div class=\"caption\">\n                                            <div class=\"title\">\n                                                Acción Exterior\n                                            </div>\n                                                <div class=\"subTitle\">\n                                                    Navarra en Europa, cooperación interregional y ciudadanía exterior.\n                                                </div>\n                                        </div>\n                                    </div>"
+      },
+      {
+        "href": "https://www.navarra.es/home_es/Temas/Ambito+rural/",
+        "inner_text": "\n                                    \n                                        \n                                            \n                                                Agricultura y ganadería\n                                            \n                                                \n                                                    Ayudas de la PAC y para el desarrollo rural.\n                                                \n                                        \n                                    \n                            ",
+        "inner_html": "<div class=\"thumbnail\">\n                                        <div class=\"caption\">\n                                            <div class=\"title\">\n                                                Agricultura y ganadería\n                                            </div>\n                                                <div class=\"subTitle\">\n                                                    Ayudas de la PAC y para el desarrollo rural.\n                                                </div>\n                                        </div>\n                                    </div>"
+      },
+      {
+        "href": "https://www.navarra.es/home_es/Temas/Consumo/",
+        "inner_text": "\n                                    \n                                        \n                                            \n                                                Consumo\n                                            \n                                                \n                                                    Servicios de mediación y derechos de los consumidores.\n                                                \n                                        \n                                    \n                            ",
+        "inner_html": "<div class=\"thumbnail\">\n                                        <div class=\"caption\">\n                                            <div class=\"title\">\n                                                Consumo\n                                            </div>\n                                                <div class=\"subTitle\">\n                                                    Servicios de mediación y derechos de los consumidores.\n                                                </div>\n                                        </div>\n                                    </div>"
+      },
+      {
+        "href": "https://www.navarra.es/es/deporte",
+        "inner_text": "\n                                    \n                                        \n                                            \n                                                Deporte\n                                            \n                                                \n                                                    Enseñanzas deportivas y ayudas a clubes y federaciones.\n                                                \n                                        \n                                    \n                            ",
+        "inner_html": "<div class=\"thumbnail\">\n                                        <div class=\"caption\">\n                                            <div class=\"title\">\n                                                Deporte\n                                            </div>\n                                                <div class=\"subTitle\">\n                                                    Enseñanzas deportivas y ayudas a clubes y federaciones.\n                                                </div>\n                                        </div>\n                                    </div>"
+      },
+      {
+        "href": "https://www.navarra.es/es/igualdad-y-violencia-de-genero",
+        "inner_text": "\n                                    \n                                        \n                                            \n                                                Igualdad de género\n                                            \n                                                \n                                                    Medidas contra la violencia de género y la LGTBIfobia.\n                                                \n                                        \n                                    \n                            ",
+        "inner_html": "<div class=\"thumbnail\">\n                                        <div class=\"caption\">\n                                            <div class=\"title\">\n                                                Igualdad de género\n                                            </div>\n                                                <div class=\"subTitle\">\n                                                    Medidas contra la violencia de género y la LGTBIfobia.\n                                                </div>\n                                        </div>\n                                    </div>"
+      },
+      {
+        "href": "https://www.navarra.es/home_es/Temas/Justicia/",
+        "inner_text": "\n                                    \n                                        \n                                            \n                                                Justicia\n                                            \n                                                \n                                                    Trámites con los juzgados, registro civil y justicia gratuita.\n                                                \n                                        \n                                    \n                            ",
+        "inner_html": "<div class=\"thumbnail\">\n                                        <div class=\"caption\">\n                                            <div class=\"title\">\n                                                Justicia\n                                            </div>\n                                                <div class=\"subTitle\">\n                                                    Trámites con los juzgados, registro civil y justicia gratuita.\n                                                </div>\n                                        </div>\n                                    </div>"
+      },
+      {
+        "href": "https://www.navarra.es/es/juventud",
+        "inner_text": "\n                                    \n                                        \n                                            \n                                                Juventud\n                                            \n                                                \n                                                    Carné joven y cursos de monitor y tiempo libre.\n                                                \n                                        \n                                    \n                            ",
+        "inner_html": "<div class=\"thumbnail\">\n                                        <div class=\"caption\">\n                                            <div class=\"title\">\n                                                Juventud\n                                            </div>\n                                                <div class=\"subTitle\">\n                                                    Carné joven y cursos de monitor y tiempo libre.\n                                                </div>\n                                        </div>\n                                    </div>"
+      },
+      {
+        "href": "https://www.navarra.es/home_es/Temas/Medio+Ambiente/",
+        "inner_text": "\n                                    \n                                        \n                                            \n                                                Medio Ambiente\n                                            \n                                                \n                                                    Cambio climático, residuos, caza y pesca.\n                                                \n                                        \n                                    \n                            ",
+        "inner_html": "<div class=\"thumbnail\">\n                                        <div class=\"caption\">\n                                            <div class=\"title\">\n                                                Medio Ambiente\n                                            </div>\n                                                <div class=\"subTitle\">\n                                                    Cambio climático, residuos, caza y pesca.\n                                                </div>\n                                        </div>\n                                    </div>"
+      },
+      {
+        "href": "https://www.navarra.es/home_es/Temas/Seguridad/",
+        "inner_text": "\n                                    \n                                        \n                                            \n                                                Seguridad\n                                            \n                                                \n                                                    Policía Foral, protección civil y emergencias.\n                                                \n                                        \n                                    \n                            ",
+        "inner_html": "<div class=\"thumbnail\">\n                                        <div class=\"caption\">\n                                            <div class=\"title\">\n                                                Seguridad\n                                            </div>\n                                                <div class=\"subTitle\">\n                                                    Policía Foral, protección civil y emergencias.\n                                                </div>\n                                        </div>\n                                    </div>"
+      },
+      {
+        "href": "https://www.navarra.es/home_es/Temas/Territorio/",
+        "inner_text": "\n                                    \n                                        \n                                            \n                                                Territorio y transporte\n                                            \n                                                \n                                                    Carreteras, ordenación del territorio y SITNA.\n                                                \n                                        \n                                    \n                            ",
+        "inner_html": "<div class=\"thumbnail\">\n                                        <div class=\"caption\">\n                                            <div class=\"title\">\n                                                Territorio y transporte\n                                            </div>\n                                                <div class=\"subTitle\">\n                                                    Carreteras, ordenación del territorio y SITNA.\n                                                </div>\n                                        </div>\n                                    </div>"
+      },
+      {
+        "href": "https://www.navarra.es/home_es/Gobierno+de+Navarra/Organigrama/Los+departamentos/Economia+y+Hacienda/Organigrama/Estructura+Organica/Instituto+Estadistica/",
+        "inner_text": "Estadísticas\nDatos estadísticos sobre economía, población, sociedad y tecnología",
+        "inner_html": "<div class=\"thumbnail\">\n                            <div class=\"caption\">\n                                    <div class=\"title underline-to-right\">\n                                        Estadísticas\n                                    </div>\n                                    <div class=\"subtitle\">\n                                        Datos estadísticos sobre economía, población, sociedad y tecnología\n                                    </div>\n                            </div>\n                        </div>"
+      },
+      {
+        "href": "https://investinnavarra.com/es/",
+        "inner_text": "Invertir en Navarra\nInformación y asesoramiento para invertir",
+        "inner_html": "<div class=\"thumbnail\">\n                                <div class=\"caption\">\n        <img class=\"img-responsive\" src=\"/documents/48192/4469894/Invertir-en-Navarra_370x247.jpg/82f5cd7a-8eb8-b898-b35b-3fe1b2434db1?t=1592548766000\" alt=\" \" title=\"\">\n                                        <div class=\"title underline-to-right\">\n                                            Invertir en Navarra\n                                        </div>\n                                        <div class=\"subtitle\">\n                                            Información y asesoramiento para invertir\n                                        </div>\n                                </div>\n                            </div>"
+      },
+      {
+        "href": "https://www.turismo.navarra.es/esp/home/default.htm",
+        "inner_text": "Turismo\nConoce y visita la Comunidad Foral",
+        "inner_html": "<div class=\"thumbnail\">\n                                <div class=\"caption\">\n        <img class=\"img-responsive\" src=\"/documents/48192/4469894/Turismo_370x247.jpg/65e11fe0-0f83-c755-f3fa-bdda6485a8d5?t=1592548793000\" alt=\" \" title=\"\">\n                                        <div class=\"title underline-to-right\">\n                                            Turismo\n                                        </div>\n                                        <div class=\"subtitle\">\n                                            Conoce y visita la Comunidad Foral\n                                        </div>\n                                </div>\n                            </div>"
+      },
+      {
+        "href": "https://gobiernoabierto.navarra.es/es",
+        "inner_text": "GOBIERNO ABIERTO: TRANSPARENCIA, PARTICIPACIÓN Y DATOS ABIERTOS",
+        "inner_html": "<div class=\"thumbnail\">\n                                    <div class=\"caption\">\n                                            Gobierno Abierto: transparencia, participación y datos abiertos\n                                    </div>\n                                </div>"
+      },
+      {
+        "href": "https://www.navarra.es/es/web/formularioalertas/sugerencias",
+        "inner_text": "NAVARRA@NAVARRA.ES",
+        "inner_html": "<div class=\"thumbnail\">\n                            <div class=\"caption\">\n                                    <div class=\"maxImage\">\n        <img class=\"\" src=\"/documents/48192/4486248/icono-sobre.png/5999cc78-a492-ca42-ad1f-8c6c7a76fc65?t=1592820427000\" alt=\"Contacto por correo electrónico\" title=\"\">\n                                    </div>\n                                    <div class=\"title\">\n                                        <span class=\"underline-to-right\">navarra@navarra.es</span>\n                                    </div>\n                            </div>\n                        </div>"
+      },
+      {
+        "href": "https://www.navarra.es/es/atencion-ciudadana/oficinas-de-registro-y-atencion-ciudadana",
+        "inner_text": "OFICINAS",
+        "inner_html": "<div class=\"thumbnail\">\n                            <div class=\"caption\">\n                                    <div class=\"maxImage\">\n        <img class=\"\" src=\"/documents/48192/4486248/icono-info.png/078c129f-4fe2-0f8d-db3b-80681a4fb1f0?t=1592820426000\" alt=\"Ubicación de las oficinas\" title=\"\">\n                                    </div>\n                                    <div class=\"title\">\n                                        <span class=\"underline-to-right\">Oficinas</span>\n                                    </div>\n                            </div>\n                        </div>"
+      },
+      {
+        "href": "https://www.navarra.es/home_es/Indices/Sugerencias/",
+        "inner_text": "chat_bubble_outline Comunicar un error en la información",
+        "inner_html": "<span aria-hidden=\"true\" class=\"material-icons-round icon-size-3\">chat_bubble_outline</span>\n        Comunicar un error en la información"
+      },
+      {
+        "href": "https://www.navarra.es/es/accesibilidad",
+        "inner_text": "Accesibilidad",
+        "inner_html": "Accesibilidad"
+      },
+      {
+        "href": "https://www.navarra.es/es/aviso-legal",
+        "inner_text": "Aviso legal",
+        "inner_html": "Aviso legal"
+      },
+      {
+        "href": "https://www.facebook.com/GobiernoNavarra",
+        "inner_text": "",
+        "inner_html": "<img class=\"img-fluid\" src=\"/documents/8047808/8048299/7444196/711c645e-a555-4e0a-21bc-69be80ffd275?t=1620666992587\" alt=\"facebook\" title=\"\">"
+      },
+      {
+        "href": "https://twitter.com/gob_na",
+        "inner_text": "",
+        "inner_html": "<img class=\"img-fluid\" src=\"/documents/8047808/8048299/7444198/31045cd7-3f61-2cd9-4fa8-e6235aee5e4f?t=1620666992613\" alt=\"twitter\" title=\"\">"
+      },
+      {
+        "href": "https://www.youtube.com/user/GobiernoNavarra",
+        "inner_text": "",
+        "inner_html": "<img class=\"img-fluid\" src=\"/documents/8047808/8048299/7444200/d35ff49d-ad4c-44a9-326a-199203964a78?t=1620666992633\" alt=\"youtube\" title=\"\">"
+      },
+      {
+        "href": "https://www.addtoany.com/",
+        "inner_text": "AddToAny",
+        "inner_html": "<span class=\"a2a_svg a2a_s__default a2a_s_a2a a2a_logo_color\"><svg focusable=\"false\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 32 32\"><g fill=\"#FFF\"><path d=\"M14 7h4v18h-4z\"></path><path d=\"M7 14h18v4H7z\"></path></g></svg></span>AddToAny"
+      }
+    ],
+    "social": [
+      {
+        "href": "https://www.facebook.com/navarrainfociudadana",
+        "inner_text": "\n                            \n        \n                            \n                        ",
+        "inner_html": "<div class=\"col-item\">\n        <img class=\"\" src=\"/documents/8047808/8048300/6896328/d878d016-89cf-a226-0f47-c5349d4cb8f1?t=1620666980426\" alt=\"facebook\" title=\"\">\n                            </div>"
+      },
+      {
+        "href": "https://twitter.com/navarra",
+        "inner_text": "\n                            \n        \n                            \n                        ",
+        "inner_html": "<div class=\"col-item\">\n        <img class=\"\" src=\"/documents/8047808/8048300/6896330/fb55e1f2-dac9-d29f-cb0e-b42697af65a0?t=1620666980434\" alt=\"twitter\" title=\"\">\n                            </div>"
+      },
+      {
+        "href": "https://www.facebook.com/GobiernoNavarra",
+        "inner_text": "",
+        "inner_html": "<img class=\"img-fluid\" src=\"/documents/8047808/8048299/7444196/711c645e-a555-4e0a-21bc-69be80ffd275?t=1620666992587\" alt=\"facebook\" title=\"\">"
+      },
+      {
+        "href": "https://twitter.com/gob_na",
+        "inner_text": "",
+        "inner_html": "<img class=\"img-fluid\" src=\"/documents/8047808/8048299/7444198/31045cd7-3f61-2cd9-4fa8-e6235aee5e4f?t=1620666992613\" alt=\"twitter\" title=\"\">"
+      },
+      {
+        "href": "https://www.youtube.com/user/GobiernoNavarra",
+        "inner_text": "",
+        "inner_html": "<img class=\"img-fluid\" src=\"/documents/8047808/8048299/7444200/d35ff49d-ad4c-44a9-326a-199203964a78?t=1620666992633\" alt=\"youtube\" title=\"\">"
+      }
+    ],
+    "keywords": [
+      {
+        "href": "https://www.navarra.es/es/aviso-legal",
+        "inner_text": "Aviso legal",
+        "inner_html": "Aviso legal"
+      }
+    ]
+  },
+  "unsafeForms": [],
+  "browsing_history": [
+    "https://www.navarra.es/es/inicio"
+  ],
+  "websockets": {},
+  "cookies": [
+    {
+      "name": "_ga",
+      "value": "GA1.2.1326200133.1621524434",
+      "domain": "navarra.es",
+      "path": "/",
+      "expires": 1684596434,
+      "size": 30,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2023-05-20T15:27:14.000Z",
+      "expiresDays": 730,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 495,
+            "lineNumber": 30,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "zc",
+            "source": "    at zc (https://www.google-analytics.com/analytics.js:30:495)"
+          },
+          {
+            "columnNumber": 15,
+            "lineNumber": 60,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "ma",
+            "source": "    at ma (https://www.google-analytics.com/analytics.js:60:15)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T15:27:14.217Z",
+        "location": "https://www.navarra.es/es/inicio"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "_pk_id.8.458c",
+      "value": "bbf533f39ef89e77.1621524434.1.1621524434.1621524434.",
+      "domain": "www.navarra.es",
+      "path": "/",
+      "expires": 1655479634,
+      "size": 65,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2022-06-17T15:27:14.000Z",
+      "expiresDays": 393,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 141,
+            "lineNumber": 42,
+            "fileName": "https://estadisticasweb.navarra.es/piwik.js",
+            "functionName": "c0",
+            "source": "    at c0 (https://estadisticasweb.navarra.es/piwik.js:42:141)"
+          },
+          {
+            "columnNumber": 1,
+            "lineNumber": 48,
+            "fileName": "https://estadisticasweb.navarra.es/piwik.js",
+            "functionName": "aF",
+            "source": "    at aF (https://estadisticasweb.navarra.es/piwik.js:48:1)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T15:27:14.294Z",
+        "location": "https://www.navarra.es/es/inicio"
+      },
+      "firstPartyStorage": false
+    },
+    {
+      "name": "GUEST_LANGUAGE_ID",
+      "value": "es_ES",
+      "domain": "navarra.es",
+      "path": "/",
+      "expires": 1653060432.882689,
+      "size": 22,
+      "httpOnly": true,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2022-05-20T15:27:12.882Z",
+      "expiresDays": 365,
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.navarra.es/es/inicio",
+            "source": "set in Set-Cookie HTTP response header for https://www.navarra.es/es/inicio"
+          }
+        ],
+        "type": "Cookie.HTTP",
+        "timestamp": "2021-05-20T15:27:12.886Z",
+        "location": "https://www.navarra.es/"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "COOKIE_SUPPORT",
+      "value": "true",
+      "domain": "www.navarra.es",
+      "path": "/",
+      "expires": 1653060432.882618,
+      "size": 18,
+      "httpOnly": true,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2022-05-20T15:27:12.882Z",
+      "expiresDays": 365,
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.navarra.es/es/inicio",
+            "source": "set in Set-Cookie HTTP response header for https://www.navarra.es/es/inicio"
+          }
+        ],
+        "type": "Cookie.HTTP",
+        "timestamp": "2021-05-20T15:27:12.886Z",
+        "location": "https://www.navarra.es/"
+      },
+      "firstPartyStorage": false
+    },
+    {
+      "name": "_gid",
+      "value": "GA1.2.1608958104.1621524434",
+      "domain": "navarra.es",
+      "path": "/",
+      "expires": 1621610834,
+      "size": 31,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2021-05-21T15:27:14.000Z",
+      "expiresDays": 1,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 495,
+            "lineNumber": 30,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "zc",
+            "source": "    at zc (https://www.google-analytics.com/analytics.js:30:495)"
+          },
+          {
+            "columnNumber": 401,
+            "lineNumber": 59,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "ma",
+            "source": "    at ma (https://www.google-analytics.com/analytics.js:59:401)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T15:27:14.218Z",
+        "location": "https://www.navarra.es/es/inicio"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "_pk_ses.8.458c",
+      "value": "*",
+      "domain": "www.navarra.es",
+      "path": "/",
+      "expires": 1621526234,
+      "size": 15,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2021-05-20T15:57:14.000Z",
+      "expiresDays": 0.02,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 141,
+            "lineNumber": 42,
+            "fileName": "https://estadisticasweb.navarra.es/piwik.js",
+            "functionName": "c0",
+            "source": "    at c0 (https://estadisticasweb.navarra.es/piwik.js:42:141)"
+          },
+          {
+            "columnNumber": 739,
+            "lineNumber": 48,
+            "fileName": "https://estadisticasweb.navarra.es/piwik.js",
+            "functionName": "b4",
+            "source": "    at b4 (https://estadisticasweb.navarra.es/piwik.js:48:739)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T15:27:14.296Z",
+        "location": "https://www.navarra.es/es/inicio"
+      },
+      "firstPartyStorage": false
+    },
+    {
+      "name": "_gat",
+      "value": "1",
+      "domain": "navarra.es",
+      "path": "/",
+      "expires": 1621524494,
+      "size": 5,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2021-05-20T15:28:14.000Z",
+      "expiresDays": 0,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 495,
+            "lineNumber": 30,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "zc",
+            "source": "    at zc (https://www.google-analytics.com/analytics.js:30:495)"
+          },
+          {
+            "columnNumber": 31,
+            "lineNumber": 73,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "Qd",
+            "source": "    at Qd (https://www.google-analytics.com/analytics.js:73:31)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T15:27:14.219Z",
+        "location": "https://www.navarra.es/es/inicio"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "GN",
+      "value": "!o4NECE2Y3jp90tJ41pjVytxnK1bsrBtjOAinyBbsKhfAr47pbT0NJAjH2QGN1+UPjqFt+M1zCEZLSQ==",
+      "domain": "navarra.es",
+      "path": "/",
+      "expires": -1,
+      "size": 83,
+      "httpOnly": true,
+      "secure": true,
+      "session": true,
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://navarra.es/",
+            "source": "set in Set-Cookie HTTP response header for https://navarra.es/"
+          }
+        ],
+        "type": "Cookie.HTTP",
+        "timestamp": "2021-05-20T15:27:12.332Z",
+        "location": "about:blank"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "JSESSIONID",
+      "value": "UO2KCqGbDOIzjIAJMSpUu_Y034SY5PFH3fYjNsGJ.dc0gprolrp002n2",
+      "domain": "www.navarra.es",
+      "path": "/",
+      "expires": -1,
+      "size": 66,
+      "httpOnly": true,
+      "secure": false,
+      "session": true,
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.navarra.es/es/inicio",
+            "source": "set in Set-Cookie HTTP response header for https://www.navarra.es/es/inicio"
+          }
+        ],
+        "type": "Cookie.HTTP",
+        "timestamp": "2021-05-20T15:27:12.886Z",
+        "location": "https://www.navarra.es/"
+      },
+      "firstPartyStorage": false
+    },
+    {
+      "name": "GN",
+      "value": "!E9yFL4ONvUWk9eJ41pjVytxnK1bsrHEHeqztjmfltnuIQFGlHQz1jBvNtO0xSStfxW05RdcjPvzz3KE=",
+      "domain": "www.navarra.es",
+      "path": "/",
+      "expires": -1,
+      "size": 83,
+      "httpOnly": true,
+      "secure": true,
+      "session": true,
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.navarra.es/es/inicio",
+            "source": "set in Set-Cookie HTTP response header for https://www.navarra.es/es/inicio"
+          }
+        ],
+        "type": "Cookie.HTTP",
+        "timestamp": "2021-05-20T15:27:12.886Z",
+        "location": "https://www.navarra.es/"
+      },
+      "firstPartyStorage": false
+    },
+    {
+      "name": "GN",
+      "value": "!o7IFF5cLt2TtuN941pjVytxnK1bsrIApv1USpM7k+0C3zOZq4VAmB+Jd7FXAAKANWMyhckAgwEeHCLc=",
+      "domain": "estadisticasweb.navarra.es",
+      "path": "/",
+      "expires": -1,
+      "size": 83,
+      "httpOnly": true,
+      "secure": true,
+      "session": true,
+      "firstPartyStorage": false
+    },
+    {
+      "name": "LFR_SESSION_STATE_48158",
+      "value": "1621524434509",
+      "domain": "www.navarra.es",
+      "path": "/",
+      "expires": -1,
+      "size": 36,
+      "httpOnly": false,
+      "secure": true,
+      "session": true,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 2359,
+            "lineNumber": 6,
+            "fileName": "https://www.navarra.es/combo/?browserId=other&minifierType=&languageId=es_ES&b=7210&t=1620724148392&/o/frontend-js-web/liferay/language.js&/o/frontend-js-web/aui/transition/transition-min.js&/o/frontend-js-web/aui/cookie/cookie-min.js&/o/frontend-js-web/aui/base-core/base-core-min.js&/o/frontend-js-web/aui/base-observable/base-observable-min.js&/o/frontend-js-web/aui/aui-widget-cssclass/aui-widget-cssclass-min.js&/o/frontend-js-web/aui/aui-widget-toggle/aui-widget-toggle-min.js&/o/frontend-js-web/aui/base-build/base-build-min.js&/o/frontend-js-web/aui/aui-aria/aui-aria-min.js&/o/frontend-js-web/aui/aui-widget-transition/aui-widget-transition-min.js&/o/frontend-js-web/aui/timers/timers-min.js&/o/frontend-js-web/aui/widget-stdmod/widget-stdmod-min.js&/o/frontend-js-web/aui/aui-alert/aui-alert-min.js&/o/frontend-js-web/liferay/portlet_base.js&/o/frontend-js-web/liferay/alert.js&/o/frontend-js-web/liferay/notification.js&/o/frontend-js-web/liferay/session.js",
+            "functionName": "Object.set",
+            "source": "    at Object.set (https://www.navarra.es/combo/?browserId=other&minifierType=&languageId=es_ES&b=7210&t=1620724148392&/o/frontend-js-web/liferay/language.js&/o/frontend-js-web/aui/transition/transition-min.js&/o/frontend-js-web/aui/cookie/cookie-min.js&/o/frontend-js-web/aui/base-core/base-core-min.js&/o/frontend-js-web/aui/base-observable/base-observable-min.js&/o/frontend-js-web/aui/aui-widget-cssclass/aui-widget-cssclass-min.js&/o/frontend-js-web/aui/aui-widget-toggle/aui-widget-toggle-min.js&/o/frontend-js-web/aui/base-build/base-build-min.js&/o/frontend-js-web/aui/aui-aria/aui-aria-min.js&/o/frontend-js-web/aui/aui-widget-transition/aui-widget-transition-min.js&/o/frontend-js-web/aui/timers/timers-min.js&/o/frontend-js-web/aui/widget-stdmod/widget-stdmod-min.js&/o/frontend-js-web/aui/aui-alert/aui-alert-min.js&/o/frontend-js-web/liferay/portlet_base.js&/o/frontend-js-web/liferay/alert.js&/o/frontend-js-web/liferay/notification.js&/o/frontend-js-web/liferay/session.js:6:2359)"
+          },
+          {
+            "columnNumber": 436,
+            "lineNumber": 48,
+            "fileName": "https://www.navarra.es/combo/?browserId=other&minifierType=&languageId=es_ES&b=7210&t=1620724148392&/o/frontend-js-web/liferay/language.js&/o/frontend-js-web/aui/transition/transition-min.js&/o/frontend-js-web/aui/cookie/cookie-min.js&/o/frontend-js-web/aui/base-core/base-core-min.js&/o/frontend-js-web/aui/base-observable/base-observable-min.js&/o/frontend-js-web/aui/aui-widget-cssclass/aui-widget-cssclass-min.js&/o/frontend-js-web/aui/aui-widget-toggle/aui-widget-toggle-min.js&/o/frontend-js-web/aui/base-build/base-build-min.js&/o/frontend-js-web/aui/aui-aria/aui-aria-min.js&/o/frontend-js-web/aui/aui-widget-transition/aui-widget-transition-min.js&/o/frontend-js-web/aui/timers/timers-min.js&/o/frontend-js-web/aui/widget-stdmod/widget-stdmod-min.js&/o/frontend-js-web/aui/aui-alert/aui-alert-min.js&/o/frontend-js-web/liferay/portlet_base.js&/o/frontend-js-web/liferay/alert.js&/o/frontend-js-web/liferay/notification.js&/o/frontend-js-web/liferay/session.js",
+            "functionName": "component._setTimestamp",
+            "source": "    at component._setTimestamp (https://www.navarra.es/combo/?browserId=other&minifierType=&languageId=es_ES&b=7210&t=1620724148392&/o/frontend-js-web/liferay/language.js&/o/frontend-js-web/aui/transition/transition-min.js&/o/frontend-js-web/aui/cookie/cookie-min.js&/o/frontend-js-web/aui/base-core/base-core-min.js&/o/frontend-js-web/aui/base-observable/base-observable-min.js&/o/frontend-js-web/aui/aui-widget-cssclass/aui-widget-cssclass-min.js&/o/frontend-js-web/aui/aui-widget-toggle/aui-widget-toggle-min.js&/o/frontend-js-web/aui/base-build/base-build-min.js&/o/frontend-js-web/aui/aui-aria/aui-aria-min.js&/o/frontend-js-web/aui/aui-widget-transition/aui-widget-transition-min.js&/o/frontend-js-web/aui/timers/timers-min.js&/o/frontend-js-web/aui/widget-stdmod/widget-stdmod-min.js&/o/frontend-js-web/aui/aui-alert/aui-alert-min.js&/o/frontend-js-web/liferay/portlet_base.js&/o/frontend-js-web/liferay/alert.js&/o/frontend-js-web/liferay/notification.js&/o/frontend-js-web/liferay/session.js:48:436)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T15:27:14.517Z",
+        "location": "https://www.navarra.es/es/inicio"
+      },
+      "firstPartyStorage": false
+    }
+  ],
+  "localStorage": {},
+  "beacons": [
+    {
+      "url": "https://stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j90&tid=UA-47297284-2&cid=1326200133.1621524434&jid=1512752492&gjid=139848923&_gid=1608958104.1621524434&_u=IEBAAEAAAAAAAC~&z=1308141886",
+      "query": {
+        "t": "dc",
+        "aip": 1,
+        "_r": 3,
+        "v": 1,
+        "_v": "j90",
+        "tid": "UA-47297284-2",
+        "cid": 1326200133.1621525,
+        "jid": 1512752492,
+        "gjid": 139848923,
+        "_gid": 1608958104.1621525,
+        "_u": "IEBAAEAAAAAAAC~",
+        "z": 1308141886
+      },
+      "filter": "||stats.g.doubleclick.net^",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.navarra.es/es/inicio",
+            "source": "requested from https://www.navarra.es/es/inicio and matched with easyprivacy.txt filter ||stats.g.doubleclick.net^"
+          }
+        ],
+        "timestamp": "2021-05-20T15:27:14.326Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://estadisticasweb.navarra.es/piwik.php?action_name=navarra.es&idsite=8&rec=1&r=366412&h=17&m=27&s=14&url=https%3A%2F%2Fwww.navarra.es%2Fes%2Finicio&urlref=https%3A%2F%2Fwww.navarra.es%2F&_id=bbf533f39ef89e77&_idts=1621524434&_idvc=1&_idn=0&_refts=0&_viewts=1621524434&send_image=1&cookie=1&res=1680x927&gt_ms=324&pv_id=sDODNR",
+      "query": {
+        "action_name": "navarra.es",
+        "idsite": 8,
+        "rec": 1,
+        "r": 366412,
+        "h": 17,
+        "m": 27,
+        "s": 14,
+        "url": "https://www.navarra.es/es/inicio",
+        "urlref": "https://www.navarra.es/",
+        "_id": "bbf533f39ef89e77",
+        "_idts": 1621524434,
+        "_idvc": 1,
+        "_idn": 0,
+        "_refts": 0,
+        "_viewts": 1621524434,
+        "send_image": 1,
+        "cookie": 1,
+        "res": "1680x927",
+        "gt_ms": 324,
+        "pv_id": "sDODNR"
+      },
+      "filter": "/piwik.php",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.navarra.es/es/inicio",
+            "source": "requested from https://www.navarra.es/es/inicio and matched with easyprivacy.txt filter /piwik.php"
+          }
+        ],
+        "timestamp": "2021-05-20T15:27:14.296Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://www.google-analytics.com/j/collect?v=1&_v=j90&a=1057333087&t=pageview&_s=1&dl=https%3A%2F%2Fwww.navarra.es%2Fes%2Finicio&ul=en-us&de=UTF-8&dt=navarra.es&sd=24-bit&sr=1680x927&vp=1680x927&je=0&_u=IEBAAEABAAAAAC~&jid=1512752492&gjid=139848923&cid=1326200133.1621524434&tid=UA-47297284-2&_gid=1608958104.1621524434&_r=1&_slc=1&z=1824707723",
+      "query": {
+        "v": 1,
+        "_v": "j90",
+        "a": 1057333087,
+        "t": "pageview",
+        "_s": 1,
+        "dl": "https://www.navarra.es/es/inicio",
+        "ul": "en-us",
+        "de": "UTF-8",
+        "dt": "navarra.es",
+        "sd": "24-bit",
+        "sr": "1680x927",
+        "vp": "1680x927",
+        "je": 0,
+        "_u": "IEBAAEABAAAAAC~",
+        "jid": 1512752492,
+        "gjid": 139848923,
+        "cid": 1326200133.1621525,
+        "tid": "UA-47297284-2",
+        "_gid": 1608958104.1621525,
+        "_r": 1,
+        "_slc": 1,
+        "z": 1824707723
+      },
+      "filter": "/collect?*&cid=",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.navarra.es/es/inicio",
+            "source": "requested from https://www.navarra.es/es/inicio and matched with easyprivacy.txt filter /collect?*&cid="
+          }
+        ],
+        "timestamp": "2021-05-20T15:27:14.222Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://static.addtoany.com/menu/svg/icons.29.svg.js",
+      "query": null,
+      "filter": "||addtoany.com^$third-party",
+      "listName": "fanboy-annoyance.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.navarra.es/es/inicio",
+            "source": "requested from https://www.navarra.es/es/inicio and matched with fanboy-annoyance.txt filter ||addtoany.com^$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T15:27:14.124Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://platform.twitter.com/widgets/widget_iframe.06c6ee58c3810956b7509218508c7b56.html?origin=https%3A%2F%2Fwww.navarra.es",
+      "query": {
+        "origin": "https://www.navarra.es"
+      },
+      "filter": "||platform.twitter.com*/widgets/$third-party",
+      "listName": "fanboy-annoyance.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "",
+            "source": "requested from  and matched with fanboy-annoyance.txt filter ||platform.twitter.com*/widgets/$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T15:27:14.082Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://estadisticasweb.navarra.es/piwik.js",
+      "query": null,
+      "filter": "/piwik.$image,script,domain=~matomo.org|~piwik.org",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.navarra.es/es/inicio",
+            "source": "requested from https://www.navarra.es/es/inicio and matched with easyprivacy.txt filter /piwik.$image,script,domain=~matomo.org|~piwik.org"
+          }
+        ],
+        "timestamp": "2021-05-20T15:27:13.767Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://www.google-analytics.com/analytics.js",
+      "query": null,
+      "filter": "||google-analytics.com/analytics.js",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.navarra.es/es/inicio",
+            "source": "requested from https://www.navarra.es/es/inicio and matched with easyprivacy.txt filter ||google-analytics.com/analytics.js"
+          }
+        ],
+        "timestamp": "2021-05-20T15:27:13.765Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://static.addtoany.com/menu/page.js",
+      "query": null,
+      "filter": "||addtoany.com^$third-party",
+      "listName": "fanboy-annoyance.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.navarra.es/es/inicio",
+            "source": "requested from https://www.navarra.es/es/inicio and matched with fanboy-annoyance.txt filter ||addtoany.com^$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T15:27:13.003Z"
+      },
+      "occurrances": 1
+    }
+  ],
+  "hosts": {
+    "requests": {
+      "firstParty": [
+        "navarra.es"
+      ],
+      "thirdParty": [
+        "www.navarra.es",
+        "platform.twitter.com",
+        "connect.facebook.net",
+        "static.addtoany.com",
+        "www.google-analytics.com",
+        "estadisticasweb.navarra.es",
+        "stats.g.doubleclick.net",
+        "syndication.twitter.com",
+        "www.google.com",
+        "www.google.es"
+      ]
+    },
+    "beacons": {
+      "firstParty": [],
+      "thirdParty": [
+        "stats.g.doubleclick.net",
+        "estadisticasweb.navarra.es",
+        "www.google-analytics.com"
+      ]
+    },
+    "cookies": {
+      "firstParty": [
+        "navarra.es"
+      ],
+      "thirdParty": [
+        "www.navarra.es",
+        "estadisticasweb.navarra.es"
+      ]
+    },
+    "localStorage": {
+      "firstParty": [],
+      "thirdParty": []
+    },
+    "links": {
+      "firstParty": [],
+      "thirdParty": [
+        "www.navarra.es",
+        "www.facebook.com",
+        "twitter.com",
+        "www.addtoany.com",
+        "bon.navarra.es",
+        "renta.navarra.es",
+        "coronavirus.navarra.es",
+        "reactivar.navarra.es",
+        "investinnavarra.com",
+        "www.turismo.navarra.es",
+        "gobiernoabierto.navarra.es",
+        "www.youtube.com"
+      ]
+    }
+  }
+}

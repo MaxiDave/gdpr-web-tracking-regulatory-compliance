@@ -1,0 +1,579 @@
+{
+  "title": "Website Evidence Collection",
+  "task_description": null,
+  "uri_ins": "https://mapama.gob.es",
+  "uri_refs": [
+    "https://mapama.gob.es"
+  ],
+  "uri_dest": "https://mapama.gob.es/",
+  "uri_redirects": [],
+  "secure_connection": {
+    "https_support": false,
+    "https_error": "RequestError: Error [ERR_TLS_CERT_ALTNAME_INVALID]: Hostname/IP does not match certificate's altnames: Host: mapama.gob.es. is not in the cert's altnames: DNS:www.mapa.gob.es, DNS:www.mapa.es, DNS:www.mapama.gob.es, DNS:www.mapama.es, DNS:www.miteco.gob.es, DNS:www.miteco.es, DNS:origin.mapa.gob.es, DNS:origin.mapama.gob.es, DNS:origin.miteco.gob.es",
+    "redirects": [
+      "https://www.mapa.gob.es/es/"
+    ],
+    "https_redirect": true
+  },
+  "host": "mapama.gob.es",
+  "script": {
+    "host": "sfod",
+    "version": {
+      "npm": "1.0.0",
+      "commit": null
+    },
+    "cmd_args": "-q --overwrite https://mapama.gob.es -- --ignore-certificate-errors",
+    "environment": {
+      "CHROME_DESKTOP": "code-url-handler.desktop"
+    },
+    "node_version": "v14.17.0"
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "HeadlessChrome/80.0.3987.0",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3617.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "5.8.0-53-generic"
+    },
+    "extra_headers": {},
+    "preset_cookies": {}
+  },
+  "start_time": "2021-05-20T16:17:52.585Z",
+  "end_time": "2021-05-20T16:17:59.598Z",
+  "links": {
+    "firstParty": [
+      {
+        "href": "https://mapama.gob.es/es/atencion-al-ciudadano/politica_cookies.aspx",
+        "inner_text": "Política de Cookies",
+        "inner_html": "Política de Cookies"
+      },
+      {
+        "href": "http://mapama.gob.es/es/atencion-al-ciudadano/politica_cookies.aspx",
+        "inner_text": "Política de Cookies",
+        "inner_html": "Política de Cookies"
+      },
+      {
+        "href": "http://mapama.gob.es/es/",
+        "inner_text": "",
+        "inner_html": "<img src=\"./redirect/logo-ministerio_tcm30-283644.png\" alt=\"Ministerio de Agricultura, Pesca y Alimentación - Ministerio para la Transición Ecológica\" class=\"img-responsive \" title=\"Ministerio de Agricultura, Pesca y Alimentación - Ministerio para la Transición Ecológica\">"
+      },
+      {
+        "href": "http://mapama.gob.es/es",
+        "inner_text": "Bienvenidos",
+        "inner_html": "<span lang=\"es\" xml:lang=\"es\">Bienvenidos</span>"
+      },
+      {
+        "href": "http://mapama.gob.es/ca",
+        "inner_text": "Benvinguts",
+        "inner_html": "<span lang=\"ca\" xml:lang=\"ca\">Benvinguts</span>"
+      },
+      {
+        "href": "http://mapama.gob.es/gl",
+        "inner_text": "Benvidos",
+        "inner_html": "<span lang=\"gl\" xml:lang=\"gl\">Benvidos</span>"
+      },
+      {
+        "href": "http://mapama.gob.es/eu",
+        "inner_text": "Ongi etorri",
+        "inner_html": "<span lang=\"eu\" xml:lang=\"eu\">Ongi etorri</span>"
+      },
+      {
+        "href": "http://mapama.gob.es/va",
+        "inner_text": "Benvinguts",
+        "inner_html": "<span lang=\"ca\" xml:lang=\"ca\">Benvinguts</span>"
+      },
+      {
+        "href": "http://mapama.gob.es/en",
+        "inner_text": "Welcome",
+        "inner_html": "<span lang=\"en\" xml:lang=\"en\">Welcome</span>"
+      },
+      {
+        "href": "http://mapama.gob.es/fr",
+        "inner_text": "Bienvenues",
+        "inner_html": "<span lang=\"fr\" xml:lang=\"fr\">Bienvenues</span>"
+      },
+      {
+        "href": "http://mapama.gob.es/es/ministerio/default.aspx",
+        "inner_text": "Ministerio",
+        "inner_html": "<span>Ministerio</span>"
+      },
+      {
+        "href": "http://mapama.gob.es/es/ministerio/organizacion-organismos/default.aspx",
+        "inner_text": "Organización y organismos",
+        "inner_html": "Organización y organismos"
+      },
+      {
+        "href": "http://mapama.gob.es/es/ministerio/planes-estrategias/default.aspx",
+        "inner_text": "Planes y estrategias",
+        "inner_html": "Planes y estrategias"
+      },
+      {
+        "href": "http://mapama.gob.es/es/ministerio/actividad-legislativa/default.aspx",
+        "inner_text": "Actividad legislativa",
+        "inner_html": "Actividad legislativa"
+      },
+      {
+        "href": "http://mapama.gob.es/es/ministerio/formacion-becas/default.aspx",
+        "inner_text": "Formación y becas",
+        "inner_html": "Formación y becas"
+      },
+      {
+        "href": "http://mapama.gob.es/es/ministerio/archivos-bibliotecas-mediateca/",
+        "inner_text": "Archivos, Bibliotecas y Mediateca",
+        "inner_html": "Archivos, Bibliotecas y Mediateca"
+      },
+      {
+        "href": "http://mapama.gob.es/es/ministerio/campanas/default.aspx",
+        "inner_text": "Campañas",
+        "inner_html": "Campañas"
+      },
+      {
+        "href": "http://mapama.gob.es/es/ministerio/proyectos-cooperacion/default.aspx",
+        "inner_text": "Proyectos de cooperación",
+        "inner_html": "Proyectos de cooperación"
+      },
+      {
+        "href": "http://mapama.gob.es/es/ministerio/premios/default.aspx",
+        "inner_text": "Premios",
+        "inner_html": "Premios"
+      },
+      {
+        "href": "http://mapama.gob.es/es/ministerio/dias-mundiales-fechas-destacadas/default.aspx",
+        "inner_text": "Días mundiales y fechas destacadas",
+        "inner_html": "Días mundiales y fechas destacadas"
+      },
+      {
+        "href": "http://mapama.gob.es/es/ministerio/palacio-de-fomento/default.aspx",
+        "inner_text": "Palacio de Fomento",
+        "inner_html": "Palacio de Fomento"
+      },
+      {
+        "href": "http://mapama.gob.es/es/ministerio/patrimonio/default.aspx",
+        "inner_text": "Patrimonio",
+        "inner_html": "Patrimonio"
+      },
+      {
+        "href": "http://mapama.gob.es/es/areas-de-actividad/default.aspx",
+        "inner_text": "Áreas de actividad",
+        "inner_html": "<span>Áreas de actividad</span>"
+      },
+      {
+        "href": "http://mapama.gob.es/es/agricultura/temas/default.aspx",
+        "inner_text": "Agricultura",
+        "inner_html": "Agricultura"
+      },
+      {
+        "href": "http://mapama.gob.es/es/ganaderia/temas/default.aspx",
+        "inner_text": "Ganadería",
+        "inner_html": "Ganadería"
+      },
+      {
+        "href": "http://mapama.gob.es/es/pesca/temas/default.aspx",
+        "inner_text": "Pesca",
+        "inner_html": "Pesca"
+      },
+      {
+        "href": "http://mapama.gob.es/es/alimentacion/temas/default.aspx",
+        "inner_text": "Alimentación",
+        "inner_html": "Alimentación"
+      },
+      {
+        "href": "http://mapama.gob.es/es/biodiversidad/temas/default.aspx",
+        "inner_text": "Biodiversidad",
+        "inner_html": "Biodiversidad"
+      },
+      {
+        "href": "http://mapama.gob.es/es/desarrollo-rural/temas/default.aspx",
+        "inner_text": "Desarrollo Rural",
+        "inner_html": "Desarrollo Rural"
+      },
+      {
+        "href": "http://mapama.gob.es/es/agua/temas/default.aspx",
+        "inner_text": "Agua",
+        "inner_html": "Agua"
+      },
+      {
+        "href": "http://mapama.gob.es/es/costas/temas/default.aspx",
+        "inner_text": "Costas y Medio Marino",
+        "inner_html": "Costas y Medio Marino"
+      },
+      {
+        "href": "http://mapama.gob.es/es/calidad-y-evaluacion-ambiental/temas/default.aspx",
+        "inner_text": "Calidad y Evaluación Ambiental",
+        "inner_html": "Calidad y Evaluación Ambiental"
+      },
+      {
+        "href": "http://mapama.gob.es/es/cambio-climatico/temas/default.aspx",
+        "inner_text": "Cambio Climático",
+        "inner_html": "Cambio Climático"
+      },
+      {
+        "href": "http://mapama.gob.es/es/ministerio/servicios/default.aspx",
+        "inner_text": "Servicios",
+        "inner_html": "<span>Servicios</span>"
+      },
+      {
+        "href": "http://mapama.gob.es/es/ministerio/servicios/informacion/default.aspx",
+        "inner_text": "Servicios de información",
+        "inner_html": "Servicios de información"
+      },
+      {
+        "href": "http://mapama.gob.es/es/ministerio/servicios/registro/default.aspx",
+        "inner_text": "Registro",
+        "inner_html": "Registro"
+      },
+      {
+        "href": "http://mapama.gob.es/es/ministerio/servicios/analisis-y-prospectiva/default.aspx",
+        "inner_text": "Análisis y Prospectiva en medio ambiente, agricultura, pesca, alimentación y desarrollo rural",
+        "inner_html": "Análisis y Prospectiva en medio ambiente, agricultura, pesca, alimentación y desarrollo rural"
+      },
+      {
+        "href": "http://mapama.gob.es/es/ministerio/servicios/empleo-publico/default.aspx",
+        "inner_text": "Empleo público",
+        "inner_html": "Empleo público"
+      },
+      {
+        "href": "http://mapama.gob.es/es/ministerio/servicios/participacion-publica/default.aspx",
+        "inner_text": "Participación pública",
+        "inner_html": "Participación pública"
+      },
+      {
+        "href": "http://mapama.gob.es/es/ministerio/servicios/ayudas-subvenciones/default.aspx",
+        "inner_text": "Ayudas y subvenciones",
+        "inner_html": "Ayudas y subvenciones"
+      },
+      {
+        "href": "http://mapama.gob.es/es/cartografia-y-sig/default.aspx",
+        "inner_text": "Cartografía y SIG",
+        "inner_html": "Cartografía y SIG"
+      },
+      {
+        "href": "http://mapama.gob.es/es/estadistica/temas/default.aspx",
+        "inner_text": "Estadísticas",
+        "inner_html": "Estadísticas"
+      },
+      {
+        "href": "http://mapama.gob.es/es/ministerio/servicios/subastas/default.aspx",
+        "inner_text": "Subastas",
+        "inner_html": "Subastas"
+      },
+      {
+        "href": "http://mapama.gob.es/es/ministerio/servicios/publicaciones/default.aspx",
+        "inner_text": "Publicaciones",
+        "inner_html": "Publicaciones"
+      },
+      {
+        "href": "http://mapama.gob.es/es/ministerio/servicios/aplicaciones-dispositivos-moviles/default.aspx",
+        "inner_text": "Aplicaciones para dispositivos móviles",
+        "inner_html": "Aplicaciones para dispositivos móviles"
+      },
+      {
+        "href": "http://mapama.gob.es/es/prensa/ultimas-noticias/default.aspx",
+        "inner_text": "Sala de Prensa",
+        "inner_html": "<span>Sala de Prensa</span>"
+      },
+      {
+        "href": "http://mapama.gob.es/es/prensa/ultimas-noticias/",
+        "inner_text": "Últimas noticias",
+        "inner_html": "Últimas noticias"
+      },
+      {
+        "href": "http://mapama.gob.es/es/prensa/galeria-de-imagenes/default.aspx",
+        "inner_text": "Galería de imágenes",
+        "inner_html": "Galería de imágenes"
+      },
+      {
+        "href": "http://mapama.gob.es/es/prensa/galeria-de-audios/default.aspx",
+        "inner_text": "Galería de audios",
+        "inner_html": "Galería de audios"
+      },
+      {
+        "href": "http://mapama.gob.es/es/prensa/informacion-de-contacto/default.aspx",
+        "inner_text": "Contacto Prensa",
+        "inner_html": "Contacto Prensa"
+      },
+      {
+        "href": "http://mapama.gob.es/es/prensa/agenda/default.aspx",
+        "inner_text": "Agenda",
+        "inner_html": "Agenda"
+      },
+      {
+        "href": "http://mapama.gob.es/es/costas/servicios/guia-playas/default.aspx",
+        "inner_text": "Guía de playas",
+        "inner_html": "Guía de playas"
+      },
+      {
+        "href": "http://mapama.gob.es/es/desarrollo-rural/temas/politica-forestal/incendios-forestales/default.aspx",
+        "inner_text": "Incendios Forestales",
+        "inner_html": "Incendios Forestales"
+      },
+      {
+        "href": "http://mapama.gob.es/es/ministerio/servicios/publicaciones/Memoria2016_cap.aspx",
+        "inner_text": "Memoria de actuaciones del Ministerio 2016",
+        "inner_html": "Memoria de actuaciones del Ministerio 2016"
+      },
+      {
+        "href": "http://mapama.gob.es/es/ministerio/planes-estrategias/lineas-estrategicas-para-la-internacionalizacion-del-sector-agroalimentario/default.aspx",
+        "inner_text": "Líneas estratégicas internacionalización sector agroalimentario",
+        "inner_html": "Líneas estratégicas internacionalización sector agroalimentario"
+      },
+      {
+        "href": "http://mapama.gob.es/es/agricultura/temas/sistema-de-informacion-geografica-de-parcelas-agricolas-sigpac-/default.aspx",
+        "inner_text": "SIGPAC",
+        "inner_html": "SIGPAC"
+      },
+      {
+        "href": "http://mapama.gob.es/es/parques-nacionales-oapn/default.aspx",
+        "inner_text": "Parques Nacionales",
+        "inner_html": "Parques Nacionales"
+      },
+      {
+        "href": "http://mapama.gob.es/es/ceneam/",
+        "inner_text": "Educación ambiental: CENEAM",
+        "inner_html": "Educación ambiental: CENEAM"
+      },
+      {
+        "href": "http://mapama.gob.es/es/ministerio/funciones-estructura/organizacion-organismos/age-organismos-relacionados/default.aspx",
+        "inner_text": "Administración General del Estado. Organismos relacionados",
+        "inner_html": "Administración General del Estado. Organismos relacionados"
+      },
+      {
+        "href": "http://mapama.gob.es/es/ministerio/servicios/analisis-y-prospectiva/Medidas_fiscales_sobre_explotaciones_regadio.aspx",
+        "inner_text": "Medidas fiscales para el regadío",
+        "inner_html": "Medidas fiscales para el regadío"
+      },
+      {
+        "href": "http://mapama.gob.es/es/ganaderia/estadisticas/mercados_agricolas_ganaderos.aspx",
+        "inner_text": "Mercados agrícolas y ganaderos",
+        "inner_html": "Mercados agrícolas y ganaderos"
+      },
+      {
+        "href": "http://mapama.gob.es/es/prensa/ultimas-noticias/luis-planas-se-re%C3%BAne-con-el-vicepresidente-de-la-comisi%C3%B3n-de-agricultura-y-desarrollo-rural-del-parlamento-europeo-paolo-de-castro/tcm:30-481095",
+        "inner_text": "",
+        "inner_html": "<img src=\"./redirect/PORTADA_IZQ_20092018ministroypaolodecastro01_tcm30-481087.JPG\" class=\"img-responsive\" alt=\"20180920_02_Ministro y Paolo de Castro\" title=\"20180920_02_Ministro y Paolo de Castro\">"
+      },
+      {
+        "href": "http://mapama.gob.es/es/prensa/ultimas-noticias/el-ministerio-para-la-transici%C3%B3n-ecol%C3%B3gica-apoya-los-esfuerzos-de-conservaci%C3%B3n-del-rinoceronte-a-nivel-internacional/tcm:30-481229",
+        "inner_text": "",
+        "inner_html": "<img src=\"./redirect/PORTADA_IZQ_rinoceronte1_tcm30-481228.jpg\" class=\"img-responsive\" alt=\"20180921_04_El Ministerio para la Transición Ecológica apoya los esfuerzos de conservación del rinoceronte a nivel internacional\" title=\"20180921_04_El Ministerio para la Transición Ecológica apoya los esfuerzos de conservación del rinoceronte a nivel internacional\">"
+      },
+      {
+        "href": "http://mapama.gob.es/es/prensa/ultimas-noticias/espa%C3%B1a-participa-en-la-conferencia-sobre-oc%C3%A9anos-oceans-meeting-2018/tcm:30-481231",
+        "inner_text": "",
+        "inner_html": "<img src=\"./redirect/PORTADA_IZQ_sgpoceansmeeting1_tcm30-481200.jpg\" class=\"img-responsive\" alt=\"20180921_05_SGP Oceans Meeting\" title=\"20180921_05_SGP Oceans Meeting\">"
+      },
+      {
+        "href": "http://mapama.gob.es/es/prensa/noticiasRss.aspx",
+        "inner_text": "RSS Noticias",
+        "inner_html": "<i class=\"fa ico-rss\"></i> <span class=\"sr-only\">RSS Noticias</span>"
+      },
+      {
+        "href": "http://mapama.gob.es/es/ministerio/Teresa-Ribera.aspx",
+        "inner_text": "Teresa Ribera Rodríguez Ministra para la Transición Ecológica",
+        "inner_html": "<img src=\"./redirect/ministra-cuadro.png\" alt=\"ministra\" title=\"ministra\" class=\"img-responsive\">\n                                          <div class=\"ministros\">\n                                             <span class=\"texto-banner-ministra\"><span>Teresa Ribera Rodríguez</span></span>\n                                             <span>Ministra para la Transición Ecológica</span>\n                                          </div>"
+      },
+      {
+        "href": "http://mapama.gob.es/es/ministerio/Luis-Planas.aspx",
+        "inner_text": "Luis Planas Puchades Ministro de Agricultura, Pesca y Alimentación",
+        "inner_html": "<img src=\"./redirect/ministro-cuadro.png\" alt=\"ministro\" title=\"ministro\" class=\"img-responsive\">\n                                          <div class=\"ministros\">\n                                             <span class=\"texto-banner-ministra\"><span>Luis Planas Puchades</span></span>\n                                             <span>Ministro de Agricultura, Pesca y Alimentación</span>\n                                          </div>"
+      },
+      {
+        "href": "http://mapama.gob.es/es/prensa/agenda/agenda-din.aspx?tcm=tcm:30-481242",
+        "inner_text": "Schloss Hof (Austria). Luis Planas asiste al Consejo informal de ministros de Agricultura y Pesca de...",
+        "inner_html": "Schloss Hof (Austria). Luis Planas asiste al Consejo informal de ministros de Agricultura y Pesca de..."
+      },
+      {
+        "href": "http://mapama.gob.es/es/prensa/agenda/agenda-din.aspx?tcm=tcm:30-481243",
+        "inner_text": "Alicia Villauriz se reúne con la presidenta del CSIC",
+        "inner_html": "Alicia Villauriz se reúne con la presidenta del CSIC"
+      },
+      {
+        "href": "http://mapama.gob.es/es/prensa/agendaRss.aspx",
+        "inner_text": "RSS",
+        "inner_html": "<i class=\"fa fa-rss\"></i>RSS"
+      },
+      {
+        "href": "http://mapama.gob.es/es/atencion-al-ciudadano/guia-de-accesibilidad.aspx",
+        "inner_text": "Accesibilidad ",
+        "inner_html": "Accesibilidad"
+      },
+      {
+        "href": "http://mapama.gob.es/es/mapa-web/default.aspx",
+        "inner_text": "Mapa Web ",
+        "inner_html": "Mapa Web"
+      },
+      {
+        "href": "http://mapama.gob.es/es/atencion-al-ciudadano/guia-de-navegacion.aspx",
+        "inner_text": "Guía de navegación ",
+        "inner_html": "Guía de navegación"
+      },
+      {
+        "href": "http://mapama.gob.es/es/atencion-al-ciudadano/aviso-legal.aspx",
+        "inner_text": "Aviso legal ",
+        "inner_html": "Aviso legal"
+      }
+    ],
+    "thirdParty": [
+      {
+        "href": "https://sede.mapama.gob.es/portal/site/se",
+        "inner_text": "Sede electrónica",
+        "inner_html": "Sede electrónica"
+      },
+      {
+        "href": "https://contrataciondelestado.es/wps/portal/plataforma",
+        "inner_text": "Licitaciones",
+        "inner_html": "Licitaciones"
+      },
+      {
+        "href": "http://www.aemet.es/es/portada",
+        "inner_text": "El tiempo: AEMET",
+        "inner_html": "El tiempo: AEMET"
+      },
+      {
+        "href": "https://www.mapama.gob.es/es/red-parques-nacionales/divulgacion/centenario-2018.aspx",
+        "inner_text": "Los Parques Nacionales de Picos de Europa, y de Ordesa y Monte Perdido cumplen 100 años",
+        "inner_html": "Los Parques Nacionales de Picos de Europa, y de Ordesa y Monte Perdido cumplen 100 años"
+      },
+      {
+        "href": "https://www.mapama.gob.es/es/ganaderia/temas/comercio-exterior-ganadero/desplazamiento-animales-compania/default.aspx",
+        "inner_text": "Información para viajar con tu mascota para entrar y salir de España",
+        "inner_html": "Información para viajar con tu mascota para entrar y salir de España"
+      },
+      {
+        "href": "https://www.mapama.gob.es/es/parques-nacionales-oapn/default.aspx",
+        "inner_text": "",
+        "inner_html": "<span> \n                                       <img src=\"./redirect/oapn-para-web-03_tcm7-294048_tcm30-302909.png\" alt=\"OAPN\" class=\"escalagrises\" title=\"OAPN\">\n                                       </span>"
+      },
+      {
+        "href": "http://www.mct.es/",
+        "inner_text": "",
+        "inner_html": "<span> \n                                       <img src=\"./redirect/mct-p_tcm7-359457_tcm30-302911.jpg\" alt=\"Mancumunidad de los Canales del Taibilla\" class=\"escalagrises\" title=\"Mancumunidad de los Canales del Taibilla\">\n                                       </span>"
+      },
+      {
+        "href": "http://www.fega.es/",
+        "inner_text": "",
+        "inner_html": "<span> \n                                       <img src=\"./redirect/enlace_fega_tcm7-274019_tcm30-302913.jpg\" alt=\"FEGA\" class=\"escalagrises\" title=\"FEGA\">\n                                       </span>"
+      },
+      {
+        "href": "https://www.mapama.gob.es/es/enesa/default.aspx",
+        "inner_text": "",
+        "inner_html": "<span> \n                                       <img src=\"./redirect/enlace_enesa_tcm7-274029_tcm30-302915.jpg\" alt=\"ENESA\" class=\"escalagrises\" title=\"ENESA\">\n                                       </span>"
+      },
+      {
+        "href": "https://www.mapama.gob.es/es/ministerio/funciones-estructura/organizacion-organismos/organismos-publicos/confederaciones-hidrograficas/default.aspx",
+        "inner_text": "",
+        "inner_html": "<span> \n                                       <img src=\"./redirect/enlace_confederacion_hidrografica_tcm7-274028_tcm30-302917.jpg\" alt=\"Confederaciones Hidrográficas\" class=\"escalagrises\" title=\"Confederaciones Hidrográficas\">\n                                       </span>"
+      },
+      {
+        "href": "http://www.aica.gob.es/",
+        "inner_text": "",
+        "inner_html": "<span> \n                                       <img src=\"./redirect/logo-aica_tcm7-274025_tcm30-444472.png\" alt=\"Aica\" class=\"escalagrises\" title=\"Aica\">\n                                       </span>"
+      },
+      {
+        "href": "http://www.w3.org/WAI/WCAG1AA-Conformance",
+        "inner_text": "",
+        "inner_html": "<img src=\"./redirect/logo-doble-a_tcm30-283652.png\" alt=\"WAI logo\" title=\"WAI logo\">"
+      },
+      {
+        "href": "http://administracionelectronica.gob.es/",
+        "inner_text": "",
+        "inner_html": "<span>\n                        <img src=\"./redirect/logo2_tcm30-302922.jpg\" alt=\"Administración Electrónica\" class=\"img-responsive\" title=\"Administración Electrónica\">\n                        </span>"
+      },
+      {
+        "href": "http://ec.europa.eu/index_es.htm",
+        "inner_text": "",
+        "inner_html": "<span>\n                        <img src=\"./redirect/logo7_tcm30-302939.jpg\" alt=\"Comisión Europea\" class=\"img-responsive\" title=\"Comisión Europea\">\n                        </span>"
+      },
+      {
+        "href": "http://datos.gob.es/",
+        "inner_text": "",
+        "inner_html": "<span>\n                        <img src=\"./redirect/logo4_tcm30-302898.jpg\" alt=\"Datos abiertos\" class=\"img-responsive\" title=\"Datos abiertos\">\n                        </span>"
+      },
+      {
+        "href": "http://marcaespana.es/",
+        "inner_text": "",
+        "inner_html": "<span>\n                        <img src=\"./redirect/logo5_tcm30-302941.jpg\" alt=\"Marca España\" class=\"img-responsive\" title=\"Marca España\">\n                        </span>"
+      },
+      {
+        "href": "http://administracion.gob.es/",
+        "inner_text": "",
+        "inner_html": "<span>\n                        <img src=\"./redirect/logo3_tcm30-302907.png\" alt=\"Punto de Acceso General - administracion.gob.es\" class=\"img-responsive\" title=\"Punto de Acceso General - administracion.gob.es\">\n                        </span>"
+      },
+      {
+        "href": "http://www.red.es/redes/",
+        "inner_text": "",
+        "inner_html": "<span>\n                        <img src=\"./redirect/logo6_tcm30-302943.jpg\" alt=\"Red.es\" class=\"img-responsive\" title=\"Red.es\">\n                        </span>"
+      },
+      {
+        "href": "http://transparencia.gob.es/",
+        "inner_text": "",
+        "inner_html": "<span>\n                        <img src=\"./redirect/logo1_tcm30-302945.png\" alt=\"Portal de la Transparencia\" class=\"img-responsive\" title=\"Portal de la Transparencia\">\n                        </span>"
+      }
+    ],
+    "social": [],
+    "keywords": [
+      {
+        "href": "http://mapama.gob.es/es/atencion-al-ciudadano/aviso-legal.aspx",
+        "inner_text": "Aviso legal ",
+        "inner_html": "Aviso legal"
+      }
+    ]
+  },
+  "unsafeForms": [
+    {
+      "id": "searchForm",
+      "action": "http://mapama.gob.es/es/buscador/resultados-busqueda.aspx",
+      "method": "get"
+    }
+  ],
+  "browsing_history": [
+    "https://mapama.gob.es/"
+  ],
+  "websockets": {},
+  "cookies": [],
+  "localStorage": {},
+  "beacons": [],
+  "hosts": {
+    "requests": {
+      "firstParty": [
+        "mapama.gob.es"
+      ],
+      "thirdParty": []
+    },
+    "beacons": {
+      "firstParty": [],
+      "thirdParty": []
+    },
+    "cookies": {
+      "firstParty": [],
+      "thirdParty": []
+    },
+    "localStorage": {
+      "firstParty": [],
+      "thirdParty": []
+    },
+    "links": {
+      "firstParty": [
+        "mapama.gob.es"
+      ],
+      "thirdParty": [
+        "sede.mapama.gob.es",
+        "contrataciondelestado.es",
+        "www.aemet.es",
+        "www.mapama.gob.es",
+        "www.mct.es",
+        "www.fega.es",
+        "www.aica.gob.es",
+        "www.w3.org",
+        "administracionelectronica.gob.es",
+        "ec.europa.eu",
+        "datos.gob.es",
+        "marcaespana.es",
+        "administracion.gob.es",
+        "www.red.es",
+        "transparencia.gob.es"
+      ]
+    }
+  }
+}

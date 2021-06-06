@@ -1,0 +1,1746 @@
+{
+  "title": "Website Evidence Collection",
+  "task_description": null,
+  "uri_ins": "https://tiempo.com",
+  "uri_refs": [
+    "https://tiempo.com"
+  ],
+  "uri_dest": "https://www.tiempo.com/",
+  "uri_redirects": [
+    "https://tiempo.com/"
+  ],
+  "secure_connection": {
+    "https_support": true,
+    "redirects": [
+      "http://www.tiempo.com/",
+      "https://www.tiempo.com/"
+    ],
+    "https_redirect": true
+  },
+  "host": "tiempo.com",
+  "script": {
+    "host": "sfod",
+    "version": {
+      "npm": "1.0.0",
+      "commit": null
+    },
+    "cmd_args": "-q --overwrite https://tiempo.com -- --ignore-certificate-errors",
+    "environment": {
+      "CHROME_DESKTOP": "code-url-handler.desktop"
+    },
+    "node_version": "v14.17.0"
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "HeadlessChrome/80.0.3987.0",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3617.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "5.8.0-53-generic"
+    },
+    "extra_headers": {},
+    "preset_cookies": {}
+  },
+  "start_time": "2021-05-20T16:43:25.687Z",
+  "end_time": "2021-05-20T16:43:32.760Z",
+  "links": {
+    "firstParty": [],
+    "thirdParty": [
+      {
+        "href": "https://www.tiempo.com/",
+        "inner_text": "",
+        "inner_html": "<img class=\"type2\" src=\"https://www.tiempo.com/css/2018/logos/es.svg\" onerror=\"this.src='https://www.tiempo.com/css/images/svg/png/pc/icon-es.png'; this.onerror=null;\" alt=\"Tiempo.com\">"
+      },
+      {
+        "href": "https://www.tiempo.com/noticias/",
+        "inner_text": "NOTICIAS",
+        "inner_html": "Noticias"
+      },
+      {
+        "href": "https://www.tiempo.com/videos/",
+        "inner_text": "VÍDEOS",
+        "inner_html": "Vídeos"
+      },
+      {
+        "href": "https://www.tiempo.com/avisos-meteorologicos/",
+        "inner_text": "AVISOS",
+        "inner_html": "Avisos"
+      },
+      {
+        "href": "https://www.tiempo.com/radar-espana-reflect.html",
+        "inner_text": "RADAR",
+        "inner_html": "Radar"
+      },
+      {
+        "href": "https://www.tiempo.com/mapas-meteorologicos/",
+        "inner_text": "MAPAS",
+        "inner_html": "Mapas"
+      },
+      {
+        "href": "https://www.tiempo.com/satelites/",
+        "inner_text": "SATÉLITES",
+        "inner_html": "Satélites"
+      },
+      {
+        "href": "https://www.tiempo.com/modelos/",
+        "inner_text": "MODELOS",
+        "inner_html": "Modelos"
+      },
+      {
+        "href": "https://www.tiempo.com/ram/",
+        "inner_text": "REVISTA",
+        "inner_html": "Revista"
+      },
+      {
+        "href": "https://foro.tiempo.com/",
+        "inner_text": "FORO",
+        "inner_html": "Foro"
+      },
+      {
+        "href": "https://www.tiempo.com/mundo.htm",
+        "inner_text": "EL MUNDO",
+        "inner_html": "El mundo"
+      },
+      {
+        "href": "https://www.tiempo.com/madrid.htm",
+        "inner_text": "Madrid",
+        "inner_html": "Madrid"
+      },
+      {
+        "href": "https://www.tiempo.com/barcelona.htm",
+        "inner_text": "Barcelona",
+        "inner_html": "Barcelona"
+      },
+      {
+        "href": "https://www.tiempo.com/sevilla.htm",
+        "inner_text": "Sevilla",
+        "inner_html": "Sevilla"
+      },
+      {
+        "href": "https://www.tiempo.com/valencia.htm",
+        "inner_text": "Valencia",
+        "inner_html": "Valencia"
+      },
+      {
+        "href": "https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.tiempo.com",
+        "inner_text": "",
+        "inner_html": "<span class=\"icono\"><svg viewBox=\"0 0 24 24\"><use xlink:href=\"#ms_facebook\"></use></svg></span>"
+      },
+      {
+        "href": "https://twitter.com/share?url=https%3A%2F%2Fwww.tiempo.com&via=MeteoredES&text=El+tiempo+14+d%C3%ADas+-+Meteored",
+        "inner_text": "",
+        "inner_html": "<span class=\"icono\"><svg viewBox=\"0 0 24 24\"><use xlink:href=\"#ms_twitter\"></use></svg></span>"
+      },
+      {
+        "href": "https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fwww.tiempo.com&title=El%20tiempo%2014%20d%C3%ADas%20-%20Meteored&summary=El%20tiempo%20en%20Espa%C3%B1a%20para%2014%20d%C3%ADas,%20predicci%C3%B3n%20del%20tiempo%20por%20horas%20y%20condiciones%20actuales.%20Predicci%C3%B3n%20del%20tiempo%20para%20m%C3%A1s%20de%20200.000%20ciudades%20del%20mundo&source=https://www.tiempo.com",
+        "inner_text": "",
+        "inner_html": "<span class=\"icono\"><svg viewBox=\"0 0 32 32\"><use xlink:href=\"#ms_linkedin\"></use></svg></span>"
+      },
+      {
+        "href": "https://pinterest.com/pin/create/button/?url=https://www.tiempo.com&media=https%3A%2F%2Fwww.tiempo.com%2Fcss%2Fimages%2Flogos-share%2Fes.png&description=El%20tiempo%2014%20d%C3%ADas%20-%20Meteored",
+        "inner_text": "",
+        "inner_html": "<span class=\"icono\"><svg viewBox=\"9 9 30 30\"><use xlink:href=\"#ms_pinterest\"></use></svg></span>"
+      },
+      {
+        "href": "https://www.tiempo.com/almeria.htm",
+        "inner_text": "Almería",
+        "inner_html": "Almería"
+      },
+      {
+        "href": "https://www.tiempo.com/vitoria-gasteiz.htm",
+        "inner_text": " Vitoria-Gasteiz ",
+        "inner_html": "Vitoria-Gasteiz"
+      },
+      {
+        "href": "https://www.tiempo.com/albacete.htm",
+        "inner_text": "Albacete",
+        "inner_html": "Albacete"
+      },
+      {
+        "href": "https://www.tiempo.com/alicante-alacant.htm",
+        "inner_text": "Alicante",
+        "inner_html": "Alicante"
+      },
+      {
+        "href": "https://www.tiempo.com/avila.htm",
+        "inner_text": "Ávila",
+        "inner_html": "Ávila"
+      },
+      {
+        "href": "https://www.tiempo.com/badajoz.htm",
+        "inner_text": "Badajoz",
+        "inner_html": "Badajoz"
+      },
+      {
+        "href": "https://www.tiempo.com/palma-de-mallorca.htm",
+        "inner_text": "Palma de Mallorca",
+        "inner_html": "Palma de Mallorca"
+      },
+      {
+        "href": "https://www.tiempo.com/burgos.htm",
+        "inner_text": "Burgos",
+        "inner_html": "Burgos"
+      },
+      {
+        "href": "https://www.tiempo.com/ciudad-real.htm",
+        "inner_text": "Ciudad Real",
+        "inner_html": "Ciudad Real"
+      },
+      {
+        "href": "https://www.tiempo.com/caceres.htm",
+        "inner_text": "Cáceres",
+        "inner_html": "Cáceres"
+      },
+      {
+        "href": "https://www.tiempo.com/cadiz.htm",
+        "inner_text": "Cadiz",
+        "inner_html": "Cadiz"
+      },
+      {
+        "href": "https://www.tiempo.com/granada.htm",
+        "inner_text": "Granada",
+        "inner_html": "Granada"
+      },
+      {
+        "href": "https://www.tiempo.com/cordoba.htm",
+        "inner_text": " Córdoba ",
+        "inner_html": "Córdoba"
+      },
+      {
+        "href": "https://www.tiempo.com/coruna-a.htm",
+        "inner_text": "A Coruña",
+        "inner_html": "A Coruña"
+      },
+      {
+        "href": "https://www.tiempo.com/girona.htm",
+        "inner_text": " Girona ",
+        "inner_html": "Girona"
+      },
+      {
+        "href": "https://www.tiempo.com/castellon-de-la-plana-castello-de-la-plana.htm",
+        "inner_text": " Castellón de la Plana ",
+        "inner_html": "Castellón de la Plana"
+      },
+      {
+        "href": "https://www.tiempo.com/guadalajara.htm",
+        "inner_text": " Guadalajara ",
+        "inner_html": "Guadalajara"
+      },
+      {
+        "href": "https://www.tiempo.com/cuenca.htm",
+        "inner_text": "Cuenca",
+        "inner_html": "Cuenca"
+      },
+      {
+        "href": "https://www.tiempo.com/huelva.htm",
+        "inner_text": "Huelva",
+        "inner_html": "Huelva"
+      },
+      {
+        "href": "https://www.tiempo.com/jaen.htm",
+        "inner_text": "Jaén",
+        "inner_html": "Jaén"
+      },
+      {
+        "href": "https://www.tiempo.com/leon.htm",
+        "inner_text": "León",
+        "inner_html": "León"
+      },
+      {
+        "href": "https://www.tiempo.com/lleida.htm",
+        "inner_text": "Lleida",
+        "inner_html": "Lleida"
+      },
+      {
+        "href": "https://www.tiempo.com/huesca.htm",
+        "inner_text": " Huesca ",
+        "inner_html": "Huesca"
+      },
+      {
+        "href": "https://www.tiempo.com/donostia-san-sebastian.htm",
+        "inner_text": " Donostia-San Sebastián ",
+        "inner_html": "Donostia-San Sebastián"
+      },
+      {
+        "href": "https://www.tiempo.com/logrono.htm",
+        "inner_text": " Logroño ",
+        "inner_html": "Logroño"
+      },
+      {
+        "href": "https://www.tiempo.com/lugo.htm",
+        "inner_text": "Lugo",
+        "inner_html": "Lugo"
+      },
+      {
+        "href": "https://www.tiempo.com/malaga.htm",
+        "inner_text": "Málaga",
+        "inner_html": "Málaga"
+      },
+      {
+        "href": "https://www.tiempo.com/murcia.htm",
+        "inner_text": "Murcia",
+        "inner_html": "Murcia"
+      },
+      {
+        "href": "https://www.tiempo.com/ourense.htm",
+        "inner_text": " Ourense ",
+        "inner_html": "Ourense"
+      },
+      {
+        "href": "https://www.tiempo.com/palencia.htm",
+        "inner_text": " Palencia ",
+        "inner_html": "Palencia"
+      },
+      {
+        "href": "https://www.tiempo.com/palmas-de-gran-canaria-las.htm",
+        "inner_text": "Las Palmas de Gran Canaria",
+        "inner_html": "Las Palmas de Gran Canaria"
+      },
+      {
+        "href": "https://www.tiempo.com/pontevedra.htm",
+        "inner_text": "Pontevedra",
+        "inner_html": "Pontevedra"
+      },
+      {
+        "href": "https://www.tiempo.com/pamplona-iruna.htm",
+        "inner_text": " Pamplona ",
+        "inner_html": "Pamplona"
+      },
+      {
+        "href": "https://www.tiempo.com/oviedo.htm",
+        "inner_text": "Oviedo",
+        "inner_html": "Oviedo"
+      },
+      {
+        "href": "https://www.tiempo.com/salamanca.htm",
+        "inner_text": "Salamanca",
+        "inner_html": "Salamanca"
+      },
+      {
+        "href": "https://www.tiempo.com/segovia.htm",
+        "inner_text": " Segovia ",
+        "inner_html": "Segovia"
+      },
+      {
+        "href": "https://www.tiempo.com/santa-cruz-de-tenerife.htm",
+        "inner_text": "Santa Cruz de Tenerife",
+        "inner_html": "Santa Cruz de Tenerife"
+      },
+      {
+        "href": "https://www.tiempo.com/santander.htm",
+        "inner_text": "Santander",
+        "inner_html": "Santander"
+      },
+      {
+        "href": "https://www.tiempo.com/soria.htm",
+        "inner_text": "Soria",
+        "inner_html": "Soria"
+      },
+      {
+        "href": "https://www.tiempo.com/tarragona.htm",
+        "inner_text": "Tarragona",
+        "inner_html": "Tarragona"
+      },
+      {
+        "href": "https://www.tiempo.com/teruel.htm",
+        "inner_text": "Teruel",
+        "inner_html": "Teruel"
+      },
+      {
+        "href": "https://www.tiempo.com/toledo.htm",
+        "inner_text": " Toledo ",
+        "inner_html": "Toledo"
+      },
+      {
+        "href": "https://www.tiempo.com/zamora.htm",
+        "inner_text": " Zamora ",
+        "inner_html": "Zamora"
+      },
+      {
+        "href": "https://www.tiempo.com/bilbao.htm",
+        "inner_text": " Bilbao ",
+        "inner_html": "Bilbao"
+      },
+      {
+        "href": "https://www.tiempo.com/valladolid.htm",
+        "inner_text": " Valladolid ",
+        "inner_html": "Valladolid"
+      },
+      {
+        "href": "https://www.tiempo.com/zaragoza.htm",
+        "inner_text": "Zaragoza",
+        "inner_html": "Zaragoza"
+      },
+      {
+        "href": "https://www.tiempo.com/ceuta_ceuta-l8099.htm",
+        "inner_text": "Ceuta",
+        "inner_html": "Ceuta"
+      },
+      {
+        "href": "https://www.tiempo.com/melilla_melilla-l8100.htm",
+        "inner_text": "Melilla",
+        "inner_html": "Melilla"
+      },
+      {
+        "href": "https://twitter.com/MeteoredES",
+        "inner_text": "",
+        "inner_html": "<svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\"><use xlink:href=\"#Twitter\" data=\"sp2\"></use></svg>"
+      },
+      {
+        "href": "https://www.facebook.com/meteoredofficial",
+        "inner_text": "",
+        "inner_html": "<svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\"><use xlink:href=\"#Facebook\" data=\"sp2\"></use></svg>"
+      },
+      {
+        "href": "https://www.tiempo.com/noticias/actualidad/posidonia-mediterraneo-playas-espana-cambio-climatico-temporales.html",
+        "inner_text": "¿Te molesta la posidonia en la playa? Es una \"guardiana\" magnífica\nSamuel Biener\n20 May 2021 - 15:00 UTC\n\nAunque a primera vista puede resultar desagradable si está seca, la posidonia es una planta marina endémica que juega un papel fundamental para mitigar la regresión que vemos en muchas de nuestras playas. ¿Quieres saber más? Aquí te lo explicamos. ",
+        "inner_html": "<article> <h4>¿Te molesta la posidonia en la playa? Es una \"guardiana\" magnífica</h4> <div> <figure class=\"imgRedactor\"><img class=\"lazy\" src=\"https://www.tiempo.com/img/apixel.png\" alt=\"Samuel Biener\" data-src=\"https://www.tiempo.com/css/images/new/redactor/samuel-biener.jpg\" data-srcset=\"https://www.tiempo.com/css/images/new/redactor/samuel-biener.jpg\"></figure> <span>Samuel Biener</span> <time datetime=\"20210520\">20 May 2021 - 15:00 UTC</time> <p>Aunque a primera vista puede resultar desagradable si está seca, la posidonia es una planta marina endémica que juega un papel fundamental para mitigar la regresión que vemos en muchas de nuestras playas. ¿Quieres saber más? Aquí te lo explicamos.&nbsp;</p> </div> <figure> <img class=\"lazy\" src=\"https://www.tiempo.com/img/apixel.png\" title=\"¿Te molesta la posidonia en la playa? Es una \" guardiana\"=\"\" magnífica\"=\"\" alt=\"¿Te molesta la posidonia en la playa? Es una \" data-src=\"https://services.meteored.com/img/article/posidonia-mediterraneo-playas-espana-cambio-climatico-temporales-336631-2_768.jpg\" data-srcset=\"https://services.meteored.com/img/article/posidonia-mediterraneo-playas-espana-cambio-climatico-temporales-336631-2_768.jpg\" width=\"420\" height=\"275\"> </figure> </article>"
+      },
+      {
+        "href": "https://www.tiempo.com/noticias/prediccion/tiempo-del-fin-de-semana-con-dana-tormentas-fuertes-y-fresco.html",
+        "inner_text": "20 May 2021\nDANA para el domingo y atención, habrá episodio de tormentas fuertes",
+        "inner_html": "<article> <figure> <img class=\"lazy\" src=\"https://www.tiempo.com/img/apixel.png\" title=\"DANA para el domingo y atención, habrá episodio de tormentas fuertes\" alt=\"DANA para el domingo y atención, habrá episodio de tormentas fuertes\" data-src=\"https://services.meteored.com/img/article/mini/reina-la-incertidumbre-habra-dana-y-podria-dejar-tormentas-fuertes-336781-1.jpg\" data-srcset=\"https://services.meteored.com/img/article/mini/reina-la-incertidumbre-habra-dana-y-podria-dejar-tormentas-fuertes-336781-1.jpg\" width=\"150\" height=\"94\"> </figure> <div> <time datetime=\"20210520\">20 May 2021</time> <h4>DANA para el domingo y atención, habrá episodio de tormentas fuertes</h4> </div> </article>"
+      },
+      {
+        "href": "https://www.tiempo.com/noticias/actualidad/tiempo-en-las-fallas-2021-valencia-calor-septiembre-fechas.html",
+        "inner_text": "19 May 2021\nTiempo en las Fallas 2021: ¿hará calor y habrá tormentas como dicen?",
+        "inner_html": "<article> <figure> <img class=\"lazy\" src=\"https://www.tiempo.com/img/apixel.png\" title=\"Tiempo en las Fallas 2021: ¿hará calor y habrá tormentas como dicen?\" alt=\"Tiempo en las Fallas 2021: ¿hará calor y habrá tormentas como dicen?\" data-src=\"https://services.meteored.com/img/article/mini/tiempo-en-las-fallas-2021-seran-en-septiembre-epoca-de-calor-y-torme-1621427158501.jpg\" data-srcset=\"https://services.meteored.com/img/article/mini/tiempo-en-las-fallas-2021-seran-en-septiembre-epoca-de-calor-y-torme-1621427158501.jpg\" width=\"150\" height=\"94\"> </figure> <div> <time datetime=\"20210519\">19 May 2021</time> <h4>Tiempo en las Fallas 2021: ¿hará calor y habrá tormentas como dicen?</h4> </div> </article>"
+      },
+      {
+        "href": "https://www.tiempo.com/noticias/actualidad/mayo-cuando-y-donde-luna-de-sangre-superluna-de-las-flores.html",
+        "inner_text": "19 May 2021\nDoble espectáculo muy pronto: luna de sangre y superluna de las flores",
+        "inner_html": "<article> <figure> <img class=\"lazy\" src=\"https://www.tiempo.com/img/apixel.png\" title=\"Doble espectáculo muy pronto: luna de sangre y superluna de las flores\" alt=\"Doble espectáculo muy pronto: luna de sangre y superluna de las flores\" data-src=\"https://services.meteored.com/img/article/mini/doble-espectaculo-astronomico-luna-de-sangre-y-superluna-de-flor-336311-3.jpg\" data-srcset=\"https://services.meteored.com/img/article/mini/doble-espectaculo-astronomico-luna-de-sangre-y-superluna-de-flor-336311-3.jpg\" width=\"150\" height=\"94\"> </figure> <div> <time datetime=\"20210519\">19 May 2021</time> <h4>Doble espectáculo muy pronto: luna de sangre y superluna de las flores</h4> </div> </article>"
+      },
+      {
+        "href": "https://www.tiempo.com/a-coruna-provincia.htm",
+        "inner_text": "A Coruña",
+        "inner_html": "A Coruña"
+      },
+      {
+        "href": "https://www.tiempo.com/alava-provincia.htm",
+        "inner_text": "Álava",
+        "inner_html": "Álava"
+      },
+      {
+        "href": "https://www.tiempo.com/albacete-provincia.htm",
+        "inner_text": "Albacete",
+        "inner_html": "Albacete"
+      },
+      {
+        "href": "https://www.tiempo.com/alicante-provincia.htm",
+        "inner_text": "Alicante",
+        "inner_html": "Alicante"
+      },
+      {
+        "href": "https://www.tiempo.com/almeria-provincia.htm",
+        "inner_text": "Almería",
+        "inner_html": "Almería"
+      },
+      {
+        "href": "https://www.tiempo.com/principado-de-asturias.htm",
+        "inner_text": "Asturias",
+        "inner_html": "Asturias"
+      },
+      {
+        "href": "https://www.tiempo.com/avila-provincia.htm",
+        "inner_text": "Ávila",
+        "inner_html": "Ávila"
+      },
+      {
+        "href": "https://www.tiempo.com/badajoz-provincia.htm",
+        "inner_text": "Badajoz",
+        "inner_html": "Badajoz"
+      },
+      {
+        "href": "https://www.tiempo.com/barcelona-provincia.htm",
+        "inner_text": "Barcelona",
+        "inner_html": "Barcelona"
+      },
+      {
+        "href": "https://www.tiempo.com/burgos-provincia.htm",
+        "inner_text": "Burgos",
+        "inner_html": "Burgos"
+      },
+      {
+        "href": "https://www.tiempo.com/caceres-provincia.htm",
+        "inner_text": "Cáceres",
+        "inner_html": "Cáceres"
+      },
+      {
+        "href": "https://www.tiempo.com/cadiz-provincia.htm",
+        "inner_text": "Cádiz",
+        "inner_html": "Cádiz"
+      },
+      {
+        "href": "https://www.tiempo.com/cantabria.htm",
+        "inner_text": "Cantabria",
+        "inner_html": "Cantabria"
+      },
+      {
+        "href": "https://www.tiempo.com/castellon-provincia.htm",
+        "inner_text": "Castellón",
+        "inner_html": "Castellón"
+      },
+      {
+        "href": "https://www.tiempo.com/ciudad-real-provincia.htm",
+        "inner_text": "Ciudad Real",
+        "inner_html": "Ciudad Real"
+      },
+      {
+        "href": "https://www.tiempo.com/cordoba-provincia.htm",
+        "inner_text": "Córdoba",
+        "inner_html": "Córdoba"
+      },
+      {
+        "href": "https://www.tiempo.com/cuenca-provincia.htm",
+        "inner_text": "Cuenca",
+        "inner_html": "Cuenca"
+      },
+      {
+        "href": "https://www.tiempo.com/girona-provincia.htm",
+        "inner_text": "Girona",
+        "inner_html": "Girona"
+      },
+      {
+        "href": "https://www.tiempo.com/granada-provincia.htm",
+        "inner_text": "Granada",
+        "inner_html": "Granada"
+      },
+      {
+        "href": "https://www.tiempo.com/guadalajara-provincia.htm",
+        "inner_text": "Guadalajara",
+        "inner_html": "Guadalajara"
+      },
+      {
+        "href": "https://www.tiempo.com/guipuzcoa-provincia.htm",
+        "inner_text": "Guipúzcoa",
+        "inner_html": "Guipúzcoa"
+      },
+      {
+        "href": "https://www.tiempo.com/huelva-provincia.htm",
+        "inner_text": "Huelva",
+        "inner_html": "Huelva"
+      },
+      {
+        "href": "https://www.tiempo.com/huesca-provincia.htm",
+        "inner_text": "Huesca",
+        "inner_html": "Huesca"
+      },
+      {
+        "href": "https://www.tiempo.com/illes-balears.htm",
+        "inner_text": "Illes Balears",
+        "inner_html": "Illes Balears"
+      },
+      {
+        "href": "https://www.tiempo.com/jaen-provincia.htm",
+        "inner_text": "Jaén",
+        "inner_html": "Jaén"
+      },
+      {
+        "href": "https://www.tiempo.com/la-rioja.htm",
+        "inner_text": "La Rioja",
+        "inner_html": "La Rioja"
+      },
+      {
+        "href": "https://www.tiempo.com/las-palmas-provincia.htm",
+        "inner_text": "Las Palmas",
+        "inner_html": "Las Palmas"
+      },
+      {
+        "href": "https://www.tiempo.com/leon-provincia.htm",
+        "inner_text": "León",
+        "inner_html": "León"
+      },
+      {
+        "href": "https://www.tiempo.com/lleida-provincia.htm",
+        "inner_text": "Lleida",
+        "inner_html": "Lleida"
+      },
+      {
+        "href": "https://www.tiempo.com/lugo-provincia.htm",
+        "inner_text": "Lugo",
+        "inner_html": "Lugo"
+      },
+      {
+        "href": "https://www.tiempo.com/comunidad-de-madrid.htm",
+        "inner_text": "Madrid",
+        "inner_html": "Madrid"
+      },
+      {
+        "href": "https://www.tiempo.com/malaga-provincia.htm",
+        "inner_text": "Málaga",
+        "inner_html": "Málaga"
+      },
+      {
+        "href": "https://www.tiempo.com/region-de-murcia.htm",
+        "inner_text": "Murcia",
+        "inner_html": "Murcia"
+      },
+      {
+        "href": "https://www.tiempo.com/comunidad-foral-de-navarra.htm",
+        "inner_text": "Navarra",
+        "inner_html": "Navarra"
+      },
+      {
+        "href": "https://www.tiempo.com/ourense-provincia.htm",
+        "inner_text": "Ourense",
+        "inner_html": "Ourense"
+      },
+      {
+        "href": "https://www.tiempo.com/palencia-provincia.htm",
+        "inner_text": "Palencia",
+        "inner_html": "Palencia"
+      },
+      {
+        "href": "https://www.tiempo.com/pontevedra-provincia.htm",
+        "inner_text": "Pontevedra",
+        "inner_html": "Pontevedra"
+      },
+      {
+        "href": "https://www.tiempo.com/salamanca-provincia.htm",
+        "inner_text": "Salamanca",
+        "inner_html": "Salamanca"
+      },
+      {
+        "href": "https://www.tiempo.com/santa-cruz-de-tenerife-provincia.htm",
+        "inner_text": "Santa Cruz de Tenerife",
+        "inner_html": "Santa Cruz de Tenerife"
+      },
+      {
+        "href": "https://www.tiempo.com/segovia-provincia.htm",
+        "inner_text": "Segovia",
+        "inner_html": "Segovia"
+      },
+      {
+        "href": "https://www.tiempo.com/sevilla-provincia.htm",
+        "inner_text": "Sevilla",
+        "inner_html": "Sevilla"
+      },
+      {
+        "href": "https://www.tiempo.com/soria-provincia.htm",
+        "inner_text": "Soria",
+        "inner_html": "Soria"
+      },
+      {
+        "href": "https://www.tiempo.com/tarragona-provincia.htm",
+        "inner_text": "Tarragona",
+        "inner_html": "Tarragona"
+      },
+      {
+        "href": "https://www.tiempo.com/teruel-provincia.htm",
+        "inner_text": "Teruel",
+        "inner_html": "Teruel"
+      },
+      {
+        "href": "https://www.tiempo.com/toledo-provincia.htm",
+        "inner_text": "Toledo",
+        "inner_html": "Toledo"
+      },
+      {
+        "href": "https://www.tiempo.com/valencia-provincia.htm",
+        "inner_text": "Valencia",
+        "inner_html": "Valencia"
+      },
+      {
+        "href": "https://www.tiempo.com/valladolid-provincia.htm",
+        "inner_text": "Valladolid",
+        "inner_html": "Valladolid"
+      },
+      {
+        "href": "https://www.tiempo.com/vizcaya-provincia.htm",
+        "inner_text": "Vizcaya",
+        "inner_html": "Vizcaya"
+      },
+      {
+        "href": "https://www.tiempo.com/zamora-provincia.htm",
+        "inner_text": "Zamora",
+        "inner_html": "Zamora"
+      },
+      {
+        "href": "https://www.tiempo.com/zaragoza-provincia.htm",
+        "inner_text": "Zaragoza",
+        "inner_html": "Zaragoza"
+      },
+      {
+        "href": "https://www.tiempo.com/ram/la-dana-que-sera-dana-para-este-fin-de-semana-tormentas-a-la-vista.html",
+        "inner_text": "La dana que será dana para este fin de semana: tormentas a la vista\nFrancisco Martín León\n20 May 2021 - 02:30 UTC\n\nEl aislamiento de una baja o depresión el altura de la circulación principal va a generar una dana en el sureste peninsular, de desplazamiento rápido por el sur hacia el Mediterráneo, dejará tormentas a su paso",
+        "inner_html": "<article> <h4>La dana que será dana para este fin de semana: tormentas a la vista</h4> <div> <figure class=\"imgRedactor\"><img class=\"lazy\" src=\"https://www.tiempo.com/img/apixel.png\" alt=\"Francisco Martín León\" data-src=\"https://www.tiempo.com/css/images/new/redactor/francisco-martin.jpg\" data-srcset=\"https://www.tiempo.com/css/images/new/redactor/francisco-martin.jpg\"></figure> <span>Francisco Martín León</span> <time datetime=\"20210520\">20 May 2021 - 02:30 UTC</time> <p>El aislamiento de una baja o depresión el altura de la circulación principal va a generar una dana en el sureste peninsular, de desplazamiento rápido por el sur hacia el Mediterráneo, dejará tormentas a su paso</p> </div> <figure> <img class=\"lazy\" src=\"https://www.tiempo.com/img/apixel.png\" title=\"La dana que será dana para este fin de semana: tormentas a la vista\" alt=\"La dana que será dana para este fin de semana: tormentas a la vista\" data-src=\"https://services.meteored.com/img/article/la-dana-que-sera-dana-para-este-fin-de-semana-tormentas-a-la-vista-336761-1_768.gif\" data-srcset=\"https://services.meteored.com/img/article/la-dana-que-sera-dana-para-este-fin-de-semana-tormentas-a-la-vista-336761-1_768.gif\" width=\"420\" height=\"275\"> </figure> </article>"
+      },
+      {
+        "href": "https://www.tiempo.com/ram/se-forma-el-invest-90l-posible-el-ciclon-subtropical-ana.html",
+        "inner_text": "20 May 2021\nSe forma el Invest 90L: posible ciclón subtropical Ana",
+        "inner_html": "<article> <figure> <img class=\"lazy\" src=\"https://www.tiempo.com/img/apixel.png\" title=\"Se forma el Invest 90L: posible ciclón subtropical Ana\" alt=\"Se forma el Invest 90L: posible ciclón subtropical Ana\" data-src=\"https://services.meteored.com/img/article/mini/se-forma-el-invest-90l-posible-el-ciclon-subtropical-ana-336731-1.gif\" data-srcset=\"https://services.meteored.com/img/article/mini/se-forma-el-invest-90l-posible-el-ciclon-subtropical-ana-336731-1.gif\" width=\"150\" height=\"94\"> </figure> <div> <time datetime=\"20210520\">20 May 2021</time> <h4>Se forma el Invest 90L: posible ciclón subtropical Ana</h4> </div> </article>"
+      },
+      {
+        "href": "https://www.tiempo.com/ram/se-desprende-el-iceberg-mas-grande-del-mundo-en-la-antartida-a-76.html",
+        "inner_text": "20 May 2021\nSe desprende el iceberg más grande del mundo en la Antártida: A-76",
+        "inner_html": "<article> <figure> <img class=\"lazy\" src=\"https://www.tiempo.com/img/apixel.png\" title=\"Se desprende el iceberg más grande del mundo en la Antártida: A-76\" alt=\"Se desprende el iceberg más grande del mundo en la Antártida: A-76\" data-src=\"https://services.meteored.com/img/article/mini/se-desprende-el-iceberg-mas-grande-del-mundo-en-la-antartida-a-76-336721-1.jpg\" data-srcset=\"https://services.meteored.com/img/article/mini/se-desprende-el-iceberg-mas-grande-del-mundo-en-la-antartida-a-76-336721-1.jpg\" width=\"150\" height=\"94\"> </figure> <div> <time datetime=\"20210520\">20 May 2021</time> <h4>Se desprende el iceberg más grande del mundo en la Antártida: A-76</h4> </div> </article>"
+      },
+      {
+        "href": "https://www.tiempo.com/ram/primera-tormenta-tropical-nombrada-del-atlantico-2021-ana-al-vista.html",
+        "inner_text": "19 May 2021\n¿Primera tormenta tropical nombrada del Atlántico 2021: Ana?",
+        "inner_html": "<article> <figure> <img class=\"lazy\" src=\"https://www.tiempo.com/img/apixel.png\" title=\"¿Primera tormenta tropical nombrada del Atlántico 2021: Ana?\" alt=\"¿Primera tormenta tropical nombrada del Atlántico 2021: Ana?\" data-src=\"https://services.meteored.com/img/article/mini/primera-tormenta-tropical-nombrada-del-atlantico-2021-ana-al-vista-336471-1.png\" data-srcset=\"https://services.meteored.com/img/article/mini/primera-tormenta-tropical-nombrada-del-atlantico-2021-ana-al-vista-336471-1.png\" width=\"150\" height=\"94\"> </figure> <div> <time datetime=\"20210519\">19 May 2021</time> <h4>¿Primera tormenta tropical nombrada del Atlántico 2021: Ana?</h4> </div> </article>"
+      },
+      {
+        "href": "https://www.tiempo.com/widget/",
+        "inner_text": "Widget de El tiempo",
+        "inner_html": "Widget de El tiempo"
+      },
+      {
+        "href": "https://www.tiempo.com/api/",
+        "inner_text": "API - Acceso a xml",
+        "inner_html": "API - Acceso a xml"
+      },
+      {
+        "href": "https://wordpress.org/plugins/tiempocom/",
+        "inner_text": "Plugin de Wordpress",
+        "inner_html": "Plugin de Wordpress"
+      },
+      {
+        "href": "https://www.microsoft.com/es-es/store/apps/el-tiempo-14-d%C3%ADas/9wzdncrdk0j6",
+        "inner_text": "",
+        "inner_html": "<svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\"> <use xlink:href=\"#windows\" data=\"sp2\"></use> </svg>"
+      },
+      {
+        "href": "https://appgallery7.huawei.com/",
+        "inner_text": "",
+        "inner_html": "<svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\"> <use xlink:href=\"#huawei\" data=\"sp2\"></use> </svg>"
+      },
+      {
+        "href": "https://itunes.apple.com/es/app/tiempo.com/id543364901?mt=8&pt=1244240&ct=web-es",
+        "inner_text": "",
+        "inner_html": "<svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\"> <use xlink:href=\"#appStore\" data=\"sp2\"></use> </svg>"
+      },
+      {
+        "href": "https://play.google.com/store/apps/details?id=aplicacion.tiempo&referrer=utm_source%3Dappweb%26utm_campaign%3Des_nofixed",
+        "inner_text": "",
+        "inner_html": "<svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\"> <use xlink:href=\"#googlePlay\" data=\"sp2\"></use> </svg>"
+      },
+      {
+        "href": "http://www.youtube.com/c/MeteoredOfficial",
+        "inner_text": "",
+        "inner_html": "<svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\"> <use xlink:href=\"#YoutubeFooter\" data=\"sp2\"></use> </svg>"
+      },
+      {
+        "href": "https://www.instagram.com/meteoredofficial/",
+        "inner_text": "",
+        "inner_html": "<svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\"> <use xlink:href=\"#InstagramFooter\" data=\"sp2\"></use> </svg>"
+      },
+      {
+        "href": "https://www.linkedin.com/company/meteored/",
+        "inner_text": "",
+        "inner_html": "<svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\"> <use xlink:href=\"#LinkedinFooter\" data=\"sp2\"></use> </svg>"
+      },
+      {
+        "href": "https://t.me/meteored_espana",
+        "inner_text": "",
+        "inner_html": "<svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\"> <use xlink:href=\"#TelegramFooter\" data=\"sp2\"></use> </svg>"
+      },
+      {
+        "href": "https://flipboard.com/@meteoredes/el-tiempo-hkubk0l8z",
+        "inner_text": "",
+        "inner_html": "<svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\"> <use xlink:href=\"#FlipboardFooter\" data=\"sp2\"></use> </svg>"
+      },
+      {
+        "href": "https://www.yourweather.co.uk/",
+        "inner_text": "yourweather.co.uk",
+        "inner_html": "yourweather.co.uk"
+      },
+      {
+        "href": "https://www.tameteo.com/",
+        "inner_text": "tameteo.com",
+        "inner_html": "tameteo.com"
+      },
+      {
+        "href": "https://www.tempo.pt/",
+        "inner_text": "tempo.pt",
+        "inner_html": "tempo.pt"
+      },
+      {
+        "href": "https://www.ilmeteo.net/",
+        "inner_text": "ilmeteo.net",
+        "inner_html": "ilmeteo.net"
+      },
+      {
+        "href": "https://www.daswetter.com/",
+        "inner_text": "daswetter.com",
+        "inner_html": "daswetter.com"
+      },
+      {
+        "href": "https://www.tempo.com/",
+        "inner_text": "tempo.com",
+        "inner_html": "tempo.com"
+      },
+      {
+        "href": "https://www.meteored.mx/",
+        "inner_text": "meteored.mx",
+        "inner_html": "meteored.mx"
+      },
+      {
+        "href": "https://www.meteored.com.ar/",
+        "inner_text": "meteored.com.ar",
+        "inner_html": "meteored.com.ar"
+      },
+      {
+        "href": "https://www.meteored.cl/",
+        "inner_text": "meteored.cl",
+        "inner_html": "meteored.cl"
+      },
+      {
+        "href": "https://www.tiempo.com/contacto",
+        "inner_text": "Contacto",
+        "inner_html": "Contacto"
+      },
+      {
+        "href": "https://www.tiempo.com/sobre-nosotros",
+        "inner_text": "Sobre nosotros",
+        "inner_html": "Sobre nosotros"
+      },
+      {
+        "href": "https://www.tiempo.com/privacy.html",
+        "inner_text": "página de política de privacidad",
+        "inner_html": "página de política de privacidad"
+      }
+    ],
+    "social": [
+      {
+        "href": "https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.tiempo.com",
+        "inner_text": "",
+        "inner_html": "<span class=\"icono\"><svg viewBox=\"0 0 24 24\"><use xlink:href=\"#ms_facebook\"></use></svg></span>"
+      },
+      {
+        "href": "https://twitter.com/share?url=https%3A%2F%2Fwww.tiempo.com&via=MeteoredES&text=El+tiempo+14+d%C3%ADas+-+Meteored",
+        "inner_text": "",
+        "inner_html": "<span class=\"icono\"><svg viewBox=\"0 0 24 24\"><use xlink:href=\"#ms_twitter\"></use></svg></span>"
+      },
+      {
+        "href": "https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fwww.tiempo.com&title=El%20tiempo%2014%20d%C3%ADas%20-%20Meteored&summary=El%20tiempo%20en%20Espa%C3%B1a%20para%2014%20d%C3%ADas,%20predicci%C3%B3n%20del%20tiempo%20por%20horas%20y%20condiciones%20actuales.%20Predicci%C3%B3n%20del%20tiempo%20para%20m%C3%A1s%20de%20200.000%20ciudades%20del%20mundo&source=https://www.tiempo.com",
+        "inner_text": "",
+        "inner_html": "<span class=\"icono\"><svg viewBox=\"0 0 32 32\"><use xlink:href=\"#ms_linkedin\"></use></svg></span>"
+      },
+      {
+        "href": "https://pinterest.com/pin/create/button/?url=https://www.tiempo.com&media=https%3A%2F%2Fwww.tiempo.com%2Fcss%2Fimages%2Flogos-share%2Fes.png&description=El%20tiempo%2014%20d%C3%ADas%20-%20Meteored",
+        "inner_text": "",
+        "inner_html": "<span class=\"icono\"><svg viewBox=\"9 9 30 30\"><use xlink:href=\"#ms_pinterest\"></use></svg></span>"
+      },
+      {
+        "href": "https://twitter.com/MeteoredES",
+        "inner_text": "",
+        "inner_html": "<svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\"><use xlink:href=\"#Twitter\" data=\"sp2\"></use></svg>"
+      },
+      {
+        "href": "https://www.facebook.com/meteoredofficial",
+        "inner_text": "",
+        "inner_html": "<svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\"><use xlink:href=\"#Facebook\" data=\"sp2\"></use></svg>"
+      },
+      {
+        "href": "http://www.youtube.com/c/MeteoredOfficial",
+        "inner_text": "",
+        "inner_html": "<svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\"> <use xlink:href=\"#YoutubeFooter\" data=\"sp2\"></use> </svg>"
+      },
+      {
+        "href": "https://www.instagram.com/meteoredofficial/",
+        "inner_text": "",
+        "inner_html": "<svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\"> <use xlink:href=\"#InstagramFooter\" data=\"sp2\"></use> </svg>"
+      },
+      {
+        "href": "https://www.linkedin.com/company/meteored/",
+        "inner_text": "",
+        "inner_html": "<svg version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\"> <use xlink:href=\"#LinkedinFooter\" data=\"sp2\"></use> </svg>"
+      }
+    ],
+    "keywords": [
+      {
+        "href": "https://www.tiempo.com/privacy.html",
+        "inner_text": "página de política de privacidad",
+        "inner_html": "página de política de privacidad"
+      }
+    ]
+  },
+  "unsafeForms": [],
+  "browsing_history": [
+    "https://www.tiempo.com/"
+  ],
+  "websockets": {},
+  "cookies": [
+    {
+      "name": "_ga",
+      "value": "GA1.2.806128990.1621529007",
+      "domain": "tiempo.com",
+      "path": "/",
+      "expires": 1684601007,
+      "size": 29,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2023-05-20T16:43:27.000Z",
+      "expiresDays": 730,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 495,
+            "lineNumber": 30,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "zc",
+            "source": "    at zc (https://www.google-analytics.com/analytics.js:30:495)"
+          },
+          {
+            "columnNumber": 401,
+            "lineNumber": 59,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "ma",
+            "source": "    at ma (https://www.google-analytics.com/analytics.js:59:401)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T16:43:27.234Z",
+        "location": "https://www.tiempo.com/"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "_ga_632KBF5L1P",
+      "value": "GS1.1.1621529006.1.0.1621529006.0",
+      "domain": "tiempo.com",
+      "path": "/",
+      "expires": 1684601006,
+      "size": 47,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2023-05-20T16:43:26.000Z",
+      "expiresDays": 730,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 1258,
+            "lineNumber": 103,
+            "fileName": "https://www.googletagmanager.com/gtag/js?id=G-632KBF5L1P&l=dataLayer&cx=c",
+            "functionName": "Ef",
+            "source": "    at Ef (https://www.googletagmanager.com/gtag/js?id=G-632KBF5L1P&l=dataLayer&cx=c:103:1258)"
+          },
+          {
+            "columnNumber": 179,
+            "lineNumber": 105,
+            "fileName": "https://www.googletagmanager.com/gtag/js?id=G-632KBF5L1P&l=dataLayer&cx=c",
+            "functionName": "If",
+            "source": "    at If (https://www.googletagmanager.com/gtag/js?id=G-632KBF5L1P&l=dataLayer&cx=c:105:179)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T16:43:26.751Z",
+        "location": "https://www.tiempo.com/"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "UID",
+      "value": "12WKSBPUCNQPSIE4HPWSLFg1621529007",
+      "domain": "scorecardresearch.com",
+      "path": "/",
+      "expires": 1683737006.742228,
+      "size": 36,
+      "httpOnly": false,
+      "secure": true,
+      "session": false,
+      "sameSite": "None",
+      "expiresUTC": "2023-05-10T16:43:26.742Z",
+      "expiresDays": 720,
+      "firstPartyStorage": false
+    },
+    {
+      "name": "FCCDCF",
+      "value": "[[\"AKsRol9x_eCDRYIDxadSwvVMwEtaFh_lER6q7HgobU1Yw-XUlrDOfFTUT-3X94OYzBSBp3OLpJAo9Y9UMBoKBVcQsvkblE60aRaCsnUaylAH3n8xfXVaUR8IXcwbszEesge1owTMQPvovhN1IFTSsoSU1dWnp1LbHg==\"],null,[\"[[],[],[],[],null,null,true]\",1621529008229]]",
+      "domain": "tiempo.com",
+      "path": "/",
+      "expires": 1655225008,
+      "size": 228,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2022-06-14T16:43:28.000Z",
+      "expiresDays": 390,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 296,
+            "lineNumber": 96,
+            "fileName": "/_/mss/boq-content-ads-contributor/_/js/k=boq-content-ads-contributor.ContributorServingCookieRefreshClientJs.en_US.eTseZ0JehdY.es5.O/d=1/rs=AJlcJMy7xhZehi-U35vcThGmaFFo_E5bBQ/m=cookie_refresh",
+            "functionName": "S.set",
+            "source": "    at S.set (/_/mss/boq-content-ads-contributor/_/js/k=boq-content-ads-contributor.ContributorServingCookieRefreshClientJs.en_US.eTseZ0JehdY.es5.O/d=1/rs=AJlcJMy7xhZehi-U35vcThGmaFFo_E5bBQ/m=cookie_refresh:96:296)"
+          },
+          {
+            "columnNumber": 310,
+            "lineNumber": 101,
+            "fileName": "/_/mss/boq-content-ads-contributor/_/js/k=boq-content-ads-contributor.ContributorServingCookieRefreshClientJs.en_US.eTseZ0JehdY.es5.O/d=1/rs=AJlcJMy7xhZehi-U35vcThGmaFFo_E5bBQ/m=cookie_refresh",
+            "functionName": "fd",
+            "source": "    at fd (/_/mss/boq-content-ads-contributor/_/js/k=boq-content-ads-contributor.ContributorServingCookieRefreshClientJs.en_US.eTseZ0JehdY.es5.O/d=1/rs=AJlcJMy7xhZehi-U35vcThGmaFFo_E5bBQ/m=cookie_refresh:101:310)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T16:43:28.242Z",
+        "location": "https://www.tiempo.com/"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "meteored",
+      "value": "eu1-0b011e047f2f9b7ce114cdd273df1e2b61514c86807b06302c185b62ad685c9f",
+      "domain": "tiempo.com",
+      "path": "/",
+      "expires": 1653065007,
+      "size": 76,
+      "httpOnly": false,
+      "secure": true,
+      "session": false,
+      "expiresUTC": "2022-05-20T16:43:27.000Z",
+      "expiresDays": 365,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 101516,
+            "lineNumber": 1,
+            "fileName": "https://www.tiempo.com/js/bundle/758/72a5c35456139c242b11.js",
+            "functionName": "e.set",
+            "source": "    at e.set (https://www.tiempo.com/js/bundle/758/72a5c35456139c242b11.js:1:101516)"
+          },
+          {
+            "columnNumber": 94662,
+            "lineNumber": 1,
+            "fileName": "https://www.tiempo.com/js/bundle/758/72a5c35456139c242b11.js",
+            "functionName": "e.save",
+            "source": "    at e.save (https://www.tiempo.com/js/bundle/758/72a5c35456139c242b11.js:1:94662)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T16:43:27.512Z",
+        "location": "https://www.tiempo.com/"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "meteored_gdpr",
+      "value": "0",
+      "domain": "tiempo.com",
+      "path": "/",
+      "expires": 1653065006,
+      "size": 14,
+      "httpOnly": false,
+      "secure": true,
+      "session": false,
+      "expiresUTC": "2022-05-20T16:43:26.000Z",
+      "expiresDays": 365,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 101516,
+            "lineNumber": 1,
+            "fileName": "https://www.tiempo.com/js/bundle/758/72a5c35456139c242b11.js",
+            "functionName": "e.set",
+            "source": "    at e.set (https://www.tiempo.com/js/bundle/758/72a5c35456139c242b11.js:1:101516)"
+          },
+          {
+            "columnNumber": 2989,
+            "lineNumber": 1,
+            "fileName": "https://www.tiempo.com/js/bundle/6312/c5f57ecb52afa500f0a9.js",
+            "functionName": "e",
+            "source": "    at e (https://www.tiempo.com/js/bundle/6312/c5f57ecb52afa500f0a9.js:1:2989)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T16:43:26.674Z",
+        "location": "https://www.tiempo.com/"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "NID",
+      "value": "216=MMLYcK_ThULU39_N93QxUMUAAyi51DEWnwW5XgG62oC_MuoJf7fnKNNbJ1tPhxri2-7loW6cXDpqgYvw4SXGnGLSYtDfWcgQ5lblvMtRfC3X2Hf2WjjVXXQp3HzW68twNDVjZkXJOLj3dD8y_U-_8MavF-YoHVeGaeAkY0thK-s",
+      "domain": "google.com",
+      "path": "/",
+      "expires": 1637340206.915846,
+      "size": 178,
+      "httpOnly": true,
+      "secure": true,
+      "session": false,
+      "sameSite": "None",
+      "expiresUTC": "2021-11-19T16:43:26.915Z",
+      "expiresDays": 183,
+      "firstPartyStorage": false
+    },
+    {
+      "name": "meteored_ux",
+      "value": "0-1-1-10000-1621529007-1621529007",
+      "domain": "tiempo.com",
+      "path": "/",
+      "expires": 1624207406,
+      "size": 44,
+      "httpOnly": false,
+      "secure": true,
+      "session": false,
+      "expiresUTC": "2021-06-20T16:43:26.000Z",
+      "expiresDays": 31,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 101516,
+            "lineNumber": 1,
+            "fileName": "https://www.tiempo.com/js/bundle/758/72a5c35456139c242b11.js",
+            "functionName": "e.set",
+            "source": "    at e.set (https://www.tiempo.com/js/bundle/758/72a5c35456139c242b11.js:1:101516)"
+          },
+          {
+            "columnNumber": 20971,
+            "lineNumber": 1,
+            "fileName": "https://www.tiempo.com/js/bundle/7493/7a28968c922c8534c8a2.js",
+            "functionName": "t.setCookie",
+            "source": "    at t.setCookie (https://www.tiempo.com/js/bundle/7493/7a28968c922c8534c8a2.js:1:20971)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T16:43:26.650Z",
+        "location": "https://www.tiempo.com/"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "CUID",
+      "value": "N,1621529007000:ALHGLuQAAAAPTiwxNjIxNTI5MDA3MDAwRdcx6IeVAJ8o86fs5qCrE/WrmH2HjjlIYkiHKBHluMYrVSeGCCqeCJZyXQZdUhjluu/mTT8tK58KigDVgw6HS3zVDbLqjBjX4dttlKuvolNVXadPBp090qquFjzY/bGjNNuESmxpC3lx3gix17E9TGADfEawNFZthhIqTleNIeWmUVCM1XrrUsHmY0K2D7cmSXc5YalMZHtxnc6Z/u9LZXfgxz1RTgoMhY23X1zpgq3UhCfV2YYdXVoQ0TLHG6hLNTWUvc+GxtqYaTqfaOCf3CZNnCMceW1UcIks8N/vAasajrq0p4vFb0E2p0tuqkurGJWH20Qcu3ilRyjIG3gB7g==",
+      "domain": "tiempo.com",
+      "path": "/",
+      "expires": 1624121007,
+      "size": 396,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2021-06-19T16:43:27.000Z",
+      "expiresDays": 30,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 256,
+            "lineNumber": 171,
+            "fileName": "/_/mss/boq-content-ads-contributor/_/js/k=boq-content-ads-contributor.ContributorTargetingClientJs.en_US.ZIDhp9YFq8s.es5.O/d=1/rs=AJlcJMxEltURvQReKiDpkoaOrDAYBfkvtA/m=contributor",
+            "functionName": "Ic.set",
+            "source": "    at Ic.set (/_/mss/boq-content-ads-contributor/_/js/k=boq-content-ads-contributor.ContributorTargetingClientJs.en_US.ZIDhp9YFq8s.es5.O/d=1/rs=AJlcJMxEltURvQReKiDpkoaOrDAYBfkvtA/m=contributor:171:256)"
+          },
+          {
+            "columnNumber": 461,
+            "lineNumber": 236,
+            "fileName": "/_/mss/boq-content-ads-contributor/_/js/k=boq-content-ads-contributor.ContributorTargetingClientJs.en_US.ZIDhp9YFq8s.es5.O/d=1/rs=AJlcJMxEltURvQReKiDpkoaOrDAYBfkvtA/m=contributor",
+            "functionName": "re",
+            "source": "    at re (/_/mss/boq-content-ads-contributor/_/js/k=boq-content-ads-contributor.ContributorTargetingClientJs.en_US.ZIDhp9YFq8s.es5.O/d=1/rs=AJlcJMxEltURvQReKiDpkoaOrDAYBfkvtA/m=contributor:236:461)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T16:43:27.061Z",
+        "location": "https://www.tiempo.com/"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "meteored_last",
+      "value": "1",
+      "domain": "tiempo.com",
+      "path": "/",
+      "expires": 1624121006,
+      "size": 14,
+      "httpOnly": false,
+      "secure": true,
+      "session": false,
+      "expiresUTC": "2021-06-19T16:43:26.000Z",
+      "expiresDays": 30,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 101516,
+            "lineNumber": 1,
+            "fileName": "https://www.tiempo.com/js/bundle/758/72a5c35456139c242b11.js",
+            "functionName": "e.set",
+            "source": "    at e.set (https://www.tiempo.com/js/bundle/758/72a5c35456139c242b11.js:1:101516)"
+          },
+          {
+            "columnNumber": 94662,
+            "lineNumber": 1,
+            "fileName": "https://www.tiempo.com/js/bundle/758/72a5c35456139c242b11.js",
+            "functionName": "e.save",
+            "source": "    at e.save (https://www.tiempo.com/js/bundle/758/72a5c35456139c242b11.js:1:94662)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T16:43:26.669Z",
+        "location": "https://www.tiempo.com/"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "_gid",
+      "value": "GA1.2.257991072.1621529007",
+      "domain": "tiempo.com",
+      "path": "/",
+      "expires": 1621615407,
+      "size": 30,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2021-05-21T16:43:27.000Z",
+      "expiresDays": 1,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 495,
+            "lineNumber": 30,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "zc",
+            "source": "    at zc (https://www.google-analytics.com/analytics.js:30:495)"
+          },
+          {
+            "columnNumber": 401,
+            "lineNumber": 59,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "ma",
+            "source": "    at ma (https://www.google-analytics.com/analytics.js:59:401)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T16:43:27.234Z",
+        "location": "https://www.tiempo.com/"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "AMP_TOKEN",
+      "value": "%24NOT_FOUND",
+      "domain": "tiempo.com",
+      "path": "/",
+      "expires": 1621532607,
+      "size": 21,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2021-05-20T17:43:27.000Z",
+      "expiresDays": 0.04,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 495,
+            "lineNumber": 30,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "zc",
+            "source": "    at zc (https://www.google-analytics.com/analytics.js:30:495)"
+          },
+          {
+            "columnNumber": 124,
+            "lineNumber": 36,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "xc",
+            "source": "    at xc (https://www.google-analytics.com/analytics.js:36:124)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T16:43:27.226Z",
+        "location": "https://www.tiempo.com/"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "mapa_eligido",
+      "value": "mapaTodo",
+      "domain": "www.tiempo.com",
+      "path": "/",
+      "expires": 1621532606,
+      "size": 20,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2021-05-20T17:43:26.000Z",
+      "expiresDays": 0.04,
+      "firstPartyStorage": false
+    },
+    {
+      "name": "_gat_UA-260409-1",
+      "value": "1",
+      "domain": "tiempo.com",
+      "path": "/",
+      "expires": 1621529067,
+      "size": 17,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2021-05-20T16:44:27.000Z",
+      "expiresDays": 0,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 495,
+            "lineNumber": 30,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "zc",
+            "source": "    at zc (https://www.google-analytics.com/analytics.js:30:495)"
+          },
+          {
+            "columnNumber": 31,
+            "lineNumber": 73,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "Qd",
+            "source": "    at Qd (https://www.google-analytics.com/analytics.js:73:31)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T16:43:27.229Z",
+        "location": "https://www.tiempo.com/"
+      },
+      "firstPartyStorage": true
+    }
+  ],
+  "localStorage": {},
+  "beacons": [
+    {
+      "url": "https://bam-cell.nr-data.net/1/1de59d4917?a=182724322,87006717,87006718&v=1208.49599aa&to=NFZaYRdWW0NUUENbVg0cbUcMGFxeUVZPHEkLQw%3D%3D&rst=1635&ck=1&ref=https://www.tiempo.com/&ap=893&be=245&fe=1556&dc=778&perf=%7B%22timing%22:%7B%22of%22:1621529005782,%22n%22:0,%22f%22:168,%22dn%22:168,%22dne%22:168,%22c%22:168,%22ce%22:168,%22rq%22:185,%22rp%22:222,%22rpe%22:261,%22dl%22:230,%22di%22:773,%22ds%22:777,%22de%22:805,%22dc%22:1555,%22l%22:1555,%22le%22:1559%7D,%22navigation%22:%7B%7D%7D&fp=356&fcp=356&at=GBFZF19MSE0%3D&jsonp=NREUM.setToken",
+      "query": {
+        "a": "182724322,87006717,87006718",
+        "v": "1208.49599aa",
+        "to": "NFZaYRdWW0NUUENbVg0cbUcMGFxeUVZPHEkLQw==",
+        "rst": 1635,
+        "ck": 1,
+        "ref": "https://www.tiempo.com/",
+        "ap": 893,
+        "be": 245,
+        "fe": 1556,
+        "dc": 778,
+        "perf": {
+          "timing": {
+            "of": 1621529005782,
+            "n": 0,
+            "f": 168,
+            "dn": 168,
+            "dne": 168,
+            "c": 168,
+            "ce": 168,
+            "rq": 185,
+            "rp": 222,
+            "rpe": 261,
+            "dl": 230,
+            "di": 773,
+            "ds": 777,
+            "de": 805,
+            "dc": 1555,
+            "l": 1555,
+            "le": 1559
+          },
+          "navigation": {}
+        },
+        "fp": 356,
+        "fcp": 356,
+        "at": "GBFZF19MSE0=",
+        "jsonp": "NREUM.setToken"
+      },
+      "filter": "||nr-data.net^$third-party",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.tiempo.com/",
+            "source": "requested from https://www.tiempo.com/ and matched with easyprivacy.txt filter ||nr-data.net^$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T16:43:27.420Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://sb.scorecardresearch.com/internal-c2/default/cs.js",
+      "query": null,
+      "filter": "||scorecardresearch.com^$third-party",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.tiempo.com/",
+            "source": "requested from https://www.tiempo.com/ and matched with easyprivacy.txt filter ||scorecardresearch.com^$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T16:43:27.382Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://sb.scorecardresearch.com/c2/14673720/cs.js",
+      "query": null,
+      "filter": "||scorecardresearch.com^$third-party",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.tiempo.com/",
+            "source": "requested from https://www.tiempo.com/ and matched with easyprivacy.txt filter ||scorecardresearch.com^$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T16:43:27.346Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://js-agent.newrelic.com/nr-1208.min.js",
+      "query": null,
+      "filter": "||js-agent.newrelic.com^",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.tiempo.com/",
+            "source": "requested from https://www.tiempo.com/ and matched with easyprivacy.txt filter ||js-agent.newrelic.com^"
+          }
+        ],
+        "timestamp": "2021-05-20T16:43:27.344Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j90&tid=UA-260409-1&cid=806128990.1621529007&jid=684896801&gjid=1240086216&_gid=257991072.1621529007&_u=YADAAAAAAAQCAC~&z=1364764256",
+      "query": {
+        "t": "dc",
+        "aip": 1,
+        "_r": 3,
+        "v": 1,
+        "_v": "j90",
+        "tid": "UA-260409-1",
+        "cid": 806128990.1621529,
+        "jid": 684896801,
+        "gjid": 1240086216,
+        "_gid": 257991072.1621529,
+        "_u": "YADAAAAAAAQCAC~",
+        "z": 1364764256
+      },
+      "filter": "||stats.g.doubleclick.net^",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.tiempo.com/",
+            "source": "requested from https://www.tiempo.com/ and matched with easyprivacy.txt filter ||stats.g.doubleclick.net^"
+          }
+        ],
+        "timestamp": "2021-05-20T16:43:27.252Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://www.google-analytics.com/collect?v=1&_v=j90&a=255674782&t=event&ni=1&_s=1&dl=https%3A%2F%2Fwww.tiempo.com%2F&ul=en-us&de=UTF-8&dt=El%20tiempo%2014%20d%C3%ADas%20-%20Meteored&sd=24-bit&sr=1680x927&vp=1680x927&je=0&ec=gdpr&ea=gdpr_aparece&el=gdpr_aparece_v208&_u=YADAAAABAAQCAC~&jid=&gjid=&cid=806128990.1621529007&tid=UA-260409-1&_gid=257991072.1621529007&gtm=2wg5c1P78ZFTD&z=405803838",
+      "query": {
+        "v": 1,
+        "_v": "j90",
+        "a": 255674782,
+        "t": "event",
+        "ni": 1,
+        "_s": 1,
+        "dl": "https://www.tiempo.com/",
+        "ul": "en-us",
+        "de": "UTF-8",
+        "dt": "El tiempo 14 días - Meteored",
+        "sd": "24-bit",
+        "sr": "1680x927",
+        "vp": "1680x927",
+        "je": 0,
+        "ec": "gdpr",
+        "ea": "gdpr_aparece",
+        "el": "gdpr_aparece_v208",
+        "_u": "YADAAAABAAQCAC~",
+        "jid": "",
+        "gjid": "",
+        "cid": 806128990.1621529,
+        "tid": "UA-260409-1",
+        "_gid": 257991072.1621529,
+        "gtm": "2wg5c1P78ZFTD",
+        "z": 405803838
+      },
+      "filter": "||google-analytics.com/collect",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.tiempo.com/",
+            "source": "requested from https://www.tiempo.com/ and matched with easyprivacy.txt filter ||google-analytics.com/collect"
+          }
+        ],
+        "timestamp": "2021-05-20T16:43:27.235Z"
+      },
+      "occurrances": 2
+    },
+    {
+      "url": "https://www.google-analytics.com/j/collect?v=1&_v=j90&a=255674782&t=pageview&_s=1&dl=https%3A%2F%2Fwww.tiempo.com%2F&ul=en-us&de=UTF-8&dt=El%20tiempo%2014%20d%C3%ADas%20-%20Meteored&sd=24-bit&sr=1680x927&vp=1680x927&je=0&_u=YADAAAABAAQCAC~&jid=684896801&gjid=1240086216&cid=806128990.1621529007&tid=UA-260409-1&_gid=257991072.1621529007&_r=1&gtm=2wg5c1P78ZFTD&z=1568507998",
+      "query": {
+        "v": 1,
+        "_v": "j90",
+        "a": 255674782,
+        "t": "pageview",
+        "_s": 1,
+        "dl": "https://www.tiempo.com/",
+        "ul": "en-us",
+        "de": "UTF-8",
+        "dt": "El tiempo 14 días - Meteored",
+        "sd": "24-bit",
+        "sr": "1680x927",
+        "vp": "1680x927",
+        "je": 0,
+        "_u": "YADAAAABAAQCAC~",
+        "jid": 684896801,
+        "gjid": 1240086216,
+        "cid": 806128990.1621529,
+        "tid": "UA-260409-1",
+        "_gid": 257991072.1621529,
+        "_r": 1,
+        "gtm": "2wg5c1P78ZFTD",
+        "z": 1568507998
+      },
+      "filter": "/collect?*&cid=",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.tiempo.com/",
+            "source": "requested from https://www.tiempo.com/ and matched with easyprivacy.txt filter /collect?*&cid="
+          }
+        ],
+        "timestamp": "2021-05-20T16:43:27.232Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://sb.scorecardresearch.com/b2?c1=2&c2=14673720&ns__t=1621529006629&ns_c=UTF-8&c8=El%20tiempo%2014%20d%C3%ADas%20-%20Meteored&c7=https%3A%2F%2Fwww.tiempo.com%2F&c9=",
+      "query": {
+        "c1": 2,
+        "c2": 14673720,
+        "ns__t": 1621529006629,
+        "ns_c": "UTF-8",
+        "c8": "El tiempo 14 días - Meteored",
+        "c7": "https://www.tiempo.com/",
+        "c9": ""
+      },
+      "filter": "||scorecardresearch.com^$third-party",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.tiempo.com/",
+            "source": "requested from https://www.tiempo.com/ and matched with easyprivacy.txt filter ||scorecardresearch.com^$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T16:43:26.763Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-632KBF5L1P&gtm=2oe5c1&_p=255674782&sr=1680x927&ul=en-us&cid=806128990.1621529007&_s=1&dl=https%3A%2F%2Fwww.tiempo.com%2F&dt=El%20tiempo%2014%20d%C3%ADas%20-%20Meteored&sid=1621529006&sct=1&seg=0&en=page_view&_fv=1&_nsi=1&_ss=2",
+      "query": {
+        "v": 2,
+        "tid": "G-632KBF5L1P",
+        "gtm": "2oe5c1",
+        "_p": 255674782,
+        "sr": "1680x927",
+        "ul": "en-us",
+        "cid": 806128990.1621529,
+        "_s": 1,
+        "dl": "https://www.tiempo.com/",
+        "dt": "El tiempo 14 días - Meteored",
+        "sid": 1621529006,
+        "sct": 1,
+        "seg": 0,
+        "en": "page_view",
+        "_fv": 1,
+        "_nsi": 1,
+        "_ss": 2
+      },
+      "filter": "/collect?*&tid=",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.tiempo.com/",
+            "source": "requested from https://www.tiempo.com/ and matched with easyprivacy.txt filter /collect?*&tid="
+          }
+        ],
+        "timestamp": "2021-05-20T16:43:26.754Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://sb.scorecardresearch.com/b?c1=2&c2=14673720&ns__t=1621529006629&ns_c=UTF-8&c8=El%20tiempo%2014%20d%C3%ADas%20-%20Meteored&c7=https%3A%2F%2Fwww.tiempo.com%2F&c9=",
+      "query": {
+        "c1": 2,
+        "c2": 14673720,
+        "ns__t": 1621529006629,
+        "ns_c": "UTF-8",
+        "c8": "El tiempo 14 días - Meteored",
+        "c7": "https://www.tiempo.com/",
+        "c9": ""
+      },
+      "filter": "||scorecardresearch.com^$third-party",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.tiempo.com/",
+            "source": "requested from https://www.tiempo.com/ and matched with easyprivacy.txt filter ||scorecardresearch.com^$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T16:43:26.651Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://www.google-analytics.com/analytics.js",
+      "query": null,
+      "filter": "||google-analytics.com/analytics.js",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.tiempo.com/",
+            "source": "requested from https://www.tiempo.com/ and matched with easyprivacy.txt filter ||google-analytics.com/analytics.js"
+          }
+        ],
+        "timestamp": "2021-05-20T16:43:26.648Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://www.googletagmanager.com/gtag/js?id=G-632KBF5L1P&l=dataLayer&cx=c",
+      "query": {
+        "id": "G-632KBF5L1P",
+        "l": "dataLayer",
+        "cx": "c"
+      },
+      "filter": "||googletagmanager.com/gtag/$third-party",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.tiempo.com/",
+            "source": "requested from https://www.tiempo.com/ and matched with easyprivacy.txt filter ||googletagmanager.com/gtag/$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T16:43:26.647Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://static.cloudflareinsights.com/beacon.min.js",
+      "query": null,
+      "filter": "||cloudflareinsights.com^$third-party",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.tiempo.com/",
+            "source": "requested from https://www.tiempo.com/ and matched with easyprivacy.txt filter ||cloudflareinsights.com^$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T16:43:26.215Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://www.googletagmanager.com/gtm.js?id=GTM-P78ZFTD",
+      "query": {
+        "id": "GTM-P78ZFTD"
+      },
+      "filter": "/gtm.js",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.tiempo.com/",
+            "source": "requested from https://www.tiempo.com/ and matched with easyprivacy.txt filter /gtm.js"
+          }
+        ],
+        "timestamp": "2021-05-20T16:43:26.082Z"
+      },
+      "occurrances": 1
+    }
+  ],
+  "hosts": {
+    "requests": {
+      "firstParty": [
+        "tiempo.com"
+      ],
+      "thirdParty": [
+        "www.tiempo.com",
+        "securepubads.g.doubleclick.net",
+        "www.googletagmanager.com",
+        "static.cloudflareinsights.com",
+        "apis.google.com",
+        "meteored.mgr.consensu.org",
+        "services.meteored.com",
+        "www.google-analytics.com",
+        "contributor.google.com",
+        "unpkg.com",
+        "sb.scorecardresearch.com",
+        "ampcid.google.com",
+        "fundingchoicesmessages.google.com",
+        "ampcid.google.es",
+        "stats.g.doubleclick.net",
+        "js-agent.newrelic.com",
+        "www.google.com",
+        "www.google.es",
+        "bam-cell.nr-data.net",
+        "pagead2.googlesyndication.com"
+      ]
+    },
+    "beacons": {
+      "firstParty": [],
+      "thirdParty": [
+        "bam-cell.nr-data.net",
+        "sb.scorecardresearch.com",
+        "js-agent.newrelic.com",
+        "stats.g.doubleclick.net",
+        "www.google-analytics.com",
+        "www.googletagmanager.com",
+        "static.cloudflareinsights.com"
+      ]
+    },
+    "cookies": {
+      "firstParty": [
+        "tiempo.com"
+      ],
+      "thirdParty": [
+        "www.tiempo.com",
+        "scorecardresearch.com",
+        "google.com"
+      ]
+    },
+    "localStorage": {
+      "firstParty": [],
+      "thirdParty": []
+    },
+    "links": {
+      "firstParty": [],
+      "thirdParty": [
+        "www.tiempo.com",
+        "foro.tiempo.com",
+        "www.facebook.com",
+        "twitter.com",
+        "www.linkedin.com",
+        "pinterest.com",
+        "wordpress.org",
+        "www.microsoft.com",
+        "appgallery7.huawei.com",
+        "itunes.apple.com",
+        "play.google.com",
+        "www.youtube.com",
+        "www.instagram.com",
+        "t.me",
+        "flipboard.com",
+        "www.yourweather.co.uk",
+        "www.tameteo.com",
+        "www.tempo.pt",
+        "www.ilmeteo.net",
+        "www.daswetter.com",
+        "www.tempo.com",
+        "www.meteored.mx",
+        "www.meteored.com.ar",
+        "www.meteored.cl"
+      ]
+    }
+  }
+}

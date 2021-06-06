@@ -1,0 +1,724 @@
+{
+  "title": "Website Evidence Collection",
+  "task_description": null,
+  "uri_ins": "https://apalabrados.org",
+  "uri_refs": [
+    "https://apalabrados.org"
+  ],
+  "uri_dest": "https://apalabrados.org/",
+  "uri_redirects": [],
+  "secure_connection": {
+    "https_support": true,
+    "redirects": [
+      "https://apalabrados.org/"
+    ],
+    "https_redirect": true
+  },
+  "host": "apalabrados.org",
+  "script": {
+    "host": "sfod",
+    "version": {
+      "npm": "1.0.0",
+      "commit": null
+    },
+    "cmd_args": "-q --overwrite https://apalabrados.org -- --ignore-certificate-errors",
+    "environment": {
+      "CHROME_DESKTOP": "code-url-handler.desktop"
+    },
+    "node_version": "v14.17.0"
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "HeadlessChrome/80.0.3987.0",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3617.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "5.8.0-53-generic"
+    },
+    "extra_headers": {},
+    "preset_cookies": {}
+  },
+  "start_time": "2021-05-20T16:13:50.617Z",
+  "end_time": "2021-05-20T16:13:57.972Z",
+  "links": {
+    "firstParty": [
+      {
+        "href": "https://apalabrados.org/",
+        "inner_text": "Apalabrados.org",
+        "inner_html": "Apalabrados.org"
+      },
+      {
+        "href": "https://apalabrados.org/downloadIos.php",
+        "inner_text": "",
+        "inner_html": "<img src=\"img/appstore_es.png\" width=\"150\" height=\"52\" border=\"0\">"
+      },
+      {
+        "href": "https://apalabrados.org/downloadAndroid.php",
+        "inner_text": "",
+        "inner_html": "<img src=\"img/android_es.png\" width=\"150\" height=\"52\" border=\"0\">"
+      },
+      {
+        "href": "https://apalabrados.org/prensa.php",
+        "inner_text": "Prensa",
+        "inner_html": "Prensa"
+      },
+      {
+        "href": "https://apalabrados.org/politicaprivacidad.php",
+        "inner_text": "Política de Privacidad",
+        "inner_html": "Política de Privacidad"
+      },
+      {
+        "href": "https://apalabrados.org/cookies.php",
+        "inner_text": "Saber más",
+        "inner_html": "Saber más"
+      }
+    ],
+    "thirdParty": [
+      {
+        "href": "http://www.apalabrados.org/",
+        "inner_text": "",
+        "inner_html": "<img src=\"/img/pere/ES.png\" width=\"16\" height=\"11\" alt=\"Trucos Ganar Apalabrados en Castellano - Español\">"
+      },
+      {
+        "href": "http://www.angrywords.org/",
+        "inner_text": "",
+        "inner_html": "<img src=\"/img/pere/EN.png\" width=\"16\" height=\"11\" alt=\"Win Angry Words in English Cheats\">"
+      },
+      {
+        "href": "http://www.apalabrados.cat/",
+        "inner_text": "",
+        "inner_html": "<img src=\"/img/pere/CA.png\" width=\"16\" height=\"11\" alt=\"Trucs Guanyar Apalabrados en Català\">"
+      },
+      {
+        "href": "http://www.wordswithfriends.org/",
+        "inner_text": "Words With Friends",
+        "inner_html": "Words With Friends"
+      },
+      {
+        "href": "http://mezcladitos.org/",
+        "inner_text": "Trucos Mezcladitos",
+        "inner_html": "Trucos Mezcladitos"
+      }
+    ],
+    "social": [],
+    "keywords": []
+  },
+  "unsafeForms": [],
+  "browsing_history": [
+    "https://apalabrados.org/"
+  ],
+  "websockets": {},
+  "cookies": [
+    {
+      "name": "__utma",
+      "value": "88583115.959999735.1621527232.1621527232.1621527232.1",
+      "domain": "apalabrados.org",
+      "path": "/",
+      "expires": 1684599231,
+      "size": 59,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2023-05-20T16:13:51.000Z",
+      "expiresDays": 730,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 222,
+            "lineNumber": 28,
+            "fileName": "https://ssl.google-analytics.com/ga.js",
+            "functionName": "X",
+            "source": "    at X (https://ssl.google-analytics.com/ga.js:28:222)"
+          },
+          {
+            "columnNumber": 654,
+            "lineNumber": 39,
+            "fileName": "https://ssl.google-analytics.com/ga.js",
+            "functionName": "Xc",
+            "source": "    at Xc (https://ssl.google-analytics.com/ga.js:39:654)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T16:13:51.815Z",
+        "location": "https://apalabrados.org/"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "__utmz",
+      "value": "88583115.1621527232.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)",
+      "domain": "apalabrados.org",
+      "path": "/",
+      "expires": 1637295231,
+      "size": 75,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2021-11-19T04:13:51.000Z",
+      "expiresDays": 182.5,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 222,
+            "lineNumber": 28,
+            "fileName": "https://ssl.google-analytics.com/ga.js",
+            "functionName": "X",
+            "source": "    at X (https://ssl.google-analytics.com/ga.js:28:222)"
+          },
+          {
+            "columnNumber": 769,
+            "lineNumber": 39,
+            "fileName": "https://ssl.google-analytics.com/ga.js",
+            "functionName": "Xc",
+            "source": "    at Xc (https://ssl.google-analytics.com/ga.js:39:769)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T16:13:51.816Z",
+        "location": "https://apalabrados.org/"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "apalabrados_ps",
+      "value": "RO",
+      "domain": "apalabrados.org",
+      "path": "/",
+      "expires": 1624119231.364097,
+      "size": 16,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2021-06-19T16:13:51.364Z",
+      "expiresDays": 30,
+      "firstPartyStorage": true
+    },
+    {
+      "name": "FCCDCF",
+      "value": "[null,null,[\"[[],[],[],[],null,null,true]\",1621527231893]]",
+      "domain": "apalabrados.org",
+      "path": "/",
+      "expires": 1621570431,
+      "size": 64,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2021-05-21T04:13:51.000Z",
+      "expiresDays": 0.5,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 256,
+            "lineNumber": 138,
+            "fileName": "/_/mss/boq-content-ads-contributor/_/js/k=boq-content-ads-contributor.ContributorServingLoaderClientJs.en_US.uiA_3__5B8k.es5.O/d=1/rs=AJlcJMw_x7XPLOQYevR14QKn-JzKuWTD9A/m=loader_js",
+            "functionName": "gf.set",
+            "source": "    at gf.set (/_/mss/boq-content-ads-contributor/_/js/k=boq-content-ads-contributor.ContributorServingLoaderClientJs.en_US.uiA_3__5B8k.es5.O/d=1/rs=AJlcJMw_x7XPLOQYevR14QKn-JzKuWTD9A/m=loader_js:138:256)"
+          },
+          {
+            "columnNumber": 401,
+            "lineNumber": 344,
+            "fileName": "/_/mss/boq-content-ads-contributor/_/js/k=boq-content-ads-contributor.ContributorServingLoaderClientJs.en_US.uiA_3__5B8k.es5.O/d=1/rs=AJlcJMw_x7XPLOQYevR14QKn-JzKuWTD9A/m=loader_js",
+            "functionName": "Vi",
+            "source": "    at Vi (/_/mss/boq-content-ads-contributor/_/js/k=boq-content-ads-contributor.ContributorServingLoaderClientJs.en_US.uiA_3__5B8k.es5.O/d=1/rs=AJlcJMw_x7XPLOQYevR14QKn-JzKuWTD9A/m=loader_js:344:401)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T16:13:51.905Z",
+        "location": "https://apalabrados.org/"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "__utmb",
+      "value": "88583115.1.10.1621527232",
+      "domain": "apalabrados.org",
+      "path": "/",
+      "expires": 1621529031,
+      "size": 30,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2021-05-20T16:43:51.000Z",
+      "expiresDays": 0.02,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 222,
+            "lineNumber": 28,
+            "fileName": "https://ssl.google-analytics.com/ga.js",
+            "functionName": "X",
+            "source": "    at X (https://ssl.google-analytics.com/ga.js:28:222)"
+          },
+          {
+            "columnNumber": 688,
+            "lineNumber": 39,
+            "fileName": "https://ssl.google-analytics.com/ga.js",
+            "functionName": "Xc",
+            "source": "    at Xc (https://ssl.google-analytics.com/ga.js:39:688)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T16:13:51.816Z",
+        "location": "https://apalabrados.org/"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "__utmt",
+      "value": "1",
+      "domain": "apalabrados.org",
+      "path": "/",
+      "expires": 1621527831,
+      "size": 7,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2021-05-20T16:23:51.000Z",
+      "expiresDays": 0.01,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 222,
+            "lineNumber": 28,
+            "fileName": "https://ssl.google-analytics.com/ga.js",
+            "functionName": "X",
+            "source": "    at X (https://ssl.google-analytics.com/ga.js:28:222)"
+          },
+          {
+            "columnNumber": 265,
+            "lineNumber": 57,
+            "fileName": "https://ssl.google-analytics.com/ga.js",
+            "functionName": "hf",
+            "source": "    at hf (https://ssl.google-analytics.com/ga.js:57:265)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T16:13:51.815Z",
+        "location": "https://apalabrados.org/"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "apalabrados_tdbn",
+      "value": "0",
+      "domain": "apalabrados.org",
+      "path": "/",
+      "expires": -1,
+      "size": 17,
+      "httpOnly": false,
+      "secure": false,
+      "session": true,
+      "firstPartyStorage": true
+    },
+    {
+      "name": "__utmc",
+      "value": "88583115",
+      "domain": "apalabrados.org",
+      "path": "/",
+      "expires": -1,
+      "size": 14,
+      "httpOnly": false,
+      "secure": false,
+      "session": true,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 222,
+            "lineNumber": 28,
+            "fileName": "https://ssl.google-analytics.com/ga.js",
+            "functionName": "X",
+            "source": "    at X (https://ssl.google-analytics.com/ga.js:28:222)"
+          },
+          {
+            "columnNumber": 722,
+            "lineNumber": 39,
+            "fileName": "https://ssl.google-analytics.com/ga.js",
+            "functionName": "Xc",
+            "source": "    at Xc (https://ssl.google-analytics.com/ga.js:39:722)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T16:13:51.816Z",
+        "location": "https://apalabrados.org/"
+      },
+      "firstPartyStorage": true
+    }
+  ],
+  "localStorage": {
+    "https://apalabrados.org": {
+      "google_experiment_mod54": {
+        "value": 288,
+        "firstPartyStorage": [
+          "apalabrados.org",
+          "apalabrados.org"
+        ],
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 107,
+              "lineNumber": 55,
+              "fileName": "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js",
+              "functionName": "Tc",
+              "source": "    at Tc (https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js:55:107)"
+            },
+            {
+              "columnNumber": 641,
+              "lineNumber": 77,
+              "fileName": "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js",
+              "functionName": "<computed>.a.<computed>",
+              "source": "    at <computed>.a.<computed> (https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js:77:641)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T16:13:51.975Z",
+          "location": "https://apalabrados.org/"
+        }
+      },
+      "google_experiment_mod37": {
+        "value": 481,
+        "firstPartyStorage": [
+          "apalabrados.org",
+          "apalabrados.org"
+        ],
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 107,
+              "lineNumber": 55,
+              "fileName": "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js",
+              "functionName": "Tc",
+              "source": "    at Tc (https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js:55:107)"
+            },
+            {
+              "columnNumber": 641,
+              "lineNumber": 77,
+              "fileName": "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js",
+              "functionName": "<computed>.a.<computed>",
+              "source": "    at <computed>.a.<computed> (https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js:77:641)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T16:13:51.751Z",
+          "location": "https://apalabrados.org/"
+        }
+      },
+      "goog_pem_mod": {
+        "value": 223,
+        "firstPartyStorage": [
+          "apalabrados.org",
+          "apalabrados.org"
+        ],
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 107,
+              "lineNumber": 55,
+              "fileName": "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js",
+              "functionName": "Tc",
+              "source": "    at Tc (https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js:55:107)"
+            },
+            {
+              "columnNumber": 467,
+              "lineNumber": 90,
+              "fileName": "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js",
+              "functionName": "eh",
+              "source": "    at eh (https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js:90:467)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T16:13:51.748Z",
+          "location": "https://apalabrados.org/"
+        }
+      },
+      "google_auto_fc_cmp_setting": {
+        "value": [
+          1
+        ],
+        "firstPartyStorage": [
+          "apalabrados.org",
+          "apalabrados.org"
+        ],
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 490,
+              "lineNumber": 378,
+              "fileName": "https://pagead2.googlesyndication.com/pagead/js/r20210517/r20190131/show_ads_impl_with_ama_fy2019.js?client=ca-pub-8635915751261451&plah=apalabrados.org&amaexp=1",
+              "functionName": "jy",
+              "source": "    at jy (https://pagead2.googlesyndication.com/pagead/js/r20210517/r20190131/show_ads_impl_with_ama_fy2019.js?client=ca-pub-8635915751261451&plah=apalabrados.org&amaexp=1:378:490)"
+            },
+            {
+              "columnNumber": 1023,
+              "lineNumber": 375,
+              "fileName": "https://pagead2.googlesyndication.com/pagead/js/r20210517/r20190131/show_ads_impl_with_ama_fy2019.js?client=ca-pub-8635915751261451&plah=apalabrados.org&amaexp=1",
+              "functionName": "ky",
+              "source": "    at ky (https://pagead2.googlesyndication.com/pagead/js/r20210517/r20190131/show_ads_impl_with_ama_fy2019.js?client=ca-pub-8635915751261451&plah=apalabrados.org&amaexp=1:375:1023)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T16:13:51.975Z",
+          "location": "https://apalabrados.org/"
+        }
+      },
+      "google_experiment_mod36": {
+        "value": 772,
+        "firstPartyStorage": [
+          "apalabrados.org",
+          "apalabrados.org"
+        ],
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 107,
+              "lineNumber": 55,
+              "fileName": "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js",
+              "functionName": "Tc",
+              "source": "    at Tc (https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js:55:107)"
+            },
+            {
+              "columnNumber": 641,
+              "lineNumber": 77,
+              "fileName": "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js",
+              "functionName": "<computed>.a.<computed>",
+              "source": "    at <computed>.a.<computed> (https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js:77:641)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T16:13:51.750Z",
+          "location": "https://apalabrados.org/"
+        }
+      },
+      "google_experiment_mod53": {
+        "value": 904,
+        "firstPartyStorage": [
+          "apalabrados.org",
+          "apalabrados.org"
+        ],
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 107,
+              "lineNumber": 55,
+              "fileName": "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js",
+              "functionName": "Tc",
+              "source": "    at Tc (https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js:55:107)"
+            },
+            {
+              "columnNumber": 641,
+              "lineNumber": 77,
+              "fileName": "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js",
+              "functionName": "<computed>.a.<computed>",
+              "source": "    at <computed>.a.<computed> (https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js:77:641)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T16:13:51.750Z",
+          "location": "https://apalabrados.org/"
+        }
+      },
+      "google_experiment_mod44": {
+        "value": 17,
+        "firstPartyStorage": [
+          "apalabrados.org",
+          "apalabrados.org"
+        ],
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 107,
+              "lineNumber": 55,
+              "fileName": "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js",
+              "functionName": "Tc",
+              "source": "    at Tc (https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js:55:107)"
+            },
+            {
+              "columnNumber": 641,
+              "lineNumber": 77,
+              "fileName": "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js",
+              "functionName": "<computed>.a.<computed>",
+              "source": "    at <computed>.a.<computed> (https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js:77:641)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T16:13:51.751Z",
+          "location": "https://apalabrados.org/"
+        }
+      },
+      "google_experiment_mod34": {
+        "value": 172,
+        "firstPartyStorage": [
+          "apalabrados.org",
+          "apalabrados.org"
+        ],
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 107,
+              "lineNumber": 55,
+              "fileName": "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js",
+              "functionName": "Tc",
+              "source": "    at Tc (https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js:55:107)"
+            },
+            {
+              "columnNumber": 641,
+              "lineNumber": 77,
+              "fileName": "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js",
+              "functionName": "<computed>.a.<computed>",
+              "source": "    at <computed>.a.<computed> (https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js:77:641)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T16:13:51.749Z",
+          "location": "https://apalabrados.org/"
+        }
+      }
+    }
+  },
+  "beacons": [
+    {
+      "url": "https://ssl.google-analytics.com/r/__utm.gif?utmwv=5.7.2&utms=1&utmn=1974847901&utmhn=apalabrados.org&utmcs=UTF-8&utmsr=1680x927&utmvp=1680x927&utmsc=24-bit&utmul=en-us&utmje=0&utmfl=-&utmdt=Apalabrados.org%20-%20%C2%A1Trucos%20para%20ganar%20Apalabrados!&utmhid=270739935&utmr=-&utmp=%2F&utmht=1621527231799&utmac=UA-30232351-1&utmcc=__utma%3D88583115.959999735.1621527232.1621527232.1621527232.1%3B%2B__utmz%3D88583115.1621527232.1.1.utmcsr%3D(direct)%7Cutmccn%3D(direct)%7Cutmcmd%3D(none)%3B&utmjid=716620813&utmredir=1&utmu=qAAAAAAAAAAAAAAAAAAAAAAE~",
+      "query": {
+        "utmwv": "5.7.2",
+        "utms": 1,
+        "utmn": 1974847901,
+        "utmhn": "apalabrados.org",
+        "utmcs": "UTF-8",
+        "utmsr": "1680x927",
+        "utmvp": "1680x927",
+        "utmsc": "24-bit",
+        "utmul": "en-us",
+        "utmje": 0,
+        "utmfl": "-",
+        "utmdt": "Apalabrados.org - ¡Trucos para ganar Apalabrados!",
+        "utmhid": 270739935,
+        "utmr": "-",
+        "utmp": "/",
+        "utmht": 1621527231799,
+        "utmac": "UA-30232351-1",
+        "utmcc": "__utma=88583115.959999735.1621527232.1621527232.1621527232.1;+__utmz=88583115.1621527232.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none);",
+        "utmjid": 716620813,
+        "utmredir": 1,
+        "utmu": "qAAAAAAAAAAAAAAAAAAAAAAE~"
+      },
+      "filter": "/__utm.gif",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://apalabrados.org/",
+            "source": "requested from https://apalabrados.org/ and matched with easyprivacy.txt filter /__utm.gif"
+          }
+        ],
+        "timestamp": "2021-05-20T16:13:51.821Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fapalabrados.org&send=false&layout=standard&width=450&show_faces=false&font&colorscheme=light&action=recommend&height=35",
+      "query": {
+        "href": "http://apalabrados.org",
+        "send": false,
+        "layout": "standard",
+        "width": 450,
+        "show_faces": false,
+        "font": null,
+        "colorscheme": "light",
+        "action": "recommend",
+        "height": 35
+      },
+      "filter": "||facebook.com*/plugins/like.php?$third-party",
+      "listName": "fanboy-annoyance.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "",
+            "source": "requested from  and matched with fanboy-annoyance.txt filter ||facebook.com*/plugins/like.php?$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T16:13:51.546Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://apalabrados.org/js/cookiechoices.js",
+      "query": null,
+      "filter": "/cookiechoices.",
+      "listName": "fanboy-annoyance.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://apalabrados.org/",
+            "source": "requested from https://apalabrados.org/ and matched with fanboy-annoyance.txt filter /cookiechoices."
+          }
+        ],
+        "timestamp": "2021-05-20T16:13:51.405Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://apalabrados.org/js/ga_social_tracking.js",
+      "query": null,
+      "filter": "_social_tracking.",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://apalabrados.org/",
+            "source": "requested from https://apalabrados.org/ and matched with easyprivacy.txt filter _social_tracking."
+          }
+        ],
+        "timestamp": "2021-05-20T16:13:51.399Z"
+      },
+      "occurrances": 1
+    }
+  ],
+  "hosts": {
+    "requests": {
+      "firstParty": [
+        "apalabrados.org"
+      ],
+      "thirdParty": [
+        "fonts.googleapis.com",
+        "pagead2.googlesyndication.com",
+        "ced.sascdn.com",
+        "ssl.google-analytics.com",
+        "fundingchoicesmessages.google.com",
+        "www.facebook.com",
+        "fonts.gstatic.com",
+        "googleads.g.doubleclick.net"
+      ]
+    },
+    "beacons": {
+      "firstParty": [
+        "apalabrados.org"
+      ],
+      "thirdParty": [
+        "ssl.google-analytics.com"
+      ]
+    },
+    "cookies": {
+      "firstParty": [
+        "apalabrados.org"
+      ],
+      "thirdParty": []
+    },
+    "localStorage": {
+      "firstParty": [
+        "apalabrados.org"
+      ],
+      "thirdParty": []
+    },
+    "links": {
+      "firstParty": [
+        "apalabrados.org"
+      ],
+      "thirdParty": [
+        "www.apalabrados.org",
+        "www.angrywords.org",
+        "www.apalabrados.cat",
+        "www.wordswithfriends.org",
+        "mezcladitos.org"
+      ]
+    }
+  }
+}

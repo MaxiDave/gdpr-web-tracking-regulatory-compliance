@@ -1,0 +1,3044 @@
+{
+  "title": "Website Evidence Collection",
+  "task_description": null,
+  "uri_ins": "https://gencat.cat",
+  "uri_refs": [
+    "https://gencat.cat"
+  ],
+  "uri_dest": "https://gencat.cat/",
+  "uri_redirects": [
+    "http://web.gencat.cat/",
+    "http://web.gencat.cat/ca/inici"
+  ],
+  "secure_connection": {
+    "https_support": true,
+    "redirects": [
+      "https://web.gencat.cat/ca/inici/"
+    ],
+    "https_redirect": true
+  },
+  "host": "gencat.cat",
+  "script": {
+    "host": "sfod",
+    "version": {
+      "npm": "1.0.0",
+      "commit": null
+    },
+    "cmd_args": "-q --overwrite https://gencat.cat -- --ignore-certificate-errors",
+    "environment": {
+      "CHROME_DESKTOP": "code-url-handler.desktop"
+    },
+    "node_version": "v14.17.0"
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "HeadlessChrome/80.0.3987.0",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3617.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "5.8.0-53-generic"
+    },
+    "extra_headers": {},
+    "preset_cookies": {}
+  },
+  "start_time": "2021-05-20T14:49:14.140Z",
+  "end_time": "2021-05-20T14:49:20.639Z",
+  "links": {
+    "firstParty": [],
+    "thirdParty": [
+      {
+        "href": "https://web.gencat.cat/ca/inici",
+        "inner_text": "Saltar al contingut principal",
+        "inner_html": "Saltar al contingut principal"
+      },
+      {
+        "href": "https://web.gencat.cat/",
+        "inner_text": ". Obre en una nova finestra.",
+        "inner_html": "<span class=\"sr-only\">. Obre en una nova finestra.</span><img class=\"NG-header__image\" src=\"/web/resources/fwkResponsive/fpca_capcalera/img/gencat-nuevo-completo-w.svg\" alt=\"Logotip de la Generalitat\">"
+      },
+      {
+        "href": "https://ovt.gencat.cat/gsitfc/AppJava/inicial.do?set-locale=ca_ES",
+        "inner_text": "Àrea privada\n. Obre en una nova finestra.",
+        "inner_html": "<img class=\"NG-navbar__image\" src=\"/web/resources/fwkResponsive/fpca_capcalera/img/user.svg\" alt=\"\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tÀrea privada<span class=\"sr-only\">. Obre en una nova finestra.</span>"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/contacte/",
+        "inner_text": "Contacte",
+        "inner_html": "<img class=\"NG-navbar__image\" src=\"/web/resources/fwkResponsive/fpca_capcalera/img/contacte-b.svg\" alt=\"\">\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tContacte"
+      },
+      {
+        "href": "https://web.gencat.cat/es/inici/index.html",
+        "inner_text": "Castellano",
+        "inner_html": "Castellano"
+      },
+      {
+        "href": "https://web.gencat.cat/en/inici/index.html",
+        "inner_text": "English",
+        "inner_html": "English"
+      },
+      {
+        "href": "https://web.gencat.cat/oc/inici/index.html",
+        "inner_text": "Occitan aranés",
+        "inner_html": "Occitan aranés"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/actualitat/detall/Nou-impost-sobre-les-emissions-de-CO2-dels-vehicles",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\tImpost sobre les emissions de CO2 dels vehicles ",
+        "inner_html": "Impost sobre les emissions de CO2 dels vehicles"
+      },
+      {
+        "href": "https://atc.gencat.cat/ca/tributs/irpf/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\tDeclaració de la renda. Demanar cita. Obre en una nova finestra.",
+        "inner_html": "Declaració de la renda. Demanar cita<span class=\"sr-only\">. Obre en una nova finestra.</span>"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/activem/restriccions-territorials/catalunya/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\tRestriccions territorials",
+        "inner_html": "Restriccions territorials"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/activem/ajuts-per-palliar-la-crisi/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\tAjuts per pal·liar la crisi",
+        "inner_html": "Ajuts per pal·liar la crisi"
+      },
+      {
+        "href": "https://canalsalut.gencat.cat/ca/salut-a-z/v/vacuna-covid-19/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\tVacunació COVID-19. Obre en una nova finestra.",
+        "inner_html": "Vacunació COVID-19<span class=\"sr-only\">. Obre en una nova finestra.</span>"
+      },
+      {
+        "href": "http://catsalut.gencat.cat/ca/coneix-catsalut/acces-sistema-salut/com-accedeix/programacio-visites/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\tDemanar hora al metge. Obre en una nova finestra.",
+        "inner_html": "Demanar hora al metge<span class=\"sr-only\">. Obre en una nova finestra.</span>"
+      },
+      {
+        "href": "https://ovt.gencat.cat/gsitfc/AppJava/citpre/citpre.do?reqCode=simpleSearch&set-locale=ca_ES&portalId=1",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\tAtenció ciutadana. Demanar cita. Obre en una nova finestra.",
+        "inner_html": "Atenció ciutadana. Demanar cita<span class=\"sr-only\">. Obre en una nova finestra.</span>"
+      },
+      {
+        "href": "https://dogc.gencat.cat/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\tDarrer DOGC publicat. Obre en una nova finestra.",
+        "inner_html": "Darrer DOGC publicat<span class=\"sr-only\">. Obre en una nova finestra.</span>"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/inici/",
+        "inner_text": "Inici",
+        "inner_html": "Inici"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/temes/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\tAccedeix a “\n\t\t\t\t\t\t\t\t\t\t\t\t\tTemes”\n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t",
+        "inner_html": "<span>Accedeix a “</span>\n\t\t\t\t\t\t\t\t\t\t\t\t\tTemes<span>”</span>\n\t\t\t\t\t\t\t\t\t\t\t\t<img src=\"/web/resources/fwkResponsive/fpca_capcalera/img/arrow-right-r.svg\" alt=\"\">"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/temes/administracio/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tAdministració pública",
+        "inner_html": "Administració pública"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/temes/agricultura/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tAgricultura i ramaderia. Pesca",
+        "inner_html": "Agricultura i ramaderia. Pesca"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/temes/participacio/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tAccedeix a “\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tAssociacionisme. Participació”\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
+        "inner_html": "<span>Accedeix a “</span>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tAssociacionisme. Participació<span>”</span>"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/temes/participacio/com-es-reparteixen-els-escons/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tAccedeix a “\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tCom es reparteixen els escons?”\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
+        "inner_html": "<span>Accedeix a “</span>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tCom es reparteixen els escons?<span>”</span>"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/temes/participacio/com-es-reparteixen-els-escons/situacions-especials/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tSituacions especials",
+        "inner_html": "Situacions especials"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/temes/participacio/com-es-reparteixen-els-escons/la-votacio-com-i-quan/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tLa votació: com i quan",
+        "inner_html": "La votació: com i quan"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/temes/catalunya/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tAccedeix a “\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tCatalunya”\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
+        "inner_html": "<span>Accedeix a “</span>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tCatalunya<span>”</span>"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/temes/catalunya/coneixer/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tAccedeix a “\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tConèixer”\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
+        "inner_html": "<span>Accedeix a “</span>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tConèixer<span>”</span>"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/temes/catalunya/coneixer/territori-poblacio/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tTerritori i població",
+        "inner_html": "Territori i població"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/temes/catalunya/coneixer/cultura-llengua/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tCultura i llengua",
+        "inner_html": "Cultura i llengua"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/temes/catalunya/coneixer/politica-economia/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tPolítica i economia",
+        "inner_html": "Política i economia"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/temes/catalunya/visitar/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tVisitar",
+        "inner_html": "Visitar"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/temes/catalunya/viure_i_treballar/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tViure i treballar",
+        "inner_html": "Viure i treballar"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/temes/catalunya/estudiar/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tEstudiar",
+        "inner_html": "Estudiar"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/temes/catalunya/invertir_i_fer_negocis/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tInvertir i fer negocis",
+        "inner_html": "Invertir i fer negocis"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/temes/comerc/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tAccedeix a “\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tComerç i consum”\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
+        "inner_html": "<span>Accedeix a “</span>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tComerç i consum<span>”</span>"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/temes/comerc/consum-responsable/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tConsum responsable",
+        "inner_html": "Consum responsable"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/temes/comerc/comprar-i-vendre/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tComprar i vendre",
+        "inner_html": "Comprar i vendre"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/temes/comerc/establiments-comercials/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tEstabliments comercials",
+        "inner_html": "Establiments comercials"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/temes/cultura/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tCultura",
+        "inner_html": "Cultura"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/temes/economia/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tEconomia",
+        "inner_html": "Economia"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/temes/educacio/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tAccedeix a “\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tEducació i formació”\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
+        "inner_html": "<span>Accedeix a “</span>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tEducació i formació<span>”</span>"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/temes/educacio/vull-portar-el-meu-fill-a-la-llar-dinfants/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tAccedeix a “\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tVull portar el meu fill a la llar d’infants”\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
+        "inner_html": "<span>Accedeix a “</span>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tVull portar el meu fill a la llar d’infants<span>”</span>"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/temes/educacio/vull-portar-el-meu-fill-a-la-llar-dinfants/educacio-infantil/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tEducació infantil",
+        "inner_html": "Educació infantil"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/temes/educacio/vull-portar-el-meu-fill-a-la-llar-dinfants/escoles-bressol/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tEscoles bressol",
+        "inner_html": "Escoles bressol"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/temes/educacio/vull-portar-el-meu-fill-a-la-llar-dinfants/proces-dinscripcio-i-matricula/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tProcés d’inscripció i matrícula",
+        "inner_html": "Procés d’inscripció i matrícula"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/temes/seguretat/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tEmergències i seguretat",
+        "inner_html": "Emergències i seguretat"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/temes/empresa/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tEmpresa. Indústria i energia",
+        "inner_html": "Empresa. Indústria i energia"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/temes/esports/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tEsports. Lleure",
+        "inner_html": "Esports. Lleure"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/temes/habitatge/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tHabitatge",
+        "inner_html": "Habitatge"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/temes/justicia/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tJustícia",
+        "inner_html": "Justícia"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/temes/llengua/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tLlengua. Comunicació",
+        "inner_html": "Llengua. Comunicació"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/temes/mediambient/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tMedi ambient",
+        "inner_html": "Medi ambient"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/temes/transports/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tAccedeix a “\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tMobilitat. Transports”\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
+        "inner_html": "<span>Accedeix a “</span>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tMobilitat. Transports<span>”</span>"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/temes/transports/sancions-de-transit/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tAccedeix a “\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tEm posen una multa de trànsit”\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
+        "inner_html": "<span>Accedeix a “</span>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tEm posen una multa de trànsit<span>”</span>"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/temes/transports/sancions-de-transit/crec-que-mhan-posat-una-multa.../",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tCrec que m’han posat una multa...",
+        "inner_html": "Crec que m’han posat una multa..."
+      },
+      {
+        "href": "https://web.gencat.cat/ca/temes/transports/que-fer-si-et-roben-la-bici/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tQuè fer si et roben la bici",
+        "inner_html": "Què fer si et roben la bici"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/temes/salut/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tAccedeix a “\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tSalut”\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
+        "inner_html": "<span>Accedeix a “</span>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tSalut<span>”</span>"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/temes/salut/vull-ser-donant-dorgans-i-teixits/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tVull ser donant d'òrgans i teixits",
+        "inner_html": "Vull ser donant d'òrgans i teixits"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/temes/salut/a-lhivern.../",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tA l'hivern...",
+        "inner_html": "A l'hivern..."
+      },
+      {
+        "href": "https://web.gencat.cat/ca/temes/salut/a-lestiu.../",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tA l'estiu...",
+        "inner_html": "A l'estiu..."
+      },
+      {
+        "href": "https://web.gencat.cat/ca/temes/salut/si-vols-viatjar.../",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tSi vols viatjar...",
+        "inner_html": "Si vols viatjar..."
+      },
+      {
+        "href": "https://web.gencat.cat/ca/temes/salut/si-estas-malalt.../",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tSi estàs malalt...",
+        "inner_html": "Si estàs malalt..."
+      },
+      {
+        "href": "https://web.gencat.cat/ca/temes/salut/consells-sobre-alimentacio/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tConsells sobre alimentació",
+        "inner_html": "Consells sobre alimentació"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/temes/serveis/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tServeis socials",
+        "inner_html": "Serveis socials"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/temes/societat/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tAccedeix a “\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tSocietat, ciutadania i famílies”\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
+        "inner_html": "<span>Accedeix a “</span>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tSocietat, ciutadania i famílies<span>”</span>"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/temes/societat/vull-un-animal-de-companyia/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tAccedeix a “\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tVull un animal de companyia”\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
+        "inner_html": "<span>Accedeix a “</span>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tVull un animal de companyia<span>”</span>"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/temes/societat/vull-un-animal-de-companyia/quin-son-els-animals-de-companyia/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tQuin són els animals de companyia?",
+        "inner_html": "Quin són els animals de companyia?"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/temes/societat/vull-un-animal-de-companyia/abans-de-triar-una-mascota.../",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tAbans de triar una mascota...",
+        "inner_html": "Abans de triar una mascota..."
+      },
+      {
+        "href": "https://web.gencat.cat/ca/temes/societat/vull-un-animal-de-companyia/adopta/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tAdopta!",
+        "inner_html": "Adopta!"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/temes/societat/vull-un-animal-de-companyia/tinenca-responsable/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tTinença responsable",
+        "inner_html": "Tinença responsable"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/temes/societat/vull-un-animal-de-companyia/animals-exotics/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tAnimals exòtics",
+        "inner_html": "Animals exòtics"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/temes/societat/vull-un-animal-de-companyia/moures-en-transport-public/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tMoure’s en transport públic",
+        "inner_html": "Moure’s en transport públic"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/temes/societat/vull-un-animal-de-companyia/viatjar-a-lestranger/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tViatjar a l’estranger",
+        "inner_html": "Viatjar a l’estranger"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/temes/societat/vull-un-animal-de-companyia/anar-a-la-platja/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tAnar a la platja",
+        "inner_html": "Anar a la platja"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/temes/societat/vull-un-animal-de-companyia/asseguranca/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tAssegurança",
+        "inner_html": "Assegurança"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/temes/societat/vull-un-animal-de-companyia/lhas-perdut/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tL’has perdut?",
+        "inner_html": "L’has perdut?"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/temes/societat/vull-un-animal-de-companyia/mort-de-la-mascota/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tMort de la mascota",
+        "inner_html": "Mort de la mascota"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/temes/tecnologia/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tTecnologia. Recerca i innovació",
+        "inner_html": "Tecnologia. Recerca i innovació"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/temes/urbanisme/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tTerritori i paisatge. Urbanisme",
+        "inner_html": "Territori i paisatge. Urbanisme"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/temes/treball/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tTreball",
+        "inner_html": "Treball"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/temes/turisme/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tTurisme",
+        "inner_html": "Turisme"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/temes/universitat/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tUniversitats",
+        "inner_html": "Universitats"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/seu-electronica/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\tAccedeix a “\n\t\t\t\t\t\t\t\t\t\t\t\t\tSeu electrònica”\n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t",
+        "inner_html": "<span>Accedeix a “</span>\n\t\t\t\t\t\t\t\t\t\t\t\t\tSeu electrònica<span>”</span>\n\t\t\t\t\t\t\t\t\t\t\t\t<img src=\"/web/resources/fwkResponsive/fpca_capcalera/img/arrow-right-r.svg\" alt=\"\">"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/seu-electronica/sobre-la-seu/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tAccedeix a “\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tSobre la Seu”\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
+        "inner_html": "<span>Accedeix a “</span>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tSobre la Seu<span>”</span>"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/seu-electronica/sobre-la-seu/que-es-la-seu-electronica/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tAccedeix a “\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tQuè és la seu electrònica?”\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
+        "inner_html": "<span>Accedeix a “</span>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tQuè és la seu electrònica?<span>”</span>"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/seu-electronica/sobre-la-seu/que-es-la-seu-electronica/drets-i-obligacions-de-la-ciutadania-quan-es-relaciona-amb-ladministracio-de-la-generalitat-de-catalunya-per-mitjans-electronics/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tDrets i obligacions de la ciutadania quan es relaciona amb l'Administració de la Generalitat de Catalunya per mitjans electrònics",
+        "inner_html": "Drets i obligacions de la ciutadania quan es relaciona amb l'Administració de la Generalitat de Catalunya per mitjans electrònics"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/seu-electronica/sobre-la-seu/que-es-la-seu-electronica/collectius-obligats-a-relacionar-se-electronicament-amb-les-administracions-publiques/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tCol·lectius obligats a relacionar-se electrònicament amb les administracions públiques",
+        "inner_html": "Col·lectius obligats a relacionar-se electrònicament amb les administracions públiques"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/seu-electronica/sobre-la-seu/avisos-i-talls-de-servei/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tAccedeix a “\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tAvisos i talls de servei”\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
+        "inner_html": "<span>Accedeix a “</span>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tAvisos i talls de servei<span>”</span>"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/seu-electronica/sobre-la-seu/avisos-i-talls-de-servei/tipologia-dincidencies/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tTipologia d'incidències",
+        "inner_html": "Tipologia d'incidències"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/seu-electronica/sobre-la-seu/avisos-i-talls-de-servei/serveis-que-causen-les-incidencies/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tServeis que causen les incidències",
+        "inner_html": "Serveis que causen les incidències"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/seu-electronica/sobre-la-seu/proteccio-de-dades/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tProtecció de dades",
+        "inner_html": "Protecció de dades"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/seu-electronica/sobre-la-seu/calendari-i-hora-oficials/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tAccedeix a “\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tCalendari i hora oficials”\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
+        "inner_html": "<span>Accedeix a “</span>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tCalendari i hora oficials<span>”</span>"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/seu-electronica/sobre-la-seu/calendari-i-hora-oficials/calendari-de-dies-inhabils/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tCalendari de dies inhàbils",
+        "inner_html": "Calendari de dies inhàbils"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/seu-electronica/sobre-la-seu/glossari-de-termes/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tGlossari de termes",
+        "inner_html": "Glossari de termes"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/seu-electronica/sobre-la-seu/preguntes-frequeents/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tPreguntes freqüents",
+        "inner_html": "Preguntes freqüents"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/seu-electronica/certificats-i-signatures-electroniques/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tAccedeix a “\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tCertificats i signatures electròniques”\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
+        "inner_html": "<span>Accedeix a “</span>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tCertificats i signatures electròniques<span>”</span>"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/seu-electronica/certificats-i-signatures-electroniques/actuacions_administratives_automatitzades/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tActuacions administratives automatitzades",
+        "inner_html": "Actuacions administratives automatitzades"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/tramits/que-cal-fer-si/Vull-identificar-me-digitalment/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tCertificats",
+        "inner_html": "Certificats"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/tramits/tramits-temes/Registre-de-dades-de-la-Seu-Electronica",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tRegistre de dades de la Seu",
+        "inner_html": "Registre de dades de la Seu"
+      },
+      {
+        "href": "https://www.eacat.cat/web/guest/signatura",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tValidació de certificats",
+        "inner_html": "Validació de certificats"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/seu-electronica/com-tramitar-sense-certificat/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tCom tramitar sense certificat",
+        "inner_html": "Com tramitar sense certificat"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/seu-electronica/serveis-de-la-seu/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tAccedeix a “\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tServeis de la Seu”\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
+        "inner_html": "<span>Accedeix a “</span>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tServeis de la Seu<span>”</span>"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/contacte/oficines/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tOficines d'atenció ciutadana, serveis territorials i oficines de registre",
+        "inner_html": "Oficines d'atenció ciutadana, serveis territorials i oficines de registre"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/seu-electronica/serveis-de-la-seu/tramits-electronics/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tAccedeix a “\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tTràmits electrònics”\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
+        "inner_html": "<span>Accedeix a “</span>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tTràmits electrònics<span>”</span>"
+      },
+      {
+        "href": "https://idp.eacat.net/Logon.aspx?providerID=EACAT",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tEACAT",
+        "inner_html": "EACAT"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/tramits",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tTràmits gencat",
+        "inner_html": "Tràmits gencat"
+      },
+      {
+        "href": "http://canalempresa.gencat.cat/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tCanal Empresa",
+        "inner_html": "Canal Empresa"
+      },
+      {
+        "href": "http://contractaciopublica.gencat.cat/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tPlataforma electrònica de contractació pública",
+        "inner_html": "Plataforma electrònica de contractació pública"
+      },
+      {
+        "href": "http://etributs.gencat.cat/ca",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\te-tributs",
+        "inner_html": "e-tributs"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/tramits/tramits-temes/Peticio-generica?category=72461610-a82c-11e3-a972-000c29052e2c",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tRegistre electrònic",
+        "inner_html": "Registre electrònic"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/tramits/com-tramitar-en-linia/registre-electronic-de-representacio/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tRegistre electrònic de representació ",
+        "inner_html": "Registre electrònic de representació"
+      },
+      {
+        "href": "http://tauler.gencat.cat/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tTauler electrònic",
+        "inner_html": "Tauler electrònic"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/seu-electronica/serveis-de-la-seu/verificacio-de-documents/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tVerificació de documents",
+        "inner_html": "Verificació de documents"
+      },
+      {
+        "href": "https://ovt.gencat.cat/gsitfc/AppJava/generic/conqxsGeneric.do?webFormId=391&set-locale=ca_ES",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tContacte amb l'Administració",
+        "inner_html": "Contacte amb l'Administració"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/tramits/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\tAccedeix a “\n\t\t\t\t\t\t\t\t\t\t\t\t\tTràmits”\n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t",
+        "inner_html": "<span>Accedeix a “</span>\n\t\t\t\t\t\t\t\t\t\t\t\t\tTràmits<span>”</span>\n\t\t\t\t\t\t\t\t\t\t\t\t<img src=\"/web/resources/fwkResponsive/fpca_capcalera/img/arrow-right-r.svg\" alt=\"\">"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/tramits/cercador/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tCercador de tràmits",
+        "inner_html": "Cercador de tràmits"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/tramits/tramits-temes/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tTràmits per temes",
+        "inner_html": "Tràmits per temes"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/tramits/tramits-temes?filtreResp=p",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tTràmits per perfils. Obre en una nova finestra.",
+        "inner_html": "Tràmits per perfils<span class=\"sr-only\">. Obre en una nova finestra.</span>"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/tramits/tramits-temes?filtreResp=t",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tTràmits per tipus. Obre en una nova finestra.",
+        "inner_html": "Tràmits per tipus<span class=\"sr-only\">. Obre en una nova finestra.</span>"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/tramits/que-cal-fer-si/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tAccedeix a “\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tQuè cal fer si...”\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
+        "inner_html": "<span>Accedeix a “</span>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tQuè cal fer si...<span>”</span>"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/tramits/que-cal-fer-si/adopto-i-o-acullo-un-infant/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tAccedeix a “\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tAdopto i/o acullo un infant”\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
+        "inner_html": "<span>Accedeix a “</span>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tAdopto i/o acullo un infant<span>”</span>"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/tramits/que-cal-fer-si/adopto-i-o-acullo-un-infant/el-proces-dadopcio/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tEl procés d'adopció",
+        "inner_html": "El procés d'adopció"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/tramits/que-cal-fer-si/adopto-i-o-acullo-un-infant/formacio-valoracio/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tFormació i valoració de la idoneïtat",
+        "inner_html": "Formació i valoració de la idoneïtat"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/tramits/que-cal-fer-si/adopto-i-o-acullo-un-infant/adopcio-infants-catalunya/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tAdopció d'infants a Catalunya",
+        "inner_html": "Adopció d'infants a Catalunya"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/tramits/que-cal-fer-si/adopto-i-o-acullo-un-infant/adopcio-internacional/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tAdopció internacional",
+        "inner_html": "Adopció internacional"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/tramits/que-cal-fer-si/adopto-i-o-acullo-un-infant/prestacions-economiques-per-a-families-adoptives/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tPrestacions econòmiques per a famílies adoptives",
+        "inner_html": "Prestacions econòmiques per a famílies adoptives"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/tramits/que-cal-fer-si/adopto-i-o-acullo-un-infant/servei-datencio-postadoptiva/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tServei d'atenció postadoptiva",
+        "inner_html": "Servei d'atenció postadoptiva"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/tramits/que-cal-fer-si/adopto-i-o-acullo-un-infant/acolliment-familiar/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tAcolliment familiar",
+        "inner_html": "Acolliment familiar"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/tramits/que-cal-fer-si/adopto-i-o-acullo-un-infant/ajuts-i-prestacions-economiques-per-als-acolliments/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tAjuts i prestacions econòmiques per als acolliments",
+        "inner_html": "Ajuts i prestacions econòmiques per als acolliments"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/tramits/que-cal-fer-si/canvio-de-domicili/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tAccedeix a “\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tCanvio de domicili”\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
+        "inner_html": "<span>Accedeix a “</span>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tCanvio de domicili<span>”</span>"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/tramits/que-cal-fer-si/canvio-de-domicili/que-cal-fer-quan-canvio-de-domicili/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tQuè cal fer quan canvio de domicili",
+        "inner_html": "Què cal fer quan canvio de domicili"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/tramits/que-cal-fer-si/canvio-de-domicili/la-tramitacio-del-canvi-de-domicili/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tLa tramitació del canvi de domicili",
+        "inner_html": "La tramitació del canvi de domicili"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/tramits/que-cal-fer-si/canvio-de-domicili/altres-canvis/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tAltres canvis",
+        "inner_html": "Altres canvis"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/tramits/que-cal-fer-si/em-jubilo/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tAccedeix a “\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tEm jubilo”\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
+        "inner_html": "<span>Accedeix a “</span>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tEm jubilo<span>”</span>"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/tramits/que-cal-fer-si/em-jubilo/tipus-de-jubilacions/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tTipus de jubilacions",
+        "inner_html": "Tipus de jubilacions"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/tramits/que-cal-fer-si/em-jubilo/requisits/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tRequisits",
+        "inner_html": "Requisits"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/tramits/que-cal-fer-si/em-jubilo/obligacions/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tObligacions",
+        "inner_html": "Obligacions"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/tramits/que-cal-fer-si/em-jubilo/la-pensio-de-jubilacio/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tLa pensió de jubilació",
+        "inner_html": "La pensió de jubilació"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/tramits/que-cal-fer-si/em-jubilo/quantia-de-la-jubilacio/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tQuantia de la jubilació",
+        "inner_html": "Quantia de la jubilació"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/tramits/que-cal-fer-si/em-jubilo/pagament-de-la-jubilacio/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tPagament de la jubilació",
+        "inner_html": "Pagament de la jubilació"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/tramits/que-cal-fer-si/em-jubilo/tramitacio-i-documentacio/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tTramitació i documentació",
+        "inner_html": "Tramitació i documentació"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/tramits/que-cal-fer-si/catastrofe-o-incident-amb-multiples-afectats/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tAccedeix a “\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tEs produeix una catàstrofe o un incident amb múltiples afectats”\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
+        "inner_html": "<span>Accedeix a “</span>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tEs produeix una catàstrofe o un incident amb múltiples afectats<span>”</span>"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/tramits/que-cal-fer-si/catastrofe-o-incident-amb-multiples-afectats/primers-moments/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tPrimers moments",
+        "inner_html": "Primers moments"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/tramits/que-cal-fer-si/catastrofe-o-incident-amb-multiples-afectats/despres-de-lesdeveniment/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tDesprés de l'esdeveniment",
+        "inner_html": "Després de l'esdeveniment"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/tramits/que-cal-fer-si/Estic-a-latur/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tAccedeix a “\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tEstic a l'atur”\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
+        "inner_html": "<span>Accedeix a “</span>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tEstic a l'atur<span>”</span>"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/tramits/que-cal-fer-si/Estic-a-latur/Prestacio-datur/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tPrestació d'atur",
+        "inner_html": "Prestació d'atur"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/tramits/que-cal-fer-si/Estic-a-latur/requisits-per-accedir-a-la-prestacio/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tRequisits per accedir a la prestació",
+        "inner_html": "Requisits per accedir a la prestació"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/tramits/que-cal-fer-si/Estic-a-latur/tramitacio-i-documentacio-necessaria/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tTramitació",
+        "inner_html": "Tramitació"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/tramits/que-cal-fer-si/Estic-a-latur/durada-i-quantia-de-la-prestacio/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tDurada i quantia de la prestació",
+        "inner_html": "Durada i quantia de la prestació"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/tramits/que-cal-fer-si/Estic-a-latur/pagament-de-la-prestacio/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tPagament de la prestació",
+        "inner_html": "Pagament de la prestació"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/tramits/que-cal-fer-si/Estic-a-latur/altres-prestacions-per-a-persones-a-latur/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tAltres prestacions per a persones a l'atur",
+        "inner_html": "Altres prestacions per a persones a l'atur"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/tramits/que-cal-fer-si/mor-un-familiar/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tAccedeix a “\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tMor un familiar”\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
+        "inner_html": "<span>Accedeix a “</span>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tMor un familiar<span>”</span>"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/tramits/que-cal-fer-si/mor-un-familiar/certificat-de-defuncio/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tCertificat mèdic de defunció",
+        "inner_html": "Certificat mèdic de defunció"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/tramits/que-cal-fer-si/mor-un-familiar/inscripcio-de-la-defuncio-al-registre-civil/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tInscripció de la defunció al Registre Civil",
+        "inner_html": "Inscripció de la defunció al Registre Civil"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/tramits/que-cal-fer-si/mor-un-familiar/llicencia-denterrament/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tLlicència d'enterrament",
+        "inner_html": "Llicència d'enterrament"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/tramits/que-cal-fer-si/mor-un-familiar/enterrament-o-incineracio/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tEnterrament o incineració",
+        "inner_html": "Enterrament o incineració"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/tramits/que-cal-fer-si/mor-un-familiar/autoritzacio-de-trasllat/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tAutorització de trasllat",
+        "inner_html": "Autorització de trasllat"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/tramits/que-cal-fer-si/mor-un-familiar/testament-i-certificat-dactes-dultima-voluntat/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tTestament i certificat d'actes d'última voluntat",
+        "inner_html": "Testament i certificat d'actes d'última voluntat"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/tramits/que-cal-fer-si/neix-un-fill/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tAccedeix a “\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tNeix un fill”\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
+        "inner_html": "<span>Accedeix a “</span>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tNeix un fill<span>”</span>"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/tramits/que-cal-fer-si/neix-un-fill/inscripcio-del-nounat-en-el-registre-civil/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tInscripció del nounat ",
+        "inner_html": "Inscripció del nounat"
+      },
+      {
+        "href": "https://salut.gencat.cat/pls/rca/rcapktsi_COVID.SOLICITAR_TSI_FORM",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tAlta al sistema sanitari ",
+        "inner_html": "Alta al sistema sanitari"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/tramits/que-cal-fer-si/neix-un-fill/baixa-per-maternitat-de-la-mare/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tPermís per naixement i cura de  menor ",
+        "inner_html": "Permís per naixement i cura de  menor"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/tramits/que-cal-fer-si/neix-un-fill/prestacions-economiques/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tPrestacions econòmiques",
+        "inner_html": "Prestacions econòmiques"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/tramits/que-cal-fer-si/neix-un-fill/families-nombroses-i-monoparentals/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tFamílies nombroses i monoparentals",
+        "inner_html": "Famílies nombroses i monoparentals"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/tramits/que-cal-fer-si/neix-un-fill/alta-al-padro-municipal/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tAlta al padró municipal",
+        "inner_html": "Alta al padró municipal"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/tramits/que-cal-fer-si/perdo-o-em-roben-la-cartera/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tAccedeix a “\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tPerdo o em roben la cartera o el mòbil”\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
+        "inner_html": "<span>Accedeix a “</span>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tPerdo o em roben la cartera o el mòbil<span>”</span>"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/tramits/que-cal-fer-si/perdo-o-em-roben-la-cartera/que-cal-fer-quan-perdeu-o-us-roben-la-cartera/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tRenova la documentació personal",
+        "inner_html": "Renova la documentació personal"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/tramits/que-cal-fer-si/perdo-o-em-roben-la-cartera/altres-documents/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tRenova altres documents",
+        "inner_html": "Renova altres documents"
+      },
+      {
+        "href": "https://mossos.gencat.cat/ca/consells_de_seguretat/mobils/que-heu-fer-si-us-roben-o-perdeu-el-mobil/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tI si perdo o em roben el mòbil?",
+        "inner_html": "I si perdo o em roben el mòbil?"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/tramits/que-cal-fer-si/Pobresa-energetica/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tNo puc pagar les factures de l'aigua, el gas i la llum",
+        "inner_html": "No puc pagar les factures de l'aigua, el gas i la llum"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/tramits/que-cal-fer-si/soc-artesa/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tSoc un professional d'artesania",
+        "inner_html": "Soc un professional d'artesania"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/tramits/que-cal-fer-si/catsalut-la-meva-salut/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tVull accedir a La Meva Salut",
+        "inner_html": "Vull accedir a La Meva Salut"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/tramits/que-cal-fer-si/vull-accedir-a-la-informacio-publica/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tAccedeix a “\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tVull accedir a la informació pública”\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
+        "inner_html": "<span>Accedeix a “</span>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tVull accedir a la informació pública<span>”</span>"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/tramits/que-cal-fer-si/vull-accedir-a-la-informacio-publica/portal-de-la-transparencia/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tPortal de la Transparència",
+        "inner_html": "Portal de la Transparència"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/tramits/que-cal-fer-si/vull-accedir-a-la-informacio-publica/qui-pot-sollicitar-informacio-publica/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tQui pot sol·licitar informació pública i com",
+        "inner_html": "Qui pot sol·licitar informació pública i com"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/tramits/que-cal-fer-si/vull-accedir-a-la-informacio-publica/quina-informacio-es-pot-sollicitar/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tQuina informació es pot sol·licitar",
+        "inner_html": "Quina informació es pot sol·licitar"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/tramits/que-cal-fer-si/vull-accedir-a-la-informacio-publica/quina-resposta-dona-ladministracio/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tQuina resposta dona l'Administració",
+        "inner_html": "Quina resposta dona l'Administració"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/tramits/que-cal-fer-si/vull-accedir-a-la-informacio-publica/si-la-resposta-de-ladministracio-no-es-lesperada/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tCom reclamar si no s'obté la informació sol·licitada",
+        "inner_html": "Com reclamar si no s'obté la informació sol·licitada"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/tramits/que-cal-fer-si/vull-anar-a-pescar-o-a-cacar/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tVull anar a pescar o a caçar",
+        "inner_html": "Vull anar a pescar o a caçar"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/tramits/que-cal-fer-si/vull-aprendre-catala/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tAccedeix a “\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tVull aprendre català”\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
+        "inner_html": "<span>Accedeix a “</span>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tVull aprendre català<span>”</span>"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/tramits/que-cal-fer-si/vull-aprendre-catala/cursos-de-catala/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tCursos de català",
+        "inner_html": "Cursos de català"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/tramits/que-cal-fer-si/vull-aprendre-catala/conversa-catala/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tConversa en català",
+        "inner_html": "Conversa en català"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/tramits/que-cal-fer-si/vull-aprendre-catala/recursos-lingueistics/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tRecursos lingüístics",
+        "inner_html": "Recursos lingüístics"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/tramits/que-cal-fer-si/vull-aprendre-catala/aprendre-catala/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tAprendre català",
+        "inner_html": "Aprendre català"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/tramits/que-cal-fer-si/vull-casar-me-pel-civil/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tAccedeix a “\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tVull casar-me pel civil”\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
+        "inner_html": "<span>Accedeix a “</span>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tVull casar-me pel civil<span>”</span>"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/tramits/que-cal-fer-si/vull-casar-me-pel-civil/descripcio-i-requisits-previs/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tDescripció i requisits previs",
+        "inner_html": "Descripció i requisits previs"
+      },
+      {
+        "href": "https://seujudicial.gencat.cat/ca/que_cal_fer/registre-civil/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tTramitació de l'expedient al Registre Civil",
+        "inner_html": "Tramitació de l'expedient al Registre Civil"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/tramits/que-cal-fer-si/vull-casar-me-pel-civil/celebracio-del-matrimoni-civil/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tCelebració del matrimoni civil",
+        "inner_html": "Celebració del matrimoni civil"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/tramits/que-cal-fer-si/vull-casar-me-pel-civil/inscripcio-del-matrimoni-i-llibre-de-familia/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tInscripció del matrimoni i llibre de família",
+        "inner_html": "Inscripció del matrimoni i llibre de família"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/tramits/que-cal-fer-si/Vull-comprar-un-cotxe/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tAccedeix a “\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tVull comprar un cotxe”\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
+        "inner_html": "<span>Accedeix a “</span>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tVull comprar un cotxe<span>”</span>"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/tramits/que-cal-fer-si/Vull-comprar-un-cotxe/Que-cal-fer-quan-vull-comprar-un-cotxe/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tQuè cal fer si vull comprar un cotxe",
+        "inner_html": "Què cal fer si vull comprar un cotxe"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/tramits/que-cal-fer-si/Vull-comprar-un-cotxe/Que-fer-un-cop-adquirit-el-vehicle.../",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tQuè fer un cop adquirit el vehicle",
+        "inner_html": "Què fer un cop adquirit el vehicle"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/tramits/que-cal-fer-si/Vull-comprar-un-cotxe/Canvi-de-titularitat-del-vehicle/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tCanvi de titularitat del vehicle",
+        "inner_html": "Canvi de titularitat del vehicle"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/tramits/que-cal-fer-si/Vull-comprar-un-cotxe/ajuts-economics/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tAjuts econòmics",
+        "inner_html": "Ajuts econòmics"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/tramits/que-cal-fer-si/Vull-identificar-me-digitalment/certificacio-digital/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tCertificats digitals",
+        "inner_html": "Certificats digitals"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/tramits/que-cal-fer-si/Vull-identificar-me-digitalment/idcat-mobil/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tidCAT Mòbil",
+        "inner_html": "idCAT Mòbil"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/tramits/que-cal-fer-si/vull-obtenir-el-certificat-de-delictes-de-naturalesa-sexual/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tVull obtenir el certificat de delictes de naturalesa sexual",
+        "inner_html": "Vull obtenir el certificat de delictes de naturalesa sexual"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/tramits/que-cal-fer-si/vull-posar-una-denuncia-per-internet/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tVull posar una denúncia per Internet",
+        "inner_html": "Vull posar una denúncia per Internet"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/tramits/que-cal-fer-si/Vull-presentar-una-queixa-al-Sindic/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tVull presentar una queixa al Síndic de Greuges",
+        "inner_html": "Vull presentar una queixa al Síndic de Greuges"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/tramits/que-cal-fer-si/vull-consumir-lenergia-de-manera-mes-responsable/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tAccedeix a “\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tVull consumir l’energia de manera més responsable”\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
+        "inner_html": "<span>Accedeix a “</span>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tVull consumir l’energia de manera més responsable<span>”</span>"
+      },
+      {
+        "href": "http://icaen.gencat.cat/ca/energia/usos_energia/llar/contractacio-energetica/compra-electricitat-renovables/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tVull comprar energia elèctrica 100% renovable",
+        "inner_html": "Vull comprar energia elèctrica 100% renovable"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/tramits/que-cal-fer-si/vull-consumir-lenergia-de-manera-mes-responsable/reduir-la-factura-electrica/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tVull reduir la factura elèctrica",
+        "inner_html": "Vull reduir la factura elèctrica"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/tramits/que-cal-fer-si/vull-vendre-el-cotxe/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tAccedeix a “\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tVull vendre el cotxe”\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
+        "inner_html": "<span>Accedeix a “</span>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tVull vendre el cotxe<span>”</span>"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/tramits/que-cal-fer-si/vull-vendre-el-cotxe/que-cal-fer-quan-em-vull-vendre-el-cotxe/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tQuè cal fer quan em vull vendre el cotxe",
+        "inner_html": "Què cal fer quan em vull vendre el cotxe"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/tramits/que-cal-fer-si/vull-vendre-el-cotxe/que-fer-un-cop-venut/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tQuè cal fer un cop venut",
+        "inner_html": "Què cal fer un cop venut"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/tramits/que-cal-fer-si/vull-vendre-el-cotxe/un-cop-tingueu-la-documentacio/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tUn cop tingueu la documentació",
+        "inner_html": "Un cop tingueu la documentació"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/tramits/que-cal-fer-si/vull-vendre-el-cotxe/impediments-per-dur-a-terme-la-transaccio/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tImpediments per dur a terme la transacció",
+        "inner_html": "Impediments per dur a terme la transacció"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/tramits/idCAT/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tAccedeix a “\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tidCAT”\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
+        "inner_html": "<span>Accedeix a “</span>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tidCAT<span>”</span>"
+      },
+      {
+        "href": "https://www.aoc.cat/portal-suport/idcat/idservei/idcat/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tidCAT Certificat",
+        "inner_html": "idCAT Certificat"
+      },
+      {
+        "href": "https://ovt.gencat.cat/gsitfc/AppJava/tramit/quepro.do?reqCode=list&set-locale=ca_ES&portalId=1",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tEstat de les meves gestions. Obre en una nova finestra.",
+        "inner_html": "Estat de les meves gestions<span class=\"sr-only\">. Obre en una nova finestra.</span>"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/tramits/registres/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tAccedeix a “\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tRegistres”\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
+        "inner_html": "<span>Accedeix a “</span>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tRegistres<span>”</span>"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/tramits/registres/oficines-de-registre-propies-i-concertades/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tOficines de registre pròpies i concertades",
+        "inner_html": "Oficines de registre pròpies i concertades"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/tramits/registres/presentacio-de-documents-adrecats-a-qualsevol-administracio-publica/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tPresentació de documents adreçats a qualsevol administració pública",
+        "inner_html": "Presentació de documents adreçats a qualsevol administració pública"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/tramits/com-tramitar-en-linia/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tAccedeix a “\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tSuport a la tramitació”\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
+        "inner_html": "<span>Accedeix a “</span>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tSuport a la tramitació<span>”</span>"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/tramits/com-tramitar-en-linia/acces-meva-carpeta/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tCom accedir i fer seguiment dels meus tràmits",
+        "inner_html": "Com accedir i fer seguiment dels meus tràmits"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/tramits/com-tramitar-en-linia/acces-a-les-notificacions-electroniques/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tNotificacions electròniques",
+        "inner_html": "Notificacions electròniques"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/tramits/com-tramitar-en-linia/trametre_documents_pesants/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tCom enviar documents que pesen molt quan s'està fent un tràmit",
+        "inner_html": "Com enviar documents que pesen molt quan s'està fent un tràmit"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/tramits/com-tramitar-en-linia/identificacio-digital/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tAccedeix a “\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tIdentificació digital”\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
+        "inner_html": "<span>Accedeix a “</span>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tIdentificació digital<span>”</span>"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/tramits/com-tramitar-en-linia/identificacio-digital/nacionalitat-estrangera-o-altre-pais/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tCom tramitar amb la Generalitat si ets de nacionalitat estrangera, o vius en un altre país ",
+        "inner_html": "Com tramitar amb la Generalitat si ets de nacionalitat estrangera, o vius en un altre país"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/tramits/com-tramitar-en-linia/configuracio-adobe-reader/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tConfiguració de l'Adobe Reader, formularis en pdf i documents adjunts",
+        "inner_html": "Configuració de l'Adobe Reader, formularis en pdf i documents adjunts"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/tramits/com-tramitar-en-linia/formularis_html/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tCom tramitar amb formularis HTML",
+        "inner_html": "Com tramitar amb formularis HTML"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/tramits/com-tramitar-en-linia/Subjectes-obligats/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tSubjectes obligats a tramitar per internet",
+        "inner_html": "Subjectes obligats a tramitar per internet"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/tramits/com-tramitar-en-linia/gestor_cues_tramit/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tGestor de cues per tramitar",
+        "inner_html": "Gestor de cues per tramitar"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/generalitat/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\tAccedeix a “\n\t\t\t\t\t\t\t\t\t\t\t\t\tGeneralitat”\n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t",
+        "inner_html": "<span>Accedeix a “</span>\n\t\t\t\t\t\t\t\t\t\t\t\t\tGeneralitat<span>”</span>\n\t\t\t\t\t\t\t\t\t\t\t\t<img src=\"/web/resources/fwkResponsive/fpca_capcalera/img/arrow-right-r.svg\" alt=\"\">"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/generalitat/organitzacio_institucional/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tAccedeix a “\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tOrganització institucional”\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
+        "inner_html": "<span>Accedeix a “</span>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tOrganització institucional<span>”</span>"
+      },
+      {
+        "href": "http://www.president.cat/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tPresident",
+        "inner_html": "President"
+      },
+      {
+        "href": "https://govern.cat/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tGovern",
+        "inner_html": "Govern"
+      },
+      {
+        "href": "http://www.parlament.cat/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tParlament",
+        "inner_html": "Parlament"
+      },
+      {
+        "href": "http://municat.gencat.cat/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tAdministració local",
+        "inner_html": "Administració local"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/generalitat/organitzacio_institucional/estructura/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tAdministració de la Generalitat",
+        "inner_html": "Administració de la Generalitat"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/generalitat/estatut/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tAccedeix a “\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tEstatut d'autonomia”\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
+        "inner_html": "<span>Accedeix a “</span>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tEstatut d'autonomia<span>”</span>"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/generalitat/estatut/estatut2006/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tAccedeix a “\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tText de l'Estatut aprovat el 2006”\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
+        "inner_html": "<span>Accedeix a “</span>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tText de l'Estatut aprovat el 2006<span>”</span>"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/generalitat/estatut/estatut2006/preambul/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tPreàmbul",
+        "inner_html": "Preàmbul"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/generalitat/estatut/estatut2006/titol_preliminar/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tTítol preliminar (articles 1-14)",
+        "inner_html": "Títol preliminar (articles 1-14)"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/generalitat/estatut/estatut2006/titol_1/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tTítol I. Drets, deures i principis rectors (articles 15-54)",
+        "inner_html": "Títol I. Drets, deures i principis rectors (articles 15-54)"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/generalitat/estatut/estatut2006/titol_2/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tTítol II. De les institucions (articles 55-94)",
+        "inner_html": "Títol II. De les institucions (articles 55-94)"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/generalitat/estatut/estatut2006/titol_3/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tTítol III. Del poder judicial a Catalunya (articles 95-109)",
+        "inner_html": "Títol III. Del poder judicial a Catalunya (articles 95-109)"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/generalitat/estatut/estatut2006/titol_4/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tTítol IV. De les competències (articles 110-173)",
+        "inner_html": "Títol IV. De les competències (articles 110-173)"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/generalitat/estatut/estatut2006/titol_5/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tTítol V. De les relacions institucionals de la Generalitat (articles 174-200)",
+        "inner_html": "Títol V. De les relacions institucionals de la Generalitat (articles 174-200)"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/generalitat/estatut/estatut2006/titol_6/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tTítol VI. Del finançament de la Generalitat (articles 201-221)",
+        "inner_html": "Títol VI. Del finançament de la Generalitat (articles 201-221)"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/generalitat/estatut/estatut2006/titol_7/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tTítol VII. De la reforma de l'Estatut (articles 222-223)",
+        "inner_html": "Títol VII. De la reforma de l'Estatut (articles 222-223)"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/generalitat/estatut/estatut2006/disposicions/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tDisposicions",
+        "inner_html": "Disposicions"
+      },
+      {
+        "href": "http://boe.es/diario_boe/txt.php?id=BOE-A-2010-11409",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tSentència STC 31/2010, de 28 de juny de 2010",
+        "inner_html": "Sentència STC 31/2010, de 28 de juny de 2010"
+      },
+      {
+        "href": "http://www.parlament.cat/web/documentacio/estatut/recursos-constitucional/index.html",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tRecursos interposats davant el Tribunal Constitucional",
+        "inner_html": "Recursos interposats davant el Tribunal Constitucional"
+      },
+      {
+        "href": "https://govern.cat/govern/docs/2010/07/21/12/11/76d06239-427f-48da-a533-5cf2492b43ea.pdf",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tInforme jurídic sobre la sentència del Tribunal Constitucional",
+        "inner_html": "Informe jurídic sobre la sentència del Tribunal Constitucional"
+      },
+      {
+        "href": "http://revistes.eapc.gencat.cat/index.php/rcdp/issue/view/23",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tEspecial Sentència sobre l'Estatut. Revista Catalana de dret públic",
+        "inner_html": "Especial Sentència sobre l'Estatut. Revista Catalana de dret públic"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/generalitat/estatut/estatut1979/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tAccedeix a “\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tEstatut d'autonomia de 1979”\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
+        "inner_html": "<span>Accedeix a “</span>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tEstatut d'autonomia de 1979<span>”</span>"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/generalitat/estatut/estatut1979/preambul/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tPreàmbul",
+        "inner_html": "Preàmbul"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/generalitat/estatut/estatut1979/titol_preliminar/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tTítol preliminar: Disposicions Generals (Articles 1-8)",
+        "inner_html": "Títol preliminar: Disposicions Generals (Articles 1-8)"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/generalitat/estatut/estatut1979/titol_primer/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tTítol primer: Competències de la Generalitat (Articles 9-28)",
+        "inner_html": "Títol primer: Competències de la Generalitat (Articles 9-28)"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/generalitat/estatut/estatut1979/titol_segon/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tTítol segon: De la Generalitat (Articles 29-42)",
+        "inner_html": "Títol segon: De la Generalitat (Articles 29-42)"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/generalitat/estatut/estatut1979/titol_tercer/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tTítol tercer: Finances i Economia (Articles 43-55)",
+        "inner_html": "Títol tercer: Finances i Economia (Articles 43-55)"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/generalitat/estatut/estatut1979/titol_quart/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tTítol quart: Reforma de l'Estatut (Articles 56-57)",
+        "inner_html": "Títol quart: Reforma de l'Estatut (Articles 56-57)"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/generalitat/estatut/estatut1979/disp_addic/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tDisposicions addicionals (Disposicions 1-7)",
+        "inner_html": "Disposicions addicionals (Disposicions 1-7)"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/generalitat/estatut/estatut1979/disp_trans/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tDisposicions transitòries (Disposicions 1-8)",
+        "inner_html": "Disposicions transitòries (Disposicions 1-8)"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/generalitat/historia/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tAccedeix a “\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tHistòria de la Generalitat”\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
+        "inner_html": "<span>Accedeix a “</span>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tHistòria de la Generalitat<span>”</span>"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/generalitat/historia/la-diputacio-del-general/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tLa Diputació del General (segles XIV-XVII)",
+        "inner_html": "La Diputació del General (segles XIV-XVII)"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/generalitat/historia/regim-de-nova-planta/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tEl règim de la Nova Planta",
+        "inner_html": "El règim de la Nova Planta"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/generalitat/historia/diputacions-espanya-constitucional/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tLes Diputacions dins l'Espanya Constitucional (segle XIX)",
+        "inner_html": "Les Diputacions dins l'Espanya Constitucional (segle XIX)"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/generalitat/historia/generalitat-contemporania/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tLa Generalitat contemporània (segles XX-XXI)",
+        "inner_html": "La Generalitat contemporània (segles XX-XXI)"
+      },
+      {
+        "href": "https://dogc.gencat.cat/ca",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tDiari Oficial. Obre en una nova finestra.",
+        "inner_html": "Diari Oficial<span class=\"sr-only\">. Obre en una nova finestra.</span>"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/generalitat/cercador_organismes/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tCercador d'organismes",
+        "inner_html": "Cercador d'organismes"
+      },
+      {
+        "href": "https://presidencia.gencat.cat/ca/el_departament/transparencia/acords-del-govern/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tAcords de Govern. Obre en una nova finestra.",
+        "inner_html": "Acords de Govern<span class=\"sr-only\">. Obre en una nova finestra.</span>"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/generalitat/informacio_publica/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tAccedeix a “\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tInformació pública”\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
+        "inner_html": "<span>Accedeix a “</span>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tInformació pública<span>”</span>"
+      },
+      {
+        "href": "http://politiquesdigitals.gencat.cat/ca/pgov_ambits_d_actuacio/pgov_funcio_publica/pgov_acces_a_la_funcio_publica",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tOposicions i accés a la funció pública",
+        "inner_html": "Oposicions i accés a la funció pública"
+      },
+      {
+        "href": "https://contractaciopublica.gencat.cat/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tContractació pública",
+        "inner_html": "Contractació pública"
+      },
+      {
+        "href": "https://llibreria.gencat.cat/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tPublicacions",
+        "inner_html": "Publicacions"
+      },
+      {
+        "href": "http://identitatcorporativa.gencat.cat/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tPrograma d'identificació visual",
+        "inner_html": "Programa d'identificació visual"
+      },
+      {
+        "href": "http://governobert.gencat.cat/ca/transparencia/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tTransparència",
+        "inner_html": "Transparència"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/actualitat/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\tAccedeix a “\n\t\t\t\t\t\t\t\t\t\t\t\t\tActualitat”\n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t",
+        "inner_html": "<span>Accedeix a “</span>\n\t\t\t\t\t\t\t\t\t\t\t\t\tActualitat<span>”</span>\n\t\t\t\t\t\t\t\t\t\t\t\t<img src=\"/web/resources/fwkResponsive/fpca_capcalera/img/arrow-right-r.svg\" alt=\"\">"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/actualitat/darreres-noticies/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tDarreres notícies",
+        "inner_html": "Darreres notícies"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/actualitat/cercador/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tCercador",
+        "inner_html": "Cercador"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/actualitat/infografies/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tInfografies",
+        "inner_html": "Infografies"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/actualitat/butlletins/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tAccedeix a “\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tButlletins”\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
+        "inner_html": "<span>Accedeix a “</span>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tButlletins<span>”</span>"
+      },
+      {
+        "href": "https://butlletins.gencat.cat/pres_push/AppJava/init.do",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tGestió de subscripcions",
+        "inner_html": "Gestió de subscripcions"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/actualitat/butlletins/ajuda/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tAccedeix a “\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tAjuda”\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
+        "inner_html": "<span>Accedeix a “</span>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tAjuda<span>”</span>"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/actualitat/butlletins/ajuda/alta/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tDonar-se d'alta",
+        "inner_html": "Donar-se d'alta"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/actualitat/butlletins/ajuda/baixa/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tDonar-se de baixa",
+        "inner_html": "Donar-se de baixa"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/actualitat/butlletins/ajuda/modificacions/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tModificacions de dades personals",
+        "inner_html": "Modificacions de dades personals"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/actualitat/butlletins/ajuda/preguntes-mes-frequeents/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tPreguntes més freqüents",
+        "inner_html": "Preguntes més freqüents"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/actualitat/butlleti-gencat/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tAccedeix a “\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tButlletí gencat”\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
+        "inner_html": "<span>Accedeix a “</span>\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tButlletí gencat<span>”</span>"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/actualitat/butlleti-gencat/butlleti-gencat-num-32/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tButlletí gencat núm 32",
+        "inner_html": "Butlletí gencat núm 32"
+      },
+      {
+        "href": "https://govern.cat/salapremsa/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tPremsa. Obre en una nova finestra.",
+        "inner_html": "Premsa<span class=\"sr-only\">. Obre en una nova finestra.</span>"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/actualitat/rss/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tRSS",
+        "inner_html": "RSS"
+      },
+      {
+        "href": "https://generalitat.blog.gencat.cat/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tBlog gencat. Obre en una nova finestra.",
+        "inner_html": "Blog gencat<span class=\"sr-only\">. Obre en una nova finestra.</span>"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/directoris/directori-daplicacions-mobils/aplicacio-gencat",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tAplicació gencat. Obre en una nova finestra.",
+        "inner_html": "Aplicació gencat<span class=\"sr-only\">. Obre en una nova finestra.</span>"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/directoris/directori-de-xarxes-socials/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tDirectori de xarxes socials. Obre en una nova finestra.",
+        "inner_html": "Directori de xarxes socials<span class=\"sr-only\">. Obre en una nova finestra.</span>"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/directoris/directori-daplicacions-mobils/",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tDirectori d'aplicacions mòbils. Obre en una nova finestra.",
+        "inner_html": "Directori d'aplicacions mòbils<span class=\"sr-only\">. Obre en una nova finestra.</span>"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/covid-19/",
+        "inner_text": "COVID-19",
+        "inner_html": "COVID-19"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/",
+        "inner_text": "",
+        "inner_html": "<img alt=\" Informació, tràmits i serveis de la Generalitat de Catalunya a gencat.cat\" src=\"/web/.content/Imatge/marca_home/NG_logo_generalitat_home.png_602392567.png\" tabindex=\"-1\">"
+      },
+      {
+        "href": "http://web.gencat.cat/ca/cercador/?q=Beques",
+        "inner_text": "beques",
+        "inner_html": "beques"
+      },
+      {
+        "href": "http://web.gencat.cat/ca/cercador/?q=Calendari",
+        "inner_text": "calendari",
+        "inner_html": "calendari"
+      },
+      {
+        "href": "http://web.gencat.cat/ca/cercador/?q=PAU",
+        "inner_text": "PAU",
+        "inner_html": "PAU"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/equipaments/",
+        "inner_text": "Cerca d’equipaments",
+        "inner_html": "Cerca d’equipaments"
+      },
+      {
+        "href": "https://feinaactiva.gencat.cat/web/guest/home",
+        "inner_text": "Cercador d'ofertes de treball\n. Obre en una nova finestra.",
+        "inner_html": "Cercador d'ofertes de treball<span class=\"sr-only\">. Obre en una nova finestra.</span>"
+      },
+      {
+        "href": "http://agenda.cultura.gencat.cat/",
+        "inner_text": "Agenda cultural\n. Obre en una nova finestra.",
+        "inner_html": "Agenda cultural<span class=\"sr-only\">. Obre en una nova finestra.</span>"
+      },
+      {
+        "href": "http://habitatge.gencat.cat/ca/tramits/tramits-temes/",
+        "inner_text": "Ajuts a l'habitatge. Obre en una nova finestra.",
+        "inner_html": "Ajuts a l'habitatge<span class=\"sr-only\">. Obre en una nova finestra.</span>"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/tramits/tramits-temes/Consulta-de-lestat-de-pagament-de-documents",
+        "inner_text": "Pagament de documents",
+        "inner_html": "Pagament de documents"
+      },
+      {
+        "href": "http://www.gencat.cat/optimot",
+        "inner_text": "Consultes lingüístiques. Obre en una nova finestra.",
+        "inner_html": "Consultes lingüístiques<span class=\"sr-only\">. Obre en una nova finestra.</span>"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/activem/",
+        "inner_text": "activem.gencat.cat",
+        "inner_html": "activem.gencat.cat"
+      },
+      {
+        "href": "https://generalitat.blog.gencat.cat/2021/05/20/com-celebrem-a-gencat-el-dia-mundial-per-promoure-la-conscienciacio-sobre-laccessibilitat-web/",
+        "inner_text": "",
+        "inner_html": "<img class=\"img-responsive\" src=\"/web/.content/00_HOME/home_destacats/dia-accessibilitat-web.jpg_223078711.jpg\" alt=\"\">"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/actualitat/detall/En-marxa-un-servei-dacompanyament-per-a-la-segona-oportunitat",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
+        "inner_html": "<img class=\"img-responsive\" src=\"/web/.content/Imatge/noticies/2021/20210519_segona.png_223078711.png\" alt=\"\">"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/actualitat/detall/Potenciar-el-transport-public-a-la-regio-metropolitana-de-Barcelona",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
+        "inner_html": "<img class=\"img-responsive\" src=\"/web/.content/Imatge/noticies/2021/20210518_tram.png_223078711.png\" alt=\"\">"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/actualitat/detall/Proteccio-a-les-victimes-dassetjament-sexual-a-lambit-universitari",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t",
+        "inner_html": "<img class=\"img-responsive\" src=\"/web/.content/Imatge/20201013_classes-virtuals-universitat.jpg_223078711.jpg\" alt=\"\">"
+      },
+      {
+        "href": "https://twitter.com/gencat",
+        "inner_text": ". Obre en una nova finestra.",
+        "inner_html": "<img alt=\"Twitter de gencat\" src=\"/web/resources/fwkResponsives/common/img/NG_ico_twitter.png_196546587.png\"><span class=\"sr-only\">. Obre en una nova finestra.</span>"
+      },
+      {
+        "href": "http://www.facebook.com/gencat",
+        "inner_text": ". Obre en una nova finestra.",
+        "inner_html": "<img alt=\"Facebook de gencat\" src=\"/web/resources/fwkResponsives/common/img/NG_ico_facebook.png_196546587.png\"><span class=\"sr-only\">. Obre en una nova finestra.</span>"
+      },
+      {
+        "href": "https://www.instagram.com/gencat/",
+        "inner_text": ". Obre en una nova finestra.",
+        "inner_html": "<img alt=\"Instagram de gencat\" src=\"/web/resources/fwkResponsives/common/img/ico_instagram.png_196546587.png\"><span class=\"sr-only\">. Obre en una nova finestra.</span>"
+      },
+      {
+        "href": "http://telegram.me/gencat",
+        "inner_text": ". Obre en una nova finestra.",
+        "inner_html": "<img alt=\"Telegram gencat\" src=\"/web/resources/fwkResponsives/common/img/NG_ico_telegram.png_196546587.png\"><span class=\"sr-only\">. Obre en una nova finestra.</span>"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/actualitat/rss.html",
+        "inner_text": "",
+        "inner_html": "<img alt=\"RSS de notícies de gencat\" src=\"/web/resources/fwkResponsives/common/img/NG_ico_rss.png_196546587.png\">"
+      },
+      {
+        "href": "https://www.inbenta.com/",
+        "inner_text": "",
+        "inner_html": ""
+      },
+      {
+        "href": "https://t.me/gencat012bot",
+        "inner_text": "Telegram\n. Obre en una nova finestra.",
+        "inner_html": "Telegram<span class=\"sr-only\">. Obre en una nova finestra.</span>"
+      },
+      {
+        "href": "https://gen.cat/whatsapp",
+        "inner_text": "WhatsApp\n. Obre en una nova finestra.",
+        "inner_html": "WhatsApp<span class=\"sr-only\">. Obre en una nova finestra.</span>"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/activem/preguntes-mes-frequents/",
+        "inner_text": "Web Activem Catalunya",
+        "inner_html": "Web Activem Catalunya"
+      },
+      {
+        "href": "https://canalsalut.gencat.cat/ca/vida-saludable/consells-per-a-tot-lany/consells_per_a_la_primavera/",
+        "inner_text": "Primavera . Obre en una nova finestra.",
+        "inner_html": "<img class=\"img-responsive\" src=\"/web/.content/Imatge/home_destacats/primavera.png_372638020.png\" alt=\"\"><p class=\"imatge_text\">Primavera </p><span class=\"sr-only\">. Obre en una nova finestra.</span>"
+      },
+      {
+        "href": "http://atc.gencat.cat/ca/gestions/executiva/constrenyiment/index.html",
+        "inner_text": "He rebut una notificació d'un deute amb l'ATC\n. Obre en una nova finestra.",
+        "inner_html": "He rebut una notificació d'un deute amb l'ATC<span class=\"sr-only\">. Obre en una nova finestra.</span>"
+      },
+      {
+        "href": "https://wa.me/34681012012?text=Hola",
+        "inner_text": "Pregunta'm!\n. Obre en una nova finestra.",
+        "inner_html": "Pregunta'm!\n                                                        <span class=\"sr-only\">. Obre en una nova finestra.</span>"
+      },
+      {
+        "href": "https://www.facebook.com/gencat",
+        "inner_text": "",
+        "inner_html": "<img class=\"footer-social__list-link-image js-footer-hover-img\" alt=\"Icona de Facebook\" data-default=\"/web/resources/fwkResponsive/fpca_peu_xarxesSocials/img/facebook-c.svg\" data-hover=\"/web/resources/fwkResponsive/fpca_peu_xarxesSocials/img/facebook-c-sobre.svg\" src=\"/web/resources/fwkResponsive/fpca_peu_xarxesSocials/img/facebook-c.svg\">"
+      },
+      {
+        "href": "https://www.instagram.com/gencat",
+        "inner_text": "",
+        "inner_html": "<img class=\"footer-social__list-link-image js-footer-hover-img\" alt=\"Icona d'Instagram\" data-default=\"/web/resources/fwkResponsive/fpca_peu_xarxesSocials/img/instagram-c.svg\" data-hover=\"/web/resources/fwkResponsive/fpca_peu_xarxesSocials/img/instagram-c-sobre.svg\" src=\"/web/resources/fwkResponsive/fpca_peu_xarxesSocials/img/instagram-c.svg\">"
+      },
+      {
+        "href": "https://telegram.me/gencat",
+        "inner_text": "",
+        "inner_html": "<img class=\"footer-social__list-link-image js-footer-hover-img\" alt=\"Icona de Telegram\" data-default=\"/web/resources/fwkResponsive/fpca_peu_xarxesSocials/img/telegram-c.svg\" data-hover=\"/web/resources/fwkResponsive/fpca_peu_xarxesSocials/img/telegram-c-sobre.svg\" src=\"/web/resources/fwkResponsive/fpca_peu_xarxesSocials/img/telegram-c.svg\">"
+      },
+      {
+        "href": "https://www.linkedin.com/company/generalitat-de-catalunya",
+        "inner_text": "",
+        "inner_html": "<img class=\"footer-social__list-link-image js-footer-hover-img\" alt=\"Icona de LinkedIn\" data-default=\"/web/resources/fwkResponsive/fpca_peu_xarxesSocials/img/linkedin-c.svg\" data-hover=\"/web/resources/fwkResponsive/fpca_peu_xarxesSocials/img/linkedin-c-sobre.svg\" src=\"/web/resources/fwkResponsive/fpca_peu_xarxesSocials/img/linkedin-c.svg\">"
+      },
+      {
+        "href": "https://www.youtube.com/user/gencat",
+        "inner_text": "",
+        "inner_html": "<img class=\"footer-social__list-link-image js-footer-hover-img\" alt=\"Icona de Youtube\" data-default=\"/web/resources/fwkResponsive/fpca_peu_xarxesSocials/img/youtube-c.svg\" data-hover=\"/web/resources/fwkResponsive/fpca_peu_xarxesSocials/img/youtube-c-sobre.svg\" src=\"/web/resources/fwkResponsive/fpca_peu_xarxesSocials/img/youtube-c.svg\">"
+      },
+      {
+        "href": "https://twitter.com/012",
+        "inner_text": "Twitter 012\n. Obre en una nova finestra.",
+        "inner_html": "<img class=\"footer-contact__list-img\" alt=\"\" src=\"/web/resources/fwkResponsive/fpca_peu_contacte/img/twitter.svg\">\n                                                <span class=\"footer-contact__list-txt\">\n                                                    Twitter 012\n                                                </span>\n                                                <span class=\"sr-only\">. Obre en una nova finestra.</span>"
+      },
+      {
+        "href": "http://web.gencat.cat/ca/contacte/012/index.html",
+        "inner_text": "Telèfon 012\n. Obre en una nova finestra.",
+        "inner_html": "<img class=\"footer-contact__list-img\" alt=\"\" src=\"/web/resources/fwkResponsive/fpca_peu_contacte/img/012.svg\">\n                                                <span class=\"footer-contact__list-txt\">\n                                                    Telèfon 012\n                                                </span>\n                                                <span class=\"sr-only\">. Obre en una nova finestra.</span>"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/contacte/altres-telefons-especialitzats/",
+        "inner_text": "Telèfons especialitzats\n. Obre en una nova finestra.",
+        "inner_html": "<img class=\"footer-contact__list-img\" alt=\"\" src=\"/web/resources/fwkResponsive/fpca_peu_contacte/img/phone.svg\">\n                                                <span class=\"footer-contact__list-txt\">\n                                                    Telèfons especialitzats\n                                                </span>\n                                                <span class=\"sr-only\">. Obre en una nova finestra.</span>"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/contacte/oficines/index.html",
+        "inner_text": "Oficines d’Atenció Ciutadana\n. Obre en una nova finestra.",
+        "inner_html": "<img class=\"footer-contact__list-img\" alt=\"\" src=\"/web/resources/fwkResponsive/fpca_peu_contacte/img/informacio.svg\">\n                                                <span class=\"footer-contact__list-txt\">\n                                                    Oficines d’Atenció Ciutadana\n                                                </span>\n                                                <span class=\"sr-only\">. Obre en una nova finestra.</span>"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/adreces-i-telefons/detall/index.html?Query=&MotComarca=&MotPoblacio=&MotCp=&NomesCitaPrev=&NomesReg=-1&Departaments=&Nom=-1&Responsable=-1&Poblacio=-1&Cp=-1&Comarca=-1",
+        "inner_text": "Oficines de registre\n. Obre en una nova finestra.",
+        "inner_html": "<img class=\"footer-contact__list-img\" alt=\"\" src=\"/web/resources/fwkResponsive/fpca_peu_contacte/img/registre.svg\">\n                                                <span class=\"footer-contact__list-txt\">\n                                                    Oficines de registre\n                                                </span>\n                                                <span class=\"sr-only\">. Obre en una nova finestra.</span>"
+      },
+      {
+        "href": "https://www.gencat.cat/",
+        "inner_text": "",
+        "inner_html": "<img class=\"footer-bottom__logo\" src=\"/web/resources/fwkResponsives/common/img/logo_generalitat_blanc.svg\" alt=\"www.gencat.cat\" srcset=\"\">"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/menu-ajuda/ajuda/avis_legal/",
+        "inner_text": "Avís legal",
+        "inner_html": "Avís legal"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/menu-ajuda/ajuda/sobre_gencat/",
+        "inner_text": "Sobre gencat",
+        "inner_html": "Sobre gencat"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/menu-ajuda/ajuda/accessibilitat/",
+        "inner_text": "Accessibilitat",
+        "inner_html": "Accessibilitat"
+      },
+      {
+        "href": "https://web.gencat.cat/ca/menu-ajuda/ajuda/mapaweb/",
+        "inner_text": "Mapa web",
+        "inner_html": "Mapa web"
+      }
+    ],
+    "social": [
+      {
+        "href": "https://twitter.com/gencat",
+        "inner_text": ". Obre en una nova finestra.",
+        "inner_html": "<img alt=\"Twitter de gencat\" src=\"/web/resources/fwkResponsives/common/img/NG_ico_twitter.png_196546587.png\"><span class=\"sr-only\">. Obre en una nova finestra.</span>"
+      },
+      {
+        "href": "http://www.facebook.com/gencat",
+        "inner_text": ". Obre en una nova finestra.",
+        "inner_html": "<img alt=\"Facebook de gencat\" src=\"/web/resources/fwkResponsives/common/img/NG_ico_facebook.png_196546587.png\"><span class=\"sr-only\">. Obre en una nova finestra.</span>"
+      },
+      {
+        "href": "https://www.instagram.com/gencat/",
+        "inner_text": ". Obre en una nova finestra.",
+        "inner_html": "<img alt=\"Instagram de gencat\" src=\"/web/resources/fwkResponsives/common/img/ico_instagram.png_196546587.png\"><span class=\"sr-only\">. Obre en una nova finestra.</span>"
+      },
+      {
+        "href": "https://www.facebook.com/gencat",
+        "inner_text": "",
+        "inner_html": "<img class=\"footer-social__list-link-image js-footer-hover-img\" alt=\"Icona de Facebook\" data-default=\"/web/resources/fwkResponsive/fpca_peu_xarxesSocials/img/facebook-c.svg\" data-hover=\"/web/resources/fwkResponsive/fpca_peu_xarxesSocials/img/facebook-c-sobre.svg\" src=\"/web/resources/fwkResponsive/fpca_peu_xarxesSocials/img/facebook-c.svg\">"
+      },
+      {
+        "href": "https://www.instagram.com/gencat",
+        "inner_text": "",
+        "inner_html": "<img class=\"footer-social__list-link-image js-footer-hover-img\" alt=\"Icona d'Instagram\" data-default=\"/web/resources/fwkResponsive/fpca_peu_xarxesSocials/img/instagram-c.svg\" data-hover=\"/web/resources/fwkResponsive/fpca_peu_xarxesSocials/img/instagram-c-sobre.svg\" src=\"/web/resources/fwkResponsive/fpca_peu_xarxesSocials/img/instagram-c.svg\">"
+      },
+      {
+        "href": "https://www.linkedin.com/company/generalitat-de-catalunya",
+        "inner_text": "",
+        "inner_html": "<img class=\"footer-social__list-link-image js-footer-hover-img\" alt=\"Icona de LinkedIn\" data-default=\"/web/resources/fwkResponsive/fpca_peu_xarxesSocials/img/linkedin-c.svg\" data-hover=\"/web/resources/fwkResponsive/fpca_peu_xarxesSocials/img/linkedin-c-sobre.svg\" src=\"/web/resources/fwkResponsive/fpca_peu_xarxesSocials/img/linkedin-c.svg\">"
+      },
+      {
+        "href": "https://www.youtube.com/user/gencat",
+        "inner_text": "",
+        "inner_html": "<img class=\"footer-social__list-link-image js-footer-hover-img\" alt=\"Icona de Youtube\" data-default=\"/web/resources/fwkResponsive/fpca_peu_xarxesSocials/img/youtube-c.svg\" data-hover=\"/web/resources/fwkResponsive/fpca_peu_xarxesSocials/img/youtube-c-sobre.svg\" src=\"/web/resources/fwkResponsive/fpca_peu_xarxesSocials/img/youtube-c.svg\">"
+      },
+      {
+        "href": "https://twitter.com/012",
+        "inner_text": "Twitter 012\n. Obre en una nova finestra.",
+        "inner_html": "<img class=\"footer-contact__list-img\" alt=\"\" src=\"/web/resources/fwkResponsive/fpca_peu_contacte/img/twitter.svg\">\n                                                <span class=\"footer-contact__list-txt\">\n                                                    Twitter 012\n                                                </span>\n                                                <span class=\"sr-only\">. Obre en una nova finestra.</span>"
+      }
+    ],
+    "keywords": [
+      {
+        "href": "https://web.gencat.cat/ca/menu-ajuda/ajuda/avis_legal/",
+        "inner_text": "Avís legal",
+        "inner_html": "Avís legal"
+      }
+    ]
+  },
+  "unsafeForms": [],
+  "browsing_history": [
+    "https://gencat.cat/"
+  ],
+  "websockets": {},
+  "cookies": [
+    {
+      "name": "CONSENT",
+      "value": "PENDING+448",
+      "domain": "google.com",
+      "path": "/",
+      "expires": 2145916800.144187,
+      "size": 18,
+      "httpOnly": false,
+      "secure": true,
+      "session": false,
+      "expiresUTC": "2038-01-01T00:00:00.144Z",
+      "expiresDays": 6069.38,
+      "firstPartyStorage": false
+    },
+    {
+      "name": "nmstat",
+      "value": "1b566548-4317-4c2a-aec0-2a3fba88f0bc",
+      "domain": "gencat.cat",
+      "path": "/",
+      "expires": 1707922157,
+      "size": 42,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "sameSite": "Lax",
+      "expiresUTC": "2024-02-14T14:49:17.000Z",
+      "expiresDays": 1000,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 5382,
+            "lineNumber": 1,
+            "fileName": "https://siteimproveanalytics.com/js/siteanalyze_6097421.js",
+            "functionName": "Object.cookie",
+            "source": "    at Object.cookie (https://siteimproveanalytics.com/js/siteanalyze_6097421.js:1:5382)"
+          },
+          {
+            "columnNumber": 8226,
+            "lineNumber": 1,
+            "fileName": "https://siteimproveanalytics.com/js/siteanalyze_6097421.js",
+            "functionName": "Object.getsessid",
+            "source": "    at Object.getsessid (https://siteimproveanalytics.com/js/siteanalyze_6097421.js:1:8226)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T14:49:17.439Z",
+        "location": "https://web.gencat.cat/ca/inici"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "_ga_KDC74KQDN2",
+      "value": "GS1.1.1621522157.1.0.1621522159.0",
+      "domain": "gencat.cat",
+      "path": "/",
+      "expires": 1684594159,
+      "size": 47,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2023-05-20T14:49:19.000Z",
+      "expiresDays": 730,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 1258,
+            "lineNumber": 352,
+            "fileName": "https://www.googletagmanager.com/gtag/js?id=G-KDC74KQDN2&l=dataLayer&cx=c",
+            "functionName": "Ef",
+            "source": "    at Ef (https://www.googletagmanager.com/gtag/js?id=G-KDC74KQDN2&l=dataLayer&cx=c:352:1258)"
+          },
+          {
+            "columnNumber": 179,
+            "lineNumber": 354,
+            "fileName": "https://www.googletagmanager.com/gtag/js?id=G-KDC74KQDN2&l=dataLayer&cx=c",
+            "functionName": "If",
+            "source": "    at If (https://www.googletagmanager.com/gtag/js?id=G-KDC74KQDN2&l=dataLayer&cx=c:354:179)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T14:49:19.697Z",
+        "location": "https://web.gencat.cat/ca/inici"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "_ga",
+      "value": "GA1.1.958005.1621522157",
+      "domain": "gencat.cat",
+      "path": "/",
+      "expires": 1684594157,
+      "size": 26,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2023-05-20T14:49:17.000Z",
+      "expiresDays": 730,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 1258,
+            "lineNumber": 352,
+            "fileName": "https://www.googletagmanager.com/gtag/js?id=G-KDC74KQDN2&l=dataLayer&cx=c",
+            "functionName": "Ef",
+            "source": "    at Ef (https://www.googletagmanager.com/gtag/js?id=G-KDC74KQDN2&l=dataLayer&cx=c:352:1258)"
+          },
+          {
+            "columnNumber": 179,
+            "lineNumber": 354,
+            "fileName": "https://www.googletagmanager.com/gtag/js?id=G-KDC74KQDN2&l=dataLayer&cx=c",
+            "functionName": "If",
+            "source": "    at If (https://www.googletagmanager.com/gtag/js?id=G-KDC74KQDN2&l=dataLayer&cx=c:354:179)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T14:49:17.416Z",
+        "location": "https://web.gencat.cat/ca/inici"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "_hjid",
+      "value": "378fe685-10b4-4e89-ab01-b3e3fc4e67a0",
+      "domain": "gencat.cat",
+      "path": "/",
+      "expires": 1653058157,
+      "size": 41,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "sameSite": "Lax",
+      "expiresUTC": "2022-05-20T14:49:17.000Z",
+      "expiresDays": 365,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 210490,
+            "lineNumber": 1,
+            "fileName": "https://script.hotjar.com/modules.87b9cf5e358c50dcc8af.js",
+            "functionName": "r.set",
+            "source": "    at r.set (https://script.hotjar.com/modules.87b9cf5e358c50dcc8af.js:1:210490)"
+          },
+          {
+            "columnNumber": 200696,
+            "lineNumber": 1,
+            "fileName": "https://script.hotjar.com/modules.87b9cf5e358c50dcc8af.js",
+            "functionName": "Object.get",
+            "source": "    at Object.get (https://script.hotjar.com/modules.87b9cf5e358c50dcc8af.js:1:200696)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T14:49:17.699Z",
+        "location": "https://web.gencat.cat/ca/inici"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "inbenta-km-session-token",
+      "value": "eyJpdiI6ImRMRlc1Z2lLN2JwKzdqc1JGYnl2QUE9PSIsInZhbHVlIjoiMHF5VjFnNXlJM09PUk1QSUpjUFJ2Mk1oNWEwSExxSFZPaDVCUW55alp2VmlKUDhlcDBVRjlGQWczN1dIXC9SaWJ1cytyRHZFYXF6dXB1XC84anU0SXJ4ajJcL1o4c3d6aE9xR1wvQlJxQklwR1YxR3k4UjhRYWplb3hhNkRJZDFqdWZcLzFxWW4yeTBneitZXC9lWXRucjdUVkNsSGFKZ0lFOFJXcnhUU202XC9yODFzd2k5R2ZsXC94Z1dFMWZGb3ZyZUNhajEiLCJtYWMiOiIwZmEyMzg1YWFlMjJlNTgyZmU2NGNhYzdiYzE4MmMyYzZiNzI3OGFiMzMzMTRmNWE2MjA1NWZhODM4Mjk4MGExIn0=",
+      "domain": "web.gencat.cat",
+      "path": "/",
+      "expires": 1621608558,
+      "size": 448,
+      "httpOnly": false,
+      "secure": true,
+      "session": false,
+      "expiresUTC": "2021-05-21T14:49:18.000Z",
+      "expiresDays": 1,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 213902,
+            "lineNumber": 1,
+            "fileName": "https://sdk.inbenta.io/km/1.33.0/inbenta-km-sdk.js",
+            "functionName": "Eo",
+            "source": "    at Eo (https://sdk.inbenta.io/km/1.33.0/inbenta-km-sdk.js:1:213902)"
+          },
+          {
+            "columnNumber": 341701,
+            "lineNumber": 1,
+            "fileName": "https://sdk.inbenta.io/km/1.33.0/inbenta-km-sdk.js",
+            "source": "    at https://sdk.inbenta.io/km/1.33.0/inbenta-km-sdk.js:1:341701"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T14:49:18.744Z",
+        "location": "https://web.gencat.cat/ca/inici"
+      },
+      "firstPartyStorage": false
+    },
+    {
+      "name": "inbenta-km-session-id",
+      "value": "64df98d1bbfc62f3ded93a62661a1025781e0733",
+      "domain": "web.gencat.cat",
+      "path": "/",
+      "expires": 1621608558,
+      "size": 61,
+      "httpOnly": false,
+      "secure": true,
+      "session": false,
+      "expiresUTC": "2021-05-21T14:49:18.000Z",
+      "expiresDays": 1,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 213902,
+            "lineNumber": 1,
+            "fileName": "https://sdk.inbenta.io/km/1.33.0/inbenta-km-sdk.js",
+            "functionName": "Eo",
+            "source": "    at Eo (https://sdk.inbenta.io/km/1.33.0/inbenta-km-sdk.js:1:213902)"
+          },
+          {
+            "columnNumber": 341754,
+            "lineNumber": 1,
+            "fileName": "https://sdk.inbenta.io/km/1.33.0/inbenta-km-sdk.js",
+            "source": "    at https://sdk.inbenta.io/km/1.33.0/inbenta-km-sdk.js:1:341754"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T14:49:18.744Z",
+        "location": "https://web.gencat.cat/ca/inici"
+      },
+      "firstPartyStorage": false
+    },
+    {
+      "name": "_gid",
+      "value": "GA1.2.554974811.1621522157",
+      "domain": "gencat.cat",
+      "path": "/",
+      "expires": 1621608557,
+      "size": 30,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2021-05-21T14:49:17.000Z",
+      "expiresDays": 1,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 495,
+            "lineNumber": 30,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "zc",
+            "source": "    at zc (https://www.google-analytics.com/analytics.js:30:495)"
+          },
+          {
+            "columnNumber": 401,
+            "lineNumber": 59,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "ma",
+            "source": "    at ma (https://www.google-analytics.com/analytics.js:59:401)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T14:49:17.306Z",
+        "location": "https://web.gencat.cat/ca/inici"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "_hjFirstSeen",
+      "value": "1",
+      "domain": "gencat.cat",
+      "path": "/",
+      "expires": 1621523957,
+      "size": 13,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "sameSite": "Lax",
+      "expiresUTC": "2021-05-20T15:19:17.000Z",
+      "expiresDays": 0.02,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 210490,
+            "lineNumber": 1,
+            "fileName": "https://script.hotjar.com/modules.87b9cf5e358c50dcc8af.js",
+            "functionName": "r.set",
+            "source": "    at r.set (https://script.hotjar.com/modules.87b9cf5e358c50dcc8af.js:1:210490)"
+          },
+          {
+            "columnNumber": 217440,
+            "lineNumber": 1,
+            "fileName": "https://script.hotjar.com/modules.87b9cf5e358c50dcc8af.js",
+            "functionName": "Object.setFirstSeen",
+            "source": "    at Object.setFirstSeen (https://script.hotjar.com/modules.87b9cf5e358c50dcc8af.js:1:217440)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T14:49:17.700Z",
+        "location": "https://web.gencat.cat/ca/inici"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "_hjAbsoluteSessionInProgress",
+      "value": "0",
+      "domain": "gencat.cat",
+      "path": "/",
+      "expires": 1621523957,
+      "size": 29,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "sameSite": "Lax",
+      "expiresUTC": "2021-05-20T15:19:17.000Z",
+      "expiresDays": 0.02,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 210490,
+            "lineNumber": 1,
+            "fileName": "https://script.hotjar.com/modules.87b9cf5e358c50dcc8af.js",
+            "functionName": "r.set",
+            "source": "    at r.set (https://script.hotjar.com/modules.87b9cf5e358c50dcc8af.js:1:210490)"
+          },
+          {
+            "columnNumber": 85770,
+            "lineNumber": 1,
+            "fileName": "https://script.hotjar.com/modules.87b9cf5e358c50dcc8af.js",
+            "functionName": "Object.<anonymous>",
+            "source": "    at Object.<anonymous> (https://script.hotjar.com/modules.87b9cf5e358c50dcc8af.js:1:85770)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T14:49:17.739Z",
+        "location": "https://web.gencat.cat/ca/inici"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "_gat_UA-88115817-1",
+      "value": "1",
+      "domain": "gencat.cat",
+      "path": "/",
+      "expires": 1621522217,
+      "size": 19,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2021-05-20T14:50:17.000Z",
+      "expiresDays": 0,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 495,
+            "lineNumber": 30,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "zc",
+            "source": "    at zc (https://www.google-analytics.com/analytics.js:30:495)"
+          },
+          {
+            "columnNumber": 31,
+            "lineNumber": 73,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "Qd",
+            "source": "    at Qd (https://www.google-analytics.com/analytics.js:73:31)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T14:49:17.307Z",
+        "location": "https://web.gencat.cat/ca/inici"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "_gat_UA-88115817-7",
+      "value": "1",
+      "domain": "gencat.cat",
+      "path": "/",
+      "expires": 1621522216,
+      "size": 19,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2021-05-20T14:50:16.000Z",
+      "expiresDays": 0,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 495,
+            "lineNumber": 30,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "zc",
+            "source": "    at zc (https://www.google-analytics.com/analytics.js:30:495)"
+          },
+          {
+            "columnNumber": 31,
+            "lineNumber": 73,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "Qd",
+            "source": "    at Qd (https://www.google-analytics.com/analytics.js:73:31)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T14:49:16.719Z",
+        "location": "https://web.gencat.cat/ca/inici"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "_gat_UA-101877947-2",
+      "value": "1",
+      "domain": "gencat.cat",
+      "path": "/",
+      "expires": 1621522216,
+      "size": 20,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2021-05-20T14:50:16.000Z",
+      "expiresDays": 0,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 495,
+            "lineNumber": 30,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "zc",
+            "source": "    at zc (https://www.google-analytics.com/analytics.js:30:495)"
+          },
+          {
+            "columnNumber": 31,
+            "lineNumber": 73,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "Qd",
+            "source": "    at Qd (https://www.google-analytics.com/analytics.js:73:31)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T14:49:16.819Z",
+        "location": "https://web.gencat.cat/ca/inici"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "_gat_UA-101877947-1",
+      "value": "1",
+      "domain": "gencat.cat",
+      "path": "/",
+      "expires": 1621522216,
+      "size": 20,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2021-05-20T14:50:16.000Z",
+      "expiresDays": 0,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 495,
+            "lineNumber": 30,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "zc",
+            "source": "    at zc (https://www.google-analytics.com/analytics.js:30:495)"
+          },
+          {
+            "columnNumber": 31,
+            "lineNumber": 73,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "Qd",
+            "source": "    at Qd (https://www.google-analytics.com/analytics.js:73:31)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T14:49:16.823Z",
+        "location": "https://web.gencat.cat/ca/inici"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "SameSite",
+      "value": "None",
+      "domain": "web.gencat.cat",
+      "path": "/",
+      "expires": 1621522185.916961,
+      "size": 12,
+      "httpOnly": false,
+      "secure": true,
+      "session": false,
+      "expiresUTC": "2021-05-20T14:49:45.916Z",
+      "expiresDays": 0,
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://web.gencat.cat/ca/inici",
+            "source": "set in Set-Cookie HTTP response header for https://web.gencat.cat/ca/inici"
+          }
+        ],
+        "type": "Cookie.HTTP",
+        "timestamp": "2021-05-20T14:49:15.921Z",
+        "location": "https://gencat.cat/"
+      },
+      "firstPartyStorage": false
+    },
+    {
+      "name": "JSESSIONID",
+      "value": "11C5E632E0CA44F77AA0516315ACB9C2.GEOATX06",
+      "domain": "web.gencat.cat",
+      "path": "/",
+      "expires": -1,
+      "size": 51,
+      "httpOnly": true,
+      "secure": true,
+      "session": true,
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://web.gencat.cat/ca/inici",
+            "source": "set in Set-Cookie HTTP response header for https://web.gencat.cat/ca/inici"
+          }
+        ],
+        "type": "Cookie.HTTP",
+        "timestamp": "2021-05-20T14:49:15.921Z",
+        "location": "https://gencat.cat/"
+      },
+      "firstPartyStorage": false
+    },
+    {
+      "name": "_hjTLDTest",
+      "value": "1",
+      "domain": "gencat.cat",
+      "path": "/",
+      "expires": -1,
+      "size": 11,
+      "httpOnly": false,
+      "secure": false,
+      "session": true,
+      "sameSite": "Lax",
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 64893,
+            "lineNumber": 1,
+            "fileName": "https://script.hotjar.com/modules.87b9cf5e358c50dcc8af.js",
+            "functionName": "Object.<anonymous>",
+            "source": "    at Object.<anonymous> (https://script.hotjar.com/modules.87b9cf5e358c50dcc8af.js:1:64893)"
+          },
+          {
+            "columnNumber": 22122,
+            "lineNumber": 1,
+            "fileName": "https://script.hotjar.com/modules.87b9cf5e358c50dcc8af.js",
+            "functionName": "Object._checkCookieAccessToDomain",
+            "source": "    at Object._checkCookieAccessToDomain (https://script.hotjar.com/modules.87b9cf5e358c50dcc8af.js:1:22122)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T14:49:17.698Z",
+        "location": "https://web.gencat.cat/ca/inici"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "AWSELB",
+      "value": "1981F7471278D2E5200322457FFB222DB8AF541B057095385CB5B7C14B792926FCB43A208BECEAA456573D9C9779BA1523D4B2F1E8E6A70F31F93B9F3D8B108D70E5B5FA68",
+      "domain": "6097421.global.siteimproveanalytics.io",
+      "path": "/",
+      "expires": -1,
+      "size": 144,
+      "httpOnly": false,
+      "secure": false,
+      "session": true,
+      "firstPartyStorage": false
+    },
+    {
+      "name": "AWSELBCORS",
+      "value": "1981F7471278D2E5200322457FFB222DB8AF541B057095385CB5B7C14B792926FCB43A208BECEAA456573D9C9779BA1523D4B2F1E8E6A70F31F93B9F3D8B108D70E5B5FA68",
+      "domain": "6097421.global.siteimproveanalytics.io",
+      "path": "/",
+      "expires": -1,
+      "size": 148,
+      "httpOnly": false,
+      "secure": true,
+      "session": true,
+      "sameSite": "None",
+      "firstPartyStorage": false
+    }
+  ],
+  "localStorage": {
+    "https://web.gencat.cat": {
+      "inbenta_km_localstorage_BaKwTPEhxCLnUBodTGAhHnAQQphhOlk1ju+KXUvk11E=": {
+        "value": {
+          "expiresAt": 1621522758123,
+          "url=%2Fcategories%2F0&method=get&headers%5BX-INBENTA-ENV%5D=production": "{\"results\":[{\"id\":\"0\",\"parent\":\"-\",\"depth\":0,\"name\":\"root\",\"numContents\":0,\"numContentsDescendants\":330,\"children\":[\"1\"],\"slug\":\"\"},{\"id\":\"1\",\"parent\":\"0\",\"depth\":1,\"name\":\"gencat\",\"numContents\":0,\"numContentsDescendants\":330,\"children\":[],\"slug\":\"gencat\"}]}"
+        },
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 414443,
+              "lineNumber": 1,
+              "fileName": "https://sdk.inbenta.io/km/1.33.0/inbenta-km-sdk.js",
+              "functionName": "nd.localStorageSetItem",
+              "source": "    at nd.localStorageSetItem (https://sdk.inbenta.io/km/1.33.0/inbenta-km-sdk.js:1:414443)"
+            },
+            {
+              "columnNumber": 414300,
+              "lineNumber": 1,
+              "fileName": "https://sdk.inbenta.io/km/1.33.0/inbenta-km-sdk.js",
+              "functionName": "nd.setSDKStorageItem",
+              "source": "    at nd.setSDKStorageItem (https://sdk.inbenta.io/km/1.33.0/inbenta-km-sdk.js:1:414300)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T14:49:19.615Z",
+          "location": "https://web.gencat.cat/ca/inici"
+        }
+      },
+      "inbenta_km_api_url_BaKwTPEhxCLnUBodTGAhHnAQQphhOlk1ju+KXUvk11E=": {
+        "value": {
+          "expiresAt": 1621608558120,
+          "url": "https://api-gce2.inbenta.io/prod/km/v1"
+        },
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 414443,
+              "lineNumber": 1,
+              "fileName": "https://sdk.inbenta.io/km/1.33.0/inbenta-km-sdk.js",
+              "functionName": "nd.localStorageSetItem",
+              "source": "    at nd.localStorageSetItem (https://sdk.inbenta.io/km/1.33.0/inbenta-km-sdk.js:1:414443)"
+            },
+            {
+              "columnNumber": 413880,
+              "lineNumber": 1,
+              "fileName": "https://sdk.inbenta.io/km/1.33.0/inbenta-km-sdk.js",
+              "functionName": "nd.setApiStorageUrl",
+              "source": "    at nd.setApiStorageUrl (https://sdk.inbenta.io/km/1.33.0/inbenta-km-sdk.js:1:413880)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T14:49:18.126Z",
+          "location": "https://web.gencat.cat/ca/inici"
+        }
+      },
+      "_hjid": {
+        "value": "378fe685-10b4-4e89-ab01-b3e3fc4e67a0",
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 210618,
+              "lineNumber": 1,
+              "fileName": "https://script.hotjar.com/modules.87b9cf5e358c50dcc8af.js",
+              "functionName": "r.set",
+              "source": "    at r.set (https://script.hotjar.com/modules.87b9cf5e358c50dcc8af.js:1:210618)"
+            },
+            {
+              "columnNumber": 200696,
+              "lineNumber": 1,
+              "fileName": "https://script.hotjar.com/modules.87b9cf5e358c50dcc8af.js",
+              "functionName": "Object.get",
+              "source": "    at Object.get (https://script.hotjar.com/modules.87b9cf5e358c50dcc8af.js:1:200696)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T14:49:17.700Z",
+          "location": "https://web.gencat.cat/ca/inici"
+        }
+      },
+      "algoliasearch-client-js": {
+        "value": {
+          "GAVVNU5N19": {
+            "hostIndexes": {
+              "read": 0,
+              "write": 0
+            },
+            "timeoutMultiplier": 1,
+            "shuffleResult": [
+              2,
+              3,
+              1
+            ],
+            "lastChange": 1621522156937
+          },
+          "QPQAVM8S9W": {
+            "hostIndexes": {
+              "read": 0,
+              "write": 0
+            },
+            "timeoutMultiplier": 1,
+            "shuffleResult": [
+              2,
+              3,
+              1
+            ],
+            "lastChange": 1621522156941
+          }
+        },
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 6596,
+              "lineNumber": 4,
+              "fileName": "https://web.gencat.cat/web/resources/fwkResponsive/common/js/algoliasearch.min.js",
+              "functionName": "Object.set",
+              "source": "    at Object.set (https://web.gencat.cat/web/resources/fwkResponsive/common/js/algoliasearch.min.js:4:6596)"
+            },
+            {
+              "columnNumber": 6080,
+              "lineNumber": 4,
+              "fileName": "https://web.gencat.cat/web/resources/fwkResponsive/common/js/algoliasearch.min.js",
+              "functionName": "Object.n",
+              "source": "    at Object.n (https://web.gencat.cat/web/resources/fwkResponsive/common/js/algoliasearch.min.js:4:6080)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T14:49:17.178Z",
+          "location": "https://web.gencat.cat/ca/inici"
+        }
+      }
+    }
+  },
+  "beacons": [
+    {
+      "url": "https://6097421.global.siteimproveanalytics.io/heat.aspx?aid=6097421&luid=d53b93d0-940e-3438-d434-6d7505c99ee3&p=s%7C0%7C0&ww=1680&wh=2733&o=2&d=3&prev=1b566548-4317-4c2a-aec0-2a3fba88f0bc&rnd=50560",
+      "query": {
+        "aid": 6097421,
+        "luid": "d53b93d0-940e-3438-d434-6d7505c99ee3",
+        "p": "s|0|0",
+        "ww": 1680,
+        "wh": 2733,
+        "o": 2,
+        "d": 3,
+        "prev": "1b566548-4317-4c2a-aec0-2a3fba88f0bc",
+        "rnd": 50560
+      },
+      "filter": "||siteimproveanalytics.io^$third-party",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://web.gencat.cat/ca/inici",
+            "source": "requested from https://web.gencat.cat/ca/inici and matched with easyprivacy.txt filter ||siteimproveanalytics.io^$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T14:49:20.461Z"
+      },
+      "occurrances": 2
+    },
+    {
+      "url": "https://stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j90&tid=UA-88115817-1&cid=958005.1621522157&jid=1897724119&gjid=1758747612&_gid=554974811.1621522157&_u=aEDAAEABAAAAAC~&z=2123386318",
+      "query": {
+        "t": "dc",
+        "aip": 1,
+        "_r": 3,
+        "v": 1,
+        "_v": "j90",
+        "tid": "UA-88115817-1",
+        "cid": 958005.1621522157,
+        "jid": 1897724119,
+        "gjid": 1758747612,
+        "_gid": 554974811.1621522,
+        "_u": "aEDAAEABAAAAAC~",
+        "z": 2123386318
+      },
+      "filter": "||stats.g.doubleclick.net^",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://web.gencat.cat/ca/inici",
+            "source": "requested from https://web.gencat.cat/ca/inici and matched with easyprivacy.txt filter ||stats.g.doubleclick.net^"
+          }
+        ],
+        "timestamp": "2021-05-20T14:49:17.541Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://6097421.global.siteimproveanalytics.io/image.aspx?url=https%3A%2F%2Fweb.gencat.cat%2Fca%2Finici&title=Inici.%20gencat.cat&res=1680x927&accountid=6097421&rt=2696&prev=1b566548-4317-4c2a-aec0-2a3fba88f0bc&luid=d53b93d0-940e-3438-d434-6d7505c99ee3&rnd=96308",
+      "query": {
+        "url": "https://web.gencat.cat/ca/inici",
+        "title": "Inici. gencat.cat",
+        "res": "1680x927",
+        "accountid": 6097421,
+        "rt": 2696,
+        "prev": "1b566548-4317-4c2a-aec0-2a3fba88f0bc",
+        "luid": "d53b93d0-940e-3438-d434-6d7505c99ee3",
+        "rnd": 96308
+      },
+      "filter": "||siteimproveanalytics.io^$third-party",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://web.gencat.cat/ca/inici",
+            "source": "requested from https://web.gencat.cat/ca/inici and matched with easyprivacy.txt filter ||siteimproveanalytics.io^$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T14:49:17.440Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://vars.hotjar.com/box-21ccaa45726c0f3c8c458f7a87eb2298.html",
+      "query": null,
+      "filter": "||hotjar.com^$third-party",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "",
+            "source": "requested from  and matched with easyprivacy.txt filter ||hotjar.com^$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T14:49:17.420Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-KDC74KQDN2&gtm=2oe5c1&_p=1180746702&sr=1680x927&ul=en-us&cid=958005.1621522157&_s=1&dl=https%3A%2F%2Fweb.gencat.cat%2Fca%2Finici&dt=Inici.%20gencat.cat&sid=1621522157&sct=1&seg=0&en=page_view&_fv=1&_ss=1&ep.page=%2Fca%2Finici%2F&ep.allowLinker=true&up._npa=1",
+      "query": {
+        "v": 2,
+        "tid": "G-KDC74KQDN2",
+        "gtm": "2oe5c1",
+        "_p": 1180746702,
+        "sr": "1680x927",
+        "ul": "en-us",
+        "cid": 958005.1621522157,
+        "_s": 1,
+        "dl": "https://web.gencat.cat/ca/inici",
+        "dt": "Inici. gencat.cat",
+        "sid": 1621522157,
+        "sct": 1,
+        "seg": 0,
+        "en": "page_view",
+        "_fv": 1,
+        "_ss": 1,
+        "ep.page": "/ca/inici/",
+        "ep.allowLinker": true,
+        "up._npa": 1
+      },
+      "filter": "/collect?*&tid=",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://web.gencat.cat/ca/inici",
+            "source": "requested from https://web.gencat.cat/ca/inici and matched with easyprivacy.txt filter /collect?*&tid="
+          }
+        ],
+        "timestamp": "2021-05-20T14:49:17.417Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://script.hotjar.com/modules.87b9cf5e358c50dcc8af.js",
+      "query": null,
+      "filter": "||hotjar.com^$third-party",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://web.gencat.cat/ca/inici",
+            "source": "requested from https://web.gencat.cat/ca/inici and matched with easyprivacy.txt filter ||hotjar.com^$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T14:49:17.355Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://www.google-analytics.com/j/collect?v=1&_v=j90&a=1180746702&t=pageview&_s=1&dl=https%3A%2F%2Fweb.gencat.cat%2Fca%2Finici&dp=%2Fca%2Finici%2F&ul=en-us&de=UTF-8&dt=Inici.%20gencat.cat&sd=24-bit&sr=1680x927&vp=1680x927&je=0&_u=aEDAAEABAAAAAC~&jid=1897724119&gjid=1758747612&cid=958005.1621522157&tid=UA-88115817-1&_gid=554974811.1621522157&_r=1&gtm=2wg5c1NH8MVLN&cd7=ca&cd19=GECO&z=1579063143",
+      "query": {
+        "v": 1,
+        "_v": "j90",
+        "a": 1180746702,
+        "t": "pageview",
+        "_s": 1,
+        "dl": "https://web.gencat.cat/ca/inici",
+        "dp": "/ca/inici/",
+        "ul": "en-us",
+        "de": "UTF-8",
+        "dt": "Inici. gencat.cat",
+        "sd": "24-bit",
+        "sr": "1680x927",
+        "vp": "1680x927",
+        "je": 0,
+        "_u": "aEDAAEABAAAAAC~",
+        "jid": 1897724119,
+        "gjid": 1758747612,
+        "cid": 958005.1621522157,
+        "tid": "UA-88115817-1",
+        "_gid": 554974811.1621522,
+        "_r": 1,
+        "gtm": "2wg5c1NH8MVLN",
+        "cd7": "ca",
+        "cd19": "GECO",
+        "z": 1579063143
+      },
+      "filter": "/collect?*&cid=",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://web.gencat.cat/ca/inici",
+            "source": "requested from https://web.gencat.cat/ca/inici and matched with easyprivacy.txt filter /collect?*&cid="
+          }
+        ],
+        "timestamp": "2021-05-20T14:49:17.308Z"
+      },
+      "occurrances": 4
+    },
+    {
+      "url": "https://www.googletagmanager.com/gtag/js?id=G-KDC74KQDN2&l=dataLayer&cx=c",
+      "query": {
+        "id": "G-KDC74KQDN2",
+        "l": "dataLayer",
+        "cx": "c"
+      },
+      "filter": "||googletagmanager.com/gtag/$third-party",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://web.gencat.cat/ca/inici",
+            "source": "requested from https://web.gencat.cat/ca/inici and matched with easyprivacy.txt filter ||googletagmanager.com/gtag/$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T14:49:17.305Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://siteimproveanalytics.com/js/siteanalyze_6097421.js",
+      "query": null,
+      "filter": "||siteimproveanalytics.com^$third-party",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://web.gencat.cat/ca/inici",
+            "source": "requested from https://web.gencat.cat/ca/inici and matched with easyprivacy.txt filter ||siteimproveanalytics.com^$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T14:49:16.817Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://static.hotjar.com/c/hotjar-1119240.js?sv=7",
+      "query": {
+        "sv": 7
+      },
+      "filter": "||hotjar.com^$third-party",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://web.gencat.cat/ca/inici",
+            "source": "requested from https://web.gencat.cat/ca/inici and matched with easyprivacy.txt filter ||hotjar.com^$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T14:49:16.815Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://static.hotjar.com/c/hotjar-1407596.js?sv=7",
+      "query": {
+        "sv": 7
+      },
+      "filter": "||hotjar.com^$third-party",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://web.gencat.cat/ca/inici",
+            "source": "requested from https://web.gencat.cat/ca/inici and matched with easyprivacy.txt filter ||hotjar.com^$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T14:49:16.814Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://web.gencat.cat/web/resources/fwkResponsive/fpca_peu_contacte/img/facebook.svg",
+      "query": null,
+      "filter": "/img/facebook.",
+      "listName": "fanboy-annoyance.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://web.gencat.cat/ca/inici",
+            "source": "requested from https://web.gencat.cat/ca/inici and matched with fanboy-annoyance.txt filter /img/facebook."
+          }
+        ],
+        "timestamp": "2021-05-20T14:49:16.575Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://web.gencat.cat/web/resources/fwkResponsive/fpca_peu_contacte/img/twitter.svg",
+      "query": null,
+      "filter": "/img/twitter.",
+      "listName": "fanboy-annoyance.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://web.gencat.cat/ca/inici",
+            "source": "requested from https://web.gencat.cat/ca/inici and matched with fanboy-annoyance.txt filter /img/twitter."
+          }
+        ],
+        "timestamp": "2021-05-20T14:49:16.575Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://web.gencat.cat/web/resources/fwkResponsive/fpca_peu_xarxesSocials/img/share-c.svg",
+      "query": null,
+      "filter": "/img/share-",
+      "listName": "fanboy-annoyance.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://web.gencat.cat/ca/inici",
+            "source": "requested from https://web.gencat.cat/ca/inici and matched with fanboy-annoyance.txt filter /img/share-"
+          }
+        ],
+        "timestamp": "2021-05-20T14:49:16.574Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://web.gencat.cat/web/resources/fwkResponsive/fpca_peu_xarxesSocials/img/linkedin-c.svg",
+      "query": null,
+      "filter": "/linkedin-$domain=~linkedin.com",
+      "listName": "fanboy-annoyance.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://web.gencat.cat/ca/inici",
+            "source": "requested from https://web.gencat.cat/ca/inici and matched with fanboy-annoyance.txt filter /linkedin-$domain=~linkedin.com"
+          }
+        ],
+        "timestamp": "2021-05-20T14:49:16.573Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://web.gencat.cat/web/resources/fwkResponsive/fpca_peu_xarxesSocials/img/instagram-c.svg",
+      "query": null,
+      "filter": "/img/instagram-",
+      "listName": "fanboy-annoyance.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://web.gencat.cat/ca/inici",
+            "source": "requested from https://web.gencat.cat/ca/inici and matched with fanboy-annoyance.txt filter /img/instagram-"
+          }
+        ],
+        "timestamp": "2021-05-20T14:49:16.571Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://web.gencat.cat/web/resources/fwkResponsive/fpca_peu_xarxesSocials/img/facebook-c.svg",
+      "query": null,
+      "filter": "/img/facebook-",
+      "listName": "fanboy-annoyance.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://web.gencat.cat/ca/inici",
+            "source": "requested from https://web.gencat.cat/ca/inici and matched with fanboy-annoyance.txt filter /img/facebook-"
+          }
+        ],
+        "timestamp": "2021-05-20T14:49:16.571Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://web.gencat.cat/web/resources/fwkResponsive/fpca_peu_xarxesSocials/img/twitter-c.svg",
+      "query": null,
+      "filter": "/img/twitter-",
+      "listName": "fanboy-annoyance.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://web.gencat.cat/ca/inici",
+            "source": "requested from https://web.gencat.cat/ca/inici and matched with fanboy-annoyance.txt filter /img/twitter-"
+          }
+        ],
+        "timestamp": "2021-05-20T14:49:16.570Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://web.gencat.cat/web/resources/fwkResponsives/common/img/NG_ico_rss.png_196546587.png",
+      "query": null,
+      "filter": "/img/*rss.png",
+      "listName": "fanboy-annoyance.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://web.gencat.cat/ca/inici",
+            "source": "requested from https://web.gencat.cat/ca/inici and matched with fanboy-annoyance.txt filter /img/*rss.png"
+          }
+        ],
+        "timestamp": "2021-05-20T14:49:16.567Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://web.gencat.cat/web/resources/fwkResponsives/common/img/ico_instagram.png_196546587.png",
+      "query": null,
+      "filter": "/img/*instagram.png$domain=~github.io",
+      "listName": "fanboy-annoyance.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://web.gencat.cat/ca/inici",
+            "source": "requested from https://web.gencat.cat/ca/inici and matched with fanboy-annoyance.txt filter /img/*instagram.png$domain=~github.io"
+          }
+        ],
+        "timestamp": "2021-05-20T14:49:16.566Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://web.gencat.cat/web/resources/fwkResponsives/common/img/NG_ico_facebook.png_196546587.png",
+      "query": null,
+      "filter": "/img/*facebook.png$domain=~github.io",
+      "listName": "fanboy-annoyance.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://web.gencat.cat/ca/inici",
+            "source": "requested from https://web.gencat.cat/ca/inici and matched with fanboy-annoyance.txt filter /img/*facebook.png$domain=~github.io"
+          }
+        ],
+        "timestamp": "2021-05-20T14:49:16.565Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://web.gencat.cat/web/resources/fwkResponsives/common/img/NG_ico_twitter.png_196546587.png",
+      "query": null,
+      "filter": "/img/*twitter.png$domain=~github.io",
+      "listName": "fanboy-annoyance.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://web.gencat.cat/ca/inici",
+            "source": "requested from https://web.gencat.cat/ca/inici and matched with fanboy-annoyance.txt filter /img/*twitter.png$domain=~github.io"
+          }
+        ],
+        "timestamp": "2021-05-20T14:49:16.564Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://www.googletagmanager.com/gtm.js?id=GTM-52PNNVM&l=dataLayer",
+      "query": {
+        "id": "GTM-52PNNVM",
+        "l": "dataLayer"
+      },
+      "filter": "/gtm.js",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://web.gencat.cat/ca/inici",
+            "source": "requested from https://web.gencat.cat/ca/inici and matched with easyprivacy.txt filter /gtm.js"
+          }
+        ],
+        "timestamp": "2021-05-20T14:49:16.286Z"
+      },
+      "occurrances": 2
+    },
+    {
+      "url": "https://www.google-analytics.com/analytics.js",
+      "query": null,
+      "filter": "||google-analytics.com/analytics.js",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://web.gencat.cat/ca/inici",
+            "source": "requested from https://web.gencat.cat/ca/inici and matched with easyprivacy.txt filter ||google-analytics.com/analytics.js"
+          }
+        ],
+        "timestamp": "2021-05-20T14:49:16.285Z"
+      },
+      "occurrances": 1
+    }
+  ],
+  "hosts": {
+    "requests": {
+      "firstParty": [
+        "gencat.cat"
+      ],
+      "thirdParty": [
+        "web.gencat.cat",
+        "translate.google.com",
+        "www.googletagmanager.com",
+        "www.google-analytics.com",
+        "translate.googleapis.com",
+        "static.hotjar.com",
+        "siteimproveanalytics.com",
+        "sdk.inbenta.io",
+        "www.gstatic.com",
+        "script.hotjar.com",
+        "vars.hotjar.com",
+        "6097421.global.siteimproveanalytics.io",
+        "api.inbenta.io",
+        "stats.g.doubleclick.net",
+        "api-gce2.inbenta.io"
+      ]
+    },
+    "beacons": {
+      "firstParty": [],
+      "thirdParty": [
+        "6097421.global.siteimproveanalytics.io",
+        "stats.g.doubleclick.net",
+        "vars.hotjar.com",
+        "www.google-analytics.com",
+        "script.hotjar.com",
+        "www.googletagmanager.com",
+        "siteimproveanalytics.com",
+        "static.hotjar.com"
+      ]
+    },
+    "cookies": {
+      "firstParty": [
+        "gencat.cat"
+      ],
+      "thirdParty": [
+        "web.gencat.cat",
+        "google.com",
+        "6097421.global.siteimproveanalytics.io"
+      ]
+    },
+    "localStorage": {
+      "firstParty": [],
+      "thirdParty": [
+        "web.gencat.cat"
+      ]
+    },
+    "links": {
+      "firstParty": [],
+      "thirdParty": [
+        "web.gencat.cat",
+        "ovt.gencat.cat",
+        "atc.gencat.cat",
+        "canalsalut.gencat.cat",
+        "catsalut.gencat.cat",
+        "dogc.gencat.cat",
+        "www.eacat.cat",
+        "idp.eacat.net",
+        "canalempresa.gencat.cat",
+        "contractaciopublica.gencat.cat",
+        "etributs.gencat.cat",
+        "tauler.gencat.cat",
+        "salut.gencat.cat",
+        "mossos.gencat.cat",
+        "seujudicial.gencat.cat",
+        "icaen.gencat.cat",
+        "www.aoc.cat",
+        "www.president.cat",
+        "govern.cat",
+        "www.parlament.cat",
+        "municat.gencat.cat",
+        "boe.es",
+        "revistes.eapc.gencat.cat",
+        "presidencia.gencat.cat",
+        "politiquesdigitals.gencat.cat",
+        "llibreria.gencat.cat",
+        "identitatcorporativa.gencat.cat",
+        "governobert.gencat.cat",
+        "butlletins.gencat.cat",
+        "generalitat.blog.gencat.cat",
+        "feinaactiva.gencat.cat",
+        "agenda.cultura.gencat.cat",
+        "habitatge.gencat.cat",
+        "www.gencat.cat",
+        "twitter.com",
+        "www.facebook.com",
+        "www.instagram.com",
+        "telegram.me",
+        "www.inbenta.com",
+        "t.me",
+        "gen.cat",
+        "wa.me",
+        "www.linkedin.com",
+        "www.youtube.com"
+      ]
+    }
+  }
+}

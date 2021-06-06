@@ -1,0 +1,673 @@
+{
+  "title": "Website Evidence Collection",
+  "task_description": null,
+  "uri_ins": "https://wyylde.com",
+  "uri_refs": [
+    "https://wyylde.com"
+  ],
+  "uri_dest": "https://wyylde.com/",
+  "uri_redirects": [],
+  "secure_connection": {
+    "https_support": true,
+    "redirects": [
+      "https://wyylde.com/"
+    ],
+    "https_redirect": true
+  },
+  "host": "wyylde.com",
+  "script": {
+    "host": "sfod",
+    "version": {
+      "npm": "1.0.0",
+      "commit": null
+    },
+    "cmd_args": "-q --overwrite https://wyylde.com -- --ignore-certificate-errors",
+    "environment": {
+      "CHROME_DESKTOP": "code-url-handler.desktop"
+    },
+    "node_version": "v14.17.0"
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "HeadlessChrome/80.0.3987.0",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3617.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "5.8.0-53-generic"
+    },
+    "extra_headers": {},
+    "preset_cookies": {}
+  },
+  "start_time": "2021-05-20T15:36:24.623Z",
+  "end_time": "2021-05-20T15:36:31.880Z",
+  "links": {
+    "firstParty": [
+      {
+        "href": "https://wyylde.com/",
+        "inner_text": "",
+        "inner_html": "<img alt=\"wyylde\" src=\"/images/landing/logo-wyylde-19.png\" width=\"208\" height=\"64\">"
+      },
+      {
+        "href": "https://wyylde.com/charte",
+        "inner_text": "The Wyylde Etiquette",
+        "inner_html": "The Wyylde Etiquette"
+      },
+      {
+        "href": "https://wyylde.com/policies",
+        "inner_text": "CGU",
+        "inner_html": "CGU"
+      }
+    ],
+    "thirdParty": [
+      {
+        "href": "https://www.facebook.com/wyylde",
+        "inner_text": "",
+        "inner_html": "<img src=\"/images/landing/logos/fb.png\" alt=\"facebook\" width=\"13\" height=\"25\">"
+      },
+      {
+        "href": "https://www.instagram.com/wyylde",
+        "inner_text": "",
+        "inner_html": "<img src=\"/images/landing/logos/insta.png\" alt=\"instagram\" width=\"25\" height=\"25\">"
+      },
+      {
+        "href": "https://www.youtube.com/channel/UCNB0XY3EOrdiDjcbll_JHUQ",
+        "inner_text": "",
+        "inner_html": "<img src=\"/images/landing/logos/yt.png\" alt=\"youtube\" width=\"32\" height=\"23\">"
+      },
+      {
+        "href": "https://twitter.com/Wyylde",
+        "inner_text": "",
+        "inner_html": "<img src=\"/images/landing/logos/tw.png\" alt=\"twitter\" width=\"26\" height=\"22\">"
+      },
+      {
+        "href": "https://en-us.wyylde.com/",
+        "inner_text": "English (US)",
+        "inner_html": "English (US)"
+      },
+      {
+        "href": "https://es-es.wyylde.com/",
+        "inner_text": "Español (España)",
+        "inner_html": "Español (España)"
+      },
+      {
+        "href": "https://fr-fr.wyylde.com/",
+        "inner_text": "Français",
+        "inner_html": "Français"
+      },
+      {
+        "href": "https://es-la.wyylde.com/",
+        "inner_text": "Español",
+        "inner_html": "Español"
+      },
+      {
+        "href": "https://en-gb.wyylde.com/",
+        "inner_text": "English (UK)",
+        "inner_html": "English (UK)"
+      },
+      {
+        "href": "https://it-it.wyylde.com/",
+        "inner_text": "Italiano",
+        "inner_html": "Italiano"
+      },
+      {
+        "href": "https://pt-pt.wyylde.com/",
+        "inner_text": "Português",
+        "inner_html": "Português"
+      },
+      {
+        "href": "https://pt-br.wyylde.com/",
+        "inner_text": "Português (Brasil)",
+        "inner_html": "Português (Brasil)"
+      }
+    ],
+    "social": [
+      {
+        "href": "https://www.facebook.com/wyylde",
+        "inner_text": "",
+        "inner_html": "<img src=\"/images/landing/logos/fb.png\" alt=\"facebook\" width=\"13\" height=\"25\">"
+      },
+      {
+        "href": "https://www.instagram.com/wyylde",
+        "inner_text": "",
+        "inner_html": "<img src=\"/images/landing/logos/insta.png\" alt=\"instagram\" width=\"25\" height=\"25\">"
+      },
+      {
+        "href": "https://www.youtube.com/channel/UCNB0XY3EOrdiDjcbll_JHUQ",
+        "inner_text": "",
+        "inner_html": "<img src=\"/images/landing/logos/yt.png\" alt=\"youtube\" width=\"32\" height=\"23\">"
+      },
+      {
+        "href": "https://twitter.com/Wyylde",
+        "inner_text": "",
+        "inner_html": "<img src=\"/images/landing/logos/tw.png\" alt=\"twitter\" width=\"26\" height=\"22\">"
+      }
+    ],
+    "keywords": []
+  },
+  "unsafeForms": [],
+  "browsing_history": [
+    "https://wyylde.com/"
+  ],
+  "websockets": {},
+  "cookies": [
+    {
+      "name": "_ga",
+      "value": "GA1.2.303912332.1621524986",
+      "domain": "wyylde.com",
+      "path": "/",
+      "expires": 1684596986,
+      "size": 29,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2023-05-20T15:36:26.000Z",
+      "expiresDays": 730,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 495,
+            "lineNumber": 30,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "zc",
+            "source": "    at zc (https://www.google-analytics.com/analytics.js:30:495)"
+          },
+          {
+            "columnNumber": 15,
+            "lineNumber": 60,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "ma",
+            "source": "    at ma (https://www.google-analytics.com/analytics.js:60:15)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T15:36:26.200Z",
+        "location": "https://wyylde.com/"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "PAPVisitorId",
+      "value": "rsBnZ02QgYBh0znhet86msXdmkQWh1qQ",
+      "domain": "postaffiliatepro.com",
+      "path": "/",
+      "expires": 1653081912.131777,
+      "size": 44,
+      "httpOnly": false,
+      "secure": true,
+      "session": false,
+      "sameSite": "None",
+      "expiresUTC": "2022-05-20T21:25:12.131Z",
+      "expiresDays": 365.24,
+      "firstPartyStorage": false
+    },
+    {
+      "name": "PAPVisitorId",
+      "value": "rsBnZ02QgYBh0znhet86msXdmkQWh1qQ",
+      "domain": "wyylde.com",
+      "path": "/",
+      "expires": 1653060986,
+      "size": 44,
+      "httpOnly": false,
+      "secure": true,
+      "session": false,
+      "sameSite": "None",
+      "expiresUTC": "2022-05-20T15:36:26.000Z",
+      "expiresDays": 365,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 16,
+            "lineNumber": 81,
+            "fileName": "https://netech.postaffiliatepro.com/scripts/yf5u6ja8",
+            "functionName": "Function.PostAffCookie.setHttpCookieInner",
+            "source": "    at Function.PostAffCookie.setHttpCookieInner (https://netech.postaffiliatepro.com/scripts/yf5u6ja8:81:16)"
+          },
+          {
+            "columnNumber": 168,
+            "lineNumber": 77,
+            "fileName": "https://netech.postaffiliatepro.com/scripts/yf5u6ja8",
+            "functionName": "Function.PostAffCookie.setHttpCookie",
+            "source": "    at Function.PostAffCookie.setHttpCookie (https://netech.postaffiliatepro.com/scripts/yf5u6ja8:77:168)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T15:36:26.142Z",
+        "location": "https://wyylde.com/"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "AWSALBCORS",
+      "value": "Izc2q52okd48URQZUnOnOzOScZuDtaMA2vdWzVq3vlT6dz9k/uxcWxU814SdFpZgY/7g1aaNkjeEwVFQqr9pT7BgIKC9YseYMCGPnIsYcVaj8737JRyiKnCJLCfn",
+      "domain": "wyylde.com",
+      "path": "/",
+      "expires": 1622129785.495855,
+      "size": 134,
+      "httpOnly": false,
+      "secure": true,
+      "session": false,
+      "sameSite": "None",
+      "expiresUTC": "2021-05-27T15:36:25.495Z",
+      "expiresDays": 7,
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://wyylde.com/",
+            "source": "set in Set-Cookie HTTP response header for https://wyylde.com/"
+          }
+        ],
+        "type": "Cookie.HTTP",
+        "timestamp": "2021-05-20T15:36:24.972Z",
+        "location": "about:blank"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "AWSALB",
+      "value": "Izc2q52okd48URQZUnOnOzOScZuDtaMA2vdWzVq3vlT6dz9k/uxcWxU814SdFpZgY/7g1aaNkjeEwVFQqr9pT7BgIKC9YseYMCGPnIsYcVaj8737JRyiKnCJLCfn",
+      "domain": "wyylde.com",
+      "path": "/",
+      "expires": 1622129785.495756,
+      "size": 130,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2021-05-27T15:36:25.495Z",
+      "expiresDays": 7,
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://wyylde.com/",
+            "source": "set in Set-Cookie HTTP response header for https://wyylde.com/"
+          }
+        ],
+        "type": "Cookie.HTTP",
+        "timestamp": "2021-05-20T15:36:24.972Z",
+        "location": "about:blank"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "_gid",
+      "value": "GA1.2.912391843.1621524986",
+      "domain": "wyylde.com",
+      "path": "/",
+      "expires": 1621611386,
+      "size": 30,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2021-05-21T15:36:26.000Z",
+      "expiresDays": 1,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 495,
+            "lineNumber": 30,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "zc",
+            "source": "    at zc (https://www.google-analytics.com/analytics.js:30:495)"
+          },
+          {
+            "columnNumber": 401,
+            "lineNumber": 59,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "ma",
+            "source": "    at ma (https://www.google-analytics.com/analytics.js:59:401)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T15:36:26.202Z",
+        "location": "https://wyylde.com/"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "_gat_UA-173595-23",
+      "value": "1",
+      "domain": "wyylde.com",
+      "path": "/",
+      "expires": 1621525046,
+      "size": 18,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2021-05-20T15:37:26.000Z",
+      "expiresDays": 0,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 495,
+            "lineNumber": 30,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "zc",
+            "source": "    at zc (https://www.google-analytics.com/analytics.js:30:495)"
+          },
+          {
+            "columnNumber": 31,
+            "lineNumber": 73,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "Qd",
+            "source": "    at Qd (https://www.google-analytics.com/analytics.js:73:31)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T15:36:26.195Z",
+        "location": "https://wyylde.com/"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "_gat_UA-96391071-1",
+      "value": "1",
+      "domain": "wyylde.com",
+      "path": "/",
+      "expires": 1621525046,
+      "size": 19,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2021-05-20T15:37:26.000Z",
+      "expiresDays": 0,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 495,
+            "lineNumber": 30,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "zc",
+            "source": "    at zc (https://www.google-analytics.com/analytics.js:30:495)"
+          },
+          {
+            "columnNumber": 31,
+            "lineNumber": 73,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "Qd",
+            "source": "    at Qd (https://www.google-analytics.com/analytics.js:73:31)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T15:36:26.202Z",
+        "location": "https://wyylde.com/"
+      },
+      "firstPartyStorage": true
+    }
+  ],
+  "localStorage": {
+    "https://wyylde.com": {
+      "PAPVisitorId": {
+        "value": "rsBnZ02QgYBh0znhet86msXdmkQWh1qQ",
+        "firstPartyStorage": [
+          "wyylde.com",
+          "wyylde.com"
+        ],
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 198,
+              "lineNumber": 50,
+              "fileName": "https://netech.postaffiliatepro.com/scripts/yf5u6ja8",
+              "functionName": "PostAffCookieManager.writeVisitorIdToHTMLStorage",
+              "source": "    at PostAffCookieManager.writeVisitorIdToHTMLStorage (https://netech.postaffiliatepro.com/scripts/yf5u6ja8:50:198)"
+            },
+            {
+              "columnNumber": 175,
+              "lineNumber": 61,
+              "fileName": "https://netech.postaffiliatepro.com/scripts/yf5u6ja8",
+              "functionName": "PostAffCookieManager.setVisitorId",
+              "source": "    at PostAffCookieManager.setVisitorId (https://netech.postaffiliatepro.com/scripts/yf5u6ja8:61:175)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T15:36:26.142Z",
+          "location": "https://wyylde.com/"
+        }
+      },
+      "wyylde-data": {
+        "value": {
+          "cache.tick": "18767"
+        },
+        "firstPartyStorage": [
+          "wyylde.com",
+          "wyylde.com"
+        ],
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 839410,
+              "lineNumber": 1,
+              "fileName": "https://wyylde.com/static/js/client.a411df4c.chunk.js",
+              "functionName": "u",
+              "source": "    at u (https://wyylde.com/static/js/client.a411df4c.chunk.js:1:839410)"
+            },
+            {
+              "columnNumber": 839701,
+              "lineNumber": 1,
+              "fileName": "https://wyylde.com/static/js/client.a411df4c.chunk.js",
+              "source": "    at https://wyylde.com/static/js/client.a411df4c.chunk.js:1:839701"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T15:36:25.609Z",
+          "location": "https://wyylde.com/"
+        }
+      }
+    }
+  },
+  "beacons": [
+    {
+      "url": "https://stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j90&tid=UA-173595-23&cid=303912332.1621524986&jid=1347468749&gjid=1975070811&_gid=912391843.1621524986&_u=YEBAAEAAAAAAAC~&z=717202718",
+      "query": {
+        "t": "dc",
+        "aip": 1,
+        "_r": 3,
+        "v": 1,
+        "_v": "j90",
+        "tid": "UA-173595-23",
+        "cid": 303912332.16215247,
+        "jid": 1347468749,
+        "gjid": 1975070811,
+        "_gid": 912391843.1621525,
+        "_u": "YEBAAEAAAAAAAC~",
+        "z": 717202718
+      },
+      "filter": "||stats.g.doubleclick.net^",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://wyylde.com/",
+            "source": "requested from https://wyylde.com/ and matched with easyprivacy.txt filter ||stats.g.doubleclick.net^"
+          }
+        ],
+        "timestamp": "2021-05-20T15:36:26.239Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://www.google-analytics.com/j/collect?v=1&_v=j90&a=199826015&t=pageview&_s=1&dl=https%3A%2F%2Fwyylde.com%2F&dp=%2F&ul=en-us&de=UTF-8&dt=The%20largest%20adult%20playground%20for%20open-minded%20couples%20%26%20singles%20%7C%20Wyylde&sd=24-bit&sr=1680x927&vp=1680x927&je=0&_u=YEDAAEABAAAAAC~&jid=1395510930&gjid=426986741&cid=303912332.1621524986&tid=UA-96391071-1&_gid=912391843.1621524986&_r=1&gtm=2wg5c1T9SWM6&z=947569672",
+      "query": {
+        "v": 1,
+        "_v": "j90",
+        "a": 199826015,
+        "t": "pageview",
+        "_s": 1,
+        "dl": "https://wyylde.com/",
+        "dp": "/",
+        "ul": "en-us",
+        "de": "UTF-8",
+        "dt": "The largest adult playground for open-minded couples & singles | Wyylde",
+        "sd": "24-bit",
+        "sr": "1680x927",
+        "vp": "1680x927",
+        "je": 0,
+        "_u": "YEDAAEABAAAAAC~",
+        "jid": 1395510930,
+        "gjid": 426986741,
+        "cid": 303912332.16215247,
+        "tid": "UA-96391071-1",
+        "_gid": 912391843.1621525,
+        "_r": 1,
+        "gtm": "2wg5c1T9SWM6",
+        "z": 947569672
+      },
+      "filter": "/collect?*&cid=",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://wyylde.com/",
+            "source": "requested from https://wyylde.com/ and matched with easyprivacy.txt filter /collect?*&cid="
+          }
+        ],
+        "timestamp": "2021-05-20T15:36:26.203Z"
+      },
+      "occurrances": 2
+    },
+    {
+      "url": "https://netech.postaffiliatepro.com/scripts/yf5u6ra8?accountId=default1&url=S_wyylde.com%2F&referrer=&isInIframe=false&getParams=&anchor=",
+      "query": {
+        "accountId": "default1",
+        "url": "S_wyylde.com/",
+        "referrer": "",
+        "isInIframe": false,
+        "getParams": "",
+        "anchor": ""
+      },
+      "filter": "||postaffiliatepro.com^$third-party",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://wyylde.com/",
+            "source": "requested from https://wyylde.com/ and matched with easyprivacy.txt filter ||postaffiliatepro.com^$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T15:36:26.071Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://netech.postaffiliatepro.com/scripts/yf5u6ja8",
+      "query": null,
+      "filter": "||postaffiliatepro.com^$third-party",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://wyylde.com/",
+            "source": "requested from https://wyylde.com/ and matched with easyprivacy.txt filter ||postaffiliatepro.com^$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T15:36:25.887Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://www.google-analytics.com/analytics.js",
+      "query": null,
+      "filter": "||google-analytics.com/analytics.js",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://wyylde.com/",
+            "source": "requested from https://wyylde.com/ and matched with easyprivacy.txt filter ||google-analytics.com/analytics.js"
+          }
+        ],
+        "timestamp": "2021-05-20T15:36:25.885Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://www.googletagmanager.com/gtm.js?id=GTM-T9SWM6",
+      "query": {
+        "id": "GTM-T9SWM6"
+      },
+      "filter": "/gtm.js",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://wyylde.com/",
+            "source": "requested from https://wyylde.com/ and matched with easyprivacy.txt filter /gtm.js"
+          }
+        ],
+        "timestamp": "2021-05-20T15:36:25.615Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://wyylde.com/images/landing/logos/fb.png",
+      "query": null,
+      "filter": "/logos/fb.",
+      "listName": "fanboy-annoyance.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://wyylde.com/",
+            "source": "requested from https://wyylde.com/ and matched with fanboy-annoyance.txt filter /logos/fb."
+          }
+        ],
+        "timestamp": "2021-05-20T15:36:25.011Z"
+      },
+      "occurrances": 1
+    }
+  ],
+  "hosts": {
+    "requests": {
+      "firstParty": [
+        "wyylde.com"
+      ],
+      "thirdParty": [
+        "https",
+        "www.googletagmanager.com",
+        "www.google-analytics.com",
+        "netech.postaffiliatepro.com",
+        "stats.g.doubleclick.net"
+      ]
+    },
+    "beacons": {
+      "firstParty": [],
+      "thirdParty": [
+        "stats.g.doubleclick.net",
+        "www.google-analytics.com",
+        "netech.postaffiliatepro.com",
+        "www.googletagmanager.com"
+      ]
+    },
+    "cookies": {
+      "firstParty": [
+        "wyylde.com"
+      ],
+      "thirdParty": [
+        "postaffiliatepro.com"
+      ]
+    },
+    "localStorage": {
+      "firstParty": [
+        "wyylde.com"
+      ],
+      "thirdParty": []
+    },
+    "links": {
+      "firstParty": [
+        "wyylde.com"
+      ],
+      "thirdParty": [
+        "www.facebook.com",
+        "www.instagram.com",
+        "www.youtube.com",
+        "twitter.com",
+        "en-us.wyylde.com",
+        "es-es.wyylde.com",
+        "fr-fr.wyylde.com",
+        "es-la.wyylde.com",
+        "en-gb.wyylde.com",
+        "it-it.wyylde.com",
+        "pt-pt.wyylde.com",
+        "pt-br.wyylde.com"
+      ]
+    }
+  }
+}

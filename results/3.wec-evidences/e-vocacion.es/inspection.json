@@ -1,0 +1,173 @@
+{
+  "title": "Website Evidence Collection",
+  "task_description": null,
+  "uri_ins": "https://e-vocacion.es",
+  "uri_refs": [
+    "https://e-vocacion.es"
+  ],
+  "uri_dest": "https://www.e-vocacion.es/site/idioma",
+  "uri_redirects": [
+    "https://e-vocacion.es/",
+    "https://www.e-vocacion.es/"
+  ],
+  "secure_connection": {
+    "https_support": true,
+    "redirects": [
+      "https://www.e-vocacion.es/",
+      "https://www.e-vocacion.es/site/idioma"
+    ],
+    "https_redirect": true
+  },
+  "host": "e-vocacion.es",
+  "script": {
+    "host": "sfod",
+    "version": {
+      "npm": "1.0.0",
+      "commit": null
+    },
+    "cmd_args": "-q --overwrite https://e-vocacion.es -- --ignore-certificate-errors",
+    "environment": {
+      "CHROME_DESKTOP": "code-url-handler.desktop"
+    },
+    "node_version": "v14.17.0"
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "HeadlessChrome/80.0.3987.0",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3617.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "5.8.0-53-generic"
+    },
+    "extra_headers": {},
+    "preset_cookies": {}
+  },
+  "start_time": "2021-05-20T16:27:23.889Z",
+  "end_time": "2021-05-20T16:27:30.013Z",
+  "links": {
+    "firstParty": [],
+    "thirdParty": [
+      {
+        "href": "https://www.e-vocacion.es/",
+        "inner_text": "",
+        "inner_html": "<img src=\"/themes/evocacion/images/logo-blanco-transparente.png\" alt=\"e-vocación\" border=\"0\">"
+      },
+      {
+        "href": "https://www.e-vocacion.es/site/idioma",
+        "inner_text": "Castellano",
+        "inner_html": "Castellano"
+      }
+    ],
+    "social": [],
+    "keywords": []
+  },
+  "unsafeForms": [],
+  "browsing_history": [
+    "https://www.e-vocacion.es/site/idioma"
+  ],
+  "websockets": {},
+  "cookies": [
+    {
+      "name": "PHPSESSID",
+      "value": "vfo5h7v81lbqphibd9luramkb6",
+      "domain": "www.e-vocacion.es",
+      "path": "/",
+      "expires": -1,
+      "size": 35,
+      "httpOnly": false,
+      "secure": true,
+      "session": true,
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.e-vocacion.es/",
+            "source": "set in Set-Cookie HTTP response header for https://www.e-vocacion.es/"
+          }
+        ],
+        "type": "Cookie.HTTP",
+        "timestamp": "2021-05-20T16:27:24.557Z",
+        "location": "about:blank"
+      },
+      "firstPartyStorage": false
+    },
+    {
+      "name": "AWSELB",
+      "value": "A3D5BB96ED657B9EF732A6103C5301BFF7F8F2AE34D3BD67C8F669F74C1CEE7A37C6BB297C52BF32699384F4444820B01A48472E72038109064405D471A7498FF6247A68D31A429BF7828D3DA2D8C771236FE7E0",
+      "domain": "www.e-vocacion.es",
+      "path": "/",
+      "expires": -1,
+      "size": 174,
+      "httpOnly": false,
+      "secure": true,
+      "session": true,
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.e-vocacion.es/",
+            "source": "set in Set-Cookie HTTP response header for https://www.e-vocacion.es/"
+          }
+        ],
+        "type": "Cookie.HTTP",
+        "timestamp": "2021-05-20T16:27:24.557Z",
+        "location": "about:blank"
+      },
+      "firstPartyStorage": false
+    },
+    {
+      "name": "YII_CSRF_TOKEN",
+      "value": "1a20aa0660c0bd9c0927235856de8e0792fc541ds%3A88%3A%22fmJaaVdyRmlOam9jRTgyMW5jZkxkb0lMNmk2UG0xMEmDZNau67KrJtsAybNs5RFDLxH-C6WvgVNXiVs5oZdtNQ%3D%3D%22%3B",
+      "domain": "www.e-vocacion.es",
+      "path": "/",
+      "expires": -1,
+      "size": 164,
+      "httpOnly": false,
+      "secure": false,
+      "session": true,
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.e-vocacion.es/site/idioma",
+            "source": "set in Set-Cookie HTTP response header for https://www.e-vocacion.es/site/idioma"
+          }
+        ],
+        "type": "Cookie.HTTP",
+        "timestamp": "2021-05-20T16:27:24.675Z",
+        "location": "about:blank"
+      },
+      "firstPartyStorage": false
+    }
+  ],
+  "localStorage": {},
+  "beacons": [],
+  "hosts": {
+    "requests": {
+      "firstParty": [
+        "e-vocacion.es"
+      ],
+      "thirdParty": [
+        "www.e-vocacion.es",
+        "fast.fonts.net"
+      ]
+    },
+    "beacons": {
+      "firstParty": [],
+      "thirdParty": []
+    },
+    "cookies": {
+      "firstParty": [],
+      "thirdParty": [
+        "www.e-vocacion.es"
+      ]
+    },
+    "localStorage": {
+      "firstParty": [],
+      "thirdParty": []
+    },
+    "links": {
+      "firstParty": [],
+      "thirdParty": [
+        "www.e-vocacion.es"
+      ]
+    }
+  }
+}

@@ -1,0 +1,4083 @@
+{
+  "title": "Website Evidence Collection",
+  "task_description": null,
+  "uri_ins": "https://expansion.com",
+  "uri_refs": [
+    "https://expansion.com"
+  ],
+  "uri_dest": "https://www.expansion.com/",
+  "uri_redirects": [
+    "https://expansion.com/"
+  ],
+  "secure_connection": {
+    "https_support": true,
+    "redirects": [
+      "https://www.expansion.com/"
+    ],
+    "https_redirect": true
+  },
+  "host": "expansion.com",
+  "script": {
+    "host": "sfod",
+    "version": {
+      "npm": "1.0.0",
+      "commit": null
+    },
+    "cmd_args": "-q --overwrite https://expansion.com -- --ignore-certificate-errors",
+    "environment": {
+      "CHROME_DESKTOP": "code-url-handler.desktop"
+    },
+    "node_version": "v14.17.0"
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "HeadlessChrome/80.0.3987.0",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3617.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "5.8.0-53-generic"
+    },
+    "extra_headers": {},
+    "preset_cookies": {}
+  },
+  "start_time": "2021-05-20T15:28:39.534Z",
+  "end_time": "2021-05-20T15:28:51.704Z",
+  "links": {
+    "firstParty": [],
+    "thirdParty": [
+      {
+        "href": "http://cookies.unidadeditorial.es/",
+        "inner_text": "Cookie Policy",
+        "inner_html": "<u>Cookie Policy</u>"
+      },
+      {
+        "href": "https://www.expansion.com/catalunya.html?intcmp=GEN22401&s_kw=catalunya",
+        "inner_text": "",
+        "inner_html": "Cataluña"
+      },
+      {
+        "href": "https://www.expansion.com/valencia.html?intcmp=GEN22401&s_kw=valencia",
+        "inner_text": "",
+        "inner_html": "C. Valenciana"
+      },
+      {
+        "href": "https://www.expansion.com/pais-vasco.html?intcmp=GEN22401&s_kw=paisvasco",
+        "inner_text": "",
+        "inner_html": "País Vasco"
+      },
+      {
+        "href": "https://www.expansion.com/promociones/2021/03/35-aniversario/",
+        "inner_text": "",
+        "inner_html": "<svg version=\"1.1\" id=\"Capa_1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" width=\"58.455px\" height=\"59px\" viewBox=\"0 0 58.455 59\" enable-background=\"new 0 0 58.455 59\" xml:space=\"preserve\">\n<circle fill=\"#F8EDDF\" cx=\"29.228\" cy=\"24.02\" r=\"24.021\"></circle>\n<path fill=\"#0071B6\" d=\"M9.128,23.912c0,11.102,8.999,20.1,20.101,20.1c11.099,0,20.099-8.998,20.099-20.1\n                c0-11.102-9-20.1-20.099-20.1C18.126,3.812,9.128,12.81,9.128,23.912 M8.101,23.912c0-11.667,9.458-21.125,21.128-21.125\n                c11.667,0,21.125,9.458,21.125,21.125c0,11.668-9.457,21.127-21.125,21.127C17.559,45.039,8.101,35.58,8.101,23.912\"></path>\n<path fill=\"#0071B6\" d=\"M21.228,33.121c-3.698,0-6.057-1.553-6.057-3.493c0-1.402,1.044-2.236,2.177-2.236\n                c2.147,0,2.567,1.968,2.179,3.938c0.478,0.447,1.195,0.686,1.909,0.686c1.612,0,2.954-1.283,2.954-3.163\n                c0-1.881-1.192-4.415-6.086-5.102v-0.356c4.117-1.405,5.371-2.775,5.371-4.266c0-1.195-0.985-2.3-3.073-2.3\n                c-1.491,0-2.743,0.418-4.237,1.075l-0.267-0.33c1.521-2.236,3.907-3.637,6.384-3.637c3.25,0,4.772,1.819,4.772,3.728\n                c0,1.85-1.013,3.252-3.819,4.296v0.207c3.341,0.838,4.506,2.986,4.506,5.253C27.941,31.061,24.839,33.121,21.228,33.121\"></path>\n<path fill=\"#0071B6\" d=\"M36.115,33.121c-3.668,0-5.789-1.553-5.789-3.493c0-1.402,1.047-2.236,2.18-2.236\n                c2.149,0,2.566,1.968,2.149,3.938c0.387,0.416,1.045,0.686,1.761,0.686c1.458,0,2.981-1.371,2.981-3.908\n                c0-2.358-1.55-4.087-4.802-4.087c-0.929,0-1.852,0.148-2.868,0.445l-0.503-0.116l1.015-9.938h8.44l1.135-1.462l0.415,0.121\n                l-0.445,4.773h-8.591l-0.329,3.222l0.121,0.058c0.952-0.118,1.849-0.207,2.801-0.207c5.252,0,7.161,2.504,7.161,5.757\n                C42.947,30.225,40.232,33.121,36.115,33.121\"></path>\n<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" fill=\"#126AA7\" d=\"M0,59h1.007l0.525-1.516h2.419L4.469,59h1.103l-2.256-6.397H2.256\n                L0,59z M1.861,56.539l0.886-2.584h0.017l0.869,2.584H1.861z\"></path>\n<polygon fill-rule=\"evenodd\" clip-rule=\"evenodd\" fill=\"#126AA7\" points=\"6.504,59 7.504,59 7.504,54.361 7.521,54.361 10.646,59 \n                11.627,59 11.627,52.631 10.629,52.631 10.629,57.175 10.611,57.175 7.6,52.631 6.504,52.631 \"></polygon>\n<rect x=\"13.143\" y=\"52.629\" fill-rule=\"evenodd\" clip-rule=\"evenodd\" fill=\"#126AA7\" width=\"1.085\" height=\"6.371\"></rect>\n<polygon fill-rule=\"evenodd\" clip-rule=\"evenodd\" fill=\"#126AA7\" points=\"17.445,59 18.462,59 20.674,52.603 19.658,52.603 \n                17.989,57.571 17.971,57.571 16.327,52.603 15.234,52.603 \"></polygon>\n<polygon fill-rule=\"evenodd\" clip-rule=\"evenodd\" fill=\"#126AA7\" points=\"21.611,59 25.899,59 25.899,58.02 22.687,58.02 \n                22.687,56.171 24.916,56.171 24.916,55.213 22.687,55.213 22.687,53.63 25.726,53.63 25.726,52.631 21.611,52.631 \"></polygon>\n<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" fill=\"#126AA7\" d=\"M26.955,59h1.058v-2.512h1.119L30.563,59h1.154l-1.497-2.651\n                c0.886-0.216,1.411-0.79,1.411-1.806c0-1.304-0.879-1.912-2.394-1.912h-2.281V59z M28.013,55.551v-1.94h1.172\n                c0.912,0,1.385,0.226,1.385,0.957c0,0.757-0.48,0.983-1.377,0.983H28.013z\"></path>\n<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" fill=\"#126AA7\" d=\"M35.047,59c1.516,0,2.402-0.818,2.402-1.862\n                c0-1.193-0.966-1.59-2.171-1.945c-1.042-0.309-1.495-0.507-1.495-1.102c0-0.466,0.404-0.723,1.11-0.723\n                c0.688,0,1.229,0.293,1.607,0.929l0.783-0.541c-0.386-0.748-1.127-1.371-2.383-1.371c-1.294,0-2.178,0.718-2.178,1.802\n                c0,1.213,0.989,1.55,2.221,1.91c1.049,0.312,1.444,0.571,1.444,1.119c0,0.579-0.523,0.827-1.298,0.827\n                c-0.792,0-1.378-0.363-1.757-1.11l-0.854,0.448C32.887,58.345,33.783,59,35.047,59\"></path>\n<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" fill=\"#126AA7\" d=\"M37.894,59H38.9l0.524-1.516h2.421L42.362,59h1.102l-2.256-6.397\n                h-1.06L37.894,59z M39.752,56.539l0.889-2.584h0.016l0.87,2.584H39.752z\"></path>\n<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" fill=\"#126AA7\" d=\"M44.399,59h1.058v-2.512h1.119L48.005,59h1.153l-1.495-2.651\n                c0.885-0.216,1.41-0.79,1.41-1.806c0-1.304-0.877-1.912-2.395-1.912h-2.279V59z M45.457,55.551v-1.94h1.173\n                c0.911,0,1.385,0.226,1.385,0.957c0,0.757-0.484,0.983-1.379,0.983H45.457z\"></path>\n<rect x=\"50.414\" y=\"52.629\" fill-rule=\"evenodd\" clip-rule=\"evenodd\" fill=\"#126AA7\" width=\"1.084\" height=\"6.371\"></rect>\n<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" fill=\"#126AA7\" d=\"M55.587,59c1.61,0,2.868-1.163,2.868-3.308\n                c0-2.144-1.258-3.308-2.868-3.308c-1.617,0-2.885,1.164-2.885,3.308C52.702,57.837,53.97,59,55.587,59 M55.587,58.026\n                c-1.084,0-1.798-0.835-1.798-2.334c0-1.498,0.714-2.316,1.798-2.316c1.068,0,1.782,0.818,1.782,2.316\n                C57.369,57.191,56.655,58.026,55.587,58.026\"></path>\n</svg>"
+      },
+      {
+        "href": "https://www.expansion.com/?intcmp=MENUHOM24801&s_kw=logo_home",
+        "inner_text": "Expansión",
+        "inner_html": "<span class=\"hidden-content\">Expansión</span>"
+      },
+      {
+        "href": "https://clk.tradedoubler.com/click?p=271574&a=2446806&g=23242690",
+        "inner_text": "Suscríbete",
+        "inner_html": "Suscríbete"
+      },
+      {
+        "href": "https://seguro.expansion.com/newsletters.html?intcmp=MODNEWSLETTER1",
+        "inner_text": "Newsletters",
+        "inner_html": "Newsletters"
+      },
+      {
+        "href": "https://www.expansion.com/",
+        "inner_text": "Iniciar sesión",
+        "inner_html": "<span>Iniciar sesión</span>\n        <i class=\"icon-login\"></i>"
+      },
+      {
+        "href": "https://www.expansion.com/mercados.html?intcmp=MENUHOM24101&s_kw=mercados",
+        "inner_text": "Mercados",
+        "inner_html": "Mercados"
+      },
+      {
+        "href": "https://www.expansion.com/mercados/cotizaciones/indices/ibex35_I.IB.html?intcmp=MENUHOM24101&s_kw=ibex",
+        "inner_text": "",
+        "inner_html": "IBEX 35"
+      },
+      {
+        "href": "https://www.expansion.com/mercados/cotizaciones/indices/igbolsamadrid_I.MA.html?intcmp=MENUHOM24101&s_kw=bolmad",
+        "inner_text": "",
+        "inner_html": "Bolsa de Madrid"
+      },
+      {
+        "href": "https://www.expansion.com/mercados/indices.html?intcmp=MENUHOM24101&s_kw=indices",
+        "inner_text": "",
+        "inner_html": "Índices mundiales"
+      },
+      {
+        "href": "https://www.expansion.com/mercados/euribor.html?intcmp=MENUHOM24101&s_kw=euribor",
+        "inner_text": "",
+        "inner_html": "Euribor"
+      },
+      {
+        "href": "https://www.expansion.com/mercados/renta-fija.html?intcmp=MENUHOM24101&s_kw=rentafija",
+        "inner_text": "",
+        "inner_html": "Renta fija"
+      },
+      {
+        "href": "https://www.expansion.com/mercados/divisas.html?intcmp=MENUHOM24101&s_kw=divisas",
+        "inner_text": "",
+        "inner_html": "Divisas"
+      },
+      {
+        "href": "https://www.expansion.com/mercados/recomendaciones.html?intcmp=MENUHOM24101&s_kw=recomendaciones",
+        "inner_text": "",
+        "inner_html": "Recomendaciones"
+      },
+      {
+        "href": "https://www.expansion.com/mercados/fondos.html?intcmp=MENUHOM24101&s_kw=fondos",
+        "inner_text": "",
+        "inner_html": "Fondos"
+      },
+      {
+        "href": "https://www.expansion.com/mercados/cronica-bolsa.html?intcmp=MENUHOM24101&s_kw=cronica",
+        "inner_text": "",
+        "inner_html": "Crónica de Bolsa"
+      },
+      {
+        "href": "https://www.expansion.com/mercados/materias-primas.html?intcmp=MENUHOM24101&s_kw=materiasprimas",
+        "inner_text": "",
+        "inner_html": "Materias primas"
+      },
+      {
+        "href": "https://www.expansion.com/ahorro/pensiones.html?intcmp=MENUHOM24101&s_kw=pensiones",
+        "inner_text": "",
+        "inner_html": "Pensiones"
+      },
+      {
+        "href": "https://www.expansion.com/mercados/dividendos.html?intcmp=MENUHOM24101&s_kw=dividendos",
+        "inner_text": "",
+        "inner_html": "Dividendos"
+      },
+      {
+        "href": "https://www.expansion.com/mercados/warrants.html?intcmp=MENUHOM24101&s_kw=warrants",
+        "inner_text": "",
+        "inner_html": "Warrants"
+      },
+      {
+        "href": "https://www.expansion.com/mercados/mab.html?intcmp=MENUHOM24101&s_kw=mab",
+        "inner_text": "",
+        "inner_html": "BME Growth"
+      },
+      {
+        "href": "https://www.expansion.com/mercados/principales-criptomonedas.html?intcmp=MENUHOM24101&s_kw=criptomonedas",
+        "inner_text": "",
+        "inner_html": "Criptomonedas"
+      },
+      {
+        "href": "https://www.expansion.com/ahorro.html?intcmp=MENUHOM24101&s_kw=ahorro",
+        "inner_text": "Ahorro",
+        "inner_html": "Ahorro"
+      },
+      {
+        "href": "https://www.expansion.com/diccionario-economico.html?intcmp=MENUHOM24101&s_kw=diccionario",
+        "inner_text": "",
+        "inner_html": "Diccionario"
+      },
+      {
+        "href": "https://www.expansion.com/ed/tudinero.html?intcmp=MENUHOM24101&s_kw=tu-dinero",
+        "inner_text": "",
+        "inner_html": "Tu dinero"
+      },
+      {
+        "href": "https://www.expansion.com/empresas.html?intcmp=MENUHOM24101&s_kw=empresas",
+        "inner_text": "Empresas",
+        "inner_html": "Empresas"
+      },
+      {
+        "href": "https://www.expansion.com/empresas/banca.html?intcmp=MENUHOM24101&s_kw=banca",
+        "inner_text": "",
+        "inner_html": "Banca"
+      },
+      {
+        "href": "https://www.expansion.com/empresas/energia.html?intcmp=MENUHOM24101&s_kw=energia",
+        "inner_text": "",
+        "inner_html": "Energía"
+      },
+      {
+        "href": "https://www.expansion.com/empresas/tecnologia.html?intcmp=MENUHOM24101&s_kw=tecnologicas",
+        "inner_text": "",
+        "inner_html": "Empresas Tecnológicas"
+      },
+      {
+        "href": "https://www.expansion.com/empresas/inmobiliario.html?intcmp=MENUHOM24101&s_kw=inmobiliario",
+        "inner_text": "",
+        "inner_html": "Construcción y servicios"
+      },
+      {
+        "href": "https://www.expansion.com/empresas/distribucion.html?intcmp=MENUHOM24101&s_kw=distribucion",
+        "inner_text": "",
+        "inner_html": "Distribución y consumo"
+      },
+      {
+        "href": "https://www.expansion.com/empresas/transporte.html?intcmp=MENUHOM24101&s_kw=transporte",
+        "inner_text": "",
+        "inner_html": "Transporte"
+      },
+      {
+        "href": "https://www.expansion.com/empresas/industria.html?intcmp=MENUHOM24101&s_kw=industria",
+        "inner_text": "",
+        "inner_html": "Industria"
+      },
+      {
+        "href": "https://www.expansion.com/empresas/motor.html?intcmp=MENUHOM24101&s_kw=motor",
+        "inner_text": "",
+        "inner_html": "Motor"
+      },
+      {
+        "href": "https://www.expansion.com/pymes.html?intcmp=MENUHOM24101&s_kw=pymes",
+        "inner_text": "",
+        "inner_html": "Pymes"
+      },
+      {
+        "href": "https://www.expansion.com/economia.html?intcmp=MENUHOM24101&s_kw=economia",
+        "inner_text": "Economía",
+        "inner_html": "Economía"
+      },
+      {
+        "href": "https://www.expansion.com/economia/politica.html?intcmp=MENUHOM24101&s_kw=politica",
+        "inner_text": "",
+        "inner_html": "Política"
+      },
+      {
+        "href": "https://www.expansion.com/economia/funcion-publica.html?intcmp=MENUHOM24101&s_kw=funcionarios",
+        "inner_text": "",
+        "inner_html": "Funcionarios"
+      },
+      {
+        "href": "https://www.expansion.com/economia/declaracion-renta.html?intcmp=MENUHOM24101&s_kw=renta",
+        "inner_text": "",
+        "inner_html": "Renta 2020"
+      },
+      {
+        "href": "https://www.datosmacro.com/",
+        "inner_text": "",
+        "inner_html": "Datos macro"
+      },
+      {
+        "href": "https://www.expansion.com/economia-para-todos/index.html?intcmp=MENUHOM24101&s_kw=economia-para-todos",
+        "inner_text": "",
+        "inner_html": "Economía para todos"
+      },
+      {
+        "href": "https://www.expansion.com/expansion-empleo.html?intcmp=MENUHOM24101&s_kw=exp-empleo",
+        "inner_text": "E&Empleo",
+        "inner_html": "E&amp;Empleo"
+      },
+      {
+        "href": "https://www.expansion.com/expansion-empleo/emprendedores.html?intcmp=MENUHOM24101&s_kw=emprendedores",
+        "inner_text": "",
+        "inner_html": "Emprendedores"
+      },
+      {
+        "href": "https://www.expansion.com/expansion-empleo/empleo.html?intcmp=MENUHOM24101&s_kw=empleo",
+        "inner_text": "",
+        "inner_html": "Empleo"
+      },
+      {
+        "href": "https://www.expansion.com/expansion-empleo/profesiones.html?intcmp=MENUHOM24101&s_kw=profesiones",
+        "inner_text": "",
+        "inner_html": "Profesiones"
+      },
+      {
+        "href": "https://www.expansion.com/expansion-empleo/desarrollo-carrera.html?intcmp=MENUHOM24101&s_kw=des.carrera",
+        "inner_text": "",
+        "inner_html": "Desarrollo de carrera"
+      },
+      {
+        "href": "https://www.expansion.com/expansion-empleo/trabajos-futuro.html?intcmp=MENUHOM24101&s_kw=trabajos.futuro",
+        "inner_text": "",
+        "inner_html": "Trabajos del futuro"
+      },
+      {
+        "href": "https://www.expansion.com/expansion-empleo/empleatv.html?intcmp=MENUHOM24101&s_kw=empleatv",
+        "inner_text": "",
+        "inner_html": "Emplea TV"
+      },
+      {
+        "href": "https://www.expansion.com/juridico.html?intcmp=MENUHOM24101&s_kw=juridico",
+        "inner_text": "Jurídico",
+        "inner_html": "Jurídico"
+      },
+      {
+        "href": "https://www.expansion.com/juridico/actualidad-tendencias.html?intcmp=MENUHOM24101&s_kw=juri.actualidad",
+        "inner_text": "",
+        "inner_html": "Actualidad y tendencias"
+      },
+      {
+        "href": "https://www.expansion.com/juridico/fichajes.html?intcmp=MENUHOM24101&s_kw=fichajes",
+        "inner_text": "",
+        "inner_html": "Fichajes"
+      },
+      {
+        "href": "https://www.expansion.com/juridico/sentencias.html?intcmp=MENUHOM24101&s_kw=sentencias",
+        "inner_text": "",
+        "inner_html": "Sentencias"
+      },
+      {
+        "href": "https://www.expansion.com/juridico/opinion.html?intcmp=MENUHOM24101&s_kw=juri.opinion",
+        "inner_text": "",
+        "inner_html": "Opinión"
+      },
+      {
+        "href": "https://www.expansion.com/juridico/premios.html?intcmp=MENUHOM24101&s_kw=premios",
+        "inner_text": "",
+        "inner_html": "Premios"
+      },
+      {
+        "href": "https://www.expansion.com/juridico/aula-legal.html?intcmp=MENUHOM24101&s_kw=aula-legal",
+        "inner_text": "",
+        "inner_html": "Aula Legal"
+      },
+      {
+        "href": "https://www.expansion.com/inmobiliario.html?intcmp=MENUHOM24101&s_kw=inmobiliario",
+        "inner_text": "Inmobiliario",
+        "inner_html": "Inmobiliario"
+      },
+      {
+        "href": "https://www.expansion.com/inmobiliario/mercado-inmobiliario.html?intcmp=MENUHOM24101&s_kw=mercadoinmobiliario",
+        "inner_text": "",
+        "inner_html": "Mercado inmobiliario"
+      },
+      {
+        "href": "https://www.expansion.com/inmobiliario/casas.html?intcmp=MENUHOM24101&s_kw=casas",
+        "inner_text": "",
+        "inner_html": "Casas"
+      },
+      {
+        "href": "https://www.expansion.com/inmobiliario/viviendas.html?intcmp=MENUHOM24101&s_kw=viviendas",
+        "inner_text": "",
+        "inner_html": "Vivienda"
+      },
+      {
+        "href": "https://www.expansion.com/directivos.html?intcmp=MENUHOM24101&s_kw=directivos",
+        "inner_text": "Directivos",
+        "inner_html": "Directivos"
+      },
+      {
+        "href": "https://www.expansion.com/directivos/estilo-vida.html?intcmp=MENUHOM24101&s_kw=estilovida",
+        "inner_text": "",
+        "inner_html": "Estilo de vida"
+      },
+      {
+        "href": "https://www.expansion.com/directivos/deporte-negocio.html?intcmp=MENUHOM24101&s_kw=deporte",
+        "inner_text": "",
+        "inner_html": "Deporte y negocio"
+      },
+      {
+        "href": "https://www.expansion.com/sociedad.html?intcmp=MENUHOM24101&s_kw=sociedad",
+        "inner_text": "",
+        "inner_html": "Sociedad"
+      },
+      {
+        "href": "https://www.expansion.com/economia-digital.html?intcmp=MENUHOM24101&s_kw=economiadigital",
+        "inner_text": "Economía digital",
+        "inner_html": "Economía digital"
+      },
+      {
+        "href": "https://www.expansion.com/economia-digital.html?intcmp=MENUDES24101&s_kw=economiadigital",
+        "inner_text": "",
+        "inner_html": "Portada"
+      },
+      {
+        "href": "https://www.expansion.com/economia-digital/companias.html?intcmp=MENUHOM24101&s_kw=empresastecnologicas",
+        "inner_text": "",
+        "inner_html": "Compañías"
+      },
+      {
+        "href": "https://www.expansion.com/economia-digital/protagonistas.html?intcmp=MENUHOM24101&s_kw=protagonistas",
+        "inner_text": "",
+        "inner_html": "Protagonistas"
+      },
+      {
+        "href": "https://www.expansion.com/economia-digital/innovacion.html?intcmp=MENUHOM24101&s_kw=innovacion",
+        "inner_text": "",
+        "inner_html": "Innovación"
+      },
+      {
+        "href": "https://www.expansion.com/menu.html",
+        "inner_text": "Más",
+        "inner_html": "<span class=\"icon-text\" data-click-role=\"cambiarIconos\">\nMás<i class=\"icon-arrow_down_12x12_a\"></i>\n</span>\n<span class=\"icon-text\" data-click-role=\"cambiarIconos\">\nCerrar<i class=\"icon-close_12x12_d\"></i>\n</span>"
+      },
+      {
+        "href": "https://cgi.expansion.com/buscador/archivo_expansion.html",
+        "inner_text": "",
+        "inner_html": "<span><i class=\"icon-search_16x16_a\"></i><strong>Buscar</strong></span>"
+      },
+      {
+        "href": "https://compra.orbyt.es/compras/lite/buy/offer/Ye-tehjv6BE?intcmp=URGEX001&s_kw=aviso&intcmp=URGEX001&s_kw=aviso",
+        "inner_text": "Lea la edición impresa de EXPANSIÓN sin salir de casa en Orbyt por 1 euro el primer mes.",
+        "inner_html": "Lea la edición impresa de EXPANSIÓN sin salir de casa en Orbyt por 1 euro el primer mes."
+      },
+      {
+        "href": "https://www.expansion.com/empresas/tecnologia/2021/05/20/60a62b1fe5fdea12678b45ec.html",
+        "inner_text": "Idealista quiere valer 3.000 millones antes de salir a Bolsa",
+        "inner_html": "Idealista quiere valer 3.000 millones antes de salir a Bolsa"
+      },
+      {
+        "href": "https://www.expansion.com/empresas/2021/05/20/60a633dfe5fdea12678b45ff.html",
+        "inner_text": "Los expertos de Sánchez proponen una jornada de 35 horas semanales",
+        "inner_html": "Los expertos de Sánchez proponen una jornada de 35 horas semanales"
+      },
+      {
+        "href": "https://www.expansion.com/empresas/album/2021/05/20/60a6357fe5fdea0b158b4636.html",
+        "inner_text": "Fotogalería | Álvarez-Pallete, Galán, Imaz y Huertas, entre los empresarios que acuden a la cita de Sánchez",
+        "inner_html": "Fotogalería | Álvarez-Pallete, Galán, Imaz y Huertas, entre los empresarios que acuden a la cita de Sánchez"
+      },
+      {
+        "href": "https://www.expansion.com/economia/2021/05/20/60a61c50e5fdead17f8b4572.html",
+        "inner_text": "Cerco a los despidos en las empresas con elevados beneficios",
+        "inner_html": "Cerco a los despidos en las empresas con elevados beneficios"
+      },
+      {
+        "href": "https://www.expansion.com/inmobiliario/casas/2021/05/20/60a535dee5fdea1b6d8b461b.html",
+        "inner_text": "Emilio Cuatrecasas pone a la venta su ático de lujo en Barcelona por 12 millones",
+        "inner_html": "Emilio Cuatrecasas pone a la venta su ático de lujo en Barcelona por 12 millones"
+      },
+      {
+        "href": "https://www.expansion.com/inmobiliario/mercado/2021/05/20/60a650a2e5fdeac7718b4606.html",
+        "inner_text": "Merlin y SanJosé activan el proceso de arbitraje contra BBVA por la Operación Chamartín",
+        "inner_html": "Merlin y SanJosé activan el proceso de arbitraje contra BBVA por la Operación Chamartín"
+      },
+      {
+        "href": "https://www.expansion.com/empresas/transporte/2021/05/20/60a57bfc468aeb97088b45ce.html",
+        "inner_text": "CAF puja por comprar el negocio de señalización ferroviaria de Thales",
+        "inner_html": "CAF puja por comprar el negocio de señalización ferroviaria de Thales"
+      },
+      {
+        "href": "https://www.expansion.com/economia/declaracion-renta/2021/05/19/60a4cb84468aeb2a1c8b465c.html",
+        "inner_text": "Renta 2020",
+        "inner_html": "Renta 2020"
+      },
+      {
+        "href": "https://www.expansion.com/sociedad/2021/05/19/60a5810d468aeb87048b4615.html",
+        "inner_text": "Coronavirus",
+        "inner_html": "Coronavirus"
+      },
+      {
+        "href": "https://www.expansion.com/empresas/energia/2021/05/19/609b91fe468aeb4f758b45f3.html",
+        "inner_text": "Factura de la luz",
+        "inner_html": "Factura de la luz"
+      },
+      {
+        "href": "https://www.expansion.com/mercados/2021/05/20/60a6423de5fdeac7718b45f5.html",
+        "inner_text": "Bitcoin",
+        "inner_html": "Bitcoin"
+      },
+      {
+        "href": "https://www.expansion.com/fueradeserie/viajes/album/2021/05/18/609bb6e6e5fdea09768b45f8.html",
+        "inner_text": "Fitur 2021",
+        "inner_html": "Fitur 2021"
+      },
+      {
+        "href": "https://www.expansion.com/fueradeserie/motor/2021/05/20/60a26b66468aeb783f8b4663.html",
+        "inner_text": "Rolls-Royce",
+        "inner_html": "Rolls-Royce"
+      },
+      {
+        "href": "https://www.expansion.com/empresas/2021/05/19/60a4a6d8e5fdeaf0168b4639.html",
+        "inner_text": "AstraZeneca",
+        "inner_html": "AstraZeneca"
+      },
+      {
+        "href": "https://www.expansion.com/mercados/2021/05/19/60a52fede5fdeaa4378b45c4.html",
+        "inner_text": "El bitcoin se la juega en los 40.000 dólares: o para la caída o se va a los 30.000",
+        "inner_html": "El bitcoin se la juega en los 40.000 dólares: o para la caída o se va a los 30.000"
+      },
+      {
+        "href": "https://www.expansion.com/ahorro/2021/05/18/60a244abe5fdea2e7a8b4632.html",
+        "inner_text": "Cinco joyas del dividendo para ganar hasta un 30% en Bolsa a doce meses",
+        "inner_html": "Cinco joyas del dividendo para ganar hasta un 30% en Bolsa a doce meses"
+      },
+      {
+        "href": "https://www.expansion.com/opinion/2021/05/19/60a50b51e5fdeac7718b45c4.html",
+        "inner_text": "Opinión | ¿Queda algún refugio para los ahorradores?",
+        "inner_html": "Opinión | ¿Queda algún refugio para los ahorradores?"
+      },
+      {
+        "href": "https://www.expansion.com/mercados/2021/05/20/60a5871b468aebe62c8b45f6.html",
+        "inner_text": "Merlin y Colonial toman la delantera a sus competidores",
+        "inner_html": "Merlin y Colonial toman la delantera a sus competidores"
+      },
+      {
+        "href": "https://www.expansion.com/mercados/2021/05/19/60a5683ee5fdeadf0b8b45fc.html",
+        "inner_text": "La división en la Fed ante la inflación se acentúa",
+        "inner_html": "La división en la Fed ante la inflación se acentúa"
+      },
+      {
+        "href": "https://www.expansion.com/mercados/2021/05/18/60a3de35e5fdeac7308b4576.html",
+        "inner_text": "Los valores en Europa que ganan y pierden con las subidas de impuestos",
+        "inner_html": "Los valores en Europa que ganan y pierden con las subidas de impuestos"
+      },
+      {
+        "href": "https://www.expansion.com/mercados/2021/05/19/60a41dd6468aeb19068b4585.html",
+        "inner_text": "Inversión \"masiva\" en cíclicos como defensa ante la inflación",
+        "inner_html": "Inversión \"masiva\" en cíclicos como defensa ante la inflación"
+      },
+      {
+        "href": "https://www.expansion.com/mercados/fondos/2021/05/12/609a595be5fdead06f8b45d1.html",
+        "inner_text": "Los mejores fondos para invertir 30.000 y 300.000 euros",
+        "inner_html": "Los mejores fondos para invertir 30.000 y 300.000 euros"
+      },
+      {
+        "href": "https://www.expansion.com/mercados/fondos/2021/05/20/60a669ace5fdeab8588b45bc.html?intcmp=NOT002",
+        "inner_text": "El 65% de las gestoras cuenta con fondos que siguen criterios de sostenibilidad",
+        "inner_html": "El 65% de las gestoras cuenta con fondos que siguen criterios de sostenibilidad"
+      },
+      {
+        "href": "https://www.expansion.com/mercados/fondos/2021/05/19/60a37bfee5fdea1b6d8b459d.html",
+        "inner_text": "¿Rentabilidades del 12% durante 15 años? Dos fondos la han superado",
+        "inner_html": "¿Rentabilidades del 12% durante 15 años? Dos fondos la han superado"
+      },
+      {
+        "href": "https://www.expansion.com/mercados/2021/05/20/60a5fe34e5fdea59058b45ea.html",
+        "inner_text": "Desbandada en las criptomonedas... y alerta en otros activos estrella",
+        "inner_html": "Desbandada en las criptomonedas... y alerta en otros activos estrella"
+      },
+      {
+        "href": "http://videos.expansion.com/v/0_5zqy4i66-el-bitcoin-contamina-mas-que-noruega-en-un-ano",
+        "inner_text": "El bitcoin contamina más que Noruega en un año",
+        "inner_html": "El bitcoin contamina más que Noruega en un año"
+      },
+      {
+        "href": "https://www.expansion.com/mercados/cotizaciones/indices/ibex35_I.IB.html",
+        "inner_text": "IBEX 35",
+        "inner_html": "IBEX 35"
+      },
+      {
+        "href": "https://www.expansion.com/mercados/cronica-bolsa/2021/05/20/60a5f71de5fdea0b158b4622.html",
+        "inner_text": "El Ibex, descolgado del rebote en Europa, intenta evitar los números rojos",
+        "inner_html": "El Ibex, descolgado del rebote en Europa, intenta evitar los números rojos"
+      },
+      {
+        "href": "https://www.expansion.com/mercados/2021/05/20/60a6140de5fdeae2018b45ec.html",
+        "inner_text": "Los dos revulsivos por los que Credit Suisse prefiere el Ibex frente al Dax",
+        "inner_html": "Los dos revulsivos por los que Credit Suisse prefiere el Ibex frente al Dax"
+      },
+      {
+        "href": "https://www.expansion.com/uestudio/2021/05/17/60a2490fe5fdea743c8b4646.html",
+        "inner_text": "Los clientes más satisfechos de España están en Banco Mediolanum",
+        "inner_html": "Los clientes más satisfechos de España están en Banco Mediolanum"
+      },
+      {
+        "href": "https://www.expansion.com/empresas/banca/2021/05/20/60a67398468aeb5e058b45fe.html",
+        "inner_text": "Morgan Stanley abre la carrera para suceder a Gorman",
+        "inner_html": "Morgan Stanley abre la carrera para suceder a Gorman"
+      },
+      {
+        "href": "https://www.expansion.com/empresas/banca/2021/05/20/60a63c1e468aeb0c528b45d9.html",
+        "inner_text": "BBVA analizará un aumento de las recolocaciones para reducir los 3.331 despidos",
+        "inner_html": "BBVA analizará un aumento de las recolocaciones para reducir los 3.331 despidos"
+      },
+      {
+        "href": "https://www.expansion.com/empresas/banca/2021/05/20/60a57e1b468aeb31568b4576.html",
+        "inner_text": "Orcel contra Botín: así arrancó el juicio que enfrenta a dos de los banqueros más poderosos de Europa",
+        "inner_html": "Orcel contra Botín: así arrancó el juicio que enfrenta a dos de los banqueros más poderosos de Europa"
+      },
+      {
+        "href": "https://www.expansion.com/empresas/2021/05/20/60a5fff7468aeb49378b458d.html",
+        "inner_text": "La fusión de Telefónica y Virgin en Reino Unido ya tiene vía libre",
+        "inner_html": "La fusión de Telefónica y Virgin en Reino Unido ya tiene vía libre"
+      },
+      {
+        "href": "https://www.expansion.com/economia/2021/05/20/60a65150468aeb3c328b45b3.html",
+        "inner_text": "Los asesores creen que la reforma para permitir la inspección fiscal en domicilios puede ser inconstitucional",
+        "inner_html": "Los asesores creen que la reforma para permitir la inspección fiscal en domicilios puede ser inconstitucional"
+      },
+      {
+        "href": "https://www.expansion.com/empresas/transporte/2021/05/20/60a66398468aeb31568b45ba.html",
+        "inner_text": "Iberia ampliará su flota tras comprar Air Europa y prioriza aumentar la conectividad con Asia",
+        "inner_html": "Iberia ampliará su flota tras comprar Air Europa y prioriza aumentar la conectividad con Asia"
+      },
+      {
+        "href": "https://seguro.expansion.com/newsletters.html",
+        "inner_text": "NEWSLETTER EXPANSIÓN ECONOMÍA SOSTENIBLE",
+        "inner_html": "<span class=\"ue-c-cover-content__kicker\">Newsletter Expansión Economía Sostenible</span>"
+      },
+      {
+        "href": "https://www.expansion.com/economia-sostenible/2021/05/20/60a52bb6468aeb65708b460b.html",
+        "inner_text": "Las renovables frente al petróleo: punto de inflexión",
+        "inner_html": "Las renovables frente al petróleo: punto de inflexión"
+      },
+      {
+        "href": "https://www.expansion.com/empresas/banca/2021/05/20/60a582fb468aeb0c378b45c6.html",
+        "inner_text": "El paso al frente de Isidro Fainé",
+        "inner_html": "El paso al frente de Isidro Fainé"
+      },
+      {
+        "href": "https://www.expansion.com/empresas/2021/05/19/60a54492468aeba8578b4615.html",
+        "inner_text": "Ikea y El Corte Inglés impulsan el 'boom' de los paneles solares",
+        "inner_html": "Ikea y El Corte Inglés impulsan el 'boom' de los paneles solares"
+      },
+      {
+        "href": "https://www.expansion.com/empresas/transporte/2021/05/20/60a6495be5fdea0b158b4645.html",
+        "inner_text": "Ábalos prevé licitar las primeras obras para llevar el AVE a Barajas en 2022",
+        "inner_html": "Ábalos prevé licitar las primeras obras para llevar el AVE a Barajas en 2022"
+      },
+      {
+        "href": "http://videos.expansion.com/v/0_a99he65h-asi-funcionan-los-airtag-de-apple",
+        "inner_text": "Así funcionan los AirTag de Apple",
+        "inner_html": "Así funcionan los AirTag de Apple"
+      },
+      {
+        "href": "https://www.expansion.com/pais-vasco/2021/05/20/60a634cce5fdeaa4378b45ec.html",
+        "inner_text": "Primark se estrena en Bilbao en la antigua sede de BBVA",
+        "inner_html": "Primark se estrena en Bilbao en la antigua sede de BBVA"
+      },
+      {
+        "href": "https://www.expansion.com/economia/2021/05/11/609a4506468aebc9548b4667.html",
+        "inner_text": "II Foro Económico Internacional EXPANSIÓN",
+        "inner_html": "II Foro Económico Internacional EXPANSIÓN"
+      },
+      {
+        "href": "https://planetainteligente.expansion.com/personas/el-pescador-activista-que-devuelve-peces-al-mar",
+        "inner_text": "El pescador coruñés que devuelve los peces al mar",
+        "inner_html": "El pescador coruñés que devuelve los peces al mar"
+      },
+      {
+        "href": "http://videos.expansion.com/v/0_vl5nrhmn-videoanalisis-tecnico-rangos-a-vigilar-en-los-indices",
+        "inner_text": "Videoanálisis técnico: rangos a vigilar en los índices",
+        "inner_html": "Videoanálisis técnico: rangos a vigilar en los índices"
+      },
+      {
+        "href": "https://www.expansion.com/catalunya/2021/05/20/60a67de3468aeb0c378b45e9.html",
+        "inner_text": "Aragonès se compromete a \"culminar\" la independencia en el debate de investidura",
+        "inner_html": "Aragonès se compromete a \"culminar\" la independencia en el debate de investidura"
+      },
+      {
+        "href": "https://www.expansion.com/empresas/distribucion/2021/05/20/60a64295e5fdeac33a8b4660.html",
+        "inner_text": "Brico Depot duplica su facturación en España y Portugal en el primer trimestre del año",
+        "inner_html": "Brico Depot duplica su facturación en España y Portugal en el primer trimestre del año"
+      },
+      {
+        "href": "https://www.expansion.com/mercados.html",
+        "inner_text": "MERCADOS",
+        "inner_html": "MERCADOS"
+      },
+      {
+        "href": "https://www.expansion.com/mercados/cotizaciones/valores/solaria_M.SLR.html",
+        "inner_text": "SOLARIA",
+        "inner_html": "SOLARIA"
+      },
+      {
+        "href": "https://www.expansion.com/mercados/cotizaciones/valores/cellnextelecom_M.CLNX.html",
+        "inner_text": "CELLNEX TE",
+        "inner_html": "CELLNEX TE"
+      },
+      {
+        "href": "https://www.expansion.com/mercados/cotizaciones/valores/siemensgamesa_M.SGRE.html",
+        "inner_text": "SIEMENS GA",
+        "inner_html": "SIEMENS GA"
+      },
+      {
+        "href": "https://www.expansion.com/mercados/cotizaciones/valores/endesa_M.ELE.html",
+        "inner_text": "ENDESA",
+        "inner_html": "ENDESA"
+      },
+      {
+        "href": "https://www.expansion.com/mercados/cotizaciones/valores/pharmamar_M.PHM.html",
+        "inner_text": "PHARMA MAR",
+        "inner_html": "PHARMA MAR"
+      },
+      {
+        "href": "https://www.expansion.com/mercados/cotizaciones/valores/amadeusitgroup_M.AMS.html",
+        "inner_text": "AMADEUS",
+        "inner_html": "AMADEUS"
+      },
+      {
+        "href": "https://www.expansion.com/mercados/cotizaciones/valores/iag_M.IAG.html",
+        "inner_text": "IAG",
+        "inner_html": "IAG"
+      },
+      {
+        "href": "https://www.expansion.com/mercados/cotizaciones/valores/meliahotels_M.MEL.html",
+        "inner_text": "MELIÁ",
+        "inner_html": "MELIÁ"
+      },
+      {
+        "href": "https://www.expansion.com/mercados/cotizaciones/valores/arcelormittal_M.MTS.html",
+        "inner_text": "ARCELOR",
+        "inner_html": "ARCELOR"
+      },
+      {
+        "href": "https://www.expansion.com/mercados/cotizaciones/valores/inditex_M.ITX.html",
+        "inner_text": "INDITEX",
+        "inner_html": "INDITEX"
+      },
+      {
+        "href": "https://www.expansion.com/mercados/cotizaciones/valores/colonial_M.COL.html",
+        "inner_text": "COLONIAL",
+        "inner_html": "COLONIAL"
+      },
+      {
+        "href": "https://www.expansion.com/mercados/cotizaciones/valores/repsol_M.REP.html",
+        "inner_text": "REPSOL",
+        "inner_html": "REPSOL"
+      },
+      {
+        "href": "https://www.marca.com/tiramillas/television/2021/05/20/60a67b9922601dee348b458b.html?cid=SIN13703",
+        "inner_text": "",
+        "inner_html": "<img itemprop=\"contentUrl\" src=\"https://e00-expansion.uecdn.es/imagenes/bt/2021/05/20/1621523584468_10.jpg\" alt=\"Ana Rosa Quintana atiza a Puigdemont: &quot;No se ha leído ni Wikipedia, es un ignorante...&quot;\" pinger-seen=\"true\">"
+      },
+      {
+        "href": "http://www.marca.com/?cid=SIN13703",
+        "inner_text": "MARCA",
+        "inner_html": "Marca"
+      },
+      {
+        "href": "https://www.elmundo.es/loc/famosos/2021/05/19/60a3fcbdfc6c83ce288b45a6.html?cid=SIN12201",
+        "inner_text": "",
+        "inner_html": "<img itemprop=\"contentUrl\" src=\"https://e00-expansion.uecdn.es/imagenes/bt/2021/05/20/salamo_10.jpg\" alt=\"La novia antiVox, antitaurina y feminista de Isco que no rehúye la polémica en redes\" pinger-seen=\"true\">"
+      },
+      {
+        "href": "http://www.elmundo.es/?cid=SIN12201",
+        "inner_text": "EL MUNDO",
+        "inner_html": "El Mundo"
+      },
+      {
+        "href": "https://www.expansion.com/empresas/banca/2021/05/20/60a64f18e5fdea59058b4610.html",
+        "inner_text": "Bruselas multa a UBS, Nomura y Unicredit con 371 millones por cártel en la negociación de bonos",
+        "inner_html": "Bruselas multa a UBS, Nomura y Unicredit con 371 millones por cártel en la negociación de bonos"
+      },
+      {
+        "href": "https://www.expansion.com/empresas/energia/2021/05/20/60a60e9fe5fdeac1728b4611.html",
+        "inner_text": "Los Amodio desisten de la batalla de Abengoa y dejan vía libre a Terramar",
+        "inner_html": "Los Amodio desisten de la batalla de Abengoa y dejan vía libre a Terramar"
+      },
+      {
+        "href": "https://www.expansion.com/catalunya/2021/05/20/60a6577fe5fdea41748b457c.html",
+        "inner_text": "El MWC abarata sus entradas para profesionales locales y encara un congreso de transición",
+        "inner_html": "El MWC abarata sus entradas para profesionales locales y encara un congreso de transición"
+      },
+      {
+        "href": "https://www.expansion.com/noticias/coronavirus.html?intcmp=menuhom24101&s_kw=coronavirus",
+        "inner_text": "CORONAVIRUS",
+        "inner_html": "<span class=\"ue-c-cover-content__kicker\">Coronavirus</span>"
+      },
+      {
+        "href": "https://www.expansion.com/empresas/industria/2021/05/20/60a6266a468aeb31568b4595.html",
+        "inner_text": "La Comisión Europea firma un tercer contrato con Pfizer por 1.800 millones de dosis hasta 2023",
+        "inner_html": "La Comisión Europea firma un tercer contrato con Pfizer por 1.800 millones de dosis hasta 2023"
+      },
+      {
+        "href": "https://www.expansion.com/economia/politica/2021/05/20/60a63210468aeb31568b45ab.html",
+        "inner_text": "Educación quiere que los alumnos de 12 a 16 años estén vacunados en septiembre",
+        "inner_html": "Educación quiere que los alumnos de 12 a 16 años estén vacunados en septiembre"
+      },
+      {
+        "href": "https://www.expansion.com/mercados/2021/05/19/60a4fbd5e5fdea07398b45b8.html",
+        "inner_text": "Tres claves para volver a ganar con la inversión en renovables",
+        "inner_html": "Tres claves para volver a ganar con la inversión en renovables"
+      },
+      {
+        "href": "https://foro.expansion.com/asistencia/?cid=DISEXP&s_kw=dis_expansion&utm_source=expansion.com&utm_medium=display&utm_campaign=DISEXP&utm_term=dis_expansion&utm_content=CMPFEI21?cid=EVENTDESTPORT",
+        "inner_text": "",
+        "inner_html": "<img src=\"https://e00-expansion.uecdn.es/assets/multimedia/imagenes/event-conferences/1621428115.jpg\" alt=\"Eventos y Conferencias\">"
+      },
+      {
+        "href": "https://compra.expansion.com/compras/lite/buy/offer/VbU0dm36_s4?cid=VENDIG25201&s_kw=cap_btn_expasion_bundle_premium",
+        "inner_text": "",
+        "inner_html": "<img width=\"300\" src=\"https://e00-expansion.uecdn.es/assets/multimedia/imagenes/includes_banners/2021/05/fc456eb6c39c16435a964d2fb500d383.jpeg\">"
+      },
+      {
+        "href": "https://www.expansion.com/empresas/transporte/2021/05/20/60a572abe5fdeaa4378b45d9.html",
+        "inner_text": "Gabriel Escarrer: \"Meliá es el mejor aliado de los fondos en gestión hotelera\"",
+        "inner_html": "Gabriel Escarrer: \"Meliá es el mejor aliado de los fondos en gestión hotelera\""
+      },
+      {
+        "href": "https://www.expansion.com/economia-digital/companias/2021/05/19/60a52523e5fdeaba6f8b45ca.html",
+        "inner_text": "El gran festín de las tecnológicas en 2020: 40 compras y más de 10.000 millones invertidos",
+        "inner_html": "El gran festín de las tecnológicas en 2020: 40 compras y más de 10.000 millones invertidos"
+      },
+      {
+        "href": "https://www.expansion.com/mas-leidas-hoy.html",
+        "inner_text": "LO MÁS LEÍDO",
+        "inner_html": "LO MÁS LEÍDO"
+      },
+      {
+        "href": "https://www.expansion.com/directivos/estilo-vida/casas/2021/05/15/609ecea3468aebd1758b4649.html",
+        "inner_text": "Por qué el diseño danés se cuela en nuestras casas",
+        "inner_html": "<p role=\"heading\" aria-level=\"4\" class=\"line-clamp_x2 ue-c-widget__article-headline\">Por qué el diseño danés se cuela en nuestras casas</p>"
+      },
+      {
+        "href": "https://www.expansion.com/pais-vasco/2021/05/19/60a4ddcee5fdea66338b45a3.html",
+        "inner_text": "Iberdrola arrastra a 16 compañías a la conexión de las capitales vascas con hidrógeno",
+        "inner_html": "<p role=\"heading\" aria-level=\"4\" class=\"line-clamp_x2 ue-c-widget__article-headline\">Iberdrola arrastra a 16 compañías a la conexión de las capitales vascas con hidrógeno</p>"
+      },
+      {
+        "href": "https://www.expansion.com/mercados/2021/05/17/60a22986468aeb72758b4623.html",
+        "inner_text": "Los analistas advierten sobre el periodo de \"liquidación\" en las criptomonedas",
+        "inner_html": "<p role=\"heading\" aria-level=\"4\" class=\"line-clamp_x2 ue-c-widget__article-headline\">Los analistas advierten sobre el periodo de \"liquidación\" en las criptomonedas</p>"
+      },
+      {
+        "href": "https://www.expansion.com/ahorro/2021/05/17/609bce33468aeb18558b4681.html",
+        "inner_text": "En qué debería invertir según su personalidad",
+        "inner_html": "<p role=\"heading\" aria-level=\"4\" class=\"line-clamp_x2 ue-c-widget__article-headline\">En qué debería invertir según su personalidad</p>"
+      },
+      {
+        "href": "https://www.expansion.com/empresas/banca/2021/05/20/60a5fa82468aebe62c8b4605.html",
+        "inner_text": "La banca tendrá manos libres en los dividendos en octubre",
+        "inner_html": "La banca tendrá manos libres en los dividendos en octubre"
+      },
+      {
+        "href": "https://www.expansion.com/mercados/2021/05/19/60a53cafe5fdea005c8b4667.html",
+        "inner_text": "20 cotizadas europeas para superar el susto de la inflación",
+        "inner_html": "20 cotizadas europeas para superar el susto de la inflación"
+      },
+      {
+        "href": "https://www.expansion.com/juridico/actualidad-tendencias/2021/05/17/60a2a02e468aeb19348b4670.html",
+        "inner_text": "Jabier Badiola: \"La consolidación bancaria a nivel nacional no está cerrada\"",
+        "inner_html": "Jabier Badiola: \"La consolidación bancaria a nivel nacional no está cerrada\""
+      },
+      {
+        "href": "https://www.expansion.com/opinion/2021/05/20/60a567a1e5fdea10288b45a4.html",
+        "inner_text": "Lecciones de Roosevelt frente a la revolución bitcoin",
+        "inner_html": "Lecciones de Roosevelt frente a la revolución bitcoin"
+      },
+      {
+        "href": "https://www.expansion.com/opinion/2021/05/20/60a5669be5fdeac33a8b463e.html",
+        "inner_text": "Plan de recuperación y falacias tributarias",
+        "inner_html": "Plan de recuperación y falacias tributarias"
+      },
+      {
+        "href": "https://www.expansion.com/mercados/2021/05/20/60a56c59e5fdeaf0168b469b.html",
+        "inner_text": "Cómo impacta en las petroleras la expectativa del fin del crudo",
+        "inner_html": "Cómo impacta en las petroleras la expectativa del fin del crudo"
+      },
+      {
+        "href": "https://www.expansion.com/economia-sostenible/2021/05/18/60a40430468aebaa778b45ba.html",
+        "inner_text": "El gran 'lobby' energético no quiere ni un pozo más",
+        "inner_html": "El gran 'lobby' energético no quiere ni un pozo más"
+      },
+      {
+        "href": "https://www.eventosyconferenciasue.com/eventos/el-reto-de-las-empresas-ante-la-economia-circular",
+        "inner_text": "I Encuentro Expansión-Construcía: el reto de las empresas ante la economía circular",
+        "inner_html": "I Encuentro Expansión-Construcía: el reto de las empresas ante la economía circular"
+      },
+      {
+        "href": "https://www.expansion.com/mercados/cronica-bolsa/bolsa-minuto.html",
+        "inner_text": "LA BOLSA AL MINUTO",
+        "inner_html": "LA BOLSA AL MINUTO"
+      },
+      {
+        "href": "https://www.expansion.com/mercados/fondos/2021/05/20/60a669ace5fdeab8588b45bc.html",
+        "inner_text": "El 65% de las gestoras cuenta con fondos que siguen criterios de sostenibilidad",
+        "inner_html": "<p role=\"heading\" aria-level=\"4\" class=\"ue-c-widget__article-headline\">El 65% de las gestoras cuenta con fondos que siguen criterios de sostenibilidad</p>"
+      },
+      {
+        "href": "https://www.expansion.com/economia/politica/2021/05/20/60a55eb6e5fdeac33a8b4637.html?autoplay=true",
+        "inner_text": "",
+        "inner_html": ""
+      },
+      {
+        "href": "http://videos.expansion.com/v/0_1rjr1tj1-la-tension-en-ceuta-se-traslada-al-otro-lado-de-la-frontera",
+        "inner_text": "",
+        "inner_html": "<img src=\"https://e00-expansion.uecdn.es/assets/v1/img/lazyload/imgP.gif\" data-src=\"https://e00-expansion.uecdn.es/assets/multimedia/imagenes/2021/05/20/16215016008694.jpg\" class=\"ue-c-cover-content__image\" itemprop=\"url\" alt=\"España-Marruecos: una turbulenta vecindad condenada a entenderse en lo económico\" pinger-seen=\"true\">"
+      },
+      {
+        "href": "https://www.expansion.com/economia/politica/2021/05/20/60a55eb6e5fdeac33a8b4637.html",
+        "inner_text": "España-Marruecos: una turbulenta vecindad condenada a entenderse en lo económico",
+        "inner_html": "España-Marruecos: una turbulenta vecindad condenada a entenderse en lo económico"
+      },
+      {
+        "href": "https://www.expansion.com/opinion/2021/05/20/60a56c9fe5fdea5f758b4589.html",
+        "inner_text": "Editorial | El difícil equilibrio en la relación con Marruecos",
+        "inner_html": "Editorial | El difícil equilibrio en la relación con Marruecos"
+      },
+      {
+        "href": "https://www.expansion.com/economia/2021/05/20/60a58836468aeb61248b4679.html",
+        "inner_text": "La economía de Ceuta se reinventa para atraer a empresas tecnológicas",
+        "inner_html": "La economía de Ceuta se reinventa para atraer a empresas tecnológicas"
+      },
+      {
+        "href": "https://www.expansion.com/opinion/2021/05/20/60a58a13468aeb19068b45e6.html",
+        "inner_text": "Opinión | No es una crisis migratoria sino un conflicto diplomático con la UE",
+        "inner_html": "Opinión | No es una crisis migratoria sino un conflicto diplomático con la UE"
+      },
+      {
+        "href": "https://www.expansion.com/empresas/distribucion/2021/05/20/60a63689e5fdeac7308b45fe.html",
+        "inner_text": "El segundo accionista de Dia critica su ampliación y pide a la CNMV que proteja a los minoritarios",
+        "inner_html": "El segundo accionista de Dia critica su ampliación y pide a la CNMV que proteja a los minoritarios"
+      },
+      {
+        "href": "https://www.expansion.com/empresas/2021/05/20/60a6279ee5fdeada468b467d.html",
+        "inner_text": "Las patronales industriales hacen piña contra el fondo de las renovables",
+        "inner_html": "Las patronales industriales hacen piña contra el fondo de las renovables"
+      },
+      {
+        "href": "https://www.expansion.com/catalunya/2021/05/19/60a5693de5fdeadf0b8b4609.html",
+        "inner_text": "La renuncia de Artadi, primera crisis de un Govern que aún no ha tomado posesión",
+        "inner_html": "La renuncia de Artadi, primera crisis de un Govern que aún no ha tomado posesión"
+      },
+      {
+        "href": "https://www.expansion.com/catalunya/2021/05/19/60a414afe5fdeae2018b458f.html",
+        "inner_text": "Los empresarios catalanes ponen deberes al nuevo Govern",
+        "inner_html": "Los empresarios catalanes ponen deberes al nuevo Govern"
+      },
+      {
+        "href": "https://www.expansion.com/premium.html",
+        "inner_text": "RECOMENDAMOS",
+        "inner_html": "RECOMENDAMOS"
+      },
+      {
+        "href": "https://www.expansion.com/mercados/2021/05/19/60a4cf1ce5fdeac1728b45a6.html",
+        "inner_text": "Banco Sabadell, víctima efímera en Bolsa de un 'fat finger'",
+        "inner_html": "<p role=\"heading\" aria-level=\"4\" class=\"ue-c-widget__article-headline line-clamp_x2\">Banco Sabadell, víctima efímera en Bolsa de un 'fat finger'</p>"
+      },
+      {
+        "href": "https://www.expansion.com/opinion/2021/05/13/609cd015e5fdea5a348b4571.html",
+        "inner_text": "Buen foco de Telefónica",
+        "inner_html": "<p role=\"heading\" aria-level=\"4\" class=\"ue-c-widget__article-headline line-clamp_x2\">Buen foco de Telefónica</p>"
+      },
+      {
+        "href": "https://www.expansion.com/juridico/actualidad-tendencias/2021/05/14/609a72b4468aeb9e2d8b4586.html",
+        "inner_text": "¿Es posible despedir a un trabajador vago y ahorrarse la indemnización?",
+        "inner_html": "<p role=\"heading\" aria-level=\"4\" class=\"ue-c-widget__article-headline line-clamp_x2\">¿Es posible despedir a un trabajador vago y ahorrarse la indemnización?</p>"
+      },
+      {
+        "href": "https://www.expansion.com/ahorro/2021/05/11/6099069ae5fdeaa17b8b4597.html",
+        "inner_text": "Cuatro valores que todos los analistas aconsejan comprar",
+        "inner_html": "<p role=\"heading\" aria-level=\"4\" class=\"ue-c-widget__article-headline line-clamp_x2\">Cuatro valores que todos los analistas aconsejan comprar</p>"
+      },
+      {
+        "href": "https://www.expansion.com/ultima_hora/",
+        "inner_text": "ÚLTIMA HORA",
+        "inner_html": "ÚLTIMA HORA"
+      },
+      {
+        "href": "http://www.caixabank.es/",
+        "inner_text": "",
+        "inner_html": "<img class=\"ue-c-widget__sponsor\" src=\"https://e00-expansion.uecdn.es/assets/desktop/master/img/logos/logo_caixabank.png\" alt=\"Caixabank\">"
+      },
+      {
+        "href": "https://www.expansion.com/catalunya/2021/05/20/60a67de3468aeb0c378b45e9.html?intcmp=NOT002",
+        "inner_text": "Aragonès se compromete a culminar la independencia en el debate de investidura",
+        "inner_html": "<p role=\"heading\" aria-level=\"4\" class=\"line-clamp_x2 ue-c-widget__article-headline\">Aragonès se compromete a culminar la independencia en el debate de investidura</p>"
+      },
+      {
+        "href": "https://www.expansion.com/empresas/banca/2021/05/20/60a67398468aeb5e058b45fe.html?intcmp=NOT002",
+        "inner_text": "Morgan Stanley abre la carrera para suceder a Gorman",
+        "inner_html": "<p role=\"heading\" aria-level=\"4\" class=\"line-clamp_x2 ue-c-widget__article-headline\">Morgan Stanley abre la carrera para suceder a Gorman</p>"
+      },
+      {
+        "href": "https://www.expansion.com/empresas/transporte/2021/05/20/60a66398468aeb31568b45ba.html?intcmp=NOT002",
+        "inner_text": "Iberia ampliará su flota tras comprar Air Europa y prioriza aumentar la conectividad con Asia",
+        "inner_html": "<p role=\"heading\" aria-level=\"4\" class=\"line-clamp_x2 ue-c-widget__article-headline\">Iberia ampliará su flota tras comprar Air Europa y prioriza aumentar la conectividad con Asia</p>"
+      },
+      {
+        "href": "https://www.expansion.com/valencia/2021/05/20/60a65daae5fdeac7718b4610.html?intcmp=NOT002",
+        "inner_text": "Baleària crea una central de reservas de paquetes vacacionales con Logitravel",
+        "inner_html": "<p role=\"heading\" aria-level=\"4\" class=\"line-clamp_x2 ue-c-widget__article-headline\">Baleària crea una central de reservas de paquetes vacacionales con Logitravel</p>"
+      },
+      {
+        "href": "https://www.expansion.com/fueradeserie/arquitectura/album/2021/05/20/609aa9aa468aeb020e8b45e8.html",
+        "inner_text": "Así es el piso que Cristina Pedroche y Dabiz Muñoz no consiguen alquilar (y vuelven a bajar de precio)",
+        "inner_html": "Así es el piso que Cristina Pedroche y Dabiz Muñoz no consiguen alquilar (y vuelven a bajar de precio)"
+      },
+      {
+        "href": "https://www.expansion.com/nauta360/volvo-ocean-race/2021/05/20/60a6152ae5fdea852c8b45e4.html",
+        "inner_text": "Ocean Race Summit Europe: una cumbre de alto nivel para abordar las amenazas que sufren los océanos",
+        "inner_html": "Ocean Race Summit Europe: una cumbre de alto nivel para abordar las amenazas que sufren los océanos"
+      },
+      {
+        "href": "https://www.expansion.com/empresas/2021/05/20/60a64a14468aeb5e058b45f2.html",
+        "inner_text": "Un 96,5% de los españoles considera las \"fake news\" un problema",
+        "inner_html": "Un 96,5% de los españoles considera las \"fake news\" un problema"
+      },
+      {
+        "href": "https://www.expansion.com/ofertas-regalos/2021/05/20/60a50443468aeb5e058b45bd.html",
+        "inner_text": "Airpods al 30%, una tableta de Lenovo, una freidora sin aceite, una lámpara de lectura...",
+        "inner_html": "Airpods al 30%, una tableta de Lenovo, una freidora sin aceite, una lámpara de lectura..."
+      },
+      {
+        "href": "https://www.expansion.com/economia/financial-times.html",
+        "inner_text": "FINANCIAL TIMES",
+        "inner_html": "<span class=\"ue-c-cover-content__kicker\">Financial Times</span>"
+      },
+      {
+        "href": "https://www.expansion.com/economia-sostenible/2021/05/19/60a517e4e5fdeada468b461c.html",
+        "inner_text": "¿Cuánto vale un árbol? Los inversores tratan de crear un mercado de la naturaleza",
+        "inner_html": "¿Cuánto vale un árbol? Los inversores tratan de crear un mercado de la naturaleza"
+      },
+      {
+        "href": "https://www.expansion.com/calculadoras/",
+        "inner_text": "CALCULADORAS\n\nfondos, vivienda...",
+        "inner_html": "<p class=\"ue-c-widget__article-kicker\">calculadoras</p><p role=\"heading\" aria-level=\"4\" class=\"ue-c-widget__article-headline\">fondos, vivienda...</p>"
+      },
+      {
+        "href": "https://www.expansion.com/ahorro/herramientas.html",
+        "inner_text": "HERRAMIENTAS\n\ndivisas, depósitos...",
+        "inner_html": "<p class=\"ue-c-widget__article-kicker\">herramientas</p>\n<p role=\"heading\" aria-level=\"4\" class=\"ue-c-widget__article-headline\">divisas, depósitos...</p>"
+      },
+      {
+        "href": "https://www.axesor.es/",
+        "inner_text": "INFORMES\n\nempresas, autónomo...",
+        "inner_html": "<p class=\"ue-c-widget__article-kicker\">informes</p><p role=\"heading\" aria-level=\"4\" class=\"ue-c-widget__article-headline\">empresas, autónomo...</p>"
+      },
+      {
+        "href": "https://www.expansion.com/diccionario-economico.html",
+        "inner_text": "DICCIONARIOS\n\neconomía, finanzas...",
+        "inner_html": "<p class=\"ue-c-widget__article-kicker\">diccionarios</p><p role=\"heading\" aria-level=\"4\" class=\"ue-c-widget__article-headline\">economía, finanzas...</p>"
+      },
+      {
+        "href": "https://www.expansion.com/empresas/inmobiliario/2021/05/20/60a605ffe5fdeae2018b45e4.html",
+        "inner_text": "OHL pierde 20 millones a la espera de cerrar la reestructuración societaria",
+        "inner_html": "OHL pierde 20 millones a la espera de cerrar la reestructuración societaria"
+      },
+      {
+        "href": "https://www.expansion.com/encuentros/pablo-gomez-acebo-temes/2021/04/01/index.html",
+        "inner_text": "Encuentro Digital | ¿Dudas sobre a la Declaración de la Renta 2020?",
+        "inner_html": "Encuentro Digital | ¿Dudas sobre a la Declaración de la Renta 2020?"
+      },
+      {
+        "href": "https://www.expansion.com/blogs/prisma-bursatil/2021/05/18/aprovechando-los-recortes-en-bolsa-el.html",
+        "inner_text": "ISMAEL DE LA CRUZ\n\nAprovechando los recortes en Bolsa,...",
+        "inner_html": "<p role=\"heading\" aria-level=\"4\" class=\"ue-c-widget__article-headline\">Ismael de la Cruz</p>\n<p class=\"ue-c-widget__article-standfirst\">\nAprovechando los recortes en Bolsa,...\n</p>"
+      },
+      {
+        "href": "https://www.expansion.com/blogs/peon-de-dama/2021/05/16/prohibido-hablar-de-politica-en-la.html",
+        "inner_text": "MANUEL DEL POZO\n\nProhibido hablar de política en la oficina",
+        "inner_html": "<p role=\"heading\" aria-level=\"4\" class=\"ue-c-widget__article-headline\">Manuel del Pozo</p>\n<p class=\"ue-c-widget__article-standfirst\">\nProhibido hablar de política en la oficina\n</p>"
+      },
+      {
+        "href": "https://www.expansion.com/blogs/escenario-tecnico/2021/05/16/mismo-relato-en-la-renta-variable-ah-y.html",
+        "inner_text": "GERARDO ORTEGA\n\nMismo relato en la renta variable. ¡Ah!...",
+        "inner_html": "<p role=\"heading\" aria-level=\"4\" class=\"ue-c-widget__article-headline\">Gerardo Ortega</p>\n<p class=\"ue-c-widget__article-standfirst\">\nMismo relato en la renta variable. ¡Ah!...\n</p>"
+      },
+      {
+        "href": "https://www.expansion.com/blogs/hodar/2021/05/16/la-sangre-no-llego-al-rio.html",
+        "inner_text": "JOSÉ ANTONIO FDEZ. HÓDAR Y CARMEN RAMOS\n\nLa sangre no llegó al rio",
+        "inner_html": "<p role=\"heading\" aria-level=\"4\" class=\"ue-c-widget__article-headline\">José Antonio Fdez. Hódar y Carmen Ramos</p>\n<p class=\"ue-c-widget__article-standfirst\">\nLa sangre no llegó al rio\n</p>"
+      },
+      {
+        "href": "https://www.expansion.com/blogs/sagardoy/2021/05/20/de-relaciones-laborales-y-algoritmos.html",
+        "inner_text": "IÑIGO SAGARDOY\n\nDe relaciones laborales y algoritmos",
+        "inner_html": "<p role=\"heading\" aria-level=\"4\" class=\"ue-c-widget__article-headline\">Iñigo Sagardoy</p>\n<p class=\"ue-c-widget__article-standfirst\">\nDe relaciones laborales y algoritmos\n</p>"
+      },
+      {
+        "href": "https://www.expansion.com/directivos/deporte-negocio/2021/05/20/60a64efb468aeb49378b45a1.html",
+        "inner_text": "Los clubes de la Bundesliga, contra la entrada de fondos de inversión en la liga",
+        "inner_html": "Los clubes de la Bundesliga, contra la entrada de fondos de inversión en la liga"
+      },
+      {
+        "href": "https://www.expansion.com/expansion-empleo/profesiones/2021/05/19/60a4f57ce5fdeaf42d8b4604.html",
+        "inner_text": "20 trabajos muy cotizados para los nuevos historiadores y filósofos",
+        "inner_html": "20 trabajos muy cotizados para los nuevos historiadores y filósofos"
+      },
+      {
+        "href": "https://www.expansion.com/directivos/2021/05/20/60a54281468aeb87048b4605.html",
+        "inner_text": "Maud Bailly (Accor): \"Las ganas de viajar jamás han sido tan fuertes\"",
+        "inner_html": "Maud Bailly (Accor): \"Las ganas de viajar jamás han sido tan fuertes\""
+      },
+      {
+        "href": "https://www.expansion.com/empresas/2021/05/19/60a543ad468aebc77c8b465f.html",
+        "inner_text": "Así dispara la CNMC contra el monopolio de los cartuchos de caza",
+        "inner_html": "Así dispara la CNMC contra el monopolio de los cartuchos de caza"
+      },
+      {
+        "href": "https://www.expansion.com/sociedad/2021/05/20/60a65638e5fdeace5a8b4580.html",
+        "inner_text": "Los neoyorquinos no hacen caso al consejo de las autoridades y siguen llevando mascarillas",
+        "inner_html": "Los neoyorquinos no hacen caso al consejo de las autoridades y siguen llevando mascarillas"
+      },
+      {
+        "href": "https://www.expansion.com/empresas/distribucion/2021/05/20/60a56246e5fdea59058b45d2.html",
+        "inner_text": "Fnac se lanza a la venta de coches en España",
+        "inner_html": "Fnac se lanza a la venta de coches en España"
+      },
+      {
+        "href": "https://www.expansion.com/empresas/distribucion/2021/05/20/60a56a1fe5fdeaf0168b4693.html",
+        "inner_text": "Pascual lanza la primera incubadora de proyectos lácteos",
+        "inner_html": "Pascual lanza la primera incubadora de proyectos lácteos"
+      },
+      {
+        "href": "https://www.expansion.com/encuentros/",
+        "inner_text": "ENCUENTROS",
+        "inner_html": "ENCUENTROS"
+      },
+      {
+        "href": "https://www.expansion.com/encuentros/gerardo-ortega/2021/05/21/index.html",
+        "inner_text": "GERARDO ORTEGA\n\nANALISTA INDEPENDIENTE Y COLABORADOR DE CMC MARKETS\n\n¿Cuáles son las joyas de la Bolsa?",
+        "inner_html": "<p class=\"ue-c-widget__article-kicker\">Gerardo Ortega</p>\n<p role=\"heading\" aria-level=\"4\" class=\"ue-c-widget__article-headline\">Analista independiente y colaborador de CMC Markets</p>\n<p class=\"ue-c-widget__article-standfirst\">¿Cuáles son las joyas de la Bolsa?</p>"
+      },
+      {
+        "href": "https://lab.expansion.com/viviendas_expropiacion/",
+        "inner_text": "Así se reparten las viviendas 'fantasma' en España",
+        "inner_html": "Así se reparten las viviendas 'fantasma' en España"
+      },
+      {
+        "href": "http://videos.expansion.com/v/0_ethfasbs-que-usos-de-la-inteligencia-artificial-quiere-prohibir-bruselas",
+        "inner_text": "¿Qué usos de la Inteligencia Artificial quiere prohibir Bruselas?",
+        "inner_html": "¿Qué usos de la Inteligencia Artificial quiere prohibir Bruselas?"
+      },
+      {
+        "href": "https://www.expansion.com/cine-y-series/peliculas/2021/05/19/60a4ecb0468aeb88678b45bf.html?autoplay=true",
+        "inner_text": "",
+        "inner_html": ""
+      },
+      {
+        "href": "http://videos.expansion.com/v/0_lia01djg-los-accidentes-de-fast-furious-9-detras-de-las-camaras",
+        "inner_text": "",
+        "inner_html": "<img src=\"https://e00-expansion.uecdn.es/assets/v1/img/lazyload/imgP.gif\" data-src=\"https://e00-expansion.uecdn.es/assets/multimedia/imagenes/2021/05/20/16214659315730.jpg\" class=\"ue-c-cover-content__image\" itemprop=\"url\" alt=\"Así destrozan coches durante el rodaje de 'Fast &amp; Furious 9'\" pinger-seen=\"true\">"
+      },
+      {
+        "href": "https://www.expansion.com/cine-y-series/peliculas/2021/05/19/60a4ecb0468aeb88678b45bf.html",
+        "inner_text": "Así destrozan coches durante el rodaje de 'Fast & Furious 9'",
+        "inner_html": "Así destrozan coches durante el rodaje de 'Fast &amp; Furious 9'"
+      },
+      {
+        "href": "http://videos.expansion.com/v/0_sedwthu6-los-siete-valores-espanoles-con-mas-tiron-por-la-recuperacion",
+        "inner_text": "Los siete valores españoles con más tirón por la recuperación",
+        "inner_html": "Los siete valores españoles con más tirón por la recuperación"
+      },
+      {
+        "href": "https://sincroguia-tv.expansion.com/",
+        "inner_text": "SINCROGUÍA TV",
+        "inner_html": "<span class=\"ue-c-cover-content__kicker\">SINCROGUÍA TV</span>"
+      },
+      {
+        "href": "http://www.escuelaunidadeditorial.es/",
+        "inner_text": "Masters - Escuela UE",
+        "inner_html": "Masters - Escuela UE"
+      },
+      {
+        "href": "http://www.marcamotor.com/",
+        "inner_text": "Coches - Marcamotor.com",
+        "inner_html": "Coches - Marcamotor.com"
+      },
+      {
+        "href": "http://www.unidadeditorial.es/",
+        "inner_text": "Unidad Editorial",
+        "inner_html": "Unidad Editorial"
+      },
+      {
+        "href": "http://www.correofarmaceutico.com/",
+        "inner_text": "Farmacia - Correo Farmacéutico",
+        "inner_html": "Farmacia - Correo Farmacéutico"
+      },
+      {
+        "href": "https://cuidateplus.marca.com/",
+        "inner_text": "Cuídate Plus",
+        "inner_html": "Cuídate Plus"
+      },
+      {
+        "href": "http://www.diariomedico.com/",
+        "inner_text": "Medicina - Diario Médico",
+        "inner_html": "Medicina - Diario Médico"
+      },
+      {
+        "href": "https://www.expansion.com/expansion-empleo.html",
+        "inner_text": "Trabajo - Expansión y Empleo",
+        "inner_html": "Trabajo - Expansión y Empleo"
+      },
+      {
+        "href": "https://www.expansion.com/hemeroteca.html",
+        "inner_text": "Hemeroteca",
+        "inner_html": "Hemeroteca"
+      },
+      {
+        "href": "https://clk.tradedoubler.com/click?p=271538&a=2446806&g=23657342",
+        "inner_text": "Expansión en Orbyt",
+        "inner_html": "Expansión en Orbyt"
+      },
+      {
+        "href": "http://www.elmundo.es/",
+        "inner_text": "El Mundo",
+        "inner_html": "El Mundo"
+      },
+      {
+        "href": "https://tienda.marca.com/?cid=ZM38703&s_kw=zm_foo_home",
+        "inner_text": "Tienda MARCA",
+        "inner_html": "Tienda MARCA"
+      },
+      {
+        "href": "https://www.expansion.com/nauta360.html",
+        "inner_text": "Nauta360",
+        "inner_html": "Nauta360"
+      },
+      {
+        "href": "http://www.telva.com/madrid-fashion-week/",
+        "inner_text": "Madrid Fashion Week",
+        "inner_html": "Madrid Fashion Week"
+      },
+      {
+        "href": "https://www.expansion.com/ahorro/calculadora-sueldo-neto.html",
+        "inner_text": "Calculadora sueldo neto",
+        "inner_html": "Calculadora sueldo neto"
+      },
+      {
+        "href": "https://www.expansion.com/directorio-empresas.html",
+        "inner_text": "Directorio Empresas",
+        "inner_html": "Directorio Empresas"
+      },
+      {
+        "href": "https://www.expansion.com/directorio-autonomos.html",
+        "inner_text": "Directorio Autónomos",
+        "inner_html": "Directorio Autónomos"
+      },
+      {
+        "href": "https://www.expansion.com/directorio-ejecutivos.html",
+        "inner_text": "Directorio Ejecutivos",
+        "inner_html": "Directorio Ejecutivos"
+      },
+      {
+        "href": "https://www.expansion.com/fueradeserie.html",
+        "inner_text": "Fuera de Serie",
+        "inner_html": "Fuera de Serie"
+      },
+      {
+        "href": "http://suscripcion.expansion.com/",
+        "inner_text": "Suscripciones Expansión",
+        "inner_html": "Suscripciones Expansión"
+      },
+      {
+        "href": "http://www.eventosyconferenciasue.com/",
+        "inner_text": "Eventos y Conferencias",
+        "inner_html": "Eventos y Conferencias"
+      },
+      {
+        "href": "http://www.marca.com/",
+        "inner_text": "Marca",
+        "inner_html": "Marca"
+      },
+      {
+        "href": "https://www.expansion.com/registro/registro-aviso-legal.html",
+        "inner_text": "Términos y condiciones de uso",
+        "inner_html": "Términos y condiciones de uso"
+      },
+      {
+        "href": "https://www.expansion.com/registro/registro-proteccion-datos.html",
+        "inner_text": "Política de privacidad",
+        "inner_html": "Política de privacidad"
+      },
+      {
+        "href": "https://www.ojd.es/",
+        "inner_text": "Certificado por OJD",
+        "inner_html": "Certificado por OJD"
+      },
+      {
+        "href": "https://www.expansion.com/contacto/index.html",
+        "inner_text": "Quiénes somos",
+        "inner_html": "Quiénes somos"
+      },
+      {
+        "href": "http://www.unidadeditorial.com/publicidad",
+        "inner_text": "Publicidad",
+        "inner_html": "Publicidad"
+      },
+      {
+        "href": "https://www.expansion.com/atencioncliente/",
+        "inner_text": "Atención al cliente",
+        "inner_html": "Atención al cliente"
+      },
+      {
+        "href": "https://seguro.expansion.com/newsletters.html?intcmp=MODNEWSLETTER2",
+        "inner_text": "Apuntarme",
+        "inner_html": "Apuntarme"
+      },
+      {
+        "href": "https://twitter.com/expansioncom",
+        "inner_text": "Twitter",
+        "inner_html": "<i class=\"icon-twitter icon-twitter_36_d\"></i><span class=\"hidden-content\">Twitter</span>"
+      },
+      {
+        "href": "https://www.facebook.com/Expansion.com/",
+        "inner_text": "Facebook",
+        "inner_html": "<i class=\"icon-facebook icon-facebook_36_d\"></i><span class=\"hidden-content\">Facebook</span>"
+      },
+      {
+        "href": "https://www.linkedin.com/company/expansioncom/",
+        "inner_text": "Linkedin",
+        "inner_html": "<i class=\"icon-linkedin icon-linkedin_36_d\"></i><span class=\"hidden-content\">Linkedin</span>"
+      },
+      {
+        "href": "https://www.instagram.com/expansion_com/",
+        "inner_text": "Instagram",
+        "inner_html": "<i class=\"icon-instagram icon-instagram_36_d\"></i><span class=\"hidden-content\">Instagram</span>"
+      }
+    ],
+    "social": [
+      {
+        "href": "https://twitter.com/expansioncom",
+        "inner_text": "Twitter",
+        "inner_html": "<i class=\"icon-twitter icon-twitter_36_d\"></i><span class=\"hidden-content\">Twitter</span>"
+      },
+      {
+        "href": "https://www.facebook.com/Expansion.com/",
+        "inner_text": "Facebook",
+        "inner_html": "<i class=\"icon-facebook icon-facebook_36_d\"></i><span class=\"hidden-content\">Facebook</span>"
+      },
+      {
+        "href": "https://www.linkedin.com/company/expansioncom/",
+        "inner_text": "Linkedin",
+        "inner_html": "<i class=\"icon-linkedin icon-linkedin_36_d\"></i><span class=\"hidden-content\">Linkedin</span>"
+      },
+      {
+        "href": "https://www.instagram.com/expansion_com/",
+        "inner_text": "Instagram",
+        "inner_html": "<i class=\"icon-instagram icon-instagram_36_d\"></i><span class=\"hidden-content\">Instagram</span>"
+      }
+    ],
+    "keywords": [
+      {
+        "href": "https://www.expansion.com/",
+        "inner_text": "Iniciar sesión",
+        "inner_html": "<span>Iniciar sesión</span>\n        <i class=\"icon-login\"></i>"
+      },
+      {
+        "href": "https://www.expansion.com/juridico/aula-legal.html?intcmp=MENUHOM24101&s_kw=aula-legal",
+        "inner_text": "",
+        "inner_html": "Aula Legal"
+      },
+      {
+        "href": "https://www.expansion.com/registro/registro-aviso-legal.html",
+        "inner_text": "Términos y condiciones de uso",
+        "inner_html": "Términos y condiciones de uso"
+      }
+    ]
+  },
+  "unsafeForms": [],
+  "browsing_history": [
+    "https://www.expansion.com/"
+  ],
+  "websockets": {},
+  "cookies": [
+    {
+      "name": "EXPANSION_idusr",
+      "value": "YKaAKMCoFBEAAEMDHgc-abd5a66563d751ab572152322284d0d3",
+      "domain": "expansion.com",
+      "path": "/",
+      "expires": 1716215320.463659,
+      "size": 67,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2024-05-20T14:28:40.463Z",
+      "expiresDays": 1095.96,
+      "firstPartyStorage": true
+    },
+    {
+      "name": "UE_pref",
+      "value": "%7B%22v%22%3A%22n%22%2C%22d%22%3A%22e%22%2C%22u%22%3A0%2C%22c%22%3A%224%22%7D",
+      "domain": "expansion.com",
+      "path": "/",
+      "expires": 1716132521.146152,
+      "size": 84,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2024-05-19T15:28:41.146Z",
+      "expiresDays": 1095,
+      "firstPartyStorage": true
+    },
+    {
+      "name": "ue_privacyPolicy",
+      "value": "0",
+      "domain": "expansion.com",
+      "path": "/",
+      "expires": 1686324520,
+      "size": 17,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2023-06-09T15:28:40.000Z",
+      "expiresDays": 750,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 4733,
+            "lineNumber": 1,
+            "fileName": "https://e00-ue.uecdn.es/cookies/js/policy_v4.js",
+            "functionName": "Object.setCookie",
+            "source": "    at Object.setCookie (https://e00-ue.uecdn.es/cookies/js/policy_v4.js:1:4733)"
+          },
+          {
+            "columnNumber": 16591,
+            "lineNumber": 1,
+            "fileName": "https://e00-ue.uecdn.es/cookies/js/policy_v4.js",
+            "functionName": "Object.setUePrivacyCookie",
+            "source": "    at Object.setUePrivacyCookie (https://e00-ue.uecdn.es/cookies/js/policy_v4.js:1:16591)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T15:28:40.353Z",
+        "location": "https://www.expansion.com/"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "__tbc",
+      "value": "%7Bjzx%7DJTajhHv6Tp29DBdZf4E1ug1MkcoW8TSxPgLDl2WFmG0j5_hqmdCBUqbqUrxI8GRvdPS5w7EnAO_-w4q563USqA",
+      "domain": "expansion.com",
+      "path": "/",
+      "expires": 1684596522,
+      "size": 100,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "sameSite": "Lax",
+      "expiresUTC": "2023-05-20T15:28:42.000Z",
+      "expiresDays": 730,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 149819,
+            "lineNumber": 1,
+            "fileName": "https://cdn.tinypass.com/api/tinypass.min.js",
+            "functionName": "Function.e.cookie",
+            "source": "    at Function.e.cookie (https://cdn.tinypass.com/api/tinypass.min.js:1:149819)"
+          },
+          {
+            "columnNumber": 216566,
+            "lineNumber": 1,
+            "fileName": "https://cdn.tinypass.com/api/tinypass.min.js",
+            "functionName": "Bt",
+            "source": "    at Bt (https://cdn.tinypass.com/api/tinypass.min.js:1:216566)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T15:28:42.451Z",
+        "location": "https://www.expansion.com/"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "xbc",
+      "value": "%7Bjzx%7D3uEvtdxk12dyQlDV7u9vSb0VFnxZsMwu6oz9oSn5kZbikXaMoB4eWdrMfqJgvgNOmhM4Wq9dH3BcKTdyIomu0YsZByv1HdTjJ_N8eZfMWnaUE6OfqbrdneXncw2nIe7b3d8eHc1NEnzJ5GoK1uF_uv8ZhAweYIGZ1zV0EsLzY5_LQiYkvBhFUmLs6ixH3k3oYCPZgzIc6MKmNLFUANP5KwU-HoacwC5LKPwiI7Z-zazPhtP-5VKAamePfwn5qfVM",
+      "domain": "expansion.com",
+      "path": "/",
+      "expires": 1684596522,
+      "size": 268,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "sameSite": "Lax",
+      "expiresUTC": "2023-05-20T15:28:42.000Z",
+      "expiresDays": 730,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 149819,
+            "lineNumber": 1,
+            "fileName": "https://cdn.tinypass.com/api/tinypass.min.js",
+            "functionName": "Function.e.cookie",
+            "source": "    at Function.e.cookie (https://cdn.tinypass.com/api/tinypass.min.js:1:149819)"
+          },
+          {
+            "columnNumber": 216566,
+            "lineNumber": 1,
+            "fileName": "https://cdn.tinypass.com/api/tinypass.min.js",
+            "functionName": "Object.Bt [as setCookie]",
+            "source": "    at Object.Bt [as setCookie] (https://cdn.tinypass.com/api/tinypass.min.js:1:216566)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T15:28:42.455Z",
+        "location": "https://www.expansion.com/"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "_ga",
+      "value": "GA1.2.541228645.1621524523",
+      "domain": "expansion.com",
+      "path": "/",
+      "expires": 1684596522,
+      "size": 29,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2023-05-20T15:28:42.000Z",
+      "expiresDays": 730,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 495,
+            "lineNumber": 30,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "zc",
+            "source": "    at zc (https://www.google-analytics.com/analytics.js:30:495)"
+          },
+          {
+            "columnNumber": 15,
+            "lineNumber": 60,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "ma",
+            "source": "    at ma (https://www.google-analytics.com/analytics.js:60:15)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T15:28:42.672Z",
+        "location": "https://www.expansion.com/"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "UID",
+      "value": "13RHFSVSBZXSF5ZRHBST3Hg1621524521",
+      "domain": "scorecardresearch.com",
+      "path": "/",
+      "expires": 1683732520.653454,
+      "size": 36,
+      "httpOnly": false,
+      "secure": true,
+      "session": false,
+      "sameSite": "None",
+      "expiresUTC": "2023-05-10T15:28:40.653Z",
+      "expiresDays": 720,
+      "firstPartyStorage": false
+    },
+    {
+      "name": "_cb_ls",
+      "value": "1",
+      "domain": "www.expansion.com",
+      "path": "/",
+      "expires": 1655652521,
+      "size": 7,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2022-06-19T15:28:41.000Z",
+      "expiresDays": 395,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 189,
+            "lineNumber": 30,
+            "fileName": "https://static.chartbeat.com/js/chartbeat.js",
+            "functionName": "Object.L.create",
+            "source": "    at Object.L.create (https://static.chartbeat.com/js/chartbeat.js:30:189)"
+          },
+          {
+            "columnNumber": 373,
+            "lineNumber": 32,
+            "fileName": "https://static.chartbeat.com/js/chartbeat.js",
+            "functionName": "Eb",
+            "source": "    at Eb (https://static.chartbeat.com/js/chartbeat.js:32:373)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T15:28:41.923Z",
+        "location": "https://www.expansion.com/"
+      },
+      "firstPartyStorage": false
+    },
+    {
+      "name": "_cb",
+      "value": "U0nky0OwzcCFqlep",
+      "domain": "www.expansion.com",
+      "path": "/",
+      "expires": 1655652521,
+      "size": 19,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2022-06-19T15:28:41.000Z",
+      "expiresDays": 395,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 189,
+            "lineNumber": 30,
+            "fileName": "https://static.chartbeat.com/js/chartbeat.js",
+            "functionName": "Object.L.create",
+            "source": "    at Object.L.create (https://static.chartbeat.com/js/chartbeat.js:30:189)"
+          },
+          {
+            "columnNumber": 86,
+            "lineNumber": 33,
+            "fileName": "https://static.chartbeat.com/js/chartbeat.js",
+            "functionName": "Db.n.create",
+            "source": "    at Db.n.create (https://static.chartbeat.com/js/chartbeat.js:33:86)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T15:28:41.924Z",
+        "location": "https://www.expansion.com/"
+      },
+      "firstPartyStorage": false
+    },
+    {
+      "name": "_chartbeat2",
+      "value": ".1621524521903.1621524521903.1.ChMzYrBMcUCPBQWqEODrz-HuDu_XZ.1",
+      "domain": "www.expansion.com",
+      "path": "/",
+      "expires": 1655652521,
+      "size": 73,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2022-06-19T15:28:41.000Z",
+      "expiresDays": 395,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 189,
+            "lineNumber": 30,
+            "fileName": "https://static.chartbeat.com/js/chartbeat.js",
+            "functionName": "Object.L.create",
+            "source": "    at Object.L.create (https://static.chartbeat.com/js/chartbeat.js:30:189)"
+          },
+          {
+            "columnNumber": 86,
+            "lineNumber": 33,
+            "fileName": "https://static.chartbeat.com/js/chartbeat.js",
+            "functionName": "Db.n.create",
+            "source": "    at Db.n.create (https://static.chartbeat.com/js/chartbeat.js:33:86)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T15:28:41.925Z",
+        "location": "https://www.expansion.com/"
+      },
+      "firstPartyStorage": false
+    },
+    {
+      "name": "didomi_token",
+      "value": "eyJ1c2VyX2lkIjoiMTc5OGE2NDktZjg5YS02MmU5LTg3MDYtMjM1OTIyNGZjMTFiIiwiY3JlYXRlZCI6IjIwMjEtMDUtMjBUMTU6Mjg6NDAuOTA3WiIsInVwZGF0ZWQiOiIyMDIxLTA1LTIwVDE1OjI4OjQwLjkwN1oiLCJ2ZXJzaW9uIjpudWxsfQ==",
+      "domain": "expansion.com",
+      "path": "/",
+      "expires": 1653146920,
+      "size": 200,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2022-05-21T15:28:40.000Z",
+      "expiresDays": 366,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 25868,
+            "lineNumber": 2,
+            "fileName": "https://sdk.privacy-center.org/sdk.f3da7da1d58106f5313b29fb7e1c822489ffb708.js",
+            "functionName": "a",
+            "source": "    at a (https://sdk.privacy-center.org/sdk.f3da7da1d58106f5313b29fb7e1c822489ffb708.js:2:25868)"
+          },
+          {
+            "columnNumber": 27250,
+            "lineNumber": 2,
+            "fileName": "https://sdk.privacy-center.org/sdk.f3da7da1d58106f5313b29fb7e1c822489ffb708.js",
+            "functionName": "f",
+            "source": "    at f (https://sdk.privacy-center.org/sdk.f3da7da1d58106f5313b29fb7e1c822489ffb708.js:2:27250)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T15:28:40.977Z",
+        "location": "https://www.expansion.com/"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "gckp",
+      "value": "349lk5mgqr1jz3u93ds3qa1fhj",
+      "domain": "cxense.com",
+      "path": "/",
+      "expires": 1653060529.651933,
+      "size": 30,
+      "httpOnly": true,
+      "secure": true,
+      "session": false,
+      "sameSite": "None",
+      "expiresUTC": "2022-05-20T15:28:49.651Z",
+      "expiresDays": 365,
+      "firstPartyStorage": false
+    },
+    {
+      "name": "cX_G",
+      "value": "cx%3Aaz0u1dr9xjh87uuo4frixnh%3A3jqmphk0cc1dr",
+      "domain": "expansion.com",
+      "path": "/",
+      "expires": 1653060523,
+      "size": 48,
+      "httpOnly": false,
+      "secure": true,
+      "session": false,
+      "sameSite": "None",
+      "expiresUTC": "2022-05-20T15:28:43.000Z",
+      "expiresDays": 365,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 12744,
+            "lineNumber": 2,
+            "fileName": "https://cdn.cxense.com/cx.js",
+            "functionName": "Object._assignCookieValue",
+            "source": "    at Object._assignCookieValue (https://cdn.cxense.com/cx.js:2:12744)"
+          },
+          {
+            "columnNumber": 13350,
+            "lineNumber": 2,
+            "fileName": "https://cdn.cxense.com/cx.js",
+            "functionName": "Object.setCookie",
+            "source": "    at Object.setCookie (https://cdn.cxense.com/cx.js:2:13350)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T15:28:43.885Z",
+        "location": "https://www.expansion.com/"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "__bs_id",
+      "value": "bs.1.0.NxOQ7bpJBjIi",
+      "domain": "www.expansion.com",
+      "path": "/",
+      "expires": 1653060522,
+      "size": 26,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2022-05-20T15:28:42.000Z",
+      "expiresDays": 365,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 2637,
+            "lineNumber": 1,
+            "fileName": "https://uuee.spxl.socy.es/pixel/js/UUEE_234_934_884/",
+            "functionName": "Pixel.anchor.setCookie",
+            "source": "    at Pixel.anchor.setCookie (https://uuee.spxl.socy.es/pixel/js/UUEE_234_934_884/:1:2637)"
+          },
+          {
+            "columnNumber": 5530,
+            "lineNumber": 1,
+            "fileName": "https://uuee.spxl.socy.es/pixel/js/UUEE_234_934_884/",
+            "functionName": "new Pixel",
+            "source": "    at new Pixel (https://uuee.spxl.socy.es/pixel/js/UUEE_234_934_884/:1:5530)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T15:28:42.160Z",
+        "location": "https://www.expansion.com/"
+      },
+      "firstPartyStorage": false
+    },
+    {
+      "name": "utag_main",
+      "value": "v_id:01798a64a2a600287f70d641a38c00067001a05f00a47$_sn:1$_se:1$_ss:1$_st:1621526321651$ses_id:1621524521651%3Bexp-session$_pn:1%3Bexp-session",
+      "domain": "expansion.com",
+      "path": "/",
+      "expires": 1653060521,
+      "size": 150,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2022-05-20T15:28:41.000Z",
+      "expiresDays": 365,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 16,
+            "lineNumber": 33,
+            "fileName": "https://tags.tiqcdn.com/utag/unidadeditorial/expansion/prod/utag.js",
+            "functionName": "Object.SC",
+            "source": "    at Object.SC (https://tags.tiqcdn.com/utag/unidadeditorial/expansion/prod/utag.js:33:16)"
+          },
+          {
+            "columnNumber": 86,
+            "lineNumber": 16,
+            "fileName": "https://tags.tiqcdn.com/utag/unidadeditorial/expansion/prod/utag.js",
+            "functionName": "Object.RDses",
+            "source": "    at Object.RDses (https://tags.tiqcdn.com/utag/unidadeditorial/expansion/prod/utag.js:16:86)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T15:28:41.677Z",
+        "location": "https://www.expansion.com/"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "UI",
+      "value": "1z11zzoBz2OWcaEz1FZRyK1GS",
+      "domain": "tradedoubler.com",
+      "path": "/",
+      "expires": 1653060520.943154,
+      "size": 27,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2022-05-20T15:28:40.943Z",
+      "expiresDays": 365,
+      "firstPartyStorage": false
+    },
+    {
+      "name": "PI",
+      "value": "1z11z1zoBzQRB7VzBrrHy1y1tn98y1eGbyyy9JX1y1JAJy2FmGRQyyy",
+      "domain": "tradedoubler.com",
+      "path": "/",
+      "expires": 1653060520.943135,
+      "size": 57,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2022-05-20T15:28:40.943Z",
+      "expiresDays": 365,
+      "firstPartyStorage": false
+    },
+    {
+      "name": "BT",
+      "value": "1z11zzoBz2O1jk6zzzz9ycQ6H4KL",
+      "domain": "tradedoubler.com",
+      "path": "/",
+      "expires": 1653060520.943078,
+      "size": 30,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2022-05-20T15:28:40.943Z",
+      "expiresDays": 365,
+      "firstPartyStorage": false
+    },
+    {
+      "name": "apw_cache",
+      "value": "905cca87-77b2-44d9-b52c-ed2294f2947d.1621524520.eLaqFw.RO.0...0.0..0.XxrQfXDTe5kMS1xbx-GGM6Un3pC3d561d7JnjDqZX3o",
+      "domain": "expansion.com",
+      "path": "/",
+      "expires": 1653060520.241469,
+      "size": 121,
+      "httpOnly": true,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2022-05-20T15:28:40.241Z",
+      "expiresDays": 365,
+      "firstPartyStorage": true
+    },
+    {
+      "name": "_fbp",
+      "value": "fb.1.1621524522185.343612540",
+      "domain": "expansion.com",
+      "path": "/",
+      "expires": 1629300522,
+      "size": 32,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2021-08-18T15:28:42.000Z",
+      "expiresDays": 90,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 5326,
+            "lineNumber": 25,
+            "fileName": "https://connect.facebook.net/signals/config/159108031327035?v=2.9.39&r=stable",
+            "functionName": "C",
+            "source": "    at C (https://connect.facebook.net/signals/config/159108031327035?v=2.9.39&r=stable:25:5326)"
+          },
+          {
+            "columnNumber": 5633,
+            "lineNumber": 25,
+            "fileName": "https://connect.facebook.net/signals/config/159108031327035?v=2.9.39&r=stable",
+            "functionName": "D",
+            "source": "    at D (https://connect.facebook.net/signals/config/159108031327035?v=2.9.39&r=stable:25:5633)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T15:28:42.703Z",
+        "location": "https://www.expansion.com/"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "__pnahc",
+      "value": "0",
+      "domain": "www.expansion.com",
+      "path": "/",
+      "expires": 1629300522,
+      "size": 8,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "sameSite": "Lax",
+      "expiresUTC": "2021-08-18T15:28:42.000Z",
+      "expiresDays": 90,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 149819,
+            "lineNumber": 1,
+            "fileName": "https://cdn.tinypass.com/api/tinypass.min.js",
+            "functionName": "Function.e.cookie",
+            "source": "    at Function.e.cookie (https://cdn.tinypass.com/api/tinypass.min.js:1:149819)"
+          },
+          {
+            "columnNumber": 216566,
+            "lineNumber": 1,
+            "fileName": "https://cdn.tinypass.com/api/tinypass.min.js",
+            "functionName": "Bt",
+            "source": "    at Bt (https://cdn.tinypass.com/api/tinypass.min.js:1:216566)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T15:28:42.303Z",
+        "location": "https://www.expansion.com/"
+      },
+      "firstPartyStorage": false
+    },
+    {
+      "name": "__pat",
+      "value": "7200000",
+      "domain": "expansion.com",
+      "path": "/",
+      "expires": 1624116522,
+      "size": 12,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "sameSite": "Lax",
+      "expiresUTC": "2021-06-19T15:28:42.000Z",
+      "expiresDays": 30,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 149819,
+            "lineNumber": 1,
+            "fileName": "https://cdn.tinypass.com/api/tinypass.min.js",
+            "functionName": "Function.e.cookie",
+            "source": "    at Function.e.cookie (https://cdn.tinypass.com/api/tinypass.min.js:1:149819)"
+          },
+          {
+            "columnNumber": 216566,
+            "lineNumber": 1,
+            "fileName": "https://cdn.tinypass.com/api/tinypass.min.js",
+            "functionName": "Bt",
+            "source": "    at Bt (https://cdn.tinypass.com/api/tinypass.min.js:1:216566)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T15:28:42.454Z",
+        "location": "https://www.expansion.com/"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "__pvi",
+      "value": "%7B%22id%22%3A%22v-kox1u0x0f5wae3rm%22%2C%22domain%22%3A%22.expansion.com%22%2C%22time%22%3A1621524522445%7D",
+      "domain": "expansion.com",
+      "path": "/",
+      "expires": 1621610922,
+      "size": 113,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "sameSite": "Lax",
+      "expiresUTC": "2021-05-21T15:28:42.000Z",
+      "expiresDays": 1,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 149819,
+            "lineNumber": 1,
+            "fileName": "https://cdn.tinypass.com/api/tinypass.min.js",
+            "functionName": "Function.e.cookie",
+            "source": "    at Function.e.cookie (https://cdn.tinypass.com/api/tinypass.min.js:1:149819)"
+          },
+          {
+            "columnNumber": 216566,
+            "lineNumber": 1,
+            "fileName": "https://cdn.tinypass.com/api/tinypass.min.js",
+            "functionName": "Object.Bt [as setCookie]",
+            "source": "    at Object.Bt [as setCookie] (https://cdn.tinypass.com/api/tinypass.min.js:1:216566)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T15:28:42.455Z",
+        "location": "https://www.expansion.com/"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "_gid",
+      "value": "GA1.2.2033563352.1621524523",
+      "domain": "expansion.com",
+      "path": "/",
+      "expires": 1621610922,
+      "size": 31,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2021-05-21T15:28:42.000Z",
+      "expiresDays": 1,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 495,
+            "lineNumber": 30,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "zc",
+            "source": "    at zc (https://www.google-analytics.com/analytics.js:30:495)"
+          },
+          {
+            "columnNumber": 401,
+            "lineNumber": 59,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "ma",
+            "source": "    at ma (https://www.google-analytics.com/analytics.js:59:401)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T15:28:42.673Z",
+        "location": "https://www.expansion.com/"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "AMP_TOKEN",
+      "value": "%24NOT_FOUND",
+      "domain": "expansion.com",
+      "path": "/",
+      "expires": 1621528122,
+      "size": 21,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2021-05-20T16:28:42.000Z",
+      "expiresDays": 0.04,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 495,
+            "lineNumber": 30,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "zc",
+            "source": "    at zc (https://www.google-analytics.com/analytics.js:30:495)"
+          },
+          {
+            "columnNumber": 124,
+            "lineNumber": 36,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "xc",
+            "source": "    at xc (https://www.google-analytics.com/analytics.js:36:124)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T15:28:42.672Z",
+        "location": "https://www.expansion.com/"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "_cb_svref",
+      "value": "null",
+      "domain": "www.expansion.com",
+      "path": "/",
+      "expires": 1621526321,
+      "size": 13,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2021-05-20T15:58:41.000Z",
+      "expiresDays": 0.02,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 189,
+            "lineNumber": 30,
+            "fileName": "https://static.chartbeat.com/js/chartbeat.js",
+            "functionName": "Object.L.create",
+            "source": "    at Object.L.create (https://static.chartbeat.com/js/chartbeat.js:30:189)"
+          },
+          {
+            "columnNumber": 86,
+            "lineNumber": 33,
+            "fileName": "https://static.chartbeat.com/js/chartbeat.js",
+            "functionName": "Db.n.create",
+            "source": "    at Db.n.create (https://static.chartbeat.com/js/chartbeat.js:33:86)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T15:28:41.927Z",
+        "location": "https://www.expansion.com/"
+      },
+      "firstPartyStorage": false
+    },
+    {
+      "name": "test_cookie",
+      "value": "CheckForPermission",
+      "domain": "doubleclick.net",
+      "path": "/",
+      "expires": 1621525422.449439,
+      "size": 29,
+      "httpOnly": false,
+      "secure": true,
+      "session": false,
+      "sameSite": "None",
+      "expiresUTC": "2021-05-20T15:43:42.449Z",
+      "expiresDays": 0.01,
+      "firstPartyStorage": false
+    },
+    {
+      "name": "__adblocker",
+      "value": "false",
+      "domain": "www.expansion.com",
+      "path": "/",
+      "expires": 1621524821,
+      "size": 16,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2021-05-20T15:33:41.000Z",
+      "expiresDays": 0,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 6654,
+            "lineNumber": 1,
+            "fileName": "https://www.npttech.com/advertising.js",
+            "functionName": "s",
+            "source": "    at s (https://www.npttech.com/advertising.js:1:6654)"
+          },
+          {
+            "columnNumber": 307,
+            "lineNumber": 1,
+            "fileName": "https://www.npttech.com/advertising.js",
+            "functionName": "Array.o",
+            "source": "    at Array.o (https://www.npttech.com/advertising.js:1:307)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T15:28:41.347Z",
+        "location": "https://www.expansion.com/"
+      },
+      "firstPartyStorage": false
+    },
+    {
+      "name": "_gat_gtag_UA_181957286_3",
+      "value": "1",
+      "domain": "expansion.com",
+      "path": "/",
+      "expires": 1621524582,
+      "size": 25,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2021-05-20T15:29:42.000Z",
+      "expiresDays": 0,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 495,
+            "lineNumber": 30,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "zc",
+            "source": "    at zc (https://www.google-analytics.com/analytics.js:30:495)"
+          },
+          {
+            "columnNumber": 31,
+            "lineNumber": 73,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "Qd",
+            "source": "    at Qd (https://www.google-analytics.com/analytics.js:73:31)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T15:28:42.673Z",
+        "location": "https://www.expansion.com/"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "cX_S",
+      "value": "kox1u1fr4i4iipem",
+      "domain": "expansion.com",
+      "path": "/",
+      "expires": -1,
+      "size": 20,
+      "httpOnly": false,
+      "secure": true,
+      "session": true,
+      "sameSite": "None",
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 12744,
+            "lineNumber": 2,
+            "fileName": "https://cdn.cxense.com/cx.js",
+            "functionName": "Object._assignCookieValue",
+            "source": "    at Object._assignCookieValue (https://cdn.cxense.com/cx.js:2:12744)"
+          },
+          {
+            "columnNumber": 13350,
+            "lineNumber": 2,
+            "fileName": "https://cdn.cxense.com/cx.js",
+            "functionName": "Object.setCookie",
+            "source": "    at Object.setCookie (https://cdn.cxense.com/cx.js:2:13350)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T15:28:42.970Z",
+        "location": "https://www.expansion.com/"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "expiretoken",
+      "value": "",
+      "domain": "cxense.com",
+      "path": "/",
+      "expires": -1,
+      "size": 11,
+      "httpOnly": false,
+      "secure": true,
+      "session": true,
+      "sameSite": "None",
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 5646,
+            "lineNumber": 2,
+            "fileName": "https://scdn.cxense.com/cx.js",
+            "functionName": "Object._createExpireTokenRequest",
+            "source": "    at Object._createExpireTokenRequest (https://scdn.cxense.com/cx.js:2:5646)"
+          },
+          {
+            "columnNumber": 410,
+            "lineNumber": 2,
+            "fileName": "https://scdn.cxense.com/cx.js",
+            "functionName": "Object.onP1",
+            "source": "    at Object.onP1 (https://scdn.cxense.com/cx.js:2:410)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T15:28:43.650Z",
+        "location": "https://www.expansion.com"
+      },
+      "firstPartyStorage": false
+    }
+  ],
+  "localStorage": {
+    "https://www.expansion.com": {
+      "_cb_svref": {
+        "value": null,
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 86,
+              "lineNumber": 31,
+              "fileName": "https://static.chartbeat.com/js/chartbeat.js",
+              "functionName": "Object.M.create",
+              "source": "    at Object.M.create (https://static.chartbeat.com/js/chartbeat.js:31:86)"
+            },
+            {
+              "columnNumber": 56,
+              "lineNumber": 33,
+              "fileName": "https://static.chartbeat.com/js/chartbeat.js",
+              "functionName": "Db.n.create",
+              "source": "    at Db.n.create (https://static.chartbeat.com/js/chartbeat.js:33:56)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T15:28:41.926Z",
+          "location": "https://www.expansion.com/"
+        }
+      },
+      "md_pxl_n": {
+        "value": "p2_60a6802a416620.96311936",
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 3056,
+              "lineNumber": 1,
+              "fileName": "https://uuee.spxl.socy.es/pixel/js/UUEE_234_934_884/",
+              "functionName": "Pixel.anchor.setCookie",
+              "source": "    at Pixel.anchor.setCookie (https://uuee.spxl.socy.es/pixel/js/UUEE_234_934_884/:1:3056)"
+            },
+            {
+              "columnNumber": 7932,
+              "lineNumber": 1,
+              "fileName": "https://uuee.spxl.socy.es/pixel/js/UUEE_234_934_884/",
+              "source": "    at https://uuee.spxl.socy.es/pixel/js/UUEE_234_934_884/:1:7932"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T15:28:42.311Z",
+          "location": "https://www.expansion.com/"
+        }
+      },
+      "ueUserPurposes": {
+        "value": [],
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 4230,
+              "lineNumber": 1,
+              "fileName": "https://e00-ue.uecdn.es/cookies/js/policy_v4.js",
+              "functionName": "Object.setLocalStorage",
+              "source": "    at Object.setLocalStorage (https://e00-ue.uecdn.es/cookies/js/policy_v4.js:1:4230)"
+            },
+            {
+              "columnNumber": 14524,
+              "lineNumber": 1,
+              "fileName": "https://e00-ue.uecdn.es/cookies/js/policy_v4.js",
+              "functionName": "Object.updateLocalStorageData",
+              "source": "    at Object.updateLocalStorageData (https://e00-ue.uecdn.es/cookies/js/policy_v4.js:1:14524)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T15:28:41.223Z",
+          "location": "https://www.expansion.com/"
+        }
+      },
+      "taboola global:user-id": {
+        "value": "453b67ed-6c30-4828-8c9b-331d0f40cefd-tuct7a005aa",
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 11278,
+              "lineNumber": 3,
+              "fileName": "https://cdn.taboola.com/libtrc/unip/1171464/tfa.js",
+              "functionName": "st",
+              "source": "    at st (https://cdn.taboola.com/libtrc/unip/1171464/tfa.js:3:11278)"
+            },
+            {
+              "columnNumber": 10919,
+              "lineNumber": 3,
+              "fileName": "https://cdn.taboola.com/libtrc/unip/1171464/tfa.js",
+              "functionName": "Object.trkCallback",
+              "source": "    at Object.trkCallback (https://cdn.taboola.com/libtrc/unip/1171464/tfa.js:3:10919)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T15:28:42.313Z",
+          "location": "https://www.expansion.com/"
+        }
+      },
+      "ueUserContentComscore": {
+        "value": -1,
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 4230,
+              "lineNumber": 1,
+              "fileName": "https://e00-ue.uecdn.es/cookies/js/policy_v4.js",
+              "functionName": "Object.setLocalStorage",
+              "source": "    at Object.setLocalStorage (https://e00-ue.uecdn.es/cookies/js/policy_v4.js:1:4230)"
+            },
+            {
+              "columnNumber": 14373,
+              "lineNumber": 1,
+              "fileName": "https://e00-ue.uecdn.es/cookies/js/policy_v4.js",
+              "functionName": "Object.updateLocalStorageData",
+              "source": "    at Object.updateLocalStorageData (https://e00-ue.uecdn.es/cookies/js/policy_v4.js:1:14373)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T15:28:41.223Z",
+          "location": "https://www.expansion.com/"
+        }
+      },
+      "_cb": {
+        "value": "U0nky0OwzcCFqlep",
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 86,
+              "lineNumber": 31,
+              "fileName": "https://static.chartbeat.com/js/chartbeat.js",
+              "functionName": "Object.M.create",
+              "source": "    at Object.M.create (https://static.chartbeat.com/js/chartbeat.js:31:86)"
+            },
+            {
+              "columnNumber": 56,
+              "lineNumber": 33,
+              "fileName": "https://static.chartbeat.com/js/chartbeat.js",
+              "functionName": "Db.n.create",
+              "source": "    at Db.n.create (https://static.chartbeat.com/js/chartbeat.js:33:56)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T15:28:41.924Z",
+          "location": "https://www.expansion.com/"
+        }
+      },
+      "cX_lastP1Time": {
+        "value": 1621524522957,
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 17350,
+              "lineNumber": 6,
+              "fileName": "https://cdn.cxense.com/cx.js",
+              "functionName": "Object._setLocalStorage",
+              "source": "    at Object._setLocalStorage (https://cdn.cxense.com/cx.js:6:17350)"
+            },
+            {
+              "columnNumber": 27336,
+              "lineNumber": 1,
+              "fileName": "https://cdn.cxense.com/cx.js",
+              "functionName": "Object.sendPageViewEvent",
+              "source": "    at Object.sendPageViewEvent (https://cdn.cxense.com/cx.js:1:27336)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T15:28:42.970Z",
+          "location": "https://www.expansion.com/"
+        }
+      },
+      "ueConsentData": {
+        "value": "",
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 4230,
+              "lineNumber": 1,
+              "fileName": "https://e00-ue.uecdn.es/cookies/js/policy_v4.js",
+              "functionName": "Object.setLocalStorage",
+              "source": "    at Object.setLocalStorage (https://e00-ue.uecdn.es/cookies/js/policy_v4.js:1:4230)"
+            },
+            {
+              "columnNumber": 14602,
+              "lineNumber": 1,
+              "fileName": "https://e00-ue.uecdn.es/cookies/js/policy_v4.js",
+              "source": "    at https://e00-ue.uecdn.es/cookies/js/policy_v4.js:1:14602"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T15:28:41.224Z",
+          "location": "https://www.expansion.com/"
+        }
+      },
+      "ueUserContentGoogle": {
+        "value": -1,
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 4230,
+              "lineNumber": 1,
+              "fileName": "https://e00-ue.uecdn.es/cookies/js/policy_v4.js",
+              "functionName": "Object.setLocalStorage",
+              "source": "    at Object.setLocalStorage (https://e00-ue.uecdn.es/cookies/js/policy_v4.js:1:4230)"
+            },
+            {
+              "columnNumber": 14294,
+              "lineNumber": 1,
+              "fileName": "https://e00-ue.uecdn.es/cookies/js/policy_v4.js",
+              "functionName": "Object.updateLocalStorageData",
+              "source": "    at Object.updateLocalStorageData (https://e00-ue.uecdn.es/cookies/js/policy_v4.js:1:14294)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T15:28:41.222Z",
+          "location": "https://www.expansion.com/"
+        }
+      },
+      "lastVisit30": {
+        "value": 3,
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 371,
+              "lineNumber": 220,
+              "fileName": "https://tags.tiqcdn.com/utag/unidadeditorial/expansion/prod/utag.js",
+              "functionName": "recurrentUser",
+              "source": "    at recurrentUser (https://tags.tiqcdn.com/utag/unidadeditorial/expansion/prod/utag.js:220:371)"
+            },
+            {
+              "columnNumber": 360,
+              "lineNumber": 198,
+              "fileName": "https://tags.tiqcdn.com/utag/unidadeditorial/expansion/prod/utag.js",
+              "functionName": "calculateDynamicVars",
+              "source": "    at calculateDynamicVars (https://tags.tiqcdn.com/utag/unidadeditorial/expansion/prod/utag.js:198:360)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T15:28:41.678Z",
+          "location": "https://www.expansion.com/"
+        }
+      },
+      "_chartbeat2": {
+        "value": ".1621524521903.1621524521903.1.ChMzYrBMcUCPBQWqEODrz-HuDu_XZ.1",
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 86,
+              "lineNumber": 31,
+              "fileName": "https://static.chartbeat.com/js/chartbeat.js",
+              "functionName": "Object.M.create",
+              "source": "    at Object.M.create (https://static.chartbeat.com/js/chartbeat.js:31:86)"
+            },
+            {
+              "columnNumber": 56,
+              "lineNumber": 33,
+              "fileName": "https://static.chartbeat.com/js/chartbeat.js",
+              "functionName": "Db.n.create",
+              "source": "    at Db.n.create (https://static.chartbeat.com/js/chartbeat.js:33:56)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T15:28:41.924Z",
+          "location": "https://www.expansion.com/"
+        }
+      },
+      "_cX_G": {
+        "value": "cx:az0u1dr9xjh87uuo4frixnh:3jqmphk0cc1dr",
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 17350,
+              "lineNumber": 6,
+              "fileName": "https://cdn.cxense.com/cx.js",
+              "functionName": "Object._setLocalStorage",
+              "source": "    at Object._setLocalStorage (https://cdn.cxense.com/cx.js:6:17350)"
+            },
+            {
+              "columnNumber": 3165,
+              "lineNumber": 2,
+              "fileName": "https://cdn.cxense.com/cx.js",
+              "functionName": "Object._localCxenseUserId",
+              "source": "    at Object._localCxenseUserId (https://cdn.cxense.com/cx.js:2:3165)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T15:28:43.885Z",
+          "location": "https://www.expansion.com/"
+        }
+      },
+      "_cb_svref_expires": {
+        "value": 1621526321916,
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 101,
+              "lineNumber": 31,
+              "fileName": "https://static.chartbeat.com/js/chartbeat.js",
+              "functionName": "Object.M.create",
+              "source": "    at Object.M.create (https://static.chartbeat.com/js/chartbeat.js:31:101)"
+            },
+            {
+              "columnNumber": 56,
+              "lineNumber": 33,
+              "fileName": "https://static.chartbeat.com/js/chartbeat.js",
+              "functionName": "Db.n.create",
+              "source": "    at Db.n.create (https://static.chartbeat.com/js/chartbeat.js:33:56)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T15:28:41.926Z",
+          "location": "https://www.expansion.com/"
+        }
+      },
+      "_cb_expires": {
+        "value": 1655652521905,
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 101,
+              "lineNumber": 31,
+              "fileName": "https://static.chartbeat.com/js/chartbeat.js",
+              "functionName": "Object.M.create",
+              "source": "    at Object.M.create (https://static.chartbeat.com/js/chartbeat.js:31:101)"
+            },
+            {
+              "columnNumber": 56,
+              "lineNumber": 33,
+              "fileName": "https://static.chartbeat.com/js/chartbeat.js",
+              "functionName": "Db.n.create",
+              "source": "    at Db.n.create (https://static.chartbeat.com/js/chartbeat.js:33:56)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T15:28:41.924Z",
+          "location": "https://www.expansion.com/"
+        }
+      },
+      "eng_mt": {
+        "value": {
+          "ver": 32,
+          "sessionStartTime": 1621524522079,
+          "scrollDepth": 5,
+          "sessionDepth": [
+            "https://www.expansion.com/"
+          ],
+          "timeOnSite": 0,
+          "numOfTimesMetricsSent": 2
+        },
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 24273,
+              "lineNumber": 3,
+              "fileName": "https://cdn.taboola.com/libtrc/unip/1171464/tfa.js",
+              "functionName": "o.setValue",
+              "source": "    at o.setValue (https://cdn.taboola.com/libtrc/unip/1171464/tfa.js:3:24273)"
+            },
+            {
+              "columnNumber": 32373,
+              "lineNumber": 3,
+              "fileName": "https://cdn.taboola.com/libtrc/unip/1171464/tfa.js",
+              "functionName": "t [as persistSpecificMetricsData]",
+              "source": "    at t [as persistSpecificMetricsData] (https://cdn.taboola.com/libtrc/unip/1171464/tfa.js:3:32373)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T15:28:48.233Z",
+          "location": "https://www.expansion.com/"
+        }
+      },
+      "md_pxl_n_expires": {
+        "value": "expires=Wed, 26 May 2021 19:28:42 GMT",
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 3096,
+              "lineNumber": 1,
+              "fileName": "https://uuee.spxl.socy.es/pixel/js/UUEE_234_934_884/",
+              "functionName": "Pixel.anchor.setCookie",
+              "source": "    at Pixel.anchor.setCookie (https://uuee.spxl.socy.es/pixel/js/UUEE_234_934_884/:1:3096)"
+            },
+            {
+              "columnNumber": 7932,
+              "lineNumber": 1,
+              "fileName": "https://uuee.spxl.socy.es/pixel/js/UUEE_234_934_884/",
+              "source": "    at https://uuee.spxl.socy.es/pixel/js/UUEE_234_934_884/:1:7932"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T15:28:42.311Z",
+          "location": "https://www.expansion.com/"
+        }
+      },
+      "1171464:session-data": {
+        "value": "v2_7a930699da15fcb2259c655729ee5e69_453b67ed-6c30-4828-8c9b-331d0f40cefd-tuct7a005aa_1621524522_1621524522_CNawjgYQiMBHGNrIktOYLyABKAEwQzjylQ1AlIsQSLGG2ANQ____________AVgAYABojODS8bqa6IIK",
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 11382,
+              "lineNumber": 3,
+              "fileName": "https://cdn.taboola.com/libtrc/unip/1171464/tfa.js",
+              "functionName": "st",
+              "source": "    at st (https://cdn.taboola.com/libtrc/unip/1171464/tfa.js:3:11382)"
+            },
+            {
+              "columnNumber": 10919,
+              "lineNumber": 3,
+              "fileName": "https://cdn.taboola.com/libtrc/unip/1171464/tfa.js",
+              "functionName": "Object.trkCallback",
+              "source": "    at Object.trkCallback (https://cdn.taboola.com/libtrc/unip/1171464/tfa.js:3:10919)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T15:28:42.313Z",
+          "location": "https://www.expansion.com/"
+        }
+      },
+      "_chartbeat2_expires": {
+        "value": 1655652521907,
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 101,
+              "lineNumber": 31,
+              "fileName": "https://static.chartbeat.com/js/chartbeat.js",
+              "functionName": "Object.M.create",
+              "source": "    at Object.M.create (https://static.chartbeat.com/js/chartbeat.js:31:101)"
+            },
+            {
+              "columnNumber": 56,
+              "lineNumber": 33,
+              "fileName": "https://static.chartbeat.com/js/chartbeat.js",
+              "functionName": "Db.n.create",
+              "source": "    at Db.n.create (https://static.chartbeat.com/js/chartbeat.js:33:56)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T15:28:41.925Z",
+          "location": "https://www.expansion.com/"
+        }
+      },
+      "_cX_expires": {
+        "value": "cX_lastP1Time=1622129322957&_cX_G=1653060523882",
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 17627,
+              "lineNumber": 6,
+              "fileName": "https://cdn.cxense.com/cx.js",
+              "functionName": "Object._setLocalStorage",
+              "source": "    at Object._setLocalStorage (https://cdn.cxense.com/cx.js:6:17627)"
+            },
+            {
+              "columnNumber": 3165,
+              "lineNumber": 2,
+              "fileName": "https://cdn.cxense.com/cx.js",
+              "functionName": "Object._localCxenseUserId",
+              "source": "    at Object._localCxenseUserId (https://cdn.cxense.com/cx.js:2:3165)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T15:28:43.885Z",
+          "location": "https://www.expansion.com/"
+        }
+      },
+      "lastVisitMonth1": {
+        "value": 4,
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 371,
+              "lineNumber": 220,
+              "fileName": "https://tags.tiqcdn.com/utag/unidadeditorial/expansion/prod/utag.js",
+              "functionName": "recurrentUser",
+              "source": "    at recurrentUser (https://tags.tiqcdn.com/utag/unidadeditorial/expansion/prod/utag.js:220:371)"
+            },
+            {
+              "columnNumber": 281,
+              "lineNumber": 198,
+              "fileName": "https://tags.tiqcdn.com/utag/unidadeditorial/expansion/prod/utag.js",
+              "functionName": "calculateDynamicVars",
+              "source": "    at calculateDynamicVars (https://tags.tiqcdn.com/utag/unidadeditorial/expansion/prod/utag.js:198:281)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T15:28:41.678Z",
+          "location": "https://www.expansion.com/"
+        }
+      },
+      "didomi_token": {
+        "value": "eyJ1c2VyX2lkIjoiMTc5OGE2NDktZjg5YS02MmU5LTg3MDYtMjM1OTIyNGZjMTFiIiwiY3JlYXRlZCI6IjIwMjEtMDUtMjBUMTU6Mjg6NDAuOTA3WiIsInVwZGF0ZWQiOiIyMDIxLTA1LTIwVDE1OjI4OjQwLjkwN1oiLCJ2ZXJzaW9uIjpudWxsfQ==",
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 26544,
+              "lineNumber": 2,
+              "fileName": "https://sdk.privacy-center.org/sdk.f3da7da1d58106f5313b29fb7e1c822489ffb708.js",
+              "functionName": "o",
+              "source": "    at o (https://sdk.privacy-center.org/sdk.f3da7da1d58106f5313b29fb7e1c822489ffb708.js:2:26544)"
+            },
+            {
+              "columnNumber": 27295,
+              "lineNumber": 2,
+              "fileName": "https://sdk.privacy-center.org/sdk.f3da7da1d58106f5313b29fb7e1c822489ffb708.js",
+              "functionName": "f",
+              "source": "    at f (https://sdk.privacy-center.org/sdk.f3da7da1d58106f5313b29fb7e1c822489ffb708.js:2:27295)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T15:28:40.977Z",
+          "location": "https://www.expansion.com/"
+        }
+      },
+      "_cX_atfr": {
+        "value": "&altm=1621524522917&arnd=kox1u0wy739z3jx7&aatm=0&axtl=&awsz=1680x927&amvw=1680x927&ascp=0x0&aclk=0&aaid=5308b325de2a2d75d5838b65d209682a0d889b33&aavp=0&aavt=0x0&aasz=317x360&aaps=345x10666",
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 3787,
+              "lineNumber": 6,
+              "fileName": "https://cdn.cxense.com/cx.js",
+              "functionName": "Object.<anonymous>",
+              "source": "    at Object.<anonymous> (https://cdn.cxense.com/cx.js:6:3787)"
+            },
+            {
+              "columnNumber": 20594,
+              "lineNumber": 2,
+              "fileName": "https://cdn.cxense.com/cx.js",
+              "source": "    at https://cdn.cxense.com/cx.js:2:20594"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T15:28:51.500Z",
+          "location": "https://www.expansion.com/"
+        }
+      },
+      "cX_cons": {
+        "value": "pv=false&segment=false&recs=false&ad=false&geo=false&device=false",
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 7429,
+              "lineNumber": 1,
+              "fileName": "https://cdn.cxense.com/cx.js",
+              "functionName": "Object.setConsent",
+              "source": "    at Object.setConsent (https://cdn.cxense.com/cx.js:1:7429)"
+            },
+            {
+              "columnNumber": 18777,
+              "lineNumber": 6,
+              "fileName": "https://cdn.cxense.com/cx.js",
+              "functionName": "cx_callQueueExecute",
+              "source": "    at cx_callQueueExecute (https://cdn.cxense.com/cx.js:6:18777)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T15:28:42.960Z",
+          "location": "https://www.expansion.com/"
+        }
+      },
+      "geocached": {
+        "value": {
+          "country_code": "ES",
+          "city": "madrid",
+          "lat": "40.430",
+          "long": "-3.620",
+          "region": "M",
+          "postal_code": "28037",
+          "client_ip": "37.120.199.236",
+          "timestamp": 1621524521669
+        },
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 820,
+              "lineNumber": 253,
+              "fileName": "https://tags.tiqcdn.com/utag/unidadeditorial/expansion/prod/utag.js",
+              "functionName": "XMLHttpRequest.xmlhttp.onreadystatechange",
+              "source": "    at XMLHttpRequest.xmlhttp.onreadystatechange (https://tags.tiqcdn.com/utag/unidadeditorial/expansion/prod/utag.js:253:820)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T15:28:41.790Z",
+          "location": "https://www.expansion.com/"
+        }
+      }
+    },
+    "https://scdn.cxense.com": {
+      "cX_lst": {
+        "value": "141uvllx1cyn11homcmiq4s1z8",
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 17350,
+              "lineNumber": 6,
+              "fileName": "https://scdn.cxense.com/cx.js",
+              "functionName": "Object._setLocalStorage",
+              "source": "    at Object._setLocalStorage (https://scdn.cxense.com/cx.js:6:17350)"
+            },
+            {
+              "columnNumber": 758,
+              "lineNumber": 2,
+              "fileName": "https://scdn.cxense.com/cx.js",
+              "functionName": "Object.onP1",
+              "source": "    at Object.onP1 (https://scdn.cxense.com/cx.js:2:758)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T15:28:43.651Z",
+          "location": "https://www.expansion.com"
+        }
+      },
+      "_cX_expires": {
+        "value": "cX_lst=1653060523646",
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 17627,
+              "lineNumber": 6,
+              "fileName": "https://scdn.cxense.com/cx.js",
+              "functionName": "Object._setLocalStorage",
+              "source": "    at Object._setLocalStorage (https://scdn.cxense.com/cx.js:6:17627)"
+            },
+            {
+              "columnNumber": 758,
+              "lineNumber": 2,
+              "fileName": "https://scdn.cxense.com/cx.js",
+              "functionName": "Object.onP1",
+              "source": "    at Object.onP1 (https://scdn.cxense.com/cx.js:2:758)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T15:28:43.651Z",
+          "location": "https://www.expansion.com"
+        }
+      }
+    }
+  },
+  "beacons": [
+    {
+      "url": "https://api.cxense.com/public/widget/visibility?callback=cXJsonpCBkox1u6eyh5dzf2lr&json=%7B%22impressions%22%3A%5B%7B%22clickUrl%22%3A%22https%3A%2F%2Fapi.cxense.com%2Fpublic%2Fwidget%2Fclick%2Fu-T64owvPRdIebvBf0D0tbG845o7VbgsNUkMwfTCsIayi6-7yrS_5jAfDzuuvT_fqE55hjXVAxvCj0DzT6rYwsFYUtSos3vs_jmL8TSfjukuQ8LJRaQ9PCv-q6Doi8DE-_azd_u5MIXDQecwihZbx5e7lvehTao2qZ1Y1yVX-Ou4SJ0JXoMnouOrEAEpYZNMYTCy7meSqJssaE3vlLuxs5AY-TjVb7WIH32Akmu9xYs5i8f894h8FemN1fhO6Ho1eQTW2UC_wpSOBWruFZO-1pPqAHOD92rywmX4raAmp6WKIb4zsKXlYbO3LS3hobxM_-wTB2wISnwYIWEN_JVUDavUQGG_-4_RtDlywK9mr9EYJ_VnT_MF2P0zY35wMq7RS8EvkAMOeB1DWnJT6HanhCp02z6TiZihNkyHVdY6_IxamtZji1D_vaRmbqRddiWvq9Nz2FIVDZIs0Bb5A1JVa6JtWVnUZgLW4op9Ep_iha3CMSrBlCaMHbnzVbWPuWx3i0G_BRUteyKePb7LoXUS4m3-vrk3EQ0ZvOmN1BOFBtPrFaKJQbz6QBjpmCwIoP29MNmZJdyeCQ929xCan1LS_aSx-9QXiSq8uVUZdhnZJZEX-vmaJ8BRxfK4lBxSxl-5DrR7ZVG262doKASJuJxodOEDum4nstHAXQoETm0JAEPOKCJvtpKrDxHbBJ_AcVpu9KnTHaV5-dgihVIqPmwqGE_Ot-7SVdl33JMVmf30YEi1kg0%3Fcx_testId%3D1%26cx_testVariant%3Dcx_1%26cx_artPos%3D4%22%2C%22visibilitySeconds%22%3A1%7D%5D%7D",
+      "query": {
+        "callback": "cXJsonpCBkox1u6eyh5dzf2lr",
+        "json": {
+          "impressions": [
+            {
+              "clickUrl": "https://api.cxense.com/public/widget/click/u-T64owvPRdIebvBf0D0tbG845o7VbgsNUkMwfTCsIayi6-7yrS_5jAfDzuuvT_fqE55hjXVAxvCj0DzT6rYwsFYUtSos3vs_jmL8TSfjukuQ8LJRaQ9PCv-q6Doi8DE-_azd_u5MIXDQecwihZbx5e7lvehTao2qZ1Y1yVX-Ou4SJ0JXoMnouOrEAEpYZNMYTCy7meSqJssaE3vlLuxs5AY-TjVb7WIH32Akmu9xYs5i8f894h8FemN1fhO6Ho1eQTW2UC_wpSOBWruFZO-1pPqAHOD92rywmX4raAmp6WKIb4zsKXlYbO3LS3hobxM_-wTB2wISnwYIWEN_JVUDavUQGG_-4_RtDlywK9mr9EYJ_VnT_MF2P0zY35wMq7RS8EvkAMOeB1DWnJT6HanhCp02z6TiZihNkyHVdY6_IxamtZji1D_vaRmbqRddiWvq9Nz2FIVDZIs0Bb5A1JVa6JtWVnUZgLW4op9Ep_iha3CMSrBlCaMHbnzVbWPuWx3i0G_BRUteyKePb7LoXUS4m3-vrk3EQ0ZvOmN1BOFBtPrFaKJQbz6QBjpmCwIoP29MNmZJdyeCQ929xCan1LS_aSx-9QXiSq8uVUZdhnZJZEX-vmaJ8BRxfK4lBxSxl-5DrR7ZVG262doKASJuJxodOEDum4nstHAXQoETm0JAEPOKCJvtpKrDxHbBJ_AcVpu9KnTHaV5-dgihVIqPmwqGE_Ot-7SVdl33JMVmf30YEi1kg0?cx_testId=1&cx_testVariant=cx_1&cx_artPos=4",
+              "visibilitySeconds": 1
+            }
+          ]
+        }
+      },
+      "filter": "||cxense.com^$third-party",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.expansion.com/",
+            "source": "requested from https://www.expansion.com/ and matched with easyprivacy.txt filter ||cxense.com^$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T15:28:49.409Z"
+      },
+      "occurrances": 5
+    },
+    {
+      "url": "https://trc-events.taboola.com/1171464/log/3/unip?en=pre_d_eng_tb&tos=4563&scd=5&ssd=1&est=1621524522079&ver=32&isls=true&src=i&invt=3000&tim=1621524526644&vi=1621524522074&ri=4b3c32882e9035392281715fc7b53dbd&sd=v2_7a930699da15fcb2259c655729ee5e69_453b67ed-6c30-4828-8c9b-331d0f40cefd-tuct7a005aa_1621524522_1621524522_CNawjgYQiMBHGNrIktOYLyABKAEwQzjylQ1AlIsQSLGG2ANQ____________AVgAYABojODS8bqa6IIK&ui=453b67ed-6c30-4828-8c9b-331d0f40cefd-tuct7a005aa&ref=null&cv=20210520-11-RELEASE&item-url=https%3A%2F%2Fwww.expansion.com%2F",
+      "query": {
+        "en": "pre_d_eng_tb",
+        "tos": 4563,
+        "scd": 5,
+        "ssd": 1,
+        "est": 1621524522079,
+        "ver": 32,
+        "isls": true,
+        "src": "i",
+        "invt": 3000,
+        "tim": 1621524526644,
+        "vi": 1621524522074,
+        "ri": "4b3c32882e9035392281715fc7b53dbd",
+        "sd": "v2_7a930699da15fcb2259c655729ee5e69_453b67ed-6c30-4828-8c9b-331d0f40cefd-tuct7a005aa_1621524522_1621524522_CNawjgYQiMBHGNrIktOYLyABKAEwQzjylQ1AlIsQSLGG2ANQ____________AVgAYABojODS8bqa6IIK",
+        "ui": "453b67ed-6c30-4828-8c9b-331d0f40cefd-tuct7a005aa",
+        "ref": null,
+        "cv": "20210520-11-RELEASE",
+        "item-url": "https://www.expansion.com/"
+      },
+      "filter": "||taboola.com^$third-party",
+      "listName": "fanboy-annoyance.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.expansion.com/",
+            "source": "requested from https://www.expansion.com/ and matched with fanboy-annoyance.txt filter ||taboola.com^$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T15:28:46.651Z"
+      },
+      "occurrances": 4
+    },
+    {
+      "url": "https://id.cxense.com/public/user/id?json=%7B%22identities%22%3A%5B%7B%22type%22%3A%22ckp%22%2C%22id%22%3A%22kox1u0x5f203ie3f%22%7D%2C%7B%22type%22%3A%22lst%22%2C%22id%22%3A%22141uvllx1cyn11homcmiq4s1z8%22%7D%2C%7B%22type%22%3A%22cst%22%2C%22id%22%3A%22141uvllx1cyn11homcmiq4s1z8%22%7D%5D%2C%22siteId%22%3A%221140831963102337819%22%2C%22location%22%3A%22https%3A%2F%2Fwww.expansion.com%2F%22%7D&callback=cXJsonpCBkox1u1z773y6pp8h",
+      "query": {
+        "json": {
+          "identities": [
+            {
+              "type": "ckp",
+              "id": "kox1u0x5f203ie3f"
+            },
+            {
+              "type": "lst",
+              "id": "141uvllx1cyn11homcmiq4s1z8"
+            },
+            {
+              "type": "cst",
+              "id": "141uvllx1cyn11homcmiq4s1z8"
+            }
+          ],
+          "siteId": "1140831963102337819",
+          "location": "https://www.expansion.com/"
+        },
+        "callback": "cXJsonpCBkox1u1z773y6pp8h"
+      },
+      "filter": "||cxense.com^$third-party",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.expansion.com/",
+            "source": "requested from https://www.expansion.com/ and matched with easyprivacy.txt filter ||cxense.com^$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T15:28:43.654Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://scdn.cxense.com/sp1.html",
+      "query": null,
+      "filter": "||cxense.com^$third-party",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "",
+            "source": "requested from  and matched with easyprivacy.txt filter ||cxense.com^$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T15:28:42.973Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://api.cxense.com/public/widget/data?json=%7B%22context%22%3A%7B%22referrer%22%3A%22%22%2C%22neighbors%22%3A%5B%2254f0644d268e3e0a698b456d%22%2C%2260a62b1fe5fdea12678b45ec%22%2C%2260a633dfe5fdea12678b45ff%22%2C%2260a61c50e5fdead17f8b4572%22%2C%2260a535dee5fdea1b6d8b461b%22%2C%2260a650a2e5fdeac7718b4606%22%2C%2260a57bfc468aeb97088b45ce%22%2C%2260a6423de5fdeac7718b45f5%22%2C%2260a37bfee5fdea1b6d8b459d%22%2C%2260a5fe34e5fdea59058b45ea%22%2C%2260a618a9e5fdea1b6d8b4648%22%2C%2260a5f71de5fdea0b158b4622%22%2C%225f8994a5468aebe2288b46ce%22%2C%2260a67398468aeb5e058b45fe%22%2C%2260a63c1e468aeb0c528b45d9%22%2C%2260a57e1b468aeb31568b4576%22%2C%2260a5fff7468aeb49378b458d%22%2C%2260a65150468aeb3c328b45b3%22%2C%2260a66398468aeb31568b45ba%22%2C%2260a52bb6468aeb65708b460b%22%2C%2260a582fb468aeb0c378b45c6%22%2C%2260a54492468aeba8578b4615%22%2C%2260a6495be5fdea0b158b4645%22%2C%2260a4ffdf468aeb2a1c8b4668%22%2C%2260a634cce5fdeaa4378b45ec%22%2C%22609a4506468aebc9548b4667%22%2C%225bd9732e46163f7e278b466d%22%2C%2260a62edce5fdeadf0b8b461d%22%2C%2260a67de3468aeb0c378b45e9%22%2C%2260a64295e5fdeac33a8b4660%22%2C%2260a64f18e5fdea59058b4610%22%2C%2260a60e9fe5fdeac1728b4611%22%2C%2260a6577fe5fdea41748b457c%22%2C%2260a6266a468aeb31568b4595%22%2C%2260a4fbd5e5fdea07398b45b8%22%2C%2260a572abe5fdeaa4378b45d9%22%2C%2260a52523e5fdeaba6f8b45ca%22%2C%22609b91fe468aeb4f758b45f3%22%2C%2260a244abe5fdea2e7a8b4632%22%2C%2260a5fa82468aebe62c8b4605%22%2C%2260a53cafe5fdea005c8b4667%22%2C%2260a2a02e468aeb19348b4670%22%2C%2260a567a1e5fdea10288b45a4%22%2C%2260a5669be5fdeac33a8b463e%22%2C%2260a56c59e5fdeaf0168b469b%22%2C%2260a4b654468aeb01378b45f7%22%2C%2260a55eb6e5fdeac33a8b4637%22%2C%2260a58836468aeb61248b4679%22%2C%2260a63689e5fdeac7308b45fe%22%2C%2260a6279ee5fdeada468b467d%22%2C%2260a5693de5fdeadf0b8b4609%22%2C%22609aa9aa468aeb020e8b45e8%22%2C%2260a6152ae5fdea852c8b45e4%22%2C%2260a64a14468aeb5e058b45f2%22%2C%225f7f2837468aebd2388b4578%22%2C%2260a517e4e5fdeada468b461c%22%2C%2260a605ffe5fdeae2018b45e4%22%2C%2260a4cb84468aeb2a1c8b465c%22%2C%2260a64efb468aeb49378b45a1%22%2C%2260a4f57ce5fdeaf42d8b4604%22%2C%2260a54281468aeb87048b4605%22%2C%2260a543ad468aebc77c8b465f%22%2C%2260a65638e5fdeace5a8b4580%22%2C%2260a56246e5fdea59058b45d2%22%2C%2260a56a1fe5fdeaf0168b4693%22%2C%22609cf014468aeb3a108b467b%22%2C%2260a39db1e5fdea005c8b4616%22%2C%2260a4ecb0468aeb88678b45bf%22%2C%2260a238ec468aeb5b438b45fe%22%2C%225e3937a7e5fdea05308b4572%22%5D%2C%22categories%22%3A%7B%22testgroup%22%3A%2271%22%7D%2C%22parameters%22%3A%5B%7B%22key%22%3A%22userState%22%2C%22value%22%3A%22anon%22%7D%2C%7B%22key%22%3A%22testgroup%22%2C%22value%22%3A%2271%22%7D%2C%7B%22key%22%3A%22ctrlUrl1%22%2C%22value%22%3A%22https%3A%2F%2Fwww.expansion.com%2Fpremium.html%22%7D%2C%7B%22key%22%3A%22ctrlUrl2%22%2C%22value%22%3A%22https%3A%2F%2Fwww.expansion.com%2Fempresas%2Fenergia%2F2021%2F05%2F20%2F60a60e9fe5fdeac1728b4611.html%3Fintcmp%3DWIDPRMPRT%22%7D%2C%7B%22key%22%3A%22ctrlUrl3%22%2C%22value%22%3A%22https%3A%2F%2Fwww.expansion.com%2Fmercados%2F2021%2F05%2F20%2F60a6140de5fdeae2018b45ec.html%3Fintcmp%3DWIDPRMPRT%22%7D%2C%7B%22key%22%3A%22ctrlUrl4%22%2C%22value%22%3A%22https%3A%2F%2Fwww.expansion.com%2Feconomia%2F2021%2F05%2F20%2F60a61c50e5fdead17f8b4572.html%3Fintcmp%3DWIDPRMPRT%22%7D%2C%7B%22key%22%3A%22ctrlUrl5%22%2C%22value%22%3A%22https%3A%2F%2Fwww.expansion.com%2Fempresas%2F2021%2F05%2F20%2F60a6279ee5fdeada468b467d.html%3Fintcmp%3DWIDPRMPRT%22%7D%2C%7B%22key%22%3A%22ctrlUrl6%22%2C%22value%22%3A%22https%3A%2F%2Fwww.expansion.com%2Fempresas%2F2021%2F05%2F20%2F60a62889468aeb9e218b45f7.html%3Fintcmp%3DWIDPRMPRT%22%7D%5D%2C%22autoRefresh%22%3Afalse%2C%22url%22%3A%22https%3A%2F%2Fwww.expansion.com%2F%22%7D%2C%22widgetId%22%3A%225308b325de2a2d75d5838b65d209682a0d889b33%22%2C%22user%22%3A%7B%22ids%22%3A%7B%22usi%22%3A%22kox1u0x5f203ie3f%22%7D%7D%2C%22prnd%22%3A%22kox1u0wy739z3jx7%22%7D&media=javascript&sid=1140831963102337819&widgetId=5308b325de2a2d75d5838b65d209682a0d889b33&resizeToContentSize=true&useSecureUrls=true&usi=kox1u0x5f203ie3f&rnd=200003165&prnd=kox1u0wy739z3jx7&tzo=-120&callback=cXJsonpCBkox1u1fnd8tannqf",
+      "query": {
+        "json": {
+          "context": {
+            "referrer": "",
+            "neighbors": [
+              "54f0644d268e3e0a698b456d",
+              "60a62b1fe5fdea12678b45ec",
+              "60a633dfe5fdea12678b45ff",
+              "60a61c50e5fdead17f8b4572",
+              "60a535dee5fdea1b6d8b461b",
+              "60a650a2e5fdeac7718b4606",
+              "60a57bfc468aeb97088b45ce",
+              "60a6423de5fdeac7718b45f5",
+              "60a37bfee5fdea1b6d8b459d",
+              "60a5fe34e5fdea59058b45ea",
+              "60a618a9e5fdea1b6d8b4648",
+              "60a5f71de5fdea0b158b4622",
+              "5f8994a5468aebe2288b46ce",
+              "60a67398468aeb5e058b45fe",
+              "60a63c1e468aeb0c528b45d9",
+              "60a57e1b468aeb31568b4576",
+              "60a5fff7468aeb49378b458d",
+              "60a65150468aeb3c328b45b3",
+              "60a66398468aeb31568b45ba",
+              "60a52bb6468aeb65708b460b",
+              "60a582fb468aeb0c378b45c6",
+              "60a54492468aeba8578b4615",
+              "60a6495be5fdea0b158b4645",
+              "60a4ffdf468aeb2a1c8b4668",
+              "60a634cce5fdeaa4378b45ec",
+              "609a4506468aebc9548b4667",
+              "5bd9732e46163f7e278b466d",
+              "60a62edce5fdeadf0b8b461d",
+              "60a67de3468aeb0c378b45e9",
+              "60a64295e5fdeac33a8b4660",
+              "60a64f18e5fdea59058b4610",
+              "60a60e9fe5fdeac1728b4611",
+              "60a6577fe5fdea41748b457c",
+              "60a6266a468aeb31568b4595",
+              "60a4fbd5e5fdea07398b45b8",
+              "60a572abe5fdeaa4378b45d9",
+              "60a52523e5fdeaba6f8b45ca",
+              "609b91fe468aeb4f758b45f3",
+              "60a244abe5fdea2e7a8b4632",
+              "60a5fa82468aebe62c8b4605",
+              "60a53cafe5fdea005c8b4667",
+              "60a2a02e468aeb19348b4670",
+              "60a567a1e5fdea10288b45a4",
+              "60a5669be5fdeac33a8b463e",
+              "60a56c59e5fdeaf0168b469b",
+              "60a4b654468aeb01378b45f7",
+              "60a55eb6e5fdeac33a8b4637",
+              "60a58836468aeb61248b4679",
+              "60a63689e5fdeac7308b45fe",
+              "60a6279ee5fdeada468b467d",
+              "60a5693de5fdeadf0b8b4609",
+              "609aa9aa468aeb020e8b45e8",
+              "60a6152ae5fdea852c8b45e4",
+              "60a64a14468aeb5e058b45f2",
+              "5f7f2837468aebd2388b4578",
+              "60a517e4e5fdeada468b461c",
+              "60a605ffe5fdeae2018b45e4",
+              "60a4cb84468aeb2a1c8b465c",
+              "60a64efb468aeb49378b45a1",
+              "60a4f57ce5fdeaf42d8b4604",
+              "60a54281468aeb87048b4605",
+              "60a543ad468aebc77c8b465f",
+              "60a65638e5fdeace5a8b4580",
+              "60a56246e5fdea59058b45d2",
+              "60a56a1fe5fdeaf0168b4693",
+              "609cf014468aeb3a108b467b",
+              "60a39db1e5fdea005c8b4616",
+              "60a4ecb0468aeb88678b45bf",
+              "60a238ec468aeb5b438b45fe",
+              "5e3937a7e5fdea05308b4572"
+            ],
+            "categories": {
+              "testgroup": "71"
+            },
+            "parameters": [
+              {
+                "key": "userState",
+                "value": "anon"
+              },
+              {
+                "key": "testgroup",
+                "value": "71"
+              },
+              {
+                "key": "ctrlUrl1",
+                "value": "https://www.expansion.com/premium.html"
+              },
+              {
+                "key": "ctrlUrl2",
+                "value": "https://www.expansion.com/empresas/energia/2021/05/20/60a60e9fe5fdeac1728b4611.html?intcmp=WIDPRMPRT"
+              },
+              {
+                "key": "ctrlUrl3",
+                "value": "https://www.expansion.com/mercados/2021/05/20/60a6140de5fdeae2018b45ec.html?intcmp=WIDPRMPRT"
+              },
+              {
+                "key": "ctrlUrl4",
+                "value": "https://www.expansion.com/economia/2021/05/20/60a61c50e5fdead17f8b4572.html?intcmp=WIDPRMPRT"
+              },
+              {
+                "key": "ctrlUrl5",
+                "value": "https://www.expansion.com/empresas/2021/05/20/60a6279ee5fdeada468b467d.html?intcmp=WIDPRMPRT"
+              },
+              {
+                "key": "ctrlUrl6",
+                "value": "https://www.expansion.com/empresas/2021/05/20/60a62889468aeb9e218b45f7.html?intcmp=WIDPRMPRT"
+              }
+            ],
+            "autoRefresh": false,
+            "url": "https://www.expansion.com/"
+          },
+          "widgetId": "5308b325de2a2d75d5838b65d209682a0d889b33",
+          "user": {
+            "ids": {
+              "usi": "kox1u0x5f203ie3f"
+            }
+          },
+          "prnd": "kox1u0wy739z3jx7"
+        },
+        "media": "javascript",
+        "sid": 1140831963102337800,
+        "widgetId": "5308b325de2a2d75d5838b65d209682a0d889b33",
+        "resizeToContentSize": true,
+        "useSecureUrls": true,
+        "usi": "kox1u0x5f203ie3f",
+        "rnd": 200003165,
+        "prnd": "kox1u0wy739z3jx7",
+        "tzo": -120,
+        "callback": "cXJsonpCBkox1u1fnd8tannqf"
+      },
+      "filter": "||cxense.com^$third-party",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.expansion.com/",
+            "source": "requested from https://www.expansion.com/ and matched with easyprivacy.txt filter ||cxense.com^$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T15:28:42.965Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://cdn.cxense.com/cx.js",
+      "query": null,
+      "filter": "||cxense.com^$third-party",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.expansion.com/",
+            "source": "requested from https://www.expansion.com/ and matched with easyprivacy.txt filter ||cxense.com^$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T15:28:42.746Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j90&tid=UA-181957286-3&cid=541228645.1621524523&jid=1041221456&gjid=721396962&_gid=2033563352.1621524523&_u=4GBACUAABAQCAC~&z=207126577",
+      "query": {
+        "t": "dc",
+        "aip": 1,
+        "_r": 3,
+        "v": 1,
+        "_v": "j90",
+        "tid": "UA-181957286-3",
+        "cid": 541228645.1621524,
+        "jid": 1041221456,
+        "gjid": 721396962,
+        "_gid": 2033563352.1621525,
+        "_u": "4GBACUAABAQCAC~",
+        "z": 207126577
+      },
+      "filter": "||stats.g.doubleclick.net^",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.expansion.com/",
+            "source": "requested from https://www.expansion.com/ and matched with easyprivacy.txt filter ||stats.g.doubleclick.net^"
+          }
+        ],
+        "timestamp": "2021-05-20T15:28:42.725Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://www.facebook.com/tr/",
+      "query": null,
+      "filter": "||facebook.com/tr$third-party",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.expansion.com/",
+            "source": "requested from https://www.expansion.com/ and matched with easyprivacy.txt filter ||facebook.com/tr$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T15:28:42.704Z"
+      },
+      "occurrances": 2
+    },
+    {
+      "url": "https://www.google-analytics.com/j/collect?v=1&_v=j90&a=1706691503&t=pageview&_s=1&dl=https%3A%2F%2Fwww.expansion.com%2F&ul=en-us&de=ISO-8859-15&dt=portada&sd=24-bit&sr=1680x927&vp=1680x927&je=0&_u=4GBACUABBAQCAC~&jid=1041221456&gjid=721396962&cid=541228645.1621524523&tid=UA-181957286-3&_gid=2033563352.1621524523&_r=1&gtm=2ou5c1&cd1=https%3A%2F%2Fwww.expansion.com%2Findex.html&cd3=portada&cd10=expansion.com%7C%7Cportada%7C%7C%7C%7C%7C%7C&cd11=portada&cd12=portada&cd13=0&cd14=0&cd21=54f0644d268e3e0a698b456d&cd22=portada&cd24=no%20bloqueada&cd25=0&cd29=0&cd30=0&cd31=abierto&cd32=0&cd33=abierto&cd34=1425043859&cd52=portada&cd53=0&cd55=0&cd75=web&cd82=not%20logged&cd172=not%20logged&cd94=prod&cd99=new&cd100=new&cd101=mozilla%2F5.0%20(x11%3B%20linux%20x86_64)%20applewebkit%2F537.36%20(khtml%2C%20like%20gecko)%20chrome%2F72.0.3617.0%20safari%2F537.36&cd109=1621524521651&cd110=01798a64a2a600287f70d641a38c00067001a05f00a47&cd127=expansion_marca%2Cexpansion_elmundo&cd130=origen&cd151=https%3A%2F%2Fwww.expansion.com%2F&cd143=1621524521662&cd144=17%3A28%3A41%3A662&cd157=entry_referrer&cd162=total_hits_dimension&cm5=1&cm57=1&cd165=expansion.com&cg1=portada&cg2=expansion.com%7C%7Cportada%7C%7C%7C%7C%7C%7C&cg3=portada&cg4=portada&did=dYmQxMT&z=1532369268",
+      "query": {
+        "v": 1,
+        "_v": "j90",
+        "a": 1706691503,
+        "t": "pageview",
+        "_s": 1,
+        "dl": "https://www.expansion.com/",
+        "ul": "en-us",
+        "de": "ISO-8859-15",
+        "dt": "portada",
+        "sd": "24-bit",
+        "sr": "1680x927",
+        "vp": "1680x927",
+        "je": 0,
+        "_u": "4GBACUABBAQCAC~",
+        "jid": 1041221456,
+        "gjid": 721396962,
+        "cid": 541228645.1621524,
+        "tid": "UA-181957286-3",
+        "_gid": 2033563352.1621525,
+        "_r": 1,
+        "gtm": "2ou5c1",
+        "cd1": "https://www.expansion.com/index.html",
+        "cd3": "portada",
+        "cd10": "expansion.com||portada||||||",
+        "cd11": "portada",
+        "cd12": "portada",
+        "cd13": 0,
+        "cd14": 0,
+        "cd21": "54f0644d268e3e0a698b456d",
+        "cd22": "portada",
+        "cd24": "no bloqueada",
+        "cd25": 0,
+        "cd29": 0,
+        "cd30": 0,
+        "cd31": "abierto",
+        "cd32": 0,
+        "cd33": "abierto",
+        "cd34": 1425043859,
+        "cd52": "portada",
+        "cd53": 0,
+        "cd55": 0,
+        "cd75": "web",
+        "cd82": "not logged",
+        "cd172": "not logged",
+        "cd94": "prod",
+        "cd99": "new",
+        "cd100": "new",
+        "cd101": "mozilla/5.0 (x11; linux x86_64) applewebkit/537.36 (khtml, like gecko) chrome/72.0.3617.0 safari/537.36",
+        "cd109": 1621524521651,
+        "cd110": "01798a64a2a600287f70d641a38c00067001a05f00a47",
+        "cd127": "expansion_marca,expansion_elmundo",
+        "cd130": "origen",
+        "cd151": "https://www.expansion.com/",
+        "cd143": 1621524521662,
+        "cd144": "17:28:41:662",
+        "cd157": "entry_referrer",
+        "cd162": "total_hits_dimension",
+        "cm5": 1,
+        "cm57": 1,
+        "cd165": "expansion.com",
+        "cg1": "portada",
+        "cg2": "expansion.com||portada||||||",
+        "cg3": "portada",
+        "cg4": "portada",
+        "did": "dYmQxMT",
+        "z": 1532369268
+      },
+      "filter": "/collect?*&cid=",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.expansion.com/",
+            "source": "requested from https://www.expansion.com/ and matched with easyprivacy.txt filter /collect?*&cid="
+          }
+        ],
+        "timestamp": "2021-05-20T15:28:42.675Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://expansion-com-by.accengage.net/pushweb/assets/m_main.html?",
+      "query": null,
+      "filter": "||accengage.net^$third-party",
+      "listName": "fanboy-annoyance.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "",
+            "source": "requested from  and matched with fanboy-annoyance.txt filter ||accengage.net^$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T15:28:42.415Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://cdn.taboola.com/scripts/cds.js",
+      "query": null,
+      "filter": "||taboola.com^$third-party",
+      "listName": "fanboy-annoyance.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.expansion.com/",
+            "source": "requested from https://www.expansion.com/ and matched with fanboy-annoyance.txt filter ||taboola.com^$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T15:28:42.314Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://expansion-com-by.accengage.net/pushweb/assets/t_main.js?",
+      "query": null,
+      "filter": "||accengage.net^$third-party",
+      "listName": "fanboy-annoyance.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.expansion.com/",
+            "source": "requested from https://www.expansion.com/ and matched with fanboy-annoyance.txt filter ||accengage.net^$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T15:28:42.309Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://cdn.cxense.com/cx.cce.js",
+      "query": null,
+      "filter": "||cxense.com^$third-party",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.expansion.com/",
+            "source": "requested from https://www.expansion.com/ and matched with easyprivacy.txt filter ||cxense.com^$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T15:28:42.303Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://uuee.spxl.socy.es/pixel.json?t=UUEE_234_934_884&r=&h=https%3A%2F%2Fwww.expansion.com%2F&_ga=&_gid=&_uid=bs.1.0.NxOQ7bpJBjIi",
+      "query": {
+        "t": "UUEE_234_934_884",
+        "r": "",
+        "h": "https://www.expansion.com/",
+        "_ga": "",
+        "_gid": "",
+        "_uid": "bs.1.0.NxOQ7bpJBjIi"
+      },
+      "filter": "/pixel.json?",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.expansion.com/",
+            "source": "requested from https://www.expansion.com/ and matched with easyprivacy.txt filter /pixel.json?"
+          }
+        ],
+        "timestamp": "2021-05-20T15:28:42.161Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://trc.taboola.com/1171464/trc/3/json?tim=1621524522086&data=%7B%22id%22%3A425%2C%22ii%22%3A%22%2F%22%2C%22it%22%3A%22video%22%2C%22sd%22%3Anull%2C%22ui%22%3Anull%2C%22vi%22%3A1621524522074%2C%22cv%22%3A%2220210520-11-RELEASE%22%2C%22uiv%22%3A%22default%22%2C%22u%22%3A%22https%3A%2F%2Fwww.expansion.com%2F%22%2C%22e%22%3Anull%2C%22cb%22%3A%22TFASC.trkCallback%22%2C%22qs%22%3A%22%22%2C%22r%22%3A%5B%7B%22li%22%3A%22rbox-tracking%22%2C%22s%22%3A0%2C%22uim%22%3A%22rbox-tracking%3Apub%3Dunidadeditorial-exchange%3Aabp%3D0%22%2C%22uip%22%3A%22rbox-tracking%22%2C%22orig_uip%22%3A%22rbox-tracking%22%7D%5D%2C%22mpv%22%3Atrue%2C%22supv%22%3Atrue%2C%22mpvd%22%3A%7B%22en%22%3A%22page_view%22%2C%22tim%22%3A1621524522085%2C%22ref%22%3Anull%2C%22item-url%22%3A%22https%3A%2F%2Fwww.expansion.com%2F%22%2C%22supv%22%3Atrue%7D%7D&pubit=i",
+      "query": {
+        "tim": 1621524522086,
+        "data": {
+          "id": 425,
+          "ii": "/",
+          "it": "video",
+          "sd": null,
+          "ui": null,
+          "vi": 1621524522074,
+          "cv": "20210520-11-RELEASE",
+          "uiv": "default",
+          "u": "https://www.expansion.com/",
+          "e": null,
+          "cb": "TFASC.trkCallback",
+          "qs": "",
+          "r": [
+            {
+              "li": "rbox-tracking",
+              "s": 0,
+              "uim": "rbox-tracking:pub=unidadeditorial-exchange:abp=0",
+              "uip": "rbox-tracking",
+              "orig_uip": "rbox-tracking"
+            }
+          ],
+          "mpv": true,
+          "supv": true,
+          "mpvd": {
+            "en": "page_view",
+            "tim": 1621524522085,
+            "ref": null,
+            "item-url": "https://www.expansion.com/",
+            "supv": true
+          }
+        },
+        "pubit": "i"
+      },
+      "filter": "||taboola.com^$third-party",
+      "listName": "fanboy-annoyance.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.expansion.com/",
+            "source": "requested from https://www.expansion.com/ and matched with fanboy-annoyance.txt filter ||taboola.com^$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T15:28:42.098Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://connect.facebook.net/signals/config/159108031327035?v=2.9.39&r=stable",
+      "query": {
+        "v": "2.9.39",
+        "r": "stable"
+      },
+      "filter": "||connect.facebook.net/signals/$third-party",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.expansion.com/",
+            "source": "requested from https://www.expansion.com/ and matched with easyprivacy.txt filter ||connect.facebook.net/signals/$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T15:28:42.062Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://www.googleadservices.com/pagead/conversion_async.js",
+      "query": null,
+      "filter": "||googleadservices.com^$third-party",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.expansion.com/",
+            "source": "requested from https://www.expansion.com/ and matched with easyprivacy.txt filter ||googleadservices.com^$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T15:28:42.039Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://mab.chartbeat.com/mab_strategy/headline_testing/get_strategy/?host=expansion.com&domain=expansion.com&path=%2F",
+      "query": {
+        "host": "expansion.com",
+        "domain": "expansion.com",
+        "path": "/"
+      },
+      "filter": "||chartbeat.com^$third-party",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.expansion.com/",
+            "source": "requested from https://www.expansion.com/ and matched with easyprivacy.txt filter ||chartbeat.com^$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T15:28:41.991Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://www.googletagmanager.com/gtag/js?id=AW-791139749&l=dataLayer&cx=c",
+      "query": {
+        "id": "AW-791139749",
+        "l": "dataLayer",
+        "cx": "c"
+      },
+      "filter": "||googletagmanager.com/gtag/$third-party",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.expansion.com/",
+            "source": "requested from https://www.expansion.com/ and matched with easyprivacy.txt filter ||googletagmanager.com/gtag/$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T15:28:41.973Z"
+      },
+      "occurrances": 3
+    },
+    {
+      "url": "https://www.google-analytics.com/analytics.js",
+      "query": null,
+      "filter": "||google-analytics.com/analytics.js",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.expansion.com/",
+            "source": "requested from https://www.expansion.com/ and matched with easyprivacy.txt filter ||google-analytics.com/analytics.js"
+          }
+        ],
+        "timestamp": "2021-05-20T15:28:41.971Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://expansion-com-by.accengage.net/pushweb/assets/init.js",
+      "query": null,
+      "filter": "||accengage.net^$third-party",
+      "listName": "fanboy-annoyance.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.expansion.com/",
+            "source": "requested from https://www.expansion.com/ and matched with fanboy-annoyance.txt filter ||accengage.net^$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T15:28:41.950Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://dmpcdn.el-mundo.net/cdn/3pw.js",
+      "query": null,
+      "filter": "||dmpcdn.el-mundo.net^",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.expansion.com/",
+            "source": "requested from https://www.expansion.com/ and matched with easyprivacy.txt filter ||dmpcdn.el-mundo.net^"
+          }
+        ],
+        "timestamp": "2021-05-20T15:28:41.949Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://connect.facebook.net/en_US/fbevents.js",
+      "query": null,
+      "filter": "/fbevents.js",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.expansion.com/",
+            "source": "requested from https://www.expansion.com/ and matched with easyprivacy.txt filter /fbevents.js"
+          }
+        ],
+        "timestamp": "2021-05-20T15:28:41.948Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://cdn.taboola.com/libtrc/unip/1171464/tfa.js",
+      "query": null,
+      "filter": "||taboola.com^$third-party",
+      "listName": "fanboy-annoyance.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.expansion.com/",
+            "source": "requested from https://www.expansion.com/ and matched with fanboy-annoyance.txt filter ||taboola.com^$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T15:28:41.948Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://static.chartbeat.com/js/chartbeat_mab.js",
+      "query": null,
+      "filter": "||chartbeat.com^$third-party",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.expansion.com/",
+            "source": "requested from https://www.expansion.com/ and matched with easyprivacy.txt filter ||chartbeat.com^$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T15:28:41.945Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://uuee.spxl.socy.es/pixel/js/UUEE_234_934_884/",
+      "query": null,
+      "filter": "/pixel/js/*$third-party",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.expansion.com/",
+            "source": "requested from https://www.expansion.com/ and matched with easyprivacy.txt filter /pixel/js/*$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T15:28:41.936Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://ping.chartbeat.net/ping?h=expansion.com&p=%2F&u=U0nky0OwzcCFqlep&d=expansion.com&g=52682&g0=portada&g1=no%20definido&g4=portada&n=1&f=00001&c=0&x=0&m=0&y=15893&o=1680&w=927&j=45&R=1&W=0&I=0&E=0&e=0&r=&b=2293&t=D4Bcu-JuvmQCxWDwDOUppyDWz7Zg&V=126&i=Expansi%C3%B3n%20-%20Diario%20Econ%C3%B3mico%20e%20informaci%C3%B3n%20de%20mercados&tz=-120&_acct=anon&sn=1&sv=ChMzYrBMcUCPBQWqEODrz-HuDu_XZ&sd=1&im=066b2f73&_",
+      "query": {
+        "h": "expansion.com",
+        "p": "/",
+        "u": "U0nky0OwzcCFqlep",
+        "d": "expansion.com",
+        "g": 52682,
+        "g0": "portada",
+        "g1": "no definido",
+        "g4": "portada",
+        "n": 1,
+        "f": "00001",
+        "c": 0,
+        "x": 0,
+        "m": 0,
+        "y": 15893,
+        "o": 1680,
+        "w": 927,
+        "j": 45,
+        "R": 1,
+        "W": 0,
+        "I": 0,
+        "E": 0,
+        "e": 0,
+        "r": "",
+        "b": 2293,
+        "t": "D4Bcu-JuvmQCxWDwDOUppyDWz7Zg",
+        "V": 126,
+        "i": "Expansión - Diario Económico e información de mercados",
+        "tz": -120,
+        "_acct": "anon",
+        "sn": 1,
+        "sv": "ChMzYrBMcUCPBQWqEODrz-HuDu_XZ",
+        "sd": 1,
+        "im": "066b2f73",
+        "_": null
+      },
+      "filter": "/ping?h=",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.expansion.com/",
+            "source": "requested from https://www.expansion.com/ and matched with easyprivacy.txt filter /ping?h="
+          }
+        ],
+        "timestamp": "2021-05-20T15:28:41.928Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://static.chartbeat.com/js/chartbeat.js",
+      "query": null,
+      "filter": "||chartbeat.com^$third-party",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.expansion.com/",
+            "source": "requested from https://www.expansion.com/ and matched with easyprivacy.txt filter ||chartbeat.com^$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T15:28:41.691Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://www.expansion.com/ue-cdn/services/cdn_cookie_service.html",
+      "query": null,
+      "filter": "/cdn_cookie_service.$image",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.expansion.com/",
+            "source": "requested from https://www.expansion.com/ and matched with easyprivacy.txt filter /cdn_cookie_service.$image"
+          }
+        ],
+        "timestamp": "2021-05-20T15:28:41.032Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://img.tradedoubler.com/images/inv.gif",
+      "query": null,
+      "filter": "||tradedoubler.com^$third-party",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.expansion.com/",
+            "source": "requested from https://www.expansion.com/ and matched with easyprivacy.txt filter ||tradedoubler.com^$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T15:28:40.989Z"
+      },
+      "occurrances": 2
+    },
+    {
+      "url": "https://sdk.privacy-center.org/ui-gdpr-en.f3da7da1d58106f5313b29fb7e1c822489ffb708.js",
+      "query": null,
+      "filter": "||privacy-center.org^$third-party",
+      "listName": "fanboy-annoyance.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.expansion.com/",
+            "source": "requested from https://www.expansion.com/ and matched with fanboy-annoyance.txt filter ||privacy-center.org^$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T15:28:40.978Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://sdk.privacy-center.org/sdk.f3da7da1d58106f5313b29fb7e1c822489ffb708.js",
+      "query": null,
+      "filter": "||privacy-center.org^$third-party",
+      "listName": "fanboy-annoyance.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.expansion.com/",
+            "source": "requested from https://www.expansion.com/ and matched with fanboy-annoyance.txt filter ||privacy-center.org^$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T15:28:40.667Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://sb.scorecardresearch.com/b2?c1=2&c2=7184769&cs_ucfr=&ns__t=1621524520523&ns_c=ISO-8859-15&cv=3.1&c8=Expansi%C3%B3n%20-%20Diario%20Econ%C3%B3mico%20e%20informaci%C3%B3n%20de%20mercados&c7=https%3A%2F%2Fwww.expansion.com%2F&c9=",
+      "query": {
+        "c1": 2,
+        "c2": 7184769,
+        "cs_ucfr": "",
+        "ns__t": 1621524520523,
+        "ns_c": "ISO-8859-15",
+        "cv": 3.1,
+        "c8": "Expansión - Diario Económico e información de mercados",
+        "c7": "https://www.expansion.com/",
+        "c9": ""
+      },
+      "filter": "||scorecardresearch.com^$third-party",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.expansion.com/",
+            "source": "requested from https://www.expansion.com/ and matched with easyprivacy.txt filter ||scorecardresearch.com^$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T15:28:40.657Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://sb.scorecardresearch.com/b?c1=2&c2=7184769&cs_ucfr=&ns__t=1621524520523&ns_c=ISO-8859-15&cv=3.1&c8=Expansi%C3%B3n%20-%20Diario%20Econ%C3%B3mico%20e%20informaci%C3%B3n%20de%20mercados&c7=https%3A%2F%2Fwww.expansion.com%2F&c9=",
+      "query": {
+        "c1": 2,
+        "c2": 7184769,
+        "cs_ucfr": "",
+        "ns__t": 1621524520523,
+        "ns_c": "ISO-8859-15",
+        "cv": 3.1,
+        "c8": "Expansión - Diario Económico e información de mercados",
+        "c7": "https://www.expansion.com/",
+        "c9": ""
+      },
+      "filter": "||scorecardresearch.com^$third-party",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.expansion.com/",
+            "source": "requested from https://www.expansion.com/ and matched with easyprivacy.txt filter ||scorecardresearch.com^$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T15:28:40.540Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://sdk.privacy-center.org/178119d0-5586-4a4c-953e-04aaf9ac0994/loader.js?target_type=notice&target=JZLiMbKx",
+      "query": {
+        "target_type": "notice",
+        "target": "JZLiMbKx"
+      },
+      "filter": "||privacy-center.org^$third-party",
+      "listName": "fanboy-annoyance.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.expansion.com/",
+            "source": "requested from https://www.expansion.com/ and matched with fanboy-annoyance.txt filter ||privacy-center.org^$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T15:28:40.356Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://impes.tradedoubler.com/imp?type(inv)g(23584314)a(2446806)",
+      "query": {
+        "type(inv)g(23584314)a(2446806)": null
+      },
+      "filter": "||tradedoubler.com^$third-party",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.expansion.com/",
+            "source": "requested from https://www.expansion.com/ and matched with easyprivacy.txt filter ||tradedoubler.com^$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T15:28:40.194Z"
+      },
+      "occurrances": 2
+    },
+    {
+      "url": "https://pixelcounter.expansion.com/pixelcontabilizacion/pixelcontabilizacion.gifctl?r=http%3A%2F%2Fwww%2Eexpansion%2Ecom%2F%2Findex%2Ehtml&s=expansion&d=YKaAHQoABUYAAAAyHAU&er=unknown&ua=Mozilla%2F5%2E0",
+      "query": {
+        "r": "http://www.expansion.com//index.html",
+        "s": "expansion",
+        "d": "YKaAHQoABUYAAAAyHAU",
+        "er": "unknown",
+        "ua": "Mozilla/5.0"
+      },
+      "filter": "/pixelcounter.",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.expansion.com/",
+            "source": "requested from https://www.expansion.com/ and matched with easyprivacy.txt filter /pixelcounter."
+          }
+        ],
+        "timestamp": "2021-05-20T15:28:40.176Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://www.expansion.com/apw.js?f=mod&v=2",
+      "query": {
+        "f": "mod",
+        "v": 2
+      },
+      "filter": "/apw.js",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.expansion.com/",
+            "source": "requested from https://www.expansion.com/ and matched with easyprivacy.txt filter /apw.js"
+          }
+        ],
+        "timestamp": "2021-05-20T15:28:40.176Z"
+      },
+      "occurrances": 2
+    },
+    {
+      "url": "https://cdn.permutive.com/10453011-272d-49cd-9043-1964fdb36fd8-web.js",
+      "query": null,
+      "filter": "||permutive.com^$third-party",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.expansion.com/",
+            "source": "requested from https://www.expansion.com/ and matched with easyprivacy.txt filter ||permutive.com^$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T15:28:40.175Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://e00-ue.uecdn.es/cookies/js/policy_v4.js",
+      "query": null,
+      "filter": "/cookies/*/policy_",
+      "listName": "fanboy-annoyance.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.expansion.com/",
+            "source": "requested from https://www.expansion.com/ and matched with fanboy-annoyance.txt filter /cookies/*/policy_"
+          }
+        ],
+        "timestamp": "2021-05-20T15:28:40.167Z"
+      },
+      "occurrances": 1
+    }
+  ],
+  "hosts": {
+    "requests": {
+      "firstParty": [
+        "expansion.com"
+      ],
+      "thirdParty": [
+        "www.expansion.com",
+        "e00.uecdn.es",
+        "e00-ue.uecdn.es",
+        "e00-expansion.uecdn.es",
+        "e00-elmundo.uecdn.es",
+        "cdn.permutive.com",
+        "pixelcounter.expansion.com",
+        "tags.tiqcdn.com",
+        "impes.tradedoubler.com",
+        "components.unidadeditorial.es",
+        "www.npttech.com",
+        "sdk.privacy-center.org",
+        "c.amazon-adsystem.com",
+        "sb.scorecardresearch.com",
+        "img.tradedoubler.com",
+        "static.chartbeat.com",
+        "www.googletagmanager.com",
+        "experience.tinypass.com",
+        "ping.chartbeat.net",
+        "uuee.spxl.socy.es",
+        "cdn.taboola.com",
+        "connect.facebook.net",
+        "dmpcdn.el-mundo.net",
+        "expansion-com-by.accengage.net",
+        "cdn.tinypass.com",
+        "www.google-analytics.com",
+        "mab.chartbeat.com",
+        "www.googleadservices.com",
+        "trc.taboola.com",
+        "www.facebook.com",
+        "cdn.cxense.com",
+        "api-esp.piano.io",
+        "buy.tinypass.com",
+        "googleads.g.doubleclick.net",
+        "ampcid.google.com",
+        "www.google.com",
+        "www.google.es",
+        "ampcid.google.es",
+        "stats.g.doubleclick.net",
+        "api.cxense.com",
+        "scdn.cxense.com",
+        "sp1cluster.cxense.com",
+        "trc-events.taboola.com",
+        "scomcluster.cxense.com",
+        "id.cxense.com",
+        "www.googletagservices.com",
+        "securepubads.g.doubleclick.net"
+      ]
+    },
+    "beacons": {
+      "firstParty": [],
+      "thirdParty": [
+        "api.cxense.com",
+        "trc-events.taboola.com",
+        "id.cxense.com",
+        "scdn.cxense.com",
+        "cdn.cxense.com",
+        "stats.g.doubleclick.net",
+        "www.facebook.com",
+        "www.google-analytics.com",
+        "uuee.spxl.socy.es",
+        "connect.facebook.net",
+        "www.googleadservices.com",
+        "mab.chartbeat.com",
+        "www.googletagmanager.com",
+        "dmpcdn.el-mundo.net",
+        "static.chartbeat.com",
+        "ping.chartbeat.net",
+        "www.expansion.com",
+        "img.tradedoubler.com",
+        "sb.scorecardresearch.com",
+        "impes.tradedoubler.com",
+        "pixelcounter.expansion.com",
+        "cdn.permutive.com"
+      ]
+    },
+    "cookies": {
+      "firstParty": [
+        "expansion.com"
+      ],
+      "thirdParty": [
+        "scorecardresearch.com",
+        "tradedoubler.com",
+        "www.expansion.com",
+        "doubleclick.net",
+        "cxense.com"
+      ]
+    },
+    "localStorage": {
+      "firstParty": [],
+      "thirdParty": [
+        "www.expansion.com",
+        "scdn.cxense.com"
+      ]
+    },
+    "links": {
+      "firstParty": [],
+      "thirdParty": [
+        "cookies.unidadeditorial.es",
+        "www.expansion.com",
+        "clk.tradedoubler.com",
+        "seguro.expansion.com",
+        "www.datosmacro.com",
+        "cgi.expansion.com",
+        "compra.orbyt.es",
+        "videos.expansion.com",
+        "planetainteligente.expansion.com",
+        "www.marca.com",
+        "www.elmundo.es",
+        "foro.expansion.com",
+        "compra.expansion.com",
+        "www.eventosyconferenciasue.com",
+        "www.caixabank.es",
+        "www.axesor.es",
+        "lab.expansion.com",
+        "sincroguia-tv.expansion.com",
+        "www.escuelaunidadeditorial.es",
+        "www.marcamotor.com",
+        "www.unidadeditorial.es",
+        "www.correofarmaceutico.com",
+        "cuidateplus.marca.com",
+        "www.diariomedico.com",
+        "tienda.marca.com",
+        "www.telva.com",
+        "suscripcion.expansion.com",
+        "www.ojd.es",
+        "www.unidadeditorial.com",
+        "twitter.com",
+        "www.facebook.com",
+        "www.linkedin.com",
+        "www.instagram.com"
+      ]
+    }
+  }
+}

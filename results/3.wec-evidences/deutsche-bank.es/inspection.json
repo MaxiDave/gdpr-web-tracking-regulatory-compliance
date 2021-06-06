@@ -1,0 +1,600 @@
+{
+  "title": "Website Evidence Collection",
+  "task_description": null,
+  "uri_ins": "https://deutsche-bank.es",
+  "uri_refs": [
+    "https://deutsche-bank.es"
+  ],
+  "uri_dest": "https://www.db.com/spain/index.htm",
+  "uri_redirects": [
+    "https://deutsche-bank.es/",
+    "http://www.db.com/spain/index.htm"
+  ],
+  "secure_connection": {
+    "https_support": false,
+    "https_error": "RequestError: Error [ERR_TLS_CERT_ALTNAME_INVALID]: Hostname/IP does not match certificate's altnames: Host: deutsche-bank.es. is not in the cert's altnames: DNS:www.deutsche-bank.es",
+    "redirects": [
+      "https://deutsche-bank.es/",
+      "http://www.db.com/spain/index.htm",
+      "https://www.db.com/spain/index.htm"
+    ],
+    "https_redirect": true
+  },
+  "host": "deutsche-bank.es",
+  "script": {
+    "host": "sfod",
+    "version": {
+      "npm": "1.0.0",
+      "commit": null
+    },
+    "cmd_args": "-q --overwrite https://deutsche-bank.es -- --ignore-certificate-errors",
+    "environment": {
+      "CHROME_DESKTOP": "code-url-handler.desktop"
+    },
+    "node_version": "v14.17.0"
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "HeadlessChrome/80.0.3987.0",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3617.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "5.8.0-53-generic"
+    },
+    "extra_headers": {},
+    "preset_cookies": {}
+  },
+  "start_time": "2021-05-20T15:40:10.345Z",
+  "end_time": "2021-05-20T15:40:19.488Z",
+  "links": {
+    "firstParty": [],
+    "thirdParty": [
+      {
+        "href": "https://www.db.com/",
+        "inner_text": "",
+        "inner_html": ""
+      },
+      {
+        "href": "https://www.db.com/spain/index.htm",
+        "inner_text": "",
+        "inner_html": "<img src=\"/spain/es/img/db_Espana.gif\" alt=\"Deutsche bank España\">"
+      },
+      {
+        "href": "https://www.deutsche-bank.es/pbc/data/es/productos-inversion-pa.html",
+        "inner_text": "",
+        "inner_html": "<img id=\"headerImage\" src=\"/spain/es/img/header_intranet_typeB.jpg\" alt=\"\">"
+      },
+      {
+        "href": "https://db-quarterly_march-2021.surge.sh/es_cio.html",
+        "inner_text": "",
+        "inner_html": "<img src=\"/spain/es/img/210405_CIOInsights.jpg\" alt=\"CIO Insights\" width=\"998\">"
+      },
+      {
+        "href": "https://bit.ly/3c8SMWH",
+        "inner_text": "",
+        "inner_html": "<img src=\"/spain/es/img/BANNER_Web_corporativa_994x450.jpg\" alt=\"Banner SAA\" width=\"998\">"
+      },
+      {
+        "href": "https://www.db.com/spain/es/content/Deutsche-Bank-mejor-banco-Corporate-Trade-Finance-2020-segun-Euromoney.html",
+        "inner_text": "",
+        "inner_html": "<img src=\"/spain/es/img/210323_Euromoney_Trade_2021.jpg\" alt=\"Euromoney Trade\" width=\"998\">"
+      },
+      {
+        "href": "https://www.deutsche-bank.es/pbc/solucionesdb/cuenta_nomina_mas_db.html?&utm_source=webcorp&utm_medium=home&utm_campaign=cuenta_nomina&utm_content=banner",
+        "inner_text": "",
+        "inner_html": "<img src=\"/spain/es/img/201112_Cuenta_Nomina_CORPORATIVO_994x450.jpg\" alt=\"Cuenta Online ‘Nómina Más db’\" width=\"998\">"
+      },
+      {
+        "href": "https://www.db.com/spain/es/content/Contacto.html",
+        "inner_text": "Contacto",
+        "inner_html": "Contacto"
+      },
+      {
+        "href": "https://www.db.com/spain/es/content/1301.html",
+        "inner_text": "Mapa Web",
+        "inner_html": "Mapa Web"
+      },
+      {
+        "href": "https://www.db.com/spain/index_en.htm",
+        "inner_text": "English",
+        "inner_html": "English"
+      },
+      {
+        "href": "https://www.db.com/spain/index_cat.htm",
+        "inner_text": "Catalan",
+        "inner_html": "Catalan"
+      },
+      {
+        "href": "https://www.deutsche-bank.es/pbc/data/es/redirect.jsp?alias=olb-particulares",
+        "inner_text": "",
+        "inner_html": "<img style=\"margin-top: 10px;\" alt=\"Banca Internet Particulares\" src=\"/spain/es/img/spain_button_3_grau.jpg\">"
+      },
+      {
+        "href": "https://www.deutschebank-dbdirect.com/",
+        "inner_text": "",
+        "inner_html": "<img style=\"margin-top: 10px;\" alt=\"db-direct empresas\" src=\"/spain/es/img/spain_button_2_grau.jpg\">"
+      },
+      {
+        "href": "https://autobahn.db.com/",
+        "inner_text": "",
+        "inner_html": "<img style=\"margin-top: 10px;\" alt=\"Banca Online Corporates\" src=\"/spain/es/img/spain_button_1_grau.jpg\">"
+      },
+      {
+        "href": "https://www.db.com/spain/es/content/nuestra_empresa.html",
+        "inner_text": "Nuestra empresa",
+        "inner_html": "Nuestra empresa"
+      },
+      {
+        "href": "https://www.db.com/spain/es/content/sostenibilidad.html",
+        "inner_text": "Sostenibilidad",
+        "inner_html": "Sostenibilidad"
+      },
+      {
+        "href": "https://www.db.com/spain/es/content/en_espana.html",
+        "inner_text": "En España",
+        "inner_html": "En España"
+      },
+      {
+        "href": "https://www.db.com/spain/es/content/Noticias-2020.html",
+        "inner_text": "Noticias",
+        "inner_html": "Noticias"
+      },
+      {
+        "href": "https://www.db.com/spain/es/content/Gobierno-corporativo.html",
+        "inner_text": "Gobierno corporativo",
+        "inner_html": "Gobierno corporativo"
+      },
+      {
+        "href": "https://www.db.com/spain/es/content/productos.html",
+        "inner_text": "Productos y servicios",
+        "inner_html": "Productos y servicios"
+      },
+      {
+        "href": "https://www.db.com/spain/es/content/3765.html",
+        "inner_text": "Private Bank",
+        "inner_html": "Private Bank"
+      },
+      {
+        "href": "https://www.db.com/spain/es/content/Particulares.html",
+        "inner_text": "Particulares",
+        "inner_html": "Particulares"
+      },
+      {
+        "href": "https://www.db.com/spain/es/content/negocios.html",
+        "inner_text": "Negocios",
+        "inner_html": "Negocios"
+      },
+      {
+        "href": "https://www.db.com/spain/es/content/Empresas.html",
+        "inner_text": "Empresas",
+        "inner_html": "Empresas"
+      },
+      {
+        "href": "https://www.db.com/spain/es/content/grandes_patrimonios.html",
+        "inner_text": "Grandes patrimonios",
+        "inner_html": "Grandes patrimonios"
+      },
+      {
+        "href": "https://www.db.com/spain/es/content/dwm_sgiic.html",
+        "inner_text": "Deutsche Wealth Management SGIIC, SA",
+        "inner_html": "Deutsche Wealth Management SGIIC, SA"
+      },
+      {
+        "href": "https://www.db.com/spain/es/content/3761.html",
+        "inner_text": "Corporate Bank",
+        "inner_html": "Corporate Bank"
+      },
+      {
+        "href": "https://www.db.com/spain/es/content/3764.html",
+        "inner_text": "Investment Bank",
+        "inner_html": "Investment Bank"
+      },
+      {
+        "href": "https://funds.deutscheawm.com/es/Inicio",
+        "inner_text": "DWS",
+        "inner_html": "DWS"
+      },
+      {
+        "href": "https://www.db.com/spain/es/content/prensa.html",
+        "inner_text": "Prensa",
+        "inner_html": "Prensa"
+      },
+      {
+        "href": "https://www.db.com/spain/es/content/Notas-de-prensa-2021.html",
+        "inner_text": "Notas de prensa",
+        "inner_html": "Notas de prensa"
+      },
+      {
+        "href": "https://www.db.com/spain/es/content/responsabilidad.html",
+        "inner_text": "Responsabilidad",
+        "inner_html": "Responsabilidad"
+      },
+      {
+        "href": "https://www.db.com/spain/es/content/MadeforGood.html",
+        "inner_text": "Made for Good ",
+        "inner_html": "Made for Good"
+      },
+      {
+        "href": "https://www.db.com/spain/es/content/born_to_be.html",
+        "inner_text": "Born to Be",
+        "inner_html": "Born to Be"
+      },
+      {
+        "href": "https://www.db.com/spain/es/content/inversion_social.html",
+        "inner_text": "In the Community",
+        "inner_html": "In the Community"
+      },
+      {
+        "href": "https://www.db.com/spain/es/content/voluntariado_corporativo.html",
+        "inner_text": "Plus You",
+        "inner_html": "Plus You"
+      },
+      {
+        "href": "https://www.db.com/spain/es/content/Trabaje-con-nosotros.html",
+        "inner_text": "Trabaje con nosotros",
+        "inner_html": "Trabaje con nosotros"
+      },
+      {
+        "href": "https://www.db.com/spain/es/content/Deutsche-Bank-adelanta-2023-objetivo-200000-millones-euros-financiacion-sostenible.html",
+        "inner_text": "Deutsche Bank adelanta dos años, a 2023, la fecha objetivo para alcanzar 200.000 millones de euros en finanzas sostenibles",
+        "inner_html": "Deutsche Bank adelanta dos años, a 2023, la fecha objetivo para alcanzar 200.000 millones de euros en finanzas sostenibles"
+      },
+      {
+        "href": "https://www.db.com/spain/es/content/El-57-cree-que-sus-inversiones-deben-tener-un-impacto-positivo-en-el-mundo-tras-la-pandemia.html",
+        "inner_text": "El 57% cree que sus inversiones deben tener un impacto positivo en el mundo tras la pandemia",
+        "inner_html": "El 57% cree que sus inversiones deben tener un impacto positivo en el mundo tras la pandemia"
+      },
+      {
+        "href": "https://www.db.com/spain/es/content/Deutsche-Bank-primer-banco-en-unirse-como-miembro-de-pleno-derecho-del-ORRAA.html",
+        "inner_text": "Deutsche Bank, primer banco en unirse como miembro de pleno derecho del ORRAA (Ocean Risk and Resilience Action Alliance)",
+        "inner_html": "Deutsche Bank, primer banco en unirse como miembro de pleno derecho del ORRAA (Ocean Risk and Resilience Action Alliance)"
+      },
+      {
+        "href": "https://www.db.com/spain/es/content/Deutsche-Bank-estima-desarrollo-sostenible-oceanos-requiere-invertir-2400-millones-euros.html",
+        "inner_text": "Deutsche Bank estima que el desarrollo sostenible de los océanos requiere invertir más de 2.400 millones de euros",
+        "inner_html": "Deutsche Bank estima que el desarrollo sostenible de los océanos requiere invertir más de 2.400 millones de euros"
+      },
+      {
+        "href": "https://www.db.com/spain/es/content/Deutsche-Bank-lanza-tarjeta-credito-Business-DB-autonomos-y-empresas.html",
+        "inner_text": "Deutsche Bank lanza la tarjeta de crédito Business DB para autónomos y empresas",
+        "inner_html": "Deutsche Bank lanza la tarjeta de crédito Business DB para autónomos y empresas"
+      },
+      {
+        "href": "https://www.db.com/spain/semana-diversidad-quinta-edicion-deutsche-bank.html",
+        "inner_text": "",
+        "inner_html": ""
+      },
+      {
+        "href": "https://www.db.com/spain/es/content/Notas-de-prensa.html",
+        "inner_text": "Más noticias",
+        "inner_html": "Más noticias"
+      },
+      {
+        "href": "https://www.deutsche-bank.es/pbc/data/es/pa-index.html",
+        "inner_text": "Banca de particulares  y empresas",
+        "inner_html": "Banca de particulares&nbsp; y empresas"
+      },
+      {
+        "href": "https://www.deutschebank-dbdirect.com/portalserver/dbdirect/inicio",
+        "inner_text": "",
+        "inner_html": "<img alt=\"\" src=\"/spain/es/img/spain_button_2_grau.png\">"
+      },
+      {
+        "href": "https://funds.dws.com/es-es/",
+        "inner_text": "",
+        "inner_html": "DWS"
+      },
+      {
+        "href": "https://deutscheam.com/thought-leadership/cio-view/",
+        "inner_text": "",
+        "inner_html": "<img title=\"CIO: informes y opiniones de expertos\" alt=\"CIO informes y opiniones de expertos\" src=\"/spain/es/img/140917_DeAWM(1).jpg\" width=\"170\" height=\"160\">"
+      },
+      {
+        "href": "https://www.db.com/spain/es/content/transaction_banking.html",
+        "inner_text": "",
+        "inner_html": "Global Transaction Banking"
+      },
+      {
+        "href": "https://www.db.com/en/content/company/news/Deutsche-Bank-named-Best-Global-Flow-House-in-Euromoney-Awards-for-Excellence-2015.htm",
+        "inner_text": "",
+        "inner_html": ""
+      },
+      {
+        "href": "https://www.db.com/spain/es/content/2147.html",
+        "inner_text": "",
+        "inner_html": ""
+      },
+      {
+        "href": "https://www.dbresearch.com/PROD/RPS_EN-PROD/RPSHOME.alias",
+        "inner_text": "",
+        "inner_html": "Research"
+      },
+      {
+        "href": "http://www.dbresearch.com/servlet/reweb2.ReWEB?document=PROD0000000000440746&rwnode=DBR_INTERNET_EN-PROD$NAVIGATION&rwobj=ReDisplay.Start.class&rwsite=DBR_INTERNET_EN-PROD",
+        "inner_text": "",
+        "inner_html": ""
+      },
+      {
+        "href": "http://www.dbresearch.com/servlet/reweb2.ReWEB?rwsite=DBR_INTERNET_EN-PROD&rwobj=ReDisplay.Start.class&document=PROD0000000000424058",
+        "inner_text": "",
+        "inner_html": ""
+      },
+      {
+        "href": "https://www.deutsche-bank.es/pbc/data/es/lb-oficinas-agentes.htm",
+        "inner_text": "",
+        "inner_html": "<img title=\"Mapa de España, localización de oficinas y contactos\" alt=\"Mapa de España, localización de oficinas y contactos\" src=\"/spain/es/img/mapa_oficinas_espanol.gif\" width=\"556\" height=\"204\">"
+      },
+      {
+        "href": "https://www.db.com/spain/es/content/1239.html",
+        "inner_text": "Tablón de anuncios",
+        "inner_html": "Tablón de anuncios"
+      },
+      {
+        "href": "https://www.db.com/spain/es/content/1238.html",
+        "inner_text": "Aviso legal",
+        "inner_html": "Aviso legal"
+      },
+      {
+        "href": "https://www.db.com/spain/es/content/3211.html",
+        "inner_text": "Accesibilidad",
+        "inner_html": "Accesibilidad"
+      },
+      {
+        "href": "https://www.db.com/spain/es/content/politica-de-proteccion-de-datos.html",
+        "inner_text": "Política de Protección de Datos",
+        "inner_html": "Política de Protección de Datos"
+      },
+      {
+        "href": "https://www.db.com/spain/es/content/politica-de-cookies.html",
+        "inner_text": "POLÍTICA Y USO DE COOKIES",
+        "inner_html": "POLÍTICA Y USO DE COOKIES"
+      },
+      {
+        "href": "https://www.db.com/spain/es/content/psd2.html",
+        "inner_text": "PSD2",
+        "inner_html": "PSD2"
+      }
+    ],
+    "social": [
+      {
+        "href": "https://bit.ly/3c8SMWH",
+        "inner_text": "",
+        "inner_html": "<img src=\"/spain/es/img/BANNER_Web_corporativa_994x450.jpg\" alt=\"Banner SAA\" width=\"998\">"
+      }
+    ],
+    "keywords": [
+      {
+        "href": "https://www.db.com/spain/es/content/1238.html",
+        "inner_text": "Aviso legal",
+        "inner_html": "Aviso legal"
+      }
+    ]
+  },
+  "unsafeForms": [],
+  "browsing_history": [
+    "https://www.db.com/spain/index.htm"
+  ],
+  "websockets": {},
+  "cookies": [
+    {
+      "name": "webtrekkOptOut",
+      "value": "1",
+      "domain": "www.db.com",
+      "path": "/",
+      "expires": 2485525212,
+      "size": 15,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2048-10-05T15:40:12.000Z",
+      "expiresDays": 10000,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 439,
+            "lineNumber": 174,
+            "fileName": "https://www.db.com/spain/es/data/js/new.js",
+            "functionName": "Function.jQuery.cookie",
+            "source": "    at Function.jQuery.cookie (https://www.db.com/spain/es/data/js/new.js:174:439)"
+          },
+          {
+            "columnNumber": 20,
+            "lineNumber": 2011,
+            "fileName": "https://www.db.com/spain/es/data/js/new.js",
+            "functionName": "Object.setOptOutCookie",
+            "source": "    at Object.setOptOutCookie (https://www.db.com/spain/es/data/js/new.js:2011:20)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T15:40:12.327Z",
+        "location": "https://www.db.com/spain/index.htm"
+      },
+      "firstPartyStorage": false
+    },
+    {
+      "name": "miCookieOptOut",
+      "value": "1",
+      "domain": "db.com",
+      "path": "/",
+      "expires": 1777045212,
+      "size": 15,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2026-04-24T15:40:12.000Z",
+      "expiresDays": 1800,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 51,
+            "lineNumber": 77,
+            "fileName": "https://www.db.com/spain/es/data/js/webtrekkV3.js?v=4.41",
+            "functionName": "c",
+            "source": "    at c (https://www.db.com/spain/es/data/js/webtrekkV3.js?v=4.41:77:51)"
+          },
+          {
+            "columnNumber": 385,
+            "lineNumber": 77,
+            "fileName": "https://www.db.com/spain/es/data/js/webtrekkV3.js?v=4.41",
+            "functionName": "g.webtrekkV3.g.WebtrekkV3.Z.a.setCookie",
+            "source": "    at g.webtrekkV3.g.WebtrekkV3.Z.a.setCookie (https://www.db.com/spain/es/data/js/webtrekkV3.js?v=4.41:77:385)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T15:40:12.408Z",
+        "location": "https://www.db.com/spain/index.htm"
+      },
+      "firstPartyStorage": false
+    }
+  ],
+  "localStorage": {},
+  "beacons": [
+    {
+      "url": "https://platform.twitter.com/jot.html",
+      "query": null,
+      "filter": "||twitter.com/jot.html",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "about:blank",
+            "source": "requested from about:blank and matched with easyprivacy.txt filter ||twitter.com/jot.html"
+          }
+        ],
+        "timestamp": "2021-05-20T15:40:19.406Z"
+      },
+      "occurrances": 2
+    },
+    {
+      "url": "https://syndication.twitter.com/i/jot",
+      "query": null,
+      "filter": "||twitter.com/i/jot",
+      "listName": "fanboy-annoyance.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "",
+            "source": "requested from  and matched with fanboy-annoyance.txt filter ||twitter.com/i/jot"
+          }
+        ],
+        "timestamp": "2021-05-20T15:40:18.915Z"
+      },
+      "occurrances": 4
+    },
+    {
+      "url": "https://platform.twitter.com/js/timeline.28ecda9667eeb8e1b18898b99fee6c31.js",
+      "query": null,
+      "filter": "||twitter.com/js/timeline.$script,third-party",
+      "listName": "fanboy-annoyance.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.db.com/spain/es/content/social-media-small.html",
+            "source": "requested from https://www.db.com/spain/es/content/social-media-small.html and matched with fanboy-annoyance.txt filter ||twitter.com/js/timeline.$script,third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T15:40:13.204Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://platform.twitter.com/widgets/widget_iframe.06c6ee58c3810956b7509218508c7b56.html?origin=https%3A%2F%2Fwww.db.com",
+      "query": {
+        "origin": "https://www.db.com"
+      },
+      "filter": "||platform.twitter.com*/widgets/$third-party",
+      "listName": "fanboy-annoyance.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "",
+            "source": "requested from  and matched with fanboy-annoyance.txt filter ||platform.twitter.com*/widgets/$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T15:40:12.850Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://www.db.com/spain/es/img/190429_YouTube.jpg",
+      "query": null,
+      "filter": "/img/*youtube.jpg",
+      "listName": "fanboy-annoyance.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.db.com/spain/es/content/social-media-small.html",
+            "source": "requested from https://www.db.com/spain/es/content/social-media-small.html and matched with fanboy-annoyance.txt filter /img/*youtube.jpg"
+          }
+        ],
+        "timestamp": "2021-05-20T15:40:12.503Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://www.db.com/spain/es/img/190429_LinkedIn.jpg",
+      "query": null,
+      "filter": "/img/*linkedin.jpg$domain=~github.io",
+      "listName": "fanboy-annoyance.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.db.com/spain/es/content/social-media-small.html",
+            "source": "requested from https://www.db.com/spain/es/content/social-media-small.html and matched with fanboy-annoyance.txt filter /img/*linkedin.jpg$domain=~github.io"
+          }
+        ],
+        "timestamp": "2021-05-20T15:40:12.502Z"
+      },
+      "occurrances": 1
+    }
+  ],
+  "hosts": {
+    "requests": {
+      "firstParty": [
+        "deutsche-bank.es"
+      ],
+      "thirdParty": [
+        "www.db.com",
+        "platform.twitter.com",
+        "syndication.twitter.com",
+        "cdn.syndication.twimg.com",
+        "abs.twimg.com",
+        "pbs.twimg.com",
+        "ton.twimg.com"
+      ]
+    },
+    "beacons": {
+      "firstParty": [],
+      "thirdParty": [
+        "platform.twitter.com",
+        "syndication.twitter.com"
+      ]
+    },
+    "cookies": {
+      "firstParty": [],
+      "thirdParty": [
+        "www.db.com",
+        "db.com"
+      ]
+    },
+    "localStorage": {
+      "firstParty": [],
+      "thirdParty": []
+    },
+    "links": {
+      "firstParty": [],
+      "thirdParty": [
+        "www.db.com",
+        "www.deutsche-bank.es",
+        "db-quarterly_march-2021.surge.sh",
+        "bit.ly",
+        "www.deutschebank-dbdirect.com",
+        "autobahn.db.com",
+        "funds.deutscheawm.com",
+        "funds.dws.com",
+        "deutscheam.com",
+        "www.dbresearch.com"
+      ]
+    }
+  }
+}

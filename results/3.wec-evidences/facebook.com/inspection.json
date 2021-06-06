@@ -1,0 +1,590 @@
+{
+  "title": "Website Evidence Collection",
+  "task_description": null,
+  "uri_ins": "https://facebook.com",
+  "uri_refs": [
+    "https://facebook.com"
+  ],
+  "uri_dest": "https://www.facebook.com/",
+  "uri_redirects": [
+    "https://facebook.com/"
+  ],
+  "secure_connection": {
+    "https_support": true,
+    "redirects": [
+      "https://facebook.com/",
+      "https://www.facebook.com/",
+      "https://www.facebook.com/unsupportedbrowser"
+    ],
+    "https_redirect": true
+  },
+  "host": "facebook.com",
+  "script": {
+    "host": "sfod",
+    "version": {
+      "npm": "1.0.0",
+      "commit": null
+    },
+    "cmd_args": "-q --overwrite https://facebook.com -- --ignore-certificate-errors",
+    "environment": {
+      "CHROME_DESKTOP": "code-url-handler.desktop"
+    },
+    "node_version": "v14.17.0"
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "HeadlessChrome/80.0.3987.0",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3617.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "5.8.0-53-generic"
+    },
+    "extra_headers": {},
+    "preset_cookies": {}
+  },
+  "start_time": "2021-05-20T14:44:08.139Z",
+  "end_time": "2021-05-20T14:44:17.002Z",
+  "links": {
+    "firstParty": [],
+    "thirdParty": [
+      {
+        "href": "https://www.facebook.com/",
+        "inner_text": "Sections of this page",
+        "inner_html": "<span class=\"_55pe\">Sections of this page</span><span class=\"_4o_3 _3-99\"><i class=\"img sp_yIdLm88khzZ sx_20c4dc\"></i></span>"
+      },
+      {
+        "href": "https://www.facebook.com/recover/initiate/?ars=facebook_login&privacy_mutation_token=eyJ0eXBlIjowLCJjcmVhdGlvbl90aW1lIjoxNjIxNTIxODQ4LCJjYWxsc2l0ZV9pZCI6MzgxMjI5MDc5NTc1OTQ2fQ%3D%3D",
+        "inner_text": "Forgot Password?",
+        "inner_html": "Forgot Password?"
+      },
+      {
+        "href": "https://www.facebook.com/pages/create/?ref_type=registration_form",
+        "inner_text": "Create a Page",
+        "inner_html": "Create a Page"
+      },
+      {
+        "href": "https://es-es.facebook.com/",
+        "inner_text": "Español (España)",
+        "inner_html": "Español (España)"
+      },
+      {
+        "href": "https://ca-es.facebook.com/",
+        "inner_text": "Català",
+        "inner_html": "Català"
+      },
+      {
+        "href": "https://fr-fr.facebook.com/",
+        "inner_text": "Français (France)",
+        "inner_html": "Français (France)"
+      },
+      {
+        "href": "https://ro-ro.facebook.com/",
+        "inner_text": "Română",
+        "inner_html": "Română"
+      },
+      {
+        "href": "https://gl-es.facebook.com/",
+        "inner_text": "Galego",
+        "inner_html": "Galego"
+      },
+      {
+        "href": "https://it-it.facebook.com/",
+        "inner_text": "Italiano",
+        "inner_html": "Italiano"
+      },
+      {
+        "href": "https://de-de.facebook.com/",
+        "inner_text": "Deutsch",
+        "inner_html": "Deutsch"
+      },
+      {
+        "href": "https://pt-br.facebook.com/",
+        "inner_text": "Português (Brasil)",
+        "inner_html": "Português (Brasil)"
+      },
+      {
+        "href": "https://ar-ar.facebook.com/",
+        "inner_text": "العربية",
+        "inner_html": "العربية"
+      },
+      {
+        "href": "https://hi-in.facebook.com/",
+        "inner_text": "हिन्दी",
+        "inner_html": "हिन्दी"
+      },
+      {
+        "href": "https://www.facebook.com/r.php",
+        "inner_text": "Sign Up",
+        "inner_html": "Sign Up"
+      },
+      {
+        "href": "https://www.facebook.com/login/",
+        "inner_text": "Log In",
+        "inner_html": "Log In"
+      },
+      {
+        "href": "https://messenger.com/",
+        "inner_text": "Messenger",
+        "inner_html": "Messenger"
+      },
+      {
+        "href": "https://www.facebook.com/lite/",
+        "inner_text": "Facebook Lite",
+        "inner_html": "Facebook Lite"
+      },
+      {
+        "href": "https://www.facebook.com/watch/",
+        "inner_text": "Watch",
+        "inner_html": "Watch"
+      },
+      {
+        "href": "https://www.facebook.com/directory/people/",
+        "inner_text": "People",
+        "inner_html": "People"
+      },
+      {
+        "href": "https://www.facebook.com/directory/pages/",
+        "inner_text": "Pages",
+        "inner_html": "Pages"
+      },
+      {
+        "href": "https://www.facebook.com/pages/category/",
+        "inner_text": "Page Categories",
+        "inner_html": "Page Categories"
+      },
+      {
+        "href": "https://www.facebook.com/places/",
+        "inner_text": "Places",
+        "inner_html": "Places"
+      },
+      {
+        "href": "https://www.facebook.com/games/",
+        "inner_text": "Games",
+        "inner_html": "Games"
+      },
+      {
+        "href": "https://www.facebook.com/directory/places/",
+        "inner_text": "Locations",
+        "inner_html": "Locations"
+      },
+      {
+        "href": "https://www.facebook.com/marketplace/",
+        "inner_text": "Marketplace",
+        "inner_html": "Marketplace"
+      },
+      {
+        "href": "https://pay.facebook.com/",
+        "inner_text": "Facebook Pay",
+        "inner_html": "Facebook Pay"
+      },
+      {
+        "href": "https://www.facebook.com/directory/groups/",
+        "inner_text": "Groups",
+        "inner_html": "Groups"
+      },
+      {
+        "href": "https://www.facebook.com/jobs/",
+        "inner_text": "Jobs",
+        "inner_html": "Jobs"
+      },
+      {
+        "href": "https://www.oculus.com/",
+        "inner_text": "Oculus",
+        "inner_html": "Oculus"
+      },
+      {
+        "href": "https://portal.facebook.com/",
+        "inner_text": "Portal",
+        "inner_html": "Portal"
+      },
+      {
+        "href": "https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.instagram.com%2F&h=AT3ynMbykSB0PcfBlTH5Ozd14BEBaQyIfpdxj_zWv8iKOprNwbDlQxGCtc-1x3DqjSiPIt1z-t3Sta-ls5cFspQ1IudZipGPHQVvW0b8ceqgb_9Zb1BtUTq0wzWBdYMKliWsIzTMjGgDGQ",
+        "inner_text": "Instagram",
+        "inner_html": "Instagram"
+      },
+      {
+        "href": "https://www.facebook.com/local/lists/245019872666104/",
+        "inner_text": "Local",
+        "inner_html": "Local"
+      },
+      {
+        "href": "https://www.facebook.com/fundraisers/",
+        "inner_text": "Fundraisers",
+        "inner_html": "Fundraisers"
+      },
+      {
+        "href": "https://www.facebook.com/biz/directory/",
+        "inner_text": "Services",
+        "inner_html": "Services"
+      },
+      {
+        "href": "https://www.facebook.com/votinginformationcenter/?entry_point=c2l0ZQ%3D%3D",
+        "inner_text": "Voting Information Center",
+        "inner_html": "Voting Information Center"
+      },
+      {
+        "href": "https://about.facebook.com/",
+        "inner_text": "About",
+        "inner_html": "About"
+      },
+      {
+        "href": "https://www.facebook.com/ad_campaign/landing.php?placement=pflo&campaign_id=402047449186&nav_source=unknown&extra_1=auto",
+        "inner_text": "Create Ad",
+        "inner_html": "Create Ad"
+      },
+      {
+        "href": "https://www.facebook.com/pages/create/?ref_type=site_footer",
+        "inner_text": "Create Page",
+        "inner_html": "Create Page"
+      },
+      {
+        "href": "https://developers.facebook.com/?ref=pf",
+        "inner_text": "Developers",
+        "inner_html": "Developers"
+      },
+      {
+        "href": "https://www.facebook.com/careers/?ref=pf",
+        "inner_text": "Careers",
+        "inner_html": "Careers"
+      },
+      {
+        "href": "https://www.facebook.com/privacy/explanation",
+        "inner_text": "Privacy",
+        "inner_html": "Privacy"
+      },
+      {
+        "href": "https://www.facebook.com/policies/cookies/",
+        "inner_text": "Cookies",
+        "inner_html": "Cookies"
+      },
+      {
+        "href": "https://www.facebook.com/help/568137493302217",
+        "inner_text": "Ad Choices",
+        "inner_html": "Ad Choices<i class=\"img sp_yIdLm88khzZ sx_cd1c4b\"></i>"
+      },
+      {
+        "href": "https://www.facebook.com/policies?ref=pf",
+        "inner_text": "Terms",
+        "inner_html": "Terms"
+      },
+      {
+        "href": "https://www.facebook.com/help/?ref=pf",
+        "inner_text": "Help",
+        "inner_html": "Help"
+      },
+      {
+        "href": "https://www.facebook.com/settings",
+        "inner_text": "Settings",
+        "inner_html": "Settings"
+      },
+      {
+        "href": "https://www.facebook.com/allactivity?privacy_source=activity_log_top_menu",
+        "inner_text": "Activity Log",
+        "inner_html": "Activity Log"
+      }
+    ],
+    "social": [
+      {
+        "href": "https://www.facebook.com/",
+        "inner_text": "Sections of this page",
+        "inner_html": "<span class=\"_55pe\">Sections of this page</span><span class=\"_4o_3 _3-99\"><i class=\"img sp_yIdLm88khzZ sx_20c4dc\"></i></span>"
+      },
+      {
+        "href": "https://www.facebook.com/recover/initiate/?ars=facebook_login&privacy_mutation_token=eyJ0eXBlIjowLCJjcmVhdGlvbl90aW1lIjoxNjIxNTIxODQ4LCJjYWxsc2l0ZV9pZCI6MzgxMjI5MDc5NTc1OTQ2fQ%3D%3D",
+        "inner_text": "Forgot Password?",
+        "inner_html": "Forgot Password?"
+      },
+      {
+        "href": "https://www.facebook.com/pages/create/?ref_type=registration_form",
+        "inner_text": "Create a Page",
+        "inner_html": "Create a Page"
+      },
+      {
+        "href": "https://es-es.facebook.com/",
+        "inner_text": "Español (España)",
+        "inner_html": "Español (España)"
+      },
+      {
+        "href": "https://ca-es.facebook.com/",
+        "inner_text": "Català",
+        "inner_html": "Català"
+      },
+      {
+        "href": "https://fr-fr.facebook.com/",
+        "inner_text": "Français (France)",
+        "inner_html": "Français (France)"
+      },
+      {
+        "href": "https://ro-ro.facebook.com/",
+        "inner_text": "Română",
+        "inner_html": "Română"
+      },
+      {
+        "href": "https://gl-es.facebook.com/",
+        "inner_text": "Galego",
+        "inner_html": "Galego"
+      },
+      {
+        "href": "https://it-it.facebook.com/",
+        "inner_text": "Italiano",
+        "inner_html": "Italiano"
+      },
+      {
+        "href": "https://de-de.facebook.com/",
+        "inner_text": "Deutsch",
+        "inner_html": "Deutsch"
+      },
+      {
+        "href": "https://pt-br.facebook.com/",
+        "inner_text": "Português (Brasil)",
+        "inner_html": "Português (Brasil)"
+      },
+      {
+        "href": "https://ar-ar.facebook.com/",
+        "inner_text": "العربية",
+        "inner_html": "العربية"
+      },
+      {
+        "href": "https://hi-in.facebook.com/",
+        "inner_text": "हिन्दी",
+        "inner_html": "हिन्दी"
+      },
+      {
+        "href": "https://www.facebook.com/r.php",
+        "inner_text": "Sign Up",
+        "inner_html": "Sign Up"
+      },
+      {
+        "href": "https://www.facebook.com/login/",
+        "inner_text": "Log In",
+        "inner_html": "Log In"
+      },
+      {
+        "href": "https://www.facebook.com/lite/",
+        "inner_text": "Facebook Lite",
+        "inner_html": "Facebook Lite"
+      },
+      {
+        "href": "https://www.facebook.com/watch/",
+        "inner_text": "Watch",
+        "inner_html": "Watch"
+      },
+      {
+        "href": "https://www.facebook.com/directory/people/",
+        "inner_text": "People",
+        "inner_html": "People"
+      },
+      {
+        "href": "https://www.facebook.com/directory/pages/",
+        "inner_text": "Pages",
+        "inner_html": "Pages"
+      },
+      {
+        "href": "https://www.facebook.com/pages/category/",
+        "inner_text": "Page Categories",
+        "inner_html": "Page Categories"
+      },
+      {
+        "href": "https://www.facebook.com/places/",
+        "inner_text": "Places",
+        "inner_html": "Places"
+      },
+      {
+        "href": "https://www.facebook.com/games/",
+        "inner_text": "Games",
+        "inner_html": "Games"
+      },
+      {
+        "href": "https://www.facebook.com/directory/places/",
+        "inner_text": "Locations",
+        "inner_html": "Locations"
+      },
+      {
+        "href": "https://www.facebook.com/marketplace/",
+        "inner_text": "Marketplace",
+        "inner_html": "Marketplace"
+      },
+      {
+        "href": "https://pay.facebook.com/",
+        "inner_text": "Facebook Pay",
+        "inner_html": "Facebook Pay"
+      },
+      {
+        "href": "https://www.facebook.com/directory/groups/",
+        "inner_text": "Groups",
+        "inner_html": "Groups"
+      },
+      {
+        "href": "https://www.facebook.com/jobs/",
+        "inner_text": "Jobs",
+        "inner_html": "Jobs"
+      },
+      {
+        "href": "https://portal.facebook.com/",
+        "inner_text": "Portal",
+        "inner_html": "Portal"
+      },
+      {
+        "href": "https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.instagram.com%2F&h=AT3ynMbykSB0PcfBlTH5Ozd14BEBaQyIfpdxj_zWv8iKOprNwbDlQxGCtc-1x3DqjSiPIt1z-t3Sta-ls5cFspQ1IudZipGPHQVvW0b8ceqgb_9Zb1BtUTq0wzWBdYMKliWsIzTMjGgDGQ",
+        "inner_text": "Instagram",
+        "inner_html": "Instagram"
+      },
+      {
+        "href": "https://www.facebook.com/local/lists/245019872666104/",
+        "inner_text": "Local",
+        "inner_html": "Local"
+      },
+      {
+        "href": "https://www.facebook.com/fundraisers/",
+        "inner_text": "Fundraisers",
+        "inner_html": "Fundraisers"
+      },
+      {
+        "href": "https://www.facebook.com/biz/directory/",
+        "inner_text": "Services",
+        "inner_html": "Services"
+      },
+      {
+        "href": "https://www.facebook.com/votinginformationcenter/?entry_point=c2l0ZQ%3D%3D",
+        "inner_text": "Voting Information Center",
+        "inner_html": "Voting Information Center"
+      },
+      {
+        "href": "https://about.facebook.com/",
+        "inner_text": "About",
+        "inner_html": "About"
+      },
+      {
+        "href": "https://www.facebook.com/ad_campaign/landing.php?placement=pflo&campaign_id=402047449186&nav_source=unknown&extra_1=auto",
+        "inner_text": "Create Ad",
+        "inner_html": "Create Ad"
+      },
+      {
+        "href": "https://www.facebook.com/pages/create/?ref_type=site_footer",
+        "inner_text": "Create Page",
+        "inner_html": "Create Page"
+      },
+      {
+        "href": "https://developers.facebook.com/?ref=pf",
+        "inner_text": "Developers",
+        "inner_html": "Developers"
+      },
+      {
+        "href": "https://www.facebook.com/careers/?ref=pf",
+        "inner_text": "Careers",
+        "inner_html": "Careers"
+      },
+      {
+        "href": "https://www.facebook.com/privacy/explanation",
+        "inner_text": "Privacy",
+        "inner_html": "Privacy"
+      },
+      {
+        "href": "https://www.facebook.com/policies/cookies/",
+        "inner_text": "Cookies",
+        "inner_html": "Cookies"
+      },
+      {
+        "href": "https://www.facebook.com/help/568137493302217",
+        "inner_text": "Ad Choices",
+        "inner_html": "Ad Choices<i class=\"img sp_yIdLm88khzZ sx_cd1c4b\"></i>"
+      },
+      {
+        "href": "https://www.facebook.com/policies?ref=pf",
+        "inner_text": "Terms",
+        "inner_html": "Terms"
+      },
+      {
+        "href": "https://www.facebook.com/help/?ref=pf",
+        "inner_text": "Help",
+        "inner_html": "Help"
+      },
+      {
+        "href": "https://www.facebook.com/settings",
+        "inner_text": "Settings",
+        "inner_html": "Settings"
+      },
+      {
+        "href": "https://www.facebook.com/allactivity?privacy_source=activity_log_top_menu",
+        "inner_text": "Activity Log",
+        "inner_html": "Activity Log"
+      }
+    ],
+    "keywords": [
+      {
+        "href": "https://www.facebook.com/recover/initiate/?ars=facebook_login&privacy_mutation_token=eyJ0eXBlIjowLCJjcmVhdGlvbl90aW1lIjoxNjIxNTIxODQ4LCJjYWxsc2l0ZV9pZCI6MzgxMjI5MDc5NTc1OTQ2fQ%3D%3D",
+        "inner_text": "Forgot Password?",
+        "inner_html": "Forgot Password?"
+      },
+      {
+        "href": "https://www.facebook.com/login/",
+        "inner_text": "Log In",
+        "inner_html": "Log In"
+      },
+      {
+        "href": "https://www.facebook.com/privacy/explanation",
+        "inner_text": "Privacy",
+        "inner_html": "Privacy"
+      },
+      {
+        "href": "https://www.facebook.com/allactivity?privacy_source=activity_log_top_menu",
+        "inner_text": "Activity Log",
+        "inner_html": "Activity Log"
+      }
+    ]
+  },
+  "unsafeForms": [],
+  "browsing_history": [
+    "https://www.facebook.com/"
+  ],
+  "websockets": {},
+  "cookies": [],
+  "localStorage": {},
+  "beacons": [],
+  "hosts": {
+    "requests": {
+      "firstParty": [
+        "facebook.com"
+      ],
+      "thirdParty": [
+        "www.facebook.com",
+        "static.xx.fbcdn.net"
+      ]
+    },
+    "beacons": {
+      "firstParty": [],
+      "thirdParty": []
+    },
+    "cookies": {
+      "firstParty": [],
+      "thirdParty": []
+    },
+    "localStorage": {
+      "firstParty": [],
+      "thirdParty": []
+    },
+    "links": {
+      "firstParty": [],
+      "thirdParty": [
+        "www.facebook.com",
+        "es-es.facebook.com",
+        "ca-es.facebook.com",
+        "fr-fr.facebook.com",
+        "ro-ro.facebook.com",
+        "gl-es.facebook.com",
+        "it-it.facebook.com",
+        "de-de.facebook.com",
+        "pt-br.facebook.com",
+        "ar-ar.facebook.com",
+        "hi-in.facebook.com",
+        "messenger.com",
+        "pay.facebook.com",
+        "www.oculus.com",
+        "portal.facebook.com",
+        "l.facebook.com",
+        "about.facebook.com",
+        "developers.facebook.com"
+      ]
+    }
+  }
+}

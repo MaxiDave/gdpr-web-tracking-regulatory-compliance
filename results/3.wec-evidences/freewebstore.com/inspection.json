@@ -1,0 +1,477 @@
+{
+  "title": "Website Evidence Collection",
+  "task_description": null,
+  "uri_ins": "https://freewebstore.com",
+  "uri_refs": [
+    "https://freewebstore.com"
+  ],
+  "uri_dest": "https://freewebstore.com/",
+  "uri_redirects": [],
+  "secure_connection": {
+    "https_support": true,
+    "redirects": [
+      "https://freewebstore.com/"
+    ],
+    "https_redirect": true
+  },
+  "host": "freewebstore.com",
+  "script": {
+    "host": "sfod",
+    "version": {
+      "npm": "1.0.0",
+      "commit": null
+    },
+    "cmd_args": "-q --overwrite https://freewebstore.com -- --ignore-certificate-errors",
+    "environment": {
+      "CHROME_DESKTOP": "code-url-handler.desktop"
+    },
+    "node_version": "v14.17.0"
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "HeadlessChrome/80.0.3987.0",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3617.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "5.8.0-53-generic"
+    },
+    "extra_headers": {},
+    "preset_cookies": {}
+  },
+  "start_time": "2021-05-20T16:14:42.653Z",
+  "end_time": "2021-05-20T16:14:50.770Z",
+  "links": {
+    "firstParty": [
+      {
+        "href": "https://freewebstore.com/",
+        "inner_text": "freewebstore ",
+        "inner_html": "<span>free</span><span>web</span><span>store</span> <svg version=\"1.1\" id=\"Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" width=\"31px\" height=\"24.25px\" viewBox=\"0 0 31 24.25\" enable-background=\"new 0 0 31 24.25\" xml:space=\"preserve\"><g><path fill=\"#EA1686\" d=\"M7.302,9.784c0.413,1.134,0.829,2.246,1.236,3.381c0.05,0.137,0.137,0.116,0.239,0.116\n        \t\tc2.103,0,4.205-0.008,6.308-0.003c0.149,0.001,0.215-0.044,0.266-0.187c0.325-0.917,0.662-1.788,0.995-2.702\n        \t\tc0.079-0.219,0.159-0.64,0.248-0.64c-3.124,0-6.211,0-9.304,0C7.295,9.75,7.294,9.766,7.302,9.784z\"></path><path fill=\"#EA1686\" d=\"M28.794,11.294l-6.828-8.572c-0.371-0.468-1.166-0.851-1.765-0.849L2.681,1.897\n        \t\tc-0.598,0-1.087,0.49-1.086,1.089L1.62,21.382c0.002,0.599,0.491,1.086,1.09,1.086l17.521-0.025c0.598,0,1.393-0.385,1.764-0.854\n        \t\tl6.803-8.592C29.167,12.528,29.167,11.763,28.794,11.294z M8.604,18.792c-0.771-0.004-1.386-0.631-1.383-1.407\n        \t\tc0.003-0.756,0.634-1.377,1.395-1.374c0.761,0.004,1.386,0.631,1.386,1.387C10.001,18.167,9.37,18.797,8.604,18.792z\n        \t\t M15.031,18.792c-0.771-0.004-1.386-0.631-1.383-1.407c0.003-0.756,0.634-1.377,1.396-1.374c0.76,0.004,1.386,0.631,1.385,1.387\n        \t\tC16.429,18.167,15.798,18.797,15.031,18.792z M21.154,7.756c-0.491,0.011-0.982,0.014-1.473-0.003\n        \t\tc-0.203-0.006-0.289,0.056-0.358,0.249c-0.78,2.176-1.57,4.581-2.359,6.752c-0.197,0.543-0.516,0.996-1.096,0.996\n        \t\tc-2.58,0-5.16,0-7.739,0c-0.132,0-0.327,0.004-0.551-0.094c-0.381-0.166-0.516-0.558-0.656-0.949\n        \t\tc-0.416-1.164-0.842-2.384-1.267-3.544C5.378,10.401,5.202,9.65,4.922,8.891c0,0-0.104-0.405,0.019-0.668\n        \t\tc0.242-0.519,0.406-0.577,0.97-0.576c1.071,0.002,2.142-0.003,3.212-0.003l7.984,0.003c0.163,0,0.25-0.037,0.3-0.203\n        \t\tc0.076-0.259,0.193-0.503,0.269-0.763c0.134-0.46,0.389-0.93,0.866-0.93c0.924,0,1.848,0,2.771,0c0.046,0,0.092,0.037,0.139,0.054\n        \t\tc0.461,0.164,0.753,0.625,0.682,1.081C22.057,7.385,21.661,7.745,21.154,7.756z M24.371,13.704c-0.857,0-1.552-0.693-1.554-1.551\n        \t\tc0-0.856,0.692-1.551,1.55-1.553c0.857-0.001,1.553,0.693,1.553,1.549C25.923,13.007,25.229,13.702,24.371,13.704z\"></path></g></svg>"
+      },
+      {
+        "href": "https://freewebstore.com/features.html",
+        "inner_text": "Features",
+        "inner_html": "Features"
+      },
+      {
+        "href": "https://freewebstore.com/plans.html",
+        "inner_text": "Pricing",
+        "inner_html": "Pricing"
+      },
+      {
+        "href": "https://freewebstore.com/paypal.html",
+        "inner_text": "",
+        "inner_html": "PayPal"
+      },
+      {
+        "href": "https://freewebstore.com/contact.html",
+        "inner_text": "",
+        "inner_html": "Contact"
+      },
+      {
+        "href": "https://freewebstore.com/stores.html",
+        "inner_text": "",
+        "inner_html": "Testimonials"
+      },
+      {
+        "href": "https://freewebstore.com/faq.html",
+        "inner_text": "",
+        "inner_html": "FAQ's"
+      },
+      {
+        "href": "https://freewebstore.com/sitemap.html",
+        "inner_text": "sitemap",
+        "inner_html": "sitemap"
+      },
+      {
+        "href": "https://freewebstore.com/stores.html?video=scout",
+        "inner_text": "Watch Video ",
+        "inner_html": "Watch Video <i class=\"fa fa-video-camera\" aria-hidden=\"true\"></i>"
+      },
+      {
+        "href": "https://freewebstore.com/partners/checkouts/stripe/stripe.html",
+        "inner_text": "View Stripe Checkout",
+        "inner_html": "View Stripe Checkout"
+      },
+      {
+        "href": "https://freewebstore.com/facebook_instagram.html",
+        "inner_text": "View Instagram Shops",
+        "inner_html": "View Instagram Shops"
+      },
+      {
+        "href": "https://freewebstore.com/partners/shipping/fedex/fedex.html",
+        "inner_text": "Check Out FedEx Integrations",
+        "inner_html": "Check Out FedEx Integrations"
+      },
+      {
+        "href": "https://freewebstore.com/partners/other/google/google.html",
+        "inner_text": "Check Out Google Integrations",
+        "inner_html": "Check Out Google Integrations"
+      },
+      {
+        "href": "https://freewebstore.com/partners/checkouts/paypal/paypal.html",
+        "inner_text": "Read More About PayPal Commerce",
+        "inner_html": "Read More About PayPal Commerce"
+      },
+      {
+        "href": "https://freewebstore.com/partners/shipping/ups/ups.html",
+        "inner_text": "View UPS Integrations",
+        "inner_html": "View UPS Integrations"
+      },
+      {
+        "href": "https://freewebstore.com/partners/accounting/kashflow/kashflow.html",
+        "inner_text": "Read More About Kashflow",
+        "inner_html": "Read More About Kashflow"
+      },
+      {
+        "href": "https://freewebstore.com/careers.html",
+        "inner_text": "Careers",
+        "inner_html": "Careers"
+      },
+      {
+        "href": "https://freewebstore.com/partners.html",
+        "inner_text": "Partners",
+        "inner_html": "Partners"
+      },
+      {
+        "href": "https://freewebstore.com/become_a_partner.html",
+        "inner_text": "Become a Partner",
+        "inner_html": "Become a Partner"
+      },
+      {
+        "href": "https://freewebstore.com/terms.html",
+        "inner_text": "T's and C's",
+        "inner_html": "T's and C's"
+      },
+      {
+        "href": "https://freewebstore.com/privacy.html",
+        "inner_text": "Privacy",
+        "inner_html": "Privacy"
+      },
+      {
+        "href": "https://freewebstore.com/DMCA.html",
+        "inner_text": "DMCA",
+        "inner_html": "DMCA"
+      },
+      {
+        "href": "https://freewebstore.com/PCI_compliance.html",
+        "inner_text": "PCI Compliance",
+        "inner_html": "PCI Compliance"
+      }
+    ],
+    "thirdParty": [
+      {
+        "href": "http://help.freewebstore.com/",
+        "inner_text": "",
+        "inner_html": "<i class=\"fa fa-external-link\" aria-hidden=\"true\"></i>Guides"
+      },
+      {
+        "href": "https://affiliates.freewebstore.com/",
+        "inner_text": "",
+        "inner_html": "<i class=\"fa fa-external-link\" aria-hidden=\"true\"></i>Affiliates"
+      },
+      {
+        "href": "https://blog.freewebstore.com/",
+        "inner_text": "Blog",
+        "inner_html": "Blog"
+      },
+      {
+        "href": "https://admin.freewebstore.com/",
+        "inner_text": "Log In",
+        "inner_html": "Log In"
+      },
+      {
+        "href": "https://admin.freewebstore.com/register",
+        "inner_text": "Get Started",
+        "inner_html": "Get Started"
+      },
+      {
+        "href": "https://help.freewebstore.com/",
+        "inner_text": "Help Documentation",
+        "inner_html": "Help Documentation"
+      },
+      {
+        "href": "https://api.freewebstore.org/",
+        "inner_text": "API",
+        "inner_html": "API"
+      },
+      {
+        "href": "https://designers.freewebstore.com/about",
+        "inner_text": "Store Builder",
+        "inner_html": "Store Builder"
+      },
+      {
+        "href": "https://www.facebook.com/freewebstoreofficial/",
+        "inner_text": "",
+        "inner_html": "<i class=\"fa fa-facebook\" aria-hidden=\"true\"></i>"
+      },
+      {
+        "href": "https://twitter.com/freewebstore",
+        "inner_text": "",
+        "inner_html": "<i class=\"fa fa-twitter\" aria-hidden=\"true\"></i>"
+      },
+      {
+        "href": "https://www.instagram.com/freewebstore/",
+        "inner_text": "",
+        "inner_html": "<i class=\"fa fa-instagram\" aria-hidden=\"true\"></i>"
+      },
+      {
+        "href": "https://www.linkedin.com/company/freewebstore/",
+        "inner_text": "",
+        "inner_html": "<i class=\"fa fa-linkedin\" aria-hidden=\"true\"></i>"
+      },
+      {
+        "href": "https://www.youtube.com/user/freewebstore",
+        "inner_text": "",
+        "inner_html": "<i class=\"fa fa-youtube\" aria-hidden=\"true\"></i>"
+      }
+    ],
+    "social": [
+      {
+        "href": "https://www.facebook.com/freewebstoreofficial/",
+        "inner_text": "",
+        "inner_html": "<i class=\"fa fa-facebook\" aria-hidden=\"true\"></i>"
+      },
+      {
+        "href": "https://twitter.com/freewebstore",
+        "inner_text": "",
+        "inner_html": "<i class=\"fa fa-twitter\" aria-hidden=\"true\"></i>"
+      },
+      {
+        "href": "https://www.instagram.com/freewebstore/",
+        "inner_text": "",
+        "inner_html": "<i class=\"fa fa-instagram\" aria-hidden=\"true\"></i>"
+      },
+      {
+        "href": "https://www.linkedin.com/company/freewebstore/",
+        "inner_text": "",
+        "inner_html": "<i class=\"fa fa-linkedin\" aria-hidden=\"true\"></i>"
+      },
+      {
+        "href": "https://www.youtube.com/user/freewebstore",
+        "inner_text": "",
+        "inner_html": "<i class=\"fa fa-youtube\" aria-hidden=\"true\"></i>"
+      }
+    ],
+    "keywords": [
+      {
+        "href": "https://freewebstore.com/privacy.html",
+        "inner_text": "Privacy",
+        "inner_html": "Privacy"
+      }
+    ]
+  },
+  "unsafeForms": [],
+  "browsing_history": [
+    "https://freewebstore.com/"
+  ],
+  "websockets": {},
+  "cookies": [],
+  "localStorage": {},
+  "beacons": [
+    {
+      "url": "https://widget.trustpilot.com/stats/TrustboxView?locale=en-US&styleHeight=140px&styleWidth=100%25&theme=light&stars=4%2C5&schemaType=Organization&url=https%3A%2F%2Ffreewebstore.com%2F&referrer=&userAgent=Mozilla%2F5.0%20(X11%3B%20Linux%20x86_64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F72.0.3617.0%20Safari%2F537.36&language=en-US&platform=Linux%20x86_64&nosettings=1&businessUnitId=54ae112d0000ff00057c9562&widgetId=53aa8912dec7e10d38f59f36",
+      "query": {
+        "locale": "en-US",
+        "styleHeight": "140px",
+        "styleWidth": "100%",
+        "theme": "light",
+        "stars": "4,5",
+        "schemaType": "Organization",
+        "url": "https://freewebstore.com/",
+        "referrer": "",
+        "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3617.0 Safari/537.36",
+        "language": "en-US",
+        "platform": "Linux x86_64",
+        "nosettings": 1,
+        "businessUnitId": "54ae112d0000ff00057c9562",
+        "widgetId": "53aa8912dec7e10d38f59f36"
+      },
+      "filter": "||trustpilot.com/stats/",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://widget.trustpilot.com/trustboxes/53aa8912dec7e10d38f59f36/index.html?templateId=53aa8912dec7e10d38f59f36&businessunitId=54ae112d0000ff00057c9562",
+            "source": "requested from https://widget.trustpilot.com/trustboxes/53aa8912dec7e10d38f59f36/index.html?templateId=53aa8912dec7e10d38f59f36&businessunitId=54ae112d0000ff00057c9562 and matched with easyprivacy.txt filter ||trustpilot.com/stats/"
+          }
+        ],
+        "timestamp": "2021-05-20T16:14:49.249Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://freewebstore.com/images/homepage2/features/pinterest.png",
+      "query": null,
+      "filter": "/pinterest.png",
+      "listName": "fanboy-annoyance.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://freewebstore.com/",
+            "source": "requested from https://freewebstore.com/ and matched with fanboy-annoyance.txt filter /pinterest.png"
+          }
+        ],
+        "timestamp": "2021-05-20T16:14:48.938Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://freewebstore.com/images/homepage2/features/instagram.png",
+      "query": null,
+      "filter": "/images/*instagram.png",
+      "listName": "fanboy-annoyance.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://freewebstore.com/",
+            "source": "requested from https://freewebstore.com/ and matched with fanboy-annoyance.txt filter /images/*instagram.png"
+          }
+        ],
+        "timestamp": "2021-05-20T16:14:48.937Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://freewebstore.com/images/homepage2/features/facebook.png",
+      "query": null,
+      "filter": "/images/*facebook.png$domain=~facebook.com",
+      "listName": "fanboy-annoyance.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://freewebstore.com/",
+            "source": "requested from https://freewebstore.com/ and matched with fanboy-annoyance.txt filter /images/*facebook.png$domain=~facebook.com"
+          }
+        ],
+        "timestamp": "2021-05-20T16:14:48.934Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://freewebstore.com/images/homepage2/features/twitter.png",
+      "query": null,
+      "filter": "/images/*twitter.png",
+      "listName": "fanboy-annoyance.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://freewebstore.com/",
+            "source": "requested from https://freewebstore.com/ and matched with fanboy-annoyance.txt filter /images/*twitter.png"
+          }
+        ],
+        "timestamp": "2021-05-20T16:14:48.931Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://widget.trustpilot.com/stats/TrustboxImpression?locale=en-US&styleHeight=140px&styleWidth=100%25&theme=light&stars=4%2C5&schemaType=Organization&url=https%3A%2F%2Ffreewebstore.com%2F&referrer=&userAgent=Mozilla%2F5.0%20(X11%3B%20Linux%20x86_64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F72.0.3617.0%20Safari%2F537.36&language=en-US&platform=Linux%20x86_64&nosettings=1&businessUnitId=54ae112d0000ff00057c9562&widgetId=53aa8912dec7e10d38f59f36",
+      "query": {
+        "locale": "en-US",
+        "styleHeight": "140px",
+        "styleWidth": "100%",
+        "theme": "light",
+        "stars": "4,5",
+        "schemaType": "Organization",
+        "url": "https://freewebstore.com/",
+        "referrer": "",
+        "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3617.0 Safari/537.36",
+        "language": "en-US",
+        "platform": "Linux x86_64",
+        "nosettings": 1,
+        "businessUnitId": "54ae112d0000ff00057c9562",
+        "widgetId": "53aa8912dec7e10d38f59f36"
+      },
+      "filter": "||trustpilot.com/stats/",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://widget.trustpilot.com/trustboxes/53aa8912dec7e10d38f59f36/index.html?templateId=53aa8912dec7e10d38f59f36&businessunitId=54ae112d0000ff00057c9562",
+            "source": "requested from https://widget.trustpilot.com/trustboxes/53aa8912dec7e10d38f59f36/index.html?templateId=53aa8912dec7e10d38f59f36&businessunitId=54ae112d0000ff00057c9562 and matched with easyprivacy.txt filter ||trustpilot.com/stats/"
+          }
+        ],
+        "timestamp": "2021-05-20T16:14:44.259Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://widget.trustpilot.com/trustboxes/53aa8912dec7e10d38f59f36/index.html?templateId=53aa8912dec7e10d38f59f36&businessunitId=54ae112d0000ff00057c9562",
+      "query": {
+        "templateId": "53aa8912dec7e10d38f59f36",
+        "businessunitId": "54ae112d0000ff00057c9562"
+      },
+      "filter": "||widget.trustpilot.com^$third-party",
+      "listName": "fanboy-annoyance.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "",
+            "source": "requested from  and matched with fanboy-annoyance.txt filter ||widget.trustpilot.com^$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T16:14:43.684Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js",
+      "query": null,
+      "filter": "||widget.trustpilot.com^$third-party",
+      "listName": "fanboy-annoyance.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://freewebstore.com/",
+            "source": "requested from https://freewebstore.com/ and matched with fanboy-annoyance.txt filter ||widget.trustpilot.com^$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T16:14:43.179Z"
+      },
+      "occurrances": 1
+    }
+  ],
+  "hosts": {
+    "requests": {
+      "firstParty": [
+        "freewebstore.com"
+      ],
+      "thirdParty": [
+        "use.fontawesome.com",
+        "widget.trustpilot.com",
+        "polyfill.io"
+      ]
+    },
+    "beacons": {
+      "firstParty": [],
+      "thirdParty": [
+        "widget.trustpilot.com"
+      ]
+    },
+    "cookies": {
+      "firstParty": [],
+      "thirdParty": []
+    },
+    "localStorage": {
+      "firstParty": [],
+      "thirdParty": []
+    },
+    "links": {
+      "firstParty": [
+        "freewebstore.com"
+      ],
+      "thirdParty": [
+        "help.freewebstore.com",
+        "affiliates.freewebstore.com",
+        "blog.freewebstore.com",
+        "admin.freewebstore.com",
+        "api.freewebstore.org",
+        "designers.freewebstore.com",
+        "www.facebook.com",
+        "twitter.com",
+        "www.instagram.com",
+        "www.linkedin.com",
+        "www.youtube.com"
+      ]
+    }
+  }
+}

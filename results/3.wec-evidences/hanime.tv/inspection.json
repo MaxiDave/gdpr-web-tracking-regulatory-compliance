@@ -1,0 +1,426 @@
+{
+  "title": "Website Evidence Collection",
+  "task_description": null,
+  "uri_ins": "https://hanime.tv",
+  "uri_refs": [
+    "https://hanime.tv"
+  ],
+  "uri_dest": "https://hanime.tv/",
+  "uri_redirects": [],
+  "secure_connection": {
+    "https_support": true,
+    "redirects": [
+      "https://hanime.tv/"
+    ],
+    "https_redirect": true
+  },
+  "host": "hanime.tv",
+  "script": {
+    "host": "sfod",
+    "version": {
+      "npm": "1.0.0",
+      "commit": null
+    },
+    "cmd_args": "-q --overwrite https://hanime.tv -- --ignore-certificate-errors",
+    "environment": {
+      "CHROME_DESKTOP": "code-url-handler.desktop"
+    },
+    "node_version": "v14.17.0"
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "HeadlessChrome/80.0.3987.0",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3617.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "5.8.0-53-generic"
+    },
+    "extra_headers": {},
+    "preset_cookies": {}
+  },
+  "start_time": "2021-05-20T16:00:11.719Z",
+  "end_time": "2021-05-20T16:00:20.574Z",
+  "links": {
+    "firstParty": [
+      {
+        "href": "https://hanime.tv/",
+        "inner_text": "Home",
+        "inner_html": "<div class=\"list__tile__action\"><i aria-hidden=\"true\" class=\"icon mdi mdi-home\"></i></div> <div class=\"list__tile__content\"><div class=\"list__tile__title\">Home</div></div>"
+      },
+      {
+        "href": "https://hanime.tv/browse/trending",
+        "inner_text": "Trending",
+        "inner_html": "<div class=\"list__tile__action\"><i aria-hidden=\"true\" class=\"icon mdi mdi-fire\"></i></div> <div class=\"list__tile__content\"><div class=\"list__tile__title\">Trending</div></div>"
+      },
+      {
+        "href": "https://hanime.tv/browse/random",
+        "inner_text": "Random",
+        "inner_html": "<div class=\"list__tile__action\"><i aria-hidden=\"true\" class=\"icon mdi mdi-shuffle-variant\"></i></div> <div class=\"list__tile__content\"><div class=\"list__tile__title\">Random</div></div>"
+      },
+      {
+        "href": "https://hanime.tv/browse/images",
+        "inner_text": "Images",
+        "inner_html": "<div class=\"list__tile__action\"><i aria-hidden=\"true\" class=\"icon mdi mdi-image-filter-hdr\"></i></div> <div class=\"list__tile__content\"><div class=\"list__tile__title\">Images</div></div>"
+      },
+      {
+        "href": "https://hanime.tv/search",
+        "inner_text": "Search",
+        "inner_html": "<div class=\"list__tile__action\"><i aria-hidden=\"true\" class=\"icon mdi mdi-magnify\"></i></div> <div class=\"list__tile__content\"><div class=\"list__tile__title\">Search</div></div>"
+      },
+      {
+        "href": "https://hanime.tv/browse",
+        "inner_text": "Browse",
+        "inner_html": "<div class=\"list__tile__action\"><i aria-hidden=\"true\" class=\"icon mdi mdi-chart-bubble\"></i></div> <div class=\"list__tile__content\"><div class=\"list__tile__title\">Browse</div></div>"
+      },
+      {
+        "href": "https://hanime.tv/apps",
+        "inner_text": "Apps",
+        "inner_html": "<div class=\"list__tile__action\"><i aria-hidden=\"true\" class=\"icon mdi mdi-apps\"></i></div> <div class=\"list__tile__content\"><div class=\"list__tile__title\">Apps</div></div>"
+      },
+      {
+        "href": "https://hanime.tv/whats-new",
+        "inner_text": "What's New",
+        "inner_html": "<div class=\"list__tile__action\"><i aria-hidden=\"true\" class=\"icon mdi mdi-rss\"></i></div> <div class=\"list__tile__content\"><div class=\"list__tile__title\">What's New</div></div>"
+      },
+      {
+        "href": "https://hanime.tv/premium",
+        "inner_text": "Premium Benefits",
+        "inner_html": "<div class=\"list__tile__action\"><i aria-hidden=\"true\" class=\"icon mdi mdi-crown\"></i></div> <div class=\"list__tile__content\"><div class=\"list__tile__title\">Premium Benefits</div></div>"
+      },
+      {
+        "href": "https://hanime.tv/business",
+        "inner_text": "Advertising",
+        "inner_html": "<div class=\"list__tile__action\"><i aria-hidden=\"true\" class=\"icon mdi mdi-palette-advanced\"></i></div> <div class=\"list__tile__content\"><div class=\"list__tile__title\">Advertising</div></div>"
+      },
+      {
+        "href": "https://hanime.tv/terms-of-use",
+        "inner_text": "Terms of Use",
+        "inner_html": "<div class=\"list__tile__action\"><i aria-hidden=\"true\" class=\"icon mdi mdi-gavel\"></i></div> <div class=\"list__tile__content\"><div class=\"list__tile__title\">Terms of Use</div></div>"
+      },
+      {
+        "href": "https://hanime.tv/eula",
+        "inner_text": "EULA",
+        "inner_html": "<div class=\"list__tile__action\"><i aria-hidden=\"true\" class=\"icon mdi mdi-file-document-box\"></i></div> <div class=\"list__tile__content\"><div class=\"list__tile__title\">EULA</div></div>"
+      },
+      {
+        "href": "https://hanime.tv/2257",
+        "inner_text": "2257 Statement",
+        "inner_html": "<div class=\"list__tile__action\"><i aria-hidden=\"true\" class=\"icon mdi mdi-verified\"></i></div> <div class=\"list__tile__content\"><div class=\"list__tile__title\">2257 Statement</div></div>"
+      },
+      {
+        "href": "https://hanime.tv/privacy",
+        "inner_text": "Privacy",
+        "inner_html": "<div class=\"list__tile__action\"><i aria-hidden=\"true\" class=\"icon mdi mdi-guy-fawkes-mask\"></i></div> <div class=\"list__tile__content\"><div class=\"list__tile__title\">Privacy</div></div>"
+      },
+      {
+        "href": "https://hanime.tv/cookies",
+        "inner_text": "Cookies Policy",
+        "inner_html": "<div class=\"list__tile__action\"><i aria-hidden=\"true\" class=\"icon mdi mdi-cookie\"></i></div> <div class=\"list__tile__content\"><div class=\"list__tile__title\">Cookies Policy</div></div>"
+      },
+      {
+        "href": "https://hanime.tv/videos/hentai/soshite-watashi-wa-ojisan-ni-3",
+        "inner_text": "Soshite Watashi wa Ojisan ni 3\n 1,322,603",
+        "inner_html": "<div><div class=\"hvc__media card__media\" style=\"height:auto;\"><div class=\"card__media__content\"><div class=\"hvc__media__cover-container\"><div class=\"hvc__media__cover-aspect-ratio\"><div class=\"lazy hvc__media__cover\"><div><img src=\"https://i0.wp.com/ba.alphafish.top/images/covers/soshite-watashi-wa-ojisan-ni-3-cv1.png?quality=100\" alt=\"Soshite Watashi wa Ojisan ni 3\" title=\"Watch Soshite Watashi wa Ojisan ni 3 hentai stream online HD 1080p, 720p\" draggable=\"false\" class=\"hvc__media__cover__image\"></div></div> <div class=\"hvc__media__cover-glass\"></div></div></div></div></div> <div class=\"card__title\"><div class=\"hvc__content flex column justify-center align-center\"><div class=\"spacer\"></div> <div class=\"hv-title\">\n            Soshite Watashi wa Ojisan ni 3\n          </div> <div class=\"hv-subtitle\"><i aria-hidden=\"true\" class=\"icon mdi mdi-eye-outline\"></i>\n            1,322,603\n          </div> <div class=\"spacer\"></div></div></div></div>"
+      },
+      {
+        "href": "https://hanime.tv/videos/hentai/ero-konbini-tenchou-4",
+        "inner_text": "Ero Konbini Tenchou 4\n 706,636",
+        "inner_html": "<div><div class=\"hvc__media card__media\" style=\"height:auto;\"><div class=\"card__media__content\"><div class=\"hvc__media__cover-container\"><div class=\"hvc__media__cover-aspect-ratio\"><div class=\"lazy hvc__media__cover\"><div><img src=\"https://i0.wp.com/ba.alphafish.top/images/covers/ero-konbini-tenchou-4-cv1.png?quality=100\" alt=\"Ero Konbini Tenchou 4\" title=\"Watch Ero Konbini Tenchou 4 hentai stream online HD 1080p, 720p\" draggable=\"false\" class=\"hvc__media__cover__image\"></div></div> <div class=\"hvc__media__cover-glass\"></div></div></div></div></div> <div class=\"card__title\"><div class=\"hvc__content flex column justify-center align-center\"><div class=\"spacer\"></div> <div class=\"hv-title\">\n            Ero Konbini Tenchou 4\n          </div> <div class=\"hv-subtitle\"><i aria-hidden=\"true\" class=\"icon mdi mdi-eye-outline\"></i>\n            706,636\n          </div> <div class=\"spacer\"></div></div></div></div>"
+      },
+      {
+        "href": "https://hanime.tv/videos/hentai/uchi-no-otouto-maji-de-dekain-dakedo-mi-ni-konai-2",
+        "inner_text": "Uchi no Otouto Maji de Dekain Dakedo Mi ni Konai? …\n 3,463,167",
+        "inner_html": "<div><div class=\"hvc__media card__media\" style=\"height:auto;\"><div class=\"card__media__content\"><div class=\"hvc__media__cover-container\"><div class=\"hvc__media__cover-aspect-ratio\"><div class=\"lazy hvc__media__cover\"><div><img src=\"https://git-covers.pages.dev/images/uchi-no-otouto-maji-de-dekain-dakedo-mi-ni-konai-2-cv2.png\" alt=\"Uchi no Otouto Maji de Dekain Dakedo Mi ni Konai? 2\" title=\"Watch Uchi no Otouto Maji de Dekain Dakedo Mi ni Konai? 2 hentai stream online HD 1080p, 720p\" draggable=\"false\" class=\"hvc__media__cover__image\"></div></div> <div class=\"hvc__media__cover-glass\"></div></div></div></div></div> <div class=\"card__title\"><div class=\"hvc__content flex column justify-center align-center\"><div class=\"spacer\"></div> <div class=\"hv-title\">\n            Uchi no Otouto Maji de Dekain Dakedo Mi ni Konai? …\n          </div> <div class=\"hv-subtitle\"><i aria-hidden=\"true\" class=\"icon mdi mdi-eye-outline\"></i>\n            3,463,167\n          </div> <div class=\"spacer\"></div></div></div></div>"
+      },
+      {
+        "href": "https://hanime.tv/videos/hentai/uchi-no-otouto-maji-de-dekain-dakedo-mi-ni-konai-1",
+        "inner_text": "Uchi no Otouto Maji de Dekain Dakedo Mi ni Konai? …\n 3,379,799",
+        "inner_html": "<div><div class=\"hvc__media card__media\" style=\"height:auto;\"><div class=\"card__media__content\"><div class=\"hvc__media__cover-container\"><div class=\"hvc__media__cover-aspect-ratio\"><div class=\"lazy hvc__media__cover\"><div><img src=\"https://git-covers.pages.dev/images/uchi-no-otouto-maji-de-dekain-dakedo-mi-ni-konai-1-cv2.png\" alt=\"Uchi no Otouto Maji de Dekain Dakedo Mi ni Konai? 1\" title=\"Watch Uchi no Otouto Maji de Dekain Dakedo Mi ni Konai? 1 hentai stream online HD 1080p, 720p\" draggable=\"false\" class=\"hvc__media__cover__image\"></div></div> <div class=\"hvc__media__cover-glass\"></div></div></div></div></div> <div class=\"card__title\"><div class=\"hvc__content flex column justify-center align-center\"><div class=\"spacer\"></div> <div class=\"hv-title\">\n            Uchi no Otouto Maji de Dekain Dakedo Mi ni Konai? …\n          </div> <div class=\"hv-subtitle\"><i aria-hidden=\"true\" class=\"icon mdi mdi-eye-outline\"></i>\n            3,379,799\n          </div> <div class=\"spacer\"></div></div></div></div>"
+      },
+      {
+        "href": "https://hanime.tv/videos/hentai/rikujoubu-joshi-wa-ore-no-nama-onaho-2",
+        "inner_text": "Rikujoubu Joshi wa Ore no Nama Onaho 2\n 1,386,501",
+        "inner_html": "<div><div class=\"hvc__media card__media\" style=\"height:auto;\"><div class=\"card__media__content\"><div class=\"hvc__media__cover-container\"><div class=\"hvc__media__cover-aspect-ratio\"><div class=\"lazy hvc__media__cover\"><div><img src=\"https://git-covers.pages.dev/images/rikujoubu-joshi-wa-ore-no-nama-onaho-2-cv1.png\" alt=\"Rikujoubu Joshi wa Ore no Nama Onaho 2\" title=\"Watch Rikujoubu Joshi wa Ore no Nama Onaho 2 hentai stream online HD 1080p, 720p\" draggable=\"false\" class=\"hvc__media__cover__image\"></div></div> <div class=\"hvc__media__cover-glass\"></div></div></div></div></div> <div class=\"card__title\"><div class=\"hvc__content flex column justify-center align-center\"><div class=\"spacer\"></div> <div class=\"hv-title\">\n            Rikujoubu Joshi wa Ore no Nama Onaho 2\n          </div> <div class=\"hv-subtitle\"><i aria-hidden=\"true\" class=\"icon mdi mdi-eye-outline\"></i>\n            1,386,501\n          </div> <div class=\"spacer\"></div></div></div></div>"
+      },
+      {
+        "href": "https://hanime.tv/videos/hentai/sakusei-byoutou-1",
+        "inner_text": "Sakusei Byoutou 1\n 1,600,487",
+        "inner_html": "<div><div class=\"hvc__media card__media\" style=\"height:auto;\"><div class=\"card__media__content\"><div class=\"hvc__media__cover-container\"><div class=\"hvc__media__cover-aspect-ratio\"><div class=\"lazy hvc__media__cover\"><div><img src=\"https://git-covers.pages.dev/images/sakusei-byoutou-1-cv2.png\" alt=\"Sakusei Byoutou 1\" title=\"Watch Sakusei Byoutou 1 hentai stream online HD 1080p, 720p\" draggable=\"false\" class=\"hvc__media__cover__image\"></div></div> <div class=\"hvc__media__cover-glass\"></div></div></div></div></div> <div class=\"card__title\"><div class=\"hvc__content flex column justify-center align-center\"><div class=\"spacer\"></div> <div class=\"hv-title\">\n            Sakusei Byoutou 1\n          </div> <div class=\"hv-subtitle\"><i aria-hidden=\"true\" class=\"icon mdi mdi-eye-outline\"></i>\n            1,600,487\n          </div> <div class=\"spacer\"></div></div></div></div>"
+      },
+      {
+        "href": "https://hanime.tv/videos/hentai/toilet-no-hanako-san-vs-kukkyou-taimashi-2",
+        "inner_text": "Toilet no Hanako-san vs Kukkyou Taimashi 2\n 1,690,206",
+        "inner_html": "<div><div class=\"hvc__media card__media\" style=\"height:auto;\"><div class=\"card__media__content\"><div class=\"hvc__media__cover-container\"><div class=\"hvc__media__cover-aspect-ratio\"><div class=\"lazy hvc__media__cover\"><div><img src=\"https://git-covers.pages.dev/images/toilet-no-hanako-san-vs-kukkyou-taimashi-2-cv1.png\" alt=\"Toilet no Hanako-san vs Kukkyou Taimashi 2\" title=\"Watch Toilet no Hanako-san vs Kukkyou Taimashi 2 hentai stream online HD 1080p, 720p\" draggable=\"false\" class=\"hvc__media__cover__image\"></div></div> <div class=\"hvc__media__cover-glass\"></div></div></div></div></div> <div class=\"card__title\"><div class=\"hvc__content flex column justify-center align-center\"><div class=\"spacer\"></div> <div class=\"hv-title\">\n            Toilet no Hanako-san vs Kukkyou Taimashi 2\n          </div> <div class=\"hv-subtitle\"><i aria-hidden=\"true\" class=\"icon mdi mdi-eye-outline\"></i>\n            1,690,206\n          </div> <div class=\"spacer\"></div></div></div></div>"
+      },
+      {
+        "href": "https://hanime.tv/videos/hentai/shidoukan-day-after-1",
+        "inner_text": "Shidoukan Day After 1\n 1,962,521",
+        "inner_html": "<div><div class=\"hvc__media card__media\" style=\"height:auto;\"><div class=\"card__media__content\"><div class=\"hvc__media__cover-container\"><div class=\"hvc__media__cover-aspect-ratio\"><div class=\"lazy hvc__media__cover\"><div><img src=\"https://git-covers.pages.dev/images/shidoukan-day-after-1-cv1.png\" alt=\"Shidoukan Day After 1\" title=\"Watch Shidoukan Day After 1 hentai stream online HD 1080p, 720p\" draggable=\"false\" class=\"hvc__media__cover__image\"></div></div> <div class=\"hvc__media__cover-glass\"></div></div></div></div></div> <div class=\"card__title\"><div class=\"hvc__content flex column justify-center align-center\"><div class=\"spacer\"></div> <div class=\"hv-title\">\n            Shidoukan Day After 1\n          </div> <div class=\"hv-subtitle\"><i aria-hidden=\"true\" class=\"icon mdi mdi-eye-outline\"></i>\n            1,962,521\n          </div> <div class=\"spacer\"></div></div></div></div>"
+      },
+      {
+        "href": "https://hanime.tv/videos/hentai/bitch-na-in-ane-sama-1",
+        "inner_text": "Bitch na In`ane-sama 1\n 2,721,282",
+        "inner_html": "<div><div class=\"hvc__media card__media\" style=\"height:auto;\"><div class=\"card__media__content\"><div class=\"hvc__media__cover-container\"><div class=\"hvc__media__cover-aspect-ratio\"><div class=\"lazy hvc__media__cover\"><div><img src=\"https://git-covers.pages.dev/images/bitch-na-in-ane-sama-1-cv1.png\" alt=\"Bitch na In`ane-sama 1\" title=\"Watch Bitch na In`ane-sama 1 hentai stream online HD 1080p, 720p\" draggable=\"false\" class=\"hvc__media__cover__image\"></div></div> <div class=\"hvc__media__cover-glass\"></div></div></div></div></div> <div class=\"card__title\"><div class=\"hvc__content flex column justify-center align-center\"><div class=\"spacer\"></div> <div class=\"hv-title\">\n            Bitch na In`ane-sama 1\n          </div> <div class=\"hv-subtitle\"><i aria-hidden=\"true\" class=\"icon mdi mdi-eye-outline\"></i>\n            2,721,282\n          </div> <div class=\"spacer\"></div></div></div></div>"
+      },
+      {
+        "href": "https://hanime.tv/videos/hentai/ookami-san-wa-taberaretai-season-1",
+        "inner_text": "Ookami-san wa Taberaretai Season 1\n 2,753,075",
+        "inner_html": "<div><div class=\"hvc__media card__media\" style=\"height:auto;\"><div class=\"card__media__content\"><div class=\"hvc__media__cover-container\"><div class=\"hvc__media__cover-aspect-ratio\"><div class=\"lazy hvc__media__cover\"><div></div></div> <div class=\"hvc__media__cover-glass\"></div></div></div></div></div> <div class=\"card__title\"><div class=\"hvc__content flex column justify-center align-center\"><div class=\"spacer\"></div> <div class=\"hv-title\">\n            Ookami-san wa Taberaretai Season 1\n          </div> <div class=\"hv-subtitle\"><i aria-hidden=\"true\" class=\"icon mdi mdi-eye-outline\"></i>\n            2,753,075\n          </div> <div class=\"spacer\"></div></div></div></div>"
+      },
+      {
+        "href": "https://hanime.tv/videos/hentai/kaifuku-jutsushi-no-yarinaoshi-12",
+        "inner_text": "Kaifuku Jutsushi no Yarinaoshi 12\n 1,262,653",
+        "inner_html": "<div><div class=\"hvc__media card__media\" style=\"height:auto;\"><div class=\"card__media__content\"><div class=\"hvc__media__cover-container\"><div class=\"hvc__media__cover-aspect-ratio\"><div class=\"lazy hvc__media__cover\"><div></div></div> <div class=\"hvc__media__cover-glass\"></div></div></div></div></div> <div class=\"card__title\"><div class=\"hvc__content flex column justify-center align-center\"><div class=\"spacer\"></div> <div class=\"hv-title\">\n            Kaifuku Jutsushi no Yarinaoshi 12\n          </div> <div class=\"hv-subtitle\"><i aria-hidden=\"true\" class=\"icon mdi mdi-eye-outline\"></i>\n            1,262,653\n          </div> <div class=\"spacer\"></div></div></div></div>"
+      },
+      {
+        "href": "https://hanime.tv/videos/hentai/kaifuku-jutsushi-no-yarinaoshi-11",
+        "inner_text": "Kaifuku Jutsushi no Yarinaoshi 11\n 955,116",
+        "inner_html": "<div><div class=\"hvc__media card__media\" style=\"height:auto;\"><div class=\"card__media__content\"><div class=\"hvc__media__cover-container\"><div class=\"hvc__media__cover-aspect-ratio\"><div class=\"lazy hvc__media__cover\"><div></div></div> <div class=\"hvc__media__cover-glass\"></div></div></div></div></div> <div class=\"card__title\"><div class=\"hvc__content flex column justify-center align-center\"><div class=\"spacer\"></div> <div class=\"hv-title\">\n            Kaifuku Jutsushi no Yarinaoshi 11\n          </div> <div class=\"hv-subtitle\"><i aria-hidden=\"true\" class=\"icon mdi mdi-eye-outline\"></i>\n            955,116\n          </div> <div class=\"spacer\"></div></div></div></div>"
+      },
+      {
+        "href": "https://hanime.tv/videos/hentai/kaifuku-jutsushi-no-yarinaoshi-10",
+        "inner_text": "Kaifuku Jutsushi no Yarinaoshi 10\n 591,906",
+        "inner_html": "<div><div class=\"hvc__media card__media\" style=\"height:auto;\"><div class=\"card__media__content\"><div class=\"hvc__media__cover-container\"><div class=\"hvc__media__cover-aspect-ratio\"><div class=\"lazy hvc__media__cover\"><div></div></div> <div class=\"hvc__media__cover-glass\"></div></div></div></div></div> <div class=\"card__title\"><div class=\"hvc__content flex column justify-center align-center\"><div class=\"spacer\"></div> <div class=\"hv-title\">\n            Kaifuku Jutsushi no Yarinaoshi 10\n          </div> <div class=\"hv-subtitle\"><i aria-hidden=\"true\" class=\"icon mdi mdi-eye-outline\"></i>\n            591,906\n          </div> <div class=\"spacer\"></div></div></div></div>"
+      },
+      {
+        "href": "https://hanime.tv/videos/hentai/kaifuku-jutsushi-no-yarinaoshi-9",
+        "inner_text": "Kaifuku Jutsushi no Yarinaoshi 9\n 681,470",
+        "inner_html": "<div><div class=\"hvc__media card__media\" style=\"height:auto;\"><div class=\"card__media__content\"><div class=\"hvc__media__cover-container\"><div class=\"hvc__media__cover-aspect-ratio\"><div class=\"lazy hvc__media__cover\"><div></div></div> <div class=\"hvc__media__cover-glass\"></div></div></div></div></div> <div class=\"card__title\"><div class=\"hvc__content flex column justify-center align-center\"><div class=\"spacer\"></div> <div class=\"hv-title\">\n            Kaifuku Jutsushi no Yarinaoshi 9\n          </div> <div class=\"hv-subtitle\"><i aria-hidden=\"true\" class=\"icon mdi mdi-eye-outline\"></i>\n            681,470\n          </div> <div class=\"spacer\"></div></div></div></div>"
+      },
+      {
+        "href": "https://hanime.tv/videos/hentai/kaifuku-jutsushi-no-yarinaoshi-8",
+        "inner_text": "Kaifuku Jutsushi no Yarinaoshi 8\n 512,481",
+        "inner_html": "<div><div class=\"hvc__media card__media\" style=\"height:auto;\"><div class=\"card__media__content\"><div class=\"hvc__media__cover-container\"><div class=\"hvc__media__cover-aspect-ratio\"><div class=\"lazy hvc__media__cover\"><div></div></div> <div class=\"hvc__media__cover-glass\"></div></div></div></div></div> <div class=\"card__title\"><div class=\"hvc__content flex column justify-center align-center\"><div class=\"spacer\"></div> <div class=\"hv-title\">\n            Kaifuku Jutsushi no Yarinaoshi 8\n          </div> <div class=\"hv-subtitle\"><i aria-hidden=\"true\" class=\"icon mdi mdi-eye-outline\"></i>\n            512,481\n          </div> <div class=\"spacer\"></div></div></div></div>"
+      },
+      {
+        "href": "https://hanime.tv/videos/hentai/kaifuku-jutsushi-no-yarinaoshi-7",
+        "inner_text": "Kaifuku Jutsushi no Yarinaoshi 7\n 641,552",
+        "inner_html": "<div><div class=\"hvc__media card__media\" style=\"height:auto;\"><div class=\"card__media__content\"><div class=\"hvc__media__cover-container\"><div class=\"hvc__media__cover-aspect-ratio\"><div class=\"lazy hvc__media__cover\"><div></div></div> <div class=\"hvc__media__cover-glass\"></div></div></div></div></div> <div class=\"card__title\"><div class=\"hvc__content flex column justify-center align-center\"><div class=\"spacer\"></div> <div class=\"hv-title\">\n            Kaifuku Jutsushi no Yarinaoshi 7\n          </div> <div class=\"hv-subtitle\"><i aria-hidden=\"true\" class=\"icon mdi mdi-eye-outline\"></i>\n            641,552\n          </div> <div class=\"spacer\"></div></div></div></div>"
+      },
+      {
+        "href": "https://hanime.tv/videos/hentai/kaifuku-jutsushi-no-yarinaoshi-6",
+        "inner_text": "Kaifuku Jutsushi no Yarinaoshi 6\n 751,556",
+        "inner_html": "<div><div class=\"hvc__media card__media\" style=\"height:auto;\"><div class=\"card__media__content\"><div class=\"hvc__media__cover-container\"><div class=\"hvc__media__cover-aspect-ratio\"><div class=\"lazy hvc__media__cover\"><div></div></div> <div class=\"hvc__media__cover-glass\"></div></div></div></div></div> <div class=\"card__title\"><div class=\"hvc__content flex column justify-center align-center\"><div class=\"spacer\"></div> <div class=\"hv-title\">\n            Kaifuku Jutsushi no Yarinaoshi 6\n          </div> <div class=\"hv-subtitle\"><i aria-hidden=\"true\" class=\"icon mdi mdi-eye-outline\"></i>\n            751,556\n          </div> <div class=\"spacer\"></div></div></div></div>"
+      },
+      {
+        "href": "https://hanime.tv/videos/hentai/haitoku-no-kyoukai-2",
+        "inner_text": "Haitoku no Kyoukai 2\n 2,019,837",
+        "inner_html": "<div><div class=\"hvc__media card__media\" style=\"height:auto;\"><div class=\"card__media__content\"><div class=\"hvc__media__cover-container\"><div class=\"hvc__media__cover-aspect-ratio\"><div class=\"lazy hvc__media__cover\"><div></div></div> <div class=\"hvc__media__cover-glass\"></div></div></div></div></div> <div class=\"card__title\"><div class=\"hvc__content flex column justify-center align-center\"><div class=\"spacer\"></div> <div class=\"hv-title\">\n            Haitoku no Kyoukai 2\n          </div> <div class=\"hv-subtitle\"><i aria-hidden=\"true\" class=\"icon mdi mdi-eye-outline\"></i>\n            2,019,837\n          </div> <div class=\"spacer\"></div></div></div></div>"
+      },
+      {
+        "href": "https://hanime.tv/videos/hentai/jk-fuuzoku-gakuensai-2",
+        "inner_text": "JK Fuuzoku Gakuensai 2\n 3,650,151",
+        "inner_html": "<div><div class=\"hvc__media card__media\" style=\"height:auto;\"><div class=\"card__media__content\"><div class=\"hvc__media__cover-container\"><div class=\"hvc__media__cover-aspect-ratio\"><div class=\"lazy hvc__media__cover\"><div></div></div> <div class=\"hvc__media__cover-glass\"></div></div></div></div></div> <div class=\"card__title\"><div class=\"hvc__content flex column justify-center align-center\"><div class=\"spacer\"></div> <div class=\"hv-title\">\n            JK Fuuzoku Gakuensai 2\n          </div> <div class=\"hv-subtitle\"><i aria-hidden=\"true\" class=\"icon mdi mdi-eye-outline\"></i>\n            3,650,151\n          </div> <div class=\"spacer\"></div></div></div></div>"
+      },
+      {
+        "href": "https://hanime.tv/videos/hentai/jk-fuuzoku-gakuensai-1",
+        "inner_text": "JK Fuuzoku Gakuensai 1\n 4,020,216",
+        "inner_html": "<div><div class=\"hvc__media card__media\" style=\"height:auto;\"><div class=\"card__media__content\"><div class=\"hvc__media__cover-container\"><div class=\"hvc__media__cover-aspect-ratio\"><div class=\"lazy hvc__media__cover\"><div></div></div> <div class=\"hvc__media__cover-glass\"></div></div></div></div></div> <div class=\"card__title\"><div class=\"hvc__content flex column justify-center align-center\"><div class=\"spacer\"></div> <div class=\"hv-title\">\n            JK Fuuzoku Gakuensai 1\n          </div> <div class=\"hv-subtitle\"><i aria-hidden=\"true\" class=\"icon mdi mdi-eye-outline\"></i>\n            4,020,216\n          </div> <div class=\"spacer\"></div></div></div></div>"
+      },
+      {
+        "href": "https://hanime.tv/videos/hentai/jitaku-keibiin-2-ep-6",
+        "inner_text": "Jitaku Keibiin 2 Ep. 6\n 1,197,794",
+        "inner_html": "<div><div class=\"hvc__media card__media\" style=\"height:auto;\"><div class=\"card__media__content\"><div class=\"hvc__media__cover-container\"><div class=\"hvc__media__cover-aspect-ratio\"><div class=\"lazy hvc__media__cover\"><div></div></div> <div class=\"hvc__media__cover-glass\"></div></div></div></div></div> <div class=\"card__title\"><div class=\"hvc__content flex column justify-center align-center\"><div class=\"spacer\"></div> <div class=\"hv-title\">\n            Jitaku Keibiin 2 Ep. 6\n          </div> <div class=\"hv-subtitle\"><i aria-hidden=\"true\" class=\"icon mdi mdi-eye-outline\"></i>\n            1,197,794\n          </div> <div class=\"spacer\"></div></div></div></div>"
+      },
+      {
+        "href": "https://hanime.tv/videos/hentai/kimi-ga-suki-2",
+        "inner_text": "Kimi ga Suki 2\n 1,540,527",
+        "inner_html": "<div><div class=\"hvc__media card__media\" style=\"height:auto;\"><div class=\"card__media__content\"><div class=\"hvc__media__cover-container\"><div class=\"hvc__media__cover-aspect-ratio\"><div class=\"lazy hvc__media__cover\"><div></div></div> <div class=\"hvc__media__cover-glass\"></div></div></div></div></div> <div class=\"card__title\"><div class=\"hvc__content flex column justify-center align-center\"><div class=\"spacer\"></div> <div class=\"hv-title\">\n            Kimi ga Suki 2\n          </div> <div class=\"hv-subtitle\"><i aria-hidden=\"true\" class=\"icon mdi mdi-eye-outline\"></i>\n            1,540,527\n          </div> <div class=\"spacer\"></div></div></div></div>"
+      },
+      {
+        "href": "https://hanime.tv/videos/hentai/kaifuku-jutsushi-no-yarinaoshi-5",
+        "inner_text": "Kaifuku Jutsushi no Yarinaoshi 5\n 1,206,345",
+        "inner_html": "<div><div class=\"hvc__media card__media\" style=\"height:auto;\"><div class=\"card__media__content\"><div class=\"hvc__media__cover-container\"><div class=\"hvc__media__cover-aspect-ratio\"><div class=\"lazy hvc__media__cover\"><div></div></div> <div class=\"hvc__media__cover-glass\"></div></div></div></div></div> <div class=\"card__title\"><div class=\"hvc__content flex column justify-center align-center\"><div class=\"spacer\"></div> <div class=\"hv-title\">\n            Kaifuku Jutsushi no Yarinaoshi 5\n          </div> <div class=\"hv-subtitle\"><i aria-hidden=\"true\" class=\"icon mdi mdi-eye-outline\"></i>\n            1,206,345\n          </div> <div class=\"spacer\"></div></div></div></div>"
+      },
+      {
+        "href": "https://hanime.tv/videos/hentai/knight-of-erin-4",
+        "inner_text": "Knight of Erin 4\n 1,234,824",
+        "inner_html": "<div><div class=\"hvc__media card__media\" style=\"height:auto;\"><div class=\"card__media__content\"><div class=\"hvc__media__cover-container\"><div class=\"hvc__media__cover-aspect-ratio\"><div class=\"lazy hvc__media__cover\"><div></div></div> <div class=\"hvc__media__cover-glass\"></div></div></div></div></div> <div class=\"card__title\"><div class=\"hvc__content flex column justify-center align-center\"><div class=\"spacer\"></div> <div class=\"hv-title\">\n            Knight of Erin 4\n          </div> <div class=\"hv-subtitle\"><i aria-hidden=\"true\" class=\"icon mdi mdi-eye-outline\"></i>\n            1,234,824\n          </div> <div class=\"spacer\"></div></div></div></div>"
+      }
+    ],
+    "thirdParty": [
+      {
+        "href": "https://discord.gg/hanimetv",
+        "inner_text": "hanime.tv Fans' Community",
+        "inner_html": "<div class=\"list__tile__action\"><i aria-hidden=\"true\" class=\"icon mdi mdi-discord\"></i></div> <div class=\"list__tile__content\"><div class=\"list__tile__title\">hanime.tv Fans' Community</div></div>"
+      },
+      {
+        "href": "https://a.adtng.com/get/10002373",
+        "inner_text": "Nutaku",
+        "inner_html": "Nutaku"
+      },
+      {
+        "href": "https://theporndude.com/",
+        "inner_text": "ThePornDude",
+        "inner_html": "ThePornDude"
+      }
+    ],
+    "social": [],
+    "keywords": [
+      {
+        "href": "https://hanime.tv/privacy",
+        "inner_text": "Privacy",
+        "inner_html": "<div class=\"list__tile__action\"><i aria-hidden=\"true\" class=\"icon mdi mdi-guy-fawkes-mask\"></i></div> <div class=\"list__tile__content\"><div class=\"list__tile__title\">Privacy</div></div>"
+      }
+    ]
+  },
+  "unsafeForms": [],
+  "browsing_history": [
+    "https://hanime.tv/"
+  ],
+  "websockets": {},
+  "cookies": [
+    {
+      "name": "adtool_guid",
+      "value": "Ch5KAmCmh404fggDW7Z0Ag==",
+      "domain": "a.adtng.com",
+      "path": "/",
+      "expires": 2145916555.186879,
+      "size": 35,
+      "httpOnly": true,
+      "secure": true,
+      "session": false,
+      "sameSite": "None",
+      "expiresUTC": "2037-12-31T23:55:55.186Z",
+      "expiresDays": 6069.33,
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://a.adtng.com/get/10000770?time=1604959679983",
+            "source": "set in Set-Cookie HTTP response header for https://a.adtng.com/get/10000770?time=1604959679983"
+          }
+        ],
+        "type": "Cookie.HTTP",
+        "timestamp": "2021-05-20T16:00:13.188Z",
+        "location": "https://hanime.tv/"
+      },
+      "firstPartyStorage": false
+    },
+    {
+      "name": "tj_UUID",
+      "value": "6879563196059219827",
+      "domain": "trafficjunky.net",
+      "path": "/",
+      "expires": 1624118413.159215,
+      "size": 26,
+      "httpOnly": false,
+      "secure": true,
+      "session": false,
+      "sameSite": "None",
+      "expiresUTC": "2021-06-19T16:00:13.159Z",
+      "expiresDays": 30,
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://ads.trafficjunky.net/ads?zone_id=1775771&site_id=16981&format=HTML&cache=1519396602",
+            "source": "set in Set-Cookie HTTP response header for https://ads.trafficjunky.net/ads?zone_id=1775771&site_id=16981&format=HTML&cache=1519396602"
+          }
+        ],
+        "type": "Cookie.HTTP",
+        "timestamp": "2021-05-20T16:00:13.161Z",
+        "location": "https://hanime.tv/"
+      },
+      "firstPartyStorage": false
+    },
+    {
+      "name": "__cf_bm",
+      "value": "65781d11ecbb4729ddf1bc6cfe01c4f47a1c40f5-1621526412-1800-AWWvI5F6edboN/LcOaCaf7iydUv6pPkiLoDuFb4B2y/yn3UGjwP852YKRwNTNgUu9PoH7ux72uqIuvrMkSS53SE=",
+      "domain": "hanime.tv",
+      "path": "/",
+      "expires": 1621528212.156629,
+      "size": 152,
+      "httpOnly": true,
+      "secure": true,
+      "session": false,
+      "sameSite": "None",
+      "expiresUTC": "2021-05-20T16:30:12.156Z",
+      "expiresDays": 0.02,
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://hanime.tv/",
+            "source": "set in Set-Cookie HTTP response header for https://hanime.tv/"
+          }
+        ],
+        "type": "Cookie.HTTP",
+        "timestamp": "2021-05-20T16:00:12.162Z",
+        "location": "about:blank"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "RNLBSERVERID",
+      "value": "ded6973",
+      "domain": "a.adtng.com",
+      "path": "/",
+      "expires": -1,
+      "size": 19,
+      "httpOnly": true,
+      "secure": true,
+      "session": true,
+      "sameSite": "None",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://a.adtng.com/get/10000770?time=1604959679983",
+            "source": "set in Set-Cookie HTTP response header for https://a.adtng.com/get/10000770?time=1604959679983"
+          }
+        ],
+        "type": "Cookie.HTTP",
+        "timestamp": "2021-05-20T16:00:13.188Z",
+        "location": "https://hanime.tv/"
+      },
+      "firstPartyStorage": false
+    }
+  ],
+  "localStorage": {},
+  "beacons": [],
+  "hosts": {
+    "requests": {
+      "firstParty": [
+        "hanime.tv"
+      ],
+      "thirdParty": [
+        "cdnjs.cloudflare.com",
+        "i.imgur.com",
+        "i0.wp.com",
+        "ads.trafficjunky.net",
+        "a.adtng.com",
+        "community-uploads.highwinds-cdn.com",
+        "git-covers.pages.dev",
+        "hw-cdn2.adtng.com",
+        "ht-cdn2.adtng.com",
+        "i1.wp.com",
+        "images1-focus-opensocial.googleusercontent.com",
+        "i2.wp.com"
+      ]
+    },
+    "beacons": {
+      "firstParty": [],
+      "thirdParty": []
+    },
+    "cookies": {
+      "firstParty": [
+        "hanime.tv"
+      ],
+      "thirdParty": [
+        "trafficjunky.net",
+        "a.adtng.com"
+      ]
+    },
+    "localStorage": {
+      "firstParty": [],
+      "thirdParty": []
+    },
+    "links": {
+      "firstParty": [
+        "hanime.tv"
+      ],
+      "thirdParty": [
+        "discord.gg",
+        "a.adtng.com",
+        "theporndude.com"
+      ]
+    }
+  }
+}

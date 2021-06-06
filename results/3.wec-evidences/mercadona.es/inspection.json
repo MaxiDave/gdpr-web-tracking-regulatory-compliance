@@ -1,0 +1,275 @@
+{
+  "title": "Website Evidence Collection",
+  "task_description": null,
+  "uri_ins": "https://mercadona.es",
+  "uri_refs": [
+    "https://mercadona.es"
+  ],
+  "uri_dest": "https://www.mercadona.es/",
+  "uri_redirects": [
+    "https://mercadona.es/",
+    "http://www.mercadona.es/"
+  ],
+  "secure_connection": {
+    "https_support": true,
+    "redirects": [
+      "http://www.mercadona.es/",
+      "https://www.mercadona.es/"
+    ],
+    "https_redirect": true
+  },
+  "host": "mercadona.es",
+  "script": {
+    "host": "sfod",
+    "version": {
+      "npm": "1.0.0",
+      "commit": null
+    },
+    "cmd_args": "-q --overwrite https://mercadona.es -- --ignore-certificate-errors",
+    "environment": {
+      "CHROME_DESKTOP": "code-url-handler.desktop"
+    },
+    "node_version": "v14.17.0"
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "HeadlessChrome/80.0.3987.0",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3617.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "5.8.0-53-generic"
+    },
+    "extra_headers": {},
+    "preset_cookies": {}
+  },
+  "start_time": "2021-05-20T16:36:27.886Z",
+  "end_time": "2021-05-20T16:36:34.866Z",
+  "links": {
+    "firstParty": [],
+    "thirdParty": [
+      {
+        "href": "https://info.mercadona.es/es/inicio",
+        "inner_text": "Conócenos",
+        "inner_html": "Conócenos"
+      },
+      {
+        "href": "https://info.mercadona.es/es/supermercados",
+        "inner_text": "Supermercados",
+        "inner_html": "Supermercados"
+      },
+      {
+        "href": "https://info.mercadona.es/es/conocenos/empleo",
+        "inner_text": "Trabaja con nosotros",
+        "inner_html": "Trabaja con nosotros"
+      },
+      {
+        "href": "https://info.mercadona.es/es/atencion-al-cliente",
+        "inner_text": "Atención al cliente",
+        "inner_html": "Atención al cliente"
+      },
+      {
+        "href": "https://play.google.com/store/apps/details?id=es.mercadona.tienda",
+        "inner_text": "",
+        "inner_html": "<img class=\"download-app__android\" src=\"/v54.0.0/static/media/google-play-badge.f6d7ac43.svg\" alt=\"Android\">"
+      },
+      {
+        "href": "https://itunes.apple.com/app/apple-store/id1368037685",
+        "inner_text": "",
+        "inner_html": "<img class=\"download-app__ios\" src=\"/v54.0.0/static/media/app-store-badge.694c76c0.svg\" alt=\"iOS\">"
+      },
+      {
+        "href": "https://tienda.mercadona.es/legal/cookies/es/",
+        "inner_text": "Más información",
+        "inner_html": "Más información"
+      },
+      {
+        "href": "https://info.mercadona.es/es/consejos",
+        "inner_text": "Consejos",
+        "inner_html": "Consejos"
+      },
+      {
+        "href": "https://www.portalcliente.mercadona.es/pclie/web/op.htm?operation=pclie.flow.inicio&fwk.locale=es_ES",
+        "inner_text": "Factura cliente",
+        "inner_html": "Factura cliente"
+      },
+      {
+        "href": "https://info.mercadona.es/es/empleo",
+        "inner_text": "Trabaja con nosotros",
+        "inner_html": "Trabaja con nosotros"
+      },
+      {
+        "href": "https://www.facturas.mercadona.es/PortalWeb/Acceso.do",
+        "inner_text": "E-factura proveedores",
+        "inner_html": "E-factura proveedores"
+      },
+      {
+        "href": "https://www.portaltrinidad.es/PortalWeb/Acceso.do",
+        "inner_text": "Portal Trinidad",
+        "inner_html": "Portal Trinidad"
+      },
+      {
+        "href": "https://info.mercadona.es/es/actualidad",
+        "inner_text": "Actualidad",
+        "inner_html": "Actualidad"
+      },
+      {
+        "href": "https://info.mercadona.es/es/conocenos/sala-de-prensa",
+        "inner_text": "Sala de prensa",
+        "inner_html": "Sala de prensa"
+      },
+      {
+        "href": "https://info.mercadona.es/es/conocenos",
+        "inner_text": "Conoce Mercadona",
+        "inner_html": "Conoce Mercadona"
+      },
+      {
+        "href": "https://www.mercadona.pt/",
+        "inner_text": "Mercadona en Portugal",
+        "inner_html": "Mercadona en Portugal"
+      },
+      {
+        "href": "https://info.mercadona.es/es/cuidemos-el-planeta",
+        "inner_text": "Cuidemos el Planeta",
+        "inner_html": "Cuidemos el Planeta"
+      },
+      {
+        "href": "https://www.facebook.com/mercadona",
+        "inner_text": "",
+        "inner_html": ""
+      },
+      {
+        "href": "https://twitter.com/mercadona",
+        "inner_text": "",
+        "inner_html": ""
+      },
+      {
+        "href": "https://www.youtube.com/mercadona",
+        "inner_text": "",
+        "inner_html": ""
+      },
+      {
+        "href": "https://www.instagram.com/mercadona/",
+        "inner_text": "",
+        "inner_html": ""
+      },
+      {
+        "href": "https://info.mercadona.es/es/accesibilidad",
+        "inner_text": "Accesibilidad",
+        "inner_html": "Accesibilidad"
+      },
+      {
+        "href": "https://info.mercadona.es/es/politica-de-privacidad",
+        "inner_text": "Política de privacidad",
+        "inner_html": "Política de privacidad"
+      },
+      {
+        "href": "https://info.mercadona.es/es/politica-de-cookies",
+        "inner_text": "Política de cookies",
+        "inner_html": "Política de cookies"
+      },
+      {
+        "href": "https://info.mercadona.es/es/terminos-y-condiciones",
+        "inner_text": "Términos y condiciones",
+        "inner_html": "Términos y condiciones"
+      }
+    ],
+    "social": [
+      {
+        "href": "https://www.facebook.com/mercadona",
+        "inner_text": "",
+        "inner_html": ""
+      },
+      {
+        "href": "https://twitter.com/mercadona",
+        "inner_text": "",
+        "inner_html": ""
+      },
+      {
+        "href": "https://www.youtube.com/mercadona",
+        "inner_text": "",
+        "inner_html": ""
+      },
+      {
+        "href": "https://www.instagram.com/mercadona/",
+        "inner_text": "",
+        "inner_html": ""
+      }
+    ],
+    "keywords": [
+      {
+        "href": "https://tienda.mercadona.es/legal/cookies/es/",
+        "inner_text": "Más información",
+        "inner_html": "Más información"
+      }
+    ]
+  },
+  "unsafeForms": [],
+  "browsing_history": [
+    "https://www.mercadona.es/"
+  ],
+  "websockets": {},
+  "cookies": [],
+  "localStorage": {},
+  "beacons": [
+    {
+      "url": "https://www.googletagmanager.com/gtag/js?id=UA-119340431-1",
+      "query": {
+        "id": "UA-119340431-1"
+      },
+      "filter": "||googletagmanager.com/gtag/$third-party",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.mercadona.es/",
+            "source": "requested from https://www.mercadona.es/ and matched with easyprivacy.txt filter ||googletagmanager.com/gtag/$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T16:36:28.236Z"
+      },
+      "occurrances": 1
+    }
+  ],
+  "hosts": {
+    "requests": {
+      "firstParty": [
+        "mercadona.es"
+      ],
+      "thirdParty": [
+        "www.mercadona.es",
+        "www.googletagmanager.com"
+      ]
+    },
+    "beacons": {
+      "firstParty": [],
+      "thirdParty": [
+        "www.googletagmanager.com"
+      ]
+    },
+    "cookies": {
+      "firstParty": [],
+      "thirdParty": []
+    },
+    "localStorage": {
+      "firstParty": [],
+      "thirdParty": []
+    },
+    "links": {
+      "firstParty": [],
+      "thirdParty": [
+        "info.mercadona.es",
+        "play.google.com",
+        "itunes.apple.com",
+        "tienda.mercadona.es",
+        "www.portalcliente.mercadona.es",
+        "www.facturas.mercadona.es",
+        "www.portaltrinidad.es",
+        "www.mercadona.pt",
+        "www.facebook.com",
+        "twitter.com",
+        "www.youtube.com",
+        "www.instagram.com"
+      ]
+    }
+  }
+}

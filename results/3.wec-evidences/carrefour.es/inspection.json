@@ -1,0 +1,1251 @@
+{
+  "title": "Website Evidence Collection",
+  "task_description": null,
+  "uri_ins": "https://carrefour.es",
+  "uri_refs": [
+    "https://carrefour.es"
+  ],
+  "uri_dest": "https://www.carrefour.es/",
+  "uri_redirects": [
+    "https://carrefour.es/"
+  ],
+  "secure_connection": {
+    "https_support": true,
+    "redirects": [
+      "https://www.carrefour.es/"
+    ],
+    "https_redirect": true
+  },
+  "host": "carrefour.es",
+  "script": {
+    "host": "sfod",
+    "version": {
+      "npm": "1.0.0",
+      "commit": null
+    },
+    "cmd_args": "-q --overwrite https://carrefour.es -- --ignore-certificate-errors",
+    "environment": {
+      "CHROME_DESKTOP": "code-url-handler.desktop"
+    },
+    "node_version": "v14.17.0"
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "HeadlessChrome/80.0.3987.0",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3617.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "5.8.0-53-generic"
+    },
+    "extra_headers": {},
+    "preset_cookies": {}
+  },
+  "start_time": "2021-05-20T15:51:53.657Z",
+  "end_time": "2021-05-20T15:52:00.891Z",
+  "links": {
+    "firstParty": [],
+    "thirdParty": [
+      {
+        "href": "https://www.carrefour.es/",
+        "inner_text": "skip to content",
+        "inner_html": "skip to content"
+      },
+      {
+        "href": "https://www.carrefour.es/mapaweb",
+        "inner_text": "Menú",
+        "inner_html": "<button aria-label=\"Ir a menú\" title=\"Ir a menú\" class=\"collage-menu__trigger icon-menu-nav\"><span class=\"collage-menu__text\">Menú</span></button>"
+      },
+      {
+        "href": "https://www.carrefour.es/order_locator",
+        "inner_text": "Pedidos\nrealizados",
+        "inner_html": "<span class=\"top-link-item__top\">Pedidos\n      <span class=\"top-link-item__bottom\">realizados</span></span>"
+      },
+      {
+        "href": "https://www.carrefour.es/supermercado/PedidosAnterioresyListas",
+        "inner_text": "Listas\nsupermercado",
+        "inner_html": "<span class=\"top-link-item__top\">Listas\n      <span class=\"top-link-item__bottom\">supermercado</span></span>"
+      },
+      {
+        "href": "https://www.carrefour.es/access/",
+        "inner_text": "Identifícate\no Regístrate",
+        "inner_html": "<div data-v-168e0104=\"\" class=\"\"></div><div class=\"account-menu__items\" data-v-168e0104=\"\"><div data-v-168e0104=\"\"><span class=\"account-menu__item account-menu__account-lists\" data-v-168e0104=\"\">Identifícate\n        <span class=\"account-menu__item account-menu__item--register account-menu__user-name\" data-v-168e0104=\"\">o Regístrate\n        </span></span></div></div><div data-v-168e0104=\"\" class=\"\"></div><!----><!---->"
+      },
+      {
+        "href": "https://www.carrefour.es/tiendas-carrefour/buscador-de-tiendas/",
+        "inner_text": "Tiendas",
+        "inner_html": "Tiendas"
+      },
+      {
+        "href": "https://folleto.carrefour.es/",
+        "inner_text": "Folletos",
+        "inner_html": "Folletos"
+      },
+      {
+        "href": "https://www.carrefour.es/cupon-bienvenida.e",
+        "inner_text": "20€\nDTO. EN TU 1ª COMPRA EN EL SUPER ONLINE\nCÓDIGO: 20SUPERCRF\n\nVer condiciones",
+        "inner_html": "<div class=\"user-promotion__content\" style=\"color: rgb(255, 255, 255);\"><div><h1 style=\"text-align:center\">20€</h1>\n\n<h2 style=\"text-align:center\">DTO. EN TU 1ª COMPRA EN EL SUPER ONLINE</h2>\n\n<h2 style=\"text-align:center\">CÓDIGO: 20SUPERCRF</h2>\n\n<p style=\"text-align:center\"><u>Ver condiciones</u></p></div></div>"
+      },
+      {
+        "href": "https://www.carrefour.es/supermercado/destacados/leches",
+        "inner_text": "Leche",
+        "inner_html": "<span class=\"icon-p-right-arrow-thin user-links__button-desktop-text\" style=\"color: rgb(255, 255, 255);\">\n          Leche\n        </span>"
+      },
+      {
+        "href": "https://www.carrefour.es/supermercado/destacados/colas",
+        "inner_text": "Refrescos Cola",
+        "inner_html": "<span class=\"icon-p-right-arrow-thin user-links__button-desktop-text\" style=\"color: rgb(255, 255, 255);\">\n          Refrescos Cola\n        </span>"
+      },
+      {
+        "href": "https://www.carrefour.es/supermercado/destacados/tunidos",
+        "inner_text": "Conservas Atún",
+        "inner_html": "<span class=\"icon-p-right-arrow-thin user-links__button-desktop-text\" style=\"color: rgb(255, 255, 255);\">\n          Conservas Atún\n        </span>"
+      },
+      {
+        "href": "https://www.carrefour.es/supermercado/destacados/salsas",
+        "inner_text": "Salsas",
+        "inner_html": "<span class=\"icon-p-right-arrow-thin user-links__button-desktop-text\" style=\"color: rgb(255, 255, 255);\">\n          Salsas\n        </span>"
+      },
+      {
+        "href": "https://www.carrefour.es/supermercado/destacados/galletas",
+        "inner_text": "Galletas",
+        "inner_html": "<span class=\"icon-p-right-arrow-thin user-links__button-desktop-text\" style=\"color: rgb(255, 255, 255);\">\n          Galletas\n        </span>"
+      },
+      {
+        "href": "https://www.carrefour.es/supermercado/destacados/papel-higienico",
+        "inner_text": "Papel Higiénico",
+        "inner_html": "<span class=\"icon-p-right-arrow-thin user-links__button-desktop-text\" style=\"color: rgb(255, 255, 255);\">\n          Papel Higiénico\n        </span>"
+      },
+      {
+        "href": "https://www.carrefour.es/supermercado/c?Ntt=comprarapida",
+        "inner_text": "Ver toda la selección",
+        "inner_html": "Ver toda la selección"
+      },
+      {
+        "href": "https://www.carrefour.es/supermercado/ofertas",
+        "inner_text": "Ofertas Supermercado",
+        "inner_html": "<div class=\"text-banner__image-container\"><div class=\"text-banner__image-background\"></div><img src=\"/site/binaries/sizeL/content/gallery/home-pictures/food-categories/ofertas__ts1583427574115.png\" title=\"Ofertas Supermercado\" alt=\"Ofertas Supermercado\" class=\"smart-image text-banner__image text-banner__image--IE11fallback\"></div><div><h2 class=\"text-banner__name\">Ofertas Supermercado</h2></div>"
+      },
+      {
+        "href": "https://www.carrefour.es/supermercado/el-mercado/cat20002/c",
+        "inner_text": "Productos Frescos",
+        "inner_html": "<div class=\"text-banner__image-container\"><div class=\"text-banner__image-background\"></div><img src=\"/site/binaries/sizeL/content/gallery/home-pictures/food-categories/mercado__ts1581608241891.png\" title=\"Productos Frescos\" alt=\"Productos Frescos\" class=\"smart-image text-banner__image text-banner__image--IE11fallback\"></div><div><h2 class=\"text-banner__name\">Productos Frescos</h2></div>"
+      },
+      {
+        "href": "https://www.carrefour.es/supermercado/la-despensa/cat20001/c",
+        "inner_text": "La Despensa",
+        "inner_html": "<div class=\"text-banner__image-container\"><div class=\"text-banner__image-background\"></div><img src=\"/site/binaries/sizeL/content/gallery/home-pictures/food-categories/despensa__ts1581608246198.png\" title=\"La Despensa\" alt=\"La Despensa\" class=\"smart-image text-banner__image text-banner__image--IE11fallback\"></div><div><h2 class=\"text-banner__name\">La Despensa</h2></div>"
+      },
+      {
+        "href": "https://www.carrefour.es/supermercado/bebidas/cat20003/c",
+        "inner_text": "Bebidas",
+        "inner_html": "<div class=\"text-banner__image-container\"><div class=\"text-banner__image-background\"></div><img src=\"/site/binaries/sizeL/content/gallery/home-pictures/food-categories/bebidas__ts1581608247152.png\" title=\"Bebidas\" alt=\"Bebidas\" class=\"smart-image text-banner__image text-banner__image--IE11fallback\"></div><div><h2 class=\"text-banner__name\">Bebidas</h2></div>"
+      },
+      {
+        "href": "https://www.carrefour.es/supermercado/bebe/cat20006/c",
+        "inner_text": "Bebés",
+        "inner_html": "<div class=\"text-banner__image-container\"><div class=\"text-banner__image-background\"></div><img src=\"/site/binaries/sizeL/content/gallery/home-pictures/food-categories/bebe__ts1581608248206.png\" title=\"Bebé\" alt=\"Bebé\" class=\"smart-image text-banner__image text-banner__image--IE11fallback\"></div><div><h2 class=\"text-banner__name\">Bebés</h2></div>"
+      },
+      {
+        "href": "https://www.carrefour.es/supermercado/limpieza-y-hogar/cat20005/c",
+        "inner_text": "Limpieza y Hogar",
+        "inner_html": "<div class=\"text-banner__image-container\"><div class=\"text-banner__image-background\"></div><img src=\"/site/binaries/sizeL/content/gallery/home-pictures/food-categories/limpieza__ts1581608243803.png\" title=\"Limpieza y Hogar\" alt=\"Limpieza y Hogar\" class=\"smart-image text-banner__image text-banner__image--IE11fallback\"></div><div><h2 class=\"text-banner__name\">Limpieza y Hogar</h2></div>"
+      },
+      {
+        "href": "https://www.carrefour.es/supermercado/perfumeria-e-higiene/cat20004/c",
+        "inner_text": "Perfumería",
+        "inner_html": "<div class=\"text-banner__image-container\"><div class=\"text-banner__image-background\"></div><img src=\"/site/binaries/sizeL/content/gallery/home-pictures/food-categories/perfumeria__ts1581608239647.png\" title=\"Perfumería\" alt=\"Perfumería\" class=\"smart-image text-banner__image text-banner__image--IE11fallback\"></div><div><h2 class=\"text-banner__name\">Perfumería</h2></div>"
+      },
+      {
+        "href": "https://www.carrefour.es/supermercado/mascotas/cat20007/c",
+        "inner_text": "Mascotas",
+        "inner_html": "<div class=\"text-banner__image-container\"><div class=\"text-banner__image-background\"></div><img src=\"/site/binaries/sizeL/content/gallery/home-pictures/food-categories/mascotas__ts1581608242867.png\" title=\"Mascotas\" alt=\"Mascotas\" class=\"smart-image text-banner__image text-banner__image--IE11fallback\"></div><div><h2 class=\"text-banner__name\">Mascotas</h2></div>"
+      },
+      {
+        "href": "https://www.carrefour.es/supermercado/parafarmacia/cat20008/c",
+        "inner_text": "Parafarmacia",
+        "inner_html": "<div class=\"text-banner__image-container\"><div class=\"text-banner__image-background\"></div><img src=\"/site/binaries/sizeL/content/gallery/home-pictures/food-categories/unnamed__ts1601279508903.png\" title=\"Parafarmacia\" alt=\"Parafarmacia\" class=\"smart-image text-banner__image text-banner__image--IE11fallback\"></div><div><h2 class=\"text-banner__name\">Parafarmacia</h2></div>"
+      },
+      {
+        "href": "https://www.carrefour.es/super-chollos.e",
+        "inner_text": "",
+        "inner_html": "<img src=\"/site/binaries/sizeL/content/gallery/home-pictures/banners/hero/non-food/20210512-hero-banner-superchollos-2-s__ts1620820833969.jpg\" title=\"SUPER CHOLLOS\" alt=\"SUPER CHOLLOS\" class=\"smart-image\">"
+      },
+      {
+        "href": "https://www.carrefour.es/bodega/promocion?promoId=promof2910007",
+        "inner_text": "",
+        "inner_html": "<img src=\"/site/binaries/sizeL/content/gallery/home-pictures/banners/hero/bodega/2021/s20/bodega_hero_s-20__ts1621410461797.jpg\" title=\"-33%  comprando 1 botella en estos vinos franceses\" alt=\"-33%  comprando 1 botella en estos vinos franceses\" class=\"smart-image\">"
+      },
+      {
+        "href": "https://www.carrefour.es/jardin",
+        "inner_text": "Jardín",
+        "inner_html": "<div class=\"text-banner__image-container\"><div class=\"text-banner__image-background\"></div><img src=\"/site/binaries/sizeL/content/gallery/home-pictures/nonfood-categories/jardin2__ts1618930024145.png\" title=\"Jardín\" alt=\"Jardín\" class=\"smart-image text-banner__image text-banner__image--IE11fallback\"></div><div><h2 class=\"text-banner__name\">Jardín</h2></div>"
+      },
+      {
+        "href": "https://www.carrefour.es/moda",
+        "inner_text": "Moda",
+        "inner_html": "<div class=\"text-banner__image-container\"><div class=\"text-banner__image-background\"></div><img src=\"/site/binaries/sizeL/content/gallery/home-pictures/nonfood-categories/moda__ts1616524427712.png\" title=\"Moda\" alt=\"Moda\" class=\"smart-image text-banner__image text-banner__image--IE11fallback\"></div><div><h2 class=\"text-banner__name\">Moda</h2></div>"
+      },
+      {
+        "href": "https://www.carrefour.es/informatica",
+        "inner_text": "Informática",
+        "inner_html": "<div class=\"text-banner__image-container\"><div class=\"text-banner__image-background\"></div><img src=\"/site/binaries/sizeL/content/gallery/home-pictures/nonfood-categories/informatica__ts1616524426275.png\" title=\"Informática\" alt=\"Informática\" class=\"smart-image text-banner__image text-banner__image--IE11fallback\"></div><div><h2 class=\"text-banner__name\">Informática</h2></div>"
+      },
+      {
+        "href": "https://www.carrefour.es/electronica",
+        "inner_text": "Electrónica",
+        "inner_html": "<div class=\"text-banner__image-container\"><div class=\"text-banner__image-background\"></div><img src=\"/site/binaries/sizeL/content/gallery/home-pictures/nonfood-categories/tele__ts1619519901224.png\" title=\"Electrónica\" alt=\"Electrónica\" class=\"smart-image text-banner__image text-banner__image--IE11fallback\"></div><div><h2 class=\"text-banner__name\">Electrónica</h2></div>"
+      },
+      {
+        "href": "https://www.carrefour.es/electrodomesticos",
+        "inner_text": "Electro",
+        "inner_html": "<div class=\"text-banner__image-container\"><div class=\"text-banner__image-background\"></div><img src=\"/site/binaries/sizeL/content/gallery/home-pictures/nonfood-categories/electrodomestico__ts1616524424366.png\" title=\"Electro\" alt=\"Electro\" class=\"smart-image text-banner__image text-banner__image--IE11fallback\"></div><div><h2 class=\"text-banner__name\">Electro</h2></div>"
+      },
+      {
+        "href": "https://www.carrefour.es/casa-hogar",
+        "inner_text": "Hogar",
+        "inner_html": "<div class=\"text-banner__image-container\"><div class=\"text-banner__image-background\"></div><img src=\"/site/binaries/sizeL/content/gallery/home-pictures/nonfood-categories/hogar2__ts1618930023296.png\" title=\"Hogar\" alt=\"Hogar\" class=\"smart-image text-banner__image text-banner__image--IE11fallback\"></div><div><h2 class=\"text-banner__name\">Hogar</h2></div>"
+      },
+      {
+        "href": "https://www.carrefour.es/bebe",
+        "inner_text": "Universo bebé",
+        "inner_html": "<div class=\"text-banner__image-container\"><div class=\"text-banner__image-background\"></div><img src=\"/site/binaries/sizeL/content/gallery/home-pictures/nonfood-categories/cuna__ts1620903312224.png\" title=\"Universo bebé\" alt=\"Universo bebé\" class=\"smart-image text-banner__image text-banner__image--IE11fallback\"></div><div><h2 class=\"text-banner__name\">Universo bebé</h2></div>"
+      },
+      {
+        "href": "https://www.carrefour.es/deporte-ocio",
+        "inner_text": "Deporte",
+        "inner_html": "<div class=\"text-banner__image-container\"><div class=\"text-banner__image-background\"></div><img src=\"/site/binaries/sizeL/content/gallery/home-pictures/nonfood-categories/deporte__ts1616524423446.png\" title=\"Deporte\" alt=\"Deporte\" class=\"smart-image text-banner__image text-banner__image--IE11fallback\"></div><div><h2 class=\"text-banner__name\">Deporte</h2></div>"
+      },
+      {
+        "href": "https://www.carrefour.es/telefonia-y-smartwatches/cat4155009/c",
+        "inner_text": "Telefonía",
+        "inner_html": "<div class=\"text-banner__image-container\"><div class=\"text-banner__image-background\"></div><img src=\"/site/binaries/sizeL/content/gallery/home-pictures/nonfood-categories/electronica__ts1616524425079.png\" title=\"Telefonía\" alt=\"Telefonía\" class=\"smart-image text-banner__image text-banner__image--IE11fallback\"></div><div><h2 class=\"text-banner__name\">Telefonía</h2></div>"
+      },
+      {
+        "href": "https://www.carrefour.es/portatil-hp-14s-dq2010ns-intel-core-i7-1165g7-8gb-512gb-14-35-56-cm-win-10-home/VC4A-13772559/p",
+        "inner_text": "",
+        "inner_html": "<img alt=\"Portátil HP 14s-dq2010ns, Intel Core i7-1165G7, 8GB, 512GB, 14&quot;- 35,56 cm, Win 10 Home\" class=\"product-card__image\" data-src=\"https://static.carrefour.es/hd_350x_/crs/cdn_static/catalog/hd/662894_00_1.jpg\" src=\"data:image/jpeg;base64,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\" lazy=\"loading\">"
+      },
+      {
+        "href": "https://www.carrefour.es/movil-xiaomi-redmi-9c-2gb-de-ram-32gb-gris/VC4A-11743069/p",
+        "inner_text": "",
+        "inner_html": "<img alt=\"Móvil Xiaomi Redmi 9C, 2GB de RAM + 32GB - Gris\" class=\"product-card__image\" data-src=\"https://static.carrefour.es/hd_350x_/crs/cdn_static/catalog/hd/567779_00_1.jpg\" src=\"data:image/jpeg;base64,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\" lazy=\"loading\">"
+      },
+      {
+        "href": "https://www.carrefour.es/lavadora-9-kg-samsung-a-ww90ta046te-ec/VC4A-13137813/p",
+        "inner_text": "",
+        "inner_html": "<img alt=\"Lavadora 9 kg Samsung A WW90TA046TE/EC\" class=\"product-card__image\" data-src=\"https://static.carrefour.es/hd_350x_/crs/cdn_static/catalog/hd/635387_00_1.jpg\" src=\"data:image/jpeg;base64,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\" lazy=\"loading\">"
+      },
+      {
+        "href": "https://www.carrefour.es/robot-aspirador-y-friegasuelos-irobot-roomba-combo-r113840/VC4A-12554588/p",
+        "inner_text": "",
+        "inner_html": "<img alt=\"Robot Aspirador y Friegasuelos Irobot Roomba Combo R113840\" class=\"product-card__image\" data-src=\"https://static.carrefour.es/hd_350x_/crs/cdn_static/catalog/hd/585927_00_1.jpg\" src=\"data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYGBgYHBgcICAcKCwoLCg8ODAwODxYQERAREBYiFRkVFRkVIh4kHhweJB42KiYmKjY+NDI0PkxERExfWl98fKf/wAALCADrAToBAREA/8QAUAABAAIDAQEAAAAAAAAAAAAAAAQFAgMGAQgQAQACAQIEAgcGBgIDAAAAAAABAgMEEQUSIVExQRMyNGFxc5EVIlJigZIUIzNTobFCgmNywf/aAAgBAQAAPwD6pAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHls+Kvjesfq1xrdNTrzxMs6cR0lY9afoxjV6e0/wBWsQ2RatvC0SAAAAAAAAAADDNnxYvWtHw81dk4heelKRHvlDvnzZOt72lqAEimr1FNojJMx2nqs8XFY25b0ivvjwSqXreN62iYAAAAAAAAALWisTMzERCrz6+07xi6fm81dMzM7zID2K2nwiZe8l/wW+jGYmPEBsx5cmOd6WmFvp9fGTat9q2SgAAAAAAAGOXLXHWbWnaIUmfUXzT16VjwhHG/Fp8uX1a9O8rHFw/HHW9pn4dITK6fDX1ccQ9CaxPjBfR6XJv/AC9vfHRAy8MnefQ3328pVl8d8duW9ZiWAtNFr5xzFMk71nwt5wsQAAAAAAAvetKTa09IUGfPbNfefDyhpe1ra0xERvMrbT6KtdrZOs9vJOAAC+Ol68to3hV6rQXwxz1617ecK4Weh1c1mMV5+7M9JnyWQAAAAAACm1monJfkj1a/5lDZUra9orWN5le6bS1xV38/OW4AAAU2srhjJ9yev/KI8EMXuh1c2xzSfWr/AJhIAAAAAAEfW55x4tonrbpCiF1pNP6OvNaPvTH0SwAACbRWJmZ2hVajW2tvXH0jv5yrwbMWScWSt48pdDS0WrFo8JgAAAAAAUmry+kz228K9IRVhw7T+mzc0+rTrPxWoANet1MabTXtXaZjpHxlzX2rrfx1/bB9q638df2wfaut/HX9sM6cR1956Xr+2G6+fNliIyX3292zUJ+n0Vskc155Y8o85Q70tS9q28YnZgueG5ItW1LT6vWEwAAAAAGOfJFMV7dqucHQ6THGPBSPOes/q2McmSkRbe8RO3dxs6nUTMzOa+8++Xn8Rn/vX/dK54RqskXzRfLO3LHrSu/T4vx1+sKDjGeLTixVmJiPvSpRvxYJt1npCbERWIiIevYiZmIWum0uOsc9rVtb3TvEJ6u4lgms48m23NG0qtJ0eT0eopO/SZ2n9V4AAAAACHxC22GI72UzZhpz5aV72h0I4zVzvqs8z/cs0ABETM7QmYsER1v1nskjXkyVpHXx7IN8lrz1+iz4NO2pvHlOOXSMdfEXwXjtG7nDwdLSd6xbvESAAAAACDxXatsVI7TKoTeH15tTX4SuBxmq9qz/ADLf7aAGdMdrztCdjxVpHTx7tg25NLqowTkrT9PPbvspZmZneZFtwb2q/wAuXSFo3iYc0Ok0XXTYp/K9AAAAAEDi/wDXx/8AoqVlwr2r/rKzHGar2rP8y3+2gG/Fgm3W3SE2IisbRD1lWlrzEVjeVvp9FXHta/W3+ITHLcU08YdRvWNq3jmiPf5q5bcG9qv8uXSDnLetb4yxdFoL7aSn6swAAAABB4vH83FP5ZVCw4ZO2rr76ytRxmq9qz/Mt/toIiZnaITcWCI626ykDfh0+TNPSOnnK7w4MeKu1Y+Mz4yzFJxvbbT997KBbcG9qv8ALl0hM7Obmd5mXjo9FMV0uOPduyAAAAAEbisTbHjt2t4fFRpGlv6PUYrfmXo4zVe1Z/mW/wBtdMdrz0TqY60jp492wRsueI6V6z3dBwnVUyYIrM7XpG0/DunBMuT4jqYz6iZrO9Kxy1QVtwb2q/y5dIw1NopgyT+Vzo6XFXlx0jtWIAAAAABhqsPNgyR57bx+jnR0mDLF8NLd46vXKZcE31Oa09I9Jb/bbEREbRD15NorG8yhZc826R0hoZ4suTFeL0tMWjzdBpuN44/rY5ie9esfRutxfRxHTnme0VVGr4llzxNKxyU8485VotuDe1X+XLpEPimfetMcec7zCmbsFOfNSvvX4AAAAACgz4/R5bV+jSsdBqKY5tS87V8YY6jWWvvWm8V7+coAwveKR4TMoN7ZLzvMSw5bdpOW3aTlt2k5bdpOW3aTlt2k5bdpOW3aVvwet41F7TWdvRzG7oZmIjeVDny+ly2t9Pg0rLh+PrbJPwhZgAAAAAInEsNZrF6x1p4/BSgLDT6KbbWydI7ecrWtYrEREbRAAAAr9dniI9FXxn1lU9iJtMREdZdFhxRjx1pHlHVkAAAAAATETExKi1GCcOSY8p61RxbaPT4uSuTfmtP0qngAADTrNXGOvJX1vKP/ALKhmZmZmZ6y8WehwdfS2/6rIAAAAAAGGfTxlxzFuk+XxUF6Wpaa2jaYYN2DPfDeLV/WJ8JX2n1WPNERXpPnEvQAAQ9Tra0ia4+tu/lCnmZtMzM7zLxJ02nnNfr6seK8iIiIiIAAAAAAADWaOuatrb7Wjwlzt8d8dpresxMMHsTMTExO0rHBxG1Z/m15/f5rKmrw5PVtHwnpL0AmYjrMo2TW4aRMRPNPaFZm1eXL032r2hGEnT6e2a3aseMrymOtKxWsbRAAAAAAAADzPp6Zonnj4T5wo8+my4Z6xvHdHBtpmzU9XJaP1b/47U7bTff4wfx2o71+jG2t1No2nJMR7uiPa97zva0z8WIJ+DRWttbJ0jt5ratYrEREbRAAAAAAAAAExuj6jhuLl5qW5bdvKVVl0ufH1tSdu8dYRwAexEzO0RMymY9Dlt633I9/iscOlxYutY3nvLeAAAAAAAAAAxvgxZOtqVa78M08ztWbR36o1+GRHhln9YYfZ3/l/wAN0cLrE7Tlme6T9naXHETMTaffLOuOlI2rWIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAf/Z\" lazy=\"loading\">"
+      },
+      {
+        "href": "https://www.carrefour.es/tv-led-139-7-cm-55-lg-55un74006lb-4k-uhd-smart-tv/VC4A-11354710/p",
+        "inner_text": "",
+        "inner_html": "<img alt=\"TV LED 139,7 cm (55&quot;) LG 55UN74006LB, 4K UHD, Smart TV\" class=\"product-card__image\" data-src=\"https://static.carrefour.es/hd_350x_/crs/cdn_static/catalog/hd/525484_00_1.jpg\" src=\"data:image/jpeg;base64,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\" lazy=\"loading\">"
+      },
+      {
+        "href": "https://www.carrefour.es/the-bellies-bellies-casa/VC4A-7972100/p",
+        "inner_text": "",
+        "inner_html": "<img alt=\"The Bellies - Bellie's Casa\" class=\"product-card__image\" data-src=\"https://static.carrefour.es/hd_350x_/crs/cdn_static/catalog/hd/331476_00_1.jpg\" src=\"data:image/jpeg;base64,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\" lazy=\"loading\">"
+      },
+      {
+        "href": "https://www.carrefour.es/preparate-para-disfrutar.e",
+        "inner_text": "Un espacio para disfrutar: Ofertas\n\nEn muebles de jardín, barbacoas, piscinas y mucho más\n\nVer más",
+        "inner_html": "<div class=\"promotion__image-container\"><img src=\"/site/binaries/sizeL/content/gallery/home-pictures/banners/destacados/non-food/20210428_destacado_jardin3__ts1619525046399.jpg\" title=\"Un espacio para disfrutar: Ofertas\" alt=\"Un espacio para disfrutar: Ofertas\" class=\"smart-image\"></div><div class=\"promotion__details\"><h4 class=\"promotion__title\">\n        Un espacio para disfrutar: Ofertas\n      </h4><p class=\"promotion__description\">\n        En muebles de jardín, barbacoas, piscinas y mucho más\n      </p><div class=\"promotion__link-container\"><a href=\"https://www.carrefour.es/preparate-para-disfrutar.e\" title=\"Ver más\" data-bu=\"nonFood\" data-section=\"offers-box-\" data-position=\"0\" class=\"link promotion__link track-click\"> Ver más</a></div></div>"
+      },
+      {
+        "href": "https://www.carrefour.es/tecnologia-a-tu-alcance.e",
+        "inner_text": "Tecnología a tu alcance: Ofertas\n\nEn imagen, informática, electrodomésticos y mucho más\n\nVer más",
+        "inner_html": "<div class=\"promotion__image-container\"><img src=\"/site/binaries/sizeL/content/gallery/home-pictures/banners/destacados/non-food/20210514-destacado-efcs-mayo__ts1620901028410.png\" title=\"Tecnología a tu alcance: Ofertas\" alt=\"Tecnología a tu alcance: Ofertas\" class=\"smart-image\"></div><div class=\"promotion__details\"><h4 class=\"promotion__title\">\n        Tecnología a tu alcance: Ofertas\n      </h4><p class=\"promotion__description\">\n        En imagen, informática, electrodomésticos y mucho más\n      </p><div class=\"promotion__link-container\"><a href=\"https://www.carrefour.es/tecnologia-a-tu-alcance.e\" title=\"Ver más\" data-bu=\"nonFood\" data-section=\"offers-box-\" data-position=\"1\" class=\"link promotion__link track-click\"> Ver más</a></div></div>"
+      },
+      {
+        "href": "https://www.carrefour.es/comuniones.e",
+        "inner_text": "Regalos de primera comunión: Ofertas\n\nEn videojuegos, deporte, juguetes y mucho más\n\nVer más",
+        "inner_html": "<div class=\"promotion__image-container\"><img src=\"/site/binaries/sizeL/content/gallery/home-pictures/banners/destacados/non-food/20210513-destacado-comuniones__ts1620901933286.jpg\" title=\"Regalos de primera comunión: Ofertas\" alt=\"Regalos de primera comunión: Ofertas\" class=\"smart-image\"></div><div class=\"promotion__details\"><h4 class=\"promotion__title\">\n        Regalos de primera comunión: Ofertas\n      </h4><p class=\"promotion__description\">\n        En videojuegos, deporte, juguetes y mucho más\n      </p><div class=\"promotion__link-container\"><a href=\"https://www.carrefour.es/comuniones.e\" title=\"Ver más\" data-bu=\"nonFood\" data-section=\"offers-box-\" data-position=\"2\" class=\"link promotion__link track-click\"> Ver más</a></div></div>"
+      },
+      {
+        "href": "https://www.carrefour.es/supermercado-ahorro.e",
+        "inner_text": "Ahorra hasta 30€ en tu compra\n\nHasta 24 mayo, exclusivo supermercado online\n\nVer más",
+        "inner_html": "<div class=\"promotion__image-container\"><img src=\"/site/binaries/sizeL/content/gallery/home-pictures/banners/destacados/food-y-bodega/2021/s19/destacado-ahorro__ts1620633237104.jpg\" title=\"Ahorra hasta 30€ en tu compra\" alt=\"Ahorra hasta 30€ en tu compra\" class=\"smart-image\"></div><div class=\"promotion__details\"><h4 class=\"promotion__title\">\n        Ahorra hasta 30€ en tu compra\n      </h4><p class=\"promotion__description\">\n        Hasta 24 mayo, exclusivo supermercado online\n      </p><div class=\"promotion__link-container\"><a href=\"https://www.carrefour.es/supermercado-ahorro.e\" title=\"Ver más\" data-bu=\"food\" data-section=\"offers-box-2\" data-position=\"3\" class=\"link promotion__link track-click\"> Ver más</a></div></div>"
+      },
+      {
+        "href": "https://www.carrefour.es/bodega/ofertas-y-promociones/habla",
+        "inner_text": "Bodegas Habla del Silencio, vinos únicos con hasta -11%\n\nHasta 23 mayo, exclusivo Bodega Online\n\nVer más",
+        "inner_html": "<div class=\"promotion__image-container\"><img src=\"/site/binaries/sizeL/content/gallery/home-pictures/banners/destacados/bodega/2021/s20/dportal__ts1621240560524.jpg\" title=\"Bodegas Habla del Silencio, vinos únicos con hasta -11%\" alt=\"Bodegas Habla del Silencio, vinos únicos con hasta -11%\" class=\"smart-image\"></div><div class=\"promotion__details\"><h4 class=\"promotion__title\">\n        Bodegas Habla del Silencio, vinos únicos con hasta -11%\n      </h4><p class=\"promotion__description\">\n        Hasta 23 mayo, exclusivo Bodega Online\n      </p><div class=\"promotion__link-container\"><a href=\"https://www.carrefour.es/bodega/ofertas-y-promociones/habla\" title=\"Ver más\" data-bu=\"bodega\" data-section=\"offers-box-\" data-position=\"4\" class=\"link promotion__link track-click\"> Ver más</a></div></div>"
+      },
+      {
+        "href": "https://www.carrefour.es/supermercado/destacados/especial-barbacoa",
+        "inner_text": "Somos muy de barbacoa\n\nCarnes, verduras, pescados...todo lo que necesitas\n\nVer más",
+        "inner_html": "<div class=\"promotion__image-container\"><img src=\"/site/binaries/sizeL/content/gallery/home-pictures/banners/destacados/food-y-bodega/2021/s20/especial-bbq_destacado-portal__ts1621240522737.jpg\" title=\"Somos muy de barbacoa\" alt=\"Somos muy de barbacoa\" class=\"smart-image\"></div><div class=\"promotion__details\"><h4 class=\"promotion__title\">\n        Somos muy de barbacoa\n      </h4><p class=\"promotion__description\">\n        Carnes, verduras, pescados...todo lo que necesitas\n      </p><div class=\"promotion__link-container\"><a href=\"https://www.carrefour.es/supermercado/destacados/especial-barbacoa\" title=\"Ver más\" data-bu=\"food\" data-section=\"offers-box-2\" data-position=\"5\" class=\"link promotion__link track-click\"> Ver más</a></div></div>"
+      },
+      {
+        "href": "https://www.carrefour.es/drive.e",
+        "inner_text": "",
+        "inner_html": "<img src=\"/site/binaries/sizeL/content/gallery/home-pictures/ux/banner_drive__ts1620200843494.jpg\" title=\"¡Nuevas tiendas Drive a tu disposición!\" alt=\"¡Nuevas tiendas Drive a tu disposición!\" class=\"smart-image\">"
+      },
+      {
+        "href": "https://www.carrefour.es/gastos-de-entrega.e",
+        "inner_text": "",
+        "inner_html": "<img src=\"/site/binaries/sizeL/content/gallery/home-pictures/ux/banner_supermercado__ts1620200844859.jpg\" title=\"Llena tu despensa en un clic\" alt=\"Llena tu despensa en un clic\" class=\"smart-image\">"
+      },
+      {
+        "href": "https://www.carrefour.es/juntos-para-ayudarte/mas-info/",
+        "inner_text": "",
+        "inner_html": "<img src=\"/site/binaries/sizeL/content/gallery/home-pictures/ux/banner_seguridad__ts1620200844130.jpg\" title=\"Tu compra siempre segura\" alt=\"Tu compra siempre segura\" class=\"smart-image\">"
+      },
+      {
+        "href": "https://www.carrefour.es/condiciones-marketplace.e",
+        "inner_text": "¿Qué es un producto marketplace?",
+        "inner_html": "<div class=\"home-tips__urllink-text\">\n          ¿Qué es un producto marketplace?\n        </div>"
+      },
+      {
+        "href": "https://www.carrefour.es/entrega-y-estado-de-pedido.e",
+        "inner_text": "¿Cómo gestionar todos mis pedidos?",
+        "inner_html": "<div class=\"home-tips__urllink-text\">\n          ¿Cómo gestionar todos mis pedidos?\n        </div>"
+      },
+      {
+        "href": "https://www.carrefour.es/supermercado/recetas/",
+        "inner_text": "Todas nuestras recetas",
+        "inner_html": "<div class=\"home-tips__urllink-text\">\n          Todas nuestras recetas\n        </div>"
+      },
+      {
+        "href": "https://www.carrefour.es/consejos-ideas-y-trucos.e",
+        "inner_text": "Consejos, ideas y trucos",
+        "inner_html": "<div class=\"home-tips__urllink-text\">\n          Consejos, ideas y trucos\n        </div>"
+      },
+      {
+        "href": "https://www.carrefour.es/politica-de-cookies/mas-info/info-02.aspx",
+        "inner_text": "configuración",
+        "inner_html": "configuración"
+      },
+      {
+        "href": "https://www.carrefour.es/politica-de-cookies/mas-info/info-01.aspx",
+        "inner_text": "más información",
+        "inner_html": "más información"
+      },
+      {
+        "href": "https://www.carrefour.es/click-and-collect.e",
+        "inner_text": "",
+        "inner_html": "<img alt=\"Click&amp;Collect\" class=\"pre-footer__image\" data-v-5d40cde2=\"\" data-src=\"https://www.carrefour.es/crs/cdn_static/c4nonfood-front/images/click-collect.png\" src=\"data:image/jpeg;base64,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\" lazy=\"loading\">"
+      },
+      {
+        "href": "https://www.carrefour.es/devoluciones-en-hipermercados.e",
+        "inner_text": "DEVOLUCIÓN EN HIPERMERCADOS",
+        "inner_html": "<div data-v-5d40cde2=\"\"><p class=\"pre-footer__title\" data-v-5d40cde2=\"\">Devolución en Hipermercados</p></div><div data-v-5d40cde2=\"\"><img alt=\"Devolución en Hipermercados\" class=\"pre-footer__image\" data-v-5d40cde2=\"\" data-src=\"https://www.carrefour.es/crs/cdn_static/c4nonfood-front/images/devolucion.png\" src=\"data:image/jpeg;base64,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\" lazy=\"loading\"></div>"
+      },
+      {
+        "href": "https://www.carrefour.es/financiacion-pass.e",
+        "inner_text": "FINANCIACIÓN",
+        "inner_html": "<div data-v-5d40cde2=\"\"><p class=\"pre-footer__title\" data-v-5d40cde2=\"\">Financiación</p></div><div data-v-5d40cde2=\"\"><img alt=\"Financiación\" class=\"pre-footer__image\" data-v-5d40cde2=\"\" data-src=\"https://www.carrefour.es/crs/cdn_static/c4nonfood-front/images/tarjeta.png\" src=\"data:image/jpeg;base64,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\" lazy=\"loading\"></div>"
+      },
+      {
+        "href": "https://www.carrefour.es/version-movil/mas-info",
+        "inner_text": "APPS CARREFOUR",
+        "inner_html": "<div data-v-5d40cde2=\"\"><p class=\"pre-footer__title\" data-v-5d40cde2=\"\">Apps Carrefour</p></div><div data-v-5d40cde2=\"\"><img alt=\"Apps Carrefour\" class=\"pre-footer__image\" data-v-5d40cde2=\"\" data-src=\"https://www.carrefour.es/crs/cdn_static/c4nonfood-front/images/apple-android.png\" src=\"data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYGBgYHBgcICAcKCwoLCg8ODAwODxYQERAREBYiFRkVFRkVIh4kHhweJB42KiYmKjY+NDI0PkxERExfWl98fKf/wAALCADrAToBAREA/8QAUAABAAIDAQEAAAAAAAAAAAAAAAQFAgMGAQgQAQACAQIEAgcGBgIDAAAAAAABAgMEEQUSIVExQRMyNGFxc5EVIlJigZIUIzNTobFCgmNywf/aAAgBAQAAPwD6pAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHls+Kvjesfq1xrdNTrzxMs6cR0lY9afoxjV6e0/wBWsQ2RatvC0SAAAAAAAAAADDNnxYvWtHw81dk4heelKRHvlDvnzZOt72lqAEimr1FNojJMx2nqs8XFY25b0ivvjwSqXreN62iYAAAAAAAAALWisTMzERCrz6+07xi6fm81dMzM7zID2K2nwiZe8l/wW+jGYmPEBsx5cmOd6WmFvp9fGTat9q2SgAAAAAAAGOXLXHWbWnaIUmfUXzT16VjwhHG/Fp8uX1a9O8rHFw/HHW9pn4dITK6fDX1ccQ9CaxPjBfR6XJv/AC9vfHRAy8MnefQ3328pVl8d8duW9ZiWAtNFr5xzFMk71nwt5wsQAAAAAAAvetKTa09IUGfPbNfefDyhpe1ra0xERvMrbT6KtdrZOs9vJOAAC+Ol68to3hV6rQXwxz1617ecK4Weh1c1mMV5+7M9JnyWQAAAAAACm1monJfkj1a/5lDZUra9orWN5le6bS1xV38/OW4AAAU2srhjJ9yev/KI8EMXuh1c2xzSfWr/AJhIAAAAAAEfW55x4tonrbpCiF1pNP6OvNaPvTH0SwAACbRWJmZ2hVajW2tvXH0jv5yrwbMWScWSt48pdDS0WrFo8JgAAAAAAUmry+kz228K9IRVhw7T+mzc0+rTrPxWoANet1MabTXtXaZjpHxlzX2rrfx1/bB9q638df2wfaut/HX9sM6cR1956Xr+2G6+fNliIyX3292zUJ+n0Vskc155Y8o85Q70tS9q28YnZgueG5ItW1LT6vWEwAAAAAGOfJFMV7dqucHQ6THGPBSPOes/q2McmSkRbe8RO3dxs6nUTMzOa+8++Xn8Rn/vX/dK54RqskXzRfLO3LHrSu/T4vx1+sKDjGeLTixVmJiPvSpRvxYJt1npCbERWIiIevYiZmIWum0uOsc9rVtb3TvEJ6u4lgms48m23NG0qtJ0eT0eopO/SZ2n9V4AAAAACHxC22GI72UzZhpz5aV72h0I4zVzvqs8z/cs0ABETM7QmYsER1v1nskjXkyVpHXx7IN8lrz1+iz4NO2pvHlOOXSMdfEXwXjtG7nDwdLSd6xbvESAAAAACDxXatsVI7TKoTeH15tTX4SuBxmq9qz/ADLf7aAGdMdrztCdjxVpHTx7tg25NLqowTkrT9PPbvspZmZneZFtwb2q/wAuXSFo3iYc0Ok0XXTYp/K9AAAAAEDi/wDXx/8AoqVlwr2r/rKzHGar2rP8y3+2gG/Fgm3W3SE2IisbRD1lWlrzEVjeVvp9FXHta/W3+ITHLcU08YdRvWNq3jmiPf5q5bcG9qv8uXSDnLetb4yxdFoL7aSn6swAAAABB4vH83FP5ZVCw4ZO2rr76ytRxmq9qz/Mt/toIiZnaITcWCI626ykDfh0+TNPSOnnK7w4MeKu1Y+Mz4yzFJxvbbT997KBbcG9qv8ALl0hM7Obmd5mXjo9FMV0uOPduyAAAAAEbisTbHjt2t4fFRpGlv6PUYrfmXo4zVe1Z/mW/wBtdMdrz0TqY60jp492wRsueI6V6z3dBwnVUyYIrM7XpG0/DunBMuT4jqYz6iZrO9Kxy1QVtwb2q/y5dIw1NopgyT+Vzo6XFXlx0jtWIAAAAABhqsPNgyR57bx+jnR0mDLF8NLd46vXKZcE31Oa09I9Jb/bbEREbRD15NorG8yhZc826R0hoZ4suTFeL0tMWjzdBpuN44/rY5ie9esfRutxfRxHTnme0VVGr4llzxNKxyU8485VotuDe1X+XLpEPimfetMcec7zCmbsFOfNSvvX4AAAAACgz4/R5bV+jSsdBqKY5tS87V8YY6jWWvvWm8V7+coAwveKR4TMoN7ZLzvMSw5bdpOW3aTlt2k5bdpOW3aTlt2k5bdpOW3aVvwet41F7TWdvRzG7oZmIjeVDny+ly2t9Pg0rLh+PrbJPwhZgAAAAAInEsNZrF6x1p4/BSgLDT6KbbWydI7ecrWtYrEREbRAAAAr9dniI9FXxn1lU9iJtMREdZdFhxRjx1pHlHVkAAAAAATETExKi1GCcOSY8p61RxbaPT4uSuTfmtP0qngAADTrNXGOvJX1vKP/ALKhmZmZmZ6y8WehwdfS2/6rIAAAAAAGGfTxlxzFuk+XxUF6Wpaa2jaYYN2DPfDeLV/WJ8JX2n1WPNERXpPnEvQAAQ9Tra0ia4+tu/lCnmZtMzM7zLxJ02nnNfr6seK8iIiIiIAAAAAAADWaOuatrb7Wjwlzt8d8dpresxMMHsTMTExO0rHBxG1Z/m15/f5rKmrw5PVtHwnpL0AmYjrMo2TW4aRMRPNPaFZm1eXL032r2hGEnT6e2a3aseMrymOtKxWsbRAAAAAAAADzPp6Zonnj4T5wo8+my4Z6xvHdHBtpmzU9XJaP1b/47U7bTff4wfx2o71+jG2t1No2nJMR7uiPa97zva0z8WIJ+DRWttbJ0jt5ratYrEREbRAAAAAAAAAExuj6jhuLl5qW5bdvKVVl0ufH1tSdu8dYRwAexEzO0RMymY9Dlt633I9/iscOlxYutY3nvLeAAAAAAAAAAxvgxZOtqVa78M08ztWbR36o1+GRHhln9YYfZ3/l/wAN0cLrE7Tlme6T9naXHETMTaffLOuOlI2rWIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAf/Z\" lazy=\"loading\"></div>"
+      },
+      {
+        "href": "https://www.carrefour.es/grupo-carrefour",
+        "inner_text": "Carrefour en España",
+        "inner_html": "Carrefour en España"
+      },
+      {
+        "href": "https://www.carrefour.es/trabaja-en-carrefour/mas-info",
+        "inner_text": "Trabaja con nosotros",
+        "inner_html": "Trabaja con nosotros"
+      },
+      {
+        "href": "https://www.carrefour.es/grupo-carrefour/franquicias",
+        "inner_text": "Abre tu franquicia",
+        "inner_html": "Abre tu franquicia"
+      },
+      {
+        "href": "https://www.carrefour.es/grupo-carrefour/venta-a-empresas/",
+        "inner_text": "Venta a empresas",
+        "inner_html": "Venta a empresas"
+      },
+      {
+        "href": "https://www.carrefour.es/clubcarrefour",
+        "inner_text": "Club Carrefour",
+        "inner_html": "Club Carrefour"
+      },
+      {
+        "href": "https://www.carrefour.es/grupo-carrefour/compromisos-de-carrefour/compromisos-economicos",
+        "inner_text": "Nuestros compromisos",
+        "inner_html": "Nuestros compromisos"
+      },
+      {
+        "href": "https://www.carrefour.es/grupo-carrefour/las-marcas-carrefour",
+        "inner_text": "Nuestras marcas",
+        "inner_html": "Nuestras marcas"
+      },
+      {
+        "href": "https://www.carrefour.es/pass/",
+        "inner_text": "Tarjeta PASS",
+        "inner_html": "Tarjeta PASS"
+      },
+      {
+        "href": "https://www.carrefour.es/seguros/",
+        "inner_text": "Seguros Carrefour",
+        "inner_html": "Seguros Carrefour"
+      },
+      {
+        "href": "https://carrefour-media.es/?utm_source=Leads&utm_medium=WebCarrefour&utm_campaign=Web_Carrefour",
+        "inner_text": "Carrefour Media",
+        "inner_html": "Carrefour Media"
+      },
+      {
+        "href": "https://www.carrefour.es/tiendas-carrefour",
+        "inner_text": "Localiza tu tienda",
+        "inner_html": "Localiza tu tienda"
+      },
+      {
+        "href": "https://www.carrefour.es/responsabilidad-social-corporativa/mas-info/",
+        "inner_text": "Responsabilidad Social Corporativa",
+        "inner_html": "Responsabilidad Social Corporativa"
+      },
+      {
+        "href": "https://www.carrefour.es/grupo-carrefour/nuestros-premios/",
+        "inner_text": "Premios y reconocimientos",
+        "inner_html": "Premios y reconocimientos"
+      },
+      {
+        "href": "https://www.carrefour.es/supermercado/acciones-para-comer-mejor",
+        "inner_text": "Acciones para comer mejor",
+        "inner_html": "Acciones para comer mejor"
+      },
+      {
+        "href": "https://www.carrefour.es/supermercado/paga-menos",
+        "inner_text": "Soluciones para ahorrar",
+        "inner_html": "Soluciones para ahorrar"
+      },
+      {
+        "href": "https://www.carrefour.es/juntosporlonuestro/mas-info/",
+        "inner_text": "#JuntosPorLoNuestro",
+        "inner_html": "#JuntosPorLoNuestro"
+      },
+      {
+        "href": "https://www.carrefour.es/contacta-con-nosotros/",
+        "inner_text": "Contacto",
+        "inner_html": "Contacto"
+      },
+      {
+        "href": "https://www.carrefour.es/ayuda/mas-info",
+        "inner_text": "Preguntas frecuentes",
+        "inner_html": "Preguntas frecuentes"
+      },
+      {
+        "href": "https://www.carrefour.es/solicitud-facturas-cliente/mas-info",
+        "inner_text": "Facturas",
+        "inner_html": "Facturas"
+      },
+      {
+        "href": "https://www.carrefour.es/mapa-web/mas-info",
+        "inner_text": "Mapa Web",
+        "inner_html": "Mapa Web"
+      },
+      {
+        "href": "https://www.carrefour.es/eboletin/mas-info",
+        "inner_text": "Suscríbete a nuestra newsletter",
+        "inner_html": "Suscríbete a nuestra newsletter"
+      },
+      {
+        "href": "https://www.carrefour.es/seguridad.e",
+        "inner_text": "Alerta de seguridad",
+        "inner_html": "Alerta de seguridad"
+      },
+      {
+        "href": "https://www.carrefour.es/quienes-somos/mas-info",
+        "inner_text": "Quiénes somos",
+        "inner_html": "Quiénes somos"
+      },
+      {
+        "href": "https://www.carrefour.es/drive-y-click-and-collect.e",
+        "inner_text": "Servicio Click & Collect y Drive",
+        "inner_html": "Servicio Click &amp; Collect y Drive"
+      },
+      {
+        "href": "https://www.carrefour.es/donde-servimos/mas-info",
+        "inner_text": "Dónde servimos",
+        "inner_html": "Dónde servimos"
+      },
+      {
+        "href": "https://www.carrefour.es/contact?type=orders",
+        "inner_text": "Estado del pedido",
+        "inner_html": "Estado del pedido"
+      },
+      {
+        "href": "https://www.carrefour.es/devoluciones.e",
+        "inner_text": "Devoluciones",
+        "inner_html": "Devoluciones"
+      },
+      {
+        "href": "https://www.carrefour.es/horarios-de-entrega.e",
+        "inner_text": "Horarios de entrega",
+        "inner_html": "Horarios de entrega"
+      },
+      {
+        "href": "https://www.carrefour.es/garantia-de-frescura.e",
+        "inner_text": "Garantía de frescura",
+        "inner_html": "Garantía de frescura"
+      },
+      {
+        "href": "https://www.carrefour.es/marketplace-carrefour.e",
+        "inner_text": "Vender en Marketplace",
+        "inner_html": "Vender en Marketplace"
+      },
+      {
+        "href": "https://www.carrefour.es/outlet-info.e",
+        "inner_text": "Outlet",
+        "inner_html": "Outlet"
+      },
+      {
+        "href": "https://www.carrefour.es/maxima-seguridad-en-tus-compras.e",
+        "inner_text": "Máxima seguridad en tus compras",
+        "inner_html": "Máxima seguridad en tus compras"
+      },
+      {
+        "href": "https://www.confianzaonline.es/empresas/carrefour.htm",
+        "inner_text": "",
+        "inner_html": "<img alt=\"Confianza Online\" class=\"collage-footer__image collage-footer__warranty-image\" data-v-ae3c2a88=\"\" data-src=\"https://www.carrefour.es/crs/cdn_static/c4nonfood-front/images/confianza-online.png\" src=\"data:image/jpeg;base64,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\" lazy=\"loading\">"
+      },
+      {
+        "href": "https://www.adigital.org/asociados/carrefour-online",
+        "inner_text": "",
+        "inner_html": "<img alt=\"ADigital\" class=\"collage-footer__image collage-footer__warranty-image\" data-v-ae3c2a88=\"\" data-src=\"https://www.carrefour.es/crs/cdn_static/c4nonfood-front/images/adigital_logo.png\" src=\"data:image/jpeg;base64,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\" lazy=\"loading\">"
+      },
+      {
+        "href": "https://webgate.ec.europa.eu/odr/main/index.cfm?event=main.home.show&lng=ES",
+        "inner_text": "",
+        "inner_html": "<img alt=\"Litigios de la Unión Europea\" class=\"collage-footer__image collage-footer__warranty-image\" data-v-ae3c2a88=\"\" data-src=\"https://www.carrefour.es/crs/cdn_static/c4nonfood-front/images/com_eur.png\" src=\"data:image/jpeg;base64,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\" lazy=\"loading\">"
+      },
+      {
+        "href": "https://www.carrefour.es/investigacion-desarrollo-innovacion/mas-info/",
+        "inner_text": "Investigación, desarrollo e innovación",
+        "inner_html": "Investigación, desarrollo e innovación"
+      },
+      {
+        "href": "https://www.carrefour.es/aviso-legal/mas-info",
+        "inner_text": "AVISO LEGAL",
+        "inner_html": "Aviso Legal"
+      },
+      {
+        "href": "https://www.carrefour.es/politica-de-privacidad/mas-info/",
+        "inner_text": "POLÍTICA DE PRIVACIDAD",
+        "inner_html": "Política de Privacidad"
+      },
+      {
+        "href": "https://www.youtube.com/user/carrefour",
+        "inner_text": "",
+        "inner_html": "<span class=\"icon-youtube collage-footer__icon-sn\" data-v-ae3c2a88=\"\"></span>"
+      },
+      {
+        "href": "https://www.facebook.com/carrefoures",
+        "inner_text": "",
+        "inner_html": "<span class=\"icon-facebook collage-footer__icon-sn\" data-v-ae3c2a88=\"\"></span>"
+      },
+      {
+        "href": "http://www.twitter.com/carrefourEs",
+        "inner_text": "",
+        "inner_html": "<span class=\"icon-twitter collage-footer__icon-sn\" data-v-ae3c2a88=\"\"></span>"
+      },
+      {
+        "href": "https://es.linkedin.com/company/carrefoures",
+        "inner_text": "",
+        "inner_html": "<span class=\"icon-col-linkedin collage-footer__icon-sn\" data-v-ae3c2a88=\"\"></span>"
+      },
+      {
+        "href": "https://es.pinterest.com/carrefoures/",
+        "inner_text": "",
+        "inner_html": "<span class=\"icon-pinterest collage-footer__icon-sn\" data-v-ae3c2a88=\"\"></span>"
+      },
+      {
+        "href": "http://instagram.com/carrefoures",
+        "inner_text": "",
+        "inner_html": "<span class=\"icon-instagram collage-footer__icon-sn\" data-v-ae3c2a88=\"\"></span>"
+      }
+    ],
+    "social": [
+      {
+        "href": "https://www.youtube.com/user/carrefour",
+        "inner_text": "",
+        "inner_html": "<span class=\"icon-youtube collage-footer__icon-sn\" data-v-ae3c2a88=\"\"></span>"
+      },
+      {
+        "href": "https://www.facebook.com/carrefoures",
+        "inner_text": "",
+        "inner_html": "<span class=\"icon-facebook collage-footer__icon-sn\" data-v-ae3c2a88=\"\"></span>"
+      },
+      {
+        "href": "http://www.twitter.com/carrefourEs",
+        "inner_text": "",
+        "inner_html": "<span class=\"icon-twitter collage-footer__icon-sn\" data-v-ae3c2a88=\"\"></span>"
+      },
+      {
+        "href": "https://es.linkedin.com/company/carrefoures",
+        "inner_text": "",
+        "inner_html": "<span class=\"icon-col-linkedin collage-footer__icon-sn\" data-v-ae3c2a88=\"\"></span>"
+      },
+      {
+        "href": "https://es.pinterest.com/carrefoures/",
+        "inner_text": "",
+        "inner_html": "<span class=\"icon-pinterest collage-footer__icon-sn\" data-v-ae3c2a88=\"\"></span>"
+      },
+      {
+        "href": "http://instagram.com/carrefoures",
+        "inner_text": "",
+        "inner_html": "<span class=\"icon-instagram collage-footer__icon-sn\" data-v-ae3c2a88=\"\"></span>"
+      }
+    ],
+    "keywords": [
+      {
+        "href": "https://www.carrefour.es/aviso-legal/mas-info",
+        "inner_text": "AVISO LEGAL",
+        "inner_html": "Aviso Legal"
+      }
+    ]
+  },
+  "unsafeForms": [],
+  "browsing_history": [
+    "https://www.carrefour.es/"
+  ],
+  "websockets": {},
+  "cookies": [
+    {
+      "name": "visid_incap_769673",
+      "value": "qI4VgqSaRc+9DhI0rtb59JqFpmAAAAAAQUIPAAAAAABGGD25RIRyIVi+nGWTruV6",
+      "domain": "carrefour.es",
+      "path": "/",
+      "expires": 1653055185.307709,
+      "size": 82,
+      "httpOnly": true,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2022-05-20T13:59:45.307Z",
+      "expiresDays": 364.92,
+      "firstPartyStorage": true
+    },
+    {
+      "name": "visid_incap_258278",
+      "value": "7/szPvujTkeSBmU1pKmv8ZqFpmAAAAAAQUIPAAAAAACQREh9+LpfuQuKq5yYnpr/",
+      "domain": "carrefour.es",
+      "path": "/",
+      "expires": 1653055185.241464,
+      "size": 82,
+      "httpOnly": true,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2022-05-20T13:59:45.241Z",
+      "expiresDays": 364.92,
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.carrefour.es/",
+            "source": "set in Set-Cookie HTTP response header for https://www.carrefour.es/"
+          }
+        ],
+        "type": "Cookie.HTTP",
+        "timestamp": "2021-05-20T15:51:54.244Z",
+        "location": "about:blank"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "_kuid_",
+      "value": "OIcHJGb4",
+      "domain": "krxd.net",
+      "path": "/",
+      "expires": 1637077920,
+      "size": 14,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2021-11-16T15:52:00.000Z",
+      "expiresDays": 180,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 39360,
+            "lineNumber": 5,
+            "fileName": "https://cdn.krxd.net/ctjs/controltag.js.0631b7d64dbbd3656a8b7368ad227a04",
+            "functionName": "CookieStore._set",
+            "source": "    at CookieStore._set (https://cdn.krxd.net/ctjs/controltag.js.0631b7d64dbbd3656a8b7368ad227a04:5:39360)"
+          },
+          {
+            "columnNumber": 37912,
+            "lineNumber": 5,
+            "fileName": "https://cdn.krxd.net/ctjs/controltag.js.0631b7d64dbbd3656a8b7368ad227a04",
+            "functionName": "CookieStore._set",
+            "source": "    at CookieStore._set (https://cdn.krxd.net/ctjs/controltag.js.0631b7d64dbbd3656a8b7368ad227a04:5:37912)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T15:52:00.806Z",
+        "location": "https://www.carrefour.es"
+      },
+      "firstPartyStorage": false
+    },
+    {
+      "name": "session_id",
+      "value": "1so54zVflMFuro0IevEjfK1KAhP",
+      "domain": "www.carrefour.es",
+      "path": "/",
+      "expires": 1621527714.829112,
+      "size": 37,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2021-05-20T16:21:54.829Z",
+      "expiresDays": 0.02,
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.carrefour.es/",
+            "source": "set in Set-Cookie HTTP response header for https://www.carrefour.es/"
+          }
+        ],
+        "type": "Cookie.HTTP",
+        "timestamp": "2021-05-20T15:51:54.244Z",
+        "location": "about:blank"
+      },
+      "firstPartyStorage": false
+    },
+    {
+      "name": "nlbi_258278_1838428",
+      "value": "FhykMC70gF1ODk60pd9X5AAAAADYAgahwuhcGo5YULLhpv1B",
+      "domain": "carrefour.es",
+      "path": "/",
+      "expires": -1,
+      "size": 67,
+      "httpOnly": false,
+      "secure": false,
+      "session": true,
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.carrefour.es/",
+            "source": "set in Set-Cookie HTTP response header for https://www.carrefour.es/"
+          }
+        ],
+        "type": "Cookie.HTTP",
+        "timestamp": "2021-05-20T15:51:54.244Z",
+        "location": "about:blank"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "incap_ses_1396_258278",
+      "value": "8ugRePwSpwZFZSXSuJZfE5qFpmAAAAAAN3Aqf+WFh2FS3Cf3I3+evQ==",
+      "domain": "carrefour.es",
+      "path": "/",
+      "expires": -1,
+      "size": 77,
+      "httpOnly": false,
+      "secure": false,
+      "session": true,
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.carrefour.es/",
+            "source": "set in Set-Cookie HTTP response header for https://www.carrefour.es/"
+          }
+        ],
+        "type": "Cookie.HTTP",
+        "timestamp": "2021-05-20T15:51:54.244Z",
+        "location": "about:blank"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "incap_ses_1396_769673",
+      "value": "lYOhXkiaiUL3ZSXSuJZfE6CFpmAAAAAAu+UVwIZJsQyAW41/4QT5ug==",
+      "domain": "carrefour.es",
+      "path": "/",
+      "expires": -1,
+      "size": 77,
+      "httpOnly": false,
+      "secure": false,
+      "session": true,
+      "firstPartyStorage": true
+    }
+  ],
+  "localStorage": {
+    "https://www.carrefour.es": {
+      "ebx-user-type": {
+        "value": {
+          "ttl": 1621527715369,
+          "value": "new"
+        },
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 144158,
+              "lineNumber": 1,
+              "fileName": "https://storage.googleapis.com/ecomm-buscador-empathyx/empathyx/carrefour/app.js",
+              "functionName": "e.setItem",
+              "source": "    at e.setItem (https://storage.googleapis.com/ecomm-buscador-empathyx/empathyx/carrefour/app.js:1:144158)"
+            },
+            {
+              "columnNumber": 403657,
+              "lineNumber": 1,
+              "fileName": "https://storage.googleapis.com/ecomm-buscador-empathyx/empathyx/carrefour/app.js",
+              "functionName": "e.getSessionId",
+              "source": "    at e.getSessionId (https://storage.googleapis.com/ecomm-buscador-empathyx/empathyx/carrefour/app.js:1:403657)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T15:51:55.431Z",
+          "location": "https://www.carrefour.es/"
+        }
+      },
+      "ebx-user-id": {
+        "value": {
+          "ttl": 1653061915369,
+          "value": "458bbc9d-3fab-46d9-bece-59da044dc787"
+        },
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 144158,
+              "lineNumber": 1,
+              "fileName": "https://storage.googleapis.com/ecomm-buscador-empathyx/empathyx/carrefour/app.js",
+              "functionName": "e.setItem",
+              "source": "    at e.setItem (https://storage.googleapis.com/ecomm-buscador-empathyx/empathyx/carrefour/app.js:1:144158)"
+            },
+            {
+              "columnNumber": 403451,
+              "lineNumber": 1,
+              "fileName": "https://storage.googleapis.com/ecomm-buscador-empathyx/empathyx/carrefour/app.js",
+              "functionName": "e.getUserId",
+              "source": "    at e.getUserId (https://storage.googleapis.com/ecomm-buscador-empathyx/empathyx/carrefour/app.js:1:403451)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T15:51:55.431Z",
+          "location": "https://www.carrefour.es/"
+        }
+      },
+      "_kxcarrefour_user": {
+        "value": 1637077916675,
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 43420,
+              "lineNumber": 5,
+              "fileName": "https://cdn.krxd.net/ctjs/controltag.js.0631b7d64dbbd3656a8b7368ad227a04",
+              "functionName": "LocalStorageStore.set",
+              "source": "    at LocalStorageStore.set (https://cdn.krxd.net/ctjs/controltag.js.0631b7d64dbbd3656a8b7368ad227a04:5:43420)"
+            },
+            {
+              "columnNumber": 42293,
+              "lineNumber": 5,
+              "fileName": "https://cdn.krxd.net/ctjs/controltag.js.0631b7d64dbbd3656a8b7368ad227a04",
+              "functionName": "LocalStorageStore.set",
+              "source": "    at LocalStorageStore.set (https://cdn.krxd.net/ctjs/controltag.js.0631b7d64dbbd3656a8b7368ad227a04:5:42293)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T15:51:56.679Z",
+          "location": "https://www.carrefour.es/"
+        }
+      },
+      "ebx-session-id": {
+        "value": {
+          "ttl": 1621527715370,
+          "value": "8daa99d9-3167-43d2-b1e6-118deecada66"
+        },
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 144158,
+              "lineNumber": 1,
+              "fileName": "https://storage.googleapis.com/ecomm-buscador-empathyx/empathyx/carrefour/app.js",
+              "functionName": "e.setItem",
+              "source": "    at e.setItem (https://storage.googleapis.com/ecomm-buscador-empathyx/empathyx/carrefour/app.js:1:144158)"
+            },
+            {
+              "columnNumber": 403830,
+              "lineNumber": 1,
+              "fileName": "https://storage.googleapis.com/ecomm-buscador-empathyx/empathyx/carrefour/app.js",
+              "functionName": "e.getSessionId",
+              "source": "    at e.getSessionId (https://storage.googleapis.com/ecomm-buscador-empathyx/empathyx/carrefour/app.js:1:403830)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T15:51:55.431Z",
+          "location": "https://www.carrefour.es/"
+        }
+      },
+      "kxcarrefour_whistle": {
+        "value": 0,
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 43390,
+              "lineNumber": 5,
+              "fileName": "https://cdn.krxd.net/ctjs/controltag.js.0631b7d64dbbd3656a8b7368ad227a04",
+              "functionName": "LocalStorageStore.set",
+              "source": "    at LocalStorageStore.set (https://cdn.krxd.net/ctjs/controltag.js.0631b7d64dbbd3656a8b7368ad227a04:5:43390)"
+            },
+            {
+              "columnNumber": 42293,
+              "lineNumber": 5,
+              "fileName": "https://cdn.krxd.net/ctjs/controltag.js.0631b7d64dbbd3656a8b7368ad227a04",
+              "functionName": "LocalStorageStore.set",
+              "source": "    at LocalStorageStore.set (https://cdn.krxd.net/ctjs/controltag.js.0631b7d64dbbd3656a8b7368ad227a04:5:42293)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T15:51:56.052Z",
+          "location": "https://www.carrefour.es/"
+        }
+      },
+      "_kxcarrefour_whistle": {
+        "value": 1637077916050,
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 43420,
+              "lineNumber": 5,
+              "fileName": "https://cdn.krxd.net/ctjs/controltag.js.0631b7d64dbbd3656a8b7368ad227a04",
+              "functionName": "LocalStorageStore.set",
+              "source": "    at LocalStorageStore.set (https://cdn.krxd.net/ctjs/controltag.js.0631b7d64dbbd3656a8b7368ad227a04:5:43420)"
+            },
+            {
+              "columnNumber": 42293,
+              "lineNumber": 5,
+              "fileName": "https://cdn.krxd.net/ctjs/controltag.js.0631b7d64dbbd3656a8b7368ad227a04",
+              "functionName": "LocalStorageStore.set",
+              "source": "    at LocalStorageStore.set (https://cdn.krxd.net/ctjs/controltag.js.0631b7d64dbbd3656a8b7368ad227a04:5:42293)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T15:51:56.053Z",
+          "location": "https://www.carrefour.es/"
+        }
+      },
+      "_kxcarrefour_kuid": {
+        "value": 1637077916677,
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 43420,
+              "lineNumber": 5,
+              "fileName": "https://cdn.krxd.net/ctjs/controltag.js.0631b7d64dbbd3656a8b7368ad227a04",
+              "functionName": "LocalStorageStore.set",
+              "source": "    at LocalStorageStore.set (https://cdn.krxd.net/ctjs/controltag.js.0631b7d64dbbd3656a8b7368ad227a04:5:43420)"
+            },
+            {
+              "columnNumber": 42293,
+              "lineNumber": 5,
+              "fileName": "https://cdn.krxd.net/ctjs/controltag.js.0631b7d64dbbd3656a8b7368ad227a04",
+              "functionName": "LocalStorageStore.set",
+              "source": "    at LocalStorageStore.set (https://cdn.krxd.net/ctjs/controltag.js.0631b7d64dbbd3656a8b7368ad227a04:5:42293)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T15:51:56.680Z",
+          "location": "https://www.carrefour.es/"
+        }
+      },
+      "ebx-build-timestamp": {
+        "value": {
+          "value": 1615553620937
+        },
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 144158,
+              "lineNumber": 1,
+              "fileName": "https://storage.googleapis.com/ecomm-buscador-empathyx/empathyx/carrefour/app.js",
+              "functionName": "e.setItem",
+              "source": "    at e.setItem (https://storage.googleapis.com/ecomm-buscador-empathyx/empathyx/carrefour/app.js:1:144158)"
+            },
+            {
+              "columnNumber": 507393,
+              "lineNumber": 1,
+              "fileName": "https://storage.googleapis.com/ecomm-buscador-empathyx/empathyx/carrefour/app.js",
+              "functionName": "e.checkIfIsNewVersion",
+              "source": "    at e.checkIfIsNewVersion (https://storage.googleapis.com/ecomm-buscador-empathyx/empathyx/carrefour/app.js:1:507393)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T15:51:55.432Z",
+          "location": "https://www.carrefour.es/"
+        }
+      },
+      "kxcarrefour_user": {
+        "value": "wbesiklfu",
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 43390,
+              "lineNumber": 5,
+              "fileName": "https://cdn.krxd.net/ctjs/controltag.js.0631b7d64dbbd3656a8b7368ad227a04",
+              "functionName": "LocalStorageStore.set",
+              "source": "    at LocalStorageStore.set (https://cdn.krxd.net/ctjs/controltag.js.0631b7d64dbbd3656a8b7368ad227a04:5:43390)"
+            },
+            {
+              "columnNumber": 42293,
+              "lineNumber": 5,
+              "fileName": "https://cdn.krxd.net/ctjs/controltag.js.0631b7d64dbbd3656a8b7368ad227a04",
+              "functionName": "LocalStorageStore.set",
+              "source": "    at LocalStorageStore.set (https://cdn.krxd.net/ctjs/controltag.js.0631b7d64dbbd3656a8b7368ad227a04:5:42293)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T15:51:56.679Z",
+          "location": "https://www.carrefour.es/"
+        }
+      },
+      "_kxcarrefour_visits": {
+        "value": 1621548000001,
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 43420,
+              "lineNumber": 5,
+              "fileName": "https://cdn.krxd.net/ctjs/controltag.js.0631b7d64dbbd3656a8b7368ad227a04",
+              "functionName": "LocalStorageStore.set",
+              "source": "    at LocalStorageStore.set (https://cdn.krxd.net/ctjs/controltag.js.0631b7d64dbbd3656a8b7368ad227a04:5:43420)"
+            },
+            {
+              "columnNumber": 42293,
+              "lineNumber": 5,
+              "fileName": "https://cdn.krxd.net/ctjs/controltag.js.0631b7d64dbbd3656a8b7368ad227a04",
+              "functionName": "LocalStorageStore.set",
+              "source": "    at LocalStorageStore.set (https://cdn.krxd.net/ctjs/controltag.js.0631b7d64dbbd3656a8b7368ad227a04:5:42293)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T15:51:55.574Z",
+          "location": "https://www.carrefour.es/"
+        }
+      },
+      "kxcarrefour_kuid": {
+        "value": "OIcHJGb4",
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 43390,
+              "lineNumber": 5,
+              "fileName": "https://cdn.krxd.net/ctjs/controltag.js.0631b7d64dbbd3656a8b7368ad227a04",
+              "functionName": "LocalStorageStore.set",
+              "source": "    at LocalStorageStore.set (https://cdn.krxd.net/ctjs/controltag.js.0631b7d64dbbd3656a8b7368ad227a04:5:43390)"
+            },
+            {
+              "columnNumber": 42293,
+              "lineNumber": 5,
+              "fileName": "https://cdn.krxd.net/ctjs/controltag.js.0631b7d64dbbd3656a8b7368ad227a04",
+              "functionName": "LocalStorageStore.set",
+              "source": "    at LocalStorageStore.set (https://cdn.krxd.net/ctjs/controltag.js.0631b7d64dbbd3656a8b7368ad227a04:5:42293)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T15:51:56.680Z",
+          "location": "https://www.carrefour.es/"
+        }
+      },
+      "kxcarrefour_visits": {
+        "value": 1,
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 43390,
+              "lineNumber": 5,
+              "fileName": "https://cdn.krxd.net/ctjs/controltag.js.0631b7d64dbbd3656a8b7368ad227a04",
+              "functionName": "LocalStorageStore.set",
+              "source": "    at LocalStorageStore.set (https://cdn.krxd.net/ctjs/controltag.js.0631b7d64dbbd3656a8b7368ad227a04:5:43390)"
+            },
+            {
+              "columnNumber": 42293,
+              "lineNumber": 5,
+              "fileName": "https://cdn.krxd.net/ctjs/controltag.js.0631b7d64dbbd3656a8b7368ad227a04",
+              "functionName": "LocalStorageStore.set",
+              "source": "    at LocalStorageStore.set (https://cdn.krxd.net/ctjs/controltag.js.0631b7d64dbbd3656a8b7368ad227a04:5:42293)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T15:51:55.573Z",
+          "location": "https://www.carrefour.es/"
+        }
+      }
+    }
+  },
+  "beacons": [
+    {
+      "url": "https://beacon.krxd.net/optout_check?callback=Krux.ns.carrefour.kxjsonp_optOutCheck",
+      "query": {
+        "callback": "Krux.ns.carrefour.kxjsonp_optOutCheck"
+      },
+      "filter": "||krxd.net^$third-party",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.carrefour.es/",
+            "source": "requested from https://www.carrefour.es/ and matched with easyprivacy.txt filter ||krxd.net^$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T15:51:55.821Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://consumer.krxd.net/consent/get/de718452-c080-4b8d-b34b-300c92a990ce?idt=device&dt=kxcookie&callback=Krux.ns.carrefour.kxjsonp_consent_get_0",
+      "query": {
+        "idt": "device",
+        "dt": "kxcookie",
+        "callback": "Krux.ns.carrefour.kxjsonp_consent_get_0"
+      },
+      "filter": "||krxd.net^$third-party",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.carrefour.es/",
+            "source": "requested from https://www.carrefour.es/ and matched with easyprivacy.txt filter ||krxd.net^$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T15:51:55.617Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://cdn.krxd.net/partnerjs/xdi/proxy.3d2100fd7107262ecb55ce6847f01fa5.html",
+      "query": null,
+      "filter": "||krxd.net^$third-party",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "",
+            "source": "requested from  and matched with easyprivacy.txt filter ||krxd.net^$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T15:51:55.570Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://cdn.krxd.net/ctjs/controltag.js.0631b7d64dbbd3656a8b7368ad227a04",
+      "query": null,
+      "filter": "||krxd.net^$third-party",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.carrefour.es/",
+            "source": "requested from https://www.carrefour.es/ and matched with easyprivacy.txt filter ||krxd.net^$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T15:51:55.471Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://cdn.krxd.net/controltag/rlmdkcmg1.js",
+      "query": null,
+      "filter": "||krxd.net^$third-party",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.carrefour.es/",
+            "source": "requested from https://www.carrefour.es/ and matched with easyprivacy.txt filter ||krxd.net^$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T15:51:55.050Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://www.googletagmanager.com/gtm.js?id=GTM-5S7BJ5",
+      "query": {
+        "id": "GTM-5S7BJ5"
+      },
+      "filter": "/gtm.js",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.carrefour.es/",
+            "source": "requested from https://www.carrefour.es/ and matched with easyprivacy.txt filter /gtm.js"
+          }
+        ],
+        "timestamp": "2021-05-20T15:51:54.269Z"
+      },
+      "occurrances": 1
+    }
+  ],
+  "hosts": {
+    "requests": {
+      "firstParty": [
+        "carrefour.es"
+      ],
+      "thirdParty": [
+        "www.carrefour.es",
+        "www.googletagmanager.com",
+        "static.carrefour.es",
+        "storage.googleapis.com",
+        "cdn.krxd.net",
+        "consumer.krxd.net",
+        "beacon.krxd.net"
+      ]
+    },
+    "beacons": {
+      "firstParty": [],
+      "thirdParty": [
+        "beacon.krxd.net",
+        "consumer.krxd.net",
+        "cdn.krxd.net",
+        "www.googletagmanager.com"
+      ]
+    },
+    "cookies": {
+      "firstParty": [
+        "carrefour.es"
+      ],
+      "thirdParty": [
+        "www.carrefour.es",
+        "krxd.net"
+      ]
+    },
+    "localStorage": {
+      "firstParty": [],
+      "thirdParty": [
+        "www.carrefour.es"
+      ]
+    },
+    "links": {
+      "firstParty": [],
+      "thirdParty": [
+        "www.carrefour.es",
+        "folleto.carrefour.es",
+        "carrefour-media.es",
+        "www.confianzaonline.es",
+        "www.adigital.org",
+        "webgate.ec.europa.eu",
+        "www.youtube.com",
+        "www.facebook.com",
+        "www.twitter.com",
+        "es.linkedin.com",
+        "es.pinterest.com",
+        "instagram.com"
+      ]
+    }
+  }
+}

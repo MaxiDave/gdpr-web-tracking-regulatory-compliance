@@ -1,0 +1,829 @@
+{
+  "title": "Website Evidence Collection",
+  "task_description": null,
+  "uri_ins": "https://healthline.com",
+  "uri_refs": [
+    "https://healthline.com"
+  ],
+  "uri_dest": "https://www.healthline.com/",
+  "uri_redirects": [
+    "https://healthline.com/"
+  ],
+  "secure_connection": {
+    "https_support": true,
+    "redirects": [
+      "https://healthline.com/",
+      "https://www.healthline.com/"
+    ],
+    "https_redirect": true
+  },
+  "host": "healthline.com",
+  "script": {
+    "host": "sfod",
+    "version": {
+      "npm": "1.0.0",
+      "commit": null
+    },
+    "cmd_args": "-q --overwrite https://healthline.com -- --ignore-certificate-errors",
+    "environment": {
+      "CHROME_DESKTOP": "code-url-handler.desktop"
+    },
+    "node_version": "v14.17.0"
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "HeadlessChrome/80.0.3987.0",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3617.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "5.8.0-53-generic"
+    },
+    "extra_headers": {},
+    "preset_cookies": {}
+  },
+  "start_time": "2021-05-20T15:51:35.327Z",
+  "end_time": "2021-05-20T15:51:42.766Z",
+  "links": {
+    "firstParty": [],
+    "thirdParty": [
+      {
+        "href": "https://www.healthline.com/privacy-settings",
+        "inner_text": "our partners",
+        "inner_html": "our partners"
+      },
+      {
+        "href": "https://activation.healthline.com/api/member-offers/5523/redirect?lp=328&tc=120226&subid2=/&subid=mentalhealthhub_abar_desktopv2_7189&correlationId=7d4b6c2d-eb27-4c9e-a3d0-d2325bab355d",
+        "inner_text": "Check In",
+        "inner_html": "Check In"
+      },
+      {
+        "href": "https://www.healthline.com/",
+        "inner_text": "",
+        "inner_html": "<svg class=\"logo\" viewBox=\"0 0 2500 400\"><title>Healthline</title><use xmlns:xlink=\"http://www.w3.org/1999/xlink\" xlink:href=\"#logo-hl\"></use></svg>"
+      },
+      {
+        "href": "https://www.healthline.com/coronavirus",
+        "inner_text": "",
+        "inner_html": "<lazy-image src=\"//i0.wp.com/images-prod.healthline.com/hlcmsresource/images/Covid-2021-Update-Badge-Rounded.png?w=630\"><img src=\"//i0.wp.com/images-prod.healthline.com/hlcmsresource/images/Covid-2021-Update-Badge-Rounded.png?w=630\" alt=\"null\" class=\"null\"></lazy-image>"
+      },
+      {
+        "href": "https://www.healthline.com/nutrition",
+        "inner_text": "",
+        "inner_html": "<lazy-image alt=\"Nutrition\" src=\"//i0.wp.com/images-prod.healthline.com/hlcmsresource/images/2016-holiday-card/Avotoast.jpg?w=630\"><img src=\"//i0.wp.com/images-prod.healthline.com/hlcmsresource/images/2016-holiday-card/Avotoast.jpg?w=630\" alt=\"Nutrition\" class=\"null\"></lazy-image>"
+      },
+      {
+        "href": "https://www.healthline.com/parenthood",
+        "inner_text": "",
+        "inner_html": "<lazy-image alt=\"Parenthood\" src=\"//i0.wp.com/images-prod.healthline.com/hlcmsresource/images/Homepage/parenthood.png?w=630\"><img src=\"//i0.wp.com/images-prod.healthline.com/hlcmsresource/images/Homepage/parenthood.png?w=630\" alt=\"Parenthood\" class=\"null\"></lazy-image>"
+      },
+      {
+        "href": "https://www.healthline.com/program/wellness",
+        "inner_text": "",
+        "inner_html": "<lazy-image alt=\"Women's Wellness\" src=\"//i0.wp.com/images-prod.healthline.com/hlcmsresource/images/Homepage/womens-wellness.png?w=630\"><img src=\"//i0.wp.com/images-prod.healthline.com/hlcmsresource/images/Homepage/womens-wellness.png?w=630\" alt=\"Women's Wellness\" class=\"null\"></lazy-image>"
+      },
+      {
+        "href": "https://www.healthline.com/health-news/are-covid-nails-a-real-symptom-heres-the-long-and-short-of-it",
+        "inner_text": "Are ‘COVID Nails’ a Real Symptom? Here’s the Long and Short of It",
+        "inner_html": "<span class=\"css-rwmw5v\"><span class=\"css-15lsz35\"><img src=\"//i0.wp.com/post.healthline.com/wp-content/uploads/2021/05/Female_Mask_Washing_Hands_732x549-thumbnail.jpg?w=451&amp;h=336\" alt=\"\" class=\"css-oafuh8\"></span><div class=\"css-fj6ubj\">Are ‘COVID Nails’ a Real Symptom? Here’s the Long and Short of It</div></span>"
+      },
+      {
+        "href": "https://www.healthline.com/health/how-a-cold-shower-before-bed-affects-your-sleep",
+        "inner_text": "How a Cold Shower Before Bed Affects Your Sleep",
+        "inner_html": "<span class=\"css-rwmw5v\"><span class=\"css-15lsz35\"><img src=\"//i0.wp.com/post.healthline.com/wp-content/uploads/2021/01/cat_in_bathtub-732x549-thumbnail.jpg?w=451&amp;h=336\" alt=\"\" class=\"css-oafuh8\"></span><div class=\"css-fj6ubj\">How a Cold Shower Before Bed Affects Your Sleep</div></span>"
+      },
+      {
+        "href": "https://www.healthline.com/health/healthline-live-town-hall-mental-health-in-focus",
+        "inner_text": "Healthline Live Town Hall: Mental Health in Focus",
+        "inner_html": "<span class=\"css-rwmw5v\"><span class=\"css-15lsz35\"><img src=\"//i0.wp.com/post.healthline.com/wp-content/uploads/2021/05/732-x-549.png?w=451&amp;h=336\" alt=\"\" class=\"css-oafuh8\"></span><div class=\"css-fj6ubj\">Healthline Live Town Hall: Mental Health in Focus</div></span>"
+      },
+      {
+        "href": "https://www.healthline.com/health/mental-health/loneliness-after-college",
+        "inner_text": "Why Does Loneliness Peak for Some Before Our 30s?",
+        "inner_html": "<span class=\"css-rwmw5v\"><span class=\"css-15lsz35\"><img src=\"//i0.wp.com/post.healthline.com/wp-content/uploads/2021/05/Female_Lonely_732x549-thumbnail.jpg?w=451&amp;h=336\" alt=\"\" class=\"css-oafuh8\"></span><div class=\"css-fj6ubj\">Why Does Loneliness Peak for Some Before Our 30s?</div></span>"
+      },
+      {
+        "href": "https://www.healthline.com/health-news/covid-19-updates",
+        "inner_text": "Coronavirus Outbreak: Daily Updates",
+        "inner_html": "<span class=\"css-rwmw5v\"><span class=\"css-15lsz35\"><img src=\"//i0.wp.com/images-prod.healthline.com/hlcmsresource/images/topic_centers/2021-2/coronavirus-hub-2021-thumbnail.png?w=451&amp;h=336\" alt=\"\" class=\"css-oafuh8\"></span><div class=\"css-fj6ubj\">Coronavirus Outbreak: Daily Updates</div></span>"
+      },
+      {
+        "href": "https://www.healthline.com/health-news/have-we-reached-a-vaccination-tipping-point-for-covid-19",
+        "inner_text": "",
+        "inner_html": "<span class=\"css-1f8zf1f\"><span class=\"css-rlaxw5\"><lazy-image alt=\"\" src=\"//i0.wp.com/post.healthline.com/wp-content/uploads/2021/05/Mother_Child_Train_Masks_732x549-thumbnail.jpg?w=1092\" classname=\"css-1u8c2i8\"><img src=\"//i0.wp.com/post.healthline.com/wp-content/uploads/2021/05/Mother_Child_Train_Masks_732x549-thumbnail.jpg?w=1092\" alt=\"\" class=\"css-1u8c2i8\"></lazy-image></span></span>"
+      },
+      {
+        "href": "https://www.healthline.com/health/mental-health/loneliness-isnt-always-about-being-alone",
+        "inner_text": "",
+        "inner_html": "<span class=\"css-1f8zf1f\"><span class=\"css-rlaxw5\"><lazy-image alt=\"\" src=\"https://post.healthline.com/wp-content/uploads/2021/05/1159013-Lockdown-Taught-Me-That-Loneliness-Isnt-Always-About-Being-Alone-732x549-B.png\" srcset=\"//i0.wp.com/post.healthline.com/wp-content/uploads/2021/05/1159013-Lockdown-Taught-Me-That-Loneliness-Isnt-Always-About-Being-Alone-732x549-B.png?w=441 210w,//i0.wp.com/post.healthline.com/wp-content/uploads/2021/05/1159013-Lockdown-Taught-Me-That-Loneliness-Isnt-Always-About-Being-Alone-732x549-B.png?w=388 185w\" classname=\"css-1u8c2i8\"><picture class=\"css-129gw94\"><source srcset=\"//i0.wp.com/post.healthline.com/wp-content/uploads/2021/05/1159013-Lockdown-Taught-Me-That-Loneliness-Isnt-Always-About-Being-Alone-732x549-B.png?w=441 210w\" media=\"(min-width: 768px)\"><source srcset=\"//i0.wp.com/post.healthline.com/wp-content/uploads/2021/05/1159013-Lockdown-Taught-Me-That-Loneliness-Isnt-Always-About-Being-Alone-732x549-B.png?w=388 185w\" media=\"(min-width: 990px)\"><img src=\"https://post.healthline.com/wp-content/uploads/2021/05/1159013-Lockdown-Taught-Me-That-Loneliness-Isnt-Always-About-Being-Alone-732x549-B.png\" alt=\"\" class=\"css-1u8c2i8\"></picture></lazy-image></span></span>"
+      },
+      {
+        "href": "https://www.healthline.com/health-news/when-can-children-under-12-get-the-covid-19-vaccine-heres-what-to-know",
+        "inner_text": "",
+        "inner_html": "<span class=\"css-1f8zf1f\"><span class=\"css-rlaxw5\"><lazy-image alt=\"\" src=\"https://post.healthline.com/wp-content/uploads/2021/05/Child_Doctor_Visit_Masks_732x549-thumbnail.jpg\" srcset=\"//i0.wp.com/post.healthline.com/wp-content/uploads/2021/05/Child_Doctor_Visit_Masks_732x549-thumbnail.jpg?w=441 210w,//i0.wp.com/post.healthline.com/wp-content/uploads/2021/05/Child_Doctor_Visit_Masks_732x549-thumbnail.jpg?w=388 185w\" classname=\"css-1u8c2i8\"><picture class=\"css-129gw94\"><source srcset=\"//i0.wp.com/post.healthline.com/wp-content/uploads/2021/05/Child_Doctor_Visit_Masks_732x549-thumbnail.jpg?w=441 210w\" media=\"(min-width: 768px)\"><source srcset=\"//i0.wp.com/post.healthline.com/wp-content/uploads/2021/05/Child_Doctor_Visit_Masks_732x549-thumbnail.jpg?w=388 185w\" media=\"(min-width: 990px)\"><img src=\"https://post.healthline.com/wp-content/uploads/2021/05/Child_Doctor_Visit_Masks_732x549-thumbnail.jpg\" alt=\"\" class=\"css-1u8c2i8\"></picture></lazy-image></span></span>"
+      },
+      {
+        "href": "https://www.healthline.com/health/mental-health/resource-guide-to-mental-health-services",
+        "inner_text": "",
+        "inner_html": "<span class=\"css-1f8zf1f\"><span class=\"css-rlaxw5\"><lazy-image alt=\"\" src=\"https://post.healthline.com/wp-content/uploads/2021/04/indoor-talk-therapy-session-732x549-thumbnail.jpg\" srcset=\"//i0.wp.com/post.healthline.com/wp-content/uploads/2021/04/indoor-talk-therapy-session-732x549-thumbnail.jpg?w=441 210w,//i0.wp.com/post.healthline.com/wp-content/uploads/2021/04/indoor-talk-therapy-session-732x549-thumbnail.jpg?w=388 185w\" classname=\"css-1u8c2i8\"><picture class=\"css-129gw94\"><source srcset=\"//i0.wp.com/post.healthline.com/wp-content/uploads/2021/04/indoor-talk-therapy-session-732x549-thumbnail.jpg?w=441 210w\" media=\"(min-width: 768px)\"><source srcset=\"//i0.wp.com/post.healthline.com/wp-content/uploads/2021/04/indoor-talk-therapy-session-732x549-thumbnail.jpg?w=388 185w\" media=\"(min-width: 990px)\"><img src=\"https://post.healthline.com/wp-content/uploads/2021/04/indoor-talk-therapy-session-732x549-thumbnail.jpg\" alt=\"\" class=\"css-1u8c2i8\"></picture></lazy-image></span></span>"
+      },
+      {
+        "href": "https://www.healthline.com/health-news/im-fully-vaccinated-when-where-and-why-should-i-still-mask-up",
+        "inner_text": "",
+        "inner_html": "<span class=\"css-1f8zf1f\"><span class=\"css-rlaxw5\"><lazy-image alt=\"\" src=\"//i0.wp.com/post.healthline.com/wp-content/uploads/2021/05/Male_Mask_Groceries_732x549-thumbnail.jpg?w=514\" classname=\"css-1u8c2i8\"><img src=\"//i0.wp.com/post.healthline.com/wp-content/uploads/2021/05/Male_Mask_Groceries_732x549-thumbnail.jpg?w=514\" alt=\"\" class=\"css-1u8c2i8\"></lazy-image></span></span>"
+      },
+      {
+        "href": "https://www.healthline.com/health/safe-travel-tips-for-a-healthy-happy-summer",
+        "inner_text": "",
+        "inner_html": "<span class=\"css-1f8zf1f\"><span class=\"css-rlaxw5\"><lazy-image alt=\"\" src=\"//i0.wp.com/post.healthline.com/wp-content/uploads/2021/05/1227587-13-Safe-Travel-Tips-732x549-1.png?w=514\" classname=\"css-1u8c2i8\"></lazy-image></span></span>"
+      },
+      {
+        "href": "https://www.healthline.com/health-news/can-moderate-drinking-really-help-your-heart-what-experts-think",
+        "inner_text": "",
+        "inner_html": "<span class=\"css-1f8zf1f\"><span class=\"css-rlaxw5\"><lazy-image alt=\"\" src=\"//i0.wp.com/post.healthline.com/wp-content/uploads/2021/05/Female_Drinking_Wine_732x549-thumbnail.jpg?w=514\" classname=\"css-1u8c2i8\"></lazy-image></span></span>"
+      },
+      {
+        "href": "https://www.healthline.com/health/beauty-skin-care/best-mineral-sunscreens",
+        "inner_text": "",
+        "inner_html": "<span class=\"css-1f8zf1f\"><span class=\"css-rlaxw5\"><lazy-image alt=\"\" src=\"//i0.wp.com/post.healthline.com/wp-content/uploads/2021/04/1177994-Its-Time-to-Switch-to-Mineral-Sunscreen-Here-Are-11-Options-to-Try-732x549-feature_2.jpg?w=514\" classname=\"css-1u8c2i8\"></lazy-image></span></span>"
+      },
+      {
+        "href": "https://www.healthline.com/nutrition/mushroom-coffee",
+        "inner_text": "",
+        "inner_html": "<span class=\"css-1f8zf1f\"><span class=\"css-rlaxw5\"><lazy-image alt=\"\" src=\"//i0.wp.com/post.healthline.com/wp-content/uploads/2021/05/mushroom-coffee-732x549-thumbnail.jpg?w=514\" classname=\"css-1u8c2i8\"></lazy-image></span></span>"
+      },
+      {
+        "href": "https://www.healthline.com/health/sleep/an-ayurvedic-guide-to-sleep",
+        "inner_text": "",
+        "inner_html": "<span class=\"css-1f8zf1f\"><span class=\"css-rlaxw5\"><lazy-image alt=\"\" src=\"//i0.wp.com/post.healthline.com/wp-content/uploads/2021/04/woman-sleeping-day-nap-book-reading-tired-732x549-thumbnail.jpg?w=514\" classname=\"css-1u8c2i8\"></lazy-image></span></span>"
+      },
+      {
+        "href": "https://www.healthline.com/health-news/experts-say-bmi-measurements-are-a-starting-point-not-a-goal",
+        "inner_text": "",
+        "inner_html": "<span class=\"css-1f8zf1f\"><span class=\"css-rlaxw5\"><lazy-image alt=\"\" src=\"//i0.wp.com/post.healthline.com/wp-content/uploads/2021/05/Female_Walking_732x549-thumbnail.jpg?w=514\" classname=\"css-1u8c2i8\"></lazy-image></span></span>"
+      },
+      {
+        "href": "https://www.healthline.com/health/anxiety/best-anxiety-books",
+        "inner_text": "",
+        "inner_html": "<span class=\"css-1f8zf1f\"><span class=\"css-rlaxw5\"><lazy-image alt=\"\" src=\"//i0.wp.com/post.healthline.com/wp-content/uploads/2021/04/midsection_of_man_reading_book_on_train-732x549-thumbnail-1.jpg?w=514\" classname=\"css-1u8c2i8\"></lazy-image></span></span>"
+      },
+      {
+        "href": "https://www.healthline.com/privacy-policy",
+        "inner_text": "privacy",
+        "inner_html": "privacy"
+      },
+      {
+        "href": "https://www.healthline.com/program/healthlinevoices",
+        "inner_text": "VIEW ALL",
+        "inner_html": "View all<!-- --> <div class=\"icon-hl-circle-arrow\"></div>"
+      },
+      {
+        "href": "https://www.healthline.com/health/depression/twloha-suicide-prevention-day-interview",
+        "inner_text": "To Write Love on Her Arms Founder Opens Up About His Own Mental Health Journey",
+        "inner_html": "To Write Love on Her Arms Founder Opens Up About His Own Mental Health Journey"
+      },
+      {
+        "href": "https://www.healthline.com/health/food-nutrition/plant-based-nutrition-fueling-workouts",
+        "inner_text": "Can You Work Out and Still Maintain a Plant-Based Diet? Yes — Here’s How",
+        "inner_html": "Can You Work Out and Still Maintain a Plant-Based Diet? Yes — Here’s How"
+      },
+      {
+        "href": "https://www.healthline.com/health/type-2-diabetes/mila-clarke-buckley-type-2-diabetes-support-app",
+        "inner_text": "When She Couldn’t Find the Type 2 Diabetes Support She Needed, Mila Clarke Buckley Began Helping Others Cope",
+        "inner_html": "When She Couldn’t Find the Type 2 Diabetes Support She Needed, Mila Clarke Buckley Began Helping Others Cope"
+      },
+      {
+        "href": "https://www.healthline.com/health/fitness-nutrition/post-workout-foods-hiit",
+        "inner_text": "5 Delicious Foods to Refuel with After a HIIT Session",
+        "inner_html": "5 Delicious Foods to Refuel with After a HIIT Session"
+      },
+      {
+        "href": "https://www.healthline.com/human-body-maps",
+        "inner_text": "EXPLORE THE HUMAN BODY",
+        "inner_html": "EXPLORE THE HUMAN BODY<span class=\"css-wtza37 icon-hl-chevron-right\"></span>"
+      },
+      {
+        "href": "https://act.healthline.com/lp/100902/?o_id=506&tc=120226&subid=plushcare_site-nav_151&subid2=+where&passthrough_utm_content=site-nav",
+        "inner_text": "FIND AN ONLINE DOCTOR",
+        "inner_html": "FIND AN ONLINE DOCTOR<span class=\"css-wtza37 icon-hl-chevron-right\"></span>"
+      },
+      {
+        "href": "https://www.healthline.com/symptom-checker",
+        "inner_text": "ENTER YOUR SYMPTOM ",
+        "inner_html": "<button class=\"css-1vb2dwh\"><span class=\"css-14ktbsh\"><span class=\"css-1huyk6v\">ENTER YOUR SYMPTOM<!-- --> <span class=\"icon-hl-arrow-right\"></span></span></span></button>"
+      },
+      {
+        "href": "https://www.healthline.com/health-news/how-to-ease-back-into-exercise-safely-after-a-long-break",
+        "inner_text": "",
+        "inner_html": "<span class=\"css-1f8zf1f\"><span class=\"css-rlaxw5\"><lazy-image alt=\"\" src=\"//i0.wp.com/post.healthline.com/wp-content/uploads/2021/04/Female_Working_Out_Bench_732x549-thumbnail.jpg?w=304\" classname=\"css-1u8c2i8\"></lazy-image></span></span>"
+      },
+      {
+        "href": "https://www.healthline.com/health-news/summer-camp-and-covid-19-what-parents-should-know",
+        "inner_text": "",
+        "inner_html": "<span class=\"css-1f8zf1f\"><span class=\"css-rlaxw5\"><lazy-image alt=\"\" src=\"//i0.wp.com/post.healthline.com/wp-content/uploads/2021/04/Child_Mask_Slides_732x549-thumbnail.jpg?w=304\" classname=\"css-1u8c2i8\"></lazy-image></span></span>"
+      },
+      {
+        "href": "https://www.healthline.com/health/mind-body/mindfulness-activities",
+        "inner_text": "",
+        "inner_html": "<span class=\"css-1f8zf1f\"><span class=\"css-rlaxw5\"><lazy-image alt=\"\" src=\"//i0.wp.com/post.healthline.com/wp-content/uploads/2021/04/eating-salad-732x549-thumbnail.jpg?w=304\" classname=\"css-1u8c2i8\"></lazy-image></span></span>"
+      },
+      {
+        "href": "https://www.healthline.com/health/intent-vs-impact",
+        "inner_text": "",
+        "inner_html": "<span class=\"css-1f8zf1f\"><span class=\"css-rlaxw5\"><lazy-image alt=\"\" src=\"//i0.wp.com/post.healthline.com/wp-content/uploads/2021/02/couples-argue-by-their-car-732x549-thumbnail.jpg?w=304\" classname=\"css-1u8c2i8\"></lazy-image></span></span>"
+      },
+      {
+        "href": "https://www.healthline.com/nutrition/vitamins-for-stress",
+        "inner_text": "",
+        "inner_html": "<span class=\"css-1f8zf1f\"><span class=\"css-rlaxw5\"><lazy-image alt=\"\" src=\"//i0.wp.com/post.healthline.com/wp-content/uploads/2019/11/Vitamins_732x549-thumbnail-732x549.jpg?w=304\" classname=\"css-1u8c2i8\"></lazy-image></span></span>"
+      },
+      {
+        "href": "https://www.healthline.com/health/adhd/adhd-meditation",
+        "inner_text": "",
+        "inner_html": "<span class=\"css-1f8zf1f\"><span class=\"css-rlaxw5\"><lazy-image alt=\"\" src=\"//i0.wp.com/post.healthline.com/wp-content/uploads/2021/02/man-male-home-meditation-yoga-732x549-thumbnail.jpg?w=304\" classname=\"css-1u8c2i8\"></lazy-image></span></span>"
+      },
+      {
+        "href": "https://www.healthline.com/health-news/why-allergy-season-is-longer-and-stronger-this-year",
+        "inner_text": "",
+        "inner_html": "<span class=\"css-1f8zf1f\"><span class=\"css-rlaxw5\"><lazy-image alt=\"\" src=\"//i0.wp.com/post.healthline.com/wp-content/uploads/2021/04/Flowers_732x549-thumbnail.jpg?w=304\" classname=\"css-1u8c2i8\"></lazy-image></span></span>"
+      },
+      {
+        "href": "https://www.healthline.com/health/liquid-chlorophyll-benefits-risks",
+        "inner_text": "",
+        "inner_html": "<span class=\"css-1f8zf1f\"><span class=\"css-rlaxw5\"><lazy-image alt=\"\" src=\"//i0.wp.com/post.healthline.com/wp-content/uploads/2020/09/Chlorophyll-732x549-thumbnail-732x549.jpg?w=304\" classname=\"css-1u8c2i8\"></lazy-image></span></span>"
+      },
+      {
+        "href": "https://www.healthline.com/mental-health",
+        "inner_text": "",
+        "inner_html": "<lazy-image src=\"//i0.wp.com/images-prod.healthline.com/hlcmsresource/images/topic_centers/2021-2/Mental-Health-Hub-Pinterest.jpg?w=630\"></lazy-image>"
+      },
+      {
+        "href": "https://www.healthline.com/program/living-with-asthma-in-the-world-today",
+        "inner_text": "",
+        "inner_html": "<lazy-image src=\"//i0.wp.com/images-prod.healthline.com/hlcmsresource/images/topic_centers/2021-2/Dupizent-Asthma600x900-Pinterest.jpg?w=630\"></lazy-image>"
+      },
+      {
+        "href": "https://www.healthline.com/health/mental-health/managing-your-mental-health-during-the-pandemic",
+        "inner_text": "",
+        "inner_html": "<lazy-image src=\"//i0.wp.com/images-prod.healthline.com/hlcmsresource/images/topic_centers/2020-8/Managing-Your-Mental-Health-During-the-Pandemic-600x900-SPOTLIGHT.jpg?w=630\"></lazy-image>"
+      },
+      {
+        "href": "https://www.healthline.com/program/how-to-be-alone",
+        "inner_text": "",
+        "inner_html": "<lazy-image alt=\"How to be alone\" src=\"//i0.wp.com/images-prod.healthline.com/hlcmsresource/images/topic_centers/2021-2/HL-Key_Art-How_To_Be_Alone-600x900-Pinterest.20210514191848051.jpg?w=630\"></lazy-image>"
+      },
+      {
+        "href": "https://www.healthline.com/process",
+        "inner_text": "READ OUR QUALITY GUARANTEE",
+        "inner_html": "<button class=\"css-aiaix6\"><span class=\"css-14ktbsh\"><span class=\"css-1huyk6v\">READ OUR QUALITY GUARANTEE</span></span></button>"
+      },
+      {
+        "href": "https://www.healthline.com/featured-health-topics",
+        "inner_text": "VIEW ALL",
+        "inner_html": "View all<!-- --> <div class=\"icon-hl-circle-arrow\"></div>"
+      },
+      {
+        "href": "http://www.facebook.com/pages/Healthline/173263326992",
+        "inner_text": "",
+        "inner_html": ""
+      },
+      {
+        "href": "http://twitter.com/healthline",
+        "inner_text": "",
+        "inner_html": ""
+      },
+      {
+        "href": "http://pinterest.com/healthline/",
+        "inner_text": "",
+        "inner_html": ""
+      },
+      {
+        "href": "http://www.instagram.com/healthline",
+        "inner_text": "",
+        "inner_html": ""
+      },
+      {
+        "href": "https://flipboard.com/@healthline",
+        "inner_text": "",
+        "inner_html": ""
+      },
+      {
+        "href": "https://www.healthline.com/about",
+        "inner_text": "About Us",
+        "inner_html": "About Us"
+      },
+      {
+        "href": "https://www.healthline.com/health/newsletter-signup?ref=footer",
+        "inner_text": "Newsletters",
+        "inner_html": "Newsletters"
+      },
+      {
+        "href": "https://www.healthline.com/directory/topics?ref=footer",
+        "inner_text": "Health Topics",
+        "inner_html": "Health Topics"
+      },
+      {
+        "href": "https://act.healthline.com/lp/100902/?o_id=506&tc=120226&subid=plushcare_site-nav_151&subid2=%2F&passthrough_utm_content=site-nav",
+        "inner_text": "Find an Online Doctor",
+        "inner_html": "Find an Online Doctor"
+      },
+      {
+        "href": "https://www.healthline.com/about?ref=footer",
+        "inner_text": "Contact Us",
+        "inner_html": "Contact Us"
+      },
+      {
+        "href": "https://www.healthline.com/advertising-policy",
+        "inner_text": "Advertising Policy",
+        "inner_html": "Advertising Policy"
+      },
+      {
+        "href": "https://www.healthline.com/health/privacy-policy?ref=footer",
+        "inner_text": "Privacy Policy",
+        "inner_html": "Privacy Policy"
+      },
+      {
+        "href": "https://www.healthline.com/additional-information",
+        "inner_text": "See additional information",
+        "inner_html": "See additional information"
+      },
+      {
+        "href": "https://www.healthlinemedia.com/?utm_source=healthline.com&utm_medium=site&utm_campaign=footer&utm_content=logo",
+        "inner_text": "",
+        "inner_html": "<svg alt=\"Healthline Media\" width=\"132\" height=\"50\" class=\"css-8arm8m\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 132 50\"><path fill=\"#FFF\" d=\"M30.477 38.313v9.62h3.98V50h-6.36V38.313h2.38zm11.137 0v2.068h-2.548V50h-2.308v-9.62h-2.565v-2.067h7.421zm3.645 0v4.643h3.826v-4.643h2.337V50h-2.337v-4.976h-3.826V50h-2.32V38.313h2.32zm10.4 0v9.62h3.98V50h-6.362V38.313h2.381zm7.69 0V50h-2.12V38.313h2.12zm4.48 0l3.798 7.149v-7.149h2.325V50h-2.22l-3.955-7.447V50H65.47V38.313h2.359zm14.605 0v2.05h-4.13v2.681h4.013v2.032h-4.013v2.874h4.13V50h-6.362V38.313h6.362zm8.654 0l2.213 7.009 2.23-7.009h3.071V50h-2.264v-8.025L93.764 50h-.943l-2.54-8.025V50H88V38.313h3.088zm15.996 0v2.05h-4.13v2.681h4.014v2.032h-4.014v2.874h4.13V50h-6.361V38.313h6.361zm-104.764 0v4.643h3.825v-4.643h2.337V50H6.145v-4.976H2.32V50H0V38.313h2.32zm14.644 0v2.05h-4.13v2.681h4.013v2.032h-4.013v2.874h4.13V50h-6.362V38.313h6.362zm104.434 0V50h-2.12V38.313h2.12zm7.216-.065L132 49.935h-2.377l-.53-2.085h-3.728l-.53 2.085h-2.377l3.386-11.687h2.77zm-16.063 0c1.008 0 1.878.246 2.612.736.733.49 1.293 1.18 1.68 2.068.386.888.579 1.904.579 3.049 0 1.144-.19 2.158-.571 3.04-.381.882-.938 1.568-1.671 2.058-.734.49-1.61.736-2.629.736h-3.611V38.248h3.611zm-88.636 0l3.386 11.687h-2.377l-.53-2.085h-3.728l-.53 2.085h-2.377l3.386-11.687h2.77zm88.787 2.125h-1.377v7.437h1.377c.826 0 1.466-.339 1.92-1.018.452-.678.68-1.576.68-2.692 0-1.161-.224-2.073-.672-2.735-.448-.661-1.09-.992-1.928-.992zm14.394 0l-1.457 5.578h2.915l-1.458-5.578zm-104.698 0l-1.458 5.578h2.915l-1.457-5.578zM64.41.044c2.696-.128 2.3.047 3.785.227 3.92.477 7.448 3 9.744 6.016 1.679 2.204 1.893 4.935 1.835 7.58-.09 4.159-1.486 7.861-4.778 10.56-1.194.98-2.662 1.623-3.389 2.054-4.773 1.914-9.086 1.207-12.91-.525-2.566-1.16-4.286-3.257-5.25-5.988-.533-1.511-.81-3.018-1.112-4.588-.201-1.048-.1-2.166-.043-3.248.029-.556.254-1.101.393-1.65C54.11 4.863 58.62.32 64.411.043zm1.307 5.003l-.046.01-6.204 2.374a.147.147 0 0 0-.067.222l.919 1.272v11.912c0 .081.065.146.146.146h5.259c.08 0 .146-.065.146-.146v-9.013a.395.395 0 0 1 .792 0v9.013c0 .081.065.146.146.146h5.936a.146.146 0 0 0 .131-.211l-.634-1.262v-5.668c0-3.283-2.62-3.74-4.185-3.74-1.043 0-1.859.366-2.186.61v-5.52a.146.146 0 0 0-.199-.136z\"></path></svg>"
+      },
+      {
+        "href": "https://www.healthlinemedia.com/?utm_source=healthline.com&utm_medium=site&utm_campaign=footer&utm_content=about",
+        "inner_text": "About",
+        "inner_html": "About"
+      },
+      {
+        "href": "https://careers.redventures.com/healthline.html",
+        "inner_text": "Careers",
+        "inner_html": "Careers"
+      },
+      {
+        "href": "https://www.healthlinemedia.com/advertise?utm_source=healthline.com&utm_medium=site&utm_campaign=footer&utm_content=advertise",
+        "inner_text": "Advertise with us",
+        "inner_html": "Advertise with us"
+      },
+      {
+        "href": "https://www.medicalnewstoday.com/",
+        "inner_text": "Medical News Today",
+        "inner_html": "Medical News Today"
+      },
+      {
+        "href": "https://www.greatist.com/",
+        "inner_text": "Greatist",
+        "inner_html": "Greatist"
+      },
+      {
+        "href": "https://www.psychcentral.com/",
+        "inner_text": "Psych Central",
+        "inner_html": "Psych Central"
+      },
+      {
+        "href": "https://www.healthonnet.org/HONcode/Conduct.html?HONConduct694855",
+        "inner_text": "",
+        "inner_html": "<div class=\"css-1avdltx\"><lazy-image alt=\"This website is certified by Health On the Net Foundation. Click to verify.\" src=\"//i0.wp.com/www.honcode.ch/HONcode/Seal/HONConduct694855_s.gif?w=102&amp;h=151\" classname=\"css-tdxv2w\"></lazy-image></div>"
+      }
+    ],
+    "social": [
+      {
+        "href": "http://www.facebook.com/pages/Healthline/173263326992",
+        "inner_text": "",
+        "inner_html": ""
+      },
+      {
+        "href": "http://twitter.com/healthline",
+        "inner_text": "",
+        "inner_html": ""
+      },
+      {
+        "href": "http://pinterest.com/healthline/",
+        "inner_text": "",
+        "inner_html": ""
+      },
+      {
+        "href": "http://www.instagram.com/healthline",
+        "inner_text": "",
+        "inner_html": ""
+      }
+    ],
+    "keywords": [
+      {
+        "href": "https://www.healthline.com/privacy-settings",
+        "inner_text": "our partners",
+        "inner_html": "our partners"
+      },
+      {
+        "href": "https://www.healthline.com/privacy-policy",
+        "inner_text": "privacy",
+        "inner_html": "privacy"
+      },
+      {
+        "href": "https://www.healthline.com/health/privacy-policy?ref=footer",
+        "inner_text": "Privacy Policy",
+        "inner_html": "Privacy Policy"
+      }
+    ]
+  },
+  "unsafeForms": [],
+  "browsing_history": [
+    "https://www.healthline.com/"
+  ],
+  "websockets": {},
+  "cookies": [
+    {
+      "name": "_hjid",
+      "value": "874ba983-7053-40fe-baf3-13c729e8f612",
+      "domain": "healthline.com",
+      "path": "/",
+      "expires": 1653061897,
+      "size": 41,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "sameSite": "Lax",
+      "expiresUTC": "2022-05-20T15:51:37.000Z",
+      "expiresDays": 365,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 210490,
+            "lineNumber": 1,
+            "fileName": "https://script.hotjar.com/modules.87b9cf5e358c50dcc8af.js",
+            "functionName": "r.set",
+            "source": "    at r.set (https://script.hotjar.com/modules.87b9cf5e358c50dcc8af.js:1:210490)"
+          },
+          {
+            "columnNumber": 200696,
+            "lineNumber": 1,
+            "fileName": "https://script.hotjar.com/modules.87b9cf5e358c50dcc8af.js",
+            "functionName": "Object.get",
+            "source": "    at Object.get (https://script.hotjar.com/modules.87b9cf5e358c50dcc8af.js:1:200696)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T15:51:37.660Z",
+        "location": "https://www.healthline.com/"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "_hjFirstSeen",
+      "value": "1",
+      "domain": "healthline.com",
+      "path": "/",
+      "expires": 1621527697,
+      "size": 13,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "sameSite": "Lax",
+      "expiresUTC": "2021-05-20T16:21:37.000Z",
+      "expiresDays": 0.02,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 210490,
+            "lineNumber": 1,
+            "fileName": "https://script.hotjar.com/modules.87b9cf5e358c50dcc8af.js",
+            "functionName": "r.set",
+            "source": "    at r.set (https://script.hotjar.com/modules.87b9cf5e358c50dcc8af.js:1:210490)"
+          },
+          {
+            "columnNumber": 217440,
+            "lineNumber": 1,
+            "fileName": "https://script.hotjar.com/modules.87b9cf5e358c50dcc8af.js",
+            "functionName": "Object.setFirstSeen",
+            "source": "    at Object.setFirstSeen (https://script.hotjar.com/modules.87b9cf5e358c50dcc8af.js:1:217440)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T15:51:37.660Z",
+        "location": "https://www.healthline.com/"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "_hjAbsoluteSessionInProgress",
+      "value": "0",
+      "domain": "healthline.com",
+      "path": "/",
+      "expires": 1621527697,
+      "size": 29,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "sameSite": "Lax",
+      "expiresUTC": "2021-05-20T16:21:37.000Z",
+      "expiresDays": 0.02,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 210490,
+            "lineNumber": 1,
+            "fileName": "https://script.hotjar.com/modules.87b9cf5e358c50dcc8af.js",
+            "functionName": "r.set",
+            "source": "    at r.set (https://script.hotjar.com/modules.87b9cf5e358c50dcc8af.js:1:210490)"
+          },
+          {
+            "columnNumber": 85770,
+            "lineNumber": 1,
+            "fileName": "https://script.hotjar.com/modules.87b9cf5e358c50dcc8af.js",
+            "functionName": "Object.<anonymous>",
+            "source": "    at Object.<anonymous> (https://script.hotjar.com/modules.87b9cf5e358c50dcc8af.js:1:85770)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T15:51:37.670Z",
+        "location": "https://www.healthline.com/"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "_hjTLDTest",
+      "value": "1",
+      "domain": "healthline.com",
+      "path": "/",
+      "expires": -1,
+      "size": 11,
+      "httpOnly": false,
+      "secure": false,
+      "session": true,
+      "sameSite": "Lax",
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 64893,
+            "lineNumber": 1,
+            "fileName": "https://script.hotjar.com/modules.87b9cf5e358c50dcc8af.js",
+            "functionName": "Object.<anonymous>",
+            "source": "    at Object.<anonymous> (https://script.hotjar.com/modules.87b9cf5e358c50dcc8af.js:1:64893)"
+          },
+          {
+            "columnNumber": 22122,
+            "lineNumber": 1,
+            "fileName": "https://script.hotjar.com/modules.87b9cf5e358c50dcc8af.js",
+            "functionName": "Object._checkCookieAccessToDomain",
+            "source": "    at Object._checkCookieAccessToDomain (https://script.hotjar.com/modules.87b9cf5e358c50dcc8af.js:1:22122)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T15:51:37.658Z",
+        "location": "https://www.healthline.com/"
+      },
+      "firstPartyStorage": true
+    }
+  ],
+  "localStorage": {
+    "https://www.healthline.com": {
+      "_hjid": {
+        "value": "874ba983-7053-40fe-baf3-13c729e8f612",
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 210618,
+              "lineNumber": 1,
+              "fileName": "https://script.hotjar.com/modules.87b9cf5e358c50dcc8af.js",
+              "functionName": "r.set",
+              "source": "    at r.set (https://script.hotjar.com/modules.87b9cf5e358c50dcc8af.js:1:210618)"
+            },
+            {
+              "columnNumber": 200696,
+              "lineNumber": 1,
+              "fileName": "https://script.hotjar.com/modules.87b9cf5e358c50dcc8af.js",
+              "functionName": "Object.get",
+              "source": "    at Object.get (https://script.hotjar.com/modules.87b9cf5e358c50dcc8af.js:1:200696)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T15:51:37.660Z",
+          "location": "https://www.healthline.com/"
+        }
+      }
+    }
+  },
+  "beacons": [
+    {
+      "url": "https://i0.wp.com/images-prod.healthline.com/hlcmsresource/images/topic_centers/2021-2/HL-Key_Art-How_To_Be_Alone-600x900-Pinterest.20210514191848051.jpg?w=630",
+      "query": {
+        "w": 630
+      },
+      "filter": "-pinterest.",
+      "listName": "fanboy-annoyance.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.healthline.com/",
+            "source": "requested from https://www.healthline.com/ and matched with fanboy-annoyance.txt filter -pinterest."
+          }
+        ],
+        "timestamp": "2021-05-20T15:51:41.684Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://i0.wp.com/images-prod.healthline.com/hlcmsresource/images/topic_centers/2021-2/Dupizent-Asthma600x900-Pinterest.jpg?w=630",
+      "query": {
+        "w": 630
+      },
+      "filter": "-pinterest.",
+      "listName": "fanboy-annoyance.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.healthline.com/",
+            "source": "requested from https://www.healthline.com/ and matched with fanboy-annoyance.txt filter -pinterest."
+          }
+        ],
+        "timestamp": "2021-05-20T15:51:41.683Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://i0.wp.com/images-prod.healthline.com/hlcmsresource/images/topic_centers/2021-2/Mental-Health-Hub-Pinterest.jpg?w=630",
+      "query": {
+        "w": 630
+      },
+      "filter": "-pinterest.",
+      "listName": "fanboy-annoyance.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.healthline.com/",
+            "source": "requested from https://www.healthline.com/ and matched with fanboy-annoyance.txt filter -pinterest."
+          }
+        ],
+        "timestamp": "2021-05-20T15:51:41.682Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://pavlov-prod.healthline.com/api/metrics",
+      "query": null,
+      "filter": "||healthline.com/api/metrics",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.healthline.com/",
+            "source": "requested from https://www.healthline.com/ and matched with easyprivacy.txt filter ||healthline.com/api/metrics"
+          }
+        ],
+        "timestamp": "2021-05-20T15:51:38.401Z"
+      },
+      "occurrances": 2
+    },
+    {
+      "url": "https://siteintercept.qualtrics.com/WRSiteInterceptEngine/Targeting.php?Q_ZoneID=ZN_3aPhtRmUI7fNkWh&Q_CLIENTVERSION=1.51.0&Q_CLIENTTYPE=web",
+      "query": {
+        "Q_ZoneID": "ZN_3aPhtRmUI7fNkWh",
+        "Q_CLIENTVERSION": "1.51.0",
+        "Q_CLIENTTYPE": "web"
+      },
+      "filter": "||qualtrics.com^$third-party",
+      "listName": "fanboy-annoyance.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.healthline.com/",
+            "source": "requested from https://www.healthline.com/ and matched with fanboy-annoyance.txt filter ||qualtrics.com^$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T15:51:37.701Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://vars.hotjar.com/box-21ccaa45726c0f3c8c458f7a87eb2298.html",
+      "query": null,
+      "filter": "||hotjar.com^$third-party",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "",
+            "source": "requested from  and matched with easyprivacy.txt filter ||hotjar.com^$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T15:51:37.564Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://script.hotjar.com/modules.87b9cf5e358c50dcc8af.js",
+      "query": null,
+      "filter": "||hotjar.com^$third-party",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.healthline.com/",
+            "source": "requested from https://www.healthline.com/ and matched with easyprivacy.txt filter ||hotjar.com^$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T15:51:37.512Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://static.hotjar.com/c/hotjar-434179.js?sv=6",
+      "query": {
+        "sv": 6
+      },
+      "filter": "||hotjar.com^$third-party",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.healthline.com/",
+            "source": "requested from https://www.healthline.com/ and matched with easyprivacy.txt filter ||hotjar.com^$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T15:51:37.414Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://zn3aphtrmui7fnkwh-redventures.siteintercept.qualtrics.com/SIE/?Q_ZID=ZN_3aPhtRmUI7fNkWh",
+      "query": {
+        "Q_ZID": "ZN_3aPhtRmUI7fNkWh"
+      },
+      "filter": "||qualtrics.com^$third-party",
+      "listName": "fanboy-annoyance.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.healthline.com/",
+            "source": "requested from https://www.healthline.com/ and matched with fanboy-annoyance.txt filter ||qualtrics.com^$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T15:51:37.412Z"
+      },
+      "occurrances": 1
+    }
+  ],
+  "hosts": {
+    "requests": {
+      "firstParty": [
+        "healthline.com"
+      ],
+      "thirdParty": [
+        "www.healthline.com",
+        "assets.medicalnewstoday.com",
+        "js.sentry-cdn.com",
+        "i0.wp.com",
+        "pavlov-prod.healthline.com",
+        "zn3aphtrmui7fnkwh-redventures.siteintercept.qualtrics.com",
+        "static.hotjar.com",
+        "script.hotjar.com",
+        "vars.hotjar.com",
+        "siteintercept.qualtrics.com",
+        "s3-us-west-2.amazonaws.com",
+        "images-prod.healthline.com"
+      ]
+    },
+    "beacons": {
+      "firstParty": [],
+      "thirdParty": [
+        "pavlov-prod.healthline.com",
+        "vars.hotjar.com",
+        "script.hotjar.com",
+        "static.hotjar.com"
+      ]
+    },
+    "cookies": {
+      "firstParty": [
+        "healthline.com"
+      ],
+      "thirdParty": []
+    },
+    "localStorage": {
+      "firstParty": [],
+      "thirdParty": [
+        "www.healthline.com"
+      ]
+    },
+    "links": {
+      "firstParty": [],
+      "thirdParty": [
+        "www.healthline.com",
+        "activation.healthline.com",
+        "act.healthline.com",
+        "www.facebook.com",
+        "twitter.com",
+        "pinterest.com",
+        "www.instagram.com",
+        "flipboard.com",
+        "www.healthlinemedia.com",
+        "careers.redventures.com",
+        "www.medicalnewstoday.com",
+        "www.greatist.com",
+        "www.psychcentral.com",
+        "www.healthonnet.org"
+      ]
+    }
+  }
+}

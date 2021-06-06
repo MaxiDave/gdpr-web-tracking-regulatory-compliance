@@ -1,0 +1,160 @@
+{
+  "title": "Website Evidence Collection",
+  "task_description": null,
+  "uri_ins": "https://mediamarkt.es",
+  "uri_refs": [
+    "https://mediamarkt.es"
+  ],
+  "uri_dest": "https://www.mediamarkt.es/",
+  "uri_redirects": [
+    "https://mediamarkt.es/"
+  ],
+  "secure_connection": {
+    "https_support": true,
+    "redirects": [
+      "https://www.mediamarkt.es/"
+    ],
+    "https_redirect": true
+  },
+  "host": "mediamarkt.es",
+  "script": {
+    "host": "sfod",
+    "version": {
+      "npm": "1.0.0",
+      "commit": null
+    },
+    "cmd_args": "-q --overwrite https://mediamarkt.es -- --ignore-certificate-errors",
+    "environment": {
+      "CHROME_DESKTOP": "code-url-handler.desktop"
+    },
+    "node_version": "v14.17.0"
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "HeadlessChrome/80.0.3987.0",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3617.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "5.8.0-53-generic"
+    },
+    "extra_headers": {},
+    "preset_cookies": {}
+  },
+  "start_time": "2021-05-20T15:56:36.054Z",
+  "end_time": "2021-05-20T15:56:42.312Z",
+  "links": {
+    "firstParty": [],
+    "thirdParty": [
+      {
+        "href": "https://www.mediamarkt.es/index.html",
+        "inner_text": "",
+        "inner_html": "<img alt=\"logo\" class=\"logo\" src=\"data:image/svg+xml;base64,PHN2ZyBpZD0iRWJlbmVfMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2aWV3Qm94PSIwIDAgNjI4IDg1LjgiPjxzdHlsZT4uc3Qwe2ZpbGw6I2RmMDAwMH08L3N0eWxlPjxwYXRoIGNsYXNzPSJzdDAiIGQ9Ik01MDcuNiA1NmMtMiA2LjYtOC4xIDEzLTE0LjIgMTQuNi00LjcuOC04LjEuMi0xMC40LTEuNC0yLjUtMS43LTQtNC43LTQuNy03LjUtLjItMS0uMy0yLS4zLTIuOSAwLTYuMSAzLjItMTIgOS4xLTE2LjQgMy40LTIuNCA4LTMuMyAxMi0yLjQgMi4zLjUgNS40IDEuOSA3LjQgNS41IDEuMSAxLjkgMS42IDQuNCAxLjYgNi44IDAgMS4yLS4xIDIuNS0uNSAzLjdtLTIzNS4zIDBjLTEuOSA2LjctNy42IDEyLjktMTMuNyAxNC40LTQuNS45LTguNi40LTEwLjktMS4yLTIuNS0xLjctMy45LTQuNi00LjctNy41LS4zLTEuMy0uMy0yLS4zLTIuOSAwLTYuMSAzLjItMTIgOS4xLTE2LjQgMy40LTIuNCA4LTMuMyAxMi0yLjQgMi4zLjUgNS40IDEuOSA3LjQgNS41IDEuMSAxLjkgMS43IDQuNCAxLjcgNi44LS4xIDEuMi0uMyAyLjUtLjYgMy43TTUyMyAyOS4xYzAtLjQtLjEtLjgtLjQtMS4xLS4zLS40LS44LS41LTEuMi0uNUg1MTNjLS44IDAtMS40LjUtMS42IDEuMmwtLjYgMy4yYy0xLjktMS43LTMuNy0yLjgtNi40LTMuOGwtLjgtLjRjLS4xIDAtLjItLjEtLjMtLjEtOS4xLTItMTguMi44LTI1LjcgNy44LTMuNyAzLjUtNi41IDcuNS04LjQgMTEuOUw0NzcuNCAyYy4xLS40IDAtLjgtLjItMS4xLS4yLS4zLS42LS41LTEtLjVINDY1Yy0uMyAwLS43LjItLjkuNSAwIDAtMzMuNiA0NC45LTM4LjkgNTAuOSAxLjktNy41IDguOS00OS44IDguOS00OS44di0uM2MwLS4zLS4xLS43LS4zLS45LS4yLS4zLS42LS41LS45LS41aC0xMS44Yy0uNCAwLS43LjItLjkuNUwzNjMuOSA2N2MtLjktOS42LTUuNS0yMC4xLTUuNS0yMC4xLTcuNC0xNS40LTIzLjctMjAuNi0zMy4zLTEyLjMtLjUuMi0xLjEuNC0xLjUuNyA3LjMtMTAuMiAyNC4xLTkuNCAzNS4xIDMuNCAwIDAgNSA2LjEgOC42IDE1LjIgMS0zLjIgMS41LTYuNSAxLjctOS45LTUuOS04LjEtMTIuNS0xMi44LTEyLjUtMTIuOC0xMy44LTkuNC0zMC4xLTUuOS0zNC43IDUuNy0uNS42LS45IDEuMi0xLjIgMS45IDEuMy0xMi42IDE2LjMtMjAuNCAzMi4xLTE0LjkgMCAwIDcuNyAyLjkgMTUuNCA5LjJsLS4zLTEuNWMtLjgtMy4zLTIuMS02LjUtMy42LTkuNS05LTQtMTctNC43LTE3LTQuNy0xNy0xLjItMjkuNyAxMC44LTI3LjEgMjMuNnYuN2MwIC40IDAgLjguMSAxLjEtNS43LTExLjYgMy41LTI2LjUgMjAuMi0yOS44IDAgMCA3LjgtMS40IDE3LjUuMS0yLjQtMi42LTUuMi00LjktOC4zLTYuOS05LjcgMS4yLTE2LjkgNC41LTE2LjkgNC41LTE1LjQgNy42LTIwLjQgMjQuNS0xMS44IDM0LjIuMy42LjYgMS4xIDEgMS42LTEwLjgtNy4xLTEwLjItMjQuNyAyLjctMzYuMSAwIDAgNi4xLTUuMSAxNS4xLTguOEMzMzUuOS42IDMzMiAwIDMyOC4xIDBjLTcuNSA1LjgtMTEuOSAxMi4yLTExLjkgMTIuMi05LjYgMTQuNS01LjYgMzEuOCA2LjkgMzUuN3YuMWwuMi4xYy40LjMuOC41IDEuMi43LTEyLjgtLjctMjAuOS0xNi4zLTE1LjQtMzIuNyAwIDAgMi42LTcuMSA4LjMtMTQuNi0zLjIuOS02LjMgMi4xLTkuMiAzLjctMy43IDguOS00LjQgMTYuNi00LjQgMTYuNi0xLjIgMTcuMiAxMC41IDMwIDIyLjkgMjcuNWguOGMuNCAwIC45IDAgMS4zLS4xLTExLjQgNS43LTI2LTMuNi0yOS4zLTIwLjUgMCAwLTEuMy03LjcgMC0xNy4yLTIuNyAyLjYtNS4xIDUuNy03LjEgOS4xIDEuMiA5LjQgNC40IDE2LjMgNC40IDE2LjMgNy41IDE1LjcgMjQuMyAyMC44IDMzLjkgMTEuOGguMWwuMi0uMWMuNC0uMi44LS41IDEuMi0uOC03IDExLTI0LjQgMTAuNS0zNS42LTIuNiAwIDAtNS41LTcuNC04LjUtMTYtLjEtLjMtLjMtLjgtLjYtMS4xLS4zLS4zLS44LS41LTEuMy0uNWgtOC40Yy0uOCAwLTEuNC40LTEuOCAxLjMgMCAwLS41IDEtLjcgMy0xLjktMS43LTQtMi43LTYtMy41IDAgMC0xLjEtLjQtMS4yLS40LTkuMS0yLjItMTguMy43LTI1LjggNy44LTQuNCA0LjEtNy41IDktOS4zIDE0LjQgMCAwLS4xLjEtLjIuM2wzLjgtMjAuOGMuMS0uNS0uMS0xLS40LTEuMy0uMy0uNC0uOC0uNi0xLjItLjZoLTkuM2MtLjggMC0xLjUuNi0xLjYgMS40TDIxNC43IDgwYy0uMS41IDAgMSAuNCAxLjMuMy40LjguMyAxLjIuM2g5LjNjLjggMCAxLjUtLjMgMS42LTEuMWwzLjctMjAuOGMwIC4xLjIgNC40LjYgNi41IDEuNCA3LjggOC4yIDE1LjEgMTUuNiAxNi42IDYuNCAxLjIgMTMuMy0uNSAyMC4xLTQuNy0uMS43LS4zIDEuOS0uMyAxLjl2LjNjMCAuNC4xLjYuMy45LjMuNC44LjUgMS4zLjVoOC4zYy44IDAgMS41LS4zIDEuNi0xLjFsNy4zLTQwLjNjNS41IDYuNiAxMi43IDEyLjMgMTIuNyAxMi4zIDEzLjggOS41IDMwLjMgNS45IDM0LjgtNS45LjQtLjUuOC0xLjEgMS4xLTEuNy0xLjMgMTIuNi0xNi4zIDIwLjQtMzIuMSAxNC44IDAgMC03LTIuNi0xNC40LTguNC4xLjMuMS42LjIuOC45IDMuNSAyLjEgNi43IDMuOCA5LjggOC42IDMuNiAxNiA0LjMgMTYgNC4zIDE2LjkgMS4yIDI5LjUtMTAuNyAyNy4xLTIzLjMuMS0uNC4xLS44LjEtMS4zdi0uNWM1LjMgMTEuNi0zLjggMjYuMS0yMC40IDI5LjQgMCAwLTcuNCAxLjMtMTYuNiAwIDIuMiAyLjQgNC43IDQuNSA3LjUgNi4zIDkuNi0xLjIgMTYuNy00LjUgMTYuNy00LjUgMTUtNy40IDIwLjItMjMuOCAxMi4zLTMzLjYtLjMtLjctLjctMS40LTEuMS0xLjkgMTAuMyA3LjMgOS42IDI0LjYtMy4xIDM1LjggMCAwLTYuMiA1LjItMTUuMyA4LjkgMy42IDEuMiA3LjMgMiAxMS4xIDIuMSA3LjktNiAxMi42LTEyLjcgMTIuNi0xMi43IDkuNi0xNC41IDUuNi0zMS43LTYuOC0zNS43LS41LS4zLTEtLjYtMS42LS44IDEyLjkuNyAyMSAxNi4yIDE1LjUgMzIuNyAwIDAtMi44IDcuNy05IDE1LjZsMS41LS4zYzMuMS0uOCA2LjEtMiA4LjktMy40QzM1MSA3MCAzNTEuNyA2MiAzNTEuNyA2MmMxLjItMTYuOS0xMC4xLTI5LjYtMjIuNC0yNy42LS41LS4xLTEtLjItMS41LS4yaC0uM2MxMS4zLTUgMjUuNCA0LjMgMjguNiAyMC45IDAgMCAxLjkgNy45LjUgMTcuMi0uMyAxLjMtLjggMy4zLTEuOSA1LjQtLjMuNi0uNyAxLjMtMS4yIDIuMXYuMWMtLjIuMy0uMi44LS4xIDEuMi4yLjQuNi43IDEuMS43aDEzLjJjLjQgMCAuNy0uMiAxLS40IDAgMCA0My42LTQ3LjYgNDguNi01My43LTEuOSAxMC4xLTUuOCAzNC40LTkuMyA1Mi42di4zYzAgLjMuMS42LjMuOC4yLjMuNi41IDEgLjVoMTAuNGMuNCAwIC43LS4yLjktLjQgMCAwIDM1LjEtNDcuNSA0MC4zLTUzLjctMi4yIDEwLjEtNS44IDM0LjYtOS40IDUyLjZ2LjNjMCAuMy4xLjUuMy44LjIuMy42LjUuOS41aDEwLjJjLjYgMCAxLS40IDEuMi0xbDMuOC0yMi4xdjEuNGMwIDIuMS0uNyA0LjItLjQgNi4zIDEuNCA3LjggOC4yIDE1LjEgMTUuNiAxNi42IDYuNCAxLjIgMTMuMy0uNSAyMC4xLTQuNy0uMS43LS4zIDEuOS0uMyAxLjl2LjNjMCAuNC4xLjcuNCAxIC4zLjQuOC4zIDEuMi4zaDguM2MuOCAwIDEuNS0uMyAxLjYtMS4xbDcuNS00MC41IDEuMS0xMS4zem01OS4xIDQ4LjFjLTMuNy02LjEtMTQuMy0yMy44LTE1LjMtMjUuMyAxLjMtMS41IDE0LjUtMTcuOSAxNy4yLTIxLjFsLTEuMiA2LjNjLS4xLjUgMCAxIC4zIDEuMy4zLjQuOC42IDEuMi42aDQuNmMtLjQgMi45LTUuNCAyOS42LTYuOCAzOC4ybTMyLjMtNDkuMWMtLjMtLjQtLjgtLjYtMS4yLS42aC05LjRjLjUtMi45IDIuNi0xNC4xIDIuNi0xNC4xdi0uM2MwLS40LS4xLS44LS40LTEuMS0uMy0uNC0uOC0uNi0xLjItLjZoLTkuM2MtLjggMC0xLjUuNi0xLjYgMS40IDAgMC0yLjMgMTIuNS0yLjcgMTQuN0g1ODZjLS42IDAtMS4xLjItMS40LjctLjMtLjUtLjgtLjctMS4zLS43SDU3Mi42Yy0uNSAwLS45LjItMS4yLjUgMCAwLTcuNiA5LjctMTIgMTQuNiAxLjMtNy43IDUuMy0yOS4yIDUuMy0yOS4ydi0uM2MwLS40LS4xLS44LS40LTEuMS0uMy0uNC0uOC0uNi0xLjItLjZoLTkuMmMtLjggMC0xLjUuNi0xLjYgMS40LS4yIDEuMy0xLjUgNy4zLTIuNyAxNC44di0uMWMtLjMtLjQtLjgtLjctMS4zLS43LTMuOC4xLTguMSAxLjctMTEuMSAzLjdsLjItMS4yYy4xLS41IDAtMS0uMy0xLjMtLjMtLjQtLjgtLjUtMS4yLS41aC04LjRjLS44IDAtMS40LjUtMS42IDEuMmwtLjIgMS4zLTkgNDkuOGMtLjEuNS4xLjkuNCAxLjMuMy40LjguNiAxLjMuNWg4Yy44IDAgMS40LS41IDEuNi0xLjNsNi4yLTMwLjljMi03LjggNy4xLTEwLjIgMTEuNy0xMC44LjIgMCAxLjIgMCAxLjMtLjEtMy4xIDE4LjctNi44IDQwLjktNi44IDQxLjMtLjEuNS4xLjkuNCAxLjMuMy40LjguNiAxLjIuNmg5Yy43IDAgMS4zLS40IDEuNS0xLjEuMy0uOSAyLjYtMTMuNiAzLjktMjEuMyAzLjMgNS4yIDEzLjEgMjEuNyAxMy4xIDIxLjcuMy41LjguNyAxLjMuN2gxMC4xYy4yIDAgLjQtLjIuNi0uMy4yLjEuNS4zLjcuM2gxMC41Yy44IDAgMS40LS42IDEuNi0xLjMgMCAwIDcuMS0zOC44IDcuNS00MS4zaDEwLjFjLjggMCAxLjUtLjYgMS42LTEuNGwxLjQtOC4zdi0uM2MtLjItLjQtLjMtLjctLjUtMU0yMDYuMyA1Mi4zYzAgMS42LS4yIDIuNS0uNSAzLjctMS43IDYuOC03LjggMTMtMTMuOSAxNC41LTQuNy45LTguMy4zLTEwLjctMS4yLTIuNS0xLjgtNC4xLTQuNi00LjctNy41LS4zLTEuMi0uMy0yLS4zLTMgMC02LjEgMy40LTEyIDkuMy0xNi41IDMuNC0yLjQgOC0zLjMgMTItMi40IDIuMy41IDUuMSAyLjEgNy4yIDUuNiAxLjEgMS44IDEuNyA0LjMgMS42IDYuOG0tNzcuNy00LjFjMi41LTQuOSA3LjgtNy44IDEyLjQtOC41IDUtLjQgNy4yLjkgOS40IDIuOCAyIDIgMi45IDMuOSAzLjEgNS43LTIuNi4xLTIxLjEgMC0yNC45IDBtOTUuMi0zNi4xYy0uMy0uNC0uOC0uNi0xLjItLjZoLTguNGMtLjggMC0xLjQuNi0xLjYgMS4zIDAgMC0yLjkgMTQuMi0zLjkgMTguOS0xLjktMS43LTQuMS0yLjctNi4xLTMuNmwtLjgtLjRjLS4xIDAtLjItLjEtLjMtLjEtOS4xLTItMTguMy44LTI1LjcgNy44LTQuNCA0LjEtNy42IDktOS40IDE0LjQtLjItNC41LTEuNC04LjgtMy0xMiAwIDAgMC0uMS0uMS0uMS00LjQtNy40LTExLjctMTEtMjEuMi0xMC41aC0uMWMtMTAuNSAxLjMtMjEgOC40LTI2LjEgMTguNS0uMS4yLS4yLjMtLjIuNWw4LTQ0LjJjLjEtLjQgMC0uOC0uMi0xLjEtLjItLjMtLjYtLjUtMS0uNWgtMTAuOWMtLjMgMC0uNy4yLS45LjQgMCAwLTMzLjkgNDQuOC0zOS4yIDUwLjggMS42LTcuNiA4LjgtNDkuOCA4LjgtNDkuOHYtLjNjMC0uMy0uMS0uNi0uMy0uOC0uMi0uMy0uNi0uNS0uOS0uNUg2OC41Yy0uMyAwLS43LjItLjkuNUwuMyA3OS41Yy0uMy40LS40LjktLjIgMS4zcy42LjggMS4xLjhoMTMuNWMuNCAwIC43LS4yIDEtLjUgMCAwIDQyLjYtNDkuMSA0Ny43LTU1LjJDNjEuNSAzNiA1Ny41IDYxLjggNTMuNiA4MHYuM2MwIC4zLjEuNi4zLjguMi4zLjYuNSAxIC41aDEwLjRjLjQgMCAuNy0uMi45LS41IDAgMCAzNS40LTQ5IDQwLjYtNTUuMi0yLjIgMTAuMS01LjUgMzYuMi05LjggNTQuMnYuM2MwIC4zLjEuNS4zLjguMi4zLjYuNSAxIC41aDEwYy42IDAgMS0uNCAxLjItMWwzLjgtMjAuOGMwIDQuNS44IDguOCAyLjcgMTIuNCAzLjcgNi42IDEwLjQgMTAuNiAxOC40IDEwLjkgMTEuNSAwIDIyLjUtNyAyNy4zLTE3LjQuMi0uNS4yLTEuMS0uMS0xLjYtLjMtLjUtLjgtLjgtMS40LS44aC04LjZjLS41IDAtLjkuMi0xLjIuNi00LjEgNC42LTguNyA3LTEzLjYgNy4yLTUgLjEtOS40LTIuNy0xMS4yLTcuMy0uMS0uMi0uMi0uNi0uMi0uNi0uMy0uOS0uNS0xLjctLjUtMi4zIDAtLjIgMC0uMy4xLS41aDM4LjZjLjQgMCAuOC0uMiAxLjEtLjQgMCAyLjEuMSA0LjIuNSA2LjMgMS40IDcuOCA4LjIgMTUuMSAxNS42IDE2LjYgNi40IDEuMiAxMy4zLS41IDIwLjEtNC43LS4xLjctLjMgMS45LS4zIDEuOXYuM2MwIC40LjEuNy40IDEgLjMuNC44LjMgMS4yLjNoOC4zYy44IDAgMS41LS4zIDEuNi0xLjFsMTIuMi02Ny4yYzAtLjYtLjItMS4xLS41LTEuNG0yLjcgMTMuOWg5LjNjLjggMCAxLjUtLjggMS42LTEuNmwyLTExYy4xLS41IDAtMS0uMy0xLjMtLjMtLjQtLjgtLjYtMS4yLS42aC05LjNjLS44IDAtMS41LjYtMS42IDEuNGwtMS45IDEwLjljLS4xLjUgMCAxLjIuMyAxLjYuMS4zLjYuNiAxLjEuNm0zODYuNy05LjVoMS40Yy40IDAgMS4yLS4xIDEuMi0uOSAwLS40LS4zLS44LTEuMS0uOGgtMS41djEuN3ptMCAzLjVoLTEuM3YtNi4yaDIuOWMuNCAwIDIuMyAwIDIuMyAxLjkgMCAxLjItLjggMS41LTEuMSAxLjdsMS4xIDIuN2gtMS40bC0xLTIuNWgtMS41VjIwem0xLjEgMS43YzIuNiAwIDQuNy0yLjIgNC43LTQuOCAwLTIuNy0yLjEtNC44LTQuNy00LjhzLTQuNyAyLjEtNC43IDQuOGMwIDIuNiAyLjEgNC44IDQuNyA0LjhtMC0xMC42YzMuMSAwIDUuNyAyLjUgNS43IDUuOCAwIDMuMi0yLjUgNS44LTUuNyA1LjhzLTUuNy0yLjYtNS43LTUuOGMwLTMuMyAyLjUtNS44IDUuNy01LjgiLz48L3N2Zz4=\" width=\"200\">"
+      }
+    ],
+    "social": [],
+    "keywords": []
+  },
+  "unsafeForms": [],
+  "browsing_history": [
+    "https://www.mediamarkt.es/"
+  ],
+  "websockets": {},
+  "cookies": [
+    {
+      "name": "cf_chl_prog",
+      "value": "b",
+      "domain": "www.mediamarkt.es",
+      "path": "/",
+      "expires": 1621529800,
+      "size": 12,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2021-05-20T16:56:40.000Z",
+      "expiresDays": 0.04,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 5944,
+            "lineNumber": 1,
+            "fileName": "https://www.mediamarkt.es/cdn-cgi/challenge-platform/h/g/orchestrate/captcha/v1?ray=6526c187e9bbff4c",
+            "functionName": "h",
+            "source": "    at h (https://www.mediamarkt.es/cdn-cgi/challenge-platform/h/g/orchestrate/captcha/v1?ray=6526c187e9bbff4c:1:5944)"
+          },
+          {
+            "columnNumber": 38127,
+            "lineNumber": 1,
+            "fileName": "https://www.mediamarkt.es/cdn-cgi/challenge-platform/h/g/orchestrate/captcha/v1?ray=6526c187e9bbff4c",
+            "functionName": "d.<computed>",
+            "source": "    at d.<computed> (https://www.mediamarkt.es/cdn-cgi/challenge-platform/h/g/orchestrate/captcha/v1?ray=6526c187e9bbff4c:1:38127)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T15:56:40.606Z",
+        "location": "https://www.mediamarkt.es/"
+      },
+      "firstPartyStorage": false
+    },
+    {
+      "name": "cf_chl_seq_b2c9c40b4611fb5",
+      "value": "83b78f9962995f2",
+      "domain": "www.mediamarkt.es",
+      "path": "/cdn-cgi/challenge-platform/h/g/flow/ov1/0.6045815073578729:1621526002:37a17a2e492c71218892ab5ac0ff5a38e447feb6aef5a32e64a9bf38d34455ca/6526c187e9bbff4c",
+      "expires": -1,
+      "size": 41,
+      "httpOnly": true,
+      "secure": true,
+      "session": true,
+      "sameSite": "Strict",
+      "firstPartyStorage": false
+    },
+    {
+      "name": "abhomeab",
+      "value": "B",
+      "domain": "mediamarkt.es",
+      "path": "/",
+      "expires": -1,
+      "size": 9,
+      "httpOnly": false,
+      "secure": false,
+      "session": true,
+      "firstPartyStorage": true
+    }
+  ],
+  "localStorage": {},
+  "beacons": [],
+  "hosts": {
+    "requests": {
+      "firstParty": [
+        "mediamarkt.es"
+      ],
+      "thirdParty": [
+        "www.mediamarkt.es",
+        "hcaptcha.com",
+        "newassets.hcaptcha.com"
+      ]
+    },
+    "beacons": {
+      "firstParty": [],
+      "thirdParty": []
+    },
+    "cookies": {
+      "firstParty": [
+        "mediamarkt.es"
+      ],
+      "thirdParty": [
+        "www.mediamarkt.es"
+      ]
+    },
+    "localStorage": {
+      "firstParty": [],
+      "thirdParty": []
+    },
+    "links": {
+      "firstParty": [],
+      "thirdParty": [
+        "www.mediamarkt.es"
+      ]
+    }
+  }
+}

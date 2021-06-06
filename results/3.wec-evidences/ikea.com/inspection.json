@@ -1,0 +1,839 @@
+{
+  "title": "Website Evidence Collection",
+  "task_description": null,
+  "uri_ins": "http://ikea.com",
+  "uri_refs": [
+    "http://ikea.com"
+  ],
+  "uri_dest": "https://www.ikea.com/",
+  "uri_redirects": [
+    "http://ikea.com/",
+    "http://www.ikea.com/"
+  ],
+  "secure_connection": {
+    "https_support": false,
+    "https_error": "RequestError: Error: Client network socket disconnected before secure TLS connection was established",
+    "redirects": [
+      "http://www.ikea.com/",
+      "https://www.ikea.com/"
+    ],
+    "https_redirect": true
+  },
+  "host": "ikea.com",
+  "script": {
+    "host": "sfod",
+    "version": {
+      "npm": "1.0.0",
+      "commit": null
+    },
+    "cmd_args": "-q --overwrite http://ikea.com -- --ignore-certificate-errors",
+    "environment": {
+      "CHROME_DESKTOP": "code-url-handler.desktop"
+    },
+    "node_version": "v14.17.0"
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "HeadlessChrome/80.0.3987.0",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3617.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "5.8.0-53-generic"
+    },
+    "extra_headers": {},
+    "preset_cookies": {}
+  },
+  "start_time": "2021-05-20T15:27:34.716Z",
+  "end_time": "2021-05-20T15:27:53.551Z",
+  "links": {
+    "firstParty": [],
+    "thirdParty": [
+      {
+        "href": "https://www.ikea.com/global/en/",
+        "inner_text": "Skip to main content",
+        "inner_html": "Skip to main content"
+      },
+      {
+        "href": "https://www.ikea.com/",
+        "inner_text": "Go to IKEA.com",
+        "inner_html": "<span class=\"sr-only svelte-1xg26gi\">Go to IKEA.com</span> <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 560 110\" color=\"#ffdb00\" class=\"svelte-1xg26gi\"><title>IKEA</title><path fill=\"currentcolor\" d=\"M4.35,105.17c3.61-1.79,3.36-8,3.37-8.76,0-1.52,0-76.8,0-79.86a7.12,7.12,0,0,0-2.78-5.94h65.2s-2.8,1.61-2.8,6c0,2.58,0,76.87,0,81.46,0,1.14.49,5.46,3.37,7Z\"></path><path fill=\"currentcolor\" d=\"M161.58,105.17c-3.34-2.28-3.2-7.07-3.22-8.16,0-.78,0-14.56,0-30.59,0,0,18.21,28.7,19.91,32.88,1.87,4.59-.25,5.87-.25,5.87h75s-.76-.5-1.89-1.36a29.77,29.77,0,0,1-6.69-6.55c-2.66-3.56-30.1-48.12-30.1-48.12s20.66-28.82,23.89-33a29.06,29.06,0,0,1,5.87-5.52s-4.53,0-4.53,0H179.86s3.57,2.51.42,7.09-21.9,30.54-21.9,30.54c0-15.93,0-30.56,0-31.69a7.08,7.08,0,0,1,2.85-5.94H97.72a7.13,7.13,0,0,1,2.77,5.94c.05,3.06,0,78.34,0,79.86,0,.81.24,7-3.37,8.76Z\"></path><path fill=\"currentcolor\" d=\"M266.2,10.61A7.13,7.13,0,0,1,269,16.55c0,3.06,0,78.34,0,79.86,0,.81.24,7-3.37,8.76H375V73.05a10.27,10.27,0,0,1-7.41,3.08H324.94V68.59h30.74c1.86,0,7,.59,8.32,2.33l0-28.84c-1.38,1.93-6.57,2.38-8.28,2.38H324.92V36.91s35.67,0,40.09,0A14.8,14.8,0,0,1,375,41.15V10.61Z\"></path><path fill=\"currentcolor\" d=\"M476.22,105.17s2.88-3.23,1.87-7.14a94.13,94.13,0,0,0-4.59-11.56H445.45s-3.52,7.45-4.59,11.56c-1,3.91,1.87,7.14,1.87,7.14H386a22.4,22.4,0,0,0,5.23-7.31c2-4.59,29-76.67,30.07-79.27,2-5-1.31-7.93-1.31-7.93h90.23a7.71,7.71,0,0,0-1.49,8.06c1.69,5.1,30.51,76.54,31.81,79.14a19.37,19.37,0,0,0,6,7.31ZM467,69.31S460.25,52.63,460,52a16.53,16.53,0,0,1-1-4.86h-.1A16.53,16.53,0,0,1,458,52c-.26.63-7,17.31-7,17.31Z\"></path><path fill=\"currentcolor\" d=\"M522.87,19.68a16,16,0,1,1,16,15.8,15.74,15.74,0,0,1-16-15.8m16,13.18c7.13,0,12.76-5.59,12.76-13.18a12.8,12.8,0,1,0-25.6,0c0,7.59,5.63,13.18,12.84,13.18m-3.33-4.05H532.8V10.64h6.92c4.29,0,6.42,1.58,6.42,5.17,0,3.25-2,4.67-4.71,5l5.16,8h-3.08l-4.79-7.88h-3.17Zm3.29-10.21c2.34,0,4.42-.17,4.42-3,0-2.25-2-2.67-4-2.67h-3.75V18.6Z\"></path></svg>"
+      },
+      {
+        "href": "https://www.ikea.es/?ref=gwp-start",
+        "inner_text": "Go to ikea.es\nGo to",
+        "inner_html": "<span class=\"sr-only\">Go to ikea.es</span>\n      Go to"
+      },
+      {
+        "href": "https://ikea.today/",
+        "inner_text": "IKEA Today",
+        "inner_html": "<img alt=\"Product design sketches on paper and woven rattan material samples\" srcset=\"images/home/ikea-today.jpg?f=g 2000w, images/home/ikea-today.jpg?f=sg 1600w, images/home/ikea-today.jpg?f=xxxl 1400w, images/home/ikea-today.jpg?f=xxl 1100w, images/home/ikea-today.jpg?f=xl 900w, images/home/ikea-today.jpg?f=l 750w, images/home/ikea-today.jpg?f=m 700w, images/home/ikea-today.jpg?f=s 600w, images/home/ikea-today.jpg?f=xs 500w, images/home/ikea-today.jpg?f=xxs 400w, images/home/ikea-today.jpg?f=xxxs 300w, images/home/ikea-today.jpg?f=u 160w, images/home/ikea-today.jpg?f=xu 80w\" src=\"images/home/ikea-today.jpg?f=s\" sizes=\"(min-width: 1025px) calc((100vw / 3) - 2rem - 1rem - 2rem), 100vw\" class=\"svelte-2xl2ej\"> <h2 class=\"svelte-1et4exl\">IKEA Today</h2> <div class=\"dark-image-overlay\" style=\"background: linear-gradient(\n          to top,\n          rgba(0,0,0,0.4) 50%,\n          rgba(0,0,0,0) 100%\n        )\"></div>"
+      },
+      {
+        "href": "https://about.ikea.com/",
+        "inner_text": "About IKEA",
+        "inner_html": "<img alt=\"IKEA coworker talking with a customer\" srcset=\"images/home/about-ikea.jpg?f=g 2000w, images/home/about-ikea.jpg?f=sg 1600w, images/home/about-ikea.jpg?f=xxxl 1400w, images/home/about-ikea.jpg?f=xxl 1100w, images/home/about-ikea.jpg?f=xl 900w, images/home/about-ikea.jpg?f=l 750w, images/home/about-ikea.jpg?f=m 700w, images/home/about-ikea.jpg?f=s 600w, images/home/about-ikea.jpg?f=xs 500w, images/home/about-ikea.jpg?f=xxs 400w, images/home/about-ikea.jpg?f=xxxs 300w, images/home/about-ikea.jpg?f=u 160w, images/home/about-ikea.jpg?f=xu 80w\" src=\"images/home/about-ikea.jpg?f=s\" sizes=\"(min-width: 1025px) calc((100vw / 3) - 2rem - 1rem - 2rem), 100vw\" class=\"svelte-2xl2ej\"> <h2 class=\"svelte-1et4exl\">About IKEA</h2> <div class=\"dark-image-overlay\" style=\"background: linear-gradient(\n          to top,\n          rgba(0,0,0,0.4) 50%,\n          rgba(0,0,0,0) 100%\n        )\"></div>"
+      },
+      {
+        "href": "https://ikeamuseum.com/",
+        "inner_text": "IKEA Museum",
+        "inner_html": "<img alt=\"Array of different IKEA catalogue covers\" srcset=\"images/home/ikea-museum.jpg?f=g 2000w, images/home/ikea-museum.jpg?f=sg 1600w, images/home/ikea-museum.jpg?f=xxxl 1400w, images/home/ikea-museum.jpg?f=xxl 1100w, images/home/ikea-museum.jpg?f=xl 900w, images/home/ikea-museum.jpg?f=l 750w, images/home/ikea-museum.jpg?f=m 700w, images/home/ikea-museum.jpg?f=s 600w, images/home/ikea-museum.jpg?f=xs 500w, images/home/ikea-museum.jpg?f=xxs 400w, images/home/ikea-museum.jpg?f=xxxs 300w, images/home/ikea-museum.jpg?f=u 160w, images/home/ikea-museum.jpg?f=xu 80w\" src=\"images/home/ikea-museum.jpg?f=s\" sizes=\"(min-width: 1025px) calc((100vw / 3) - 2rem - 1rem - 2rem), 100vw\" class=\"svelte-2xl2ej\"> <h2 class=\"svelte-1et4exl\">IKEA Museum</h2> <div class=\"dark-image-overlay\" style=\"background: linear-gradient(\n          to top,\n          rgba(0,0,0,0.4) 50%,\n          rgba(0,0,0,0) 100%\n        )\"></div>"
+      },
+      {
+        "href": "https://h22.ikea.com/",
+        "inner_text": "IKEA at H22",
+        "inner_html": "<img alt=\"Concept drawing of an open market including stalls, seating and trucks\" srcset=\"images/home/h22.jpg?f=g 2000w, images/home/h22.jpg?f=sg 1600w, images/home/h22.jpg?f=xxxl 1400w, images/home/h22.jpg?f=xxl 1100w, images/home/h22.jpg?f=xl 900w, images/home/h22.jpg?f=l 750w, images/home/h22.jpg?f=m 700w, images/home/h22.jpg?f=s 600w, images/home/h22.jpg?f=xs 500w, images/home/h22.jpg?f=xxs 400w, images/home/h22.jpg?f=xxxs 300w, images/home/h22.jpg?f=u 160w, images/home/h22.jpg?f=xu 80w\" src=\"images/home/h22.jpg?f=s\" sizes=\"(min-width: 1025px) calc((100vw / 3) - 2rem - 1rem - 2rem), 100vw\" class=\"svelte-2xl2ej\"> <h2 class=\"svelte-1et4exl\">IKEA at H22</h2> <div class=\"dark-image-overlay\" style=\"background: linear-gradient(\n          to top,\n          rgba(0,0,0,0.4) 50%,\n          rgba(0,0,0,0) 100%\n        )\"></div>"
+      },
+      {
+        "href": "https://about.ikea.com/en/contact/how-to-buy-ikea-products-from-a-different-country",
+        "inner_text": "International sales",
+        "inner_html": "<span class=\"btn-global svelte-xdaqh\"><svg aria-hidden=\"true\" width=\"12\" height=\"9\" viewBox=\"0 0 12 9\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" class=\"svelte-xnojl1 right\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M12 3.73333L2.6 3.73333L6 4.29138e-07L4.13333 2.65948e-07L3.96317e-07 4.46667L4.13333 9L6.06667 9L2.66667\n    5.26667L12 5.26667L12 3.73333Z\" fill=\"currentColor\"></path></svg>\n      International sales</span>"
+      },
+      {
+        "href": "https://www.ikea.com/global/en/catalog/",
+        "inner_text": "Explore something special",
+        "inner_html": "<h2 class=\"svelte-tbqipt\">Explore something special\n        <svg aria-hidden=\"true\" width=\"12\" height=\"9\" viewBox=\"0 0 12 9\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" class=\"svelte-xnojl1 right\"><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M12 3.73333L2.6 3.73333L6 4.29138e-07L4.13333 2.65948e-07L3.96317e-07 4.46667L4.13333 9L6.06667 9L2.66667\n    5.26667L12 5.26667L12 3.73333Z\" fill=\"currentColor\"></path></svg></h2>"
+      },
+      {
+        "href": "https://about.ikea.com/en/contact/how-to-buy-ikea-products-from-a-different-country/",
+        "inner_text": "See our internation sales",
+        "inner_html": "See our internation sales"
+      },
+      {
+        "href": "https://about.ikea.com/en/about-us",
+        "inner_text": "About us",
+        "inner_html": "About us"
+      },
+      {
+        "href": "https://about.ikea.com/en/life-at-home",
+        "inner_text": "Life at home",
+        "inner_html": "Life at home"
+      },
+      {
+        "href": "https://about.ikea.com/en/sustainability",
+        "inner_text": "Sustainability",
+        "inner_html": "Sustainability"
+      },
+      {
+        "href": "https://about.ikea.com/en/work-with-us",
+        "inner_text": "Work with us",
+        "inner_html": "Work with us"
+      },
+      {
+        "href": "https://newsroom.inter.ikea.com/",
+        "inner_text": "Newsroom",
+        "inner_html": "Newsroom"
+      },
+      {
+        "href": "https://www.ikea.com/ae/ar/?ref=gwp-start",
+        "inner_text": "https://www.ikea.com/ae/ar/",
+        "inner_html": "https://www.ikea.com/ae/ar/"
+      },
+      {
+        "href": "https://www.ikea.com/ae/en/?ref=gwp-start",
+        "inner_text": "https://www.ikea.com/ae/en/",
+        "inner_html": "https://www.ikea.com/ae/en/"
+      },
+      {
+        "href": "https://www.ikea.com/ca/en/?ref=gwp-start",
+        "inner_text": "https://www.ikea.com/ca/en/",
+        "inner_html": "https://www.ikea.com/ca/en/"
+      },
+      {
+        "href": "https://www.ikea.com/ca/fr/?ref=gwp-start",
+        "inner_text": "https://www.ikea.com/ca/fr/",
+        "inner_html": "https://www.ikea.com/ca/fr/"
+      },
+      {
+        "href": "https://www.ikea.com/ma/fr/?ref=gwp-start",
+        "inner_text": "https://www.ikea.com/ma/fr/",
+        "inner_html": "https://www.ikea.com/ma/fr/"
+      },
+      {
+        "href": "https://www.ikea.com/ma/ar/?ref=gwp-start",
+        "inner_text": "https://www.ikea.com/ma/ar/",
+        "inner_html": "https://www.ikea.com/ma/ar/"
+      },
+      {
+        "href": "https://www.ikea.com/ma/en/?ref=gwp-start",
+        "inner_text": "https://www.ikea.com/ma/en/",
+        "inner_html": "https://www.ikea.com/ma/en/"
+      },
+      {
+        "href": "https://www.ikea.com/pl/pl/?ref=gwp-start",
+        "inner_text": "https://www.ikea.com/pl/pl/",
+        "inner_html": "https://www.ikea.com/pl/pl/"
+      },
+      {
+        "href": "https://www.ikea.com/jo/ar/?ref=gwp-start",
+        "inner_text": "https://www.ikea.com/jo/ar/",
+        "inner_html": "https://www.ikea.com/jo/ar/"
+      },
+      {
+        "href": "https://www.ikea.com/jo/en/?ref=gwp-start",
+        "inner_text": "https://www.ikea.com/jo/en/",
+        "inner_html": "https://www.ikea.com/jo/en/"
+      },
+      {
+        "href": "https://about.ikea.com/en/contact/how-to-buy-ikea-products-from-a-different-country/?ref=gwp-start",
+        "inner_text": "https://about.ikea.com/en/contact/how-to-buy-ikea-products-from-a-different-country/",
+        "inner_html": "https://about.ikea.com/en/contact/how-to-buy-ikea-products-from-a-different-country/"
+      },
+      {
+        "href": "https://www.ikea.com/cz/cs/?ref=gwp-start",
+        "inner_text": "https://www.ikea.com/cz/cs/",
+        "inner_html": "https://www.ikea.com/cz/cs/"
+      },
+      {
+        "href": "https://www.ikea.com/th/th/?ref=gwp-start",
+        "inner_text": "https://www.ikea.com/th/th/",
+        "inner_html": "https://www.ikea.com/th/th/"
+      },
+      {
+        "href": "https://www.ikea.com/th/en/?ref=gwp-start",
+        "inner_text": "https://www.ikea.com/th/en/",
+        "inner_html": "https://www.ikea.com/th/en/"
+      },
+      {
+        "href": "https://www.ikea.com/gb/en/?ref=gwp-start",
+        "inner_text": "https://www.ikea.com/gb/en/",
+        "inner_html": "https://www.ikea.com/gb/en/"
+      },
+      {
+        "href": "https://www.ikea.com/ch/de/?ref=gwp-start",
+        "inner_text": "https://www.ikea.com/ch/de/",
+        "inner_html": "https://www.ikea.com/ch/de/"
+      },
+      {
+        "href": "https://www.ikea.com/ch/fr/?ref=gwp-start",
+        "inner_text": "https://www.ikea.com/ch/fr/",
+        "inner_html": "https://www.ikea.com/ch/fr/"
+      },
+      {
+        "href": "https://www.ikea.com/ch/it/?ref=gwp-start",
+        "inner_text": "https://www.ikea.com/ch/it/",
+        "inner_html": "https://www.ikea.com/ch/it/"
+      },
+      {
+        "href": "https://www.ikea.com/ch/en/?ref=gwp-start",
+        "inner_text": "https://www.ikea.com/ch/en/",
+        "inner_html": "https://www.ikea.com/ch/en/"
+      },
+      {
+        "href": "https://www.ikea.com/be/nl/?ref=gwp-start",
+        "inner_text": "https://www.ikea.com/be/nl/",
+        "inner_html": "https://www.ikea.com/be/nl/"
+      },
+      {
+        "href": "https://www.ikea.com/be/fr/?ref=gwp-start",
+        "inner_text": "https://www.ikea.com/be/fr/",
+        "inner_html": "https://www.ikea.com/be/fr/"
+      },
+      {
+        "href": "https://www.ikea.com/bh/en/?ref=gwp-start",
+        "inner_text": "https://www.ikea.com/bh/en/",
+        "inner_html": "https://www.ikea.com/bh/en/"
+      },
+      {
+        "href": "https://www.ikea.com/bh/ar/?ref=gwp-start",
+        "inner_text": "https://www.ikea.com/bh/ar/",
+        "inner_html": "https://www.ikea.com/bh/ar/"
+      },
+      {
+        "href": "https://www.ikea.com/hu/hu/?ref=gwp-start",
+        "inner_text": "https://www.ikea.com/hu/hu/",
+        "inner_html": "https://www.ikea.com/hu/hu/"
+      },
+      {
+        "href": "https://www.ikea.com/eg/ar/?ref=gwp-start",
+        "inner_text": "https://www.ikea.com/eg/ar/",
+        "inner_html": "https://www.ikea.com/eg/ar/"
+      },
+      {
+        "href": "https://www.ikea.com/eg/en/?ref=gwp-start",
+        "inner_text": "https://www.ikea.com/eg/en/",
+        "inner_html": "https://www.ikea.com/eg/en/"
+      },
+      {
+        "href": "https://www.ikea.com/us/en/?ref=gwp-start",
+        "inner_text": "https://www.ikea.com/us/en/",
+        "inner_html": "https://www.ikea.com/us/en/"
+      },
+      {
+        "href": "https://www.ikea.com/sk/sk/?ref=gwp-start",
+        "inner_text": "https://www.ikea.com/sk/sk/",
+        "inner_html": "https://www.ikea.com/sk/sk/"
+      },
+      {
+        "href": "https://www.ikea.com/sg/en/?ref=gwp-start",
+        "inner_text": "https://www.ikea.com/sg/en/",
+        "inner_html": "https://www.ikea.com/sg/en/"
+      },
+      {
+        "href": "https://www.ikea.com/pt/pt/?ref=gwp-start",
+        "inner_text": "https://www.ikea.com/pt/pt/",
+        "inner_html": "https://www.ikea.com/pt/pt/"
+      },
+      {
+        "href": "https://www.ikea.com/pt/en/?ref=gwp-start",
+        "inner_text": "https://www.ikea.com/pt/en/",
+        "inner_html": "https://www.ikea.com/pt/en/"
+      },
+      {
+        "href": "https://www.ikea.com/dk/da/?ref=gwp-start",
+        "inner_text": "https://www.ikea.com/dk/da/",
+        "inner_html": "https://www.ikea.com/dk/da/"
+      },
+      {
+        "href": "https://www.ikea.com/ru/ru/?ref=gwp-start",
+        "inner_text": "https://www.ikea.com/ru/ru/",
+        "inner_html": "https://www.ikea.com/ru/ru/"
+      },
+      {
+        "href": "https://www.ikea.com/au/en/?ref=gwp-start",
+        "inner_text": "https://www.ikea.com/au/en/",
+        "inner_html": "https://www.ikea.com/au/en/"
+      },
+      {
+        "href": "https://www.ikea.cn/cn/zh/?ref=gwp-start",
+        "inner_text": "https://www.ikea.cn/cn/zh/",
+        "inner_html": "https://www.ikea.cn/cn/zh/"
+      },
+      {
+        "href": "https://www.ikea.cn/cn/en/?ref=gwp-start",
+        "inner_text": "https://www.ikea.cn/cn/en/",
+        "inner_html": "https://www.ikea.cn/cn/en/"
+      },
+      {
+        "href": "https://www.ikea.com/sa/ar/?ref=gwp-start",
+        "inner_text": "https://www.ikea.com/sa/ar/",
+        "inner_html": "https://www.ikea.com/sa/ar/"
+      },
+      {
+        "href": "https://www.ikea.com/sa/en/?ref=gwp-start",
+        "inner_text": "https://www.ikea.com/sa/en/",
+        "inner_html": "https://www.ikea.com/sa/en/"
+      },
+      {
+        "href": "https://www.ikea.com/kw/ar/?ref=gwp-start",
+        "inner_text": "https://www.ikea.com/kw/ar/",
+        "inner_html": "https://www.ikea.com/kw/ar/"
+      },
+      {
+        "href": "https://www.ikea.com/kw/en/?ref=gwp-start",
+        "inner_text": "https://www.ikea.com/kw/en/",
+        "inner_html": "https://www.ikea.com/kw/en/"
+      },
+      {
+        "href": "https://www.ikea.com/kr/ko/?ref=gwp-start",
+        "inner_text": "https://www.ikea.com/kr/ko/",
+        "inner_html": "https://www.ikea.com/kr/ko/"
+      },
+      {
+        "href": "https://www.ikea.com/kr/en/?ref=gwp-start",
+        "inner_text": "https://www.ikea.com/kr/en/",
+        "inner_html": "https://www.ikea.com/kr/en/"
+      },
+      {
+        "href": "https://www.ikea.com/fi/fi/?ref=gwp-start",
+        "inner_text": "https://www.ikea.com/fi/fi/",
+        "inner_html": "https://www.ikea.com/fi/fi/"
+      },
+      {
+        "href": "https://www.ikea.com/hr/hr/?ref=gwp-start",
+        "inner_text": "https://www.ikea.com/hr/hr/",
+        "inner_html": "https://www.ikea.com/hr/hr/"
+      },
+      {
+        "href": "https://www.ikea.com/no/no/?ref=gwp-start",
+        "inner_text": "https://www.ikea.com/no/no/",
+        "inner_html": "https://www.ikea.com/no/no/"
+      },
+      {
+        "href": "https://www.ikea.com/qa/en/?ref=gwp-start",
+        "inner_text": "https://www.ikea.com/qa/en/",
+        "inner_html": "https://www.ikea.com/qa/en/"
+      },
+      {
+        "href": "https://www.ikea.com/qa/ar/?ref=gwp-start",
+        "inner_text": "https://www.ikea.com/qa/ar/",
+        "inner_html": "https://www.ikea.com/qa/ar/"
+      },
+      {
+        "href": "https://www.ikea.com/de/de/?ref=gwp-start",
+        "inner_text": "https://www.ikea.com/de/de/",
+        "inner_html": "https://www.ikea.com/de/de/"
+      },
+      {
+        "href": "https://www.ikea.com/my/ms/?ref=gwp-start",
+        "inner_text": "https://www.ikea.com/my/ms/",
+        "inner_html": "https://www.ikea.com/my/ms/"
+      },
+      {
+        "href": "https://www.ikea.com/my/en/?ref=gwp-start",
+        "inner_text": "https://www.ikea.com/my/en/",
+        "inner_html": "https://www.ikea.com/my/en/"
+      },
+      {
+        "href": "https://www.ikea.com/ro/ro/?ref=gwp-start",
+        "inner_text": "https://www.ikea.com/ro/ro/",
+        "inner_html": "https://www.ikea.com/ro/ro/"
+      },
+      {
+        "href": "https://www.ikea.com/ie/en/?ref=gwp-start",
+        "inner_text": "https://www.ikea.com/ie/en/",
+        "inner_html": "https://www.ikea.com/ie/en/"
+      },
+      {
+        "href": "https://www.ikea.com/it/it/?ref=gwp-start",
+        "inner_text": "https://www.ikea.com/it/it/",
+        "inner_html": "https://www.ikea.com/it/it/"
+      },
+      {
+        "href": "https://www.ikea.com/fr/fr/?ref=gwp-start",
+        "inner_text": "https://www.ikea.com/fr/fr/",
+        "inner_html": "https://www.ikea.com/fr/fr/"
+      },
+      {
+        "href": "https://www.ikea.com/at/de/?ref=gwp-start",
+        "inner_text": "https://www.ikea.com/at/de/",
+        "inner_html": "https://www.ikea.com/at/de/"
+      },
+      {
+        "href": "https://www.ikea.com/ua/uk/?ref=gwp-start",
+        "inner_text": "https://www.ikea.com/ua/uk/",
+        "inner_html": "https://www.ikea.com/ua/uk/"
+      },
+      {
+        "href": "https://www.ikea.com/in/en/?ref=gwp-start",
+        "inner_text": "https://www.ikea.com/in/en/",
+        "inner_html": "https://www.ikea.com/in/en/"
+      },
+      {
+        "href": "https://www.ikea.com/nl/nl/?ref=gwp-start",
+        "inner_text": "https://www.ikea.com/nl/nl/",
+        "inner_html": "https://www.ikea.com/nl/nl/"
+      },
+      {
+        "href": "https://www.ikea.com/nl/en/?ref=gwp-start",
+        "inner_text": "https://www.ikea.com/nl/en/",
+        "inner_html": "https://www.ikea.com/nl/en/"
+      },
+      {
+        "href": "https://www.ikea.com/jp/ja/?ref=gwp-start",
+        "inner_text": "https://www.ikea.com/jp/ja/",
+        "inner_html": "https://www.ikea.com/jp/ja/"
+      },
+      {
+        "href": "https://www.ikea.com/jp/en/?ref=gwp-start",
+        "inner_text": "https://www.ikea.com/jp/en/",
+        "inner_html": "https://www.ikea.com/jp/en/"
+      },
+      {
+        "href": "https://www.ikea.com/rs/sr/?ref=gwp-start",
+        "inner_text": "https://www.ikea.com/rs/sr/",
+        "inner_html": "https://www.ikea.com/rs/sr/"
+      },
+      {
+        "href": "https://www.ikea.com/se/sv/?ref=gwp-start",
+        "inner_text": "https://www.ikea.com/se/sv/",
+        "inner_html": "https://www.ikea.com/se/sv/"
+      },
+      {
+        "href": "https://www.ikea.pr/puertorico/es/?ref=gwp-start",
+        "inner_text": "https://www.ikea.pr/puertorico/es/",
+        "inner_html": "https://www.ikea.pr/puertorico/es/"
+      },
+      {
+        "href": "https://www.ikea.pr/puertorico/en/?ref=gwp-start",
+        "inner_text": "https://www.ikea.pr/puertorico/en/",
+        "inner_html": "https://www.ikea.pr/puertorico/en/"
+      },
+      {
+        "href": "https://www.ikea.com.hk/zh/?ref=gwp-start",
+        "inner_text": "https://www.ikea.com.hk/zh/",
+        "inner_html": "https://www.ikea.com.hk/zh/"
+      },
+      {
+        "href": "https://www.ikea.com.hk/en/?ref=gwp-start",
+        "inner_text": "https://www.ikea.com.hk/en/",
+        "inner_html": "https://www.ikea.com.hk/en/"
+      },
+      {
+        "href": "https://www.ikea.com.do/es/?ref=gwp-start",
+        "inner_text": "https://www.ikea.com.do/es/",
+        "inner_html": "https://www.ikea.com.do/es/"
+      },
+      {
+        "href": "https://www.ikea.com.do/en/?ref=gwp-start",
+        "inner_text": "https://www.ikea.com.do/en/",
+        "inner_html": "https://www.ikea.com.do/en/"
+      },
+      {
+        "href": "https://www.ikea.gr/?ref=gwp-start",
+        "inner_text": "https://www.ikea.gr/",
+        "inner_html": "https://www.ikea.gr/"
+      },
+      {
+        "href": "https://www.ikea.gr/en/?ref=gwp-start",
+        "inner_text": "https://www.ikea.gr/en/",
+        "inner_html": "https://www.ikea.gr/en/"
+      },
+      {
+        "href": "https://www.ikea.co.id/in/?ref=gwp-start",
+        "inner_text": "https://www.ikea.co.id/in/",
+        "inner_html": "https://www.ikea.co.id/in/"
+      },
+      {
+        "href": "https://www.ikea.co.id/en/?ref=gwp-start",
+        "inner_text": "https://www.ikea.co.id/en/",
+        "inner_html": "https://www.ikea.co.id/en/"
+      },
+      {
+        "href": "https://www.ikea.ph/?ref=gwp-start",
+        "inner_text": "https://www.ikea.ph/",
+        "inner_html": "https://www.ikea.ph/"
+      },
+      {
+        "href": "https://www.ikea.is/?ref=gwp-start",
+        "inner_text": "https://www.ikea.is/",
+        "inner_html": "https://www.ikea.is/"
+      },
+      {
+        "href": "https://www.ikea.bg/?ref=gwp-start",
+        "inner_text": "https://www.ikea.bg/",
+        "inner_html": "https://www.ikea.bg/"
+      },
+      {
+        "href": "https://www.ikea.com.tr/?ref=gwp-start",
+        "inner_text": "https://www.ikea.com.tr/",
+        "inner_html": "https://www.ikea.com.tr/"
+      },
+      {
+        "href": "https://www.ikea.com.tr/en/?ref=gwp-start",
+        "inner_text": "https://www.ikea.com.tr/en/",
+        "inner_html": "https://www.ikea.com.tr/en/"
+      },
+      {
+        "href": "https://www.ikea.lt/lt/?ref=gwp-start",
+        "inner_text": "https://www.ikea.lt/lt/",
+        "inner_html": "https://www.ikea.lt/lt/"
+      },
+      {
+        "href": "https://www.ikea.lt/ru/?ref=gwp-start",
+        "inner_text": "https://www.ikea.lt/ru/",
+        "inner_html": "https://www.ikea.lt/ru/"
+      },
+      {
+        "href": "https://www.ikea.lt/en/?ref=gwp-start",
+        "inner_text": "https://www.ikea.lt/en/",
+        "inner_html": "https://www.ikea.lt/en/"
+      },
+      {
+        "href": "https://www.ikea.com.cy/?ref=gwp-start",
+        "inner_text": "https://www.ikea.com.cy/",
+        "inner_html": "https://www.ikea.com.cy/"
+      },
+      {
+        "href": "https://www.ikea.com.cy/en/?ref=gwp-start",
+        "inner_text": "https://www.ikea.com.cy/en/",
+        "inner_html": "https://www.ikea.com.cy/en/"
+      },
+      {
+        "href": "http://ikea.co.nz/?ref=gwp-start",
+        "inner_text": "http://ikea.co.nz/",
+        "inner_html": "http://ikea.co.nz/"
+      },
+      {
+        "href": "https://www.ikea.co.il/?ref=gwp-start",
+        "inner_text": "https://www.ikea.co.il/",
+        "inner_html": "https://www.ikea.co.il/"
+      },
+      {
+        "href": "https://www.ikea.ee/et/?ref=gwp-start",
+        "inner_text": "https://www.ikea.ee/et/",
+        "inner_html": "https://www.ikea.ee/et/"
+      },
+      {
+        "href": "https://www.ikea.ee/ru/?ref=gwp-start",
+        "inner_text": "https://www.ikea.ee/ru/",
+        "inner_html": "https://www.ikea.ee/ru/"
+      },
+      {
+        "href": "https://www.ikea.ee/en/?ref=gwp-start",
+        "inner_text": "https://www.ikea.ee/en/",
+        "inner_html": "https://www.ikea.ee/en/"
+      },
+      {
+        "href": "https://www.ikea.lv/lv/?ref=gwp-start",
+        "inner_text": "https://www.ikea.lv/lv/",
+        "inner_html": "https://www.ikea.lv/lv/"
+      },
+      {
+        "href": "https://www.ikea.lv/ru/?ref=gwp-start",
+        "inner_text": "https://www.ikea.lv/ru/",
+        "inner_html": "https://www.ikea.lv/ru/"
+      },
+      {
+        "href": "https://www.ikea.lv/en/?ref=gwp-start",
+        "inner_text": "https://www.ikea.lv/en/",
+        "inner_html": "https://www.ikea.lv/en/"
+      },
+      {
+        "href": "https://www.ikea.com/si/sl/?ref=gwp-start",
+        "inner_text": "https://www.ikea.com/si/sl/",
+        "inner_html": "https://www.ikea.com/si/sl/"
+      },
+      {
+        "href": "https://www.ikea.com.tw/zh/?ref=gwp-start",
+        "inner_text": "https://www.ikea.com.tw/zh/",
+        "inner_html": "https://www.ikea.com.tw/zh/"
+      },
+      {
+        "href": "https://www.ikea.com/mx/es/?ref=gwp-start",
+        "inner_text": "https://www.ikea.com/mx/es/",
+        "inner_html": "https://www.ikea.com/mx/es/"
+      },
+      {
+        "href": "https://www.ikea.com/mx/en/?ref=gwp-start",
+        "inner_text": "https://www.ikea.com/mx/en/",
+        "inner_html": "https://www.ikea.com/mx/en/"
+      },
+      {
+        "href": "https://onetrust.com/poweredbyonetrust",
+        "inner_text": "",
+        "inner_html": ""
+      }
+    ],
+    "social": [],
+    "keywords": []
+  },
+  "unsafeForms": [],
+  "browsing_history": [
+    "https://www.ikea.com/"
+  ],
+  "websockets": {},
+  "cookies": [
+    {
+      "name": "_abck",
+      "value": "8ADFDD41A3D483978CE6EE8F2A50A26F~-1~YAAQppHdWEWY0Vl5AQAAL6RjigW4ijQdqwuuOCjaRZpFMC7yzsquk6FTJYicnvx0hgWoetiUUwAYs6GvuoZa3Piaqg5zcH9l+zgrTYIjU/RRBVKqgBAdflKiMNZl84xsZCywHsE3ZPD0griMyYrSvpPMzSd7HcoAG3lVzAaRGv0Z8Buy60Z2DkEJL1JO2sia1YwssjtLqO/OvQRLc9wToln3ThDl7Q8iXhiTlj+ffTz+YNV+uUTR3LH1EGGpL3tX0c0wwlbk1YiLm36wtk1+pJAL+BNvMUzu5NMTpUMMcd56XjOm/quOoHVRUyiqjRYrTCa694D8FM+G+V/yyZg8I2VIhCGIAEhiaSJ90FESnp5C+0fXIVxlIK9scyxLqUbzQwsz39L46vsAOZsjhy0obAPR9D0=~-1~-1~-1",
+      "domain": "ikea.com",
+      "path": "/",
+      "expires": 1653060456.511158,
+      "size": 462,
+      "httpOnly": false,
+      "secure": true,
+      "session": false,
+      "expiresUTC": "2022-05-20T15:27:36.511Z",
+      "expiresDays": 365,
+      "log": {
+        "stack": [
+          {
+            "fileName": "http://www.ikea.com/",
+            "source": "set in Set-Cookie HTTP response header for http://www.ikea.com/"
+          }
+        ],
+        "type": "Cookie.HTTP",
+        "timestamp": "2021-05-20T15:27:35.056Z",
+        "location": "about:blank"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "OptanonConsent",
+      "value": "isIABGlobal=false&datestamp=Thu+May+20+2021+17%3A27%3A36+GMT%2B0200+(Central+European+Summer+Time)&version=6.16.0&hosts=&consentId=9d64fffd-78c6-47a8-b82a-c8f13489b0b7&interactionCount=0&landingPath=https%3A%2F%2Fwww.ikea.com%2F&groups=C0001%3A1%2CC0002%3A0",
+      "domain": "www.ikea.com",
+      "path": "/",
+      "expires": 1653060456,
+      "size": 271,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "sameSite": "Lax",
+      "expiresUTC": "2022-05-20T15:27:36.000Z",
+      "expiresDays": 365,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 42673,
+            "lineNumber": 7,
+            "fileName": "https://cdn.cookielaw.org/scripttemplates/6.16.0/otBannerSdk.js",
+            "functionName": "yt.setCookie",
+            "source": "    at yt.setCookie (https://cdn.cookielaw.org/scripttemplates/6.16.0/otBannerSdk.js:7:42673)"
+          },
+          {
+            "columnNumber": 40992,
+            "lineNumber": 7,
+            "fileName": "https://cdn.cookielaw.org/scripttemplates/6.16.0/otBannerSdk.js",
+            "functionName": "yt.writeCookieParam",
+            "source": "    at yt.writeCookieParam (https://cdn.cookielaw.org/scripttemplates/6.16.0/otBannerSdk.js:7:40992)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T15:27:36.008Z",
+        "location": "https://www.ikea.com/"
+      },
+      "firstPartyStorage": false
+    },
+    {
+      "name": "bm_sz",
+      "value": "69A50BDFEE067E9D68ECDBB2398BA033~YAAQvpHdWPt3tER5AQAAe55jigvGSWvLH+rTwmmSWAjSBVkVP0nS3qSNnmEzNvEh8oRd60UqjTTp2e9AyqJNKJ0KLbkm7MfWtvqgb8AGkSC0CLVEkrT9ullrXCzyhIb9nwJNmkhc275a0Mb3/XPHFqHWiSjCTZNnmKhnDRFcyIiDdNlEWEgCCeU+mqPv8g==",
+      "domain": "ikea.com",
+      "path": "/",
+      "expires": 1621538855.052423,
+      "size": 230,
+      "httpOnly": true,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2021-05-20T19:27:35.052Z",
+      "expiresDays": 0.17,
+      "log": {
+        "stack": [
+          {
+            "fileName": "http://www.ikea.com/",
+            "source": "set in Set-Cookie HTTP response header for http://www.ikea.com/"
+          }
+        ],
+        "type": "Cookie.HTTP",
+        "timestamp": "2021-05-20T15:27:35.056Z",
+        "location": "about:blank"
+      },
+      "firstPartyStorage": true
+    }
+  ],
+  "localStorage": {
+    "https://www.ikea.com": {
+      "LOCAL_LANGUAGE_STORAGE_KEY": {
+        "value": "",
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 82265,
+              "lineNumber": 24,
+              "fileName": "https://www.ikea.com/global/en/build/module/startpage-db6500b7.js",
+              "functionName": "Ia",
+              "source": "    at Ia (https://www.ikea.com/global/en/build/module/startpage-db6500b7.js:24:82265)"
+            },
+            {
+              "columnNumber": 82596,
+              "lineNumber": 24,
+              "fileName": "https://www.ikea.com/global/en/build/module/startpage-db6500b7.js",
+              "functionName": "Ra",
+              "source": "    at Ra (https://www.ikea.com/global/en/build/module/startpage-db6500b7.js:24:82596)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T15:27:35.767Z",
+          "location": "https://www.ikea.com/"
+        }
+      },
+      "LOCAL_ISO_STORAGE_KEY": {
+        "value": "ES",
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 82231,
+              "lineNumber": 24,
+              "fileName": "https://www.ikea.com/global/en/build/module/startpage-db6500b7.js",
+              "functionName": "Ia",
+              "source": "    at Ia (https://www.ikea.com/global/en/build/module/startpage-db6500b7.js:24:82231)"
+            },
+            {
+              "columnNumber": 82596,
+              "lineNumber": 24,
+              "fileName": "https://www.ikea.com/global/en/build/module/startpage-db6500b7.js",
+              "functionName": "Ra",
+              "source": "    at Ra (https://www.ikea.com/global/en/build/module/startpage-db6500b7.js:24:82596)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T15:27:35.767Z",
+          "location": "https://www.ikea.com/"
+        }
+      }
+    }
+  },
+  "beacons": [
+    {
+      "url": "https://www.googletagmanager.com/gtag/js?id=UA-172012033-1",
+      "query": {
+        "id": "UA-172012033-1"
+      },
+      "filter": "||googletagmanager.com/gtag/$third-party",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.ikea.com/",
+            "source": "requested from https://www.ikea.com/ and matched with easyprivacy.txt filter ||googletagmanager.com/gtag/$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T15:27:35.285Z"
+      },
+      "occurrances": 1
+    }
+  ],
+  "hosts": {
+    "requests": {
+      "firstParty": [
+        "ikea.com"
+      ],
+      "thirdParty": [
+        "www.ikea.com",
+        "cdn.cookielaw.org",
+        "www.googletagmanager.com"
+      ]
+    },
+    "beacons": {
+      "firstParty": [],
+      "thirdParty": [
+        "www.googletagmanager.com"
+      ]
+    },
+    "cookies": {
+      "firstParty": [
+        "ikea.com"
+      ],
+      "thirdParty": [
+        "www.ikea.com"
+      ]
+    },
+    "localStorage": {
+      "firstParty": [],
+      "thirdParty": [
+        "www.ikea.com"
+      ]
+    },
+    "links": {
+      "firstParty": [],
+      "thirdParty": [
+        "www.ikea.com",
+        "www.ikea.es",
+        "ikea.today",
+        "about.ikea.com",
+        "ikeamuseum.com",
+        "h22.ikea.com",
+        "newsroom.inter.ikea.com",
+        "www.ikea.cn",
+        "www.ikea.pr",
+        "www.ikea.com.hk",
+        "www.ikea.com.do",
+        "www.ikea.gr",
+        "www.ikea.co.id",
+        "www.ikea.ph",
+        "www.ikea.is",
+        "www.ikea.bg",
+        "www.ikea.com.tr",
+        "www.ikea.lt",
+        "www.ikea.com.cy",
+        "ikea.co.nz",
+        "www.ikea.co.il",
+        "www.ikea.ee",
+        "www.ikea.lv",
+        "www.ikea.com.tw",
+        "onetrust.com"
+      ]
+    }
+  }
+}

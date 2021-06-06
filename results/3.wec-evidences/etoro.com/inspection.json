@@ -1,0 +1,186 @@
+{
+  "title": "Website Evidence Collection",
+  "task_description": null,
+  "uri_ins": "https://etoro.com",
+  "uri_refs": [
+    "https://etoro.com"
+  ],
+  "uri_dest": "https://www.etoro.com/",
+  "uri_redirects": [
+    "https://etoro.com/"
+  ],
+  "secure_connection": {
+    "https_support": true,
+    "redirects": [
+      "https://www.etoro.com/"
+    ],
+    "https_redirect": true
+  },
+  "host": "etoro.com",
+  "script": {
+    "host": "sfod",
+    "version": {
+      "npm": "1.0.0",
+      "commit": null
+    },
+    "cmd_args": "-q --overwrite https://etoro.com -- --ignore-certificate-errors",
+    "environment": {
+      "CHROME_DESKTOP": "code-url-handler.desktop"
+    },
+    "node_version": "v14.17.0"
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "HeadlessChrome/80.0.3987.0",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3617.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "5.8.0-53-generic"
+    },
+    "extra_headers": {},
+    "preset_cookies": {}
+  },
+  "start_time": "2021-05-20T15:32:28.765Z",
+  "end_time": "2021-05-20T15:32:37.952Z",
+  "links": {
+    "firstParty": [],
+    "thirdParty": [
+      {
+        "href": "https://chrome.google.com/webstore/detail/privacy-pass/ajhmfdgkijocedmfjonnpjfojldioehi",
+        "inner_text": "Chrome Web Store",
+        "inner_html": "Chrome Web Store"
+      },
+      {
+        "href": "https://www.cloudflare.com/5xx-error-landing",
+        "inner_text": "Cloudflare",
+        "inner_html": "Cloudflare"
+      }
+    ],
+    "social": [],
+    "keywords": [
+      {
+        "href": "https://chrome.google.com/webstore/detail/privacy-pass/ajhmfdgkijocedmfjonnpjfojldioehi",
+        "inner_text": "Chrome Web Store",
+        "inner_html": "Chrome Web Store"
+      }
+    ]
+  },
+  "unsafeForms": [],
+  "browsing_history": [
+    "https://www.etoro.com/"
+  ],
+  "websockets": {},
+  "cookies": [
+    {
+      "name": "cf_chl_prog",
+      "value": "b",
+      "domain": "www.etoro.com",
+      "path": "/",
+      "expires": 1621528353,
+      "size": 12,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2021-05-20T16:32:33.000Z",
+      "expiresDays": 0.04,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 11222,
+            "lineNumber": 1,
+            "fileName": "https://www.etoro.com/cdn-cgi/challenge-platform/h/g/orchestrate/captcha/v1?ray=65269e34793dff3c",
+            "functionName": "h",
+            "source": "    at h (https://www.etoro.com/cdn-cgi/challenge-platform/h/g/orchestrate/captcha/v1?ray=65269e34793dff3c:1:11222)"
+          },
+          {
+            "columnNumber": 33914,
+            "lineNumber": 1,
+            "fileName": "https://www.etoro.com/cdn-cgi/challenge-platform/h/g/orchestrate/captcha/v1?ray=65269e34793dff3c",
+            "functionName": "d.<computed>",
+            "source": "    at d.<computed> (https://www.etoro.com/cdn-cgi/challenge-platform/h/g/orchestrate/captcha/v1?ray=65269e34793dff3c:1:33914)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T15:32:33.775Z",
+        "location": "https://www.etoro.com/"
+      },
+      "firstPartyStorage": false
+    },
+    {
+      "name": "__cf_bm",
+      "value": "132b38a178e7a50fc587500ef5cee85a327112a6-1621524749-1800-AarJGNHHmY8bqLjDh/seiiEdt3rniDweDDlIYTCIZeqpIqk+WFKfxziSDZ+c0u35TZSCPH+InbHRatrY/1394Fmyu68dXg2ik3XQlzUVhuKR",
+      "domain": "etoro.com",
+      "path": "/",
+      "expires": 1621526549.532455,
+      "size": 172,
+      "httpOnly": true,
+      "secure": true,
+      "session": false,
+      "sameSite": "None",
+      "expiresUTC": "2021-05-20T16:02:29.532Z",
+      "expiresDays": 0.02,
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.etoro.com/",
+            "source": "set in Set-Cookie HTTP response header for https://www.etoro.com/"
+          }
+        ],
+        "type": "Cookie.HTTP",
+        "timestamp": "2021-05-20T15:32:29.536Z",
+        "location": "about:blank"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "cf_chl_seq_17553151aba7f3c",
+      "value": "66b5996806bad63",
+      "domain": "www.etoro.com",
+      "path": "/cdn-cgi/challenge-platform/h/g/flow/ov1/0.12117399663132568:1621522530:3411b027e7a88daecf89850f2c48c946a4499f314261573265e3e978a7185745/65269e34793dff3c",
+      "expires": -1,
+      "size": 41,
+      "httpOnly": true,
+      "secure": true,
+      "session": true,
+      "sameSite": "Strict",
+      "firstPartyStorage": false
+    }
+  ],
+  "localStorage": {},
+  "beacons": [],
+  "hosts": {
+    "requests": {
+      "firstParty": [
+        "etoro.com"
+      ],
+      "thirdParty": [
+        "www.etoro.com",
+        "hcaptcha.com",
+        "newassets.hcaptcha.com"
+      ]
+    },
+    "beacons": {
+      "firstParty": [],
+      "thirdParty": []
+    },
+    "cookies": {
+      "firstParty": [
+        "etoro.com"
+      ],
+      "thirdParty": [
+        "www.etoro.com"
+      ]
+    },
+    "localStorage": {
+      "firstParty": [],
+      "thirdParty": []
+    },
+    "links": {
+      "firstParty": [],
+      "thirdParty": [
+        "chrome.google.com",
+        "www.cloudflare.com"
+      ]
+    }
+  }
+}

@@ -1,0 +1,622 @@
+{
+  "title": "Website Evidence Collection",
+  "task_description": null,
+  "uri_ins": "https://debrid-link.fr",
+  "uri_refs": [
+    "https://debrid-link.fr"
+  ],
+  "uri_dest": "https://debrid-link.fr/",
+  "uri_redirects": [],
+  "secure_connection": {
+    "https_support": true,
+    "redirects": [
+      "https://debrid-link.fr/"
+    ],
+    "https_redirect": true
+  },
+  "host": "debrid-link.fr",
+  "script": {
+    "host": "sfod",
+    "version": {
+      "npm": "1.0.0",
+      "commit": null
+    },
+    "cmd_args": "-q --overwrite https://debrid-link.fr -- --ignore-certificate-errors",
+    "environment": {
+      "CHROME_DESKTOP": "code-url-handler.desktop"
+    },
+    "node_version": "v14.17.0"
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "HeadlessChrome/80.0.3987.0",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3617.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "5.8.0-53-generic"
+    },
+    "extra_headers": {},
+    "preset_cookies": {}
+  },
+  "start_time": "2021-05-20T15:49:13.460Z",
+  "end_time": "2021-05-20T15:49:19.524Z",
+  "links": {
+    "firstParty": [
+      {
+        "href": "https://debrid-link.fr/privacy",
+        "inner_text": "Read more",
+        "inner_html": "Read more"
+      },
+      {
+        "href": "https://debrid-link.fr/",
+        "inner_text": "",
+        "inner_html": "<div class=\"sprite sprite-logo\"></div>"
+      },
+      {
+        "href": "https://debrid-link.fr/webapp/register",
+        "inner_text": "Register",
+        "inner_html": "Register"
+      },
+      {
+        "href": "https://debrid-link.fr/webapp/login",
+        "inner_text": "Login",
+        "inner_html": "Login"
+      },
+      {
+        "href": "https://debrid-link.fr/infos/downloader/1fichier",
+        "inner_text": "1fichier",
+        "inner_html": "<span class=\"sprite sprite-1fichier\"></span><span class=\"hidden-xs hidden-sm\">1fichier</span>"
+      },
+      {
+        "href": "https://debrid-link.fr/infos/downloader/uploaded",
+        "inner_text": "Uploaded",
+        "inner_html": "<span class=\"sprite sprite-uploaded\"></span><span class=\"hidden-xs hidden-sm\">Uploaded</span>"
+      },
+      {
+        "href": "https://debrid-link.fr/infos/downloader/ddl",
+        "inner_text": "ddl.to",
+        "inner_html": "<span class=\"sprite sprite-ddl\"></span><span class=\"hidden-xs hidden-sm\">ddl.to</span>"
+      },
+      {
+        "href": "https://debrid-link.fr/infos/downloader/uptobox",
+        "inner_text": "Uptobox",
+        "inner_html": "<span class=\"sprite sprite-uptobox\"></span><span class=\"hidden-xs hidden-sm\">Uptobox</span>"
+      },
+      {
+        "href": "https://debrid-link.fr/infos/downloader/easybytez",
+        "inner_text": "Easybytez",
+        "inner_html": "<span class=\"sprite sprite-easybytez\"></span><span class=\"hidden-xs hidden-sm\">Easybytez</span>"
+      },
+      {
+        "href": "https://debrid-link.fr/infos/downloader/katfile",
+        "inner_text": "Katfile",
+        "inner_html": "<span class=\"sprite sprite-katfile\"></span><span class=\"hidden-xs hidden-sm\">Katfile</span>"
+      },
+      {
+        "href": "https://debrid-link.fr/infos/downloader/wdupload",
+        "inner_text": "Wdupload",
+        "inner_html": "<span class=\"sprite sprite-wdupload\"></span><span class=\"hidden-xs hidden-sm\">Wdupload</span>"
+      },
+      {
+        "href": "https://debrid-link.fr/infos/downloader/turbobit",
+        "inner_text": "Turbobit",
+        "inner_html": "<span class=\"sprite sprite-turbobit\"></span><span class=\"hidden-xs hidden-sm\">Turbobit</span>"
+      },
+      {
+        "href": "https://debrid-link.fr/infos/downloader/filer",
+        "inner_text": "Filer.net",
+        "inner_html": "<span class=\"sprite sprite-filer\"></span><span class=\"hidden-xs hidden-sm\">Filer.net</span>"
+      },
+      {
+        "href": "https://debrid-link.fr/infos/downloader/mega",
+        "inner_text": "Mega",
+        "inner_html": "<span class=\"sprite sprite-mega\"></span><span class=\"hidden-xs hidden-sm\">Mega</span>"
+      },
+      {
+        "href": "https://debrid-link.fr/infos/downloader/ubiqfile",
+        "inner_text": "Ubiqfile",
+        "inner_html": "<span class=\"sprite sprite-ubiqfile\"></span><span class=\"hidden-xs hidden-sm\">Ubiqfile</span>"
+      },
+      {
+        "href": "https://debrid-link.fr/infos/downloader/tezfiles",
+        "inner_text": "Tezfiles",
+        "inner_html": "<span class=\"sprite sprite-tezfiles\"></span><span class=\"hidden-xs hidden-sm\">Tezfiles</span>"
+      },
+      {
+        "href": "https://debrid-link.fr/infos/downloader/isracloud",
+        "inner_text": "Isracloud",
+        "inner_html": "<span class=\"sprite sprite-isracloud\"></span><span class=\"hidden-xs hidden-sm\">Isracloud</span>"
+      },
+      {
+        "href": "https://debrid-link.fr/infos/downloader/alfafile",
+        "inner_text": "Alfafile",
+        "inner_html": "<span class=\"sprite sprite-alfafile\"></span><span class=\"hidden-xs hidden-sm\">Alfafile</span>"
+      },
+      {
+        "href": "https://debrid-link.fr/infos/downloader/goloady",
+        "inner_text": "Goloady / Jumploads",
+        "inner_html": "<span class=\"sprite sprite-goloady\"></span><span class=\"hidden-xs hidden-sm\">Goloady / Jumploads</span>"
+      },
+      {
+        "href": "https://debrid-link.fr/infos/downloader/filefactory",
+        "inner_text": "Filefactory",
+        "inner_html": "<span class=\"sprite sprite-filefactory\"></span><span class=\"hidden-xs hidden-sm\">Filefactory</span>"
+      },
+      {
+        "href": "https://debrid-link.fr/infos/downloader/secretfile",
+        "inner_text": "Secretfile",
+        "inner_html": "<span class=\"sprite sprite-secretfile\"></span><span class=\"hidden-xs hidden-sm\">Secretfile</span>"
+      },
+      {
+        "href": "https://debrid-link.fr/infos/downloader/salefiles",
+        "inner_text": "Wupfile / Salefiles",
+        "inner_html": "<span class=\"sprite sprite-salefiles\"></span><span class=\"hidden-xs hidden-sm\">Wupfile / Salefiles</span>"
+      },
+      {
+        "href": "https://debrid-link.fr/infos/downloader/zippyshare",
+        "inner_text": "Zippyshare",
+        "inner_html": "<span class=\"sprite sprite-zippyshare\"></span><span class=\"hidden-xs hidden-sm\">Zippyshare</span>"
+      },
+      {
+        "href": "https://debrid-link.fr/infos/downloader/subyshare",
+        "inner_text": "Subyshare",
+        "inner_html": "<span class=\"sprite sprite-subyshare\"></span><span class=\"hidden-xs hidden-sm\">Subyshare</span>"
+      },
+      {
+        "href": "https://debrid-link.fr/infos/downloader/hitfile",
+        "inner_text": "Hitfile",
+        "inner_html": "<span class=\"sprite sprite-hitfile\"></span><span class=\"hidden-xs hidden-sm\">Hitfile</span>"
+      },
+      {
+        "href": "https://debrid-link.fr/infos/downloader/filespace",
+        "inner_text": "Filespace",
+        "inner_html": "<span class=\"sprite sprite-filespace\"></span><span class=\"hidden-xs hidden-sm\">Filespace</span>"
+      },
+      {
+        "href": "https://debrid-link.fr/infos/downloader/filecat",
+        "inner_text": "Filecat",
+        "inner_html": "<span class=\"sprite sprite-filecat\"></span><span class=\"hidden-xs hidden-sm\">Filecat</span>"
+      },
+      {
+        "href": "https://debrid-link.fr/infos/downloader/kshared",
+        "inner_text": "Kshared",
+        "inner_html": "<span class=\"sprite sprite-kshared\"></span><span class=\"hidden-xs hidden-sm\">Kshared</span>"
+      },
+      {
+        "href": "https://debrid-link.fr/infos/downloader/dropapk",
+        "inner_text": "Dropapk",
+        "inner_html": "<span class=\"sprite sprite-dropapk\"></span><span class=\"hidden-xs hidden-sm\">Dropapk</span>"
+      },
+      {
+        "href": "https://debrid-link.fr/infos/downloader/fileal",
+        "inner_text": "File.al",
+        "inner_html": "<span class=\"sprite sprite-fileal\"></span><span class=\"hidden-xs hidden-sm\">File.al</span>"
+      },
+      {
+        "href": "https://debrid-link.fr/infos/downloader/filenext",
+        "inner_text": "Filenext",
+        "inner_html": "<span class=\"sprite sprite-filenext\"></span><span class=\"hidden-xs hidden-sm\">Filenext</span>"
+      },
+      {
+        "href": "https://debrid-link.fr/infos/downloader/xubster",
+        "inner_text": "Xubster",
+        "inner_html": "<span class=\"sprite sprite-xubster\"></span><span class=\"hidden-xs hidden-sm\">Xubster</span>"
+      },
+      {
+        "href": "https://debrid-link.fr/infos/downloader/free",
+        "inner_text": "Free",
+        "inner_html": "<span class=\"sprite sprite-free\"></span><span class=\"hidden-xs hidden-sm\">Free</span>"
+      },
+      {
+        "href": "https://debrid-link.fr/infos/downloader/mixdrop",
+        "inner_text": "Mixdrop",
+        "inner_html": "<span class=\"sprite sprite-mixdrop\"></span><span class=\"hidden-xs hidden-sm\">Mixdrop</span>"
+      },
+      {
+        "href": "https://debrid-link.fr/infos/downloader/youtube",
+        "inner_text": "Youtube",
+        "inner_html": "<span class=\"sprite sprite-youtube\"></span><span class=\"hidden-xs hidden-sm\">Youtube</span>"
+      },
+      {
+        "href": "https://debrid-link.fr/infos/downloader/clicknupload",
+        "inner_text": "Clicknupload",
+        "inner_html": "<span class=\"sprite sprite-clicknupload\"></span><span class=\"hidden-xs hidden-sm\">Clicknupload</span>"
+      },
+      {
+        "href": "https://debrid-link.fr/infos/downloader/sundryfiles",
+        "inner_text": "Sundryfiles",
+        "inner_html": "<span class=\"sprite sprite-sundryfiles\"></span><span class=\"hidden-xs hidden-sm\">Sundryfiles</span>"
+      },
+      {
+        "href": "https://debrid-link.fr/infos/downloader/streamtape",
+        "inner_text": "Streamtape",
+        "inner_html": "<span class=\"sprite sprite-streamtape\"></span><span class=\"hidden-xs hidden-sm\">Streamtape</span>"
+      },
+      {
+        "href": "https://debrid-link.fr/infos/downloader/flashbit",
+        "inner_text": "Flashbit",
+        "inner_html": "<span class=\"sprite sprite-flashbit\"></span><span class=\"hidden-xs hidden-sm\">Flashbit</span>"
+      },
+      {
+        "href": "https://debrid-link.fr/infos/downloader/anonfile",
+        "inner_text": "Anonfile",
+        "inner_html": "<span class=\"sprite sprite-anonfile\"></span><span class=\"hidden-xs hidden-sm\">Anonfile</span>"
+      },
+      {
+        "href": "https://debrid-link.fr/infos/downloader/bayfiles",
+        "inner_text": "Bayfiles",
+        "inner_html": "<span class=\"sprite sprite-bayfiles\"></span><span class=\"hidden-xs hidden-sm\">Bayfiles</span>"
+      },
+      {
+        "href": "https://debrid-link.fr/infos/downloader/uqload",
+        "inner_text": "Uqload",
+        "inner_html": "<span class=\"sprite sprite-uqload\"></span><span class=\"hidden-xs hidden-sm\">Uqload</span>"
+      },
+      {
+        "href": "https://debrid-link.fr/infos/downloader/mystream",
+        "inner_text": "Mystream",
+        "inner_html": "<span class=\"sprite sprite-mystream\"></span><span class=\"hidden-xs hidden-sm\">Mystream</span>"
+      },
+      {
+        "href": "https://debrid-link.fr/infos/downloader/ulozto",
+        "inner_text": "Uloz.to",
+        "inner_html": "<span class=\"sprite sprite-ulozto\"></span><span class=\"hidden-xs hidden-sm\">Uloz.to</span>"
+      },
+      {
+        "href": "https://debrid-link.fr/infos/downloader/sendspace",
+        "inner_text": "Sendspace",
+        "inner_html": "<span class=\"sprite sprite-sendspace\"></span><span class=\"hidden-xs hidden-sm\">Sendspace</span>"
+      },
+      {
+        "href": "https://debrid-link.fr/infos/downloader/fembed",
+        "inner_text": "Fembed",
+        "inner_html": "<span class=\"sprite sprite-fembed\"></span><span class=\"hidden-xs hidden-sm\">Fembed</span>"
+      },
+      {
+        "href": "https://debrid-link.fr/infos/downloader/vidoza",
+        "inner_text": "Vidoza",
+        "inner_html": "<span class=\"sprite sprite-vidoza\"></span><span class=\"hidden-xs hidden-sm\">Vidoza</span>"
+      },
+      {
+        "href": "https://debrid-link.fr/infos/downloader/upvid",
+        "inner_text": "Upvid",
+        "inner_html": "<span class=\"sprite sprite-upvid\"></span><span class=\"hidden-xs hidden-sm\">Upvid</span>"
+      },
+      {
+        "href": "https://debrid-link.fr/infos/downloader/tusfiles",
+        "inner_text": "Tusfiles",
+        "inner_html": "<span class=\"sprite sprite-tusfiles\"></span><span class=\"hidden-xs hidden-sm\">Tusfiles</span>"
+      },
+      {
+        "href": "https://debrid-link.fr/infos/downloader/soundcloud",
+        "inner_text": "Soundcloud",
+        "inner_html": "<span class=\"sprite sprite-soundcloud\"></span><span class=\"hidden-xs hidden-sm\">Soundcloud</span>"
+      },
+      {
+        "href": "https://debrid-link.fr/infos/downloader/scribd",
+        "inner_text": "Scribd",
+        "inner_html": "<span class=\"sprite sprite-scribd\"></span><span class=\"hidden-xs hidden-sm\">Scribd</span>"
+      },
+      {
+        "href": "https://debrid-link.fr/infos/downloader/supervideo",
+        "inner_text": "Supervideo",
+        "inner_html": "<span class=\"sprite sprite-supervideo\"></span><span class=\"hidden-xs hidden-sm\">Supervideo</span>"
+      },
+      {
+        "href": "https://debrid-link.fr/infos/downloader/letsupload",
+        "inner_text": "Letsupload",
+        "inner_html": "<span class=\"sprite sprite-letsupload\"></span><span class=\"hidden-xs hidden-sm\">Letsupload</span>"
+      },
+      {
+        "href": "https://debrid-link.fr/infos/downloader/load.to",
+        "inner_text": "Load.to",
+        "inner_html": "<span class=\"sprite sprite-load_to\"></span><span class=\"hidden-xs hidden-sm\">Load.to</span>"
+      },
+      {
+        "href": "https://debrid-link.fr/infos/downloader/mixloads",
+        "inner_text": "Mixloads",
+        "inner_html": "<span class=\"sprite sprite-mixloads\"></span><span class=\"hidden-xs hidden-sm\">Mixloads</span>"
+      },
+      {
+        "href": "https://debrid-link.fr/infos/downloader/dropbox",
+        "inner_text": "Dropbox",
+        "inner_html": "<span class=\"sprite sprite-dropbox\"></span><span class=\"hidden-xs hidden-sm\">Dropbox</span>"
+      },
+      {
+        "href": "https://debrid-link.fr/infos/downloader/youdbox",
+        "inner_text": "Youdbox",
+        "inner_html": "<span class=\"sprite sprite-youdbox\"></span><span class=\"hidden-xs hidden-sm\">Youdbox</span>"
+      },
+      {
+        "href": "https://debrid-link.fr/infos/downloader/vidlox",
+        "inner_text": "Vidlox",
+        "inner_html": "<span class=\"sprite sprite-vidlox\"></span><span class=\"hidden-xs hidden-sm\">Vidlox</span>"
+      },
+      {
+        "href": "https://debrid-link.fr/infos/downloader/megaup",
+        "inner_text": "Megaup",
+        "inner_html": "<span class=\"sprite sprite-megaup\"></span><span class=\"hidden-xs hidden-sm\">Megaup</span>"
+      },
+      {
+        "href": "https://debrid-link.fr/infos/downloader/dropgalaxy",
+        "inner_text": "Dropgalaxy",
+        "inner_html": "<span class=\"sprite sprite-dropgalaxy\"></span><span class=\"hidden-xs hidden-sm\">Dropgalaxy</span>"
+      },
+      {
+        "href": "https://debrid-link.fr/infos/downloader/barbavid",
+        "inner_text": "Barbavid",
+        "inner_html": "<span class=\"sprite sprite-barbavid\"></span><span class=\"hidden-xs hidden-sm\">Barbavid</span>"
+      },
+      {
+        "href": "https://debrid-link.fr/infos/downloader/firedrop",
+        "inner_text": "Firedrop",
+        "inner_html": "<span class=\"sprite sprite-firedrop\"></span><span class=\"hidden-xs hidden-sm\">Firedrop</span>"
+      },
+      {
+        "href": "https://debrid-link.fr/infos/downloader/hulkshare",
+        "inner_text": "Hulkshare",
+        "inner_html": "<span class=\"sprite sprite-hulkshare\"></span><span class=\"hidden-xs hidden-sm\">Hulkshare</span>"
+      },
+      {
+        "href": "https://debrid-link.fr/infos/downloader/unibytes",
+        "inner_text": "Unibytes",
+        "inner_html": "<span class=\"sprite sprite-unibytes\"></span><span class=\"hidden-xs hidden-sm\">Unibytes</span>"
+      },
+      {
+        "href": "https://debrid-link.fr/infos/downloader/prefiles",
+        "inner_text": "Prefiles",
+        "inner_html": "<span class=\"sprite sprite-prefiles\"></span><span class=\"hidden-xs hidden-sm\">Prefiles</span>"
+      },
+      {
+        "href": "https://debrid-link.fr/infos/downloader/uploadboy",
+        "inner_text": "Uploadboy",
+        "inner_html": "<span class=\"sprite sprite-uploadboy\"></span><span class=\"hidden-xs hidden-sm\">Uploadboy</span>"
+      },
+      {
+        "href": "https://debrid-link.fr/infos/downloader",
+        "inner_text": "Show all hosts supported by Debrid-Link and their status",
+        "inner_html": "Show all hosts supported by Debrid-Link and their status"
+      },
+      {
+        "href": "https://debrid-link.fr/infos/seedbox",
+        "inner_text": "Seedbox informations",
+        "inner_html": "Seedbox informations"
+      },
+      {
+        "href": "https://debrid-link.fr/infos/addons/browser/google-chrome",
+        "inner_text": "Google Chrome",
+        "inner_html": "<span class=\"sprite sprite-googlechrome\"></span>\n          <h3 class=\"title\">Google Chrome</h3>"
+      },
+      {
+        "href": "https://debrid-link.fr/infos/addons/browser/firefox",
+        "inner_text": "Firefox",
+        "inner_html": "<span class=\"sprite sprite-firefox\"></span>\n          <h3 class=\"title text-center\">Firefox</h3>"
+      },
+      {
+        "href": "https://debrid-link.fr/infos/addons/browser/opera",
+        "inner_text": "Opera",
+        "inner_html": "<span class=\"sprite sprite-opera\"></span>\n          <h3 class=\"title\">Opera</h3>"
+      },
+      {
+        "href": "https://debrid-link.fr/infos/addons/soft/download-station-synology",
+        "inner_text": "Download Station",
+        "inner_html": "<span class=\"sprite sprite-downloadstation\"></span>\n          <h3 class=\"title\">Download Station</h3>"
+      },
+      {
+        "href": "https://debrid-link.fr/infos/addons/tv/xbmc",
+        "inner_text": "Kodi/XBMC",
+        "inner_html": "<span class=\"sprite sprite-xbmc\"></span>\n          <h3 class=\"title\">Kodi/XBMC</h3>"
+      },
+      {
+        "href": "https://debrid-link.fr/infos/addons/soft",
+        "inner_text": "JDownloader 2, Pyload, Chromecast ...",
+        "inner_html": "JDownloader 2, Pyload, Chromecast ..."
+      },
+      {
+        "href": "https://debrid-link.fr/lang/fr",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\tFrançais\n\t\t\t\t\t\t\t\t",
+        "inner_html": "<span class=\"sprite sprite-fr\" style=\"margin-right:10px\"></span>\n\t\t\t\t\t\t\t\t\tFrançais"
+      },
+      {
+        "href": "https://debrid-link.fr/lang/it",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\tItaliano\n\t\t\t\t\t\t\t\t",
+        "inner_html": "<span class=\"sprite sprite-it\" style=\"margin-right:10px\"></span>\n\t\t\t\t\t\t\t\t\tItaliano"
+      },
+      {
+        "href": "https://debrid-link.fr/news/830895fe14f838c6b5",
+        "inner_text": "Christmas game\nLe 22/12/2020",
+        "inner_html": "<h5 class=\"title\">Christmas game</h5><span>Le 22/12/2020</span>"
+      },
+      {
+        "href": "https://debrid-link.fr/news/622195f3fec310199a",
+        "inner_text": "WebDAV\nLe 21/08/2020",
+        "inner_html": "<h5 class=\"title\">WebDAV</h5><span>Le 21/08/2020</span>"
+      },
+      {
+        "href": "https://debrid-link.fr/news/201955ddd4e88e6ad4",
+        "inner_text": "Christmas game\nLe 29/11/2019",
+        "inner_html": "<h5 class=\"title\">Christmas game</h5><span>Le 29/11/2019</span>"
+      },
+      {
+        "href": "https://debrid-link.fr/infos",
+        "inner_text": "Informations",
+        "inner_html": "Informations"
+      },
+      {
+        "href": "https://debrid-link.fr/premium",
+        "inner_text": "Our offers",
+        "inner_html": "Our offers"
+      },
+      {
+        "href": "https://debrid-link.fr/contact",
+        "inner_text": "Contact",
+        "inner_html": "Contact"
+      },
+      {
+        "href": "https://debrid-link.fr/news",
+        "inner_text": "News",
+        "inner_html": "News"
+      },
+      {
+        "href": "https://debrid-link.fr/tos",
+        "inner_text": "Terms of use",
+        "inner_html": "Terms of use"
+      },
+      {
+        "href": "https://debrid-link.fr/legal",
+        "inner_text": "Legal",
+        "inner_html": "Legal"
+      },
+      {
+        "href": "https://debrid-link.fr/device",
+        "inner_text": "Link device",
+        "inner_html": "Link device"
+      },
+      {
+        "href": "https://debrid-link.fr/api_doc",
+        "inner_text": "API",
+        "inner_html": "API"
+      }
+    ],
+    "thirdParty": [
+      {
+        "href": "https://twitter.com/DebridLink",
+        "inner_text": " Twitter",
+        "inner_html": "<i class=\"fa fa-twitter\"></i> Twitter"
+      },
+      {
+        "href": "https://www.facebook.com/pages/Debrid-Link/182833501739787",
+        "inner_text": " Facebook",
+        "inner_html": "<i class=\"fa fa-facebook\"></i> Facebook"
+      }
+    ],
+    "social": [
+      {
+        "href": "https://twitter.com/DebridLink",
+        "inner_text": " Twitter",
+        "inner_html": "<i class=\"fa fa-twitter\"></i> Twitter"
+      },
+      {
+        "href": "https://www.facebook.com/pages/Debrid-Link/182833501739787",
+        "inner_text": " Facebook",
+        "inner_html": "<i class=\"fa fa-facebook\"></i> Facebook"
+      }
+    ],
+    "keywords": [
+      {
+        "href": "https://debrid-link.fr/privacy",
+        "inner_text": "Read more",
+        "inner_html": "Read more"
+      },
+      {
+        "href": "https://debrid-link.fr/webapp/login",
+        "inner_text": "Login",
+        "inner_html": "Login"
+      },
+      {
+        "href": "https://debrid-link.fr/legal",
+        "inner_text": "Legal",
+        "inner_html": "Legal"
+      }
+    ]
+  },
+  "unsafeForms": [],
+  "browsing_history": [
+    "https://debrid-link.fr/"
+  ],
+  "websockets": {},
+  "cookies": [
+    {
+      "name": "themeDark",
+      "value": "0",
+      "domain": "debrid-link.fr",
+      "path": "/",
+      "expires": 1653061754,
+      "size": 10,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2022-05-20T15:49:14.000Z",
+      "expiresDays": 365,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 21,
+            "lineNumber": 323,
+            "fileName": "https://debrid-link.fr/",
+            "functionName": "setCookie",
+            "source": "    at setCookie (https://debrid-link.fr/:323:21)"
+          },
+          {
+            "columnNumber": 5,
+            "lineNumber": 415,
+            "fileName": "https://debrid-link.fr/",
+            "source": "    at https://debrid-link.fr/:415:5"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T15:49:14.220Z",
+        "location": "https://debrid-link.fr/"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "PHPSESSID",
+      "value": "5b7uafkosrhsgf4qqe3rr4nvc7",
+      "domain": "debrid-link.fr",
+      "path": "/",
+      "expires": -1,
+      "size": 35,
+      "httpOnly": false,
+      "secure": false,
+      "session": true,
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://debrid-link.fr/",
+            "source": "set in Set-Cookie HTTP response header for https://debrid-link.fr/"
+          }
+        ],
+        "type": "Cookie.HTTP",
+        "timestamp": "2021-05-20T15:49:13.915Z",
+        "location": "about:blank"
+      },
+      "firstPartyStorage": true
+    }
+  ],
+  "localStorage": {},
+  "beacons": [],
+  "hosts": {
+    "requests": {
+      "firstParty": [
+        "debrid-link.fr"
+      ],
+      "thirdParty": [
+        "cdn.debrid-link.com"
+      ]
+    },
+    "beacons": {
+      "firstParty": [],
+      "thirdParty": []
+    },
+    "cookies": {
+      "firstParty": [
+        "debrid-link.fr"
+      ],
+      "thirdParty": []
+    },
+    "localStorage": {
+      "firstParty": [],
+      "thirdParty": []
+    },
+    "links": {
+      "firstParty": [
+        "debrid-link.fr"
+      ],
+      "thirdParty": [
+        "twitter.com",
+        "www.facebook.com"
+      ]
+    }
+  }
+}

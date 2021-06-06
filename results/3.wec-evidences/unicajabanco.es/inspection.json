@@ -1,0 +1,752 @@
+{
+  "title": "Website Evidence Collection",
+  "task_description": null,
+  "uri_ins": "https://unicajabanco.es",
+  "uri_refs": [
+    "https://unicajabanco.es"
+  ],
+  "uri_dest": "https://www.unicajabanco.es/es/particulares",
+  "uri_redirects": [
+    "https://unicajabanco.es/",
+    "https://www.unicajabanco.es/",
+    "https://www.unicajabanco.es/content/unicaja/es"
+  ],
+  "secure_connection": {
+    "https_support": false,
+    "https_error": "RequestError: Error: unable to verify the first certificate",
+    "redirects": [
+      "https://www.unicajabanco.es/",
+      "https://www.unicajabanco.es/content/unicaja/es",
+      "https://www.unicajabanco.es/es/particulares"
+    ],
+    "https_redirect": true
+  },
+  "host": "unicajabanco.es",
+  "script": {
+    "host": "sfod",
+    "version": {
+      "npm": "1.0.0",
+      "commit": null
+    },
+    "cmd_args": "-q --overwrite https://unicajabanco.es -- --ignore-certificate-errors",
+    "environment": {
+      "CHROME_DESKTOP": "code-url-handler.desktop"
+    },
+    "node_version": "v14.17.0"
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "HeadlessChrome/80.0.3987.0",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3617.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "5.8.0-53-generic"
+    },
+    "extra_headers": {},
+    "preset_cookies": {}
+  },
+  "start_time": "2021-05-20T15:53:55.347Z",
+  "end_time": "2021-05-20T15:54:04.031Z",
+  "links": {
+    "firstParty": [],
+    "thirdParty": [
+      {
+        "href": "https://www.unicajabanco.es/es/particulares",
+        "inner_text": "PARTICULARES",
+        "inner_html": "Particulares"
+      },
+      {
+        "href": "https://www.unicajabanco.es/es/particulares/cuentas-y-tarjetas/cuentas",
+        "inner_text": "Cuentas",
+        "inner_html": "Cuentas"
+      },
+      {
+        "href": "https://www.unicajabanco.es/es/particulares/cuentas-y-tarjetas/cuentas/cuenta-joven",
+        "inner_text": "Cuenta Joven",
+        "inner_html": "Cuenta Joven"
+      },
+      {
+        "href": "https://www.unicajabanco.es/es/particulares/cuentas-y-tarjetas/cuentas/libreta-tesoro",
+        "inner_text": "Libreta Tesoro",
+        "inner_html": "Libreta Tesoro"
+      },
+      {
+        "href": "https://www.unicajabanco.es/es/particulares/cuentas-y-tarjetas/servicio-de-traslado-de-cuentas-de-pago",
+        "inner_text": "\n\t\tServicio Traslado Cuentas de Pago \n\t",
+        "inner_html": "Servicio Traslado Cuentas de Pago"
+      },
+      {
+        "href": "https://www.unicajabanco.es/es/particulares/cuentas-y-tarjetas/tarjetas-de-debito",
+        "inner_text": "Tarjetas de débito",
+        "inner_html": "Tarjetas de débito"
+      },
+      {
+        "href": "https://www.unicajabanco.es/es/particulares/cuentas-y-tarjetas/tarjetas-de-debito/tarjeta-mastercard-debito-contactless",
+        "inner_text": "Tarjeta Débito Contactless",
+        "inner_html": "Tarjeta Débito Contactless"
+      },
+      {
+        "href": "https://www.unicajabanco.es/es/particulares/cuentas-y-tarjetas/tarjetas-de-debito/tarjeta-debito-joven-contactless",
+        "inner_text": "Tarjeta Débito Joven Contactless",
+        "inner_html": "Tarjeta Débito Joven Contactless"
+      },
+      {
+        "href": "https://www.unicajabanco.es/es/particulares/cuentas-y-tarjetas/tarjetas-de-credito",
+        "inner_text": "Tarjetas de crédito",
+        "inner_html": "Tarjetas de crédito"
+      },
+      {
+        "href": "https://www.unicajabanco.es/es/particulares/cuentas-y-tarjetas/tarjetas-de-credito/tarjeta-visa-oro",
+        "inner_text": "Tarjeta Visa Oro",
+        "inner_html": "Tarjeta Visa Oro"
+      },
+      {
+        "href": "https://www.unicajabanco.es/es/particulares/cuentas-y-tarjetas/tarjetas-de-credito/tarjeta-mastercard-credito-contactless",
+        "inner_text": "Tarjeta Mastercard Crédito",
+        "inner_html": "Tarjeta Mastercard Crédito"
+      },
+      {
+        "href": "https://www.unicajabanco.es/es/particulares/cuentas-y-tarjetas/tarjetas-de-credito/tarjeta-mastercard-credito-joven-contactless",
+        "inner_text": "Tarjeta Mastercard Crédito Joven ",
+        "inner_html": "Tarjeta Mastercard Crédito Joven"
+      },
+      {
+        "href": "https://www.unicajabanco.es/es/particulares/cuentas-y-tarjetas/pagos",
+        "inner_text": "Pagos",
+        "inner_html": "Pagos"
+      },
+      {
+        "href": "https://www.unicajabanco.es/es/particulares/cuentas-y-tarjetas/pagos/bizum-para-compras-online",
+        "inner_text": "Bizum para compras online",
+        "inner_html": "Bizum para compras online"
+      },
+      {
+        "href": "https://www.unicajabanco.es/es/particulares/cuentas-y-tarjetas/pagos/samsung-pay",
+        "inner_text": "Samsung Pay",
+        "inner_html": "Samsung Pay"
+      },
+      {
+        "href": "https://www.unicajabanco.es/es/particulares/cuentas-y-tarjetas/pagos/apple-pay",
+        "inner_text": "Apple Pay",
+        "inner_html": "Apple Pay"
+      },
+      {
+        "href": "https://www.unicajabanco.es/es/particulares/cuentas-y-tarjetas/pagos/google-pay",
+        "inner_text": "Google Pay",
+        "inner_html": "Google Pay"
+      },
+      {
+        "href": "https://www.unicajabanco.es/es/particulares/cuentas-y-tarjetas/pagos/pago-movil-android",
+        "inner_text": "Pago Móvil Android",
+        "inner_html": "Pago Móvil Android"
+      },
+      {
+        "href": "https://www.unicajabanco.es/es/particulares/cuentas-y-tarjetas/pagos/bizum",
+        "inner_text": "Bizum",
+        "inner_html": "Bizum"
+      },
+      {
+        "href": "https://www.unicajabanco.es/es/particulares/hipotecas-y-prestamos/hipotecas",
+        "inner_text": "Hipotecas",
+        "inner_html": "Hipotecas"
+      },
+      {
+        "href": "https://www.unicajabanco.es/es/particulares/hipotecas-y-prestamos/hipotecas/hipoteca-joven",
+        "inner_text": "Hipoteca Joven",
+        "inner_html": "Hipoteca Joven"
+      },
+      {
+        "href": "https://www.unicajabanco.es/es/particulares/hipotecas-y-prestamos/simulador-hipotecas",
+        "inner_text": "\n\t\tSimulador de Hipotecas\n\t",
+        "inner_html": "Simulador de Hipotecas"
+      },
+      {
+        "href": "https://www.unicajabanco.es/es/particulares/hipotecas-y-prestamos/prestamos-personales",
+        "inner_text": "Préstamos Personales",
+        "inner_html": "Préstamos Personales"
+      },
+      {
+        "href": "https://www.unicajabanco.es/es/particulares/hipotecas-y-prestamos/prestamos-personales/financiacion-estudios",
+        "inner_text": "Financiación de Estudios",
+        "inner_html": "Financiación de Estudios"
+      },
+      {
+        "href": "https://www.unicajabanco.es/es/particulares/senior/prestamo-anticipo-pension",
+        "inner_text": "Préstamo Anticipo Pensión",
+        "inner_html": "Préstamo Anticipo Pensión"
+      },
+      {
+        "href": "https://www.unicajabanco.es/es/particulares/senior/prestamo-pensionistas",
+        "inner_text": "Préstamo para Pensionistas",
+        "inner_html": "Préstamo para Pensionistas"
+      },
+      {
+        "href": "https://www.unicajabanco.es/es/particulares/ahorro-e-inversion/unicaja-broker",
+        "inner_text": "Bolsa y valores",
+        "inner_html": "Bolsa y valores"
+      },
+      {
+        "href": "https://broker.vinea.es/Broker2_2103/PortadaMercados.action",
+        "inner_text": "\n\t\tUnicaja Broker\n\t",
+        "inner_html": "<span class=\"icon icon-external-link secondary-color\"></span>Unicaja Broker"
+      },
+      {
+        "href": "https://www.unicajabanco.es/es/particulares/ahorro-e-inversion/depositos",
+        "inner_text": "Depósitos",
+        "inner_html": "Depósitos"
+      },
+      {
+        "href": "https://www.unicajabanco.es/es/particulares/ahorro-e-inversion/depositos/deposito-univia",
+        "inner_text": "Depósito UniVía",
+        "inner_html": "Depósito UniVía"
+      },
+      {
+        "href": "https://www.unicajabanco.es/es/particulares/ahorro-e-inversion/planes-de-pensiones",
+        "inner_text": "Planes de Pensiones",
+        "inner_html": "Planes de Pensiones"
+      },
+      {
+        "href": "https://www.unicajabanco.es/es/particulares/ahorro-e-inversion/planes-de-pensiones/buscador-de-planes-de-pensiones",
+        "inner_text": "Busca y elige tu plan",
+        "inner_html": "Busca y elige tu plan"
+      },
+      {
+        "href": "https://www.unicajabanco.es/es/particulares/ahorro-e-inversion/fondos-de-inversion",
+        "inner_text": "Fondos de Inversión",
+        "inner_html": "Fondos de Inversión"
+      },
+      {
+        "href": "https://www.unicajabanco.es/es/particulares/ahorro-e-inversion/fondos-de-inversion/fondos-de-inversion-socialmente-responsables",
+        "inner_text": "Fondos de Inversión Socialmente Responsables",
+        "inner_html": "Fondos de Inversión Socialmente Responsables"
+      },
+      {
+        "href": "https://www.unicajabanco.es/es/particulares/ahorro-e-inversion/fondos-de-inversion/gestion-discrecional-de-carteras",
+        "inner_text": "Gestión Discrecional de Carteras",
+        "inner_html": "Gestión Discrecional de Carteras"
+      },
+      {
+        "href": "https://www.unicajabanco.es/es/particulares/ahorro-e-inversion/fondos-de-inversion/buscador-de-fondos-de-inversion",
+        "inner_text": "Busca y elige tu fondo",
+        "inner_html": "Busca y elige tu fondo"
+      },
+      {
+        "href": "https://www.unicajabanco.es/es/particulares/ahorro-e-inversion/seguros-de-ahorro",
+        "inner_text": "Seguros de Ahorro",
+        "inner_html": "Seguros de Ahorro"
+      },
+      {
+        "href": "https://www.unicajabanco.es/es/particulares/ahorro-e-inversion/seguros-de-ahorro/univida-ahorro-eleccion",
+        "inner_text": "Univida Ahorro Elección",
+        "inner_html": "Univida Ahorro Elección"
+      },
+      {
+        "href": "https://www.unicajabanco.es/es/particulares/ahorro-e-inversion/seguros-de-ahorro/univida-ahorro-eleccion-pias",
+        "inner_text": "Univida Ahorro Elección Pias",
+        "inner_html": "Univida Ahorro Elección Pias"
+      },
+      {
+        "href": "https://www.unicajabanco.es/es/particulares/ahorro-e-inversion/seguros-de-ahorro/rentas-vitalicias",
+        "inner_text": "Rentas Vitalicias",
+        "inner_html": "Rentas Vitalicias"
+      },
+      {
+        "href": "https://www.unicajabanco.es/es/particulares/ahorro-e-inversion/seguros-de-ahorro/univida-ahorro-inversion",
+        "inner_text": "Univida Ahorro Inversión",
+        "inner_html": "Univida Ahorro Inversión"
+      },
+      {
+        "href": "https://www.unicajabanco.es/es/particulares/seguros/seguros",
+        "inner_text": "Seguros",
+        "inner_html": "Seguros"
+      },
+      {
+        "href": "https://www.unicajabanco.es/es/particulares/seguros/seguros/plan-uni-seguro",
+        "inner_text": "Plan Uni Seguro",
+        "inner_html": "Plan Uni Seguro"
+      },
+      {
+        "href": "https://www.unicajabanco.es/es/particulares/seguros/seguros/seguro-de-vida-libre",
+        "inner_text": "Seguro de Vida Libre",
+        "inner_html": "Seguro de Vida Libre"
+      },
+      {
+        "href": "https://www.unicajabanco.es/es/particulares/seguros/seguros/seguro-de-hogar",
+        "inner_text": "Seguro de Hogar",
+        "inner_html": "Seguro de Hogar"
+      },
+      {
+        "href": "https://www.unicajabanco.es/es/particulares/seguros/seguros/seguros-de-auto",
+        "inner_text": "Seguro de Coche",
+        "inner_html": "Seguro de Coche"
+      },
+      {
+        "href": "https://www.unicajabanco.es/es/particulares/seguros/seguros/seguros-de-accidente",
+        "inner_text": "Seguro de Accidentes",
+        "inner_html": "Seguro de Accidentes"
+      },
+      {
+        "href": "https://www.unicajabanco.es/es/particulares/seguros/seguros/seguro-de-salud",
+        "inner_text": "Seguro de Salud",
+        "inner_html": "Seguro de Salud"
+      },
+      {
+        "href": "https://www.unicajabanco.es/es/particulares/servicios/servicios-a-distancia",
+        "inner_text": "Servicios a distancia",
+        "inner_html": "Servicios a distancia"
+      },
+      {
+        "href": "https://www.unicajabanco.es/es/particulares/servicios/servicios-a-distancia/banca-electronica-univia",
+        "inner_text": "Banca Digital",
+        "inner_html": "Banca Digital"
+      },
+      {
+        "href": "https://www.unicajabanco.es/es/particulares/servicios/servicios-a-distancia/plan-cero-comisiones",
+        "inner_text": "Plan Cero Comisiones",
+        "inner_html": "Plan Cero Comisiones"
+      },
+      {
+        "href": "https://www.unicajabanco.es/es/herramientas/cambio-de-divisas",
+        "inner_text": "Cambio de divisas",
+        "inner_html": "Cambio de divisas"
+      },
+      {
+        "href": "https://www.unicajabanco.es/es/particulares/servicios/servicios-moviles",
+        "inner_text": "Móvil",
+        "inner_html": "Móvil"
+      },
+      {
+        "href": "https://www.unicajabanco.es/es/particulares/servicios/servicios-moviles/unicaja-movil",
+        "inner_text": "Unicaja Móvil App",
+        "inner_html": "Unicaja Móvil App"
+      },
+      {
+        "href": "https://www.unicajabanco.es/es/particulares/servicios/domiciliaciones-y-pagos",
+        "inner_text": "Domiciliaciones y pagos",
+        "inner_html": "Domiciliaciones y pagos"
+      },
+      {
+        "href": "https://www.unicajabanco.es/es/particulares/servicios/domiciliaciones-y-pagos/servicio-de-pagos-online",
+        "inner_text": "Pago de recibos e impuestos",
+        "inner_html": "Pago de recibos e impuestos"
+      },
+      {
+        "href": "https://www.unicajabanco.es/es/particulares/servicios/domiciliaciones-y-pagos/servicio-nomina",
+        "inner_text": "Servicio Nómina",
+        "inner_html": "Servicio Nómina"
+      },
+      {
+        "href": "https://www.unicajabanco.es/es/empresas-y-autonomos",
+        "inner_text": "EMPRESAS Y AUTÓNOMOS",
+        "inner_html": "Empresas y autónomos"
+      },
+      {
+        "href": "https://www.unicajabanco.es/es/sector-agrario",
+        "inner_text": "SECTOR AGRARIO",
+        "inner_html": "Sector agrario"
+      },
+      {
+        "href": "https://www.unicajabanco.es/es/banca-privada-y-personal",
+        "inner_text": "BANCA PRIVADA Y PERSONAL",
+        "inner_html": "Banca privada y personal"
+      },
+      {
+        "href": "https://www.unicajabanco.es/es/hazte-cliente",
+        "inner_text": "HAZTE CLIENTE",
+        "inner_html": "Hazte cliente"
+      },
+      {
+        "href": "https://areaprivada.unicajabanco.es/PortalServlet?pag=1533643502465",
+        "inner_text": "ENTRAR",
+        "inner_html": "<span class=\"icon-usuario icon-s\" aria-label=\"Login\"></span> <span class=\"login-text\">Entrar</span>"
+      },
+      {
+        "href": "https://www.unicajabanco.es/es/particulares/senior",
+        "inner_text": "VER TODO PARA SÉNIOR",
+        "inner_html": "Ver todo para sénior"
+      },
+      {
+        "href": "https://www.unicajabanco.es/es/particulares/ciclo-de-vida-financiera/familias",
+        "inner_text": "Ver todo para familias",
+        "inner_html": "Ver todo para familias"
+      },
+      {
+        "href": "https://www.unicajabanco.es/es/particulares/ciclo-de-vida-financiera/adultos",
+        "inner_text": "Ver todo para adultos",
+        "inner_html": "Ver todo para adultos"
+      },
+      {
+        "href": "https://www.unicajabanco.es/es/particulares/ciclo-de-vida-financiera/menor-de-35",
+        "inner_text": "Ver todo para menores de 35",
+        "inner_html": "Ver todo para menores de 35"
+      },
+      {
+        "href": "https://www.unicajabanco.es/es/particulares/ciclo-de-vida-financiera",
+        "inner_text": "CONOCE TODO TU CICLO FINANCIERO",
+        "inner_html": "CONOCE TODO TU CICLO FINANCIERO"
+      },
+      {
+        "href": "https://www.unicajabanco.es/es/tu-banco-desde-casa",
+        "inner_text": "MÁS INFORMACIÓN",
+        "inner_html": "Más información"
+      },
+      {
+        "href": "https://www.unicajabanco.es/es/particulares/servicios/servicios-a-distancia/servicio-cajeros",
+        "inner_text": "VER SERVICIO CAJEROS",
+        "inner_html": "ver Servicio Cajeros"
+      },
+      {
+        "href": "https://uniblog.unicajabanco.es/ahorro-y-finanzas",
+        "inner_text": "VER ARTÍCULOS",
+        "inner_html": "ver artículos"
+      },
+      {
+        "href": "https://uniblog.unicajabanco.es/economia-y-empresa",
+        "inner_text": "VER ARTÍCULOS",
+        "inner_html": "ver artículos"
+      },
+      {
+        "href": "https://uniblog.unicajabanco.es/sociedad",
+        "inner_text": "VER ARTÍCULOS",
+        "inner_html": "ver artículos"
+      },
+      {
+        "href": "https://uniblog.unicajabanco.es/tecnologia-e-innovacion",
+        "inner_text": "VER ARTÍCULOS",
+        "inner_html": "ver artículos"
+      },
+      {
+        "href": "https://uniblog.unicajabanco.es/",
+        "inner_text": "VER TODOS LOS ARTÍCULOS",
+        "inner_html": "Ver todos los artículos"
+      },
+      {
+        "href": "https://www.unicajabanco.es/es/mapa-de-oficinas-y-cajeros",
+        "inner_text": "BUSCAR OFICINAS Y CAJEROS",
+        "inner_html": "Buscar oficinas y cajeros"
+      },
+      {
+        "href": "https://www.unicajabanco.es/es/ayuda-y-contacto",
+        "inner_text": "SOLICITAR AYUDA URGENTE",
+        "inner_html": "Solicitar ayuda urgente"
+      },
+      {
+        "href": "https://www.unicajabanco.es/es/particulares/formulario-cita-previa",
+        "inner_text": "SOLICITAR CITA PREVIA",
+        "inner_html": "Solicitar cita previa"
+      },
+      {
+        "href": "https://twitter.com/unicajaBanco",
+        "inner_text": "Twitter",
+        "inner_html": "<span class=\"icon-twitter\"></span><span class=\"sr-only\">Twitter</span>"
+      },
+      {
+        "href": "https://www.facebook.com/unicajabanco/",
+        "inner_text": "facebook",
+        "inner_html": "<span class=\"icon-facebook\"></span><span class=\"sr-only\">facebook</span>"
+      },
+      {
+        "href": "https://www.youtube.com/channel/UCUfSDp6Coamb80y0BGR12qw/featured",
+        "inner_text": "youtube",
+        "inner_html": "<span class=\"icon-youtube\"></span><span class=\"sr-only\">youtube</span>"
+      },
+      {
+        "href": "https://www.linkedin.com/company/unicajabanco",
+        "inner_text": "LinkedIn",
+        "inner_html": "<span class=\"icon-linkedIn\"></span><span class=\"sr-only\">LinkedIn</span>"
+      },
+      {
+        "href": "https://www.instagram.com/unicajabanco/",
+        "inner_text": "Instagram",
+        "inner_html": "<span class=\"icon-instagram\"></span><span class=\"sr-only\">Instagram</span>"
+      },
+      {
+        "href": "https://www.unicajabanco.com/",
+        "inner_text": "Web corporativa",
+        "inner_html": "<span class=\"icon icon-external-link\"></span>Web corporativa"
+      }
+    ],
+    "social": [
+      {
+        "href": "https://twitter.com/unicajaBanco",
+        "inner_text": "Twitter",
+        "inner_html": "<span class=\"icon-twitter\"></span><span class=\"sr-only\">Twitter</span>"
+      },
+      {
+        "href": "https://www.facebook.com/unicajabanco/",
+        "inner_text": "facebook",
+        "inner_html": "<span class=\"icon-facebook\"></span><span class=\"sr-only\">facebook</span>"
+      },
+      {
+        "href": "https://www.youtube.com/channel/UCUfSDp6Coamb80y0BGR12qw/featured",
+        "inner_text": "youtube",
+        "inner_html": "<span class=\"icon-youtube\"></span><span class=\"sr-only\">youtube</span>"
+      },
+      {
+        "href": "https://www.linkedin.com/company/unicajabanco",
+        "inner_text": "LinkedIn",
+        "inner_html": "<span class=\"icon-linkedIn\"></span><span class=\"sr-only\">LinkedIn</span>"
+      },
+      {
+        "href": "https://www.instagram.com/unicajabanco/",
+        "inner_text": "Instagram",
+        "inner_html": "<span class=\"icon-instagram\"></span><span class=\"sr-only\">Instagram</span>"
+      }
+    ],
+    "keywords": [
+      {
+        "href": "https://areaprivada.unicajabanco.es/PortalServlet?pag=1533643502465",
+        "inner_text": "ENTRAR",
+        "inner_html": "<span class=\"icon-usuario icon-s\" aria-label=\"Login\"></span> <span class=\"login-text\">Entrar</span>"
+      }
+    ]
+  },
+  "unsafeForms": [],
+  "browsing_history": [
+    "https://www.unicajabanco.es/es/particulares"
+  ],
+  "websockets": {},
+  "cookies": [
+    {
+      "name": "language",
+      "value": "es",
+      "domain": "unicajabanco.es",
+      "path": "/",
+      "expires": 1653062037,
+      "size": 10,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2022-05-20T15:53:57.000Z",
+      "expiresDays": 365,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 20,
+            "lineNumber": 5467,
+            "fileName": "https://www.unicajabanco.es/etc.clientlibs/unicaja/clientlibs/clientlib-base.min.js",
+            "functionName": "setCookie",
+            "source": "    at setCookie (https://www.unicajabanco.es/etc.clientlibs/unicaja/clientlibs/clientlib-base.min.js:5467:20)"
+          },
+          {
+            "columnNumber": 2,
+            "lineNumber": 5241,
+            "fileName": "https://www.unicajabanco.es/etc.clientlibs/unicaja/clientlibs/clientlib-base.min.js",
+            "functionName": "saveLanguageCookies",
+            "source": "    at saveLanguageCookies (https://www.unicajabanco.es/etc.clientlibs/unicaja/clientlibs/clientlib-base.min.js:5241:2)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T15:53:57.324Z",
+        "location": "https://www.unicajabanco.es/es/particulares"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "ApplicationGatewayAffinityCORS",
+      "value": "82344efa8b2a852143a5d382aeebc846",
+      "domain": "www.unicajabanco.es",
+      "path": "/",
+      "expires": -1,
+      "size": 62,
+      "httpOnly": false,
+      "secure": true,
+      "session": true,
+      "sameSite": "None",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.unicajabanco.es/",
+            "source": "set in Set-Cookie HTTP response header for https://www.unicajabanco.es/"
+          }
+        ],
+        "type": "Cookie.HTTP",
+        "timestamp": "2021-05-20T15:53:56.013Z",
+        "location": "about:blank"
+      },
+      "firstPartyStorage": false
+    },
+    {
+      "name": "ApplicationGatewayAffinity",
+      "value": "82344efa8b2a852143a5d382aeebc846",
+      "domain": "www.unicajabanco.es",
+      "path": "/",
+      "expires": -1,
+      "size": 58,
+      "httpOnly": false,
+      "secure": false,
+      "session": true,
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.unicajabanco.es/",
+            "source": "set in Set-Cookie HTTP response header for https://www.unicajabanco.es/"
+          }
+        ],
+        "type": "Cookie.HTTP",
+        "timestamp": "2021-05-20T15:53:56.013Z",
+        "location": "about:blank"
+      },
+      "firstPartyStorage": false
+    },
+    {
+      "name": "JSESSIONID",
+      "value": "node01vsj34gvalk6z196q20wtcvw1m124898.node0",
+      "domain": "www.unicajabanco.es",
+      "path": "/",
+      "expires": -1,
+      "size": 53,
+      "httpOnly": true,
+      "secure": true,
+      "session": true,
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.unicajabanco.es/content/unicaja/es",
+            "source": "set in Set-Cookie HTTP response header for https://www.unicajabanco.es/content/unicaja/es"
+          }
+        ],
+        "type": "Cookie.HTTP",
+        "timestamp": "2021-05-20T15:53:56.092Z",
+        "location": "about:blank"
+      },
+      "firstPartyStorage": false
+    },
+    {
+      "name": "TS01e680a5",
+      "value": "01301e525b5a12e89850a1351e5cb6bc25afc3e57c760e6021e091ab809dba1f0735cabf8900ee3599dd3aee9365f7389976bedfbc",
+      "domain": "sec.telefonica.com",
+      "path": "/",
+      "expires": -1,
+      "size": 116,
+      "httpOnly": false,
+      "secure": false,
+      "session": true,
+      "firstPartyStorage": false
+    }
+  ],
+  "localStorage": {},
+  "beacons": [
+    {
+      "url": "https://www.google-analytics.com/gtm/js?id=OPT-NLW3DM2&t=gtag_UA_98082345_3&cid=231098731.1621526037",
+      "query": {
+        "id": "OPT-NLW3DM2",
+        "t": "gtag_UA_98082345_3",
+        "cid": 231098731.16215262
+      },
+      "filter": "||google-analytics.com/gtm/js?",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.unicajabanco.es/es/particulares",
+            "source": "requested from https://www.unicajabanco.es/es/particulares and matched with easyprivacy.txt filter ||google-analytics.com/gtm/js?"
+          }
+        ],
+        "timestamp": "2021-05-20T15:53:57.382Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://www.google-analytics.com/analytics.js",
+      "query": null,
+      "filter": "||google-analytics.com/analytics.js",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.unicajabanco.es/es/particulares",
+            "source": "requested from https://www.unicajabanco.es/es/particulares and matched with easyprivacy.txt filter ||google-analytics.com/analytics.js"
+          }
+        ],
+        "timestamp": "2021-05-20T15:53:56.733Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://www.googletagmanager.com/gtm.js?id=GTM-WQ4PXKK",
+      "query": {
+        "id": "GTM-WQ4PXKK"
+      },
+      "filter": "/gtm.js",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.unicajabanco.es/es/particulares",
+            "source": "requested from https://www.unicajabanco.es/es/particulares and matched with easyprivacy.txt filter /gtm.js"
+          }
+        ],
+        "timestamp": "2021-05-20T15:53:56.198Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://www.googletagmanager.com/gtag/js?id=UA-98082345-3",
+      "query": {
+        "id": "UA-98082345-3"
+      },
+      "filter": "||googletagmanager.com/gtag/$third-party",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.unicajabanco.es/es/particulares",
+            "source": "requested from https://www.unicajabanco.es/es/particulares and matched with easyprivacy.txt filter ||googletagmanager.com/gtag/$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T15:53:56.188Z"
+      },
+      "occurrances": 1
+    }
+  ],
+  "hosts": {
+    "requests": {
+      "firstParty": [
+        "unicajabanco.es"
+      ],
+      "thirdParty": [
+        "www.unicajabanco.es",
+        "www.googletagmanager.com",
+        "cdnjs.cloudflare.com",
+        "www.google-analytics.com",
+        "stats.sec.telefonica.com"
+      ]
+    },
+    "beacons": {
+      "firstParty": [],
+      "thirdParty": [
+        "www.google-analytics.com",
+        "www.googletagmanager.com"
+      ]
+    },
+    "cookies": {
+      "firstParty": [
+        "unicajabanco.es"
+      ],
+      "thirdParty": [
+        "www.unicajabanco.es",
+        "sec.telefonica.com"
+      ]
+    },
+    "localStorage": {
+      "firstParty": [],
+      "thirdParty": []
+    },
+    "links": {
+      "firstParty": [],
+      "thirdParty": [
+        "www.unicajabanco.es",
+        "broker.vinea.es",
+        "areaprivada.unicajabanco.es",
+        "uniblog.unicajabanco.es",
+        "twitter.com",
+        "www.facebook.com",
+        "www.youtube.com",
+        "www.linkedin.com",
+        "www.instagram.com",
+        "www.unicajabanco.com"
+      ]
+    }
+  }
+}

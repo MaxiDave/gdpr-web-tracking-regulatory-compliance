@@ -1,0 +1,1184 @@
+{
+  "title": "Website Evidence Collection",
+  "task_description": null,
+  "uri_ins": "https://callbell.eu",
+  "uri_refs": [
+    "https://callbell.eu"
+  ],
+  "uri_dest": "https://www.callbell.eu/en/",
+  "uri_redirects": [
+    "https://callbell.eu/"
+  ],
+  "secure_connection": {
+    "https_support": true,
+    "redirects": [
+      "https://callbell.eu/",
+      "https://www.callbell.eu/en/"
+    ],
+    "https_redirect": true
+  },
+  "host": "callbell.eu",
+  "script": {
+    "host": "sfod",
+    "version": {
+      "npm": "1.0.0",
+      "commit": null
+    },
+    "cmd_args": "-q --overwrite https://callbell.eu -- --ignore-certificate-errors",
+    "environment": {
+      "CHROME_DESKTOP": "code-url-handler.desktop"
+    },
+    "node_version": "v14.17.0"
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "HeadlessChrome/80.0.3987.0",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3617.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "5.8.0-53-generic"
+    },
+    "extra_headers": {},
+    "preset_cookies": {}
+  },
+  "start_time": "2021-05-20T15:52:02.332Z",
+  "end_time": "2021-05-20T15:52:12.852Z",
+  "links": {
+    "firstParty": [],
+    "thirdParty": [
+      {
+        "href": "https://www.callbell.eu/en/",
+        "inner_text": "",
+        "inner_html": "<img src=\"https://www.callbell.eu/wp-content/uploads/2018/11/Callbell-Logo.png\" alt=\"Callbell\" id=\"logo\" data-height-percentage=\"50\" data-actual-width=\"768\" data-actual-height=\"189\">"
+      },
+      {
+        "href": "https://www.callbell.eu/en/chat-management/",
+        "inner_text": "Chat Management",
+        "inner_html": "Chat Management"
+      },
+      {
+        "href": "https://www.callbell.eu/en/widget/",
+        "inner_text": "Widget",
+        "inner_html": "Widget"
+      },
+      {
+        "href": "https://www.callbell.eu/en/pricing/",
+        "inner_text": "Pricing",
+        "inner_html": "Pricing"
+      },
+      {
+        "href": "https://callbellsupport.zendesk.com/hc/en-us",
+        "inner_text": "Support",
+        "inner_html": "Support"
+      },
+      {
+        "href": "https://app.livestorm.co/callbell?upcoming_locale=en",
+        "inner_text": "Webinars",
+        "inner_html": "Webinars"
+      },
+      {
+        "href": "https://dash.callbell.eu/users/sign_in",
+        "inner_text": "Login",
+        "inner_html": "Login"
+      },
+      {
+        "href": "https://www.callbell.eu/en/sign-up/",
+        "inner_text": "Sign Up",
+        "inner_html": "Sign Up"
+      },
+      {
+        "href": "https://callbell.typeform.com/to/VrRv005y",
+        "inner_text": "Request a demo",
+        "inner_html": "Request a demo"
+      },
+      {
+        "href": "https://callbellsupport.zendesk.com/hc/en-us/articles/360002890938-How-do-the-paid-plans-of-the-Callbell-chat-module-work-",
+        "inner_text": "Find out more abour our plans",
+        "inner_html": "Find out more abour our plans"
+      },
+      {
+        "href": "https://www.callbell.eu/en/enterprise/",
+        "inner_text": "Find out more",
+        "inner_html": "Find out more"
+      },
+      {
+        "href": "https://callbellsupport.zendesk.com/hc/en-us/articles/360002513617-Which-messaging-channels-can-I-integrate-into-Callbell-",
+        "inner_text": "Visit our Help Center.",
+        "inner_html": "Visit our Help Center."
+      },
+      {
+        "href": "https://www.callbell.eu/fr/",
+        "inner_text": "Français",
+        "inner_html": "<img src=\"data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201%201'%3E%3C/svg%3E\" title=\"Français\" alt=\"Français\" data-lazy-src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAALCAIAAAD5gJpuAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAGzSURBVHjaYiyeepkBBv79+Zfnx/f379+fP38CyT9//jAyMiq5GP77wvDnJ8MfoAIGBoAAYgGqC7STApL///3/9++/pCTv////Qdz/QO4/IMna0vf/z+9/v379//37bUUTQACBNDD8Z/j87fffvyAVX79+/Q8GQDbQeKA9fM+e/Pv18/+vnwzCIkBLAAKQOAY5AIAwCEv4/4PddNUm3ji0QJyxW3rgzE0iLfqDGr2oYuu0l54AYvnz5x9Q6d+/QPQfyAQqAin9B3EOyG1A1UDj//36zfjr1y8GBoAAFI9BDgAwCMIw+P8Ho3GDO6XQ0l4MN8b2kUwYaLszqgKM/KHcDXwBxAJUD3TJ779A8h9Q5D8SAHoARP36+Rfo41+/mcA2AAQQy49ff0Cu//MPpAeI/0FdA1QNYYNVA/3wmwEYVgwMAAHE8uPHH5BqoD1//gJJLADoJKDS378Z//wFhhJAALF8A3rizz8uTmYg788fJkj4QOKREQyYxSWBhjEC/fcXZANAALF8+/anbcHlHz9+ffvx58uPX9KckkCn/gby/wLd8uvHjx96k+cD1UGiGQgAAgwA7q17ZpsMdUQAAAAASUVORK5CYII=\"><noscript><img src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAALCAIAAAD5gJpuAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAGzSURBVHjaYiyeepkBBv79+Zfnx/f379+fP38CyT9//jAyMiq5GP77wvDnJ8MfoAIGBoAAYgGqC7STApL///3/9++/pCTv////Qdz/QO4/IMna0vf/z+9/v379//37bUUTQACBNDD8Z/j87fffvyAVX79+/Q8GQDbQeKA9fM+e/Pv18/+vnwzCIkBLAAKQOAY5AIAwCEv4/4PddNUm3ji0QJyxW3rgzE0iLfqDGr2oYuu0l54AYvnz5x9Q6d+/QPQfyAQqAin9B3EOyG1A1UDj//36zfjr1y8GBoAAFI9BDgAwCMIw+P8Ho3GDO6XQ0l4MN8b2kUwYaLszqgKM/KHcDXwBxAJUD3TJ779A8h9Q5D8SAHoARP36+Rfo41+/mcA2AAQQy49ff0Cu//MPpAeI/0FdA1QNYYNVA/3wmwEYVgwMAAHE8uPHH5BqoD1//gJJLADoJKDS378Z//wFhhJAALF8A3rizz8uTmYg788fJkj4QOKREQyYxSWBhjEC/fcXZANAALF8+/anbcHlHz9+ffvx58uPX9KckkCn/gby/wLd8uvHjx96k+cD1UGiGQgAAgwA7q17ZpsMdUQAAAAASUVORK5CYII=\" title=\"Français\" alt=\"Français\" /></noscript><span style=\"margin-left:0.3em;\">Français</span>"
+      },
+      {
+        "href": "https://www.callbell.eu/es/",
+        "inner_text": "Español",
+        "inner_html": "<img src=\"data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201%201'%3E%3C/svg%3E\" title=\"Español\" alt=\"Español\" data-lazy-src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAALCAIAAAD5gJpuAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAFnSURBVHjaYvzPgAD/UNlYEUAAmuTYAAAQhAEYqF/zFbe50RZ1cMmS9TLi0pJLRjZohAMTGFUN9HdnHgEE1sDw//+Tp0ClINW/f0NIKPoFJH/9//ULyGaUlQXaABBALAx/Gf4zAt31F4i+ffj3/cN/XrFfzOx//v///f//LzACM/79ZmD8/e8TA0AAMYHdDVT958vXP38nMDB0s3x94/Tj5y+YahhiAKLfQKUAAcQEdtJfoDHMF2L+vPzDmFXLelf551tGFOOhev4A/QgQQExgHwAd8IdFT/Wz6j+GhlpmXSOW/2z///8Eq/sJ18Dw/zdQA0AAMQExxJjjdy9x2/76EfLz4MXdP/i+wsyGkkA3Aw3984cBIIAYfzIwMKel/bt3jwEaLNAwgZIQxp/fDH/+MqqovL14ESCAWICeZvr9h0FSEhSgwBgAygFDEMT+wwAhgQgc4kAEVAwQQIxfUSMSTxxDAECAAQAJWke8v4u1tAAAAABJRU5ErkJggg==\"><noscript><img src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAALCAIAAAD5gJpuAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAFnSURBVHjaYvzPgAD/UNlYEUAAmuTYAAAQhAEYqF/zFbe50RZ1cMmS9TLi0pJLRjZohAMTGFUN9HdnHgEE1sDw//+Tp0ClINW/f0NIKPoFJH/9//ULyGaUlQXaABBALAx/Gf4zAt31F4i+ffj3/cN/XrFfzOx//v///f//LzACM/79ZmD8/e8TA0AAMYHdDVT958vXP38nMDB0s3x94/Tj5y+YahhiAKLfQKUAAcQEdtJfoDHMF2L+vPzDmFXLelf551tGFOOhev4A/QgQQExgHwAd8IdFT/Wz6j+GhlpmXSOW/2z///8Eq/sJ18Dw/zdQA0AAMQExxJjjdy9x2/76EfLz4MXdP/i+wsyGkkA3Aw3984cBIIAYfzIwMKel/bt3jwEaLNAwgZIQxp/fDH/+MqqovL14ESCAWICeZvr9h0FSEhSgwBgAygFDEMT+wwAhgQgc4kAEVAwQQIxfUSMSTxxDAECAAQAJWke8v4u1tAAAAABJRU5ErkJggg==\" title=\"Español\" alt=\"Español\" /></noscript><span style=\"margin-left:0.3em;\">Español</span>"
+      },
+      {
+        "href": "https://www.callbell.eu/it/",
+        "inner_text": "Italiano",
+        "inner_html": "<img src=\"data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201%201'%3E%3C/svg%3E\" title=\"Italiano\" alt=\"Italiano\" data-lazy-src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAALCAIAAAD5gJpuAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAE2SURBVHjaYmSYyMDwgwEE/jEw/GF4mvT0HyqQUlX9B5aEIIAAYmH4wlDtWg1SDwT//0lKSv7/D+T9/w+nYmL+//79/88fIPll0yaAAGJhYAGJP/n69O+/v0CAUAcHt2////ULqJpRVhZoA0AAsQCtAZoMVP0HiP7+RlcNBEDVYA0Mv38DNQAEEMj8vwx//wCt/AdC/zEBkgagYoAAYgF6FGj277+///wlpAEoz8AAEEAgDX/BZv/69wuoB48GRrCTAAKICajh9//fv/6CVP/++wu7BrDxQFf/YWAACCCwk0BKf0MQdg1/gBqAPv0L9ANAALEAY+33vz+S3JIgb/z5C45CBkZGRgY4UFICKQUjoJMAAoiRoZSB4RMojkHx/YPhbNVZoM3AOISQQPUK9vaQOIYAgAADAC5Wd4RRwnKfAAAAAElFTkSuQmCC\"><noscript><img src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAALCAIAAAD5gJpuAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAE2SURBVHjaYmSYyMDwgwEE/jEw/GF4mvT0HyqQUlX9B5aEIIAAYmH4wlDtWg1SDwT//0lKSv7/D+T9/w+nYmL+//79/88fIPll0yaAAGJhYAGJP/n69O+/v0CAUAcHt2////ULqJpRVhZoA0AAsQCtAZoMVP0HiP7+RlcNBEDVYA0Mv38DNQAEEMj8vwx//wCt/AdC/zEBkgagYoAAYgF6FGj277+///wlpAEoz8AAEEAgDX/BZv/69wuoB48GRrCTAAKICajh9//fv/6CVP/++wu7BrDxQFf/YWAACCCwk0BKf0MQdg1/gBqAPv0L9ANAALEAY+33vz+S3JIgb/z5C45CBkZGRgY4UFICKQUjoJMAAoiRoZSB4RMojkHx/YPhbNVZoM3AOISQQPUK9vaQOIYAgAADAC5Wd4RRwnKfAAAAAElFTkSuQmCC\" title=\"Italiano\" alt=\"Italiano\" /></noscript><span style=\"margin-left:0.3em;\">Italiano</span>"
+      },
+      {
+        "href": "https://www.callbell.eu/pt/",
+        "inner_text": "Português",
+        "inner_html": "<img src=\"data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201%201'%3E%3C/svg%3E\" title=\"Português\" alt=\"Português\" data-lazy-src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAALCAIAAAD5gJpuAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAG8SURBVHjaYmSIZGD4wgAF/xgYWBj+boQysSKAAGJh+MRQnVoNUgEE///9ZfzLoPiX4e8fxj9/mP/8Yfr9+/+fP/9h5JdNmwACiIWBCaj4/5P3T7mY/xoJ/9UR/v0n8O+f17/Zlv/+//73/1+////+9f/XL6BqRllZoA0AAcQCNvv/339/C03+8v/8w7bk7+/vv/+7/P4S95ur+xdY9W+IBobfv4EaAAKICeiuv////vnz58PX3xxb/7BlN3/K7Ph1WoSR/fcfhl//f4KN/wW1BGg6QAAxMfxi+PP37++/v1kYfn//+usnE+cHCbWfTKz/mH7+ZgUpQmj48wdoA0AAsQA1/P0HZP458/qXqvNfjdnVItxy3wNvApUIvwPb8BvqJEawkwACiIXhDwPQ+F9/f+2890dY6/cnrycCb++z3frNfOwX01eEagZgKAHdzcAAEEAgG4DGA/W8+fO79+Rvdt5f2+b++sP+m+kdWDVEwx+gBmBY/wX6ASCAWBi+Mfz+80eSX/L3n99AzwBDm0H2NwtQHS/QapDBIPT3LwQBnQQQQIwMxgwM7xgYfjAArQKRTAyvP2OPYwgACDAAjtdGduN8tIgAAAAASUVORK5CYII=\"><noscript><img src=\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAALCAIAAAD5gJpuAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAG8SURBVHjaYmSIZGD4wgAF/xgYWBj+boQysSKAAGJh+MRQnVoNUgEE///9ZfzLoPiX4e8fxj9/mP/8Yfr9+/+fP/9h5JdNmwACiIWBCaj4/5P3T7mY/xoJ/9UR/v0n8O+f17/Zlv/+//73/1+////+9f/XL6BqRllZoA0AAcQCNvv/339/C03+8v/8w7bk7+/vv/+7/P4S95ur+xdY9W+IBobfv4EaAAKICeiuv////vnz58PX3xxb/7BlN3/K7Ph1WoSR/fcfhl//f4KN/wW1BGg6QAAxMfxi+PP37++/v1kYfn//+usnE+cHCbWfTKz/mH7+ZgUpQmj48wdoA0AAsQA1/P0HZP458/qXqvNfjdnVItxy3wNvApUIvwPb8BvqJEawkwACiIXhDwPQ+F9/f+2890dY6/cnrycCb++z3frNfOwX01eEagZgKAHdzcAAEEAgG4DGA/W8+fO79+Rvdt5f2+b++sP+m+kdWDVEwx+gBmBY/wX6ASCAWBi+Mfz+80eSX/L3n99AzwBDm0H2NwtQHS/QapDBIPT3LwQBnQQQQIwMxgwM7xgYfjAArQKRTAyvP2OPYwgACDAAjtdGduN8tIgAAAAASUVORK5CYII=\" title=\"Português\" alt=\"Português\" /></noscript><span style=\"margin-left:0.3em;\">Português</span>"
+      },
+      {
+        "href": "https://www.callbell.eu/en/whatsapp-business-customer-service-platform/",
+        "inner_text": "WhatsApp",
+        "inner_html": "WhatsApp"
+      },
+      {
+        "href": "https://www.callbell.eu/en/facebook-messenger-customer-service-platform/",
+        "inner_text": "Facebook Messenger",
+        "inner_html": "Facebook Messenger"
+      },
+      {
+        "href": "https://www.callbell.eu/en/instagram-direct-customer-service-platform/",
+        "inner_text": "Instagram (beta)",
+        "inner_html": "Instagram (beta)"
+      },
+      {
+        "href": "https://www.callbell.eu/en/telegram-customer-service-platform/",
+        "inner_text": "Telegram",
+        "inner_html": "Telegram"
+      },
+      {
+        "href": "https://status.callbell.eu/",
+        "inner_text": "Status Page",
+        "inner_html": "Status Page"
+      },
+      {
+        "href": "https://www.callbell.eu/en/blog/",
+        "inner_text": "Blog",
+        "inner_html": "Blog"
+      },
+      {
+        "href": "https://www.callbell.eu/en/terms-conditions/",
+        "inner_text": "Terms and Conditions",
+        "inner_html": "Terms and Conditions"
+      },
+      {
+        "href": "https://www.callbell.eu/en/security/",
+        "inner_text": "Security",
+        "inner_html": "Security"
+      },
+      {
+        "href": "https://www.callbell.eu/en/privacy-policy-2/",
+        "inner_text": "Privacy Policy",
+        "inner_html": "Privacy Policy"
+      },
+      {
+        "href": "https://www.callbell.eu/en/cookie-policy/",
+        "inner_text": "Cookie Policy",
+        "inner_html": "Cookie Policy"
+      },
+      {
+        "href": "https://www.callbell.eu/en/best-alternatives-to-callbell/",
+        "inner_text": "Comparisons",
+        "inner_html": "Comparisons"
+      },
+      {
+        "href": "https://www.callbell.eu/en/industries/",
+        "inner_text": "Industries",
+        "inner_html": "Industries"
+      },
+      {
+        "href": "https://www.facebook.com/callbellcompany/",
+        "inner_text": "",
+        "inner_html": "<span>Facebook</span>"
+      },
+      {
+        "href": "https://twitter.com/CallbellApp",
+        "inner_text": "",
+        "inner_html": "<span>Twitter</span>"
+      },
+      {
+        "href": "https://www.callbell.eu/en/feed/",
+        "inner_text": "",
+        "inner_html": "<span>RSS</span>"
+      }
+    ],
+    "social": [
+      {
+        "href": "https://www.facebook.com/callbellcompany/",
+        "inner_text": "",
+        "inner_html": "<span>Facebook</span>"
+      },
+      {
+        "href": "https://twitter.com/CallbellApp",
+        "inner_text": "",
+        "inner_html": "<span>Twitter</span>"
+      }
+    ],
+    "keywords": [
+      {
+        "href": "https://dash.callbell.eu/users/sign_in",
+        "inner_text": "Login",
+        "inner_html": "Login"
+      },
+      {
+        "href": "https://www.callbell.eu/en/privacy-policy-2/",
+        "inner_text": "Privacy Policy",
+        "inner_html": "Privacy Policy"
+      }
+    ]
+  },
+  "unsafeForms": [],
+  "browsing_history": [
+    "https://www.callbell.eu/en/"
+  ],
+  "websockets": {},
+  "cookies": [
+    {
+      "name": "bscookie",
+      "value": "\"v=1&2021052015520626261329-cb39-49ed-8aae-4a0f3fddfb9fAQFFrqZlEX4nePgc8SJlW7BzMW_aJrXt\"",
+      "domain": "www.linkedin.com",
+      "path": "/",
+      "expires": 1684639778.168073,
+      "size": 96,
+      "httpOnly": true,
+      "secure": true,
+      "session": false,
+      "sameSite": "None",
+      "expiresUTC": "2023-05-21T03:29:38.168Z",
+      "expiresDays": 730.48,
+      "firstPartyStorage": false
+    },
+    {
+      "name": "bcookie",
+      "value": "\"v=2&cc8cfbe7-b1aa-4421-865e-f421340821df\"",
+      "domain": "linkedin.com",
+      "path": "/",
+      "expires": 1684639777.778392,
+      "size": 49,
+      "httpOnly": false,
+      "secure": true,
+      "session": false,
+      "sameSite": "None",
+      "expiresUTC": "2023-05-21T03:29:37.778Z",
+      "expiresDays": 730.48,
+      "firstPartyStorage": false
+    },
+    {
+      "name": "_ga",
+      "value": "GA1.2.688502388.1621525925",
+      "domain": "callbell.eu",
+      "path": "/",
+      "expires": 1684597925,
+      "size": 29,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2023-05-20T15:52:05.000Z",
+      "expiresDays": 730,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 495,
+            "lineNumber": 30,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "zc",
+            "source": "    at zc (https://www.google-analytics.com/analytics.js:30:495)"
+          },
+          {
+            "columnNumber": 15,
+            "lineNumber": 60,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "ma",
+            "source": "    at ma (https://www.google-analytics.com/analytics.js:60:15)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T15:52:05.239Z",
+        "location": "https://www.callbell.eu/en/"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "callbell_uid",
+      "value": "53ffa7d0-b983-11eb-b1dc-a7cfd2a94493",
+      "domain": "www.callbell.eu",
+      "path": "/",
+      "expires": 1653061926,
+      "size": 48,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2022-05-20T15:52:06.000Z",
+      "expiresDays": 365,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 242365,
+            "lineNumber": 2,
+            "fileName": "https://dash.callbell.eu/packs/js/widget_entry.js",
+            "functionName": "e.value",
+            "source": "    at e.value (https://dash.callbell.eu/packs/js/widget_entry.js:2:242365)"
+          },
+          {
+            "columnNumber": 242021,
+            "lineNumber": 2,
+            "fileName": "https://dash.callbell.eu/packs/js/widget_entry.js",
+            "functionName": "e.value",
+            "source": "    at e.value (https://dash.callbell.eu/packs/js/widget_entry.js:2:242021)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T15:52:06.634Z",
+        "location": "https://www.callbell.eu"
+      },
+      "firstPartyStorage": false
+    },
+    {
+      "name": "pll_language",
+      "value": "en",
+      "domain": "www.callbell.eu",
+      "path": "/",
+      "expires": 1653061923.775122,
+      "size": 14,
+      "httpOnly": false,
+      "secure": true,
+      "session": false,
+      "expiresUTC": "2022-05-20T15:52:03.775Z",
+      "expiresDays": 365,
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.callbell.eu/en/",
+            "source": "set in Set-Cookie HTTP response header for https://www.callbell.eu/en/"
+          }
+        ],
+        "type": "Cookie.HTTP",
+        "timestamp": "2021-05-20T15:52:03.781Z",
+        "location": "about:blank"
+      },
+      "firstPartyStorage": false
+    },
+    {
+      "name": "_fbp",
+      "value": "fb.1.1621525925171.501522544",
+      "domain": "callbell.eu",
+      "path": "/",
+      "expires": 1629301925,
+      "size": 32,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2021-08-18T15:52:05.000Z",
+      "expiresDays": 90,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 5326,
+            "lineNumber": 25,
+            "fileName": "https://connect.facebook.net/signals/config/2033804756897916?v=2.9.39&r=stable",
+            "functionName": "C",
+            "source": "    at C (https://connect.facebook.net/signals/config/2033804756897916?v=2.9.39&r=stable:25:5326)"
+          },
+          {
+            "columnNumber": 5633,
+            "lineNumber": 25,
+            "fileName": "https://connect.facebook.net/signals/config/2033804756897916?v=2.9.39&r=stable",
+            "functionName": "D",
+            "source": "    at D (https://connect.facebook.net/signals/config/2033804756897916?v=2.9.39&r=stable:25:5633)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T15:52:05.688Z",
+        "location": "https://www.callbell.eu/en/"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "AnalyticsSyncHistory",
+      "value": "AQL7mn44vUhXDQAAAXmKeg81e7NPOVGwLr-XZumTUhYDu7NCAp6ANefW2pyA-g63jYjCRHUGWdxPrjcRKuBxjQ",
+      "domain": "linkedin.com",
+      "path": "/",
+      "expires": 1624117925.778351,
+      "size": 106,
+      "httpOnly": false,
+      "secure": true,
+      "session": false,
+      "sameSite": "None",
+      "expiresUTC": "2021-06-19T15:52:05.778Z",
+      "expiresDays": 30,
+      "firstPartyStorage": false
+    },
+    {
+      "name": "UserMatchHistory",
+      "value": "AQJOY7hmYufkcQAAAXmKeg81-exerUOS_WcSDH81LmKNmmOnLKN78eHzmAbb0DuOIR7-_fBa_h0sUA",
+      "domain": "linkedin.com",
+      "path": "/",
+      "expires": 1624117925.778301,
+      "size": 94,
+      "httpOnly": false,
+      "secure": true,
+      "session": false,
+      "sameSite": "None",
+      "expiresUTC": "2021-06-19T15:52:05.778Z",
+      "expiresDays": 30,
+      "firstPartyStorage": false
+    },
+    {
+      "name": "AWSALBCORS",
+      "value": "j0ARgLiQbNRkS36pvoEdcSGBRObj72pqqPzYSyKHHW2xwDKjyzDvWcB2ZQZYxqNNrmAqiA930viM939lR5veS5JYvT+52EzPNziiHsN71GCel3sQNMY2qHEINTm4",
+      "domain": "app.livestorm.co",
+      "path": "/",
+      "expires": 1622130731.808559,
+      "size": 134,
+      "httpOnly": false,
+      "secure": true,
+      "session": false,
+      "sameSite": "None",
+      "expiresUTC": "2021-05-27T15:52:11.808Z",
+      "expiresDays": 7,
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://app.livestorm.co/callbell/upcoming?upcoming_locale=en&limit=3",
+            "source": "set in Set-Cookie HTTP response header for https://app.livestorm.co/callbell/upcoming?upcoming_locale=en&limit=3"
+          }
+        ],
+        "type": "Cookie.HTTP",
+        "timestamp": "2021-05-20T15:52:11.810Z",
+        "location": "https://www.callbell.eu/en/"
+      },
+      "firstPartyStorage": false
+    },
+    {
+      "name": "AWSALB",
+      "value": "j0ARgLiQbNRkS36pvoEdcSGBRObj72pqqPzYSyKHHW2xwDKjyzDvWcB2ZQZYxqNNrmAqiA930viM939lR5veS5JYvT+52EzPNziiHsN71GCel3sQNMY2qHEINTm4",
+      "domain": "app.livestorm.co",
+      "path": "/",
+      "expires": 1622130731.808538,
+      "size": 130,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2021-05-27T15:52:11.808Z",
+      "expiresDays": 7,
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://app.livestorm.co/callbell/upcoming?upcoming_locale=en&limit=3",
+            "source": "set in Set-Cookie HTTP response header for https://app.livestorm.co/callbell/upcoming?upcoming_locale=en&limit=3"
+          }
+        ],
+        "type": "Cookie.HTTP",
+        "timestamp": "2021-05-20T15:52:11.810Z",
+        "location": "https://www.callbell.eu/en/"
+      },
+      "firstPartyStorage": false
+    },
+    {
+      "name": "AWSALBTGCORS",
+      "value": "VH2nYqUJI7Yp//6xZZTB5s8sNjia+3nToW4wyTJF4K3FZeFzn33X7i0tgV/2KSnFQ8Ntdtacu1elJ/wJvXWU/ouqCR7Wi6jT3EAk/mrNyvd8lLyXjp77x+w7hYpS5qQLrxfKtE44MAV0IPLepgOOKWcCEdQE5TwyzoZI82A7CA5xkcD7o5c=",
+      "domain": "app.livestorm.co",
+      "path": "/",
+      "expires": 1622130731.808516,
+      "size": 192,
+      "httpOnly": false,
+      "secure": true,
+      "session": false,
+      "sameSite": "None",
+      "expiresUTC": "2021-05-27T15:52:11.808Z",
+      "expiresDays": 7,
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://app.livestorm.co/callbell/upcoming?upcoming_locale=en&limit=3",
+            "source": "set in Set-Cookie HTTP response header for https://app.livestorm.co/callbell/upcoming?upcoming_locale=en&limit=3"
+          }
+        ],
+        "type": "Cookie.HTTP",
+        "timestamp": "2021-05-20T15:52:11.810Z",
+        "location": "https://www.callbell.eu/en/"
+      },
+      "firstPartyStorage": false
+    },
+    {
+      "name": "AWSALBTG",
+      "value": "VH2nYqUJI7Yp//6xZZTB5s8sNjia+3nToW4wyTJF4K3FZeFzn33X7i0tgV/2KSnFQ8Ntdtacu1elJ/wJvXWU/ouqCR7Wi6jT3EAk/mrNyvd8lLyXjp77x+w7hYpS5qQLrxfKtE44MAV0IPLepgOOKWcCEdQE5TwyzoZI82A7CA5xkcD7o5c=",
+      "domain": "app.livestorm.co",
+      "path": "/",
+      "expires": 1622130731.808457,
+      "size": 188,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2021-05-27T15:52:11.808Z",
+      "expiresDays": 7,
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://app.livestorm.co/callbell/upcoming?upcoming_locale=en&limit=3",
+            "source": "set in Set-Cookie HTTP response header for https://app.livestorm.co/callbell/upcoming?upcoming_locale=en&limit=3"
+          }
+        ],
+        "type": "Cookie.HTTP",
+        "timestamp": "2021-05-20T15:52:11.810Z",
+        "location": "https://www.callbell.eu/en/"
+      },
+      "firstPartyStorage": false
+    },
+    {
+      "name": "lidc",
+      "value": "\"b=OGST09:s=O:r=O:a=O:p=O:g=1967:u=1:i=1621525925:t=1621612325:v=2:sig=AQFlegzxZI60Mr9VHYKkDFbvxul85X19\"",
+      "domain": "linkedin.com",
+      "path": "/",
+      "expires": 1621612325.778424,
+      "size": 108,
+      "httpOnly": false,
+      "secure": true,
+      "session": false,
+      "sameSite": "None",
+      "expiresUTC": "2021-05-21T15:52:05.778Z",
+      "expiresDays": 1,
+      "firstPartyStorage": false
+    },
+    {
+      "name": "_gid",
+      "value": "GA1.2.662566941.1621525925",
+      "domain": "callbell.eu",
+      "path": "/",
+      "expires": 1621612325,
+      "size": 30,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2021-05-21T15:52:05.000Z",
+      "expiresDays": 1,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 495,
+            "lineNumber": 30,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "zc",
+            "source": "    at zc (https://www.google-analytics.com/analytics.js:30:495)"
+          },
+          {
+            "columnNumber": 401,
+            "lineNumber": 59,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "ma",
+            "source": "    at ma (https://www.google-analytics.com/analytics.js:59:401)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T15:52:05.239Z",
+        "location": "https://www.callbell.eu/en/"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "test_cookie",
+      "value": "CheckForPermission",
+      "domain": "doubleclick.net",
+      "path": "/",
+      "expires": 1621526825.388154,
+      "size": 29,
+      "httpOnly": false,
+      "secure": true,
+      "session": false,
+      "sameSite": "None",
+      "expiresUTC": "2021-05-20T16:07:05.388Z",
+      "expiresDays": 0.01,
+      "firstPartyStorage": false
+    },
+    {
+      "name": "_gat_gtag_UA_103689214_1",
+      "value": "1",
+      "domain": "callbell.eu",
+      "path": "/",
+      "expires": 1621525985,
+      "size": 25,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2021-05-20T15:53:05.000Z",
+      "expiresDays": 0,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 495,
+            "lineNumber": 30,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "zc",
+            "source": "    at zc (https://www.google-analytics.com/analytics.js:30:495)"
+          },
+          {
+            "columnNumber": 31,
+            "lineNumber": 73,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "Qd",
+            "source": "    at Qd (https://www.google-analytics.com/analytics.js:73:31)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T15:52:05.234Z",
+        "location": "https://www.callbell.eu/en/"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "_gat_UA-103689214-1",
+      "value": "1",
+      "domain": "callbell.eu",
+      "path": "/",
+      "expires": 1621525985,
+      "size": 20,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2021-05-20T15:53:05.000Z",
+      "expiresDays": 0,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 495,
+            "lineNumber": 30,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "zc",
+            "source": "    at zc (https://www.google-analytics.com/analytics.js:30:495)"
+          },
+          {
+            "columnNumber": 31,
+            "lineNumber": 73,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "Qd",
+            "source": "    at Qd (https://www.google-analytics.com/analytics.js:73:31)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T15:52:05.240Z",
+        "location": "https://www.callbell.eu/en/"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "wpfront-notification-bar-landingpage",
+      "value": "1",
+      "domain": "www.callbell.eu",
+      "path": "/en",
+      "expires": -1,
+      "size": 37,
+      "httpOnly": false,
+      "secure": false,
+      "session": true,
+      "firstPartyStorage": false
+    },
+    {
+      "name": "lang",
+      "value": "v=2&lang=en-us",
+      "domain": "ads.linkedin.com",
+      "path": "/",
+      "expires": -1,
+      "size": 18,
+      "httpOnly": false,
+      "secure": true,
+      "session": true,
+      "sameSite": "None",
+      "firstPartyStorage": false
+    },
+    {
+      "name": "lang",
+      "value": "v=2&lang=en-us",
+      "domain": "linkedin.com",
+      "path": "/",
+      "expires": -1,
+      "size": 18,
+      "httpOnly": false,
+      "secure": true,
+      "session": true,
+      "sameSite": "None",
+      "firstPartyStorage": false
+    }
+  ],
+  "localStorage": {
+    "https://www.callbell.eu": {
+      "__fb_chat_plugin": {
+        "value": {
+          "v": 0,
+          "path": 2,
+          "chatState": 1,
+          "visibility": "not-hidden",
+          "showUpgradePrompt": "not_shown"
+        },
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 8010,
+              "lineNumber": 197,
+              "fileName": "https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js",
+              "functionName": "constructor._storeStateInfo",
+              "source": "    at constructor._storeStateInfo (https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js:197:8010)"
+            },
+            {
+              "columnNumber": 1787,
+              "lineNumber": 197,
+              "fileName": "https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js",
+              "functionName": "constructor.<anonymous>",
+              "source": "    at constructor.<anonymous> (https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js:197:1787)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T15:52:07.832Z",
+          "location": "https://www.callbell.eu"
+        }
+      }
+    },
+    "https://www.facebook.com": {
+      "messaging_plugin_https://www.callbell.eu/_132225047430635": {
+        "value": {
+          "requestID": "3a5d98be-bb5a-4872-b0e3-02a11ef0b794",
+          "currentPath": 2,
+          "userID": "0",
+          "chatState": 1,
+          "visibility": "not-hidden",
+          "accessToken": null,
+          "expirationTimestamp": null,
+          "v": 0
+        },
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 1257,
+              "lineNumber": 184,
+              "fileName": "https://www.facebook.com/rsrc.php/v3/yp/r/oJrb3s-Lusb.js?_nc_x=Ij3Wp8lg5Kz",
+              "functionName": "Object.a [as setItemGuarded]",
+              "source": "    at Object.a [as setItemGuarded] (https://www.facebook.com/rsrc.php/v3/yp/r/oJrb3s-Lusb.js?_nc_x=Ij3Wp8lg5Kz:184:1257)"
+            },
+            {
+              "columnNumber": 2783,
+              "lineNumber": 129,
+              "fileName": "https://www.facebook.com/rsrc.php/v3iYRk4/y-/l/en_US/4Mdz1VEcLYl.js?_nc_x=Ij3Wp8lg5Kz",
+              "functionName": "a.c.setFBStorageState",
+              "source": "    at a.c.setFBStorageState (https://www.facebook.com/rsrc.php/v3iYRk4/y-/l/en_US/4Mdz1VEcLYl.js?_nc_x=Ij3Wp8lg5Kz:129:2783)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T15:52:07.579Z",
+          "location": "https://www.callbell.eu"
+        }
+      }
+    }
+  },
+  "beacons": [
+    {
+      "url": "https://connect.facebook.net/signals/config/2033804756897916?v=2.9.39&r=stable",
+      "query": {
+        "v": "2.9.39",
+        "r": "stable"
+      },
+      "filter": "||connect.facebook.net/signals/$third-party",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://app.livestorm.co/callbell/upcoming?upcoming_locale=en&limit=3",
+            "source": "requested from https://app.livestorm.co/callbell/upcoming?upcoming_locale=en&limit=3 and matched with easyprivacy.txt filter ||connect.facebook.net/signals/$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T15:52:12.826Z"
+      },
+      "occurrances": 2
+    },
+    {
+      "url": "https://www.google-analytics.com/j/collect?v=1&_v=j90&a=1046822175&t=pageview&_s=1&dl=https%3A%2F%2Fapp.livestorm.co%2Fcallbell%2Fupcoming%3Fupcoming_locale%3Den%26limit%3D3&dr=https%3A%2F%2Fwww.callbell.eu%2Fen%2F&ul=en-us&de=UTF-8&sd=24-bit&sr=1680x927&vp=1008x252&je=0&_u=IEDAAEABAAAAAC~&jid=1336407598&gjid=599110565&cid=1508685287.1621525933&tid=UA-72235133-2&_gid=1750167222.1621525933&_r=1&_slc=1&z=1612741070",
+      "query": {
+        "v": 1,
+        "_v": "j90",
+        "a": 1046822175,
+        "t": "pageview",
+        "_s": 1,
+        "dl": "https://app.livestorm.co/callbell/upcoming?upcoming_locale=en&limit=3",
+        "dr": "https://www.callbell.eu/en/",
+        "ul": "en-us",
+        "de": "UTF-8",
+        "sd": "24-bit",
+        "sr": "1680x927",
+        "vp": "1008x252",
+        "je": 0,
+        "_u": "IEDAAEABAAAAAC~",
+        "jid": 1336407598,
+        "gjid": 599110565,
+        "cid": 1508685287.1621525,
+        "tid": "UA-72235133-2",
+        "_gid": 1750167222.1621525,
+        "_r": 1,
+        "_slc": 1,
+        "z": 1612741070
+      },
+      "filter": "/collect?*&cid=",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://app.livestorm.co/callbell/upcoming?upcoming_locale=en&limit=3",
+            "source": "requested from https://app.livestorm.co/callbell/upcoming?upcoming_locale=en&limit=3 and matched with easyprivacy.txt filter /collect?*&cid="
+          }
+        ],
+        "timestamp": "2021-05-20T15:52:12.820Z"
+      },
+      "occurrances": 3
+    },
+    {
+      "url": "https://connect.facebook.net/en_US/fbevents.js",
+      "query": null,
+      "filter": "/fbevents.js",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://app.livestorm.co/callbell/upcoming?upcoming_locale=en&limit=3",
+            "source": "requested from https://app.livestorm.co/callbell/upcoming?upcoming_locale=en&limit=3 and matched with easyprivacy.txt filter /fbevents.js"
+          }
+        ],
+        "timestamp": "2021-05-20T15:52:12.764Z"
+      },
+      "occurrances": 2
+    },
+    {
+      "url": "https://www.google-analytics.com/analytics.js",
+      "query": null,
+      "filter": "||google-analytics.com/analytics.js",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://app.livestorm.co/callbell/upcoming?upcoming_locale=en&limit=3",
+            "source": "requested from https://app.livestorm.co/callbell/upcoming?upcoming_locale=en&limit=3 and matched with easyprivacy.txt filter ||google-analytics.com/analytics.js"
+          }
+        ],
+        "timestamp": "2021-05-20T15:52:12.578Z"
+      },
+      "occurrances": 2
+    },
+    {
+      "url": "https://dash.callbell.eu/packs/media/images/instagram-2626055571fb2e7109f4769116a38b4d.svg",
+      "query": null,
+      "filter": "/images/instagram-",
+      "listName": "fanboy-annoyance.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "about:blank",
+            "source": "requested from about:blank and matched with fanboy-annoyance.txt filter /images/instagram-"
+          }
+        ],
+        "timestamp": "2021-05-20T15:52:06.642Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://dash.callbell.eu/packs/media/images/facebook-messenger-c8d9896e29ab6980638319e29b4ca2ae.svg",
+      "query": null,
+      "filter": "/images/facebook",
+      "listName": "fanboy-annoyance.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "about:blank",
+            "source": "requested from about:blank and matched with fanboy-annoyance.txt filter /images/facebook"
+          }
+        ],
+        "timestamp": "2021-05-20T15:52:06.638Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://www.facebook.com/tr/",
+      "query": null,
+      "filter": "||facebook.com/tr$third-party",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.callbell.eu/en/",
+            "source": "requested from https://www.callbell.eu/en/ and matched with easyprivacy.txt filter ||facebook.com/tr$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T15:52:05.689Z"
+      },
+      "occurrances": 2
+    },
+    {
+      "url": "https://l.sharethis.com/pview?event=pview&version=st_insights.js&lang=en&sessionID=1621525923963.49099&hostname=www.callbell.eu&location=%2Fen%2F&product=simpleshare&fcmp=false&fcmpv2=false&publisher=4d48b7c5-0ae3-43d4-bfbe-3ff8c17a8ae6&bsamesite=true&consent_cookie_duration=1110&consent_duration=1111&gdpr_domain=.consensu.org&gdpr_method=cookie&url=https%3A%2F%2Fwww.callbell.eu%2Fen%2F&title=Callbell%20%7C%20Customer%20Communication%20Platform%20for%20WhatsApp%2C%20Facebook%20Messenger%2C%20Instagram%20and%20others%20Chat%20Apps&sop=false&description=Connect%20your%20communication%20channels%20including%20WhatsApp%2C%20Facebook%20Messenger%20and%20Instagram.%20Centralize%20communication%20with%20your%20customers.%20Start%20for%200%E2%82%AC%2Fmonth&gdpr_domain=.consensu.org&gdpr_method=cookie&description=Connect%20your%20communication%20channels%20including%20WhatsApp%2C%20Facebook%20Messenger%20and%20Instagram.%20Centralize%20communication%20with%20your%20customers.%20Start%20for%200%E2%82%AC%2Fmonth&img_pview=true",
+      "query": {
+        "event": "pview",
+        "version": "st_insights.js",
+        "lang": "en",
+        "sessionID": 1621525923963.491,
+        "hostname": "www.callbell.eu",
+        "location": "/en/",
+        "product": "simpleshare",
+        "fcmp": false,
+        "fcmpv2": false,
+        "publisher": "4d48b7c5-0ae3-43d4-bfbe-3ff8c17a8ae6",
+        "bsamesite": true,
+        "consent_cookie_duration": 1110,
+        "consent_duration": 1111,
+        "gdpr_domain": ".consensu.org",
+        "gdpr_method": "cookie",
+        "url": "https://www.callbell.eu/en/",
+        "title": "Callbell | Customer Communication Platform for WhatsApp, Facebook Messenger, Instagram and others Chat Apps",
+        "sop": false,
+        "description": "Connect your communication channels including WhatsApp, Facebook Messenger and Instagram. Centralize communication with your customers. Start for 0€/month",
+        "img_pview": true
+      },
+      "filter": "||sharethis.com^$third-party",
+      "listName": "fanboy-annoyance.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.callbell.eu/en/",
+            "source": "requested from https://www.callbell.eu/en/ and matched with fanboy-annoyance.txt filter ||sharethis.com^$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T15:52:05.301Z"
+      },
+      "occurrances": 4
+    },
+    {
+      "url": "https://stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j90&tid=UA-103689214-1&cid=688502388.1621525925&jid=732118329&gjid=1234124232&_gid=662566941.1621525925&_u=YEDAAUABAAAAAC~&z=766483871",
+      "query": {
+        "t": "dc",
+        "aip": 1,
+        "_r": 3,
+        "v": 1,
+        "_v": "j90",
+        "tid": "UA-103689214-1",
+        "cid": 688502388.1621526,
+        "jid": 732118329,
+        "gjid": 1234124232,
+        "_gid": 662566941.1621526,
+        "_u": "YEDAAUABAAAAAC~",
+        "z": 766483871
+      },
+      "filter": "||stats.g.doubleclick.net^",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.callbell.eu/en/",
+            "source": "requested from https://www.callbell.eu/en/ and matched with easyprivacy.txt filter ||stats.g.doubleclick.net^"
+          }
+        ],
+        "timestamp": "2021-05-20T15:52:05.280Z"
+      },
+      "occurrances": 2
+    },
+    {
+      "url": "https://www.googleadservices.com/pagead/conversion_async.js",
+      "query": null,
+      "filter": "||googleadservices.com^$third-party",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.callbell.eu/en/",
+            "source": "requested from https://www.callbell.eu/en/ and matched with easyprivacy.txt filter ||googleadservices.com^$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T15:52:05.138Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://www.googletagmanager.com/gtag/js?id=AW-831035669",
+      "query": {
+        "id": "AW-831035669"
+      },
+      "filter": "||googletagmanager.com/gtag/$third-party",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.callbell.eu/en/",
+            "source": "requested from https://www.callbell.eu/en/ and matched with easyprivacy.txt filter ||googletagmanager.com/gtag/$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T15:52:04.980Z"
+      },
+      "occurrances": 2
+    },
+    {
+      "url": "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+      "query": null,
+      "filter": ".lms-analytics/",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.callbell.eu/en/",
+            "source": "requested from https://www.callbell.eu/en/ and matched with easyprivacy.txt filter .lms-analytics/"
+          }
+        ],
+        "timestamp": "2021-05-20T15:52:04.977Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://c.sharethis.mgr.consensu.org/portal-v2.html",
+      "query": null,
+      "filter": "||sharethis.mgr.consensu.org^$third-party",
+      "listName": "fanboy-annoyance.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "",
+            "source": "requested from  and matched with fanboy-annoyance.txt filter ||sharethis.mgr.consensu.org^$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T15:52:04.753Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://www.googletagmanager.com/gtm.js?id=GTM-NNGQ4KZ",
+      "query": {
+        "id": "GTM-NNGQ4KZ"
+      },
+      "filter": "/gtm.js",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.callbell.eu/en/",
+            "source": "requested from https://www.callbell.eu/en/ and matched with easyprivacy.txt filter /gtm.js"
+          }
+        ],
+        "timestamp": "2021-05-20T15:52:03.969Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://www.callbell.eu/wp-content/plugins/simple-share-buttons-adder/js/ssba.js?ver=5.4.2",
+      "query": {
+        "ver": "5.4.2"
+      },
+      "filter": "/simple-share-$~stylesheet",
+      "listName": "fanboy-annoyance.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.callbell.eu/en/",
+            "source": "requested from https://www.callbell.eu/en/ and matched with fanboy-annoyance.txt filter /simple-share-$~stylesheet"
+          }
+        ],
+        "timestamp": "2021-05-20T15:52:03.946Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://ws.sharethis.com/button/st_insights.js?publisher=4d48b7c5-0ae3-43d4-bfbe-3ff8c17a8ae6&product=simpleshare",
+      "query": {
+        "publisher": "4d48b7c5-0ae3-43d4-bfbe-3ff8c17a8ae6",
+        "product": "simpleshare"
+      },
+      "filter": "||sharethis.com^$third-party",
+      "listName": "fanboy-annoyance.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.callbell.eu/en/",
+            "source": "requested from https://www.callbell.eu/en/ and matched with fanboy-annoyance.txt filter ||sharethis.com^$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T15:52:03.929Z"
+      },
+      "occurrances": 1
+    }
+  ],
+  "hosts": {
+    "requests": {
+      "firstParty": [
+        "callbell.eu"
+      ],
+      "thirdParty": [
+        "www.callbell.eu",
+        "maxcdn.bootstrapcdn.com",
+        "fonts.googleapis.com",
+        "ws.sharethis.com",
+        "www.googletagmanager.com",
+        "connect.facebook.net",
+        "fonts.gstatic.com",
+        "c.sharethis.mgr.consensu.org",
+        "callbell.disqus.com",
+        "www.google-analytics.com",
+        "snap.licdn.com",
+        "l.sharethis.com",
+        "www.googleadservices.com",
+        "px.ads.linkedin.com",
+        "www.facebook.com",
+        "googleads.g.doubleclick.net",
+        "stats.g.doubleclick.net",
+        "www.google.com",
+        "www.google.es",
+        "www.linkedin.com",
+        "dash.callbell.eu",
+        "polyfill.io",
+        "analytics.callbell.eu",
+        "static.callbell.eu",
+        "scontent.xx.fbcdn.net",
+        "app.livestorm.co",
+        "cdn.ireland.production.livestorm.io",
+        "cdnjs.cloudflare.com",
+        "o573056.ingest.sentry.io"
+      ]
+    },
+    "beacons": {
+      "firstParty": [],
+      "thirdParty": [
+        "connect.facebook.net",
+        "www.google-analytics.com",
+        "www.facebook.com",
+        "l.sharethis.com",
+        "stats.g.doubleclick.net",
+        "www.googleadservices.com",
+        "www.googletagmanager.com",
+        "snap.licdn.com"
+      ]
+    },
+    "cookies": {
+      "firstParty": [
+        "callbell.eu"
+      ],
+      "thirdParty": [
+        "www.callbell.eu",
+        "doubleclick.net",
+        "linkedin.com",
+        "ads.linkedin.com",
+        "www.linkedin.com",
+        "app.livestorm.co"
+      ]
+    },
+    "localStorage": {
+      "firstParty": [],
+      "thirdParty": [
+        "www.callbell.eu",
+        "www.facebook.com"
+      ]
+    },
+    "links": {
+      "firstParty": [],
+      "thirdParty": [
+        "www.callbell.eu",
+        "callbellsupport.zendesk.com",
+        "app.livestorm.co",
+        "dash.callbell.eu",
+        "callbell.typeform.com",
+        "status.callbell.eu",
+        "www.facebook.com",
+        "twitter.com"
+      ]
+    }
+  }
+}

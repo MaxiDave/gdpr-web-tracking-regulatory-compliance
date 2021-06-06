@@ -1,0 +1,2395 @@
+{
+  "title": "Website Evidence Collection",
+  "task_description": null,
+  "uri_ins": "https://dropbox.com",
+  "uri_refs": [
+    "https://dropbox.com"
+  ],
+  "uri_dest": "https://www.dropbox.com/?_hp=c",
+  "uri_redirects": [
+    "https://dropbox.com/"
+  ],
+  "secure_connection": {
+    "https_support": true,
+    "redirects": [
+      "https://dropbox.com/",
+      "https://www.dropbox.com/"
+    ],
+    "https_redirect": true
+  },
+  "host": "dropbox.com",
+  "script": {
+    "host": "sfod",
+    "version": {
+      "npm": "1.0.0",
+      "commit": null
+    },
+    "cmd_args": "-q --overwrite https://dropbox.com -- --ignore-certificate-errors",
+    "environment": {
+      "CHROME_DESKTOP": "code-url-handler.desktop"
+    },
+    "node_version": "v14.17.0"
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "HeadlessChrome/80.0.3987.0",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3617.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "5.8.0-53-generic"
+    },
+    "extra_headers": {},
+    "preset_cookies": {}
+  },
+  "start_time": "2021-05-20T16:09:46.552Z",
+  "end_time": "2021-05-20T16:10:00.513Z",
+  "links": {
+    "firstParty": [],
+    "thirdParty": [
+      {
+        "href": "https://www.dropbox.com/help/4213?_camp=10751&_tk=prompt_top",
+        "inner_text": "Learn more",
+        "inner_html": "Learn more"
+      },
+      {
+        "href": "https://www.dropbox.com/",
+        "inner_text": "",
+        "inner_html": "<span class=\"arbor-logo\"><svg width=\"128\" class=\"arbor-logo__glyph arbor-logo__glyph--micro\" viewBox=\"0 0 128 128\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"><g stroke=\"none\" stroke-width=\"1\" fill=\"#0061ff\" fill-rule=\"evenodd\"><g><g transform=\"translate(6.233766, 14.961039)\"><path d=\"M86.8738072,36.7001288 L115.576935,54.9863896 L86.6717922,73.4013506 L57.7882599,55.0004219 L28.9051429,73.4013506 L0,54.9863896 L28.7027137,36.7003926 L0,18.4145455 L28.9055584,0 L57.7880526,18.4006458 L86.6722078,0 L115.576519,18.4145455 L86.8738072,36.7001288 Z M86.4693601,36.7003926 L57.7880519,18.4284451 L29.1071579,36.7001288 L57.7882599,54.9723573 L86.4693601,36.7003926 Z M29.0909091,79.5037922 L57.9960519,61.0909091 L86.9016104,79.5037922 L57.9960519,97.9187532 L29.0909091,79.5037922 Z\"></path></g></g></g></svg><span class=\"arbor-logo__wordmark arbor-logo__wordmark--dropbox\"><svg class=\"arbor-logo__dropbox-wordmark arbor-logo__dropbox-wordmark--micro\" width=\"388\" viewBox=\"0 0 389 128\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"><g fill=\"none\" fill-rule=\"evenodd\"><path d=\"m0 0h389v128h-389z\" fill-rule=\"nonzero\"></path><g transform=\"translate(16 28)\"><path d=\"m311.395355 67 19.053-25.70875-17.574-24.29125h15.051l10.179 15.15625 10.266-15.15625h14.964l-17.835 24.20425 18.792 25.79575h-14.79l-11.571-16.31275-11.223 16.31275z\" fill=\"black\"></path><path d=\"m287.992355 68.305c-16.182 0-25.317-8.787-25.317-25.317v-1.392c0-16.878 10.701-25.926 25.317-25.926 14.964 0 25.404 9.222 25.404 25.926v1.392c0 16.53-10.266 25.317-25.404 25.317zm0-11.397c7.569 0 12.18-4.959 12.18-14.094v-1.218c0-9.396-4.698-14.877-12.093-14.877-7.308 0-12.18 5.133-12.18 14.877v1.218c0 9.048 4.611 14.094 12.093 14.094z\" fill=\"black\"></path><path d=\"m235.802773 68.305c-8.265 0-13.659-4.002-16.356-10.44l-1.044 9.135h-11.31v-66.99h12.789v25.752c2.784-6.525 8.352-10.092 16.269-10.092 11.919.087 20.793 8.352 20.793 25.056v1.479c0 16.704-8.352 26.1-21.141 26.1zm-4.176-11.31c7.569 0 12.18-4.872 12.18-14.79v-1.218c0-9.222-5.046-14.268-12.006-14.268-7.221 0-12.18 5.829-12.18 14.442v1.044c0 9.396 4.785 14.79 12.006 14.79z\" fill=\"black\"></path><path d=\"m150.120117 84v-67h10.962l1.305 9.371c2.697-6.438 8.265-10.701 16.53-10.701 12.789 0 21.141 9.222 21.141 26.1v1.392c0 16.53-9.309 25.143-21.141 25.143-8.004 0-13.311-3.567-16.008-9.396v25.091zm24.447-26.918c7.482 0 12.267-4.959 12.267-14.181v-1.131c0-10.005-5.133-14.964-12.006-14.964-7.308 0-12.18 5.568-12.18 14.877v.957c0 8.874 4.698 14.442 11.919 14.442z\" fill=\"black\"></path><path d=\"m117.994355 68.305c-16.182 0-25.4039995-8.787-25.4039995-25.317v-1.392c0-16.878 10.7879995-25.926 25.4039995-25.926 14.964 0 25.317 9.222 25.317 25.926v1.392c0 16.53-10.179 25.317-25.317 25.317zm-.087-11.397c7.482 0 12.18-4.959 12.18-14.094v-1.218c0-9.396-4.698-14.877-12.093-14.877-7.308 0-12.18 5.133-12.18 14.877v1.218c0 9.048 4.611 14.094 12.093 14.094z\" fill=\"black\"></path><path d=\"m57.9643555 67h13.05v-22.968c0-10.614 2.61-14.355 13.398-14.355h5.394v-13.311h-3.219c-9.309 0-14.442 4.089-16.443 12.093l-1.653-11.459h-10.527z\" fill=\"black\"></path><path d=\"m0 67v-61.98266602h23.4253555c15.138 0 27.492 8.73866602 27.492 28.66166602v4.263c0 20.01-11.658 29.058-27.144 29.058zm22.7293555-50.808h-9.7293555v39.411h10.1643555c8.526 0 14.355-5.655 14.355-18.096v-3.219c0-12.441-6.003-18.096-14.79-18.096z\" fill=\"black\"></path></g></g></svg><svg class=\"arbor-logo__business-wordmark arbor-logo__business-wordmark--micro\" width=\"788\" viewBox=\"0 0 788 128\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"><g stroke=\"none\" stroke-width=\"1\" fill=\"none\" fill-rule=\"evenodd\"><g><rect fill-rule=\"nonzero\" x=\"0\" y=\"0\" width=\"788\" height=\"128\"></rect><g transform=\"translate(16.000000, 26.000000)\"><path d=\"M743.325,70.305 C757.854,70.305 764.466,63.084 764.466,54.036 C764.466,43.248 753.962637,41.4568555 744.827637,40.1518555 C736.997637,39.0208555 730.275,38.202 730.275,32.46 C730.275,28.371 733.322719,24.2939453 741.761719,24.2939453 C749.591719,24.2939453 754.046875,27.9887695 754.722,33 L763.422,33 C762.056152,24.0751953 755.331,17.67 741.672,17.67 C728.187,17.67 721.923,24.717 721.923,32.895 C721.923,43.683 731.928,45.423 741.063,46.728 C748.893,47.859 756.38916,49.0782266 756.38916,54.9072266 C756.38916,59.6052266 752.702383,63.300293 743.567383,63.300293 C735.737383,63.300293 729.927,60.134 728.883,53 L719.748,53 C721.14,64.484 729.318,70.305 743.325,70.305 Z\" fill=\"#0061ff\"></path><path d=\"M693.325,70.305 C707.854,70.305 714.466,63.084 714.466,54.036 C714.466,43.248 703.962637,41.4568555 694.827637,40.1518555 C686.997637,39.0208555 680.275,38.202 680.275,32.46 C680.275,28.371 683.322719,24.2939453 691.761719,24.2939453 C699.591719,24.2939453 704.046875,27.9887695 704.722,33 L713.422,33 C712.056152,24.0751953 705.331,17.67 691.672,17.67 C678.187,17.67 671.923,24.717 671.923,32.895 C671.923,43.683 681.928,45.423 691.063,46.728 C698.893,47.859 706.38916,49.0782266 706.38916,54.9072266 C706.38916,59.6052266 702.702383,63.300293 693.567383,63.300293 C685.737383,63.300293 679.927,60.134 678.883,53 L669.748,53 C671.14,64.484 679.318,70.305 693.325,70.305 Z\" fill=\"#0061ff\"></path><path d=\"M639.91,70.305 C623.293,70.305 615.115,60.3 615.115,44.901 L615.115,43.857 C615.115,28.11 624.685,17.67 640.171,17.67 C656.788,17.67 664.183,29.415 664.183,42.813 L664.183,46.954834 L623.003906,46.954834 C623.612906,57.220834 630.166,63.084 640.258,63.084 C647.479,63.084 652.438,59.829 654.352,54 L663.487,54 C660.616,64.266 652.177,70.305 639.91,70.305 Z M640.258,24.63 C630.601,24.63 624.125109,30.268293 623.081109,39.925293 L656.592285,39.925293 C655.896285,30.529293 649.741,24.63 640.258,24.63 Z\" fill=\"#0061ff\"></path><path d=\"M561,69 L569.016602,69 L569.016602,42.726 C569.016602,32.199 574.410602,25.065 584.154602,25.065 C593.811602,25.065 598.062988,31.242 598.062988,40.464 L598.062988,69 L606,69 L606,38.55 C606,26.022 599.466602,17.67 586.677602,17.67 C577.281602,17.67 571.104602,22.803 568.407602,30.372 L567.624602,19 L561,19 L561,69 Z\" fill=\"#0061ff\"></path><path d=\"M541.981445,69 L541.981445,19 L550,19 L550,69 L541.981445,69 Z M545.990723,12.972 C541.727723,12.972 539.987723,10.8320312 539.987723,6.969 C539.987723,3.10596875 542.075723,0.966 545.990723,0.966 C549.905723,0.966 551.906723,2.619 551.906723,6.969 C551.906723,11.232 549.905723,12.972 545.990723,12.972 Z\" fill=\"#0061ff\"></path><path d=\"M513.325,70.305 C527.854,70.305 534.466,63.084 534.466,54.036 C534.466,43.248 523.962637,41.4568555 514.827637,40.1518555 C506.997637,39.0208555 500.275,38.202 500.275,32.46 C500.275,28.371 503.322719,24.2939453 511.761719,24.2939453 C519.591719,24.2939453 524.046875,27.9887695 524.722,33 L533.422,33 C532.056152,24.0751953 525.331,17.67 511.672,17.67 C498.187,17.67 491.923,24.717 491.923,32.895 C491.923,43.683 501.928,45.423 511.063,46.728 C518.893,47.859 526.38916,49.0782266 526.38916,54.9072266 C526.38916,59.6052266 522.702383,63.300293 513.567383,63.300293 C505.737383,63.300293 499.927,60.134 498.883,53 L489.748,53 C491.14,64.484 499.318,70.305 513.325,70.305 Z\" fill=\"#0061ff\"></path><path d=\"M458.167,70.131 C466.954,70.131 472.783,65.433 475.393,58.299 L476.263,69 L483,69 L483,19 L475,19 L475,45.771 C475,56.211 469.738,62.562 460.777,62.562 C451.642,62.562 448,56.298 448,47.337 L448,19 L440,19 L440,49.425 C440,62.04 445.813,70.131 458.167,70.131 Z\" fill=\"#0061ff\"></path><path d=\"M385,69 L385,7 L408.403,7 C424.411,7 431.11,12.711 431.11,22.89 C431.11,30.546 427.63,34.896 421.018,37.071 C428.239,38.985 432.328,43.683 432.328,51.687 C432.328,62.823 425.02,69 409.012,69 L385,69 Z M408.229,41 L393.256836,41 L393.256836,61.8066406 L408.055,61.8066406 C419.278,61.8066406 423.715,58.038 423.715,51.078 C423.715,43.857 418.495,41 408.229,41 Z M408.664,14 L393.256836,14 L393.256836,34 L408.751,34 C417.799,34.087 422.758,30.807 422.758,23.673 C422.758,17.322 418.669,14 408.664,14 Z\" fill=\"#0061ff\"></path><polygon points=\"311.395355 69 330.448355 43.29125 312.874355 19 327.925355 19 338.104355 34.15625 348.370355 19 363.334355 19 345.499355 43.20425 364.291355 69 349.501355 69 337.930355 52.68725 326.707355 69\" fill=\"black\"></polygon><path d=\"M287.992355,70.305 C271.810355,70.305 262.675355,61.518 262.675355,44.988 L262.675355,43.596 C262.675355,26.718 273.376355,17.67 287.992355,17.67 C302.956355,17.67 313.396355,26.892 313.396355,43.596 L313.396355,44.988 C313.396355,61.518 303.130355,70.305 287.992355,70.305 Z M287.992355,58.908 C295.561355,58.908 300.172355,53.949 300.172355,44.814 L300.172355,43.596 C300.172355,34.2 295.474355,28.719 288.079355,28.719 C280.771355,28.719 275.899355,33.852 275.899355,43.596 L275.899355,44.814 C275.899355,53.862 280.510355,58.908 287.992355,58.908 Z\" fill=\"black\"></path><path d=\"M235.802773,70.305 C227.537773,70.305 222.143773,66.303 219.446773,59.865 L218.402773,69 L207.092773,69 L207.092773,2.01 L219.881773,2.01 L219.881773,27.762 C222.665773,21.237 228.233773,17.67 236.150773,17.67 C248.069773,17.757 256.943773,26.022 256.943773,42.726 L256.943773,44.205 C256.943773,60.909 248.591773,70.305 235.802773,70.305 Z M231.626773,58.995 C239.195773,58.995 243.806773,54.123 243.806773,44.205 L243.806773,42.987 C243.806773,33.765 238.760773,28.719 231.800773,28.719 C224.579773,28.719 219.620773,34.548 219.620773,43.161 L219.620773,44.205 C219.620773,53.601 224.405773,58.995 231.626773,58.995 Z\" fill=\"black\"></path><path d=\"M150.120117,86 L150.120117,19 L161.082117,19 L162.387117,28.371 C165.084117,21.933 170.652117,17.67 178.917117,17.67 C191.706117,17.67 200.058117,26.892 200.058117,43.77 L200.058117,45.162 C200.058117,61.692 190.749117,70.305 178.917117,70.305 C170.913117,70.305 165.606117,66.738 162.909117,60.909 L162.909117,86 L150.120117,86 Z M174.567117,59.082 C182.049117,59.082 186.834117,54.123 186.834117,44.901 L186.834117,43.77 C186.834117,33.765 181.701117,28.806 174.828117,28.806 C167.520117,28.806 162.648117,34.374 162.648117,43.683 L162.648117,44.64 C162.648117,53.514 167.346117,59.082 174.567117,59.082 Z\" fill=\"black\"></path><path d=\"M117.994355,70.305 C101.812355,70.305 92.5903555,61.518 92.5903555,44.988 L92.5903555,43.596 C92.5903555,26.718 103.378355,17.67 117.994355,17.67 C132.958355,17.67 143.311355,26.892 143.311355,43.596 L143.311355,44.988 C143.311355,61.518 133.132355,70.305 117.994355,70.305 Z M117.907355,58.908 C125.389355,58.908 130.087355,53.949 130.087355,44.814 L130.087355,43.596 C130.087355,34.2 125.389355,28.719 117.994355,28.719 C110.686355,28.719 105.814355,33.852 105.814355,43.596 L105.814355,44.814 C105.814355,53.862 110.425355,58.908 117.907355,58.908 Z\" fill=\"black\"></path><path d=\"M57.9643555,69 L71.0143555,69 L71.0143555,46.032 C71.0143555,35.418 73.6243555,31.677 84.4123555,31.677 L89.8063555,31.677 L89.8063555,18.366 L86.5873555,18.366 C77.2783555,18.366 72.1453555,22.455 70.1443555,30.459 L68.4913555,19 L57.9643555,19 L57.9643555,69 Z\" fill=\"black\"></path><path d=\"M-1.42108547e-14,69 L-1.42108547e-14,6.969 L23.4253555,6.969 C38.5633555,6.969 50.9173555,15.756 50.9173555,35.679 L50.9173555,39.942 C50.9173555,59.952 39.2593555,69 23.7733555,69 L-1.42108547e-14,69 Z M22.7293555,18.192 L13,18.192 L13,57.603 L23.1643555,57.603 C31.6903555,57.603 37.5193555,51.948 37.5193555,39.507 L37.5193555,36.288 C37.5193555,23.847 31.5163555,18.192 22.7293555,18.192 Z\" fill=\"black\"></path></g></g></g></svg></span></span>"
+      },
+      {
+        "href": "https://www.dropbox.com/business/customers",
+        "inner_text": "Customer stories",
+        "inner_html": "Customer stories"
+      },
+      {
+        "href": "https://www.dropbox.com/app-integrations",
+        "inner_text": "How we integrate",
+        "inner_html": "How we integrate"
+      },
+      {
+        "href": "https://www.dropbox.com/smart-workspace",
+        "inner_text": "Smart workspace",
+        "inner_html": "Smart workspace"
+      },
+      {
+        "href": "https://experience.dropbox.com/",
+        "inner_text": "Do more than store",
+        "inner_html": "Do more than store"
+      },
+      {
+        "href": "https://www.dropbox.com/education",
+        "inner_text": "Education",
+        "inner_html": "Education"
+      },
+      {
+        "href": "https://www.dropbox.com/business/solutions/media",
+        "inner_text": "Media",
+        "inner_html": "Media"
+      },
+      {
+        "href": "https://www.dropbox.com/business/solutions/construction",
+        "inner_text": "Construction",
+        "inner_html": "Construction"
+      },
+      {
+        "href": "https://www.dropbox.com/business/solutions/retail",
+        "inner_text": "Retail",
+        "inner_html": "Retail"
+      },
+      {
+        "href": "https://www.dropbox.com/business/solutions/technology",
+        "inner_text": "Technology",
+        "inner_html": "Technology"
+      },
+      {
+        "href": "https://www.dropbox.com/plus",
+        "inner_text": "Personal",
+        "inner_html": "Personal"
+      },
+      {
+        "href": "https://www.dropbox.com/family",
+        "inner_text": "Family",
+        "inner_html": "Family"
+      },
+      {
+        "href": "https://www.dropbox.com/pro",
+        "inner_text": "Freelancers",
+        "inner_html": "Freelancers"
+      },
+      {
+        "href": "https://www.dropbox.com/business",
+        "inner_text": "Teams",
+        "inner_html": "Teams"
+      },
+      {
+        "href": "https://www.dropbox.com/enterprise",
+        "inner_text": "Enterprise",
+        "inner_html": "Enterprise"
+      },
+      {
+        "href": "https://www.dropbox.com/features/share",
+        "inner_text": "Share files",
+        "inner_html": "Share files"
+      },
+      {
+        "href": "https://www.dropbox.com/features/cloud-storage",
+        "inner_text": "Store and back up",
+        "inner_html": "Store and back up"
+      },
+      {
+        "href": "https://www.dropbox.com/features/sync",
+        "inner_text": "Sync devices",
+        "inner_html": "Sync devices"
+      },
+      {
+        "href": "https://www.hellosign.com/sign-business-documents-online",
+        "inner_text": "Simplify eSignatures",
+        "inner_html": "Simplify eSignatures"
+      },
+      {
+        "href": "https://www.dropbox.com/features/security",
+        "inner_text": "Protect and secure",
+        "inner_html": "Protect and secure"
+      },
+      {
+        "href": "https://www.dropbox.com/features/productivity",
+        "inner_text": "Be productive",
+        "inner_html": "Be productive"
+      },
+      {
+        "href": "https://www.dropbox.com/desktop",
+        "inner_text": "Get desktop app",
+        "inner_html": "Get desktop app"
+      },
+      {
+        "href": "https://www.dropbox.com/mobile",
+        "inner_text": "Get mobile app",
+        "inner_html": "Get mobile app"
+      },
+      {
+        "href": "https://experience.dropbox.com/work-with-flexibility",
+        "inner_text": "Work remotely",
+        "inner_html": "Work remotely"
+      },
+      {
+        "href": "https://www.dropbox.com/features/content-collaboration",
+        "inner_text": "Collaborate",
+        "inner_html": "Collaborate"
+      },
+      {
+        "href": "https://www.dropbox.com/business/tour",
+        "inner_text": "Organize a team",
+        "inner_html": "Organize a team"
+      },
+      {
+        "href": "https://www.dropbox.com/plans",
+        "inner_text": "Plans & pricing",
+        "inner_html": "<span class=\"arbor-copy arbor-copy--standard arbor-foreground-color--panda-black arbor-nav-menu-button__label\" aria-hidden=\"true\">Plans &amp; pricing</span><svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" height=\"16\" viewBox=\"0 0 18 16\" width=\"18\" class=\"arbor-nav-menu-button__icon\"><path d=\"m11.334 15.606c.864-2.592 3.861-5.805 6.399-7.317v-.999c-2.511-1.431-5.346-4.725-6.264-7.29h-2.43c1.08 2.619 3.456 5.346 5.265 6.723h-14.304v2.052h14.439c-1.863 1.296-4.482 4.077-5.454 6.831z\" fill=\"#000\"></path></svg>"
+      },
+      {
+        "href": "https://help.dropbox.com/",
+        "inner_text": "Help center",
+        "inner_html": "Help center"
+      },
+      {
+        "href": "https://www.dropboxforum.com/",
+        "inner_text": "Community forums",
+        "inner_html": "Community forums"
+      },
+      {
+        "href": "https://www.dropbox.com/business/contact",
+        "inner_text": "Email",
+        "inner_html": "Email"
+      },
+      {
+        "href": "https://www.dropbox.com/login",
+        "inner_text": "Sign in",
+        "inner_html": "<span class=\"arbor-copy arbor-copy--standard arbor-foreground-color--panda-black arbor-nav-cta-container__label\">Sign in</span>"
+      },
+      {
+        "href": "https://www.dropbox.com/register",
+        "inner_text": "Sign up for free",
+        "inner_html": "Sign up for free"
+      },
+      {
+        "href": "https://www.dropbox.com/transfer/about",
+        "inner_text": "Learn more",
+        "inner_html": "Learn more"
+      },
+      {
+        "href": "https://www.dropbox.com/features/security/passwords",
+        "inner_text": "Learn more",
+        "inner_html": "Learn more"
+      },
+      {
+        "href": "https://www.dropbox.com/features/cloud-storage/file-recovery-and-history",
+        "inner_text": "Learn more",
+        "inner_html": "Learn more"
+      },
+      {
+        "href": "https://experience.dropbox.com/roles?experience=team-lead",
+        "inner_text": "Learn more",
+        "inner_html": "Learn more"
+      },
+      {
+        "href": "https://www.dropbox.com/individual",
+        "inner_text": "Get Dropbox for personal use",
+        "inner_html": "Get Dropbox for personal use"
+      },
+      {
+        "href": "https://www.dropbox.com/plans?trigger=nr",
+        "inner_text": "Explore plans",
+        "inner_html": "Explore plans"
+      },
+      {
+        "href": "https://www.dropbox.com/install",
+        "inner_text": "Desktop app",
+        "inner_html": "Desktop app"
+      },
+      {
+        "href": "https://www.dropbox.com/plans?trigger=homepagefoot",
+        "inner_text": "Plans",
+        "inner_html": "Plans"
+      },
+      {
+        "href": "https://www.dropbox.com/security",
+        "inner_text": "Security",
+        "inner_html": "Security"
+      },
+      {
+        "href": "https://www.dropbox.com/features?trigger=footer",
+        "inner_text": "Features",
+        "inner_html": "Features"
+      },
+      {
+        "href": "https://www.dropbox.com/plus?trigger=foot_global",
+        "inner_text": "Plus",
+        "inner_html": "Plus"
+      },
+      {
+        "href": "https://www.dropbox.com/pro?trigger=foot_global",
+        "inner_text": "Professional",
+        "inner_html": "Professional"
+      },
+      {
+        "href": "https://www.dropbox.com/about",
+        "inner_text": "About us",
+        "inner_html": "About us"
+      },
+      {
+        "href": "https://bit.ly/dbxdotcomapps",
+        "inner_text": "Jobs",
+        "inner_html": "Jobs"
+      },
+      {
+        "href": "https://www.dropbox.com/news",
+        "inner_text": "Press",
+        "inner_html": "Press"
+      },
+      {
+        "href": "https://investors.dropbox.com/",
+        "inner_text": "Investor relations",
+        "inner_html": "Investor relations"
+      },
+      {
+        "href": "https://blogs.dropbox.com/dropbox",
+        "inner_text": "Blog",
+        "inner_html": "Blog"
+      },
+      {
+        "href": "https://www.dropbox.com/help",
+        "inner_text": "Help center",
+        "inner_html": "Help center"
+      },
+      {
+        "href": "https://www.dropbox.com/contact",
+        "inner_text": "Contact us",
+        "inner_html": "Contact us"
+      },
+      {
+        "href": "https://www.dropbox.com/terms/cookies",
+        "inner_text": "Cookies",
+        "inner_html": "Cookies"
+      },
+      {
+        "href": "https://www.dropbox.com/privacy",
+        "inner_text": "Privacy & terms",
+        "inner_html": "Privacy &amp; terms"
+      },
+      {
+        "href": "https://www.dropbox.com/sitemap",
+        "inner_text": "Sitemap",
+        "inner_html": "Sitemap"
+      },
+      {
+        "href": "https://www.dropbox.com/developers",
+        "inner_text": "Developers",
+        "inner_html": "Developers"
+      },
+      {
+        "href": "https://www.dropbox.com/referrals",
+        "inner_text": "Referrals",
+        "inner_html": "Referrals"
+      },
+      {
+        "href": "https://www.dropbox.com/?_hp=c",
+        "inner_text": "create an account",
+        "inner_html": "create an account"
+      },
+      {
+        "href": "https://www.dropbox.com/forgot?email_from_login=",
+        "inner_text": "Forgot your password?",
+        "inner_html": "Forgot your password?"
+      },
+      {
+        "href": "https://www.dropbox.com/terms",
+        "inner_text": "Dropbox Terms",
+        "inner_html": "Dropbox Terms"
+      }
+    ],
+    "social": [
+      {
+        "href": "https://www.dropbox.com/help/4213?_camp=10751&_tk=prompt_top",
+        "inner_text": "Learn more",
+        "inner_html": "Learn more"
+      },
+      {
+        "href": "https://www.dropbox.com/",
+        "inner_text": "",
+        "inner_html": "<span class=\"arbor-logo\"><svg width=\"128\" class=\"arbor-logo__glyph arbor-logo__glyph--micro\" viewBox=\"0 0 128 128\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"><g stroke=\"none\" stroke-width=\"1\" fill=\"#0061ff\" fill-rule=\"evenodd\"><g><g transform=\"translate(6.233766, 14.961039)\"><path d=\"M86.8738072,36.7001288 L115.576935,54.9863896 L86.6717922,73.4013506 L57.7882599,55.0004219 L28.9051429,73.4013506 L0,54.9863896 L28.7027137,36.7003926 L0,18.4145455 L28.9055584,0 L57.7880526,18.4006458 L86.6722078,0 L115.576519,18.4145455 L86.8738072,36.7001288 Z M86.4693601,36.7003926 L57.7880519,18.4284451 L29.1071579,36.7001288 L57.7882599,54.9723573 L86.4693601,36.7003926 Z M29.0909091,79.5037922 L57.9960519,61.0909091 L86.9016104,79.5037922 L57.9960519,97.9187532 L29.0909091,79.5037922 Z\"></path></g></g></g></svg><span class=\"arbor-logo__wordmark arbor-logo__wordmark--dropbox\"><svg class=\"arbor-logo__dropbox-wordmark arbor-logo__dropbox-wordmark--micro\" width=\"388\" viewBox=\"0 0 389 128\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"><g fill=\"none\" fill-rule=\"evenodd\"><path d=\"m0 0h389v128h-389z\" fill-rule=\"nonzero\"></path><g transform=\"translate(16 28)\"><path d=\"m311.395355 67 19.053-25.70875-17.574-24.29125h15.051l10.179 15.15625 10.266-15.15625h14.964l-17.835 24.20425 18.792 25.79575h-14.79l-11.571-16.31275-11.223 16.31275z\" fill=\"black\"></path><path d=\"m287.992355 68.305c-16.182 0-25.317-8.787-25.317-25.317v-1.392c0-16.878 10.701-25.926 25.317-25.926 14.964 0 25.404 9.222 25.404 25.926v1.392c0 16.53-10.266 25.317-25.404 25.317zm0-11.397c7.569 0 12.18-4.959 12.18-14.094v-1.218c0-9.396-4.698-14.877-12.093-14.877-7.308 0-12.18 5.133-12.18 14.877v1.218c0 9.048 4.611 14.094 12.093 14.094z\" fill=\"black\"></path><path d=\"m235.802773 68.305c-8.265 0-13.659-4.002-16.356-10.44l-1.044 9.135h-11.31v-66.99h12.789v25.752c2.784-6.525 8.352-10.092 16.269-10.092 11.919.087 20.793 8.352 20.793 25.056v1.479c0 16.704-8.352 26.1-21.141 26.1zm-4.176-11.31c7.569 0 12.18-4.872 12.18-14.79v-1.218c0-9.222-5.046-14.268-12.006-14.268-7.221 0-12.18 5.829-12.18 14.442v1.044c0 9.396 4.785 14.79 12.006 14.79z\" fill=\"black\"></path><path d=\"m150.120117 84v-67h10.962l1.305 9.371c2.697-6.438 8.265-10.701 16.53-10.701 12.789 0 21.141 9.222 21.141 26.1v1.392c0 16.53-9.309 25.143-21.141 25.143-8.004 0-13.311-3.567-16.008-9.396v25.091zm24.447-26.918c7.482 0 12.267-4.959 12.267-14.181v-1.131c0-10.005-5.133-14.964-12.006-14.964-7.308 0-12.18 5.568-12.18 14.877v.957c0 8.874 4.698 14.442 11.919 14.442z\" fill=\"black\"></path><path d=\"m117.994355 68.305c-16.182 0-25.4039995-8.787-25.4039995-25.317v-1.392c0-16.878 10.7879995-25.926 25.4039995-25.926 14.964 0 25.317 9.222 25.317 25.926v1.392c0 16.53-10.179 25.317-25.317 25.317zm-.087-11.397c7.482 0 12.18-4.959 12.18-14.094v-1.218c0-9.396-4.698-14.877-12.093-14.877-7.308 0-12.18 5.133-12.18 14.877v1.218c0 9.048 4.611 14.094 12.093 14.094z\" fill=\"black\"></path><path d=\"m57.9643555 67h13.05v-22.968c0-10.614 2.61-14.355 13.398-14.355h5.394v-13.311h-3.219c-9.309 0-14.442 4.089-16.443 12.093l-1.653-11.459h-10.527z\" fill=\"black\"></path><path d=\"m0 67v-61.98266602h23.4253555c15.138 0 27.492 8.73866602 27.492 28.66166602v4.263c0 20.01-11.658 29.058-27.144 29.058zm22.7293555-50.808h-9.7293555v39.411h10.1643555c8.526 0 14.355-5.655 14.355-18.096v-3.219c0-12.441-6.003-18.096-14.79-18.096z\" fill=\"black\"></path></g></g></svg><svg class=\"arbor-logo__business-wordmark arbor-logo__business-wordmark--micro\" width=\"788\" viewBox=\"0 0 788 128\" version=\"1.1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\"><g stroke=\"none\" stroke-width=\"1\" fill=\"none\" fill-rule=\"evenodd\"><g><rect fill-rule=\"nonzero\" x=\"0\" y=\"0\" width=\"788\" height=\"128\"></rect><g transform=\"translate(16.000000, 26.000000)\"><path d=\"M743.325,70.305 C757.854,70.305 764.466,63.084 764.466,54.036 C764.466,43.248 753.962637,41.4568555 744.827637,40.1518555 C736.997637,39.0208555 730.275,38.202 730.275,32.46 C730.275,28.371 733.322719,24.2939453 741.761719,24.2939453 C749.591719,24.2939453 754.046875,27.9887695 754.722,33 L763.422,33 C762.056152,24.0751953 755.331,17.67 741.672,17.67 C728.187,17.67 721.923,24.717 721.923,32.895 C721.923,43.683 731.928,45.423 741.063,46.728 C748.893,47.859 756.38916,49.0782266 756.38916,54.9072266 C756.38916,59.6052266 752.702383,63.300293 743.567383,63.300293 C735.737383,63.300293 729.927,60.134 728.883,53 L719.748,53 C721.14,64.484 729.318,70.305 743.325,70.305 Z\" fill=\"#0061ff\"></path><path d=\"M693.325,70.305 C707.854,70.305 714.466,63.084 714.466,54.036 C714.466,43.248 703.962637,41.4568555 694.827637,40.1518555 C686.997637,39.0208555 680.275,38.202 680.275,32.46 C680.275,28.371 683.322719,24.2939453 691.761719,24.2939453 C699.591719,24.2939453 704.046875,27.9887695 704.722,33 L713.422,33 C712.056152,24.0751953 705.331,17.67 691.672,17.67 C678.187,17.67 671.923,24.717 671.923,32.895 C671.923,43.683 681.928,45.423 691.063,46.728 C698.893,47.859 706.38916,49.0782266 706.38916,54.9072266 C706.38916,59.6052266 702.702383,63.300293 693.567383,63.300293 C685.737383,63.300293 679.927,60.134 678.883,53 L669.748,53 C671.14,64.484 679.318,70.305 693.325,70.305 Z\" fill=\"#0061ff\"></path><path d=\"M639.91,70.305 C623.293,70.305 615.115,60.3 615.115,44.901 L615.115,43.857 C615.115,28.11 624.685,17.67 640.171,17.67 C656.788,17.67 664.183,29.415 664.183,42.813 L664.183,46.954834 L623.003906,46.954834 C623.612906,57.220834 630.166,63.084 640.258,63.084 C647.479,63.084 652.438,59.829 654.352,54 L663.487,54 C660.616,64.266 652.177,70.305 639.91,70.305 Z M640.258,24.63 C630.601,24.63 624.125109,30.268293 623.081109,39.925293 L656.592285,39.925293 C655.896285,30.529293 649.741,24.63 640.258,24.63 Z\" fill=\"#0061ff\"></path><path d=\"M561,69 L569.016602,69 L569.016602,42.726 C569.016602,32.199 574.410602,25.065 584.154602,25.065 C593.811602,25.065 598.062988,31.242 598.062988,40.464 L598.062988,69 L606,69 L606,38.55 C606,26.022 599.466602,17.67 586.677602,17.67 C577.281602,17.67 571.104602,22.803 568.407602,30.372 L567.624602,19 L561,19 L561,69 Z\" fill=\"#0061ff\"></path><path d=\"M541.981445,69 L541.981445,19 L550,19 L550,69 L541.981445,69 Z M545.990723,12.972 C541.727723,12.972 539.987723,10.8320312 539.987723,6.969 C539.987723,3.10596875 542.075723,0.966 545.990723,0.966 C549.905723,0.966 551.906723,2.619 551.906723,6.969 C551.906723,11.232 549.905723,12.972 545.990723,12.972 Z\" fill=\"#0061ff\"></path><path d=\"M513.325,70.305 C527.854,70.305 534.466,63.084 534.466,54.036 C534.466,43.248 523.962637,41.4568555 514.827637,40.1518555 C506.997637,39.0208555 500.275,38.202 500.275,32.46 C500.275,28.371 503.322719,24.2939453 511.761719,24.2939453 C519.591719,24.2939453 524.046875,27.9887695 524.722,33 L533.422,33 C532.056152,24.0751953 525.331,17.67 511.672,17.67 C498.187,17.67 491.923,24.717 491.923,32.895 C491.923,43.683 501.928,45.423 511.063,46.728 C518.893,47.859 526.38916,49.0782266 526.38916,54.9072266 C526.38916,59.6052266 522.702383,63.300293 513.567383,63.300293 C505.737383,63.300293 499.927,60.134 498.883,53 L489.748,53 C491.14,64.484 499.318,70.305 513.325,70.305 Z\" fill=\"#0061ff\"></path><path d=\"M458.167,70.131 C466.954,70.131 472.783,65.433 475.393,58.299 L476.263,69 L483,69 L483,19 L475,19 L475,45.771 C475,56.211 469.738,62.562 460.777,62.562 C451.642,62.562 448,56.298 448,47.337 L448,19 L440,19 L440,49.425 C440,62.04 445.813,70.131 458.167,70.131 Z\" fill=\"#0061ff\"></path><path d=\"M385,69 L385,7 L408.403,7 C424.411,7 431.11,12.711 431.11,22.89 C431.11,30.546 427.63,34.896 421.018,37.071 C428.239,38.985 432.328,43.683 432.328,51.687 C432.328,62.823 425.02,69 409.012,69 L385,69 Z M408.229,41 L393.256836,41 L393.256836,61.8066406 L408.055,61.8066406 C419.278,61.8066406 423.715,58.038 423.715,51.078 C423.715,43.857 418.495,41 408.229,41 Z M408.664,14 L393.256836,14 L393.256836,34 L408.751,34 C417.799,34.087 422.758,30.807 422.758,23.673 C422.758,17.322 418.669,14 408.664,14 Z\" fill=\"#0061ff\"></path><polygon points=\"311.395355 69 330.448355 43.29125 312.874355 19 327.925355 19 338.104355 34.15625 348.370355 19 363.334355 19 345.499355 43.20425 364.291355 69 349.501355 69 337.930355 52.68725 326.707355 69\" fill=\"black\"></polygon><path d=\"M287.992355,70.305 C271.810355,70.305 262.675355,61.518 262.675355,44.988 L262.675355,43.596 C262.675355,26.718 273.376355,17.67 287.992355,17.67 C302.956355,17.67 313.396355,26.892 313.396355,43.596 L313.396355,44.988 C313.396355,61.518 303.130355,70.305 287.992355,70.305 Z M287.992355,58.908 C295.561355,58.908 300.172355,53.949 300.172355,44.814 L300.172355,43.596 C300.172355,34.2 295.474355,28.719 288.079355,28.719 C280.771355,28.719 275.899355,33.852 275.899355,43.596 L275.899355,44.814 C275.899355,53.862 280.510355,58.908 287.992355,58.908 Z\" fill=\"black\"></path><path d=\"M235.802773,70.305 C227.537773,70.305 222.143773,66.303 219.446773,59.865 L218.402773,69 L207.092773,69 L207.092773,2.01 L219.881773,2.01 L219.881773,27.762 C222.665773,21.237 228.233773,17.67 236.150773,17.67 C248.069773,17.757 256.943773,26.022 256.943773,42.726 L256.943773,44.205 C256.943773,60.909 248.591773,70.305 235.802773,70.305 Z M231.626773,58.995 C239.195773,58.995 243.806773,54.123 243.806773,44.205 L243.806773,42.987 C243.806773,33.765 238.760773,28.719 231.800773,28.719 C224.579773,28.719 219.620773,34.548 219.620773,43.161 L219.620773,44.205 C219.620773,53.601 224.405773,58.995 231.626773,58.995 Z\" fill=\"black\"></path><path d=\"M150.120117,86 L150.120117,19 L161.082117,19 L162.387117,28.371 C165.084117,21.933 170.652117,17.67 178.917117,17.67 C191.706117,17.67 200.058117,26.892 200.058117,43.77 L200.058117,45.162 C200.058117,61.692 190.749117,70.305 178.917117,70.305 C170.913117,70.305 165.606117,66.738 162.909117,60.909 L162.909117,86 L150.120117,86 Z M174.567117,59.082 C182.049117,59.082 186.834117,54.123 186.834117,44.901 L186.834117,43.77 C186.834117,33.765 181.701117,28.806 174.828117,28.806 C167.520117,28.806 162.648117,34.374 162.648117,43.683 L162.648117,44.64 C162.648117,53.514 167.346117,59.082 174.567117,59.082 Z\" fill=\"black\"></path><path d=\"M117.994355,70.305 C101.812355,70.305 92.5903555,61.518 92.5903555,44.988 L92.5903555,43.596 C92.5903555,26.718 103.378355,17.67 117.994355,17.67 C132.958355,17.67 143.311355,26.892 143.311355,43.596 L143.311355,44.988 C143.311355,61.518 133.132355,70.305 117.994355,70.305 Z M117.907355,58.908 C125.389355,58.908 130.087355,53.949 130.087355,44.814 L130.087355,43.596 C130.087355,34.2 125.389355,28.719 117.994355,28.719 C110.686355,28.719 105.814355,33.852 105.814355,43.596 L105.814355,44.814 C105.814355,53.862 110.425355,58.908 117.907355,58.908 Z\" fill=\"black\"></path><path d=\"M57.9643555,69 L71.0143555,69 L71.0143555,46.032 C71.0143555,35.418 73.6243555,31.677 84.4123555,31.677 L89.8063555,31.677 L89.8063555,18.366 L86.5873555,18.366 C77.2783555,18.366 72.1453555,22.455 70.1443555,30.459 L68.4913555,19 L57.9643555,19 L57.9643555,69 Z\" fill=\"black\"></path><path d=\"M-1.42108547e-14,69 L-1.42108547e-14,6.969 L23.4253555,6.969 C38.5633555,6.969 50.9173555,15.756 50.9173555,35.679 L50.9173555,39.942 C50.9173555,59.952 39.2593555,69 23.7733555,69 L-1.42108547e-14,69 Z M22.7293555,18.192 L13,18.192 L13,57.603 L23.1643555,57.603 C31.6903555,57.603 37.5193555,51.948 37.5193555,39.507 L37.5193555,36.288 C37.5193555,23.847 31.5163555,18.192 22.7293555,18.192 Z\" fill=\"black\"></path></g></g></g></svg></span></span>"
+      },
+      {
+        "href": "https://www.dropbox.com/business/customers",
+        "inner_text": "Customer stories",
+        "inner_html": "Customer stories"
+      },
+      {
+        "href": "https://www.dropbox.com/app-integrations",
+        "inner_text": "How we integrate",
+        "inner_html": "How we integrate"
+      },
+      {
+        "href": "https://www.dropbox.com/smart-workspace",
+        "inner_text": "Smart workspace",
+        "inner_html": "Smart workspace"
+      },
+      {
+        "href": "https://experience.dropbox.com/",
+        "inner_text": "Do more than store",
+        "inner_html": "Do more than store"
+      },
+      {
+        "href": "https://www.dropbox.com/education",
+        "inner_text": "Education",
+        "inner_html": "Education"
+      },
+      {
+        "href": "https://www.dropbox.com/business/solutions/media",
+        "inner_text": "Media",
+        "inner_html": "Media"
+      },
+      {
+        "href": "https://www.dropbox.com/business/solutions/construction",
+        "inner_text": "Construction",
+        "inner_html": "Construction"
+      },
+      {
+        "href": "https://www.dropbox.com/business/solutions/retail",
+        "inner_text": "Retail",
+        "inner_html": "Retail"
+      },
+      {
+        "href": "https://www.dropbox.com/business/solutions/technology",
+        "inner_text": "Technology",
+        "inner_html": "Technology"
+      },
+      {
+        "href": "https://www.dropbox.com/plus",
+        "inner_text": "Personal",
+        "inner_html": "Personal"
+      },
+      {
+        "href": "https://www.dropbox.com/family",
+        "inner_text": "Family",
+        "inner_html": "Family"
+      },
+      {
+        "href": "https://www.dropbox.com/pro",
+        "inner_text": "Freelancers",
+        "inner_html": "Freelancers"
+      },
+      {
+        "href": "https://www.dropbox.com/business",
+        "inner_text": "Teams",
+        "inner_html": "Teams"
+      },
+      {
+        "href": "https://www.dropbox.com/enterprise",
+        "inner_text": "Enterprise",
+        "inner_html": "Enterprise"
+      },
+      {
+        "href": "https://www.dropbox.com/features/share",
+        "inner_text": "Share files",
+        "inner_html": "Share files"
+      },
+      {
+        "href": "https://www.dropbox.com/features/cloud-storage",
+        "inner_text": "Store and back up",
+        "inner_html": "Store and back up"
+      },
+      {
+        "href": "https://www.dropbox.com/features/sync",
+        "inner_text": "Sync devices",
+        "inner_html": "Sync devices"
+      },
+      {
+        "href": "https://www.dropbox.com/features/security",
+        "inner_text": "Protect and secure",
+        "inner_html": "Protect and secure"
+      },
+      {
+        "href": "https://www.dropbox.com/features/productivity",
+        "inner_text": "Be productive",
+        "inner_html": "Be productive"
+      },
+      {
+        "href": "https://www.dropbox.com/desktop",
+        "inner_text": "Get desktop app",
+        "inner_html": "Get desktop app"
+      },
+      {
+        "href": "https://www.dropbox.com/mobile",
+        "inner_text": "Get mobile app",
+        "inner_html": "Get mobile app"
+      },
+      {
+        "href": "https://experience.dropbox.com/work-with-flexibility",
+        "inner_text": "Work remotely",
+        "inner_html": "Work remotely"
+      },
+      {
+        "href": "https://www.dropbox.com/features/content-collaboration",
+        "inner_text": "Collaborate",
+        "inner_html": "Collaborate"
+      },
+      {
+        "href": "https://www.dropbox.com/business/tour",
+        "inner_text": "Organize a team",
+        "inner_html": "Organize a team"
+      },
+      {
+        "href": "https://www.dropbox.com/plans",
+        "inner_text": "Plans & pricing",
+        "inner_html": "<span class=\"arbor-copy arbor-copy--standard arbor-foreground-color--panda-black arbor-nav-menu-button__label\" aria-hidden=\"true\">Plans &amp; pricing</span><svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" height=\"16\" viewBox=\"0 0 18 16\" width=\"18\" class=\"arbor-nav-menu-button__icon\"><path d=\"m11.334 15.606c.864-2.592 3.861-5.805 6.399-7.317v-.999c-2.511-1.431-5.346-4.725-6.264-7.29h-2.43c1.08 2.619 3.456 5.346 5.265 6.723h-14.304v2.052h14.439c-1.863 1.296-4.482 4.077-5.454 6.831z\" fill=\"#000\"></path></svg>"
+      },
+      {
+        "href": "https://help.dropbox.com/",
+        "inner_text": "Help center",
+        "inner_html": "Help center"
+      },
+      {
+        "href": "https://www.dropbox.com/business/contact",
+        "inner_text": "Email",
+        "inner_html": "Email"
+      },
+      {
+        "href": "https://www.dropbox.com/login",
+        "inner_text": "Sign in",
+        "inner_html": "<span class=\"arbor-copy arbor-copy--standard arbor-foreground-color--panda-black arbor-nav-cta-container__label\">Sign in</span>"
+      },
+      {
+        "href": "https://www.dropbox.com/register",
+        "inner_text": "Sign up for free",
+        "inner_html": "Sign up for free"
+      },
+      {
+        "href": "https://www.dropbox.com/transfer/about",
+        "inner_text": "Learn more",
+        "inner_html": "Learn more"
+      },
+      {
+        "href": "https://www.dropbox.com/features/security/passwords",
+        "inner_text": "Learn more",
+        "inner_html": "Learn more"
+      },
+      {
+        "href": "https://www.dropbox.com/features/cloud-storage/file-recovery-and-history",
+        "inner_text": "Learn more",
+        "inner_html": "Learn more"
+      },
+      {
+        "href": "https://experience.dropbox.com/roles?experience=team-lead",
+        "inner_text": "Learn more",
+        "inner_html": "Learn more"
+      },
+      {
+        "href": "https://www.dropbox.com/individual",
+        "inner_text": "Get Dropbox for personal use",
+        "inner_html": "Get Dropbox for personal use"
+      },
+      {
+        "href": "https://www.dropbox.com/plans?trigger=nr",
+        "inner_text": "Explore plans",
+        "inner_html": "Explore plans"
+      },
+      {
+        "href": "https://www.dropbox.com/install",
+        "inner_text": "Desktop app",
+        "inner_html": "Desktop app"
+      },
+      {
+        "href": "https://www.dropbox.com/plans?trigger=homepagefoot",
+        "inner_text": "Plans",
+        "inner_html": "Plans"
+      },
+      {
+        "href": "https://www.dropbox.com/security",
+        "inner_text": "Security",
+        "inner_html": "Security"
+      },
+      {
+        "href": "https://www.dropbox.com/features?trigger=footer",
+        "inner_text": "Features",
+        "inner_html": "Features"
+      },
+      {
+        "href": "https://www.dropbox.com/plus?trigger=foot_global",
+        "inner_text": "Plus",
+        "inner_html": "Plus"
+      },
+      {
+        "href": "https://www.dropbox.com/pro?trigger=foot_global",
+        "inner_text": "Professional",
+        "inner_html": "Professional"
+      },
+      {
+        "href": "https://www.dropbox.com/about",
+        "inner_text": "About us",
+        "inner_html": "About us"
+      },
+      {
+        "href": "https://bit.ly/dbxdotcomapps",
+        "inner_text": "Jobs",
+        "inner_html": "Jobs"
+      },
+      {
+        "href": "https://www.dropbox.com/news",
+        "inner_text": "Press",
+        "inner_html": "Press"
+      },
+      {
+        "href": "https://investors.dropbox.com/",
+        "inner_text": "Investor relations",
+        "inner_html": "Investor relations"
+      },
+      {
+        "href": "https://blogs.dropbox.com/dropbox",
+        "inner_text": "Blog",
+        "inner_html": "Blog"
+      },
+      {
+        "href": "https://www.dropbox.com/help",
+        "inner_text": "Help center",
+        "inner_html": "Help center"
+      },
+      {
+        "href": "https://www.dropbox.com/contact",
+        "inner_text": "Contact us",
+        "inner_html": "Contact us"
+      },
+      {
+        "href": "https://www.dropbox.com/terms/cookies",
+        "inner_text": "Cookies",
+        "inner_html": "Cookies"
+      },
+      {
+        "href": "https://www.dropbox.com/privacy",
+        "inner_text": "Privacy & terms",
+        "inner_html": "Privacy &amp; terms"
+      },
+      {
+        "href": "https://www.dropbox.com/sitemap",
+        "inner_text": "Sitemap",
+        "inner_html": "Sitemap"
+      },
+      {
+        "href": "https://www.dropbox.com/developers",
+        "inner_text": "Developers",
+        "inner_html": "Developers"
+      },
+      {
+        "href": "https://www.dropbox.com/referrals",
+        "inner_text": "Referrals",
+        "inner_html": "Referrals"
+      },
+      {
+        "href": "https://www.dropbox.com/?_hp=c",
+        "inner_text": "create an account",
+        "inner_html": "create an account"
+      },
+      {
+        "href": "https://www.dropbox.com/forgot?email_from_login=",
+        "inner_text": "Forgot your password?",
+        "inner_html": "Forgot your password?"
+      },
+      {
+        "href": "https://www.dropbox.com/terms",
+        "inner_text": "Dropbox Terms",
+        "inner_html": "Dropbox Terms"
+      }
+    ],
+    "keywords": [
+      {
+        "href": "https://www.dropbox.com/login",
+        "inner_text": "Sign in",
+        "inner_html": "<span class=\"arbor-copy arbor-copy--standard arbor-foreground-color--panda-black arbor-nav-cta-container__label\">Sign in</span>"
+      },
+      {
+        "href": "https://www.dropbox.com/privacy",
+        "inner_text": "Privacy & terms",
+        "inner_html": "Privacy &amp; terms"
+      },
+      {
+        "href": "https://www.dropbox.com/forgot?email_from_login=",
+        "inner_text": "Forgot your password?",
+        "inner_html": "Forgot your password?"
+      }
+    ]
+  },
+  "unsafeForms": [],
+  "browsing_history": [
+    "https://www.dropbox.com/?_hp=c"
+  ],
+  "websockets": {},
+  "cookies": [
+    {
+      "name": "cookie_notif",
+      "value": "seen",
+      "domain": "www.dropbox.com",
+      "path": "/",
+      "expires": 1779206988,
+      "size": 16,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2026-05-19T16:09:48.000Z",
+      "expiresDays": 1825,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 5628,
+            "lineNumber": 1,
+            "fileName": "https://cfl.dropboxstatic.com/static/js/packaged/pkg-exception-reporting.min-vfl42YWlW.js",
+            "functionName": "a",
+            "source": "    at a (https://cfl.dropboxstatic.com/static/js/packaged/pkg-exception-reporting.min-vfl42YWlW.js:1:5628)"
+          },
+          {
+            "columnNumber": 5992,
+            "lineNumber": 1,
+            "fileName": "https://cfl.dropboxstatic.com/static/js/packaged/pkg-exception-reporting.min-vfl42YWlW.js",
+            "functionName": "Object.create",
+            "source": "    at Object.create (https://cfl.dropboxstatic.com/static/js/packaged/pkg-exception-reporting.min-vfl42YWlW.js:1:5992)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T16:09:48.729Z",
+        "location": "https://www.dropbox.com/?_hp=c"
+      },
+      "firstPartyStorage": false
+    },
+    {
+      "name": "gvc",
+      "value": "MTQ1NjcwMzY5MjM3MTU3MjMxNTQ1NTA1MzA4MjUxMDU0MzM5NzY2",
+      "domain": "www.dropbox.com",
+      "path": "/",
+      "expires": 1779206987.172268,
+      "size": 55,
+      "httpOnly": true,
+      "secure": true,
+      "session": false,
+      "expiresUTC": "2026-05-19T16:09:47.172Z",
+      "expiresDays": 1825,
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.dropbox.com/",
+            "source": "set in Set-Cookie HTTP response header for https://www.dropbox.com/"
+          }
+        ],
+        "type": "Cookie.HTTP",
+        "timestamp": "2021-05-20T16:09:47.177Z",
+        "location": "about:blank"
+      },
+      "firstPartyStorage": false
+    },
+    {
+      "name": "locale",
+      "value": "en",
+      "domain": "dropbox.com",
+      "path": "/",
+      "expires": 1779206987.172219,
+      "size": 8,
+      "httpOnly": false,
+      "secure": true,
+      "session": false,
+      "expiresUTC": "2026-05-19T16:09:47.172Z",
+      "expiresDays": 1825,
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.dropbox.com/",
+            "source": "set in Set-Cookie HTTP response header for https://www.dropbox.com/"
+          }
+        ],
+        "type": "Cookie.HTTP",
+        "timestamp": "2021-05-20T16:09:47.177Z",
+        "location": "about:blank"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "__Host-js_csrf",
+      "value": "5ufmkVZNHU9qc5XhU2tzkTDt",
+      "domain": "www.dropbox.com",
+      "path": "/",
+      "expires": 1716134987.172316,
+      "size": 38,
+      "httpOnly": false,
+      "secure": true,
+      "session": false,
+      "expiresUTC": "2024-05-19T16:09:47.172Z",
+      "expiresDays": 1095,
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.dropbox.com/",
+            "source": "set in Set-Cookie HTTP response header for https://www.dropbox.com/"
+          }
+        ],
+        "type": "Cookie.HTTP",
+        "timestamp": "2021-05-20T16:09:47.177Z",
+        "location": "about:blank"
+      },
+      "firstPartyStorage": false
+    },
+    {
+      "name": "t",
+      "value": "5ufmkVZNHU9qc5XhU2tzkTDt",
+      "domain": "dropbox.com",
+      "path": "/",
+      "expires": 1716134987.172302,
+      "size": 25,
+      "httpOnly": true,
+      "secure": true,
+      "session": false,
+      "expiresUTC": "2024-05-19T16:09:47.172Z",
+      "expiresDays": 1095,
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.dropbox.com/",
+            "source": "set in Set-Cookie HTTP response header for https://www.dropbox.com/"
+          }
+        ],
+        "type": "Cookie.HTTP",
+        "timestamp": "2021-05-20T16:09:47.177Z",
+        "location": "about:blank"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "__Host-ss",
+      "value": "soKsghsXEo",
+      "domain": "www.dropbox.com",
+      "path": "/",
+      "expires": 1716134987.172107,
+      "size": 19,
+      "httpOnly": true,
+      "secure": true,
+      "session": false,
+      "sameSite": "Strict",
+      "expiresUTC": "2024-05-19T16:09:47.172Z",
+      "expiresDays": 1095,
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.dropbox.com/",
+            "source": "set in Set-Cookie HTTP response header for https://www.dropbox.com/"
+          }
+        ],
+        "type": "Cookie.HTTP",
+        "timestamp": "2021-05-20T16:09:47.177Z",
+        "location": "about:blank"
+      },
+      "firstPartyStorage": false
+    },
+    {
+      "name": "bscookie",
+      "value": "\"v=1&202105201609506d061bc5-7e3f-40aa-8319-e0aed0e21130AQHu2TZvjtHykKUN1iB5ofOtkSbux86L\"",
+      "domain": "www.linkedin.com",
+      "path": "/",
+      "expires": 1684640842.978092,
+      "size": 96,
+      "httpOnly": true,
+      "secure": true,
+      "session": false,
+      "sameSite": "None",
+      "expiresUTC": "2023-05-21T03:47:22.978Z",
+      "expiresDays": 730.48,
+      "firstPartyStorage": false
+    },
+    {
+      "name": "bcookie",
+      "value": "\"v=2&6f680f31-073e-4127-8ffa-3ca23d892609\"",
+      "domain": "linkedin.com",
+      "path": "/",
+      "expires": 1684640842.512238,
+      "size": 49,
+      "httpOnly": false,
+      "secure": true,
+      "session": false,
+      "sameSite": "None",
+      "expiresUTC": "2023-05-21T03:47:22.512Z",
+      "expiresDays": 730.48,
+      "firstPartyStorage": false
+    },
+    {
+      "name": "personalization_id",
+      "value": "\"v1_FwR8laSEaJJKgy6nuRIEbw==\"",
+      "domain": "twitter.com",
+      "path": "/",
+      "expires": 1684598990.393372,
+      "size": 47,
+      "httpOnly": false,
+      "secure": true,
+      "session": false,
+      "sameSite": "None",
+      "expiresUTC": "2023-05-20T16:09:50.393Z",
+      "expiresDays": 730,
+      "firstPartyStorage": false
+    },
+    {
+      "name": "_ga",
+      "value": "GA1.2.166107151.1621526990",
+      "domain": "dropbox.com",
+      "path": "/",
+      "expires": 1684598990,
+      "size": 29,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2023-05-20T16:09:50.000Z",
+      "expiresDays": 730,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 495,
+            "lineNumber": 30,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "zc",
+            "source": "    at zc (https://www.google-analytics.com/analytics.js:30:495)"
+          },
+          {
+            "columnNumber": 15,
+            "lineNumber": 60,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "ma",
+            "source": "    at ma (https://www.google-analytics.com/analytics.js:60:15)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T16:09:50.394Z",
+        "location": "https://www.dropbox.com"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "DotomiUser",
+      "value": "400604147139270661$0$1",
+      "domain": "dotomi.com",
+      "path": "/",
+      "expires": 1655568583.578494,
+      "size": 32,
+      "httpOnly": false,
+      "secure": true,
+      "session": false,
+      "sameSite": "None",
+      "expiresUTC": "2022-06-18T16:09:43.578Z",
+      "expiresDays": 394,
+      "firstPartyStorage": false
+    },
+    {
+      "name": "cjae",
+      "value": "3cpwPzamDw2o",
+      "domain": "dotomi.com",
+      "path": "/",
+      "expires": 1655568583.578468,
+      "size": 16,
+      "httpOnly": false,
+      "secure": true,
+      "session": false,
+      "sameSite": "None",
+      "expiresUTC": "2022-06-18T16:09:43.578Z",
+      "expiresDays": 394,
+      "firstPartyStorage": false
+    },
+    {
+      "name": "IDE",
+      "value": "AHWqTUkgLyAt-N7tQVABg6lV6jMMobZIcr7_67cXOiwnDQokUK28IrHmrY5NPfB8",
+      "domain": "doubleclick.net",
+      "path": "/",
+      "expires": 1655222990.357011,
+      "size": 67,
+      "httpOnly": true,
+      "secure": true,
+      "session": false,
+      "sameSite": "None",
+      "expiresUTC": "2022-06-14T16:09:50.357Z",
+      "expiresDays": 390,
+      "firstPartyStorage": false
+    },
+    {
+      "name": "_BUID",
+      "value": "91566d1fa1f735989c0d6ccbf0dcd6bd",
+      "domain": "bizibly.com",
+      "path": "/",
+      "expires": 1653062992.111511,
+      "size": 37,
+      "httpOnly": false,
+      "secure": true,
+      "session": false,
+      "sameSite": "None",
+      "expiresUTC": "2022-05-20T16:09:52.111Z",
+      "expiresDays": 365,
+      "firstPartyStorage": false
+    },
+    {
+      "name": "_BUID",
+      "value": "054d8b6905054fa68bac3dfbc7fd727d",
+      "domain": "bizible.com",
+      "path": "/",
+      "expires": 1653062992.058487,
+      "size": 37,
+      "httpOnly": false,
+      "secure": true,
+      "session": false,
+      "sameSite": "None",
+      "expiresUTC": "2022-05-20T16:09:52.058Z",
+      "expiresDays": 365,
+      "firstPartyStorage": false
+    },
+    {
+      "name": "_biz_uid",
+      "value": "054d8b6905054fa68bac3dfbc7fd727d",
+      "domain": "dropbox.com",
+      "path": "/",
+      "expires": 1653062992,
+      "size": 40,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2022-05-20T16:09:52.000Z",
+      "expiresDays": 365,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 239,
+            "lineNumber": 56,
+            "fileName": "https://cdn.bizible.com/scripts/bizible.js",
+            "functionName": "Function.a.SaveCookie",
+            "source": "    at Function.a.SaveCookie (https://cdn.bizible.com/scripts/bizible.js:56:239)"
+          },
+          {
+            "columnNumber": 198,
+            "lineNumber": 52,
+            "fileName": "https://cdn.bizible.com/scripts/bizible.js",
+            "functionName": "Function.a.SetUserId",
+            "source": "    at Function.a.SetUserId (https://cdn.bizible.com/scripts/bizible.js:52:198)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T16:09:52.046Z",
+        "location": "https://www.dropbox.com"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "_biz_nA",
+      "value": "1",
+      "domain": "dropbox.com",
+      "path": "/",
+      "expires": 1653062992,
+      "size": 8,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2022-05-20T16:09:52.000Z",
+      "expiresDays": 365,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 239,
+            "lineNumber": 56,
+            "fileName": "https://cdn.bizible.com/scripts/bizible.js",
+            "functionName": "Function.a.SaveCookie",
+            "source": "    at Function.a.SaveCookie (https://cdn.bizible.com/scripts/bizible.js:56:239)"
+          },
+          {
+            "columnNumber": 324,
+            "lineNumber": 94,
+            "fileName": "https://cdn.bizible.com/scripts/bizible.js",
+            "functionName": "Function.b.SetSequenceNumber",
+            "source": "    at Function.b.SetSequenceNumber (https://cdn.bizible.com/scripts/bizible.js:94:324)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T16:09:52.048Z",
+        "location": "https://www.dropbox.com"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "_biz_pendingA",
+      "value": "%5B%5D",
+      "domain": "dropbox.com",
+      "path": "/",
+      "expires": 1653062992,
+      "size": 19,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2022-05-20T16:09:52.000Z",
+      "expiresDays": 365,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 239,
+            "lineNumber": 56,
+            "fileName": "https://cdn.bizible.com/scripts/bizible.js",
+            "functionName": "Function.a.SaveCookie",
+            "source": "    at Function.a.SaveCookie (https://cdn.bizible.com/scripts/bizible.js:56:239)"
+          },
+          {
+            "columnNumber": 320,
+            "lineNumber": 56,
+            "fileName": "https://cdn.bizible.com/scripts/bizible.js",
+            "functionName": "Function.a.SaveJsonCookie",
+            "source": "    at Function.a.SaveJsonCookie (https://cdn.bizible.com/scripts/bizible.js:56:320)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T16:09:52.067Z",
+        "location": "https://www.dropbox.com"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "_biz_flagsA",
+      "value": "%7B%22Version%22%3A1%2C%22ViewThrough%22%3A%221%22%2C%22XDomain%22%3A%221%22%7D",
+      "domain": "dropbox.com",
+      "path": "/",
+      "expires": 1653062992,
+      "size": 90,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2022-05-20T16:09:52.000Z",
+      "expiresDays": 365,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 239,
+            "lineNumber": 56,
+            "fileName": "https://cdn.bizible.com/scripts/bizible.js",
+            "functionName": "Function.a.SaveCookie",
+            "source": "    at Function.a.SaveCookie (https://cdn.bizible.com/scripts/bizible.js:56:239)"
+          },
+          {
+            "columnNumber": 320,
+            "lineNumber": 56,
+            "fileName": "https://cdn.bizible.com/scripts/bizible.js",
+            "functionName": "Function.a.SaveJsonCookie",
+            "source": "    at Function.a.SaveJsonCookie (https://cdn.bizible.com/scripts/bizible.js:56:320)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T16:09:52.310Z",
+        "location": "https://www.dropbox.com"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "sa-user-id-v2",
+      "value": "s%3A0-e4e9a0e4-ea58-4b21-42bf-05241d2c6411%24ip%2437.120.199.236.6ciOoJ7X4w%2BB2a4cWZt9CAi%2FH6YIWDywsxvDZzmo%2BIA",
+      "domain": "srv.stackadapt.com",
+      "path": "/",
+      "expires": 1653062990.369358,
+      "size": 127,
+      "httpOnly": false,
+      "secure": true,
+      "session": false,
+      "sameSite": "None",
+      "expiresUTC": "2022-05-20T16:09:50.369Z",
+      "expiresDays": 365,
+      "firstPartyStorage": false
+    },
+    {
+      "name": "sa-user-id",
+      "value": "s%3A0-e4e9a0e4-ea58-4b21-42bf-05241d2c6411.9DOdTEc7NwlJ7AID5yJXOk0LIelMg3Bca5MbLhmQntk",
+      "domain": "tags.srv.stackadapt.com",
+      "path": "/",
+      "expires": 1653062990.369319,
+      "size": 96,
+      "httpOnly": false,
+      "secure": true,
+      "session": false,
+      "sameSite": "None",
+      "expiresUTC": "2022-05-20T16:09:50.369Z",
+      "expiresDays": 365,
+      "firstPartyStorage": false
+    },
+    {
+      "name": "utag_main",
+      "value": "v_id:01798a8a4a8a001e95eaa743302200067002805f00a47$_sn:1$_se:2$_ss:0$_st:1621528789589$ses_id:1621526989461%3Bexp-session$_pn:1%3Bexp-session",
+      "domain": "dropbox.com",
+      "path": "/",
+      "expires": 1653062989,
+      "size": 150,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2022-05-20T16:09:49.000Z",
+      "expiresDays": 365,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 16,
+            "lineNumber": 33,
+            "fileName": "https://tags.tiqcdn.com/utag/dropbox/main/prod/utag.js",
+            "functionName": "Object.SC",
+            "source": "    at Object.SC (https://tags.tiqcdn.com/utag/dropbox/main/prod/utag.js:33:16)"
+          },
+          {
+            "columnNumber": 86,
+            "lineNumber": 16,
+            "fileName": "https://tags.tiqcdn.com/utag/dropbox/main/prod/utag.js",
+            "functionName": "Object.RDses",
+            "source": "    at Object.RDses (https://tags.tiqcdn.com/utag/dropbox/main/prod/utag.js:16:86)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T16:09:49.639Z",
+        "location": "https://www.dropbox.com"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "_kuid_",
+      "value": "OIcNjHma",
+      "domain": "krxd.net",
+      "path": "/",
+      "expires": 1637078999,
+      "size": 14,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2021-11-16T16:09:59.000Z",
+      "expiresDays": 180,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 39360,
+            "lineNumber": 5,
+            "fileName": "https://cdn.krxd.net/ctjs/controltag.js.0631b7d64dbbd3656a8b7368ad227a04",
+            "functionName": "CookieStore._set",
+            "source": "    at CookieStore._set (https://cdn.krxd.net/ctjs/controltag.js.0631b7d64dbbd3656a8b7368ad227a04:5:39360)"
+          },
+          {
+            "columnNumber": 37912,
+            "lineNumber": 5,
+            "fileName": "https://cdn.krxd.net/ctjs/controltag.js.0631b7d64dbbd3656a8b7368ad227a04",
+            "functionName": "CookieStore._set",
+            "source": "    at CookieStore._set (https://cdn.krxd.net/ctjs/controltag.js.0631b7d64dbbd3656a8b7368ad227a04:5:37912)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T16:09:59.508Z",
+        "location": "https://marketing.dropbox.com"
+      },
+      "firstPartyStorage": false
+    },
+    {
+      "name": "AnalyticsSyncHistory",
+      "value": "AQJdCPuJV3kfGAAAAXmKik5oo1P-HztnoMhEBwLiamRFnXpdsBXcGMqVZyEBPttD9jf7_WLA90N9aWO8ACUnaw",
+      "domain": "linkedin.com",
+      "path": "/",
+      "expires": 1624118990.512205,
+      "size": 106,
+      "httpOnly": false,
+      "secure": true,
+      "session": false,
+      "sameSite": "None",
+      "expiresUTC": "2021-06-19T16:09:50.512Z",
+      "expiresDays": 30,
+      "firstPartyStorage": false
+    },
+    {
+      "name": "UserMatchHistory",
+      "value": "AQJoUXDB3-3XIwAAAXmKik5oC5IXiJjy1lb8GNjePikOhqX80svnP2SeMqVH4_C1H9ugeOrrS8BIIQ",
+      "domain": "linkedin.com",
+      "path": "/",
+      "expires": 1624118990.51216,
+      "size": 94,
+      "httpOnly": false,
+      "secure": true,
+      "session": false,
+      "sameSite": "None",
+      "expiresUTC": "2021-06-19T16:09:50.512Z",
+      "expiresDays": 30,
+      "firstPartyStorage": false
+    },
+    {
+      "name": "lidc",
+      "value": "\"b=TGST09:s=T:r=T:a=T:p=T:g=2016:u=1:i=1621526990:t=1621613390:v=2:sig=AQFW8BfyjeISgEfStoREBEa-Hd-Shn1X\"",
+      "domain": "linkedin.com",
+      "path": "/",
+      "expires": 1621613390.512264,
+      "size": 108,
+      "httpOnly": false,
+      "secure": true,
+      "session": false,
+      "sameSite": "None",
+      "expiresUTC": "2021-05-21T16:09:50.512Z",
+      "expiresDays": 1,
+      "firstPartyStorage": false
+    },
+    {
+      "name": "_gid",
+      "value": "GA1.2.409513811.1621526990",
+      "domain": "dropbox.com",
+      "path": "/",
+      "expires": 1621613390,
+      "size": 30,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2021-05-21T16:09:50.000Z",
+      "expiresDays": 1,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 495,
+            "lineNumber": 30,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "zc",
+            "source": "    at zc (https://www.google-analytics.com/analytics.js:30:495)"
+          },
+          {
+            "columnNumber": 401,
+            "lineNumber": 59,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "ma",
+            "source": "    at ma (https://www.google-analytics.com/analytics.js:59:401)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T16:09:50.395Z",
+        "location": "https://www.dropbox.com"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "_biz_sid",
+      "value": "7e97ff",
+      "domain": "dropbox.com",
+      "path": "/",
+      "expires": 1621528792,
+      "size": 14,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2021-05-20T16:39:52.000Z",
+      "expiresDays": 0.02,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 239,
+            "lineNumber": 56,
+            "fileName": "https://cdn.bizible.com/scripts/bizible.js",
+            "functionName": "Function.a.SaveCookie",
+            "source": "    at Function.a.SaveCookie (https://cdn.bizible.com/scripts/bizible.js:56:239)"
+          },
+          {
+            "columnNumber": 442,
+            "lineNumber": 52,
+            "fileName": "https://cdn.bizible.com/scripts/bizible.js",
+            "functionName": "Function.a.SetSessionId",
+            "source": "    at Function.a.SetSessionId (https://cdn.bizible.com/scripts/bizible.js:52:442)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T16:09:52.046Z",
+        "location": "https://www.dropbox.com"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "lang",
+      "value": "v=2&lang=en-us",
+      "domain": "ads.linkedin.com",
+      "path": "/",
+      "expires": -1,
+      "size": 18,
+      "httpOnly": false,
+      "secure": true,
+      "session": true,
+      "sameSite": "None",
+      "firstPartyStorage": false
+    },
+    {
+      "name": "lang",
+      "value": "v=2&lang=en-us",
+      "domain": "linkedin.com",
+      "path": "/",
+      "expires": -1,
+      "size": 18,
+      "httpOnly": false,
+      "secure": true,
+      "session": true,
+      "sameSite": "None",
+      "firstPartyStorage": false
+    }
+  ],
+  "localStorage": {
+    "https://www.dropbox.com": {
+      "hql_session_value": {
+        "value": 1621526989873,
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 38596,
+              "lineNumber": 1,
+              "fileName": "https://cfl.dropboxstatic.com/static/js/packaged/pkg-core-analytics.min-vfl43eOC0.js",
+              "functionName": "e.getSessionId",
+              "source": "    at e.getSessionId (https://cfl.dropboxstatic.com/static/js/packaged/pkg-core-analytics.min-vfl43eOC0.js:1:38596)"
+            },
+            {
+              "columnNumber": 37499,
+              "lineNumber": 1,
+              "fileName": "https://cfl.dropboxstatic.com/static/js/packaged/pkg-core-analytics.min-vfl43eOC0.js",
+              "functionName": "e.add",
+              "source": "    at e.add (https://cfl.dropboxstatic.com/static/js/packaged/pkg-core-analytics.min-vfl43eOC0.js:1:37499)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T16:09:49.876Z",
+          "location": "https://www.dropbox.com/?_hp=c"
+        }
+      },
+      "amp-sink-cache": {
+        "value": "CgYYPCBkKAASCAjMk5qFBhAAGgYIosqOrgU=",
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 19395,
+              "lineNumber": 1,
+              "fileName": "https://cfl.dropboxstatic.com/static/js/packaged/pkg-timing.min-vflXW7qT7.js",
+              "source": "    at https://cfl.dropboxstatic.com/static/js/packaged/pkg-timing.min-vflXW7qT7.js:1:19395"
+            },
+            {
+              "columnNumber": 19454,
+              "lineNumber": 1,
+              "fileName": "https://cfl.dropboxstatic.com/static/js/packaged/pkg-timing.min-vflXW7qT7.js",
+              "functionName": "e.updateConfiguration",
+              "source": "    at e.updateConfiguration (https://cfl.dropboxstatic.com/static/js/packaged/pkg-timing.min-vflXW7qT7.js:1:19454)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T16:09:48.860Z",
+          "location": "https://www.dropbox.com/?_hp=c"
+        }
+      },
+      "hql_session_last_used": {
+        "value": 1621526994666,
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 38630,
+              "lineNumber": 1,
+              "fileName": "https://cfl.dropboxstatic.com/static/js/packaged/pkg-core-analytics.min-vfl43eOC0.js",
+              "functionName": "e.getSessionId",
+              "source": "    at e.getSessionId (https://cfl.dropboxstatic.com/static/js/packaged/pkg-core-analytics.min-vfl43eOC0.js:1:38630)"
+            },
+            {
+              "columnNumber": 37499,
+              "lineNumber": 1,
+              "fileName": "https://cfl.dropboxstatic.com/static/js/packaged/pkg-core-analytics.min-vfl43eOC0.js",
+              "functionName": "e.add",
+              "source": "    at e.add (https://cfl.dropboxstatic.com/static/js/packaged/pkg-core-analytics.min-vfl43eOC0.js:1:37499)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T16:10:00.322Z",
+          "location": "https://www.dropbox.com/?_hp=c"
+        }
+      }
+    },
+    "https://marketing.dropbox.com": {
+      "kxdropboxmain_whistle": {
+        "value": 1,
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 43390,
+              "lineNumber": 5,
+              "fileName": "https://cdn.krxd.net/ctjs/controltag.js.0631b7d64dbbd3656a8b7368ad227a04",
+              "functionName": "LocalStorageStore.set",
+              "source": "    at LocalStorageStore.set (https://cdn.krxd.net/ctjs/controltag.js.0631b7d64dbbd3656a8b7368ad227a04:5:43390)"
+            },
+            {
+              "columnNumber": 42293,
+              "lineNumber": 5,
+              "fileName": "https://cdn.krxd.net/ctjs/controltag.js.0631b7d64dbbd3656a8b7368ad227a04",
+              "functionName": "LocalStorageStore.set",
+              "source": "    at LocalStorageStore.set (https://cdn.krxd.net/ctjs/controltag.js.0631b7d64dbbd3656a8b7368ad227a04:5:42293)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T16:09:50.646Z",
+          "location": "https://www.dropbox.com"
+        }
+      },
+      "_kxdropboxmain_user": {
+        "value": 1637078991511,
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 43420,
+              "lineNumber": 5,
+              "fileName": "https://cdn.krxd.net/ctjs/controltag.js.0631b7d64dbbd3656a8b7368ad227a04",
+              "functionName": "LocalStorageStore.set",
+              "source": "    at LocalStorageStore.set (https://cdn.krxd.net/ctjs/controltag.js.0631b7d64dbbd3656a8b7368ad227a04:5:43420)"
+            },
+            {
+              "columnNumber": 42293,
+              "lineNumber": 5,
+              "fileName": "https://cdn.krxd.net/ctjs/controltag.js.0631b7d64dbbd3656a8b7368ad227a04",
+              "functionName": "LocalStorageStore.set",
+              "source": "    at LocalStorageStore.set (https://cdn.krxd.net/ctjs/controltag.js.0631b7d64dbbd3656a8b7368ad227a04:5:42293)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T16:09:51.515Z",
+          "location": "https://www.dropbox.com"
+        }
+      },
+      "_kxdropboxmain_visits": {
+        "value": 1621548000001,
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 43420,
+              "lineNumber": 5,
+              "fileName": "https://cdn.krxd.net/ctjs/controltag.js.0631b7d64dbbd3656a8b7368ad227a04",
+              "functionName": "LocalStorageStore.set",
+              "source": "    at LocalStorageStore.set (https://cdn.krxd.net/ctjs/controltag.js.0631b7d64dbbd3656a8b7368ad227a04:5:43420)"
+            },
+            {
+              "columnNumber": 42293,
+              "lineNumber": 5,
+              "fileName": "https://cdn.krxd.net/ctjs/controltag.js.0631b7d64dbbd3656a8b7368ad227a04",
+              "functionName": "LocalStorageStore.set",
+              "source": "    at LocalStorageStore.set (https://cdn.krxd.net/ctjs/controltag.js.0631b7d64dbbd3656a8b7368ad227a04:5:42293)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T16:09:50.365Z",
+          "location": "https://www.dropbox.com"
+        }
+      },
+      "_kxdropboxmain_kuid": {
+        "value": 1637078991513,
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 43420,
+              "lineNumber": 5,
+              "fileName": "https://cdn.krxd.net/ctjs/controltag.js.0631b7d64dbbd3656a8b7368ad227a04",
+              "functionName": "LocalStorageStore.set",
+              "source": "    at LocalStorageStore.set (https://cdn.krxd.net/ctjs/controltag.js.0631b7d64dbbd3656a8b7368ad227a04:5:43420)"
+            },
+            {
+              "columnNumber": 42293,
+              "lineNumber": 5,
+              "fileName": "https://cdn.krxd.net/ctjs/controltag.js.0631b7d64dbbd3656a8b7368ad227a04",
+              "functionName": "LocalStorageStore.set",
+              "source": "    at LocalStorageStore.set (https://cdn.krxd.net/ctjs/controltag.js.0631b7d64dbbd3656a8b7368ad227a04:5:42293)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T16:09:51.517Z",
+          "location": "https://www.dropbox.com"
+        }
+      },
+      "kxdropboxmain_user": {
+        "value": "wbeuakcg8",
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 43390,
+              "lineNumber": 5,
+              "fileName": "https://cdn.krxd.net/ctjs/controltag.js.0631b7d64dbbd3656a8b7368ad227a04",
+              "functionName": "LocalStorageStore.set",
+              "source": "    at LocalStorageStore.set (https://cdn.krxd.net/ctjs/controltag.js.0631b7d64dbbd3656a8b7368ad227a04:5:43390)"
+            },
+            {
+              "columnNumber": 42293,
+              "lineNumber": 5,
+              "fileName": "https://cdn.krxd.net/ctjs/controltag.js.0631b7d64dbbd3656a8b7368ad227a04",
+              "functionName": "LocalStorageStore.set",
+              "source": "    at LocalStorageStore.set (https://cdn.krxd.net/ctjs/controltag.js.0631b7d64dbbd3656a8b7368ad227a04:5:42293)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T16:09:51.515Z",
+          "location": "https://www.dropbox.com"
+        }
+      },
+      "kxdropboxmain_kuid": {
+        "value": "OIcNjHma",
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 43390,
+              "lineNumber": 5,
+              "fileName": "https://cdn.krxd.net/ctjs/controltag.js.0631b7d64dbbd3656a8b7368ad227a04",
+              "functionName": "LocalStorageStore.set",
+              "source": "    at LocalStorageStore.set (https://cdn.krxd.net/ctjs/controltag.js.0631b7d64dbbd3656a8b7368ad227a04:5:43390)"
+            },
+            {
+              "columnNumber": 42293,
+              "lineNumber": 5,
+              "fileName": "https://cdn.krxd.net/ctjs/controltag.js.0631b7d64dbbd3656a8b7368ad227a04",
+              "functionName": "LocalStorageStore.set",
+              "source": "    at LocalStorageStore.set (https://cdn.krxd.net/ctjs/controltag.js.0631b7d64dbbd3656a8b7368ad227a04:5:42293)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T16:09:51.516Z",
+          "location": "https://www.dropbox.com"
+        }
+      },
+      "_kxdropboxmain_whistle": {
+        "value": 1637078990644,
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 43420,
+              "lineNumber": 5,
+              "fileName": "https://cdn.krxd.net/ctjs/controltag.js.0631b7d64dbbd3656a8b7368ad227a04",
+              "functionName": "LocalStorageStore.set",
+              "source": "    at LocalStorageStore.set (https://cdn.krxd.net/ctjs/controltag.js.0631b7d64dbbd3656a8b7368ad227a04:5:43420)"
+            },
+            {
+              "columnNumber": 42293,
+              "lineNumber": 5,
+              "fileName": "https://cdn.krxd.net/ctjs/controltag.js.0631b7d64dbbd3656a8b7368ad227a04",
+              "functionName": "LocalStorageStore.set",
+              "source": "    at LocalStorageStore.set (https://cdn.krxd.net/ctjs/controltag.js.0631b7d64dbbd3656a8b7368ad227a04:5:42293)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T16:09:50.647Z",
+          "location": "https://www.dropbox.com"
+        }
+      },
+      "kxdropboxmain_visits": {
+        "value": 1,
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 43390,
+              "lineNumber": 5,
+              "fileName": "https://cdn.krxd.net/ctjs/controltag.js.0631b7d64dbbd3656a8b7368ad227a04",
+              "functionName": "LocalStorageStore.set",
+              "source": "    at LocalStorageStore.set (https://cdn.krxd.net/ctjs/controltag.js.0631b7d64dbbd3656a8b7368ad227a04:5:43390)"
+            },
+            {
+              "columnNumber": 42293,
+              "lineNumber": 5,
+              "fileName": "https://cdn.krxd.net/ctjs/controltag.js.0631b7d64dbbd3656a8b7368ad227a04",
+              "functionName": "LocalStorageStore.set",
+              "source": "    at LocalStorageStore.set (https://cdn.krxd.net/ctjs/controltag.js.0631b7d64dbbd3656a8b7368ad227a04:5:42293)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T16:09:50.364Z",
+          "location": "https://www.dropbox.com"
+        }
+      }
+    }
+  },
+  "beacons": [
+    {
+      "url": "https://www.dropbox.com/log/ux_analytics",
+      "query": null,
+      "filter": "||dropbox.com/log/",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.dropbox.com/?_hp=c",
+            "source": "requested from https://www.dropbox.com/?_hp=c and matched with easyprivacy.txt filter ||dropbox.com/log/"
+          }
+        ],
+        "timestamp": "2021-05-20T16:10:00.322Z"
+      },
+      "occurrances": 4
+    },
+    {
+      "url": "https://cdn.bizible.com/xdc.js?_biz_u=054d8b6905054fa68bac3dfbc7fd727d&_biz_h=1830111779&cdn_o=a&jsVer=4.21.05.19",
+      "query": {
+        "_biz_u": "054d8b6905054fa68bac3dfbc7fd727d",
+        "_biz_h": 1830111779,
+        "cdn_o": "a",
+        "jsVer": "4.21.05.19"
+      },
+      "filter": "||bizible.com^$third-party",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://marketing.dropbox.com/?referrer=",
+            "source": "requested from https://marketing.dropbox.com/?referrer= and matched with easyprivacy.txt filter ||bizible.com^$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T16:09:52.068Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://cdn.bizible.com/m/ipv?_biz_r=&_biz_h=1830111779&_biz_u=054d8b6905054fa68bac3dfbc7fd727d&_biz_s=7e97ff&_biz_l=https%3A%2F%2Fmarketing.dropbox.com%2F%3Freferrer%3D&_biz_t=1621526992033&_biz_i=Dropbox&_biz_n=0&rnd=476061&cdn_o=a&_biz_z=1621526992038",
+      "query": {
+        "_biz_r": "",
+        "_biz_h": 1830111779,
+        "_biz_u": "054d8b6905054fa68bac3dfbc7fd727d",
+        "_biz_s": "7e97ff",
+        "_biz_l": "https://marketing.dropbox.com/?referrer=",
+        "_biz_t": 1621526992033,
+        "_biz_i": "Dropbox",
+        "_biz_n": 0,
+        "rnd": 476061,
+        "cdn_o": "a",
+        "_biz_z": 1621526992038
+      },
+      "filter": "||bizible.com^$third-party",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://marketing.dropbox.com/?referrer=",
+            "source": "requested from https://marketing.dropbox.com/?referrer= and matched with easyprivacy.txt filter ||bizible.com^$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T16:09:52.049Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://consumer.krxd.net/consent/get/7fe1f424-c09d-4781-af13-2352d2ee4229?idt=device&dt=kxcookie&callback=Krux.ns.dropboxmain.kxjsonp_consent_get_0",
+      "query": {
+        "idt": "device",
+        "dt": "kxcookie",
+        "callback": "Krux.ns.dropboxmain.kxjsonp_consent_get_0"
+      },
+      "filter": "||krxd.net^$third-party",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://marketing.dropbox.com/?referrer=",
+            "source": "requested from https://marketing.dropbox.com/?referrer= and matched with easyprivacy.txt filter ||krxd.net^$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T16:09:50.417Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://beacon.krxd.net/optout_check?callback=Krux.ns.dropboxmain.kxjsonp_optOutCheck",
+      "query": {
+        "callback": "Krux.ns.dropboxmain.kxjsonp_optOutCheck"
+      },
+      "filter": "||krxd.net^$third-party",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://marketing.dropbox.com/?referrer=",
+            "source": "requested from https://marketing.dropbox.com/?referrer= and matched with easyprivacy.txt filter ||krxd.net^$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T16:09:50.400Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://www.google-analytics.com/collect?v=1&_v=j90&a=586032486&t=pageview&_s=1&dl=https%3A%2F%2Fmarketing.dropbox.com%2F%3Freferrer%3D&ul=en-us&de=windows-1252&dt=Dropbox&sd=24-bit&sr=1680x927&vp=&je=0&_u=4EBAAUAB~&cid=166107151.1621526990&tid=UA-279179-2&_gid=409513811.1621526990&gtm=2ou5c1&z=1550324754",
+      "query": {
+        "v": 1,
+        "_v": "j90",
+        "a": 586032486,
+        "t": "pageview",
+        "_s": 1,
+        "dl": "https://marketing.dropbox.com/?referrer=",
+        "ul": "en-us",
+        "de": "windows-1252",
+        "dt": "Dropbox",
+        "sd": "24-bit",
+        "sr": "1680x927",
+        "vp": "",
+        "je": 0,
+        "_u": "4EBAAUAB~",
+        "cid": 166107151.1621527,
+        "tid": "UA-279179-2",
+        "_gid": 409513811.1621527,
+        "gtm": "2ou5c1",
+        "z": 1550324754
+      },
+      "filter": "||google-analytics.com/collect",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://marketing.dropbox.com/?referrer=",
+            "source": "requested from https://marketing.dropbox.com/?referrer= and matched with easyprivacy.txt filter ||google-analytics.com/collect"
+          }
+        ],
+        "timestamp": "2021-05-20T16:09:50.396Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/753970383/?random=1113753909&cv=9&fst=1621526990255&num=1&label=KP0BCI75_5cBEM_ZwucC&bg=ffffff&guid=ON&resp=GooglemKTybQhCsO&eid=2505059650&u_h=927&u_w=1680&u_ah=927&u_aw=1680&u_cd=24&u_his=3&u_tz=120&u_java=false&u_nplug=0&u_nmime=0&gtm=2oa5c1&sendb=1&ig=1&data=event%3Dconversion&frm=2&url=https%3A%2F%2Fmarketing.dropbox.com%2F%3Freferrer%3D&tiba=Dropbox&hn=www.googleadservices.com&async=1&fmt=3&ctc_id=CAIVAgAAAB0CAAAA&ct_cookie_present=false&ocp_id=zommYJ-fEdeC2fcP34yO6A4&sscte=1&crd=",
+      "query": {
+        "random": 1113753909,
+        "cv": 9,
+        "fst": 1621526990255,
+        "num": 1,
+        "label": "KP0BCI75_5cBEM_ZwucC",
+        "bg": "ffffff",
+        "guid": "ON",
+        "resp": "GooglemKTybQhCsO",
+        "eid": 2505059650,
+        "u_h": 927,
+        "u_w": 1680,
+        "u_ah": 927,
+        "u_aw": 1680,
+        "u_cd": 24,
+        "u_his": 3,
+        "u_tz": 120,
+        "u_java": false,
+        "u_nplug": 0,
+        "u_nmime": 0,
+        "gtm": "2oa5c1",
+        "sendb": 1,
+        "ig": 1,
+        "data": "event=conversion",
+        "frm": 2,
+        "url": "https://marketing.dropbox.com/?referrer=",
+        "tiba": "Dropbox",
+        "hn": "www.googleadservices.com",
+        "async": 1,
+        "fmt": 3,
+        "ctc_id": "CAIVAgAAAB0CAAAA",
+        "ct_cookie_present": false,
+        "ocp_id": "zommYJ-fEdeC2fcP34yO6A4",
+        "sscte": 1,
+        "crd": ""
+      },
+      "filter": "||doubleclick.net^$image,third-party",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://marketing.dropbox.com/?referrer=",
+            "source": "requested from https://marketing.dropbox.com/?referrer= and matched with easyprivacy.txt filter ||doubleclick.net^$image,third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T16:09:50.379Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://cdn.krxd.net/partnerjs/xdi/proxy.3d2100fd7107262ecb55ce6847f01fa5.html",
+      "query": null,
+      "filter": "||krxd.net^$third-party",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "",
+            "source": "requested from  and matched with easyprivacy.txt filter ||krxd.net^$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T16:09:50.360Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://cj.dotomi.com/jm70gD0xEL/v16/04z/IK/IK/J/IL?q=sRJYMTI%3DNRL%3c%3cmyyux%3A%2F%2F111.jrohi.htr%3AD5%2Fz%3c%3cL%3cmyyux%3A%2F%2Frfwpjynsl.iwtugt2.htr%2F%3Fwjkjwwjw%3D%3c%3c6%3c6%3c5%3c5%3c",
+      "query": {
+        "q": "sRJYMTI=NRL<<myyux://111.jrohi.htr:D5/z<<L<myyux://rfwpjynsl.iwtugt2.htr/?wjkjwwjw=<<6<6<5<5<"
+      },
+      "filter": "||dotomi.com^$third-party",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://marketing.dropbox.com/?referrer=",
+            "source": "requested from https://marketing.dropbox.com/?referrer= and matched with easyprivacy.txt filter ||dotomi.com^$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T16:09:50.323Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://www.googleadservices.com/pagead/conversion/753970383/?random=1621526990255&cv=9&fst=1621526990255&num=1&label=KP0BCI75_5cBEM_ZwucC&bg=ffffff&guid=ON&resp=GooglemKTybQhCsO&eid=2505059650&u_h=927&u_w=1680&u_ah=927&u_aw=1680&u_cd=24&u_his=3&u_tz=120&u_java=false&u_nplug=0&u_nmime=0&gtm=2oa5c1&sendb=1&ig=1&data=event%3Dconversion&frm=2&url=https%3A%2F%2Fmarketing.dropbox.com%2F%3Freferrer%3D&tiba=Dropbox&hn=www.googleadservices.com&async=1&rfmt=3&fmt=4",
+      "query": {
+        "random": 1621526990255,
+        "cv": 9,
+        "fst": 1621526990255,
+        "num": 1,
+        "label": "KP0BCI75_5cBEM_ZwucC",
+        "bg": "ffffff",
+        "guid": "ON",
+        "resp": "GooglemKTybQhCsO",
+        "eid": 2505059650,
+        "u_h": 927,
+        "u_w": 1680,
+        "u_ah": 927,
+        "u_aw": 1680,
+        "u_cd": 24,
+        "u_his": 3,
+        "u_tz": 120,
+        "u_java": false,
+        "u_nplug": 0,
+        "u_nmime": 0,
+        "gtm": "2oa5c1",
+        "sendb": 1,
+        "ig": 1,
+        "data": "event=conversion",
+        "frm": 2,
+        "url": "https://marketing.dropbox.com/?referrer=",
+        "tiba": "Dropbox",
+        "hn": "www.googleadservices.com",
+        "async": 1,
+        "rfmt": 3,
+        "fmt": 4
+      },
+      "filter": "||googleadservices.com^$third-party",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://marketing.dropbox.com/?referrer=",
+            "source": "requested from https://marketing.dropbox.com/?referrer= and matched with easyprivacy.txt filter ||googleadservices.com^$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T16:09:50.268Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://cdn.krxd.net/ctjs/controltag.js.0631b7d64dbbd3656a8b7368ad227a04",
+      "query": null,
+      "filter": "||krxd.net^$third-party",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://marketing.dropbox.com/?referrer=",
+            "source": "requested from https://marketing.dropbox.com/?referrer= and matched with easyprivacy.txt filter ||krxd.net^$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T16:09:50.205Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://t.co/i/adsct?type=javascript&version=1.1.1&p_id=Twitter&p_user_id=0&txn_id=o3jx0&events=%5B%5B%22pageview%22%2C%7B%7D%5D%5D&tw_sale_amount=0&tw_order_quantity=0&tw_iframe_status=1&tw_document_href=https%3A%2F%2Fmarketing.dropbox.com%2F%3Freferrer%3D",
+      "query": {
+        "type": "javascript",
+        "version": "1.1.1",
+        "p_id": "Twitter",
+        "p_user_id": 0,
+        "txn_id": "o3jx0",
+        "events": [
+          [
+            "pageview",
+            {}
+          ]
+        ],
+        "tw_sale_amount": 0,
+        "tw_order_quantity": 0,
+        "tw_iframe_status": 1,
+        "tw_document_href": "https://marketing.dropbox.com/?referrer="
+      },
+      "filter": "/adsct?",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://marketing.dropbox.com/?referrer=",
+            "source": "requested from https://marketing.dropbox.com/?referrer= and matched with easyprivacy.txt filter /adsct?"
+          }
+        ],
+        "timestamp": "2021-05-20T16:09:50.157Z"
+      },
+      "occurrances": 2
+    },
+    {
+      "url": "https://analytics.twitter.com/i/adsct?type=javascript&version=1.1.1&p_id=Twitter&p_user_id=0&txn_id=o3jx0&events=%5B%5B%22pageview%22%2C%7B%7D%5D%5D&tw_sale_amount=0&tw_order_quantity=0&tw_iframe_status=1&tpx_cb=twttr.conversion.loadPixels&tw_document_href=https%3A%2F%2Fmarketing.dropbox.com%2F%3Freferrer%3D",
+      "query": {
+        "type": "javascript",
+        "version": "1.1.1",
+        "p_id": "Twitter",
+        "p_user_id": 0,
+        "txn_id": "o3jx0",
+        "events": [
+          [
+            "pageview",
+            {}
+          ]
+        ],
+        "tw_sale_amount": 0,
+        "tw_order_quantity": 0,
+        "tw_iframe_status": 1,
+        "tpx_cb": "twttr.conversion.loadPixels",
+        "tw_document_href": "https://marketing.dropbox.com/?referrer="
+      },
+      "filter": "||analytics.twitter.com^",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://marketing.dropbox.com/?referrer=",
+            "source": "requested from https://marketing.dropbox.com/?referrer= and matched with easyprivacy.txt filter ||analytics.twitter.com^"
+          }
+        ],
+        "timestamp": "2021-05-20T16:09:50.155Z"
+      },
+      "occurrances": 2
+    },
+    {
+      "url": "https://10499192.fls.doubleclick.net/activityi;dc_pre=COvS8OHS2PACFemGUQodc5EPjw;src=10499192;type=unive0;cat=dbxun0;sync_id=AABYLJAZC6ywvfb4n7DUuWPhqwzkSqWf72IcfC9yuGTLog;ord=2929624354926.47?",
+      "query": null,
+      "filter": "||doubleclick.net/activity$third-party",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "",
+            "source": "requested from  and matched with easyprivacy.txt filter ||doubleclick.net/activity$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T16:09:50.067Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://www.googletagmanager.com/gtag/js?id=AW-753970383&l=dataLayer&cx=c",
+      "query": {
+        "id": "AW-753970383",
+        "l": "dataLayer",
+        "cx": "c"
+      },
+      "filter": "||googletagmanager.com/gtag/$third-party",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://marketing.dropbox.com/?referrer=",
+            "source": "requested from https://marketing.dropbox.com/?referrer= and matched with easyprivacy.txt filter ||googletagmanager.com/gtag/$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T16:09:50.040Z"
+      },
+      "occurrances": 2
+    },
+    {
+      "url": "https://www.google-analytics.com/analytics.js",
+      "query": null,
+      "filter": "||google-analytics.com/analytics.js",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://marketing.dropbox.com/?referrer=",
+            "source": "requested from https://marketing.dropbox.com/?referrer= and matched with easyprivacy.txt filter ||google-analytics.com/analytics.js"
+          }
+        ],
+        "timestamp": "2021-05-20T16:09:50.039Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://www.emjcd.com/u?METHOD=IMG",
+      "query": {
+        "METHOD": "IMG"
+      },
+      "filter": "||emjcd.com^$third-party",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://marketing.dropbox.com/?referrer=",
+            "source": "requested from https://marketing.dropbox.com/?referrer= and matched with easyprivacy.txt filter ||emjcd.com^$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T16:09:49.865Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://10499192.fls.doubleclick.net/activityi;src=10499192;type=unive0;cat=dbxun0;sync_id=AABYLJAZC6ywvfb4n7DUuWPhqwzkSqWf72IcfC9yuGTLog;ord=2929624354926.47?",
+      "query": null,
+      "filter": "||doubleclick.net/activity$third-party",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "",
+            "source": "requested from  and matched with easyprivacy.txt filter ||doubleclick.net/activity$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T16:09:49.863Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://www.googleadservices.com/pagead/conversion_async.js",
+      "query": null,
+      "filter": "||googleadservices.com^$third-party",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://marketing.dropbox.com/?referrer=",
+            "source": "requested from https://marketing.dropbox.com/?referrer= and matched with easyprivacy.txt filter ||googleadservices.com^$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T16:09:49.840Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://cdn.krxd.net/controltag/tpxf4nq03.js",
+      "query": null,
+      "filter": "||krxd.net^$third-party",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://marketing.dropbox.com/?referrer=",
+            "source": "requested from https://marketing.dropbox.com/?referrer= and matched with easyprivacy.txt filter ||krxd.net^$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T16:09:49.826Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://cdn.bizible.com/scripts/bizible.js",
+      "query": null,
+      "filter": "||bizible.com^$third-party",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://marketing.dropbox.com/?referrer=",
+            "source": "requested from https://marketing.dropbox.com/?referrer= and matched with easyprivacy.txt filter ||bizible.com^$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T16:09:49.647Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+      "query": null,
+      "filter": ".lms-analytics/",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://marketing.dropbox.com/?referrer=",
+            "source": "requested from https://marketing.dropbox.com/?referrer= and matched with easyprivacy.txt filter .lms-analytics/"
+          }
+        ],
+        "timestamp": "2021-05-20T16:09:49.641Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://cfl.dropboxstatic.com/static/js/modules/clean/ux_analytics_pagelet.min-vflXZITVc.js",
+      "query": null,
+      "filter": "/ux_analytics_",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.dropbox.com/?_hp=c",
+            "source": "requested from https://www.dropbox.com/?_hp=c and matched with easyprivacy.txt filter /ux_analytics_"
+          }
+        ],
+        "timestamp": "2021-05-20T16:09:49.575Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://cfl.dropboxstatic.com/static/js/modules/clean/ux_analytics/window_history_listeners.min-vflSSI8x4.js",
+      "query": null,
+      "filter": "/ux_analytics/*",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.dropbox.com/?_hp=c",
+            "source": "requested from https://www.dropbox.com/?_hp=c and matched with easyprivacy.txt filter /ux_analytics/*"
+          }
+        ],
+        "timestamp": "2021-05-20T16:09:49.574Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://cfl.dropboxstatic.com/static/js/modules/clean/ux_analytics/ux_variants.min-vflKM7V8R.js",
+      "query": null,
+      "filter": "/ux_analytics/*",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.dropbox.com/?_hp=c",
+            "source": "requested from https://www.dropbox.com/?_hp=c and matched with easyprivacy.txt filter /ux_analytics/*"
+          }
+        ],
+        "timestamp": "2021-05-20T16:09:49.574Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://cfl.dropboxstatic.com/static/js/modules/clean/ux_analytics/lazy_ux_analytics.min-vflUnRRc7.js",
+      "query": null,
+      "filter": "/ux_analytics/*",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.dropbox.com/?_hp=c",
+            "source": "requested from https://www.dropbox.com/?_hp=c and matched with easyprivacy.txt filter /ux_analytics/*"
+          }
+        ],
+        "timestamp": "2021-05-20T16:09:49.573Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://www.dropbox.com/log_js_sw_data",
+      "query": null,
+      "filter": "||dropbox.com/log_",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.dropbox.com/?_hp=c",
+            "source": "requested from https://www.dropbox.com/?_hp=c and matched with easyprivacy.txt filter ||dropbox.com/log_"
+          }
+        ],
+        "timestamp": "2021-05-20T16:09:49.539Z"
+      },
+      "occurrances": 12
+    },
+    {
+      "url": "https://www.dropbox.com/alternate_wtl",
+      "query": null,
+      "filter": "||dropbox.com/alternate_",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.dropbox.com/?_hp=c",
+            "source": "requested from https://www.dropbox.com/?_hp=c and matched with easyprivacy.txt filter ||dropbox.com/alternate_"
+          }
+        ],
+        "timestamp": "2021-05-20T16:09:49.446Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://www.dropbox.com/alternate_wtl_browser_performance_info",
+      "query": null,
+      "filter": "||dropbox.com/alternate_",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.dropbox.com/?_hp=c",
+            "source": "requested from https://www.dropbox.com/?_hp=c and matched with easyprivacy.txt filter ||dropbox.com/alternate_"
+          }
+        ],
+        "timestamp": "2021-05-20T16:09:49.436Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://marketing.dropbox.com/?referrer=",
+      "query": {
+        "referrer": ""
+      },
+      "filter": "||marketing.dropbox.com^",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "",
+            "source": "requested from  and matched with easyprivacy.txt filter ||marketing.dropbox.com^"
+          }
+        ],
+        "timestamp": "2021-05-20T16:09:48.707Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://cfl.dropboxstatic.com/static/js/modules/clean/react/prompt/hardcoded_top_notifications/eu_cookie_bar.min-vflI3Y_Dc.js",
+      "query": null,
+      "filter": "/eu_cookie_$script",
+      "listName": "fanboy-annoyance.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.dropbox.com/",
+            "source": "requested from https://www.dropbox.com/ and matched with fanboy-annoyance.txt filter /eu_cookie_$script"
+          }
+        ],
+        "timestamp": "2021-05-20T16:09:48.189Z"
+      },
+      "occurrances": 1
+    }
+  ],
+  "hosts": {
+    "requests": {
+      "firstParty": [
+        "dropbox.com"
+      ],
+      "thirdParty": [
+        "www.dropbox.com",
+        "cfl.dropboxstatic.com",
+        "marketing.dropbox.com",
+        "www.google.com",
+        "dropboxcaptcha.com",
+        "tags.tiqcdn.com",
+        "www.gstatic.com",
+        "www.googletagmanager.com",
+        "snap.licdn.com",
+        "cdn.bizible.com",
+        "cdn.krxd.net",
+        "static.ads-twitter.com",
+        "www.googleadservices.com",
+        "js.adsrvr.org",
+        "tags.srv.stackadapt.com",
+        "10499192.fls.doubleclick.net",
+        "www.emjcd.com",
+        "px.ads.linkedin.com",
+        "www.google-analytics.com",
+        "analytics.twitter.com",
+        "t.co",
+        "insight.adsrvr.org",
+        "googleads.g.doubleclick.net",
+        "adservice.google.com",
+        "cj.dotomi.com",
+        "beacon.krxd.net",
+        "www.google.es",
+        "consumer.krxd.net",
+        "adservice.google.es",
+        "www.linkedin.com",
+        "cdn.bizibly.com"
+      ]
+    },
+    "beacons": {
+      "firstParty": [],
+      "thirdParty": [
+        "www.dropbox.com",
+        "cdn.bizible.com",
+        "consumer.krxd.net",
+        "beacon.krxd.net",
+        "www.google-analytics.com",
+        "googleads.g.doubleclick.net",
+        "cdn.krxd.net",
+        "cj.dotomi.com",
+        "www.googleadservices.com",
+        "t.co",
+        "analytics.twitter.com",
+        "10499192.fls.doubleclick.net",
+        "www.googletagmanager.com",
+        "www.emjcd.com",
+        "snap.licdn.com",
+        "cfl.dropboxstatic.com",
+        "marketing.dropbox.com"
+      ]
+    },
+    "cookies": {
+      "firstParty": [
+        "dropbox.com"
+      ],
+      "thirdParty": [
+        "www.dropbox.com",
+        "doubleclick.net",
+        "tags.srv.stackadapt.com",
+        "srv.stackadapt.com",
+        "twitter.com",
+        "krxd.net",
+        "linkedin.com",
+        "ads.linkedin.com",
+        "dotomi.com",
+        "www.linkedin.com",
+        "bizible.com",
+        "bizibly.com"
+      ]
+    },
+    "localStorage": {
+      "firstParty": [],
+      "thirdParty": [
+        "www.dropbox.com",
+        "marketing.dropbox.com"
+      ]
+    },
+    "links": {
+      "firstParty": [],
+      "thirdParty": [
+        "www.dropbox.com",
+        "experience.dropbox.com",
+        "www.hellosign.com",
+        "help.dropbox.com",
+        "www.dropboxforum.com",
+        "bit.ly",
+        "investors.dropbox.com",
+        "blogs.dropbox.com"
+      ]
+    }
+  }
+}

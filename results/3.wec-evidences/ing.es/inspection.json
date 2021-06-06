@@ -1,0 +1,190 @@
+{
+  "title": "Website Evidence Collection",
+  "task_description": null,
+  "uri_ins": "https://ing.es",
+  "uri_refs": [
+    "https://ing.es"
+  ],
+  "uri_dest": "https://www.ing.es/",
+  "uri_redirects": [
+    "https://ing.es/"
+  ],
+  "secure_connection": {
+    "https_support": true,
+    "redirects": [],
+    "https_redirect": false
+  },
+  "host": "ing.es",
+  "script": {
+    "host": "sfod",
+    "version": {
+      "npm": "1.0.0",
+      "commit": null
+    },
+    "cmd_args": "-q --overwrite https://ing.es -- --ignore-certificate-errors",
+    "environment": {
+      "CHROME_DESKTOP": "code-url-handler.desktop"
+    },
+    "node_version": "v14.17.0"
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "HeadlessChrome/80.0.3987.0",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3617.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "5.8.0-53-generic"
+    },
+    "extra_headers": {},
+    "preset_cookies": {}
+  },
+  "start_time": "2021-05-20T15:51:44.255Z",
+  "end_time": "2021-05-20T15:51:52.166Z",
+  "links": {
+    "firstParty": [],
+    "thirdParty": [
+      {
+        "href": "https://www.ing.es/cuenta-nomina-ing",
+        "inner_text": "¡Descúbrela!",
+        "inner_html": "<span class=\"bnnrHomeFondos202101-texto\">¡Descúbrela!</span>"
+      },
+      {
+        "href": "https://www.ing.es/sobre-ing/cookies.html",
+        "inner_text": "echar un vistazo aquí",
+        "inner_html": "echar&nbsp;un&nbsp;vistazo&nbsp;aquí"
+      },
+      {
+        "href": "https://www.ing.es/",
+        "inner_text": "Aceptar todas",
+        "inner_html": "Aceptar todas"
+      }
+    ],
+    "social": [],
+    "keywords": []
+  },
+  "unsafeForms": [],
+  "browsing_history": [
+    "https://www.ing.es/"
+  ],
+  "websockets": {},
+  "cookies": [
+    {
+      "name": "utag_main",
+      "value": "v_id:01798a79c06300840b6a4282e12000067001305f00a47$_sn:1$_ss:1$_pn:1%3Bexp-session$_st:1621527705507$ses_id:1621525905507%3Bexp-session",
+      "domain": "ing.es",
+      "path": "/",
+      "expires": 1653061905,
+      "size": 144,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2022-05-20T15:51:45.000Z",
+      "expiresDays": 365,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 16,
+            "lineNumber": 112,
+            "fileName": "https://tags.tiqcdn.com/utag/ing/es-main/prod/utag.js",
+            "functionName": "Object.SC",
+            "source": "    at Object.SC (https://tags.tiqcdn.com/utag/ing/es-main/prod/utag.js:112:16)"
+          },
+          {
+            "columnNumber": 34,
+            "lineNumber": 95,
+            "fileName": "https://tags.tiqcdn.com/utag/ing/es-main/prod/utag.js",
+            "functionName": "Object.RD",
+            "source": "    at Object.RD (https://tags.tiqcdn.com/utag/ing/es-main/prod/utag.js:95:34)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T15:51:45.535Z",
+        "location": "https://www.ing.es/"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "x-pool",
+      "value": "56F180",
+      "domain": "www.ing.es",
+      "path": "/",
+      "expires": 1621529506.714372,
+      "size": 12,
+      "httpOnly": true,
+      "secure": true,
+      "session": false,
+      "expiresUTC": "2021-05-20T16:51:46.714Z",
+      "expiresDays": 0.04,
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.ing.es/",
+            "source": "set in Set-Cookie HTTP response header for https://www.ing.es/"
+          }
+        ],
+        "type": "Cookie.HTTP",
+        "timestamp": "2021-05-20T15:51:44.939Z",
+        "location": "about:blank"
+      },
+      "firstPartyStorage": false
+    },
+    {
+      "name": "TS01396090",
+      "value": "0153e04f5007ae5886f01376f1a2401cd53118b1ccbf2b8f9199387d8ad6a50cbf276913d1eef55afe6c183c90ff49e8fd3c124e811a16ec57bd49ad68868e1559dc97fb26",
+      "domain": "www.ing.es",
+      "path": "/",
+      "expires": -1,
+      "size": 148,
+      "httpOnly": false,
+      "secure": false,
+      "session": true,
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.ing.es/",
+            "source": "set in Set-Cookie HTTP response header for https://www.ing.es/"
+          }
+        ],
+        "type": "Cookie.HTTP",
+        "timestamp": "2021-05-20T15:51:44.939Z",
+        "location": "about:blank"
+      },
+      "firstPartyStorage": false
+    }
+  ],
+  "localStorage": {},
+  "beacons": [],
+  "hosts": {
+    "requests": {
+      "firstParty": [
+        "ing.es"
+      ],
+      "thirdParty": [
+        "www.ing.es",
+        "tags.tiqcdn.com"
+      ]
+    },
+    "beacons": {
+      "firstParty": [],
+      "thirdParty": []
+    },
+    "cookies": {
+      "firstParty": [
+        "ing.es"
+      ],
+      "thirdParty": [
+        "www.ing.es"
+      ]
+    },
+    "localStorage": {
+      "firstParty": [],
+      "thirdParty": []
+    },
+    "links": {
+      "firstParty": [],
+      "thirdParty": [
+        "www.ing.es"
+      ]
+    }
+  }
+}

@@ -1,0 +1,262 @@
+{
+  "title": "Website Evidence Collection",
+  "task_description": null,
+  "uri_ins": "https://instagram.com",
+  "uri_refs": [
+    "https://instagram.com"
+  ],
+  "uri_dest": "https://www.instagram.com/",
+  "uri_redirects": [
+    "https://instagram.com/"
+  ],
+  "secure_connection": {
+    "https_support": true,
+    "redirects": [
+      "https://instagram.com/",
+      "https://www.instagram.com/"
+    ],
+    "https_redirect": true
+  },
+  "host": "instagram.com",
+  "script": {
+    "host": "sfod",
+    "version": {
+      "npm": "1.0.0",
+      "commit": null
+    },
+    "cmd_args": "-q --overwrite https://instagram.com -- --ignore-certificate-errors",
+    "environment": {
+      "CHROME_DESKTOP": "code-url-handler.desktop"
+    },
+    "node_version": "v14.17.0"
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "HeadlessChrome/80.0.3987.0",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3617.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "5.8.0-53-generic"
+    },
+    "extra_headers": {},
+    "preset_cookies": {}
+  },
+  "start_time": "2021-05-20T15:20:38.495Z",
+  "end_time": "2021-05-20T15:20:47.069Z",
+  "links": {
+    "firstParty": [],
+    "thirdParty": [
+      {
+        "href": "https://www.instagram.com/accounts/password/reset/",
+        "inner_text": "Forgot password?",
+        "inner_html": "Forgot password?"
+      },
+      {
+        "href": "https://www.instagram.com/accounts/emailsignup/",
+        "inner_text": "Sign up",
+        "inner_html": "<span class=\"_7UhW9   xLCgt       qyrsm      gtFbE      se6yk        \">Sign up</span>"
+      },
+      {
+        "href": "https://itunes.apple.com/app/instagram/id389801252?pt=428156&ct=igweb.loginPage.badge&mt=8&vt=lo",
+        "inner_text": "",
+        "inner_html": "<img alt=\"Available on the App Store\" class=\"Rt8TI \" src=\"/static/images/appstore-install-badges/badge_ios_english-en.png/180ae7a0bcf7.png\">"
+      },
+      {
+        "href": "https://play.google.com/store/apps/details?id=com.instagram.android&referrer=utm_source%3Dinstagramweb%26utm_campaign%3DloginPage%26ig_mid%3D693AA77E-5300-4395-9F60-D63C0A077FFD%26utm_content%3Dlo%26utm_medium%3Dbadge",
+        "inner_text": "",
+        "inner_html": "<img alt=\"Available on Google Play\" class=\"Rt8TI \" src=\"/static/images/appstore-install-badges/badge_android_english-en.png/e9cd846dc748.png\">"
+      },
+      {
+        "href": "https://about.instagram.com/",
+        "inner_text": "About",
+        "inner_html": "<div class=\"_7UhW9  PIoXz       MMzan   _0PwGv         uL8Hv         \">About</div>"
+      },
+      {
+        "href": "https://about.instagram.com/blog/",
+        "inner_text": "Blog",
+        "inner_html": "<div class=\"_7UhW9  PIoXz       MMzan   _0PwGv         uL8Hv         \">Blog</div>"
+      },
+      {
+        "href": "https://www.instagram.com/about/jobs/",
+        "inner_text": "Jobs",
+        "inner_html": "<div class=\"_7UhW9  PIoXz       MMzan   _0PwGv         uL8Hv         \">Jobs</div>"
+      },
+      {
+        "href": "https://help.instagram.com/",
+        "inner_text": "Help",
+        "inner_html": "<div class=\"_7UhW9  PIoXz       MMzan   _0PwGv         uL8Hv         \">Help</div>"
+      },
+      {
+        "href": "https://www.instagram.com/developer/",
+        "inner_text": "API",
+        "inner_html": "<div class=\"_7UhW9  PIoXz       MMzan   _0PwGv         uL8Hv         \">API</div>"
+      },
+      {
+        "href": "https://www.instagram.com/legal/privacy/",
+        "inner_text": "Privacy",
+        "inner_html": "<div class=\"_7UhW9  PIoXz       MMzan   _0PwGv         uL8Hv         \">Privacy</div>"
+      },
+      {
+        "href": "https://www.instagram.com/legal/terms/",
+        "inner_text": "Terms",
+        "inner_html": "<div class=\"_7UhW9  PIoXz       MMzan   _0PwGv         uL8Hv         \">Terms</div>"
+      },
+      {
+        "href": "https://www.instagram.com/directory/profiles/",
+        "inner_text": "Top Accounts",
+        "inner_html": "<div class=\"_7UhW9  PIoXz       MMzan   _0PwGv         uL8Hv         \">Top Accounts</div>"
+      },
+      {
+        "href": "https://www.instagram.com/directory/hashtags/",
+        "inner_text": "Hashtags",
+        "inner_html": "<div class=\"_7UhW9  PIoXz       MMzan   _0PwGv         uL8Hv         \">Hashtags</div>"
+      },
+      {
+        "href": "https://www.instagram.com/explore/locations/",
+        "inner_text": "Locations",
+        "inner_html": "<div class=\"_7UhW9  PIoXz       MMzan   _0PwGv         uL8Hv         \">Locations</div>"
+      },
+      {
+        "href": "https://www.instagram.com/legal/cookies/",
+        "inner_text": "Cookie Policy",
+        "inner_html": "Cookie Policy"
+      }
+    ],
+    "social": [
+      {
+        "href": "https://www.instagram.com/accounts/password/reset/",
+        "inner_text": "Forgot password?",
+        "inner_html": "Forgot password?"
+      },
+      {
+        "href": "https://www.instagram.com/accounts/emailsignup/",
+        "inner_text": "Sign up",
+        "inner_html": "<span class=\"_7UhW9   xLCgt       qyrsm      gtFbE      se6yk        \">Sign up</span>"
+      },
+      {
+        "href": "https://about.instagram.com/",
+        "inner_text": "About",
+        "inner_html": "<div class=\"_7UhW9  PIoXz       MMzan   _0PwGv         uL8Hv         \">About</div>"
+      },
+      {
+        "href": "https://about.instagram.com/blog/",
+        "inner_text": "Blog",
+        "inner_html": "<div class=\"_7UhW9  PIoXz       MMzan   _0PwGv         uL8Hv         \">Blog</div>"
+      },
+      {
+        "href": "https://www.instagram.com/about/jobs/",
+        "inner_text": "Jobs",
+        "inner_html": "<div class=\"_7UhW9  PIoXz       MMzan   _0PwGv         uL8Hv         \">Jobs</div>"
+      },
+      {
+        "href": "https://help.instagram.com/",
+        "inner_text": "Help",
+        "inner_html": "<div class=\"_7UhW9  PIoXz       MMzan   _0PwGv         uL8Hv         \">Help</div>"
+      },
+      {
+        "href": "https://www.instagram.com/developer/",
+        "inner_text": "API",
+        "inner_html": "<div class=\"_7UhW9  PIoXz       MMzan   _0PwGv         uL8Hv         \">API</div>"
+      },
+      {
+        "href": "https://www.instagram.com/legal/privacy/",
+        "inner_text": "Privacy",
+        "inner_html": "<div class=\"_7UhW9  PIoXz       MMzan   _0PwGv         uL8Hv         \">Privacy</div>"
+      },
+      {
+        "href": "https://www.instagram.com/legal/terms/",
+        "inner_text": "Terms",
+        "inner_html": "<div class=\"_7UhW9  PIoXz       MMzan   _0PwGv         uL8Hv         \">Terms</div>"
+      },
+      {
+        "href": "https://www.instagram.com/directory/profiles/",
+        "inner_text": "Top Accounts",
+        "inner_html": "<div class=\"_7UhW9  PIoXz       MMzan   _0PwGv         uL8Hv         \">Top Accounts</div>"
+      },
+      {
+        "href": "https://www.instagram.com/directory/hashtags/",
+        "inner_text": "Hashtags",
+        "inner_html": "<div class=\"_7UhW9  PIoXz       MMzan   _0PwGv         uL8Hv         \">Hashtags</div>"
+      },
+      {
+        "href": "https://www.instagram.com/explore/locations/",
+        "inner_text": "Locations",
+        "inner_html": "<div class=\"_7UhW9  PIoXz       MMzan   _0PwGv         uL8Hv         \">Locations</div>"
+      },
+      {
+        "href": "https://www.instagram.com/legal/cookies/",
+        "inner_text": "Cookie Policy",
+        "inner_html": "Cookie Policy"
+      }
+    ],
+    "keywords": [
+      {
+        "href": "https://itunes.apple.com/app/instagram/id389801252?pt=428156&ct=igweb.loginPage.badge&mt=8&vt=lo",
+        "inner_text": "",
+        "inner_html": "<img alt=\"Available on the App Store\" class=\"Rt8TI \" src=\"/static/images/appstore-install-badges/badge_ios_english-en.png/180ae7a0bcf7.png\">"
+      },
+      {
+        "href": "https://play.google.com/store/apps/details?id=com.instagram.android&referrer=utm_source%3Dinstagramweb%26utm_campaign%3DloginPage%26ig_mid%3D693AA77E-5300-4395-9F60-D63C0A077FFD%26utm_content%3Dlo%26utm_medium%3Dbadge",
+        "inner_text": "",
+        "inner_html": "<img alt=\"Available on Google Play\" class=\"Rt8TI \" src=\"/static/images/appstore-install-badges/badge_android_english-en.png/e9cd846dc748.png\">"
+      },
+      {
+        "href": "https://www.instagram.com/legal/privacy/",
+        "inner_text": "Privacy",
+        "inner_html": "<div class=\"_7UhW9  PIoXz       MMzan   _0PwGv         uL8Hv         \">Privacy</div>"
+      },
+      {
+        "href": "https://www.instagram.com/legal/terms/",
+        "inner_text": "Terms",
+        "inner_html": "<div class=\"_7UhW9  PIoXz       MMzan   _0PwGv         uL8Hv         \">Terms</div>"
+      },
+      {
+        "href": "https://www.instagram.com/legal/cookies/",
+        "inner_text": "Cookie Policy",
+        "inner_html": "Cookie Policy"
+      }
+    ]
+  },
+  "unsafeForms": [],
+  "browsing_history": [
+    "https://www.instagram.com/"
+  ],
+  "websockets": {},
+  "cookies": [],
+  "localStorage": {},
+  "beacons": [],
+  "hosts": {
+    "requests": {
+      "firstParty": [
+        "instagram.com"
+      ],
+      "thirdParty": [
+        "www.instagram.com",
+        "connect.facebook.net",
+        "www.facebook.com"
+      ]
+    },
+    "beacons": {
+      "firstParty": [],
+      "thirdParty": []
+    },
+    "cookies": {
+      "firstParty": [],
+      "thirdParty": []
+    },
+    "localStorage": {
+      "firstParty": [],
+      "thirdParty": []
+    },
+    "links": {
+      "firstParty": [],
+      "thirdParty": [
+        "www.instagram.com",
+        "itunes.apple.com",
+        "play.google.com",
+        "about.instagram.com",
+        "help.instagram.com"
+      ]
+    }
+  }
+}

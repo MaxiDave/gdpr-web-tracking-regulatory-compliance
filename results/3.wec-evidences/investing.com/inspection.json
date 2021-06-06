@@ -1,0 +1,4016 @@
+{
+  "title": "Website Evidence Collection",
+  "task_description": null,
+  "uri_ins": "https://investing.com",
+  "uri_refs": [
+    "https://investing.com"
+  ],
+  "uri_dest": "https://www.investing.com/",
+  "uri_redirects": [
+    "https://investing.com/"
+  ],
+  "secure_connection": {
+    "https_support": true,
+    "redirects": [
+      "https://www.investing.com/"
+    ],
+    "https_redirect": true
+  },
+  "host": "investing.com",
+  "script": {
+    "host": "sfod",
+    "version": {
+      "npm": "1.0.0",
+      "commit": null
+    },
+    "cmd_args": "-q --overwrite https://investing.com -- --ignore-certificate-errors",
+    "environment": {
+      "CHROME_DESKTOP": "code-url-handler.desktop"
+    },
+    "node_version": "v14.17.0"
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "HeadlessChrome/80.0.3987.0",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3617.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "5.8.0-53-generic"
+    },
+    "extra_headers": {},
+    "preset_cookies": {}
+  },
+  "start_time": "2021-05-20T15:33:20.991Z",
+  "end_time": "2021-05-20T15:33:30.129Z",
+  "links": {
+    "firstParty": [],
+    "thirdParty": [
+      {
+        "href": "https://www.investing.com/",
+        "inner_text": "",
+        "inner_html": "<img src=\"https://i-invdn-com.akamaized.net/logos/investing-com-logo.png\" alt=\"Investing.com - Financial Markets Worldwide\" class=\"investingLogo\">"
+      },
+      {
+        "href": "https://www.investing.com/equities/facebook-inc",
+        "inner_text": "\n\nFB\nFacebook Inc\nEquity - NASDAQ\n",
+        "inner_html": "<span class=\"first flag\"><i class=\"ceFlags middle js-quote-item-flag USA\"></i></span>\n<span class=\"second js-quote-item-symbol symbolName\">FB</span>\n<span class=\"third js-quote-item-name\" title=\"Facebook Inc\">Facebook Inc</span>\n<span class=\"fourth typeExchange js-quote-item-type\">Equity - NASDAQ</span>"
+      },
+      {
+        "href": "https://www.investing.com/equities/google-inc",
+        "inner_text": "\n\nGOOGL\nAlphabet Inc Class A\nEquity - NASDAQ\n",
+        "inner_html": "<span class=\"first flag\"><i class=\"ceFlags middle js-quote-item-flag USA\"></i></span>\n<span class=\"second js-quote-item-symbol symbolName\">GOOGL</span>\n<span class=\"third js-quote-item-name\" title=\"Alphabet Inc Class A\">Alphabet Inc Class A</span>\n<span class=\"fourth typeExchange js-quote-item-type\">Equity - NASDAQ</span>"
+      },
+      {
+        "href": "https://www.investing.com/equities/freeport-mcm",
+        "inner_text": "\n\nFCX\nFreeport-McMoran Copper & Gold Inc\nEquity - NYSE\n",
+        "inner_html": "<span class=\"first flag\"><i class=\"ceFlags middle js-quote-item-flag USA\"></i></span>\n<span class=\"second js-quote-item-symbol symbolName\">FCX</span>\n<span class=\"third js-quote-item-name\" title=\"Freeport-McMoran Copper &amp; Gold Inc\">Freeport-McMoran Copper &amp; Gold Inc</span>\n<span class=\"fourth typeExchange js-quote-item-type\">Equity - NYSE</span>"
+      },
+      {
+        "href": "https://www.investing.com/equities/gamestop-corp",
+        "inner_text": "\n\nGME\nGameStop Corp\nEquity - NYSE\n",
+        "inner_html": "<span class=\"first flag\"><i class=\"ceFlags middle js-quote-item-flag USA\"></i></span>\n<span class=\"second js-quote-item-symbol symbolName\">GME</span>\n<span class=\"third js-quote-item-name\" title=\"GameStop Corp\">GameStop Corp</span>\n<span class=\"fourth typeExchange js-quote-item-type\">Equity - NYSE</span>"
+      },
+      {
+        "href": "https://www.investing.com/equities/alibaba",
+        "inner_text": "\n\nBABA\nAlibaba Group Holdings Ltd ADR\nEquity - NYSE\n",
+        "inner_html": "<span class=\"first flag\"><i class=\"ceFlags middle js-quote-item-flag USA\"></i></span>\n<span class=\"second js-quote-item-symbol symbolName\">BABA</span>\n<span class=\"third js-quote-item-name\" title=\"Alibaba Group Holdings Ltd ADR\">Alibaba Group Holdings Ltd ADR</span>\n<span class=\"fourth typeExchange js-quote-item-type\">Equity - NYSE</span>"
+      },
+      {
+        "href": "https://www.investing.com/news/most-popular-news",
+        "inner_text": "\nPopular News\nMore\n",
+        "inner_html": "<div class=\"js-search-ga-header groupHeader\" ga-label=\"Popular News\">Popular News</div>\n<span class=\"js-search-ga-more\" ga-label=\"Popular News - More\">More</span>"
+      },
+      {
+        "href": "https://www.investing.com/news/stock-market-news/wall-street-opens-mixed-as-weak-philly-fed-underpins-stimulus-hopes-dow-flat-2512142",
+        "inner_text": "",
+        "inner_html": "<img class=\"lazyload\" data-src=\"https://i-invdn-com.akamaized.net/news/LYNXMPEB110XX_S.jpg\" alt=\"Wall Street Opens Mixed as Weak Philly Fed Underpins Stimulus Hopes; Dow Flat\" onerror=\"javascript:this.src='https://i-invdn-com.akamaized.net/news/news-paper_108x81.png';\">"
+      },
+      {
+        "href": "https://www.investing.com/news/economy/crypto-pressured-again-jobless-claims-iran-deal-hits-oil--whats-moving-markets-2511836",
+        "inner_text": "",
+        "inner_html": "<img class=\"lazyload\" data-src=\"https://i-invdn-com.akamaized.net/news/Cryptocurrencies_150x108_S_1535981327.jpg\" alt=\"Crypto Pressured Again, Jobless Claims, Iran Deal Hits Oil - What's Moving Markets\" onerror=\"javascript:this.src='https://i-invdn-com.akamaized.net/news/news-paper_108x81.png';\">"
+      },
+      {
+        "href": "https://www.investing.com/news/economic-indicators/initial-jobless-claims-fall-to-444k-new-postpandemic-low-2512035",
+        "inner_text": "",
+        "inner_html": "<img class=\"lazyload\" data-src=\"https://i-invdn-com.akamaized.net/news/LYNXNPEB760N5_S.jpg\" alt=\"Initial Jobless Claims Fall to 444k, New Post-Pandemic Low\" onerror=\"javascript:this.src='https://i-invdn-com.akamaized.net/news/news-paper_108x81.png';\">"
+      },
+      {
+        "href": "https://uk.investing.com/",
+        "inner_text": "English (UK)",
+        "inner_html": "<span class=\"ceFlags UK\"></span>English (UK)"
+      },
+      {
+        "href": "https://ru.investing.com/",
+        "inner_text": "Русский",
+        "inner_html": "<span class=\"ceFlags Russian_Federation\"></span>Русский"
+      },
+      {
+        "href": "https://in.investing.com/",
+        "inner_text": "English (India)",
+        "inner_html": "<span class=\"ceFlags India\"></span>English (India)"
+      },
+      {
+        "href": "https://tr.investing.com/",
+        "inner_text": "Türkçe",
+        "inner_html": "<span class=\"ceFlags Turkey\"></span>Türkçe"
+      },
+      {
+        "href": "https://ca.investing.com/",
+        "inner_text": "English (Canada)",
+        "inner_html": "<span class=\"ceFlags Canada\"></span>English (Canada)"
+      },
+      {
+        "href": "https://sa.investing.com/",
+        "inner_text": "‏العربية‏",
+        "inner_html": "<span class=\"ceFlags Saudi_Arabia\"></span>‏العربية‏"
+      },
+      {
+        "href": "https://au.investing.com/",
+        "inner_text": "English (Australia)",
+        "inner_html": "<span class=\"ceFlags Australia\"></span>English (Australia)"
+      },
+      {
+        "href": "https://gr.investing.com/",
+        "inner_text": "Ελληνικά",
+        "inner_html": "<span class=\"ceFlags Greece\"></span>Ελληνικά"
+      },
+      {
+        "href": "https://za.investing.com/",
+        "inner_text": "English (South Africa)",
+        "inner_html": "<span class=\"ceFlags South_Africa\"></span>English (South Africa)"
+      },
+      {
+        "href": "https://se.investing.com/",
+        "inner_text": "Svenska",
+        "inner_html": "<span class=\"ceFlags Sweden\"></span>Svenska"
+      },
+      {
+        "href": "https://ph.investing.com/",
+        "inner_text": "English (Philippines)",
+        "inner_html": "<span class=\"ceFlags Philippines\"></span>English (Philippines)"
+      },
+      {
+        "href": "https://fi.investing.com/",
+        "inner_text": "Suomi",
+        "inner_html": "<span class=\"ceFlags Finland\"></span>Suomi"
+      },
+      {
+        "href": "https://ng.investing.com/",
+        "inner_text": "English (Nigeria)",
+        "inner_html": "<span class=\"ceFlags Nigeria\"></span>English (Nigeria)"
+      },
+      {
+        "href": "https://il.investing.com/",
+        "inner_text": "עברית",
+        "inner_html": "<span class=\"ceFlags Israel\"></span>עברית"
+      },
+      {
+        "href": "https://de.investing.com/",
+        "inner_text": "Deutsch",
+        "inner_html": "<span class=\"ceFlags Germany\"></span>Deutsch"
+      },
+      {
+        "href": "https://jp.investing.com/",
+        "inner_text": "日本語",
+        "inner_html": "<span class=\"ceFlags Japan\"></span>日本語"
+      },
+      {
+        "href": "https://es.investing.com/",
+        "inner_text": "Español (España)",
+        "inner_html": "<span class=\"ceFlags Spain\"></span>Español (España)"
+      },
+      {
+        "href": "https://kr.investing.com/",
+        "inner_text": "한국어",
+        "inner_html": "<span class=\"ceFlags South_Korea\"></span>한국어"
+      },
+      {
+        "href": "https://mx.investing.com/",
+        "inner_text": "Español (México)",
+        "inner_html": "<span class=\"ceFlags Mexico\"></span>Español (México)"
+      },
+      {
+        "href": "https://cn.investing.com/",
+        "inner_text": "简体中文",
+        "inner_html": "<span class=\"ceFlags China\"></span>简体中文"
+      },
+      {
+        "href": "https://fr.investing.com/",
+        "inner_text": "Français",
+        "inner_html": "<span class=\"ceFlags France\"></span>Français"
+      },
+      {
+        "href": "https://hk.investing.com/",
+        "inner_text": "繁體中文",
+        "inner_html": "<span class=\"ceFlags Hong_Kong\"></span>繁體中文"
+      },
+      {
+        "href": "https://it.investing.com/",
+        "inner_text": "Italiano",
+        "inner_html": "<span class=\"ceFlags Italy\"></span>Italiano"
+      },
+      {
+        "href": "https://id.investing.com/",
+        "inner_text": "Bahasa Indonesia",
+        "inner_html": "<span class=\"ceFlags Indonesia\"></span>Bahasa Indonesia"
+      },
+      {
+        "href": "https://nl.investing.com/",
+        "inner_text": "Nederlands",
+        "inner_html": "<span class=\"ceFlags Netherlands\"></span>Nederlands"
+      },
+      {
+        "href": "https://ms.investing.com/",
+        "inner_text": "Bahasa Melayu",
+        "inner_html": "<span class=\"ceFlags Malaysia\"></span>Bahasa Melayu"
+      },
+      {
+        "href": "https://pt.investing.com/",
+        "inner_text": "Português (Portugal)",
+        "inner_html": "<span class=\"ceFlags Portugal\"></span>Português (Portugal)"
+      },
+      {
+        "href": "https://th.investing.com/",
+        "inner_text": "ไทย",
+        "inner_html": "<span class=\"ceFlags Thailand\"></span>ไทย"
+      },
+      {
+        "href": "https://pl.investing.com/",
+        "inner_text": "Polski",
+        "inner_html": "<span class=\"ceFlags Poland\"></span>Polski"
+      },
+      {
+        "href": "https://vn.investing.com/",
+        "inner_text": "Tiếng Việt",
+        "inner_html": "<span class=\"ceFlags Vietnam\"></span>Tiếng Việt"
+      },
+      {
+        "href": "https://br.investing.com/",
+        "inner_text": "Português (Brasil)",
+        "inner_html": "<span class=\"ceFlags Brazil\"></span>Português (Brasil)"
+      },
+      {
+        "href": "https://hi.investing.com/",
+        "inner_text": "हिंदी",
+        "inner_html": "<span class=\"ceFlags India\"></span>हिंदी"
+      },
+      {
+        "href": "https://www.investing.com/markets/",
+        "inner_text": "Markets",
+        "inner_html": "Markets"
+      },
+      {
+        "href": "https://www.investing.com/indices/",
+        "inner_text": "Indices",
+        "inner_html": "Indices"
+      },
+      {
+        "href": "https://www.investing.com/indices/indices-futures",
+        "inner_text": "Indices Futures",
+        "inner_html": "Indices Futures"
+      },
+      {
+        "href": "https://www.investing.com/indices/major-indices",
+        "inner_text": "Major Indices",
+        "inner_html": "Major Indices"
+      },
+      {
+        "href": "https://www.investing.com/indices/indices-cfds",
+        "inner_text": "Indices CFDs",
+        "inner_html": "Indices CFDs"
+      },
+      {
+        "href": "https://www.investing.com/indices/world-indices",
+        "inner_text": "World Indices",
+        "inner_html": "World Indices"
+      },
+      {
+        "href": "https://www.investing.com/indices/global-indices",
+        "inner_text": "Global Indices",
+        "inner_html": "Global Indices"
+      },
+      {
+        "href": "https://www.investing.com/indices/us-30-futures",
+        "inner_text": "Dow Jones Futures",
+        "inner_html": "Dow Jones Futures"
+      },
+      {
+        "href": "https://www.investing.com/indices/us-spx-500-futures",
+        "inner_text": "S&P 500 Futures",
+        "inner_html": "S&amp;P 500 Futures"
+      },
+      {
+        "href": "https://www.investing.com/indices/nq-100-futures",
+        "inner_text": "Nasdaq Futures",
+        "inner_html": "Nasdaq Futures"
+      },
+      {
+        "href": "https://www.investing.com/indices/us-spx-500",
+        "inner_text": "S&P 500",
+        "inner_html": "S&amp;P 500"
+      },
+      {
+        "href": "https://www.investing.com/indices/us-30",
+        "inner_text": "Dow Jones",
+        "inner_html": "Dow Jones"
+      },
+      {
+        "href": "https://www.investing.com/indices/nq-100",
+        "inner_text": "Nasdaq 100",
+        "inner_html": "Nasdaq 100"
+      },
+      {
+        "href": "https://www.investing.com/indices/germany-30",
+        "inner_text": "DAX",
+        "inner_html": "DAX"
+      },
+      {
+        "href": "https://www.investing.com/indices/uk-100",
+        "inner_text": "FTSE 100",
+        "inner_html": "FTSE 100"
+      },
+      {
+        "href": "https://www.investing.com/indices/eu-stoxx50",
+        "inner_text": "Euro Stoxx 50",
+        "inner_html": "Euro Stoxx 50"
+      },
+      {
+        "href": "https://www.investing.com/indices/japan-ni225",
+        "inner_text": "Nikkei 225",
+        "inner_html": "Nikkei 225"
+      },
+      {
+        "href": "https://www.investing.com/equities/",
+        "inner_text": "Stocks",
+        "inner_html": "Stocks"
+      },
+      {
+        "href": "https://www.investing.com/stock-screener/",
+        "inner_text": "Stock Screener",
+        "inner_html": "Stock Screener"
+      },
+      {
+        "href": "https://www.investing.com/equities/trending-stocks",
+        "inner_text": "Trending Stocks",
+        "inner_html": "Trending Stocks"
+      },
+      {
+        "href": "https://www.investing.com/equities/united-states",
+        "inner_text": "United States",
+        "inner_html": "United States"
+      },
+      {
+        "href": "https://www.investing.com/equities/pre-market",
+        "inner_text": "Pre-Market",
+        "inner_html": "Pre-Market"
+      },
+      {
+        "href": "https://www.investing.com/earnings-calendar/",
+        "inner_text": "Earnings Calendar",
+        "inner_html": "Earnings Calendar"
+      },
+      {
+        "href": "https://www.investing.com/equities/americas",
+        "inner_text": "Americas",
+        "inner_html": "Americas"
+      },
+      {
+        "href": "https://www.investing.com/equities/europe",
+        "inner_text": "Europe",
+        "inner_html": "Europe"
+      },
+      {
+        "href": "https://www.investing.com/equities/52-week-high",
+        "inner_text": "52 Week High",
+        "inner_html": "52 Week High"
+      },
+      {
+        "href": "https://www.investing.com/equities/52-week-low",
+        "inner_text": "52 Week Low",
+        "inner_html": "52 Week Low"
+      },
+      {
+        "href": "https://www.investing.com/equities/most-active-stocks",
+        "inner_text": "Most Active",
+        "inner_html": "Most Active"
+      },
+      {
+        "href": "https://www.investing.com/equities/top-stock-gainers",
+        "inner_text": "Top Gainers",
+        "inner_html": "Top Gainers"
+      },
+      {
+        "href": "https://www.investing.com/equities/top-stock-losers",
+        "inner_text": "Top Losers",
+        "inner_html": "Top Losers"
+      },
+      {
+        "href": "https://www.investing.com/equities/world-adrs",
+        "inner_text": "World ADRs",
+        "inner_html": "World ADRs"
+      },
+      {
+        "href": "https://www.investing.com/equities/cannabis-stocks",
+        "inner_text": "Marijuana Stocks",
+        "inner_html": "Marijuana Stocks"
+      },
+      {
+        "href": "https://www.investing.com/equities/apple-computer-inc",
+        "inner_text": "Apple",
+        "inner_html": "Apple"
+      },
+      {
+        "href": "https://www.investing.com/equities/bank-of-america",
+        "inner_text": "Bank of America",
+        "inner_html": "Bank of America"
+      },
+      {
+        "href": "https://www.investing.com/equities/jp-morgan-chase",
+        "inner_text": "JPMorgan",
+        "inner_html": "JPMorgan"
+      },
+      {
+        "href": "https://www.investing.com/equities/tesla-motors",
+        "inner_text": "Tesla",
+        "inner_html": "Tesla"
+      },
+      {
+        "href": "https://www.investing.com/equities/amazon-com-inc",
+        "inner_text": "Amazon.com",
+        "inner_html": "Amazon.com"
+      },
+      {
+        "href": "https://www.investing.com/equities/adv-micro-device",
+        "inner_text": "AMD",
+        "inner_html": "AMD"
+      },
+      {
+        "href": "https://www.investing.com/equities/nvidia-corp",
+        "inner_text": "NVIDIA",
+        "inner_html": "NVIDIA"
+      },
+      {
+        "href": "https://www.investing.com/equities/netflix,-inc.",
+        "inner_text": "Netflix",
+        "inner_html": "Netflix"
+      },
+      {
+        "href": "https://www.investing.com/equities/pfizer",
+        "inner_text": "Pfizer",
+        "inner_html": "Pfizer"
+      },
+      {
+        "href": "https://www.investing.com/etfs/",
+        "inner_text": "ETFs",
+        "inner_html": "ETFs"
+      },
+      {
+        "href": "https://www.investing.com/etfs/world-etfs",
+        "inner_text": "World ETFs",
+        "inner_html": "World ETFs"
+      },
+      {
+        "href": "https://www.investing.com/etfs/major-etfs",
+        "inner_text": "Major ETFs",
+        "inner_html": "Major ETFs"
+      },
+      {
+        "href": "https://www.investing.com/etfs/usa-etfs",
+        "inner_text": "USA ETFs",
+        "inner_html": "USA ETFs"
+      },
+      {
+        "href": "https://www.investing.com/etfs/cannabis-etfs",
+        "inner_text": "Marijuana ETFs",
+        "inner_html": "Marijuana ETFs"
+      },
+      {
+        "href": "https://www.investing.com/etfs/spdr-s-p-500",
+        "inner_text": "SPDR S&P 500",
+        "inner_html": "SPDR S&amp;P 500"
+      },
+      {
+        "href": "https://www.investing.com/etfs/ishares-msci-emg-markets",
+        "inner_text": "iShares MSCI Emerging Markets",
+        "inner_html": "iShares MSCI Emerging Markets"
+      },
+      {
+        "href": "https://www.investing.com/etfs/diamonds-trust",
+        "inner_text": "SPDR DJIA",
+        "inner_html": "SPDR DJIA"
+      },
+      {
+        "href": "https://www.investing.com/etfs/powershares-qqqq",
+        "inner_text": "Invesco QQQ Trust",
+        "inner_html": "Invesco QQQ Trust"
+      },
+      {
+        "href": "https://www.investing.com/commodities/",
+        "inner_text": "Commodities",
+        "inner_html": "Commodities"
+      },
+      {
+        "href": "https://www.investing.com/commodities/real-time-futures",
+        "inner_text": "Real Time Commodities",
+        "inner_html": "Real Time Commodities"
+      },
+      {
+        "href": "https://www.investing.com/commodities/metals",
+        "inner_text": "Metals",
+        "inner_html": "Metals"
+      },
+      {
+        "href": "https://www.investing.com/commodities/energy",
+        "inner_text": "Energy",
+        "inner_html": "Energy"
+      },
+      {
+        "href": "https://www.investing.com/commodities/grains",
+        "inner_text": "Grains",
+        "inner_html": "Grains"
+      },
+      {
+        "href": "https://www.investing.com/commodities/softs",
+        "inner_text": "Softs",
+        "inner_html": "Softs"
+      },
+      {
+        "href": "https://www.investing.com/commodities/meats",
+        "inner_text": "Meats",
+        "inner_html": "Meats"
+      },
+      {
+        "href": "https://www.investing.com/indices/commodities-indices",
+        "inner_text": "Commodity Indices",
+        "inner_html": "Commodity Indices"
+      },
+      {
+        "href": "https://www.investing.com/commodities/gold",
+        "inner_text": "Gold",
+        "inner_html": "Gold"
+      },
+      {
+        "href": "https://www.investing.com/commodities/crude-oil",
+        "inner_text": "Crude Oil WTI",
+        "inner_html": "Crude Oil WTI"
+      },
+      {
+        "href": "https://www.investing.com/commodities/brent-oil",
+        "inner_text": "Brent Oil",
+        "inner_html": "Brent Oil"
+      },
+      {
+        "href": "https://www.investing.com/commodities/silver",
+        "inner_text": "Silver",
+        "inner_html": "Silver"
+      },
+      {
+        "href": "https://www.investing.com/commodities/natural-gas",
+        "inner_text": "Natural Gas",
+        "inner_html": "Natural Gas"
+      },
+      {
+        "href": "https://www.investing.com/commodities/copper",
+        "inner_text": "Copper",
+        "inner_html": "Copper"
+      },
+      {
+        "href": "https://www.investing.com/commodities/us-wheat",
+        "inner_text": "US Wheat",
+        "inner_html": "US Wheat"
+      },
+      {
+        "href": "https://www.investing.com/currencies/",
+        "inner_text": "Currencies",
+        "inner_html": "Currencies"
+      },
+      {
+        "href": "https://www.investing.com/currencies/streaming-forex-rates-majors",
+        "inner_text": "Forex Rates",
+        "inner_html": "Forex Rates"
+      },
+      {
+        "href": "https://www.investing.com/currencies/single-currency-crosses",
+        "inner_text": "Single Currency Crosses",
+        "inner_html": "Single Currency Crosses"
+      },
+      {
+        "href": "https://www.investing.com/currencies/live-currency-cross-rates",
+        "inner_text": "Live Currency Cross Rates",
+        "inner_html": "Live Currency Cross Rates"
+      },
+      {
+        "href": "https://www.investing.com/currencies/exchange-rates-table",
+        "inner_text": "Exchange Rates Table",
+        "inner_html": "Exchange Rates Table"
+      },
+      {
+        "href": "https://www.investing.com/rates-bonds/forward-rates",
+        "inner_text": "Forward Rates",
+        "inner_html": "Forward Rates"
+      },
+      {
+        "href": "https://www.investing.com/currencies/fx-futures",
+        "inner_text": "FX Futures",
+        "inner_html": "FX Futures"
+      },
+      {
+        "href": "https://www.investing.com/currencies/forex-options",
+        "inner_text": "FX Options",
+        "inner_html": "FX Options"
+      },
+      {
+        "href": "https://www.investing.com/currencies/eur-usd",
+        "inner_text": "EUR/USD",
+        "inner_html": "EUR/USD"
+      },
+      {
+        "href": "https://www.investing.com/currencies/gbp-usd",
+        "inner_text": "GBP/USD",
+        "inner_html": "GBP/USD"
+      },
+      {
+        "href": "https://www.investing.com/currencies/eur-chf",
+        "inner_text": "EUR/CHF",
+        "inner_html": "EUR/CHF"
+      },
+      {
+        "href": "https://www.investing.com/currencies/aud-usd",
+        "inner_text": "AUD/USD",
+        "inner_html": "AUD/USD"
+      },
+      {
+        "href": "https://www.investing.com/currencies/usd-jpy",
+        "inner_text": "USD/JPY",
+        "inner_html": "USD/JPY"
+      },
+      {
+        "href": "https://www.investing.com/currencies/usd-cad",
+        "inner_text": "USD/CAD",
+        "inner_html": "USD/CAD"
+      },
+      {
+        "href": "https://www.investing.com/currencies/usd-chf",
+        "inner_text": "USD/CHF",
+        "inner_html": "USD/CHF"
+      },
+      {
+        "href": "https://www.investing.com/currencies/usd-try",
+        "inner_text": "USD/TRY",
+        "inner_html": "USD/TRY"
+      },
+      {
+        "href": "https://www.investing.com/currencies/usd-mxn",
+        "inner_text": "USD/MXN",
+        "inner_html": "USD/MXN"
+      },
+      {
+        "href": "https://www.investing.com/crypto/bitcoin/btc-usd",
+        "inner_text": "BTC/USD",
+        "inner_html": "BTC/USD"
+      },
+      {
+        "href": "https://www.investing.com/currencies/us-dollar-index",
+        "inner_text": "Dollar Index",
+        "inner_html": "Dollar Index"
+      },
+      {
+        "href": "https://www.investing.com/funds/",
+        "inner_text": "Funds",
+        "inner_html": "Funds"
+      },
+      {
+        "href": "https://www.investing.com/funds/world-funds",
+        "inner_text": "World Funds",
+        "inner_html": "World Funds"
+      },
+      {
+        "href": "https://www.investing.com/funds/major-funds",
+        "inner_text": "Major Funds",
+        "inner_html": "Major Funds"
+      },
+      {
+        "href": "https://www.investing.com/funds/vanguard-500-index-admiral",
+        "inner_text": "Vanguard 500 Index Admiral",
+        "inner_html": "Vanguard 500 Index Admiral"
+      },
+      {
+        "href": "https://www.investing.com/funds/vanguard-total-bond-market-ii-idx-i",
+        "inner_text": "Vanguard Total Bond Market II Index Fund Investor ",
+        "inner_html": "Vanguard Total Bond Market II Index Fund Investor"
+      },
+      {
+        "href": "https://www.investing.com/funds/american-funds-capital-income-bldr",
+        "inner_text": "American Funds Capital Income Builder A",
+        "inner_html": "American Funds Capital Income Builder A"
+      },
+      {
+        "href": "https://www.investing.com/funds/pimco-commodity-real-ret-strat-inst",
+        "inner_text": "PIMCO Commodity Real Return Strategy Institutional",
+        "inner_html": "PIMCO Commodity Real Return Strategy Institutional"
+      },
+      {
+        "href": "https://www.investing.com/rates-bonds/",
+        "inner_text": "Bonds",
+        "inner_html": "Bonds"
+      },
+      {
+        "href": "https://www.investing.com/rates-bonds/world-government-bonds",
+        "inner_text": "World Government Bonds",
+        "inner_html": "World Government Bonds"
+      },
+      {
+        "href": "https://www.investing.com/rates-bonds/financial-futures",
+        "inner_text": "Financial Futures",
+        "inner_html": "Financial Futures"
+      },
+      {
+        "href": "https://www.investing.com/rates-bonds/government-bond-spreads",
+        "inner_text": "Government Bond Spreads",
+        "inner_html": "Government Bond Spreads"
+      },
+      {
+        "href": "https://www.investing.com/indices/bond-indices",
+        "inner_text": "Bond Indices",
+        "inner_html": "Bond Indices"
+      },
+      {
+        "href": "https://www.investing.com/rates-bonds/u.s.-10-year-bond-yield",
+        "inner_text": "U.S. 10Y",
+        "inner_html": "U.S. 10Y"
+      },
+      {
+        "href": "https://www.investing.com/rates-bonds/u.s.-30-year-bond-yield",
+        "inner_text": "U.S. 30Y",
+        "inner_html": "U.S. 30Y"
+      },
+      {
+        "href": "https://www.investing.com/rates-bonds/u.s.-2-year-bond-yield",
+        "inner_text": "U.S. 2Y",
+        "inner_html": "U.S. 2Y"
+      },
+      {
+        "href": "https://www.investing.com/rates-bonds/u.s.-5-year-bond-yield",
+        "inner_text": "U.S. 5Y",
+        "inner_html": "U.S. 5Y"
+      },
+      {
+        "href": "https://www.investing.com/rates-bonds/u.s.-3-month-bond-yield",
+        "inner_text": "U.S. 3M",
+        "inner_html": "U.S. 3M"
+      },
+      {
+        "href": "https://www.investing.com/rates-bonds/us-10-yr-t-note",
+        "inner_text": "US 10Y T-Note",
+        "inner_html": "US 10Y T-Note"
+      },
+      {
+        "href": "https://www.investing.com/rates-bonds/us-30-yr-t-bond",
+        "inner_text": "US 30Y T-Bond",
+        "inner_html": "US 30Y T-Bond"
+      },
+      {
+        "href": "https://www.investing.com/rates-bonds/euro-bund",
+        "inner_text": "Euro Bund",
+        "inner_html": "Euro Bund"
+      },
+      {
+        "href": "https://www.investing.com/crypto/",
+        "inner_text": "Cryptocurrency",
+        "inner_html": "Cryptocurrency"
+      },
+      {
+        "href": "https://www.investing.com/crypto/currencies",
+        "inner_text": "All Cryptocurrencies",
+        "inner_html": "All Cryptocurrencies"
+      },
+      {
+        "href": "https://www.investing.com/crypto/currency-pairs",
+        "inner_text": "Cryptocurrency Pairs",
+        "inner_html": "Cryptocurrency Pairs"
+      },
+      {
+        "href": "https://www.investing.com/crypto/ico-calendar",
+        "inner_text": "ICO Calendar",
+        "inner_html": "ICO Calendar"
+      },
+      {
+        "href": "https://www.investing.com/crypto/bitcoin",
+        "inner_text": "Bitcoin",
+        "inner_html": "Bitcoin"
+      },
+      {
+        "href": "https://www.investing.com/crypto/ethereum",
+        "inner_text": "Ethereum",
+        "inner_html": "Ethereum"
+      },
+      {
+        "href": "https://www.investing.com/crypto/bitcoin-cash",
+        "inner_text": "Bitcoin Cash",
+        "inner_html": "Bitcoin Cash"
+      },
+      {
+        "href": "https://www.investing.com/crypto/dogecoin",
+        "inner_text": "Dogecoin",
+        "inner_html": "Dogecoin"
+      },
+      {
+        "href": "https://www.investing.com/currency-converter/?tag=Cryptocurrency",
+        "inner_text": "Currency Converter",
+        "inner_html": "Currency Converter"
+      },
+      {
+        "href": "https://www.investing.com/crypto/ethereum/eth-usd",
+        "inner_text": "ETH/USD",
+        "inner_html": "ETH/USD"
+      },
+      {
+        "href": "https://www.investing.com/crypto/bitcoin-cash/bch-usd",
+        "inner_text": "BCH/USD",
+        "inner_html": "BCH/USD"
+      },
+      {
+        "href": "https://www.investing.com/crypto/litecoin/ltc-usd",
+        "inner_text": "LTC/USD",
+        "inner_html": "LTC/USD"
+      },
+      {
+        "href": "https://www.investing.com/crypto/dogecoin/doge-usd",
+        "inner_text": "DOGE/USD",
+        "inner_html": "DOGE/USD"
+      },
+      {
+        "href": "https://www.investing.com/crypto/ethereum-classic/etc-usd",
+        "inner_text": "ETC/USD",
+        "inner_html": "ETC/USD"
+      },
+      {
+        "href": "https://www.investing.com/crypto/ethereum/eth-btc",
+        "inner_text": "ETH/BTC",
+        "inner_html": "ETH/BTC"
+      },
+      {
+        "href": "https://www.investing.com/crypto/xrp/xrp-usd",
+        "inner_text": "XRP/USD",
+        "inner_html": "XRP/USD"
+      },
+      {
+        "href": "https://www.investing.com/crypto/bitcoin/bitcoin-futures",
+        "inner_text": "Bitcoin Futures CME",
+        "inner_html": "Bitcoin Futures CME"
+      },
+      {
+        "href": "https://www.investing.com/certificates/",
+        "inner_text": "Certificates",
+        "inner_html": "Certificates"
+      },
+      {
+        "href": "https://www.investing.com/certificates/major-certificates",
+        "inner_text": "Major Certificates",
+        "inner_html": "Major Certificates"
+      },
+      {
+        "href": "https://www.investing.com/certificates/world-certificates",
+        "inner_text": "World Certificates",
+        "inner_html": "World Certificates"
+      },
+      {
+        "href": "https://www.investing.com/certificates/sg-ftse-mib-gross-tr-5x-s-18jun21",
+        "inner_text": "SG FTSE MIB Gross TR 5x Daily Short Strategy RT 18",
+        "inner_html": "SG FTSE MIB Gross TR 5x Daily Short Strategy RT 18"
+      },
+      {
+        "href": "https://www.investing.com/certificates/vontobel-7x-long-natural-gas-8.06",
+        "inner_text": "Vontobel 7X Long Fixed Lever on Natural Gas 8.06",
+        "inner_html": "Vontobel 7X Long Fixed Lever on Natural Gas 8.06"
+      },
+      {
+        "href": "https://www.investing.com/certificates/bnp-call-500.59-eur-aex-31dec99",
+        "inner_text": "BNP Call 500.59 EUR AEX 31Dec99",
+        "inner_html": "BNP Call 500.59 EUR AEX 31Dec99"
+      },
+      {
+        "href": "https://www.investing.com/certificates/commerz-put-cac-fut-05-17-31dec99",
+        "inner_text": "COMMERZBANK AG Put CAC FUT 05/17 31Dec99",
+        "inner_html": "COMMERZBANK AG Put CAC FUT 05/17 31Dec99"
+      },
+      {
+        "href": "https://www.investing.com/insights?source=desktop&medium=main_menu",
+        "inner_text": "Insights",
+        "inner_html": "Insights"
+      },
+      {
+        "href": "https://www.investing.com/news/",
+        "inner_text": "News",
+        "inner_html": "News"
+      },
+      {
+        "href": "https://www.investing.com/news/forex-news",
+        "inner_text": "Forex",
+        "inner_html": "Forex"
+      },
+      {
+        "href": "https://www.investing.com/news/commodities-news",
+        "inner_text": "Commodities",
+        "inner_html": "Commodities"
+      },
+      {
+        "href": "https://www.investing.com/news/stock-market-news",
+        "inner_text": "Stock Markets",
+        "inner_html": "Stock Markets"
+      },
+      {
+        "href": "https://www.investing.com/news/economic-indicators",
+        "inner_text": "Economic Indicators",
+        "inner_html": "Economic Indicators"
+      },
+      {
+        "href": "https://www.investing.com/news/economy",
+        "inner_text": "Economy",
+        "inner_html": "Economy"
+      },
+      {
+        "href": "https://www.investing.com/news/technology-news",
+        "inner_text": "Technology",
+        "inner_html": "Technology"
+      },
+      {
+        "href": "https://www.investing.com/news/cryptocurrency-news",
+        "inner_text": "Cryptocurrency",
+        "inner_html": "Cryptocurrency"
+      },
+      {
+        "href": "https://www.investing.com/news/latest-news",
+        "inner_text": "Latest",
+        "inner_html": "Latest"
+      },
+      {
+        "href": "https://www.investing.com/economic-calendar/",
+        "inner_text": "Economic Calendar",
+        "inner_html": "Economic Calendar"
+      },
+      {
+        "href": "https://www.investing.com/news/general",
+        "inner_text": "Sports & General",
+        "inner_html": "Sports &amp; General"
+      },
+      {
+        "href": "https://www.investing.com/news/world-news",
+        "inner_text": "World",
+        "inner_html": "World"
+      },
+      {
+        "href": "https://www.investing.com/news/politics",
+        "inner_text": "Politics",
+        "inner_html": "Politics"
+      },
+      {
+        "href": "https://www.investing.com/news/coronavirus",
+        "inner_text": "Coronavirus",
+        "inner_html": "Coronavirus"
+      },
+      {
+        "href": "https://www.investing.com/analysis/",
+        "inner_text": "Analysis",
+        "inner_html": "Analysis"
+      },
+      {
+        "href": "https://www.investing.com/analysis/market-overview",
+        "inner_text": "Market Overview",
+        "inner_html": "Market Overview"
+      },
+      {
+        "href": "https://www.investing.com/analysis/forex",
+        "inner_text": "Forex",
+        "inner_html": "Forex"
+      },
+      {
+        "href": "https://www.investing.com/analysis/stock-markets",
+        "inner_text": "Stock Markets",
+        "inner_html": "Stock Markets"
+      },
+      {
+        "href": "https://www.investing.com/analysis/commodities",
+        "inner_text": "Commodities",
+        "inner_html": "Commodities"
+      },
+      {
+        "href": "https://www.investing.com/analysis/bonds",
+        "inner_text": "Bonds",
+        "inner_html": "Bonds"
+      },
+      {
+        "href": "https://www.investing.com/analysis/cryptocurrency",
+        "inner_text": "Cryptocurrency",
+        "inner_html": "Cryptocurrency"
+      },
+      {
+        "href": "https://www.investing.com/analysis/etfs",
+        "inner_text": "ETFs",
+        "inner_html": "ETFs"
+      },
+      {
+        "href": "https://www.investing.com/analysis/most-popular-analysis",
+        "inner_text": "Most Popular",
+        "inner_html": "Most Popular"
+      },
+      {
+        "href": "https://www.investing.com/analysis/editors-picks",
+        "inner_text": "Editor's Picks",
+        "inner_html": "Editor's Picks"
+      },
+      {
+        "href": "https://www.investing.com/analysis/comics",
+        "inner_text": "Comics",
+        "inner_html": "Comics"
+      },
+      {
+        "href": "https://www.investing.com/charts/",
+        "inner_text": "Charts",
+        "inner_html": "Charts"
+      },
+      {
+        "href": "https://www.investing.com/charts/live-charts",
+        "inner_text": "Live Charts",
+        "inner_html": "Live Charts"
+      },
+      {
+        "href": "https://www.investing.com/charts/forex-charts",
+        "inner_text": "Forex Chart",
+        "inner_html": "Forex Chart"
+      },
+      {
+        "href": "https://www.investing.com/charts/futures-charts",
+        "inner_text": "Futures Chart",
+        "inner_html": "Futures Chart"
+      },
+      {
+        "href": "https://www.investing.com/charts/stocks-charts",
+        "inner_text": "Stocks Chart",
+        "inner_html": "Stocks Chart"
+      },
+      {
+        "href": "https://www.investing.com/charts/indices-charts",
+        "inner_text": "Indices Chart",
+        "inner_html": "Indices Chart"
+      },
+      {
+        "href": "https://www.investing.com/charts/cryptocurrency-charts",
+        "inner_text": "Cryptocurrency Chart",
+        "inner_html": "Cryptocurrency Chart"
+      },
+      {
+        "href": "https://www.investing.com/charts/real-time-forex-charts",
+        "inner_text": "Interactive Forex Chart",
+        "inner_html": "Interactive Forex Chart"
+      },
+      {
+        "href": "https://www.investing.com/charts/real-time-futures-charts",
+        "inner_text": "Interactive Futures Chart",
+        "inner_html": "Interactive Futures Chart"
+      },
+      {
+        "href": "https://www.investing.com/charts/real-time-indices-charts",
+        "inner_text": "Interactive Indices Chart",
+        "inner_html": "Interactive Indices Chart"
+      },
+      {
+        "href": "https://www.investing.com/charts/real-time-stocks-charts",
+        "inner_text": "Interactive Stocks Chart",
+        "inner_html": "Interactive Stocks Chart"
+      },
+      {
+        "href": "https://www.investing.com/charts/multiple-forex-streaming-charts",
+        "inner_text": "Multiple Forex Charts",
+        "inner_html": "Multiple Forex Charts"
+      },
+      {
+        "href": "https://www.investing.com/charts/multiple-indices-streaming-charts",
+        "inner_text": "Multiple Indices Charts",
+        "inner_html": "Multiple Indices Charts"
+      },
+      {
+        "href": "https://www.investing.com/technical/",
+        "inner_text": "Technical",
+        "inner_html": "Technical"
+      },
+      {
+        "href": "https://www.investing.com/technical/technical-summary",
+        "inner_text": "Technical Summary",
+        "inner_html": "Technical Summary"
+      },
+      {
+        "href": "https://www.investing.com/technical/technical-analysis",
+        "inner_text": "Technical Analysis",
+        "inner_html": "Technical Analysis"
+      },
+      {
+        "href": "https://www.investing.com/technical/pivot-points",
+        "inner_text": "Pivot Points",
+        "inner_html": "Pivot Points"
+      },
+      {
+        "href": "https://www.investing.com/technical/moving-averages",
+        "inner_text": "Moving Averages",
+        "inner_html": "Moving Averages"
+      },
+      {
+        "href": "https://www.investing.com/technical/indicators",
+        "inner_text": "Indicators",
+        "inner_html": "Indicators"
+      },
+      {
+        "href": "https://www.investing.com/technical/candlestick-patterns",
+        "inner_text": "Candlestick Patterns",
+        "inner_html": "Candlestick Patterns"
+      },
+      {
+        "href": "https://www.investing.com/tools/fibonacci-calculator",
+        "inner_text": "Fibonacci Calculator",
+        "inner_html": "Fibonacci Calculator"
+      },
+      {
+        "href": "https://www.investing.com/tools/pivot-point-calculator",
+        "inner_text": "Pivot Point Calculator",
+        "inner_html": "Pivot Point Calculator"
+      },
+      {
+        "href": "https://www.investing.com/brokers/",
+        "inner_text": "Brokers",
+        "inner_html": "Brokers"
+      },
+      {
+        "href": "https://www.investing.com/brokers/forex-brokers",
+        "inner_text": "Forex Brokers",
+        "inner_html": "Forex Brokers"
+      },
+      {
+        "href": "https://www.investing.com/brokers/cryptocurrency-brokers",
+        "inner_text": "Cryptocurrency Brokers",
+        "inner_html": "Cryptocurrency Brokers"
+      },
+      {
+        "href": "https://www.investing.com/brokers/stock-brokers",
+        "inner_text": "Stock Brokers",
+        "inner_html": "Stock Brokers"
+      },
+      {
+        "href": "https://www.investing.com/brokers/online-brokers",
+        "inner_text": "Online Brokers",
+        "inner_html": "Online Brokers"
+      },
+      {
+        "href": "https://www.investing.com/brokers/cfd-brokers",
+        "inner_text": "CFD Brokers",
+        "inner_html": "CFD Brokers"
+      },
+      {
+        "href": "https://www.investing.com/tools/",
+        "inner_text": "Tools",
+        "inner_html": "Tools"
+      },
+      {
+        "href": "https://www.investing.com/holiday-calendar/",
+        "inner_text": "Holiday Calendar",
+        "inner_html": "Holiday Calendar"
+      },
+      {
+        "href": "https://www.investing.com/dividends-calendar/",
+        "inner_text": "Dividend Calendar",
+        "inner_html": "Dividend Calendar"
+      },
+      {
+        "href": "https://www.investing.com/stock-split-calendar/",
+        "inner_text": "Splits Calendar",
+        "inner_html": "Splits Calendar"
+      },
+      {
+        "href": "https://www.investing.com/ipo-calendar/",
+        "inner_text": "IPO Calendar",
+        "inner_html": "IPO Calendar"
+      },
+      {
+        "href": "https://www.investing.com/futures-expiration-calendar/",
+        "inner_text": "Futures Expiry Calendar",
+        "inner_html": "Futures Expiry Calendar"
+      },
+      {
+        "href": "https://www.investing.com/central-banks/fed-rate-monitor",
+        "inner_text": "Fed Rate Monitor Tool",
+        "inner_html": "Fed Rate Monitor Tool"
+      },
+      {
+        "href": "https://www.investing.com/currency-converter/",
+        "inner_text": "Currency Converter",
+        "inner_html": "Currency Converter"
+      },
+      {
+        "href": "https://www.investing.com/tools/correlation-calculator",
+        "inner_text": "Forex Correlation",
+        "inner_html": "Forex Correlation"
+      },
+      {
+        "href": "https://www.investing.com/tools/profit-calculator",
+        "inner_text": "Profit Calculator",
+        "inner_html": "Profit Calculator"
+      },
+      {
+        "href": "https://www.investing.com/tools/margin-calculator",
+        "inner_text": "Margin Calculator",
+        "inner_html": "Margin Calculator"
+      },
+      {
+        "href": "https://www.investing.com/tools/currency-heatmap",
+        "inner_text": "Currencies Heat Map",
+        "inner_html": "Currencies Heat Map"
+      },
+      {
+        "href": "https://www.investing.com/tools/forex-volatility-calculator",
+        "inner_text": "Forex Volatility",
+        "inner_html": "Forex Volatility"
+      },
+      {
+        "href": "https://www.investing.com/tools/forward-rates-calculator",
+        "inner_text": "Forward Rates Calculator",
+        "inner_html": "Forward Rates Calculator"
+      },
+      {
+        "href": "https://www.investing.com/tools/mortgage-calculator",
+        "inner_text": "Mortgage Calculator",
+        "inner_html": "Mortgage Calculator"
+      },
+      {
+        "href": "https://www.investing.com/portfolio/",
+        "inner_text": "Portfolio",
+        "inner_html": "Portfolio"
+      },
+      {
+        "href": "https://www.investing.com/education/",
+        "inner_text": "Education",
+        "inner_html": "Education"
+      },
+      {
+        "href": "https://www.investing.com/education/webinars",
+        "inner_text": "Webinars",
+        "inner_html": "Webinars"
+      },
+      {
+        "href": "https://www.investing.com/education/forex-trading-kit",
+        "inner_text": "Trading Guide",
+        "inner_html": "Trading Guide"
+      },
+      {
+        "href": "https://www.investing.com/education/terms",
+        "inner_text": "Terms",
+        "inner_html": "Terms"
+      },
+      {
+        "href": "https://www.investing.com/education/conferences",
+        "inner_text": "Conferences",
+        "inner_html": "Conferences"
+      },
+      {
+        "href": "https://www.investing.com/crypto/xrp",
+        "inner_text": "Ripple",
+        "inner_html": "Ripple"
+      },
+      {
+        "href": "https://www.investing.com/crypto/litecoin",
+        "inner_text": "Litecoin",
+        "inner_html": "Litecoin"
+      },
+      {
+        "href": "https://www.investing.com/crypto/iota/iota-usd",
+        "inner_text": "IOTA/USD",
+        "inner_html": "IOTA/USD"
+      },
+      {
+        "href": "https://www.investing.com/crypto/bitcoin/cboe-bitcoin-futures",
+        "inner_text": "Bitcoin Futures CBOE",
+        "inner_html": "Bitcoin Futures CBOE"
+      },
+      {
+        "href": "https://www.investing.com/alerts/",
+        "inner_text": "Alerts",
+        "inner_html": "Alerts"
+      },
+      {
+        "href": "https://www.investing.com/central-banks/",
+        "inner_text": "Central Banks",
+        "inner_html": "Central Banks"
+      },
+      {
+        "href": "https://www.investing.com/ad-free-subscription?source=desktop&medium=top_menu",
+        "inner_text": "Ad-Free Version",
+        "inner_html": "Ad-Free Version"
+      },
+      {
+        "href": "https://www.investing.com/webmaster-tools/",
+        "inner_text": "Webmaster Tools",
+        "inner_html": "Webmaster Tools"
+      },
+      {
+        "href": "https://www.investing.com/broker-blacklist/",
+        "inner_text": "Broker Blacklist",
+        "inner_html": "Broker Blacklist"
+      },
+      {
+        "href": "https://www.investing.com/markets/sentiment-outlook",
+        "inner_text": "Sentiments Outlook",
+        "inner_html": "Sentiments Outlook"
+      },
+      {
+        "href": "https://www.investing.com/markets/united-states",
+        "inner_text": "United States",
+        "inner_html": "United States"
+      },
+      {
+        "href": "https://www.investing.com/ad-free-subscription?source=desktop&medium=billboard_message",
+        "inner_text": "More details",
+        "inner_html": "<span class=\"text\">More details</span>"
+      },
+      {
+        "href": "https://www.investing.com/news/stock-market-news/israeli-carrier-el-al-to-slash-jobs-as-deepens-cost-cuts-2512318",
+        "inner_text": "",
+        "inner_html": "<img class=\" ls-is-cached lazyloaded\" data-src=\"https://i-invdn-com.akamaized.net/news/external-images-thumbnails/LYNXNPEH4J0YA_L.jpg\" alt=\"Israeli carrier El Al to slash jobs as deepens cost cuts\" onerror=\"javascript:this.src='https://i-invdn-com.akamaized.net/news/news-paper_108x81.png';\" style=\"visibility: visible; position: absolute; height: 100px;\" src=\"https://i-invdn-com.akamaized.net/news/external-images-thumbnails/LYNXNPEH4J0YA_L.jpg\">"
+      },
+      {
+        "href": "https://www.investing.com/news/stock-market-news/kohls-drops-on-worry-growth-may-not-stick-sales-still-below-2019s--2512059",
+        "inner_text": "",
+        "inner_html": "<img class=\" ls-is-cached lazyloaded\" data-src=\"https://i-invdn-com.akamaized.net/news/LYNXNPED8P136_S.jpg\" alt=\"Kohl’s Drops On Worry Growth May Not Stick, Sales Still Below 2019’s &nbsp;\" onerror=\"javascript:this.src='https://i-invdn-com.akamaized.net/news/news-paper_108x81.png';\" style=\"visibility: visible; position: absolute; height: 100px;\" src=\"https://i-invdn-com.akamaized.net/news/LYNXNPED8P136_S.jpg\">"
+      },
+      {
+        "href": "https://www.investing.com/news/stock-market-news/ralph-lauren-beats-quarterly-revenue-estimates-2512001",
+        "inner_text": "",
+        "inner_html": "<img class=\" ls-is-cached lazyloaded\" data-src=\"https://i-invdn-com.akamaized.net/news/external-images-thumbnails/LYNXNPEH4J0OY_L.jpg\" alt=\"Ralph Lauren's forecast for revenue surge falls short on pandemic uncertainty\" onerror=\"javascript:this.src='https://i-invdn-com.akamaized.net/news/news-paper_108x81.png';\" style=\"visibility: visible; position: absolute; height: 100px;\" src=\"https://i-invdn-com.akamaized.net/news/external-images-thumbnails/LYNXNPEH4J0OY_L.jpg\">"
+      },
+      {
+        "href": "https://www.investing.com/news/stock-market-news/viacomcbs-rallies-on-double-upgrade-as-consolidation-eyed-2512171",
+        "inner_text": "",
+        "inner_html": "<img class=\" ls-is-cached lazyloaded\" data-src=\"https://i-invdn-com.akamaized.net/news/LYNXNPEB7Q0U9_S.jpg\" alt=\"ViacomCBS Rallies on Double Upgrade as Consolidation Eyed\" onerror=\"javascript:this.src='https://i-invdn-com.akamaized.net/news/news-paper_108x81.png';\" style=\"visibility: visible; position: absolute; height: 100px;\" src=\"https://i-invdn-com.akamaized.net/news/LYNXNPEB7Q0U9_S.jpg\">"
+      },
+      {
+        "href": "https://www.investing.com/analysis/chart-of-the-day-after-bitcoins-recent-collapse-time-for-a-recovery-200581354",
+        "inner_text": "",
+        "inner_html": "<img class=\" lazyloaded\" data-src=\"https://d1-invdn-com.akamaized.net/company_logo/dd857202266211477d38b1868cf5396f.jpg\" alt=\"Pinchas Cohen/Investing.com\" onerror=\"javascript:this.src='https://i-invdn-com.akamaized.net/anonym.gif';\" src=\"https://d1-invdn-com.akamaized.net/company_logo/dd857202266211477d38b1868cf5396f.jpg\"><span class=\"investingAnalysis\"></span>"
+      },
+      {
+        "href": "https://www.investing.com/members/contributors/201478083",
+        "inner_text": "Pinchas Cohen/Investing.com",
+        "inner_html": "Pinchas Cohen/Investing.com"
+      },
+      {
+        "href": "https://www.investing.com/analysis/2-dividend-stocks-with-vast-moats-that-could-pay-out-for-life-200581243",
+        "inner_text": "",
+        "inner_html": "<img class=\" lazyloaded\" data-src=\"https://d1-invdn-com.akamaized.net/company_logo/8a041e87308c804e01b487506cdf1197.jpg\" alt=\"Haris Anwar/Investing.com\" onerror=\"javascript:this.src='https://i-invdn-com.akamaized.net/anonym.gif';\" src=\"https://d1-invdn-com.akamaized.net/company_logo/8a041e87308c804e01b487506cdf1197.jpg\"><span class=\"investingAnalysis\"></span>"
+      },
+      {
+        "href": "https://www.investing.com/members/contributors/202477004",
+        "inner_text": "Haris Anwar/Investing.com",
+        "inner_html": "Haris Anwar/Investing.com"
+      },
+      {
+        "href": "https://www.investing.com/analysis/bakerytoken-ravencoin-top-tier-cryptos-with-nearbillion-dollar-market-caps-200581308",
+        "inner_text": "",
+        "inner_html": "<img class=\" lazyloaded\" data-src=\"https://d1-invdn-com.akamaized.net/company_logo/a73f557423b85d043088536caa2c7a5b.jpg\" alt=\"Andy Hecht\" onerror=\"javascript:this.src='https://i-invdn-com.akamaized.net/anonym.gif';\" src=\"https://d1-invdn-com.akamaized.net/company_logo/a73f557423b85d043088536caa2c7a5b.jpg\">"
+      },
+      {
+        "href": "https://www.investing.com/members/contributors/206802695",
+        "inner_text": "Andy Hecht",
+        "inner_html": "Andy Hecht"
+      },
+      {
+        "href": "https://www.investing.com/analysis/looking-to-really-diversify-try-2-etfs-that-invest-in-other-etfs-200581239",
+        "inner_text": "",
+        "inner_html": "<img class=\" lazyloaded\" data-src=\"https://d1-invdn-com.akamaized.net/company_logo/f5990cad5d0cb4a9b35d6d2732d6930f.jpg\" alt=\"Tezcan Gecgil/Investing.com \" onerror=\"javascript:this.src='https://i-invdn-com.akamaized.net/anonym.gif';\" src=\"https://d1-invdn-com.akamaized.net/company_logo/f5990cad5d0cb4a9b35d6d2732d6930f.jpg\"><span class=\"investingAnalysis\"></span>"
+      },
+      {
+        "href": "https://www.investing.com/members/contributors/215115156",
+        "inner_text": "Tezcan Gecgil/Investing.com",
+        "inner_html": "Tezcan Gecgil/Investing.com"
+      },
+      {
+        "href": "https://www.investing.com/economic-calendar/boc-gov-council-member-macklem-speaks-1138",
+        "inner_text": "BoC Gov Macklem Speaks",
+        "inner_html": "BoC Gov Macklem Speaks"
+      },
+      {
+        "href": "https://www.investing.com/economic-calendar/south-african-interest-rate-decision-604",
+        "inner_text": "Interest Rate Decision",
+        "inner_html": "Interest Rate Decision"
+      },
+      {
+        "href": "https://www.investing.com/economic-calendar/russian-central-bank-reserves-(usd)-969",
+        "inner_text": "Central Bank reserves (USD)",
+        "inner_html": "Central Bank reserves (USD)"
+      },
+      {
+        "href": "https://www.investing.com/economic-calendar/new-housing-price-index-223",
+        "inner_text": "New Housing Price Index (MoM)",
+        "inner_html": "New Housing Price Index (MoM)"
+      },
+      {
+        "href": "https://www.investing.com/economic-calendar/philadelphia-fed-manufacturing-index-236",
+        "inner_text": "Philadelphia Fed Manufacturing Index",
+        "inner_html": "Philadelphia Fed Manufacturing Index"
+      },
+      {
+        "href": "https://www.investing.com/economic-calendar/initial-jobless-claims-294",
+        "inner_text": "Initial Jobless Claims",
+        "inner_html": "Initial Jobless Claims"
+      },
+      {
+        "href": "https://www.investing.com/economic-calendar/philly-fed-employment-908",
+        "inner_text": "Philly Fed Employment",
+        "inner_html": "Philly Fed Employment"
+      },
+      {
+        "href": "https://www.investing.com/crypto/currency-pairs?c1=189&c2=12",
+        "inner_text": "41,613.6",
+        "inner_html": "41,613.6"
+      },
+      {
+        "href": "https://www.investing.com/crypto/currency-pairs?c1=195&c2=12",
+        "inner_text": "2,912.09",
+        "inner_html": "2,912.09"
+      },
+      {
+        "href": "https://www.investing.com/crypto/binance-coin",
+        "inner_text": "Binance Coin",
+        "inner_html": "Binance Coin"
+      },
+      {
+        "href": "https://www.investing.com/crypto/currency-pairs?c1=233&c2=12",
+        "inner_text": "407.79",
+        "inner_html": "407.79"
+      },
+      {
+        "href": "https://www.investing.com/crypto/cardano",
+        "inner_text": "Cardano",
+        "inner_html": "Cardano"
+      },
+      {
+        "href": "https://www.investing.com/crypto/currency-pairs?c1=302&c2=12",
+        "inner_text": "1.858691",
+        "inner_html": "1.858691"
+      },
+      {
+        "href": "https://www.investing.com/crypto/tether",
+        "inner_text": "Tether",
+        "inner_html": "Tether"
+      },
+      {
+        "href": "https://www.investing.com/crypto/currency-pairs?c1=205&c2=12",
+        "inner_text": "1.0013",
+        "inner_html": "1.0013"
+      },
+      {
+        "href": "https://www.investing.com/indices/us-spx-500-technical?period=3600",
+        "inner_text": "Moving Averages:",
+        "inner_html": "Moving Averages:"
+      },
+      {
+        "href": "https://www.outbrain.com/what-is/default/en",
+        "inner_text": "Recommended by",
+        "inner_html": "Recommended by<span class=\"ob_amelia\" title=\"outbrain.com\"></span>"
+      },
+      {
+        "href": "https://partners.etoro.com/aw.aspx?A=52916&Task=Click&SubAffiliateID=ES_HF_Desk_LP_Crypto_Bitcoin_24-01-20_Outbrain_AFFID_52916_&TargetURL=https://go.etoro.com/es/dynamic?symbol=btc&ob_click_id=$ob_click_id$&obOrigUrl=true",
+        "inner_text": "¿Es Bitcoin una buena inversión? Aprende todo lo que necesitas saber antes de comenzar a operar\neToro",
+        "inner_html": "<span class=\"ob-unit ob-rec-image-container\" data-type=\"Image\">\n  <div class=\"ob-image-ratio\"></div>\n                      <img class=\"ob-rec-image ob-show\" loading=\"lazy\" aria-hidden=\"true\" src=\"https://images.outbrainimg.com/transform/v3/eyJpdSI6ImYzNWUyZDQ5ZmZkNjIxZTU4YjU2M2JkYzQwNWU0NGMwZGUzMjM4ZTQ3NjMzOGIzZjJjMDk1Mjc5MWUzOTY4NjMiLCJ3IjoxNTcsImgiOjEzMCwiZCI6Mi4wLCJjcyI6MCwiZiI6NH0.webp\" onload=\"this.className+=' ob-show'\" alt=\"¿Es Bitcoin una buena inversión? Aprende todo lo que necesitas saber antes de comenzar a operar\" title=\"¿Es Bitcoin una buena inversión? Aprende todo lo que necesitas saber antes de comenzar a operar\" onerror=\"OBR.extern.imageError(this)\">\n                                            </span>\n    <section class=\"ob-sub-units\">\n        <span class=\"ob-unit ob-rec-text\" data-type=\"Title\" title=\"¿Es Bitcoin una buena inversión? Aprende todo lo que necesitas saber antes de comenzar a operar\">¿Es Bitcoin una buena inversión? Aprende todo lo que necesitas saber antes de comenzar a operar</span>\n            <span class=\"ob-unit ob-rec-source\" data-type=\"Source\">eToro</span>\n    \n\n    </section>"
+      },
+      {
+        "href": "https://hignitute-intence.icu/a28f9bab-c819-4fba-a680-4f78e8585be1?ad_title=Invirtiendo+250%E2%82%AC+en+acciones+de+Amazon+podr%C3%ADas+conseguir+un+ingreso+ex&publisher_id=$publisher_id$&publisher_name=$publisher_name$&ad_id=00c79c3f4c1c36c680ece8924778e6df07&campaign_id=00f040d5bed2c34c885ae78dddd33e8a67&section_id=$section_id$&section_name=$section_name$&so=2&promoted_link_id=00c79c3f4c1c36c680ece8924778e6df07&time_stamp=$time_stamp$&ob_click_id=$ob_click_id$&OutbrainClickId=$ob_click_id$&obOrigUrl=true",
+        "inner_text": "Invirtiendo 250€ en acciones de Amazon podrías conseguir un ingreso extra desde tu casa\nFXTB",
+        "inner_html": "<span class=\"ob-unit ob-rec-image-container\" data-type=\"Image\">\n  <div class=\"ob-image-ratio\"></div>\n                      <img class=\"ob-rec-image ob-show\" loading=\"lazy\" aria-hidden=\"true\" src=\"https://images.outbrainimg.com/transform/v3/eyJpdSI6ImY5OGVkM2IwNjExNjk5ZjQwN2MzMjA3ZGI1MzY4YjY1ODc5MDU4NmFjMWM4YzIzYjliMjQ0ZDNlZTg2ODVlZGIiLCJ3IjoxNTcsImgiOjEzMCwiZCI6Mi4wLCJjcyI6MCwiZiI6NH0.webp\" onload=\"this.className+=' ob-show'\" alt=\"Invirtiendo 250€ en acciones de Amazon podrías conseguir un ingreso extra desde tu casa\" title=\"Invirtiendo 250€ en acciones de Amazon podrías conseguir un ingreso extra desde tu casa\" onerror=\"OBR.extern.imageError(this)\">\n                                            </span>\n    <section class=\"ob-sub-units\">\n        <span class=\"ob-unit ob-rec-text\" data-type=\"Title\" title=\"Invirtiendo 250€ en acciones de Amazon podrías conseguir un ingreso extra desde tu casa\">Invirtiendo 250€ en acciones de Amazon podrías conseguir un ingreso extra desde tu casa</span>\n            <span class=\"ob-unit ob-rec-source\" data-type=\"Source\">FXTB</span>\n    \n\n    </section>"
+      },
+      {
+        "href": "https://tracking.secondlightcapital.com/c31fbbfc-2e8f-4e54-b8ea-f323a2ea52a9?adid=0074913d26439d37ad85c7209516e4c199&adtitle=Con+solo+250%E2%82%AC+en+Amazon+u+otras+acciones%2C+podr%C3%ADa+generar+un+segundo+in&sourceid=$source_id$&campaignid=00c166b18cbfe70911078779dff46e49fb&sectionid=$section_id$&sectionname=$section_name$&publisherid=$publisher_id$&publishername=$publisher_name$&ob_click_id=$ob_click_id$&obOrigUrl=true",
+        "inner_text": "Con solo 250€ en Amazon u otras acciones, podría generar un segundo ingreso\nNoticias de hoy",
+        "inner_html": "<span class=\"ob-unit ob-rec-image-container\" data-type=\"Image\">\n  <div class=\"ob-image-ratio\"></div>\n                      <img class=\"ob-rec-image ob-show\" loading=\"lazy\" aria-hidden=\"true\" src=\"https://images.outbrainimg.com/transform/v3/eyJpdSI6IjFhMzFlMjA0MzRjNWRjMjhlYmQ0NDdjMjg3NTRhYjFhZTRjZDQyNDhmZWIzMzFkYWU3ZWY0OGUyNmI0YzJkMDMiLCJ3IjoxNTcsImgiOjEzMCwiZCI6Mi4wLCJjaCI6LTEyMTAzNjA3OSwiY3MiOjAsImYiOjR9.webp\" onload=\"this.className+=' ob-show'\" alt=\"Con solo 250€ en Amazon u otras acciones, podría generar un segundo ingreso\" title=\"Con solo 250€ en Amazon u otras acciones, podría generar un segundo ingreso\" onerror=\"OBR.extern.imageError(this)\">\n                                            </span>\n    <section class=\"ob-sub-units\">\n        <span class=\"ob-unit ob-rec-text\" data-type=\"Title\" title=\"Con solo 250€ en Amazon u otras acciones, podría generar un segundo ingreso\">Con solo 250€ en Amazon u otras acciones, podría generar un segundo ingreso</span>\n            <span class=\"ob-unit ob-rec-source\" data-type=\"Source\">Noticias de hoy</span>\n    \n\n    </section>"
+      },
+      {
+        "href": "https://www.investing.com/magazine/how-elon-musk-spent-83-billion-dollars/?obOrigUrl=true",
+        "inner_text": "How Elon Musk Spent $83 Billion Dollars\nInvesting.com",
+        "inner_html": "<span class=\"ob-unit ob-rec-image-container\" data-type=\"Image\">\n  <div class=\"ob-image-ratio\"></div>\n                      <img class=\"ob-rec-image ob-show\" loading=\"lazy\" aria-hidden=\"true\" src=\"https://images.outbrainimg.com/transform/v3/eyJpdSI6IjhhNjI1YWUwOWJiMDQ2YmExZTI1ZmUxMzYyZmQ2MDZlYzhmMTRjN2YyYmNlZWE2NzA3MmIwMzU4NzA5YWIwZWQiLCJ3IjoxNTcsImgiOjEzMCwiZCI6Mi4wLCJjcyI6MCwiZiI6NH0.webp\" onload=\"this.className+=' ob-show'\" alt=\"How Elon Musk Spent $83 Billion Dollars\" title=\"How Elon Musk Spent $83 Billion Dollars\" onerror=\"OBR.extern.imageError(this)\">\n                                            </span>\n    <section class=\"ob-sub-units\">\n        <span class=\"ob-unit ob-rec-text\" data-type=\"Title\" title=\"How Elon Musk Spent $83 Billion Dollars\">How Elon Musk Spent $83 Billion Dollars</span>\n            <span class=\"ob-unit ob-rec-source\" data-type=\"Source\">Investing.com</span>\n    \n\n    </section>"
+      },
+      {
+        "href": "http://www.investing.com/magazine/celebrities-who-work-a-9-5/?obOrigUrl=true",
+        "inner_text": "Former Actors and Actresses Who Now Work a Regular 9-5 Job in the Private Sector\nInvesting.com",
+        "inner_html": "<span class=\"ob-unit ob-rec-image-container\" data-type=\"Image\">\n  <div class=\"ob-image-ratio\"></div>\n                      <img class=\"ob-rec-image ob-show\" loading=\"lazy\" aria-hidden=\"true\" src=\"https://images.outbrainimg.com/transform/v3/eyJpdSI6IjVkZDgxMGEyZWQ3Nzk0NjFlNzA5ZTgzOThlNzRkMDMxNGNjMDI1YWYzYTk5YWRkMzYxODg2NDUxNWNjNWNlNTkiLCJ3IjoxNTcsImgiOjEzMCwiZCI6Mi4wLCJjcyI6MCwiZiI6NH0.webp\" onload=\"this.className+=' ob-show'\" alt=\"Former Actors and Actresses Who Now Work a Regular 9-5 Job in the Private Sector\" title=\"Former Actors and Actresses Who Now Work a Regular 9-5 Job in the Private Sector\" onerror=\"OBR.extern.imageError(this)\">\n                                            </span>\n    <section class=\"ob-sub-units\">\n        <span class=\"ob-unit ob-rec-text\" data-type=\"Title\" title=\"Former Actors and Actresses Who Now Work a Regular 9-5 Job in the Private Sector\">Former Actors and Actresses Who Now Work a Regular 9-5 Job in the Private Sector</span>\n            <span class=\"ob-unit ob-rec-source\" data-type=\"Source\">Investing.com</span>\n    \n\n    </section>"
+      },
+      {
+        "href": "https://www.investing.com/analysis/bitcoin-down-almost-10-today-youll-be-surprised-to-hear-whats-next-200536384?obOrigUrl=true",
+        "inner_text": "Bitcoin Crashes. You’ll Be Surprised To Hear What’s Next\nAnalysis - EN",
+        "inner_html": "<span class=\"ob-unit ob-rec-image-container\" data-type=\"Image\">\n  <div class=\"ob-image-ratio\"></div>\n                      <img class=\"ob-rec-image ob-show\" loading=\"lazy\" aria-hidden=\"true\" src=\"https://images.outbrainimg.com/transform/v3/eyJpdSI6IjBmY2UyZjNlMDhiNDBmOGZkZDc4ZjVmYzIyYzU4NTAwZmQ0MDIwOTI4ZTgwN2M3NDYwNGI5MDIzY2IwNjZiM2EiLCJ3IjoxNTcsImgiOjEzMCwiZCI6Mi4wLCJjcyI6MCwiZiI6NH0.webp\" onload=\"this.className+=' ob-show'\" alt=\"Bitcoin Crashes.  You’ll Be Surprised To Hear What’s Next\" title=\"Bitcoin Crashes.  You’ll Be Surprised To Hear What’s Next\" onerror=\"OBR.extern.imageError(this)\">\n                                            </span>\n    <section class=\"ob-sub-units\">\n        <span class=\"ob-unit ob-rec-text\" data-type=\"Title\" title=\"Bitcoin Crashes.  You’ll Be Surprised To Hear What’s Next\">Bitcoin Crashes.  You’ll Be Surprised To Hear What’s Next</span>\n            <span class=\"ob-unit ob-rec-source\" data-type=\"Source\">Analysis - EN</span>\n    \n\n    </section>"
+      },
+      {
+        "href": "https://www.investing.com/indices/s-p-tsx-composite",
+        "inner_text": "S&P/TSX",
+        "inner_html": "S&amp;P/TSX"
+      },
+      {
+        "href": "https://www.investing.com/indices/aus-200",
+        "inner_text": "S&P/ASX 200",
+        "inner_html": "S&amp;P/ASX 200"
+      },
+      {
+        "href": "https://www.investing.com/indices/us-spx-vix-futures",
+        "inner_text": "S&P 500 VIX",
+        "inner_html": "S&amp;P 500 VIX"
+      },
+      {
+        "href": "https://www.investing.com/indices/germany-30-futures",
+        "inner_text": "DAX",
+        "inner_html": "DAX"
+      },
+      {
+        "href": "https://www.investing.com/indices/japan-225-futures",
+        "inner_text": "Nikkei 225",
+        "inner_html": "Nikkei 225"
+      },
+      {
+        "href": "https://www.investing.com/commodities/us-soybeans",
+        "inner_text": "US Soybeans",
+        "inner_html": "US Soybeans"
+      },
+      {
+        "href": "https://www.investing.com/rates-bonds/uk-gilt",
+        "inner_text": "UK Gilt",
+        "inner_html": "UK Gilt"
+      },
+      {
+        "href": "https://www.investing.com/rates-bonds/italian-govt.-bond",
+        "inner_text": "Euro BTP",
+        "inner_html": "Euro BTP"
+      },
+      {
+        "href": "https://www.investing.com/rates-bonds/japan-govt.-bond",
+        "inner_text": "Japan Govt. Bond",
+        "inner_html": "Japan Govt. Bond"
+      },
+      {
+        "href": "https://www.investing.com/equities/exxon-mobil",
+        "inner_text": "Exxon Mobil",
+        "inner_html": "Exxon Mobil"
+      },
+      {
+        "href": "https://www.investing.com/equities/twitter-inc",
+        "inner_text": "Twitter Inc",
+        "inner_html": "Twitter Inc"
+      },
+      {
+        "href": "https://www.investing.com/indices/nasdaq-composite",
+        "inner_text": "Nasdaq",
+        "inner_html": "Nasdaq"
+      },
+      {
+        "href": "https://www.investing.com/indices/hang-sen-40",
+        "inner_text": "Hang Seng",
+        "inner_html": "Hang Seng"
+      },
+      {
+        "href": "https://www.investing.com/indices/us-30-futures-streaming-chart",
+        "inner_text": "",
+        "inner_html": ""
+      },
+      {
+        "href": "https://www.investing.com/indices/volatility-s-p-500",
+        "inner_text": "S&P 500 VIX",
+        "inner_html": "S&amp;P 500 VIX"
+      },
+      {
+        "href": "https://www.investing.com/etfs/ishares-russell-2000-index-etf",
+        "inner_text": "iShares Russell 2000",
+        "inner_html": "iShares Russell 2000"
+      },
+      {
+        "href": "https://www.investing.com/etfs/direxion-daily-jr-gld-mnrs-bull-3x",
+        "inner_text": "Direxion Daily Junior Gold Miners Bull 2X Shares",
+        "inner_html": "Direxion Daily Junior Gold Miners Bull 2X Shares"
+      },
+      {
+        "href": "https://www.investing.com/etfs/ishares-silver-trust",
+        "inner_text": "iShares Silver",
+        "inner_html": "iShares Silver"
+      },
+      {
+        "href": "https://www.investing.com/etfs/proshares-ultra-vix-short-term-fut",
+        "inner_text": "ProShares Ultra VIX Short-Term Futures",
+        "inner_html": "ProShares Ultra VIX Short-Term Futures"
+      },
+      {
+        "href": "https://www.investing.com/etfs/proshares-trust-ultrapro-qqq",
+        "inner_text": "ProShares UltraPro QQQ",
+        "inner_html": "ProShares UltraPro QQQ"
+      },
+      {
+        "href": "https://www.investing.com/equities/hormel-foods-corp",
+        "inner_text": "HRL",
+        "inner_html": "HRL"
+      },
+      {
+        "href": "https://www.investing.com/equities/netease.com",
+        "inner_text": "NTES",
+        "inner_html": "NTES"
+      },
+      {
+        "href": "https://www.investing.com/equities/maxim-integrated",
+        "inner_text": "MXIM",
+        "inner_html": "MXIM"
+      },
+      {
+        "href": "https://www.investing.com/equities/moderna",
+        "inner_text": "MRNA",
+        "inner_html": "MRNA"
+      },
+      {
+        "href": "https://www.investing.com/equities/analog-devices",
+        "inner_text": "ADI",
+        "inner_html": "ADI"
+      },
+      {
+        "href": "https://www.investing.com/equities/jd.com-inc-adr",
+        "inner_text": "JD",
+        "inner_html": "JD"
+      },
+      {
+        "href": "https://www.investing.com/equities/zoom-video-communications",
+        "inner_text": "ZM",
+        "inner_html": "ZM"
+      },
+      {
+        "href": "https://www.investing.com/equities/kohls-corp",
+        "inner_text": "KSS",
+        "inner_html": "KSS"
+      },
+      {
+        "href": "https://www.investing.com/equities/polo-ralph-laur",
+        "inner_text": "RL",
+        "inner_html": "RL"
+      },
+      {
+        "href": "https://www.investing.com/equities/nordstrom-inc",
+        "inner_text": "JWN",
+        "inner_html": "JWN"
+      },
+      {
+        "href": "https://www.investing.com/equities/limited-brands",
+        "inner_text": "LB",
+        "inner_html": "LB"
+      },
+      {
+        "href": "https://www.investing.com/equities/macys",
+        "inner_text": "M",
+        "inner_html": "M"
+      },
+      {
+        "href": "https://www.investing.com/equities/pvh",
+        "inner_text": "PVH",
+        "inner_html": "PVH"
+      },
+      {
+        "href": "https://www.investing.com/equities/foot-locker",
+        "inner_text": "FL",
+        "inner_html": "FL"
+      },
+      {
+        "href": "https://www.investing.com/education/webinars/technical-analysis:-indicators-13096",
+        "inner_text": "",
+        "inner_html": "<img src=\"https://d1-invdn-com.akamaized.net/company_logo/385f460cd6c75eee62d6446feb541b33.jpg\" alt=\"Technical Analysis: Indicators\">"
+      },
+      {
+        "href": "https://www.investing.com/education/webinars/alvexo-the-support-resistance-trading-strategy-13102",
+        "inner_text": "",
+        "inner_html": "<img src=\"https://d1-invdn-com.akamaized.net/company_logo/62afe0b8254bbe120a22c159e6ea5efe.jpg\" alt=\"Alvexo - The Support &amp; Resistance Trading Strategy\">"
+      },
+      {
+        "href": "https://www.investing.com/education/webinars/alvexo-turning-news-to-trades-13103",
+        "inner_text": "",
+        "inner_html": "<img src=\"https://d1-invdn-com.akamaized.net/company_logo/b806c87d8c3f7b83daaa5b4b20d1c355.jpg\" alt=\"Alvexo - Turning News to Trades\">"
+      },
+      {
+        "href": "https://www.investing.com/webmaster-tools/economic-calendar",
+        "inner_text": "Economic Calendar",
+        "inner_html": "Economic Calendar"
+      },
+      {
+        "href": "https://www.investing.com/webmaster-tools/technical-summary-box",
+        "inner_text": "Technical Summary Box",
+        "inner_html": "Technical Summary Box"
+      },
+      {
+        "href": "https://www.investing.com/webmaster-tools/live-currency-cross-rates",
+        "inner_text": "Live Currency Cross Rates",
+        "inner_html": "Live Currency Cross Rates"
+      },
+      {
+        "href": "https://www.investing.com/webmaster-tools/currency-converter",
+        "inner_text": "Currency Converter",
+        "inner_html": "Currency Converter"
+      },
+      {
+        "href": "https://www.investing.com/central-banks/federal-reserve",
+        "inner_text": "FED",
+        "inner_html": "FED"
+      },
+      {
+        "href": "https://www.investing.com/central-banks/european-central-bank",
+        "inner_text": "ECB",
+        "inner_html": "ECB"
+      },
+      {
+        "href": "https://www.investing.com/central-banks/bank-of-england",
+        "inner_text": "BOE",
+        "inner_html": "BOE"
+      },
+      {
+        "href": "https://www.investing.com/central-banks/swiss-national-bank",
+        "inner_text": "SNB",
+        "inner_html": "SNB"
+      },
+      {
+        "href": "https://www.investing.com/central-banks/reserve-bank-of-australia",
+        "inner_text": "RBA",
+        "inner_html": "RBA"
+      },
+      {
+        "href": "https://www.investing.com/central-banks/bank-of-canada",
+        "inner_text": "BOC",
+        "inner_html": "BOC"
+      },
+      {
+        "href": "https://www.investing.com/central-banks/reserve-bank-of-new-zealand",
+        "inner_text": "RBNZ",
+        "inner_html": "RBNZ"
+      },
+      {
+        "href": "https://www.investing.com/central-banks/bank-of-japan",
+        "inner_text": "BOJ",
+        "inner_html": "BOJ"
+      },
+      {
+        "href": "https://www.investing.com/central-banks/central-bank-of-the-russian-federation",
+        "inner_text": "CBR",
+        "inner_html": "CBR"
+      },
+      {
+        "href": "https://www.investing.com/central-banks/reserve-bank-of-india",
+        "inner_text": "RBI",
+        "inner_html": "RBI"
+      },
+      {
+        "href": "https://www.investing.com/central-banks/people's-bank-of-china",
+        "inner_text": "PBOC",
+        "inner_html": "PBOC"
+      },
+      {
+        "href": "https://www.investing.com/central-banks/central-bank-of-brazil",
+        "inner_text": "BCB",
+        "inner_html": "BCB"
+      },
+      {
+        "href": "https://www.investing.com/blog/",
+        "inner_text": "Blog",
+        "inner_html": "Blog"
+      },
+      {
+        "href": "https://www.investing.com/mobile/",
+        "inner_text": "Mobile",
+        "inner_html": "Mobile"
+      },
+      {
+        "href": "https://www.investing.com/about-us/",
+        "inner_text": "About Us",
+        "inner_html": "About Us"
+      },
+      {
+        "href": "https://www.investingmediakit.com/",
+        "inner_text": "Advertise",
+        "inner_html": "Advertise"
+      },
+      {
+        "href": "https://www.investing.com/about-us/contact-us",
+        "inner_text": "Help & Support",
+        "inner_html": "Help &amp; Support"
+      },
+      {
+        "href": "https://www.investing.com/lp/authors",
+        "inner_text": "Authors",
+        "inner_html": "Authors"
+      },
+      {
+        "href": "https://app.appsflyer.com/com.fusionmedia.investing?pid=direct_inv&c=web&af_channel=/&af_adset=www&af_ad=footer",
+        "inner_text": "",
+        "inner_html": "<img src=\"https://i-invdn-com.akamaized.net/footer/img6/googleplay_com.png\" alt=\"DOWNLOAD APP\">"
+      },
+      {
+        "href": "https://app.appsflyer.com/id909998122?pid=direct_inv&c=web&af_channel=/&af_adset=www&af_ad=footer",
+        "inner_text": "",
+        "inner_html": "<img src=\"https://i-invdn-com.akamaized.net/footer/img6/appstore_com.png\" alt=\"App store\">"
+      },
+      {
+        "href": "https://www.facebook.com/investingdotcom",
+        "inner_text": "",
+        "inner_html": ""
+      },
+      {
+        "href": "https://twitter.com/investingcom",
+        "inner_text": "",
+        "inner_html": ""
+      },
+      {
+        "href": "https://www.investing.com/about-us/terms-and-conditions",
+        "inner_text": "Terms And Conditions",
+        "inner_html": "Terms And Conditions"
+      },
+      {
+        "href": "https://www.investing.com/about-us/privacy-policy",
+        "inner_text": "Privacy Policy",
+        "inner_html": "Privacy Policy"
+      },
+      {
+        "href": "https://www.investing.com/about-us/risk-warning",
+        "inner_text": "Risk Warning",
+        "inner_html": "Risk Warning"
+      },
+      {
+        "href": "https://cookiepedia.co.uk/giving-consent-to-cookies",
+        "inner_text": "More information",
+        "inner_html": "More information"
+      },
+      {
+        "href": "https://tcf.cookiepedia.co.uk/?lang=en",
+        "inner_text": " | View Full Legal Text Opens in a new window",
+        "inner_html": "&nbsp;|&nbsp;View Full Legal Text&nbsp;<span class=\"ot-scrn-rdr\">Opens in a new window</span>"
+      },
+      {
+        "href": "https://www.cookiepro.com/products/cookie-consent/",
+        "inner_text": "",
+        "inner_html": ""
+      }
+    ],
+    "social": [
+      {
+        "href": "https://www.facebook.com/investingdotcom",
+        "inner_text": "",
+        "inner_html": ""
+      },
+      {
+        "href": "https://twitter.com/investingcom",
+        "inner_text": "",
+        "inner_html": ""
+      }
+    ],
+    "keywords": [
+      {
+        "href": "https://www.investing.com/about-us/privacy-policy",
+        "inner_text": "Privacy Policy",
+        "inner_html": "Privacy Policy"
+      },
+      {
+        "href": "https://tcf.cookiepedia.co.uk/?lang=en",
+        "inner_text": " | View Full Legal Text Opens in a new window",
+        "inner_html": "&nbsp;|&nbsp;View Full Legal Text&nbsp;<span class=\"ot-scrn-rdr\">Opens in a new window</span>"
+      }
+    ]
+  },
+  "unsafeForms": [],
+  "browsing_history": [
+    "https://www.investing.com/"
+  ],
+  "websockets": {
+    "35187.240": {
+      "timestamp": "2021-05-20T15:33:23.791Z",
+      "url": "wss://stream211.forexpros.com/echo/446/r_mfiuyk/websocket",
+      "messages": [
+        {
+          "timestamp": 10751.067502,
+          "io": "in",
+          "m": [
+            "o"
+          ]
+        },
+        {
+          "timestamp": 10751.068461,
+          "io": "out",
+          "m": [
+            [
+              "{\"_event\":\"bulk-subscribe\",\"tzID\":8,\"message\":\"pid-1057391:%%pid-1061443:%%pid-1061448:%%pid-1062537:%%pid-1061453:%%pid-169:%%pid-166:%%pid-172:%%pid-24441:%%pid-178:%%pid-171:%%pid-14958:%%pid-8830:%%pid-8849:%%pid-1:%%pid-13994:%%pid-23705:%%pid-2:%%pid-3:%%pid-4:%%pid-5:%%pid-7:%%pid-20:%%pid-27:%%pid-179:%%pid-8873:%%pid-8839:%%pid-44336:%%pid-8827:%%event-429997:%%event-428697:%%event-429793:%%event-429419:%%event-428690:%%event-429712:%%event-428688:%%isOpenExch-1:%%isOpenExch-2:%%isOpenPair-8873:%%isOpenPair-8839:%%isOpenPair-44336:%%isOpenPair-8827:%%domain-1:\"}"
+            ]
+          ]
+        },
+        {
+          "timestamp": 10751.070362,
+          "io": "out",
+          "m": [
+            [
+              "{\"_event\":\"UID\",\"UID\":0}"
+            ]
+          ]
+        },
+        {
+          "timestamp": 10751.171629,
+          "io": "in",
+          "m": [
+            "a[\"{\\\"message\\\":\\\"pid-8839::{\\\\\\\"pid\\\\\\\":\\\\\\\"8839\\\\\\\",\\\\\\\"last_dir\\\\\\\":\\\\\\\"\\\\\\\",\\\\\\\"last_numeric\\\\\\\":4153.88,\\\\\\\"last\\\\\\\":\\\\\\\"4,153.88\\\\\\\",\\\\\\\"bid\\\\\\\":\\\\\\\"4,153.75\\\\\\\",\\\\\\\"ask\\\\\\\":\\\\\\\"4,154.00\\\\\\\",\\\\\\\"high\\\\\\\":\\\\\\\"4,154.12\\\\\\\",\\\\\\\"low\\\\\\\":\\\\\\\"4,084.38\\\\\\\",\\\\\\\"pc\\\\\\\":\\\\\\\"+42.38\\\\\\\",\\\\\\\"pcp\\\\\\\":\\\\\\\"+1.03%\\\\\\\",\\\\\\\"pc_col\\\\\\\":\\\\\\\"greenFont\\\\\\\",\\\\\\\"time\\\\\\\":\\\\\\\"15:33:23\\\\\\\",\\\\\\\"timestamp\\\\\\\":1621524802}\\\"}\"]"
+          ]
+        },
+        {
+          "timestamp": 10751.23405,
+          "io": "in",
+          "m": [
+            "a[\"{\\\"message\\\":\\\"pid-8873::{\\\\\\\"pid\\\\\\\":\\\\\\\"8873\\\\\\\",\\\\\\\"last_dir\\\\\\\":\\\\\\\"redBg\\\\\\\",\\\\\\\"last_numeric\\\\\\\":34088,\\\\\\\"last\\\\\\\":\\\\\\\"34,088.0\\\\\\\",\\\\\\\"bid\\\\\\\":\\\\\\\"34,089.0\\\\\\\",\\\\\\\"ask\\\\\\\":\\\\\\\"34,090.0\\\\\\\",\\\\\\\"high\\\\\\\":\\\\\\\"34,093.0\\\\\\\",\\\\\\\"low\\\\\\\":\\\\\\\"33,586.0\\\\\\\",\\\\\\\"pc\\\\\\\":\\\\\\\"+257.0\\\\\\\",\\\\\\\"pcp\\\\\\\":\\\\\\\"+0.76%\\\\\\\",\\\\\\\"pc_col\\\\\\\":\\\\\\\"greenFont\\\\\\\",\\\\\\\"time\\\\\\\":\\\\\\\"15:33:23\\\\\\\",\\\\\\\"timestamp\\\\\\\":1621524802}\\\"}\"]"
+          ]
+        },
+        {
+          "timestamp": 10751.25402,
+          "io": "in",
+          "m": [
+            "a[\"{\\\"message\\\":\\\"pid-2::{\\\\\\\"pid\\\\\\\":\\\\\\\"2\\\\\\\",\\\\\\\"last_dir\\\\\\\":\\\\\\\"greenBg\\\\\\\",\\\\\\\"last_numeric\\\\\\\":1.4163,\\\\\\\"last\\\\\\\":\\\\\\\"1.4163\\\\\\\",\\\\\\\"bid\\\\\\\":\\\\\\\"1.4163\\\\\\\",\\\\\\\"ask\\\\\\\":\\\\\\\"1.4164\\\\\\\",\\\\\\\"high\\\\\\\":\\\\\\\"1.4171\\\\\\\",\\\\\\\"low\\\\\\\":\\\\\\\"1.4102\\\\\\\",\\\\\\\"last_close\\\\\\\":\\\\\\\"1.4113\\\\\\\",\\\\\\\"pc\\\\\\\":\\\\\\\"+0.0050\\\\\\\",\\\\\\\"pcp\\\\\\\":\\\\\\\"+0.36%\\\\\\\",\\\\\\\"pc_col\\\\\\\":\\\\\\\"greenFont\\\\\\\",\\\\\\\"turnover\\\\\\\":\\\\\\\"85.13K\\\\\\\",\\\\\\\"turnover_numeric\\\\\\\":\\\\\\\"85125\\\\\\\",\\\\\\\"time\\\\\\\":\\\\\\\"15:33:24\\\\\\\",\\\\\\\"timestamp\\\\\\\":1621524801}\\\"}\"]"
+          ]
+        },
+        {
+          "timestamp": 10751.446664,
+          "io": "in",
+          "m": [
+            "a[\"{\\\"message\\\":\\\"pid-172::{\\\\\\\"pid\\\\\\\":\\\\\\\"172\\\\\\\",\\\\\\\"last_dir\\\\\\\":\\\\\\\"greenBg\\\\\\\",\\\\\\\"last_numeric\\\\\\\":15354,\\\\\\\"last\\\\\\\":\\\\\\\"15,354.00\\\\\\\",\\\\\\\"bid\\\\\\\":\\\\\\\"15,353.15\\\\\\\",\\\\\\\"ask\\\\\\\":\\\\\\\"15,354.85\\\\\\\",\\\\\\\"high\\\\\\\":\\\\\\\"15,354.10\\\\\\\",\\\\\\\"low\\\\\\\":\\\\\\\"15,100.38\\\\\\\",\\\\\\\"pc\\\\\\\":\\\\\\\"+240.44\\\\\\\",\\\\\\\"pcp\\\\\\\":\\\\\\\"+1.59%\\\\\\\",\\\\\\\"pc_col\\\\\\\":\\\\\\\"greenFont\\\\\\\",\\\\\\\"time\\\\\\\":\\\\\\\"17:33:24\\\\\\\",\\\\\\\"timestamp\\\\\\\":1621524804}\\\"}\"]"
+          ]
+        },
+        {
+          "timestamp": 10752.039119,
+          "io": "in",
+          "m": [
+            "a[\"{\\\"message\\\":\\\"pid-1062537::{\\\\\\\"pid\\\\\\\":\\\\\\\"1062537\\\\\\\",\\\\\\\"last_dir\\\\\\\":\\\\\\\"greenBg\\\\\\\",\\\\\\\"last_numeric\\\\\\\":1.858691,\\\\\\\"last\\\\\\\":\\\\\\\"1.858691\\\\\\\",\\\\\\\"bid\\\\\\\":\\\\\\\"0.000000\\\\\\\",\\\\\\\"ask\\\\\\\":\\\\\\\"0.000000\\\\\\\",\\\\\\\"high\\\\\\\":\\\\\\\"1.939424\\\\\\\",\\\\\\\"low\\\\\\\":\\\\\\\"1.332379\\\\\\\",\\\\\\\"last_close\\\\\\\":\\\\\\\"1.526502\\\\\\\",\\\\\\\"pc\\\\\\\":\\\\\\\"+0.332189\\\\\\\",\\\\\\\"pcp\\\\\\\":\\\\\\\"+21.76%\\\\\\\",\\\\\\\"pc_col\\\\\\\":\\\\\\\"greenFont\\\\\\\",\\\\\\\"turnover\\\\\\\":\\\\\\\"2.26B\\\\\\\",\\\\\\\"turnover_numeric\\\\\\\":2255075468,\\\\\\\"time\\\\\\\":\\\\\\\"15:33:24\\\\\\\",\\\\\\\"timestamp\\\\\\\":1621524804}\\\"}\"]"
+          ]
+        },
+        {
+          "timestamp": 10752.2045,
+          "io": "in",
+          "m": [
+            "a[\"{\\\"message\\\":\\\"pid-27::{\\\\\\\"pid\\\\\\\":\\\\\\\"27\\\\\\\",\\\\\\\"last_dir\\\\\\\":\\\\\\\"redBg\\\\\\\",\\\\\\\"last_numeric\\\\\\\":7020.4,\\\\\\\"last\\\\\\\":\\\\\\\"7,020.40\\\\\\\",\\\\\\\"bid\\\\\\\":\\\\\\\"7,019.00\\\\\\\",\\\\\\\"ask\\\\\\\":\\\\\\\"7,021.80\\\\\\\",\\\\\\\"high\\\\\\\":\\\\\\\"7,021.57\\\\\\\",\\\\\\\"low\\\\\\\":\\\\\\\"6,925.15\\\\\\\",\\\\\\\"pc\\\\\\\":\\\\\\\"+70.20\\\\\\\",\\\\\\\"pcp\\\\\\\":\\\\\\\"+1.01%\\\\\\\",\\\\\\\"pc_col\\\\\\\":\\\\\\\"greenFont\\\\\\\",\\\\\\\"time\\\\\\\":\\\\\\\"16:33:25\\\\\\\",\\\\\\\"timestamp\\\\\\\":1621524805}\\\"}\"]"
+          ]
+        },
+        {
+          "timestamp": 10752.447541,
+          "io": "in",
+          "m": [
+            "a[\"{\\\"message\\\":\\\"pid-5::{\\\\\\\"pid\\\\\\\":\\\\\\\"5\\\\\\\",\\\\\\\"last_dir\\\\\\\":\\\\\\\"greenBg\\\\\\\",\\\\\\\"last_numeric\\\\\\\":0.7771,\\\\\\\"last\\\\\\\":\\\\\\\"0.7771\\\\\\\",\\\\\\\"bid\\\\\\\":\\\\\\\"0.7770\\\\\\\",\\\\\\\"ask\\\\\\\":\\\\\\\"0.7771\\\\\\\",\\\\\\\"high\\\\\\\":\\\\\\\"0.7780\\\\\\\",\\\\\\\"low\\\\\\\":\\\\\\\"0.7718\\\\\\\",\\\\\\\"last_close\\\\\\\":\\\\\\\"0.7726\\\\\\\",\\\\\\\"pc\\\\\\\":\\\\\\\"+0.0045\\\\\\\",\\\\\\\"pcp\\\\\\\":\\\\\\\"+0.58%\\\\\\\",\\\\\\\"pc_col\\\\\\\":\\\\\\\"greenFont\\\\\\\",\\\\\\\"turnover\\\\\\\":\\\\\\\"47.20K\\\\\\\",\\\\\\\"turnover_numeric\\\\\\\":\\\\\\\"47201\\\\\\\",\\\\\\\"time\\\\\\\":\\\\\\\"15:33:25\\\\\\\",\\\\\\\"timestamp\\\\\\\":1621524803}\\\"}\"]"
+          ]
+        },
+        {
+          "timestamp": 10752.58296,
+          "io": "in",
+          "m": [
+            "a[\"{\\\"message\\\":\\\"pid-4::{\\\\\\\"pid\\\\\\\":\\\\\\\"4\\\\\\\",\\\\\\\"last_dir\\\\\\\":\\\\\\\"redBg\\\\\\\",\\\\\\\"last_numeric\\\\\\\":0.8996,\\\\\\\"last\\\\\\\":\\\\\\\"0.8996\\\\\\\",\\\\\\\"bid\\\\\\\":\\\\\\\"0.8994\\\\\\\",\\\\\\\"ask\\\\\\\":\\\\\\\"0.8998\\\\\\\",\\\\\\\"high\\\\\\\":\\\\\\\"0.9048\\\\\\\",\\\\\\\"low\\\\\\\":\\\\\\\"0.8989\\\\\\\",\\\\\\\"last_close\\\\\\\":\\\\\\\"0.9038\\\\\\\",\\\\\\\"pc\\\\\\\":\\\\\\\"-0.0042\\\\\\\",\\\\\\\"pcp\\\\\\\":\\\\\\\"-0.46%\\\\\\\",\\\\\\\"pc_col\\\\\\\":\\\\\\\"redFont\\\\\\\",\\\\\\\"turnover\\\\\\\":\\\\\\\"26.51K\\\\\\\",\\\\\\\"turnover_numeric\\\\\\\":\\\\\\\"26511\\\\\\\",\\\\\\\"time\\\\\\\":\\\\\\\"15:33:25\\\\\\\",\\\\\\\"timestamp\\\\\\\":1621524804}\\\"}\"]"
+          ]
+        },
+        {
+          "timestamp": 10752.841562,
+          "io": "in",
+          "m": [
+            "a[\"{\\\"message\\\":\\\"pid-1061448::{\\\\\\\"pid\\\\\\\":\\\\\\\"1061448\\\\\\\",\\\\\\\"last_dir\\\\\\\":\\\\\\\"greenBg\\\\\\\",\\\\\\\"last_numeric\\\\\\\":407.79,\\\\\\\"last\\\\\\\":\\\\\\\"407.79\\\\\\\",\\\\\\\"bid\\\\\\\":\\\\\\\"0.00\\\\\\\",\\\\\\\"ask\\\\\\\":\\\\\\\"0.00\\\\\\\",\\\\\\\"high\\\\\\\":\\\\\\\"423.50\\\\\\\",\\\\\\\"low\\\\\\\":\\\\\\\"287.48\\\\\\\",\\\\\\\"last_close\\\\\\\":\\\\\\\"355.83\\\\\\\",\\\\\\\"pc\\\\\\\":\\\\\\\"+51.96\\\\\\\",\\\\\\\"pcp\\\\\\\":\\\\\\\"+14.60%\\\\\\\",\\\\\\\"pc_col\\\\\\\":\\\\\\\"greenFont\\\\\\\",\\\\\\\"turnover\\\\\\\":\\\\\\\"9.63M\\\\\\\",\\\\\\\"turnover_numeric\\\\\\\":9625005,\\\\\\\"time\\\\\\\":\\\\\\\"15:33:25\\\\\\\",\\\\\\\"timestamp\\\\\\\":1621524805}\\\"}\"]"
+          ]
+        },
+        {
+          "timestamp": 10753.133692,
+          "io": "in",
+          "m": [
+            "a[\"{\\\"message\\\":\\\"pid-166::{\\\\\\\"pid\\\\\\\":\\\\\\\"166\\\\\\\",\\\\\\\"last_dir\\\\\\\":\\\\\\\"redBg\\\\\\\",\\\\\\\"last_numeric\\\\\\\":4157.91,\\\\\\\"last\\\\\\\":\\\\\\\"4,157.91\\\\\\\",\\\\\\\"bid\\\\\\\":\\\\\\\"4,157.71\\\\\\\",\\\\\\\"ask\\\\\\\":\\\\\\\"4,158.11\\\\\\\",\\\\\\\"high\\\\\\\":\\\\\\\"4,158.90\\\\\\\",\\\\\\\"low\\\\\\\":\\\\\\\"4,123.96\\\\\\\",\\\\\\\"pc\\\\\\\":\\\\\\\"+42.23\\\\\\\",\\\\\\\"pcp\\\\\\\":\\\\\\\"+1.03%\\\\\\\",\\\\\\\"pc_col\\\\\\\":\\\\\\\"greenFont\\\\\\\",\\\\\\\"time\\\\\\\":\\\\\\\"11:33:25\\\\\\\",\\\\\\\"timestamp\\\\\\\":1621524805}\\\"}\"]"
+          ]
+        },
+        {
+          "timestamp": 10753.160355,
+          "io": "in",
+          "m": [
+            "a[\"{\\\"message\\\":\\\"pid-8830::{\\\\\\\"pid\\\\\\\":\\\\\\\"8830\\\\\\\",\\\\\\\"last_dir\\\\\\\":\\\\\\\"greenBg\\\\\\\",\\\\\\\"last_numeric\\\\\\\":1878.5,\\\\\\\"last\\\\\\\":\\\\\\\"1,878.50\\\\\\\",\\\\\\\"bid\\\\\\\":\\\\\\\"1,878.40\\\\\\\",\\\\\\\"ask\\\\\\\":\\\\\\\"1,878.60\\\\\\\",\\\\\\\"high\\\\\\\":\\\\\\\"1,881.25\\\\\\\",\\\\\\\"low\\\\\\\":\\\\\\\"1,864.25\\\\\\\",\\\\\\\"pc\\\\\\\":\\\\\\\"-3.00\\\\\\\",\\\\\\\"pcp\\\\\\\":\\\\\\\"-0.16%\\\\\\\",\\\\\\\"pc_col\\\\\\\":\\\\\\\"redFont\\\\\\\",\\\\\\\"time\\\\\\\":\\\\\\\"15:33:26\\\\\\\",\\\\\\\"timestamp\\\\\\\":1621524802}\\\"}\"]"
+          ]
+        },
+        {
+          "timestamp": 10753.189753,
+          "io": "in",
+          "m": [
+            "a[\"{\\\"message\\\":\\\"pid-8839::{\\\\\\\"pid\\\\\\\":\\\\\\\"8839\\\\\\\",\\\\\\\"last_dir\\\\\\\":\\\\\\\"redBg\\\\\\\",\\\\\\\"last_numeric\\\\\\\":4153.62,\\\\\\\"last\\\\\\\":\\\\\\\"4,153.62\\\\\\\",\\\\\\\"bid\\\\\\\":\\\\\\\"4,153.50\\\\\\\",\\\\\\\"ask\\\\\\\":\\\\\\\"4,153.75\\\\\\\",\\\\\\\"high\\\\\\\":\\\\\\\"4,154.12\\\\\\\",\\\\\\\"low\\\\\\\":\\\\\\\"4,084.38\\\\\\\",\\\\\\\"pc\\\\\\\":\\\\\\\"+42.12\\\\\\\",\\\\\\\"pcp\\\\\\\":\\\\\\\"+1.02%\\\\\\\",\\\\\\\"pc_col\\\\\\\":\\\\\\\"greenFont\\\\\\\",\\\\\\\"time\\\\\\\":\\\\\\\"15:33:26\\\\\\\",\\\\\\\"timestamp\\\\\\\":1621524804}\\\"}\"]"
+          ]
+        },
+        {
+          "timestamp": 10753.233784,
+          "io": "in",
+          "m": [
+            "a[\"{\\\"message\\\":\\\"pid-8873::{\\\\\\\"pid\\\\\\\":\\\\\\\"8873\\\\\\\",\\\\\\\"last_dir\\\\\\\":\\\\\\\"greenBg\\\\\\\",\\\\\\\"last_numeric\\\\\\\":34088.5,\\\\\\\"last\\\\\\\":\\\\\\\"34,088.5\\\\\\\",\\\\\\\"bid\\\\\\\":\\\\\\\"34,088.0\\\\\\\",\\\\\\\"ask\\\\\\\":\\\\\\\"34,089.0\\\\\\\",\\\\\\\"high\\\\\\\":\\\\\\\"34,093.0\\\\\\\",\\\\\\\"low\\\\\\\":\\\\\\\"33,586.0\\\\\\\",\\\\\\\"pc\\\\\\\":\\\\\\\"+257.5\\\\\\\",\\\\\\\"pcp\\\\\\\":\\\\\\\"+0.76%\\\\\\\",\\\\\\\"pc_col\\\\\\\":\\\\\\\"greenFont\\\\\\\",\\\\\\\"time\\\\\\\":\\\\\\\"15:33:26\\\\\\\",\\\\\\\"timestamp\\\\\\\":1621524804}\\\"}\"]"
+          ]
+        },
+        {
+          "timestamp": 10753.486313,
+          "io": "in",
+          "m": [
+            "a[\"{\\\"message\\\":\\\"pid-1::{\\\\\\\"pid\\\\\\\":\\\\\\\"1\\\\\\\",\\\\\\\"last_dir\\\\\\\":\\\\\\\"redBg\\\\\\\",\\\\\\\"last_numeric\\\\\\\":1.2211,\\\\\\\"last\\\\\\\":\\\\\\\"1.2211\\\\\\\",\\\\\\\"bid\\\\\\\":\\\\\\\"1.2209\\\\\\\",\\\\\\\"ask\\\\\\\":\\\\\\\"1.2213\\\\\\\",\\\\\\\"high\\\\\\\":\\\\\\\"1.2220\\\\\\\",\\\\\\\"low\\\\\\\":\\\\\\\"1.2169\\\\\\\",\\\\\\\"last_close\\\\\\\":\\\\\\\"1.2172\\\\\\\",\\\\\\\"pc\\\\\\\":\\\\\\\"+0.0039\\\\\\\",\\\\\\\"pcp\\\\\\\":\\\\\\\"+0.32%\\\\\\\",\\\\\\\"pc_col\\\\\\\":\\\\\\\"greenFont\\\\\\\",\\\\\\\"turnover\\\\\\\":\\\\\\\"86.11K\\\\\\\",\\\\\\\"turnover_numeric\\\\\\\":\\\\\\\"86106\\\\\\\",\\\\\\\"time\\\\\\\":\\\\\\\"15:33:26\\\\\\\",\\\\\\\"timestamp\\\\\\\":1621524804}\\\"}\"]"
+          ]
+        },
+        {
+          "timestamp": 10753.497417,
+          "io": "in",
+          "m": [
+            "a[\"{\\\"message\\\":\\\"pid-7::{\\\\\\\"pid\\\\\\\":\\\\\\\"7\\\\\\\",\\\\\\\"last_dir\\\\\\\":\\\\\\\"greenBg\\\\\\\",\\\\\\\"last_numeric\\\\\\\":1.2065,\\\\\\\"last\\\\\\\":\\\\\\\"1.2065\\\\\\\",\\\\\\\"bid\\\\\\\":\\\\\\\"1.2063\\\\\\\",\\\\\\\"ask\\\\\\\":\\\\\\\"1.2067\\\\\\\",\\\\\\\"high\\\\\\\":\\\\\\\"1.2145\\\\\\\",\\\\\\\"low\\\\\\\":\\\\\\\"1.2051\\\\\\\",\\\\\\\"last_close\\\\\\\":\\\\\\\"1.2131\\\\\\\",\\\\\\\"pc\\\\\\\":\\\\\\\"-0.0066\\\\\\\",\\\\\\\"pcp\\\\\\\":\\\\\\\"-0.54%\\\\\\\",\\\\\\\"pc_col\\\\\\\":\\\\\\\"redFont\\\\\\\",\\\\\\\"turnover\\\\\\\":\\\\\\\"57.27K\\\\\\\",\\\\\\\"turnover_numeric\\\\\\\":\\\\\\\"57273\\\\\\\",\\\\\\\"time\\\\\\\":\\\\\\\"15:33:26\\\\\\\",\\\\\\\"timestamp\\\\\\\":1621524805}\\\"}\"]"
+          ]
+        },
+        {
+          "timestamp": 10753.79503,
+          "io": "in",
+          "m": [
+            "a[\"{\\\"message\\\":\\\"pid-1061443::{\\\\\\\"pid\\\\\\\":\\\\\\\"1061443\\\\\\\",\\\\\\\"last_dir\\\\\\\":\\\\\\\"redBg\\\\\\\",\\\\\\\"last_numeric\\\\\\\":2912.09,\\\\\\\"last\\\\\\\":\\\\\\\"2,912.09\\\\\\\",\\\\\\\"bid\\\\\\\":\\\\\\\"0.00\\\\\\\",\\\\\\\"ask\\\\\\\":\\\\\\\"0.00\\\\\\\",\\\\\\\"high\\\\\\\":\\\\\\\"2,988.52\\\\\\\",\\\\\\\"low\\\\\\\":\\\\\\\"2,163.40\\\\\\\",\\\\\\\"last_close\\\\\\\":\\\\\\\"2,591.62\\\\\\\",\\\\\\\"pc\\\\\\\":\\\\\\\"+320.47\\\\\\\",\\\\\\\"pcp\\\\\\\":\\\\\\\"+12.37%\\\\\\\",\\\\\\\"pc_col\\\\\\\":\\\\\\\"greenFont\\\\\\\",\\\\\\\"turnover\\\\\\\":\\\\\\\"4.98M\\\\\\\",\\\\\\\"turnover_numeric\\\\\\\":4976030,\\\\\\\"time\\\\\\\":\\\\\\\"15:33:26\\\\\\\",\\\\\\\"timestamp\\\\\\\":1621524806}\\\"}\"]"
+          ]
+        },
+        {
+          "timestamp": 10753.826688,
+          "io": "in",
+          "m": [
+            "a[\"{\\\"message\\\":\\\"pid-1061453::{\\\\\\\"pid\\\\\\\":\\\\\\\"1061453\\\\\\\",\\\\\\\"last_dir\\\\\\\":\\\\\\\"greenBg\\\\\\\",\\\\\\\"last_numeric\\\\\\\":1.0013,\\\\\\\"last\\\\\\\":\\\\\\\"1.0013\\\\\\\",\\\\\\\"bid\\\\\\\":\\\\\\\"0.0000\\\\\\\",\\\\\\\"ask\\\\\\\":\\\\\\\"0.0000\\\\\\\",\\\\\\\"high\\\\\\\":\\\\\\\"1.0026\\\\\\\",\\\\\\\"low\\\\\\\":\\\\\\\"1.0010\\\\\\\",\\\\\\\"last_close\\\\\\\":\\\\\\\"1.0028\\\\\\\",\\\\\\\"pc\\\\\\\":\\\\\\\"-0.0015\\\\\\\",\\\\\\\"pcp\\\\\\\":\\\\\\\"-0.15%\\\\\\\",\\\\\\\"pc_col\\\\\\\":\\\\\\\"redFont\\\\\\\",\\\\\\\"turnover\\\\\\\":\\\\\\\"632.64M\\\\\\\",\\\\\\\"turnover_numeric\\\\\\\":632636766,\\\\\\\"time\\\\\\\":\\\\\\\"15:33:26\\\\\\\",\\\\\\\"timestamp\\\\\\\":1621524806}\\\"}\"]"
+          ]
+        },
+        {
+          "timestamp": 10753.936187,
+          "io": "in",
+          "m": [
+            "a[\"{\\\"message\\\":\\\"pid-20::{\\\\\\\"pid\\\\\\\":\\\\\\\"20\\\\\\\",\\\\\\\"last_dir\\\\\\\":\\\\\\\"redBg\\\\\\\",\\\\\\\"last_numeric\\\\\\\":13471.62,\\\\\\\"last\\\\\\\":\\\\\\\"13,471.62\\\\\\\",\\\\\\\"bid\\\\\\\":\\\\\\\"0.00\\\\\\\",\\\\\\\"ask\\\\\\\":\\\\\\\"0.00\\\\\\\",\\\\\\\"high\\\\\\\":\\\\\\\"13,473.38\\\\\\\",\\\\\\\"low\\\\\\\":\\\\\\\"13,293.10\\\\\\\",\\\\\\\"last_close\\\\\\\":\\\\\\\"13,237.91\\\\\\\",\\\\\\\"pc\\\\\\\":\\\\\\\"+233.71\\\\\\\",\\\\\\\"pcp\\\\\\\":\\\\\\\"+1.77%\\\\\\\",\\\\\\\"pc_col\\\\\\\":\\\\\\\"greenFont\\\\\\\",\\\\\\\"turnover\\\\\\\":\\\\\\\"53.88M\\\\\\\",\\\\\\\"turnover_numeric\\\\\\\":\\\\\\\"53876030\\\\\\\",\\\\\\\"time\\\\\\\":\\\\\\\"15:33:26\\\\\\\",\\\\\\\"timestamp\\\\\\\":1621524780}\\\"}\"]"
+          ]
+        },
+        {
+          "timestamp": 10754.033337,
+          "io": "in",
+          "m": [
+            "a[\"{\\\"message\\\":\\\"pid-14958::{\\\\\\\"pid\\\\\\\":\\\\\\\"14958\\\\\\\",\\\\\\\"last_dir\\\\\\\":\\\\\\\"redBg\\\\\\\",\\\\\\\"last_numeric\\\\\\\":13512.8,\\\\\\\"last\\\\\\\":\\\\\\\"13,512.80\\\\\\\",\\\\\\\"bid\\\\\\\":\\\\\\\"0.00\\\\\\\",\\\\\\\"ask\\\\\\\":\\\\\\\"0.00\\\\\\\",\\\\\\\"high\\\\\\\":\\\\\\\"13,513.60\\\\\\\",\\\\\\\"low\\\\\\\":\\\\\\\"13,355.71\\\\\\\",\\\\\\\"last_close\\\\\\\":\\\\\\\"13,299.74\\\\\\\",\\\\\\\"pc\\\\\\\":\\\\\\\"+213.06\\\\\\\",\\\\\\\"pcp\\\\\\\":\\\\\\\"+1.60%\\\\\\\",\\\\\\\"pc_col\\\\\\\":\\\\\\\"greenFont\\\\\\\",\\\\\\\"turnover\\\\\\\":\\\\\\\"273.13M\\\\\\\",\\\\\\\"turnover_numeric\\\\\\\":\\\\\\\"273130132\\\\\\\",\\\\\\\"time\\\\\\\":\\\\\\\"15:33:26\\\\\\\",\\\\\\\"timestamp\\\\\\\":1621524780}\\\"}\"]"
+          ]
+        },
+        {
+          "timestamp": 10754.068913,
+          "io": "out",
+          "m": [
+            [
+              "{\"_event\":\"heartbeat\",\"data\":\"h\"}"
+            ]
+          ]
+        },
+        {
+          "timestamp": 10754.111663,
+          "io": "in",
+          "m": [
+            "a[\"{\\\"_event\\\":\\\"heartbeat\\\",\\\"data\\\":\\\"h\\\"}\"]"
+          ]
+        },
+        {
+          "timestamp": 10755.116737,
+          "io": "in",
+          "m": [
+            "a[\"{\\\"message\\\":\\\"pid-3::{\\\\\\\"pid\\\\\\\":\\\\\\\"3\\\\\\\",\\\\\\\"last_dir\\\\\\\":\\\\\\\"greenBg\\\\\\\",\\\\\\\"last_numeric\\\\\\\":108.84,\\\\\\\"last\\\\\\\":\\\\\\\"108.84\\\\\\\",\\\\\\\"bid\\\\\\\":\\\\\\\"108.83\\\\\\\",\\\\\\\"ask\\\\\\\":\\\\\\\"108.84\\\\\\\",\\\\\\\"high\\\\\\\":\\\\\\\"109.31\\\\\\\",\\\\\\\"low\\\\\\\":\\\\\\\"108.75\\\\\\\",\\\\\\\"last_close\\\\\\\":\\\\\\\"109.21\\\\\\\",\\\\\\\"pc\\\\\\\":\\\\\\\"-0.37\\\\\\\",\\\\\\\"pcp\\\\\\\":\\\\\\\"-0.34%\\\\\\\",\\\\\\\"pc_col\\\\\\\":\\\\\\\"redFont\\\\\\\",\\\\\\\"turnover\\\\\\\":\\\\\\\"71.00K\\\\\\\",\\\\\\\"turnover_numeric\\\\\\\":\\\\\\\"70999\\\\\\\",\\\\\\\"time\\\\\\\":\\\\\\\"15:33:27\\\\\\\",\\\\\\\"timestamp\\\\\\\":1621524806}\\\"}\"]"
+          ]
+        },
+        {
+          "timestamp": 10755.205507,
+          "io": "in",
+          "m": [
+            "a[\"{\\\"message\\\":\\\"pid-8839::{\\\\\\\"pid\\\\\\\":\\\\\\\"8839\\\\\\\",\\\\\\\"last_dir\\\\\\\":\\\\\\\"\\\\\\\",\\\\\\\"last_numeric\\\\\\\":4153.62,\\\\\\\"last\\\\\\\":\\\\\\\"4,153.62\\\\\\\",\\\\\\\"bid\\\\\\\":\\\\\\\"4,153.50\\\\\\\",\\\\\\\"ask\\\\\\\":\\\\\\\"4,153.75\\\\\\\",\\\\\\\"high\\\\\\\":\\\\\\\"4,154.12\\\\\\\",\\\\\\\"low\\\\\\\":\\\\\\\"4,084.38\\\\\\\",\\\\\\\"pc\\\\\\\":\\\\\\\"+42.12\\\\\\\",\\\\\\\"pcp\\\\\\\":\\\\\\\"+1.02%\\\\\\\",\\\\\\\"pc_col\\\\\\\":\\\\\\\"greenFont\\\\\\\",\\\\\\\"time\\\\\\\":\\\\\\\"15:33:28\\\\\\\",\\\\\\\"timestamp\\\\\\\":1621524804}\\\"}\"]"
+          ]
+        },
+        {
+          "timestamp": 10755.269102,
+          "io": "in",
+          "m": [
+            "a[\"{\\\"message\\\":\\\"pid-8873::{\\\\\\\"pid\\\\\\\":\\\\\\\"8873\\\\\\\",\\\\\\\"last_dir\\\\\\\":\\\\\\\"greenBg\\\\\\\",\\\\\\\"last_numeric\\\\\\\":34089,\\\\\\\"last\\\\\\\":\\\\\\\"34,089.0\\\\\\\",\\\\\\\"bid\\\\\\\":\\\\\\\"34,088.0\\\\\\\",\\\\\\\"ask\\\\\\\":\\\\\\\"34,090.0\\\\\\\",\\\\\\\"high\\\\\\\":\\\\\\\"34,093.0\\\\\\\",\\\\\\\"low\\\\\\\":\\\\\\\"33,586.0\\\\\\\",\\\\\\\"pc\\\\\\\":\\\\\\\"+258.0\\\\\\\",\\\\\\\"pcp\\\\\\\":\\\\\\\"+0.76%\\\\\\\",\\\\\\\"pc_col\\\\\\\":\\\\\\\"greenFont\\\\\\\",\\\\\\\"time\\\\\\\":\\\\\\\"15:33:28\\\\\\\",\\\\\\\"timestamp\\\\\\\":1621524805}\\\"}\"]"
+          ]
+        },
+        {
+          "timestamp": 10755.563872,
+          "io": "in",
+          "m": [
+            "a[\"{\\\"message\\\":\\\"pid-166::{\\\\\\\"pid\\\\\\\":\\\\\\\"166\\\\\\\",\\\\\\\"last_dir\\\\\\\":\\\\\\\"greenBg\\\\\\\",\\\\\\\"last_numeric\\\\\\\":4158.4,\\\\\\\"last\\\\\\\":\\\\\\\"4,158.40\\\\\\\",\\\\\\\"bid\\\\\\\":\\\\\\\"4,158.20\\\\\\\",\\\\\\\"ask\\\\\\\":\\\\\\\"4,158.60\\\\\\\",\\\\\\\"high\\\\\\\":\\\\\\\"4,158.90\\\\\\\",\\\\\\\"low\\\\\\\":\\\\\\\"4,123.96\\\\\\\",\\\\\\\"pc\\\\\\\":\\\\\\\"+42.72\\\\\\\",\\\\\\\"pcp\\\\\\\":\\\\\\\"+1.04%\\\\\\\",\\\\\\\"pc_col\\\\\\\":\\\\\\\"greenFont\\\\\\\",\\\\\\\"time\\\\\\\":\\\\\\\"11:33:28\\\\\\\",\\\\\\\"timestamp\\\\\\\":1621524808}\\\"}\"]"
+          ]
+        },
+        {
+          "timestamp": 10755.578506,
+          "io": "in",
+          "m": [
+            "a[\"{\\\"message\\\":\\\"pid-27::{\\\\\\\"pid\\\\\\\":\\\\\\\"27\\\\\\\",\\\\\\\"last_dir\\\\\\\":\\\\\\\"redBg\\\\\\\",\\\\\\\"last_numeric\\\\\\\":7019.9,\\\\\\\"last\\\\\\\":\\\\\\\"7,019.90\\\\\\\",\\\\\\\"bid\\\\\\\":\\\\\\\"7,018.50\\\\\\\",\\\\\\\"ask\\\\\\\":\\\\\\\"7,021.30\\\\\\\",\\\\\\\"high\\\\\\\":\\\\\\\"7,021.57\\\\\\\",\\\\\\\"low\\\\\\\":\\\\\\\"6,925.15\\\\\\\",\\\\\\\"pc\\\\\\\":\\\\\\\"+69.70\\\\\\\",\\\\\\\"pcp\\\\\\\":\\\\\\\"+1.00%\\\\\\\",\\\\\\\"pc_col\\\\\\\":\\\\\\\"greenFont\\\\\\\",\\\\\\\"time\\\\\\\":\\\\\\\"16:33:28\\\\\\\",\\\\\\\"timestamp\\\\\\\":1621524808}\\\"}\"]"
+          ]
+        },
+        {
+          "timestamp": 10756.356636,
+          "io": "in",
+          "m": [
+            "a[\"{\\\"message\\\":\\\"pid-2::{\\\\\\\"pid\\\\\\\":\\\\\\\"2\\\\\\\",\\\\\\\"last_dir\\\\\\\":\\\\\\\"redBg\\\\\\\",\\\\\\\"last_numeric\\\\\\\":1.4164,\\\\\\\"last\\\\\\\":\\\\\\\"1.4164\\\\\\\",\\\\\\\"bid\\\\\\\":\\\\\\\"1.4162\\\\\\\",\\\\\\\"ask\\\\\\\":\\\\\\\"1.4166\\\\\\\",\\\\\\\"high\\\\\\\":\\\\\\\"1.4171\\\\\\\",\\\\\\\"low\\\\\\\":\\\\\\\"1.4102\\\\\\\",\\\\\\\"last_close\\\\\\\":\\\\\\\"1.4113\\\\\\\",\\\\\\\"pc\\\\\\\":\\\\\\\"+0.0051\\\\\\\",\\\\\\\"pcp\\\\\\\":\\\\\\\"+0.36%\\\\\\\",\\\\\\\"pc_col\\\\\\\":\\\\\\\"greenFont\\\\\\\",\\\\\\\"turnover\\\\\\\":\\\\\\\"85.13K\\\\\\\",\\\\\\\"turnover_numeric\\\\\\\":\\\\\\\"85130\\\\\\\",\\\\\\\"time\\\\\\\":\\\\\\\"15:33:29\\\\\\\",\\\\\\\"timestamp\\\\\\\":1621524808}\\\"}\"]"
+          ]
+        },
+        {
+          "timestamp": 10756.466448,
+          "io": "in",
+          "m": [
+            "a[\"{\\\"message\\\":\\\"pid-1057391::{\\\\\\\"pid\\\\\\\":\\\\\\\"1057391\\\\\\\",\\\\\\\"last_dir\\\\\\\":\\\\\\\"redBg\\\\\\\",\\\\\\\"last_numeric\\\\\\\":41597.8,\\\\\\\"last\\\\\\\":\\\\\\\"41,597.8\\\\\\\",\\\\\\\"bid\\\\\\\":\\\\\\\"0.0\\\\\\\",\\\\\\\"ask\\\\\\\":\\\\\\\"0.0\\\\\\\",\\\\\\\"high\\\\\\\":\\\\\\\"42,425.9\\\\\\\",\\\\\\\"low\\\\\\\":\\\\\\\"35,010.4\\\\\\\",\\\\\\\"last_close\\\\\\\":\\\\\\\"37,403.0\\\\\\\",\\\\\\\"pc\\\\\\\":\\\\\\\"+4194.9\\\\\\\",\\\\\\\"pcp\\\\\\\":\\\\\\\"+11.22%\\\\\\\",\\\\\\\"pc_col\\\\\\\":\\\\\\\"greenFont\\\\\\\",\\\\\\\"turnover\\\\\\\":\\\\\\\"386.93K\\\\\\\",\\\\\\\"turnover_numeric\\\\\\\":386934,\\\\\\\"time\\\\\\\":\\\\\\\"15:33:29\\\\\\\",\\\\\\\"timestamp\\\\\\\":1621524809}\\\"}\"]"
+          ]
+        },
+        {
+          "timestamp": 10756.860564,
+          "io": "in",
+          "m": [
+            "a[\"{\\\"message\\\":\\\"pid-172::{\\\\\\\"pid\\\\\\\":\\\\\\\"172\\\\\\\",\\\\\\\"last_dir\\\\\\\":\\\\\\\"redBg\\\\\\\",\\\\\\\"last_numeric\\\\\\\":15353.1,\\\\\\\"last\\\\\\\":\\\\\\\"15,353.10\\\\\\\",\\\\\\\"bid\\\\\\\":\\\\\\\"15,352.25\\\\\\\",\\\\\\\"ask\\\\\\\":\\\\\\\"15,353.95\\\\\\\",\\\\\\\"high\\\\\\\":\\\\\\\"15,354.10\\\\\\\",\\\\\\\"low\\\\\\\":\\\\\\\"15,100.38\\\\\\\",\\\\\\\"pc\\\\\\\":\\\\\\\"+239.54\\\\\\\",\\\\\\\"pcp\\\\\\\":\\\\\\\"+1.58%\\\\\\\",\\\\\\\"pc_col\\\\\\\":\\\\\\\"greenFont\\\\\\\",\\\\\\\"time\\\\\\\":\\\\\\\"17:33:29\\\\\\\",\\\\\\\"timestamp\\\\\\\":1621524809}\\\"}\"]"
+          ]
+        },
+        {
+          "timestamp": 10757.142781,
+          "io": "out",
+          "m": [
+            [
+              "{\"_event\":\"heartbeat\",\"data\":\"h\"}"
+            ]
+          ]
+        }
+      ]
+    }
+  },
+  "cookies": [
+    {
+      "name": "G_ENABLED_IDPS",
+      "value": "google",
+      "domain": "www.investing.com",
+      "path": "/",
+      "expires": 253402257600,
+      "size": 20,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "9999-12-31T12:00:00.000Z",
+      "expiresDays": 2914128.85,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 37,
+            "lineNumber": 274,
+            "fileName": "https://apis.google.com/_/scs/apps-static/_/js/k=oz.gapi.en_US.p7L79FLXQCw.O/m=auth2/rt=j/sv=1/d=1/ed=1/am=AQ/rs=AGLTcCO6hl1EejjzC-wrWbDdgTxPi0Gs8g/cb=gapi.loaded_0",
+            "functionName": "Av",
+            "source": "    at Av (https://apis.google.com/_/scs/apps-static/_/js/k=oz.gapi.en_US.p7L79FLXQCw.O/m=auth2/rt=j/sv=1/d=1/ed=1/am=AQ/rs=AGLTcCO6hl1EejjzC-wrWbDdgTxPi0Gs8g/cb=gapi.loaded_0:274:37)"
+          },
+          {
+            "columnNumber": 247,
+            "lineNumber": 281,
+            "fileName": "https://apis.google.com/_/scs/apps-static/_/js/k=oz.gapi.en_US.p7L79FLXQCw.O/m=auth2/rt=j/sv=1/d=1/ed=1/am=AQ/rs=AGLTcCO6hl1EejjzC-wrWbDdgTxPi0Gs8g/cb=gapi.loaded_0",
+            "functionName": "_.Kv._.h.Tv",
+            "source": "    at _.Kv._.h.Tv (https://apis.google.com/_/scs/apps-static/_/js/k=oz.gapi.en_US.p7L79FLXQCw.O/m=auth2/rt=j/sv=1/d=1/ed=1/am=AQ/rs=AGLTcCO6hl1EejjzC-wrWbDdgTxPi0Gs8g/cb=gapi.loaded_0:281:247)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T15:33:23.653Z",
+        "location": "https://www.investing.com/"
+      },
+      "firstPartyStorage": false
+    },
+    {
+      "name": "adBlockerNewUserDomains",
+      "value": "1621524801",
+      "domain": "investing.com",
+      "path": "/",
+      "expires": 1893456000.700208,
+      "size": 33,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2030-01-01T00:00:00.700Z",
+      "expiresDays": 3147.35,
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.investing.com/",
+            "source": "set in Set-Cookie HTTP response header for https://www.investing.com/"
+          }
+        ],
+        "type": "Cookie.HTTP",
+        "timestamp": "2021-05-20T15:33:21.704Z",
+        "location": "about:blank"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "_ga",
+      "value": "GA1.2.1357021430.1621524803",
+      "domain": "investing.com",
+      "path": "/",
+      "expires": 1684596803,
+      "size": 30,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2023-05-20T15:33:23.000Z",
+      "expiresDays": 730,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 495,
+            "lineNumber": 30,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "zc",
+            "source": "    at zc (https://www.google-analytics.com/analytics.js:30:495)"
+          },
+          {
+            "columnNumber": 15,
+            "lineNumber": 60,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "ma",
+            "source": "    at ma (https://www.google-analytics.com/analytics.js:60:15)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T15:33:23.190Z",
+        "location": "https://www.investing.com/"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "UID",
+      "value": "11KNJFCV1MI4JGKU1XDQSOg1621524803",
+      "domain": "scorecardresearch.com",
+      "path": "/",
+      "expires": 1683732803.503291,
+      "size": 36,
+      "httpOnly": false,
+      "secure": true,
+      "session": false,
+      "sameSite": "None",
+      "expiresUTC": "2023-05-10T15:33:23.503Z",
+      "expiresDays": 720,
+      "firstPartyStorage": false
+    },
+    {
+      "name": "udid",
+      "value": "958c7eec7b320cb3e4e9181bc3a8629c",
+      "domain": "investing.com",
+      "path": "/",
+      "expires": 1653060803.291772,
+      "size": 36,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2022-05-20T15:33:23.291Z",
+      "expiresDays": 365,
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.investing.com/",
+            "source": "set in Set-Cookie HTTP response header for https://www.investing.com/"
+          }
+        ],
+        "type": "Cookie.HTTP",
+        "timestamp": "2021-05-20T15:33:21.704Z",
+        "location": "about:blank"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "protectedMedia",
+      "value": "100",
+      "domain": "www.investing.com",
+      "path": "/",
+      "expires": 1653060803,
+      "size": 17,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2022-05-20T15:33:23.000Z",
+      "expiresDays": 365,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 30603,
+            "lineNumber": 111,
+            "fileName": "https://i-invdn-com.akamaized.net/js/main-1.17.276.min.js",
+            "functionName": "setCookie",
+            "source": "    at setCookie (https://i-invdn-com.akamaized.net/js/main-1.17.276.min.js:111:30603)"
+          },
+          {
+            "columnNumber": 4,
+            "lineNumber": 65,
+            "fileName": "https://www.investing.com/",
+            "functionName": "b.callback [as clientCallback]",
+            "source": "    at b.callback [as clientCallback] (https://www.investing.com/:65:4)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T15:33:23.151Z",
+        "location": "https://www.investing.com/"
+      },
+      "firstPartyStorage": false
+    },
+    {
+      "name": "OptanonConsent",
+      "value": "isIABGlobal=false&datestamp=Thu+May+20+2021+17%3A33%3A23+GMT%2B0200+(Central+European+Summer+Time)&version=6.12.0&hosts=&consentId=6033cb24-1f5d-4046-95bc-8d0dce651f5c&interactionCount=0&landingPath=https%3A%2F%2Fwww.investing.com%2F&groups=C0001%3A1%2CC0002%3A0%2CC0003%3A0%2CC0004%3A0%2CSTACK42%3A0",
+      "domain": "investing.com",
+      "path": "/",
+      "expires": 1653060803,
+      "size": 314,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "sameSite": "Lax",
+      "expiresUTC": "2022-05-20T15:33:23.000Z",
+      "expiresDays": 365,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 39226,
+            "lineNumber": 7,
+            "fileName": "https://cookie-cdn.cookiepro.com/scripttemplates/6.12.0/otBannerSdk.js",
+            "functionName": "Ze.setCookie",
+            "source": "    at Ze.setCookie (https://cookie-cdn.cookiepro.com/scripttemplates/6.12.0/otBannerSdk.js:7:39226)"
+          },
+          {
+            "columnNumber": 37653,
+            "lineNumber": 7,
+            "fileName": "https://cookie-cdn.cookiepro.com/scripttemplates/6.12.0/otBannerSdk.js",
+            "functionName": "Ze.writeCookieParam",
+            "source": "    at Ze.writeCookieParam (https://cookie-cdn.cookiepro.com/scripttemplates/6.12.0/otBannerSdk.js:7:37653)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T15:33:23.921Z",
+        "location": "https://www.investing.com/"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "NID",
+      "value": "216=PBh8HaIttnpORSpdiOwWkWOTXqgUlFlp1OTuLCCszulbf9M4lkX2p2tdXqePyEL0MMcLy61tYfeety1z_ewWz3P0aKN5353QKgJhPxWiG6VfxgHVwktrDlroL0waciiZcGozV4aJmHg998WsDqOQB3tCfzN12PP7stMkjP3a_3k",
+      "domain": "google.com",
+      "path": "/",
+      "expires": 1637336002.75433,
+      "size": 178,
+      "httpOnly": true,
+      "secure": true,
+      "session": false,
+      "sameSite": "None",
+      "expiresUTC": "2021-11-19T15:33:22.754Z",
+      "expiresDays": 183,
+      "firstPartyStorage": false
+    },
+    {
+      "name": "uuid2",
+      "value": "4207848208135481946",
+      "domain": "adnxs.com",
+      "path": "/",
+      "expires": 1629300803.248336,
+      "size": 24,
+      "httpOnly": true,
+      "secure": true,
+      "session": false,
+      "sameSite": "None",
+      "expiresUTC": "2021-08-18T15:33:23.248Z",
+      "expiresDays": 90,
+      "firstPartyStorage": false
+    },
+    {
+      "name": "anj",
+      "value": "dTM7k!M4/8CxrEQF']wIg2Hb^ayy@XN6f94$?ET#)N[UD!!%i3$Cm-0",
+      "domain": "adnxs.com",
+      "path": "/",
+      "expires": 1629300803.248268,
+      "size": 58,
+      "httpOnly": true,
+      "secure": true,
+      "session": false,
+      "sameSite": "None",
+      "expiresUTC": "2021-08-18T15:33:23.248Z",
+      "expiresDays": 90,
+      "firstPartyStorage": false
+    },
+    {
+      "name": "_fbp",
+      "value": "fb.1.1621524803767.181474551",
+      "domain": "investing.com",
+      "path": "/",
+      "expires": 1629300803,
+      "size": 32,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2021-08-18T15:33:23.000Z",
+      "expiresDays": 90,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 5326,
+            "lineNumber": 21,
+            "fileName": "https://connect.facebook.net/signals/config/751110881643258?v=2.9.39&r=stable",
+            "functionName": "C",
+            "source": "    at C (https://connect.facebook.net/signals/config/751110881643258?v=2.9.39&r=stable:21:5326)"
+          },
+          {
+            "columnNumber": 5786,
+            "lineNumber": 21,
+            "fileName": "https://connect.facebook.net/signals/config/751110881643258?v=2.9.39&r=stable",
+            "functionName": "E",
+            "source": "    at E (https://connect.facebook.net/signals/config/751110881643258?v=2.9.39&r=stable:21:5786)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T15:33:23.774Z",
+        "location": "https://www.investing.com/"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "_gid",
+      "value": "GA1.2.650592860.1621524803",
+      "domain": "investing.com",
+      "path": "/",
+      "expires": 1621611203,
+      "size": 30,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2021-05-21T15:33:23.000Z",
+      "expiresDays": 1,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 495,
+            "lineNumber": 30,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "zc",
+            "source": "    at zc (https://www.google-analytics.com/analytics.js:30:495)"
+          },
+          {
+            "columnNumber": 401,
+            "lineNumber": 59,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "ma",
+            "source": "    at ma (https://www.google-analytics.com/analytics.js:59:401)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T15:33:23.190Z",
+        "location": "https://www.investing.com/"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "adsFreeSalePopUp",
+      "value": "1",
+      "domain": "www.investing.com",
+      "path": "/",
+      "expires": 1621611201.700176,
+      "size": 17,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2021-05-21T15:33:21.700Z",
+      "expiresDays": 1,
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.investing.com/",
+            "source": "set in Set-Cookie HTTP response header for https://www.investing.com/"
+          }
+        ],
+        "type": "Cookie.HTTP",
+        "timestamp": "2021-05-20T15:33:21.704Z",
+        "location": "about:blank"
+      },
+      "firstPartyStorage": false
+    },
+    {
+      "name": "__cflb",
+      "value": "02DiuGRugds2TUWHMkkPGwb3ZsydSNnLRCpFb1GUzbHnL",
+      "domain": "www.investing.com",
+      "path": "/",
+      "expires": 1621607601.700328,
+      "size": 51,
+      "httpOnly": true,
+      "secure": false,
+      "session": false,
+      "sameSite": "Lax",
+      "expiresUTC": "2021-05-21T14:33:21.700Z",
+      "expiresDays": 0.96,
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.investing.com/",
+            "source": "set in Set-Cookie HTTP response header for https://www.investing.com/"
+          }
+        ],
+        "type": "Cookie.HTTP",
+        "timestamp": "2021-05-20T15:33:21.704Z",
+        "location": "about:blank"
+      },
+      "firstPartyStorage": false
+    },
+    {
+      "name": "__cflb",
+      "value": "02DiuGRugds2TUWHMkkPGwb3ZsydSNnLRCpFb1GUzbHnL",
+      "domain": "investing.com",
+      "path": "/",
+      "expires": 1621607601.37648,
+      "size": 51,
+      "httpOnly": true,
+      "secure": false,
+      "session": false,
+      "sameSite": "Lax",
+      "expiresUTC": "2021-05-21T14:33:21.376Z",
+      "expiresDays": 0.96,
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://investing.com/",
+            "source": "set in Set-Cookie HTTP response header for https://investing.com/"
+          }
+        ],
+        "type": "Cookie.HTTP",
+        "timestamp": "2021-05-20T15:33:21.381Z",
+        "location": "about:blank"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "geoC",
+      "value": "ES",
+      "domain": "www.investing.com",
+      "path": "/",
+      "expires": 1621553601.700153,
+      "size": 6,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2021-05-20T23:33:21.700Z",
+      "expiresDays": 0.33,
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.investing.com/",
+            "source": "set in Set-Cookie HTTP response header for https://www.investing.com/"
+          }
+        ],
+        "type": "Cookie.HTTP",
+        "timestamp": "2021-05-20T15:33:21.704Z",
+        "location": "about:blank"
+      },
+      "firstPartyStorage": false
+    },
+    {
+      "name": "nyxDorf",
+      "value": "OD4%2BamIqP2IyZmllYSxiYTRsZjQzKjs7PD5jZg%3D%3D",
+      "domain": "www.investing.com",
+      "path": "/",
+      "expires": 1621528403.291749,
+      "size": 53,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2021-05-20T16:33:23.291Z",
+      "expiresDays": 0.04,
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.investing.com/",
+            "source": "set in Set-Cookie HTTP response header for https://www.investing.com/"
+          }
+        ],
+        "type": "Cookie.HTTP",
+        "timestamp": "2021-05-20T15:33:21.704Z",
+        "location": "about:blank"
+      },
+      "firstPartyStorage": false
+    },
+    {
+      "name": "__cf_bm",
+      "value": "397c65928441c284f26acb06a74a075dee946123-1621524803-1800-AQe7B4uDnM+cv5ub0CXSC7js9TN+WmL/QdrpK8evNlbhcyyuaguGDP4i+fpODZFm9gRHZXZqXfNd4o9xJ7TR6ik7tKV35isXKwyPbfMRqzBbfIZx71wB6B8WsCpjy5uQUSETajbxdJCQr0tI6w7CcQw=",
+      "domain": "investing.com",
+      "path": "/",
+      "expires": 1621526603.543988,
+      "size": 216,
+      "httpOnly": true,
+      "secure": true,
+      "session": false,
+      "sameSite": "None",
+      "expiresUTC": "2021-05-20T16:03:23.543Z",
+      "expiresDays": 0.02,
+      "firstPartyStorage": true
+    },
+    {
+      "name": "smd",
+      "value": "958c7eec7b320cb3e4e9181bc3a8629c-1621524801",
+      "domain": "investing.com",
+      "path": "/",
+      "expires": 1621526603.291783,
+      "size": 46,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2021-05-20T16:03:23.291Z",
+      "expiresDays": 0.02,
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.investing.com/",
+            "source": "set in Set-Cookie HTTP response header for https://www.investing.com/"
+          }
+        ],
+        "type": "Cookie.HTTP",
+        "timestamp": "2021-05-20T15:33:21.704Z",
+        "location": "about:blank"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "outbrain_cid_fetch",
+      "value": "true",
+      "domain": "www.investing.com",
+      "path": "/",
+      "expires": 1621525103,
+      "size": 22,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2021-05-20T15:38:23.000Z",
+      "expiresDays": 0,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 1266,
+            "lineNumber": 1,
+            "fileName": "https://amplify.outbrain.com/cp/obtp.js",
+            "functionName": "Object.set",
+            "source": "    at Object.set (https://amplify.outbrain.com/cp/obtp.js:1:1266)"
+          },
+          {
+            "columnNumber": 6148,
+            "lineNumber": 1,
+            "fileName": "https://amplify.outbrain.com/cp/obtp.js",
+            "functionName": "Function.setCachedClickId",
+            "source": "    at Function.setCachedClickId (https://amplify.outbrain.com/cp/obtp.js:1:6148)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T15:33:23.640Z",
+        "location": "https://www.investing.com/"
+      },
+      "firstPartyStorage": false
+    },
+    {
+      "name": "_gat",
+      "value": "1",
+      "domain": "investing.com",
+      "path": "/",
+      "expires": 1621524863,
+      "size": 5,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2021-05-20T15:34:23.000Z",
+      "expiresDays": 0,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 495,
+            "lineNumber": 30,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "zc",
+            "source": "    at zc (https://www.google-analytics.com/analytics.js:30:495)"
+          },
+          {
+            "columnNumber": 31,
+            "lineNumber": 73,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "Qd",
+            "source": "    at Qd (https://www.google-analytics.com/analytics.js:73:31)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T15:33:23.191Z",
+        "location": "https://www.investing.com/"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "_gat_allSitesTracker",
+      "value": "1",
+      "domain": "investing.com",
+      "path": "/",
+      "expires": 1621524863,
+      "size": 21,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2021-05-20T15:34:23.000Z",
+      "expiresDays": 0,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 495,
+            "lineNumber": 30,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "zc",
+            "source": "    at zc (https://www.google-analytics.com/analytics.js:30:495)"
+          },
+          {
+            "columnNumber": 31,
+            "lineNumber": 73,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "Qd",
+            "source": "    at Qd (https://www.google-analytics.com/analytics.js:73:31)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T15:33:23.193Z",
+        "location": "https://www.investing.com/"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "PHPSESSID",
+      "value": "5it65bdcjlv82pm831d13r40ac",
+      "domain": "www.investing.com",
+      "path": "/",
+      "expires": -1,
+      "size": 35,
+      "httpOnly": false,
+      "secure": false,
+      "session": true,
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.investing.com/",
+            "source": "set in Set-Cookie HTTP response header for https://www.investing.com/"
+          }
+        ],
+        "type": "Cookie.HTTP",
+        "timestamp": "2021-05-20T15:33:21.704Z",
+        "location": "about:blank"
+      },
+      "firstPartyStorage": false
+    },
+    {
+      "name": "StickySession",
+      "value": "id.40026992424.771_www.investing.com",
+      "domain": "www.investing.com",
+      "path": "/",
+      "expires": -1,
+      "size": 49,
+      "httpOnly": false,
+      "secure": false,
+      "session": true,
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.investing.com/",
+            "source": "set in Set-Cookie HTTP response header for https://www.investing.com/"
+          }
+        ],
+        "type": "Cookie.HTTP",
+        "timestamp": "2021-05-20T15:33:21.704Z",
+        "location": "about:blank"
+      },
+      "firstPartyStorage": false
+    },
+    {
+      "name": "logglytrackingsession",
+      "value": "d0ccfa40-d290-45b6-8503-e331e70cf071",
+      "domain": "www.investing.com",
+      "path": "/",
+      "expires": -1,
+      "size": 57,
+      "httpOnly": false,
+      "secure": false,
+      "session": true,
+      "firstPartyStorage": false
+    }
+  ],
+  "localStorage": {
+    "https://www.investing.com": {
+      "OB-AD-BLOCKER-WL-STAT": {
+        "value": false,
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 409,
+              "lineNumber": 124,
+              "fileName": "https://widgets.outbrain.com/outbrain.js",
+              "functionName": "Ka.set",
+              "source": "    at Ka.set (https://widgets.outbrain.com/outbrain.js:124:409)"
+            },
+            {
+              "columnNumber": 202,
+              "lineNumber": 16,
+              "fileName": "https://widgets.outbrain.com/outbrain.js",
+              "source": "    at https://widgets.outbrain.com/outbrain.js:16:202"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T15:33:24.115Z",
+          "location": "https://www.investing.com/"
+        }
+      },
+      "OB-TPCS": {
+        "value": {
+          "value": 4,
+          "expiry": 1621784003936
+        },
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 409,
+              "lineNumber": 124,
+              "fileName": "https://widgets.outbrain.com/outbrain.js",
+              "functionName": "Ka.set",
+              "source": "    at Ka.set (https://widgets.outbrain.com/outbrain.js:124:409)"
+            },
+            {
+              "columnNumber": 202,
+              "lineNumber": 16,
+              "fileName": "https://widgets.outbrain.com/outbrain.js",
+              "source": "    at https://widgets.outbrain.com/outbrain.js:16:202"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T15:33:24.117Z",
+          "location": "https://www.investing.com/"
+        }
+      },
+      "activeTabs": {
+        "value": {
+          "5602": true
+        },
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 703,
+              "lineNumber": 117,
+              "fileName": "https://i-invdn-com.akamaized.net/js/main-1.17.276.min.js",
+              "functionName": "i",
+              "source": "    at i (https://i-invdn-com.akamaized.net/js/main-1.17.276.min.js:117:703)"
+            },
+            {
+              "columnNumber": 5073,
+              "lineNumber": 117,
+              "fileName": "https://i-invdn-com.akamaized.net/js/main-1.17.276.min.js",
+              "functionName": "b",
+              "source": "    at b (https://i-invdn-com.akamaized.net/js/main-1.17.276.min.js:117:5073)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T15:33:22.586Z",
+          "location": "https://www.investing.com/"
+        }
+      },
+      "OB-lastPageViewInfo": {
+        "value": {
+          "url": "https%3A%2F%2Fwww.investing.com%2F",
+          "previousRequestTime": 1621524803760
+        },
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 409,
+              "lineNumber": 124,
+              "fileName": "https://widgets.outbrain.com/outbrain.js",
+              "functionName": "Ka.set",
+              "source": "    at Ka.set (https://widgets.outbrain.com/outbrain.js:124:409)"
+            },
+            {
+              "columnNumber": 202,
+              "lineNumber": 16,
+              "fileName": "https://widgets.outbrain.com/outbrain.js",
+              "source": "    at https://widgets.outbrain.com/outbrain.js:16:202"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T15:33:24.116Z",
+          "location": "https://www.investing.com/"
+        }
+      },
+      "OB-CNSNT-2": {
+        "value": "CPGgQykPGgQykAcABBENBaCgAAAAAH_AAChQAAAPlAJMNS-AC7EscGSaNKoUQIQrCQ6AUAFFAMLRNYQMrgp2VwEeoIGACE1ARgRAgxBRiwCAAQCAJCIgJADwQCIAiAQAAgBUgIQAEbAILACwMAgAFANCxAigCECQgyOCo5TAgIkWignsrAEou9jTCEMosAKBR_RUYCJQggWBkJCwAAAA.YAAAD_gAAAAA",
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 409,
+              "lineNumber": 124,
+              "fileName": "https://widgets.outbrain.com/outbrain.js",
+              "functionName": "Ka.set",
+              "source": "    at Ka.set (https://widgets.outbrain.com/outbrain.js:124:409)"
+            },
+            {
+              "columnNumber": 202,
+              "lineNumber": 16,
+              "fileName": "https://widgets.outbrain.com/outbrain.js",
+              "source": "    at https://widgets.outbrain.com/outbrain.js:16:202"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T15:33:24.115Z",
+          "location": "https://www.investing.com/"
+        }
+      },
+      "OB-FDE": {
+        "value": 0,
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 409,
+              "lineNumber": 124,
+              "fileName": "https://widgets.outbrain.com/outbrain.js",
+              "functionName": "Ka.set",
+              "source": "    at Ka.set (https://widgets.outbrain.com/outbrain.js:124:409)"
+            },
+            {
+              "columnNumber": 202,
+              "lineNumber": 16,
+              "fileName": "https://widgets.outbrain.com/outbrain.js",
+              "source": "    at https://widgets.outbrain.com/outbrain.js:16:202"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T15:33:24.117Z",
+          "location": "https://www.investing.com/"
+        }
+      },
+      "OB-AD-BLOCKER-STAT": {
+        "value": false,
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 409,
+              "lineNumber": 124,
+              "fileName": "https://widgets.outbrain.com/outbrain.js",
+              "functionName": "Ka.set",
+              "source": "    at Ka.set (https://widgets.outbrain.com/outbrain.js:124:409)"
+            },
+            {
+              "columnNumber": 202,
+              "lineNumber": 16,
+              "fileName": "https://widgets.outbrain.com/outbrain.js",
+              "source": "    at https://widgets.outbrain.com/outbrain.js:16:202"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T15:33:24.115Z",
+          "location": "https://www.investing.com/"
+        }
+      },
+      "pages": {
+        "value": 1,
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 1115,
+              "lineNumber": 16,
+              "fileName": "https://i-invdn-com.akamaized.net/js/main-1.17.276.min.js",
+              "functionName": "Object.set",
+              "source": "    at Object.set (https://i-invdn-com.akamaized.net/js/main-1.17.276.min.js:16:1115)"
+            },
+            {
+              "columnNumber": 2236,
+              "lineNumber": 57,
+              "fileName": "https://i-invdn-com.akamaized.net/js/main-1.17.276.min.js",
+              "source": "    at https://i-invdn-com.akamaized.net/js/main-1.17.276.min.js:57:2236"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T15:33:22.585Z",
+          "location": "https://www.investing.com/"
+        }
+      }
+    }
+  },
+  "beacons": [
+    {
+      "url": "https://log.outbrainimg.com/loggerServices/widgetGlobalEvent?rId=f0ff4a637493db1d64465fa03367d555&pvId=f0ff4a637493db1d64465fa03367d555&sid=5302516&pid=6406&idx=0&wId=167&pad=3&org=3&tm=5668&eT=3&cnsnt=CPGgQykPGgQykAcABBENBaCgAAAAAH_AAChQAAAPlAJMNS-AC7EscGSaNKoUQIQrCQ6AUAFFAMLRNYQMrgp2VwEeoIGACE1ARgRAgxBRiwCAAQCAJCIgJADwQCIAiAQAAgBUgIQAEbAILACwMAgAFANCxAigCECQgyOCo5TAgIkWignsrAEou9jTCEMosAKBR_RUYCJQggWBkJCwAAAA.YAAAD_gAAAAA&wRV=2000352&pVis=1&lsd=-1&eIdx=0&ab=0&wl=0",
+      "query": {
+        "rId": "f0ff4a637493db1d64465fa03367d555",
+        "pvId": "f0ff4a637493db1d64465fa03367d555",
+        "sid": 5302516,
+        "pid": 6406,
+        "idx": 0,
+        "wId": 167,
+        "pad": 3,
+        "org": 3,
+        "tm": 5668,
+        "eT": 3,
+        "cnsnt": "CPGgQykPGgQykAcABBENBaCgAAAAAH_AAChQAAAPlAJMNS-AC7EscGSaNKoUQIQrCQ6AUAFFAMLRNYQMrgp2VwEeoIGACE1ARgRAgxBRiwCAAQCAJCIgJADwQCIAiAQAAgBUgIQAEbAILACwMAgAFANCxAigCECQgyOCo5TAgIkWignsrAEou9jTCEMosAKBR_RUYCJQggWBkJCwAAAA.YAAAD_gAAAAA",
+        "wRV": 2000352,
+        "pVis": 1,
+        "lsd": -1,
+        "eIdx": 0,
+        "ab": 0,
+        "wl": 0
+      },
+      "filter": "||outbrainimg.com^$third-party",
+      "listName": "fanboy-annoyance.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.investing.com/",
+            "source": "requested from https://www.investing.com/ and matched with fanboy-annoyance.txt filter ||outbrainimg.com^$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T15:33:29.025Z"
+      },
+      "occurrances": 2
+    },
+    {
+      "url": "https://images.outbrainimg.com/transform/v3/eyJpdSI6IjBmY2UyZjNlMDhiNDBmOGZkZDc4ZjVmYzIyYzU4NTAwZmQ0MDIwOTI4ZTgwN2M3NDYwNGI5MDIzY2IwNjZiM2EiLCJ3IjoxNTcsImgiOjEzMCwiZCI6Mi4wLCJjcyI6MCwiZiI6NH0.webp",
+      "query": null,
+      "filter": "||outbrainimg.com^$third-party",
+      "listName": "fanboy-annoyance.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.investing.com/",
+            "source": "requested from https://www.investing.com/ and matched with fanboy-annoyance.txt filter ||outbrainimg.com^$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T15:33:24.128Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://images.outbrainimg.com/transform/v3/eyJpdSI6IjVkZDgxMGEyZWQ3Nzk0NjFlNzA5ZTgzOThlNzRkMDMxNGNjMDI1YWYzYTk5YWRkMzYxODg2NDUxNWNjNWNlNTkiLCJ3IjoxNTcsImgiOjEzMCwiZCI6Mi4wLCJjcyI6MCwiZiI6NH0.webp",
+      "query": null,
+      "filter": "||outbrainimg.com^$third-party",
+      "listName": "fanboy-annoyance.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.investing.com/",
+            "source": "requested from https://www.investing.com/ and matched with fanboy-annoyance.txt filter ||outbrainimg.com^$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T15:33:24.128Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://images.outbrainimg.com/transform/v3/eyJpdSI6IjhhNjI1YWUwOWJiMDQ2YmExZTI1ZmUxMzYyZmQ2MDZlYzhmMTRjN2YyYmNlZWE2NzA3MmIwMzU4NzA5YWIwZWQiLCJ3IjoxNTcsImgiOjEzMCwiZCI6Mi4wLCJjcyI6MCwiZiI6NH0.webp",
+      "query": null,
+      "filter": "||outbrainimg.com^$third-party",
+      "listName": "fanboy-annoyance.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.investing.com/",
+            "source": "requested from https://www.investing.com/ and matched with fanboy-annoyance.txt filter ||outbrainimg.com^$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T15:33:24.126Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://images.outbrainimg.com/transform/v3/eyJpdSI6IjFhMzFlMjA0MzRjNWRjMjhlYmQ0NDdjMjg3NTRhYjFhZTRjZDQyNDhmZWIzMzFkYWU3ZWY0OGUyNmI0YzJkMDMiLCJ3IjoxNTcsImgiOjEzMCwiZCI6Mi4wLCJjaCI6LTEyMTAzNjA3OSwiY3MiOjAsImYiOjR9.webp",
+      "query": null,
+      "filter": "||outbrainimg.com^$third-party",
+      "listName": "fanboy-annoyance.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.investing.com/",
+            "source": "requested from https://www.investing.com/ and matched with fanboy-annoyance.txt filter ||outbrainimg.com^$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T15:33:24.125Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://images.outbrainimg.com/transform/v3/eyJpdSI6ImY5OGVkM2IwNjExNjk5ZjQwN2MzMjA3ZGI1MzY4YjY1ODc5MDU4NmFjMWM4YzIzYjliMjQ0ZDNlZTg2ODVlZGIiLCJ3IjoxNTcsImgiOjEzMCwiZCI6Mi4wLCJjcyI6MCwiZiI6NH0.webp",
+      "query": null,
+      "filter": "||outbrainimg.com^$third-party",
+      "listName": "fanboy-annoyance.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.investing.com/",
+            "source": "requested from https://www.investing.com/ and matched with fanboy-annoyance.txt filter ||outbrainimg.com^$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T15:33:24.124Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://images.outbrainimg.com/transform/v3/eyJpdSI6ImYzNWUyZDQ5ZmZkNjIxZTU4YjU2M2JkYzQwNWU0NGMwZGUzMjM4ZTQ3NjMzOGIzZjJjMDk1Mjc5MWUzOTY4NjMiLCJ3IjoxNTcsImgiOjEzMCwiZCI6Mi4wLCJjcyI6MCwiZiI6NH0.webp",
+      "query": null,
+      "filter": "||outbrainimg.com^$third-party",
+      "listName": "fanboy-annoyance.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.investing.com/",
+            "source": "requested from https://www.investing.com/ and matched with fanboy-annoyance.txt filter ||outbrainimg.com^$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T15:33:24.123Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://widgets.outbrain.com/widgetOBUserSync/obUserSync.html",
+      "query": null,
+      "filter": "||widgets.outbrain.com^$third-party",
+      "listName": "fanboy-annoyance.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "",
+            "source": "requested from  and matched with fanboy-annoyance.txt filter ||widgets.outbrain.com^$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T15:33:24.114Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://mcdp-chidc2.outbrain.com/l?token=f0ff4a637493db1d64465fa03367d555_6406_1621524803987&tm=726&eT=0&widgetWidth=652&widgetHeight=652&widgetX=355&widgetY=2868&tpcs=0&wRV=2000352&pVis=1&lsd=-1&eIdx=&cnsntV2=CPGgQykPGgQykAcABBENBaCgAAAAAH_AAChQAAAPlAJMNS-AC7EscGSaNKoUQIQrCQ6AUAFFAMLRNYQMrgp2VwEeoIGACE1ARgRAgxBRiwCAAQCAJCIgJADwQCIAiAQAAgBUgIQAEbAILACwMAgAFANCxAigCECQgyOCo5TAgIkWignsrAEou9jTCEMosAKBR_RUYCJQggWBkJCwAAAA.YAAAD_gAAAAA&cheq=0&ab=0&wl=0",
+      "query": {
+        "token": "f0ff4a637493db1d64465fa03367d555_6406_1621524803987",
+        "tm": 726,
+        "eT": 0,
+        "widgetWidth": 652,
+        "widgetHeight": 652,
+        "widgetX": 355,
+        "widgetY": 2868,
+        "tpcs": 0,
+        "wRV": 2000352,
+        "pVis": 1,
+        "lsd": -1,
+        "eIdx": "",
+        "cnsntV2": "CPGgQykPGgQykAcABBENBaCgAAAAAH_AAChQAAAPlAJMNS-AC7EscGSaNKoUQIQrCQ6AUAFFAMLRNYQMrgp2VwEeoIGACE1ARgRAgxBRiwCAAQCAJCIgJADwQCIAiAQAAgBUgIQAEbAILACwMAgAFANCxAigCECQgyOCo5TAgIkWignsrAEou9jTCEMosAKBR_RUYCJQggWBkJCwAAAA.YAAAD_gAAAAA",
+        "cheq": 0,
+        "ab": 0,
+        "wl": 0
+      },
+      "filter": "||mcdp-*.outbrain.com^",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.investing.com/",
+            "source": "requested from https://www.investing.com/ and matched with easyprivacy.txt filter ||mcdp-*.outbrain.com^"
+          }
+        ],
+        "timestamp": "2021-05-20T15:33:24.113Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://widgets.outbrain.com/images/widgetIcons/achoice.svg",
+      "query": null,
+      "filter": "||widgets.outbrain.com^$third-party",
+      "listName": "fanboy-annoyance.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.investing.com/",
+            "source": "requested from https://www.investing.com/ and matched with fanboy-annoyance.txt filter ||widgets.outbrain.com^$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T15:33:24.112Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://widgets.outbrain.com/images/widgetIcons/ob_logo_16x16.png",
+      "query": null,
+      "filter": "||widgets.outbrain.com^$third-party",
+      "listName": "fanboy-annoyance.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.investing.com/",
+            "source": "requested from https://www.investing.com/ and matched with fanboy-annoyance.txt filter ||widgets.outbrain.com^$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T15:33:24.111Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://log.outbrainimg.com/loggerServices/dwce_cheq_events?timestamp=1621524803791&sessionId=57f8dd84-44d5-dbd5-7316-fda771446a24&url=www.investing.com&cheqSource=1&cheqEvent=3&responseTime=434",
+      "query": {
+        "timestamp": 1621524803791,
+        "sessionId": "57f8dd84-44d5-dbd5-7316-fda771446a24",
+        "url": "www.investing.com",
+        "cheqSource": 1,
+        "cheqEvent": 3,
+        "responseTime": 434
+      },
+      "filter": "||outbrainimg.com^$third-party",
+      "listName": "fanboy-annoyance.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.investing.com/",
+            "source": "requested from https://www.investing.com/ and matched with fanboy-annoyance.txt filter ||outbrainimg.com^$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T15:33:23.793Z"
+      },
+      "occurrances": 4
+    },
+    {
+      "url": "https://www.facebook.com/tr/?id=751110881643258&ev=PageView&dl=https%3A%2F%2Fwww.investing.com%2F&rl=&if=false&ts=1621524803770&sw=1680&sh=927&v=2.9.39&r=stable&ec=0&o=28&fbp=fb.1.1621524803767.181474551&it=1621524803487&coo=false&exp=l0&rqm=GET",
+      "query": {
+        "id": 751110881643258,
+        "ev": "PageView",
+        "dl": "https://www.investing.com/",
+        "rl": "",
+        "if": false,
+        "ts": 1621524803770,
+        "sw": 1680,
+        "sh": 927,
+        "v": "2.9.39",
+        "r": "stable",
+        "ec": 0,
+        "o": 28,
+        "fbp": "fb.1.1621524803767.181474551",
+        "it": 1621524803487,
+        "coo": false,
+        "exp": "l0",
+        "rqm": "GET"
+      },
+      "filter": "||facebook.com/tr$third-party",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.investing.com/",
+            "source": "requested from https://www.investing.com/ and matched with easyprivacy.txt filter ||facebook.com/tr$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T15:33:23.775Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://odb.outbrain.com/utils/get?url=https%3A%2F%2Fwww.investing.com%2F&idx=0&rand=36949&key=NANOWDGT01&widgetJSId=AR_11&va=true&et=true&format=html&pdobuid=-1&adblck=false&abwl=false&px=355&py=2860&vpd=1933&cw=652&settings=true&recs=true&version=2000352&sig=0nHXxLH0&apv=false&osLang=en-US&winW=1680&winH=927&scrW=1680&scrH=927&dpr=1&secured=true&cnsntv2=CPGgQykPGgQykAcABBENBaCgAAAAAH_AAChQAAAPlAJMNS-AC7EscGSaNKoUQIQrCQ6AUAFFAMLRNYQMrgp2VwEeoIGACE1ARgRAgxBRiwCAAQCAJCIgJADwQCIAiAQAAgBUgIQAEbAILACwMAgAFANCxAigCECQgyOCo5TAgIkWignsrAEou9jTCEMosAKBR_RUYCJQggWBkJCwAAAA.YAAAD_gAAAAA&cmpStat=1&ccpaStat=0&wdr-natlaz=true",
+      "query": {
+        "url": "https://www.investing.com/",
+        "idx": 0,
+        "rand": 36949,
+        "key": "NANOWDGT01",
+        "widgetJSId": "AR_11",
+        "va": true,
+        "et": true,
+        "format": "html",
+        "pdobuid": -1,
+        "adblck": false,
+        "abwl": false,
+        "px": 355,
+        "py": 2860,
+        "vpd": 1933,
+        "cw": 652,
+        "settings": true,
+        "recs": true,
+        "version": 2000352,
+        "sig": "0nHXxLH0",
+        "apv": false,
+        "osLang": "en-US",
+        "winW": 1680,
+        "winH": 927,
+        "scrW": 1680,
+        "scrH": 927,
+        "dpr": 1,
+        "secured": true,
+        "cnsntv2": "CPGgQykPGgQykAcABBENBaCgAAAAAH_AAChQAAAPlAJMNS-AC7EscGSaNKoUQIQrCQ6AUAFFAMLRNYQMrgp2VwEeoIGACE1ARgRAgxBRiwCAAQCAJCIgJADwQCIAiAQAAgBUgIQAEbAILACwMAgAFANCxAigCECQgyOCo5TAgIkWignsrAEou9jTCEMosAKBR_RUYCJQggWBkJCwAAAA.YAAAD_gAAAAA",
+        "cmpStat": 1,
+        "ccpaStat": 0,
+        "wdr-natlaz": true
+      },
+      "filter": "||odb.outbrain.com^$third-party",
+      "listName": "fanboy-annoyance.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.investing.com/",
+            "source": "requested from https://www.investing.com/ and matched with fanboy-annoyance.txt filter ||odb.outbrain.com^$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T15:33:23.769Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://widgets.outbrain.com/nanoWidget/externals/cookie/test.html",
+      "query": null,
+      "filter": "||outbrain.com/nanoWidget/externals/cookie/",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://widgets.outbrain.com/nanoWidget/externals/cookie/put.html",
+            "source": "requested from https://widgets.outbrain.com/nanoWidget/externals/cookie/put.html and matched with easyprivacy.txt filter ||outbrain.com/nanoWidget/externals/cookie/"
+          }
+        ],
+        "timestamp": "2021-05-20T15:33:23.664Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://sb.scorecardresearch.com/b2?c1=2&c2=16896267&ns__t=1621524803464&ns_c=UTF-8&cv=3.5&c8=Investing.com%20-%20Stock%20Market%20Quotes%20%26%20Financial%20News&c7=https%3A%2F%2Fwww.investing.com%2F&c9=",
+      "query": {
+        "c1": 2,
+        "c2": 16896267,
+        "ns__t": 1621524803464,
+        "ns_c": "UTF-8",
+        "cv": 3.5,
+        "c8": "Investing.com - Stock Market Quotes & Financial News",
+        "c7": "https://www.investing.com/",
+        "c9": ""
+      },
+      "filter": "||scorecardresearch.com^$third-party",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.investing.com/",
+            "source": "requested from https://www.investing.com/ and matched with easyprivacy.txt filter ||scorecardresearch.com^$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T15:33:23.631Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://cookie-cdn.cookiepro.com/scripttemplates/6.12.0/assets/otCookieSettingsButton.json",
+      "query": null,
+      "filter": "||cookiepro.com^$third-party",
+      "listName": "fanboy-annoyance.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.investing.com/",
+            "source": "requested from https://www.investing.com/ and matched with fanboy-annoyance.txt filter ||cookiepro.com^$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T15:33:23.630Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://cookie-cdn.cookiepro.com/scripttemplates/6.12.0/assets/v2/otPcCenter.json",
+      "query": null,
+      "filter": "||cookiepro.com^$third-party",
+      "listName": "fanboy-annoyance.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.investing.com/",
+            "source": "requested from https://www.investing.com/ and matched with fanboy-annoyance.txt filter ||cookiepro.com^$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T15:33:23.629Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://cookie-cdn.cookiepro.com/scripttemplates/6.12.0/assets/otCenterRounded.json",
+      "query": null,
+      "filter": "||cookiepro.com^$third-party",
+      "listName": "fanboy-annoyance.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.investing.com/",
+            "source": "requested from https://www.investing.com/ and matched with fanboy-annoyance.txt filter ||cookiepro.com^$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T15:33:23.628Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://connect.facebook.net/signals/config/751110881643258?v=2.9.39&r=stable",
+      "query": {
+        "v": "2.9.39",
+        "r": "stable"
+      },
+      "filter": "||connect.facebook.net/signals/$third-party",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.investing.com/",
+            "source": "requested from https://www.investing.com/ and matched with easyprivacy.txt filter ||connect.facebook.net/signals/$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T15:33:23.494Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://sb.scorecardresearch.com/b?c1=2&c2=16896267&ns__t=1621524803464&ns_c=UTF-8&cv=3.5&c8=Investing.com%20-%20Stock%20Market%20Quotes%20%26%20Financial%20News&c7=https%3A%2F%2Fwww.investing.com%2F&c9=",
+      "query": {
+        "c1": 2,
+        "c2": 16896267,
+        "ns__t": 1621524803464,
+        "ns_c": "UTF-8",
+        "cv": 3.5,
+        "c8": "Investing.com - Stock Market Quotes & Financial News",
+        "c7": "https://www.investing.com/",
+        "c9": ""
+      },
+      "filter": "||scorecardresearch.com^$third-party",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.investing.com/",
+            "source": "requested from https://www.investing.com/ and matched with easyprivacy.txt filter ||scorecardresearch.com^$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T15:33:23.466Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j90&tid=UA-2555300-55&cid=1357021430.1621524803&jid=1598787856&gjid=1071335567&_gid=650592860.1621524803&_u=aGDAAEABEAAAAG~&z=440390389",
+      "query": {
+        "t": "dc",
+        "aip": 1,
+        "_r": 3,
+        "v": 1,
+        "_v": "j90",
+        "tid": "UA-2555300-55",
+        "cid": 1357021430.1621525,
+        "jid": 1598787856,
+        "gjid": 1071335567,
+        "_gid": 650592860.1621525,
+        "_u": "aGDAAEABEAAAAG~",
+        "z": 440390389
+      },
+      "filter": "||stats.g.doubleclick.net^",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.investing.com/",
+            "source": "requested from https://www.investing.com/ and matched with easyprivacy.txt filter ||stats.g.doubleclick.net^"
+          }
+        ],
+        "timestamp": "2021-05-20T15:33:23.380Z"
+      },
+      "occurrances": 2
+    },
+    {
+      "url": "https://widget-pixels.outbrain.com/widget/detect/px.gif?ch=1&rn=0.7431525223453965",
+      "query": {
+        "ch": 1,
+        "rn": 0.7431525223453965
+      },
+      "filter": "/px.gif?",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.investing.com/",
+            "source": "requested from https://www.investing.com/ and matched with easyprivacy.txt filter /px.gif?"
+          }
+        ],
+        "timestamp": "2021-05-20T15:33:23.364Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://tcheck.outbrainimg.com/tcheck/check/d3d3LmludmVzdGluZy5jb20=",
+      "query": null,
+      "filter": "||outbrainimg.com^$third-party",
+      "listName": "fanboy-annoyance.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.investing.com/",
+            "source": "requested from https://www.investing.com/ and matched with fanboy-annoyance.txt filter ||outbrainimg.com^$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T15:33:23.364Z"
+      },
+      "occurrances": 2
+    },
+    {
+      "url": "https://widgets.outbrain.com/nanoWidget/externals/cookie/put.html",
+      "query": null,
+      "filter": "||widgets.outbrain.com^$third-party",
+      "listName": "fanboy-annoyance.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "",
+            "source": "requested from  and matched with fanboy-annoyance.txt filter ||widgets.outbrain.com^$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T15:33:23.353Z"
+      },
+      "occurrances": 2
+    },
+    {
+      "url": "https://cookie-cdn.cookiepro.com/scripttemplates/6.12.0/otTCF.js",
+      "query": null,
+      "filter": "||cookiepro.com^$third-party",
+      "listName": "fanboy-annoyance.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.investing.com/",
+            "source": "requested from https://www.investing.com/ and matched with fanboy-annoyance.txt filter ||cookiepro.com^$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T15:33:23.326Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://cookie-cdn.cookiepro.com/vendorlist/iab2Data.json",
+      "query": null,
+      "filter": "||cookiepro.com^$third-party",
+      "listName": "fanboy-annoyance.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.investing.com/",
+            "source": "requested from https://www.investing.com/ and matched with fanboy-annoyance.txt filter ||cookiepro.com^$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T15:33:23.326Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://cookie-cdn.cookiepro.com/consent/265d5ac2-7d0c-4675-bf4d-421a61fb482e/e04ef5db-9025-444f-90c4-17f446d66c08/en.json",
+      "query": null,
+      "filter": "||cookiepro.com^$third-party",
+      "listName": "fanboy-annoyance.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.investing.com/",
+            "source": "requested from https://www.investing.com/ and matched with fanboy-annoyance.txt filter ||cookiepro.com^$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T15:33:23.322Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://connect.facebook.net/en_US/fbevents.js",
+      "query": null,
+      "filter": "/fbevents.js",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.investing.com/",
+            "source": "requested from https://www.investing.com/ and matched with easyprivacy.txt filter /fbevents.js"
+          }
+        ],
+        "timestamp": "2021-05-20T15:33:23.285Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://sb.scorecardresearch.com/beacon.js",
+      "query": null,
+      "filter": "||scorecardresearch.com^$third-party",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.investing.com/",
+            "source": "requested from https://www.investing.com/ and matched with easyprivacy.txt filter ||scorecardresearch.com^$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T15:33:23.284Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://www.google-analytics.com/collect?v=1&_v=j90&a=545671853&t=pageview&_s=1&dl=https%3A%2F%2Fwww.investing.com%2F&ul=en-us&de=UTF-8&dt=Investing.com%20-%20Stock%20Market%20Quotes%20%26%20Financial%20News&sd=24-bit&sr=1680x927&vp=1680x927&je=0&_u=aGDAgEABE~&jid=1402900158&gjid=553829284&cid=1357021430.1621524803&tid=UA-2555300-1&_gid=650592860.1621524803&cd73=Web&z=387116637",
+      "query": {
+        "v": 1,
+        "_v": "j90",
+        "a": 545671853,
+        "t": "pageview",
+        "_s": 1,
+        "dl": "https://www.investing.com/",
+        "ul": "en-us",
+        "de": "UTF-8",
+        "dt": "Investing.com - Stock Market Quotes & Financial News",
+        "sd": "24-bit",
+        "sr": "1680x927",
+        "vp": "1680x927",
+        "je": 0,
+        "_u": "aGDAgEABE~",
+        "jid": 1402900158,
+        "gjid": 553829284,
+        "cid": 1357021430.1621525,
+        "tid": "UA-2555300-1",
+        "_gid": 650592860.1621525,
+        "cd73": "Web",
+        "z": 387116637
+      },
+      "filter": "||google-analytics.com/collect",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.investing.com/",
+            "source": "requested from https://www.investing.com/ and matched with easyprivacy.txt filter ||google-analytics.com/collect"
+          }
+        ],
+        "timestamp": "2021-05-20T15:33:23.198Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://www.google-analytics.com/j/collect?v=1&_v=j90&a=545671853&t=pageview&_s=1&dl=https%3A%2F%2Fwww.investing.com%2F&ul=en-us&de=UTF-8&dt=Investing.com%20-%20Stock%20Market%20Quotes%20%26%20Financial%20News&sd=24-bit&sr=1680x927&vp=1680x927&je=0&_u=aGDAAEABEAAAAG~&jid=1598787856&gjid=1071335567&cid=1357021430.1621524803&uid=0&tid=UA-2555300-55&_gid=650592860.1621524803&_r=1&_slc=1&cd37=page%20without%20prebid&cd127=0&cd73=Web&cd17=1357021430.1621524803&cd1=0&cd49=958c7eec7b320cb3e4e9181bc3a8629c-1621524801&cd58=1&cd38=958c7eec7b320cb3e4e9181bc3a8629c&cd95=1&cd106=No&cd54=No&cd81=2021%2F05%2F21%2018%3A33%3A24&cd35=outbrain&cm12=1&z=332332563",
+      "query": {
+        "v": 1,
+        "_v": "j90",
+        "a": 545671853,
+        "t": "pageview",
+        "_s": 1,
+        "dl": "https://www.investing.com/",
+        "ul": "en-us",
+        "de": "UTF-8",
+        "dt": "Investing.com - Stock Market Quotes & Financial News",
+        "sd": "24-bit",
+        "sr": "1680x927",
+        "vp": "1680x927",
+        "je": 0,
+        "_u": "aGDAAEABEAAAAG~",
+        "jid": 1598787856,
+        "gjid": 1071335567,
+        "cid": 1357021430.1621525,
+        "uid": 0,
+        "tid": "UA-2555300-55",
+        "_gid": 650592860.1621525,
+        "_r": 1,
+        "_slc": 1,
+        "cd37": "page without prebid",
+        "cd127": 0,
+        "cd73": "Web",
+        "cd17": 1357021430.1621525,
+        "cd1": 0,
+        "cd49": "958c7eec7b320cb3e4e9181bc3a8629c-1621524801",
+        "cd58": 1,
+        "cd38": "958c7eec7b320cb3e4e9181bc3a8629c",
+        "cd95": 1,
+        "cd106": "No",
+        "cd54": "No",
+        "cd81": "2021/05/21 18:33:24",
+        "cd35": "outbrain",
+        "cm12": 1,
+        "z": 332332563
+      },
+      "filter": "/collect?*&cid=",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.investing.com/",
+            "source": "requested from https://www.investing.com/ and matched with easyprivacy.txt filter /collect?*&cid="
+          }
+        ],
+        "timestamp": "2021-05-20T15:33:23.196Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2Finvestingdotcom&width=280&height=258&show_faces=true&colorscheme=light&stream=false&show_border=false&header=false",
+      "query": {
+        "href": "https://www.facebook.com/investingdotcom",
+        "width": 280,
+        "height": 258,
+        "show_faces": true,
+        "colorscheme": "light",
+        "stream": false,
+        "show_border": false,
+        "header": false
+      },
+      "filter": "/likebox.",
+      "listName": "fanboy-annoyance.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "",
+            "source": "requested from  and matched with fanboy-annoyance.txt filter /likebox."
+          }
+        ],
+        "timestamp": "2021-05-20T15:33:23.001Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://cookie-cdn.cookiepro.com/scripttemplates/6.12.0/otBannerSdk.js",
+      "query": null,
+      "filter": "||cookiepro.com^$third-party",
+      "listName": "fanboy-annoyance.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.investing.com/",
+            "source": "requested from https://www.investing.com/ and matched with fanboy-annoyance.txt filter ||cookiepro.com^$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T15:33:22.978Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://widgets.outbrain.com/outbrain.js",
+      "query": null,
+      "filter": "||widgets.outbrain.com^$third-party",
+      "listName": "fanboy-annoyance.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.investing.com/",
+            "source": "requested from https://www.investing.com/ and matched with fanboy-annoyance.txt filter ||widgets.outbrain.com^$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T15:33:22.882Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://amplify.outbrain.com/cp/obtp.js",
+      "query": null,
+      "filter": "||amplify.outbrain.com^$third-party",
+      "listName": "fanboy-annoyance.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.investing.com/",
+            "source": "requested from https://www.investing.com/ and matched with fanboy-annoyance.txt filter ||amplify.outbrain.com^$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T15:33:22.587Z"
+      },
+      "occurrances": 2
+    },
+    {
+      "url": "https://apis.google.com/js/platform.js?onload=loadAfterGApiReady",
+      "query": {
+        "onload": "loadAfterGApiReady"
+      },
+      "filter": "||apis.google.com/js/platform.js$third-party",
+      "listName": "fanboy-annoyance.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.investing.com/",
+            "source": "requested from https://www.investing.com/ and matched with fanboy-annoyance.txt filter ||apis.google.com/js/platform.js$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T15:33:22.584Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://rt.ad-score.com/v2/score/cors?s=1&callback=PMRT&cb=0.32672455274047696&pid=1000745&tid=www.investing.com&l1=undef&l2=undef&l3=undef&l4=undef&l5=undef&l6=undef&uid=pmu-nL5Kdn8k4FwtfLzcXNU8rV2zfNAQ",
+      "query": {
+        "s": 1,
+        "callback": "PMRT",
+        "cb": 0.32672455274047696,
+        "pid": 1000745,
+        "tid": "www.investing.com",
+        "l1": "undef",
+        "l2": "undef",
+        "l3": "undef",
+        "l4": "undef",
+        "l5": "undef",
+        "l6": "undef",
+        "uid": "pmu-nL5Kdn8k4FwtfLzcXNU8rV2zfNAQ"
+      },
+      "filter": "||ad-score.com^$third-party",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.investing.com/",
+            "source": "requested from https://www.investing.com/ and matched with easyprivacy.txt filter ||ad-score.com^$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T15:33:22.384Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://www.google-analytics.com/analytics.js",
+      "query": null,
+      "filter": "||google-analytics.com/analytics.js",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.investing.com/",
+            "source": "requested from https://www.investing.com/ and matched with easyprivacy.txt filter ||google-analytics.com/analytics.js"
+          }
+        ],
+        "timestamp": "2021-05-20T15:33:22.352Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://geolocation.onetrust.com/cookieconsentpub/v1/geo/location",
+      "query": null,
+      "filter": "||onetrust.com^$third-party",
+      "listName": "fanboy-annoyance.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.investing.com/",
+            "source": "requested from https://www.investing.com/ and matched with fanboy-annoyance.txt filter ||onetrust.com^$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T15:33:21.952Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://cookie-cdn.cookiepro.com/consent/265d5ac2-7d0c-4675-bf4d-421a61fb482e/265d5ac2-7d0c-4675-bf4d-421a61fb482e.json",
+      "query": null,
+      "filter": "||cookiepro.com^$third-party",
+      "listName": "fanboy-annoyance.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.investing.com/",
+            "source": "requested from https://www.investing.com/ and matched with fanboy-annoyance.txt filter ||cookiepro.com^$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T15:33:21.895Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://cookie-cdn.cookiepro.com/scripttemplates/otSDKStub.js",
+      "query": null,
+      "filter": "||cookiepro.com^$third-party",
+      "listName": "fanboy-annoyance.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.investing.com/",
+            "source": "requested from https://www.investing.com/ and matched with fanboy-annoyance.txt filter ||cookiepro.com^$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T15:33:21.735Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://cdn.cookielaw.org/consent/tcf.stub.js",
+      "query": null,
+      "filter": "||cookielaw.org^$third-party",
+      "listName": "fanboy-annoyance.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.investing.com/",
+            "source": "requested from https://www.investing.com/ and matched with fanboy-annoyance.txt filter ||cookielaw.org^$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T15:33:21.733Z"
+      },
+      "occurrances": 1
+    }
+  ],
+  "hosts": {
+    "requests": {
+      "firstParty": [
+        "investing.com"
+      ],
+      "thirdParty": [
+        "www.investing.com",
+        "cdn.cookielaw.org",
+        "cookie-cdn.cookiepro.com",
+        "i-invdn-com.akamaized.net",
+        "d1-invdn-com.akamaized.net",
+        "geolocation.onetrust.com",
+        "www.google-analytics.com",
+        "rt.ad-score.com",
+        "fonts.googleapis.com",
+        "apis.google.com",
+        "amplify.outbrain.com",
+        "widgets.outbrain.com",
+        "a-invdn-com.akamaized.net",
+        "static.doubleclick.net",
+        "secure.adnxs.com",
+        "tr.outbrain.com",
+        "www.facebook.com",
+        "stats.g.doubleclick.net",
+        "sb.scorecardresearch.com",
+        "connect.facebook.net",
+        "tcheck.outbrainimg.com",
+        "widget-pixels.outbrain.com",
+        "www.google.com",
+        "www.google.es",
+        "stream211.forexpros.com",
+        "scontent-mad1-1.xx.fbcdn.net",
+        "log.outbrainimg.com",
+        "accounts.google.com",
+        "odb.outbrain.com",
+        "ssl.gstatic.com",
+        "mcdp-chidc2.outbrain.com",
+        "images.outbrainimg.com",
+        "sbcharts.investing.com"
+      ]
+    },
+    "beacons": {
+      "firstParty": [],
+      "thirdParty": [
+        "log.outbrainimg.com",
+        "mcdp-chidc2.outbrain.com",
+        "www.facebook.com",
+        "widgets.outbrain.com",
+        "sb.scorecardresearch.com",
+        "connect.facebook.net",
+        "stats.g.doubleclick.net",
+        "widget-pixels.outbrain.com",
+        "tcheck.outbrainimg.com",
+        "www.google-analytics.com",
+        "amplify.outbrain.com",
+        "rt.ad-score.com"
+      ]
+    },
+    "cookies": {
+      "firstParty": [
+        "investing.com"
+      ],
+      "thirdParty": [
+        "www.investing.com",
+        "google.com",
+        "adnxs.com",
+        "scorecardresearch.com"
+      ]
+    },
+    "localStorage": {
+      "firstParty": [],
+      "thirdParty": [
+        "www.investing.com"
+      ]
+    },
+    "links": {
+      "firstParty": [],
+      "thirdParty": [
+        "www.investing.com",
+        "uk.investing.com",
+        "ru.investing.com",
+        "in.investing.com",
+        "tr.investing.com",
+        "ca.investing.com",
+        "sa.investing.com",
+        "au.investing.com",
+        "gr.investing.com",
+        "za.investing.com",
+        "se.investing.com",
+        "ph.investing.com",
+        "fi.investing.com",
+        "ng.investing.com",
+        "il.investing.com",
+        "de.investing.com",
+        "jp.investing.com",
+        "es.investing.com",
+        "kr.investing.com",
+        "mx.investing.com",
+        "cn.investing.com",
+        "fr.investing.com",
+        "hk.investing.com",
+        "it.investing.com",
+        "id.investing.com",
+        "nl.investing.com",
+        "ms.investing.com",
+        "pt.investing.com",
+        "th.investing.com",
+        "pl.investing.com",
+        "vn.investing.com",
+        "br.investing.com",
+        "hi.investing.com",
+        "www.outbrain.com",
+        "partners.etoro.com",
+        "hignitute-intence.icu",
+        "tracking.secondlightcapital.com",
+        "www.investingmediakit.com",
+        "app.appsflyer.com",
+        "www.facebook.com",
+        "twitter.com",
+        "cookiepedia.co.uk",
+        "tcf.cookiepedia.co.uk",
+        "www.cookiepro.com"
+      ]
+    }
+  }
+}

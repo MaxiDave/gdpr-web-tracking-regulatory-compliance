@@ -1,0 +1,472 @@
+{
+  "title": "Website Evidence Collection",
+  "task_description": null,
+  "uri_ins": "http://melodysoft.com",
+  "uri_refs": [
+    "http://melodysoft.com"
+  ],
+  "uri_dest": "http://melodysoft.com/",
+  "uri_redirects": [],
+  "secure_connection": {
+    "https_support": false,
+    "https_error": "RequestError: Error: Client network socket disconnected before secure TLS connection was established",
+    "redirects": [],
+    "https_redirect": false
+  },
+  "host": "melodysoft.com",
+  "script": {
+    "host": "sfod",
+    "version": {
+      "npm": "1.0.0",
+      "commit": null
+    },
+    "cmd_args": "-q --overwrite http://melodysoft.com -- --ignore-certificate-errors",
+    "environment": {
+      "CHROME_DESKTOP": "code-url-handler.desktop"
+    },
+    "node_version": "v14.17.0"
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "HeadlessChrome/80.0.3987.0",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3617.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "5.8.0-53-generic"
+    },
+    "extra_headers": {},
+    "preset_cookies": {}
+  },
+  "start_time": "2021-05-20T15:33:44.327Z",
+  "end_time": "2021-05-20T15:33:56.284Z",
+  "links": {
+    "firstParty": [
+      {
+        "href": "http://melodysoft.com/contact/",
+        "inner_text": "Contactar",
+        "inner_html": "Contactar"
+      },
+      {
+        "href": "http://melodysoft.com/register.html",
+        "inner_text": "Regístrate",
+        "inner_html": "Regístrate"
+      },
+      {
+        "href": "http://melodysoft.com/panel/",
+        "inner_text": "Panel de control",
+        "inner_html": "Panel de control"
+      },
+      {
+        "href": "http://melodysoft.com/advertise.html",
+        "inner_text": "Publicidad",
+        "inner_html": "Publicidad"
+      },
+      {
+        "href": "http://melodysoft.com/boards/",
+        "inner_text": "",
+        "inner_html": "<img src=\"images/web/foros0.gif\" id=\"img1\" width=\"33\" height=\"33\" alt=\"Foros de discusiï¿½n\" style=\"filter:blendTrans(duration=0.18)\">"
+      },
+      {
+        "href": "http://melodysoft.com/gbooks/",
+        "inner_text": "",
+        "inner_html": "<img src=\"images/web/libros0.gif\" id=\"img2\" width=\"33\" height=\"33\" alt=\"Libros de visita\" style=\"filter:blendTrans(duration=0.18)\">"
+      },
+      {
+        "href": "http://melodysoft.com/forms/",
+        "inner_text": "",
+        "inner_html": "<img src=\"images/web/forms0.gif\" id=\"img3\" width=\"33\" height=\"33\" alt=\"Formularios de envï¿½o\" style=\"filter:blendTrans(duration=0.18)\">"
+      },
+      {
+        "href": "http://melodysoft.com/adfree/",
+        "inner_text": "",
+        "inner_html": "<img src=\"images/web/adfree0.gif\" id=\"img7\" width=\"81\" height=\"26\" alt=\"Bonos libres de publicidad\" style=\"filter:blendTrans(duration=0.18)\">"
+      },
+      {
+        "href": "http://melodysoft.com/docs/",
+        "inner_text": "",
+        "inner_html": "<img src=\"images/web/docs0.gif\" id=\"img4\" width=\"33\" height=\"33\" alt=\"Documentaciï¿½n\" style=\"filter:blendTrans(duration=0.18)\">"
+      },
+      {
+        "href": "http://melodysoft.com/news/",
+        "inner_text": "Leer mï¿½s...",
+        "inner_html": "Leer mï¿½s..."
+      },
+      {
+        "href": "http://melodysoft.com/boards/list.html",
+        "inner_text": "Índice foros",
+        "inner_html": "Índice foros"
+      }
+    ],
+    "thirdParty": [
+      {
+        "href": "http://www.melodysoft.com/",
+        "inner_text": "",
+        "inner_html": "<img src=\"/images/web/logo1.jpg\" width=\"272\" height=\"64\" alt=\"Melodysoft\"><img src=\"/images/web/logo2.gif\" width=\"38\" height=\"64\">"
+      },
+      {
+        "href": "http://www.foromania.com/",
+        "inner_text": "",
+        "inner_html": "<img src=\"images/web/foromania0.gif\" id=\"img5\" width=\"33\" height=\"33\" alt=\"ForoManï¿½a\" style=\"filter:blendTrans(duration=0.18)\">"
+      },
+      {
+        "href": "http://www.juegosweb.com/",
+        "inner_text": "",
+        "inner_html": "<img src=\"images/web/juegos0.gif\" id=\"img10\" width=\"33\" height=\"33\" alt=\"Juegos web\" style=\"filter:blendTrans(duration=0.18)\">"
+      },
+      {
+        "href": "http://tiendas.melodysoft.com/",
+        "inner_text": "Tiendas",
+        "inner_html": "Tiendas"
+      },
+      {
+        "href": "http://boards2.melodysoft.com/",
+        "inner_text": "Boards2",
+        "inner_html": "Boards2"
+      }
+    ],
+    "social": [],
+    "keywords": []
+  },
+  "unsafeForms": [
+    {
+      "id": "",
+      "action": "http://melodysoft.com/panel/index.html",
+      "method": "post"
+    }
+  ],
+  "browsing_history": [
+    "http://melodysoft.com/"
+  ],
+  "websockets": {},
+  "cookies": [
+    {
+      "name": "__utma",
+      "value": "52572023.15521243.1621524825.1621524825.1621524825.1",
+      "domain": "melodysoft.com",
+      "path": "/",
+      "expires": 1684596824,
+      "size": 58,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2023-05-20T15:33:44.000Z",
+      "expiresDays": 730,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 222,
+            "lineNumber": 28,
+            "fileName": "http://www.google-analytics.com/ga.js",
+            "functionName": "X",
+            "source": "    at X (http://www.google-analytics.com/ga.js:28:222)"
+          },
+          {
+            "columnNumber": 654,
+            "lineNumber": 39,
+            "fileName": "http://www.google-analytics.com/ga.js",
+            "functionName": "Xc",
+            "source": "    at Xc (http://www.google-analytics.com/ga.js:39:654)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T15:33:44.891Z",
+        "location": "http://melodysoft.com/"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "__utmz",
+      "value": "52572023.1621524825.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)",
+      "domain": "melodysoft.com",
+      "path": "/",
+      "expires": 1637292824,
+      "size": 75,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2021-11-19T03:33:44.000Z",
+      "expiresDays": 182.5,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 222,
+            "lineNumber": 28,
+            "fileName": "http://www.google-analytics.com/ga.js",
+            "functionName": "X",
+            "source": "    at X (http://www.google-analytics.com/ga.js:28:222)"
+          },
+          {
+            "columnNumber": 769,
+            "lineNumber": 39,
+            "fileName": "http://www.google-analytics.com/ga.js",
+            "functionName": "Xc",
+            "source": "    at Xc (http://www.google-analytics.com/ga.js:39:769)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T15:33:44.892Z",
+        "location": "http://melodysoft.com/"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "PHPSSIDDD2",
+      "value": "s1Ppx4XuyHIljRX",
+      "domain": "melodysoft.com",
+      "path": "/",
+      "expires": 1621884825.073809,
+      "size": 25,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2021-05-24T19:33:45.073Z",
+      "expiresDays": 4.17,
+      "log": {
+        "stack": [
+          {
+            "fileName": "http://melodysoft.com/",
+            "source": "set in Set-Cookie HTTP response header for http://melodysoft.com/"
+          }
+        ],
+        "type": "Cookie.HTTP",
+        "timestamp": "2021-05-20T15:33:44.720Z",
+        "location": "about:blank"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "__utmb",
+      "value": "52572023.1.10.1621524825",
+      "domain": "melodysoft.com",
+      "path": "/",
+      "expires": 1621526624,
+      "size": 30,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2021-05-20T16:03:44.000Z",
+      "expiresDays": 0.02,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 222,
+            "lineNumber": 28,
+            "fileName": "http://www.google-analytics.com/ga.js",
+            "functionName": "X",
+            "source": "    at X (http://www.google-analytics.com/ga.js:28:222)"
+          },
+          {
+            "columnNumber": 688,
+            "lineNumber": 39,
+            "fileName": "http://www.google-analytics.com/ga.js",
+            "functionName": "Xc",
+            "source": "    at Xc (http://www.google-analytics.com/ga.js:39:688)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T15:33:44.891Z",
+        "location": "http://melodysoft.com/"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "__utmt",
+      "value": "1",
+      "domain": "melodysoft.com",
+      "path": "/",
+      "expires": 1621525424,
+      "size": 7,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2021-05-20T15:43:44.000Z",
+      "expiresDays": 0.01,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 222,
+            "lineNumber": 28,
+            "fileName": "http://www.google-analytics.com/ga.js",
+            "functionName": "X",
+            "source": "    at X (http://www.google-analytics.com/ga.js:28:222)"
+          },
+          {
+            "columnNumber": 265,
+            "lineNumber": 57,
+            "fileName": "http://www.google-analytics.com/ga.js",
+            "functionName": "hf",
+            "source": "    at hf (http://www.google-analytics.com/ga.js:57:265)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T15:33:44.890Z",
+        "location": "http://melodysoft.com/"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "MelodySes",
+      "value": "rimoSwfAtVtRcXmrRSQHGELGLYNtwjQMCLkcwCLMkDcnnhYlZu",
+      "domain": "melodysoft.com",
+      "path": "/",
+      "expires": -1,
+      "size": 59,
+      "httpOnly": false,
+      "secure": false,
+      "session": true,
+      "log": {
+        "stack": [
+          {
+            "fileName": "http://melodysoft.com/",
+            "source": "set in Set-Cookie HTTP response header for http://melodysoft.com/"
+          }
+        ],
+        "type": "Cookie.HTTP",
+        "timestamp": "2021-05-20T15:33:44.720Z",
+        "location": "about:blank"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "__utmc",
+      "value": "52572023",
+      "domain": "melodysoft.com",
+      "path": "/",
+      "expires": -1,
+      "size": 14,
+      "httpOnly": false,
+      "secure": false,
+      "session": true,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 222,
+            "lineNumber": 28,
+            "fileName": "http://www.google-analytics.com/ga.js",
+            "functionName": "X",
+            "source": "    at X (http://www.google-analytics.com/ga.js:28:222)"
+          },
+          {
+            "columnNumber": 722,
+            "lineNumber": 39,
+            "fileName": "http://www.google-analytics.com/ga.js",
+            "functionName": "Xc",
+            "source": "    at Xc (http://www.google-analytics.com/ga.js:39:722)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T15:33:44.891Z",
+        "location": "http://melodysoft.com/"
+      },
+      "firstPartyStorage": true
+    }
+  ],
+  "localStorage": {},
+  "beacons": [
+    {
+      "url": "https://www.facebook.com/plugins/like.php?app_id=129112940608872&channel=https%3A%2F%2Fstaticxx.facebook.com%2Fx%2Fconnect%2Fxd_arbiter%2F%3Fversion%3D46%23cb%3Dfe8a64d0e905e8%26domain%3Dmelodysoft.com%26origin%3Dhttp%253A%252F%252Fmelodysoft.com%252Ff418cf576e9%26relation%3Dparent.parent&container_width=200&href=http%3A%2F%2Fwww.facebook.com%2Fmelodysoft&locale=es_LA&sdk=joey&send=false&show_faces=true&width=150",
+      "query": {
+        "app_id": 129112940608872,
+        "channel": "https://staticxx.facebook.com/x/connect/xd_arbiter/?version=46#cb=fe8a64d0e905e8&domain=melodysoft.com&origin=http%3A%2F%2Fmelodysoft.com%2Ff418cf576e9&relation=parent.parent",
+        "container_width": 200,
+        "href": "http://www.facebook.com/melodysoft",
+        "locale": "es_LA",
+        "sdk": "joey",
+        "send": false,
+        "show_faces": true,
+        "width": 150
+      },
+      "filter": "||facebook.com*/plugins/like.php?$third-party",
+      "listName": "fanboy-annoyance.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "",
+            "source": "requested from  and matched with fanboy-annoyance.txt filter ||facebook.com*/plugins/like.php?$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T15:33:48.258Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "http://www.google-analytics.com/r/__utm.gif?utmwv=5.7.2&utms=1&utmn=661672857&utmhn=melodysoft.com&utmcs=windows-1252&utmsr=1680x927&utmvp=1680x927&utmsc=24-bit&utmul=en-us&utmje=0&utmfl=-&utmdt=Melodysoft%20servicios%20gratuitos%20para%20Webmasters&utmhid=878651918&utmr=-&utmp=%2F&utmht=1621524824877&utmac=UA-11231120-2&utmcc=__utma%3D52572023.15521243.1621524825.1621524825.1621524825.1%3B%2B__utmz%3D52572023.1621524825.1.1.utmcsr%3D(direct)%7Cutmccn%3D(direct)%7Cutmcmd%3D(none)%3B&utmjid=1604129220&utmredir=1&utmu=qBAAAAAAAAAAAAAAAAAAAAAE~",
+      "query": {
+        "utmwv": "5.7.2",
+        "utms": 1,
+        "utmn": 661672857,
+        "utmhn": "melodysoft.com",
+        "utmcs": "windows-1252",
+        "utmsr": "1680x927",
+        "utmvp": "1680x927",
+        "utmsc": "24-bit",
+        "utmul": "en-us",
+        "utmje": 0,
+        "utmfl": "-",
+        "utmdt": "Melodysoft servicios gratuitos para Webmasters",
+        "utmhid": 878651918,
+        "utmr": "-",
+        "utmp": "/",
+        "utmht": 1621524824877,
+        "utmac": "UA-11231120-2",
+        "utmcc": "__utma=52572023.15521243.1621524825.1621524825.1621524825.1;+__utmz=52572023.1621524825.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none);",
+        "utmjid": 1604129220,
+        "utmredir": 1,
+        "utmu": "qBAAAAAAAAAAAAAAAAAAAAAE~"
+      },
+      "filter": "/__utm.gif",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "http://melodysoft.com/",
+            "source": "requested from http://melodysoft.com/ and matched with easyprivacy.txt filter /__utm.gif"
+          }
+        ],
+        "timestamp": "2021-05-20T15:33:44.897Z"
+      },
+      "occurrances": 1
+    }
+  ],
+  "hosts": {
+    "requests": {
+      "firstParty": [
+        "melodysoft.com"
+      ],
+      "thirdParty": [
+        "www.google-analytics.com",
+        "adsrv.melodysoft.com",
+        "connect.facebook.net",
+        "www.facebook.com"
+      ]
+    },
+    "beacons": {
+      "firstParty": [],
+      "thirdParty": [
+        "www.google-analytics.com"
+      ]
+    },
+    "cookies": {
+      "firstParty": [
+        "melodysoft.com"
+      ],
+      "thirdParty": []
+    },
+    "localStorage": {
+      "firstParty": [],
+      "thirdParty": []
+    },
+    "links": {
+      "firstParty": [
+        "melodysoft.com"
+      ],
+      "thirdParty": [
+        "www.melodysoft.com",
+        "www.foromania.com",
+        "www.juegosweb.com",
+        "tiendas.melodysoft.com",
+        "boards2.melodysoft.com"
+      ]
+    }
+  }
+}

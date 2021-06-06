@@ -1,0 +1,822 @@
+{
+  "title": "Website Evidence Collection",
+  "task_description": null,
+  "uri_ins": "https://sergas.gal",
+  "uri_refs": [
+    "https://sergas.gal"
+  ],
+  "uri_dest": "https://www.sergas.gal/",
+  "uri_redirects": [
+    "https://sergas.gal/"
+  ],
+  "secure_connection": {
+    "https_support": false,
+    "https_error": "RequestError: Error [ERR_TLS_CERT_ALTNAME_INVALID]: Hostname/IP does not match certificate's altnames: Host: sergas.gal. is not in the cert's altnames: DNS:*.sergas.es, DNS:*.sergas.gal, DNS:sergas.es",
+    "redirects": [
+      "https://www.sergas.gal"
+    ],
+    "https_redirect": true
+  },
+  "host": "sergas.gal",
+  "script": {
+    "host": "sfod",
+    "version": {
+      "npm": "1.0.0",
+      "commit": null
+    },
+    "cmd_args": "-q --overwrite https://sergas.gal -- --ignore-certificate-errors",
+    "environment": {
+      "CHROME_DESKTOP": "code-url-handler.desktop"
+    },
+    "node_version": "v14.17.0"
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "HeadlessChrome/80.0.3987.0",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3617.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "5.8.0-53-generic"
+    },
+    "extra_headers": {},
+    "preset_cookies": {}
+  },
+  "start_time": "2021-05-20T15:54:05.737Z",
+  "end_time": "2021-05-20T15:54:12.728Z",
+  "links": {
+    "firstParty": [],
+    "thirdParty": [
+      {
+        "href": "http://www.sergas.gal/Portada?idioma=ga",
+        "inner_text": "Galego",
+        "inner_html": "Galego"
+      },
+      {
+        "href": "http://www.sergas.gal/Portada?idioma=es",
+        "inner_text": "Castellano",
+        "inner_html": "Castellano"
+      },
+      {
+        "href": "https://www.sergas.gal/Paxinas/mapa-web.aspx",
+        "inner_text": "Mapa Web",
+        "inner_html": "Mapa Web"
+      },
+      {
+        "href": "https://www.sergas.gal/Paxinas/accesibilidade.aspx",
+        "inner_text": "Accesibilidade",
+        "inner_html": "Accesibilidade"
+      },
+      {
+        "href": "https://www.sergas.gal/Paxinas/contacte.aspx",
+        "inner_text": "Contacte",
+        "inner_html": "Contacte"
+      },
+      {
+        "href": "https://www.xunta.gal/sanidade/transparencia",
+        "inner_text": "Transparencia e Goberno Aberto",
+        "inner_html": "Transparencia e Goberno Aberto"
+      },
+      {
+        "href": "https://www.sergas.gal/",
+        "inner_text": "",
+        "inner_html": "<img src=\"/_layouts/images/websg/xunta.svg\" alt=\"Consellería de Sanidade\" title=\"Consellería de Sanidade\">"
+      },
+      {
+        "href": "https://ec.europa.eu/regional_policy/es/funding/erdf/",
+        "inner_text": "",
+        "inner_html": "<img src=\"/_layouts/images/websg/UE_FEDER_Info_gl.svg\" alt=\"FONDO EUROPEO DE DESENVOLVEMENTO REXIONAL 'Unha maneira de facer Europa'\" title=\"FONDO EUROPEO DE DESENVOLVEMENTO REXIONAL 'Unha maneira de facer Europa'\">"
+      },
+      {
+        "href": "https://www.sergas.gal/Paxinas/A-nosa-organizacion.aspx?idcatgrupo=11358",
+        "inner_text": "",
+        "inner_html": "<img src=\"/_layouts/images/websg/UE_FEDER.svg\" alt=\"UNIÓN EUROPEA\" title=\"UNIÓN EUROPEA\">"
+      },
+      {
+        "href": "https://www.sergas.gal/Portada",
+        "inner_text": "\n                            \n                            INICIO\n                        ",
+        "inner_html": "<img src=\"/_layouts/images/websg/icon-homepage.png\" alt=\"Páxina principal\" class=\"hidden-xs hidden-sm\">\n                            <span class=\"visible-xs visible-sm\">INICIO</span>"
+      },
+      {
+        "href": "https://www.sergas.gal/Grupos-de-informacion?idcat=11000",
+        "inner_text": "Consellería e SERGAS",
+        "inner_html": "Consellería e SERGAS"
+      },
+      {
+        "href": "https://www.sergas.gal/A-nosa-organizacion",
+        "inner_text": "A nosa organización",
+        "inner_html": "A nosa organización"
+      },
+      {
+        "href": "https://www.sergas.gal/ESaude",
+        "inner_text": "É-Saúde",
+        "inner_html": "É-Saúde"
+      },
+      {
+        "href": "https://www.sergas.gal/Asistencia-sanitaria",
+        "inner_text": "Asistencia sanitaria",
+        "inner_html": "Asistencia sanitaria"
+      },
+      {
+        "href": "https://www.sergas.gal/Bioetica",
+        "inner_text": "Bioética",
+        "inner_html": "Bioética"
+      },
+      {
+        "href": "https://www.sergas.gal/Doazon-e-Transplantes",
+        "inner_text": "Doazón e Transplantes",
+        "inner_html": "Doazón e Transplantes"
+      },
+      {
+        "href": "https://www.sergas.gal/Docencia-e-Formacion",
+        "inner_text": "Docencia e Formación",
+        "inner_html": "Docencia e Formación"
+      },
+      {
+        "href": "https://www.sergas.gal/Hospital-2050--Innova-Saude",
+        "inner_text": "Hospital 2050 - Innova Saúde",
+        "inner_html": "Hospital 2050 - Innova Saúde"
+      },
+      {
+        "href": "https://www.sergas.gal/Humanizacion",
+        "inner_text": "Humanización",
+        "inner_html": "Humanización"
+      },
+      {
+        "href": "https://www.sergas.gal/Investigacion-e-Innovacion",
+        "inner_text": "Investigación e Innovación",
+        "inner_html": "Investigación e Innovación"
+      },
+      {
+        "href": "https://www.sergas.gal/Recursos-Economicos",
+        "inner_text": "Recursos Económicos",
+        "inner_html": "Recursos Económicos"
+      },
+      {
+        "href": "https://www.sergas.gal/Recursos-Humanos",
+        "inner_text": "Recursos Humanos",
+        "inner_html": "Recursos Humanos"
+      },
+      {
+        "href": "https://www.sergas.gal/Saude-laboral",
+        "inner_text": "Saúde laboral",
+        "inner_html": "Saúde laboral"
+      },
+      {
+        "href": "https://www.sergas.gal/Saude-publica",
+        "inner_text": "Saúde pública",
+        "inner_html": "Saúde pública"
+      },
+      {
+        "href": "https://www.sergas.gal/Sociosanitario",
+        "inner_text": "Sociosanitario",
+        "inner_html": "Sociosanitario"
+      },
+      {
+        "href": "https://www.sergas.gal/Tarxeta-sanitaria",
+        "inner_text": "Tarxeta sanitaria",
+        "inner_html": "Tarxeta sanitaria"
+      },
+      {
+        "href": "https://www.sergas.gal/Violencia-de-xenero",
+        "inner_text": "Violencia de xénero",
+        "inner_html": "Violencia de xénero"
+      },
+      {
+        "href": "https://www.sergas.gal/Colectivos?idcat=11046",
+        "inner_text": "Cidadanía",
+        "inner_html": "Cidadanía"
+      },
+      {
+        "href": "https://www.sergas.gal/Colectivos?idcat=11053",
+        "inner_text": "Profesionais",
+        "inner_html": "Profesionais"
+      },
+      {
+        "href": "https://www.sergas.gal/Colectivos?idcat=11058",
+        "inner_text": "Empresas e Provedores",
+        "inner_html": "Empresas e Provedores"
+      },
+      {
+        "href": "https://www.sergas.gal/Interesame?idcat=11145",
+        "inner_text": "Preciso atención médica primaria",
+        "inner_html": "Preciso atención médica primaria"
+      },
+      {
+        "href": "https://www.sergas.gal/Interesame?idcat=11146",
+        "inner_text": "Preciso atención médica especializada",
+        "inner_html": "Preciso atención médica especializada"
+      },
+      {
+        "href": "https://www.sergas.gal/Interesame?idcat=11150",
+        "inner_text": "Quero coidar da miña saúde",
+        "inner_html": "Quero coidar da miña saúde"
+      },
+      {
+        "href": "https://www.sergas.gal/Interesame?idcat=11151",
+        "inner_text": "Teño un fillo/a pequeno/a",
+        "inner_html": "Teño un fillo/a pequeno/a"
+      },
+      {
+        "href": "https://www.sergas.gal/Interesame?idcat=11152",
+        "inner_text": "Vou ter un fillo/a",
+        "inner_html": "Vou ter un fillo/a"
+      },
+      {
+        "href": "https://www.sergas.gal/Interesame?idcat=11153",
+        "inner_text": "Estou investigando",
+        "inner_html": "Estou investigando"
+      },
+      {
+        "href": "https://www.sergas.gal/Interesame?idcat=11057",
+        "inner_text": "Quero realizar unha consulta e/ou trámite relacionado ca miña saúde",
+        "inner_html": "Quero realizar unha consulta e/ou trámite relacionado ca miña saúde"
+      },
+      {
+        "href": "https://www.sergas.gal/Interesame?idcat=11155",
+        "inner_text": "Preciso realizar un trámite relacionado coa miña tarxeta sanitaria",
+        "inner_html": "Preciso realizar un trámite relacionado coa miña tarxeta sanitaria"
+      },
+      {
+        "href": "https://www.sergas.gal/Interesame?idcat=11156",
+        "inner_text": "Quero cambiar de médico",
+        "inner_html": "Quero cambiar de médico"
+      },
+      {
+        "href": "https://www.sergas.gal/Interesame?idcat=11157",
+        "inner_text": "Quero ser doante",
+        "inner_html": "Quero ser doante"
+      },
+      {
+        "href": "https://www.sergas.gal/Interesame?idcat=11158",
+        "inner_text": "Preciso unha doazón",
+        "inner_html": "Preciso unha doazón"
+      },
+      {
+        "href": "https://www.sergas.gal/Interesame?idcat=11159",
+        "inner_text": "Son un traballador/a do Sergas",
+        "inner_html": "Son un traballador/a do Sergas"
+      },
+      {
+        "href": "https://www.sergas.gal/Interesame?idcat=11160",
+        "inner_text": "Son un provedor/a do Sergas",
+        "inner_html": "Son un provedor/a do Sergas"
+      },
+      {
+        "href": "https://www.sergas.gal/Interesame?idcat=11162",
+        "inner_text": "Quero previr unha enfermidade ou accidente no meu lugar de traballo",
+        "inner_html": "Quero previr unha enfermidade ou accidente no meu lugar de traballo"
+      },
+      {
+        "href": "https://www.sergas.gal/Grupos-de-informacion?idcat=11001",
+        "inner_text": "e-Servizos",
+        "inner_html": "e-Servizos"
+      },
+      {
+        "href": "https://www.sergas.gal/A-nosa-organizacion/Paxinas/Subscrici%C3%B3n-SMS.aspx",
+        "inner_text": "",
+        "inner_html": "<img class=\"social-block-img\" src=\"/ISiganos/2/SMS.png\" alt=\"Subscrición SMS\">"
+      },
+      {
+        "href": "https://www.facebook.com/SanidadeXunta",
+        "inner_text": "",
+        "inner_html": "<img class=\"social-block-img\" src=\"/ISiganos/3/facebook.png\" alt=\"Facebook\">"
+      },
+      {
+        "href": "https://twitter.com/SanidadeXunta",
+        "inner_text": "",
+        "inner_html": "<img class=\"social-block-img\" src=\"/ISiganos/4/twitter.png\" alt=\"Twitter\">"
+      },
+      {
+        "href": "https://www.sergas.gal/Paxinas/canles-rss.aspx",
+        "inner_text": "",
+        "inner_html": "<img class=\"social-block-img\" src=\"/ISiganos/1/rss.png\" alt=\"Canles RSS\">"
+      },
+      {
+        "href": "https://www.sergas.gal/E-Saude/accesotema",
+        "inner_text": "É-SAÚDE",
+        "inner_html": "<div class=\"home-nav-icon\">\n                            <img class=\"nav-icon-on\" src=\"/E-Saude/PublishingImages/2/e-saude_on.png\" alt=\"DIRECTO A É-SAÚDE\">\n                            <img class=\"nav-icon-off\" src=\"/E-Saude/PublishingImages/2/e-saude_off.png\" alt=\"DIRECTO A É-SAÚDE\">\n                        </div>\n                        <span class=\"home-nav-text\">\n                            É-SAÚDE\n                        </span>"
+      },
+      {
+        "href": "https://www.sergas.gal/Asistencia-sanitaria/Cita-previa-atenci%C3%B3n-primaria",
+        "inner_text": "CITA ATENCIÓN PRIMARIA",
+        "inner_html": "<div class=\"home-nav-icon\">\n                            <img class=\"nav-icon-on\" src=\"/Asistencia-sanitaria/PublishingImages/11/cita_hover.png\" alt=\"DIRECTO A CITA ATENCIÓN PRIMARIA\">\n                            <img class=\"nav-icon-off\" src=\"/Asistencia-sanitaria/PublishingImages/11/cita.png\" alt=\"DIRECTO A CITA ATENCIÓN PRIMARIA\">\n                        </div>\n                        <span class=\"home-nav-text\">\n                            CITA ATENCIÓN PRIMARIA\n                        </span>"
+      },
+      {
+        "href": "https://www.sergas.gal/Asistencia-sanitaria/Asistencia-telef%C3%B3nica",
+        "inner_text": "ASISTENCIA TELEFÓNICA",
+        "inner_html": "<div class=\"home-nav-icon\">\n                            <img class=\"nav-icon-on\" src=\"/Asistencia-sanitaria/PublishingImages/19/asistencia_hover.png\" alt=\"DIRECTO A ASISTENCIA TELEFÓNICA\">\n                            <img class=\"nav-icon-off\" src=\"/Asistencia-sanitaria/PublishingImages/19/asistencia.png\" alt=\"DIRECTO A ASISTENCIA TELEFÓNICA\">\n                        </div>\n                        <span class=\"home-nav-text\">\n                            ASISTENCIA TELEFÓNICA\n                        </span>"
+      },
+      {
+        "href": "https://www.sergas.gal/A-nosa-organizacion/Buscador-de-centros",
+        "inner_text": "BUSCADOR DE CENTROS",
+        "inner_html": "<div class=\"home-nav-icon\">\n                            <img class=\"nav-icon-on\" src=\"/A-nosa-organizacion/PublishingImages/127/busca-centros_on.png\" alt=\"DIRECTO A BUSCADOR DE CENTROS\">\n                            <img class=\"nav-icon-off\" src=\"/A-nosa-organizacion/PublishingImages/127/busca-centros_off.png\" alt=\"DIRECTO A BUSCADOR DE CENTROS\">\n                        </div>\n                        <span class=\"home-nav-text\">\n                            BUSCADOR DE CENTROS\n                        </span>"
+      },
+      {
+        "href": "https://www.sergas.gal/Tarxeta-sanitaria/Modificaci%C3%B3n-datos-persoais-con-certificado-dixital",
+        "inner_text": "MODIFICACIÓN DATOS PERSOAIS (CON CERTIFICADO DIXITAL)",
+        "inner_html": "<div class=\"home-nav-icon\">\n                            <img class=\"nav-icon-on\" src=\"/Tarxeta-sanitaria/PublishingImages/14/tarxeta_sanitaria_mod_datos_persoais-on.png\" alt=\"DIRECTO A MODIFICACIÓN DATOS PERSOAIS (CON CERTIFICADO DIXITAL)\">\n                            <img class=\"nav-icon-off\" src=\"/Tarxeta-sanitaria/PublishingImages/14/tarxeta_sanitaria_mod_datos_persoais.png\" alt=\"DIRECTO A MODIFICACIÓN DATOS PERSOAIS (CON CERTIFICADO DIXITAL)\">\n                        </div>\n                        <span class=\"home-nav-text\">\n                            MODIFICACIÓN DATOS PERSOAIS (CON CERTIFICADO DIXITAL)\n                        </span>"
+      },
+      {
+        "href": "https://www.sergas.gal/Recursos-Humanos/Emprego-P%C3%BAblico",
+        "inner_text": "EMPREGO PÚBLICO",
+        "inner_html": "<div class=\"home-nav-icon\">\n                            <img class=\"nav-icon-on\" src=\"/Recursos-Humanos/PublishingImages/3799/emprego-publico-on.png\" alt=\"DIRECTO A EMPREGO PÚBLICO\">\n                            <img class=\"nav-icon-off\" src=\"/Recursos-Humanos/PublishingImages/3799/emprego-publico.png\" alt=\"DIRECTO A EMPREGO PÚBLICO\">\n                        </div>\n                        <span class=\"home-nav-text\">\n                            EMPREGO PÚBLICO\n                        </span>"
+      },
+      {
+        "href": "https://www.sergas.gal/A-nosa-organizacion/Consultas-reclamacions-suxestions",
+        "inner_text": "CONTACTE",
+        "inner_html": "<div class=\"home-nav-icon\">\n                            <img class=\"nav-icon-on\" src=\"/A-nosa-organizacion/PublishingImages/719/menu_consultas_hover.png\" alt=\"DIRECTO A CONTACTE\">\n                            <img class=\"nav-icon-off\" src=\"/A-nosa-organizacion/PublishingImages/719/menu_consultas.png\" alt=\"DIRECTO A CONTACTE\">\n                        </div>\n                        <span class=\"home-nav-text\">\n                            CONTACTE\n                        </span>"
+      },
+      {
+        "href": "https://www.sergas.gal/A-nosa-organizacion/Sala-de-comunicaci%C3%B3n-conseller%C3%ADa-sanidade-sergas",
+        "inner_text": "SALA DE COMUNICACIÓN",
+        "inner_html": "<div class=\"home-nav-icon\">\n                            <img class=\"nav-icon-on\" src=\"/A-nosa-organizacion/PublishingImages/1/menu_comunicacion-on.png\" alt=\"DIRECTO A SALA DE COMUNICACIÓN\">\n                            <img class=\"nav-icon-off\" src=\"/A-nosa-organizacion/PublishingImages/1/comunicacion-off.png\" alt=\"DIRECTO A SALA DE COMUNICACIÓN\">\n                        </div>\n                        <span class=\"home-nav-text\">\n                            SALA DE COMUNICACIÓN\n                        </span>"
+      },
+      {
+        "href": "https://coronavirus.sergas.gal/",
+        "inner_text": "",
+        "inner_html": "<img src=\"/SiteCollectionImages/banner-largo_CoronaVirus_Crespon_TelfVac_GAL.png\" alt=\"Web Coronavirus\">"
+      },
+      {
+        "href": "https://coronavirus.sergas.gal/vacinacion",
+        "inner_text": "Vacinación Coronavirus",
+        "inner_html": "<img src=\"/Saude-publica/PublishingImages/6709/web-acceso-vacinacion-coronavirus.png\" title=\"Vacinación Coronavirus\" alt=\"Visor Vacinación Coronavirus\" style=\"width: 596px; height: 333.164px;\">\n    <div class=\"jcarousel-text-container \">\n        <div class=\"jcarousel-text\">\n            Vacinación Coronavirus</div>\n    </div>"
+      },
+      {
+        "href": "https://coronavirus.sergas.gal/datos",
+        "inner_text": "Datos Coronavirus",
+        "inner_html": "<img src=\"/Saude-publica/PublishingImages/6613/web-acceso-datos-coronavirus.jpg\" title=\"Datos Coronavirus\" alt=\"Visor Datos Coronavirus\" style=\"width: 596px; height: 333.164px;\">\n    <div class=\"jcarousel-text-container \">\n        <div class=\"jcarousel-text\">\n            Datos Coronavirus</div>\n    </div>"
+      },
+      {
+        "href": "https://www.sergas.gal/Saude-publica/Paxinas/Benvida-viaxeirxs.aspx",
+        "inner_text": "Benvida viaxeiras/os",
+        "inner_html": "<img src=\"/Saude-publica/PublishingImages/6635/coronavirus_viaxeirxs.png\" title=\"Benvida viaxeiras/os\" alt=\"Visor Benvida viaxeiras/os\" style=\"width: 596px; height: 333.164px;\">\n    <div class=\"jcarousel-text-container \">\n        <div class=\"jcarousel-text\">\n            Benvida viaxeiras/os</div>\n    </div>"
+      },
+      {
+        "href": "http://multimediaext.sergas.es/sergas/202103/Estratexia_Sergas_Presentacion_20210310_095824_4435.mp4",
+        "inner_text": "",
+        "inner_html": "<div class=\"jcarousel-video-overlay\"></div>\n            <img class=\"imaxePrevia\" src=\"/A-nosa-organizacion/PublishingImages/858/humanizacion.png\" alt=\"Visor Estratexia de humanización\" title=\"Estratexia de humanización\" style=\"width: 596px; height: 333.164px;\">"
+      },
+      {
+        "href": "https://www.sergas.gal/A-nosa-organizacion/Paxinas/Subscrici%C3%B3n-SMS-personalizada.aspx?idioma=ga",
+        "inner_text": "",
+        "inner_html": "<img src=\"/A-nosa-organizacion/PublishingImages/854/relacionCidadania-subscricion.png\" title=\"Subscrición a avisos e notificacións personalizadas\" alt=\"Visor Subscrición a avisos e notificacións personalizadas\" style=\"width: 596px; height: 333.164px;\">\n    <div class=\"jcarousel-text-container  nodisplay\">\n        <div class=\"jcarousel-text\">\n            Subscrición a avisos e notificacións personalizadas</div>\n    </div>"
+      },
+      {
+        "href": "https://www.sergas.gal/A-nosa-organizacion/PublishingImages/846/Axenda2030_ed_galego.jpg",
+        "inner_text": "",
+        "inner_html": "<img title=\"Axenda 2030\" alt=\"Visor Axenda 2030\" src=\"/A-nosa-organizacion/PublishingImages/846/Axenda2030_ed_galego.jpg\" style=\"width: 596px; height: 333.164px;\">\n    <div class=\"jcarousel-text-container  nodisplay\">\n        <div class=\"jcarousel-text\">\n            Axenda 2030</div>\n    </div>"
+      },
+      {
+        "href": "https://twitter.com/doadoressangue",
+        "inner_text": "",
+        "inner_html": "<img src=\"/Doazon-e-Transplantes/PublishingImages/175/BANNER_DoaSangue_GAL_3.png\" title=\"Doa Sangue. Súmate ao noso equipo\" alt=\"Visor Doa Sangue. Súmate ao noso equipo\" style=\"width: 596px; height: 333.164px;\">\n    <div class=\"jcarousel-text-container  nodisplay\">\n        <div class=\"jcarousel-text\">\n            Doa Sangue. Súmate ao noso equipo</div>\n    </div>"
+      },
+      {
+        "href": "https://www.sergas.gal/Paxinas/ESaude.aspx",
+        "inner_text": "",
+        "inner_html": "<img src=\"/E-Saude/PublishingImages/4/596x333.png\" title=\"É-Saúde: a saúde nun clic\" alt=\"Visor É-Saúde: a saúde nun clic\" style=\"width: 596px; height: 333.164px;\">\n    <div class=\"jcarousel-text-container  nodisplay\">\n        <div class=\"jcarousel-text\">\n            É-Saúde: a saúde nun clic</div>\n    </div>"
+      },
+      {
+        "href": "https://www.sergas.gal/A-nosa-organizacion/Paxinas/WHO-collaborating-centre-for-vaccine-safety.aspx",
+        "inner_text": "",
+        "inner_html": "<img src=\"/A-nosa-organizacion/PublishingImages/726/WhoChus.png\" title=\"WHO collaborating centre for vaccine safety\" alt=\"Visor WHO collaborating centre for vaccine safety\" style=\"width: 596px; height: 333.164px;\">\n    <div class=\"jcarousel-text-container  nodisplay\">\n        <div class=\"jcarousel-text\">\n            WHO collaborating centre for vaccine safety</div>\n    </div>"
+      },
+      {
+        "href": "https://www.sergas.gal/Saude-publica/Paxinas/Preguntas-medidas-prevencion-especificas-consecuencia-evolucion-situacion-epidemioloxica-COVID-19.aspx",
+        "inner_text": "Medidas de prevención do coronavirus",
+        "inner_html": "<img src=\"/Saude-publica/PublishingImages/6672/Coronavirus-preguntas-nova-normalidade.png\" title=\"Medidas de prevención do coronavirus\" alt=\"Visor Medidas de prevención do coronavirus\" style=\"width: 596px; height: 333.164px;\">\n    <div class=\"jcarousel-text-container \">\n        <div class=\"jcarousel-text\">\n            Medidas de prevención do coronavirus</div>\n    </div>"
+      },
+      {
+        "href": "https://www.sergas.gal/Asistencia-sanitaria/Instruci%C3%B3n-para-a-inclusi%C3%B3n-das-persoas-desprazadas-e-residentes-en-Galicia-no-Plan-Galego-de-Vacinaci%C3%B3n-fronte-o-SARS-Cov2",
+        "inner_text": "\n\t\t\t\n\t\t\t\tInstrución para a inclusión das persoas desprazadas e residentes en Galicia no Plan Galego de Vacinación fronte o SARS-Cov-2\n\t\t\t\n\t\t",
+        "inner_html": "<div class=\"blue-gradient\">\n\t\t\t\t<p>Instrución para a inclusión das persoas desprazadas e residentes en Galicia no Plan Galego de Vacinación fronte o SARS-Cov-2</p>\n\t\t\t</div>"
+      },
+      {
+        "href": "https://www.sergas.gal/Investigacion-e-Innovacion/resolucion-provisional-Labsaude-Ourense",
+        "inner_text": "30/03/21 - Resolución provisional Labsaúde - Living Lab de Ourense (Procedemento SA304B)",
+        "inner_html": "<p>30/03/21 - Resolución provisional Labsaúde - Living Lab de Ourense (Procedemento SA304B)</p>"
+      },
+      {
+        "href": "https://www.sergas.gal/Saude-publica/benvida-viaxeirxs",
+        "inner_text": "Benvida viaxeiras/os - Formulario de rexistro",
+        "inner_html": "<p>Benvida viaxeiras/os - Formulario de rexistro</p>"
+      },
+      {
+        "href": "https://www.sergas.gal/Saude-publica/Preguntas-medidas-prevencion-especificas-consecuencia-evolucion-situacion-epidemioloxica-COVID-19",
+        "inner_text": "Preguntas acerca das medidas de prevención específicas como consecuencia da evolución da situación epidemiolóxica derivada da COVID-19 na Comunidade Autónoma de Galicia",
+        "inner_html": "<p>Preguntas acerca das medidas de prevención específicas como consecuencia da evolución da situación epidemiolóxica derivada da COVID-19 na Comunidade Autónoma de Galicia</p>"
+      },
+      {
+        "href": "https://www.sergas.gal/Recursos-Economicos/Proxecto-sectorial-para-a-ampliacion-do-Hospital-Gran-Montecelo-aprobado-definitivamente",
+        "inner_text": "Proxecto sectorial para a ampliación do Hospital Gran Montecelo aprobado definitivamente",
+        "inner_html": "<p>Proxecto sectorial para a ampliación do Hospital Gran Montecelo aprobado definitivamente</p>"
+      },
+      {
+        "href": "https://www.sergas.gal/avisos",
+        "inner_text": "",
+        "inner_html": "<img src=\"/_layouts/images/websg/total-link.png\" alt=\"Ver máis\">"
+      },
+      {
+        "href": "https://saladecomunicacion.sergas.gal/Paginas/DetalleNova.aspx?idioma=ga&idNova=11296&vista=clasica",
+        "inner_text": "GALICIA REXISTRA UN TOTAL DE 2.701 CASOS ACTIVOS POR CORONAVIRUS",
+        "inner_html": "<p>GALICIA REXISTRA UN TOTAL DE 2.701 CASOS ACTIVOS POR CORONAVIRUS </p>"
+      },
+      {
+        "href": "https://saladecomunicacion.sergas.gal/Paginas/DetalleNova.aspx?idioma=ga&idNova=11295&vista=clasica",
+        "inner_text": "GALICIA CONTARÁ CUNHA NOVA UNIDADE DE HOSPITALIZACIÓN INFANTO-XUVENIL NO ÁLVARO CUNQUEIRO",
+        "inner_html": "<p>GALICIA CONTARÁ CUNHA NOVA UNIDADE DE HOSPITALIZACIÓN INFANTO-XUVENIL NO ÁLVARO CUNQUEIRO</p>"
+      },
+      {
+        "href": "https://saladecomunicacion.sergas.gal/Paginas/DetalleNova.aspx?idioma=ga&idNova=11294&vista=clasica",
+        "inner_text": "GALICIA REXISTRA UN TOTAL DE 2.744 CASOS ACTIVOS POR CORONAVIRUS",
+        "inner_html": "<p>GALICIA REXISTRA UN TOTAL DE 2.744 CASOS ACTIVOS POR CORONAVIRUS</p>"
+      },
+      {
+        "href": "https://saladecomunicacion.sergas.gal/Paginas/DetalleNova.aspx?idioma=ga&idNova=11293&vista=clasica",
+        "inner_text": "PROFESIONAIS DO IDIS CAPTARON MÁIS DE 31 MILLÓNS DE EUROS PARA INVESTIGACIÓN O PASADO ANO A PESAR DAS DIFICULTADES DEBIDAS Á PANDEMIA",
+        "inner_html": "<p>PROFESIONAIS DO IDIS CAPTARON MÁIS DE 31 MILLÓNS DE EUROS PARA INVESTIGACIÓN O PASADO ANO A PESAR DAS DIFICULTADES DEBIDAS Á PANDEMIA</p>"
+      },
+      {
+        "href": "https://saladecomunicacion.sergas.gal/Paginas/DetalleNova.aspx?idioma=ga&idNova=11292&vista=clasica",
+        "inner_text": "A AXENCIA GALEGA DE SANGUE, ÓRGANOS E TECIDOS E O CENTRO ASOCIADO DA UNED DA CORUÑA ASINAN UN CONVENIO DE COLABORACIÓN PARA O FOMENTO DA DOAZÓN DE SANGUE, ÓRGANOS E TECIDOS",
+        "inner_html": "<p>A AXENCIA GALEGA DE SANGUE, ÓRGANOS E TECIDOS E O CENTRO ASOCIADO DA UNED DA CORUÑA ASINAN UN CONVENIO DE COLABORACIÓN PARA O FOMENTO DA DOAZÓN DE SANGUE, ÓRGANOS E TECIDOS</p>"
+      },
+      {
+        "href": "https://www.sergas.gal/novidades",
+        "inner_text": "",
+        "inner_html": "<img src=\"/_layouts/images/websg/total-link-novidades.png\" alt=\"Ver máis\">"
+      },
+      {
+        "href": "http://ados.sergas.gal/?idioma=ga",
+        "inner_text": "Axencia de Doazón de Órganos e Sangue",
+        "inner_html": "<div class=\"jcarousel-item-top\">\n                                    <img src=\"/Doazon-e-Transplantes/PublishingImages/118/logo_ados.jpg\" alt=\"ACCESO Axencia de Doazón de Órganos e Sangue\">\n                                </div>\n                                <div class=\"jcarousel-item-bottom\">\n                                    <span>\n                                        Axencia de Doazón de Órganos e Sangue</span>\n                                </div>"
+      },
+      {
+        "href": "http://acis.sergas.gal/?idioma=ga",
+        "inner_text": "ACIS",
+        "inner_html": "<div class=\"jcarousel-item-top\">\n                                    <img src=\"/A-nosa-organizacion/PublishingImages/431/bannerweb_acis.png\" alt=\"ACCESO ACIS\">\n                                </div>\n                                <div class=\"jcarousel-item-bottom\">\n                                    <span>\n                                        ACIS</span>\n                                </div>"
+      },
+      {
+        "href": "http://061.sergas.gal/?idioma=ga",
+        "inner_text": "Urxencias Sanitarias",
+        "inner_html": "<div class=\"jcarousel-item-top\">\n                                    <img src=\"/A-nosa-organizacion/PublishingImages/378/061.png\" alt=\"ACCESO Urxencias Sanitarias\">\n                                </div>\n                                <div class=\"jcarousel-item-bottom\">\n                                    <span>\n                                        Urxencias Sanitarias</span>\n                                </div>"
+      },
+      {
+        "href": "http://escolasaude.sergas.gal/?idioma=ga",
+        "inner_text": "Escola de Cidadáns",
+        "inner_html": "<div class=\"jcarousel-item-top\">\n                                    <img src=\"/A-nosa-organizacion/PublishingImages/449/escola-cidadans.png\" alt=\"ACCESO Escola de Cidadáns\">\n                                </div>\n                                <div class=\"jcarousel-item-bottom\">\n                                    <span>\n                                        Escola de Cidadáns</span>\n                                </div>"
+      },
+      {
+        "href": "http://xenteconvida.sergas.gal/",
+        "inner_text": "Xente con vida",
+        "inner_html": "<div class=\"jcarousel-item-top\">\n                                    <img src=\"/Saude-publica/PublishingImages/9/xenteconvida.jpg\" alt=\"ACCESO Xente con vida\">\n                                </div>\n                                <div class=\"jcarousel-item-bottom\">\n                                    <span>\n                                        Xente con vida</span>\n                                </div>"
+      },
+      {
+        "href": "http://codigo100.sergas.gal/?idioma=ga",
+        "inner_text": "Código 100",
+        "inner_html": "<div class=\"jcarousel-item-top\">\n                                    <img src=\"/A-nosa-organizacion/PublishingImages/541/cidogo_100_logo_blanco.png\" alt=\"ACCESO Código 100\">\n                                </div>\n                                <div class=\"jcarousel-item-bottom\">\n                                    <span>\n                                        Código 100</span>\n                                </div>"
+      },
+      {
+        "href": "http://ulcerasfora.sergas.gal/?idioma=ga",
+        "inner_text": "Úlceras Fóra",
+        "inner_html": "<div class=\"jcarousel-item-top\">\n                                    <img src=\"/A-nosa-organizacion/PublishingImages/584/ulceras.png\" alt=\"ACCESO Úlceras Fóra\">\n                                </div>\n                                <div class=\"jcarousel-item-bottom\">\n                                    <span>\n                                        Úlceras Fóra</span>\n                                </div>"
+      },
+      {
+        "href": "https://www.sergas.gal/Paxinas/Bioetica.aspx",
+        "inner_text": "Bioética",
+        "inner_html": "<div class=\"jcarousel-item-top\">\n                                    <img src=\"/Bioetica/PublishingImages/58/banner-Bioetica.png\" alt=\"ACCESO Bioética\">\n                                </div>\n                                <div class=\"jcarousel-item-bottom\">\n                                    <span>\n                                        Bioética</span>\n                                </div>"
+      },
+      {
+        "href": "http://bibliosaude.sergas.gal/?idioma=ga",
+        "inner_text": "Biblioteca virtual",
+        "inner_html": "<div class=\"jcarousel-item-top\">\n                                    <img src=\"/A-nosa-organizacion/PublishingImages/335/bibliosaude.png\" alt=\"ACCESO Biblioteca virtual\">\n                                </div>\n                                <div class=\"jcarousel-item-bottom\">\n                                    <span>\n                                        Biblioteca virtual</span>\n                                </div>"
+      },
+      {
+        "href": "https://acis.sergas.gal/cartafol/Que-facemos?idioma=ga",
+        "inner_text": "Asesoramento Científico-técnico",
+        "inner_html": "<div class=\"jcarousel-item-top\">\n                                    <img src=\"/A-nosa-organizacion/PublishingImages/893/acceso-avalia-t.png\" alt=\"ACCESO Asesoramento Científico-técnico\">\n                                </div>\n                                <div class=\"jcarousel-item-bottom\">\n                                    <span>\n                                        Asesoramento Científico-técnico</span>\n                                </div>"
+      },
+      {
+        "href": "http://coidatecoidame.sergas.gal/?idioma=ga",
+        "inner_text": "Cóidate Cóidame",
+        "inner_html": "<div class=\"jcarousel-item-top\">\n                                    <img src=\"/Saude-publica/PublishingImages/3155/acceso-coidate-coidame.png\" alt=\"ACCESO Cóidate Cóidame\">\n                                </div>\n                                <div class=\"jcarousel-item-bottom\">\n                                    <span>\n                                        Cóidate Cóidame</span>\n                                </div>"
+      },
+      {
+        "href": "https://www.sergas.gal/Paxinas/Hospital-2050--Innova-Saude.aspx",
+        "inner_text": "Hospital 2050 - Innovasaúde",
+        "inner_html": "<div class=\"jcarousel-item-top\">\n                                    <img src=\"/Hospital-2050---Innova-Saude/PublishingImages/288/H2050_InnovaSaúde.png\" alt=\"ACCESO Hospital 2050 - Innovasaúde\">\n                                </div>\n                                <div class=\"jcarousel-item-bottom\">\n                                    <span>\n                                        Hospital 2050 - Innovasaúde</span>\n                                </div>"
+      },
+      {
+        "href": "https://www.xunta.es/",
+        "inner_text": "",
+        "inner_html": "<img alt=\"Xunta de Galicia\" title=\"Xunta de Galicia\" src=\"/_layouts/images/websg/xunta_pie.svg\">"
+      },
+      {
+        "href": "https://www.sergas.gal/Paxinas/aviso-legal.aspx",
+        "inner_text": "Aviso legal ",
+        "inner_html": "Aviso legal"
+      },
+      {
+        "href": "https://www.turismo.gal/",
+        "inner_text": "",
+        "inner_html": "<img alt=\"Galicia\" title=\"Galicia\" src=\"/_layouts/images/websg/logo-galicia-gl.svg\">"
+      },
+      {
+        "href": "https://www.sergas.gal/paxinas/aviso-legal.aspx",
+        "inner_text": "Coñeza como as usamos e de que maneira pode cambiar a súa configuración",
+        "inner_html": "Coñeza como as usamos e de que maneira pode cambiar a súa configuración"
+      }
+    ],
+    "social": [
+      {
+        "href": "https://www.facebook.com/SanidadeXunta",
+        "inner_text": "",
+        "inner_html": "<img class=\"social-block-img\" src=\"/ISiganos/3/facebook.png\" alt=\"Facebook\">"
+      },
+      {
+        "href": "https://twitter.com/SanidadeXunta",
+        "inner_text": "",
+        "inner_html": "<img class=\"social-block-img\" src=\"/ISiganos/4/twitter.png\" alt=\"Twitter\">"
+      },
+      {
+        "href": "https://twitter.com/doadoressangue",
+        "inner_text": "",
+        "inner_html": "<img src=\"/Doazon-e-Transplantes/PublishingImages/175/BANNER_DoaSangue_GAL_3.png\" title=\"Doa Sangue. Súmate ao noso equipo\" alt=\"Visor Doa Sangue. Súmate ao noso equipo\" style=\"width: 596px; height: 333.164px;\">\n    <div class=\"jcarousel-text-container  nodisplay\">\n        <div class=\"jcarousel-text\">\n            Doa Sangue. Súmate ao noso equipo</div>\n    </div>"
+      }
+    ],
+    "keywords": [
+      {
+        "href": "https://www.sergas.gal/Paxinas/aviso-legal.aspx",
+        "inner_text": "Aviso legal ",
+        "inner_html": "Aviso legal"
+      },
+      {
+        "href": "https://www.sergas.gal/paxinas/aviso-legal.aspx",
+        "inner_text": "Coñeza como as usamos e de que maneira pode cambiar a súa configuración",
+        "inner_html": "Coñeza como as usamos e de que maneira pode cambiar a súa configuración"
+      }
+    ]
+  },
+  "unsafeForms": [],
+  "browsing_history": [
+    "https://www.sergas.gal/"
+  ],
+  "websockets": {},
+  "cookies": [
+    {
+      "name": "_ga",
+      "value": "GA1.2.16010566.1621526048",
+      "domain": "sergas.gal",
+      "path": "/",
+      "expires": 1684598047,
+      "size": 28,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2023-05-20T15:54:07.000Z",
+      "expiresDays": 730,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 495,
+            "lineNumber": 30,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "zc",
+            "source": "    at zc (https://www.google-analytics.com/analytics.js:30:495)"
+          },
+          {
+            "columnNumber": 15,
+            "lineNumber": 60,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "ma",
+            "source": "    at ma (https://www.google-analytics.com/analytics.js:60:15)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T15:54:07.534Z",
+        "location": "https://www.sergas.gal/"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "_gid",
+      "value": "GA1.2.1545166079.1621526048",
+      "domain": "sergas.gal",
+      "path": "/",
+      "expires": 1621612447,
+      "size": 31,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2021-05-21T15:54:07.000Z",
+      "expiresDays": 1,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 495,
+            "lineNumber": 30,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "zc",
+            "source": "    at zc (https://www.google-analytics.com/analytics.js:30:495)"
+          },
+          {
+            "columnNumber": 401,
+            "lineNumber": 59,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "ma",
+            "source": "    at ma (https://www.google-analytics.com/analytics.js:59:401)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T15:54:07.535Z",
+        "location": "https://www.sergas.gal/"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "_gat",
+      "value": "1",
+      "domain": "sergas.gal",
+      "path": "/",
+      "expires": 1621526107,
+      "size": 5,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2021-05-20T15:55:07.000Z",
+      "expiresDays": 0,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 495,
+            "lineNumber": 30,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "zc",
+            "source": "    at zc (https://www.google-analytics.com/analytics.js:30:495)"
+          },
+          {
+            "columnNumber": 31,
+            "lineNumber": 73,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "Qd",
+            "source": "    at Qd (https://www.google-analytics.com/analytics.js:73:31)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T15:54:07.536Z",
+        "location": "https://www.sergas.gal/"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "ASP.NET_SessionId",
+      "value": "xdicnaakrad2hx55qwlmz23k",
+      "domain": "www.sergas.gal",
+      "path": "/",
+      "expires": -1,
+      "size": 41,
+      "httpOnly": true,
+      "secure": true,
+      "session": true,
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.sergas.gal/",
+            "source": "set in Set-Cookie HTTP response header for https://www.sergas.gal/"
+          }
+        ],
+        "type": "Cookie.HTTP",
+        "timestamp": "2021-05-20T15:54:06.385Z",
+        "location": "about:blank"
+      },
+      "firstPartyStorage": false
+    }
+  ],
+  "localStorage": {},
+  "beacons": [
+    {
+      "url": "https://www.google-analytics.com/j/collect?v=1&_v=j90&a=925099735&t=pageview&_s=1&dl=https%3A%2F%2Fwww.sergas.gal%2F&ul=en-us&de=UTF-8&dt=Inicio%20-%20Conseller%C3%ADa%20de%20Sanidade%20-%20Servizo%20Galego%20de%20Sa%C3%BAde&sd=24-bit&sr=1680x927&vp=1680x927&je=0&_u=IEBAAEABAAAAAC~&jid=290236904&gjid=1582024432&cid=16010566.1621526048&tid=UA-40142682-5&_gid=1545166079.1621526048&_r=1&_slc=1&z=322172075",
+      "query": {
+        "v": 1,
+        "_v": "j90",
+        "a": 925099735,
+        "t": "pageview",
+        "_s": 1,
+        "dl": "https://www.sergas.gal/",
+        "ul": "en-us",
+        "de": "UTF-8",
+        "dt": "Inicio - Consellería de Sanidade - Servizo Galego de Saúde",
+        "sd": "24-bit",
+        "sr": "1680x927",
+        "vp": "1680x927",
+        "je": 0,
+        "_u": "IEBAAEABAAAAAC~",
+        "jid": 290236904,
+        "gjid": 1582024432,
+        "cid": 16010566.162152605,
+        "tid": "UA-40142682-5",
+        "_gid": 1545166079.1621525,
+        "_r": 1,
+        "_slc": 1,
+        "z": 322172075
+      },
+      "filter": "/collect?*&cid=",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.sergas.gal/",
+            "source": "requested from https://www.sergas.gal/ and matched with easyprivacy.txt filter /collect?*&cid="
+          }
+        ],
+        "timestamp": "2021-05-20T15:54:07.539Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://www.google-analytics.com/analytics.js",
+      "query": null,
+      "filter": "||google-analytics.com/analytics.js",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.sergas.gal/",
+            "source": "requested from https://www.sergas.gal/ and matched with easyprivacy.txt filter ||google-analytics.com/analytics.js"
+          }
+        ],
+        "timestamp": "2021-05-20T15:54:06.870Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://www.sergas.gal/ISiganos/1/rss.png",
+      "query": null,
+      "filter": "/rss.png",
+      "listName": "fanboy-annoyance.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.sergas.gal/",
+            "source": "requested from https://www.sergas.gal/ and matched with fanboy-annoyance.txt filter /rss.png"
+          }
+        ],
+        "timestamp": "2021-05-20T15:54:06.452Z"
+      },
+      "occurrances": 1
+    }
+  ],
+  "hosts": {
+    "requests": {
+      "firstParty": [
+        "sergas.gal"
+      ],
+      "thirdParty": [
+        "www.sergas.gal",
+        "www.google-analytics.com"
+      ]
+    },
+    "beacons": {
+      "firstParty": [],
+      "thirdParty": [
+        "www.google-analytics.com"
+      ]
+    },
+    "cookies": {
+      "firstParty": [
+        "sergas.gal"
+      ],
+      "thirdParty": [
+        "www.sergas.gal"
+      ]
+    },
+    "localStorage": {
+      "firstParty": [],
+      "thirdParty": []
+    },
+    "links": {
+      "firstParty": [],
+      "thirdParty": [
+        "www.sergas.gal",
+        "www.xunta.gal",
+        "ec.europa.eu",
+        "www.facebook.com",
+        "twitter.com",
+        "coronavirus.sergas.gal",
+        "multimediaext.sergas.es",
+        "saladecomunicacion.sergas.gal",
+        "ados.sergas.gal",
+        "acis.sergas.gal",
+        "061.sergas.gal",
+        "escolasaude.sergas.gal",
+        "xenteconvida.sergas.gal",
+        "codigo100.sergas.gal",
+        "ulcerasfora.sergas.gal",
+        "bibliosaude.sergas.gal",
+        "coidatecoidame.sergas.gal",
+        "www.xunta.es",
+        "www.turismo.gal"
+      ]
+    }
+  }
+}

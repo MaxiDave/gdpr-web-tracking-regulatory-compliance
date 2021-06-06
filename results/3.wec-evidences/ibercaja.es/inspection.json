@@ -1,0 +1,663 @@
+{
+  "title": "Website Evidence Collection",
+  "task_description": null,
+  "uri_ins": "http://ibercaja.es",
+  "uri_refs": [
+    "http://ibercaja.es"
+  ],
+  "uri_dest": "https://www.ibercaja.es/",
+  "uri_redirects": [
+    "http://ibercaja.es/"
+  ],
+  "secure_connection": {
+    "https_support": false,
+    "https_error": "RequestError: Error: Client network socket disconnected before secure TLS connection was established",
+    "redirects": [
+      "https://www.ibercaja.es"
+    ],
+    "https_redirect": true
+  },
+  "host": "ibercaja.es",
+  "script": {
+    "host": "sfod",
+    "version": {
+      "npm": "1.0.0",
+      "commit": null
+    },
+    "cmd_args": "-q --overwrite http://ibercaja.es -- --ignore-certificate-errors",
+    "environment": {
+      "CHROME_DESKTOP": "code-url-handler.desktop"
+    },
+    "node_version": "v14.17.0"
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "HeadlessChrome/80.0.3987.0",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3617.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "5.8.0-53-generic"
+    },
+    "extra_headers": {},
+    "preset_cookies": {}
+  },
+  "start_time": "2021-05-20T15:59:31.779Z",
+  "end_time": "2021-05-20T15:59:54.748Z",
+  "links": {
+    "firstParty": [],
+    "thirdParty": [
+      {
+        "href": "https://www.ibercaja.es/particulares/cookies/",
+        "inner_text": "Política de cookies",
+        "inner_html": "Política de cookies"
+      },
+      {
+        "href": "https://www.ibercaja.es/particulares/",
+        "inner_text": "PARTICULARES",
+        "inner_html": "Particulares"
+      },
+      {
+        "href": "https://www.ibercaja.es/empresas/",
+        "inner_text": "EMPRESAS",
+        "inner_html": "Empresas"
+      },
+      {
+        "href": "https://www.ibercaja.es/banca-personal/",
+        "inner_text": "BANCA PERSONAL",
+        "inner_html": "Banca Personal"
+      },
+      {
+        "href": "https://www.ibercaja.es/banca-privada/",
+        "inner_text": "BANCA PRIVADA",
+        "inner_html": "Banca Privada"
+      },
+      {
+        "href": "https://www.ibercaja.es/tu-dinero-con-corazon/",
+        "inner_text": "TU DINERO CON CORAZÓN",
+        "inner_html": "Tu dinero con corazón"
+      },
+      {
+        "href": "https://www.ibercaja.es/",
+        "inner_text": "\n                        \n                    ",
+        "inner_html": "<img class=\"logo-xs\" src=\"/public/IBE/img/icon-logo-negro.svg\" alt=\"Ibercaja Banco\" title=\"Ibercaja Banco\">"
+      },
+      {
+        "href": "https://www.ibercaja.es/particulares/cuentas-tarjetas/cuentas/",
+        "inner_text": "Cuentas y Tarjetas",
+        "inner_html": "Cuentas y Tarjetas<span class=\"indicator\"><svg xmlns=\"http://www.w3.org/2000/svg\" id=\"b2edfd15-f4de-4243-80f2-c481a7b942b0\" data-name=\"ff648a06-a337-4604-ad52-275e1983d56b\" viewBox=\"0 0 95.5 96\" width=\"30px\" height=\"30px\" class=\"chevron svg replaced-svg\">\n\n\t<path d=\"M47.9,58.88,21.37,32.37,16,37.77,42.49,64.28a7.67,7.67,0,0,0,10.81,0L81.52,36.06l-5.39-5.4Z\"></path></svg></span>"
+      },
+      {
+        "href": "https://www.ibercaja.es/particulares/cuentas-tarjetas/tarjetas/",
+        "inner_text": "Tarjetas",
+        "inner_html": "Tarjetas"
+      },
+      {
+        "href": "https://www.ibercaja.es/particulares/ahorro-inversion/fondos-de-inversion/",
+        "inner_text": "Ahorro e Inversión",
+        "inner_html": "Ahorro e Inversión<span class=\"indicator\"><svg xmlns=\"http://www.w3.org/2000/svg\" id=\"b2edfd15-f4de-4243-80f2-c481a7b942b0\" data-name=\"ff648a06-a337-4604-ad52-275e1983d56b\" viewBox=\"0 0 95.5 96\" width=\"30px\" height=\"30px\" class=\"chevron svg replaced-svg\">\n\n\t<path d=\"M47.9,58.88,21.37,32.37,16,37.77,42.49,64.28a7.67,7.67,0,0,0,10.81,0L81.52,36.06l-5.39-5.4Z\"></path></svg></span>"
+      },
+      {
+        "href": "https://www.ibercaja.es/particulares/ahorro-inversion/planes-de-pensiones/",
+        "inner_text": "Planes de Pensiones",
+        "inner_html": "Planes de Pensiones"
+      },
+      {
+        "href": "https://www.ibercaja.es/particulares/ahorro-inversion/valores/",
+        "inner_text": "Valores",
+        "inner_html": "Valores"
+      },
+      {
+        "href": "https://www.ibercaja.es/particulares/ahorro-inversion/seguros-ahorro/",
+        "inner_text": "Seguros ahorro",
+        "inner_html": "Seguros ahorro"
+      },
+      {
+        "href": "https://www.ibercaja.es/particulares/ahorro-inversion/depositos/",
+        "inner_text": "Depósitos",
+        "inner_html": "Depósitos"
+      },
+      {
+        "href": "https://www.ibercaja.es/particulares/ahorro-inversion/seguros-rentas-vitalicias/",
+        "inner_text": "Rentas Vitalicias",
+        "inner_html": "Rentas Vitalicias"
+      },
+      {
+        "href": "https://www.ibercaja.es/particulares/seguros/te-ayudamos-a-elegir-tu-seguro/",
+        "inner_text": "Seguros",
+        "inner_html": "Seguros<span class=\"indicator\"><svg xmlns=\"http://www.w3.org/2000/svg\" id=\"b2edfd15-f4de-4243-80f2-c481a7b942b0\" data-name=\"ff648a06-a337-4604-ad52-275e1983d56b\" viewBox=\"0 0 95.5 96\" width=\"30px\" height=\"30px\" class=\"chevron svg replaced-svg\">\n\n\t<path d=\"M47.9,58.88,21.37,32.37,16,37.77,42.49,64.28a7.67,7.67,0,0,0,10.81,0L81.52,36.06l-5.39-5.4Z\"></path></svg></span>"
+      },
+      {
+        "href": "https://www.ibercaja.es/particulares/seguros/seguros-salud/",
+        "inner_text": "Salud",
+        "inner_html": "Salud"
+      },
+      {
+        "href": "https://www.ibercaja.es/particulares/seguros/seguro-hogar/",
+        "inner_text": "Hogar",
+        "inner_html": "Hogar"
+      },
+      {
+        "href": "https://www.ibercaja.es/particulares/seguros/seguros-decesos/",
+        "inner_text": "Decesos",
+        "inner_html": "Decesos"
+      },
+      {
+        "href": "https://www.ibercaja.es/particulares/seguros/seguros-coche/",
+        "inner_text": "Coche",
+        "inner_html": "Coche"
+      },
+      {
+        "href": "https://www.ibercaja.es/particulares/seguros/seguro-moto/",
+        "inner_text": "Moto",
+        "inner_html": "Moto"
+      },
+      {
+        "href": "https://www.ibercaja.es/particulares/seguros/seguros-vida/",
+        "inner_text": "Vida",
+        "inner_html": "Vida"
+      },
+      {
+        "href": "https://www.ibercaja.es/particulares/seguros/otros-seguros/",
+        "inner_text": "Otros seguros",
+        "inner_html": "Otros seguros"
+      },
+      {
+        "href": "https://www.ibercaja.es/particulares/hipotecas-prestamos/hipotecas/",
+        "inner_text": "Hipotecas y Préstamos",
+        "inner_html": "Hipotecas y Préstamos<span class=\"indicator\"><svg xmlns=\"http://www.w3.org/2000/svg\" id=\"b2edfd15-f4de-4243-80f2-c481a7b942b0\" data-name=\"ff648a06-a337-4604-ad52-275e1983d56b\" viewBox=\"0 0 95.5 96\" width=\"30px\" height=\"30px\" class=\"chevron svg replaced-svg\">\n\n\t<path d=\"M47.9,58.88,21.37,32.37,16,37.77,42.49,64.28a7.67,7.67,0,0,0,10.81,0L81.52,36.06l-5.39-5.4Z\"></path></svg></span>"
+      },
+      {
+        "href": "https://www.ibercaja.es/particulares/hipotecas-prestamos/prestamos/",
+        "inner_text": "Préstamos",
+        "inner_html": "Préstamos"
+      },
+      {
+        "href": "https://www.ibercaja.es/particulares/hipotecas-prestamos/renting/",
+        "inner_text": "Renting",
+        "inner_html": "Renting"
+      },
+      {
+        "href": "https://www.ibercaja.es/forms/hipoteca-a-un-paso/",
+        "inner_text": "PULSA AQUÍ",
+        "inner_html": "<strong>Pulsa aquí</strong>"
+      },
+      {
+        "href": "https://www.ibercaja.es/particulares/corner-del-especialista/informacion-psd2/psd2-consumidores/",
+        "inner_text": "MÁS INFORMACIÓN",
+        "inner_html": "Más información"
+      },
+      {
+        "href": "https://www.ibercaja.es/particulares/banca-digital/servicios/banca-digital/",
+        "inner_text": "VER TODOS LOS SERVICIOS ",
+        "inner_html": "VER TODOS LOS SERVICIOS <i class=\"fa fa-chevron-right\"></i>"
+      },
+      {
+        "href": "https://vamoscontufuturo.ibercaja.es/informate/formas-de-ahorro/",
+        "inner_text": "¿VAMOS?",
+        "inner_html": "¿Vamos?"
+      },
+      {
+        "href": "https://www.ibercaja.es/particulares/tu-banca/mas-joven/",
+        "inner_text": "+ Joven\n\nEnseña a los más pequeños de la casa a ahorrar jugando.",
+        "inner_html": "<img class=\"img-responsive\" src=\"/public/img/particulares/home/nena_lupa.jpg\" alt=\"+ Joven\" title=\"+ Joven\">\n                        <div class=\"overlay\"></div>\n                        <div class=\"card-body\">\n                            <h6 class=\"mb-8 title\">+ Joven</h6>\n                            <p class=\"hidden-sm hidden-xs\">Enseña a los más pequeños de la casa a ahorrar jugando.</p>\n                        </div>"
+      },
+      {
+        "href": "https://www.ibercaja.es/particulares/tu-banca/jovenes/",
+        "inner_text": "Jóvenes\n\nHablamos tu mismo idioma, disfruta de ser joven sin comisiones.",
+        "inner_html": "<img class=\"img-responsive\" src=\"/public/img/particulares/home/chica_movil.jpg\" alt=\"Jóvenes\" title=\"Jóvenes\">\n                        <div class=\"overlay\"></div>\n                        <div class=\"card-body\">\n                            <h6 class=\"mb-8 title\">Jóvenes</h6>\n                            <p class=\"hidden-sm hidden-xs\">Hablamos tu mismo idioma, disfruta de ser joven sin comisiones.</p>\n                        </div>"
+      },
+      {
+        "href": "https://www.ibercaja.es/particulares/tu-banca/mayores/",
+        "inner_text": "Mayores\n\nAcompañarte es ayudarte a tomar las mejores decisiones.",
+        "inner_html": "<img class=\"img-responsive\" src=\"/public/img/particulares/home/abuelos.jpg\" alt=\"Mayores\" title=\"Mayores\">\n                        <div class=\"overlay\"></div>\n                        <div class=\"card-body\">\n                            <h6 class=\"mb-8 title\">Mayores</h6>\n                            <p class=\"hidden-sm hidden-xs\">Acompañarte es ayudarte a tomar las mejores decisiones.</p>\n                        </div>"
+      },
+      {
+        "href": "https://www.ibercaja.es/redireccion_externo.php?url=https%3A%2F%2Fentradas.ibercaja.es%2F",
+        "inner_text": "Entradas\n\nCompra ya tus entradas para los mejores espectáculos del momento.",
+        "inner_html": "<div class=\"row\">\n                        <div class=\"col-md-12 col-sm-3 col-xs-3\">\n                            <svg xmlns=\"http://www.w3.org/2000/svg\" id=\"eb0555de-2af5-4f7d-9dae-5d29db5cc35c\" data-name=\"ff648a06-a337-4604-ad52-275e1983d56b\" viewBox=\"0 0 95.5 96\" width=\"30px\" height=\"30px\" alt=\"Entradas\" class=\"svg svg-md replaced-svg\">\n\n\t<g id=\"abfbc147-d0fd-415f-9561-8d0b3be97e40\" data-name=\"ticket-75\"><path id=\"a0b0e7ba-1074-44d7-ac7f-4f88299344ec\" data-name=\"Shape\" d=\"M85,65.77a3.57,3.57,0,0,1,3.55-3.6v-5.4a3.6,3.6,0,0,1,0-7.2V44.16a3.6,3.6,0,0,1,0-7.2v-5.4a3.61,3.61,0,0,1,0-7.21V19a1.79,1.79,0,0,0-1.78-1.8H76.15a3.55,3.55,0,1,1-7.1,0H8.71A1.79,1.79,0,0,0,6.93,19v5.4a3.61,3.61,0,0,1,0,7.21V37a3.6,3.6,0,0,1,0,7.2v5.41a3.6,3.6,0,0,1,0,7.2v5.4a3.6,3.6,0,0,1,0,7.2v7.21a1.79,1.79,0,0,0,1.78,1.8H69.05a3.55,3.55,0,1,1,7.1,0H86.79a1.79,1.79,0,0,0,1.78-1.8V69.37A3.57,3.57,0,0,1,85,65.77Z\" fill=\"#0b7ad0\"></path><path d=\"M60.52,64H18.23a1.86,1.86,0,0,1-1.93-1.8V33.36a1.86,1.86,0,0,1,1.93-1.8H60.52a1.86,1.86,0,0,1,1.93,1.8V62.17A1.86,1.86,0,0,1,60.52,64Z\" fill=\"#f5f8fa\" fill-opacity=\"0.5\"></path><path d=\"M71.32,35.16a1.79,1.79,0,0,1-1.77-1.8v-3.6a1.78,1.78,0,1,1,3.55,0v3.6A1.79,1.79,0,0,1,71.32,35.16Z\" fill=\"#fff\"></path><path d=\"M71.32,46a1.78,1.78,0,0,1-1.77-1.8v-3.6a1.78,1.78,0,1,1,3.55,0v3.6A1.79,1.79,0,0,1,71.32,46Z\" fill=\"#fff\"></path><path d=\"M71.32,56.77A1.79,1.79,0,0,1,69.55,55v-3.6a1.78,1.78,0,1,1,3.55,0V55A1.79,1.79,0,0,1,71.32,56.77Z\" fill=\"#fff\"></path><path d=\"M71.32,67.57a1.78,1.78,0,0,1-1.77-1.8v-3.6a1.78,1.78,0,1,1,3.55,0v3.6A1.79,1.79,0,0,1,71.32,67.57Z\" fill=\"#fff\"></path></g></svg>\n                        </div>\n                        <div class=\"col-md-12 col-sm-6 col-xs-8 equal-height-column\" style=\"height: 66px;\">\n                            <h5 class=\"bold black pt-8 pt-0-lg pt-0-md pt-0-sm\">Entradas</h5>\n                        </div>\n                        <div class=\"col-md-12 col-sm-8 hidden-xs equal-height-column-2\" style=\"height: 64px;\">\n                            <p class=\"black\">Compra ya tus entradas para los mejores espectáculos del momento.</p>\n                        </div>\n                    </div>"
+      },
+      {
+        "href": "https://www.ibercaja.es/redireccion_externo.php?url=https%3A%2F%2Fpatrocinios.ibercaja.es%2F",
+        "inner_text": "Eventos\n\nDescubre todos los eventos.",
+        "inner_html": "<div class=\"row\">\n                        <div class=\"col-md-12 col-sm-3 col-xs-3\">\n                            <svg xmlns=\"http://www.w3.org/2000/svg\" id=\"e12d8d44-b466-45c6-a18b-2f0b3b118484\" data-name=\"ff648a06-a337-4604-ad52-275e1983d56b\" viewBox=\"0 0 95.5 96\" width=\"30px\" height=\"30px\" alt=\"Eventos\" class=\"svg svg-md replaced-svg\">\n\n\t<g id=\"ec3de4da-e495-4eba-8a82-49a053cf55a6\" data-name=\"calendar-grid-61\"><path id=\"a0daaef9-1730-412c-acf6-24ffabfa575c\" data-name=\"Shape\" d=\"M16.75,77.13a2.78,2.78,0,0,0,2.78,2.78H78a2.78,2.78,0,0,0,2.78-2.78V35.39h-64Z\" fill=\"#dae2e9\"></path><path d=\"M78,21.48H19.53a2.79,2.79,0,0,0-2.78,2.78V35.39h64V24.26A2.79,2.79,0,0,0,78,21.48Z\" fill=\"#0b7ad0\"></path><path d=\"M29.27,28.44V17.31a1.4,1.4,0,0,1,1.39-1.4h2.79a1.4,1.4,0,0,1,1.39,1.4V28.44a1.39,1.39,0,0,1-1.39,1.39H30.66A1.39,1.39,0,0,1,29.27,28.44Z\" fill=\"#3d4245\"></path><path d=\"M62.66,28.44V17.31a1.4,1.4,0,0,1,1.39-1.4h2.79a1.4,1.4,0,0,1,1.39,1.4V28.44a1.39,1.39,0,0,1-1.39,1.39H64.05A1.39,1.39,0,0,1,62.66,28.44Z\" fill=\"#3d4245\"></path><path d=\"M71,61.83H66.84V53.48H71a1.39,1.39,0,1,0,0-2.78H66.84v-7a1.4,1.4,0,0,0-2.79,0v7H55.71v-7a1.4,1.4,0,0,0-2.79,0v7H44.58v-7a1.4,1.4,0,0,0-2.79,0v7H33.45v-7a1.4,1.4,0,0,0-2.79,0v7H26.49a1.39,1.39,0,0,0,0,2.78h4.17v8.35H26.49a1.39,1.39,0,1,0,0,2.78h4.17v7a1.4,1.4,0,0,0,2.79,0v-7h8.34v7a1.4,1.4,0,0,0,2.79,0v-7h8.34v7a1.4,1.4,0,0,0,2.79,0v-7h8.34v7a1.4,1.4,0,0,0,2.79,0v-7H71a1.39,1.39,0,1,0,0-2.78Zm-37.56,0V53.48h8.34v8.35Zm11.13,0V53.48h8.34v8.35Zm11.13,0V53.48h8.34v8.35Z\" fill=\"#fff\"></path></g></svg>\n                        </div>\n                        <div class=\"col-md-12 col-sm-6 col-xs-8 equal-height-column\" style=\"height: 66px;\">\n                            <h5 class=\"bold black pt-8 pt-0-lg pt-0-md pt-0-sm\">Eventos</h5>\n                        </div>\n                        <div class=\"col-md-12 col-sm-8 hidden-xs equal-height-column-2\" style=\"height: 64px;\">\n                            <p class=\"black\">Descubre todos los eventos.</p>\n                        </div>\n                    </div>"
+      },
+      {
+        "href": "https://www.ibercaja.es/redireccion_externo.php?url=https%3A%2F%2Fiberfan.ibercaja.es%2F",
+        "inner_text": "Iberfan\n\nTu club social infantil con descuentos y ventajas exclusivas.",
+        "inner_html": "<div class=\"row\">\n                        <div class=\"col-md-12 col-sm-3 col-xs-3\">\n                            <svg xmlns=\"http://www.w3.org/2000/svg\" id=\"a83c1c3b-c0b2-414a-8644-f45b27361af1\" data-name=\"ff648a06-a337-4604-ad52-275e1983d56b\" viewBox=\"0 0 95.5 96\" width=\"30px\" height=\"30px\" alt=\"Iberfan\" class=\"svg svg-md replaced-svg\">\n\n\t<path d=\"M79.86,66.76c-5.18-3.19-7.93-3.3-11.24-9.14-4.52-7.93.66-14.43,6.83-15.54,13.33-2.42,4.74-17.63-2.86-11-3,2.64-4.63,4.4-8.15,5.39-4.41,1.33-7.06-3.3-4-9.47,1.65-3.2,3.08-9.26-2.32-11-5.06-1.65-9.25,3.09-8.7,6.83.88,5.62-.88,8.16-3.19,6.5a4.62,4.62,0,0,0-7.39,3.86c.22,3.08-1.65,4.85-5.29,4.19-3-.56-5.39-2.54-11.34-5.29-10.8-5.07-15.43,13.66-2.87,14,4,.11,8.82-1.1,11.79,2,2,2,4.3,11.57-9.7,16.31-4,1.32-5.06,6-2.2,8.59,2.54,2.43,6.17.66,8-1.76,8.38-10.69,16.86-6.61,14.77-2.64-2.87,5.29-.77,9.69,3.19,10.68s8.6-1.87,7.5-6.83A5.68,5.68,0,0,1,60.91,66c3.75,2,4.74,4.52,8.7,10,8.6,11.68,20.17-3.2,10.25-9.26\" fill=\"#0069af\"></path><path d=\"M34.58,26.55c1.21,1.21,2.64,1.87,3.74,1.1s1.21-2.42.33-4a2.55,2.55,0,1,0-4.07,2.87\" fill=\"#0069af\"></path><path d=\"M74.35,53.87c1.21,1.21,2.65,1.88,3.86,1.1s1.21-2.42.33-4a2.59,2.59,0,1,0-4.19,2.86\" fill=\"#0069af\"></path></svg>\n                        </div>\n                         <div class=\"col-md-12 col-sm-6 col-xs-8 equal-height-column\" style=\"height: 66px;\">\n                            <h5 class=\"bold black pt-8 pt-0-lg pt-0-md pt-0-sm\">Iberfan</h5>\n                        </div>\n                        <div class=\"col-md-12 col-sm-8 hidden-xs equal-height-column-2\" style=\"height: 64px;\">\n                            <p class=\"black\">Tu club social infantil con descuentos y ventajas exclusivas.</p>\n                        </div>\n                    </div>"
+      },
+      {
+        "href": "https://www.ibercaja.es/redireccion_externo.php?url=https%3A%2F%2Fxplora.ibercaja.es%2F",
+        "inner_text": "Espacio Xplora\n\nDescubre un espacio donde vivirás una experiencia única con nuevas tendencias digitales.",
+        "inner_html": "<div class=\"row\">\n                         <div class=\"col-md-12 col-sm-3 col-xs-3\">\n                            <svg xmlns=\"http://www.w3.org/2000/svg\" id=\"a7dfd73d-ace6-4e54-8cf8-e7716cd9426b\" data-name=\"eb0555de-2af5-4f7d-9dae-5d29db5cc35c\" viewBox=\"0 0 28.31 23.92\" alt=\"Xplora\" class=\"svg svg-md replaced-svg\"><title>xplora</title><polygon points=\"27.25 0.89 1.07 0.89 1.07 15.37 27.25 1.23 27.25 0.89\" fill=\"#f3f2f3\"></polygon><polygon points=\"1.07 15.37 1.07 15.73 27.25 15.73 27.25 1.23 1.07 15.37\" fill=\"#dbd9d9\"></polygon><path d=\"M28.18,2.83H1.82a1,1,0,0,0-1,1V19.42H29.16V3.8A1,1,0,0,0,28.18,2.83ZM27.69,18H2.31V4.29H27.69Z\" transform=\"translate(-0.84 -2.83)\" fill=\"#3d4245\"></path><path d=\"M.84,19.42v2a1,1,0,0,0,1,1h9.27l-.42,3.42h-.06a.49.49,0,1,0,0,1h8.78a.49.49,0,0,0,0-1h-.06l-.42-3.42h9.27a1,1,0,0,0,1-1v-2ZM15,20.16a.73.73,0,1,1-.73.73A.73.73,0,0,1,15,20.16Z\" transform=\"translate(-0.84 -2.83)\" fill=\"#d9e1e8\"></path><polygon points=\"10.13 20.5 18.18 20.5 18.06 19.53 10.25 19.53 10.13 20.5\" fill=\"#d9e1e8\"></polygon><circle cx=\"14.16\" cy=\"18.06\" r=\"0.73\" fill=\"#3d4245\"></circle><path d=\"M8.67,14a3.12,3.12,0,0,1-.81-2.3V7.83H9.43v3.76c0,1.22.51,1.83,1.52,1.83A1.42,1.42,0,0,0,12.08,13a2,2,0,0,0,.39-1.38V7.83H14v3.82a3.12,3.12,0,0,1-.81,2.3,3.07,3.07,0,0,1-2.27.81A3.07,3.07,0,0,1,8.67,14Z\" transform=\"translate(-0.84 -2.83)\" fill=\"#2776bb\"></path><path d=\"M19.77,14.64l-1.64-2.36-1.62,2.36H14.7l2.52-3.46L14.83,7.83h1.79L18.18,10l1.54-2.21h1.7l-2.37,3.29,2.54,3.52Z\" transform=\"translate(-0.84 -2.83)\" fill=\"#2776bb\"></path></svg>\n                        </div>\n                         <div class=\"col-md-12 col-sm-6 col-xs-8 equal-height-column\" style=\"height: 66px;\">\n                            <h5 class=\"bold black pt-8 pt-0-lg pt-0-md pt-0-sm\">Espacio Xplora</h5>\n                        </div>\n                        <div class=\"col-md-12 col-sm-8 hidden-xs equal-height-column-2\" style=\"height: 88px;\">\n                            <p class=\"black\">Descubre un espacio donde vivirás una experiencia única con nuevas tendencias digitales.</p>\n                        </div>\n                    </div>"
+      },
+      {
+        "href": "https://www.ibercaja.es/redireccion_externo.php?url=https%3A%2F%2Fportalinmobiliario.ibercaja.es",
+        "inner_text": "Portal inmobiliario\n\nDescubre las mejores oportunidades inmobiliarias. Suscríbete al servicio de avisos y no te pierdas nada.",
+        "inner_html": "<div class=\"row\">\n                         <div class=\"col-md-12 col-sm-3 col-xs-3\">\n                            <svg xmlns=\"http://www.w3.org/2000/svg\" id=\"e4555602-a48d-41e7-907d-7b3b8d2dd722\" data-name=\"ff648a06-a337-4604-ad52-275e1983d56b\" viewBox=\"0 0 95.5 96\" width=\"30px\" height=\"30px\" alt=\"Portal inmobiliario\" class=\"svg svg-md replaced-svg\">\n\n\t<path id=\"a032f979-55be-42a8-b46d-219c0e279333\" data-name=\"Shape\" d=\"M48.22,22.1a1.56,1.56,0,0,1-1.56-1.56v-6a1.56,1.56,0,0,1,3.12,0v6.07A1.49,1.49,0,0,1,48.22,22.1Z\" fill=\"#0b7ad0\"></path><path d=\"M60.43,28.24H55.84V20.62a1.56,1.56,0,0,0-1.56-1.56H42.15a1.56,1.56,0,0,0-1.56,1.56v7.62H36a1.56,1.56,0,0,0-1.56,1.56V81.44A1.56,1.56,0,0,0,36,83H60.34a1.56,1.56,0,0,0,1.56-1.56V29.72A1.47,1.47,0,0,0,60.43,28.24Z\" fill=\"#dae2e9\"></path><path id=\"ea774a94-8a9a-4ae3-87d6-ff4ff00d5371\" data-name=\"Combined-Shape\" d=\"M29.94,83V75.38a1.56,1.56,0,0,0-1.56-1.56h-3a1.56,1.56,0,0,0-1.56,1.56V83h-9a1.56,1.56,0,0,1-1.56-1.56V54.07a1.56,1.56,0,0,1,1.56-1.56H39.12a1.56,1.56,0,0,1,1.56,1.56V81.44A1.56,1.56,0,0,1,39.12,83ZM23.88,66.28a1.56,1.56,0,0,0,1.56-1.56v-3a1.56,1.56,0,0,0-1.56-1.56h-3a1.56,1.56,0,0,0-1.56,1.56v3a1.56,1.56,0,0,0,1.56,1.56Zm9.1,0a1.56,1.56,0,0,0,1.56-1.56v-3A1.56,1.56,0,0,0,33,60.13H30a1.56,1.56,0,0,0-1.56,1.56v3A1.56,1.56,0,0,0,30,66.28Z\" fill=\"#0b7ad0\"></path><path d=\"M72.56,83V73.9A1.56,1.56,0,0,0,71,72.34H68a1.56,1.56,0,0,0-1.56,1.56V83h-9.1a1.56,1.56,0,0,1-1.56-1.56V44.89a1.56,1.56,0,0,1,1.56-1.56H81.65a1.56,1.56,0,0,1,1.56,1.56V81.44A1.55,1.55,0,0,1,81.66,83ZM66.5,55.62a1.56,1.56,0,0,0,1.56-1.56V51a1.56,1.56,0,0,0-1.56-1.56h-3A1.56,1.56,0,0,0,61.91,51v3a1.56,1.56,0,0,0,1.56,1.56Zm9.1,0a1.56,1.56,0,0,0,1.56-1.56V51a1.56,1.56,0,0,0-1.56-1.56h-3A1.56,1.56,0,0,0,71,51v3a1.56,1.56,0,0,0,1.56,1.56Zm-9.1,9.1a1.56,1.56,0,0,0,1.56-1.56v-3a1.56,1.56,0,0,0-1.56-1.56h-3a1.56,1.56,0,0,0-1.56,1.56v3a1.56,1.56,0,0,0,1.56,1.56Zm9.1,0a1.56,1.56,0,0,0,1.56-1.56v-3a1.56,1.56,0,0,0-1.56-1.56h-3A1.56,1.56,0,0,0,71,60.13v3a1.56,1.56,0,0,0,1.56,1.56Z\" fill=\"#3d4245\" fill-rule=\"evenodd\"></path></svg>\n                        </div>\n                         <div class=\"col-md-12 col-sm-6 col-xs-8 equal-height-column\" style=\"height: 66px;\">\n                            <h5 class=\"black bold pt-8 pt-0-lg pt-0-md pt-0-sm\">Portal inmobiliario</h5>\n                        </div>\n                        <div class=\"col-md-12 col-sm-8 hidden-xs equal-height-column-2\" style=\"height: 88px;\">\n                            <p class=\"black\">Descubre las mejores oportunidades inmobiliarias. Suscríbete al servicio de avisos y no te pierdas nada.</p>\n                        </div>\n                    </div>"
+      },
+      {
+        "href": "https://www.ibercaja.es/redireccion_externo.php?url=https%3A%2F%2Fwww.ibercajarenting.com%2F",
+        "inner_text": "Ibercaja Renting\n\nEstrena el coche o el móvil que buscas sin necesidad de tener que comprarlo.",
+        "inner_html": "<div class=\"row\">\n                         <div class=\"col-md-12 col-sm-3 col-xs-3\">\n                            <svg xmlns=\"http://www.w3.org/2000/svg\" id=\"f5f9794f-a8c3-4398-a6a5-da64f704f0db\" data-name=\"ff648a06-a337-4604-ad52-275e1983d56b\" viewBox=\"0 0 95.5 96\" width=\"30px\" height=\"30px\" alt=\"Ibercaja Renting\" class=\"svg svg-md replaced-svg\">\n\n\t<path d=\"M87.91,79.19a1.16,1.16,0,0,1-1.25,1.49H29.07a1.43,1.43,0,0,1-1.49-1.49v-2l.49-2.37h-.49V65a7.85,7.85,0,0,1,5.35-7.59l4.35-12.57a5.48,5.48,0,0,1,5-3.6H45v.12l2.49-.12H73.23a5.22,5.22,0,0,1,5,3.6l4.23,12.69A7.91,7.91,0,0,1,88,65.13V79.19ZM83.93,65a4,4,0,1,0-4,4A3.93,3.93,0,0,0,83.93,65Zm-1.5,10.2A2.49,2.49,0,1,0,80,77.69,2.41,2.41,0,0,0,82.43,75.21Zm-2.86-18L75.84,45.85A3,3,0,0,0,73.35,44H42.26a3,3,0,0,0-2.49,1.87L36,57.17ZM68.13,71.47c1.49,0,2.74-1.24,2.49-2.48a2.49,2.49,0,0,0-2.49-2.49H47.23a2.49,2.49,0,1,0,0,5ZM39.27,65a4,4,0,1,0-4,4A3.93,3.93,0,0,0,39.27,65ZM37.9,75.21a2.49,2.49,0,1,0-2.49,2.48A2.5,2.5,0,0,0,37.9,75.21Z\" fill=\"#0b7ad0\"></path><path d=\"M85.17,80.68V85.9a2.55,2.55,0,0,1-2.74,2.49H77.21a2.49,2.49,0,0,1-2.49-2.49V80.68Z\" fill=\"#3d4245\"></path><path d=\"M80,61a4,4,0,1,1-4,4A4.17,4.17,0,0,1,80,61Z\" fill=\"#fff\"></path><path d=\"M80,72.72a2.49,2.49,0,1,1-2.49,2.49A2.49,2.49,0,0,1,80,72.72Z\" fill=\"#e6e6e6\"></path><path d=\"M75.84,45.85l3.73,11.32H36l3.73-11.32A3,3,0,0,1,42.26,44H73.35A3.14,3.14,0,0,1,75.84,45.85Z\" fill=\"#e6e6e6\"></path><path d=\"M70.62,69c.25,1.24-1,2.48-2.49,2.48H47.23a2.49,2.49,0,1,1,0-5h20.9A2.49,2.49,0,0,1,70.62,69Z\" fill=\"#3d4245\"></path><path d=\"M47.36,41.25l-2.49.12v-.12Z\" fill=\"#0b7ad0\"></path><path d=\"M45,40.25v1H42.26a5.48,5.48,0,0,0-5,3.6L33.05,57.42A7.7,7.7,0,0,0,27.7,65v9.82H16.13a5.09,5.09,0,0,1-3.48-1L44.12,12A3,3,0,0,1,45,14.25Z\" fill=\"#dbd9d9\"></path><path d=\"M44.12,12,12.65,74a4.54,4.54,0,0,1-1.24-3.61V15.5c0-3,2-5,4.6-5a9.89,9.89,0,0,1,1.86.25.8.8,0,0,1,.75.87c0,1.12.75,1.62,1.87,1.62H36.28c1.12,0,1.75-.5,1.75-1.62,0-.5.12-.87.62-.87s1.37-.12,2-.12a4.37,4.37,0,0,1,2.49.62A7.09,7.09,0,0,1,44.12,12Z\" fill=\"#f4f4f4\"></path><path d=\"M40.76,80.68V85.9A2.55,2.55,0,0,1,38,88.39H32.8a2.49,2.49,0,0,1-2.49-2.49V80.68Z\" fill=\"#3d4245\"></path><path d=\"M35.41,61a4,4,0,1,1-4,4A4,4,0,0,1,35.41,61Z\" fill=\"#fff\"></path><path d=\"M35.41,72.72a2.49,2.49,0,1,1-2.48,2.49A2.41,2.41,0,0,1,35.41,72.72Z\" fill=\"#e6e6e6\"></path><path d=\"M28.2,74.83l-.5,2.37V74.83Z\" fill=\"#0b7ad0\"></path><path d=\"M45.61,8.78H10.78a2.76,2.76,0,0,0-2.73,2.74V74.46a2.76,2.76,0,0,0,2.73,2.74H27.7V74.83H16.13a5.09,5.09,0,0,1-3.48-1,4.56,4.56,0,0,1-1.24-3.61V15.37c0-3,2-5,4.6-5a9.14,9.14,0,0,1,1.86.25,1,1,0,0,1,.75,1c0,1.12.75,1.62,1.87,1.62H36.28c1.12,0,1.75-.5,1.75-1.62,0-.5.12-.87.62-.87s1.37-.12,2-.12a4.37,4.37,0,0,1,2.49.62A5.61,5.61,0,0,1,44,12a3,3,0,0,1,.87,2.23V41.12h3.36V11.52A2.58,2.58,0,0,0,45.61,8.78Z\" fill=\"#3d4245\"></path><circle cx=\"35.66\" cy=\"11.52\" r=\"0.62\" fill=\"#fff\"></circle></svg>\n                        </div>\n                         <div class=\"col-md-12 col-sm-6 col-xs-8 equal-height-column\" style=\"height: 66px;\">\n                            <h5 class=\"bold black pt-8 pt-0-lg pt-0-md pt-0-sm\">Ibercaja Renting</h5>\n                        </div>\n                        <div class=\"col-md-12 col-sm-8 hidden-xs equal-height-column-2\" style=\"height: 88px;\">\n                            <p class=\"black\">Estrena el coche o el móvil que buscas sin necesidad de tener que comprarlo. </p>\n                        </div>\n                    </div>"
+      },
+      {
+        "href": "https://www.ibercaja.es/redireccion_externo.php?url=https%3A%2F%2Fwww.fundacionibercaja.es%2Fzaragoza%2Fexposicion-tapices-para-el-patio-de-la-infanta",
+        "inner_text": "Exposición de tapices\nZaragoza",
+        "inner_html": "<div class=\"fecha col-1-3\" itemprop=\"startDate\" content=\"2021-06-01 T18:00\">\n\n                    </div>\n                    <div class=\"col-2-3 pl-8\">\n                        <div class=\"titulo\" itemprop=\"name\">Exposición de tapices</div>\n                        <div class=\"ciudad\" itemprop=\"location\" itemscope=\"\" itemtype=\"http://schema.org/City\">\n                            <span itemprop=\"address\">Zaragoza</span>\n                        </div>\n                    </div>\n                    <div class=\"col-3-3\">\n                        <svg xmlns=\"http://www.w3.org/2000/svg\" id=\"b2520f6a-b7f5-48a5-b064-ad51d7dd9ecf\" data-name=\"ff648a06-a337-4604-ad52-275e1983d56b\" viewBox=\"0 0 95.5 96\" width=\"30px\" height=\"30px\" alt=\"Evento\" class=\"svg svg-sm replaced-svg\">\n\n\t<path d=\"M79.9,27.32a4,4,0,0,0-4.05-4h-12V20.74c0-.76-.24-1.39-.64-1.39H61.77c-.39,0-.63.63-.63,1.39v2.54H34.4V20.74c0-.76-.24-1.39-.63-1.39H32.38c-.4,0-.64.63-.64,1.39v2.54h-12a4,4,0,0,0-4.05,4V36.6h0V79.52h.28a4,4,0,0,0,3.81,2.66H75.81a4,4,0,0,0,4-4V39.34h0Zm-61.48,0a1.21,1.21,0,0,1,1.27-1.27h12v5.36c0,.75.24,1.23.64,1.35h1.39c.39,0,.63-.64.63-1.39V26.05H61.14v5.36c0,.75.24,1.23.63,1.35h1.39c.4,0,.64-.64.64-1.39V26.05h12a1.21,1.21,0,0,1,1.27,1.27v9.24H18.42ZM77.08,78.14a1.21,1.21,0,0,1-1.27,1.27H19.69a1.21,1.21,0,0,1-1.27-1.27V76.75h0V39.38h58.7Z\"></path><path d=\"M25.91,63.42a1.39,1.39,0,0,0,0,2.78H30v6.7a1.39,1.39,0,0,0,2.78,0V66.2h8v6.7a1.39,1.39,0,0,0,2.78,0V66.2h8v6.7a1.39,1.39,0,0,0,2.78,0V66.2h8v6.7a1.39,1.39,0,1,0,2.77,0V66.2h4a1.41,1.41,0,0,0,1.39-1.39,1.34,1.34,0,0,0-1.35-1.35h-4v-8h4a1.39,1.39,0,1,0,0-2.78h-4V46a1.39,1.39,0,1,0-2.77,0v6.7h-8V46a1.39,1.39,0,1,0-2.77,0v6.7h-8V46a1.39,1.39,0,0,0-2.78,0v6.7h-8V46A1.39,1.39,0,0,0,30,46v6.7H25.91a1.39,1.39,0,0,0,0,2.78H30v8Zm28.52-7.93h8v8h-8Zm-10.67,0h8v8h-8Zm-10.63,0h8v8h-8Z\"></path></svg>\n                    </div>"
+      },
+      {
+        "href": "https://www.ibercaja.es/redireccion_externo.php?url=https%3A%2F%2Fwww.fundacionibercaja.es%2Fvideoconferencia-k2-la-montana-maldita",
+        "inner_text": "MAY\n19\nK2 la montaña maldita\nActividad online",
+        "inner_html": "<div class=\"fecha  col-1-3\" itemprop=\"startDate\" content=\"2021-05-19 T19:00\">\n                        <div class=\"mes\">\n                            MAY\n                        </div>\n                        <div class=\"dia\">\n                            19\n                        </div>\n                    </div>\n                    <div class=\"col-2-3 pl-8\">\n                        <div class=\"titulo\" itemprop=\"name\">K2 la montaña maldita</div>\n                        <div class=\"ciudad\" itemprop=\"location\" itemscope=\"\" itemtype=\"http://schema.org/City\">\n                            <span itemprop=\"address\">Actividad online</span>\n                        </div>\n                    </div>\n                    <div class=\"col-3-3\">\n                        <svg xmlns=\"http://www.w3.org/2000/svg\" id=\"fe5c4876-b151-428e-b3f9-1a2f3603ec30\" data-name=\"ff648a06-a337-4604-ad52-275e1983d56b\" viewBox=\"0 0 95.5 96\" width=\"30px\" height=\"30px\" alt=\"Entrada\" class=\"svg svg-sm replaced-svg\">\n\n\t<path d=\"M81.67,30.78h2v-7a3.47,3.47,0,0,0-3.51-3.5H69.3v2a.93.93,0,0,1-1.85,0v-2H15.32a3.47,3.47,0,0,0-3.5,3.5v6.49h2a.93.93,0,1,1,0,1.85h-2v8.49h2a.93.93,0,1,1,0,1.85h-2V51h2a.93.93,0,1,1,0,1.85h-2v8.5h2a.93.93,0,1,1,0,1.85h-2v8.61a3.47,3.47,0,0,0,3.5,3.51H67.5v-2a.93.93,0,0,1,1.85,0v2H80.22a3.45,3.45,0,0,0,3.46-3.54v-8l-2,0a1,1,0,0,1-1-1,1,1,0,0,1,.93-.93h2V53.29h-2a.93.93,0,1,1,0-1.85h2V43h-2a.93.93,0,1,1,0-1.85h2v-8.5h-2a.93.93,0,1,1,0-1.85Zm-5,11.32a5,5,0,0,0,3,4.55v1.2a4.92,4.92,0,0,0-3,4.56,5,5,0,0,0,3,4.54V58.2a5,5,0,0,0-3,4.56,5.14,5.14,0,0,0,3,4.59v3.92H73a4.93,4.93,0,0,0-9.09-.09H15.94V66.76a5,5,0,0,0,3-4.55,5,5,0,0,0-3-4.54V56.42a5,5,0,0,0,0-9.1V46.07a5,5,0,0,0,0-9.1V35.72a5,5,0,0,0,3-4.55,5,5,0,0,0-3-4.55V24.37H63.87a5,5,0,0,0,4.55,3,5,5,0,0,0,4.55-3h6.68V27.2a5,5,0,0,0-3,4.55,5,5,0,0,0,3,4.55v1.25A5,5,0,0,0,76.67,42.1Z\"></path><path d=\"M68.12,30.89a2,2,0,0,0-2,2v3a2,2,0,0,0,3.39,1.32,1.81,1.81,0,0,0,.51-1.32v-3A2,2,0,0,0,68.12,30.89Z\"></path><path d=\"M68.12,39.88a2,2,0,0,0-2,1.95v3a2,2,0,0,0,2,1.95,2,2,0,0,0,1.45-.61,1.84,1.84,0,0,0,.5-1.34v-3A2,2,0,0,0,68.12,39.88Z\"></path><path d=\"M68.12,48.92a2,2,0,0,0-2,1.95v3a1.94,1.94,0,0,0,3.38,1.31,1.79,1.79,0,0,0,.52-1.31v-3A2,2,0,0,0,68.12,48.92Z\"></path><path d=\"M68.12,57.92a2,2,0,0,0-2,1.94v3a2,2,0,0,0,2,2,2,2,0,0,0,1.44-.62,1.82,1.82,0,0,0,.51-1.33v-3A2,2,0,0,0,68.12,57.92Z\"></path></svg>\n                    </div>"
+      },
+      {
+        "href": "https://www.ibercaja.es/redireccion_externo.php?url=https%3A%2F%2Fentradas.ibercaja.es%2Fcompra%2Fi-festival-internacional-de-magia-ciudad-de-zaragoza%2F20052040%2F",
+        "inner_text": "MAY\n20\nI Festival internacional de magia\nZaragoza",
+        "inner_html": "<div class=\"fecha  col-1-3\" itemprop=\"startDate\" content=\"2021-05-19 T19:00\">\n                        <div class=\"mes\">\n                            MAY\n                        </div>\n                        <div class=\"dia\">\n                            20\n                        </div>\n                    </div>\n                    <div class=\"col-2-3 pl-8\">\n                        <div class=\"titulo\" itemprop=\"name\">I Festival internacional de magia</div>\n                        <div class=\"ciudad\" itemprop=\"location\" itemscope=\"\" itemtype=\"http://schema.org/City\">\n                            <span itemprop=\"address\">Zaragoza</span>\n                        </div>\n                    </div>\n                    <div class=\"col-3-3\">\n                        <svg xmlns=\"http://www.w3.org/2000/svg\" id=\"fe5c4876-b151-428e-b3f9-1a2f3603ec30\" data-name=\"ff648a06-a337-4604-ad52-275e1983d56b\" viewBox=\"0 0 95.5 96\" width=\"30px\" height=\"30px\" alt=\"Entrada\" class=\"svg svg-sm replaced-svg\">\n\n\t<path d=\"M81.67,30.78h2v-7a3.47,3.47,0,0,0-3.51-3.5H69.3v2a.93.93,0,0,1-1.85,0v-2H15.32a3.47,3.47,0,0,0-3.5,3.5v6.49h2a.93.93,0,1,1,0,1.85h-2v8.49h2a.93.93,0,1,1,0,1.85h-2V51h2a.93.93,0,1,1,0,1.85h-2v8.5h2a.93.93,0,1,1,0,1.85h-2v8.61a3.47,3.47,0,0,0,3.5,3.51H67.5v-2a.93.93,0,0,1,1.85,0v2H80.22a3.45,3.45,0,0,0,3.46-3.54v-8l-2,0a1,1,0,0,1-1-1,1,1,0,0,1,.93-.93h2V53.29h-2a.93.93,0,1,1,0-1.85h2V43h-2a.93.93,0,1,1,0-1.85h2v-8.5h-2a.93.93,0,1,1,0-1.85Zm-5,11.32a5,5,0,0,0,3,4.55v1.2a4.92,4.92,0,0,0-3,4.56,5,5,0,0,0,3,4.54V58.2a5,5,0,0,0-3,4.56,5.14,5.14,0,0,0,3,4.59v3.92H73a4.93,4.93,0,0,0-9.09-.09H15.94V66.76a5,5,0,0,0,3-4.55,5,5,0,0,0-3-4.54V56.42a5,5,0,0,0,0-9.1V46.07a5,5,0,0,0,0-9.1V35.72a5,5,0,0,0,3-4.55,5,5,0,0,0-3-4.55V24.37H63.87a5,5,0,0,0,4.55,3,5,5,0,0,0,4.55-3h6.68V27.2a5,5,0,0,0-3,4.55,5,5,0,0,0,3,4.55v1.25A5,5,0,0,0,76.67,42.1Z\"></path><path d=\"M68.12,30.89a2,2,0,0,0-2,2v3a2,2,0,0,0,3.39,1.32,1.81,1.81,0,0,0,.51-1.32v-3A2,2,0,0,0,68.12,30.89Z\"></path><path d=\"M68.12,39.88a2,2,0,0,0-2,1.95v3a2,2,0,0,0,2,1.95,2,2,0,0,0,1.45-.61,1.84,1.84,0,0,0,.5-1.34v-3A2,2,0,0,0,68.12,39.88Z\"></path><path d=\"M68.12,48.92a2,2,0,0,0-2,1.95v3a1.94,1.94,0,0,0,3.38,1.31,1.79,1.79,0,0,0,.52-1.31v-3A2,2,0,0,0,68.12,48.92Z\"></path><path d=\"M68.12,57.92a2,2,0,0,0-2,1.94v3a2,2,0,0,0,2,2,2,2,0,0,0,1.44-.62,1.82,1.82,0,0,0,.51-1.33v-3A2,2,0,0,0,68.12,57.92Z\"></path></svg>\n                    </div>"
+      },
+      {
+        "href": "https://www.ibercaja.es/redireccion_externo.php?url=https%3A%2F%2Fentradas.ibercaja.es%2Fcompra%2Fel-lago-de-los-cisnes%2FGSS2021A%2F",
+        "inner_text": "JUL\n1\nEl lago de los cisnes\nZaragoza",
+        "inner_html": "<div class=\"fecha  col-1-3\" itemprop=\"startDate\" content=\"2021-07-01 T20:30\">\n                        <div class=\"mes\">\n                            JUL\n                        </div>\n                        <div class=\"dia\">\n                            1\n                        </div>\n                    </div>\n                    <div class=\"col-2-3 pl-8\">\n                        <div class=\"titulo\" itemprop=\"name\">El lago de los cisnes</div>\n                        <div class=\"ciudad\" itemprop=\"location\" itemscope=\"\" itemtype=\"http://schema.org/City\">\n                            <span itemprop=\"address\">Zaragoza</span>\n                        </div>\n                    </div>\n                    <div class=\"col-3-3\">\n                        <svg xmlns=\"http://www.w3.org/2000/svg\" id=\"fe5c4876-b151-428e-b3f9-1a2f3603ec30\" data-name=\"ff648a06-a337-4604-ad52-275e1983d56b\" viewBox=\"0 0 95.5 96\" width=\"30px\" height=\"30px\" alt=\"Entradas\" class=\"svg svg-sm replaced-svg\">\n\n\t<path d=\"M81.67,30.78h2v-7a3.47,3.47,0,0,0-3.51-3.5H69.3v2a.93.93,0,0,1-1.85,0v-2H15.32a3.47,3.47,0,0,0-3.5,3.5v6.49h2a.93.93,0,1,1,0,1.85h-2v8.49h2a.93.93,0,1,1,0,1.85h-2V51h2a.93.93,0,1,1,0,1.85h-2v8.5h2a.93.93,0,1,1,0,1.85h-2v8.61a3.47,3.47,0,0,0,3.5,3.51H67.5v-2a.93.93,0,0,1,1.85,0v2H80.22a3.45,3.45,0,0,0,3.46-3.54v-8l-2,0a1,1,0,0,1-1-1,1,1,0,0,1,.93-.93h2V53.29h-2a.93.93,0,1,1,0-1.85h2V43h-2a.93.93,0,1,1,0-1.85h2v-8.5h-2a.93.93,0,1,1,0-1.85Zm-5,11.32a5,5,0,0,0,3,4.55v1.2a4.92,4.92,0,0,0-3,4.56,5,5,0,0,0,3,4.54V58.2a5,5,0,0,0-3,4.56,5.14,5.14,0,0,0,3,4.59v3.92H73a4.93,4.93,0,0,0-9.09-.09H15.94V66.76a5,5,0,0,0,3-4.55,5,5,0,0,0-3-4.54V56.42a5,5,0,0,0,0-9.1V46.07a5,5,0,0,0,0-9.1V35.72a5,5,0,0,0,3-4.55,5,5,0,0,0-3-4.55V24.37H63.87a5,5,0,0,0,4.55,3,5,5,0,0,0,4.55-3h6.68V27.2a5,5,0,0,0-3,4.55,5,5,0,0,0,3,4.55v1.25A5,5,0,0,0,76.67,42.1Z\"></path><path d=\"M68.12,30.89a2,2,0,0,0-2,2v3a2,2,0,0,0,3.39,1.32,1.81,1.81,0,0,0,.51-1.32v-3A2,2,0,0,0,68.12,30.89Z\"></path><path d=\"M68.12,39.88a2,2,0,0,0-2,1.95v3a2,2,0,0,0,2,1.95,2,2,0,0,0,1.45-.61,1.84,1.84,0,0,0,.5-1.34v-3A2,2,0,0,0,68.12,39.88Z\"></path><path d=\"M68.12,48.92a2,2,0,0,0-2,1.95v3a1.94,1.94,0,0,0,3.38,1.31,1.79,1.79,0,0,0,.52-1.31v-3A2,2,0,0,0,68.12,48.92Z\"></path><path d=\"M68.12,57.92a2,2,0,0,0-2,1.94v3a2,2,0,0,0,2,2,2,2,0,0,0,1.44-.62,1.82,1.82,0,0,0,.51-1.33v-3A2,2,0,0,0,68.12,57.92Z\"></path></svg>\n                    </div>"
+      },
+      {
+        "href": "https://www.ibercaja.es/particulares/blog/consejos-utiles/como-elegir-la-mejor-hipoteca/",
+        "inner_text": "Cómo elegir la mejor hipoteca",
+        "inner_html": "Cómo elegir la mejor hipoteca"
+      },
+      {
+        "href": "https://www.ibercaja.es/particulares/blog/actualidad/todo-sobre-seguros-hogar/",
+        "inner_text": "Todo lo que tienes que saber sobre los seguros del hogar",
+        "inner_html": "Todo lo que tienes que saber sobre los seguros del hogar"
+      },
+      {
+        "href": "https://www.ibercaja.es/particulares/blog/actualidad/informe-mercados-13-mayo-2021/",
+        "inner_text": "Especial mercados 13 de mayo de 2021",
+        "inner_html": "Especial mercados  13 de mayo de 2021"
+      },
+      {
+        "href": "https://www.ibercaja.es/particulares/blog/",
+        "inner_text": "VER TODO",
+        "inner_html": "VER TODO"
+      },
+      {
+        "href": "https://www.ibercaja.es/redireccion_externo.php?url=https%3A%2F%2Fwww.fundacionibercaja.es%2Fnuestros-espacios",
+        "inner_text": "",
+        "inner_html": "<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"1.1\" id=\"b03b9642-a3c7-4ce7-bcb1-b3940bcddac7\" x=\"0px\" y=\"0px\" viewBox=\"0 0 30 30\" style=\"enable-background:new 0 0 30 30;\" xml:space=\"preserve\" width=\"30px\" height=\"30px\" alt=\"Centros Socioculturales\" class=\"img-responsive svg svg-sm replaced-svg\">\n<style type=\"text/css\">\n\t.st0{fill:#3D4245;}\n\t.st1{fill:#0B7AD0;}\n</style>\n\n<g id=\"adedfb27-0805-49fa-86ec-06e69f772c49\">\n\t<path id=\"f245b5bb-2838-4a63-ab00-e47a012b9573\" class=\"st0\" d=\"M23,19.9l0.8-0.8c0.2,0.2,0.5,0.3,0.8,0.3c0.6,0,1.1-0.5,1.1-1.1   c0-0.3-0.1-0.6-0.3-0.8l-6.1-6.3l0.8-0.8l6.1,6.3c0.9,0.9,0.9,2.3,0,3.1c-0.4,0.4-0.9,0.6-1.5,0.6C24,20.6,23.4,20.4,23,19.9z\"></path>\n\t<path class=\"st0\" d=\"M16.5,23.2l0.8-0.8l0.4,0.4l0.8,0.8c0.9,0.9,0.9,2.3,0,3.2c-0.3,0.3-0.6,0.5-1,0.6l-0.5,0.1l-0.2-1l0.5-0.1   c0.6-0.2,1-0.8,0.8-1.4c-0.1-0.2-0.2-0.4-0.3-0.5L16.5,23.2z\"></path>\n\t<path class=\"st0\" d=\"M21.4,18.4l0.8-0.8l0.4,0.4l1.7,1.7c0.9,0.9,0.9,2.3,0,3.2s-2.3,0.9-3.2,0l0,0l-2.1-2l0.8-0.8l0.4,0.4l1.7,1.7   c0.5,0.5,1.2,0.4,1.7,0c0.4-0.5,0.4-1.2,0-1.7L21.4,18.4z\"></path>\n\t<path class=\"st0\" d=\"M20.6,22.5l-0.4-0.4l0.8-0.8l0.4,0.4c0.8,0.9,0.7,2.4-0.2,3.2c-0.9,0.8-2.1,0.8-3,0l-0.4-0.4l0.8-0.8l0.4,0.4   c0.5,0.5,1.2,0.5,1.7,0C21.1,23.8,21.1,23,20.6,22.5L20.6,22.5z\"></path>\n\t<path id=\"b90b6931-4c4f-478e-8f62-d77c9531e6b2\" class=\"st1\" d=\"M5.9,20.2c-0.4,0.4-0.4,1,0,1.4l0.3,0.3c0.4,0.4,1,0.4,1.4,0   l0.8-0.8c0.4-0.4,0.4-1,0-1.4l-0.3-0.3c-0.4-0.4-1-0.4-1.4,0L5.9,20.2z M5.2,19.4l0.8-0.8c0.8-0.8,2.1-0.8,2.9,0c0,0,0,0,0,0   L9.1,19c0.8,0.8,0.8,2.1,0,2.9c0,0,0,0,0,0l-0.8,0.8c-0.8,0.8-2.1,0.8-2.9,0l-0.3-0.3c-0.8-0.8-1-2-0.2-2.8C5,19.5,5,19.4,5.2,19.4   z\"></path>\n\t<path class=\"st1\" d=\"M11.3,24.6c-0.4,0.4-0.4,1,0,1.4c0,0,0,0,0,0l0.3,0.3c0.4,0.4,1,0.4,1.4,0l0.5-0.5c0.4-0.4,0.4-1,0-1.4   L13.2,24c-0.4-0.4-1-0.4-1.4,0c0,0,0,0,0,0L11.3,24.6z M10.5,23.8l0.5-0.5c0.8-0.8,2.1-0.8,2.9,0c0,0,0,0,0,0l0.3,0.3   c0.8,0.8,0.8,2.1,0,2.9L13.7,27c-0.8,0.8-2.1,0.8-2.9,0l-0.3-0.3C9.7,25.9,9.7,24.6,10.5,23.8C10.5,23.8,10.5,23.8,10.5,23.8z\"></path>\n\t<path class=\"st1\" d=\"M5.7,18.8C6,18.6,6.1,18.3,6.1,18c0-0.6-0.5-1.1-1.1-1.1c-0.3,0-0.6,0.1-0.8,0.4l-0.3,0.3   c-0.4,0.4-0.4,1.2,0,1.6c0.4,0.4,1.2,0.4,1.6,0l0,0L5.7,18.8z M6.5,19.6l-0.3,0.3c-0.9,0.8-2.3,0.7-3.1-0.2c-0.7-0.8-0.7-2.1,0-2.9   l0.3-0.3c0.8-0.9,2.2-0.9,3.1,0C7.4,17.3,7.4,18.7,6.5,19.6C6.5,19.6,6.5,19.6,6.5,19.6L6.5,19.6z\"></path>\n\t<path class=\"st1\" d=\"M26.3,14.1h-1.1v-2.8l1.6-1.6l-5.6-5.6L20.3,5h-3.1c-1.3,0-2.5,0.5-3.4,1.4l-4,4.2c-0.4,0.4-0.4,1,0,1.4   c0.3,0.3,0.9,0.4,1.2,0.1l4.7-3L16,9.4c1.2,1.4,3.4,1.6,4.8,0.3c0.1-0.1,0.3-0.2,0.4-0.4l0.3-0.4l0.8,0.7L22,10   c-1.6,1.9-4.4,2.1-6.3,0.5c0,0-0.1-0.1-0.1-0.1L11.6,13c-0.9,0.6-2.2,0.4-2.8-0.5C8.3,11.6,8.4,10.6,9,9.9l4.1-4.2   C14.2,4.6,15.7,4,17.3,4h2.6l1.4-1.4l7.1,7.1l-2,2.1V14.1z\"></path>\n\t<polygon class=\"st0\" points=\"2.8,9.7 4.4,11.3 4.4,14.1 3.4,14.1 3.4,11.8 1.3,9.7 8.4,2.6 9.8,4 12.3,4 12.3,5 9.3,5 8.4,4.1  \"></polygon>\n\t<path class=\"st1\" d=\"M8.7,22.3c-0.4,0.4-0.4,1,0,1.4L9,24c0.4,0.4,1,0.4,1.4,0c0,0,0,0,0,0l0.4-0.4c0.4-0.4,0.4-1,0-1.4l-0.3-0.3   c-0.4-0.4-1-0.4-1.4,0c0,0,0,0,0,0L8.7,22.3z M7.9,21.5l0.4-0.4c0.8-0.8,2.1-0.8,2.9,0c0,0,0,0,0,0l0.3,0.3c0.8,0.8,0.8,2.1,0,2.9   c0,0,0,0,0,0l-0.4,0.5c-0.8,0.8-2.1,0.8-2.9,0c0,0,0,0,0,0l-0.3-0.3C7.1,23.6,7.1,22.4,7.9,21.5C7.9,21.5,7.9,21.5,7.9,21.5   L7.9,21.5z\"></path>\n</g>\n</svg>"
+      },
+      {
+        "href": "https://www.ibercaja.es/redireccion_externo.php?url=https%3A%2F%2Fwww.fundacionibercaja.es%2F",
+        "inner_text": "ÚNETE AL CAMBIO",
+        "inner_html": "ÚNETE AL CAMBIO"
+      },
+      {
+        "href": "https://www.ibercaja.es/oficinas/",
+        "inner_text": " Oficinas y cajeros",
+        "inner_html": "<img src=\"/public/img/iconos/contacto/oficinas.svg\" alt=\"oficinas\" title=\"oficinas\">\n                                <br class=\"visible-xs\">\n                                <span> Oficinas y cajeros </span>"
+      },
+      {
+        "href": "https://www.ibercaja.es/particulares/en-que-podemos-ayudarte/",
+        "inner_text": " Te ayudamos",
+        "inner_html": "<img src=\"/public/img/iconos/contacto/ayuda.svg\" alt=\"Ayuda\" title=\"Ayuda\">\n                                <br class=\"visible-xs\">\n                                <span> Te ayudamos </span>"
+      },
+      {
+        "href": "https://www.fundacionibercaja.es/",
+        "inner_text": "Fundación Bancaria Ibercaja",
+        "inner_html": "Fundación Bancaria Ibercaja"
+      },
+      {
+        "href": "https://www.fundacioncb.es/",
+        "inner_text": "Fundación Caja Badajoz",
+        "inner_html": "Fundación Caja Badajoz"
+      },
+      {
+        "href": "https://www.fundacioncajacirculo.es/",
+        "inner_text": "Fundación Círculo Católico de Burgos",
+        "inner_html": "Fundación Círculo Católico de Burgos"
+      },
+      {
+        "href": "https://www.fundacioncai.es/",
+        "inner_text": "Fundación Caja Inmaculada",
+        "inner_html": "Fundación Caja Inmaculada"
+      },
+      {
+        "href": "https://www.ibercaja.com/sala-de-prensa/noticias/",
+        "inner_text": "Sala de Prensa",
+        "inner_html": "Sala de Prensa"
+      },
+      {
+        "href": "https://patrocinios.ibercaja.es/",
+        "inner_text": "Patrocinios Ibercaja",
+        "inner_html": "Patrocinios Ibercaja"
+      },
+      {
+        "href": "https://www.ibercaja.es/tributos/",
+        "inner_text": "Pago de recibos, tributos y tasas",
+        "inner_html": "Pago de recibos, tributos y tasas"
+      },
+      {
+        "href": "https://contransparencia.ibercaja.es/",
+        "inner_text": "Con transparencia",
+        "inner_html": "Con transparencia"
+      },
+      {
+        "href": "https://www.ibercaja.es/quem-somos/identificacion/",
+        "inner_text": "Oficinas en Portugal",
+        "inner_html": "Oficinas en Portugal"
+      },
+      {
+        "href": "https://www.ibercaja.com/",
+        "inner_text": "Información corporativa",
+        "inner_html": "Información corporativa"
+      },
+      {
+        "href": "https://www.ibercaja.com/en/",
+        "inner_text": "Corporate information",
+        "inner_html": "Corporate information"
+      },
+      {
+        "href": "https://clientebancario.bde.es/pcb/es/",
+        "inner_text": "Portal Cliente Bancario",
+        "inner_html": "Portal Cliente Bancario"
+      },
+      {
+        "href": "https://www.ibercaja.com/accionistas-e-inversores/cumplimiento-normativo/",
+        "inner_text": "Prevención Blanqueo Capitales",
+        "inner_html": "Prevención Blanqueo Capitales"
+      },
+      {
+        "href": "http://www.rededucacionfinanciera.es/",
+        "inner_text": "Educación Financiera",
+        "inner_html": "Educación Financiera"
+      },
+      {
+        "href": "https://cdn.ibercaja.net/ibercaja-es/procedimientos/clausulas-suelo.pdf",
+        "inner_text": "Reclamación Claúsula Suelo",
+        "inner_html": "Reclamación Claúsula Suelo"
+      },
+      {
+        "href": "http://www.cnmv.es/Portal/HR/BusquedaHR.aspx",
+        "inner_text": "Hechos relevantes CNMV",
+        "inner_html": "Hechos relevantes CNMV"
+      },
+      {
+        "href": "https://www.standardandpoors.com/en_US/web/guest/home",
+        "inner_text": "Standard & Poorʼs",
+        "inner_html": "Standard &amp; Poorʼs"
+      },
+      {
+        "href": "https://www.moodys.com/",
+        "inner_text": "Moodyʼs",
+        "inner_html": "Moodyʼs"
+      },
+      {
+        "href": "https://www.ibercaja.es/particulares/codigo-buenas-practicas/",
+        "inner_text": "Código Buenas Prácticas",
+        "inner_html": "Código Buenas Prácticas"
+      },
+      {
+        "href": "https://clientebancario.bde.es/pcb/es/menu-horizontal/podemosayudarte/simuladores/",
+        "inner_text": "Simuladores Portal Cliente Bancario",
+        "inner_html": "Simuladores Portal Cliente Bancario"
+      },
+      {
+        "href": "https://www.ibercaja.es/redireccion_externo.php?url=https%3A%2F%2Fwww.facebook.com%2FIbercaja%2F",
+        "inner_text": "",
+        "inner_html": "<i class=\"fa fa-facebook-square\"></i>"
+      },
+      {
+        "href": "https://www.ibercaja.es/redireccion_externo.php?url=https%3A%2F%2Ftwitter.com%2Fibercaja",
+        "inner_text": "",
+        "inner_html": "<i class=\"fa fa-twitter-square\"></i>"
+      },
+      {
+        "href": "https://www.ibercaja.es/redireccion_externo.php?url=https%3A%2F%2Fwww.linkedin.com%2Fcompany%2Fibercaja",
+        "inner_text": "",
+        "inner_html": "<i class=\"fa fa-linkedin-square\"></i>"
+      },
+      {
+        "href": "https://www.ibercaja.es/redireccion_externo.php?url=https%3A%2F%2Fwww.youtube.com%2Fuser%2FIbercajaTV",
+        "inner_text": "",
+        "inner_html": "<i class=\" fa fa-youtube-square\"></i>"
+      },
+      {
+        "href": "https://www.ibercaja.es/redireccion_externo.php?url=https%3A%2F%2Fwww.instagram.com%2Fibercaja%2F",
+        "inner_text": "",
+        "inner_html": "<i class=\"fa fa-instagram\"></i>"
+      },
+      {
+        "href": "https://www.ibercaja.es/particulares/atencion-cliente/",
+        "inner_text": "Atención al cliente",
+        "inner_html": "Atención al cliente"
+      },
+      {
+        "href": "https://www.ibercaja.es/particulares/informacion-legal-en-materia-de-proteccion-de-datos/",
+        "inner_text": "Información legal en materia de protección de datos",
+        "inner_html": "Información legal en materia de protección de datos"
+      },
+      {
+        "href": "https://www.ibercaja.es/particulares/documentacion-a-clientes/",
+        "inner_text": "DOCUMENTACIÓN A CLIENTES",
+        "inner_html": "Documentación a clientes"
+      },
+      {
+        "href": "https://www.ibercaja.es/particulares/condiciones-de-uso/",
+        "inner_text": "AVISO LEGAL",
+        "inner_html": "Aviso Legal"
+      },
+      {
+        "href": "https://www.ibercaja.es/forms/ejercicio-de-derechos/",
+        "inner_text": "EJERCICIO DE DERECHOS",
+        "inner_html": "Ejercicio de Derechos"
+      },
+      {
+        "href": "https://www.ibercaja.es/forms/revocacion/",
+        "inner_text": "REVOCACIÓN",
+        "inner_html": "Revocación"
+      },
+      {
+        "href": "https://www.ibercaja.es/tarifas-y-cotizaciones/",
+        "inner_text": "TARIFAS Y COTIZACIONES",
+        "inner_html": "Tarifas y Cotizaciones"
+      },
+      {
+        "href": "https://www3.ibercajadirecto.com/htmanuncio/nm025738a.pdf",
+        "inner_text": "TABLÓN DE ANUNCIOS",
+        "inner_html": "Tablón de Anuncios"
+      },
+      {
+        "href": "https://www.ibercaja.es/gdpr/politica-proteccion-de-datos/",
+        "inner_text": "POLÍTICA DE PRIVACIDAD",
+        "inner_html": "Política de privacidad"
+      },
+      {
+        "href": "https://www.ibercaja.es/redireccion_externo.php?url=http%3A%2F%2Fwww.madridexcelente.com",
+        "inner_text": " ",
+        "inner_html": "<img src=\"/public/img/logo_madrid.png\" alt=\"Calidad Madrid\" title=\"Calidad Madrid\">"
+      },
+      {
+        "href": "https://www.ibercaja.es/particulares/sello-a-la-excelencia-europea/",
+        "inner_text": "",
+        "inner_html": "<img src=\"/public/img/logo_excelencia_50x70.png\" alt=\"Sello E500+\" title=\"Sello E500+\">"
+      }
+    ],
+    "social": [
+      {
+        "href": "https://www.ibercaja.es/redireccion_externo.php?url=https%3A%2F%2Fwww.facebook.com%2FIbercaja%2F",
+        "inner_text": "",
+        "inner_html": "<i class=\"fa fa-facebook-square\"></i>"
+      },
+      {
+        "href": "https://www.ibercaja.es/redireccion_externo.php?url=https%3A%2F%2Fwww.linkedin.com%2Fcompany%2Fibercaja",
+        "inner_text": "",
+        "inner_html": "<i class=\"fa fa-linkedin-square\"></i>"
+      },
+      {
+        "href": "https://www.ibercaja.es/redireccion_externo.php?url=https%3A%2F%2Fwww.youtube.com%2Fuser%2FIbercajaTV",
+        "inner_text": "",
+        "inner_html": "<i class=\" fa fa-youtube-square\"></i>"
+      },
+      {
+        "href": "https://www.ibercaja.es/redireccion_externo.php?url=https%3A%2F%2Fwww.instagram.com%2Fibercaja%2F",
+        "inner_text": "",
+        "inner_html": "<i class=\"fa fa-instagram\"></i>"
+      }
+    ],
+    "keywords": [
+      {
+        "href": "https://www.ibercaja.es/particulares/informacion-legal-en-materia-de-proteccion-de-datos/",
+        "inner_text": "Información legal en materia de protección de datos",
+        "inner_html": "Información legal en materia de protección de datos"
+      },
+      {
+        "href": "https://www.ibercaja.es/particulares/condiciones-de-uso/",
+        "inner_text": "AVISO LEGAL",
+        "inner_html": "Aviso Legal"
+      }
+    ]
+  },
+  "unsafeForms": [],
+  "browsing_history": [
+    "https://www.ibercaja.es/"
+  ],
+  "websockets": {},
+  "cookies": [
+    {
+      "name": "IBSESSID",
+      "value": "a4710266.5c2c50769789f",
+      "domain": "www.ibercaja.es",
+      "path": "/",
+      "expires": -1,
+      "size": 30,
+      "httpOnly": true,
+      "secure": true,
+      "session": true,
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.ibercaja.es/",
+            "source": "set in Set-Cookie HTTP response header for https://www.ibercaja.es/"
+          }
+        ],
+        "type": "Cookie.HTTP",
+        "timestamp": "2021-05-20T15:59:32.648Z",
+        "location": "about:blank"
+      },
+      "firstPartyStorage": false
+    },
+    {
+      "name": "PHPSESSID",
+      "value": "pb1lkmqn3rc7an2ei99ui3i358",
+      "domain": "www.ibercaja.es",
+      "path": "/",
+      "expires": -1,
+      "size": 35,
+      "httpOnly": true,
+      "secure": true,
+      "session": true,
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.ibercaja.es/",
+            "source": "set in Set-Cookie HTTP response header for https://www.ibercaja.es/"
+          }
+        ],
+        "type": "Cookie.HTTP",
+        "timestamp": "2021-05-20T15:59:32.648Z",
+        "location": "about:blank"
+      },
+      "firstPartyStorage": false
+    }
+  ],
+  "localStorage": {},
+  "beacons": [
+    {
+      "url": "https://www.googletagmanager.com/gtm.js?id=GTM-MSFH7D&gtm_auth=xu4dgXx-rUT2_yPPbagszg&gtm_preview=env-1&gtm_cookies_win=x",
+      "query": {
+        "id": "GTM-MSFH7D",
+        "gtm_auth": "xu4dgXx-rUT2_yPPbagszg",
+        "gtm_preview": "env-1",
+        "gtm_cookies_win": "x"
+      },
+      "filter": "/gtm.js",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.ibercaja.es/",
+            "source": "requested from https://www.ibercaja.es/ and matched with easyprivacy.txt filter /gtm.js"
+          }
+        ],
+        "timestamp": "2021-05-20T15:59:32.715Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://www.google-analytics.com/analytics.js",
+      "query": null,
+      "filter": "||google-analytics.com/analytics.js",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.ibercaja.es/",
+            "source": "requested from https://www.ibercaja.es/ and matched with easyprivacy.txt filter ||google-analytics.com/analytics.js"
+          }
+        ],
+        "timestamp": "2021-05-20T15:59:32.713Z"
+      },
+      "occurrances": 1
+    }
+  ],
+  "hosts": {
+    "requests": {
+      "firstParty": [
+        "ibercaja.es"
+      ],
+      "thirdParty": [
+        "www.ibercaja.es",
+        "www.google-analytics.com",
+        "www.googletagmanager.com"
+      ]
+    },
+    "beacons": {
+      "firstParty": [],
+      "thirdParty": [
+        "www.googletagmanager.com",
+        "www.google-analytics.com"
+      ]
+    },
+    "cookies": {
+      "firstParty": [],
+      "thirdParty": [
+        "www.ibercaja.es"
+      ]
+    },
+    "localStorage": {
+      "firstParty": [],
+      "thirdParty": []
+    },
+    "links": {
+      "firstParty": [],
+      "thirdParty": [
+        "www.ibercaja.es",
+        "vamoscontufuturo.ibercaja.es",
+        "www.fundacionibercaja.es",
+        "www.fundacioncb.es",
+        "www.fundacioncajacirculo.es",
+        "www.fundacioncai.es",
+        "www.ibercaja.com",
+        "patrocinios.ibercaja.es",
+        "contransparencia.ibercaja.es",
+        "clientebancario.bde.es",
+        "www.rededucacionfinanciera.es",
+        "cdn.ibercaja.net",
+        "www.cnmv.es",
+        "www.standardandpoors.com",
+        "www.moodys.com",
+        "www3.ibercajadirecto.com"
+      ]
+    }
+  }
+}

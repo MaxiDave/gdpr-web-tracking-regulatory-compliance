@@ -1,0 +1,1283 @@
+{
+  "title": "Website Evidence Collection",
+  "task_description": null,
+  "uri_ins": "https://aemet.es",
+  "uri_refs": [
+    "https://aemet.es"
+  ],
+  "uri_dest": "http://www.aemet.es/es/portada",
+  "uri_redirects": [
+    "https://aemet.es/",
+    "http://aemet.es/es/portada"
+  ],
+  "secure_connection": {
+    "https_support": false,
+    "https_error": "RequestError: Error [ERR_TLS_CERT_ALTNAME_INVALID]: Hostname/IP does not match certificate's altnames: Host: aemet.es. is not in the cert's altnames: DNS:*.aemet.es",
+    "redirects": [
+      "http://aemet.es/es/portada",
+      "http://www.aemet.es/es/portada"
+    ],
+    "https_redirect": false
+  },
+  "host": "aemet.es",
+  "script": {
+    "host": "sfod",
+    "version": {
+      "npm": "1.0.0",
+      "commit": null
+    },
+    "cmd_args": "-q --overwrite https://aemet.es -- --ignore-certificate-errors",
+    "environment": {
+      "CHROME_DESKTOP": "code-url-handler.desktop"
+    },
+    "node_version": "v14.17.0"
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "HeadlessChrome/80.0.3987.0",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3617.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "5.8.0-53-generic"
+    },
+    "extra_headers": {},
+    "preset_cookies": {}
+  },
+  "start_time": "2021-05-20T16:09:21.948Z",
+  "end_time": "2021-05-20T16:09:30.453Z",
+  "links": {
+    "firstParty": [],
+    "thirdParty": [
+      {
+        "href": "http://www.aemet.es/es/politica_cookies",
+        "inner_text": "política de cookies",
+        "inner_html": "política de cookies"
+      },
+      {
+        "href": "http://www.aemet.es/es/portada",
+        "inner_text": "C - Ir a contenido",
+        "inner_html": "C&nbsp;-&nbsp;Ir a contenido"
+      },
+      {
+        "href": "http://www.aemet.es/es/accesibilidad",
+        "inner_text": "0 - Accesibilidad Web",
+        "inner_html": "0&nbsp;-&nbsp;Accesibilidad Web"
+      },
+      {
+        "href": "http://www.aemet.es/es/mapaweb",
+        "inner_text": "2 - Mapa web",
+        "inner_html": "2&nbsp;-&nbsp;Mapa web"
+      },
+      {
+        "href": "http://www.aemet.es/es/ayuda",
+        "inner_text": "3 - Ayuda web",
+        "inner_html": "3&nbsp;-&nbsp;Ayuda web"
+      },
+      {
+        "href": "http://www.aemet.es/es/contactar",
+        "inner_text": "4 - Contactar - Atención al ciudadano",
+        "inner_html": "4&nbsp;-&nbsp;Contactar - Atención al ciudadano"
+      },
+      {
+        "href": "http://www.aemet.es/es/eltiempo/prediccion/municipios",
+        "inner_text": "5 - Municipios",
+        "inner_html": "5&nbsp;-&nbsp;Municipios"
+      },
+      {
+        "href": "http://www.aemet.es/es/eltiempo/prediccion/avisos",
+        "inner_text": "6 - Avisos",
+        "inner_html": "6&nbsp;-&nbsp;Avisos"
+      },
+      {
+        "href": "https://www.miteco.gob.es/",
+        "inner_text": "",
+        "inner_html": ""
+      },
+      {
+        "href": "http://www.aemet.es/ca/portada",
+        "inner_text": "ca",
+        "inner_html": "ca"
+      },
+      {
+        "href": "http://www.aemet.es/gl/portada",
+        "inner_text": "gl",
+        "inner_html": "gl"
+      },
+      {
+        "href": "http://www.aemet.es/va/portada",
+        "inner_text": "va",
+        "inner_html": "va"
+      },
+      {
+        "href": "http://www.aemet.es/eu/portada",
+        "inner_text": "eu",
+        "inner_html": "eu"
+      },
+      {
+        "href": "http://www.aemet.es/en/portada",
+        "inner_text": "en",
+        "inner_html": "en"
+      },
+      {
+        "href": "http://www.aemet.es/fr/portada",
+        "inner_text": "fr",
+        "inner_html": "fr"
+      },
+      {
+        "href": "http://www.aemet.es/es/eltiempo",
+        "inner_text": "EL TIEMPO",
+        "inner_html": "El tiempo"
+      },
+      {
+        "href": "http://www.aemet.es/es/eltiempo/observacion",
+        "inner_text": "Observación",
+        "inner_html": "Observación"
+      },
+      {
+        "href": "http://www.aemet.es/es/eltiempo/observacion/ultimosdatos",
+        "inner_text": "Hoy y últimos días",
+        "inner_html": "Hoy y últimos días"
+      },
+      {
+        "href": "http://www.aemet.es/es/eltiempo/observacion/sinobas",
+        "inner_text": "SINOBAS",
+        "inner_html": "SINOBAS"
+      },
+      {
+        "href": "http://www.aemet.es/es/eltiempo/observacion/radar",
+        "inner_text": "Radar",
+        "inner_html": "Radar"
+      },
+      {
+        "href": "http://www.aemet.es/es/eltiempo/observacion/satelite/infra",
+        "inner_text": "Satélites",
+        "inner_html": "Satélites"
+      },
+      {
+        "href": "http://www.aemet.es/es/eltiempo/observacion/rayos",
+        "inner_text": "Rayos",
+        "inner_html": "Rayos"
+      },
+      {
+        "href": "http://www.aemet.es/es/eltiempo/observacion/radiacion/radiacion",
+        "inner_text": "Radiación y ozono",
+        "inner_html": "Radiación y ozono"
+      },
+      {
+        "href": "http://www.aemet.es/es/eltiempo/observacion/contaminacionfondo",
+        "inner_text": "Contaminación de fondo",
+        "inner_html": "Contaminación de fondo"
+      },
+      {
+        "href": "http://www.aemet.es/es/eltiempo/prediccion",
+        "inner_text": "Predicción",
+        "inner_html": "Predicción"
+      },
+      {
+        "href": "http://www.aemet.es/es/eltiempo/prediccion/playas",
+        "inner_text": "Playas",
+        "inner_html": "Playas"
+      },
+      {
+        "href": "http://www.aemet.es/es/eltiempo/prediccion/montana",
+        "inner_text": "Montaña",
+        "inner_html": "Montaña"
+      },
+      {
+        "href": "http://www.aemet.es/es/eltiempo/prediccion/provincias",
+        "inner_text": "Provincias",
+        "inner_html": "Provincias"
+      },
+      {
+        "href": "http://www.aemet.es/es/eltiempo/prediccion/comunidades",
+        "inner_text": "CC. AA.",
+        "inner_html": "CC. AA."
+      },
+      {
+        "href": "http://www.aemet.es/es/eltiempo/prediccion/espana",
+        "inner_text": "España",
+        "inner_html": "España"
+      },
+      {
+        "href": "http://www.aemet.es/es/eltiempo/prediccion/mundo",
+        "inner_text": "Ciudades del mundo",
+        "inner_html": "Ciudades del mundo"
+      },
+      {
+        "href": "http://www.aemet.es/es/eltiempo/prediccion/maritima",
+        "inner_text": "Marítima",
+        "inner_html": "Marítima"
+      },
+      {
+        "href": "http://www.aemet.es/es/eltiempo/prediccion/aeronautica",
+        "inner_text": "Aeronáutica",
+        "inner_html": "Aeronáutica"
+      },
+      {
+        "href": "http://www.aemet.es/es/eltiempo/prediccion/mapa_frentes",
+        "inner_text": "Mapas con frentes",
+        "inner_html": "Mapas con frentes"
+      },
+      {
+        "href": "http://www.aemet.es/es/eltiempo/prediccion/temperaturas",
+        "inner_text": "Temperaturas máx/mín",
+        "inner_html": "Temperaturas máx/mín"
+      },
+      {
+        "href": "http://www.aemet.es/es/eltiempo/prediccion/modelosnumericos/harmonie_arome",
+        "inner_text": "Modelos numéricos",
+        "inner_html": "Modelos numéricos"
+      },
+      {
+        "href": "http://www.aemet.es/es/eltiempo/prediccion/mapas_probabilisticos",
+        "inner_text": "Mapas probabilísticos",
+        "inner_html": "Mapas probabilísticos"
+      },
+      {
+        "href": "http://www.aemet.es/es/eltiempo/prediccion/radiacionuv",
+        "inner_text": "Radiación ultravioleta",
+        "inner_html": "Radiación ultravioleta"
+      },
+      {
+        "href": "http://www.aemet.es/es/eltiempo/prediccion/calidad_del_aire",
+        "inner_text": "Composición química de la atmósfera",
+        "inner_html": "Composición química de la atmósfera"
+      },
+      {
+        "href": "http://www.aemet.es/es/eltiempo/prediccion/incendios",
+        "inner_text": "Incendios",
+        "inner_html": "Incendios"
+      },
+      {
+        "href": "http://www.aemet.es/es/eltiempo/prediccion/meteoruta",
+        "inner_text": "MeteoRuta",
+        "inner_html": "MeteoRuta"
+      },
+      {
+        "href": "http://www.aemet.es/es/eltiempo/prediccion/polvo_mineral",
+        "inner_text": "Polvo mineral",
+        "inner_html": "Polvo mineral"
+      },
+      {
+        "href": "http://www.aemet.es/es/serviciosclimaticos",
+        "inner_text": "SERVICIOS CLIMÁTICOS",
+        "inner_html": "Servicios climáticos"
+      },
+      {
+        "href": "http://www.aemet.es/es/serviciosclimaticos/datosclimatologicos",
+        "inner_text": "Datos climatológicos",
+        "inner_html": "Datos climatológicos"
+      },
+      {
+        "href": "http://www.aemet.es/es/serviciosclimaticos/datosclimatologicos/valoresclimatologicos",
+        "inner_text": "Valores normales",
+        "inner_html": "Valores normales"
+      },
+      {
+        "href": "http://www.aemet.es/es/serviciosclimaticos/datosclimatologicos/efemerides_extremos",
+        "inner_text": "Valores extremos",
+        "inner_html": "Valores extremos"
+      },
+      {
+        "href": "http://www.aemet.es/es/serviciosclimaticos/datosclimatologicos/superacion_umbrales",
+        "inner_text": "Superación de umbrales",
+        "inner_html": "Superación de umbrales"
+      },
+      {
+        "href": "http://www.aemet.es/es/serviciosclimaticos/datosclimatologicos/efemerides_sucesos",
+        "inner_text": "Efemérides",
+        "inner_html": "Efemérides"
+      },
+      {
+        "href": "http://www.aemet.es/es/serviciosclimaticos/datosclimatologicos/fenologia",
+        "inner_text": "Fenología",
+        "inner_html": "Fenología"
+      },
+      {
+        "href": "http://www.aemet.es/es/serviciosclimaticos/datosclimatologicos/atlas_climatico",
+        "inner_text": "Atlas climáticos",
+        "inner_html": "Atlas climáticos"
+      },
+      {
+        "href": "http://www.aemet.es/es/serviciosclimaticos/vigilancia_clima",
+        "inner_text": "Vigilancia del clima",
+        "inner_html": "Vigilancia del clima"
+      },
+      {
+        "href": "http://www.aemet.es/es/serviciosclimaticos/vigilancia_clima/resumenes",
+        "inner_text": "Resúmenes climatológicos",
+        "inner_html": "Resúmenes climatológicos"
+      },
+      {
+        "href": "http://www.aemet.es/es/serviciosclimaticos/vigilancia_clima/analisis_estacional",
+        "inner_text": "Análisis estacional",
+        "inner_html": "Análisis estacional"
+      },
+      {
+        "href": "http://www.aemet.es/es/serviciosclimaticos/vigilancia_clima/vigilancia_sequia",
+        "inner_text": "Vigilancia de la sequía meteorológica",
+        "inner_html": "Vigilancia de la sequía meteorológica"
+      },
+      {
+        "href": "http://www.aemet.es/es/serviciosclimaticos/vigilancia_clima/balancehidrico",
+        "inner_text": "Balance hídrico",
+        "inner_html": "Balance hídrico"
+      },
+      {
+        "href": "http://www.aemet.es/es/serviciosclimaticos/vigilancia_clima/radiacion_ozono",
+        "inner_text": "Radiación y ozono",
+        "inner_html": "Radiación y ozono"
+      },
+      {
+        "href": "http://www.aemet.es/es/serviciosclimaticos/prediccion_estacional",
+        "inner_text": "Predicción estacional",
+        "inner_html": "Predicción estacional"
+      },
+      {
+        "href": "http://www.aemet.es/es/serviciosclimaticos/cambio_climat",
+        "inner_text": "Proyecciones climáticas para el siglo XXI",
+        "inner_html": "Proyecciones climáticas para el siglo XXI"
+      },
+      {
+        "href": "http://www.aemet.es/es/serviciosclimaticos/cambio_climat/result_graficos",
+        "inner_text": "Resultados gráficos",
+        "inner_html": "Resultados gráficos"
+      },
+      {
+        "href": "http://www.aemet.es/es/serviciosclimaticos/cambio_climat/datos_diarios",
+        "inner_text": "Datos diarios",
+        "inner_html": "Datos diarios"
+      },
+      {
+        "href": "http://www.aemet.es/es/serviciosclimaticos/cambio_climat/datos_mensuales",
+        "inner_text": "Datos mensuales",
+        "inner_html": "Datos mensuales"
+      },
+      {
+        "href": "http://www.aemet.es/es/serviciosclimaticos/apoyo_gestion_embalses",
+        "inner_text": "Apoyo a la gestión de embalses",
+        "inner_html": "Apoyo a la gestión de embalses"
+      },
+      {
+        "href": "http://www.aemet.es/es/serviciosclimaticos/monitor_sequia_met",
+        "inner_text": "Monitor de la sequía meteorológica",
+        "inner_html": "Monitor de la sequía meteorológica"
+      },
+      {
+        "href": "http://www.aemet.es/es/serviciosclimaticos/catalogo",
+        "inner_text": "Catálogo",
+        "inner_html": "Catálogo"
+      },
+      {
+        "href": "http://www.aemet.es/es/conocenos",
+        "inner_text": "CONÓCENOS",
+        "inner_html": "Conócenos"
+      },
+      {
+        "href": "http://www.aemet.es/es/conocenos/quienes_somos",
+        "inner_text": "Quiénes somos",
+        "inner_html": "Quiénes somos"
+      },
+      {
+        "href": "http://www.aemet.es/es/conocenos/a_que_nos_dedicamos",
+        "inner_text": "A qué nos dedicamos",
+        "inner_html": "A qué nos dedicamos"
+      },
+      {
+        "href": "http://www.aemet.es/es/conocenos/recursos",
+        "inner_text": "Nuestros recursos",
+        "inner_html": "Nuestros recursos"
+      },
+      {
+        "href": "http://www.aemet.es/es/conocenos/nuestra_historia",
+        "inner_text": "Nuestra historia",
+        "inner_html": "Nuestra historia"
+      },
+      {
+        "href": "http://www.aemet.es/es/conocenos/congresos_y_conferencias",
+        "inner_text": "Congresos y conferencias",
+        "inner_html": "Congresos y conferencias"
+      },
+      {
+        "href": "http://www.aemet.es/es/conocenos/congresos_y_conferencias/congresos",
+        "inner_text": "Anuncios",
+        "inner_html": "Anuncios"
+      },
+      {
+        "href": "http://www.aemet.es/es/conocenos/congresos_y_conferencias/reuniones",
+        "inner_text": "Reuniones y conferencias",
+        "inner_html": "Reuniones y conferencias"
+      },
+      {
+        "href": "http://www.aemet.es/es/conocenos/colaboracion_institucional/convenios",
+        "inner_text": "Colaboración institucional",
+        "inner_html": "Colaboración institucional"
+      },
+      {
+        "href": "http://www.aemet.es/es/conocenos/cursos",
+        "inner_text": "Cursos",
+        "inner_html": "Cursos"
+      },
+      {
+        "href": "http://www.aemet.es/es/conocenos/actividad_internacional",
+        "inner_text": "Actividad internacional",
+        "inner_html": "Actividad internacional"
+      },
+      {
+        "href": "http://www.aemet.es/es/idi",
+        "inner_text": "I+D+I",
+        "inner_html": "I+D+i"
+      },
+      {
+        "href": "http://www.aemet.es/es/idi/prediccion",
+        "inner_text": "Predicción",
+        "inner_html": "Predicción"
+      },
+      {
+        "href": "http://www.aemet.es/es/idi/clima",
+        "inner_text": "Clima ",
+        "inner_html": "Clima"
+      },
+      {
+        "href": "http://www.aemet.es/es/idi/medio_ambiente",
+        "inner_text": "Medio ambiente",
+        "inner_html": "Medio ambiente"
+      },
+      {
+        "href": "http://www.aemet.es/es/idi/tic",
+        "inner_text": "Innovación tecnológica",
+        "inner_html": "Innovación tecnológica"
+      },
+      {
+        "href": "http://www.aemet.es/es/idi/observacion",
+        "inner_text": "Observación",
+        "inner_html": "Observación"
+      },
+      {
+        "href": "http://www.aemet.es/es/idi/SAF_Nowcasting",
+        "inner_text": "SAF de Nowcasting",
+        "inner_html": "SAF de Nowcasting"
+      },
+      {
+        "href": "http://www.aemet.es/es/idi/CIAI",
+        "inner_text": "CIAI",
+        "inner_html": "CIAI"
+      },
+      {
+        "href": "http://www.aemet.es/es/idi/SDS-WAS",
+        "inner_text": "SDS-WAS",
+        "inner_html": "SDS-WAS"
+      },
+      {
+        "href": "http://www.aemet.es/es/idi/publicaciones_cientificas",
+        "inner_text": "Publicaciones científicas",
+        "inner_html": "Publicaciones científicas"
+      },
+      {
+        "href": "http://www.aemet.es/es/conocermas",
+        "inner_text": "CONOCER MÁS",
+        "inner_html": "Conocer más"
+      },
+      {
+        "href": "http://www.aemet.es/es/conocermas/aeronautica",
+        "inner_text": "Aeronáutica",
+        "inner_html": "Aeronáutica"
+      },
+      {
+        "href": "http://www.aemet.es/es/conocermas/maritima",
+        "inner_text": "Marítima",
+        "inner_html": "Marítima"
+      },
+      {
+        "href": "http://www.aemet.es/es/conocermas/montana",
+        "inner_text": "Montaña",
+        "inner_html": "Montaña"
+      },
+      {
+        "href": "http://www.aemet.es/es/conocermas/archivo_documental_Arcimis",
+        "inner_text": "Archivo documental Arcimís",
+        "inner_html": "Archivo documental Arcimís"
+      },
+      {
+        "href": "http://www.aemet.es/es/conocermas/biblioteca",
+        "inner_text": "Biblioteca",
+        "inner_html": "Biblioteca"
+      },
+      {
+        "href": "http://www.aemet.es/es/conocermas/biblioteca/catalogo",
+        "inner_text": "Catálogo",
+        "inner_html": "Catálogo"
+      },
+      {
+        "href": "http://www.aemet.es/es/conocermas/biblioteca/boletines",
+        "inner_text": "Boletín meteorológico",
+        "inner_html": "Boletín meteorológico"
+      },
+      {
+        "href": "http://www.aemet.es/es/conocermas/biblioteca/exposiciones",
+        "inner_text": "Exposiciones",
+        "inner_html": "Exposiciones"
+      },
+      {
+        "href": "http://www.aemet.es/es/conocermas/recursos_en_linea",
+        "inner_text": "Recursos en línea",
+        "inner_html": "Recursos en línea"
+      },
+      {
+        "href": "http://www.aemet.es/es/conocermas/recursos_en_linea/publicaciones_y_estudios",
+        "inner_text": "Publicaciones y estudios",
+        "inner_html": "Publicaciones y estudios"
+      },
+      {
+        "href": "http://www.aemet.es/es/conocermas/recursos_en_linea/calendarios",
+        "inner_text": "Calendario meteorológico",
+        "inner_html": "Calendario meteorológico"
+      },
+      {
+        "href": "http://www.aemet.es/es/conocermas/recursos_en_linea/elobservador",
+        "inner_text": "El Observador",
+        "inner_html": "El Observador"
+      },
+      {
+        "href": "http://www.aemet.es/es/conocermas/recursos_en_linea/selecciones_del_blog",
+        "inner_text": "Selecciones del blog",
+        "inner_html": "Selecciones del blog"
+      },
+      {
+        "href": "http://www.aemet.es/es/conocermas/recursos_en_linea/simposios_prediccion",
+        "inner_text": "Simposios de predicción",
+        "inner_html": "Simposios de predicción"
+      },
+      {
+        "href": "http://www.aemet.es/es/conocermas/meteoeduca",
+        "inner_text": "Meteoeduca",
+        "inner_html": "Meteoeduca"
+      },
+      {
+        "href": "http://www.aemet.es/es/conocermas/meteoeduca/modulos_tempo",
+        "inner_text": "Biblioteca de módulos TEMPO",
+        "inner_html": "Biblioteca de módulos TEMPO"
+      },
+      {
+        "href": "http://www.aemet.es/es/conocermas/meteoeduca/juegos",
+        "inner_text": "Juegos educativos",
+        "inner_html": "Juegos educativos"
+      },
+      {
+        "href": "http://www.aemet.es/es/conocermas/meteoeduca/cuentos_infantiles",
+        "inner_text": "Cuentos infantiles",
+        "inner_html": "Cuentos infantiles"
+      },
+      {
+        "href": "http://www.aemet.es/es/conocermas/meteoeduca/la_familia_meteo",
+        "inner_text": "La familia Meteo",
+        "inner_html": "La familia Meteo"
+      },
+      {
+        "href": "http://www.aemet.es/es/conocermas/dia_meteorologico",
+        "inner_text": "Día Meteorológico Mundial",
+        "inner_html": "Día Meteorológico Mundial"
+      },
+      {
+        "href": "http://www.aemet.es/es/conocermas/modificacion_artificial_tiempo",
+        "inner_text": "Modificación artificial del tiempo",
+        "inner_html": "Modificación artificial del tiempo"
+      },
+      {
+        "href": "http://www.aemet.es/es/conocermas/meteo_glosario_visual",
+        "inner_text": "MeteoGlosario Visual",
+        "inner_html": "MeteoGlosario Visual"
+      },
+      {
+        "href": "http://www.aemet.es/es/conocermas/borrascas/2020-2021",
+        "inner_text": "Borrascas con gran impacto",
+        "inner_html": "Borrascas con gran impacto"
+      },
+      {
+        "href": "http://www.aemet.es/es/empleo_y_becas",
+        "inner_text": "EMPLEO PÚBLICO Y BECAS",
+        "inner_html": "Empleo público y becas"
+      },
+      {
+        "href": "http://www.aemet.es/es/empleo_y_becas/empleo_publico",
+        "inner_text": "Empleo público",
+        "inner_html": "Empleo público"
+      },
+      {
+        "href": "http://www.aemet.es/es/empleo_y_becas/empleo_publico/ingresar_en_la_aemet",
+        "inner_text": "Ingresar en AEMET",
+        "inner_html": "Ingresar en AEMET"
+      },
+      {
+        "href": "http://www.aemet.es/es/empleo_y_becas/empleo_publico/oposiciones",
+        "inner_text": "Oposiciones",
+        "inner_html": "Oposiciones"
+      },
+      {
+        "href": "http://www.aemet.es/es/empleo_y_becas/empleo_publico/funcionarios_interinos",
+        "inner_text": "Funcionarios interinos",
+        "inner_html": "Funcionarios interinos"
+      },
+      {
+        "href": "http://www.aemet.es/es/empleo_y_becas/empleo_publico/personal_laboral",
+        "inner_text": "Personal laboral",
+        "inner_html": "Personal laboral"
+      },
+      {
+        "href": "http://www.aemet.es/es/empleo_y_becas/empleo_publico/condiciones_de_trabajo",
+        "inner_text": "Condiciones de trabajo",
+        "inner_html": "Condiciones de trabajo"
+      },
+      {
+        "href": "http://www.aemet.es/es/empleo_y_becas/concursos",
+        "inner_text": "Concursos",
+        "inner_html": "Concursos"
+      },
+      {
+        "href": "http://www.aemet.es/es/empleo_y_becas/practicas",
+        "inner_text": "Prácticas",
+        "inner_html": "Prácticas"
+      },
+      {
+        "href": "http://www.aemet.es/es/empleo_y_becas/becas",
+        "inner_text": "Becas",
+        "inner_html": "Becas"
+      },
+      {
+        "href": "http://www.aemet.es/es/empleo_y_becas/becas/informacion_de_interes",
+        "inner_text": "Información de interés",
+        "inner_html": "Información de interés"
+      },
+      {
+        "href": "http://www.aemet.es/es/empleo_y_becas/becas/convocatorias",
+        "inner_text": "Convocatorias",
+        "inner_html": "Convocatorias"
+      },
+      {
+        "href": "http://www.aemet.es/es/datos_abiertos",
+        "inner_text": "DATOS ABIERTOS",
+        "inner_html": "Datos abiertos"
+      },
+      {
+        "href": "http://www.aemet.es/es/datos_abiertos/catalogo",
+        "inner_text": "Catálogo. Plan RISP",
+        "inner_html": "Catálogo. Plan RISP"
+      },
+      {
+        "href": "http://www.aemet.es/es/datos_abiertos/AEMET_OpenData",
+        "inner_text": "AEMET OpenData",
+        "inner_html": "AEMET OpenData"
+      },
+      {
+        "href": "http://www.aemet.es/es/datos_abiertos/estadisticas",
+        "inner_text": "Estadísticas",
+        "inner_html": "Estadísticas"
+      },
+      {
+        "href": "http://www.aemet.es/es/sede_electronica",
+        "inner_text": "SEDE ELECTRÓNICA",
+        "inner_html": "Sede electrónica"
+      },
+      {
+        "href": "http://www.aemet.es/es/eltiempo/prediccion/avisos?w=hoy",
+        "inner_text": "jue. 20 ",
+        "inner_html": "<div class=\"texto_icon_aviso_cabecera color_blanco inline_block vertical_align_mid texto_aviso_cabecera_web\">jue. 20</div>\n\t\t\t\t\t\t<div class=\"tamano_icon_aviso_cabecera ico_redondeado_aviso_amarillo\"><div class=\"texto_icon_aviso_cabecera texto_aviso_cabecera_movil\">jue. 20</div></div>"
+      },
+      {
+        "href": "http://www.aemet.es/es/eltiempo/prediccion/avisos?w=mna",
+        "inner_text": "vie. 21 ",
+        "inner_html": "<div class=\"texto_icon_aviso_cabecera color_blanco inline_block vertical_align_mid texto_aviso_cabecera_web\">vie. 21</div>\n\t\t\t\t\t\t<div class=\"tamano_icon_aviso_cabecera ico_redondeado_aviso_amarillo\"><div class=\"texto_icon_aviso_cabecera texto_aviso_cabecera_movil\">vie. 21</div></div>"
+      },
+      {
+        "href": "http://www.aemet.es/es/eltiempo/prediccion/avisos?w=pmna",
+        "inner_text": "sáb. 22 ",
+        "inner_html": "<div class=\"texto_icon_aviso_cabecera color_blanco inline_block vertical_align_mid texto_aviso_cabecera_web\">sáb. 22</div>\n\t\t\t\t\t\t<div class=\"tamano_icon_aviso_cabecera ico_redondeado_aviso_amarillo\"><div class=\"texto_icon_aviso_cabecera texto_aviso_cabecera_movil\">sáb. 22</div></div>"
+      },
+      {
+        "href": "http://www.aemet.es/es/mi_web",
+        "inner_text": "",
+        "inner_html": "<img src=\"/imagenes/png/iconos/ico-miweb.png\" alt=\"Mi Web\" title=\"Mi Web\">"
+      },
+      {
+        "href": "http://www.aemet.es/es/app/eltiempodeAEMET",
+        "inner_text": "",
+        "inner_html": "<img src=\"/imagenes/svg/ico-phone-c.svg\" alt=\"Aplicación oficial 'El Tiempo de AEMET' (Android e iOS) \" title=\"Aplicación oficial 'El Tiempo de AEMET' (Android e iOS) \">"
+      },
+      {
+        "href": "http://www.aemet.es/es/lineas_de_interes/atencion_al_ciudadano",
+        "inner_text": "",
+        "inner_html": "<img src=\"/imagenes/svg/ico-contacto.svg\" alt=\"Contactar - Atención al ciudadano \" title=\"Contactar - Atención al ciudadano \">"
+      },
+      {
+        "href": "http://www.aemet.es/es/redes_sociales/facebook/AEMET_facebook",
+        "inner_text": "",
+        "inner_html": "<img src=\"/imagenes/svg/Facebook-c.svg\" alt=\"Síguenos en Facebook\" title=\"Síguenos en Facebook\">"
+      },
+      {
+        "href": "http://www.aemet.es/es/redes_sociales/twitter/AEMET_twitter",
+        "inner_text": "",
+        "inner_html": "<img src=\"/imagenes/svg/Twitter-c.svg\" alt=\"Síguenos en Twitter\" title=\"Síguenos en Twitter\">"
+      },
+      {
+        "href": "https://aemetblog.wordpress.com/",
+        "inner_text": "",
+        "inner_html": "<img src=\"/imagenes/svg/ico-blog2-c.svg\" alt=\"AEMET blog.es\" title=\"AEMET blog.es\">"
+      },
+      {
+        "href": "http://www.aemet.es/es/redes_sociales/youtube/AEMET_YouTube",
+        "inner_text": "",
+        "inner_html": "<img src=\"/imagenes/svg/Youtube-c.svg\" alt=\"Síguenos en YouTube\" title=\"Síguenos en YouTube\">"
+      },
+      {
+        "href": "http://www.aemet.es/es/rss_info",
+        "inner_text": "",
+        "inner_html": "<img src=\"/imagenes/svg/Rss-c.svg\" alt=\"RSS\" title=\"RSS\">"
+      },
+      {
+        "href": "http://www.aemet.es/es/lineas_de_interes/miweb",
+        "inner_text": "Mi web",
+        "inner_html": "<img alt=\"Mi web\" src=\"/imagenes_gcd/lineas_de_interes/indice/ico_miweb.png\" title=\"Mi web\">  \n  <span>Mi web</span>"
+      },
+      {
+        "href": "http://www.aemet.es/es/lineas_de_interes/redes_sociales",
+        "inner_text": "Redes sociales",
+        "inner_html": "<img alt=\"Redes sociales\" src=\"/imagenes_gcd/lineas_de_interes/indice/ico_redes_sociales.png\" title=\"Redes sociales\">  \n  <span>Redes sociales</span>"
+      },
+      {
+        "href": "http://www.aemet.es/es/lineas_de_interes/meteoalerta",
+        "inner_text": "Meteoalerta: Avisos",
+        "inner_html": "<img alt=\"Meteoalerta: Avisos\" src=\"/imagenes_gcd/lineas_de_interes/indice/ico_meteoalerta.png\" title=\"Meteoalerta: Avisos\">  \n  <span>Meteoalerta: Avisos</span>"
+      },
+      {
+        "href": "http://www.aemet.es/es/lineas_de_interes/apps",
+        "inner_text": "APP",
+        "inner_html": "<img alt=\"APP\" src=\"/imagenes_gcd/lineas_de_interes/indice/ico_app_aemet.png\" title=\"APP\">  \n  <span>APP</span>"
+      },
+      {
+        "href": "http://www.aemet.es/es/lineas_de_interes/datos_y_estadistica",
+        "inner_text": "Datos y estadísticas",
+        "inner_html": "<img alt=\"Datos y estadísticas\" src=\"/imagenes_gcd/lineas_de_interes/indice/ico_datos.png\" title=\"Datos y estadísticas\">  \n  <span>Datos y estadísticas</span>"
+      },
+      {
+        "href": "http://www.aemet.es/es/lineas_de_interes/centro_de_documentacion",
+        "inner_text": "Centro de documentación",
+        "inner_html": "<img alt=\"Centro de documentación\" src=\"/imagenes_gcd/lineas_de_interes/indice/ico_documentacion.png\" title=\"Centro de documentación\">  \n  <span>Centro de documentación</span>"
+      },
+      {
+        "href": "http://www.aemet.es/es/lineas_de_interes/por_sectores",
+        "inner_text": "Por sectores",
+        "inner_html": "<img alt=\"Por sectores\" src=\"/imagenes_gcd/lineas_de_interes/indice/ico_estrategico_porsectores.png\" title=\"Por sectores\">  \n  <span>Por sectores</span>"
+      },
+      {
+        "href": "http://www.aemet.es/es/lineas_de_interes/servicios_climaticos",
+        "inner_text": "Servicios climáticos",
+        "inner_html": "<img alt=\"Servicios climáticos\" src=\"/imagenes_gcd/lineas_de_interes/indice/ico_servicios_climaticos.png\" title=\"Servicios climáticos\">  \n  <span>Servicios climáticos</span>"
+      },
+      {
+        "href": "http://www.aemet.es/es/lineas_de_interes/i_d_i",
+        "inner_text": "I+D+i",
+        "inner_html": "<img alt=\"I+D+i\" src=\"/imagenes_gcd/lineas_de_interes/indice/ico_IDI.png\" title=\"I+D+i\">  \n  <span>I+D+i</span>"
+      },
+      {
+        "href": "http://www.aemet.es/es/lineas_de_interes/internacional",
+        "inner_text": "Internacional",
+        "inner_html": "<img alt=\"Internacional\" src=\"/imagenes_gcd/lineas_de_interes/indice/ico_internacional.png\" title=\"Internacional\">  \n  <span>Internacional</span>"
+      },
+      {
+        "href": "http://www.aemet.es/es/eltiempo/widgets/municipios",
+        "inner_text": " El tiempo en tu web",
+        "inner_html": "<div class=\"icono_enlace_especial\">\n\t\t\t\t\t\t<img title=\"El tiempo en tu web\" alt=\"El tiempo en tu web\" src=\"imagenes/png/iconos/ico-conf.png\">\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"texto_enlace_especial\">\n\t\t\t\t\t\tEl tiempo en tu web<div class=\"mas_info\"></div>\n\t\t\t    \t</div>"
+      },
+      {
+        "href": "http://www.aemet.es/es/eltiempo/widgets/video",
+        "inner_text": " El vídeo de AEMET en tu web",
+        "inner_html": "<div class=\"icono_enlace_especial\">\n\t\t\t\t\t\t<img title=\"El vídeo de AEMET en tu web\" alt=\"El vídeo de AEMET en tu web\" src=\"imagenes/png/iconos/ico-video.png\">\n\t\t\t\t\t</div>\n\t\t\t\t\t<div class=\"texto_enlace_especial\">\n\t\t\t\t\t\tEl vídeo de AEMET en tu web<div class=\"mas_info\"></div>\n\t\t\t    \t</div>"
+      },
+      {
+        "href": "http://www.aemet.es/es/es/eltiempo/observacion/radar",
+        "inner_text": "Radar",
+        "inner_html": "Radar"
+      },
+      {
+        "href": "http://www.aemet.es/documentos_d/enportada/20210514071223_p54tesp1.pdf",
+        "inner_text": "Predicción mensual. Elaborada el 14 de mayo de 2021",
+        "inner_html": "<img class=\"imagen_portada_noticia\" title=\"Predicción mensual\" src=\"/imagenes/gif/portada/p54tesp1.gif\" alt=\"Predicción mensual\"><span class=\"texto_portada_noticia\">Predicción mensual. Elaborada el 14 de mayo de 2021</span>"
+      },
+      {
+        "href": "http://www.aemet.es/es/eltiempo/prediccion/montana/boletin_peligro_aludes",
+        "inner_text": " Boletín de peligro de aludes",
+        "inner_html": "<img alt=\"Boletín de peligro de aludes\" class=\"imagen_portada_noticia\" src=\"/imagenes_gcd/zona_portada_destacada/imagen_zona_en_portada_reducida/BoletinPeligroAludes_p.jpg\" title=\"Boletín de peligro de aludes\"> \n    <span class=\"texto_portada_noticia\">Boletín de peligro de aludes</span>"
+      },
+      {
+        "href": "http://www.aemet.es/es/eltiempo/prediccion/montana/boletin_montana/ampliacion",
+        "inner_text": " Ampliación cobertura geográfica predicción montaña",
+        "inner_html": "<img alt=\"\" class=\"imagen_portada_noticia\" src=\"/imagenes_gcd/zona_portada_destacada/imagen_zona_en_portada_reducida/boletin_montana_teide.jpg\" title=\"\"> \n    <span class=\"texto_portada_noticia\">Ampliación cobertura geográfica predicción montaña</span>"
+      },
+      {
+        "href": "http://www.aemet.es/es/noticias_/meteorologia_en_los_medios",
+        "inner_text": " La Meteorología en los medios de comunicación",
+        "inner_html": "<img alt=\"La Meteorología en los medios de comunicación\" class=\"imagen_portada_noticia\" src=\"/imagenes_gcd/zona_portada_destacada/imagen_zona_en_portada_reducida/meteorologia_en_los_medios.jpg\" title=\"La Meteorología en los medios de comunicación\"> \n    <span class=\"texto_portada_noticia\">La Meteorología en los medios de comunicación</span>"
+      },
+      {
+        "href": "http://www.aemet.es/es/serviciosclimaticos/vigilancia_clima/resumen_precipitaciones",
+        "inner_text": " Resumen de la evolución de las precipitaciones en España",
+        "inner_html": "<img alt=\"Resumen de la evolución de las precipitaciones en España\" class=\"imagen_portada_noticia\" src=\"/imagenes_gcd/zona_portada_destacada/imagen_zona_en_portada_reducida/resumen_precipitaciones_sp.jpg\" title=\"Resumen de la evolución de las precipitaciones en España\"> \n    <span class=\"texto_portada_noticia\">Resumen de la evolución de las precipitaciones en España</span>"
+      },
+      {
+        "href": "http://www.aemet.es/es/conocermas/recursos_en_linea/publicaciones_y_estudios/publicaciones/detalles/informe_estado_clima",
+        "inner_text": " Informe sobre el estado del clima de España 2020",
+        "inner_html": "<img alt=\"\" class=\"imagen_portada_noticia\" src=\"/imagenes_gcd/zona_portada_destacada/imagen_zona_en_portada_reducida/informe_estado_clima_2019.jpg\" title=\"\"> \n    <span class=\"texto_portada_noticia\">Informe sobre el estado del clima de España 2020</span>"
+      },
+      {
+        "href": "http://www.aemet.es/es/zona_portada_destacada",
+        "inner_text": "Ver más",
+        "inner_html": "Ver más"
+      },
+      {
+        "href": "http://www.aemet.es/es/eltiempo/prediccion/mapas_probabilisticos?dia=&zona=penyb",
+        "inner_text": "",
+        "inner_html": "<img src=\"/imagenes_d/eltiempo/prediccion/precipitacion/2021052000+024_ww_bpd5p0d1.png\" alt=\"Probabilidad de precipitación ≥ 0.5 mm en la Península y Baleares\" title=\"Probabilidad de precipitación ≥ 0.5 mm en la Península y Baleares\">"
+      },
+      {
+        "href": "http://www.aemet.es/es/eltiempo/prediccion/mapas_probabilisticos?dia=hoy&zona=can",
+        "inner_text": "\n\t\t\t\t\t\t\n\t\t\t\t\t",
+        "inner_html": "<img src=\"/imagenes_d/eltiempo/prediccion/precipitacion/2021052000+024_ww_bpd5c0d1.png\" alt=\"Probabilidad de precipitación ≥ 0.5 mm en Canarias\" title=\"Probabilidad de precipitación ≥ 0.5 mm en Canarias\">"
+      },
+      {
+        "href": "http://www.aemet.es/es/noticias",
+        "inner_text": "Información",
+        "inner_html": "información"
+      },
+      {
+        "href": "http://www.aemet.es/es/noticias/2021/05/agrogestor_2021",
+        "inner_text": "",
+        "inner_html": "<img alt=\"agrogestor\" src=\"/imagenes_gcd/noticias/imagen_noticia_reducida_portada/2021/05/Miniatura_agrogestor.jpg\" title=\"agrogestor\">"
+      },
+      {
+        "href": "http://www.aemet.es/es/noticias/2021/05/informe_estado_clima_2020",
+        "inner_text": "",
+        "inner_html": "<img alt=\"informe del estado del clima 2020\" src=\"/imagenes_gcd/noticias/imagen_noticia_reducida_portada/2021/05/miniatura_estado_clima20210.jpg\" title=\"informe del estado del clima 2020\">"
+      },
+      {
+        "href": "http://www.aemet.es/es/noticias/2021/05/nuevo_monitor_sequia_meteorologica",
+        "inner_text": "",
+        "inner_html": "<img alt=\"nuevo monitor de sequias meteorologicas\" src=\"/imagenes_gcd/noticias/imagen_noticia_reducida_portada/2021/05/miniatura_monitorsequia.jpg\" title=\"nuevo monitor de sequias meteorologicas\">"
+      },
+      {
+        "href": "http://www.aemet.es/es/noticias/2021/05/resumen_clima_abril_2021",
+        "inner_text": "",
+        "inner_html": "<img alt=\"resumen clima abril\" src=\"/imagenes_gcd/noticias/imagen_noticia_reducida_portada/2021/05/Abril_miniatura_media.jpg\" title=\"resumen clima abril\">"
+      },
+      {
+        "href": "https://opendata.aemet.es/",
+        "inner_text": "",
+        "inner_html": "<img alt=\"AEMET OpenData (se abrirá en una ventana nueva)\" src=\"/imagenes_gcd/productos_destacados/logo_AEMET_OpenData.gif\" title=\"AEMET OpenData (se abrirá en una ventana nueva)\">"
+      },
+      {
+        "href": "http://www.aemet.es/es/serviciosclimaticos/datosclimatologicos/atlas_climatico/visor_atlas_climatico",
+        "inner_text": "",
+        "inner_html": "<img alt=\"Visor del Atlas climático\" src=\"/imagenes_gcd/productos_destacados/visor_atlas_climatico/visor_atlas_climatico_pd.jpg\" title=\"Visor del Atlas climático\">"
+      },
+      {
+        "href": "https://meteoglosario.aemet.es/",
+        "inner_text": "",
+        "inner_html": "<img alt=\"MeteoGlosario Visual (se abrirá en una ventana nueva)\" src=\"/imagenes_gcd/productos_destacados/logo_meteoglosario_visual.gif\" title=\"MeteoGlosario Visual (se abrirá en una ventana nueva)\">"
+      },
+      {
+        "href": "https://aemetblog.es/",
+        "inner_text": "",
+        "inner_html": "<img alt=\"El blog de la Agencia Estatal de Meteorología (se abrirá en una ventana nueva)\" src=\"/imagenes_gcd/productos_destacados/aemet_blog.gif\" title=\"El blog de la Agencia Estatal de Meteorología (se abrirá en una ventana nueva)\">"
+      },
+      {
+        "href": "http://meteoruta.aemet.es/p_index.html",
+        "inner_text": "",
+        "inner_html": "<img alt=\"MeteoRuta (se abrirá en una ventana nueva)\" src=\"/imagenes_gcd/productos_destacados/logo-meteoruta.gif\" title=\"MeteoRuta (se abrirá en una ventana nueva)\">"
+      },
+      {
+        "href": "https://antartida.aemet.es/",
+        "inner_text": "",
+        "inner_html": "<img alt=\"Campañas Antárticas de AEMET (se abrirá en una ventana nueva)\" src=\"/imagenes_gcd/productos_destacados/antartida.jpg\" title=\"Campañas Antárticas de AEMET (se abrirá en una ventana nueva)\">"
+      },
+      {
+        "href": "http://sinobas.aemet.es/",
+        "inner_text": "",
+        "inner_html": "<img alt=\"SINOBAS (se abrirá en una ventana nueva)\" src=\"/imagenes_gcd/productos_destacados/logo_sinobas.gif\" title=\"SINOBAS (se abrirá en una ventana nueva)\">"
+      },
+      {
+        "href": "https://enc2019.aemet.es/",
+        "inner_text": "",
+        "inner_html": "<img alt=\"3ª Conferencia Europea de Nowcasting (se abrirá en una ventana nueva)\" src=\"/imagenes_gcd/productos_destacados/ENC2009.gif\" title=\"3ª Conferencia Europea de Nowcasting (se abrirá en una ventana nueva)\">"
+      },
+      {
+        "href": "http://meteonav.aemet.es/MeteoNav/",
+        "inner_text": "",
+        "inner_html": "<img alt=\"MeteoNav (se abrirá en una ventana nueva)\" src=\"/imagenes_gcd/productos_destacados/logo-meteonav.png\" title=\"MeteoNav (se abrirá en una ventana nueva)\">"
+      },
+      {
+        "href": "http://repositorio.aemet.es/",
+        "inner_text": "",
+        "inner_html": "<img alt=\"Archivo documental Arcimís (se abrirá en una ventana nueva)\" src=\"/imagenes_gcd/productos_destacados/archivo_documental_Arcimis.gif\" title=\"Archivo documental Arcimís (se abrirá en una ventana nueva)\">"
+      },
+      {
+        "href": "http://dust.aemet.es/forecast",
+        "inner_text": "",
+        "inner_html": "<img alt=\"Predicción de polvo mineral atmosférico (se abrirá en una ventana nueva)\" src=\"/imagenes_gcd/productos_destacados/sds-was.jpg\" title=\"Predicción de polvo mineral atmosférico (se abrirá en una ventana nueva)\">"
+      },
+      {
+        "href": "http://izana100.aemet.es/",
+        "inner_text": "",
+        "inner_html": "<img alt=\"Centenario de Izaña (se abrirá en una ventana nueva)\" src=\"/imagenes_gcd/productos_destacados/Centenario_CIAI.jpg\" title=\"Centenario de Izaña (se abrirá en una ventana nueva)\">"
+      },
+      {
+        "href": "http://transparencia.gob.es/",
+        "inner_text": "",
+        "inner_html": "<img alt=\"Portal de la Transparencia (se abrirá en una ventana nueva)\" class=\"img_promocion\" src=\"/imagenes_gcd/enlaces_promocionales/Portal_transparencia.gif\" title=\"Portal de la Transparencia (se abrirá en una ventana nueva)\">"
+      },
+      {
+        "href": "http://www.adaptecca.es/",
+        "inner_text": "",
+        "inner_html": "<img alt=\"AdapteCCa. Plataforma de intercambio y consulta de información sobre adaptación al Cambio Climático en España (se abrirá en una ventana nueva)\" class=\"img_promocion\" src=\"/imagenes_gcd/enlaces_promocionales/AdapteCCa_es.gif\" title=\"AdapteCCa. Plataforma de intercambio y consulta de información sobre adaptación al Cambio Climático en España (se abrirá en una ventana nueva)\">"
+      },
+      {
+        "href": "http://datos.gob.es/",
+        "inner_text": "",
+        "inner_html": "<img alt=\"Datos abiertos (se abrirá en una ventana nueva)\" class=\"img_promocion\" src=\"/imagenes_gcd/enlaces_promocionales/datos_abiertos/DatosAbiertos.jpg\" title=\"Datos abiertos (se abrirá en una ventana nueva)\">"
+      },
+      {
+        "href": "https://www.aemet.es/es/contactar/telefono_060",
+        "inner_text": "",
+        "inner_html": "<img alt=\"Información de AEMET a través del teléfono 060\" class=\"img_promocion\" src=\"/imagenes_gcd/enlaces_promocionales/tel_060.gif\" title=\"Información de AEMET a través del teléfono 060\">"
+      },
+      {
+        "href": "http://wwis.aemet.es/es/home.html",
+        "inner_text": "",
+        "inner_html": "<img alt=\"Servicio de Información Meteorológica Mundial (WWIS). Ciudades del mundo (se abrirá en una ventana nueva)\" class=\"img_promocion\" src=\"/imagenes_gcd/enlaces_promocionales/wwis_ciudades_del_mundo.gif\" title=\"Servicio de Información Meteorológica Mundial (WWIS). Ciudades del mundo (se abrirá en una ventana nueva)\">"
+      },
+      {
+        "href": "https://www.aemet.es/es/omm",
+        "inner_text": "",
+        "inner_html": "<img alt=\"Portal Organización Meteorológica Mundial (OMM) para los jóvenes - Facebook de la OMM en español - Medios de comunicación - Web sobre igualdad de género\" class=\"img_promocion\" src=\"/imagenes_gcd/enlaces_promocionales/OMMes.gif\" title=\"Portal Organización Meteorológica Mundial (OMM) para los jóvenes - Facebook de la OMM en español - Medios de comunicación - Web sobre igualdad de género\">"
+      },
+      {
+        "href": "http://www.aemet.es/es/nota_legal",
+        "inner_text": "Nota Legal",
+        "inner_html": "Nota Legal"
+      },
+      {
+        "href": "http://www.aemet.es/es/enlaces",
+        "inner_text": "Enlaces",
+        "inner_html": "Enlaces"
+      },
+      {
+        "href": "http://validator.w3.org/check?uri=referer",
+        "inner_text": " ",
+        "inner_html": "<img src=\"/imagenes/png/certificados/w3c_xhtml10.png\" title=\"Valida XHTML 1.0 Transicional. (se abrirá en una ventana nueva)\" alt=\"Valida XHTML 1.0 Transicional. (se abrirá en una ventana nueva)\">"
+      },
+      {
+        "href": "http://jigsaw.w3.org/css-validator/check/referer?profile=css3&usermedium=all&warning=no",
+        "inner_text": " ",
+        "inner_html": "<img src=\"/imagenes/png/certificados/w3c_vcss.gif\" title=\"Certificado W3C Valid CSS. (se abrirá en una ventana nueva)\" alt=\"Certificado W3C Valid CSS. (se abrirá en una ventana nueva)\">"
+      },
+      {
+        "href": "http://www.w3.org/WAI/WCAG1AA-Conformance",
+        "inner_text": "",
+        "inner_html": "<img src=\"/imagenes/png/certificados/w3c_waiAA.gif\" title=\"Icono de conformidad con el Nivel Doble-A, de las Directrices de Accesibilidad para el Contenido Web 1.0 del W3C-WAI. (se abrirá en una ventana nueva)\" alt=\"Icono de conformidad con el Nivel Doble-A, de las Directrices de Accesibilidad para el Contenido Web 1.0 del W3C-WAI. (se abrirá en una ventana nueva)\">"
+      }
+    ],
+    "social": [],
+    "keywords": [
+      {
+        "href": "http://www.aemet.es/es/nota_legal",
+        "inner_text": "Nota Legal",
+        "inner_html": "Nota Legal"
+      }
+    ]
+  },
+  "unsafeForms": [
+    {
+      "id": "FrmBuscador",
+      "action": "http://www.aemet.es/es/buscador",
+      "method": "get"
+    },
+    {
+      "id": "",
+      "action": "http://www.aemet.es/es/eltiempo/prediccion/municipios",
+      "method": "get"
+    }
+  ],
+  "browsing_history": [
+    "http://www.aemet.es/es/portada"
+  ],
+  "websockets": {},
+  "cookies": [
+    {
+      "name": "USER_ID",
+      "value": "user_id1621526963363r4006",
+      "domain": "www.aemet.es",
+      "path": "/",
+      "expires": 1657526963,
+      "size": 32,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2022-07-11T08:09:23.000Z",
+      "expiresDays": 416.67,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 20,
+            "lineNumber": 14,
+            "fileName": "http://www.aemet.es/js/stats.js",
+            "functionName": "stats_setCookie",
+            "source": "    at stats_setCookie (http://www.aemet.es/js/stats.js:14:20)"
+          },
+          {
+            "columnNumber": 2,
+            "lineNumber": 65,
+            "fileName": "http://www.aemet.es/js/stats.js",
+            "source": "    at http://www.aemet.es/js/stats.js:65:2"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T16:09:23.411Z",
+        "location": "http://www.aemet.es/es/portada"
+      },
+      "firstPartyStorage": false
+    },
+    {
+      "name": "SESSION_ID",
+      "value": "session_id1621526963363r4006",
+      "domain": "www.aemet.es",
+      "path": "/",
+      "expires": 1621530563,
+      "size": 38,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2021-05-20T17:09:23.000Z",
+      "expiresDays": 0.04,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 20,
+            "lineNumber": 14,
+            "fileName": "http://www.aemet.es/js/stats.js",
+            "functionName": "stats_setCookie",
+            "source": "    at stats_setCookie (http://www.aemet.es/js/stats.js:14:20)"
+          },
+          {
+            "columnNumber": 2,
+            "lineNumber": 66,
+            "fileName": "http://www.aemet.es/js/stats.js",
+            "source": "    at http://www.aemet.es/js/stats.js:66:2"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T16:09:23.411Z",
+        "location": "http://www.aemet.es/es/portada"
+      },
+      "firstPartyStorage": false
+    },
+    {
+      "name": "TS01ca04aa",
+      "value": "01535bf31759b3f13764903dfa74dc88f28cf3b46070f6e215aa2ab4599337f04956a2e31291f1d1a5457e488519e0e0129849f488",
+      "domain": "aemet.es",
+      "path": "/",
+      "expires": -1,
+      "size": 116,
+      "httpOnly": false,
+      "secure": false,
+      "session": true,
+      "log": {
+        "stack": [
+          {
+            "fileName": "http://aemet.es/es/portada",
+            "source": "set in Set-Cookie HTTP response header for http://aemet.es/es/portada"
+          }
+        ],
+        "type": "Cookie.HTTP",
+        "timestamp": "2021-05-20T16:09:22.518Z",
+        "location": "about:blank"
+      },
+      "firstPartyStorage": true
+    }
+  ],
+  "localStorage": {},
+  "beacons": [
+    {
+      "url": "https://platform.twitter.com/jot.html",
+      "query": null,
+      "filter": "||twitter.com/jot.html",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "about:blank",
+            "source": "requested from about:blank and matched with easyprivacy.txt filter ||twitter.com/jot.html"
+          }
+        ],
+        "timestamp": "2021-05-20T16:09:29.950Z"
+      },
+      "occurrances": 2
+    },
+    {
+      "url": "https://syndication.twitter.com/i/jot",
+      "query": null,
+      "filter": "||twitter.com/i/jot",
+      "listName": "fanboy-annoyance.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "",
+            "source": "requested from  and matched with fanboy-annoyance.txt filter ||twitter.com/i/jot"
+          }
+        ],
+        "timestamp": "2021-05-20T16:09:29.790Z"
+      },
+      "occurrances": 4
+    },
+    {
+      "url": "https://platform.twitter.com/js/timeline.28ecda9667eeb8e1b18898b99fee6c31.js",
+      "query": null,
+      "filter": "||twitter.com/js/timeline.$script,third-party",
+      "listName": "fanboy-annoyance.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "http://www.aemet.es/es/portada",
+            "source": "requested from http://www.aemet.es/es/portada and matched with fanboy-annoyance.txt filter ||twitter.com/js/timeline.$script,third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T16:09:24.426Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://platform.twitter.com/widgets/widget_iframe.06c6ee58c3810956b7509218508c7b56.html?origin=http%3A%2F%2Fwww.aemet.es",
+      "query": {
+        "origin": "http://www.aemet.es"
+      },
+      "filter": "||platform.twitter.com*/widgets/$third-party",
+      "listName": "fanboy-annoyance.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "",
+            "source": "requested from  and matched with fanboy-annoyance.txt filter ||platform.twitter.com*/widgets/$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T16:09:23.604Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "http://www.aemet.es/imagenes/svg/Youtube.svg",
+      "query": null,
+      "filter": "/youtube.svg",
+      "listName": "fanboy-annoyance.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "http://www.aemet.es/es/portada",
+            "source": "requested from http://www.aemet.es/es/portada and matched with fanboy-annoyance.txt filter /youtube.svg"
+          }
+        ],
+        "timestamp": "2021-05-20T16:09:22.823Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "http://www.aemet.es/imagenes/svg/Twitter.svg",
+      "query": null,
+      "filter": "/twitter.svg",
+      "listName": "fanboy-annoyance.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "http://www.aemet.es/es/portada",
+            "source": "requested from http://www.aemet.es/es/portada and matched with fanboy-annoyance.txt filter /twitter.svg"
+          }
+        ],
+        "timestamp": "2021-05-20T16:09:22.823Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "http://www.aemet.es/imagenes/svg/Facebook.svg",
+      "query": null,
+      "filter": "/facebook.svg",
+      "listName": "fanboy-annoyance.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "http://www.aemet.es/es/portada",
+            "source": "requested from http://www.aemet.es/es/portada and matched with fanboy-annoyance.txt filter /facebook.svg"
+          }
+        ],
+        "timestamp": "2021-05-20T16:09:22.822Z"
+      },
+      "occurrances": 1
+    }
+  ],
+  "hosts": {
+    "requests": {
+      "firstParty": [
+        "aemet.es"
+      ],
+      "thirdParty": [
+        "www.aemet.es",
+        "platform.twitter.com",
+        "syndication.twitter.com",
+        "cdn.syndication.twimg.com",
+        "pbs.twimg.com",
+        "abs.twimg.com",
+        "ton.twimg.com"
+      ]
+    },
+    "beacons": {
+      "firstParty": [],
+      "thirdParty": [
+        "platform.twitter.com",
+        "syndication.twitter.com"
+      ]
+    },
+    "cookies": {
+      "firstParty": [
+        "aemet.es"
+      ],
+      "thirdParty": [
+        "www.aemet.es"
+      ]
+    },
+    "localStorage": {
+      "firstParty": [],
+      "thirdParty": []
+    },
+    "links": {
+      "firstParty": [],
+      "thirdParty": [
+        "www.aemet.es",
+        "www.miteco.gob.es",
+        "aemetblog.wordpress.com",
+        "opendata.aemet.es",
+        "meteoglosario.aemet.es",
+        "aemetblog.es",
+        "meteoruta.aemet.es",
+        "antartida.aemet.es",
+        "sinobas.aemet.es",
+        "enc2019.aemet.es",
+        "meteonav.aemet.es",
+        "repositorio.aemet.es",
+        "dust.aemet.es",
+        "izana100.aemet.es",
+        "transparencia.gob.es",
+        "www.adaptecca.es",
+        "datos.gob.es",
+        "wwis.aemet.es",
+        "validator.w3.org",
+        "jigsaw.w3.org",
+        "www.w3.org"
+      ]
+    }
+  }
+}

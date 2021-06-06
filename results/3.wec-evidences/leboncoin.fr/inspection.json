@@ -1,0 +1,344 @@
+{
+  "title": "Website Evidence Collection",
+  "task_description": null,
+  "uri_ins": "http://leboncoin.fr",
+  "uri_refs": [
+    "http://leboncoin.fr"
+  ],
+  "uri_dest": "https://www.leboncoin.fr/",
+  "uri_redirects": [
+    "http://leboncoin.fr/",
+    "https://leboncoin.fr/"
+  ],
+  "secure_connection": {
+    "https_support": true,
+    "redirects": [
+      "https://leboncoin.fr/",
+      "https://www.leboncoin.fr/"
+    ],
+    "https_redirect": true
+  },
+  "host": "leboncoin.fr",
+  "script": {
+    "host": "sfod",
+    "version": {
+      "npm": "1.0.0",
+      "commit": null
+    },
+    "cmd_args": "-q --overwrite http://leboncoin.fr -- --ignore-certificate-errors",
+    "environment": {
+      "CHROME_DESKTOP": "code-url-handler.desktop"
+    },
+    "node_version": "v14.17.0"
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "HeadlessChrome/80.0.3987.0",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3617.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "5.8.0-53-generic"
+    },
+    "extra_headers": {},
+    "preset_cookies": {}
+  },
+  "start_time": "2021-05-20T16:28:19.846Z",
+  "end_time": "2021-05-20T16:28:25.839Z",
+  "links": {
+    "firstParty": [],
+    "thirdParty": [],
+    "social": [],
+    "keywords": []
+  },
+  "unsafeForms": [],
+  "browsing_history": [
+    "https://www.leboncoin.fr/"
+  ],
+  "websockets": {},
+  "cookies": [
+    {
+      "name": "_ga",
+      "value": "GA1.2.1624111059.1621528101",
+      "domain": "captcha-delivery.com",
+      "path": "/",
+      "expires": 1684600101,
+      "size": 30,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2023-05-20T16:28:21.000Z",
+      "expiresDays": 730,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 495,
+            "lineNumber": 30,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "zc",
+            "source": "    at zc (https://www.google-analytics.com/analytics.js:30:495)"
+          },
+          {
+            "columnNumber": 15,
+            "lineNumber": 60,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "ma",
+            "source": "    at ma (https://www.google-analytics.com/analytics.js:60:15)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T16:28:21.245Z",
+        "location": "https://www.leboncoin.fr"
+      },
+      "firstPartyStorage": false
+    },
+    {
+      "name": "datadome",
+      "value": "ERFYCrzWYXtltE._HN72JnIcFreLuWPd1tEApIEWyJFI7.0p_PKGWY1C.ioaNaGpWW83NCs~J0fIQ~PZfgEvGhAhP3Z~EUAf2eRB0U.ilw",
+      "domain": "leboncoin.fr",
+      "path": "/",
+      "expires": 1653064100.330396,
+      "size": 114,
+      "httpOnly": false,
+      "secure": true,
+      "session": false,
+      "sameSite": "Lax",
+      "expiresUTC": "2022-05-20T16:28:20.330Z",
+      "expiresDays": 365,
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.leboncoin.fr/",
+            "source": "set in Set-Cookie HTTP response header for https://www.leboncoin.fr/"
+          }
+        ],
+        "type": "Cookie.HTTP",
+        "timestamp": "2021-05-20T16:28:20.334Z",
+        "location": "about:blank"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "_gid",
+      "value": "GA1.2.1821328853.1621528101",
+      "domain": "captcha-delivery.com",
+      "path": "/",
+      "expires": 1621614501,
+      "size": 31,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2021-05-21T16:28:21.000Z",
+      "expiresDays": 1,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 495,
+            "lineNumber": 30,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "zc",
+            "source": "    at zc (https://www.google-analytics.com/analytics.js:30:495)"
+          },
+          {
+            "columnNumber": 401,
+            "lineNumber": 59,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "ma",
+            "source": "    at ma (https://www.google-analytics.com/analytics.js:59:401)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T16:28:21.246Z",
+        "location": "https://www.leboncoin.fr"
+      },
+      "firstPartyStorage": false
+    },
+    {
+      "name": "_gat",
+      "value": "1",
+      "domain": "captcha-delivery.com",
+      "path": "/",
+      "expires": 1621528161,
+      "size": 5,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2021-05-20T16:29:21.000Z",
+      "expiresDays": 0,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 495,
+            "lineNumber": 30,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "zc",
+            "source": "    at zc (https://www.google-analytics.com/analytics.js:30:495)"
+          },
+          {
+            "columnNumber": 31,
+            "lineNumber": 73,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "Qd",
+            "source": "    at Qd (https://www.google-analytics.com/analytics.js:73:31)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T16:28:21.247Z",
+        "location": "https://www.leboncoin.fr"
+      },
+      "firstPartyStorage": false
+    }
+  ],
+  "localStorage": {},
+  "beacons": [
+    {
+      "url": "https://www.google-analytics.com/j/collect?v=1&_v=j90&a=164334091&t=pageview&_s=1&dl=https%3A%2F%2Fgeo.captcha-delivery.com%2Fcaptcha%2F%3FinitialCid%3DAHrlqAAAAAMAn2Z58nFAs-UAJXjH7A%253D%253D%26hash%3D05B30BD9055986BD2EE8F5A199D973%26cid%3DERFYCrzWYXtltE._HN72JnIcFreLuWPd1tEApIEWyJFI7.0p_PKGWY1C.ioaNaGpWW83NCs~J0fIQ~PZfgEvGhAhP3Z~EUAf2eRB0U.ilw%26t%3Dbv%26referer%3Dhttps%253A%252F%252Fwww.leboncoin.fr%252F%26s%3D2089&dr=https%3A%2F%2Fwww.leboncoin.fr%2F&ul=en-us&de=UTF-8&dt=You%20have%20been%20blocked&sd=24-bit&sr=1680x927&vp=1680x927&je=0&_u=IEBAAEABAAAAAC~&jid=809462207&gjid=118904958&cid=1624111059.1621528101&tid=UA-71254111-3&_gid=1821328853.1621528101&_r=1&_slc=1&z=1595359141",
+      "query": {
+        "v": 1,
+        "_v": "j90",
+        "a": 164334091,
+        "t": "pageview",
+        "_s": 1,
+        "dl": "https://geo.captcha-delivery.com/captcha/?initialCid=AHrlqAAAAAMAn2Z58nFAs-UAJXjH7A%3D%3D&hash=05B30BD9055986BD2EE8F5A199D973&cid=ERFYCrzWYXtltE._HN72JnIcFreLuWPd1tEApIEWyJFI7.0p_PKGWY1C.ioaNaGpWW83NCs~J0fIQ~PZfgEvGhAhP3Z~EUAf2eRB0U.ilw&t=bv&referer=https%3A%2F%2Fwww.leboncoin.fr%2F&s=2089",
+        "dr": "https://www.leboncoin.fr/",
+        "ul": "en-us",
+        "de": "UTF-8",
+        "dt": "You have been blocked",
+        "sd": "24-bit",
+        "sr": "1680x927",
+        "vp": "1680x927",
+        "je": 0,
+        "_u": "IEBAAEABAAAAAC~",
+        "jid": 809462207,
+        "gjid": 118904958,
+        "cid": 1624111059.1621528,
+        "tid": "UA-71254111-3",
+        "_gid": 1821328853.1621528,
+        "_r": 1,
+        "_slc": 1,
+        "z": 1595359141
+      },
+      "filter": "/collect?*&cid=",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://geo.captcha-delivery.com/captcha/?initialCid=AHrlqAAAAAMAn2Z58nFAs-UAJXjH7A%3D%3D&hash=05B30BD9055986BD2EE8F5A199D973&cid=ERFYCrzWYXtltE._HN72JnIcFreLuWPd1tEApIEWyJFI7.0p_PKGWY1C.ioaNaGpWW83NCs~J0fIQ~PZfgEvGhAhP3Z~EUAf2eRB0U.ilw&t=bv&referer=https%3A%2F%2Fwww.leboncoin.fr%2F&s=2089",
+            "source": "requested from https://geo.captcha-delivery.com/captcha/?initialCid=AHrlqAAAAAMAn2Z58nFAs-UAJXjH7A%3D%3D&hash=05B30BD9055986BD2EE8F5A199D973&cid=ERFYCrzWYXtltE._HN72JnIcFreLuWPd1tEApIEWyJFI7.0p_PKGWY1C.ioaNaGpWW83NCs~J0fIQ~PZfgEvGhAhP3Z~EUAf2eRB0U.ilw&t=bv&referer=https%3A%2F%2Fwww.leboncoin.fr%2F&s=2089 and matched with easyprivacy.txt filter /collect?*&cid="
+          }
+        ],
+        "timestamp": "2021-05-20T16:28:21.250Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://www.google-analytics.com/analytics.js",
+      "query": null,
+      "filter": "||google-analytics.com/analytics.js",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://geo.captcha-delivery.com/captcha/?initialCid=AHrlqAAAAAMAn2Z58nFAs-UAJXjH7A%3D%3D&hash=05B30BD9055986BD2EE8F5A199D973&cid=ERFYCrzWYXtltE._HN72JnIcFreLuWPd1tEApIEWyJFI7.0p_PKGWY1C.ioaNaGpWW83NCs~J0fIQ~PZfgEvGhAhP3Z~EUAf2eRB0U.ilw&t=bv&referer=https%3A%2F%2Fwww.leboncoin.fr%2F&s=2089",
+            "source": "requested from https://geo.captcha-delivery.com/captcha/?initialCid=AHrlqAAAAAMAn2Z58nFAs-UAJXjH7A%3D%3D&hash=05B30BD9055986BD2EE8F5A199D973&cid=ERFYCrzWYXtltE._HN72JnIcFreLuWPd1tEApIEWyJFI7.0p_PKGWY1C.ioaNaGpWW83NCs~J0fIQ~PZfgEvGhAhP3Z~EUAf2eRB0U.ilw&t=bv&referer=https%3A%2F%2Fwww.leboncoin.fr%2F&s=2089 and matched with easyprivacy.txt filter ||google-analytics.com/analytics.js"
+          }
+        ],
+        "timestamp": "2021-05-20T16:28:20.950Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://api-js.datadome.co/js/",
+      "query": null,
+      "filter": "||datadome.co^$third-party",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://geo.captcha-delivery.com/captcha/?initialCid=AHrlqAAAAAMAn2Z58nFAs-UAJXjH7A%3D%3D&hash=05B30BD9055986BD2EE8F5A199D973&cid=ERFYCrzWYXtltE._HN72JnIcFreLuWPd1tEApIEWyJFI7.0p_PKGWY1C.ioaNaGpWW83NCs~J0fIQ~PZfgEvGhAhP3Z~EUAf2eRB0U.ilw&t=bv&referer=https%3A%2F%2Fwww.leboncoin.fr%2F&s=2089",
+            "source": "requested from https://geo.captcha-delivery.com/captcha/?initialCid=AHrlqAAAAAMAn2Z58nFAs-UAJXjH7A%3D%3D&hash=05B30BD9055986BD2EE8F5A199D973&cid=ERFYCrzWYXtltE._HN72JnIcFreLuWPd1tEApIEWyJFI7.0p_PKGWY1C.ioaNaGpWW83NCs~J0fIQ~PZfgEvGhAhP3Z~EUAf2eRB0U.ilw&t=bv&referer=https%3A%2F%2Fwww.leboncoin.fr%2F&s=2089 and matched with easyprivacy.txt filter ||datadome.co^$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T16:28:20.942Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://js.datadome.co/tags.js",
+      "query": null,
+      "filter": "||datadome.co^$third-party",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://geo.captcha-delivery.com/captcha/?initialCid=AHrlqAAAAAMAn2Z58nFAs-UAJXjH7A%3D%3D&hash=05B30BD9055986BD2EE8F5A199D973&cid=ERFYCrzWYXtltE._HN72JnIcFreLuWPd1tEApIEWyJFI7.0p_PKGWY1C.ioaNaGpWW83NCs~J0fIQ~PZfgEvGhAhP3Z~EUAf2eRB0U.ilw&t=bv&referer=https%3A%2F%2Fwww.leboncoin.fr%2F&s=2089",
+            "source": "requested from https://geo.captcha-delivery.com/captcha/?initialCid=AHrlqAAAAAMAn2Z58nFAs-UAJXjH7A%3D%3D&hash=05B30BD9055986BD2EE8F5A199D973&cid=ERFYCrzWYXtltE._HN72JnIcFreLuWPd1tEApIEWyJFI7.0p_PKGWY1C.ioaNaGpWW83NCs~J0fIQ~PZfgEvGhAhP3Z~EUAf2eRB0U.ilw&t=bv&referer=https%3A%2F%2Fwww.leboncoin.fr%2F&s=2089 and matched with easyprivacy.txt filter ||datadome.co^$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T16:28:20.821Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://www.googletagmanager.com/gtm.js?id=GTM-5KTHT2G",
+      "query": {
+        "id": "GTM-5KTHT2G"
+      },
+      "filter": "/gtm.js",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://geo.captcha-delivery.com/captcha/?initialCid=AHrlqAAAAAMAn2Z58nFAs-UAJXjH7A%3D%3D&hash=05B30BD9055986BD2EE8F5A199D973&cid=ERFYCrzWYXtltE._HN72JnIcFreLuWPd1tEApIEWyJFI7.0p_PKGWY1C.ioaNaGpWW83NCs~J0fIQ~PZfgEvGhAhP3Z~EUAf2eRB0U.ilw&t=bv&referer=https%3A%2F%2Fwww.leboncoin.fr%2F&s=2089",
+            "source": "requested from https://geo.captcha-delivery.com/captcha/?initialCid=AHrlqAAAAAMAn2Z58nFAs-UAJXjH7A%3D%3D&hash=05B30BD9055986BD2EE8F5A199D973&cid=ERFYCrzWYXtltE._HN72JnIcFreLuWPd1tEApIEWyJFI7.0p_PKGWY1C.ioaNaGpWW83NCs~J0fIQ~PZfgEvGhAhP3Z~EUAf2eRB0U.ilw&t=bv&referer=https%3A%2F%2Fwww.leboncoin.fr%2F&s=2089 and matched with easyprivacy.txt filter /gtm.js"
+          }
+        ],
+        "timestamp": "2021-05-20T16:28:20.755Z"
+      },
+      "occurrances": 1
+    }
+  ],
+  "hosts": {
+    "requests": {
+      "firstParty": [
+        "leboncoin.fr"
+      ],
+      "thirdParty": [
+        "www.leboncoin.fr",
+        "ct.captcha-delivery.com",
+        "geo.captcha-delivery.com",
+        "static.captcha-delivery.com",
+        "fonts.googleapis.com",
+        "www.googletagmanager.com",
+        "js.datadome.co",
+        "fonts.gstatic.com",
+        "api-js.datadome.co",
+        "www.google-analytics.com"
+      ]
+    },
+    "beacons": {
+      "firstParty": [],
+      "thirdParty": [
+        "www.google-analytics.com",
+        "api-js.datadome.co",
+        "js.datadome.co",
+        "www.googletagmanager.com"
+      ]
+    },
+    "cookies": {
+      "firstParty": [
+        "leboncoin.fr"
+      ],
+      "thirdParty": [
+        "captcha-delivery.com"
+      ]
+    },
+    "localStorage": {
+      "firstParty": [],
+      "thirdParty": []
+    },
+    "links": {
+      "firstParty": [],
+      "thirdParty": []
+    }
+  }
+}

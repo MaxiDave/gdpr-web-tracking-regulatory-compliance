@@ -1,0 +1,610 @@
+{
+  "title": "Website Evidence Collection",
+  "task_description": null,
+  "uri_ins": "https://correos.es",
+  "uri_refs": [
+    "https://correos.es"
+  ],
+  "uri_dest": "https://www.correos.es/es/es/particulares",
+  "uri_redirects": [
+    "https://correos.es/",
+    "https://www.correos.es/"
+  ],
+  "secure_connection": {
+    "https_support": true,
+    "redirects": [],
+    "https_redirect": false
+  },
+  "host": "correos.es",
+  "script": {
+    "host": "sfod",
+    "version": {
+      "npm": "1.0.0",
+      "commit": null
+    },
+    "cmd_args": "-q --overwrite https://correos.es -- --ignore-certificate-errors",
+    "environment": {
+      "CHROME_DESKTOP": "code-url-handler.desktop"
+    },
+    "node_version": "v14.17.0"
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "HeadlessChrome/80.0.3987.0",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3617.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "5.8.0-53-generic"
+    },
+    "extra_headers": {},
+    "preset_cookies": {}
+  },
+  "start_time": "2021-05-20T15:31:36.439Z",
+  "end_time": "2021-05-20T15:31:43.771Z",
+  "links": {
+    "firstParty": [],
+    "thirdParty": [
+      {
+        "href": "https://www.correos.es/es/es/particulares",
+        "inner_text": "",
+        "inner_html": "<div class=\"cdk-header-logo-container sc-correos-cdk-core-header\"><img class=\"cdk-header-logo sc-correos-cdk-core-header\" src=\"/content/dam/correos/imagenes/ilustraciones/logos/logo_correos.png\" alt=\"logo\"></div>"
+      },
+      {
+        "href": "https://www.correos.es/es/es/empresas",
+        "inner_text": "Empresa",
+        "inner_html": "Empresa"
+      },
+      {
+        "href": "https://epostal.correos.es/",
+        "inner_text": "INICIAR SESIÓN",
+        "inner_html": "<i class=\"icon-profile sc-correos-cdk-core-header\"></i><span class=\"cdk-header-title sc-correos-cdk-core-header\">INICIAR SESIÓN</span>"
+      },
+      {
+        "href": "https://www.correos.es/es/ca/particulars",
+        "inner_text": "CA",
+        "inner_html": "CA"
+      },
+      {
+        "href": "https://www.correos.es/es/eu/partikularrak",
+        "inner_text": "EU",
+        "inner_html": "EU"
+      },
+      {
+        "href": "https://www.correos.es/es/gl/particulares",
+        "inner_text": "GA",
+        "inner_html": "GA"
+      },
+      {
+        "href": "https://www.correos.es/es/va/particulars",
+        "inner_text": "VA",
+        "inner_html": "VA"
+      },
+      {
+        "href": "https://www.correos.es/es/en/individuals",
+        "inner_text": "EN",
+        "inner_html": "EN"
+      },
+      {
+        "href": "https://www.correosecommerce.com/actualidad/promociones?utm_source=web&utm_medium=cta&utm_campaign=Promo_ecommerce",
+        "inner_text": "PROMOCIÓN",
+        "inner_html": "<div class=\"mdc-button__ripple sc-correos-ui-button\"></div><span class=\"mdc-button__label sc-correos-ui-button sc-correos-ui-button-s\"><span slot=\"text\">PROMOCIÓN</span></span>"
+      },
+      {
+        "href": "https://www.correos.es/es/es/herramientas/oficinas-buzones-citypaq/detalle",
+        "inner_text": "Localiza oficinas, buzones y Citypaq",
+        "inner_html": "<div class=\"ui-title sc-correos-ui-card sc-correos-ui-card-s\"><img slot=\"image\" src=\"/content/dam/correos/imagenes/iconos/home/localizador.svg\" alt=\"\"><p slot=\"text\">Localiza oficinas, buzones y Citypaq</p></div>"
+      },
+      {
+        "href": "https://www.correos.es/es/es/herramientas/codigos-postales/detalle",
+        "inner_text": "Encuentra códigos postales",
+        "inner_html": "<div class=\"ui-title sc-correos-ui-card sc-correos-ui-card-s\"><img slot=\"image\" src=\"/content/dam/correos/imagenes/iconos/home/encuentra_cp.svg\" alt=\"\"><p slot=\"text\">Encuentra códigos postales</p></div>"
+      },
+      {
+        "href": "https://epostal.correos.es/OV2PREENVWEB/jsp/_rlvid.jsp.faces?_rap=citaPreviaHandler.abrirPaginaCitaPrevia&_rvip=/jsp/citaPrevia/buscadorOficinasCita.jsp",
+        "inner_text": "Cita previa",
+        "inner_html": "<div class=\"ui-title sc-correos-ui-card sc-correos-ui-card-s\"><img slot=\"image\" src=\"/content/dam/correos/imagenes/iconos/home/resevar_cita.svg\" alt=\"\"><p slot=\"text\">Cita previa</p></div>"
+      },
+      {
+        "href": "https://www.correos.es/es/es/particulares/para-el-ciudadano",
+        "inner_text": "Trámites de la DGT Online y en todas nuestras oficinas.",
+        "inner_html": "<div class=\"ui-mobile-container sc-correos-ui-product-quality-card sc-correos-ui-product-quality-card-s\"><img slot=\"image-mobile\" src=\"/content/dam/correos/imagenes/ilustraciones/howto/distintivos_ambientales.svg\" alt=\"\"><div class=\"ui-mobile-content sc-correos-ui-product-quality-card sc-correos-ui-product-quality-card-s\"><h2 slot=\"title-mobile\">Trámites de la DGT </h2><span slot=\"subtitle-mobile\">Online y en todas nuestras oficinas.</span></div></div><i slot=\"icon-mobile\" class=\"icon-arrow_R\"></i>"
+      },
+      {
+        "href": "https://www.market.correos.es/collection/ofertas-flash-packs?utm_source=web-correos&utm_medium=banner&utm_campaign=ofertaflashpack_CMarket",
+        "inner_text": "DESCUBRE LOS PACKS",
+        "inner_html": "<div class=\"mdc-button__ripple sc-correos-ui-button\"></div><span class=\"mdc-button__label sc-correos-ui-button sc-correos-ui-button-s\"><span slot=\"text\">DESCUBRE LOS PACKS</span></span><i slot=\"icon-right\" class=\"icon-arrow_R\"></i>"
+      },
+      {
+        "href": "https://www.correos.es/es/es/particulares/recibir",
+        "inner_text": "MÁS INFO",
+        "inner_html": "<div class=\"mdc-button__ripple sc-correos-ui-button\"></div><span class=\"mdc-button__label sc-correos-ui-button sc-correos-ui-button-s\"><span slot=\"text\">MÁS INFO</span></span><i slot=\"icon-right\" class=\"icon-arrow_R\"></i>"
+      },
+      {
+        "href": "https://www.correos.es/es/es/particulares/enviar",
+        "inner_text": "MÁS INFO",
+        "inner_html": "<div class=\"mdc-button__ripple sc-correos-ui-button\"></div><span class=\"mdc-button__label sc-correos-ui-button sc-correos-ui-button-s\"><span slot=\"text\">MÁS INFO</span></span><i slot=\"icon-right\" class=\"icon-arrow_R\"></i>"
+      },
+      {
+        "href": "https://tienda.correos.es/collection/linea-bosques?utm_source=web-correos&utm_medium=banner_home_particulares&utm_campaign=lineabosques_ntc",
+        "inner_text": "MÁS INFO",
+        "inner_html": "<div class=\"mdc-button__ripple sc-correos-ui-button\"></div><span class=\"mdc-button__label sc-correos-ui-button sc-correos-ui-button-s\"><span slot=\"text\">MÁS INFO</span></span><i slot=\"icon-right\" class=\"icon-arrow_R\"></i>"
+      },
+      {
+        "href": "https://tienda.correos.es/",
+        "inner_text": "MÁS INFO",
+        "inner_html": "<div class=\"mdc-button__ripple sc-correos-ui-button\"></div><span class=\"mdc-button__label sc-correos-ui-button sc-correos-ui-button-s\"><span slot=\"text\">MÁS INFO</span></span><i slot=\"icon-right\" class=\"icon-arrow_R\"></i>"
+      },
+      {
+        "href": "https://www.correos.es/es/es/particulares/ocio-y-viajes",
+        "inner_text": "MÁS INFO",
+        "inner_html": "<div class=\"mdc-button__ripple sc-correos-ui-button\"></div><span class=\"mdc-button__label sc-correos-ui-button sc-correos-ui-button-s\"><span slot=\"text\">MÁS INFO</span></span><i slot=\"icon-right\" class=\"icon-arrow_R\"></i>"
+      },
+      {
+        "href": "https://www.correos.es/es/es/particulares/ocio-y-viajes/sellos-y-filatelia",
+        "inner_text": "MÁS INFO",
+        "inner_html": "<div class=\"mdc-button__ripple sc-correos-ui-button\"></div><span class=\"mdc-button__label sc-correos-ui-button sc-correos-ui-button-s\"><span slot=\"text\">MÁS INFO</span></span><i slot=\"icon-right\" class=\"icon-arrow_R\"></i>"
+      },
+      {
+        "href": "https://apps.apple.com/app/correos-info/id486322953",
+        "inner_text": "",
+        "inner_html": "<img src=\"/content/dam/correos/imagenes/iconos/home/apps/apple_store.jpg\" class=\"ui-img sc-correos-ui-button-apps\">"
+      },
+      {
+        "href": "https://play.google.com/store/apps/details?id=es.correos.widget&hl=es",
+        "inner_text": "",
+        "inner_html": "<img src=\"/content/dam/correos/imagenes/iconos/home/apps/google_play.jpg\" class=\"ui-img sc-correos-ui-button-apps\">"
+      },
+      {
+        "href": "https://appgallery.huawei.com/",
+        "inner_text": "",
+        "inner_html": "<img src=\"/content/dam/correos/imagenes/ilustraciones/logos/huawei.svg\" alt=\"descargar-haweii\" class=\"ui-img sc-correos-ui-button-apps\">"
+      },
+      {
+        "href": "https://www.correos.es/es/es/herramientas/localizador/envios",
+        "inner_text": "Seguimiento de envío",
+        "inner_html": "Seguimiento de envío"
+      },
+      {
+        "href": "https://www.correos.es/es/es/empresas/enviar",
+        "inner_text": "Enviar",
+        "inner_html": "Enviar"
+      },
+      {
+        "href": "https://www.correos.es/es/es/empresas/ecommerce",
+        "inner_text": "Ecommerce",
+        "inner_html": "Ecommerce"
+      },
+      {
+        "href": "https://www.correos.es/es/es/empresas/marketing",
+        "inner_text": "Marketing",
+        "inner_html": "Marketing"
+      },
+      {
+        "href": "https://www.market.correos.es/",
+        "inner_text": "Correos Market",
+        "inner_html": "Correos Market"
+      },
+      {
+        "href": "https://www.correos.com/?_ga=2.48058663.1272337042.1602486055-1925384938.1602155804",
+        "inner_text": "Web institucional",
+        "inner_html": "Web institucional"
+      },
+      {
+        "href": "https://www.correos.es/es/es/atencion-al-cliente",
+        "inner_text": "Atención al cliente",
+        "inner_html": "Atención al cliente"
+      },
+      {
+        "href": "https://www.facebook.com/correos.es",
+        "inner_text": "",
+        "inner_html": "<i class=\"icon-facebook sc-correos-cdk-core-footer\"></i>"
+      },
+      {
+        "href": "https://www.instagram.com/correos/",
+        "inner_text": "",
+        "inner_html": "<i class=\"icon-instagram sc-correos-cdk-core-footer\"></i>"
+      },
+      {
+        "href": "https://twitter.com/correos",
+        "inner_text": "",
+        "inner_html": "<i class=\"icon-twitter sc-correos-cdk-core-footer\"></i>"
+      },
+      {
+        "href": "https://www.linkedin.com/company/correos/",
+        "inner_text": "",
+        "inner_html": "<i class=\"icon-linkedin sc-correos-cdk-core-footer\"></i>"
+      },
+      {
+        "href": "https://www.youtube.com/user/CanalCorreos",
+        "inner_text": "",
+        "inner_html": "<i class=\"icon-youtube sc-correos-cdk-core-footer\"></i>"
+      },
+      {
+        "href": "https://www.correos.es/es/es/legales/politica-de-cookies",
+        "inner_text": "Política de cookies",
+        "inner_html": "Política de cookies"
+      },
+      {
+        "href": "https://www.correos.es/es/es/legales/aviso-legal",
+        "inner_text": "Aviso legal",
+        "inner_html": "Aviso legal"
+      },
+      {
+        "href": "https://www.correos.es/es/es/legales/privacidad-web",
+        "inner_text": "Privacidad web",
+        "inner_html": "Privacidad web"
+      },
+      {
+        "href": "https://www.correos.es/es/es/legales/alerta-de-seguridad",
+        "inner_text": "Alerta seguridad",
+        "inner_html": "Alerta seguridad"
+      },
+      {
+        "href": "https://www.correos.es/es/es/legales/accesibilidad",
+        "inner_text": "Accesibilidad",
+        "inner_html": "Accesibilidad"
+      },
+      {
+        "href": "https://www.correos.es/content/correos/es/es/legales/politica-de-cookies.html",
+        "inner_text": "",
+        "inner_html": "Política de Cookies"
+      }
+    ],
+    "social": [
+      {
+        "href": "https://www.facebook.com/correos.es",
+        "inner_text": "",
+        "inner_html": "<i class=\"icon-facebook sc-correos-cdk-core-footer\"></i>"
+      },
+      {
+        "href": "https://www.instagram.com/correos/",
+        "inner_text": "",
+        "inner_html": "<i class=\"icon-instagram sc-correos-cdk-core-footer\"></i>"
+      },
+      {
+        "href": "https://twitter.com/correos",
+        "inner_text": "",
+        "inner_html": "<i class=\"icon-twitter sc-correos-cdk-core-footer\"></i>"
+      },
+      {
+        "href": "https://www.linkedin.com/company/correos/",
+        "inner_text": "",
+        "inner_html": "<i class=\"icon-linkedin sc-correos-cdk-core-footer\"></i>"
+      },
+      {
+        "href": "https://www.youtube.com/user/CanalCorreos",
+        "inner_text": "",
+        "inner_html": "<i class=\"icon-youtube sc-correos-cdk-core-footer\"></i>"
+      }
+    ],
+    "keywords": [
+      {
+        "href": "https://www.correos.es/es/es/legales/politica-de-cookies",
+        "inner_text": "Política de cookies",
+        "inner_html": "Política de cookies"
+      },
+      {
+        "href": "https://www.correos.es/es/es/legales/aviso-legal",
+        "inner_text": "Aviso legal",
+        "inner_html": "Aviso legal"
+      },
+      {
+        "href": "https://www.correos.es/es/es/legales/privacidad-web",
+        "inner_text": "Privacidad web",
+        "inner_html": "Privacidad web"
+      },
+      {
+        "href": "https://www.correos.es/es/es/legales/alerta-de-seguridad",
+        "inner_text": "Alerta seguridad",
+        "inner_html": "Alerta seguridad"
+      },
+      {
+        "href": "https://www.correos.es/es/es/legales/accesibilidad",
+        "inner_text": "Accesibilidad",
+        "inner_html": "Accesibilidad"
+      },
+      {
+        "href": "https://www.correos.es/content/correos/es/es/legales/politica-de-cookies.html",
+        "inner_text": "",
+        "inner_html": "Política de Cookies"
+      }
+    ]
+  },
+  "unsafeForms": [],
+  "browsing_history": [
+    "https://www.correos.es/es/es/particulares"
+  ],
+  "websockets": {},
+  "cookies": [
+    {
+      "name": "idiomaCorreos",
+      "value": "es_ES",
+      "domain": "correos.es",
+      "path": "/",
+      "expires": 1653060697,
+      "size": 18,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2022-05-20T15:31:37.000Z",
+      "expiresDays": 365,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 19,
+            "lineNumber": 3243,
+            "fileName": "https://www.correos.es/etc.clientlibs/correos/clientlibs/clientlib-base.min.js",
+            "functionName": "setCookie",
+            "source": "    at setCookie (https://www.correos.es/etc.clientlibs/correos/clientlibs/clientlib-base.min.js:3243:19)"
+          },
+          {
+            "columnNumber": 3,
+            "lineNumber": 3267,
+            "fileName": "https://www.correos.es/etc.clientlibs/correos/clientlibs/clientlib-base.min.js",
+            "functionName": "checkIdiomaCorreosCookie",
+            "source": "    at checkIdiomaCorreosCookie (https://www.correos.es/etc.clientlibs/correos/clientlibs/clientlib-base.min.js:3267:3)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T15:31:37.961Z",
+        "location": "https://www.correos.es/es/es/particulares"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "TS01e680a5",
+      "value": "01301e525b4f7a16c5da5dda12cd691603a8e895223c8105b6f26816be7bcf7e844dbb39fd7b90644e5ea550d322896dd2a6380db3",
+      "domain": "sec.telefonica.com",
+      "path": "/",
+      "expires": -1,
+      "size": 116,
+      "httpOnly": false,
+      "secure": false,
+      "session": true,
+      "firstPartyStorage": false
+    }
+  ],
+  "localStorage": {
+    "https://www.correos.es": {
+      "com.adobe.reactor.dataElementCookiesMigrated": {
+        "value": true,
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 17269,
+              "lineNumber": 8,
+              "fileName": "https://assets.adobedtm.com/31e842d3af0a/e239f3676926/launch-22ce7a1a18b2.min.js",
+              "functionName": "Object.setItem",
+              "source": "    at Object.setItem (https://assets.adobedtm.com/31e842d3af0a/e239f3676926/launch-22ce7a1a18b2.min.js:8:17269)"
+            },
+            {
+              "columnNumber": 18143,
+              "lineNumber": 8,
+              "fileName": "https://assets.adobedtm.com/31e842d3af0a/e239f3676926/launch-22ce7a1a18b2.min.js",
+              "functionName": "Object.migrateCookieData",
+              "source": "    at Object.migrateCookieData (https://assets.adobedtm.com/31e842d3af0a/e239f3676926/launch-22ce7a1a18b2.min.js:8:18143)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T15:31:37.358Z",
+          "location": "https://www.correos.es/es/es/particulares"
+        }
+      },
+      "com.adobe.reactor.core.visitorTracking.sessionCount": {
+        "value": 1,
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 3317,
+              "lineNumber": 5,
+              "fileName": "https://assets.adobedtm.com/31e842d3af0a/e239f3676926/launch-22ce7a1a18b2.min.js",
+              "functionName": "Object.setItem",
+              "source": "    at Object.setItem (https://assets.adobedtm.com/31e842d3af0a/e239f3676926/launch-22ce7a1a18b2.min.js:5:3317)"
+            },
+            {
+              "columnNumber": 2417,
+              "lineNumber": 5,
+              "fileName": "https://assets.adobedtm.com/31e842d3af0a/e239f3676926/launch-22ce7a1a18b2.min.js",
+              "functionName": "_",
+              "source": "    at _ (https://assets.adobedtm.com/31e842d3af0a/e239f3676926/launch-22ce7a1a18b2.min.js:5:2417)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T15:31:37.365Z",
+          "location": "https://www.correos.es/es/es/particulares"
+        }
+      },
+      "com.adobe.reactor.core.visitorTracking.cookiesMigrated": {
+        "value": true,
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 3317,
+              "lineNumber": 5,
+              "fileName": "https://assets.adobedtm.com/31e842d3af0a/e239f3676926/launch-22ce7a1a18b2.min.js",
+              "functionName": "Object.setItem",
+              "source": "    at Object.setItem (https://assets.adobedtm.com/31e842d3af0a/e239f3676926/launch-22ce7a1a18b2.min.js:5:3317)"
+            },
+            {
+              "columnNumber": 2816,
+              "lineNumber": 5,
+              "fileName": "https://assets.adobedtm.com/31e842d3af0a/e239f3676926/launch-22ce7a1a18b2.min.js",
+              "source": "    at https://assets.adobedtm.com/31e842d3af0a/e239f3676926/launch-22ce7a1a18b2.min.js:5:2816"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T15:31:37.365Z",
+          "location": "https://www.correos.es/es/es/particulares"
+        }
+      },
+      "com.adobe.reactor.core.visitorTracking.pagesViewed": {
+        "value": 1,
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 3317,
+              "lineNumber": 5,
+              "fileName": "https://assets.adobedtm.com/31e842d3af0a/e239f3676926/launch-22ce7a1a18b2.min.js",
+              "functionName": "Object.setItem",
+              "source": "    at Object.setItem (https://assets.adobedtm.com/31e842d3af0a/e239f3676926/launch-22ce7a1a18b2.min.js:5:3317)"
+            },
+            {
+              "columnNumber": 2508,
+              "lineNumber": 5,
+              "fileName": "https://assets.adobedtm.com/31e842d3af0a/e239f3676926/launch-22ce7a1a18b2.min.js",
+              "functionName": "P",
+              "source": "    at P (https://assets.adobedtm.com/31e842d3af0a/e239f3676926/launch-22ce7a1a18b2.min.js:5:2508)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T15:31:37.366Z",
+          "location": "https://www.correos.es/es/es/particulares"
+        }
+      }
+    }
+  },
+  "beacons": [
+    {
+      "url": "https://assets.adobedtm.com/31e842d3af0a/e239f3676926/bff5949aaa7e/RC3c643f19281444b0a95ac0407c52c559-source.min.js",
+      "query": null,
+      "filter": "||adobedtm.com^$third-party,domain=~adobe.com",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.correos.es/es/es/particulares",
+            "source": "requested from https://www.correos.es/es/es/particulares and matched with easyprivacy.txt filter ||adobedtm.com^$third-party,domain=~adobe.com"
+          }
+        ],
+        "timestamp": "2021-05-20T15:31:37.963Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://connect.facebook.net/signals/config/786617442172422?v=2.9.39&r=stable",
+      "query": {
+        "v": "2.9.39",
+        "r": "stable"
+      },
+      "filter": "||connect.facebook.net/signals/$third-party",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.correos.es/es/es/particulares",
+            "source": "requested from https://www.correos.es/es/es/particulares and matched with easyprivacy.txt filter ||connect.facebook.net/signals/$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T15:31:37.461Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://connect.facebook.net/signals/plugins/identity.js?v=2.9.39",
+      "query": {
+        "v": "2.9.39"
+      },
+      "filter": "||connect.facebook.net/signals/$third-party",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.correos.es/es/es/particulares",
+            "source": "requested from https://www.correos.es/es/es/particulares and matched with easyprivacy.txt filter ||connect.facebook.net/signals/$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T15:31:37.460Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://connect.facebook.net/en_US/fbevents.js",
+      "query": null,
+      "filter": "/fbevents.js",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.correos.es/es/es/particulares",
+            "source": "requested from https://www.correos.es/es/es/particulares and matched with easyprivacy.txt filter /fbevents.js"
+          }
+        ],
+        "timestamp": "2021-05-20T15:31:37.366Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://assets.adobedtm.com/extensions/EPbde2f7ca14e540399dcc1f8208860b7b/AppMeasurement.min.js",
+      "query": null,
+      "filter": "||adobedtm.com^$third-party,domain=~adobe.com",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.correos.es/es/es/particulares",
+            "source": "requested from https://www.correos.es/es/es/particulares and matched with easyprivacy.txt filter ||adobedtm.com^$third-party,domain=~adobe.com"
+          }
+        ],
+        "timestamp": "2021-05-20T15:31:37.364Z"
+      },
+      "occurrances": 1
+    }
+  ],
+  "hosts": {
+    "requests": {
+      "firstParty": [
+        "correos.es"
+      ],
+      "thirdParty": [
+        "www.correos.es",
+        "assets.adobedtm.com",
+        "stats.sec.telefonica.com",
+        "connect.facebook.net"
+      ]
+    },
+    "beacons": {
+      "firstParty": [],
+      "thirdParty": [
+        "assets.adobedtm.com",
+        "connect.facebook.net"
+      ]
+    },
+    "cookies": {
+      "firstParty": [
+        "correos.es"
+      ],
+      "thirdParty": [
+        "sec.telefonica.com"
+      ]
+    },
+    "localStorage": {
+      "firstParty": [],
+      "thirdParty": [
+        "www.correos.es"
+      ]
+    },
+    "links": {
+      "firstParty": [],
+      "thirdParty": [
+        "www.correos.es",
+        "epostal.correos.es",
+        "www.correosecommerce.com",
+        "www.market.correos.es",
+        "tienda.correos.es",
+        "apps.apple.com",
+        "play.google.com",
+        "appgallery.huawei.com",
+        "www.correos.com",
+        "www.facebook.com",
+        "www.instagram.com",
+        "twitter.com",
+        "www.linkedin.com",
+        "www.youtube.com"
+      ]
+    }
+  }
+}

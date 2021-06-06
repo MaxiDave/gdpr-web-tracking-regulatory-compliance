@@ -1,0 +1,2131 @@
+{
+  "title": "Website Evidence Collection",
+  "task_description": null,
+  "uri_ins": "https://filmaffinity.com",
+  "uri_refs": [
+    "https://filmaffinity.com"
+  ],
+  "uri_dest": "https://www.filmaffinity.com/es/main.html",
+  "uri_redirects": [
+    "https://filmaffinity.com/",
+    "https://filmaffinity.com/es/main.html"
+  ],
+  "secure_connection": {
+    "https_support": true,
+    "redirects": [
+      "http://filmaffinity.com/es/main.html",
+      "https://filmaffinity.com/es/main.html",
+      "https://www.filmaffinity.com/es/main.html"
+    ],
+    "https_redirect": true
+  },
+  "host": "filmaffinity.com",
+  "script": {
+    "host": "sfod",
+    "version": {
+      "npm": "1.0.0",
+      "commit": null
+    },
+    "cmd_args": "-q --overwrite https://filmaffinity.com -- --ignore-certificate-errors",
+    "environment": {
+      "CHROME_DESKTOP": "code-url-handler.desktop"
+    },
+    "node_version": "v14.17.0"
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "HeadlessChrome/80.0.3987.0",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3617.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "5.8.0-53-generic"
+    },
+    "extra_headers": {},
+    "preset_cookies": {}
+  },
+  "start_time": "2021-05-20T15:21:36.741Z",
+  "end_time": "2021-05-20T15:21:47.290Z",
+  "links": {
+    "firstParty": [],
+    "thirdParty": [
+      {
+        "href": "https://www.filmaffinity.com/es/main.html",
+        "inner_text": "España",
+        "inner_html": "<img alt=\"logo\" src=\"/images/logo4.png\">\n                    <div class=\"logo-siteloc\">España</div>"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/advsearch.php",
+        "inner_text": "Búsqueda avanzada ",
+        "inner_html": "Búsqueda avanzada <i class=\"fas fa-angle-double-right\"></i>"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/login.php?rp=https%3A%2F%2Fwww.filmaffinity.com%2Fes%2Fmain.html",
+        "inner_text": "Iniciar sesión",
+        "inner_html": "<strong>Iniciar sesión</strong>"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/register.php",
+        "inner_text": "Registrarse",
+        "inner_html": "Registrarse"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/userratings.php?user_id=",
+        "inner_text": "\n            \n                Mis Votaciones        ",
+        "inner_html": "<span class=\"ic-w\"><i class=\"fa fa-ratings-fa\"></i></span>\n                Mis Votaciones"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/myreviews.php",
+        "inner_text": "\n            \n            Críticas        ",
+        "inner_html": "<span class=\"ic-w\"><i class=\"fa fa-reviews-fa\"></i></span>\n            Críticas"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/mylists.php",
+        "inner_text": "\n            \n            Listas New\n        ",
+        "inner_html": "<span class=\"ic-w\"><i class=\"fa fa-list\"></i></span>\n            Listas <span class=\"nbr-w\">New</span>"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/myfriends.php",
+        "inner_text": "\n            \n            Amigos / Grupos        ",
+        "inner_html": "<span class=\"ic-w\"><i class=\"fa fa fa-friends-fa\"></i></span>\n            Amigos / Grupos"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/soulmates.php",
+        "inner_text": "\n            \n            Almas gemelas™        ",
+        "inner_html": "<span class=\"ic-w\"><i class=\"fa fa-soulmates-fa\"></i></span>\n            Almas gemelas™"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/smsrec.php",
+        "inner_text": "\n            \n                Recomendaciones        ",
+        "inner_html": "<span class=\"ic-w\"><i class=\"fa fa-heart\"></i></span>\n                Recomendaciones"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/mydata.php",
+        "inner_text": "\n            \n                Datos personales        ",
+        "inner_html": "<span class=\"ic-w\"><i class=\"fa fa-address-card-o\"></i></span>\n                Datos personales"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/user-fav-theaters.php",
+        "inner_text": "\n                \n                Cines favoritos            ",
+        "inner_html": "<span class=\"ic-w\"><i class=\"fa fa-ticket\"></i></span>\n                Cines favoritos"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/tours.php",
+        "inner_text": "\n                \n                Votar los tours            ",
+        "inner_html": "<span class=\"ic-w\"><i class=\"fa fa-ratings-fa\"></i></span>\n                Votar los tours"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/logout.php?rp=https%3A%2F%2Fwww.filmaffinity.com%2Fes%2Fmain.html",
+        "inner_text": "\n                Cerrar sesión            ",
+        "inner_html": "Cerrar sesión"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/category.php?id=latest_reviews",
+        "inner_text": "Últ. críticas",
+        "inner_html": "Últ. críticas"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/category.php?id=TRAILERS",
+        "inner_text": "Tráilers",
+        "inner_html": "Tráilers"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/topgen.php?genre=&fromyear=&toyear=&country=&nodoc",
+        "inner_text": "Top FA",
+        "inner_html": "Top FA"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/best_2020.php",
+        "inner_text": "2020",
+        "inner_html": "2020"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/category.php?id=2021films",
+        "inner_text": "2021",
+        "inner_html": "2021"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/all_awards.php",
+        "inner_text": "Premios",
+        "inner_html": "Premios"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/awards.php?award_id=academy_awards&year=2021",
+        "inner_text": "Oscars™ 2021",
+        "inner_html": "Oscars™ 2021"
+      },
+      {
+        "href": "http://www.facebook.com/Filmaffinity",
+        "inner_text": "",
+        "inner_html": "<i class=\"fab fa-facebook-f\"></i>"
+      },
+      {
+        "href": "http://twitter.com/Filmaffinity",
+        "inner_text": "",
+        "inner_html": "<i class=\"fab fa-twitter\"></i>"
+      },
+      {
+        "href": "https://www.instagram.com/filmaffinity/",
+        "inner_text": "",
+        "inner_html": "<i class=\"fab fa-instagram\"></i>"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/fa-international.php",
+        "inner_text": " Más información",
+        "inner_html": "<i class=\"fas fa-info-circle\"></i> Más información"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/cat_new_th_es.html",
+        "inner_text": "Películas en cartelera",
+        "inner_html": "Películas en cartelera"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/cityTheaters.php",
+        "inner_text": "Cines España",
+        "inner_html": "Cines España"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/rdcat.php?id=upc_th_es",
+        "inner_text": "Próximos estrenos",
+        "inner_html": "Próximos estrenos"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/cat_new_sa_es.html",
+        "inner_text": "Estrenos Blu-ray venta",
+        "inner_html": "Estrenos Blu-ray venta"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/rdcat.php?id=upc_sa_es",
+        "inner_text": "Próximos Blu-ray venta",
+        "inner_html": "Próximos Blu-ray venta"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/cat_new_re_es.html",
+        "inner_text": "Ya para alquilar",
+        "inner_html": "Ya para alquilar"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/rdcat.php?id=upc_re_es",
+        "inner_text": "Próximamente alquiler",
+        "inner_html": "Próximamente alquiler"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/vod_dvd.php",
+        "inner_text": "Video on Demand",
+        "inner_html": "Video on Demand"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/cat_new_netflix.html",
+        "inner_text": "Netflix",
+        "inner_html": "Netflix"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/rdcat.php?id=upc_netflix",
+        "inner_text": "Netflix (próx)",
+        "inner_html": "Netflix (próx)"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/cat_new_movistar_f.html",
+        "inner_text": "Movistar +",
+        "inner_html": "Movistar +"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/cat_upc_movistar_f.html",
+        "inner_text": "Movistar + (próx)",
+        "inner_html": "Movistar + (próx)"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/cat_new_hbo_es.html",
+        "inner_text": "HBO",
+        "inner_html": "HBO"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/cat_new_filmin.html",
+        "inner_text": "Filmin",
+        "inner_html": "Filmin"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/cat_new_rakuten.html",
+        "inner_text": "Rakuten TV",
+        "inner_html": "Rakuten TV"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/cat_new_amazon_es.html",
+        "inner_text": "Amazon Prime",
+        "inner_html": "Amazon Prime"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/cat_disneyplus.html",
+        "inner_text": "Disney+",
+        "inner_html": "Disney+"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/cat_apple_tv_plus.html",
+        "inner_text": "Apple TV+",
+        "inner_html": "Apple TV+"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/cat_new_th_us.html",
+        "inner_text": "Estrenos USA",
+        "inner_html": "Estrenos USA"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/cat_new_th_uk.html",
+        "inner_text": "Estrenos Reino Unido",
+        "inner_html": "Estrenos Reino Unido"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/cat_new_th_fr.html",
+        "inner_text": "Estrenos Francia",
+        "inner_html": "Estrenos Francia"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/boxoffice.php",
+        "inner_text": "Taquilla",
+        "inner_html": "Taquilla"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/trailers.php",
+        "inner_text": "Trailers",
+        "inner_html": "Trailers"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/latestevideos.php",
+        "inner_text": "Últimos trailers",
+        "inner_html": "Últimos trailers"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/latestreviews.php",
+        "inner_text": "Últimas críticas users",
+        "inner_html": "Últimas críticas users"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/topics.php",
+        "inner_text": "Películas por temas",
+        "inner_html": "Películas por temas"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/movie-groups-all.php",
+        "inner_text": "Sagas & Franquicias",
+        "inner_html": "Sagas &amp; Franquicias"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/cat_current_tv.html",
+        "inner_text": "Series de actualidad",
+        "inner_html": "Series de actualidad"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/topgen.php?genre=TV_SE&country=&fromyear=&toyear=&nodoc",
+        "inner_text": "Top series",
+        "inner_html": "Top series"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/tour.php?idtour=26",
+        "inner_text": "Vota Series de TV",
+        "inner_html": "Vota Series de TV"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/topgen.php",
+        "inner_text": "Top Filmaffinity",
+        "inner_html": "Top Filmaffinity"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/best_tops.php",
+        "inner_text": "Lo mejor del TOP",
+        "inner_html": "Lo mejor del TOP"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/topcat_new_th_es.html",
+        "inner_text": "Top Estrenos",
+        "inner_html": "Top Estrenos"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/topcat_new_sa_es.html",
+        "inner_text": "Top Estrenos Blu-ray",
+        "inner_html": "Top Estrenos Blu-ray"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/listsrank.php",
+        "inner_text": "Ranking de listas",
+        "inner_html": "Ranking de listas"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/oscar_data.php",
+        "inner_text": "Todos los Oscar",
+        "inner_html": "Todos los Oscar"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/site-guide.php",
+        "inner_text": "Acerca de FA",
+        "inner_html": "Acerca de FA"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/contact_us.php",
+        "inner_text": "Contacto",
+        "inner_html": "Contacto"
+      },
+      {
+        "href": "https://www.facebook.com/sharer.php?u=https%3A%2F%2Fwww.filmaffinity.com%2Fes%2Fmain.html&t=",
+        "inner_text": "\n            \n        ",
+        "inner_html": "<div class=\"share-icon\"><i class=\"fab fa-facebook-f\"></i></div>"
+      },
+      {
+        "href": "https://twitter.com/intent/tweet?text=Filmaffinity%C2%A0en%20@filmaffinity%20https%3A%2F%2Fwww.filmaffinity.com%2Fes%2Fmain.html",
+        "inner_text": "\n            \n        ",
+        "inner_html": "<div class=\"share-icon\"><i class=\"fab fa-twitter\"></i></div>"
+      },
+      {
+        "href": "https://api.whatsapp.com/send?text=%C2%A0en%20@filmaffinity%20https%3A%2F%2Fwww.filmaffinity.com%2Fes%2Fmain.html",
+        "inner_text": "\n            \n        ",
+        "inner_html": "<div class=\"share-icon\"><i class=\"fab fa-whatsapp\"></i></div>"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/tour.php?idtour=81",
+        "inner_text": "2020",
+        "inner_html": "2020"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/tour.php?idtour=80",
+        "inner_text": "Series del 2020",
+        "inner_html": "Series del 2020"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/tour.php?idtour=78",
+        "inner_text": "2019",
+        "inner_html": "2019"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/tour.php?idtour=9",
+        "inner_text": "Clásicos",
+        "inner_html": "Clásicos"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/tour.php?idtour=65",
+        "inner_text": "Fantástico",
+        "inner_html": "Fantástico"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/tour.php?idtour=7",
+        "inner_text": "Animación",
+        "inner_html": "Animación"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/tour.php?idtour=35",
+        "inner_text": "Oscar® a la mejor película",
+        "inner_html": "Oscar® a la mejor película"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/tour.php?idtour=16",
+        "inner_text": "Terror",
+        "inner_html": "Terror"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/tour.php?idtour=19",
+        "inner_text": "Ciencia ficción",
+        "inner_html": "Ciencia ficción"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/tour.php?idtour=6",
+        "inner_text": "Acción",
+        "inner_html": "Acción"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/tour.php?idtour=24",
+        "inner_text": "Últimas incorporaciones",
+        "inner_html": "Últimas incorporaciones"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/tour.php?idtour=52",
+        "inner_text": "Franquicias",
+        "inner_html": "Franquicias"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/tour.php?idtour=29",
+        "inner_text": "Controvertidas",
+        "inner_html": "Controvertidas"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/tour.php?idtour=43",
+        "inner_text": "Cómics",
+        "inner_html": "Cómics"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/tour.php?idtour=57",
+        "inner_text": "Series actuales",
+        "inner_html": "Series actuales"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/evideos.php?movie_id=204759",
+        "inner_text": "",
+        "inner_html": "<img width=\"64\" height=\"95\" src=\"https://pics.filmaffinity.com/elite_tv_series-838156215-msmall.jpg\" alt=\"Élite (Serie de TV)\">"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/evideos.php?movie_id=954804",
+        "inner_text": "",
+        "inner_html": "<img width=\"64\" height=\"95\" src=\"https://pics.filmaffinity.com/the_mysterious_benedict_society_tv_series-818574144-msmall.jpg\" alt=\"La misteriosa Sociedad Benedict (Serie de TV)\">"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/evideos.php?movie_id=787329",
+        "inner_text": "",
+        "inner_html": "<img width=\"64\" height=\"92\" src=\"https://pics.filmaffinity.com/black_summer_tv_series-210430263-msmall.jpg\" alt=\"Black Summer (Serie de TV)\">"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/evideos.php?movie_id=630707",
+        "inner_text": "",
+        "inner_html": "<img width=\"64\" height=\"95\" src=\"https://pics.filmaffinity.com/dear_evan_hansen-967002872-msmall.jpg\" alt=\"Dear Evan Hansen \">"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/evideos.php?movie_id=270512",
+        "inner_text": "",
+        "inner_html": "<img width=\"64\" height=\"95\" src=\"https://pics.filmaffinity.com/friends_the_reunion_friends_reunion_special_tv-947193043-msmall.jpg\" alt=\"Friends: The Reunion (TV)\">"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/evideos.php?movie_id=911859",
+        "inner_text": "",
+        "inner_html": "<img width=\"64\" height=\"95\" src=\"https://pics.filmaffinity.com/respect-261612403-msmall.jpg\" alt=\"Respect \">"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/evideos.php?movie_id=573331",
+        "inner_text": "",
+        "inner_html": "<img width=\"64\" height=\"87\" src=\"https://pics.filmaffinity.com/elite_historias_breves-177867610-msmall.jpg\" alt=\"Élite: Historias breves (Miniserie de TV)\">"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/evideos.php?movie_id=872131",
+        "inner_text": "",
+        "inner_html": "<img width=\"64\" height=\"91\" src=\"https://pics.filmaffinity.com/paraiso_tv_series-911613492-msmall.jpg\" alt=\"Paraíso (Serie de TV)\">"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/evideos.php?movie_id=626221",
+        "inner_text": "",
+        "inner_html": "<img width=\"64\" height=\"95\" src=\"https://pics.filmaffinity.com/fear_street_part_one_1994-501717145-msmall.jpg\" alt=\"La calle del terror, Parte 1: 1994 \">"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/evideos.php?movie_id=553533",
+        "inner_text": "",
+        "inner_html": "<img width=\"64\" height=\"91\" src=\"https://pics.filmaffinity.com/batman_the_long_halloween_part_one-325438685-msmall.jpg\" alt=\"Batman: The Long Halloween, Part One \">"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/evideos.php?movie_id=388590",
+        "inner_text": "",
+        "inner_html": "<img width=\"64\" height=\"97\" src=\"https://pics.filmaffinity.com/batman_the_long_halloween_part_two-462082824-msmall.jpg\" alt=\"Batman: The Long Halloween, Part Two \">"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/evideos.php?movie_id=552344",
+        "inner_text": "",
+        "inner_html": "<img width=\"64\" height=\"95\" src=\"https://pics.filmaffinity.com/nine_perfect_strangers-507881719-msmall.jpg\" alt=\"Nine Perfect Strangers (Miniserie de TV)\">"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/mostvisited.php",
+        "inner_text": "Las más visitadas",
+        "inner_html": "Las más visitadas"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/film789036.html",
+        "inner_text": "La mujer en la ventana",
+        "inner_html": "La mujer en la ventana"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/film678449.html",
+        "inner_text": "Oxígeno",
+        "inner_html": "Oxígeno"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/film600118.html",
+        "inner_text": "Ejército de los muertos",
+        "inner_html": "Ejército de los muertos"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/film974382.html",
+        "inner_text": "El inocente (Miniserie de TV)",
+        "inner_html": "El inocente (Miniserie de TV)"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/film438674.html",
+        "inner_text": "Halston (Miniserie de TV)",
+        "inner_html": "Halston (Miniserie de TV)"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/film867213.html",
+        "inner_text": "Cafarnaúm",
+        "inner_html": "Cafarnaúm"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/film621878.html",
+        "inner_text": "Reyes de la noche (Serie de TV)",
+        "inner_html": "Reyes de la noche (Serie de TV)"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/film620578.html",
+        "inner_text": "Yo soy todas ellas",
+        "inner_html": "Yo soy todas ellas"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/film786272.html",
+        "inner_text": "Aquellos que desean mi muerte",
+        "inner_html": "Aquellos que desean mi muerte"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/film888142.html",
+        "inner_text": "Z. La ciudad perdida",
+        "inner_html": "Z. La ciudad perdida"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/bestrated.php",
+        "inner_text": "Las mejor valoradas",
+        "inner_html": "Las mejor valoradas"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/film226427.html",
+        "inner_text": "El señor de los anillos: El retorno del rey",
+        "inner_html": "El señor de los anillos: El retorno del rey"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/film695552.html",
+        "inner_text": "Doce hombres sin piedad",
+        "inner_html": "Doce hombres sin piedad"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/film160882.html",
+        "inner_text": "Pulp Fiction",
+        "inner_html": "Pulp Fiction"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/film489970.html",
+        "inner_text": "Breaking Bad (Serie de TV)",
+        "inner_html": "Breaking Bad (Serie de TV)"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/film412004.html",
+        "inner_text": "Ciudad de Dios",
+        "inner_html": "Ciudad de Dios"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/film750283.html",
+        "inner_text": "El señor de los anillos: La comunidad del anillo",
+        "inner_html": "El señor de los anillos: La comunidad del anillo"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/film420972.html",
+        "inner_text": "Cinema Paradiso",
+        "inner_html": "Cinema Paradiso"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/film730528.html",
+        "inner_text": "El padrino. Parte II",
+        "inner_html": "El padrino. Parte II"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/mostrated.php",
+        "inner_text": "Las más votadas",
+        "inner_html": "Las más votadas"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/film528128.html",
+        "inner_text": "Love, Death + Robots. Volumen 2 (Serie de TV)",
+        "inner_html": "Love, Death + Robots. Volumen 2 (Serie de TV)"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/film508896.html",
+        "inner_text": "Love, Death + Robots. Vol. 2: Servicio al cliente automatizado (C)",
+        "inner_html": "Love, Death + Robots. Vol. 2: Servicio al cliente automatizado (C)"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/film245989.html",
+        "inner_text": "Love, Death + Robots. Vol. 2: Hielo (C)",
+        "inner_html": "Love, Death + Robots. Vol. 2: Hielo (C)"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/film372709.html",
+        "inner_text": "Love, Death + Robots. Vol. 2: Respuesta evolutiva (C)",
+        "inner_html": "Love, Death + Robots. Vol. 2: Respuesta evolutiva (C)"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/film540717.html",
+        "inner_text": "Love, Death + Robots. Vol. 2: Nieve en el desierto (C)",
+        "inner_html": "Love, Death + Robots. Vol. 2: Nieve en el desierto (C)"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/worstrated.php",
+        "inner_text": "Las peor valoradas",
+        "inner_html": "Las peor valoradas"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/film841875.html",
+        "inner_text": "Megalodon",
+        "inner_html": "Megalodon"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/film558467.html",
+        "inner_text": "Ni de coña",
+        "inner_html": "Ni de coña"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/film791421.html",
+        "inner_text": "La mensajera",
+        "inner_html": "La mensajera"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/film636922.html",
+        "inner_text": "El destierro",
+        "inner_html": "El destierro"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/film777557.html",
+        "inner_text": "Año uno",
+        "inner_html": "Año uno"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/film133244.html",
+        "inner_text": "Godzilla: Rey de los monstruos",
+        "inner_html": "Godzilla: Rey de los monstruos"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/film189333.html",
+        "inner_text": "Tiburón blanco",
+        "inner_html": "Tiburón blanco"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/film810412.html",
+        "inner_text": "Patrulla Trueno",
+        "inner_html": "Patrulla Trueno"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/film310283.html",
+        "inner_text": "Este cuerpo me sienta de muerte\n(14 de mayo)",
+        "inner_html": "<div class=\"mc-image\"><img width=\"157\" height=\"233\" src=\"https://pics.filmaffinity.com/freaky-347088392-mmed.jpg\" data-src=\"https://pics.filmaffinity.com/freaky-347088392-mmed.jpg\" class=\" lazyloaded\" alt=\"Este cuerpo me sienta de muerte \"></div>\n        <div class=\"fringe\">\n            <div class=\"mtitle\">Este cuerpo me sienta de muerte </div>\n            (14 de mayo)\n        </div>"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/film887551.html",
+        "inner_text": "Borrar el historial\n(14 de mayo)",
+        "inner_html": "<div class=\"mc-image\"><img width=\"157\" height=\"210\" src=\"https://pics.filmaffinity.com/effacer_l_historique-642764969-mmed.jpg\" data-src=\"https://pics.filmaffinity.com/effacer_l_historique-642764969-mmed.jpg\" class=\" lazyloaded\" alt=\"Borrar el historial \"></div>\n        <div class=\"fringe\">\n            <div class=\"mtitle\">Borrar el historial </div>\n            (14 de mayo)\n        </div>"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/film357402.html",
+        "inner_text": "Todas las lunas\n(14 de mayo)",
+        "inner_html": "<div class=\"mc-image\"><img width=\"157\" height=\"227\" src=\"https://pics.filmaffinity.com/ilargi_guztiak-762831947-mmed.jpg\" data-src=\"https://pics.filmaffinity.com/ilargi_guztiak-762831947-mmed.jpg\" class=\" lazyloaded\" alt=\"Todas las lunas \"></div>\n        <div class=\"fringe\">\n            <div class=\"mtitle\">Todas las lunas </div>\n            (14 de mayo)\n        </div>"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/film542065.html",
+        "inner_text": "Hijos del Sol (Sun Children)\n(14 de mayo)",
+        "inner_html": "<div class=\"mc-image\"><img width=\"157\" height=\"226\" src=\"https://pics.filmaffinity.com/khorshid-444186594-mmed.jpg\" data-src=\"https://pics.filmaffinity.com/khorshid-444186594-mmed.jpg\" class=\" lazyloaded\" alt=\"Hijos del Sol (Sun Children) \"></div>\n        <div class=\"fringe\">\n            <div class=\"mtitle\">Hijos del Sol (Sun Children) </div>\n            (14 de mayo)\n        </div>"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/film137005.html",
+        "inner_text": "Barbie y Chelsea, el cumpleaños perdido\n(14 de mayo)",
+        "inner_html": "<div class=\"mc-image\"><img width=\"157\" height=\"197\" src=\"https://pics.filmaffinity.com/barbie_chelsea_the_lost_birthday-263430552-mmed.jpg\" data-src=\"https://pics.filmaffinity.com/barbie_chelsea_the_lost_birthday-263430552-mmed.jpg\" class=\" lazyloaded\" alt=\"Barbie y Chelsea, el cumpleaños perdido \"></div>\n        <div class=\"fringe\">\n            <div class=\"mtitle\">Barbie y Chelsea, el cumpleaños perdido </div>\n            (14 de mayo)\n        </div>"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/film187090.html",
+        "inner_text": "Vivir sin nosotros\n(14 de mayo)",
+        "inner_html": "<div class=\"mc-image\"><img width=\"157\" height=\"232\" src=\"https://pics.filmaffinity.com/are_we_lost_forever-227443218-mmed.jpg\" data-src=\"https://pics.filmaffinity.com/are_we_lost_forever-227443218-mmed.jpg\" class=\" lazyloaded\" alt=\"Vivir sin nosotros \"></div>\n        <div class=\"fringe\">\n            <div class=\"mtitle\">Vivir sin nosotros </div>\n            (14 de mayo)\n        </div>"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/film996849.html",
+        "inner_text": "Valhalla Rising\n(14 de mayo)",
+        "inner_html": "<div class=\"mc-image\"><img width=\"157\" height=\"232\" src=\"https://pics.filmaffinity.com/valhalla_rising-442462737-mmed.jpg\" data-src=\"https://pics.filmaffinity.com/valhalla_rising-442462737-mmed.jpg\" class=\" lazyloaded\" alt=\"Valhalla Rising \"></div>\n        <div class=\"fringe\">\n            <div class=\"mtitle\">Valhalla Rising </div>\n            (14 de mayo)\n        </div>"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/film637149.html",
+        "inner_text": "Spiral: Saw\n(21 de mayo)",
+        "inner_html": "<div class=\"mc-image\"><img width=\"157\" height=\"233\" src=\"https://pics.filmaffinity.com/spiral_from_the_book_of_saw-375154844-mmed.jpg\" data-src=\"https://pics.filmaffinity.com/spiral_from_the_book_of_saw-375154844-mmed.jpg\" class=\" lazyloaded\" alt=\"Spiral: Saw \"></div>\n        <div class=\"fringe\">\n            <div class=\"mtitle\">Spiral: Saw </div>\n            (21 de mayo)\n        </div>"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/film478891.html",
+        "inner_text": "Poliamor para principiantes\n(21 de mayo)",
+        "inner_html": "<div class=\"mc-image\"><img width=\"157\" height=\"224\" src=\"https://pics.filmaffinity.com/poliamor_para_principiantes-439576252-mmed.jpg\" data-src=\"https://pics.filmaffinity.com/poliamor_para_principiantes-439576252-mmed.jpg\" class=\" lazyloaded\" alt=\"Poliamor para principiantes \"></div>\n        <div class=\"fringe\">\n            <div class=\"mtitle\">Poliamor para principiantes </div>\n            (21 de mayo)\n        </div>"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/film713795.html",
+        "inner_text": "Érase una vez en Queens\n(21 de mayo)",
+        "inner_html": "<div class=\"mc-image\"><img width=\"157\" height=\"232\" src=\"https://pics.filmaffinity.com/boogie-513227365-mmed.jpg\" data-src=\"https://pics.filmaffinity.com/boogie-513227365-mmed.jpg\" class=\" lazyloaded\" alt=\"Érase una vez en Queens \"></div>\n        <div class=\"fringe\">\n            <div class=\"mtitle\">Érase una vez en Queens </div>\n            (21 de mayo)\n        </div>"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/film112106.html",
+        "inner_text": "First Cow\n(21 de mayo)",
+        "inner_html": "<div class=\"mc-image\"><img width=\"157\" height=\"231\" src=\"https://pics.filmaffinity.com/first_cow-148202671-mmed.jpg\" data-src=\"https://pics.filmaffinity.com/first_cow-148202671-mmed.jpg\" class=\" lazyloaded\" alt=\"First Cow \"></div>\n        <div class=\"fringe\">\n            <div class=\"mtitle\">First Cow </div>\n            (21 de mayo)\n        </div>"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/film329087.html",
+        "inner_text": "Mía y Moi\n(21 de mayo)",
+        "inner_html": "<div class=\"mc-image\"><img width=\"157\" height=\"225\" src=\"https://pics.filmaffinity.com/mia_y_moi-391404758-mmed.jpg\" data-src=\"https://pics.filmaffinity.com/mia_y_moi-391404758-mmed.jpg\" class=\" ls-is-cached lazyloaded\" alt=\"Mía y Moi \"></div>\n        <div class=\"fringe\">\n            <div class=\"mtitle\">Mía y Moi </div>\n            (21 de mayo)\n        </div>"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/film950177.html",
+        "inner_text": "Pequeño país\n(21 de mayo)",
+        "inner_html": "<div class=\"mc-image\"><img width=\"157\" height=\"214\" src=\"https://pics.filmaffinity.com/petit_pays-449391822-mmed.jpg\" data-src=\"https://pics.filmaffinity.com/petit_pays-449391822-mmed.jpg\" class=\" ls-is-cached lazyloaded\" alt=\"Pequeño país \"></div>\n        <div class=\"fringe\">\n            <div class=\"mtitle\">Pequeño país </div>\n            (21 de mayo)\n        </div>"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/film388427.html",
+        "inner_text": "Sweat\n(21 de mayo)",
+        "inner_html": "<div class=\"mc-image\"><img width=\"157\" height=\"228\" src=\"https://pics.filmaffinity.com/sweat-113854915-mtiny.jpg\" data-src=\"https://pics.filmaffinity.com/sweat-113854915-mmed.jpg\" class=\"lazyload\" alt=\"Sweat \"></div>\n        <div class=\"fringe\">\n            <div class=\"mtitle\">Sweat </div>\n            (21 de mayo)\n        </div>"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/film132801.html",
+        "inner_text": "Félix y el tesoro de Morgäa\n(21 de mayo)",
+        "inner_html": "<div class=\"mc-image\"><img width=\"157\" height=\"232\" src=\"https://pics.filmaffinity.com/felix_et_le_tresor_de_morgaa-815406154-mtiny.jpg\" data-src=\"https://pics.filmaffinity.com/felix_et_le_tresor_de_morgaa-815406154-mmed.jpg\" class=\"lazyload\" alt=\"Félix y el tesoro de Morgäa \"></div>\n        <div class=\"fringe\">\n            <div class=\"mtitle\">Félix y el tesoro de Morgäa </div>\n            (21 de mayo)\n        </div>"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/film759533.html",
+        "inner_text": "El viaje de Chihiro\n(21 de mayo)",
+        "inner_html": "<div class=\"mc-image\"><img width=\"157\" height=\"221\" src=\"https://pics.filmaffinity.com/sen_to_chihiro_no_kamikakushi-348587850-mtiny.jpg\" data-src=\"https://pics.filmaffinity.com/sen_to_chihiro_no_kamikakushi-348587850-mmed.jpg\" class=\"lazyload\" alt=\"El viaje de Chihiro \"></div>\n        <div class=\"fringe\">\n            <div class=\"mtitle\">El viaje de Chihiro </div>\n            (21 de mayo)\n        </div>"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/category.php?id=new_netflix",
+        "inner_text": "Netflix (estrenos destacados)",
+        "inner_html": "Netflix (estrenos destacados)"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/film113270.html",
+        "inner_text": "Special (Serie de TV)\n(20 de mayo)",
+        "inner_html": "<div class=\"mc-image\"><img width=\"157\" height=\"234\" src=\"https://pics.filmaffinity.com/special_tv_series-264386330-mtiny.jpg\" data-src=\"https://pics.filmaffinity.com/special_tv_series-264386330-mmed.jpg\" class=\"lazyload\" alt=\"Special (Serie de TV)\"></div>\n        <div class=\"fringe\">\n            <div class=\"mtitle\">Special (Serie de TV)</div>\n            (20 de mayo)\n        </div>"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/film896241.html",
+        "inner_text": "¿Quién mató a Sara? (Serie de TV)\n(19 de mayo)",
+        "inner_html": "<div class=\"mc-image\"><img width=\"157\" height=\"233\" src=\"https://pics.filmaffinity.com/quien_mato_a_sara_tv_series-410324670-mtiny.jpg\" data-src=\"https://pics.filmaffinity.com/quien_mato_a_sara_tv_series-410324670-mmed.jpg\" class=\"lazyload\" alt=\"¿Quién mató a Sara? (Serie de TV)\"></div>\n        <div class=\"fringe\">\n            <div class=\"mtitle\">¿Quién mató a Sara? (Serie de TV)</div>\n            (19 de mayo)\n        </div>"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/film520055.html",
+        "inner_text": "Un último deseo\n(18 de mayo)",
+        "inner_html": "<div class=\"mc-image\"><img width=\"157\" height=\"233\" src=\"https://pics.filmaffinity.com/sardar_ka_grandson-465304297-mtiny.jpg\" data-src=\"https://pics.filmaffinity.com/sardar_ka_grandson-465304297-mmed.jpg\" class=\"lazyload\" alt=\"Un último deseo \"></div>\n        <div class=\"fringe\">\n            <div class=\"mtitle\">Un último deseo </div>\n            (18 de mayo)\n        </div>"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/film587852.html",
+        "inner_text": "Love, Death + Robots. Vol. 2: El gigante ahogado (C)\n(14 de mayo)",
+        "inner_html": "<div class=\"mc-image\"><img width=\"157\" height=\"230\" src=\"https://pics.filmaffinity.com/love_death_robots_vol_2_the_drowned_giant_s-870231474-mtiny.jpg\" data-src=\"https://pics.filmaffinity.com/love_death_robots_vol_2_the_drowned_giant_s-870231474-mmed.jpg\" class=\"lazyload\" alt=\"Love, Death + Robots. Vol. 2: El gigante ahogado (C)\"></div>\n        <div class=\"fringe\">\n            <div class=\"mtitle\">Love, Death + Robots. Vol. 2: El gigante ahogado (C)</div>\n            (14 de mayo)\n        </div>"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/category.php?id=disneyplus",
+        "inner_text": "Disney+",
+        "inner_html": "Disney+"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/film232421.html",
+        "inner_text": "High School Musical. El Musical: La Serie (Serie de TV)\n(14 de mayo)",
+        "inner_html": "<div class=\"mc-image\"><img width=\"157\" height=\"231\" src=\"https://pics.filmaffinity.com/high_school_musical_the_musical_the_series_tv_series-364933114-mtiny.jpg\" data-src=\"https://pics.filmaffinity.com/high_school_musical_the_musical_the_series_tv_series-364933114-mmed.jpg\" class=\"lazyload\" alt=\"High School Musical. El Musical: La Serie (Serie de TV)\"></div>\n        <div class=\"fringe\">\n            <div class=\"mtitle\">High School Musical. El Musical: La Serie (Serie de TV)</div>\n            (14 de mayo)\n        </div>"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/film188332.html",
+        "inner_text": "Star Wars: La remesa mala (Serie de TV)\n(4 de mayo)",
+        "inner_html": "<div class=\"mc-image\"><img width=\"157\" height=\"225\" src=\"https://pics.filmaffinity.com/star_wars_the_bad_batch_tv_series-584917785-mtiny.jpg\" data-src=\"https://pics.filmaffinity.com/star_wars_the_bad_batch_tv_series-584917785-mmed.jpg\" class=\"lazyload\" alt=\"Star Wars: La remesa mala (Serie de TV)\"></div>\n        <div class=\"fringe\">\n            <div class=\"mtitle\">Star Wars: La remesa mala (Serie de TV)</div>\n            (4 de mayo)\n        </div>"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/film807589.html",
+        "inner_text": "Maggie Simpson en: El Despertar de la Siesta (C)\n(4 de mayo)",
+        "inner_html": "<div class=\"mc-image\"><img width=\"157\" height=\"232\" src=\"https://pics.filmaffinity.com/maggie_simpson_in_the_force_awakens_from_its_nap_s-894269695-mtiny.jpg\" data-src=\"https://pics.filmaffinity.com/maggie_simpson_in_the_force_awakens_from_its_nap_s-894269695-mmed.jpg\" class=\"lazyload\" alt=\"Maggie Simpson en: El Despertar de la Siesta (C)\"></div>\n        <div class=\"fringe\">\n            <div class=\"mtitle\">Maggie Simpson en: El Despertar de la Siesta (C)</div>\n            (4 de mayo)\n        </div>"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/film485986.html",
+        "inner_text": "Star Wars. La Remesa Mala: Posguerra (TV)\n(4 de mayo)",
+        "inner_html": "<div class=\"mc-image\"><img width=\"157\" height=\"233\" src=\"https://pics.filmaffinity.com/star_wars_the_bad_batch_aftermath_tv-744386711-mtiny.jpg\" data-src=\"https://pics.filmaffinity.com/star_wars_the_bad_batch_aftermath_tv-744386711-mmed.jpg\" class=\"lazyload\" alt=\"Star Wars. La Remesa Mala: Posguerra (TV)\"></div>\n        <div class=\"fringe\">\n            <div class=\"mtitle\">Star Wars. La Remesa Mala: Posguerra (TV)</div>\n            (4 de mayo)\n        </div>"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/film254405.html",
+        "inner_text": "Star Wars Biomas (TV)\n(4 de mayo)",
+        "inner_html": "<div class=\"mc-image\"><img width=\"157\" height=\"187\" src=\"https://pics.filmaffinity.com/star_wars_biomes_tv-313778518-mtiny.jpg\" data-src=\"https://pics.filmaffinity.com/star_wars_biomes_tv-313778518-mmed.jpg\" class=\"lazyload\" alt=\"Star Wars Biomas (TV)\"></div>\n        <div class=\"fringe\">\n            <div class=\"mtitle\">Star Wars Biomas (TV)</div>\n            (4 de mayo)\n        </div>"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/film133883.html",
+        "inner_text": "Star Wars: Un paseo espacial (Miniserie de TV)\n(4 de mayo)",
+        "inner_html": "<div class=\"mc-image\"><img width=\"157\" height=\"228\" src=\"https://pics.filmaffinity.com/star_wars_vehicle_flythroughs-690755301-mtiny.jpg\" data-src=\"https://pics.filmaffinity.com/star_wars_vehicle_flythroughs-690755301-mmed.jpg\" class=\"lazyload\" alt=\"Star Wars: Un paseo espacial (Miniserie de TV)\"></div>\n        <div class=\"fringe\">\n            <div class=\"mtitle\">Star Wars: Un paseo espacial (Miniserie de TV)</div>\n            (4 de mayo)\n        </div>"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/film816686.html",
+        "inner_text": "Nomadland\n(30 de abril)",
+        "inner_html": "<div class=\"mc-image\"><img width=\"157\" height=\"233\" src=\"https://pics.filmaffinity.com/nomadland-118487105-mtiny.jpg\" data-src=\"https://pics.filmaffinity.com/nomadland-118487105-mmed.jpg\" class=\"lazyload\" alt=\"Nomadland \"></div>\n        <div class=\"fringe\">\n            <div class=\"mtitle\">Nomadland </div>\n            (30 de abril)\n        </div>"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/film131852.html",
+        "inner_text": "Así se hizo Falcon y el Soldado de Invierno (TV)\n(30 de abril)",
+        "inner_html": "<div class=\"mc-image\"><img width=\"157\" height=\"223\" src=\"https://pics.filmaffinity.com/marvel_studios_assembled_the_making_of_the_falcon_and_the_winter_soldier_tv-808284888-mtiny.jpg\" data-src=\"https://pics.filmaffinity.com/marvel_studios_assembled_the_making_of_the_falcon_and_the_winter_soldier_tv-808284888-mmed.jpg\" class=\"lazyload\" alt=\"Así se hizo Falcon y el Soldado de Invierno (TV)\"></div>\n        <div class=\"fringe\">\n            <div class=\"mtitle\">Así se hizo Falcon y el Soldado de Invierno (TV)</div>\n            (30 de abril)\n        </div>"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/film690251.html",
+        "inner_text": "22 contra la Tierra (C)\n(30 de abril)",
+        "inner_html": "<div class=\"mc-image\"><img width=\"157\" height=\"233\" src=\"https://pics.filmaffinity.com/22_vs_earth_s-136611677-mtiny.jpg\" data-src=\"https://pics.filmaffinity.com/22_vs_earth_s-136611677-mmed.jpg\" class=\"lazyload\" alt=\"22 contra la Tierra (C)\"></div>\n        <div class=\"fringe\">\n            <div class=\"mtitle\">22 contra la Tierra (C)</div>\n            (30 de abril)\n        </div>"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/category.php?id=new_movistar_f",
+        "inner_text": "Movistar +",
+        "inner_html": "Movistar +"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/film685113.html",
+        "inner_text": "Cima a la amistad\n(20 de mayo)",
+        "inner_html": "<div class=\"mc-image\"><img width=\"157\" height=\"227\" src=\"https://pics.filmaffinity.com/the_climb-852974251-mtiny.jpg\" data-src=\"https://pics.filmaffinity.com/the_climb-852974251-mmed.jpg\" class=\"lazyload\" alt=\"Cima a la amistad \"></div>\n        <div class=\"fringe\">\n            <div class=\"mtitle\">Cima a la amistad </div>\n            (20 de mayo)\n        </div>"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/film463472.html",
+        "inner_text": "La historia del Mossad (Miniserie de TV)\n(20 de mayo)",
+        "inner_html": "<div class=\"mc-image\"><img width=\"157\" height=\"89\" src=\"https://pics.filmaffinity.com/the_history_of_mossad-473285428-mtiny.jpg\" data-src=\"https://pics.filmaffinity.com/the_history_of_mossad-473285428-mmed.jpg\" class=\"lazyload\" alt=\"La historia del Mossad (Miniserie de TV)\"></div>\n        <div class=\"fringe\">\n            <div class=\"mtitle\">La historia del Mossad (Miniserie de TV)</div>\n            (20 de mayo)\n        </div>"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/film621212.html",
+        "inner_text": "Niña\n(20 de mayo)",
+        "inner_html": "<div class=\"mc-image\"><img width=\"157\" height=\"233\" src=\"https://pics.filmaffinity.com/girl-532074396-mtiny.jpg\" data-src=\"https://pics.filmaffinity.com/girl-532074396-mmed.jpg\" class=\"lazyload\" alt=\"Niña \"></div>\n        <div class=\"fringe\">\n            <div class=\"mtitle\">Niña </div>\n            (20 de mayo)\n        </div>"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/film577067.html",
+        "inner_text": "La chica del brazalete\n(20 de mayo)",
+        "inner_html": "<div class=\"mc-image\"><img width=\"157\" height=\"210\" src=\"https://pics.filmaffinity.com/la_fille_au_bracelet-612455134-mtiny.jpg\" data-src=\"https://pics.filmaffinity.com/la_fille_au_bracelet-612455134-mmed.jpg\" class=\"lazyload\" alt=\"La chica del brazalete \"></div>\n        <div class=\"fringe\">\n            <div class=\"mtitle\">La chica del brazalete </div>\n            (20 de mayo)\n        </div>"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/film647893.html",
+        "inner_text": "El verano de Cody\n(19 de mayo)",
+        "inner_html": "<div class=\"mc-image\"><img width=\"157\" height=\"232\" src=\"https://pics.filmaffinity.com/driveways-432685272-mtiny.jpg\" data-src=\"https://pics.filmaffinity.com/driveways-432685272-mmed.jpg\" class=\"lazyload\" alt=\"El verano de Cody \"></div>\n        <div class=\"fringe\">\n            <div class=\"mtitle\">El verano de Cody </div>\n            (19 de mayo)\n        </div>"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/film115913.html",
+        "inner_text": "Corpus Christi\n(18 de mayo)",
+        "inner_html": "<div class=\"mc-image\"><img width=\"157\" height=\"221\" src=\"https://pics.filmaffinity.com/boze_cialo-261361105-mtiny.jpg\" data-src=\"https://pics.filmaffinity.com/boze_cialo-261361105-mmed.jpg\" class=\"lazyload\" alt=\"Corpus Christi \"></div>\n        <div class=\"fringe\">\n            <div class=\"mtitle\">Corpus Christi </div>\n            (18 de mayo)\n        </div>"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/film267000.html",
+        "inner_text": "Abuso de poder (Foster Boy)\n(17 de mayo)",
+        "inner_html": "<div class=\"mc-image\"><img width=\"157\" height=\"231\" src=\"https://pics.filmaffinity.com/foster_boy-409345970-mtiny.jpg\" data-src=\"https://pics.filmaffinity.com/foster_boy-409345970-mmed.jpg\" class=\"lazyload\" alt=\"Abuso de poder (Foster Boy) \"></div>\n        <div class=\"fringe\">\n            <div class=\"mtitle\">Abuso de poder (Foster Boy) </div>\n            (17 de mayo)\n        </div>"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/film788032.html",
+        "inner_text": "La galería de los corazones rotos\n(16 de mayo)",
+        "inner_html": "<div class=\"mc-image\"><img width=\"157\" height=\"233\" src=\"https://pics.filmaffinity.com/the_broken_hearts_gallery-972949574-mtiny.jpg\" data-src=\"https://pics.filmaffinity.com/the_broken_hearts_gallery-972949574-mmed.jpg\" class=\"lazyload\" alt=\"La galería de los corazones rotos \"></div>\n        <div class=\"fringe\">\n            <div class=\"mtitle\">La galería de los corazones rotos </div>\n            (16 de mayo)\n        </div>"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/film152338.html",
+        "inner_text": "Bienvenidos a Chechenia\n(16 de mayo)",
+        "inner_html": "<div class=\"mc-image\"><img width=\"157\" height=\"233\" src=\"https://pics.filmaffinity.com/welcome_to_chechnya-908346409-mtiny.jpg\" data-src=\"https://pics.filmaffinity.com/welcome_to_chechnya-908346409-mmed.jpg\" class=\"lazyload\" alt=\"Bienvenidos a Chechenia \"></div>\n        <div class=\"fringe\">\n            <div class=\"mtitle\">Bienvenidos a Chechenia </div>\n            (16 de mayo)\n        </div>"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/category.php?id=new_hbo_es",
+        "inner_text": "HBO España",
+        "inner_html": "HBO España"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/film128037.html",
+        "inner_text": "El crimen del siglo (Miniserie de TV)\n(11 de mayo)",
+        "inner_html": "<div class=\"mc-image\"><img width=\"157\" height=\"233\" src=\"https://pics.filmaffinity.com/the_crime_of_the_century-162173354-mtiny.jpg\" data-src=\"https://pics.filmaffinity.com/the_crime_of_the_century-162173354-mmed.jpg\" class=\"lazyload\" alt=\"El crimen del siglo (Miniserie de TV)\"></div>\n        <div class=\"fringe\">\n            <div class=\"mtitle\">El crimen del siglo (Miniserie de TV)</div>\n            (11 de mayo)\n        </div>"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/film515542.html",
+        "inner_text": "Pose (Serie de TV)\n(3 de mayo)",
+        "inner_html": "<div class=\"mc-image\"><img width=\"157\" height=\"233\" src=\"https://pics.filmaffinity.com/pose_tv_series-930279044-mtiny.jpg\" data-src=\"https://pics.filmaffinity.com/pose_tv_series-930279044-mmed.jpg\" class=\"lazyload\" alt=\"Pose (Serie de TV)\"></div>\n        <div class=\"fringe\">\n            <div class=\"mtitle\">Pose (Serie de TV)</div>\n            (3 de mayo)\n        </div>"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/film731011.html",
+        "inner_text": "DC's Legends of Tomorrow (Serie de TV)\n(3 de mayo)",
+        "inner_html": "<div class=\"mc-image\"><img width=\"157\" height=\"236\" src=\"https://pics.filmaffinity.com/legends_of_tomorrow_tv_series-840041856-mtiny.jpg\" data-src=\"https://pics.filmaffinity.com/legends_of_tomorrow_tv_series-840041856-mmed.jpg\" class=\"lazyload\" alt=\"DC's Legends of Tomorrow (Serie de TV)\"></div>\n        <div class=\"fringe\">\n            <div class=\"mtitle\">DC's Legends of Tomorrow (Serie de TV)</div>\n            (3 de mayo)\n        </div>"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/film494993.html",
+        "inner_text": "El cuento de la criada (Serie de TV)\n(29 de abril)",
+        "inner_html": "<div class=\"mc-image\"><img width=\"157\" height=\"233\" src=\"https://pics.filmaffinity.com/the_handmaid_s_tale_tv_series-538001951-mtiny.jpg\" data-src=\"https://pics.filmaffinity.com/the_handmaid_s_tale_tv_series-538001951-mmed.jpg\" class=\"lazyload\" alt=\"El cuento de la criada (Serie de TV)\"></div>\n        <div class=\"fringe\">\n            <div class=\"mtitle\">El cuento de la criada (Serie de TV)</div>\n            (29 de abril)\n        </div>"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/film847874.html",
+        "inner_text": "A Black Lady Sketch Show (Serie de TV)\n(24 de abril)",
+        "inner_html": "<div class=\"mc-image\"><img width=\"157\" height=\"233\" src=\"https://pics.filmaffinity.com/a_black_lady_sketch_show_tv_series-916935529-mtiny.jpg\" data-src=\"https://pics.filmaffinity.com/a_black_lady_sketch_show_tv_series-916935529-mmed.jpg\" class=\"lazyload\" alt=\"A Black Lady Sketch Show (Serie de TV)\"></div>\n        <div class=\"fringe\">\n            <div class=\"mtitle\">A Black Lady Sketch Show (Serie de TV)</div>\n            (24 de abril)\n        </div>"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/film304815.html",
+        "inner_text": "El padrino de Harlem (Serie de TV)\n(20 de abril)",
+        "inner_html": "<div class=\"mc-image\"><img width=\"157\" height=\"236\" src=\"https://pics.filmaffinity.com/godfather_of_harlem_tv_series-904628203-mtiny.jpg\" data-src=\"https://pics.filmaffinity.com/godfather_of_harlem_tv_series-904628203-mmed.jpg\" class=\"lazyload\" alt=\"El padrino de Harlem (Serie de TV)\"></div>\n        <div class=\"fringe\">\n            <div class=\"mtitle\">El padrino de Harlem (Serie de TV)</div>\n            (20 de abril)\n        </div>"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/film310747.html",
+        "inner_text": "Mare of Easttown (Miniserie de TV)\n(19 de abril)",
+        "inner_html": "<div class=\"mc-image\"><img width=\"157\" height=\"233\" src=\"https://pics.filmaffinity.com/mare_of_easttown-736704836-mtiny.jpg\" data-src=\"https://pics.filmaffinity.com/mare_of_easttown-736704836-mmed.jpg\" class=\"lazyload\" alt=\"Mare of Easttown (Miniserie de TV)\"></div>\n        <div class=\"fringe\">\n            <div class=\"mtitle\">Mare of Easttown (Miniserie de TV)</div>\n            (19 de abril)\n        </div>"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/film555806.html",
+        "inner_text": "Bienvenidos a Utmark (Serie de TV)\n(18 de abril)",
+        "inner_html": "<div class=\"mc-image\"><img width=\"157\" height=\"222\" src=\"https://pics.filmaffinity.com/utmark_tv_series-848794834-mtiny.jpg\" data-src=\"https://pics.filmaffinity.com/utmark_tv_series-848794834-mmed.jpg\" class=\"lazyload\" alt=\"Bienvenidos a Utmark (Serie de TV)\"></div>\n        <div class=\"fringe\">\n            <div class=\"mtitle\">Bienvenidos a Utmark (Serie de TV)</div>\n            (18 de abril)\n        </div>"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/film196478.html",
+        "inner_text": "Our Towns\n(14 de abril)",
+        "inner_html": "<div class=\"mc-image\"><img width=\"157\" height=\"233\" src=\"https://pics.filmaffinity.com/our_towns-892225948-mtiny.jpg\" data-src=\"https://pics.filmaffinity.com/our_towns-892225948-mmed.jpg\" class=\"lazyload\" alt=\"Our Towns \"></div>\n        <div class=\"fringe\">\n            <div class=\"mtitle\">Our Towns </div>\n            (14 de abril)\n        </div>"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/category.php?id=new_amazon_es",
+        "inner_text": "Amazon Prime Video España",
+        "inner_html": "Amazon Prime Video España"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/film709485.html",
+        "inner_text": "Después de la boda\n(15 de mayo)",
+        "inner_html": "<div class=\"mc-image\"><img width=\"157\" height=\"233\" src=\"https://pics.filmaffinity.com/after_the_wedding-665053838-mtiny.jpg\" data-src=\"https://pics.filmaffinity.com/after_the_wedding-665053838-mmed.jpg\" class=\"lazyload\" alt=\"Después de la boda \"></div>\n        <div class=\"fringe\">\n            <div class=\"mtitle\">Después de la boda </div>\n            (15 de mayo)\n        </div>"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/film436381.html",
+        "inner_text": "The Underground Railroad (Serie de TV)\n(14 de mayo)",
+        "inner_html": "<div class=\"mc-image\"><img width=\"157\" height=\"237\" src=\"https://pics.filmaffinity.com/the_underground_railroad_tv_series-116286155-mtiny.jpg\" data-src=\"https://pics.filmaffinity.com/the_underground_railroad_tv_series-116286155-mmed.jpg\" class=\"lazyload\" alt=\"The Underground Railroad (Serie de TV)\"></div>\n        <div class=\"fringe\">\n            <div class=\"mtitle\">The Underground Railroad (Serie de TV)</div>\n            (14 de mayo)\n        </div>"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/film246902.html",
+        "inner_text": "The Boy from Medellín\n(7 de mayo)",
+        "inner_html": "<div class=\"mc-image\"><img width=\"157\" height=\"197\" src=\"https://pics.filmaffinity.com/the_boy_from_medellin-872435098-mtiny.jpg\" data-src=\"https://pics.filmaffinity.com/the_boy_from_medellin-872435098-mmed.jpg\" class=\"lazyload\" alt=\"The Boy from Medellín \"></div>\n        <div class=\"fringe\">\n            <div class=\"mtitle\">The Boy from Medellín </div>\n            (7 de mayo)\n        </div>"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/film392463.html",
+        "inner_text": "Sin remordimientos\n(30 de abril)",
+        "inner_html": "<div class=\"mc-image\"><img width=\"157\" height=\"232\" src=\"https://pics.filmaffinity.com/without_remorse-727603849-mtiny.jpg\" data-src=\"https://pics.filmaffinity.com/without_remorse-727603849-mmed.jpg\" class=\"lazyload\" alt=\"Sin remordimientos \"></div>\n        <div class=\"fringe\">\n            <div class=\"mtitle\">Sin remordimientos </div>\n            (30 de abril)\n        </div>"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/film996593.html",
+        "inner_text": "La fuerza de la naturaleza\n(30 de abril)",
+        "inner_html": "<div class=\"mc-image\"><img width=\"157\" height=\"233\" src=\"https://pics.filmaffinity.com/force_of_nature-605505439-mtiny.jpg\" data-src=\"https://pics.filmaffinity.com/force_of_nature-605505439-mmed.jpg\" class=\"lazyload\" alt=\"La fuerza de la naturaleza \"></div>\n        <div class=\"fringe\">\n            <div class=\"mtitle\">La fuerza de la naturaleza </div>\n            (30 de abril)\n        </div>"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/film304239.html",
+        "inner_text": "Abominable\n(30 de abril)",
+        "inner_html": "<div class=\"mc-image\"><img width=\"157\" height=\"249\" src=\"https://pics.filmaffinity.com/abominable-320900881-mtiny.jpg\" data-src=\"https://pics.filmaffinity.com/abominable-320900881-mmed.jpg\" class=\"lazyload\" alt=\"Abominable \"></div>\n        <div class=\"fringe\">\n            <div class=\"mtitle\">Abominable </div>\n            (30 de abril)\n        </div>"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/film105652.html",
+        "inner_text": "What Drives Us\n(30 de abril)",
+        "inner_html": "<div class=\"mc-image\"><img width=\"157\" height=\"236\" src=\"https://pics.filmaffinity.com/what_drives_us-478274982-mtiny.jpg\" data-src=\"https://pics.filmaffinity.com/what_drives_us-478274982-mmed.jpg\" class=\"lazyload\" alt=\"What Drives Us \"></div>\n        <div class=\"fringe\">\n            <div class=\"mtitle\">What Drives Us </div>\n            (30 de abril)\n        </div>"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/film172151.html",
+        "inner_text": "El verano que vivimos\n(19 de abril)",
+        "inner_html": "<div class=\"mc-image\"><img width=\"157\" height=\"226\" src=\"https://pics.filmaffinity.com/el_verano_que_vivimos-373959942-mtiny.jpg\" data-src=\"https://pics.filmaffinity.com/el_verano_que_vivimos-373959942-mmed.jpg\" class=\"lazyload\" alt=\"El verano que vivimos \"></div>\n        <div class=\"fringe\">\n            <div class=\"mtitle\">El verano que vivimos </div>\n            (19 de abril)\n        </div>"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/film997136.html",
+        "inner_text": "I Care a Lot\n(16 de abril)",
+        "inner_html": "<div class=\"mc-image\"><img width=\"157\" height=\"233\" src=\"https://pics.filmaffinity.com/i_care_a_lot-303755262-mtiny.jpg\" data-src=\"https://pics.filmaffinity.com/i_care_a_lot-303755262-mmed.jpg\" class=\"lazyload\" alt=\"I Care a Lot \"></div>\n        <div class=\"fringe\">\n            <div class=\"mtitle\">I Care a Lot </div>\n            (16 de abril)\n        </div>"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/category.php?id=new_filmin",
+        "inner_text": "Filmin (últ. incorporaciones)",
+        "inner_html": "Filmin (últ. incorporaciones)"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/film844502.html",
+        "inner_text": "A Song Called Hate\n(20 de mayo)",
+        "inner_html": "<div class=\"mc-image\"><img width=\"157\" height=\"223\" src=\"https://pics.filmaffinity.com/a_song_called_hate-748309617-mtiny.jpg\" data-src=\"https://pics.filmaffinity.com/a_song_called_hate-748309617-mmed.jpg\" class=\"lazyload\" alt=\"A Song Called Hate \"></div>\n        <div class=\"fringe\">\n            <div class=\"mtitle\">A Song Called Hate </div>\n            (20 de mayo)\n        </div>"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/film855195.html",
+        "inner_text": "Los miembros de la familia\n(20 de mayo)",
+        "inner_html": "<div class=\"mc-image\"><img width=\"157\" height=\"234\" src=\"https://pics.filmaffinity.com/los_miembros_de_la_familia-635347155-mtiny.jpg\" data-src=\"https://pics.filmaffinity.com/los_miembros_de_la_familia-635347155-mmed.jpg\" class=\"lazyload\" alt=\"Los miembros de la familia \"></div>\n        <div class=\"fringe\">\n            <div class=\"mtitle\">Los miembros de la familia </div>\n            (20 de mayo)\n        </div>"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/film217181.html",
+        "inner_text": "Amazing Grace\n(20 de mayo)",
+        "inner_html": "<div class=\"mc-image\"><img width=\"157\" height=\"233\" src=\"https://pics.filmaffinity.com/amazing_grace-815000524-mtiny.jpg\" data-src=\"https://pics.filmaffinity.com/amazing_grace-815000524-mmed.jpg\" class=\"lazyload\" alt=\"Amazing Grace \"></div>\n        <div class=\"fringe\">\n            <div class=\"mtitle\">Amazing Grace </div>\n            (20 de mayo)\n        </div>"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/film477596.html",
+        "inner_text": "Wisting (Serie de TV)\n(18 de mayo)",
+        "inner_html": "<div class=\"mc-image\"><img width=\"157\" height=\"206\" src=\"https://pics.filmaffinity.com/wisting_tv_series-444940466-mtiny.jpg\" data-src=\"https://pics.filmaffinity.com/wisting_tv_series-444940466-mmed.jpg\" class=\"lazyload\" alt=\"Wisting (Serie de TV)\"></div>\n        <div class=\"fringe\">\n            <div class=\"mtitle\">Wisting (Serie de TV)</div>\n            (18 de mayo)\n        </div>"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/film949957.html",
+        "inner_text": "Un amor salvaje (Dirt Music)\n(16 de mayo)",
+        "inner_html": "<div class=\"mc-image\"><img width=\"157\" height=\"232\" src=\"https://pics.filmaffinity.com/dirt_music-311123098-mtiny.jpg\" data-src=\"https://pics.filmaffinity.com/dirt_music-311123098-mmed.jpg\" class=\"lazyload\" alt=\"Un amor salvaje (Dirt Music) \"></div>\n        <div class=\"fringe\">\n            <div class=\"mtitle\">Un amor salvaje (Dirt Music) </div>\n            (16 de mayo)\n        </div>"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/film578029.html",
+        "inner_text": "Savage\n(14 de mayo)",
+        "inner_html": "<div class=\"mc-image\"><img width=\"157\" height=\"225\" src=\"https://pics.filmaffinity.com/savage-217338511-mtiny.jpg\" data-src=\"https://pics.filmaffinity.com/savage-217338511-mmed.jpg\" class=\"lazyload\" alt=\"Savage \"></div>\n        <div class=\"fringe\">\n            <div class=\"mtitle\">Savage </div>\n            (14 de mayo)\n        </div>"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/film119467.html",
+        "inner_text": "Shiva Baby\n(14 de mayo)",
+        "inner_html": "<div class=\"mc-image\"><img width=\"157\" height=\"233\" src=\"https://pics.filmaffinity.com/shiva_baby-423985958-mtiny.jpg\" data-src=\"https://pics.filmaffinity.com/shiva_baby-423985958-mmed.jpg\" class=\"lazyload\" alt=\"Shiva Baby \"></div>\n        <div class=\"fringe\">\n            <div class=\"mtitle\">Shiva Baby </div>\n            (14 de mayo)\n        </div>"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/film603499.html",
+        "inner_text": "El profesor de persa\n(14 de mayo)",
+        "inner_html": "<div class=\"mc-image\"><img width=\"157\" height=\"223\" src=\"https://pics.filmaffinity.com/persischstunden_persian_lessons-104972599-mtiny.jpg\" data-src=\"https://pics.filmaffinity.com/persischstunden_persian_lessons-104972599-mmed.jpg\" class=\"lazyload\" alt=\"El profesor de persa \"></div>\n        <div class=\"fringe\">\n            <div class=\"mtitle\">El profesor de persa </div>\n            (14 de mayo)\n        </div>"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/film508348.html",
+        "inner_text": "Fellini de los espíritus\n(14 de mayo)",
+        "inner_html": "<div class=\"mc-image\"><img width=\"157\" height=\"225\" src=\"https://pics.filmaffinity.com/fellini_degli_spiriti-496289288-mtiny.jpg\" data-src=\"https://pics.filmaffinity.com/fellini_degli_spiriti-496289288-mmed.jpg\" class=\"lazyload\" alt=\"Fellini de los espíritus \"></div>\n        <div class=\"fringe\">\n            <div class=\"mtitle\">Fellini de los espíritus </div>\n            (14 de mayo)\n        </div>"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/category.php?id=apple_tv_plus",
+        "inner_text": "Apple TV+ (estrenos destacados)",
+        "inner_html": "Apple TV+ (estrenos destacados)"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/film683886.html",
+        "inner_text": "Mythic Quest: Raven's Banquet (Serie de TV)\n(7 de mayo)",
+        "inner_html": "<div class=\"mc-image\"><img width=\"157\" height=\"228\" src=\"https://pics.filmaffinity.com/mythic_quest_raven_s_banquet_tv_series-588212618-mtiny.jpg\" data-src=\"https://pics.filmaffinity.com/mythic_quest_raven_s_banquet_tv_series-588212618-mmed.jpg\" class=\"lazyload\" alt=\"Mythic Quest: Raven's Banquet (Serie de TV)\"></div>\n        <div class=\"fringe\">\n            <div class=\"mtitle\">Mythic Quest: Raven's Banquet (Serie de TV)</div>\n            (7 de mayo)\n        </div>"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/film606632.html",
+        "inner_text": "La costa de los mosquitos (Serie de TV)\n(30 de abril)",
+        "inner_html": "<div class=\"mc-image\"><img width=\"157\" height=\"236\" src=\"https://pics.filmaffinity.com/the_mosquito_coast_tv_series-225034573-mtiny.jpg\" data-src=\"https://pics.filmaffinity.com/the_mosquito_coast_tv_series-225034573-mmed.jpg\" class=\"lazyload\" alt=\"La costa de los mosquitos (Serie de TV)\"></div>\n        <div class=\"fringe\">\n            <div class=\"mtitle\">La costa de los mosquitos (Serie de TV)</div>\n            (30 de abril)\n        </div>"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/film427888.html",
+        "inner_text": "The Year Earth Changed\n(16 de abril)",
+        "inner_html": "<div class=\"mc-image\"><img width=\"157\" height=\"236\" src=\"https://pics.filmaffinity.com/the_year_earth_changed-878850964-mtiny.jpg\" data-src=\"https://pics.filmaffinity.com/the_year_earth_changed-878850964-mmed.jpg\" class=\"lazyload\" alt=\"The Year Earth Changed \"></div>\n        <div class=\"fringe\">\n            <div class=\"mtitle\">The Year Earth Changed </div>\n            (16 de abril)\n        </div>"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/film247399.html",
+        "inner_text": "Calls (Serie de TV)\n(19 de marzo)",
+        "inner_html": "<div class=\"mc-image\"><img width=\"157\" height=\"236\" src=\"https://pics.filmaffinity.com/calls_tv_series-889714770-mtiny.jpg\" data-src=\"https://pics.filmaffinity.com/calls_tv_series-889714770-mmed.jpg\" class=\"lazyload\" alt=\"Calls (Serie de TV)\"></div>\n        <div class=\"fringe\">\n            <div class=\"mtitle\">Calls (Serie de TV)</div>\n            (19 de marzo)\n        </div>"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/film926295.html",
+        "inner_text": "Cherry\n(12 de marzo)",
+        "inner_html": "<div class=\"mc-image\"><img width=\"157\" height=\"204\" src=\"https://pics.filmaffinity.com/cherry-525712135-mtiny.jpg\" data-src=\"https://pics.filmaffinity.com/cherry-525712135-mmed.jpg\" class=\"lazyload\" alt=\"Cherry \"></div>\n        <div class=\"fringe\">\n            <div class=\"mtitle\">Cherry </div>\n            (12 de marzo)\n        </div>"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/film445621.html",
+        "inner_text": "Billie Eilish: The World's a Little Blurry\n(26 de febrero)",
+        "inner_html": "<div class=\"mc-image\"><img width=\"157\" height=\"236\" src=\"https://pics.filmaffinity.com/billie_eilish_the_world_s_a_little_blurry-487244189-mtiny.jpg\" data-src=\"https://pics.filmaffinity.com/billie_eilish_the_world_s_a_little_blurry-487244189-mmed.jpg\" class=\"lazyload\" alt=\"Billie Eilish: The World's a Little Blurry \"></div>\n        <div class=\"fringe\">\n            <div class=\"mtitle\">Billie Eilish: The World's a Little Blurry </div>\n            (26 de febrero)\n        </div>"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/film748109.html",
+        "inner_text": "Para toda la humanidad (Serie de TV)\n(19 de febrero)",
+        "inner_html": "<div class=\"mc-image\"><img width=\"157\" height=\"236\" src=\"https://pics.filmaffinity.com/for_all_mankind_tv_series-856127359-mtiny.jpg\" data-src=\"https://pics.filmaffinity.com/for_all_mankind_tv_series-856127359-mmed.jpg\" class=\"lazyload\" alt=\"Para toda la humanidad (Serie de TV)\"></div>\n        <div class=\"fringe\">\n            <div class=\"mtitle\">Para toda la humanidad (Serie de TV)</div>\n            (19 de febrero)\n        </div>"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/film669748.html",
+        "inner_text": "El show de Snoopy (Serie de TV)\n(5 de febrero)",
+        "inner_html": "<div class=\"mc-image\"><img width=\"157\" height=\"236\" src=\"https://pics.filmaffinity.com/the_snoopy_show_tv_series-985360110-mtiny.jpg\" data-src=\"https://pics.filmaffinity.com/the_snoopy_show_tv_series-985360110-mmed.jpg\" class=\"lazyload\" alt=\"El show de Snoopy (Serie de TV)\"></div>\n        <div class=\"fringe\">\n            <div class=\"mtitle\">El show de Snoopy (Serie de TV)</div>\n            (5 de febrero)\n        </div>"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/film544668.html",
+        "inner_text": "Palmer\n(29 de enero)",
+        "inner_html": "<div class=\"mc-image\"><img width=\"157\" height=\"236\" src=\"https://pics.filmaffinity.com/palmer-170252052-mtiny.jpg\" data-src=\"https://pics.filmaffinity.com/palmer-170252052-mmed.jpg\" class=\"lazyload\" alt=\"Palmer \"></div>\n        <div class=\"fringe\">\n            <div class=\"mtitle\">Palmer </div>\n            (29 de enero)\n        </div>"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/category.php?id=new_sa_es",
+        "inner_text": "Ya a la venta DVD | VOD",
+        "inner_html": "Ya a la venta DVD | VOD"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/film597105.html",
+        "inner_text": "Ammonite\n(19 de mayo)",
+        "inner_html": "<div class=\"mc-image\"><img width=\"157\" height=\"234\" src=\"https://pics.filmaffinity.com/ammonite-238748683-mtiny.jpg\" data-src=\"https://pics.filmaffinity.com/ammonite-238748683-mmed.jpg\" class=\"lazyload\" alt=\"Ammonite \"></div>\n        <div class=\"fringe\">\n            <div class=\"mtitle\">Ammonite </div>\n            (19 de mayo)\n        </div>"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/film547054.html",
+        "inner_text": "En guerra con mi abuelo\n(19 de mayo)",
+        "inner_html": "<div class=\"mc-image\"><img width=\"157\" height=\"235\" src=\"https://pics.filmaffinity.com/the_war_with_grandpa-334387193-mtiny.jpg\" data-src=\"https://pics.filmaffinity.com/the_war_with_grandpa-334387193-mmed.jpg\" class=\"lazyload\" alt=\"En guerra con mi abuelo \"></div>\n        <div class=\"fringe\">\n            <div class=\"mtitle\">En guerra con mi abuelo </div>\n            (19 de mayo)\n        </div>"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/film592538.html",
+        "inner_text": "La increíble historia de David Copperfield\n(19 de mayo)",
+        "inner_html": "<div class=\"mc-image\"><img width=\"157\" height=\"236\" src=\"https://pics.filmaffinity.com/the_personal_history_of_david_copperfield-462753873-mtiny.jpg\" data-src=\"https://pics.filmaffinity.com/the_personal_history_of_david_copperfield-462753873-mmed.jpg\" class=\"lazyload\" alt=\"La increíble historia de David Copperfield \"></div>\n        <div class=\"fringe\">\n            <div class=\"mtitle\">La increíble historia de David Copperfield </div>\n            (19 de mayo)\n        </div>"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/film209715.html",
+        "inner_text": "La reina de los lagartos\n(19 de mayo)",
+        "inner_html": "<div class=\"mc-image\"><img width=\"157\" height=\"223\" src=\"https://pics.filmaffinity.com/la_reina_de_los_lagartos-263563719-mtiny.jpg\" data-src=\"https://pics.filmaffinity.com/la_reina_de_los_lagartos-263563719-mmed.jpg\" class=\"lazyload\" alt=\"La reina de los lagartos \"></div>\n        <div class=\"fringe\">\n            <div class=\"mtitle\">La reina de los lagartos </div>\n            (19 de mayo)\n        </div>"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/film783812.html",
+        "inner_text": "Pequeños detalles\n(18 de mayo)",
+        "inner_html": "<div class=\"mc-image\"><img width=\"157\" height=\"233\" src=\"https://pics.filmaffinity.com/the_little_things-203164272-mtiny.jpg\" data-src=\"https://pics.filmaffinity.com/the_little_things-203164272-mmed.jpg\" class=\"lazyload\" alt=\"Pequeños detalles \"></div>\n        <div class=\"fringe\">\n            <div class=\"mtitle\">Pequeños detalles </div>\n            (18 de mayo)\n        </div>"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/film273268.html",
+        "inner_text": "Baby\n(18 de mayo)",
+        "inner_html": "<div class=\"mc-image\"><img width=\"157\" height=\"226\" src=\"https://pics.filmaffinity.com/baby-458356667-mtiny.jpg\" data-src=\"https://pics.filmaffinity.com/baby-458356667-mmed.jpg\" class=\"lazyload\" alt=\"Baby \"></div>\n        <div class=\"fringe\">\n            <div class=\"mtitle\">Baby </div>\n            (18 de mayo)\n        </div>"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/film328007.html",
+        "inner_text": "El infiel\n(18 de mayo)",
+        "inner_html": "<div class=\"mc-image\"><img width=\"157\" height=\"235\" src=\"https://pics.filmaffinity.com/infidel-966530951-mtiny.jpg\" data-src=\"https://pics.filmaffinity.com/infidel-966530951-mmed.jpg\" class=\"lazyload\" alt=\"El infiel \"></div>\n        <div class=\"fringe\">\n            <div class=\"mtitle\">El infiel </div>\n            (18 de mayo)\n        </div>"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/film732508.html",
+        "inner_text": "Perfumes\n(18 de mayo)",
+        "inner_html": "<div class=\"mc-image\"><img width=\"157\" height=\"214\" src=\"https://pics.filmaffinity.com/les_parfums-793018331-mtiny.jpg\" data-src=\"https://pics.filmaffinity.com/les_parfums-793018331-mmed.jpg\" class=\"lazyload\" alt=\"Perfumes \"></div>\n        <div class=\"fringe\">\n            <div class=\"mtitle\">Perfumes </div>\n            (18 de mayo)\n        </div>"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/category.php?id=new_re_es",
+        "inner_text": "Novedades alquiler | VOD",
+        "inner_html": "Novedades alquiler | VOD"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/film932509.html",
+        "inner_text": "Bebé, made in China\n(19 de mayo)",
+        "inner_html": "<div class=\"mc-image\"><img width=\"157\" height=\"217\" src=\"https://pics.filmaffinity.com/made_in_china-257648734-mtiny.jpg\" data-src=\"https://pics.filmaffinity.com/made_in_china-257648734-mmed.jpg\" class=\"lazyload\" alt=\"Bebé, made in China \"></div>\n        <div class=\"fringe\">\n            <div class=\"mtitle\">Bebé, made in China </div>\n            (19 de mayo)\n        </div>"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/film687413.html",
+        "inner_text": "El virtuoso\n(14 de mayo)",
+        "inner_html": "<div class=\"mc-image\"><img width=\"157\" height=\"234\" src=\"https://pics.filmaffinity.com/the_virtuoso-239737477-mtiny.jpg\" data-src=\"https://pics.filmaffinity.com/the_virtuoso-239737477-mmed.jpg\" class=\"lazyload\" alt=\"El virtuoso \"></div>\n        <div class=\"fringe\">\n            <div class=\"mtitle\">El virtuoso </div>\n            (14 de mayo)\n        </div>"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/film995713.html",
+        "inner_text": "Mi amigo pony\n(11 de mayo)",
+        "inner_html": "<div class=\"mc-image\"><img width=\"157\" height=\"210\" src=\"https://pics.filmaffinity.com/poly-575450753-mtiny.jpg\" data-src=\"https://pics.filmaffinity.com/poly-575450753-mmed.jpg\" class=\"lazyload\" alt=\"Mi amigo pony \"></div>\n        <div class=\"fringe\">\n            <div class=\"mtitle\">Mi amigo pony </div>\n            (11 de mayo)\n        </div>"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/film238290.html",
+        "inner_text": "French Exit\n(11 de mayo)",
+        "inner_html": "<div class=\"mc-image\"><img width=\"157\" height=\"233\" src=\"https://pics.filmaffinity.com/french_exit-384151572-mtiny.jpg\" data-src=\"https://pics.filmaffinity.com/french_exit-384151572-mmed.jpg\" class=\"lazyload\" alt=\"French Exit \"></div>\n        <div class=\"fringe\">\n            <div class=\"mtitle\">French Exit </div>\n            (11 de mayo)\n        </div>"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/film966882.html",
+        "inner_text": "Jurassic World: Campamento Cretácico (Serie de TV)\n(21 de mayo)",
+        "inner_html": "<div class=\"mc-image\"><img width=\"157\" height=\"230\" src=\"https://pics.filmaffinity.com/jurassic_world_camp_cretaceous_tv_series-297753319-mtiny.jpg\" data-src=\"https://pics.filmaffinity.com/jurassic_world_camp_cretaceous_tv_series-297753319-mmed.jpg\" class=\"lazyload\" alt=\"Jurassic World: Campamento Cretácico (Serie de TV)\"></div>\n        <div class=\"fringe\">\n            <div class=\"mtitle\">Jurassic World: Campamento Cretácico (Serie de TV)</div>\n            (21 de mayo)\n        </div>"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/film176435.html",
+        "inner_text": "El vecino (Serie de TV)\n(21 de mayo)",
+        "inner_html": "<div class=\"mc-image\"><img width=\"157\" height=\"233\" src=\"https://pics.filmaffinity.com/el_vecino_tv_series-213175641-mtiny.jpg\" data-src=\"https://pics.filmaffinity.com/el_vecino_tv_series-213175641-mmed.jpg\" class=\"lazyload\" alt=\"El vecino (Serie de TV)\"></div>\n        <div class=\"fringe\">\n            <div class=\"mtitle\">El vecino (Serie de TV)</div>\n            (21 de mayo)\n        </div>"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/film984336.html",
+        "inner_text": "Master of None presenta: Momentos de amor (Serie de TV)\n(23 de mayo)",
+        "inner_html": "<div class=\"mc-image\"><img width=\"157\" height=\"234\" src=\"https://pics.filmaffinity.com/master_of_none_presents_moments_in_love_tv_series-168008773-mtiny.jpg\" data-src=\"https://pics.filmaffinity.com/master_of_none_presents_moments_in_love_tv_series-168008773-mmed.jpg\" class=\"lazyload\" alt=\"Master of None presenta: Momentos de amor (Serie de TV)\"></div>\n        <div class=\"fringe\">\n            <div class=\"mtitle\">Master of None presenta: Momentos de amor (Serie de TV)</div>\n            (23 de mayo)\n        </div>"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/film716427.html",
+        "inner_text": "Un amor loco\n(24 de mayo)",
+        "inner_html": "<div class=\"mc-image\"><img width=\"157\" height=\"225\" src=\"https://pics.filmaffinity.com/yi_guyeokui_michin_x-693815759-mtiny.jpg\" data-src=\"https://pics.filmaffinity.com/yi_guyeokui_michin_x-693815759-mmed.jpg\" class=\"lazyload\" alt=\"Un amor loco \"></div>\n        <div class=\"fringe\">\n            <div class=\"mtitle\">Un amor loco </div>\n            (24 de mayo)\n        </div>"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/film300107.html",
+        "inner_text": "David Copeland: El hombre que aterrorizó Londres\n(26 de mayo)",
+        "inner_html": "<div class=\"mc-image\"><img width=\"157\" height=\"221\" src=\"https://pics.filmaffinity.com/the_nailbomber-874250711-mtiny.jpg\" data-src=\"https://pics.filmaffinity.com/the_nailbomber-874250711-mmed.jpg\" class=\"lazyload\" alt=\"David Copeland: El hombre que aterrorizó Londres \"></div>\n        <div class=\"fringe\">\n            <div class=\"mtitle\">David Copeland: El hombre que aterrorizó Londres </div>\n            (26 de mayo)\n        </div>"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/film692143.html",
+        "inner_text": "El experimento fantasma\n(26 de mayo)",
+        "inner_html": "<div class=\"mc-image\"><img width=\"157\" height=\"228\" src=\"https://pics.filmaffinity.com/ghost_lab-687859481-mtiny.jpg\" data-src=\"https://pics.filmaffinity.com/ghost_lab-687859481-mmed.jpg\" class=\"lazyload\" alt=\"El experimento fantasma \"></div>\n        <div class=\"fringe\">\n            <div class=\"mtitle\">El experimento fantasma </div>\n            (26 de mayo)\n        </div>"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/film876694.html",
+        "inner_text": "Roberto Baggio, la Divina Coleta\n(26 de mayo)",
+        "inner_html": "<div class=\"mc-image\"><img width=\"157\" height=\"233\" src=\"https://pics.filmaffinity.com/il_divin_codino-457591414-mtiny.jpg\" data-src=\"https://pics.filmaffinity.com/il_divin_codino-457591414-mmed.jpg\" class=\"lazyload\" alt=\"Roberto Baggio, la Divina Coleta \"></div>\n        <div class=\"fringe\">\n            <div class=\"mtitle\">Roberto Baggio, la Divina Coleta </div>\n            (26 de mayo)\n        </div>"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/film413468.html",
+        "inner_text": "Cómo la cocina afroamericana transformó Estados Unidos (Miniserie de TV)\n(26 de mayo)",
+        "inner_html": "<div class=\"mc-image\"><img width=\"157\" height=\"233\" src=\"https://pics.filmaffinity.com/high_on_the_hog_how_african_american_cuisine_transformed_america-553395487-mtiny.jpg\" data-src=\"https://pics.filmaffinity.com/high_on_the_hog_how_african_american_cuisine_transformed_america-553395487-mmed.jpg\" class=\"lazyload\" alt=\"Cómo la cocina afroamericana transformó Estados Unidos (Miniserie de TV)\"></div>\n        <div class=\"fringe\">\n            <div class=\"mtitle\">Cómo la cocina afroamericana transformó Estados Unidos (Miniserie de TV)</div>\n            (26 de mayo)\n        </div>"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/faq.php",
+        "inner_text": "Preguntas más frecuentes",
+        "inner_html": "Preguntas más frecuentes"
+      },
+      {
+        "href": "https://www.filmaffinity.com/es/private.php",
+        "inner_text": "Política de privacidad / condiciones de uso",
+        "inner_html": "Política de privacidad / condiciones de uso"
+      },
+      {
+        "href": "https://m.filmaffinity.com/es/main.php",
+        "inner_text": "Ir a Versión MÓVIL",
+        "inner_html": "<strong>Ir a Versión MÓVIL</strong>"
+      }
+    ],
+    "social": [
+      {
+        "href": "http://www.facebook.com/Filmaffinity",
+        "inner_text": "",
+        "inner_html": "<i class=\"fab fa-facebook-f\"></i>"
+      },
+      {
+        "href": "http://twitter.com/Filmaffinity",
+        "inner_text": "",
+        "inner_html": "<i class=\"fab fa-twitter\"></i>"
+      },
+      {
+        "href": "https://www.instagram.com/filmaffinity/",
+        "inner_text": "",
+        "inner_html": "<i class=\"fab fa-instagram\"></i>"
+      },
+      {
+        "href": "https://www.facebook.com/sharer.php?u=https%3A%2F%2Fwww.filmaffinity.com%2Fes%2Fmain.html&t=",
+        "inner_text": "\n            \n        ",
+        "inner_html": "<div class=\"share-icon\"><i class=\"fab fa-facebook-f\"></i></div>"
+      },
+      {
+        "href": "https://twitter.com/intent/tweet?text=Filmaffinity%C2%A0en%20@filmaffinity%20https%3A%2F%2Fwww.filmaffinity.com%2Fes%2Fmain.html",
+        "inner_text": "\n            \n        ",
+        "inner_html": "<div class=\"share-icon\"><i class=\"fab fa-twitter\"></i></div>"
+      },
+      {
+        "href": "https://api.whatsapp.com/send?text=%C2%A0en%20@filmaffinity%20https%3A%2F%2Fwww.filmaffinity.com%2Fes%2Fmain.html",
+        "inner_text": "\n            \n        ",
+        "inner_html": "<div class=\"share-icon\"><i class=\"fab fa-whatsapp\"></i></div>"
+      }
+    ],
+    "keywords": [
+      {
+        "href": "https://www.filmaffinity.com/es/login.php?rp=https%3A%2F%2Fwww.filmaffinity.com%2Fes%2Fmain.html",
+        "inner_text": "Iniciar sesión",
+        "inner_html": "<strong>Iniciar sesión</strong>"
+      }
+    ]
+  },
+  "unsafeForms": [],
+  "browsing_history": [
+    "https://www.filmaffinity.com/es/main.html"
+  ],
+  "websockets": {},
+  "cookies": [
+    {
+      "name": "FCD",
+      "value": "KLV-OhUq6m3XB51Phqxx58BXONQ_NHE4WqJcKk0TEBuoEbO1-flQNavVmnY_kNJpwongZXd4JX9PGvQCPpfaCcMZsnK4Olly6yfBU9Hwg-3XimdmaqWByPQxD3vREV15127-sNICgXzX_X-ozJXYQEYHxkdL8yg4",
+      "domain": "filmaffinity.com",
+      "path": "/",
+      "expires": 1707924097.009152,
+      "size": 163,
+      "httpOnly": true,
+      "secure": true,
+      "session": false,
+      "expiresUTC": "2024-02-14T15:21:37.009Z",
+      "expiresDays": 1000,
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://filmaffinity.com/",
+            "source": "set in Set-Cookie HTTP response header for https://filmaffinity.com/"
+          }
+        ],
+        "type": "Cookie.HTTP",
+        "timestamp": "2021-05-20T15:21:37.014Z",
+        "location": "about:blank"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "_ga",
+      "value": "GA1.2.1809959238.1621524098",
+      "domain": "filmaffinity.com",
+      "path": "/",
+      "expires": 1684596097,
+      "size": 30,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2023-05-20T15:21:37.000Z",
+      "expiresDays": 730,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 495,
+            "lineNumber": 30,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "zc",
+            "source": "    at zc (https://www.google-analytics.com/analytics.js:30:495)"
+          },
+          {
+            "columnNumber": 15,
+            "lineNumber": 60,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "ma",
+            "source": "    at ma (https://www.google-analytics.com/analytics.js:60:15)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T15:21:37.919Z",
+        "location": "https://www.filmaffinity.com/es/main.html"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "UID",
+      "value": "1N6LCB3JHEJHIZWUEANGIKg1621524098",
+      "domain": "scorecardresearch.com",
+      "path": "/",
+      "expires": 1683732097.69791,
+      "size": 36,
+      "httpOnly": false,
+      "secure": true,
+      "session": false,
+      "sameSite": "None",
+      "expiresUTC": "2023-05-10T15:21:37.697Z",
+      "expiresDays": 720,
+      "firstPartyStorage": false
+    },
+    {
+      "name": "uuid2",
+      "value": "5882072335658999514",
+      "domain": "adnxs.com",
+      "path": "/",
+      "expires": 1629300098.927578,
+      "size": 24,
+      "httpOnly": true,
+      "secure": true,
+      "session": false,
+      "sameSite": "None",
+      "expiresUTC": "2021-08-18T15:21:38.927Z",
+      "expiresDays": 90,
+      "firstPartyStorage": false
+    },
+    {
+      "name": "anj",
+      "value": "dTM7k!M4/8CxrEQF']wIg2HbzGRG?U!1yIE'Yg-$0y=/d!!'>)$]27l",
+      "domain": "adnxs.com",
+      "path": "/",
+      "expires": 1629300098.927505,
+      "size": 58,
+      "httpOnly": true,
+      "secure": true,
+      "session": false,
+      "sameSite": "None",
+      "expiresUTC": "2021-08-18T15:21:38.927Z",
+      "expiresDays": 90,
+      "firstPartyStorage": false
+    },
+    {
+      "name": "client-data",
+      "value": "%7B%22ism%22%3Afalse%2C%22showm%22%3Afalse%2C%22ts%22%3A1621524097%7D",
+      "domain": "www.filmaffinity.com",
+      "path": "/es",
+      "expires": 1622820097.088951,
+      "size": 80,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2021-06-04T15:21:37.088Z",
+      "expiresDays": 15,
+      "firstPartyStorage": false
+    },
+    {
+      "name": "_gid",
+      "value": "GA1.2.1848928917.1621524098",
+      "domain": "filmaffinity.com",
+      "path": "/",
+      "expires": 1621610497,
+      "size": 31,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2021-05-21T15:21:37.000Z",
+      "expiresDays": 1,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 495,
+            "lineNumber": 30,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "zc",
+            "source": "    at zc (https://www.google-analytics.com/analytics.js:30:495)"
+          },
+          {
+            "columnNumber": 401,
+            "lineNumber": 59,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "ma",
+            "source": "    at ma (https://www.google-analytics.com/analytics.js:59:401)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T15:21:37.919Z",
+        "location": "https://www.filmaffinity.com/es/main.html"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "_gat",
+      "value": "1",
+      "domain": "filmaffinity.com",
+      "path": "/",
+      "expires": 1621524157,
+      "size": 5,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2021-05-20T15:22:37.000Z",
+      "expiresDays": 0,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 495,
+            "lineNumber": 30,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "zc",
+            "source": "    at zc (https://www.google-analytics.com/analytics.js:30:495)"
+          },
+          {
+            "columnNumber": 31,
+            "lineNumber": 73,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "Qd",
+            "source": "    at Qd (https://www.google-analytics.com/analytics.js:73:31)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T15:21:37.920Z",
+        "location": "https://www.filmaffinity.com/es/main.html"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "FSID",
+      "value": "ch016de13baj5ejlo4bbng3jpbmdnlmg1a3eggfvf2p9gfmu7ki18ldlht47mab5",
+      "domain": "filmaffinity.com",
+      "path": "/",
+      "expires": -1,
+      "size": 68,
+      "httpOnly": true,
+      "secure": true,
+      "session": true,
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://filmaffinity.com/",
+            "source": "set in Set-Cookie HTTP response header for https://filmaffinity.com/"
+          }
+        ],
+        "type": "Cookie.HTTP",
+        "timestamp": "2021-05-20T15:21:37.014Z",
+        "location": "about:blank"
+      },
+      "firstPartyStorage": true
+    }
+  ],
+  "localStorage": {
+    "https://www.filmaffinity.com": {
+      "CMPList": {
+        "value": {
+          "lastUpdated": "2021-05-06T17:03:14Z",
+          "CMP": [
+            "2",
+            "3",
+            "5",
+            "6",
+            "7",
+            "9",
+            "10",
+            "14",
+            "18",
+            "21",
+            "23",
+            "25",
+            "27",
+            "28",
+            "30",
+            "31",
+            "38",
+            "44",
+            "45",
+            "46",
+            "47",
+            "50",
+            "54",
+            "58",
+            "59",
+            "61",
+            "63",
+            "65",
+            "68",
+            "69",
+            "72",
+            "76",
+            "77",
+            "79",
+            "84",
+            "90",
+            "92",
+            "96",
+            "104",
+            "105",
+            "113",
+            "123",
+            "125",
+            "129",
+            "134",
+            "141",
+            "162",
+            "167",
+            "168",
+            "170",
+            "171",
+            "181",
+            "185",
+            "193",
+            "198",
+            "212",
+            "217",
+            "218",
+            "221",
+            "222",
+            "224",
+            "225",
+            "227",
+            "229",
+            "231",
+            "235",
+            "236",
+            "237",
+            "242",
+            "246",
+            "247",
+            "252",
+            "258",
+            "259",
+            "264",
+            "273",
+            "277",
+            "279",
+            "280",
+            "282",
+            "284",
+            "287",
+            "291",
+            "292",
+            "294",
+            "297",
+            "299",
+            "300",
+            "302",
+            "303",
+            "304",
+            "305",
+            "306",
+            "307",
+            "308",
+            "309",
+            "310",
+            "312",
+            "316",
+            "318",
+            "319",
+            "321",
+            "322",
+            "323",
+            "327",
+            "329",
+            "330",
+            "332",
+            "335",
+            "338",
+            "339",
+            "343",
+            "345",
+            "348",
+            "350",
+            "351",
+            "352",
+            "353",
+            "355",
+            "358",
+            "359",
+            "360",
+            "361",
+            "367",
+            "369"
+          ],
+          "expiry": 1621783298292
+        },
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 196982,
+              "lineNumber": 1,
+              "fileName": "https://quantcast.mgr.consensu.org/tcfv2/cmp2.js?referer=www.filmaffinity.com",
+              "functionName": "e.value",
+              "source": "    at e.value (https://quantcast.mgr.consensu.org/tcfv2/cmp2.js?referer=www.filmaffinity.com:1:196982)"
+            },
+            {
+              "columnNumber": 197204,
+              "lineNumber": 1,
+              "fileName": "https://quantcast.mgr.consensu.org/tcfv2/cmp2.js?referer=www.filmaffinity.com",
+              "functionName": "e.value",
+              "source": "    at e.value (https://quantcast.mgr.consensu.org/tcfv2/cmp2.js?referer=www.filmaffinity.com:1:197204)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T15:21:38.404Z",
+          "location": "https://www.filmaffinity.com/es/main.html"
+        }
+      }
+    }
+  },
+  "beacons": [
+    {
+      "url": "https://platform.twitter.com/jot.html",
+      "query": null,
+      "filter": "||twitter.com/jot.html",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "about:blank",
+            "source": "requested from about:blank and matched with easyprivacy.txt filter ||twitter.com/jot.html"
+          }
+        ],
+        "timestamp": "2021-05-20T15:21:45.060Z"
+      },
+      "occurrances": 2
+    },
+    {
+      "url": "https://syndication.twitter.com/i/jot",
+      "query": null,
+      "filter": "||twitter.com/i/jot",
+      "listName": "fanboy-annoyance.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "",
+            "source": "requested from  and matched with fanboy-annoyance.txt filter ||twitter.com/i/jot"
+          }
+        ],
+        "timestamp": "2021-05-20T15:21:44.896Z"
+      },
+      "occurrances": 6
+    },
+    {
+      "url": "https://www.google-analytics.com/collect?v=1&_v=j90&a=1175700103&t=timing&_s=2&dl=https%3A%2F%2Fwww.filmaffinity.com%2Fes%2Fmain.html&ul=en-us&de=UTF-8&dt=FilmAffinity&sd=24-bit&sr=1680x927&vp=1680x927&je=0&plt=1763&pdt=6&dns=0&rrt=190&srt=42&tcp=0&dit=887&clt=887&_gst=525&_gbt=1053&_u=IEBAAEABAAAAAC~&jid=&gjid=&cid=1809959238.1621524098&tid=UA-74155504-1&_gid=1848928917.1621524098&z=1615576843",
+      "query": {
+        "v": 1,
+        "_v": "j90",
+        "a": 1175700103,
+        "t": "timing",
+        "_s": 2,
+        "dl": "https://www.filmaffinity.com/es/main.html",
+        "ul": "en-us",
+        "de": "UTF-8",
+        "dt": "FilmAffinity",
+        "sd": "24-bit",
+        "sr": "1680x927",
+        "vp": "1680x927",
+        "je": 0,
+        "plt": 1763,
+        "pdt": 6,
+        "dns": 0,
+        "rrt": 190,
+        "srt": 42,
+        "tcp": 0,
+        "dit": 887,
+        "clt": 887,
+        "_gst": 525,
+        "_gbt": 1053,
+        "_u": "IEBAAEABAAAAAC~",
+        "jid": "",
+        "gjid": "",
+        "cid": 1809959238.1621525,
+        "tid": "UA-74155504-1",
+        "_gid": 1848928917.1621525,
+        "z": 1615576843
+      },
+      "filter": "||google-analytics.com/collect",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.filmaffinity.com/es/main.html",
+            "source": "requested from https://www.filmaffinity.com/es/main.html and matched with easyprivacy.txt filter ||google-analytics.com/collect"
+          }
+        ],
+        "timestamp": "2021-05-20T15:21:38.814Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://audit-tcfv2.quantcast.mgr.consensu.org/?log=%7B%22accountId%22%3A%22LBBrF-bdAtkuF%22%2C%22domain%22%3A%22www.filmaffinity.com%22%2C%22publisher%22%3A%22filmaffinity%22%2C%22cmpId%22%3A10%2C%22cmpVersion%22%3A%222.30%22%2C%22displayType%22%3A%22tcfui%3Amandatory%22%2C%22configurationHashCode%22%3A%22m9CfO0TCFnXYLkP3SNcCjQ%22%2C%22clientTimestamp%22%3A1621524098580%2C%22operationType%22%3A%22init%22%2C%22sessionId%22%3A%22GDPR-u6p01vae94dlltruv6cg%22%7D",
+      "query": {
+        "log": {
+          "accountId": "LBBrF-bdAtkuF",
+          "domain": "www.filmaffinity.com",
+          "publisher": "filmaffinity",
+          "cmpId": 10,
+          "cmpVersion": "2.30",
+          "displayType": "tcfui:mandatory",
+          "configurationHashCode": "m9CfO0TCFnXYLkP3SNcCjQ",
+          "clientTimestamp": 1621524098580,
+          "operationType": "init",
+          "sessionId": "GDPR-u6p01vae94dlltruv6cg"
+        }
+      },
+      "filter": "||consensu.org/?log=",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.filmaffinity.com/es/main.html",
+            "source": "requested from https://www.filmaffinity.com/es/main.html and matched with easyprivacy.txt filter ||consensu.org/?log="
+          }
+        ],
+        "timestamp": "2021-05-20T15:21:38.583Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://platform.twitter.com/js/timeline.28ecda9667eeb8e1b18898b99fee6c31.js",
+      "query": null,
+      "filter": "||twitter.com/js/timeline.$script,third-party",
+      "listName": "fanboy-annoyance.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.filmaffinity.com/es/main.html",
+            "source": "requested from https://www.filmaffinity.com/es/main.html and matched with fanboy-annoyance.txt filter ||twitter.com/js/timeline.$script,third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T15:21:38.306Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://rules.quantcount.com/rules-p-LBBrF-bdAtkuF.js",
+      "query": null,
+      "filter": "||quantcount.com^$third-party",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.filmaffinity.com/es/main.html",
+            "source": "requested from https://www.filmaffinity.com/es/main.html and matched with easyprivacy.txt filter ||quantcount.com^$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T15:21:38.040Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j90&tid=UA-74155504-1&cid=1809959238.1621524098&jid=1139108042&gjid=230326544&_gid=1848928917.1621524098&_u=IEBAAEAAAAAAAC~&z=2113578086",
+      "query": {
+        "t": "dc",
+        "aip": 1,
+        "_r": 3,
+        "v": 1,
+        "_v": "j90",
+        "tid": "UA-74155504-1",
+        "cid": 1809959238.1621525,
+        "jid": 1139108042,
+        "gjid": 230326544,
+        "_gid": 1848928917.1621525,
+        "_u": "IEBAAEAAAAAAAC~",
+        "z": 2113578086
+      },
+      "filter": "||stats.g.doubleclick.net^",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.filmaffinity.com/es/main.html",
+            "source": "requested from https://www.filmaffinity.com/es/main.html and matched with easyprivacy.txt filter ||stats.g.doubleclick.net^"
+          }
+        ],
+        "timestamp": "2021-05-20T15:21:37.986Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://www.google-analytics.com/j/collect?v=1&_v=j90&a=1175700103&t=pageview&_s=1&dl=https%3A%2F%2Fwww.filmaffinity.com%2Fes%2Fmain.html&ul=en-us&de=UTF-8&dt=FilmAffinity&sd=24-bit&sr=1680x927&vp=1680x927&je=0&_u=IEBAAEABAAAAAC~&jid=1139108042&gjid=230326544&cid=1809959238.1621524098&tid=UA-74155504-1&_gid=1848928917.1621524098&_r=1&_slc=1&z=501917045",
+      "query": {
+        "v": 1,
+        "_v": "j90",
+        "a": 1175700103,
+        "t": "pageview",
+        "_s": 1,
+        "dl": "https://www.filmaffinity.com/es/main.html",
+        "ul": "en-us",
+        "de": "UTF-8",
+        "dt": "FilmAffinity",
+        "sd": "24-bit",
+        "sr": "1680x927",
+        "vp": "1680x927",
+        "je": 0,
+        "_u": "IEBAAEABAAAAAC~",
+        "jid": 1139108042,
+        "gjid": 230326544,
+        "cid": 1809959238.1621525,
+        "tid": "UA-74155504-1",
+        "_gid": 1848928917.1621525,
+        "_r": 1,
+        "_slc": 1,
+        "z": 501917045
+      },
+      "filter": "/collect?*&cid=",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.filmaffinity.com/es/main.html",
+            "source": "requested from https://www.filmaffinity.com/es/main.html and matched with easyprivacy.txt filter /collect?*&cid="
+          }
+        ],
+        "timestamp": "2021-05-20T15:21:37.923Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://quantcast.mgr.consensu.org/tcfv2/cmp2.js?referer=www.filmaffinity.com",
+      "query": {
+        "referer": "www.filmaffinity.com"
+      },
+      "filter": ".js?referer=",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.filmaffinity.com/es/main.html",
+            "source": "requested from https://www.filmaffinity.com/es/main.html and matched with easyprivacy.txt filter .js?referer="
+          }
+        ],
+        "timestamp": "2021-05-20T15:21:37.833Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://secure.quantserve.com/quant.js",
+      "query": null,
+      "filter": "/quant.js",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.filmaffinity.com/es/main.html",
+            "source": "requested from https://www.filmaffinity.com/es/main.html and matched with easyprivacy.txt filter /quant.js"
+          }
+        ],
+        "timestamp": "2021-05-20T15:21:37.830Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Ffilmaffinity&tabs&width=305&height=170&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=true&appId",
+      "query": {
+        "href": "https://www.facebook.com/filmaffinity",
+        "tabs": null,
+        "width": 305,
+        "height": 170,
+        "small_header": true,
+        "adapt_container_width": true,
+        "hide_cover": false,
+        "show_facepile": true,
+        "appId": null
+      },
+      "filter": "||facebook.com/plugins/page.php?$third-party",
+      "listName": "fanboy-annoyance.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "",
+            "source": "requested from  and matched with fanboy-annoyance.txt filter ||facebook.com/plugins/page.php?$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T15:21:37.829Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://sb.scorecardresearch.com/b2?c1=2&c2=13181121&ns__t=1621524097657&ns_c=UTF-8&cv=3.5&c8=FilmAffinity&c7=https%3A%2F%2Fwww.filmaffinity.com%2Fes%2Fmain.html&c9=",
+      "query": {
+        "c1": 2,
+        "c2": 13181121,
+        "ns__t": 1621524097657,
+        "ns_c": "UTF-8",
+        "cv": 3.5,
+        "c8": "FilmAffinity",
+        "c7": "https://www.filmaffinity.com/es/main.html",
+        "c9": ""
+      },
+      "filter": "||scorecardresearch.com^$third-party",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.filmaffinity.com/es/main.html",
+            "source": "requested from https://www.filmaffinity.com/es/main.html and matched with easyprivacy.txt filter ||scorecardresearch.com^$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T15:21:37.740Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://platform.twitter.com/widgets/widget_iframe.06c6ee58c3810956b7509218508c7b56.html?origin=https%3A%2F%2Fwww.filmaffinity.com",
+      "query": {
+        "origin": "https://www.filmaffinity.com"
+      },
+      "filter": "||platform.twitter.com*/widgets/$third-party",
+      "listName": "fanboy-annoyance.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "",
+            "source": "requested from  and matched with fanboy-annoyance.txt filter ||platform.twitter.com*/widgets/$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T15:21:37.727Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://sb.scorecardresearch.com/b?c1=2&c2=13181121&ns__t=1621524097657&ns_c=UTF-8&cv=3.5&c8=FilmAffinity&c7=https%3A%2F%2Fwww.filmaffinity.com%2Fes%2Fmain.html&c9=",
+      "query": {
+        "c1": 2,
+        "c2": 13181121,
+        "ns__t": 1621524097657,
+        "ns_c": "UTF-8",
+        "cv": 3.5,
+        "c8": "FilmAffinity",
+        "c7": "https://www.filmaffinity.com/es/main.html",
+        "c9": ""
+      },
+      "filter": "||scorecardresearch.com^$third-party",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.filmaffinity.com/es/main.html",
+            "source": "requested from https://www.filmaffinity.com/es/main.html and matched with easyprivacy.txt filter ||scorecardresearch.com^$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T15:21:37.660Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://www.google-analytics.com/analytics.js",
+      "query": null,
+      "filter": "||google-analytics.com/analytics.js",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.filmaffinity.com/es/main.html",
+            "source": "requested from https://www.filmaffinity.com/es/main.html and matched with easyprivacy.txt filter ||google-analytics.com/analytics.js"
+          }
+        ],
+        "timestamp": "2021-05-20T15:21:37.365Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://sb.scorecardresearch.com/beacon.js",
+      "query": null,
+      "filter": "||scorecardresearch.com^$third-party",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.filmaffinity.com/es/main.html",
+            "source": "requested from https://www.filmaffinity.com/es/main.html and matched with easyprivacy.txt filter ||scorecardresearch.com^$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T15:21:37.364Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://www.filmaffinity.com/images/fb_main.png",
+      "query": null,
+      "filter": "/images/fb_",
+      "listName": "fanboy-annoyance.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.filmaffinity.com/es/main.html",
+            "source": "requested from https://www.filmaffinity.com/es/main.html and matched with fanboy-annoyance.txt filter /images/fb_"
+          }
+        ],
+        "timestamp": "2021-05-20T15:21:37.170Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://www.filmaffinity.com/images/tw_main.png",
+      "query": null,
+      "filter": "/images/tw_",
+      "listName": "fanboy-annoyance.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.filmaffinity.com/es/main.html",
+            "source": "requested from https://www.filmaffinity.com/es/main.html and matched with fanboy-annoyance.txt filter /images/tw_"
+          }
+        ],
+        "timestamp": "2021-05-20T15:21:37.169Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://www.filmaffinity.com/images/arrow-up2.png",
+      "query": null,
+      "filter": "||filmaffinity.com^*/arrow-up2.",
+      "listName": "fanboy-annoyance.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.filmaffinity.com/es/main.html",
+            "source": "requested from https://www.filmaffinity.com/es/main.html and matched with fanboy-annoyance.txt filter ||filmaffinity.com^*/arrow-up2."
+          }
+        ],
+        "timestamp": "2021-05-20T15:21:37.162Z"
+      },
+      "occurrances": 1
+    }
+  ],
+  "hosts": {
+    "requests": {
+      "firstParty": [
+        "filmaffinity.com"
+      ],
+      "thirdParty": [
+        "www.filmaffinity.com",
+        "sc-devel.s3.eu-central-1.amazonaws.com",
+        "s3.eu-central-1.amazonaws.com",
+        "cdn.smartclip-services.com",
+        "pics.filmaffinity.com",
+        "platform.twitter.com",
+        "quantcast.mgr.consensu.org",
+        "sb.scorecardresearch.com",
+        "www.google-analytics.com",
+        "www.facebook.com",
+        "secure.quantserve.com",
+        "smartclipcloud.compat.objectstorage.eu-frankfurt-1.oraclecloud.com",
+        "stats.g.doubleclick.net",
+        "syndication.twitter.com",
+        "rules.quantcount.com",
+        "scontent.xx.fbcdn.net",
+        "test.quantcast.mgr.consensu.org",
+        "cdn.syndication.twimg.com",
+        "abs.twimg.com",
+        "pbs.twimg.com",
+        "audit-tcfv2.quantcast.mgr.consensu.org",
+        "secure.adnxs.com",
+        "ton.twimg.com"
+      ]
+    },
+    "beacons": {
+      "firstParty": [],
+      "thirdParty": [
+        "platform.twitter.com",
+        "syndication.twitter.com",
+        "www.google-analytics.com",
+        "audit-tcfv2.quantcast.mgr.consensu.org",
+        "rules.quantcount.com",
+        "stats.g.doubleclick.net",
+        "quantcast.mgr.consensu.org",
+        "secure.quantserve.com",
+        "sb.scorecardresearch.com"
+      ]
+    },
+    "cookies": {
+      "firstParty": [
+        "filmaffinity.com"
+      ],
+      "thirdParty": [
+        "www.filmaffinity.com",
+        "scorecardresearch.com",
+        "adnxs.com"
+      ]
+    },
+    "localStorage": {
+      "firstParty": [],
+      "thirdParty": [
+        "www.filmaffinity.com"
+      ]
+    },
+    "links": {
+      "firstParty": [],
+      "thirdParty": [
+        "www.filmaffinity.com",
+        "www.facebook.com",
+        "twitter.com",
+        "www.instagram.com",
+        "api.whatsapp.com",
+        "m.filmaffinity.com"
+      ]
+    }
+  }
+}

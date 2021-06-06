@@ -1,0 +1,854 @@
+{
+  "title": "Website Evidence Collection",
+  "task_description": null,
+  "uri_ins": "https://sonicbit.net",
+  "uri_refs": [
+    "https://sonicbit.net"
+  ],
+  "uri_dest": "https://www.sonicbit.net/",
+  "uri_redirects": [
+    "https://sonicbit.net/"
+  ],
+  "secure_connection": {
+    "https_support": false,
+    "https_error": "RequestError: Error [ERR_TLS_CERT_ALTNAME_INVALID]: Hostname/IP does not match certificate's altnames: Host: sonicbit.net. is not in the cert's altnames: DNS:www.sonicbit.net",
+    "redirects": [
+      "https://www.sonicbit.net/"
+    ],
+    "https_redirect": true
+  },
+  "host": "sonicbit.net",
+  "script": {
+    "host": "sfod",
+    "version": {
+      "npm": "1.0.0",
+      "commit": null
+    },
+    "cmd_args": "-q --overwrite https://sonicbit.net -- --ignore-certificate-errors",
+    "environment": {
+      "CHROME_DESKTOP": "code-url-handler.desktop"
+    },
+    "node_version": "v14.17.0"
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "HeadlessChrome/80.0.3987.0",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3617.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "5.8.0-53-generic"
+    },
+    "extra_headers": {},
+    "preset_cookies": {}
+  },
+  "start_time": "2021-05-20T16:10:25.976Z",
+  "end_time": "2021-05-20T16:10:34.752Z",
+  "links": {
+    "firstParty": [],
+    "thirdParty": [
+      {
+        "href": "https://www.sonicbit.net/",
+        "inner_text": "",
+        "inner_html": "<!-- BEGIN LOGO -->\n          <img src=\"assets/img/logo/sblogo_wt_white.png\" width=\"140\" data-src-retina=\"assets/img/logo/sblogo_wt_white.png\" class=\"logo\" alt=\"\">\n          <img src=\"assets/img/logo/sblogo_wt_white.png\" width=\"120\" data-src-retina=\"assets/img/logo/sblogo_wt_white.png\" class=\"alt\" alt=\"\" style=\"\">"
+      },
+      {
+        "href": "https://www.sonicbit.net/pricing",
+        "inner_text": "PRICING",
+        "inner_html": "Pricing"
+      },
+      {
+        "href": "https://dash.sonicbit.net/login",
+        "inner_text": "LOGIN",
+        "inner_html": "Login"
+      },
+      {
+        "href": "https://dash.sonicbit.net/register",
+        "inner_text": "REGISTER",
+        "inner_html": "Register"
+      },
+      {
+        "href": "https://apple.co/2sQBo52",
+        "inner_text": " ",
+        "inner_html": "<img src=\"https://www.sonicbit.net/assets/img/app_store_button.png\" class=\"\" alt=\"\" width=\"160\">"
+      },
+      {
+        "href": "http://bit.ly/2SbWW6K",
+        "inner_text": "",
+        "inner_html": "<img src=\"https://www.sonicbit.net/assets/img/google_play_button.png\" class=\"\" alt=\"\" width=\"160\">"
+      },
+      {
+        "href": "https://alternativeto.net/software/sonic-seedbox/about/",
+        "inner_text": "Alternativato.net",
+        "inner_html": "Alternativato.net"
+      },
+      {
+        "href": "https://www.sonicbit.net/privacy-policy",
+        "inner_text": "Privacy Policy",
+        "inner_html": "Privacy Policy"
+      },
+      {
+        "href": "https://www.sonicbit.net/terms-of-use",
+        "inner_text": "Terms Of Use",
+        "inner_html": "Terms Of Use"
+      }
+    ],
+    "social": [
+      {
+        "href": "http://bit.ly/2SbWW6K",
+        "inner_text": "",
+        "inner_html": "<img src=\"https://www.sonicbit.net/assets/img/google_play_button.png\" class=\"\" alt=\"\" width=\"160\">"
+      }
+    ],
+    "keywords": [
+      {
+        "href": "https://dash.sonicbit.net/login",
+        "inner_text": "LOGIN",
+        "inner_html": "Login"
+      },
+      {
+        "href": "https://www.sonicbit.net/privacy-policy",
+        "inner_text": "Privacy Policy",
+        "inner_html": "Privacy Policy"
+      }
+    ]
+  },
+  "unsafeForms": [],
+  "browsing_history": [
+    "https://www.sonicbit.net/"
+  ],
+  "websockets": {},
+  "cookies": [
+    {
+      "name": "_ga",
+      "value": "GA1.2.285570387.1621527027",
+      "domain": "sonicbit.net",
+      "path": "/",
+      "expires": 1684599027,
+      "size": 29,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2023-05-20T16:10:27.000Z",
+      "expiresDays": 730,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 495,
+            "lineNumber": 30,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "zc",
+            "source": "    at zc (https://www.google-analytics.com/analytics.js:30:495)"
+          },
+          {
+            "columnNumber": 15,
+            "lineNumber": 60,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "ma",
+            "source": "    at ma (https://www.google-analytics.com/analytics.js:60:15)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T16:10:27.467Z",
+        "location": "https://www.sonicbit.net/"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "_fw_crm_v",
+      "value": "d6acc888-e9bb-4628-fdd1-4265d0a24951",
+      "domain": "www.sonicbit.net",
+      "path": "/",
+      "expires": 1653063028,
+      "size": 45,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "sameSite": "Lax",
+      "expiresUTC": "2022-05-20T16:10:28.000Z",
+      "expiresDays": 365,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 23,
+            "lineNumber": 34,
+            "fileName": "https://wchat.freshchat.com/js/widget.js",
+            "functionName": "Object.setCookie",
+            "source": "    at Object.setCookie (https://wchat.freshchat.com/js/widget.js:34:23)"
+          },
+          {
+            "columnNumber": 87,
+            "lineNumber": 36,
+            "fileName": "https://wchat.freshchat.com/js/widget.js",
+            "functionName": "Object.getCookie",
+            "source": "    at Object.getCookie (https://wchat.freshchat.com/js/widget.js:36:87)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T16:10:28.833Z",
+        "location": "https://www.sonicbit.net/"
+      },
+      "firstPartyStorage": false
+    },
+    {
+      "name": "HstCfa4486355",
+      "value": "1621527027862",
+      "domain": "www.sonicbit.net",
+      "path": "/",
+      "expires": 1653063027,
+      "size": 26,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2022-05-20T16:10:27.000Z",
+      "expiresDays": 365,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 5390,
+            "lineNumber": 1,
+            "fileName": "https://s10.histats.com/js15_as.js",
+            "functionName": "Mn",
+            "source": "    at Mn (https://s10.histats.com/js15_as.js:1:5390)"
+          },
+          {
+            "columnNumber": 5457,
+            "lineNumber": 1,
+            "fileName": "https://s10.histats.com/js15_as.js",
+            "functionName": "qn",
+            "source": "    at qn (https://s10.histats.com/js15_as.js:1:5457)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T16:10:27.876Z",
+        "location": "https://www.sonicbit.net/"
+      },
+      "firstPartyStorage": false
+    },
+    {
+      "name": "HstCla4486355",
+      "value": "1621527027862",
+      "domain": "www.sonicbit.net",
+      "path": "/",
+      "expires": 1653063027,
+      "size": 26,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2022-05-20T16:10:27.000Z",
+      "expiresDays": 365,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 5390,
+            "lineNumber": 1,
+            "fileName": "https://s10.histats.com/js15_as.js",
+            "functionName": "Mn",
+            "source": "    at Mn (https://s10.histats.com/js15_as.js:1:5390)"
+          },
+          {
+            "columnNumber": 5457,
+            "lineNumber": 1,
+            "fileName": "https://s10.histats.com/js15_as.js",
+            "functionName": "qn",
+            "source": "    at qn (https://s10.histats.com/js15_as.js:1:5457)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T16:10:27.877Z",
+        "location": "https://www.sonicbit.net/"
+      },
+      "firstPartyStorage": false
+    },
+    {
+      "name": "HstCmu4486355",
+      "value": "1621527027862",
+      "domain": "www.sonicbit.net",
+      "path": "/",
+      "expires": 1653063027,
+      "size": 26,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2022-05-20T16:10:27.000Z",
+      "expiresDays": 365,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 5390,
+            "lineNumber": 1,
+            "fileName": "https://s10.histats.com/js15_as.js",
+            "functionName": "Mn",
+            "source": "    at Mn (https://s10.histats.com/js15_as.js:1:5390)"
+          },
+          {
+            "columnNumber": 5457,
+            "lineNumber": 1,
+            "fileName": "https://s10.histats.com/js15_as.js",
+            "functionName": "qn",
+            "source": "    at qn (https://s10.histats.com/js15_as.js:1:5457)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T16:10:27.878Z",
+        "location": "https://www.sonicbit.net/"
+      },
+      "firstPartyStorage": false
+    },
+    {
+      "name": "HstPn4486355",
+      "value": "1",
+      "domain": "www.sonicbit.net",
+      "path": "/",
+      "expires": 1653063027,
+      "size": 13,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2022-05-20T16:10:27.000Z",
+      "expiresDays": 365,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 5390,
+            "lineNumber": 1,
+            "fileName": "https://s10.histats.com/js15_as.js",
+            "functionName": "Mn",
+            "source": "    at Mn (https://s10.histats.com/js15_as.js:1:5390)"
+          },
+          {
+            "columnNumber": 5457,
+            "lineNumber": 1,
+            "fileName": "https://s10.histats.com/js15_as.js",
+            "functionName": "qn",
+            "source": "    at qn (https://s10.histats.com/js15_as.js:1:5457)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T16:10:27.879Z",
+        "location": "https://www.sonicbit.net/"
+      },
+      "firstPartyStorage": false
+    },
+    {
+      "name": "HstPt4486355",
+      "value": "1",
+      "domain": "www.sonicbit.net",
+      "path": "/",
+      "expires": 1653063027,
+      "size": 13,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2022-05-20T16:10:27.000Z",
+      "expiresDays": 365,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 5390,
+            "lineNumber": 1,
+            "fileName": "https://s10.histats.com/js15_as.js",
+            "functionName": "Mn",
+            "source": "    at Mn (https://s10.histats.com/js15_as.js:1:5390)"
+          },
+          {
+            "columnNumber": 5457,
+            "lineNumber": 1,
+            "fileName": "https://s10.histats.com/js15_as.js",
+            "functionName": "qn",
+            "source": "    at qn (https://s10.histats.com/js15_as.js:1:5457)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T16:10:27.879Z",
+        "location": "https://www.sonicbit.net/"
+      },
+      "firstPartyStorage": false
+    },
+    {
+      "name": "HstCnv4486355",
+      "value": "1",
+      "domain": "www.sonicbit.net",
+      "path": "/",
+      "expires": 1653063027,
+      "size": 14,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2022-05-20T16:10:27.000Z",
+      "expiresDays": 365,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 5390,
+            "lineNumber": 1,
+            "fileName": "https://s10.histats.com/js15_as.js",
+            "functionName": "Mn",
+            "source": "    at Mn (https://s10.histats.com/js15_as.js:1:5390)"
+          },
+          {
+            "columnNumber": 5457,
+            "lineNumber": 1,
+            "fileName": "https://s10.histats.com/js15_as.js",
+            "functionName": "qn",
+            "source": "    at qn (https://s10.histats.com/js15_as.js:1:5457)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T16:10:27.879Z",
+        "location": "https://www.sonicbit.net/"
+      },
+      "firstPartyStorage": false
+    },
+    {
+      "name": "HstCns4486355",
+      "value": "1",
+      "domain": "www.sonicbit.net",
+      "path": "/",
+      "expires": 1653063027,
+      "size": 14,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2022-05-20T16:10:27.000Z",
+      "expiresDays": 365,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 5390,
+            "lineNumber": 1,
+            "fileName": "https://s10.histats.com/js15_as.js",
+            "functionName": "Mn",
+            "source": "    at Mn (https://s10.histats.com/js15_as.js:1:5390)"
+          },
+          {
+            "columnNumber": 5457,
+            "lineNumber": 1,
+            "fileName": "https://s10.histats.com/js15_as.js",
+            "functionName": "qn",
+            "source": "    at qn (https://s10.histats.com/js15_as.js:1:5457)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T16:10:27.882Z",
+        "location": "https://www.sonicbit.net/"
+      },
+      "firstPartyStorage": false
+    },
+    {
+      "name": "_gid",
+      "value": "GA1.2.503072297.1621527027",
+      "domain": "sonicbit.net",
+      "path": "/",
+      "expires": 1621613427,
+      "size": 30,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2021-05-21T16:10:27.000Z",
+      "expiresDays": 1,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 495,
+            "lineNumber": 30,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "zc",
+            "source": "    at zc (https://www.google-analytics.com/analytics.js:30:495)"
+          },
+          {
+            "columnNumber": 401,
+            "lineNumber": 59,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "ma",
+            "source": "    at ma (https://www.google-analytics.com/analytics.js:59:401)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T16:10:27.468Z",
+        "location": "https://www.sonicbit.net/"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "sonicbit_session",
+      "value": "eyJpdiI6IkZVeUNMLzBmaUhaMGM2b1NVMFhGUXc9PSIsInZhbHVlIjoieS9YWWxwRFFJV0F6WUE5WHJpOE9KWXh1dFlKQ25iN0FYaVNabkxzUjhjMFRtaVRJRGhwN0NDSmw0ZnRLNEIrRTFkSWVoUFJoNGNaSWhWZEoyTjVmZndjWXJYTStGWmpsYTZKUkZRSGU2V2UrOXA3NWwvMVNNSXBjR1FMRVNzZ0EiLCJtYWMiOiIwY2VhYjhlMzUzMjUwMTY5OWZlYzRmMzIxZWFkZmRkNmQ4NzNmZDI4OTkwMTBmNTFjNmE0N2QzZDM1YTEzOTQwIn0%3D",
+      "domain": "www.sonicbit.net",
+      "path": "/",
+      "expires": 1621534226.612971,
+      "size": 346,
+      "httpOnly": true,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2021-05-20T18:10:26.612Z",
+      "expiresDays": 0.08,
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.sonicbit.net/",
+            "source": "set in Set-Cookie HTTP response header for https://www.sonicbit.net/"
+          }
+        ],
+        "type": "Cookie.HTTP",
+        "timestamp": "2021-05-20T16:10:26.618Z",
+        "location": "about:blank"
+      },
+      "firstPartyStorage": false
+    },
+    {
+      "name": "XSRF-TOKEN",
+      "value": "eyJpdiI6IlVQZWpNV3ZCdUsveURERlZHNXBvaEE9PSIsInZhbHVlIjoiK2cwc3BWQW50cFVqT1NYTjlXdWdBOXFEOXVVYTlEM1Z0TGFPOXNZUHhOMzdGdmVFOHM3TnlhazluQjdUNjhyc2REd1lRWFZKeE9aNWZwZVVQRTN1a0YyWk8waUxqMjlhL1k2eXBnM1JJY1JKM3JuODBaTzFCeVpFUjdZT25XWTgiLCJtYWMiOiJhNDY0OTNmMjc4YWMxNzcyNTFmMWRkNjM1NTEwNGVmZDMzYTdiZjNmMGIzNzhkMDVkZDUxYzg2YzU0YzExNjdlIn0%3D",
+      "domain": "www.sonicbit.net",
+      "path": "/",
+      "expires": 1621534226.612862,
+      "size": 340,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2021-05-20T18:10:26.612Z",
+      "expiresDays": 0.08,
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.sonicbit.net/",
+            "source": "set in Set-Cookie HTTP response header for https://www.sonicbit.net/"
+          }
+        ],
+        "type": "Cookie.HTTP",
+        "timestamp": "2021-05-20T16:10:26.618Z",
+        "location": "about:blank"
+      },
+      "firstPartyStorage": false
+    },
+    {
+      "name": "_gat_gtag_UA_165869056_1",
+      "value": "1",
+      "domain": "sonicbit.net",
+      "path": "/",
+      "expires": 1621527087,
+      "size": 25,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2021-05-20T16:11:27.000Z",
+      "expiresDays": 0,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 495,
+            "lineNumber": 30,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "zc",
+            "source": "    at zc (https://www.google-analytics.com/analytics.js:30:495)"
+          },
+          {
+            "columnNumber": 31,
+            "lineNumber": 73,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "Qd",
+            "source": "    at Qd (https://www.google-analytics.com/analytics.js:73:31)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T16:10:27.469Z",
+        "location": "https://www.sonicbit.net/"
+      },
+      "firstPartyStorage": true
+    }
+  ],
+  "localStorage": {
+    "https://www.sonicbit.net": {
+      "c4e6fd8f-de3b-4d95-8e09-07475b7634c3": {
+        "value": {
+          "isUserCreateSent": false,
+          "subDomainName": "sonicbit-dashboard",
+          "lastActivitySent": "2021-05-20T16:10:30.269Z"
+        },
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 33,
+              "lineNumber": 221,
+              "fileName": "https://wchat.freshchat.com/js/widget.js",
+              "functionName": "Object.onMessage",
+              "source": "    at Object.onMessage (https://wchat.freshchat.com/js/widget.js:221:33)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T16:10:30.272Z",
+          "location": "https://www.sonicbit.net/"
+        }
+      }
+    },
+    "https://wchat.freshchat.com": {
+      "c4e6fd8f-de3b-4d95-8e09-07475b7634c3": {
+        "value": {
+          "isUserCreateSent": false,
+          "subDomainName": "sonicbit-dashboard",
+          "lastActivitySent": "2021-05-20T16:10:30.269Z"
+        },
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 27,
+              "lineNumber": 3950,
+              "fileName": "https://assetscdn-wchat.freshchat.com/static/assets/fc_web_widget-ea06a55eb9ea3696b7a2211587ddd08e.js",
+              "functionName": "a.value",
+              "source": "    at a.value (https://assetscdn-wchat.freshchat.com/static/assets/fc_web_widget-ea06a55eb9ea3696b7a2211587ddd08e.js:3950:27)"
+            },
+            {
+              "columnNumber": 326,
+              "lineNumber": 2316,
+              "fileName": "https://assetscdn-wchat.freshchat.com/static/assets/fc_web_widget-ea06a55eb9ea3696b7a2211587ddd08e.js",
+              "source": "    at https://assetscdn-wchat.freshchat.com/static/assets/fc_web_widget-ea06a55eb9ea3696b7a2211587ddd08e.js:2316:326"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T16:10:30.271Z",
+          "location": "https://www.sonicbit.net"
+        }
+      },
+      "hop-c4e6fd8f-de3b-4d95-8e09-07475b7634c3": {
+        "value": {
+          "hop": "1621527029335"
+        },
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 27,
+              "lineNumber": 3950,
+              "fileName": "https://assetscdn-wchat.freshchat.com/static/assets/fc_web_widget-ea06a55eb9ea3696b7a2211587ddd08e.js",
+              "functionName": "a.value",
+              "source": "    at a.value (https://assetscdn-wchat.freshchat.com/static/assets/fc_web_widget-ea06a55eb9ea3696b7a2211587ddd08e.js:3950:27)"
+            },
+            {
+              "columnNumber": 61,
+              "lineNumber": 3392,
+              "fileName": "https://assetscdn-wchat.freshchat.com/static/assets/fc_web_widget-ea06a55eb9ea3696b7a2211587ddd08e.js",
+              "functionName": "s.value",
+              "source": "    at s.value (https://assetscdn-wchat.freshchat.com/static/assets/fc_web_widget-ea06a55eb9ea3696b7a2211587ddd08e.js:3392:61)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T16:10:30.241Z",
+          "location": "https://www.sonicbit.net"
+        }
+      },
+      "debug": {
+        "value": "undefined",
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 53852,
+              "lineNumber": 1,
+              "fileName": "https://rts-static-prod.freshworksapi.com/us/rts-min.js",
+              "functionName": "Function.r.save",
+              "source": "    at Function.r.save (https://rts-static-prod.freshworksapi.com/us/rts-min.js:1:53852)"
+            },
+            {
+              "columnNumber": 55130,
+              "lineNumber": 1,
+              "fileName": "https://rts-static-prod.freshworksapi.com/us/rts-min.js",
+              "functionName": "Function.s.enable",
+              "source": "    at Function.s.enable (https://rts-static-prod.freshworksapi.com/us/rts-min.js:1:55130)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T16:10:29.738Z",
+          "location": "https://www.sonicbit.net"
+        }
+      }
+    }
+  },
+  "beacons": [
+    {
+      "url": "https://s4.histats.com/stats/0.php?4486355&@f16&@g1&@h1&@i1&@j1621527027862&@k0&@l1&@mSonicBit%20-%20Store%20every%20Bit%20of%20your%20files&@n0&@o1000&@q0&@r0&@s0&@ten-US&@u1680&@b1:130714226&@b3:1621527028&@b4:js15_as.js&@b5:120&@a-_0.2.1&@vhttps%3A%2F%2Fwww.sonicbit.net%2F&@w",
+      "query": {
+        "4486355": null,
+        "@f16": null,
+        "@g1": null,
+        "@h1": null,
+        "@i1": null,
+        "@j1621527027862": null,
+        "@k0": null,
+        "@l1": null,
+        "@mSonicBit%20-%20Store%20every%20Bit%20of%20your%20files": null,
+        "@n0": null,
+        "@o1000": null,
+        "@q0": null,
+        "@r0": null,
+        "@s0": null,
+        "@ten-US": null,
+        "@u1680": null,
+        "@b1:130714226": null,
+        "@b3:1621527028": null,
+        "@b4:js15_as.js": null,
+        "@b5:120": null,
+        "@a-_0.2.1": null,
+        "@vhttps%3A%2F%2Fwww.sonicbit.net%2F": null,
+        "@w": null
+      },
+      "filter": "||histats.com^$third-party",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.sonicbit.net/",
+            "source": "requested from https://www.sonicbit.net/ and matched with easyprivacy.txt filter ||histats.com^$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T16:10:27.883Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://www.google-analytics.com/j/collect?v=1&_v=j90&a=105267221&t=pageview&_s=1&dl=https%3A%2F%2Fwww.sonicbit.net%2F&ul=en-us&de=UTF-8&dt=SonicBit%20-%20Store%20every%20Bit%20of%20your%20files&sd=24-bit&sr=1680x927&vp=1680x927&je=0&_u=YEBAAUABAAAAAC~&jid=877410626&gjid=1596452314&cid=285570387.1621527027&tid=UA-165869056-1&_gid=503072297.1621527027&_r=1&gtm=2ou5c1&z=508228714",
+      "query": {
+        "v": 1,
+        "_v": "j90",
+        "a": 105267221,
+        "t": "pageview",
+        "_s": 1,
+        "dl": "https://www.sonicbit.net/",
+        "ul": "en-us",
+        "de": "UTF-8",
+        "dt": "SonicBit - Store every Bit of your files",
+        "sd": "24-bit",
+        "sr": "1680x927",
+        "vp": "1680x927",
+        "je": 0,
+        "_u": "YEBAAUABAAAAAC~",
+        "jid": 877410626,
+        "gjid": 1596452314,
+        "cid": 285570387.1621527,
+        "tid": "UA-165869056-1",
+        "_gid": 503072297.1621527,
+        "_r": 1,
+        "gtm": "2ou5c1",
+        "z": 508228714
+      },
+      "filter": "/collect?*&cid=",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.sonicbit.net/",
+            "source": "requested from https://www.sonicbit.net/ and matched with easyprivacy.txt filter /collect?*&cid="
+          }
+        ],
+        "timestamp": "2021-05-20T16:10:27.472Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://s10.histats.com/js15_as.js",
+      "query": null,
+      "filter": "||histats.com^$third-party",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.sonicbit.net/",
+            "source": "requested from https://www.sonicbit.net/ and matched with easyprivacy.txt filter ||histats.com^$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T16:10:27.404Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://www.google-analytics.com/analytics.js",
+      "query": null,
+      "filter": "||google-analytics.com/analytics.js",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.sonicbit.net/",
+            "source": "requested from https://www.sonicbit.net/ and matched with easyprivacy.txt filter ||google-analytics.com/analytics.js"
+          }
+        ],
+        "timestamp": "2021-05-20T16:10:26.830Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://www.googletagmanager.com/gtag/js?id=UA-165869056-1",
+      "query": {
+        "id": "UA-165869056-1"
+      },
+      "filter": "||googletagmanager.com/gtag/$third-party",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.sonicbit.net/",
+            "source": "requested from https://www.sonicbit.net/ and matched with easyprivacy.txt filter ||googletagmanager.com/gtag/$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T16:10:26.645Z"
+      },
+      "occurrances": 1
+    }
+  ],
+  "hosts": {
+    "requests": {
+      "firstParty": [
+        "sonicbit.net"
+      ],
+      "thirdParty": [
+        "www.sonicbit.net",
+        "www.googletagmanager.com",
+        "stackpath.bootstrapcdn.com",
+        "d4hm2u4pioc0c.cloudfront.net",
+        "www.google-analytics.com",
+        "fonts.googleapis.com",
+        "fonts.gstatic.com",
+        "s10.histats.com",
+        "s4.histats.com",
+        "wchat.freshchat.com",
+        "assetscdn-wchat.freshchat.com",
+        "rts-static-prod.freshworksapi.com",
+        "fc-use1-00-pics-bkt-00.s3.amazonaws.com",
+        "https"
+      ]
+    },
+    "beacons": {
+      "firstParty": [],
+      "thirdParty": [
+        "s4.histats.com",
+        "www.google-analytics.com",
+        "s10.histats.com",
+        "www.googletagmanager.com"
+      ]
+    },
+    "cookies": {
+      "firstParty": [
+        "sonicbit.net"
+      ],
+      "thirdParty": [
+        "www.sonicbit.net"
+      ]
+    },
+    "localStorage": {
+      "firstParty": [],
+      "thirdParty": [
+        "www.sonicbit.net",
+        "wchat.freshchat.com"
+      ]
+    },
+    "links": {
+      "firstParty": [],
+      "thirdParty": [
+        "www.sonicbit.net",
+        "dash.sonicbit.net",
+        "apple.co",
+        "bit.ly",
+        "alternativeto.net"
+      ]
+    }
+  }
+}

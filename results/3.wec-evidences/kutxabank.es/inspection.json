@@ -1,0 +1,271 @@
+{
+  "title": "Website Evidence Collection",
+  "task_description": null,
+  "uri_ins": "https://kutxabank.es",
+  "uri_refs": [
+    "https://kutxabank.es"
+  ],
+  "uri_dest": "https://portal.kutxabank.es/cs/Satellite?pagename=PortalKutxabank/Page/PK_idioma",
+  "uri_redirects": [
+    "https://kutxabank.es/"
+  ],
+  "secure_connection": {
+    "https_support": true,
+    "redirects": [
+      "https://portal.kutxabank.es/cs/Satellite?pagename=PortalKutxabank/Page/PK_idioma"
+    ],
+    "https_redirect": true
+  },
+  "host": "kutxabank.es",
+  "script": {
+    "host": "sfod",
+    "version": {
+      "npm": "1.0.0",
+      "commit": null
+    },
+    "cmd_args": "-q --overwrite https://kutxabank.es -- --ignore-certificate-errors",
+    "environment": {
+      "CHROME_DESKTOP": "code-url-handler.desktop"
+    },
+    "node_version": "v14.17.0"
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "HeadlessChrome/80.0.3987.0",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3617.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "5.8.0-53-generic"
+    },
+    "extra_headers": {},
+    "preset_cookies": {}
+  },
+  "start_time": "2021-05-20T16:13:00.383Z",
+  "end_time": "2021-05-20T16:13:06.387Z",
+  "links": {
+    "firstParty": [],
+    "thirdParty": [
+      {
+        "href": "https://portal.kutxabank.es/cs/Satellite/kb/eu/partikularrak",
+        "inner_text": "Euskara\nHautatu zure hizkuntza",
+        "inner_html": "<span class=\"tit_idioma\">Euskara</span><span class=\"texto_idioma\">Hautatu zure hizkuntza</span>"
+      },
+      {
+        "href": "https://portal.kutxabank.es/cs/Satellite/kb/es/particulares",
+        "inner_text": "Castellano\nSelecciona tu idioma",
+        "inner_html": "<span class=\"tit_idioma\">Castellano</span><span class=\"texto_idioma\">Selecciona tu idioma</span>"
+      },
+      {
+        "href": "https://portal.kutxabank.es/cs/Satellite/kb/en/private-customers/corporative-information",
+        "inner_text": "English\nSelect your language",
+        "inner_html": "<span class=\"tit_idioma\">English</span><span class=\"texto_idioma\">Select your language</span>"
+      }
+    ],
+    "social": [],
+    "keywords": []
+  },
+  "unsafeForms": [],
+  "browsing_history": [
+    "https://portal.kutxabank.es/cs/Satellite?pagename=PortalKutxabank/Page/PK_idioma"
+  ],
+  "websockets": {},
+  "cookies": [
+    {
+      "name": "AKA_A2",
+      "value": "A",
+      "domain": "kutxabank.es",
+      "path": "/",
+      "expires": 1621530781.439945,
+      "size": 7,
+      "httpOnly": true,
+      "secure": true,
+      "session": false,
+      "expiresUTC": "2021-05-20T17:13:01.439Z",
+      "expiresDays": 0.04,
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://portal.kutxabank.es/cs/Satellite?pagename=PortalKutxabank/Page/PK_idioma",
+            "source": "set in Set-Cookie HTTP response header for https://portal.kutxabank.es/cs/Satellite?pagename=PortalKutxabank/Page/PK_idioma"
+          }
+        ],
+        "type": "Cookie.HTTP",
+        "timestamp": "2021-05-20T16:13:01.444Z",
+        "location": "about:blank"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "JSESSIONID",
+      "value": "3AB3BC180341EDCDDA8EAFEE15D130AB.worker3",
+      "domain": "portal.kutxabank.es",
+      "path": "/cs",
+      "expires": -1,
+      "size": 50,
+      "httpOnly": true,
+      "secure": true,
+      "session": true,
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://portal.kutxabank.es/cs/Satellite?pagename=PortalKutxabank/Page/PK_idioma",
+            "source": "set in Set-Cookie HTTP response header for https://portal.kutxabank.es/cs/Satellite?pagename=PortalKutxabank/Page/PK_idioma"
+          }
+        ],
+        "type": "Cookie.HTTP",
+        "timestamp": "2021-05-20T16:13:01.444Z",
+        "location": "about:blank"
+      },
+      "firstPartyStorage": false
+    },
+    {
+      "name": "TS01de39d5",
+      "value": "01f406460742eee1fe74384e89ae273ff7160381de0617d4731f6317587682577b6781cc37472fbf92b660faec54c86345f96fbf5b",
+      "domain": "portal.kutxabank.es",
+      "path": "/cs",
+      "expires": -1,
+      "size": 116,
+      "httpOnly": false,
+      "secure": true,
+      "session": true,
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://portal.kutxabank.es/cs/Satellite?pagename=PortalKutxabank/Page/PK_idioma",
+            "source": "set in Set-Cookie HTTP response header for https://portal.kutxabank.es/cs/Satellite?pagename=PortalKutxabank/Page/PK_idioma"
+          }
+        ],
+        "type": "Cookie.HTTP",
+        "timestamp": "2021-05-20T16:13:01.444Z",
+        "location": "about:blank"
+      },
+      "firstPartyStorage": false
+    },
+    {
+      "name": "kbbweb",
+      "value": "!uhOwuya2d9DMD9OVhZCTo2ENTaufrwJOlZs4uEQiMXToxM5G0NJCcsl3hdPjVrVbkyYoRgeGRdqykQ==",
+      "domain": "kutxabank.es",
+      "path": "/",
+      "expires": -1,
+      "size": 87,
+      "httpOnly": true,
+      "secure": true,
+      "session": true,
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://kutxabank.es/",
+            "source": "set in Set-Cookie HTTP response header for https://kutxabank.es/"
+          }
+        ],
+        "type": "Cookie.HTTP",
+        "timestamp": "2021-05-20T16:13:00.849Z",
+        "location": "about:blank"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "TS012d2fff",
+      "value": "01f406460702366858d515515a940a42e91c1578b2d1562c6e10c4a16a62a7ae20bcf69d483a84abdddd17238a533fedcb5b709aee5a1797a51e8e4746d5923b8703350c25",
+      "domain": "kutxabank.es",
+      "path": "/",
+      "expires": -1,
+      "size": 148,
+      "httpOnly": false,
+      "secure": true,
+      "session": true,
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://kutxabank.es/",
+            "source": "set in Set-Cookie HTTP response header for https://kutxabank.es/"
+          }
+        ],
+        "type": "Cookie.HTTP",
+        "timestamp": "2021-05-20T16:13:00.849Z",
+        "location": "about:blank"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "kbbweb",
+      "value": "!7EhTgfUUnxkBM76VhZCTo2ENTaufr19pNaGBtUYIpTDIpbREq2mUyTbn6uJIS0dBEVLkbxjaqW7E+Q==",
+      "domain": "portal.kutxabank.es",
+      "path": "/",
+      "expires": -1,
+      "size": 87,
+      "httpOnly": true,
+      "secure": true,
+      "session": true,
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://portal.kutxabank.es/cs/Satellite?pagename=PortalKutxabank/Page/PK_idioma",
+            "source": "set in Set-Cookie HTTP response header for https://portal.kutxabank.es/cs/Satellite?pagename=PortalKutxabank/Page/PK_idioma"
+          }
+        ],
+        "type": "Cookie.HTTP",
+        "timestamp": "2021-05-20T16:13:01.444Z",
+        "location": "about:blank"
+      },
+      "firstPartyStorage": false
+    },
+    {
+      "name": "TS01fb5de5",
+      "value": "01f406460742eee1fe74384e89ae273ff7160381de0617d4731f6317587682577b6781cc37472fbf92b660faec54c86345f96fbf5b",
+      "domain": "portal.kutxabank.es",
+      "path": "/",
+      "expires": -1,
+      "size": 116,
+      "httpOnly": false,
+      "secure": true,
+      "session": true,
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://portal.kutxabank.es/cs/Satellite?pagename=PortalKutxabank/Page/PK_idioma",
+            "source": "set in Set-Cookie HTTP response header for https://portal.kutxabank.es/cs/Satellite?pagename=PortalKutxabank/Page/PK_idioma"
+          }
+        ],
+        "type": "Cookie.HTTP",
+        "timestamp": "2021-05-20T16:13:01.444Z",
+        "location": "about:blank"
+      },
+      "firstPartyStorage": false
+    }
+  ],
+  "localStorage": {},
+  "beacons": [],
+  "hosts": {
+    "requests": {
+      "firstParty": [
+        "kutxabank.es"
+      ],
+      "thirdParty": [
+        "portal.kutxabank.es"
+      ]
+    },
+    "beacons": {
+      "firstParty": [],
+      "thirdParty": []
+    },
+    "cookies": {
+      "firstParty": [
+        "kutxabank.es"
+      ],
+      "thirdParty": [
+        "portal.kutxabank.es"
+      ]
+    },
+    "localStorage": {
+      "firstParty": [],
+      "thirdParty": []
+    },
+    "links": {
+      "firstParty": [],
+      "thirdParty": [
+        "portal.kutxabank.es"
+      ]
+    }
+  }
+}

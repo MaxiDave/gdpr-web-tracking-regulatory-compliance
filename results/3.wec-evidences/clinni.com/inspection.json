@@ -1,0 +1,594 @@
+{
+  "title": "Website Evidence Collection",
+  "task_description": null,
+  "uri_ins": "https://clinni.com",
+  "uri_refs": [
+    "https://clinni.com"
+  ],
+  "uri_dest": "https://clinni.com/",
+  "uri_redirects": [],
+  "secure_connection": {
+    "https_support": true,
+    "redirects": [
+      "https://clinni.com/"
+    ],
+    "https_redirect": true
+  },
+  "host": "clinni.com",
+  "script": {
+    "host": "sfod",
+    "version": {
+      "npm": "1.0.0",
+      "commit": null
+    },
+    "cmd_args": "-q --overwrite https://clinni.com -- --ignore-certificate-errors",
+    "environment": {
+      "CHROME_DESKTOP": "code-url-handler.desktop"
+    },
+    "node_version": "v14.17.0"
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "HeadlessChrome/80.0.3987.0",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3617.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "5.8.0-53-generic"
+    },
+    "extra_headers": {},
+    "preset_cookies": {}
+  },
+  "start_time": "2021-05-20T16:17:28.484Z",
+  "end_time": "2021-05-20T16:17:37.414Z",
+  "links": {
+    "firstParty": [
+      {
+        "href": "https://clinni.com/",
+        "inner_text": "",
+        "inner_html": "<img src=\"images/logo_clinni_header.svg\" id=\"logo\" class=\"hidden-xs logotipo img-responsive aos-init aos-animate\" alt=\"logotipo clinni\" data-aos=\"fade-right\" data-aos-offset=\"0\" data-aos-easing=\"ease-in-sine\" data-aos-duration=\"200\">"
+      },
+      {
+        "href": "https://clinni.com/legal.html",
+        "inner_text": "Más información",
+        "inner_html": "Más información"
+      }
+    ],
+    "thirdParty": [
+      {
+        "href": "https://app.clinni.com/",
+        "inner_text": "Inicia sesión",
+        "inner_html": "Inicia sesión"
+      },
+      {
+        "href": "https://blog.clinni.com/",
+        "inner_text": "Blog Clinni",
+        "inner_html": "Blog Clinni"
+      },
+      {
+        "href": "https://videos.clinni.com/",
+        "inner_text": "Videotutoriales de Clinni",
+        "inner_html": "Videotutoriales de Clinni"
+      },
+      {
+        "href": "https://www.facebook.com/clinni/",
+        "inner_text": "",
+        "inner_html": "<span class=\"icon-facebook\"></span>"
+      },
+      {
+        "href": "https://twitter.com/ClinniApp",
+        "inner_text": "",
+        "inner_html": "<span class=\"icon-twitter\"></span>"
+      },
+      {
+        "href": "https://www.youtube.com/channel/UCuyPjmFki27z6icyMd0JRVw",
+        "inner_text": "",
+        "inner_html": "<span class=\"icon-youtube\"></span>"
+      },
+      {
+        "href": "https://www.linkedin.com/company/clinni-software",
+        "inner_text": "",
+        "inner_html": "<span class=\"icon-linkedin\"></span>"
+      }
+    ],
+    "social": [
+      {
+        "href": "https://www.facebook.com/clinni/",
+        "inner_text": "",
+        "inner_html": "<span class=\"icon-facebook\"></span>"
+      },
+      {
+        "href": "https://twitter.com/ClinniApp",
+        "inner_text": "",
+        "inner_html": "<span class=\"icon-twitter\"></span>"
+      },
+      {
+        "href": "https://www.youtube.com/channel/UCuyPjmFki27z6icyMd0JRVw",
+        "inner_text": "",
+        "inner_html": "<span class=\"icon-youtube\"></span>"
+      },
+      {
+        "href": "https://www.linkedin.com/company/clinni-software",
+        "inner_text": "",
+        "inner_html": "<span class=\"icon-linkedin\"></span>"
+      }
+    ],
+    "keywords": [
+      {
+        "href": "https://clinni.com/legal.html",
+        "inner_text": "Más información",
+        "inner_html": "Más información"
+      }
+    ]
+  },
+  "unsafeForms": [],
+  "browsing_history": [
+    "https://clinni.com/"
+  ],
+  "websockets": {},
+  "cookies": [
+    {
+      "name": "CONSENT",
+      "value": "PENDING+954",
+      "domain": "youtube.com",
+      "path": "/",
+      "expires": 2145916800.630749,
+      "size": 18,
+      "httpOnly": false,
+      "secure": true,
+      "session": false,
+      "expiresUTC": "2038-01-01T00:00:00.630Z",
+      "expiresDays": 6069.32,
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.youtube.com/embed/bYr-keiERuo?rel=0",
+            "source": "set in Set-Cookie HTTP response header for https://www.youtube.com/embed/bYr-keiERuo?rel=0"
+          }
+        ],
+        "type": "Cookie.HTTP",
+        "timestamp": "2021-05-20T16:17:29.633Z",
+        "location": "https://clinni.com/"
+      },
+      "firstPartyStorage": false
+    },
+    {
+      "name": "_ga",
+      "value": "GA1.2.1756477075.1621527451",
+      "domain": "clinni.com",
+      "path": "/",
+      "expires": 1684599450,
+      "size": 30,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2023-05-20T16:17:30.000Z",
+      "expiresDays": 730,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 495,
+            "lineNumber": 30,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "zc",
+            "source": "    at zc (https://www.google-analytics.com/analytics.js:30:495)"
+          },
+          {
+            "columnNumber": 15,
+            "lineNumber": 60,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "ma",
+            "source": "    at ma (https://www.google-analytics.com/analytics.js:60:15)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T16:17:30.582Z",
+        "location": "https://clinni.com/"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "IDE",
+      "value": "AHWqTUmkXKdrGwmlmln1upAbJ0UEw5bM7izhhVWS2otw8G94eHgiSfXKOXLku7U9",
+      "domain": "doubleclick.net",
+      "path": "/",
+      "expires": 1655223451.104327,
+      "size": 67,
+      "httpOnly": true,
+      "secure": true,
+      "session": false,
+      "sameSite": "None",
+      "expiresUTC": "2022-06-14T16:17:31.104Z",
+      "expiresDays": 390,
+      "firstPartyStorage": false
+    },
+    {
+      "name": "VISITOR_INFO1_LIVE",
+      "value": "oW4NHFXzE2c",
+      "domain": "youtube.com",
+      "path": "/",
+      "expires": 1637079449.630705,
+      "size": 29,
+      "httpOnly": true,
+      "secure": true,
+      "session": false,
+      "sameSite": "None",
+      "expiresUTC": "2021-11-16T16:17:29.630Z",
+      "expiresDays": 180,
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.youtube.com/embed/bYr-keiERuo?rel=0",
+            "source": "set in Set-Cookie HTTP response header for https://www.youtube.com/embed/bYr-keiERuo?rel=0"
+          }
+        ],
+        "type": "Cookie.HTTP",
+        "timestamp": "2021-05-20T16:17:29.633Z",
+        "location": "https://clinni.com/"
+      },
+      "firstPartyStorage": false
+    },
+    {
+      "name": "_gid",
+      "value": "GA1.2.1577172779.1621527451",
+      "domain": "clinni.com",
+      "path": "/",
+      "expires": 1621613850,
+      "size": 31,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2021-05-21T16:17:30.000Z",
+      "expiresDays": 1,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 495,
+            "lineNumber": 30,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "zc",
+            "source": "    at zc (https://www.google-analytics.com/analytics.js:30:495)"
+          },
+          {
+            "columnNumber": 401,
+            "lineNumber": 59,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "ma",
+            "source": "    at ma (https://www.google-analytics.com/analytics.js:59:401)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T16:17:30.583Z",
+        "location": "https://clinni.com/"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "_gat",
+      "value": "1",
+      "domain": "clinni.com",
+      "path": "/",
+      "expires": 1621527510,
+      "size": 5,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2021-05-20T16:18:30.000Z",
+      "expiresDays": 0,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 495,
+            "lineNumber": 30,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "zc",
+            "source": "    at zc (https://www.google-analytics.com/analytics.js:30:495)"
+          },
+          {
+            "columnNumber": 31,
+            "lineNumber": 73,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "Qd",
+            "source": "    at Qd (https://www.google-analytics.com/analytics.js:73:31)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T16:17:30.583Z",
+        "location": "https://clinni.com/"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "YSC",
+      "value": "7iXM8TwnlZ0",
+      "domain": "youtube.com",
+      "path": "/",
+      "expires": -1,
+      "size": 14,
+      "httpOnly": true,
+      "secure": true,
+      "session": true,
+      "sameSite": "None",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.youtube.com/embed/bYr-keiERuo?rel=0",
+            "source": "set in Set-Cookie HTTP response header for https://www.youtube.com/embed/bYr-keiERuo?rel=0"
+          }
+        ],
+        "type": "Cookie.HTTP",
+        "timestamp": "2021-05-20T16:17:29.633Z",
+        "location": "https://clinni.com/"
+      },
+      "firstPartyStorage": false
+    }
+  ],
+  "localStorage": {
+    "https://www.youtube.com": {
+      "yt-remote-device-id": {
+        "value": {
+          "data": "8a142e2a-897d-43de-b415-d54a16bdb3de",
+          "expiration": 1653063451033,
+          "creation": 1621527451033
+        },
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 34,
+              "lineNumber": 6080,
+              "fileName": "https://www.youtube.com/s/player/fba90263/player_ias.vflset/en_US/base.js",
+              "functionName": "Yn.g.k.set",
+              "source": "    at Yn.g.k.set (https://www.youtube.com/s/player/fba90263/player_ias.vflset/en_US/base.js:6080:34)"
+            },
+            {
+              "columnNumber": 139,
+              "lineNumber": 6073,
+              "fileName": "https://www.youtube.com/s/player/fba90263/player_ias.vflset/en_US/base.js",
+              "functionName": "g.Vn.g.Pn.set",
+              "source": "    at g.Vn.g.Pn.set (https://www.youtube.com/s/player/fba90263/player_ias.vflset/en_US/base.js:6073:139)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T16:17:31.046Z",
+          "location": "https://clinni.com"
+        }
+      },
+      "yt.innertube::requests": {
+        "value": {
+          "data": {},
+          "expiration": 1621613853416,
+          "creation": 1621527453416
+        },
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 32,
+              "lineNumber": 439,
+              "fileName": "https://www.youtube.com/s/player/fba90263/www-embed-player.vflset/www-embed-player.js",
+              "functionName": "ff.m.set",
+              "source": "    at ff.m.set (https://www.youtube.com/s/player/fba90263/www-embed-player.vflset/www-embed-player.js:439:32)"
+            },
+            {
+              "columnNumber": 48,
+              "lineNumber": 457,
+              "fileName": "https://www.youtube.com/s/player/fba90263/www-embed-player.vflset/www-embed-player.js",
+              "functionName": "mf.set",
+              "source": "    at mf.set (https://www.youtube.com/s/player/fba90263/www-embed-player.vflset/www-embed-player.js:457:48)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T16:17:36.315Z",
+          "location": "https://clinni.com"
+        }
+      },
+      "yt.innertube::nextId": {
+        "value": {
+          "data": 2,
+          "expiration": 1621613853315,
+          "creation": 1621527453315
+        },
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 32,
+              "lineNumber": 439,
+              "fileName": "https://www.youtube.com/s/player/fba90263/www-embed-player.vflset/www-embed-player.js",
+              "functionName": "ff.m.set",
+              "source": "    at ff.m.set (https://www.youtube.com/s/player/fba90263/www-embed-player.vflset/www-embed-player.js:439:32)"
+            },
+            {
+              "columnNumber": 48,
+              "lineNumber": 457,
+              "fileName": "https://www.youtube.com/s/player/fba90263/www-embed-player.vflset/www-embed-player.js",
+              "functionName": "mf.set",
+              "source": "    at mf.set (https://www.youtube.com/s/player/fba90263/www-embed-player.vflset/www-embed-player.js:457:48)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T16:17:33.332Z",
+          "location": "https://clinni.com"
+        }
+      },
+      "yt-remote-connected-devices": {
+        "value": {
+          "data": "[]",
+          "expiration": 1621613851042,
+          "creation": 1621527451042
+        },
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 34,
+              "lineNumber": 6080,
+              "fileName": "https://www.youtube.com/s/player/fba90263/player_ias.vflset/en_US/base.js",
+              "functionName": "Yn.g.k.set",
+              "source": "    at Yn.g.k.set (https://www.youtube.com/s/player/fba90263/player_ias.vflset/en_US/base.js:6080:34)"
+            },
+            {
+              "columnNumber": 139,
+              "lineNumber": 6073,
+              "fileName": "https://www.youtube.com/s/player/fba90263/player_ias.vflset/en_US/base.js",
+              "functionName": "g.Vn.g.Pn.set",
+              "source": "    at g.Vn.g.Pn.set (https://www.youtube.com/s/player/fba90263/player_ias.vflset/en_US/base.js:6073:139)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T16:17:31.051Z",
+          "location": "https://clinni.com"
+        }
+      }
+    }
+  },
+  "beacons": [
+    {
+      "url": "https://www.youtube.com/youtubei/v1/log_event?alt=json&key=AIzaSyAO_FJ2SlqU8Q4STEHLGCilw_Y9_11qcW8",
+      "query": {
+        "alt": "json",
+        "key": "AIzaSyAO_FJ2SlqU8Q4STEHLGCilw_Y9_11qcW8"
+      },
+      "filter": "/log_event?",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.youtube.com/embed/bYr-keiERuo?rel=0",
+            "source": "requested from https://www.youtube.com/embed/bYr-keiERuo?rel=0 and matched with easyprivacy.txt filter /log_event?"
+          }
+        ],
+        "timestamp": "2021-05-20T16:17:33.336Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://www.youtube.com/generate_204?PjwzNw",
+      "query": {
+        "PjwzNw": null
+      },
+      "filter": "/generate_204$image,other,ping,script",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.youtube.com/embed/bYr-keiERuo?rel=0",
+            "source": "requested from https://www.youtube.com/embed/bYr-keiERuo?rel=0 and matched with easyprivacy.txt filter /generate_204$image,other,ping,script"
+          }
+        ],
+        "timestamp": "2021-05-20T16:17:31.208Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://www.google-analytics.com/j/collect?v=1&_v=j90&a=379965504&t=pageview&_s=1&dl=https%3A%2F%2Fclinni.com%2F&ul=en-us&de=UTF-8&dt=Clinni%20%7C%20Software%20de%20Gesti%C3%B3n%20Cloud%20para%20Profesionales%20de%20la%20Salud&sd=24-bit&sr=1680x927&vp=1680x927&je=0&_u=IEBAAEABAAAAAC~&jid=1695574855&gjid=68423663&cid=1756477075.1621527451&tid=UA-27252917-46&_gid=1577172779.1621527451&_r=1&_slc=1&z=1364156826",
+      "query": {
+        "v": 1,
+        "_v": "j90",
+        "a": 379965504,
+        "t": "pageview",
+        "_s": 1,
+        "dl": "https://clinni.com/",
+        "ul": "en-us",
+        "de": "UTF-8",
+        "dt": "Clinni | Software de Gestión Cloud para Profesionales de la Salud",
+        "sd": "24-bit",
+        "sr": "1680x927",
+        "vp": "1680x927",
+        "je": 0,
+        "_u": "IEBAAEABAAAAAC~",
+        "jid": 1695574855,
+        "gjid": 68423663,
+        "cid": 1756477075.1621528,
+        "tid": "UA-27252917-46",
+        "_gid": 1577172779.1621528,
+        "_r": 1,
+        "_slc": 1,
+        "z": 1364156826
+      },
+      "filter": "/collect?*&cid=",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://clinni.com/",
+            "source": "requested from https://clinni.com/ and matched with easyprivacy.txt filter /collect?*&cid="
+          }
+        ],
+        "timestamp": "2021-05-20T16:17:30.586Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://www.google-analytics.com/analytics.js",
+      "query": null,
+      "filter": "||google-analytics.com/analytics.js",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://clinni.com/",
+            "source": "requested from https://clinni.com/ and matched with easyprivacy.txt filter ||google-analytics.com/analytics.js"
+          }
+        ],
+        "timestamp": "2021-05-20T16:17:29.997Z"
+      },
+      "occurrances": 1
+    }
+  ],
+  "hosts": {
+    "requests": {
+      "firstParty": [
+        "clinni.com"
+      ],
+      "thirdParty": [
+        "fonts.googleapis.com",
+        "fonts.gstatic.com",
+        "www.youtube.com",
+        "www.google-analytics.com",
+        "googleads.g.doubleclick.net",
+        "static.doubleclick.net",
+        "www.google.com",
+        "yt3.ggpht.com",
+        "i.ytimg.com",
+        "www.gstatic.com"
+      ]
+    },
+    "beacons": {
+      "firstParty": [],
+      "thirdParty": [
+        "www.youtube.com",
+        "www.google-analytics.com"
+      ]
+    },
+    "cookies": {
+      "firstParty": [
+        "clinni.com"
+      ],
+      "thirdParty": [
+        "youtube.com",
+        "doubleclick.net"
+      ]
+    },
+    "localStorage": {
+      "firstParty": [],
+      "thirdParty": [
+        "www.youtube.com"
+      ]
+    },
+    "links": {
+      "firstParty": [
+        "clinni.com"
+      ],
+      "thirdParty": [
+        "app.clinni.com",
+        "blog.clinni.com",
+        "videos.clinni.com",
+        "www.facebook.com",
+        "twitter.com",
+        "www.youtube.com",
+        "www.linkedin.com"
+      ]
+    }
+  }
+}

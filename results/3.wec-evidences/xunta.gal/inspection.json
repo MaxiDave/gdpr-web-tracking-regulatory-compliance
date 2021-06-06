@@ -1,0 +1,1103 @@
+{
+  "title": "Website Evidence Collection",
+  "task_description": null,
+  "uri_ins": "https://xunta.gal",
+  "uri_refs": [
+    "https://xunta.gal"
+  ],
+  "uri_dest": "https://www.xunta.gal/portada",
+  "uri_redirects": [
+    "https://xunta.gal/",
+    "https://www.xunta.gal/"
+  ],
+  "secure_connection": {
+    "https_support": true,
+    "redirects": [
+      "https://www.xunta.gal/",
+      "https://www.xunta.gal/portada"
+    ],
+    "https_redirect": true
+  },
+  "host": "xunta.gal",
+  "script": {
+    "host": "sfod",
+    "version": {
+      "npm": "1.0.0",
+      "commit": null
+    },
+    "cmd_args": "-q --overwrite https://xunta.gal -- --ignore-certificate-errors",
+    "environment": {
+      "CHROME_DESKTOP": "code-url-handler.desktop"
+    },
+    "node_version": "v14.17.0"
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "HeadlessChrome/80.0.3987.0",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3617.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "5.8.0-53-generic"
+    },
+    "extra_headers": {},
+    "preset_cookies": {}
+  },
+  "start_time": "2021-05-20T15:19:28.189Z",
+  "end_time": "2021-05-20T15:19:38.474Z",
+  "links": {
+    "firstParty": [],
+    "thirdParty": [
+      {
+        "href": "https://www.xunta.gal/aviso-legal",
+        "inner_text": "obter máis información, configurar as súas preferencias ou rexeitar as cookies aquí",
+        "inner_html": "obter máis información, configurar as súas preferencias ou rexeitar as cookies aquí"
+      },
+      {
+        "href": "https://www.xunta.gal/portada",
+        "inner_text": "De acordo",
+        "inner_html": "De acordo"
+      },
+      {
+        "href": "https://www.xunta.gal/portada?p_p_id=82&p_p_lifecycle=1&p_p_state=normal&p_p_mode=view&p_p_col_count=2&_82_struts_action=%2Flanguage%2Fview&_82_redirect=%2Fportada&languageId=es_ES",
+        "inner_text": "Castellano",
+        "inner_html": "Castellano"
+      },
+      {
+        "href": "https://xacobeo2021.caminodesantiago.gal/",
+        "inner_text": "",
+        "inner_html": "<img alt=\"Xacobeo 2021\" src=\"/tema-portal-xunta-responsive/images/svg/marca_portal_cultura_xacobeo_2021.svg\">"
+      },
+      {
+        "href": "http://www.turismo.gal/",
+        "inner_text": "",
+        "inner_html": "<img alt=\"Turismo de Galicia\" src=\"/tema-portal-xunta-responsive/images/svg/galicia_o_bo_camino.svg\">"
+      },
+      {
+        "href": "https://www.xunta.gal/goberno-e-institucions",
+        "inner_text": "Goberno e institucións",
+        "inner_html": "<span>Goberno e institucións</span>"
+      },
+      {
+        "href": "https://www.xunta.gal/a-presidencia",
+        "inner_text": "\t\tA Presidencia\t",
+        "inner_html": "<span class=\"menuIco a-presidencia\"></span>\t<span>A Presidencia</span>"
+      },
+      {
+        "href": "https://cpxt.xunta.gal/portada",
+        "inner_text": "\t\tVicepresidencia primeira e Consellería de Presidencia, Xustiza e Turismo\t",
+        "inner_html": "<span class=\"menuIco vicepresidencia-primeira-e-conselleria-de-presidencia-xustiza-e-turismo\"></span>\t<span>Vicepresidencia primeira e Consellería de Presidencia, Xustiza e Turismo</span>"
+      },
+      {
+        "href": "https://www.xunta.gal/vicepresidencia2-ceei",
+        "inner_text": "\t\tVicepresidencia segunda e Consellería de Economía, Empresa e Innovación\t",
+        "inner_html": "<span class=\"menuIco vicepresidencia2-ceei\"></span>\t<span>Vicepresidencia segunda e Consellería de Economía, Empresa e Innovación</span>"
+      },
+      {
+        "href": "https://www.xunta.gal/facenda-administracion-publica",
+        "inner_text": "\tFacenda e Administración Pública\t",
+        "inner_html": "<span>Facenda e Administración Pública</span>"
+      },
+      {
+        "href": "https://www.xunta.gal/cmatv",
+        "inner_text": "\tMedio Ambiente, Territorio e Vivenda\t",
+        "inner_html": "<span>Medio Ambiente, Territorio e Vivenda</span>"
+      },
+      {
+        "href": "https://www.xunta.gal/infraestruturas-e-mobilidade",
+        "inner_text": "\tInfraestruturas e Mobilidade\t",
+        "inner_html": "<span>Infraestruturas e Mobilidade</span>"
+      },
+      {
+        "href": "https://www.xunta.gal/cceu",
+        "inner_text": "\tCultura, Educación e Universidade\t",
+        "inner_html": "<span>Cultura, Educación e Universidade</span>"
+      },
+      {
+        "href": "https://empregoeigualdade.xunta.gal/portada",
+        "inner_text": "\tEmprego e Igualdade\t",
+        "inner_html": "<span>Emprego e Igualdade</span>"
+      },
+      {
+        "href": "https://www.xunta.gal/sanidade",
+        "inner_text": "\tSanidade\t",
+        "inner_html": "<span>Sanidade</span>"
+      },
+      {
+        "href": "https://www.xunta.gal/politica-social",
+        "inner_text": "\tPolítica Social\t",
+        "inner_html": "<span>Política Social</span>"
+      },
+      {
+        "href": "https://www.xunta.gal/medio-rural",
+        "inner_text": "\tMedio Rural\t",
+        "inner_html": "<span>Medio Rural</span>"
+      },
+      {
+        "href": "https://www.xunta.gal/conselleria-do-mar",
+        "inner_text": "\tMar\t",
+        "inner_html": "<span>Mar</span>"
+      },
+      {
+        "href": "https://www.xunta.gal/institucions-de-galicia",
+        "inner_text": "\t\tInstitucións\t",
+        "inner_html": "<span class=\"menuIco institucions-de-galicia\"></span>\t<span>Institucións</span>"
+      },
+      {
+        "href": "https://www.xunta.gal/a-bandeira",
+        "inner_text": "\tA bandeira\t",
+        "inner_html": "<span>A bandeira</span>"
+      },
+      {
+        "href": "https://www.xunta.gal/o-escudo",
+        "inner_text": "\tO escudo\t",
+        "inner_html": "<span>O escudo</span>"
+      },
+      {
+        "href": "https://www.xunta.gal/o-himno-de-galicia",
+        "inner_text": "\tO himno\t",
+        "inner_html": "<span>O himno</span>"
+      },
+      {
+        "href": "https://www.xunta.gal/a-lingua-galega",
+        "inner_text": "\tA lingua de Galicia\t",
+        "inner_html": "<span>A lingua de Galicia</span>"
+      },
+      {
+        "href": "https://www.xunta.gal/medallas-de-galicia",
+        "inner_text": "\tMedallas de Galicia\t",
+        "inner_html": "<span>Medallas de Galicia</span>"
+      },
+      {
+        "href": "https://www.xunta.gal/consellos-de-goberno",
+        "inner_text": "\t\tConsellos de Goberno\t",
+        "inner_html": "<span class=\"menuIco consellos-de-goberno\"></span>\t<span>Consellos de Goberno</span>"
+      },
+      {
+        "href": "https://www.xunta.gal/plans-e-actuacions-da-xunta",
+        "inner_text": "\t\tPlans e actuacións\t",
+        "inner_html": "<span class=\"menuIco plans-e-actuacions-da-xunta\"></span>\t<span>Plans e actuacións</span>"
+      },
+      {
+        "href": "https://www.xunta.gal/convenios",
+        "inner_text": "\t\tConvenios\t",
+        "inner_html": "<span class=\"menuIco convenios\"></span>\t<span>Convenios</span>"
+      },
+      {
+        "href": "https://www.xunta.gal/temas",
+        "inner_text": "Temas",
+        "inner_html": "<span>Temas</span>"
+      },
+      {
+        "href": "https://www.xunta.gal/tema/c/Administracion_publica",
+        "inner_text": "\t\tAdministración pública\t",
+        "inner_html": "<span class=\"menuIco Administracion_publica\"></span>\t<span>Administración pública</span>"
+      },
+      {
+        "href": "https://www.xunta.gal/tema/c/Ciencia_e_tecnoloxia",
+        "inner_text": "\t\tCiencia e tecnoloxía\t",
+        "inner_html": "<span class=\"menuIco Ciencia_Tecnoloxia\"></span>\t<span>Ciencia e tecnoloxía</span>"
+      },
+      {
+        "href": "https://www.xunta.gal/tema/c/Cultura",
+        "inner_text": "\t\tCultura e ocio\t",
+        "inner_html": "<span class=\"menuIco Cultura\"></span>\t<span>Cultura e ocio</span>"
+      },
+      {
+        "href": "https://www.xunta.gal/tema/c/Economia",
+        "inner_text": "\t\tEconomía, empresa e emprego\t",
+        "inner_html": "<span class=\"menuIco Economia\"></span>\t<span>Economía, empresa e emprego</span>"
+      },
+      {
+        "href": "https://www.xunta.gal/tema/c/Ensino_e_formacion",
+        "inner_text": "\t\tEnsino e formación \t",
+        "inner_html": "<span class=\"menuIco Ensino_Formacion\"></span>\t<span>Ensino e formación </span>"
+      },
+      {
+        "href": "https://www.xunta.gal/tema/c/Medio_ambiente",
+        "inner_text": "\t\tMedio ambiente\t",
+        "inner_html": "<span class=\"menuIco Medio_Ambiente\"></span>\t<span>Medio ambiente</span>"
+      },
+      {
+        "href": "https://www.xunta.gal/tema/c/Saude_asistencia_sanitaria_e_servizos_sociais",
+        "inner_text": "\t\tSaúde, asistencia sanitaria e servizos sociais\t",
+        "inner_html": "<span class=\"menuIco Saude_Asistencia_Servizos\"></span>\t<span>Saúde, asistencia sanitaria e servizos sociais</span>"
+      },
+      {
+        "href": "https://www.xunta.gal/tema/c/Territorio_vivenda_e_transporte",
+        "inner_text": "\t\tTerritorio, vivenda e transporte\t",
+        "inner_html": "<span class=\"menuIco Territorio_Vivenda_Transporte\"></span>\t<span>Territorio, vivenda e transporte</span>"
+      },
+      {
+        "href": "https://www.xunta.gal/eservizos",
+        "inner_text": "eServizos",
+        "inner_html": "<span>eServizos</span>"
+      },
+      {
+        "href": "https://www.xunta.gal/servizos-no-mapa",
+        "inner_text": "\t\tServizos no mapa\t",
+        "inner_html": "<span class=\"menuIco icoMapa\"></span>\t<span>Servizos no mapa</span>"
+      },
+      {
+        "href": "http://www.xunta.gal/diario-oficial-galicia?lang=gl",
+        "inner_text": "\t\tDiario oficial de Galicia (DOG)\t",
+        "inner_html": "<span class=\"menuIco icoDog\"></span>\t<span>Diario oficial de Galicia (DOG)</span>"
+      },
+      {
+        "href": "https://www.xunta.gal/aplicacions-mobiles",
+        "inner_text": "\t\tAplicacións móbiles\t",
+        "inner_html": "<span class=\"menuIco icoApp\"></span>\t<span>Aplicacións móbiles</span>"
+      },
+      {
+        "href": "https://sede.xunta.gal/portada",
+        "inner_text": "\t\tSede electrónica\t",
+        "inner_html": "<span class=\"menuIco icoSede\"></span>\t<span>Sede electrónica</span>"
+      },
+      {
+        "href": "https://transparencia.xunta.gal/",
+        "inner_text": "Transparencia",
+        "inner_html": "<span>Transparencia</span>"
+      },
+      {
+        "href": "https://www.xunta.gal/portada?langId=gl_ES",
+        "inner_text": "Galego",
+        "inner_html": "Galego"
+      },
+      {
+        "href": "https://www.xunta.gal/portada?langId=es_ES",
+        "inner_text": "Castellano",
+        "inner_html": "Castellano"
+      },
+      {
+        "href": "https://youtu.be/mRTU-Mup6z8",
+        "inner_text": "17 de maio, Día das Letras Galegas. Dedicado a Xela Arias",
+        "inner_html": "<span class=\"sr-only\">\t17 de maio, Día das Letras Galegas. Dedicado a Xela Arias\t</span>"
+      },
+      {
+        "href": "https://coronavirus.sergas.gal/",
+        "inner_text": "Volta ao cole con sentidiño",
+        "inner_html": "<span class=\"sr-only\">\tVolta ao cole con sentidiño\t</span>"
+      },
+      {
+        "href": "https://xacobeo2021.caminodesantiago.gal/es/institucional/plan-estratexico-do-xacobeo-2021",
+        "inner_text": "Plan Estratéxico da Década Xacobea 2021-2031",
+        "inner_html": "<span class=\"sr-only\">\tPlan Estratéxico da Década Xacobea 2021-2031\t</span>"
+      },
+      {
+        "href": "https://www.youtube.com/watch?v=YzWQu24-jjs",
+        "inner_text": "Camiña a Galicia",
+        "inner_html": "<span class=\"sr-only\">\tCamiña a Galicia\t</span>"
+      },
+      {
+        "href": "https://www.xunta.gal/funcion-publica",
+        "inner_text": "Función Pública Emprego na Xunta: procesos de selección, traslados...",
+        "inner_html": "<span class=\"info\">Función Pública</span>\t<span class=\"descricion\">Emprego na Xunta: procesos de selección, traslados...</span>\t<span class=\"icono\"><img src=\"/image/image_gallery?img_id=1078406\" alt=\"\"></span>"
+      },
+      {
+        "href": "https://www.contratosdegalicia.gal/",
+        "inner_text": "Contratos de Galicia Plataforma de contratación pública da Comunidade autónoma",
+        "inner_html": "<span class=\"info\">Contratos de Galicia</span>\t<span class=\"descricion\">Plataforma de contratación pública da Comunidade autónoma</span>\t<span class=\"icono\"><img src=\"/image/image_gallery?img_id=1078412\" alt=\"\"></span>"
+      },
+      {
+        "href": "http://emprego.xunta.es/",
+        "inner_text": "Servizo Público de Emprego Xestión de demandas e ofertas de emprego",
+        "inner_html": "<span class=\"info\">Servizo Público de Emprego</span>\t<span class=\"descricion\">Xestión de demandas e ofertas de emprego</span>\t<span class=\"icono\"><img src=\"/image/image_gallery?img_id=1078418\" alt=\"\"></span>"
+      },
+      {
+        "href": "http://www.conselleriadefacenda.es/sicon",
+        "inner_text": "Factura e licitación electrónica Acceso ao Sistema Electrónico de Facturación",
+        "inner_html": "<span class=\"info\">Factura e licitación electrónica</span>\t<span class=\"descricion\">Acceso ao Sistema Electrónico de Facturación</span>\t<span class=\"icono\"><img src=\"/image/image_gallery?img_id=1078424\" alt=\"\"></span>"
+      },
+      {
+        "href": "https://www.xunta.gal/guia-da-comunicacion",
+        "inner_text": "Guía da comunicación Enderezos de institucións e organizacións",
+        "inner_html": "<span class=\"info\">Guía da comunicación</span>\t<span class=\"descricion\">Enderezos de institucións e organizacións</span>\t<span class=\"icono\"><img src=\"/image/image_gallery?img_id=1078430\" alt=\"\"></span>"
+      },
+      {
+        "href": "http://www.meteogalicia.gal/",
+        "inner_text": "MeteoGalicia Predicións e observacións meteorolóxicas",
+        "inner_html": "<span class=\"info\">MeteoGalicia</span>\t<span class=\"descricion\">Predicións e observacións meteorolóxicas</span>\t<span class=\"icono\"><img src=\"/image/image_gallery?img_id=1078436\" alt=\"\"></span>"
+      },
+      {
+        "href": "https://www.xunta.gal/diario-oficial-galicia?lang=gl",
+        "inner_text": "Nº 93\nÚltimo número publicado\nXoves, 20 de maio de 2021",
+        "inner_html": "<img src=\"/tema-portal-xunta-responsive/images/logos/logo_DOG_portal.svg\" alt=\"DOG\">\t<div id=\"circulo\" class=\"classNumTotal col-xs-6 pull-right \">\t<span class=\"letraTotal\">Nº</span>\t<span class=\"numTotal\"> 93</span>\t</div><div class=\"cuerpo col-xs-6\">\t<span class=\"ultimoNum hidden-xs\">Último número publicado</span>\t<span class=\"datos\">\t<span class=\"data\">Xoves, 20 de maio de 2021</span>\t</span>\t</div>"
+      },
+      {
+        "href": "https://www.xunta.gal/actualidade",
+        "inner_text": "ver + novas",
+        "inner_html": "ver + novas"
+      },
+      {
+        "href": "https://www.xunta.gal/notas-de-prensa/-/nova/58198/puntos-vacinacion-galicia-tramitaran-chave-365-para-que-persoas-que-desexen-poidan",
+        "inner_text": "Os puntos de vacinación de Galicia tramitarán a Chave 365 para que as persoas que o desexen poidan acceder ao seu certificado desde o seu teléfono móbil",
+        "inner_html": "<p style=\"margin-bottom:0px;\">Os puntos de vacinación de Galicia tramitarán a Chave 365 para que as persoas que o desexen poidan acceder ao seu certificado desde o seu teléfono móbil</p>"
+      },
+      {
+        "href": "https://multimedia.xunta.gal/portal-web/Videos/20210520_Consello_01web.mp4",
+        "inner_text": "Vídeo de Os puntos de vacinación de Galicia tramitarán a Chave 365 para que as persoas que o desexen poidan acceder ao seu certificado desde o seu teléfono móbil",
+        "inner_html": "<img data-imagen=\"1\" class=\"imaxenova lazy\" alt=\"\" src=\"/image/image_gallery?img_id=1617770\">\t<span class=\"sr-only\"><p style=\"margin-bottom:0px;\">Vídeo de Os puntos de vacinación de Galicia tramitarán a Chave 365 para que as persoas que o desexen poidan acceder ao seu certificado desde o seu teléfono móbil</p></span>"
+      },
+      {
+        "href": "https://multimedia.xunta.gal/portal-web/Videos/20210520_Consello_02web.mp4",
+        "inner_text": "Vídeo de Feijóo destaca o Polo Aeroespacial como sector clave para a recuperación, cunha folla de ruta baseada no desenvolvemento industrial, a transferencia de coñecemento e a creación de emprego",
+        "inner_html": "<img data-imagen=\"9\" class=\"imaxenova lazy\" alt=\"\" src=\"/image/image_gallery?img_id=1617758\">\t<span class=\"sr-only\"><p style=\"margin-bottom:0px;\">Vídeo de Feijóo destaca o Polo Aeroespacial como sector clave para a recuperación, cunha folla de ruta baseada no desenvolvemento industrial, a transferencia de coñecemento e a creación de emprego</p></span>"
+      },
+      {
+        "href": "https://www.xunta.gal/notas-de-prensa/-/nova/58200/feijoo-destaca-polo-aeroespacial-como-sector-clave-para-recuperacion-cunha-folla",
+        "inner_text": "Feijóo destaca o Polo Aeroespacial como sector clave para a recuperación, cunha folla de ruta baseada no desenvolvemento industrial, a transferencia de coñecemento e a creación de emprego",
+        "inner_html": "<p style=\"margin-bottom:0px;\">Feijóo destaca o Polo Aeroespacial como sector clave para a recuperación, cunha folla de ruta baseada no desenvolvemento industrial, a transferencia de coñecemento e a creación de emprego</p>"
+      },
+      {
+        "href": "https://multimedia.xunta.gal/portal-web/Videos/20210520_Consello_03web.mp4",
+        "inner_text": "Vídeo de A Xunta lanza unha nova convocatoria do programa de axudas á formación e divulgación da industria forestal",
+        "inner_html": "<img data-imagen=\"9\" class=\"imaxenova lazy\" alt=\"\" src=\"/image/image_gallery?img_id=1617804\">\t<span class=\"sr-only\"><p style=\"margin-bottom:0px;\">Vídeo de A Xunta lanza unha nova convocatoria do programa de axudas á formación e divulgación da industria forestal</p></span>"
+      },
+      {
+        "href": "https://www.xunta.gal/notas-de-prensa/-/nova/58199/xunta-lanza-unha-nova-convocatoria-programa-axudas-formacion-divulgacion-industria",
+        "inner_text": "A Xunta lanza unha nova convocatoria do programa de axudas á formación e divulgación da industria forestal",
+        "inner_html": "<p style=\"margin-bottom:0px;\">A Xunta lanza unha nova convocatoria do programa de axudas á formación e divulgación da industria forestal</p>"
+      },
+      {
+        "href": "https://www.xunta.gal/image/image_gallery?img_id=988503",
+        "inner_text": "Imaxe de Galicia rexistra un total de 2.701 casos activos por coronavirus",
+        "inner_html": "<img data-imagen=\"8\" class=\"imaxenovasimple lazy \" alt=\"\" src=\"/image/image_gallery?img_id=988503\">\t<span class=\"sr-only\"><p style=\"margin-bottom:0px;\"> Imaxe de Galicia rexistra un total de 2.701 casos activos por coronavirus</p></span>"
+      },
+      {
+        "href": "https://www.xunta.gal/notas-de-prensa/-/nova/58183/galicia-rexistra-total-2-701-casos-activos-por-coronavirus",
+        "inner_text": "Galicia rexistra un total de 2.701 casos activos por coronavirus",
+        "inner_html": "<p style=\"margin-bottom:0px;\">Galicia rexistra un total de 2.701 casos activos por coronavirus</p>"
+      },
+      {
+        "href": "https://www.xunta.gal/image/image_gallery?img_id=1614947",
+        "inner_text": "Imaxe de Feijóo sinala que Galicia “xa está preparada” para ser protagonista no Xacobeo 21-22 dun destino seguro e de calidade",
+        "inner_html": "<img data-imagen=\"6\" class=\"imaxenovasimple lazy \" alt=\"\" src=\"/image/image_gallery?img_id=1614946\">\t<span class=\"sr-only\"><p style=\"margin-bottom:0px;\"> Imaxe de Feijóo sinala que Galicia “xa está preparada” para ser protagonista no Xacobeo 21-22 dun destino seguro e de calidade </p></span>"
+      },
+      {
+        "href": "https://www.xunta.gal/notas-de-prensa/-/nova/58147/feijoo-sinala-que-galicia-esta-preparada-para-ser-protagonista-xacobeo-21-22",
+        "inner_text": "Feijóo sinala que Galicia “xa está preparada” para ser protagonista no Xacobeo 21-22 dun destino seguro e de calidade",
+        "inner_html": "<p style=\"margin-bottom:0px;\">Feijóo sinala que Galicia “xa está preparada” para ser protagonista no Xacobeo 21-22 dun destino seguro e de calidade</p>"
+      },
+      {
+        "href": "https://www.xunta.gal/image/image_gallery?img_id=1614893",
+        "inner_text": "Imaxe de Galicia contará cunha nova Unidade de Hospitalización Infanto-Xuvenil no Álvaro Cunqueiro",
+        "inner_html": "<img data-imagen=\"6\" class=\"imaxenovasimple lazy \" alt=\"\" src=\"/image/image_gallery?img_id=1614892\">\t<span class=\"sr-only\"><p style=\"margin-bottom:0px;\"> Imaxe de Galicia contará cunha nova Unidade de Hospitalización Infanto-Xuvenil no Álvaro Cunqueiro </p></span>"
+      },
+      {
+        "href": "https://www.xunta.gal/notas-de-prensa/-/nova/58143/galicia-contara-cunha-nova-unidade-hospitalizacion-infanto-xuvenil-alvaro-cunqueiro",
+        "inner_text": "Galicia contará cunha nova Unidade de Hospitalización Infanto-Xuvenil no Álvaro Cunqueiro",
+        "inner_html": "<p style=\"margin-bottom:0px;\">Galicia contará cunha nova Unidade de Hospitalización Infanto-Xuvenil no Álvaro Cunqueiro</p>"
+      },
+      {
+        "href": "https://multimedia.xunta.gal/portal-web/Videos/20210519_EduSanid_01Web.mp4",
+        "inner_text": "\t\t\tVídeo de  Galicia aposta por un protocolo de transición cunha visión integral para recuperar progresivamente a normalidade no ensino\t",
+        "inner_html": "<img src=\"/tema-portal-xunta-responsive/images/botons/play_video.svg\" alt=\"Play video\" class=\"play\">\t<div class=\"envolturaImx lazy\" style=\"background-image: url('/image/image_gallery?img_id=1616630')\">\t<span class=\"sr-only\">Vídeo de  Galicia aposta por un protocolo de transición cunha visión integral para recuperar progresivamente a normalidade no ensino</span>\t</div>"
+      },
+      {
+        "href": "https://www.xunta.gal/notas-de-prensa/-/nova/58172/galicia-aposta-por-protocolo-transicion-cunha-vision-integral-para-recuperar",
+        "inner_text": "Galicia aposta por un protocolo de transición cunha visión integral para recuperar progresivamente a normalidade no ensino",
+        "inner_html": "<p style=\"margin-bottom:0px;\">Galicia aposta por un protocolo de transición cunha visión integral para recuperar progresivamente a normalidade no ensino</p>"
+      },
+      {
+        "href": "https://www.xunta.gal/image/image_gallery?img_id=1614809",
+        "inner_text": "\t\tImaxe de  A Xunta anuncia a data do exame para cubrir 341 prazas do corpo auxiliar C2 ao que concorrerán máis de 10.000 aspirantes\t",
+        "inner_html": "<div class=\"envolturaImx lazy\" style=\"background-image: url('/image/image_gallery?img_id=1614808')\">\t<span class=\"sr-only\">Imaxe de  A Xunta anuncia a data do exame para cubrir 341 prazas do corpo auxiliar C2 ao que concorrerán máis de 10.000 aspirantes</span>\t</div>"
+      },
+      {
+        "href": "https://www.xunta.gal/notas-de-prensa/-/nova/58137/xunta-anuncia-data-exame-para-cubrir-341-prazas-corpo-auxiliar-que-concorreran",
+        "inner_text": "A Xunta anuncia a data do exame para cubrir 341 prazas do corpo auxiliar C2 ao que concorrerán máis de 10.000 aspirantes",
+        "inner_html": "<p style=\"margin-bottom:0px;\">A Xunta anuncia a data do exame para cubrir 341 prazas do corpo auxiliar C2 ao que concorrerán máis de 10.000 aspirantes</p>"
+      },
+      {
+        "href": "https://www.xunta.gal/image/image_gallery?img_id=1614497",
+        "inner_text": "\t\tImaxe de  Feijóo expón o turismo como sector prioritario para a reactivación coa seguridade e a calidade como divisa\t",
+        "inner_html": "<div class=\"envolturaImx lazy\" style=\"background-image: url('/image/image_gallery?img_id=1614496')\">\t<span class=\"sr-only\">Imaxe de  Feijóo expón o turismo como sector prioritario para a reactivación coa seguridade e a calidade como divisa</span>\t</div>"
+      },
+      {
+        "href": "https://www.xunta.gal/notas-de-prensa/-/nova/58115/feijoo-expon-turismo-como-sector-prioritario-para-reactivacion-coa-seguridade",
+        "inner_text": "Feijóo expón o turismo como sector prioritario para a reactivación coa seguridade e a calidade como divisa",
+        "inner_html": "<p style=\"margin-bottom:0px;\">Feijóo expón o turismo como sector prioritario para a reactivación coa seguridade e a calidade como divisa</p>"
+      },
+      {
+        "href": "https://www.xunta.gal/image/image_gallery?img_id=1614491",
+        "inner_text": "\t\tImaxe de  Feijóo expón o turismo como sector prioritario para a reactivación coa seguridade e a calidade como divisa\t",
+        "inner_html": "<div class=\"envolturaImx lazy\" style=\"background-image: url('/image/image_gallery?img_id=1614490')\">\t<span class=\"sr-only\">Imaxe de  Feijóo expón o turismo como sector prioritario para a reactivación coa seguridade e a calidade como divisa</span>\t</div>"
+      },
+      {
+        "href": "https://www.xunta.gal/image/image_gallery?img_id=1614527",
+        "inner_text": "\t\tImaxe de  Román Rodríguez avanza un investimento extra de 10M€ para impulsar museos máis innovadores cos fondos Next Generation\t",
+        "inner_html": "<div class=\"envolturaImx lazy\" style=\"background-image: url('/image/image_gallery?img_id=1614526')\">\t<span class=\"sr-only\">Imaxe de  Román Rodríguez avanza un investimento extra de 10M€ para impulsar museos máis innovadores cos fondos Next Generation</span>\t</div>"
+      },
+      {
+        "href": "https://www.xunta.gal/notas-de-prensa/-/nova/58117/roman-rodriguez-avanza-investimento-extra-10m-para-impulsar-museos-mais-innovadores",
+        "inner_text": "Román Rodríguez avanza un investimento extra de 10M€ para impulsar museos máis innovadores cos fondos Next Generation",
+        "inner_html": "<p style=\"margin-bottom:0px;\">Román Rodríguez avanza un investimento extra de 10M€ para impulsar museos máis innovadores cos fondos Next Generation</p>"
+      },
+      {
+        "href": "https://www.xunta.gal/image/image_gallery?img_id=1614545",
+        "inner_text": "\t\tImaxe de  Román Rodríguez avanza un investimento extra de 10M€ para impulsar museos máis innovadores cos fondos Next Generation\t",
+        "inner_html": "<div class=\"envolturaImx lazy\" style=\"background-image: url('/image/image_gallery?img_id=1614544')\">\t<span class=\"sr-only\">Imaxe de  Román Rodríguez avanza un investimento extra de 10M€ para impulsar museos máis innovadores cos fondos Next Generation</span>\t</div>"
+      },
+      {
+        "href": "https://www.xunta.gal/image/image_gallery?img_id=1614282",
+        "inner_text": "\t\tImaxe de  Intervención do presidente da Xunta no acto conmemorativo do Día das Letras Galegas 2021\t",
+        "inner_html": "<div class=\"envolturaImx lazy\" style=\"background-image: url('/image/image_gallery?img_id=1614281')\">\t<span class=\"sr-only\">Imaxe de  Intervención do presidente da Xunta no acto conmemorativo do Día das Letras Galegas 2021</span>\t</div>"
+      },
+      {
+        "href": "https://www.xunta.gal/notas-de-prensa/-/nova/58097/intervencion-presidente-xunta-acto-conmemorativo-dia-das-letras-galegas-2021",
+        "inner_text": "Intervención do presidente da Xunta no acto conmemorativo do Día das Letras Galegas 2021",
+        "inner_html": "<p style=\"margin-bottom:0px;\">Intervención do presidente da Xunta no acto conmemorativo do Día das Letras Galegas 2021</p>"
+      },
+      {
+        "href": "https://www.xunta.gal/image/image_gallery?img_id=1614276",
+        "inner_text": "\t\tImaxe de  Intervención do presidente da Xunta no acto conmemorativo do Día das Letras Galegas 2021\t",
+        "inner_html": "<div class=\"envolturaImx lazy\" style=\"background-image: url('/image/image_gallery?img_id=1614275')\">\t<span class=\"sr-only\">Imaxe de  Intervención do presidente da Xunta no acto conmemorativo do Día das Letras Galegas 2021</span>\t</div>"
+      },
+      {
+        "href": "https://www.xunta.gal/image/image_gallery?img_id=1614270",
+        "inner_text": "\t\tImaxe de  Intervención do presidente da Xunta no acto conmemorativo do Día das Letras Galegas 2021\t",
+        "inner_html": "<div class=\"envolturaImx lazy\" style=\"background-image: url('/image/image_gallery?img_id=1614269')\">\t<span class=\"sr-only\">Imaxe de  Intervención do presidente da Xunta no acto conmemorativo do Día das Letras Galegas 2021</span>\t</div>"
+      },
+      {
+        "href": "https://www.xunta.gal/image/image_gallery?img_id=1614264",
+        "inner_text": "\t\tImaxe de  Intervención do presidente da Xunta no acto conmemorativo do Día das Letras Galegas 2021\t",
+        "inner_html": "<div class=\"envolturaImx lazy\" style=\"background-image: url('/image/image_gallery?img_id=1614263')\">\t<span class=\"sr-only\">Imaxe de  Intervención do presidente da Xunta no acto conmemorativo do Día das Letras Galegas 2021</span>\t</div>"
+      },
+      {
+        "href": "https://www.xunta.gal/image/image_gallery?img_id=1614258",
+        "inner_text": "\t\tImaxe de  Intervención do presidente da Xunta no acto conmemorativo do Día das Letras Galegas 2021\t",
+        "inner_html": "<div class=\"envolturaImx lazy\" style=\"background-image: url('/image/image_gallery?img_id=1614257')\">\t<span class=\"sr-only\">Imaxe de  Intervención do presidente da Xunta no acto conmemorativo do Día das Letras Galegas 2021</span>\t</div>"
+      },
+      {
+        "href": "https://www.xunta.gal/image/image_gallery?img_id=1614252",
+        "inner_text": "\t\tImaxe de  Intervención do presidente da Xunta no acto conmemorativo do Día das Letras Galegas 2021\t",
+        "inner_html": "<div class=\"envolturaImx lazy\" style=\"background-image: url('/image/image_gallery?img_id=1614251')\">\t<span class=\"sr-only\">Imaxe de  Intervención do presidente da Xunta no acto conmemorativo do Día das Letras Galegas 2021</span>\t</div>"
+      },
+      {
+        "href": "https://www.xunta.gal/image/image_gallery?img_id=1614246",
+        "inner_text": "\t\tImaxe de  Intervención do presidente da Xunta no acto conmemorativo do Día das Letras Galegas 2021\t",
+        "inner_html": "<div class=\"envolturaImx lazy\" style=\"background-image: url('/image/image_gallery?img_id=1614245')\">\t<span class=\"sr-only\">Imaxe de  Intervención do presidente da Xunta no acto conmemorativo do Día das Letras Galegas 2021</span>\t</div>"
+      },
+      {
+        "href": "https://www.xunta.gal/image/image_gallery?img_id=1614240",
+        "inner_text": "\t\tImaxe de  Intervención do presidente da Xunta no acto conmemorativo do Día das Letras Galegas 2021\t",
+        "inner_html": "<div class=\"envolturaImx lazy\" style=\"background-image: url('/image/image_gallery?img_id=1614239')\">\t<span class=\"sr-only\">Imaxe de  Intervención do presidente da Xunta no acto conmemorativo do Día das Letras Galegas 2021</span>\t</div>"
+      },
+      {
+        "href": "https://www.xunta.gal/image/image_gallery?img_id=1614234",
+        "inner_text": "\t\tImaxe de  Intervención do presidente da Xunta no acto conmemorativo do Día das Letras Galegas 2021\t",
+        "inner_html": "<div class=\"envolturaImx lazy\" style=\"background-image: url('/image/image_gallery?img_id=1614233')\">\t<span class=\"sr-only\">Imaxe de  Intervención do presidente da Xunta no acto conmemorativo do Día das Letras Galegas 2021</span>\t</div>"
+      },
+      {
+        "href": "https://multimedia.xunta.gal/portal-web/Videos/20210514_VicepteSanid_01web.mp4",
+        "inner_text": "\t\t\tVídeo de  A Xunta ensaiará a reapertura do ocio nocturno para cando se dean as circunstancias, cun 50% de ocupación dos locais, controis de acceso e rexistro de clientes\t",
+        "inner_html": "<img src=\"/tema-portal-xunta-responsive/images/botons/play_video.svg\" alt=\"Play video\" class=\"play\">\t<div class=\"envolturaImx lazy\" style=\"background-image: url('/image/image_gallery?img_id=1613424')\">\t<span class=\"sr-only\">Vídeo de  A Xunta ensaiará a reapertura do ocio nocturno para cando se dean as circunstancias, cun 50% de ocupación dos locais, controis de acceso e rexistro de clientes</span>\t</div>"
+      },
+      {
+        "href": "https://www.xunta.gal/notas-de-prensa/-/nova/58042/xunta-ensaiara-reapertura-ocio-nocturno-para-cando-dean-circunstancias-cun-50",
+        "inner_text": "A Xunta ensaiará a reapertura do ocio nocturno para cando se dean as circunstancias, cun 50% de ocupación dos locais, controis de acceso e rexistro de clientes",
+        "inner_html": "<p style=\"margin-bottom:0px;\">A Xunta ensaiará a reapertura do ocio nocturno para cando se dean as circunstancias, cun 50% de ocupación dos locais, controis de acceso e rexistro de clientes</p>"
+      },
+      {
+        "href": "http://www.presidente.gal/portada",
+        "inner_text": "Presidente.gal\nPresidente.gal",
+        "inner_html": "<img class=\"lazy\" src=\"/image/image_gallery?img_id=1435258\" alt=\"\">\t<span class=\"sr-only\">Presidente.gal</span>\t<span>Presidente.gal</span>"
+      },
+      {
+        "href": "http://www.pan.gal/",
+        "inner_text": "Tarxeta benvida\nTarxeta benvida",
+        "inner_html": "<img class=\"lazy\" src=\"/image/image_gallery?img_id=991195\" alt=\"\">\t<span class=\"sr-only\">Tarxeta benvida</span>\t<span>Tarxeta benvida</span>"
+      },
+      {
+        "href": "http://cultura.gal/axenda?utm_source=www.xunta.gal&utm_medium=banner_portada&utm_campaign=Axenda_Cultural",
+        "inner_text": "Axenda cultural\nAxenda cultural",
+        "inner_html": "<img class=\"lazy\" src=\"/image/image_gallery?img_id=991201\" alt=\"\">\t<span class=\"sr-only\">Axenda cultural</span>\t<span>Axenda cultural</span>"
+      },
+      {
+        "href": "http://www.edu.xunta.gal/",
+        "inner_text": "Educación pública\nPortal de Educación, Universidade e Formación Profesional",
+        "inner_html": "<div class=\"categoria\">\t<img src=\"/image/image_gallery?img_id=1078442\" alt=\"\">\t</div><div class=\"infocategoria\">\t<span class=\"nomCat\">Educación pública</span>\t<span class=\"titulo\">Portal de Educación, Universidade e Formación Profesional</span>\t</div>"
+      },
+      {
+        "href": "http://www.sergas.es/Colectivos?idcat=11046",
+        "inner_text": "Sanidade pública\nEspazo de saúde para a cidadanía",
+        "inner_html": "<div class=\"categoria\">\t<img src=\"/image/image_gallery?img_id=1078496\" alt=\"\">\t</div><div class=\"infocategoria\">\t<span class=\"nomCat\">Sanidade pública</span>\t<span class=\"titulo\">Espazo de saúde para a cidadanía</span>\t</div>"
+      },
+      {
+        "href": "http://politicasocial.xunta.gal/",
+        "inner_text": "Servizos sociais\nPortal de Política Social",
+        "inner_html": "<div class=\"categoria\">\t<img src=\"/image/image_gallery?img_id=1078502\" alt=\"\">\t</div><div class=\"infocategoria\">\t<span class=\"nomCat\">Servizos sociais</span>\t<span class=\"titulo\">Portal de Política Social</span>\t</div>"
+      },
+      {
+        "href": "http://igualdade.xunta.gal/",
+        "inner_text": "Igualdade\nPortal das Mulleres en Galicia",
+        "inner_html": "<div class=\"categoria\">\t<img src=\"/image/image_gallery?img_id=1078466\" alt=\"\">\t</div><div class=\"infocategoria\">\t<span class=\"nomCat\">Igualdade</span>\t<span class=\"titulo\">Portal das Mulleres en Galicia</span>\t</div>"
+      },
+      {
+        "href": "http://gain.xunta.gal/",
+        "inner_text": "Innovación\nAxencia Galega de Innovación (Gain)",
+        "inner_html": "<div class=\"categoria\">\t<img src=\"/image/image_gallery?img_id=1078472\" alt=\"\">\t</div><div class=\"infocategoria\">\t<span class=\"nomCat\">Innovación</span>\t<span class=\"titulo\">Axencia Galega de Innovación (Gain)</span>\t</div>"
+      },
+      {
+        "href": "http://www.igape.es/",
+        "inner_text": "Emprendedores/as\nInstituto Galego de Promoción Económica",
+        "inner_html": "<div class=\"categoria\">\t<img src=\"/image/image_gallery?img_id=1078460\" alt=\"\">\t</div><div class=\"infocategoria\">\t<span class=\"nomCat\">Emprendedores/as</span>\t<span class=\"titulo\">Instituto Galego de Promoción Económica</span>\t</div>"
+      },
+      {
+        "href": "http://amtega.xunta.gal/",
+        "inner_text": "Modernización\nAxencia para a Modernización Tecnolóxica de Galicia (Amtega)",
+        "inner_html": "<div class=\"categoria\">\t<img src=\"/image/image_gallery?img_id=1078490\" alt=\"\">\t</div><div class=\"infocategoria\">\t<span class=\"nomCat\">Modernización</span>\t<span class=\"titulo\">Axencia para a Modernización Tecnolóxica de Galicia (Amtega)</span>\t</div>"
+      },
+      {
+        "href": "http://www.lingua.gal/",
+        "inner_text": "Lingua\nPolítica lingüística de Galicia",
+        "inner_html": "<div class=\"categoria\">\t<img src=\"/image/image_gallery?img_id=1078478\" alt=\"\">\t</div><div class=\"infocategoria\">\t<span class=\"nomCat\">Lingua</span>\t<span class=\"titulo\">Política lingüística de Galicia</span>\t</div>"
+      },
+      {
+        "href": "https://www.xunta.gal/footer/presentacion-do-servizo",
+        "inner_text": "Presentación do servizo",
+        "inner_html": "Presentación do servizo"
+      },
+      {
+        "href": "https://www.xunta.gal/footer/servizo-do-012",
+        "inner_text": "Servizo do 012",
+        "inner_html": "Servizo do 012"
+      },
+      {
+        "href": "https://www.xunta.gal/footer/suxestions-e-queixas",
+        "inner_text": "Suxestións e queixas",
+        "inner_html": "Suxestións e queixas"
+      },
+      {
+        "href": "https://www.xunta.gal/footer/oficina-de-rexistro-e-informacion",
+        "inner_text": "Oficinas de atención á cidadanía e de rexistro",
+        "inner_html": "Oficinas de atención á cidadanía e de rexistro"
+      },
+      {
+        "href": "https://www.xunta.gal/footer/cita-previa",
+        "inner_text": "Cita previa",
+        "inner_html": "Cita previa"
+      },
+      {
+        "href": "https://www.xunta.gal/footer/servizo-de-videointerpretacion-para-persoas-xordas",
+        "inner_text": "Servizo de videointerpretación para persoas xordas",
+        "inner_html": "Servizo de videointerpretación para persoas xordas"
+      },
+      {
+        "href": "https://sede.xunta.gal/",
+        "inner_text": "Sede electrónica",
+        "inner_html": "Sede electrónica"
+      },
+      {
+        "href": "http://www.contratosdegalicia.gal/",
+        "inner_text": "Contratos de Galicia",
+        "inner_html": "Contratos de Galicia"
+      },
+      {
+        "href": "http://www.conselleriadefacenda.es/sicon/",
+        "inner_text": "Factura e licitación electrónica",
+        "inner_html": "Factura e licitación electrónica"
+      },
+      {
+        "href": "http://emprego.xunta.gal/",
+        "inner_text": "Servizo Público de Emprego",
+        "inner_html": "Servizo Público de Emprego"
+      },
+      {
+        "href": "https://www.eidolocal.gal/",
+        "inner_text": "Eido local",
+        "inner_html": "Eido local"
+      },
+      {
+        "href": "http://tradutorgaio.xunta.gal/TradutorPublico/traducir/index",
+        "inner_text": "Tradutor Gaio",
+        "inner_html": "Tradutor Gaio"
+      },
+      {
+        "href": "http://www.xunta.gal/diario-oficial-galicia",
+        "inner_text": "Diario Oficial de Galicia",
+        "inner_html": "Diario Oficial de Galicia"
+      },
+      {
+        "href": "https://www.xunta.gal/footer/funcion-publica",
+        "inner_text": "Función pública",
+        "inner_html": "Función pública"
+      },
+      {
+        "href": "http://www.cultura.gal/gl/axenda",
+        "inner_text": "Axenda cultural",
+        "inner_html": "Axenda cultural"
+      },
+      {
+        "href": "https://www.xunta.gal/recomendacions-teletraballo",
+        "inner_text": "Ferramentas de teletraballo",
+        "inner_html": "Ferramentas de teletraballo"
+      },
+      {
+        "href": "https://www.xunta.gal/footer/aplicacions-mobiles",
+        "inner_text": "Aplicacións móbiles",
+        "inner_html": "<span class=\"icono\">\t<img class=\"icoMobile\" src=\"/tema-portal-xunta-responsive/images/iconos/pie/ico_mobile.svg\" alt=\"\">\t</span>\tAplicacións móbiles"
+      },
+      {
+        "href": "https://www.xunta.gal/footer/portais-a-z",
+        "inner_text": "Portais A...Z",
+        "inner_html": "<span class=\"icono\">\t<img class=\"icoCloud\" src=\"/tema-portal-xunta-responsive/images/iconos/pie/ico_cloud.svg\" alt=\"\">\t</span>\tPortais A...Z"
+      },
+      {
+        "href": "http://www.xunta.gal/novas_rss.htm",
+        "inner_text": "RSS",
+        "inner_html": "<span class=\"icono\">\t<img class=\"icoRss\" src=\"/tema-portal-xunta-responsive/images/iconos/pie/ico_rss.svg\" alt=\"\">\t</span>\tRSS"
+      },
+      {
+        "href": "http://ec.europa.eu/regional_policy/es/funding/erdf/",
+        "inner_text": "Ir a Fondo Europeo de desenvolvemento rexional",
+        "inner_html": "<img alt=\"\" class=\"icoFeder\" src=\"/tema-portal-xunta-responsive/images/logos/feder.svg\">\t<span class=\"sr-only\">Ir a Fondo Europeo de desenvolvemento rexional</span>"
+      },
+      {
+        "href": "http://www.facebook.com/xuntadegalicia",
+        "inner_text": "Facebook",
+        "inner_html": "<img src=\"/tema-portal-xunta-responsive/images/iconos/sociales/ico_facebook.svg\" alt=\"\" class=\"peFacebook\">\t<span class=\"sr-only\">Facebook</span>"
+      },
+      {
+        "href": "http://twitter.com/xunta",
+        "inner_text": "Twitter",
+        "inner_html": "<img src=\"/tema-portal-xunta-responsive/images/iconos/sociales/ico_twitter.svg\" alt=\"\" class=\"peTwitter\">\t<span class=\"sr-only\">Twitter</span>"
+      },
+      {
+        "href": "http://www.youtube.com/xuntadegalicia",
+        "inner_text": "Youtube",
+        "inner_html": "<img src=\"/tema-portal-xunta-responsive/images/iconos/sociales/ico_youtube.svg\" alt=\"\" class=\"peYouTube\">\t<span class=\"sr-only\">Youtube</span>"
+      },
+      {
+        "href": "https://www.xunta.gal/mapa-do-portal",
+        "inner_text": "Mapa do portal",
+        "inner_html": "Mapa do portal"
+      },
+      {
+        "href": "https://www.xunta.gal/aviso-legal-do-portal-da-xunta",
+        "inner_text": "Aviso legal",
+        "inner_html": "Aviso legal"
+      },
+      {
+        "href": "https://www.xunta.gal/accesibilidade",
+        "inner_text": "Accesibilidade",
+        "inner_html": "Accesibilidade"
+      },
+      {
+        "href": "https://www--xunta--gal.insuit.net/",
+        "inner_text": "Apoio á navegación",
+        "inner_html": "<span class=\"img-insuit\"><img src=\"/tema-portal-xunta-responsive/images/icos/acceso_insuit.svg\" alt=\"Insuit\"></span>Apoio á navegación"
+      }
+    ],
+    "social": [
+      {
+        "href": "https://www.youtube.com/watch?v=YzWQu24-jjs",
+        "inner_text": "Camiña a Galicia",
+        "inner_html": "<span class=\"sr-only\">\tCamiña a Galicia\t</span>"
+      },
+      {
+        "href": "http://www.facebook.com/xuntadegalicia",
+        "inner_text": "Facebook",
+        "inner_html": "<img src=\"/tema-portal-xunta-responsive/images/iconos/sociales/ico_facebook.svg\" alt=\"\" class=\"peFacebook\">\t<span class=\"sr-only\">Facebook</span>"
+      },
+      {
+        "href": "http://twitter.com/xunta",
+        "inner_text": "Twitter",
+        "inner_html": "<img src=\"/tema-portal-xunta-responsive/images/iconos/sociales/ico_twitter.svg\" alt=\"\" class=\"peTwitter\">\t<span class=\"sr-only\">Twitter</span>"
+      },
+      {
+        "href": "http://www.youtube.com/xuntadegalicia",
+        "inner_text": "Youtube",
+        "inner_html": "<img src=\"/tema-portal-xunta-responsive/images/iconos/sociales/ico_youtube.svg\" alt=\"\" class=\"peYouTube\">\t<span class=\"sr-only\">Youtube</span>"
+      }
+    ],
+    "keywords": [
+      {
+        "href": "https://www.xunta.gal/aviso-legal",
+        "inner_text": "obter máis información, configurar as súas preferencias ou rexeitar as cookies aquí",
+        "inner_html": "obter máis información, configurar as súas preferencias ou rexeitar as cookies aquí"
+      },
+      {
+        "href": "https://www.xunta.gal/aviso-legal-do-portal-da-xunta",
+        "inner_text": "Aviso legal",
+        "inner_html": "Aviso legal"
+      }
+    ]
+  },
+  "unsafeForms": [],
+  "browsing_history": [
+    "https://www.xunta.gal/portada"
+  ],
+  "websockets": {},
+  "cookies": [
+    {
+      "name": "_ga",
+      "value": "GA1.2.1082321654.1621523971",
+      "domain": "xunta.gal",
+      "path": "/",
+      "expires": 1684595970,
+      "size": 30,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2023-05-20T15:19:30.000Z",
+      "expiresDays": 730,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 495,
+            "lineNumber": 30,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "zc",
+            "source": "    at zc (https://www.google-analytics.com/analytics.js:30:495)"
+          },
+          {
+            "columnNumber": 15,
+            "lineNumber": 60,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "ma",
+            "source": "    at ma (https://www.google-analytics.com/analytics.js:60:15)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T15:19:31.012Z",
+        "location": "https://www.xunta.gal/portada"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "COOKIE_SUPPORT",
+      "value": "true",
+      "domain": "www.xunta.gal",
+      "path": "/",
+      "expires": 1653059971.020122,
+      "size": 18,
+      "httpOnly": false,
+      "secure": true,
+      "session": false,
+      "expiresUTC": "2022-05-20T15:19:31.020Z",
+      "expiresDays": 365,
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.xunta.gal/portada",
+            "source": "set in Set-Cookie HTTP response header for https://www.xunta.gal/portada"
+          }
+        ],
+        "type": "Cookie.HTTP",
+        "timestamp": "2021-05-20T15:19:30.024Z",
+        "location": "about:blank"
+      },
+      "firstPartyStorage": false
+    },
+    {
+      "name": "GUEST_LANGUAGE_ID",
+      "value": "gl_ES",
+      "domain": "www.xunta.gal",
+      "path": "/",
+      "expires": 1653059971.020077,
+      "size": 22,
+      "httpOnly": false,
+      "secure": true,
+      "session": false,
+      "expiresUTC": "2022-05-20T15:19:31.020Z",
+      "expiresDays": 365,
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.xunta.gal/portada",
+            "source": "set in Set-Cookie HTTP response header for https://www.xunta.gal/portada"
+          }
+        ],
+        "type": "Cookie.HTTP",
+        "timestamp": "2021-05-20T15:19:30.024Z",
+        "location": "about:blank"
+      },
+      "firstPartyStorage": false
+    },
+    {
+      "name": "_gid",
+      "value": "GA1.2.1850983413.1621523971",
+      "domain": "xunta.gal",
+      "path": "/",
+      "expires": 1621610371,
+      "size": 31,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2021-05-21T15:19:31.000Z",
+      "expiresDays": 1,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 495,
+            "lineNumber": 30,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "zc",
+            "source": "    at zc (https://www.google-analytics.com/analytics.js:30:495)"
+          },
+          {
+            "columnNumber": 401,
+            "lineNumber": 59,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "ma",
+            "source": "    at ma (https://www.google-analytics.com/analytics.js:59:401)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T15:19:31.013Z",
+        "location": "https://www.xunta.gal/portada"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "_gat",
+      "value": "1",
+      "domain": "xunta.gal",
+      "path": "/",
+      "expires": 1621524031,
+      "size": 5,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2021-05-20T15:20:31.000Z",
+      "expiresDays": 0,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 495,
+            "lineNumber": 30,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "zc",
+            "source": "    at zc (https://www.google-analytics.com/analytics.js:30:495)"
+          },
+          {
+            "columnNumber": 31,
+            "lineNumber": 73,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "Qd",
+            "source": "    at Qd (https://www.google-analytics.com/analytics.js:73:31)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T15:19:31.014Z",
+        "location": "https://www.xunta.gal/portada"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "JSESSIONID",
+      "value": "yI2KXDR_yJkJp0bAi5Kkvu5NH2LGbGZbQVpoALUboL7OIBMBiZDS!-1753614322",
+      "domain": "www.xunta.gal",
+      "path": "/",
+      "expires": -1,
+      "size": 74,
+      "httpOnly": true,
+      "secure": false,
+      "session": true,
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.xunta.gal/portada",
+            "source": "set in Set-Cookie HTTP response header for https://www.xunta.gal/portada"
+          }
+        ],
+        "type": "Cookie.HTTP",
+        "timestamp": "2021-05-20T15:19:30.024Z",
+        "location": "about:blank"
+      },
+      "firstPartyStorage": false
+    }
+  ],
+  "localStorage": {},
+  "beacons": [
+    {
+      "url": "https://www.google-analytics.com/j/collect?v=1&_v=j90&aip=1&a=649521425&t=pageview&_s=1&dl=https%3A%2F%2Fwww.xunta.gal%2Fportada&dp=%2Fportada%3FlangId%3Dgl_ES&ul=en-us&de=UTF-8&dt=Inicio%20-%20Xunta%20de%20Galicia&sd=24-bit&sr=1680x927&vp=1680x927&je=0&_u=YEBAAEABAAAAAC~&jid=1667629903&gjid=1188996870&cid=1082321654.1621523971&tid=UA-43789030-1&_gid=1850983413.1621523971&_r=1&_slc=1&z=47892154",
+      "query": {
+        "v": 1,
+        "_v": "j90",
+        "aip": 1,
+        "a": 649521425,
+        "t": "pageview",
+        "_s": 1,
+        "dl": "https://www.xunta.gal/portada",
+        "dp": "/portada?langId=gl_ES",
+        "ul": "en-us",
+        "de": "UTF-8",
+        "dt": "Inicio - Xunta de Galicia",
+        "sd": "24-bit",
+        "sr": "1680x927",
+        "vp": "1680x927",
+        "je": 0,
+        "_u": "YEBAAEABAAAAAC~",
+        "jid": 1667629903,
+        "gjid": 1188996870,
+        "cid": 1082321654.1621523,
+        "tid": "UA-43789030-1",
+        "_gid": 1850983413.1621523,
+        "_r": 1,
+        "_slc": 1,
+        "z": 47892154
+      },
+      "filter": "/collect?*&cid=",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.xunta.gal/portada",
+            "source": "requested from https://www.xunta.gal/portada and matched with easyprivacy.txt filter /collect?*&cid="
+          }
+        ],
+        "timestamp": "2021-05-20T15:19:31.016Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://www.google-analytics.com/analytics.js",
+      "query": null,
+      "filter": "||google-analytics.com/analytics.js",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.xunta.gal/portada",
+            "source": "requested from https://www.xunta.gal/portada and matched with easyprivacy.txt filter ||google-analytics.com/analytics.js"
+          }
+        ],
+        "timestamp": "2021-05-20T15:19:30.745Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://www.xunta.gal/tema-portal-xunta-responsive/images/iconos/sociales/ico_youtube.svg",
+      "query": null,
+      "filter": "/ico_youtube.",
+      "listName": "fanboy-annoyance.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.xunta.gal/portada",
+            "source": "requested from https://www.xunta.gal/portada and matched with fanboy-annoyance.txt filter /ico_youtube."
+          }
+        ],
+        "timestamp": "2021-05-20T15:19:30.117Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://www.xunta.gal/tema-portal-xunta-responsive/images/iconos/sociales/ico_twitter.svg",
+      "query": null,
+      "filter": "/ico_twitter.",
+      "listName": "fanboy-annoyance.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.xunta.gal/portada",
+            "source": "requested from https://www.xunta.gal/portada and matched with fanboy-annoyance.txt filter /ico_twitter."
+          }
+        ],
+        "timestamp": "2021-05-20T15:19:30.116Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://www.xunta.gal/tema-portal-xunta-responsive/images/iconos/sociales/ico_facebook.svg",
+      "query": null,
+      "filter": "/ico_facebook.",
+      "listName": "fanboy-annoyance.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.xunta.gal/portada",
+            "source": "requested from https://www.xunta.gal/portada and matched with fanboy-annoyance.txt filter /ico_facebook."
+          }
+        ],
+        "timestamp": "2021-05-20T15:19:30.116Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://www.xunta.gal/tema-portal-xunta-responsive/images/iconos/pie/ico_rss.svg",
+      "query": null,
+      "filter": "/ico_rss.",
+      "listName": "fanboy-annoyance.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.xunta.gal/portada",
+            "source": "requested from https://www.xunta.gal/portada and matched with fanboy-annoyance.txt filter /ico_rss."
+          }
+        ],
+        "timestamp": "2021-05-20T15:19:30.114Z"
+      },
+      "occurrances": 1
+    }
+  ],
+  "hosts": {
+    "requests": {
+      "firstParty": [
+        "xunta.gal"
+      ],
+      "thirdParty": [
+        "www.xunta.gal",
+        "www.google-analytics.com"
+      ]
+    },
+    "beacons": {
+      "firstParty": [],
+      "thirdParty": [
+        "www.google-analytics.com"
+      ]
+    },
+    "cookies": {
+      "firstParty": [
+        "xunta.gal"
+      ],
+      "thirdParty": [
+        "www.xunta.gal"
+      ]
+    },
+    "localStorage": {
+      "firstParty": [],
+      "thirdParty": []
+    },
+    "links": {
+      "firstParty": [],
+      "thirdParty": [
+        "www.xunta.gal",
+        "xacobeo2021.caminodesantiago.gal",
+        "www.turismo.gal",
+        "cpxt.xunta.gal",
+        "empregoeigualdade.xunta.gal",
+        "sede.xunta.gal",
+        "transparencia.xunta.gal",
+        "youtu.be",
+        "coronavirus.sergas.gal",
+        "www.youtube.com",
+        "www.contratosdegalicia.gal",
+        "emprego.xunta.es",
+        "www.conselleriadefacenda.es",
+        "www.meteogalicia.gal",
+        "multimedia.xunta.gal",
+        "www.presidente.gal",
+        "www.pan.gal",
+        "cultura.gal",
+        "www.edu.xunta.gal",
+        "www.sergas.es",
+        "politicasocial.xunta.gal",
+        "igualdade.xunta.gal",
+        "gain.xunta.gal",
+        "www.igape.es",
+        "amtega.xunta.gal",
+        "www.lingua.gal",
+        "emprego.xunta.gal",
+        "www.eidolocal.gal",
+        "tradutorgaio.xunta.gal",
+        "www.cultura.gal",
+        "ec.europa.eu",
+        "www.facebook.com",
+        "twitter.com",
+        "www--xunta--gal.insuit.net"
+      ]
+    }
+  }
+}

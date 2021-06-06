@@ -1,0 +1,949 @@
+{
+  "title": "Website Evidence Collection",
+  "task_description": null,
+  "uri_ins": "https://infojobs.net",
+  "uri_refs": [
+    "https://infojobs.net"
+  ],
+  "uri_dest": "https://www.infojobs.net/",
+  "uri_redirects": [
+    "https://infojobs.net/"
+  ],
+  "secure_connection": {
+    "https_support": true,
+    "redirects": [
+      "https://www.infojobs.net/"
+    ],
+    "https_redirect": true
+  },
+  "host": "infojobs.net",
+  "script": {
+    "host": "sfod",
+    "version": {
+      "npm": "1.0.0",
+      "commit": null
+    },
+    "cmd_args": "-q --overwrite https://infojobs.net -- --ignore-certificate-errors",
+    "environment": {
+      "CHROME_DESKTOP": "code-url-handler.desktop"
+    },
+    "node_version": "v14.17.0"
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "HeadlessChrome/80.0.3987.0",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3617.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "5.8.0-53-generic"
+    },
+    "extra_headers": {},
+    "preset_cookies": {}
+  },
+  "start_time": "2021-05-20T15:25:11.689Z",
+  "end_time": "2021-05-20T15:25:20.600Z",
+  "links": {
+    "firstParty": [],
+    "thirdParty": [
+      {
+        "href": "https://www.infojobs.net/",
+        "inner_text": "",
+        "inner_html": "<img id=\"logo-header\" src=\"//media.infojobs.net/portales/ij/appgrade/svgs/ij-logo-default_primary.svg\" alt=\"InfoJobs\" data-vars=\"{&quot;xitiPortalLevelOne&quot;:1}\">"
+      },
+      {
+        "href": "https://www.infojobs.net/ofertas-trabajo",
+        "inner_text": "Buscar empleo",
+        "inner_html": "Buscar empleo"
+      },
+      {
+        "href": "https://www.infojobs.net/buscador-empresas",
+        "inner_text": "Buscar empresas",
+        "inner_html": "Buscar empresas"
+      },
+      {
+        "href": "https://salarios.infojobs.net/",
+        "inner_text": "Salarios",
+        "inner_html": "Salarios"
+      },
+      {
+        "href": "https://formacion.infojobs.net/",
+        "inner_text": "Formación",
+        "inner_html": "Formación"
+      },
+      {
+        "href": "https://www.infojobs.net/empresas",
+        "inner_text": "ACCESO EMPRESAS",
+        "inner_html": "ACCESO EMPRESAS"
+      },
+      {
+        "href": "http://app.appsflyer.com/net.infojobs.mobile.android?pid=Home&c=Generic",
+        "inner_text": "\n\t\t\t\t\t\t\n\t\t\t\t\t",
+        "inner_html": "<img alt=\"Google play\" src=\"//media.infojobs.net/appgrade/pictures/pic-google-play-2.png\">"
+      },
+      {
+        "href": "http://app.appsflyer.com/id382581206?pid=Home&c=Generic",
+        "inner_text": "\n\t\t\t\t\t\t\n\t\t\t\t\t",
+        "inner_html": "<img alt=\"App Store \" src=\"//media.infojobs.net/appgrade/pictures/pic-app-store-2.png\">"
+      },
+      {
+        "href": "https://orientacion-laboral.infojobs.net/",
+        "inner_text": "IR AL BLOG",
+        "inner_html": "IR AL BLOG"
+      },
+      {
+        "href": "https://www.infojobs.net/ofertas-trabajo/salario-35000",
+        "inner_text": "35.000€ O MÁS",
+        "inner_html": "<picture>\n\t\t\t\t\t\t<source srcset=\"//media.infojobs.net/portales/ij/appgrade/pictures/pic-home-filtros-salario-m.jpg\" media=\"(max-width:480px)\">\n\t\t\t\t\t\t<img alt=\"\" src=\"//media.infojobs.net/portales/ij/appgrade/pictures/pic-home-filtros-salario.jpg\">\n\t\t\t\t\t</picture>\n\t\t\t\t\t<p class=\"link text-uppercase focus margin-top-s margin-bottom-s semi-bold\">35.000€ o más</p>"
+      },
+      {
+        "href": "https://www.infojobs.net/ofertas-trabajo/media-jornada",
+        "inner_text": "MEDIA JORNADA",
+        "inner_html": "<picture>\n\t\t\t\t\t\t<source srcset=\"//media.infojobs.net/portales/ij/appgrade/pictures/pic-home-filtros-jornada-m.jpg\" media=\"(max-width:480px)\">\n\t\t\t\t\t\t<img alt=\"\" src=\"//media.infojobs.net/portales/ij/appgrade/pictures/pic-home-filtros-jornada.jpg\">\n\t\t\t\t\t</picture>\n\t\t\t\t\t<p class=\"link text-uppercase focus margin-top-s margin-bottom-s semi-bold\">Media jornada</p>"
+      },
+      {
+        "href": "https://www.infojobs.net/ofertas-trabajo/teletrabajo",
+        "inner_text": "TELETRABAJO",
+        "inner_html": "<picture>\n\t\t\t\t\t\t<source srcset=\"//media.infojobs.net/portales/ij/appgrade/pictures/pic-home-filtros-teletrabajo-m.jpg\" media=\"(max-width:480px)\">\n\t\t\t\t\t\t<img alt=\"\" src=\"//media.infojobs.net/portales/ij/appgrade/pictures/pic-home-filtros-teletrabajo.jpg\">\n\t\t\t\t\t</picture>\n\t\t\t\t\t<p class=\"link text-uppercase focus margin-top-s margin-bottom-s semi-bold\">Teletrabajo</p>"
+      },
+      {
+        "href": "https://www.infojobs.net/ofertas-trabajo/empleo-directivos",
+        "inner_text": "DIRECTIVO",
+        "inner_html": "<picture>\n\t\t\t\t\t\t<source srcset=\"//media.infojobs.net/portales/ij/appgrade/pictures/pic-home-filtros-directivo-m.jpg\" media=\"(max-width:480px)\">\n\t\t\t\t\t\t<img alt=\"\" src=\"//media.infojobs.net/portales/ij/appgrade/pictures/pic-home-filtros-directivo.jpg\">\n\t\t\t\t\t</picture>\n\t\t\t\t\t<p class=\"link text-uppercase focus margin-top-s margin-bottom-s semi-bold\">Directivo</p>"
+      },
+      {
+        "href": "https://www.infojobs.net/ofertas-trabajo/madrid/madrid",
+        "inner_text": "MADRID",
+        "inner_html": "<picture>\n\t\t\t\t\t\t<source srcset=\"//media.infojobs.net/portales/ij/appgrade/pictures/pic-home-ciudades-madrid-m.jpg\" media=\"(max-width:480px)\">\n\t\t\t\t\t\t<img alt=\"\" src=\"//media.infojobs.net/portales/ij/appgrade/pictures/pic-home-ciudades-madrid.jpg\">\n\t\t\t\t\t</picture>\n\t\t\t\t\t<p class=\"link text-uppercase focus margin-top-s margin-bottom-s semi-bold\">Madrid</p>"
+      },
+      {
+        "href": "https://www.infojobs.net/ofertas-trabajo/barcelona/barcelona",
+        "inner_text": "BARCELONA",
+        "inner_html": "<picture>\n\t\t\t\t\t\t<source srcset=\"//media.infojobs.net/portales/ij/appgrade/pictures/pic-home-ciudades-barcelona-m.jpg\" media=\"(max-width:480px)\">\n\t\t\t\t\t\t<img alt=\"\" src=\"//media.infojobs.net/portales/ij/appgrade/pictures/pic-home-ciudades-barcelona.jpg\">\n\t\t\t\t\t</picture>\n\t\t\t\t\t<p class=\"link text-uppercase focus margin-top-s margin-bottom-s semi-bold\">Barcelona</p>"
+      },
+      {
+        "href": "https://www.infojobs.net/ofertas-trabajo/valencia/valencia",
+        "inner_text": "VALENCIA",
+        "inner_html": "<picture>\n\t\t\t\t\t\t<source srcset=\"//media.infojobs.net/portales/ij/appgrade/pictures/pic-home-ciudades-valencia-m.jpg\" media=\"(max-width:480px)\">\n\t\t\t\t\t\t<img alt=\"\" src=\"//media.infojobs.net/portales/ij/appgrade/pictures/pic-home-ciudades-valencia.jpg\">\n\t\t\t\t\t</picture>\n\t\t\t\t\t<p class=\"link text-uppercase focus margin-top-s margin-bottom-s semi-bold\">Valencia</p>"
+      },
+      {
+        "href": "https://www.infojobs.net/ofertas-trabajo/vizcaya/bilbao",
+        "inner_text": "BILBAO",
+        "inner_html": "<picture>\n\t\t\t\t\t\t<source srcset=\"//media.infojobs.net/portales/ij/appgrade/pictures/pic-home-ciudades-bilbao-m.jpg\" media=\"(max-width:480px)\">\n\t\t\t\t\t\t<img alt=\"\" src=\"//media.infojobs.net/portales/ij/appgrade/pictures/pic-home-ciudades-bilbao.jpg\">\n\t\t\t\t\t</picture>\n\t\t\t\t\t<p class=\"link text-uppercase focus margin-top-s margin-bottom-s semi-bold\">Bilbao</p>"
+      },
+      {
+        "href": "https://www.infojobs.net/ofertas-trabajo/informatica-telecomunicaciones",
+        "inner_text": "INFORMÁTICA\n\n5.924",
+        "inner_html": "<picture>\n\t\t\t\t\t\t<source srcset=\"//media.infojobs.net/portales/ij/appgrade/pictures/pic-home-sectores-informatica-m.jpg\" media=\"(max-width:480px)\">\n\t\t\t\t\t\t<img alt=\"\" src=\"//media.infojobs.net/portales/ij/appgrade/pictures/pic-home-sectores-informatica.jpg\">\n\t\t\t\t\t</picture>\n\t\t\t\t\t<p class=\"link text-uppercase focus margin-top-s margin-bottom-s semi-bold\">informática</p>\n\t\t\t\t\t<p class=\"script semi-bold\">5.924</p>"
+      },
+      {
+        "href": "https://www.infojobs.net/ofertas-trabajo/sanidad-salud",
+        "inner_text": "SANIDAD Y SALUD\n\n2.741",
+        "inner_html": "<picture>\n\t\t\t\t\t\t<source srcset=\"//media.infojobs.net/portales/ij/appgrade/pictures/pic-home-sectores-sanidad-m.jpg\" media=\"(max-width:480px)\">\n\t\t\t\t\t\t<img alt=\"\" src=\"//media.infojobs.net/portales/ij/appgrade/pictures/pic-home-sectores-sanidad.jpg\">\n\t\t\t\t\t</picture>\n\t\t\t\t\t<p class=\"link text-uppercase focus margin-top-s margin-bottom-s semi-bold\">sanidad y salud</p>\n\t\t\t\t\t<p class=\"script semi-bold\">2.741</p>"
+      },
+      {
+        "href": "https://www.infojobs.net/ofertas-trabajo/comercial-ventas",
+        "inner_text": "COMERCIAL Y VENTAS\n\n6.657",
+        "inner_html": "<picture>\n\t\t\t\t\t\t<source srcset=\"//media.infojobs.net/portales/ij/appgrade/pictures/pic-home-sectores-comercial-m.jpg\" media=\"(max-width:480px)\">\n\t\t\t\t\t\t<img alt=\"\" src=\"//media.infojobs.net/portales/ij/appgrade/pictures/pic-home-sectores-comercial.jpg\">\n\t\t\t\t\t</picture>\n\t\t\t\t\t<p class=\"link text-uppercase focus margin-top-s margin-bottom-s semi-bold\">Comercial y ventas</p>\n\t\t\t\t\t<p class=\"script semi-bold\">6.657</p>"
+      },
+      {
+        "href": "https://www.infojobs.net/candidate/help/index.xhtml",
+        "inner_text": "Ayuda",
+        "inner_html": "Ayuda"
+      },
+      {
+        "href": "https://orientacion-laboral.infojobs.net/detectar-ofertas-falsas",
+        "inner_text": "Seguridad",
+        "inner_html": "Seguridad"
+      },
+      {
+        "href": "https://www.infojobs.net/lex.xhtml",
+        "inner_text": "Condiciones legales",
+        "inner_html": "Condiciones legales"
+      },
+      {
+        "href": "https://www.infojobs.net/privacy-policy/extended.xhtml",
+        "inner_text": "Política de Privacidad",
+        "inner_html": "Política de Privacidad"
+      },
+      {
+        "href": "https://www.infojobs.net/rules-and-services.xhtml",
+        "inner_text": "Uso del servicio",
+        "inner_html": "Uso del servicio"
+      },
+      {
+        "href": "https://nosotros.infojobs.net/",
+        "inner_text": "InfoJobs hoy",
+        "inner_html": "InfoJobs hoy"
+      },
+      {
+        "href": "https://adevinta-spain.ofertas-trabajo.infojobs.net/",
+        "inner_text": "Trabaja con nosotros",
+        "inner_html": "Trabaja con nosotros"
+      },
+      {
+        "href": "https://www.infojobs.net/ofertas-empleo",
+        "inner_text": "Ofertas de empleo",
+        "inner_html": "Ofertas de empleo"
+      },
+      {
+        "href": "https://academy.infojobs.net/",
+        "inner_text": "InfoJobs Academy",
+        "inner_html": "InfoJobs Academy"
+      },
+      {
+        "href": "https://recursos-humanos.infojobs.net/",
+        "inner_text": "Blog empresas",
+        "inner_html": "Blog empresas"
+      },
+      {
+        "href": "https://www.infojobs.it/",
+        "inner_text": "Oferte di lavoro in Italia",
+        "inner_html": "Oferte di lavoro in Italia"
+      },
+      {
+        "href": "https://nosotros.infojobs.net/prensa/indicadores-infojobs",
+        "inner_text": "Indicadores de InfoJobs",
+        "inner_html": "Indicadores de InfoJobs"
+      },
+      {
+        "href": "https://nosotros.infojobs.net/prensa/notas-prensa",
+        "inner_text": "Notas de prensa",
+        "inner_html": "Notas de prensa"
+      },
+      {
+        "href": "https://nosotros.infojobs.net/contacto-prensa",
+        "inner_text": "Contacto de prensa",
+        "inner_html": "Contacto de prensa"
+      },
+      {
+        "href": "http://www.facebook.com/InfoJobs",
+        "inner_text": "",
+        "inner_html": "<span class=\"hide\">Facebook</span>"
+      },
+      {
+        "href": "http://twitter.com/InfoJobs",
+        "inner_text": "",
+        "inner_html": "<span class=\"hide\">Twitter</span>"
+      },
+      {
+        "href": "https://www.youtube.com/user/InfoJobsNET",
+        "inner_text": "",
+        "inner_html": "<span class=\"hide\">Youtube</span>"
+      },
+      {
+        "href": "https://www.adevinta.com/es/spain/",
+        "inner_text": "Adevinta",
+        "inner_html": "Adevinta"
+      },
+      {
+        "href": "http://www.fotocasa.es/es/",
+        "inner_text": "Fotocasa",
+        "inner_html": "Fotocasa"
+      },
+      {
+        "href": "http://www.habitaclia.com/",
+        "inner_text": "habitaclia",
+        "inner_html": "habitaclia"
+      },
+      {
+        "href": "https://www.coches.net/",
+        "inner_text": "Coches.net",
+        "inner_html": "Coches.net"
+      },
+      {
+        "href": "https://motos.coches.net/",
+        "inner_text": "Motos.net",
+        "inner_html": "Motos.net"
+      },
+      {
+        "href": "http://www.milanuncios.com/",
+        "inner_text": "Milanuncios",
+        "inner_html": "Milanuncios"
+      },
+      {
+        "href": "https://www.jobisjob.es/",
+        "inner_text": "JobisJob",
+        "inner_html": "JobisJob"
+      }
+    ],
+    "social": [
+      {
+        "href": "http://www.facebook.com/InfoJobs",
+        "inner_text": "",
+        "inner_html": "<span class=\"hide\">Facebook</span>"
+      },
+      {
+        "href": "http://twitter.com/InfoJobs",
+        "inner_text": "",
+        "inner_html": "<span class=\"hide\">Twitter</span>"
+      },
+      {
+        "href": "https://www.youtube.com/user/InfoJobsNET",
+        "inner_text": "",
+        "inner_html": "<span class=\"hide\">Youtube</span>"
+      }
+    ],
+    "keywords": [
+      {
+        "href": "https://www.infojobs.net/lex.xhtml",
+        "inner_text": "Condiciones legales",
+        "inner_html": "Condiciones legales"
+      },
+      {
+        "href": "https://www.infojobs.net/privacy-policy/extended.xhtml",
+        "inner_text": "Política de Privacidad",
+        "inner_html": "Política de Privacidad"
+      }
+    ]
+  },
+  "unsafeForms": [],
+  "browsing_history": [
+    "https://www.infojobs.net/"
+  ],
+  "websockets": {},
+  "cookies": [
+    {
+      "name": "ajs_anonymous_id",
+      "value": "%2242a5809b-e2ac-4268-9114-8862892e24ab%22",
+      "domain": "infojobs.net",
+      "path": "/",
+      "expires": 1653060313,
+      "size": 58,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "sameSite": "Lax",
+      "expiresUTC": "2022-05-20T15:25:13.000Z",
+      "expiresDays": 365,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 29580,
+            "lineNumber": 11,
+            "fileName": "https://cdn.segment.com/analytics.js/v1/I1QsIrOJ5GuAZZFGRCfN8USp89gdFD2u/analytics.min.js",
+            "functionName": "o",
+            "source": "    at o (https://cdn.segment.com/analytics.js/v1/I1QsIrOJ5GuAZZFGRCfN8USp89gdFD2u/analytics.min.js:11:29580)"
+          },
+          {
+            "columnNumber": 30189,
+            "lineNumber": 11,
+            "fileName": "https://cdn.segment.com/analytics.js/v1/I1QsIrOJ5GuAZZFGRCfN8USp89gdFD2u/analytics.min.js",
+            "functionName": "t.exports",
+            "source": "    at t.exports (https://cdn.segment.com/analytics.js/v1/I1QsIrOJ5GuAZZFGRCfN8USp89gdFD2u/analytics.min.js:11:30189)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T15:25:13.733Z",
+        "location": "https://www.infojobs.net/"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "reese84",
+      "value": "3:MKKABo8t9f1JI0av7K4L6A==:QPL0pm7Ep9EIGjTk9qyBbK4XO8I9DBt30fZuFkbvI6XfdJiZiUwlLD6oAHm9s4OK3ryzPzHifu9rM+r4iZdEU8UpN72IVBlLfQ5BDvjBcwqCX5ECLXmfnYRLFfp71ivVp4CMYs4rcFvUSRB3zRVm0OQ4/HOozJ+pwjKBRSQRAiZbTtxdMXowLWpPu2uI+cdQVZiyz0tSMrI28pP7+PLnMD6STned6GKF/AUSMpUqhK5docbRvEtVUkiqQqmVqKeBdqPqB2pGmdeeKfJ+86A4XL9kQcwxyT3zN+wRZeDozojcBP5vEkvbqeR0hJXocpdogUCLOGFIQR2TOwIevsbKFqD8TC46BPEWrtJsakZ+Q/MEcfSZiL8KG1WLO2SqFpeMVi+MLxALEv3pyqOGffDUNMcB9+GxAOo5UU/FZbxEVhHD8/+1qVd226RfvkvlmuXaMa64z0OvqUrf85S2DKhbDg==:Cdg4sWxwLxrmPAY5CBdoy4VBfEcYsbGL5v9ekcqVrfI=",
+      "domain": "infojobs.net",
+      "path": "/",
+      "expires": 1624116313.741647,
+      "size": 551,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "sameSite": "Lax",
+      "expiresUTC": "2021-06-19T15:25:13.741Z",
+      "expiresDays": 30,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 9711,
+            "lineNumber": 2,
+            "fileName": "https://www.infojobs.net/ijlibrarym.js",
+            "functionName": "Object._0x10eff8.<computed> [as setCookie]",
+            "source": "    at Object._0x10eff8.<computed> [as setCookie] (https://www.infojobs.net/ijlibrarym.js:2:9711)"
+          },
+          {
+            "columnNumber": 28068,
+            "lineNumber": 2,
+            "fileName": "https://www.infojobs.net/ijlibrarym.js",
+            "functionName": "_0xcd3388.<computed> [as setToken]",
+            "source": "    at _0xcd3388.<computed> [as setToken] (https://www.infojobs.net/ijlibrarym.js:2:28068)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T15:25:13.749Z",
+        "location": "https://www.infojobs.net/"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "AWSALBCORS",
+      "value": "zji+1Q6y/hAskojPYNCTDplRDXaTE9WWrsqSr3JxJytN0V/65Sp6ltDaxwoENLDcoW8qPyZ1IjgIxkETIqFlTcCrJ/lv75T1KT7fgJShy3GVZ8Q7jG6vb083ka+U",
+      "domain": "es-static0.infojobs.com",
+      "path": "/",
+      "expires": 1622129113.986708,
+      "size": 134,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "sameSite": "None",
+      "expiresUTC": "2021-05-27T15:25:13.986Z",
+      "expiresDays": 7,
+      "firstPartyStorage": false
+    },
+    {
+      "name": "AWSALB",
+      "value": "zji+1Q6y/hAskojPYNCTDplRDXaTE9WWrsqSr3JxJytN0V/65Sp6ltDaxwoENLDcoW8qPyZ1IjgIxkETIqFlTcCrJ/lv75T1KT7fgJShy3GVZ8Q7jG6vb083ka+U",
+      "domain": "es-static0.infojobs.com",
+      "path": "/",
+      "expires": 1622129113.986647,
+      "size": 130,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2021-05-27T15:25:13.986Z",
+      "expiresDays": 7,
+      "firstPartyStorage": false
+    },
+    {
+      "name": "AWSALBCORS",
+      "value": "Fr81rqIyoR2vrDOAHUo9LGFN4iaIR7h+qsBxN7sMHzjVk0QVUgzwnUkuo461iPFIGvRjDUmzATA7vYKF1QJtcIwegYLZ7/tpaLRz8/BIsNTTurKxSepvxNjHl1je",
+      "domain": "www.infojobs.net",
+      "path": "/",
+      "expires": 1622129113.303922,
+      "size": 134,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "sameSite": "None",
+      "expiresUTC": "2021-05-27T15:25:13.303Z",
+      "expiresDays": 7,
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.infojobs.net/",
+            "source": "set in Set-Cookie HTTP response header for https://www.infojobs.net/"
+          }
+        ],
+        "type": "Cookie.HTTP",
+        "timestamp": "2021-05-20T15:25:12.239Z",
+        "location": "about:blank"
+      },
+      "firstPartyStorage": false
+    },
+    {
+      "name": "AWSALB",
+      "value": "Fr81rqIyoR2vrDOAHUo9LGFN4iaIR7h+qsBxN7sMHzjVk0QVUgzwnUkuo461iPFIGvRjDUmzATA7vYKF1QJtcIwegYLZ7/tpaLRz8/BIsNTTurKxSepvxNjHl1je",
+      "domain": "www.infojobs.net",
+      "path": "/",
+      "expires": 1622129113.303855,
+      "size": 130,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2021-05-27T15:25:13.303Z",
+      "expiresDays": 7,
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.infojobs.net/",
+            "source": "set in Set-Cookie HTTP response header for https://www.infojobs.net/"
+          }
+        ],
+        "type": "Cookie.HTTP",
+        "timestamp": "2021-05-20T15:25:12.239Z",
+        "location": "about:blank"
+      },
+      "firstPartyStorage": false
+    },
+    {
+      "name": "AWSALBCORS",
+      "value": "SPoupjE90fI3T6B5WtOfgETSaDCf6KINsV491csHAr8sfYiKBUGW+UFdPEt5/2niAFNbSJkn9K2M2b8p8qNqxQLb37wrVWTNLWq8pvWOMrwBX0p1sa7hpjFj99pE",
+      "domain": "infojobs.net",
+      "path": "/",
+      "expires": 1622129112.054232,
+      "size": 134,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "sameSite": "None",
+      "expiresUTC": "2021-05-27T15:25:12.054Z",
+      "expiresDays": 7,
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://infojobs.net/",
+            "source": "set in Set-Cookie HTTP response header for https://infojobs.net/"
+          }
+        ],
+        "type": "Cookie.HTTP",
+        "timestamp": "2021-05-20T15:25:12.059Z",
+        "location": "about:blank"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "AWSALB",
+      "value": "SPoupjE90fI3T6B5WtOfgETSaDCf6KINsV491csHAr8sfYiKBUGW+UFdPEt5/2niAFNbSJkn9K2M2b8p8qNqxQLb37wrVWTNLWq8pvWOMrwBX0p1sa7hpjFj99pE",
+      "domain": "infojobs.net",
+      "path": "/",
+      "expires": 1622129112.054119,
+      "size": 130,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2021-05-27T15:25:12.054Z",
+      "expiresDays": 7,
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://infojobs.net/",
+            "source": "set in Set-Cookie HTTP response header for https://infojobs.net/"
+          }
+        ],
+        "type": "Cookie.HTTP",
+        "timestamp": "2021-05-20T15:25:12.059Z",
+        "location": "about:blank"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "IJUSERUID",
+      "value": "150c5583-67fb-4107-9f3d-0f9e84e1e8dd",
+      "domain": "infojobs.net",
+      "path": "/",
+      "expires": 1621527013.303962,
+      "size": 45,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2021-05-20T16:10:13.303Z",
+      "expiresDays": 0.03,
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.infojobs.net/",
+            "source": "set in Set-Cookie HTTP response header for https://www.infojobs.net/"
+          }
+        ],
+        "type": "Cookie.HTTP",
+        "timestamp": "2021-05-20T15:25:12.239Z",
+        "location": "about:blank"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "JSESSIONID",
+      "value": "6seXydrVIMCDXUpVcOXvw2VJ",
+      "domain": "infojobs.net",
+      "path": "/",
+      "expires": -1,
+      "size": 34,
+      "httpOnly": false,
+      "secure": true,
+      "session": true,
+      "sameSite": "None",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.infojobs.net/",
+            "source": "set in Set-Cookie HTTP response header for https://www.infojobs.net/"
+          }
+        ],
+        "type": "Cookie.HTTP",
+        "timestamp": "2021-05-20T15:25:12.239Z",
+        "location": "about:blank"
+      },
+      "firstPartyStorage": true
+    }
+  ],
+  "localStorage": {
+    "https://www.infojobs.net": {
+      "reese84": {
+        "value": {
+          "token": "3:MKKABo8t9f1JI0av7K4L6A==:QPL0pm7Ep9EIGjTk9qyBbK4XO8I9DBt30fZuFkbvI6XfdJiZiUwlLD6oAHm9s4OK3ryzPzHifu9rM+r4iZdEU8UpN72IVBlLfQ5BDvjBcwqCX5ECLXmfnYRLFfp71ivVp4CMYs4rcFvUSRB3zRVm0OQ4/HOozJ+pwjKBRSQRAiZbTtxdMXowLWpPu2uI+cdQVZiyz0tSMrI28pP7+PLnMD6STned6GKF/AUSMpUqhK5docbRvEtVUkiqQqmVqKeBdqPqB2pGmdeeKfJ+86A4XL9kQcwxyT3zN+wRZeDozojcBP5vEkvbqeR0hJXocpdogUCLOGFIQR2TOwIevsbKFqD8TC46BPEWrtJsakZ+Q/MEcfSZiL8KG1WLO2SqFpeMVi+MLxALEv3pyqOGffDUNMcB9+GxAOo5UU/FZbxEVhHD8/+1qVd226RfvkvlmuXaMa64z0OvqUrf85S2DKhbDg==:Cdg4sWxwLxrmPAY5CBdoy4VBfEcYsbGL5v9ekcqVrfI=",
+          "renewTime": 1621525130742,
+          "renewInSec": 817,
+          "cookieDomain": ".infojobs.net"
+        },
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 28364,
+              "lineNumber": 2,
+              "fileName": "https://www.infojobs.net/ijlibrarym.js",
+              "functionName": "_0xcd3388.<computed> [as setToken]",
+              "source": "    at _0xcd3388.<computed> [as setToken] (https://www.infojobs.net/ijlibrarym.js:2:28364)"
+            },
+            {
+              "columnNumber": 30945,
+              "lineNumber": 2,
+              "fileName": "https://www.infojobs.net/ijlibrarym.js",
+              "functionName": "_0xcd3388.<anonymous>",
+              "source": "    at _0xcd3388.<anonymous> (https://www.infojobs.net/ijlibrarym.js:2:30945)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T15:25:13.749Z",
+          "location": "https://www.infojobs.net/"
+        }
+      },
+      "segmentio.f2fc69d4-d205-4421-8ed4-7814423247ae.reclaimStart": {
+        "value": null,
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 40255,
+              "lineNumber": 11,
+              "fileName": "https://cdn.segment.com/analytics.js/v1/I1QsIrOJ5GuAZZFGRCfN8USp89gdFD2u/analytics.min.js",
+              "functionName": "o.set",
+              "source": "    at o.set (https://cdn.segment.com/analytics.js/v1/I1QsIrOJ5GuAZZFGRCfN8USp89gdFD2u/analytics.min.js:11:40255)"
+            },
+            {
+              "columnNumber": 37044,
+              "lineNumber": 11,
+              "fileName": "https://cdn.segment.com/analytics.js/v1/I1QsIrOJ5GuAZZFGRCfN8USp89gdFD2u/analytics.min.js",
+              "functionName": "i._ack",
+              "source": "    at i._ack (https://cdn.segment.com/analytics.js/v1/I1QsIrOJ5GuAZZFGRCfN8USp89gdFD2u/analytics.min.js:11:37044)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T15:25:20.472Z",
+          "location": "https://www.infojobs.net/"
+        }
+      },
+      "ajs_group_id": {
+        "value": null,
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 4638,
+              "lineNumber": 12,
+              "fileName": "https://cdn.segment.com/analytics.js/v1/I1QsIrOJ5GuAZZFGRCfN8USp89gdFD2u/analytics.min.js",
+              "functionName": "Object.t.set",
+              "source": "    at Object.t.set (https://cdn.segment.com/analytics.js/v1/I1QsIrOJ5GuAZZFGRCfN8USp89gdFD2u/analytics.min.js:12:4638)"
+            },
+            {
+              "columnNumber": 7301,
+              "lineNumber": 5,
+              "fileName": "https://cdn.segment.com/analytics.js/v1/I1QsIrOJ5GuAZZFGRCfN8USp89gdFD2u/analytics.min.js",
+              "functionName": "o.set",
+              "source": "    at o.set (https://cdn.segment.com/analytics.js/v1/I1QsIrOJ5GuAZZFGRCfN8USp89gdFD2u/analytics.min.js:5:7301)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T15:25:13.061Z",
+          "location": "https://www.infojobs.net/"
+        }
+      },
+      "ajs_user_id": {
+        "value": null,
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 4638,
+              "lineNumber": 12,
+              "fileName": "https://cdn.segment.com/analytics.js/v1/I1QsIrOJ5GuAZZFGRCfN8USp89gdFD2u/analytics.min.js",
+              "functionName": "Object.t.set",
+              "source": "    at Object.t.set (https://cdn.segment.com/analytics.js/v1/I1QsIrOJ5GuAZZFGRCfN8USp89gdFD2u/analytics.min.js:12:4638)"
+            },
+            {
+              "columnNumber": 7301,
+              "lineNumber": 5,
+              "fileName": "https://cdn.segment.com/analytics.js/v1/I1QsIrOJ5GuAZZFGRCfN8USp89gdFD2u/analytics.min.js",
+              "functionName": "o.set",
+              "source": "    at o.set (https://cdn.segment.com/analytics.js/v1/I1QsIrOJ5GuAZZFGRCfN8USp89gdFD2u/analytics.min.js:5:7301)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T15:25:13.056Z",
+          "location": "https://www.infojobs.net/"
+        }
+      },
+      "segmentio.f2fc69d4-d205-4421-8ed4-7814423247ae.ack": {
+        "value": 1621524318048,
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 40255,
+              "lineNumber": 11,
+              "fileName": "https://cdn.segment.com/analytics.js/v1/I1QsIrOJ5GuAZZFGRCfN8USp89gdFD2u/analytics.min.js",
+              "functionName": "o.set",
+              "source": "    at o.set (https://cdn.segment.com/analytics.js/v1/I1QsIrOJ5GuAZZFGRCfN8USp89gdFD2u/analytics.min.js:11:40255)"
+            },
+            {
+              "columnNumber": 36992,
+              "lineNumber": 11,
+              "fileName": "https://cdn.segment.com/analytics.js/v1/I1QsIrOJ5GuAZZFGRCfN8USp89gdFD2u/analytics.min.js",
+              "functionName": "i._ack",
+              "source": "    at i._ack (https://cdn.segment.com/analytics.js/v1/I1QsIrOJ5GuAZZFGRCfN8USp89gdFD2u/analytics.min.js:11:36992)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T15:25:20.472Z",
+          "location": "https://www.infojobs.net/"
+        }
+      },
+      "ajs_group_properties": {
+        "value": {},
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 4638,
+              "lineNumber": 12,
+              "fileName": "https://cdn.segment.com/analytics.js/v1/I1QsIrOJ5GuAZZFGRCfN8USp89gdFD2u/analytics.min.js",
+              "functionName": "Object.t.set",
+              "source": "    at Object.t.set (https://cdn.segment.com/analytics.js/v1/I1QsIrOJ5GuAZZFGRCfN8USp89gdFD2u/analytics.min.js:12:4638)"
+            },
+            {
+              "columnNumber": 7301,
+              "lineNumber": 5,
+              "fileName": "https://cdn.segment.com/analytics.js/v1/I1QsIrOJ5GuAZZFGRCfN8USp89gdFD2u/analytics.min.js",
+              "functionName": "o.set",
+              "source": "    at o.set (https://cdn.segment.com/analytics.js/v1/I1QsIrOJ5GuAZZFGRCfN8USp89gdFD2u/analytics.min.js:5:7301)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T15:25:13.061Z",
+          "location": "https://www.infojobs.net/"
+        }
+      },
+      "ajs_user_traits": {
+        "value": {},
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 4638,
+              "lineNumber": 12,
+              "fileName": "https://cdn.segment.com/analytics.js/v1/I1QsIrOJ5GuAZZFGRCfN8USp89gdFD2u/analytics.min.js",
+              "functionName": "Object.t.set",
+              "source": "    at Object.t.set (https://cdn.segment.com/analytics.js/v1/I1QsIrOJ5GuAZZFGRCfN8USp89gdFD2u/analytics.min.js:12:4638)"
+            },
+            {
+              "columnNumber": 7301,
+              "lineNumber": 5,
+              "fileName": "https://cdn.segment.com/analytics.js/v1/I1QsIrOJ5GuAZZFGRCfN8USp89gdFD2u/analytics.min.js",
+              "functionName": "o.set",
+              "source": "    at o.set (https://cdn.segment.com/analytics.js/v1/I1QsIrOJ5GuAZZFGRCfN8USp89gdFD2u/analytics.min.js:5:7301)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T15:25:13.060Z",
+          "location": "https://www.infojobs.net/"
+        }
+      },
+      "segmentio.f2fc69d4-d205-4421-8ed4-7814423247ae.queue": {
+        "value": [],
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 40255,
+              "lineNumber": 11,
+              "fileName": "https://cdn.segment.com/analytics.js/v1/I1QsIrOJ5GuAZZFGRCfN8USp89gdFD2u/analytics.min.js",
+              "functionName": "o.set",
+              "source": "    at o.set (https://cdn.segment.com/analytics.js/v1/I1QsIrOJ5GuAZZFGRCfN8USp89gdFD2u/analytics.min.js:11:40255)"
+            },
+            {
+              "columnNumber": 36646,
+              "lineNumber": 11,
+              "fileName": "https://cdn.segment.com/analytics.js/v1/I1QsIrOJ5GuAZZFGRCfN8USp89gdFD2u/analytics.min.js",
+              "functionName": "i._processHead",
+              "source": "    at i._processHead (https://cdn.segment.com/analytics.js/v1/I1QsIrOJ5GuAZZFGRCfN8USp89gdFD2u/analytics.min.js:11:36646)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T15:25:13.062Z",
+          "location": "https://www.infojobs.net/"
+        }
+      },
+      "segmentio.f2fc69d4-d205-4421-8ed4-7814423247ae.inProgress": {
+        "value": {},
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 40255,
+              "lineNumber": 11,
+              "fileName": "https://cdn.segment.com/analytics.js/v1/I1QsIrOJ5GuAZZFGRCfN8USp89gdFD2u/analytics.min.js",
+              "functionName": "o.set",
+              "source": "    at o.set (https://cdn.segment.com/analytics.js/v1/I1QsIrOJ5GuAZZFGRCfN8USp89gdFD2u/analytics.min.js:11:40255)"
+            },
+            {
+              "columnNumber": 36671,
+              "lineNumber": 11,
+              "fileName": "https://cdn.segment.com/analytics.js/v1/I1QsIrOJ5GuAZZFGRCfN8USp89gdFD2u/analytics.min.js",
+              "functionName": "i._processHead",
+              "source": "    at i._processHead (https://cdn.segment.com/analytics.js/v1/I1QsIrOJ5GuAZZFGRCfN8USp89gdFD2u/analytics.min.js:11:36671)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T15:25:13.062Z",
+          "location": "https://www.infojobs.net/"
+        }
+      },
+      "ajs_anonymous_id": {
+        "value": "42a5809b-e2ac-4268-9114-8862892e24ab",
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 4638,
+              "lineNumber": 12,
+              "fileName": "https://cdn.segment.com/analytics.js/v1/I1QsIrOJ5GuAZZFGRCfN8USp89gdFD2u/analytics.min.js",
+              "functionName": "Object.t.set",
+              "source": "    at Object.t.set (https://cdn.segment.com/analytics.js/v1/I1QsIrOJ5GuAZZFGRCfN8USp89gdFD2u/analytics.min.js:12:4638)"
+            },
+            {
+              "columnNumber": 7301,
+              "lineNumber": 5,
+              "fileName": "https://cdn.segment.com/analytics.js/v1/I1QsIrOJ5GuAZZFGRCfN8USp89gdFD2u/analytics.min.js",
+              "functionName": "o.set",
+              "source": "    at o.set (https://cdn.segment.com/analytics.js/v1/I1QsIrOJ5GuAZZFGRCfN8USp89gdFD2u/analytics.min.js:5:7301)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T15:25:13.733Z",
+          "location": "https://www.infojobs.net/"
+        }
+      },
+      "debug": {
+        "value": "undefined",
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 21714,
+              "lineNumber": 12,
+              "fileName": "https://cdn.segment.com/analytics.js/v1/I1QsIrOJ5GuAZZFGRCfN8USp89gdFD2u/analytics.min.js",
+              "functionName": "Function.r [as save]",
+              "source": "    at Function.r [as save] (https://cdn.segment.com/analytics.js/v1/I1QsIrOJ5GuAZZFGRCfN8USp89gdFD2u/analytics.min.js:12:21714)"
+            },
+            {
+              "columnNumber": 22946,
+              "lineNumber": 12,
+              "fileName": "https://cdn.segment.com/analytics.js/v1/I1QsIrOJ5GuAZZFGRCfN8USp89gdFD2u/analytics.min.js",
+              "functionName": "Function.a [as enable]",
+              "source": "    at Function.a [as enable] (https://cdn.segment.com/analytics.js/v1/I1QsIrOJ5GuAZZFGRCfN8USp89gdFD2u/analytics.min.js:12:22946)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T15:25:13.046Z",
+          "location": "https://www.infojobs.net/"
+        }
+      },
+      "segmentio.f2fc69d4-d205-4421-8ed4-7814423247ae.reclaimEnd": {
+        "value": null,
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 40255,
+              "lineNumber": 11,
+              "fileName": "https://cdn.segment.com/analytics.js/v1/I1QsIrOJ5GuAZZFGRCfN8USp89gdFD2u/analytics.min.js",
+              "functionName": "o.set",
+              "source": "    at o.set (https://cdn.segment.com/analytics.js/v1/I1QsIrOJ5GuAZZFGRCfN8USp89gdFD2u/analytics.min.js:11:40255)"
+            },
+            {
+              "columnNumber": 37090,
+              "lineNumber": 11,
+              "fileName": "https://cdn.segment.com/analytics.js/v1/I1QsIrOJ5GuAZZFGRCfN8USp89gdFD2u/analytics.min.js",
+              "functionName": "i._ack",
+              "source": "    at i._ack (https://cdn.segment.com/analytics.js/v1/I1QsIrOJ5GuAZZFGRCfN8USp89gdFD2u/analytics.min.js:11:37090)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T15:25:20.472Z",
+          "location": "https://www.infojobs.net/"
+        }
+      }
+    }
+  },
+  "beacons": [
+    {
+      "url": "https://cdn.optimizely.com/datafiles/QLDtpXvqkL57HTLnvpje2.json",
+      "query": null,
+      "filter": "||optimizely.com^$third-party",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.infojobs.net/",
+            "source": "requested from https://www.infojobs.net/ and matched with easyprivacy.txt filter ||optimizely.com^$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T15:25:13.694Z"
+      },
+      "occurrances": 1
+    }
+  ],
+  "hosts": {
+    "requests": {
+      "firstParty": [
+        "infojobs.net"
+      ],
+      "thirdParty": [
+        "www.infojobs.net",
+        "es-static0.infojobs.com",
+        "media.infojobs.net",
+        "components.infojobs.com",
+        "unpkg.com",
+        "cdn.segment.com",
+        "ms-ij--app-company-logos-gw.spain.advgo.net",
+        "multimedia.infojobs.net",
+        "cdn.optimizely.com"
+      ]
+    },
+    "beacons": {
+      "firstParty": [],
+      "thirdParty": [
+        "cdn.optimizely.com"
+      ]
+    },
+    "cookies": {
+      "firstParty": [
+        "infojobs.net"
+      ],
+      "thirdParty": [
+        "www.infojobs.net",
+        "es-static0.infojobs.com"
+      ]
+    },
+    "localStorage": {
+      "firstParty": [],
+      "thirdParty": [
+        "www.infojobs.net"
+      ]
+    },
+    "links": {
+      "firstParty": [],
+      "thirdParty": [
+        "www.infojobs.net",
+        "salarios.infojobs.net",
+        "formacion.infojobs.net",
+        "app.appsflyer.com",
+        "orientacion-laboral.infojobs.net",
+        "nosotros.infojobs.net",
+        "adevinta-spain.ofertas-trabajo.infojobs.net",
+        "academy.infojobs.net",
+        "recursos-humanos.infojobs.net",
+        "www.infojobs.it",
+        "www.facebook.com",
+        "twitter.com",
+        "www.youtube.com",
+        "www.adevinta.com",
+        "www.fotocasa.es",
+        "www.habitaclia.com",
+        "www.coches.net",
+        "motos.coches.net",
+        "www.milanuncios.com",
+        "www.jobisjob.es"
+      ]
+    }
+  }
+}

@@ -1,0 +1,943 @@
+{
+  "title": "Website Evidence Collection",
+  "task_description": null,
+  "uri_ins": "https://gosuslugi.ru",
+  "uri_refs": [
+    "https://gosuslugi.ru"
+  ],
+  "uri_dest": "https://www.gosuslugi.ru/",
+  "uri_redirects": [
+    "https://gosuslugi.ru/"
+  ],
+  "secure_connection": {
+    "https_support": true,
+    "redirects": [
+      "https://gosuslugi.ru/",
+      "https://www.gosuslugi.ru/"
+    ],
+    "https_redirect": true
+  },
+  "host": "gosuslugi.ru",
+  "script": {
+    "host": "sfod",
+    "version": {
+      "npm": "1.0.0",
+      "commit": null
+    },
+    "cmd_args": "-q --overwrite https://gosuslugi.ru -- --ignore-certificate-errors",
+    "environment": {
+      "CHROME_DESKTOP": "code-url-handler.desktop"
+    },
+    "node_version": "v14.17.0"
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "HeadlessChrome/80.0.3987.0",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3617.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "5.8.0-53-generic"
+    },
+    "extra_headers": {},
+    "preset_cookies": {}
+  },
+  "start_time": "2021-05-20T15:42:00.296Z",
+  "end_time": "2021-05-20T15:42:09.512Z",
+  "links": {
+    "firstParty": [],
+    "thirdParty": [
+      {
+        "href": "https://www.gosuslugi.ru/category",
+        "inner_text": "Услуги",
+        "inner_html": "Услуги"
+      },
+      {
+        "href": "https://oplata.gosuslugi.ru//pay",
+        "inner_text": "Оплата",
+        "inner_html": "Оплата"
+      },
+      {
+        "href": "https://www.gosuslugi.ru/help",
+        "inner_text": "Поддержка",
+        "inner_html": "Поддержка"
+      },
+      {
+        "href": "https://www.gosuslugi.ru/auth/esia/?redirectPage=https://lk.gosuslugi.ru/",
+        "inner_text": "Личный кабинет",
+        "inner_html": "Личный кабинет"
+      },
+      {
+        "href": "https://www.gosuslugi.ru/landing/vaccination?utm_source=main&utm_medium=banner&utm_campaign=vaccination",
+        "inner_text": "",
+        "inner_html": "<img src=\"https://gu-st.ru/content/Banner/banner315.png\" border=\"0\" style=\"max-width: 1136px;\">"
+      },
+      {
+        "href": "https://www.gosuslugi.ru/landing/vaccination",
+        "inner_text": "",
+        "inner_html": "<img src=\"https://gu-st.ru/content/Banner/icon_vaccination.svg\" alt=\"Защитите себя и своих близких! Сделайте прививку от COVID-19\">"
+      },
+      {
+        "href": "https://www.gosuslugi.ru/auth/esia/?redirectPage=/",
+        "inner_text": "Войти",
+        "inner_html": "Войти"
+      },
+      {
+        "href": "https://esia.gosuslugi.ru/registration",
+        "inner_text": "Зарегистрироваться",
+        "inner_html": "Зарегистрироваться"
+      },
+      {
+        "href": "https://www.gosuslugi.ru/help/faq/c-1/1",
+        "inner_text": "Как зарегистрироваться",
+        "inner_html": "Как зарегистрироваться"
+      },
+      {
+        "href": "https://www.gosuslugi.ru/434403?from=main",
+        "inner_text": "Ежемесячная выплата на детей от 3 до 7 лет",
+        "inner_html": "<div class=\"grid-wrap__col-lg-2 grid-wrap__col-md-2 grid-wrap__col-md-land-4 grid-wrap__col-sm-1\"><div><img class=\"popular-icon lazy js-lazy-image--handled fade-in\" data-src=\"https://gu-st.ru/content/Icons/posobie-3-7.f2076f5e54e18d309057.svg\" src=\"https://gu-st.ru/content/Icons/posobie-3-7.f2076f5e54e18d309057.svg\"></div></div><div class=\"grid-wrap__col-lg-5 grid-wrap__col-md-10 grid-wrap__col-md-land-14 grid-wrap__col-sm-5\"><h3 class=\"popular-item__title\"><span>Ежемесячная выплата на детей от 3 до 7 лет</span><svg class=\"popular-arrow-icon\" width=\"6\" height=\"8\" viewBox=\"0 0 6 8\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M4.79 3.866L1.1 7.294c-.212.202-.212.47 0 .605.142.134.426.134.64 0l4.04-3.766c.214-.2.214-.47 0-.605L1.74.1c-.143-.134-.427-.134-.64 0C.89.304.89.57 1.1.707l3.69 3.16z\" fill=\"#0263B2\" fill-rule=\"evenodd\"></path></svg></h3></div>"
+      },
+      {
+        "href": "https://www.gosuslugi.ru/394604?from=main",
+        "inner_text": "Регистрация прибывающих в Российскую Федерацию",
+        "inner_html": "<div class=\"grid-wrap__col-lg-2 grid-wrap__col-md-2 grid-wrap__col-md-land-4 grid-wrap__col-sm-1\"><div><img class=\"popular-icon lazy js-lazy-image--handled fade-in\" data-src=\"https://gu-st.ru/content/coronastop.svg\" src=\"https://gu-st.ru/content/coronastop.svg\"></div></div><div class=\"grid-wrap__col-lg-5 grid-wrap__col-md-10 grid-wrap__col-md-land-14 grid-wrap__col-sm-5\"><h3 class=\"popular-item__title\"><span>Регистрация прибывающих в Российскую Федерацию</span><svg class=\"popular-arrow-icon\" width=\"6\" height=\"8\" viewBox=\"0 0 6 8\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M4.79 3.866L1.1 7.294c-.212.202-.212.47 0 .605.142.134.426.134.64 0l4.04-3.766c.214-.2.214-.47 0-.605L1.74.1c-.143-.134-.427-.134-.64 0C.89.304.89.57 1.1.707l3.69 3.16z\" fill=\"#0263B2\" fill-rule=\"evenodd\"></path></svg></h3></div>"
+      },
+      {
+        "href": "https://www.gosuslugi.ru/10003?from=main",
+        "inner_text": "Судебная задолженность",
+        "inner_html": "<div class=\"grid-wrap__col-lg-2 grid-wrap__col-md-2 grid-wrap__col-md-land-4 grid-wrap__col-sm-1\"><div><img class=\"popular-icon lazy js-lazy-image--handled fade-in\" alt=\"Для проверки задолженности нужны только ваши имя, фамилия и дата рождения\" data-src=\"https://gu-st.ru/content/catalog/pas/45.svg\" src=\"https://gu-st.ru/content/catalog/pas/45.svg\"></div></div><div class=\"grid-wrap__col-lg-5 grid-wrap__col-md-10 grid-wrap__col-md-land-14 grid-wrap__col-sm-5\"><h3 class=\"popular-item__title\"><span>Судебная задолженность</span><svg class=\"popular-arrow-icon\" width=\"6\" height=\"8\" viewBox=\"0 0 6 8\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M4.79 3.866L1.1 7.294c-.212.202-.212.47 0 .605.142.134.426.134.64 0l4.04-3.766c.214-.2.214-.47 0-.605L1.74.1c-.143-.134-.427-.134-.64 0C.89.304.89.57 1.1.707l3.69 3.16z\" fill=\"#0263B2\" fill-rule=\"evenodd\"></path></svg></h3></div>"
+      },
+      {
+        "href": "https://www.gosuslugi.ru/10090?from=main",
+        "inner_text": "Бесплатное горячее питание для учащихся младших классов",
+        "inner_html": "<div class=\"grid-wrap__col-lg-2 grid-wrap__col-md-2 grid-wrap__col-md-land-4 grid-wrap__col-sm-1\"><div><img class=\"popular-icon lazy\" data-src=\"https://gu-st.ru/content/catalog/pas/Education.svg\"></div></div><div class=\"grid-wrap__col-lg-5 grid-wrap__col-md-10 grid-wrap__col-md-land-14 grid-wrap__col-sm-5\"><h3 class=\"popular-item__title\"><span>Бесплатное горячее питание для учащихся младших классов</span><svg class=\"popular-arrow-icon\" width=\"6\" height=\"8\" viewBox=\"0 0 6 8\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M4.79 3.866L1.1 7.294c-.212.202-.212.47 0 .605.142.134.426.134.64 0l4.04-3.766c.214-.2.214-.47 0-.605L1.74.1c-.143-.134-.427-.134-.64 0C.89.304.89.57 1.1.707l3.69 3.16z\" fill=\"#0263B2\" fill-rule=\"evenodd\"></path></svg></h3></div>"
+      },
+      {
+        "href": "https://www.gosuslugi.ru/500605?from=main",
+        "inner_text": "Жалоба на решение контрольных органов",
+        "inner_html": "<div class=\"grid-wrap__col-lg-2 grid-wrap__col-md-2 grid-wrap__col-md-land-4 grid-wrap__col-sm-1\"><div><img class=\"popular-icon lazy\" data-src=\"https://gu-st.ru/content/Icons/knd.svg\"></div></div><div class=\"grid-wrap__col-lg-5 grid-wrap__col-md-10 grid-wrap__col-md-land-14 grid-wrap__col-sm-5\"><h3 class=\"popular-item__title\"><span>Жалоба на решение контрольных органов</span><svg class=\"popular-arrow-icon\" width=\"6\" height=\"8\" viewBox=\"0 0 6 8\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M4.79 3.866L1.1 7.294c-.212.202-.212.47 0 .605.142.134.426.134.64 0l4.04-3.766c.214-.2.214-.47 0-.605L1.74.1c-.143-.134-.427-.134-.64 0C.89.304.89.57 1.1.707l3.69 3.16z\" fill=\"#0263B2\" fill-rule=\"evenodd\"></path></svg></h3></div>"
+      },
+      {
+        "href": "https://www.gosuslugi.ru/10066?from=main",
+        "inner_text": "Запись на прием к врачу",
+        "inner_html": "<div class=\"grid-wrap__col-lg-2 grid-wrap__col-md-2 grid-wrap__col-md-land-4 grid-wrap__col-sm-1\"><div><img class=\"popular-icon lazy\" alt=\"Выберите поликлинику и запишитесь к специалисту\" data-src=\"https://gu-st.ru/content/catalog/pas/health_doctor.svg\"></div></div><div class=\"grid-wrap__col-lg-5 grid-wrap__col-md-10 grid-wrap__col-md-land-14 grid-wrap__col-sm-5\"><h3 class=\"popular-item__title\"><span>Запись на прием к врачу</span><svg class=\"popular-arrow-icon\" width=\"6\" height=\"8\" viewBox=\"0 0 6 8\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M4.79 3.866L1.1 7.294c-.212.202-.212.47 0 .605.142.134.426.134.64 0l4.04-3.766c.214-.2.214-.47 0-.605L1.74.1c-.143-.134-.427-.134-.64 0C.89.304.89.57 1.1.707l3.69 3.16z\" fill=\"#0263B2\" fill-rule=\"evenodd\"></path></svg></h3></div>"
+      },
+      {
+        "href": "https://www.gosuslugi.ru/400705?from=main",
+        "inner_text": "Передача результатов теста на коронавирусную инфекцию",
+        "inner_html": "<div class=\"grid-wrap__col-lg-2 grid-wrap__col-md-2 grid-wrap__col-md-land-4 grid-wrap__col-sm-1\"><div><img class=\"popular-icon lazy\" data-src=\"https://gu-st.ru/content/catalog/pas/noill.svg\"></div></div><div class=\"grid-wrap__col-lg-5 grid-wrap__col-md-10 grid-wrap__col-md-land-14 grid-wrap__col-sm-5\"><h3 class=\"popular-item__title\"><span>Передача результатов теста на коронавирусную инфекцию</span><svg class=\"popular-arrow-icon\" width=\"6\" height=\"8\" viewBox=\"0 0 6 8\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M4.79 3.866L1.1 7.294c-.212.202-.212.47 0 .605.142.134.426.134.64 0l4.04-3.766c.214-.2.214-.47 0-.605L1.74.1c-.143-.134-.427-.134-.64 0C.89.304.89.57 1.1.707l3.69 3.16z\" fill=\"#0263B2\" fill-rule=\"evenodd\"></path></svg></h3></div>"
+      },
+      {
+        "href": "https://www.gosuslugi.ru/396628?from=main",
+        "inner_text": "Получение пособия по безработице и постановка на учет в центре занятости",
+        "inner_html": "<div class=\"grid-wrap__col-lg-2 grid-wrap__col-md-2 grid-wrap__col-md-land-4 grid-wrap__col-sm-1\"><div><img class=\"popular-icon lazy\" alt=\"Подайте заявление онлайн\" data-src=\"https://gu-st.ru/content/catalog/pas/nowork.svg\"></div></div><div class=\"grid-wrap__col-lg-5 grid-wrap__col-md-10 grid-wrap__col-md-land-14 grid-wrap__col-sm-5\"><h3 class=\"popular-item__title\"><span>Получение пособия по безработице и постановка на учет в центре занятости</span><svg class=\"popular-arrow-icon\" width=\"6\" height=\"8\" viewBox=\"0 0 6 8\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M4.79 3.866L1.1 7.294c-.212.202-.212.47 0 .605.142.134.426.134.64 0l4.04-3.766c.214-.2.214-.47 0-.605L1.74.1c-.143-.134-.427-.134-.64 0C.89.304.89.57 1.1.707l3.69 3.16z\" fill=\"#0263B2\" fill-rule=\"evenodd\"></path></svg></h3></div>"
+      },
+      {
+        "href": "https://www.gosuslugi.ru/16587?from=main",
+        "inner_text": "Справка об отсутствии судимости",
+        "inner_html": "<div class=\"grid-wrap__col-lg-2 grid-wrap__col-md-2 grid-wrap__col-md-land-4 grid-wrap__col-sm-1\"><div><img class=\"popular-icon lazy\" alt=\"Для получения справки заполните заявление на портале\" data-src=\"https://gu-st.ru/content/catalog/pas/57.svg\"></div></div><div class=\"grid-wrap__col-lg-5 grid-wrap__col-md-10 grid-wrap__col-md-land-14 grid-wrap__col-sm-5\"><h3 class=\"popular-item__title\"><span>Справка об отсутствии судимости</span><svg class=\"popular-arrow-icon\" width=\"6\" height=\"8\" viewBox=\"0 0 6 8\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M4.79 3.866L1.1 7.294c-.212.202-.212.47 0 .605.142.134.426.134.64 0l4.04-3.766c.214-.2.214-.47 0-.605L1.74.1c-.143-.134-.427-.134-.64 0C.89.304.89.57 1.1.707l3.69 3.16z\" fill=\"#0263B2\" fill-rule=\"evenodd\"></path></svg></h3></div>"
+      },
+      {
+        "href": "https://www.gosuslugi.ru/catalog?from=main",
+        "inner_text": "Все услуги",
+        "inner_html": "Все услуги"
+      },
+      {
+        "href": "https://www.gosuslugi.ru/situation?from=main",
+        "inner_text": "Все жизненные ситуации",
+        "inner_html": "Все жизненные ситуации"
+      },
+      {
+        "href": "https://www.gosuslugi.ru/help/faq/zdravoohranenie/17",
+        "inner_text": "Как записаться на прием к врачу",
+        "inner_html": "<span class=\"lg-h-title-16-big md-h-title-16-big sm-h-title-14\">Как записаться на прием к врачу</span>"
+      },
+      {
+        "href": "https://www.gosuslugi.ru/help/faq/roditeli_i_deti/21",
+        "inner_text": "Как записать ребенка в детский сад",
+        "inner_html": "<span class=\"lg-h-title-16-big md-h-title-16-big sm-h-title-14\">Как записать ребенка в детский сад</span>"
+      },
+      {
+        "href": "https://www.gosuslugi.ru/help/faq/pasporta_registracii_vizy/23",
+        "inner_text": "Как получить загранпаспорт",
+        "inner_html": "<span class=\"lg-h-title-16-big md-h-title-16-big sm-h-title-14\">Как получить загранпаспорт</span>"
+      },
+      {
+        "href": "https://www.gosuslugi.ru/help/faq/roditeli_i_deti/2046",
+        "inner_text": "У кого возникает право на материнский капитал",
+        "inner_html": "<span class=\"lg-h-title-16-big md-h-title-16-big sm-h-title-14\">У кого возникает право на материнский капитал</span>"
+      },
+      {
+        "href": "https://www.gosuslugi.ru/help/faq/voprosy_po_oplate/2260",
+        "inner_text": "Нужна ли квитанция об оплате госпошлины при подаче документов",
+        "inner_html": "<span class=\"lg-h-title-16-big md-h-title-16-big sm-h-title-14\">Нужна ли квитанция об оплате госпошлины при подаче документов</span>"
+      },
+      {
+        "href": "https://www.gosuslugi.ru/help/faq/popular",
+        "inner_text": "Все вопросы о получении услуг",
+        "inner_html": "Все вопросы о получении услуг"
+      },
+      {
+        "href": "https://www.gosuslugi.ru/help/faq/voprosy_po_oplate/2421",
+        "inner_text": "Как получить скидку 30% на оплату госпошлины",
+        "inner_html": "<span class=\"lg-h-title-16-big md-h-title-16-big sm-h-title-14\">Как получить скидку 30% на оплату госпошлины</span>"
+      },
+      {
+        "href": "https://www.gosuslugi.ru/help/faq/voprosy_po_oplate/2445",
+        "inner_text": "Как оплатить госпошлину на Госуслугах",
+        "inner_html": "<span class=\"lg-h-title-16-big md-h-title-16-big sm-h-title-14\">Как оплатить госпошлину на Госуслугах </span>"
+      },
+      {
+        "href": "https://www.gosuslugi.ru/help/faq/voprosy_po_oplate/28",
+        "inner_text": "Что можно оплатить на Госуслугах",
+        "inner_html": "<span class=\"lg-h-title-16-big md-h-title-16-big sm-h-title-14\">Что можно оплатить на Госуслугах </span>"
+      },
+      {
+        "href": "https://www.gosuslugi.ru/help/faq/lichnyy_kabinet/40",
+        "inner_text": "Зачем нужен Личный кабинет",
+        "inner_html": "<span class=\"lg-h-title-16-big md-h-title-16-big sm-h-title-14\">Зачем нужен Личный кабинет</span>"
+      },
+      {
+        "href": "https://www.gosuslugi.ru/help/faq/c-20/1",
+        "inner_text": "Регистрация на Госуслугах",
+        "inner_html": "<span class=\"lg-h-title-16-big md-h-title-16-big sm-h-title-14\">Регистрация на Госуслугах</span>"
+      },
+      {
+        "href": "https://www.gosuslugi.ru/help/faq/c-1/2",
+        "inner_text": "Подтвердить учетную запись",
+        "inner_html": "<span class=\"lg-h-title-16-big md-h-title-16-big sm-h-title-14\">Подтвердить учетную запись</span>"
+      },
+      {
+        "href": "https://www.gosuslugi.ru/help/faq/c-21/6",
+        "inner_text": "Почему паспортные данные не проходят проверку",
+        "inner_html": "Почему паспортные данные не проходят проверку"
+      },
+      {
+        "href": "https://www.gosuslugi.ru/help/faq/popular/2395",
+        "inner_text": "Почему не получается погасить судебную задолженность",
+        "inner_html": "Почему не получается погасить судебную задолженность"
+      },
+      {
+        "href": "https://www.gosuslugi.ru/help/faq/voprosy_po_oplate/2460",
+        "inner_text": "Как обжаловать штраф за парковку или нарушение ПДД",
+        "inner_html": "Как обжаловать штраф за парковку или нарушение ПДД"
+      },
+      {
+        "href": "https://www.gosuslugi.ru/help?from=main",
+        "inner_text": "Все частые вопросы",
+        "inner_html": "Все частые вопросы"
+      },
+      {
+        "href": "https://www.gosuslugi.ru/information/news/2021_05_06_viplati_na_detey",
+        "inner_text": "",
+        "inner_html": "<img class=\"index-news__image lazy\" alt=\"\" data-src=\"https://gu-st.ru/content/annotation/News_child_main_old_small_3_7.png\">"
+      },
+      {
+        "href": "https://www.gosuslugi.ru/information/news/2021_04_12_Share_Mir",
+        "inner_text": "",
+        "inner_html": "<img class=\"index-news__image lazy\" alt=\"null\" data-src=\"https://gu-st.ru/content/News/news_mir_330.png\">"
+      },
+      {
+        "href": "https://www.gosuslugi.ru/information/news/2020_12_30_results_of_the_year",
+        "inner_text": "",
+        "inner_html": "<img class=\"index-news__image lazy\" alt=\"null\" data-src=\"https://gu-st.ru/content/annotation/NY_2021_small.png\">"
+      },
+      {
+        "href": "https://www.gosuslugi.ru/help/news",
+        "inner_text": "Все материалы",
+        "inner_html": "Все материалы"
+      },
+      {
+        "href": "https://www.gosuslugi.ru/pay",
+        "inner_text": "оплатить любым электронным способом",
+        "inner_html": "оплатить любым электронным способом"
+      },
+      {
+        "href": "http://pravo.gov.ru/proxy/ips/?docbody=&nd=102151387",
+        "inner_text": "Постановлении Правительства РФ от 24.10.2011 N 861",
+        "inner_html": "Постановлении Правительства&nbsp;РФ от&nbsp;24.10.2011&nbsp;N&nbsp;861"
+      },
+      {
+        "href": "https://www.gosuslugi.ru/situation",
+        "inner_text": "Жизненные ситуации",
+        "inner_html": "Жизненные ситуации"
+      },
+      {
+        "href": "https://www.gosuslugi.ru/situation/kak_otkryt_svoe_delo/OOO/porjadok_registracii_OOO",
+        "inner_text": "регистрации ООО",
+        "inner_html": "регистрации ООО"
+      },
+      {
+        "href": "https://www.gosuslugi.ru/situation/pokupka_i_oformlenie_avtomobilja",
+        "inner_text": "покупке и оформлению автомобиля",
+        "inner_html": "покупке и оформлению автомобиля"
+      },
+      {
+        "href": "https://www.gosuslugi.ru/situation/birth/child_residence_registration",
+        "inner_text": "регистрации ребёнка по месту жительства",
+        "inner_html": "регистрации ребёнка по месту жительства"
+      },
+      {
+        "href": "https://www.gosuslugi.ru/situation/pomoshch_pensioneram/adresnaya_socialnaya_podderzhka",
+        "inner_text": "назначении и выплате льгот пенсионерам",
+        "inner_html": "назначении и выплате льгот пенсионерам"
+      },
+      {
+        "href": "https://www.gosuslugi.ru/situation/birth/maternity_benefits",
+        "inner_text": "выплате пособий при рождении ребенка",
+        "inner_html": "выплате пособий при рождении ребенка"
+      },
+      {
+        "href": "https://www.gosuslugi.ru/help/mobile",
+        "inner_text": "Скачайте мобильное приложение «Госуслуги»",
+        "inner_html": "Скачайте мобильное приложение «Госуслуги»"
+      }
+    ],
+    "social": [],
+    "keywords": []
+  },
+  "unsafeForms": [],
+  "browsing_history": [
+    "https://www.gosuslugi.ru/"
+  ],
+  "websockets": {},
+  "cookies": [
+    {
+      "name": "userSelectedLanguage",
+      "value": "ru",
+      "domain": "gosuslugi.ru",
+      "path": "/",
+      "expires": 10261525321.428883,
+      "size": 22,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2295-03-05T15:42:01.428Z",
+      "expiresDays": 100000,
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.gosuslugi.ru/",
+            "source": "set in Set-Cookie HTTP response header for https://www.gosuslugi.ru/"
+          }
+        ],
+        "type": "Cookie.HTTP",
+        "timestamp": "2021-05-20T15:42:01.433Z",
+        "location": "about:blank"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "i",
+      "value": "1qC7f2awDeKTY8GVw3PEuCeBrpejBvc8paVPoK0wmQKeVxO9m+qaBS6jSziNd9mPDaHSwCIHru2i6uWRdC9isGrq4cU=",
+      "domain": "yandex.ru",
+      "path": "/",
+      "expires": 1936885320.138641,
+      "size": 93,
+      "httpOnly": true,
+      "secure": true,
+      "session": false,
+      "expiresUTC": "2031-05-18T15:42:00.138Z",
+      "expiresDays": 3650,
+      "firstPartyStorage": false
+    },
+    {
+      "name": "ymex",
+      "value": "1653061323.yrts.1621525323#1653061323.yrtsi.1621525323",
+      "domain": "yandex.ru",
+      "path": "/",
+      "expires": 1653061323.138705,
+      "size": 58,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2022-05-20T15:42:03.138Z",
+      "expiresDays": 365,
+      "firstPartyStorage": false
+    },
+    {
+      "name": "yandexuid",
+      "value": "3325006401621525323",
+      "domain": "yandex.ru",
+      "path": "/",
+      "expires": 1653061323.138522,
+      "size": 28,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2022-05-20T15:42:03.138Z",
+      "expiresDays": 365,
+      "firstPartyStorage": false
+    },
+    {
+      "name": "_ym_uid",
+      "value": "1621525323313395046",
+      "domain": "gosuslugi.ru",
+      "path": "/",
+      "expires": 1653061322,
+      "size": 26,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2022-05-20T15:42:02.000Z",
+      "expiresDays": 365,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 99,
+            "lineNumber": 113,
+            "fileName": "https://mc.yandex.ru/metrika/watch.js",
+            "functionName": "Zc",
+            "source": "    at Zc (https://mc.yandex.ru/metrika/watch.js:113:99)"
+          },
+          {
+            "columnNumber": 368,
+            "lineNumber": 113,
+            "fileName": "https://mc.yandex.ru/metrika/watch.js",
+            "functionName": "Object.l",
+            "source": "    at Object.l (https://mc.yandex.ru/metrika/watch.js:113:368)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T15:42:03.037Z",
+        "location": "https://www.gosuslugi.ru/"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "_ym_d",
+      "value": "1621525323",
+      "domain": "gosuslugi.ru",
+      "path": "/",
+      "expires": 1653061322,
+      "size": 15,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2022-05-20T15:42:02.000Z",
+      "expiresDays": 365,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 99,
+            "lineNumber": 113,
+            "fileName": "https://mc.yandex.ru/metrika/watch.js",
+            "functionName": "Zc",
+            "source": "    at Zc (https://mc.yandex.ru/metrika/watch.js:113:99)"
+          },
+          {
+            "columnNumber": 368,
+            "lineNumber": 113,
+            "fileName": "https://mc.yandex.ru/metrika/watch.js",
+            "functionName": "Object.l",
+            "source": "    at Object.l (https://mc.yandex.ru/metrika/watch.js:113:368)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T15:42:03.037Z",
+        "location": "https://www.gosuslugi.ru/"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "_ym_isad",
+      "value": "2",
+      "domain": "gosuslugi.ru",
+      "path": "/",
+      "expires": 1621597323,
+      "size": 9,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2021-05-21T11:42:03.000Z",
+      "expiresDays": 0.83,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 99,
+            "lineNumber": 113,
+            "fileName": "https://mc.yandex.ru/metrika/watch.js",
+            "functionName": "Zc",
+            "source": "    at Zc (https://mc.yandex.ru/metrika/watch.js:113:99)"
+          },
+          {
+            "columnNumber": 368,
+            "lineNumber": 113,
+            "fileName": "https://mc.yandex.ru/metrika/watch.js",
+            "functionName": "Object.l",
+            "source": "    at Object.l (https://mc.yandex.ru/metrika/watch.js:113:368)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T15:42:03.167Z",
+        "location": "https://www.gosuslugi.ru/"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "ns-nlb",
+      "value": "ffffffffaf18369e45525d5f4f58455e445a4a423660",
+      "domain": "www.gosuslugi.ru",
+      "path": "/",
+      "expires": 1621539722.3064,
+      "size": 50,
+      "httpOnly": true,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2021-05-20T19:42:02.306Z",
+      "expiresDays": 0.17,
+      "firstPartyStorage": false
+    },
+    {
+      "name": "userSelectedRegion",
+      "value": "00000000000",
+      "domain": "gosuslugi.ru",
+      "path": "/",
+      "expires": 1621534082,
+      "size": 29,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2021-05-20T18:08:02.000Z",
+      "expiresDays": 0.1,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 982,
+            "lineNumber": 1,
+            "fileName": "https://gu-st.ru/st/js/bundle-4ea4a7e2c6.min.js",
+            "functionName": "Object.set",
+            "source": "    at Object.set (https://gu-st.ru/st/js/bundle-4ea4a7e2c6.min.js:1:982)"
+          },
+          {
+            "columnNumber": 22287,
+            "lineNumber": 1,
+            "fileName": "https://gu-st.ru/st/js/bundle-4ea4a7e2c6.min.js",
+            "source": "    at https://gu-st.ru/st/js/bundle-4ea4a7e2c6.min.js:1:22287"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T15:42:02.624Z",
+        "location": "https://www.gosuslugi.ru/"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "usi_portal",
+      "value": "rBAoj2Cmg0q2mi8kkYP1Ag==",
+      "domain": "gosuslugi.ru",
+      "path": "/",
+      "expires": 1621527122.306345,
+      "size": 34,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2021-05-20T16:12:02.306Z",
+      "expiresDays": 0.02,
+      "firstPartyStorage": true
+    },
+    {
+      "name": "NSC_q00qhvtubu",
+      "value": "ffffffffaf18375245525d5f4f58455e445a4a423660",
+      "domain": "www.gosuslugi.ru",
+      "path": "/",
+      "expires": 1621525442.22497,
+      "size": 58,
+      "httpOnly": true,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2021-05-20T15:44:02.224Z",
+      "expiresDays": 0,
+      "firstPartyStorage": false
+    },
+    {
+      "name": "yabs-sid",
+      "value": "48441681621525323",
+      "domain": "mc.yandex.ru",
+      "path": "/",
+      "expires": -1,
+      "size": 25,
+      "httpOnly": false,
+      "secure": false,
+      "session": true,
+      "firstPartyStorage": false
+    }
+  ],
+  "localStorage": {
+    "https://www.gosuslugi.ru": {
+      "_ym45873126_lsid": {
+        "value": 572385495687,
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 376,
+              "lineNumber": 75,
+              "fileName": "https://mc.yandex.ru/metrika/watch.js",
+              "functionName": "xg",
+              "source": "    at xg (https://mc.yandex.ru/metrika/watch.js:75:376)"
+            },
+            {
+              "columnNumber": 249,
+              "lineNumber": 75,
+              "fileName": "https://mc.yandex.ru/metrika/watch.js",
+              "functionName": "Object.l",
+              "source": "    at Object.l (https://mc.yandex.ru/metrika/watch.js:75:249)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T15:42:03.036Z",
+          "location": "https://www.gosuslugi.ru/"
+        }
+      },
+      "_ym_uid": {
+        "value": "1621525323313395046",
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 338,
+              "lineNumber": 90,
+              "fileName": "https://mc.yandex.ru/metrika/tag.js",
+              "functionName": "Bh",
+              "source": "    at Bh (https://mc.yandex.ru/metrika/tag.js:90:338)"
+            },
+            {
+              "columnNumber": 211,
+              "lineNumber": 90,
+              "fileName": "https://mc.yandex.ru/metrika/tag.js",
+              "functionName": "Object.C",
+              "source": "    at Object.C (https://mc.yandex.ru/metrika/tag.js:90:211)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T15:42:03.069Z",
+          "location": "https://www.gosuslugi.ru/"
+        }
+      },
+      "_ym24845174_reqNum": {
+        "value": 2,
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 338,
+              "lineNumber": 90,
+              "fileName": "https://mc.yandex.ru/metrika/tag.js",
+              "functionName": "Bh",
+              "source": "    at Bh (https://mc.yandex.ru/metrika/tag.js:90:338)"
+            },
+            {
+              "columnNumber": 211,
+              "lineNumber": 90,
+              "fileName": "https://mc.yandex.ru/metrika/tag.js",
+              "functionName": "Object.C",
+              "source": "    at Object.C (https://mc.yandex.ru/metrika/tag.js:90:211)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T15:42:03.240Z",
+          "location": "https://www.gosuslugi.ru/"
+        }
+      },
+      "_ym24845174_lsid": {
+        "value": 900635473481,
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 338,
+              "lineNumber": 90,
+              "fileName": "https://mc.yandex.ru/metrika/tag.js",
+              "functionName": "Bh",
+              "source": "    at Bh (https://mc.yandex.ru/metrika/tag.js:90:338)"
+            },
+            {
+              "columnNumber": 211,
+              "lineNumber": 90,
+              "fileName": "https://mc.yandex.ru/metrika/tag.js",
+              "functionName": "Object.C",
+              "source": "    at Object.C (https://mc.yandex.ru/metrika/tag.js:90:211)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T15:42:03.069Z",
+          "location": "https://www.gosuslugi.ru/"
+        }
+      },
+      "_ym45873126_reqNum": {
+        "value": 1,
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 376,
+              "lineNumber": 75,
+              "fileName": "https://mc.yandex.ru/metrika/watch.js",
+              "functionName": "xg",
+              "source": "    at xg (https://mc.yandex.ru/metrika/watch.js:75:376)"
+            },
+            {
+              "columnNumber": 249,
+              "lineNumber": 75,
+              "fileName": "https://mc.yandex.ru/metrika/watch.js",
+              "functionName": "Object.l",
+              "source": "    at Object.l (https://mc.yandex.ru/metrika/watch.js:75:249)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T15:42:03.037Z",
+          "location": "https://www.gosuslugi.ru/"
+        }
+      },
+      "_ym_retryReqs": {
+        "value": {
+          "1": {
+            "protocol": "https:",
+            "host": "mc.yandex.ru",
+            "resource": "watch",
+            "time": 1621525323007,
+            "counterType": "0",
+            "params": {
+              "page-url": "https://www.gosuslugi.ru/",
+              "charset": "utf-8"
+            },
+            "browserInfo": {
+              "pv": 1,
+              "gdpr": "14",
+              "vf": "bx1nzewshyqnl6k",
+              "fp": 1292,
+              "fu": 0,
+              "en": "utf-8",
+              "la": "en-US",
+              "v": "504",
+              "cn": 1,
+              "dp": "0",
+              "ls": 572385495687,
+              "hid": 752419218,
+              "z": 120,
+              "i": "20210520174202",
+              "et": 1621525323,
+              "c": 1,
+              "rn": 214492397,
+              "rqn": 1,
+              "u": "1621525323313395046",
+              "w": "1680x927",
+              "s": "1680x927x24",
+              "sk": 1,
+              "hdl": 1,
+              "ntf": 1,
+              "ns": 1621525320383,
+              "ds": "82,233,117,67,612,0,,207,0,1658,1659,9,1261",
+              "dsn": "82,233,117,66,612,0,,150,0,1658,1658,10,1261",
+              "t": "Портал государственных услуг Российской Федерации",
+              "rqnl": 1
+            },
+            "counterId": 45873126,
+            "ghid": 752419218
+          }
+        },
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 338,
+              "lineNumber": 90,
+              "fileName": "https://mc.yandex.ru/metrika/tag.js",
+              "functionName": "Bh",
+              "source": "    at Bh (https://mc.yandex.ru/metrika/tag.js:90:338)"
+            },
+            {
+              "columnNumber": 211,
+              "lineNumber": 90,
+              "fileName": "https://mc.yandex.ru/metrika/tag.js",
+              "functionName": "Object.C",
+              "source": "    at Object.C (https://mc.yandex.ru/metrika/tag.js:90:211)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T15:42:03.314Z",
+          "location": "https://www.gosuslugi.ru/"
+        }
+      }
+    }
+  },
+  "beacons": [
+    {
+      "url": "https://mc.yandex.ru/watch/24845174/1?page-url=goal%3A%2F%2Fwww.gosuslugi.ru%2Fgeo_open_first_form_geo&page-ref=https%3A%2F%2Fwww.gosuslugi.ru%2F&charset=utf-8&browser-info=ar%3A1%3Agdpr%3A14%3Avf%3A5gv0p5rfuji4o8ou%3Afu%3A3%3Aen%3Autf-8%3Ala%3Aen-US%3Av%3A504%3Acn%3A2%3Adp%3A0%3Als%3A900635473481%3Ahid%3A752419218%3Az%3A120%3Ai%3A20210520174203%3Aet%3A1621525323%3Ac%3A1%3Arn%3A597077407%3Arqn%3A2%3Au%3A1621525323313395046%3Aw%3A1680x927%3As%3A1680x927x24%3Ask%3A1%3Ahdl%3A1%3Antf%3A1%3Aeu%3A1%3Ans%3A1621525320383%3Awv%3A2%3Arqnl%3A1%3Aadb%3A2%3Ati%3A2%3Ast%3A1621525323%3At%3A%D0%9F%D0%BE%D1%80%D1%82%D0%B0%D0%BB%20%D0%B3%D0%BE%D1%81%D1%83%D0%B4%D0%B0%D1%80%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D1%85%20%D1%83%D1%81%D0%BB%D1%83%D0%B3%20%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D0%B9%D1%81%D0%BA%D0%BE%D0%B9%20%D0%A4%D0%B5%D0%B4%D0%B5%D1%80%D0%B0%D1%86%D0%B8%D0%B8",
+      "query": {
+        "page-url": "goal://www.gosuslugi.ru/geo_open_first_form_geo",
+        "page-ref": "https://www.gosuslugi.ru/",
+        "charset": "utf-8",
+        "browser-info": "ar:1:gdpr:14:vf:5gv0p5rfuji4o8ou:fu:3:en:utf-8:la:en-US:v:504:cn:2:dp:0:ls:900635473481:hid:752419218:z:120:i:20210520174203:et:1621525323:c:1:rn:597077407:rqn:2:u:1621525323313395046:w:1680x927:s:1680x927x24:sk:1:hdl:1:ntf:1:eu:1:ns:1621525320383:wv:2:rqnl:1:adb:2:ti:2:st:1621525323:t:Портал государственных услуг Российской Федерации"
+      },
+      "filter": "||mc.yandex.ru^",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.gosuslugi.ru/",
+            "source": "requested from https://www.gosuslugi.ru/ and matched with easyprivacy.txt filter ||mc.yandex.ru^"
+          }
+        ],
+        "timestamp": "2021-05-20T15:42:03.242Z"
+      },
+      "occurrances": 4
+    },
+    {
+      "url": "https://mc.yandex.ru/watch/45873126/1?wmode=7&page-url=https%3A%2F%2Fwww.gosuslugi.ru%2F&charset=utf-8&browser-info=pv%3A1%3Agdpr%3A14%3Avf%3Abx1nzewshyqnl6k%3Afp%3A1292%3Afu%3A0%3Aen%3Autf-8%3Ala%3Aen-US%3Av%3A504%3Acn%3A1%3Adp%3A0%3Als%3A572385495687%3Ahid%3A752419218%3Az%3A120%3Ai%3A20210520174202%3Aet%3A1621525323%3Ac%3A1%3Arn%3A214492397%3Arqn%3A1%3Au%3A1621525323313395046%3Aw%3A1680x927%3As%3A1680x927x24%3Ask%3A1%3Ahdl%3A1%3Antf%3A1%3Ans%3A1621525320383%3Ads%3A82%2C233%2C117%2C67%2C612%2C0%2C%2C207%2C0%2C1658%2C1659%2C9%2C1261%3Adsn%3A82%2C233%2C117%2C66%2C612%2C0%2C%2C150%2C0%2C1658%2C1658%2C10%2C1261%3Arqnl%3A1%3Ati%3A2%3Ast%3A1621525323%3At%3A%D0%9F%D0%BE%D1%80%D1%82%D0%B0%D0%BB%20%D0%B3%D0%BE%D1%81%D1%83%D0%B4%D0%B0%D1%80%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D1%85%20%D1%83%D1%81%D0%BB%D1%83%D0%B3%20%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D0%B9%D1%81%D0%BA%D0%BE%D0%B9%20%D0%A4%D0%B5%D0%B4%D0%B5%D1%80%D0%B0%D1%86%D0%B8%D0%B8",
+      "query": {
+        "wmode": 7,
+        "page-url": "https://www.gosuslugi.ru/",
+        "charset": "utf-8",
+        "browser-info": "pv:1:gdpr:14:vf:bx1nzewshyqnl6k:fp:1292:fu:0:en:utf-8:la:en-US:v:504:cn:1:dp:0:ls:572385495687:hid:752419218:z:120:i:20210520174202:et:1621525323:c:1:rn:214492397:rqn:1:u:1621525323313395046:w:1680x927:s:1680x927x24:sk:1:hdl:1:ntf:1:ns:1621525320383:ds:82,233,117,67,612,0,,207,0,1658,1659,9,1261:dsn:82,233,117,66,612,0,,150,0,1658,1658,10,1261:rqnl:1:ti:2:st:1621525323:t:Портал государственных услуг Российской Федерации"
+      },
+      "filter": "||mc.yandex.ru^",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.gosuslugi.ru/",
+            "source": "requested from https://www.gosuslugi.ru/ and matched with easyprivacy.txt filter ||mc.yandex.ru^"
+          }
+        ],
+        "timestamp": "2021-05-20T15:42:03.165Z"
+      },
+      "occurrances": 2
+    },
+    {
+      "url": "https://mc.yandex.ru/watch/24845174?wmode=7&page-url=https%3A%2F%2Fwww.gosuslugi.ru%2F&nohit=1&charset=utf-8&browser-info=pv%3A1%3Agdpr%3A14%3Avf%3A5gv0p5rfuji4o8ou%3Afu%3A0%3Aen%3Autf-8%3Ala%3Aen-US%3Av%3A504%3Acn%3A2%3Adp%3A0%3Als%3A900635473481%3Ahid%3A752419218%3Az%3A120%3Ai%3A20210520174203%3Aet%3A1621525323%3Ac%3A1%3Arn%3A752235987%3Au%3A1621525323313395046%3Aw%3A1680x927%3As%3A1680x927x24%3Ask%3A1%3Ahdl%3A1%3Antf%3A1%3Ans%3A1621525320383%3Awv%3A2%3Arqnl%3A1%3Ati%3A2%3Ast%3A1621525323%3At%3A%D0%9F%D0%BE%D1%80%D1%82%D0%B0%D0%BB%20%D0%B3%D0%BE%D1%81%D1%83%D0%B4%D0%B0%D1%80%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D1%85%20%D1%83%D1%81%D0%BB%D1%83%D0%B3%20%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D0%B9%D1%81%D0%BA%D0%BE%D0%B9%20%D0%A4%D0%B5%D0%B4%D0%B5%D1%80%D0%B0%D1%86%D0%B8%D0%B8",
+      "query": {
+        "wmode": 7,
+        "page-url": "https://www.gosuslugi.ru/",
+        "nohit": 1,
+        "charset": "utf-8",
+        "browser-info": "pv:1:gdpr:14:vf:5gv0p5rfuji4o8ou:fu:0:en:utf-8:la:en-US:v:504:cn:2:dp:0:ls:900635473481:hid:752419218:z:120:i:20210520174203:et:1621525323:c:1:rn:752235987:u:1621525323313395046:w:1680x927:s:1680x927x24:sk:1:hdl:1:ntf:1:ns:1621525320383:wv:2:rqnl:1:ti:2:st:1621525323:t:Портал государственных услуг Российской Федерации"
+      },
+      "filter": "||mc.yandex.ru^",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.gosuslugi.ru/",
+            "source": "requested from https://www.gosuslugi.ru/ and matched with easyprivacy.txt filter ||mc.yandex.ru^"
+          }
+        ],
+        "timestamp": "2021-05-20T15:42:03.071Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://mc.yandex.ru/metrika/advert.gif",
+      "query": null,
+      "filter": "||mc.yandex.ru^",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.gosuslugi.ru/",
+            "source": "requested from https://www.gosuslugi.ru/ and matched with easyprivacy.txt filter ||mc.yandex.ru^"
+          }
+        ],
+        "timestamp": "2021-05-20T15:42:03.047Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://mc.yandex.ru/watch/45873126?wmode=7&page-url=https%3A%2F%2Fwww.gosuslugi.ru%2F&charset=utf-8&browser-info=pv%3A1%3Agdpr%3A14%3Avf%3Abx1nzewshyqnl6k%3Afp%3A1292%3Afu%3A0%3Aen%3Autf-8%3Ala%3Aen-US%3Av%3A504%3Acn%3A1%3Adp%3A0%3Als%3A572385495687%3Ahid%3A752419218%3Az%3A120%3Ai%3A20210520174202%3Aet%3A1621525323%3Ac%3A1%3Arn%3A214492397%3Arqn%3A1%3Au%3A1621525323313395046%3Aw%3A1680x927%3As%3A1680x927x24%3Ask%3A1%3Ahdl%3A1%3Antf%3A1%3Ans%3A1621525320383%3Ads%3A82%2C233%2C117%2C67%2C612%2C0%2C%2C207%2C0%2C1658%2C1659%2C9%2C1261%3Adsn%3A82%2C233%2C117%2C66%2C612%2C0%2C%2C150%2C0%2C1658%2C1658%2C10%2C1261%3Arqnl%3A1%3Ati%3A2%3Ast%3A1621525323%3At%3A%D0%9F%D0%BE%D1%80%D1%82%D0%B0%D0%BB%20%D0%B3%D0%BE%D1%81%D1%83%D0%B4%D0%B0%D1%80%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D1%85%20%D1%83%D1%81%D0%BB%D1%83%D0%B3%20%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D0%B9%D1%81%D0%BA%D0%BE%D0%B9%20%D0%A4%D0%B5%D0%B4%D0%B5%D1%80%D0%B0%D1%86%D0%B8%D0%B8",
+      "query": {
+        "wmode": 7,
+        "page-url": "https://www.gosuslugi.ru/",
+        "charset": "utf-8",
+        "browser-info": "pv:1:gdpr:14:vf:bx1nzewshyqnl6k:fp:1292:fu:0:en:utf-8:la:en-US:v:504:cn:1:dp:0:ls:572385495687:hid:752419218:z:120:i:20210520174202:et:1621525323:c:1:rn:214492397:rqn:1:u:1621525323313395046:w:1680x927:s:1680x927x24:sk:1:hdl:1:ntf:1:ns:1621525320383:ds:82,233,117,67,612,0,,207,0,1658,1659,9,1261:dsn:82,233,117,66,612,0,,150,0,1658,1658,10,1261:rqnl:1:ti:2:st:1621525323:t:Портал государственных услуг Российской Федерации"
+      },
+      "filter": "||mc.yandex.ru^",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.gosuslugi.ru/",
+            "source": "requested from https://www.gosuslugi.ru/ and matched with easyprivacy.txt filter ||mc.yandex.ru^"
+          }
+        ],
+        "timestamp": "2021-05-20T15:42:03.041Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://mc.yandex.ru/metrika/tag.js",
+      "query": null,
+      "filter": "||mc.yandex.ru^",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.gosuslugi.ru/",
+            "source": "requested from https://www.gosuslugi.ru/ and matched with easyprivacy.txt filter ||mc.yandex.ru^"
+          }
+        ],
+        "timestamp": "2021-05-20T15:42:02.624Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://mc.yandex.ru/metrika/watch.js",
+      "query": null,
+      "filter": "||mc.yandex.ru^",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.gosuslugi.ru/",
+            "source": "requested from https://www.gosuslugi.ru/ and matched with easyprivacy.txt filter ||mc.yandex.ru^"
+          }
+        ],
+        "timestamp": "2021-05-20T15:42:02.622Z"
+      },
+      "occurrances": 1
+    }
+  ],
+  "hosts": {
+    "requests": {
+      "firstParty": [
+        "gosuslugi.ru"
+      ],
+      "thirdParty": [
+        "www.gosuslugi.ru",
+        "gu-st.ru",
+        "gosbar.gosuslugi.ru",
+        "mc.yandex.ru"
+      ]
+    },
+    "beacons": {
+      "firstParty": [],
+      "thirdParty": [
+        "mc.yandex.ru"
+      ]
+    },
+    "cookies": {
+      "firstParty": [
+        "gosuslugi.ru"
+      ],
+      "thirdParty": [
+        "www.gosuslugi.ru",
+        "yandex.ru",
+        "mc.yandex.ru"
+      ]
+    },
+    "localStorage": {
+      "firstParty": [],
+      "thirdParty": [
+        "www.gosuslugi.ru"
+      ]
+    },
+    "links": {
+      "firstParty": [],
+      "thirdParty": [
+        "www.gosuslugi.ru",
+        "oplata.gosuslugi.ru",
+        "esia.gosuslugi.ru",
+        "pravo.gov.ru"
+      ]
+    }
+  }
+}

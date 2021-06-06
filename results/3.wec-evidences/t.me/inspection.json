@@ -1,0 +1,370 @@
+{
+  "title": "Website Evidence Collection",
+  "task_description": null,
+  "uri_ins": "https://t.me",
+  "uri_refs": [
+    "https://t.me"
+  ],
+  "uri_dest": "https://telegram.org/",
+  "uri_redirects": [
+    "https://t.me/"
+  ],
+  "secure_connection": {
+    "https_support": true,
+    "redirects": [
+      "https://t.me/",
+      "https://telegram.org/"
+    ],
+    "https_redirect": true
+  },
+  "host": "t.me",
+  "script": {
+    "host": "sfod",
+    "version": {
+      "npm": "1.0.0",
+      "commit": null
+    },
+    "cmd_args": "-q --overwrite https://t.me -- --ignore-certificate-errors",
+    "environment": {
+      "CHROME_DESKTOP": "code-url-handler.desktop"
+    },
+    "node_version": "v14.17.0"
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "HeadlessChrome/80.0.3987.0",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3617.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "5.8.0-53-generic"
+    },
+    "extra_headers": {},
+    "preset_cookies": {}
+  },
+  "start_time": "2021-05-20T16:00:44.857Z",
+  "end_time": "2021-05-20T16:00:51.673Z",
+  "links": {
+    "firstParty": [],
+    "thirdParty": [
+      {
+        "href": "https://telegram.org/",
+        "inner_text": "EN ",
+        "inner_html": "<i class=\"dev_top_lang_icon\"></i>EN <b class=\"minicaret\"></b>"
+      },
+      {
+        "href": "https://telegram.org/?setln=en",
+        "inner_text": "English",
+        "inner_html": "English"
+      },
+      {
+        "href": "https://telegram.org/?setln=id",
+        "inner_text": "Bahasa Indonesia",
+        "inner_html": "Bahasa Indonesia"
+      },
+      {
+        "href": "https://telegram.org/?setln=ms",
+        "inner_text": "Bahasa Melayu",
+        "inner_html": "Bahasa Melayu"
+      },
+      {
+        "href": "https://telegram.org/?setln=de",
+        "inner_text": "Deutsch",
+        "inner_html": "Deutsch"
+      },
+      {
+        "href": "https://telegram.org/?setln=es",
+        "inner_text": "Español",
+        "inner_html": "Español"
+      },
+      {
+        "href": "https://telegram.org/?setln=fr",
+        "inner_text": "Français",
+        "inner_html": "Français"
+      },
+      {
+        "href": "https://telegram.org/?setln=it",
+        "inner_text": "Italiano",
+        "inner_html": "Italiano"
+      },
+      {
+        "href": "https://telegram.org/?setln=nl",
+        "inner_text": "Nederlands",
+        "inner_html": "Nederlands"
+      },
+      {
+        "href": "https://telegram.org/?setln=uz",
+        "inner_text": "O‘zbek",
+        "inner_html": "O‘zbek"
+      },
+      {
+        "href": "https://telegram.org/?setln=pl",
+        "inner_text": "Polski",
+        "inner_html": "Polski"
+      },
+      {
+        "href": "https://telegram.org/?setln=pt-br",
+        "inner_text": "Português (Brasil)",
+        "inner_html": "Português (Brasil)"
+      },
+      {
+        "href": "https://telegram.org/?setln=tr",
+        "inner_text": "Türkçe",
+        "inner_html": "Türkçe"
+      },
+      {
+        "href": "https://telegram.org/?setln=be",
+        "inner_text": "Беларуская",
+        "inner_html": "Беларуская"
+      },
+      {
+        "href": "https://telegram.org/?setln=ru",
+        "inner_text": "Русский",
+        "inner_html": "Русский"
+      },
+      {
+        "href": "https://telegram.org/?setln=uk",
+        "inner_text": "Українська",
+        "inner_html": "Українська"
+      },
+      {
+        "href": "https://telegram.org/?setln=ar",
+        "inner_text": "العربية",
+        "inner_html": "العربية"
+      },
+      {
+        "href": "https://telegram.org/?setln=fa",
+        "inner_text": "فارسی",
+        "inner_html": "فارسی"
+      },
+      {
+        "href": "https://telegram.org/?setln=ko",
+        "inner_text": "한국어",
+        "inner_html": "한국어"
+      },
+      {
+        "href": "https://twitter.com/telegram",
+        "inner_text": " Twitter",
+        "inner_html": "<i class=\"icon icon-twitter\"></i> Twitter"
+      },
+      {
+        "href": "https://telegram.org/faq",
+        "inner_text": "FAQ",
+        "inner_html": "FAQ"
+      },
+      {
+        "href": "https://telegram.org/apps",
+        "inner_text": "Apps",
+        "inner_html": "Apps"
+      },
+      {
+        "href": "https://core.telegram.org/api",
+        "inner_text": "API",
+        "inner_html": "API"
+      },
+      {
+        "href": "https://core.telegram.org/mtproto",
+        "inner_text": "Protocol",
+        "inner_html": "Protocol"
+      },
+      {
+        "href": "https://telegram.org/blog",
+        "inner_text": "Recent News",
+        "inner_html": "Recent News"
+      },
+      {
+        "href": "https://telegram.org/blog/payments-2-0-scheduled-voice-chats",
+        "inner_text": "Apr 26\nPayments 2.0, Scheduled Voice Chats, New Web Versions",
+        "inner_html": "<div class=\"side_blog_date\">Apr 26</div>\n  <div class=\"side_blog_title\">Payments 2.0, Scheduled Voice Chats, New Web Versions</div>"
+      },
+      {
+        "href": "https://telegram.org/blog/voice-chats-on-steroids",
+        "inner_text": "Mar 19\nVoice Chats 2.0: Channels, Millions of Listeners, Recorded Chats, Admin Tools",
+        "inner_html": "<div class=\"side_blog_date\">Mar 19</div>\n  <div class=\"side_blog_title\">Voice Chats 2.0: Channels, Millions of Listeners, Recorded Chats, Admin Tools</div>"
+      },
+      {
+        "href": "https://telegram.org/blog/autodelete-inv2",
+        "inner_text": "Feb 23\nAuto-Delete, Widgets and Expiring Invite Links",
+        "inner_html": "<div class=\"side_blog_date\">Feb 23</div>\n  <div class=\"side_blog_title\">Auto-Delete, Widgets and Expiring Invite Links</div>"
+      },
+      {
+        "href": "https://telegram.org/android",
+        "inner_text": "Telegram for Android",
+        "inner_html": "<i class=\"icon icon-android \"></i>Telegram for <b>Android</b>\n    <div class=\"tl_main_download_image__android\"></div>\n    <video class=\"tl_main_video_player tl_main_video_player__android\" muted=\"\" vindex=\"1\" preload=\"auto\" data-sources=\"/img/t_main_Android_demo.mp4,/img/t_main_Android_demo_2x.mp4\"><source type=\"video/mp4\" src=\"/img/t_main_Android_demo.mp4\"></video>"
+      },
+      {
+        "href": "https://telegram.org/dl/ios",
+        "inner_text": "Telegram for iPhone / iPad",
+        "inner_html": "<i class=\"icon icon-ios \"></i>Telegram for <b>iPhone</b> / <b>iPad</b>\n    <div class=\"tl_main_download_image__ios\"></div>\n    <video class=\"tl_main_video_player tl_main_video_player__ios\" muted=\"\" vindex=\"1\" preload=\"auto\" data-sources=\"/img/t_main_iOS_demo.mp4,/img/t_main_iOS_demo_2x.mp4\"><source type=\"video/mp4\" src=\"/img/t_main_iOS_demo.mp4\"></video>"
+      },
+      {
+        "href": "https://desktop.telegram.org/",
+        "inner_text": "\n  Telegram for Windows / Mac / Linux\n",
+        "inner_html": "Telegram for <b>Windows / Mac / Linux</b>"
+      },
+      {
+        "href": "https://macos.telegram.org/",
+        "inner_text": "Telegram for macOS",
+        "inner_html": "Telegram&nbsp;for <b>macOS</b>"
+      },
+      {
+        "href": "https://telegram.org/jobs",
+        "inner_text": "Jobs",
+        "inner_html": "Jobs"
+      },
+      {
+        "href": "https://telegram.org/dl/android",
+        "inner_text": "Android",
+        "inner_html": "Android"
+      },
+      {
+        "href": "https://telegram.org/dl/wp",
+        "inner_text": "Windows Phone",
+        "inner_html": "Windows Phone"
+      },
+      {
+        "href": "https://telegram.org/dl/web",
+        "inner_text": "Web-browser",
+        "inner_html": "Web-browser"
+      },
+      {
+        "href": "https://core.telegram.org/",
+        "inner_text": "Platform",
+        "inner_html": "Platform"
+      },
+      {
+        "href": "https://translations.telegram.org/",
+        "inner_text": "Translations",
+        "inner_html": "Translations"
+      },
+      {
+        "href": "https://instantview.telegram.org/",
+        "inner_text": "Instant View",
+        "inner_html": "Instant View"
+      }
+    ],
+    "social": [
+      {
+        "href": "https://twitter.com/telegram",
+        "inner_text": " Twitter",
+        "inner_html": "<i class=\"icon icon-twitter\"></i> Twitter"
+      }
+    ],
+    "keywords": []
+  },
+  "unsafeForms": [],
+  "browsing_history": [
+    "https://telegram.org/"
+  ],
+  "websockets": {},
+  "cookies": [
+    {
+      "name": "stel_ssid",
+      "value": "38c9318bca34641817_9985722240783354056",
+      "domain": "t.me",
+      "path": "/",
+      "expires": 1621612845.29676,
+      "size": 47,
+      "httpOnly": true,
+      "secure": true,
+      "session": false,
+      "sameSite": "None",
+      "expiresUTC": "2021-05-21T16:00:45.296Z",
+      "expiresDays": 1,
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://t.me/",
+            "source": "set in Set-Cookie HTTP response header for https://t.me/"
+          }
+        ],
+        "type": "Cookie.HTTP",
+        "timestamp": "2021-05-20T16:00:45.302Z",
+        "location": "about:blank"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "stel_ssid",
+      "value": "977cb8d1e0843667ee_16543298550195759485",
+      "domain": "telegram.org",
+      "path": "/",
+      "expires": 1621566445.576843,
+      "size": 48,
+      "httpOnly": true,
+      "secure": true,
+      "session": false,
+      "sameSite": "None",
+      "expiresUTC": "2021-05-21T03:07:25.576Z",
+      "expiresDays": 0.46,
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://telegram.org/",
+            "source": "set in Set-Cookie HTTP response header for https://telegram.org/"
+          }
+        ],
+        "type": "Cookie.HTTP",
+        "timestamp": "2021-05-20T16:00:45.580Z",
+        "location": "about:blank"
+      },
+      "firstPartyStorage": false
+    }
+  ],
+  "localStorage": {},
+  "beacons": [
+    {
+      "url": "https://telegram.org/img/twitter.png",
+      "query": null,
+      "filter": "/img/*twitter.png$domain=~github.io",
+      "listName": "fanboy-annoyance.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://telegram.org/",
+            "source": "requested from https://telegram.org/ and matched with fanboy-annoyance.txt filter /img/*twitter.png$domain=~github.io"
+          }
+        ],
+        "timestamp": "2021-05-20T16:00:45.963Z"
+      },
+      "occurrances": 1
+    }
+  ],
+  "hosts": {
+    "requests": {
+      "firstParty": [
+        "t.me"
+      ],
+      "thirdParty": [
+        "telegram.org"
+      ]
+    },
+    "beacons": {
+      "firstParty": [],
+      "thirdParty": []
+    },
+    "cookies": {
+      "firstParty": [
+        "t.me"
+      ],
+      "thirdParty": [
+        "telegram.org"
+      ]
+    },
+    "localStorage": {
+      "firstParty": [],
+      "thirdParty": []
+    },
+    "links": {
+      "firstParty": [],
+      "thirdParty": [
+        "telegram.org",
+        "twitter.com",
+        "core.telegram.org",
+        "desktop.telegram.org",
+        "macos.telegram.org",
+        "translations.telegram.org",
+        "instantview.telegram.org"
+      ]
+    }
+  }
+}

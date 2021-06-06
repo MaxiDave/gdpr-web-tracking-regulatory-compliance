@@ -1,0 +1,914 @@
+{
+  "title": "Website Evidence Collection",
+  "task_description": null,
+  "uri_ins": "https://ual.es",
+  "uri_refs": [
+    "https://ual.es"
+  ],
+  "uri_dest": "https://www.ual.es/",
+  "uri_redirects": [
+    "https://ual.es/",
+    "http://www.ual.es/"
+  ],
+  "secure_connection": {
+    "https_support": false,
+    "https_error": "RequestError: Error [ERR_TLS_CERT_ALTNAME_INVALID]: Hostname/IP does not match certificate's altnames: Host: ual.es. is not in the cert's altnames: DNS:www.ual.es, DNS:ualcms.ual.es",
+    "redirects": [
+      "https://ual.es/",
+      "http://www.ual.es/",
+      "https://www.ual.es/"
+    ],
+    "https_redirect": true
+  },
+  "host": "ual.es",
+  "script": {
+    "host": "sfod",
+    "version": {
+      "npm": "1.0.0",
+      "commit": null
+    },
+    "cmd_args": "-q --overwrite https://ual.es -- --ignore-certificate-errors",
+    "environment": {
+      "CHROME_DESKTOP": "code-url-handler.desktop"
+    },
+    "node_version": "v14.17.0"
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "HeadlessChrome/80.0.3987.0",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3617.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "5.8.0-53-generic"
+    },
+    "extra_headers": {},
+    "preset_cookies": {}
+  },
+  "start_time": "2021-05-20T15:59:01.029Z",
+  "end_time": "2021-05-20T15:59:16.812Z",
+  "links": {
+    "firstParty": [],
+    "thirdParty": [
+      {
+        "href": "https://www.ual.es/",
+        "inner_text": "Saltar al contenido de la página",
+        "inner_html": "Saltar al contenido de la página"
+      },
+      {
+        "href": "http://cms.ual.es/UAL/universidad/serviciosgenerales/biblioteca/index.htm",
+        "inner_text": "Biblioteca Nicolás Salmerón",
+        "inner_html": "Biblioteca Nicolás Salmerón"
+      },
+      {
+        "href": "https://www.ual.es/editorial",
+        "inner_text": "Editorial Universitaria",
+        "inner_html": "Editorial Universitaria"
+      },
+      {
+        "href": "https://www.ual.es/stic",
+        "inner_text": "Recursos TIC",
+        "inner_html": "Recursos TIC"
+      },
+      {
+        "href": "http://icaro.ual.es/",
+        "inner_text": "Empleo Ícaro",
+        "inner_html": "Empleo Ícaro"
+      },
+      {
+        "href": "https://www.ual.es/secretaria",
+        "inner_text": "Mi Secretaría",
+        "inner_html": "Mi Secretaría"
+      },
+      {
+        "href": "https://www.ual.es/administracionelectronica",
+        "inner_text": "Administración Electrónica",
+        "inner_html": "Administración Electrónica"
+      },
+      {
+        "href": "https://www.ual.es/universidad/serviciosgenerales/serv-contratacion/compras",
+        "inner_text": "Compras",
+        "inner_html": "Compras"
+      },
+      {
+        "href": "http://cms.ual.es/UAL/transparencia/index.htm",
+        "inner_text": "Portal de Transparencia",
+        "inner_html": "Portal de Transparencia"
+      },
+      {
+        "href": "https://www.ual.es/buscar-personas",
+        "inner_text": "Búsqueda de personas",
+        "inner_html": "Búsqueda de personas"
+      },
+      {
+        "href": "https://indaga.ual.es/discovery/search?vid=34CBUA_UAL:VU1",
+        "inner_text": "Búsqueda en Biblioteca Nicolás Salmerón",
+        "inner_html": "Búsqueda en Biblioteca Nicolás Salmerón"
+      },
+      {
+        "href": "http://cvirtual.ual.es/webual/jsp/investigacion/nuevo/pBusquedaAvanzada.jsp?f_t_busqueda=&idioma=es",
+        "inner_text": "Búsqueda en Investigación",
+        "inner_html": "Búsqueda en Investigación"
+      },
+      {
+        "href": "https://www.ual.es/?idioma=es_ES",
+        "inner_text": "Español",
+        "inner_html": "Español"
+      },
+      {
+        "href": "https://www.ual.es/en?idioma=en_GB",
+        "inner_text": "English",
+        "inner_html": "English"
+      },
+      {
+        "href": "https://www.facebook.com/universidaddealmeria",
+        "inner_text": "",
+        "inner_html": "<span class=\"oculto\">Facebook</span> <span class=\"fa fa-facebook\" aria-hidden=\"true\" title=\"Facebook\"></span>"
+      },
+      {
+        "href": "https://twitter.com/ualmeria",
+        "inner_text": "",
+        "inner_html": "<span class=\"oculto\">Twitter</span> <span class=\"fa fa-twitter\" aria-hidden=\"true\" title=\"Twitter\"></span>"
+      },
+      {
+        "href": "https://www.instagram.com/unialmeria",
+        "inner_text": "",
+        "inner_html": "<span class=\"oculto\">Instagram</span> <span class=\"fa fa-instagram\" aria-hidden=\"true\" title=\"Instagram\"></span>"
+      },
+      {
+        "href": "https://www.youtube.com/channel/UCxlZAfiJt-QEP_Gxmt8AWAw",
+        "inner_text": "",
+        "inner_html": "<span class=\"oculto\">Youtube</span> <span class=\"fa fa-youtube\" aria-hidden=\"true\" title=\"Youtube\"></span>"
+      },
+      {
+        "href": "https://www.ual.es/contacta",
+        "inner_text": "Contacta",
+        "inner_html": "Contacta"
+      },
+      {
+        "href": "http://www.ual.es/",
+        "inner_text": "",
+        "inner_html": "<img class=\"hidden-xs\" src=\"/application/themes/ual/images/logoual25-300px.png\" alt=\"Universidad de Almería\" title=\"Universidad de Almería\">\n\t\t\t\t<img class=\"visible-xs\" src=\"/application/themes/ual/images/ual-mini.png\" alt=\"Universidad de Almería\" title=\"Universidad de Almería\">"
+      },
+      {
+        "href": "https://www.ual.es/universidad",
+        "inner_text": "Conoce la UAL",
+        "inner_html": "Conoce la UAL"
+      },
+      {
+        "href": "https://www.ual.es/universidad/organosgobierno",
+        "inner_text": "Órganos de Gobierno",
+        "inner_html": "Órganos de Gobierno"
+      },
+      {
+        "href": "https://www.ual.es/universidad/centros",
+        "inner_text": "Facultades y Escuelas",
+        "inner_html": "Facultades y Escuelas"
+      },
+      {
+        "href": "https://www.ual.es/universidad/departamentos",
+        "inner_text": "Departamentos",
+        "inner_html": "Departamentos"
+      },
+      {
+        "href": "https://www.ual.es/universidad/serviciosgenerales",
+        "inner_text": "Servicios Generales",
+        "inner_html": "Servicios Generales"
+      },
+      {
+        "href": "https://www.ual.es/universidad/comisiones",
+        "inner_text": "Comisiones",
+        "inner_html": "Comisiones"
+      },
+      {
+        "href": "https://www.ual.es/universidad/otrosorganos",
+        "inner_text": "Otros Órganos",
+        "inner_html": "Otros Órganos"
+      },
+      {
+        "href": "https://www.ual.es/planestrategico",
+        "inner_text": "Plan Estratégico",
+        "inner_html": "Plan Estratégico"
+      },
+      {
+        "href": "https://www.ual.es/planestrategico2021/mision",
+        "inner_text": "Misión y Visión",
+        "inner_html": "Misión y Visión"
+      },
+      {
+        "href": "https://www.ual.es/universidad/responsabilidad-social",
+        "inner_text": "Memoria de Responsabilidad Social Universitaria",
+        "inner_html": "Memoria de Responsabilidad Social Universitaria"
+      },
+      {
+        "href": "http://www2.ual.es/sostenibilidad",
+        "inner_text": "Sostenibilidad",
+        "inner_html": "Sostenibilidad"
+      },
+      {
+        "href": "https://www.ual.es/application/files/3915/4703/5771/estatutos.pdf",
+        "inner_text": "Estatutos de la UAL",
+        "inner_html": "Estatutos de la UAL"
+      },
+      {
+        "href": "http://www.ual.es/visitavirtual/",
+        "inner_text": "Visita VirtUAL",
+        "inner_html": "Visita VirtUAL"
+      },
+      {
+        "href": "https://www.ual.es/identidadcorporativa",
+        "inner_text": "Identidad Corporativa",
+        "inner_html": "Identidad Corporativa"
+      },
+      {
+        "href": "https://www.ual.es/universidad/saludorector",
+        "inner_text": "Saludo del Rector",
+        "inner_html": "Saludo del Rector"
+      },
+      {
+        "href": "https://www.ual.es/universidad/memoria",
+        "inner_text": "Memoria del Curso Académico",
+        "inner_html": "Memoria del Curso Académico"
+      },
+      {
+        "href": "https://www.ual.es/estudios",
+        "inner_text": "Estudios",
+        "inner_html": "Estudios"
+      },
+      {
+        "href": "https://www.ual.es/estudios/grados",
+        "inner_text": "Grados",
+        "inner_html": "Grados"
+      },
+      {
+        "href": "https://www.ual.es/estudios/masteres",
+        "inner_text": "Másteres",
+        "inner_html": "Másteres"
+      },
+      {
+        "href": "https://www.eidual.com/",
+        "inner_text": "Doctorado",
+        "inner_html": "Doctorado"
+      },
+      {
+        "href": "http://centrofcontinua.ual.es/index.php/masteres/",
+        "inner_text": "Másteres Propios",
+        "inner_html": "Másteres Propios"
+      },
+      {
+        "href": "http://fcontinua.ual.es/index.php/titulos-propios-y-especialistas/",
+        "inner_text": "Títulos Propios y Especialistas",
+        "inner_html": "Títulos Propios y Especialistas"
+      },
+      {
+        "href": "http://fcontinua.ual.es/index.php/cursos-y-expertos",
+        "inner_text": "Cursos y Expertos",
+        "inner_html": "Cursos y Expertos"
+      },
+      {
+        "href": "http://www.clenguas.ual.es/",
+        "inner_text": "Cursos de Idiomas",
+        "inner_html": "Cursos de Idiomas"
+      },
+      {
+        "href": "http://www.ual.es/cursosdeverano",
+        "inner_text": "Cursos de Verano",
+        "inner_html": "Cursos de Verano"
+      },
+      {
+        "href": "https://www.ual.es/estudios/congresosyeventos",
+        "inner_text": "Congresos y Eventos",
+        "inner_html": "Congresos y Eventos"
+      },
+      {
+        "href": "https://www.ual.es/estudios/catedras",
+        "inner_text": "Cátedras y Seminarios",
+        "inner_html": "Cátedras y Seminarios"
+      },
+      {
+        "href": "http://www.umayores.es/",
+        "inner_text": "Universidad de Mayores",
+        "inner_html": "Universidad de Mayores"
+      },
+      {
+        "href": "http://www.ual.es/biblioteca",
+        "inner_text": "Biblioteca",
+        "inner_html": "Biblioteca"
+      },
+      {
+        "href": "http://cms.ual.es/UAL/estudios/gestionesacademicas/automatricula/index.htm",
+        "inner_text": "Matrícula",
+        "inner_html": "Matrícula"
+      },
+      {
+        "href": "https://www.ual.es/acceso",
+        "inner_text": "Acceso y Admisión",
+        "inner_html": "Acceso y Admisión"
+      },
+      {
+        "href": "https://www.ual.es/becas",
+        "inner_text": "Becas y Ayudas",
+        "inner_html": "Becas y Ayudas"
+      },
+      {
+        "href": "http://cms.ual.es/UAL/estudios/gestionesacademicas/automatricula/pagina/SGAA_CITA_PREVIA",
+        "inner_text": "Cita Previa",
+        "inner_html": "Cita Previa"
+      },
+      {
+        "href": "https://www.ual.es/estudios/calendarioacademico",
+        "inner_text": "Calendario Académico",
+        "inner_html": "Calendario Académico"
+      },
+      {
+        "href": "https://www.ual.es/estudios/horariosyexamenes",
+        "inner_text": "Horarios y Exámenes",
+        "inner_html": "Horarios y Exámenes"
+      },
+      {
+        "href": "https://www.ual.es/universidad/serviciosgenerales/spec/satisfaccion-docente",
+        "inner_text": "Encuestas Académicas",
+        "inner_html": "Encuestas Académicas"
+      },
+      {
+        "href": "https://www.ual.es/investigacion",
+        "inner_text": "Investigación",
+        "inner_html": "Investigación"
+      },
+      {
+        "href": "https://www.ual.es/investigacion/investiga",
+        "inner_text": "AlmeriaInvestiga",
+        "inner_html": "AlmeriaInvestiga"
+      },
+      {
+        "href": "https://www.ual.es/vida-universitaria",
+        "inner_text": "Vida Universitaria",
+        "inner_html": "Vida Universitaria"
+      },
+      {
+        "href": "http://www2.ual.es/cultura",
+        "inner_text": "Actividades culturales",
+        "inner_html": "Actividades culturales"
+      },
+      {
+        "href": "http://www2.ual.es/serviciodeportes/",
+        "inner_text": "Actividades Deportivas",
+        "inner_html": "Actividades Deportivas"
+      },
+      {
+        "href": "https://www.ual.es/vida-universitaria/alojamiento",
+        "inner_text": "Alojamiento",
+        "inner_html": "Alojamiento"
+      },
+      {
+        "href": "https://www.ual.es/vida-universitaria/representacion-estudiantil",
+        "inner_text": "Asociaciones",
+        "inner_html": "Asociaciones"
+      },
+      {
+        "href": "https://www.ual.es/vida-universitaria/diversidad-funcional",
+        "inner_text": "Diversidad funcional",
+        "inner_html": "Diversidad funcional"
+      },
+      {
+        "href": "http://www.igualdad.ual.es/",
+        "inner_text": "Igualdad de género",
+        "inner_html": "Igualdad de género"
+      },
+      {
+        "href": "https://www.ual.es/vida-universitaria/voluntariado",
+        "inner_text": "Voluntariado",
+        "inner_html": "Voluntariado"
+      },
+      {
+        "href": "https://www.ual.es/vida-universitaria/patrimonio-cultural",
+        "inner_text": "Patrimonio UAL",
+        "inner_html": "Patrimonio UAL"
+      },
+      {
+        "href": "https://www.ual.es/internacional",
+        "inner_text": "Internacional",
+        "inner_html": "Internacional"
+      },
+      {
+        "href": "http://cms.ual.es/UAL/universidad/serviciosgenerales/uinternacional/index.htm",
+        "inner_text": "Acceso a SRI",
+        "inner_html": "Acceso a SRI"
+      },
+      {
+        "href": "https://www.ual.es/comunidad/estudiantes-internacionales",
+        "inner_text": "Estudiantes Internacionales",
+        "inner_html": "Estudiantes Internacionales"
+      },
+      {
+        "href": "https://www.ual.es/universidad/organosgobierno/vicinternacionalizacion/international-welcome-center",
+        "inner_text": "International Welcome Center",
+        "inner_html": "International Welcome Center"
+      },
+      {
+        "href": "https://clenguas.ual.es/",
+        "inner_text": "Centro de Lenguas",
+        "inner_html": "Centro de Lenguas"
+      },
+      {
+        "href": "http://www.cde.ual.es/",
+        "inner_text": "Centro de Documentación Europea",
+        "inner_html": "Centro de Documentación Europea"
+      },
+      {
+        "href": "https://www.ual.es/comunidad",
+        "inner_text": "Comunidad",
+        "inner_html": "Comunidad"
+      },
+      {
+        "href": "https://www.ual.es/comunidad/visitantes",
+        "inner_text": "Acceso a Visitantes",
+        "inner_html": "Acceso a Visitantes"
+      },
+      {
+        "href": "https://www.ual.es/comunidad/empresas",
+        "inner_text": "Acceso a Empresas",
+        "inner_html": "Acceso a Empresas"
+      },
+      {
+        "href": "https://www.ual.es/comunidad/estudiantes-nuevos",
+        "inner_text": "De nuevo ingreso",
+        "inner_html": "De nuevo ingreso"
+      },
+      {
+        "href": "https://www.ual.es/comunidad/estudiantes-visitantes",
+        "inner_text": "Estudiantes Visitantes",
+        "inner_html": "Estudiantes Visitantes"
+      },
+      {
+        "href": "https://www.ual.es/campus-online",
+        "inner_text": "Campus on-line",
+        "inner_html": "Campus on-line"
+      },
+      {
+        "href": "https://cvirtual.ual.es/cuentas/jsp/cuentasCV/cuentasCV_alta.jsp",
+        "inner_text": "¿No tienes usuario de la UAL?",
+        "inner_html": "¿No tienes usuario de la UAL?"
+      },
+      {
+        "href": "https://campus.ual.es/modulo/5cfa4d3c45c81f5f33077bc5",
+        "inner_text": "¿Has olvidado tu contraseña?",
+        "inner_html": "¿Has olvidado tu contraseña?"
+      },
+      {
+        "href": "https://campus.ual.es/",
+        "inner_text": "Acceso a Campus Virtual",
+        "inner_html": "Acceso a Campus Virtual"
+      },
+      {
+        "href": "https://aulavirtual.ual.es/",
+        "inner_text": "Acceso plataforma eLearning",
+        "inner_html": "Acceso plataforma eLearning"
+      },
+      {
+        "href": "https://apps.google.com/user/hub",
+        "inner_text": "Acceso a UALCloud",
+        "inner_html": "Acceso a UALCloud"
+      },
+      {
+        "href": "http://translate.google.es/translate?u=https://www.ual.es/&sl=es&tl=es&ie=UTF-8",
+        "inner_text": "Traducir esta página con Google",
+        "inner_html": "Traducir esta página con Google"
+      },
+      {
+        "href": "https://www2.ual.es/cverano/",
+        "inner_text": "Visítanos",
+        "inner_html": "Visítanos"
+      },
+      {
+        "href": "https://www.ual.es/informacion-institucional",
+        "inner_text": "Más información",
+        "inner_html": "Más información"
+      },
+      {
+        "href": "http://cms.ual.es/UAL/investigacion/index.htm",
+        "inner_text": "¿Quieres saber más?",
+        "inner_html": "¿Quieres saber más?"
+      },
+      {
+        "href": "https://www.ual.es/en/comunidad/estudiantes-internacionales?idioma=en_GB",
+        "inner_text": "Visit us",
+        "inner_html": "Visit us"
+      },
+      {
+        "href": "https://news.ual.es/empleo-y-becas/la-ual-fomenta-el-empoderamiento-femenino-a-traves-del-programa-matilda-emprende/",
+        "inner_text": "\t\n\n19 de mayo de 2021\n\nLa UAL fomenta el empoderamiento femenino a través del Programa Matilda Emprende",
+        "inner_html": "<div class=\"media\">\n\t\t\t\t\t\t\t<div class=\"media-left new-object\"><figure><img class=\"escala imagenNoticia\" src=\"https://news.ual.es/wp-content/uploads/2021/05/FOTO-1-MAYO-19-2021-PRESENTACIÓN-PROGRAMA-MATILDA-EMPRENDE-300x200.jpg\" alt=\"La UAL fomenta el empoderamiento femenino a través del Programa Matilda Emprende\" longdesc=\"https://news.ual.es/empleo-y-becas/la-ual-fomenta-el-empoderamiento-femenino-a-traves-del-programa-matilda-emprende/\"></figure>\t\t</div>\n\t\t\t\t\t\t\t<div class=\"media-body\"><p class=\"date\">19 de mayo de 2021</p><h3 class=\"new-heading\">La UAL fomenta el empoderamiento femenino a través del Programa Matilda Emprende</h3> \n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>"
+      },
+      {
+        "href": "https://news.ual.es/rectorado/la-ual-forma-parte-del-germen-inicial-de-la-nueva-red-de-universidades-por-la-infancia-y-la-adolescencia/",
+        "inner_text": "\t\n\n19 de mayo de 2021\n\nLa UAL forma parte del germen inicial de la nueva ‘Red de Universidades por la Infancia y la Adolescencia’",
+        "inner_html": "<div class=\"media\">\n\t\t\t\t\t\t\t<div class=\"media-left new-object\"><figure><img class=\"escala imagenNoticia\" src=\"https://news.ual.es/wp-content/uploads/2021/05/FOTO-2-MAYO-19-2021-ACTO-CONSTITUCION-RED-UNIVERSIDADES-POR-LA-INFANCIA-Y-LA-ADOLESCENCIA-300x200.jpg\" alt=\"La UAL forma parte del germen inicial de la nueva ‘Red de Universidades por la Infancia y la Adolescencia’\" longdesc=\"https://news.ual.es/rectorado/la-ual-forma-parte-del-germen-inicial-de-la-nueva-red-de-universidades-por-la-infancia-y-la-adolescencia/\"></figure>\t\t</div>\n\t\t\t\t\t\t\t<div class=\"media-body\"><p class=\"date\">19 de mayo de 2021</p><h3 class=\"new-heading\">La UAL forma parte del germen inicial de la nueva ‘Red de Universidades por la Infancia y la Adolescencia’</h3> \n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>"
+      },
+      {
+        "href": "https://news.ual.es/cursosverano/martin-cuenca-ensenara-como-llevar-a-escena-un-guion-en-los-cursos-de-verano-de-la-ual/",
+        "inner_text": "\t\n\n19 de mayo de 2021\n\nMartín Cuenca enseñará cómo llevar a escena un guion en los Cursos de Verano de la UAL",
+        "inner_html": "<div class=\"media\">\n\t\t\t\t\t\t\t<div class=\"media-left new-object\"><figure><img class=\"escala imagenNoticia\" src=\"https://news.ual.es/wp-content/uploads/2021/05/MARTIN-CUENCA-300x214.png\" alt=\"Martín Cuenca enseñará cómo llevar a escena un guion en los Cursos de Verano de la UAL\" longdesc=\"https://news.ual.es/cursosverano/martin-cuenca-ensenara-como-llevar-a-escena-un-guion-en-los-cursos-de-verano-de-la-ual/\"></figure>\t\t</div>\n\t\t\t\t\t\t\t<div class=\"media-body\"><p class=\"date\">19 de mayo de 2021</p><h3 class=\"new-heading\">Martín Cuenca enseñará cómo llevar a escena un guion en los Cursos de Verano de la UAL</h3> \n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>"
+      },
+      {
+        "href": "http://news.ual.es/",
+        "inner_text": "Ver todas ",
+        "inner_html": "Ver todas <span class=\"glyphicon glyphicon-play\"></span>"
+      },
+      {
+        "href": "https://www.ual.es/estudios/gestionesacademicas/acceso/grados/vias/inicioselectividad/inscripcion-pevau",
+        "inner_text": "PEVAU 2021\nPREINSCRIPCIÓN ONLINE",
+        "inner_html": "<img class=\"escala\" src=\"https://www.ual.es/application/files/cache/thumbnails/f8bf3a8b1700e48761f054346a5bf9fa.png\" alt=\"PEVAU 2021\">\n\t\t\t\t<div class=\"banner-header\"><h2 class=\"tituloL\">\t\t\t\t\tPEVAU 2021\t\t\t\t\t<br><span class=\"texto18\">Preinscripción online </span>\t\t\t</h2></div>"
+      },
+      {
+        "href": "https://www.ual.es/contacta/contacto",
+        "inner_text": "CITA PREVIA Y CONTACTO\nCURSO 2020-2021",
+        "inner_html": "<img class=\"escala\" src=\"https://www.ual.es/application/files/cache/thumbnails/1b64e98f1ae0727b10a45f6d3532f204.jpg\" alt=\"CITA PREVIA Y CONTACTO\">\n\t\t\t\t<div class=\"banner-header\"><h2 class=\"tituloL\">\t\t\t\t\tCITA PREVIA Y CONTACTO\t\t\t\t\t<br><span class=\"texto18\">CURSO 2020-2021</span>\t\t\t</h2></div>"
+      },
+      {
+        "href": "http://www.ual.es/becas",
+        "inner_text": "Becas y Ayudas",
+        "inner_html": "Becas y Ayudas"
+      },
+      {
+        "href": "http://citaprevia.ual.es/InicioExterno.aspx",
+        "inner_text": "Cita Previa",
+        "inner_html": "Cita Previa"
+      },
+      {
+        "href": "http://automatricula.ual.es/",
+        "inner_text": "Matrícula",
+        "inner_html": "Matrícula"
+      },
+      {
+        "href": "http://cms.ual.es/UAL/estudios/gestionesacademicas/secretaria/expedientes/TRAMITES_TRASLADO_EXPEDIENTE",
+        "inner_text": "Traslados de Expediente",
+        "inner_html": "Traslados de Expediente"
+      },
+      {
+        "href": "https://www.ual.es/estudios/gestionesacademicas/secretaria",
+        "inner_text": "Reconocimiento de Créditos",
+        "inner_html": "Reconocimiento de Créditos"
+      },
+      {
+        "href": "https://www.ual.es/administracionelectronica/procedimientos/procedimiento/SGAC0200",
+        "inner_text": "Certificaciones Académicas de Alumnos",
+        "inner_html": "Certificaciones Académicas de Alumnos"
+      },
+      {
+        "href": "http://cms.ual.es/UAL/estudios/gestionesacademicas/secretaria/trabajosfin/TRAMITES_TRABAJOS_FIN",
+        "inner_text": "TFG, TFM y Tesis Doctorales",
+        "inner_html": "TFG, TFM y Tesis Doctorales"
+      },
+      {
+        "href": "http://cms.ual.es/UAL/estudios/gestionesacademicas/secretaria/familia/index.htm?id=29",
+        "inner_text": "Solicitud de Título Oficial",
+        "inner_html": "Solicitud de Título Oficial"
+      },
+      {
+        "href": "https://www.ual.es/un-mar-de-talento",
+        "inner_text": "Un mar de talento\n15.000 personas enriquecen y construyen la UAL cada año desde 1993",
+        "inner_html": "<div class=\"fila1 fondorojo colorblanco\">\n\t<div class=\"texto\">\n\t\t \n\t\t<!-- <span class=\"texto46 textointerletrado\">Un mar de talento</span> -->\n\t\t<h3 class=\"texto46 textointerletrado\">Un mar de talento</h3>\n\t\t<hr class=\"blanco\">\n\t\t\t<div class=\"textolight textojustificado\">\n\t\t\t<span class=\"texto28\"><span class=\"texto28\">15.000 personas</span> <span class=\"texto18\">enriquecen y construyen</span> <span class=\"texto28\">la UAL cada año</span> <span class=\"texto42\">desde 1993</span></span> \n\t\t</div>\n\t\t</div>\n\n\t<div class=\"imagen hidden-xs hidden-sm\">\n\t\t<figure>\n\t\t\t<img src=\"https://www.ual.es/application/files/cache/thumbnails/af0cc6c2a7b0924dadb1d3e90159aea6.jpg\" class=\"img-responsive\" alt=\"mar de talento con 4 filas\">\n\t\t</figure> \n\t</div>\n</div>"
+      },
+      {
+        "href": "http://cms.ual.es/UAL/investigacion/",
+        "inner_text": "Más información",
+        "inner_html": "Más información"
+      },
+      {
+        "href": "https://www.ual.es/eligeual",
+        "inner_text": "¿Por qué elegir la UAL?",
+        "inner_html": "¿Por qué elegir la UAL?"
+      },
+      {
+        "href": "https://www.ual.es/como-llegar",
+        "inner_text": "¿Cómo llegar?",
+        "inner_html": "¿Cómo llegar?"
+      },
+      {
+        "href": "https://www.ual.es/avisolegal",
+        "inner_text": "Aviso legal",
+        "inner_html": "Aviso legal"
+      },
+      {
+        "href": "https://www.ual.es/politicaprivacidad",
+        "inner_text": "Política de privacidad",
+        "inner_html": "Política de privacidad"
+      },
+      {
+        "href": "https://www.ual.es/accesibilidad",
+        "inner_text": "Accesibilidad",
+        "inner_html": "Accesibilidad"
+      },
+      {
+        "href": "https://www.ual.es/cei",
+        "inner_text": "",
+        "inner_html": "<img src=\"/application/themes/ual/images/campus-de-excelencia-internacional.jpg\" alt=\"Campus de Excelencia Internacional\" width=\"101\" height=\"79\" title=\"Campus de Excelencia Internacional\">"
+      },
+      {
+        "href": "http://www.crue.org/",
+        "inner_text": "",
+        "inner_html": "<img src=\"/application/themes/ual/images/crue.jpg\" alt=\"Crue\" width=\"122\" height=\"79\" title=\"Crue\">"
+      },
+      {
+        "href": "https://grupolarabida.org/",
+        "inner_text": "",
+        "inner_html": "<img src=\"/application/themes/ual/images/logogrupolarabida79.png\" alt=\"Grupo de universidades iberoamericanas La Rábida\" width=\"79\" height=\"79\" title=\"Grupo de universidades iberoamericanas La Rábida\">"
+      },
+      {
+        "href": "https://www.timeshighereducation.com/world-university-rankings/university-almeria",
+        "inner_text": "",
+        "inner_html": "<img src=\"/application/themes/ual/images/the.png\" alt=\"THE World University Rankings\" height=\"79\" title=\"THE World University Rankings\">"
+      },
+      {
+        "href": "https://www.ual.es/application/files/2715/2776/6458/AENOR.png",
+        "inner_text": "",
+        "inner_html": "<img src=\"/application/themes/ual/images/aenor.jpg\" alt=\"Calidad AENOR\" width=\"99\" height=\"79\" title=\"Calidad AENOR\">"
+      }
+    ],
+    "social": [
+      {
+        "href": "https://www.facebook.com/universidaddealmeria",
+        "inner_text": "",
+        "inner_html": "<span class=\"oculto\">Facebook</span> <span class=\"fa fa-facebook\" aria-hidden=\"true\" title=\"Facebook\"></span>"
+      },
+      {
+        "href": "https://twitter.com/ualmeria",
+        "inner_text": "",
+        "inner_html": "<span class=\"oculto\">Twitter</span> <span class=\"fa fa-twitter\" aria-hidden=\"true\" title=\"Twitter\"></span>"
+      },
+      {
+        "href": "https://www.instagram.com/unialmeria",
+        "inner_text": "",
+        "inner_html": "<span class=\"oculto\">Instagram</span> <span class=\"fa fa-instagram\" aria-hidden=\"true\" title=\"Instagram\"></span>"
+      },
+      {
+        "href": "https://www.youtube.com/channel/UCxlZAfiJt-QEP_Gxmt8AWAw",
+        "inner_text": "",
+        "inner_html": "<span class=\"oculto\">Youtube</span> <span class=\"fa fa-youtube\" aria-hidden=\"true\" title=\"Youtube\"></span>"
+      }
+    ],
+    "keywords": [
+      {
+        "href": "https://www.ual.es/avisolegal",
+        "inner_text": "Aviso legal",
+        "inner_html": "Aviso legal"
+      }
+    ]
+  },
+  "unsafeForms": [],
+  "browsing_history": [
+    "https://www.ual.es/"
+  ],
+  "websockets": {},
+  "cookies": [
+    {
+      "name": "_ga",
+      "value": "GA1.2.1184494637.1621526345",
+      "domain": "ual.es",
+      "path": "/",
+      "expires": 1684598345,
+      "size": 30,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2023-05-20T15:59:05.000Z",
+      "expiresDays": 730,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 495,
+            "lineNumber": 30,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "zc",
+            "source": "    at zc (https://www.google-analytics.com/analytics.js:30:495)"
+          },
+          {
+            "columnNumber": 15,
+            "lineNumber": 60,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "ma",
+            "source": "    at ma (https://www.google-analytics.com/analytics.js:60:15)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T15:59:05.304Z",
+        "location": "https://www.ual.es/"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "_gid",
+      "value": "GA1.2.2136957271.1621526345",
+      "domain": "ual.es",
+      "path": "/",
+      "expires": 1621612745,
+      "size": 31,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2021-05-21T15:59:05.000Z",
+      "expiresDays": 1,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 495,
+            "lineNumber": 30,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "zc",
+            "source": "    at zc (https://www.google-analytics.com/analytics.js:30:495)"
+          },
+          {
+            "columnNumber": 401,
+            "lineNumber": 59,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "ma",
+            "source": "    at ma (https://www.google-analytics.com/analytics.js:59:401)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T15:59:05.304Z",
+        "location": "https://www.ual.es/"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "_gat",
+      "value": "1",
+      "domain": "ual.es",
+      "path": "/",
+      "expires": 1621526405,
+      "size": 5,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2021-05-20T16:00:05.000Z",
+      "expiresDays": 0,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 495,
+            "lineNumber": 30,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "zc",
+            "source": "    at zc (https://www.google-analytics.com/analytics.js:30:495)"
+          },
+          {
+            "columnNumber": 31,
+            "lineNumber": 73,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "Qd",
+            "source": "    at Qd (https://www.google-analytics.com/analytics.js:73:31)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T15:59:05.305Z",
+        "location": "https://www.ual.es/"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "CONCRETE5",
+      "value": "17c33def52891db3bdd85118825db472",
+      "domain": "www.ual.es",
+      "path": "/",
+      "expires": -1,
+      "size": 41,
+      "httpOnly": true,
+      "secure": false,
+      "session": true,
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.ual.es/",
+            "source": "set in Set-Cookie HTTP response header for https://www.ual.es/"
+          }
+        ],
+        "type": "Cookie.HTTP",
+        "timestamp": "2021-05-20T15:59:04.247Z",
+        "location": "about:blank"
+      },
+      "firstPartyStorage": false
+    }
+  ],
+  "localStorage": {},
+  "beacons": [
+    {
+      "url": "https://www.google-analytics.com/j/collect?v=1&_v=j90&a=1020453130&t=pageview&_s=1&dl=https%3A%2F%2Fwww.ual.es%2F&ul=en-us&de=UTF-8&dt=UAL%20-%20Universidad%20de%20Almer%C3%ADa&sd=24-bit&sr=1680x927&vp=1680x927&je=0&_u=IEBAAEABAAAAAC~&jid=1590319910&gjid=1614736388&cid=1184494637.1621526345&tid=UA-26237535-1&_gid=2136957271.1621526345&_r=1&_slc=1&z=1952877622",
+      "query": {
+        "v": 1,
+        "_v": "j90",
+        "a": 1020453130,
+        "t": "pageview",
+        "_s": 1,
+        "dl": "https://www.ual.es/",
+        "ul": "en-us",
+        "de": "UTF-8",
+        "dt": "UAL - Universidad de Almería",
+        "sd": "24-bit",
+        "sr": "1680x927",
+        "vp": "1680x927",
+        "je": 0,
+        "_u": "IEBAAEABAAAAAC~",
+        "jid": 1590319910,
+        "gjid": 1614736388,
+        "cid": 1184494637.1621525,
+        "tid": "UA-26237535-1",
+        "_gid": 2136957271.1621525,
+        "_r": 1,
+        "_slc": 1,
+        "z": 1952877622
+      },
+      "filter": "/collect?*&cid=",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.ual.es/",
+            "source": "requested from https://www.ual.es/ and matched with easyprivacy.txt filter /collect?*&cid="
+          }
+        ],
+        "timestamp": "2021-05-20T15:59:05.308Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://www.google-analytics.com/analytics.js",
+      "query": null,
+      "filter": "||google-analytics.com/analytics.js",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.ual.es/",
+            "source": "requested from https://www.ual.es/ and matched with easyprivacy.txt filter ||google-analytics.com/analytics.js"
+          }
+        ],
+        "timestamp": "2021-05-20T15:59:04.771Z"
+      },
+      "occurrances": 1
+    }
+  ],
+  "hosts": {
+    "requests": {
+      "firstParty": [
+        "ual.es"
+      ],
+      "thirdParty": [
+        "www.ual.es",
+        "news.ual.es",
+        "www.google-analytics.com"
+      ]
+    },
+    "beacons": {
+      "firstParty": [],
+      "thirdParty": [
+        "www.google-analytics.com"
+      ]
+    },
+    "cookies": {
+      "firstParty": [
+        "ual.es"
+      ],
+      "thirdParty": [
+        "www.ual.es"
+      ]
+    },
+    "localStorage": {
+      "firstParty": [],
+      "thirdParty": []
+    },
+    "links": {
+      "firstParty": [],
+      "thirdParty": [
+        "www.ual.es",
+        "cms.ual.es",
+        "icaro.ual.es",
+        "indaga.ual.es",
+        "cvirtual.ual.es",
+        "www.facebook.com",
+        "twitter.com",
+        "www.instagram.com",
+        "www.youtube.com",
+        "www2.ual.es",
+        "www.eidual.com",
+        "centrofcontinua.ual.es",
+        "fcontinua.ual.es",
+        "www.clenguas.ual.es",
+        "www.umayores.es",
+        "www.igualdad.ual.es",
+        "clenguas.ual.es",
+        "www.cde.ual.es",
+        "campus.ual.es",
+        "aulavirtual.ual.es",
+        "apps.google.com",
+        "translate.google.es",
+        "news.ual.es",
+        "citaprevia.ual.es",
+        "automatricula.ual.es",
+        "www.crue.org",
+        "grupolarabida.org",
+        "www.timeshighereducation.com"
+      ]
+    }
+  }
+}

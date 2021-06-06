@@ -1,0 +1,730 @@
+{
+  "title": "Website Evidence Collection",
+  "task_description": null,
+  "uri_ins": "https://chess.com",
+  "uri_refs": [
+    "https://chess.com"
+  ],
+  "uri_dest": "https://www.chess.com/",
+  "uri_redirects": [
+    "https://chess.com/"
+  ],
+  "secure_connection": {
+    "https_support": true,
+    "redirects": [
+      "https://chess.com/",
+      "https://www.chess.com/"
+    ],
+    "https_redirect": true
+  },
+  "host": "chess.com",
+  "script": {
+    "host": "sfod",
+    "version": {
+      "npm": "1.0.0",
+      "commit": null
+    },
+    "cmd_args": "-q --overwrite https://chess.com -- --ignore-certificate-errors",
+    "environment": {
+      "CHROME_DESKTOP": "code-url-handler.desktop"
+    },
+    "node_version": "v14.17.0"
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "HeadlessChrome/80.0.3987.0",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3617.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "5.8.0-53-generic"
+    },
+    "extra_headers": {},
+    "preset_cookies": {}
+  },
+  "start_time": "2021-05-20T15:54:33.619Z",
+  "end_time": "2021-05-20T15:54:41.216Z",
+  "links": {
+    "firstParty": [],
+    "thirdParty": [
+      {
+        "href": "https://www.google.com/intl/en/chrome/browser/",
+        "inner_text": "Chrome",
+        "inner_html": "<img width=\"65\" height=\"65\" alt=\"Chrome\" src=\"//betacssjs.chesscomfiles.com/bundles/web/images/icons/chrome.png\">\n\n          <label class=\"svelte-1o0fp2f\">Chrome</label>"
+      },
+      {
+        "href": "http://www.mozilla.org/en-US/firefox/new/",
+        "inner_text": "Firefox",
+        "inner_html": "<img width=\"65\" height=\"65\" alt=\"Firefox\" src=\"//betacssjs.chesscomfiles.com/bundles/web/images/icons/firefox.png\">\n\n          <label class=\"svelte-1o0fp2f\">Firefox</label>"
+      },
+      {
+        "href": "https://www.chess.com/",
+        "inner_text": "",
+        "inner_html": "<!---->"
+      },
+      {
+        "href": "https://www.chess.com/play",
+        "inner_text": "Play",
+        "inner_html": "<span class=\"text\">Play</span>\n              <!---->"
+      },
+      {
+        "href": "https://www.chess.com/puzzles",
+        "inner_text": "Puzzles",
+        "inner_html": "<span class=\"text\">Puzzles</span>"
+      },
+      {
+        "href": "https://www.chess.com/lessons",
+        "inner_text": "Learn",
+        "inner_html": "<span class=\"text\">Learn</span>\n              <!---->"
+      },
+      {
+        "href": "https://www.chess.com/today",
+        "inner_text": "Today",
+        "inner_html": "<span class=\"text\">Today</span>"
+      },
+      {
+        "href": "https://www.chess.com/forum",
+        "inner_text": "Connect",
+        "inner_html": "<span class=\"text\">Connect</span>"
+      },
+      {
+        "href": "https://www.chess.com/register?returnUrl=https%3A%2F%2Fwww.chess.com%2F",
+        "inner_text": "Sign Up",
+        "inner_html": "<div class=\"icon-font icon\">\n          <span class=\"icon-font-chess user-plus\"></span>\n        </div>\n        <span class=\"label\">Sign Up</span>"
+      },
+      {
+        "href": "https://www.chess.com/login_and_go?returnUrl=https%3A%2F%2Fwww.chess.com%2F",
+        "inner_text": "Log In",
+        "inner_html": "<div class=\"icon-font icon\">\n          <span class=\"icon-font-chess enter\"></span>\n        </div>\n        <span class=\"label\">Log In</span>"
+      },
+      {
+        "href": "https://www.chess.com/search",
+        "inner_text": "Search",
+        "inner_html": "<div class=\"toggle-search-box\" data-tooltip-show=\"collapsed-nav\" data-tooltip-content=\"Search\">\n        <div class=\"icon-font\">\n          <span class=\"icon-font-chess magnifying-glass\"></span>\n        </div>\n        <span class=\"nav-label\">Search</span>\n      </div>\n            <div class=\"svelte popover search\">\n        <div class=\"arrow\"></div>\n        <form action=\"https://www.chess.com/search/redirect\" method=\"GET\">\n          <input type=\"text\" name=\"q\">\n        </form>\n      </div>"
+      },
+      {
+        "href": "https://support.chess.com/collection/136-community-safety",
+        "inner_text": "\n        \n          \n        \n        Report Abuse\n      ",
+        "inner_html": "<div class=\"icon-font icon\">\n          <span class=\"icon-font-chess circle-block\"></span>\n        </div>\n        <span class=\"title\">Report Abuse</span>"
+      },
+      {
+        "href": "https://support.chess.com/category/135-membership-and-billing",
+        "inner_text": "\n        \n          \n        \n        Billing Issues\n      ",
+        "inner_html": "<div class=\"icon-font icon\">\n          <span class=\"icon-font-chess card\"></span>\n        </div>\n        <span class=\"title\">Billing Issues</span>"
+      },
+      {
+        "href": "https://www.chess.com/play/computer",
+        "inner_text": "Play Computer\nPlay vs customizable training bots",
+        "inner_html": "<div class=\"index-guest-button-icon index-computer-icon\"></div>\n\n            <div>\n              <div class=\"index-guest-button-title\">Play Computer</div>\n\n              <div class=\"index-guest-button-subtitle\">Play vs customizable training bots</div>\n            </div>"
+      },
+      {
+        "href": "https://www.chess.com/blog/introuble2/chess-during-world-war-i-in-germany-austria-hungary-central-powers-some-aspects",
+        "inner_text": "Chess during World War I In Germany And Austria/Hungary [Central Powers]\nintrouble2",
+        "inner_html": "<div class=\"index-post-img\">\n    \n              \n    <img alt=\"Chess during World War I In Germany And Austria/Hungary [Central Powers]\" class=\"index-post-img-thumbnail img-defer \" data-src=\"https://images.chesscomfiles.com/uploads/v1/blog/536830.3026a471.507x286o.5f609210a22c.png\" data-srcset=\"https://images.chesscomfiles.com/uploads/v1/blog/536830.3026a471.507x286o.5f609210a22c@2x.png 2x\" src=\"/bundles/web/images/image-default.445cb543.svg\">\n\n      </div>\n\n  <h3 class=\"index-post-name\">Chess during World War I In Germany And Austria/Hungary [Central Powers]</h3>\n\n  <div class=\"index-post-author\">\n    \n    introuble2\n  </div>"
+      },
+      {
+        "href": "https://www.chess.com/news/view/pantsulaia-wins-may-18-titled-tuesday",
+        "inner_text": "Pantsulaia Wins May 18 Titled Tuesday\nNathanielGreen",
+        "inner_html": "<div class=\"index-post-img\">\n    \n              \n    <img alt=\"Pantsulaia Wins May 18 Titled Tuesday\" class=\"index-post-img-thumbnail img-defer \" data-src=\"https://images.chesscomfiles.com/uploads/v1/news/932349.7163c4a8.507x286o.1299f582035d.jpeg\" data-srcset=\"https://images.chesscomfiles.com/uploads/v1/news/932349.7163c4a8.507x286o.1299f582035d@2x.jpeg 2x\" src=\"/bundles/web/images/image-default.445cb543.svg\">\n\n      </div>\n\n  <h3 class=\"index-post-name\">Pantsulaia Wins May 18 Titled Tuesday</h3>\n\n  <div class=\"index-post-author\">\n    \n    NathanielGreen\n  </div>"
+      },
+      {
+        "href": "https://www.chess.com/article/view/arena-kings-season-7-leaderboard",
+        "inner_text": "Arena Kings Season 7 Leaderboard\nNews",
+        "inner_html": "<div class=\"index-post-img\">\n    \n              \n    <img alt=\"Arena Kings Season 7 Leaderboard\" class=\"index-post-img-thumbnail img-defer \" data-src=\"https://images.chesscomfiles.com/uploads/v1/article/27013.ccc087d4.507x286o.962e0bf054c0.png\" data-srcset=\"https://images.chesscomfiles.com/uploads/v1/article/27013.ccc087d4.507x286o.962e0bf054c0@2x.png 2x\" src=\"/bundles/web/images/image-default.445cb543.svg\">\n\n      </div>\n\n  <h3 class=\"index-post-name\">Arena Kings Season 7 Leaderboard</h3>\n\n  <div class=\"index-post-author\">\n    \n    News\n  </div>"
+      },
+      {
+        "href": "https://www.chess.com/video/player/how-levon-aronian-became-americas-newest-super-grandmaster-against-bunzmann",
+        "inner_text": "How Levon Aronian Became America's Newest Super Grandmaster: Against Bunzmann\nGM\nGMMelik",
+        "inner_html": "<div class=\"index-post-img\">\n    \n              \n    <img alt=\"How Levon Aronian Became America's Newest Super Grandmaster: Against Bunzmann\" class=\"index-post-img-thumbnail img-defer \" data-src=\"https://images.chesscomfiles.com/uploads/v1/video/8064.9ba2e0e8.507x286o.a22a3d405cac.png\" data-srcset=\"https://images.chesscomfiles.com/uploads/v1/video/8064.9ba2e0e8.507x286o.a22a3d405cac@2x.png 2x\" src=\"/bundles/web/images/image-default.445cb543.svg\">\n\n          <div class=\"icon-font-component post-preview-image-icon\">\n        <span class=\"icon-font-chess play\"></span>\n      </div>\n      </div>\n\n  <h3 class=\"index-post-name\">How Levon Aronian Became America's Newest Super Grandmaster: Against Bunzmann</h3>\n\n  <div class=\"index-post-author\">\n          <div class=\"index-chess-title\">GM</div>\n    \n    GMMelik\n  </div>"
+      },
+      {
+        "href": "https://support.chess.com/",
+        "inner_text": "Help ",
+        "inner_html": "Help"
+      },
+      {
+        "href": "https://www.chess.com/why",
+        "inner_text": "Why Join? ",
+        "inner_html": "Why Join?"
+      },
+      {
+        "href": "https://www.chess.com/about",
+        "inner_text": "About ",
+        "inner_html": "About"
+      },
+      {
+        "href": "https://www.chess.com/jobs",
+        "inner_text": "Jobs ",
+        "inner_html": "Jobs"
+      },
+      {
+        "href": "https://www.chess.com/developers",
+        "inner_text": "Developers ",
+        "inner_html": "Developers"
+      },
+      {
+        "href": "https://www.chess.com/legal/user-agreement",
+        "inner_text": "User Agreement ",
+        "inner_html": "User Agreement"
+      },
+      {
+        "href": "https://www.chess.com/legal/privacy",
+        "inner_text": "Privacy ",
+        "inner_html": "Privacy"
+      },
+      {
+        "href": "https://www.chess.com/legal/fair-play",
+        "inner_text": "Fair Play ",
+        "inner_html": "Fair Play"
+      },
+      {
+        "href": "https://www.chess.com/legal/community",
+        "inner_text": "Community ",
+        "inner_html": "Community"
+      },
+      {
+        "href": "https://www.chess.com/play/apps/ios",
+        "inner_text": "",
+        "inner_html": "<span class=\"icon-font-chess navigation-footer-platform-icon apple\"></span>"
+      },
+      {
+        "href": "https://www.chess.com/play/apps/android",
+        "inner_text": "",
+        "inner_html": "<span class=\"icon-font-chess navigation-footer-platform-icon android\"></span>"
+      },
+      {
+        "href": "https://www.facebook.com/chess",
+        "inner_text": "",
+        "inner_html": "<span class=\"icon-font-chess navigation-footer-platform-icon facebook\"></span>"
+      },
+      {
+        "href": "https://twitter.com/chesscom",
+        "inner_text": "",
+        "inner_html": "<span class=\"icon-font-chess navigation-footer-platform-icon twitter\"></span>"
+      },
+      {
+        "href": "https://www.youtube.com/user/wwwChesscom",
+        "inner_text": "",
+        "inner_html": "<span class=\"icon-font-chess navigation-footer-platform-icon youtube\"></span>"
+      },
+      {
+        "href": "https://www.twitch.tv/chess",
+        "inner_text": "",
+        "inner_html": "<span class=\"icon-font-chess navigation-footer-platform-icon twitch\"></span>"
+      },
+      {
+        "href": "https://www.instagram.com/wwwchesscom",
+        "inner_text": "",
+        "inner_html": "<span class=\"icon-font-chess navigation-footer-platform-icon instagram\"></span>"
+      },
+      {
+        "href": "https://discord.gg/3VbUQME",
+        "inner_text": "",
+        "inner_html": "<span class=\"icon-font-chess navigation-footer-platform-icon discord\"></span>"
+      }
+    ],
+    "social": [
+      {
+        "href": "https://www.facebook.com/chess",
+        "inner_text": "",
+        "inner_html": "<span class=\"icon-font-chess navigation-footer-platform-icon facebook\"></span>"
+      },
+      {
+        "href": "https://twitter.com/chesscom",
+        "inner_text": "",
+        "inner_html": "<span class=\"icon-font-chess navigation-footer-platform-icon twitter\"></span>"
+      },
+      {
+        "href": "https://www.youtube.com/user/wwwChesscom",
+        "inner_text": "",
+        "inner_html": "<span class=\"icon-font-chess navigation-footer-platform-icon youtube\"></span>"
+      },
+      {
+        "href": "https://www.instagram.com/wwwchesscom",
+        "inner_text": "",
+        "inner_html": "<span class=\"icon-font-chess navigation-footer-platform-icon instagram\"></span>"
+      }
+    ],
+    "keywords": [
+      {
+        "href": "https://www.chess.com/login_and_go?returnUrl=https%3A%2F%2Fwww.chess.com%2F",
+        "inner_text": "Log In",
+        "inner_html": "<div class=\"icon-font icon\">\n          <span class=\"icon-font-chess enter\"></span>\n        </div>\n        <span class=\"label\">Log In</span>"
+      },
+      {
+        "href": "https://www.chess.com/legal/user-agreement",
+        "inner_text": "User Agreement ",
+        "inner_html": "User Agreement"
+      },
+      {
+        "href": "https://www.chess.com/legal/privacy",
+        "inner_text": "Privacy ",
+        "inner_html": "Privacy"
+      },
+      {
+        "href": "https://www.chess.com/legal/fair-play",
+        "inner_text": "Fair Play ",
+        "inner_html": "Fair Play"
+      },
+      {
+        "href": "https://www.chess.com/legal/community",
+        "inner_text": "Community ",
+        "inner_html": "Community"
+      }
+    ]
+  },
+  "unsafeForms": [],
+  "browsing_history": [
+    "https://www.chess.com/"
+  ],
+  "websockets": {},
+  "cookies": [
+    {
+      "name": "_ga",
+      "value": "GA1.2.1727436522.1621526075",
+      "domain": "chess.com",
+      "path": "/",
+      "expires": 1684598075,
+      "size": 30,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2023-05-20T15:54:35.000Z",
+      "expiresDays": 730,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 495,
+            "lineNumber": 30,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "zc",
+            "source": "    at zc (https://www.google-analytics.com/analytics.js:30:495)"
+          },
+          {
+            "columnNumber": 15,
+            "lineNumber": 60,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "ma",
+            "source": "    at ma (https://www.google-analytics.com/analytics.js:60:15)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T15:54:35.382Z",
+        "location": "https://www.chess.com/"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "visitorid",
+      "value": "%3A76c4%3Affff%3A37.120.199.236",
+      "domain": "www.chess.com",
+      "path": "/",
+      "expires": 1653062074.397842,
+      "size": 40,
+      "httpOnly": true,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2022-05-20T15:54:34.397Z",
+      "expiresDays": 365,
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.chess.com/",
+            "source": "set in Set-Cookie HTTP response header for https://www.chess.com/"
+          }
+        ],
+        "type": "Cookie.HTTP",
+        "timestamp": "2021-05-20T15:54:34.402Z",
+        "location": "about:blank"
+      },
+      "firstPartyStorage": false
+    },
+    {
+      "name": "asset_push",
+      "value": "20210519080422%3B9cd75",
+      "domain": "www.chess.com",
+      "path": "/",
+      "expires": 1622390074.397764,
+      "size": 32,
+      "httpOnly": true,
+      "secure": false,
+      "session": false,
+      "sameSite": "Lax",
+      "expiresUTC": "2021-05-30T15:54:34.397Z",
+      "expiresDays": 10,
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.chess.com/",
+            "source": "set in Set-Cookie HTTP response header for https://www.chess.com/"
+          }
+        ],
+        "type": "Cookie.HTTP",
+        "timestamp": "2021-05-20T15:54:34.402Z",
+        "location": "about:blank"
+      },
+      "firstPartyStorage": false
+    },
+    {
+      "name": "_gid",
+      "value": "GA1.2.1400907313.1621526075",
+      "domain": "chess.com",
+      "path": "/",
+      "expires": 1621612475,
+      "size": 31,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2021-05-21T15:54:35.000Z",
+      "expiresDays": 1,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 495,
+            "lineNumber": 30,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "zc",
+            "source": "    at zc (https://www.google-analytics.com/analytics.js:30:495)"
+          },
+          {
+            "columnNumber": 401,
+            "lineNumber": 59,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "ma",
+            "source": "    at ma (https://www.google-analytics.com/analytics.js:59:401)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T15:54:35.382Z",
+        "location": "https://www.chess.com/"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "__cf_bm",
+      "value": "5f06e538651dfd0b87b48f915d612603ee5f0b37-1621526074-1800-AaB8F9dimyZAMsML3qx/lkWVWka/rR7oZgwhWy5DMSOChrR+lttFB5Yzkg3jVUhT+dUHe3nNFUvPMWVxuj+Ohes=",
+      "domain": "chesscomfiles.com",
+      "path": "/",
+      "expires": 1621527874.639899,
+      "size": 152,
+      "httpOnly": true,
+      "secure": true,
+      "session": false,
+      "sameSite": "None",
+      "expiresUTC": "2021-05-20T16:24:34.639Z",
+      "expiresDays": 0.02,
+      "firstPartyStorage": false
+    },
+    {
+      "name": "__cf_bm",
+      "value": "b538eb57d142735a382d401914a8e124a9d2cd4d-1621526074-1800-AeAV0Iy9QBHSPI9mH+lsbPwV+3j90KLUGNTapbm43jLj8ssJwCi3NgE4d4J/5+ayvs0W95Nf09KhgLlXuYUgxUt0qt1Ma426/Smg9ZgzoDE3",
+      "domain": "chess.com",
+      "path": "/",
+      "expires": 1621527874.43381,
+      "size": 172,
+      "httpOnly": true,
+      "secure": true,
+      "session": false,
+      "sameSite": "None",
+      "expiresUTC": "2021-05-20T16:24:34.433Z",
+      "expiresDays": 0.02,
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.chess.com/",
+            "source": "set in Set-Cookie HTTP response header for https://www.chess.com/"
+          }
+        ],
+        "type": "Cookie.HTTP",
+        "timestamp": "2021-05-20T15:54:34.402Z",
+        "location": "about:blank"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "_gat_UA-170510588-1",
+      "value": "1",
+      "domain": "chess.com",
+      "path": "/",
+      "expires": 1621526135,
+      "size": 20,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2021-05-20T15:55:35.000Z",
+      "expiresDays": 0,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 495,
+            "lineNumber": 30,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "zc",
+            "source": "    at zc (https://www.google-analytics.com/analytics.js:30:495)"
+          },
+          {
+            "columnNumber": 31,
+            "lineNumber": 73,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "Qd",
+            "source": "    at Qd (https://www.google-analytics.com/analytics.js:73:31)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T15:54:35.383Z",
+        "location": "https://www.chess.com/"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "PHPSESSID",
+      "value": "10448f88f26388b3155235d0c34137fc",
+      "domain": "chess.com",
+      "path": "/",
+      "expires": -1,
+      "size": 41,
+      "httpOnly": true,
+      "secure": true,
+      "session": true,
+      "sameSite": "Lax",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.chess.com/",
+            "source": "set in Set-Cookie HTTP response header for https://www.chess.com/"
+          }
+        ],
+        "type": "Cookie.HTTP",
+        "timestamp": "2021-05-20T15:54:34.402Z",
+        "location": "about:blank"
+      },
+      "firstPartyStorage": true
+    }
+  ],
+  "localStorage": {
+    "https://www.chess.com": {
+      "json_settings": {
+        "value": {
+          "nobrowserupgrade": "2021-05-27T15:54:34.901Z",
+          "returnUrl": "https://www.chess.com/",
+          "lastSavedRelease": 1504891089,
+          "cclocale": "en_US",
+          "chessComAppState": "{}"
+        },
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 178889,
+              "lineNumber": 2,
+              "fileName": "https://www.chess.com/bundles/app/js/vue.dll.071673a5.js",
+              "functionName": "CacheProvider.set",
+              "source": "    at CacheProvider.set (https://www.chess.com/bundles/app/js/vue.dll.071673a5.js:2:178889)"
+            },
+            {
+              "columnNumber": 179884,
+              "lineNumber": 2,
+              "fileName": "https://www.chess.com/bundles/app/js/vue.dll.071673a5.js",
+              "functionName": "CacheService.push",
+              "source": "    at CacheService.push (https://www.chess.com/bundles/app/js/vue.dll.071673a5.js:2:179884)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T15:54:35.204Z",
+          "location": "https://www.chess.com/"
+        }
+      }
+    }
+  },
+  "beacons": [
+    {
+      "url": "https://stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j90&tid=UA-170510588-1&cid=1727436522.1621526075&jid=1746114780&gjid=887543567&_gid=1400907313.1621526075&_u=YEBAAEAAAAAAAC~&z=1950649680",
+      "query": {
+        "t": "dc",
+        "aip": 1,
+        "_r": 3,
+        "v": 1,
+        "_v": "j90",
+        "tid": "UA-170510588-1",
+        "cid": 1727436522.1621525,
+        "jid": 1746114780,
+        "gjid": 887543567,
+        "_gid": 1400907313.1621525,
+        "_u": "YEBAAEAAAAAAAC~",
+        "z": 1950649680
+      },
+      "filter": "||stats.g.doubleclick.net^",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.chess.com/",
+            "source": "requested from https://www.chess.com/ and matched with easyprivacy.txt filter ||stats.g.doubleclick.net^"
+          }
+        ],
+        "timestamp": "2021-05-20T15:54:35.434Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://www.google-analytics.com/j/collect?v=1&_v=j90&a=1535882205&t=pageview&_s=1&dl=https%3A%2F%2Fwww.chess.com%2F&ul=en-us&de=UTF-8&dt=Chess.com%20-%20Play%20Chess%20Online%20-%20Free%20Games&sd=24-bit&sr=1680x927&vp=1680x927&je=0&_u=YEBAAEABAAAAAC~&jid=1746114780&gjid=887543567&cid=1727436522.1621526075&tid=UA-170510588-1&_gid=1400907313.1621526075&_r=1&gtm=2wg5c1WQJVC73&z=1388942251",
+      "query": {
+        "v": 1,
+        "_v": "j90",
+        "a": 1535882205,
+        "t": "pageview",
+        "_s": 1,
+        "dl": "https://www.chess.com/",
+        "ul": "en-us",
+        "de": "UTF-8",
+        "dt": "Chess.com - Play Chess Online - Free Games",
+        "sd": "24-bit",
+        "sr": "1680x927",
+        "vp": "1680x927",
+        "je": 0,
+        "_u": "YEBAAEABAAAAAC~",
+        "jid": 1746114780,
+        "gjid": 887543567,
+        "cid": 1727436522.1621525,
+        "tid": "UA-170510588-1",
+        "_gid": 1400907313.1621525,
+        "_r": 1,
+        "gtm": "2wg5c1WQJVC73",
+        "z": 1388942251
+      },
+      "filter": "/collect?*&cid=",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.chess.com/",
+            "source": "requested from https://www.chess.com/ and matched with easyprivacy.txt filter /collect?*&cid="
+          }
+        ],
+        "timestamp": "2021-05-20T15:54:35.387Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://www.google-analytics.com/analytics.js",
+      "query": null,
+      "filter": "||google-analytics.com/analytics.js",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.chess.com/",
+            "source": "requested from https://www.chess.com/ and matched with easyprivacy.txt filter ||google-analytics.com/analytics.js"
+          }
+        ],
+        "timestamp": "2021-05-20T15:54:35.094Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://www.googletagmanager.com/gtm.js?id=GTM-WQJVC73",
+      "query": {
+        "id": "GTM-WQJVC73"
+      },
+      "filter": "/gtm.js",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.chess.com/",
+            "source": "requested from https://www.chess.com/ and matched with easyprivacy.txt filter /gtm.js"
+          }
+        ],
+        "timestamp": "2021-05-20T15:54:34.455Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://www.chess.com/bundles/app/js/cookie-banner-legacy.client.59c11379.js",
+      "query": null,
+      "filter": "/cookie-banner",
+      "listName": "fanboy-annoyance.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.chess.com/",
+            "source": "requested from https://www.chess.com/ and matched with fanboy-annoyance.txt filter /cookie-banner"
+          }
+        ],
+        "timestamp": "2021-05-20T15:54:34.438Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://www.chess.com/bundles/app/css/cookie-banner-legacy.client.d57ecebf.css",
+      "query": null,
+      "filter": "/cookie-banner",
+      "listName": "fanboy-annoyance.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.chess.com/",
+            "source": "requested from https://www.chess.com/ and matched with fanboy-annoyance.txt filter /cookie-banner"
+          }
+        ],
+        "timestamp": "2021-05-20T15:54:34.422Z"
+      },
+      "occurrances": 1
+    }
+  ],
+  "hosts": {
+    "requests": {
+      "firstParty": [
+        "chess.com"
+      ],
+      "thirdParty": [
+        "www.chess.com",
+        "browser.sentry-cdn.com",
+        "betacssjs.chesscomfiles.com",
+        "www.googletagmanager.com",
+        "www.google-analytics.com",
+        "stats.g.doubleclick.net",
+        "www.google.com",
+        "www.google.es",
+        "images.chesscomfiles.com"
+      ]
+    },
+    "beacons": {
+      "firstParty": [],
+      "thirdParty": [
+        "stats.g.doubleclick.net",
+        "www.google-analytics.com",
+        "www.googletagmanager.com"
+      ]
+    },
+    "cookies": {
+      "firstParty": [
+        "chess.com"
+      ],
+      "thirdParty": [
+        "www.chess.com",
+        "chesscomfiles.com"
+      ]
+    },
+    "localStorage": {
+      "firstParty": [],
+      "thirdParty": [
+        "www.chess.com"
+      ]
+    },
+    "links": {
+      "firstParty": [],
+      "thirdParty": [
+        "www.google.com",
+        "www.mozilla.org",
+        "www.chess.com",
+        "support.chess.com",
+        "www.facebook.com",
+        "twitter.com",
+        "www.youtube.com",
+        "www.twitch.tv",
+        "www.instagram.com",
+        "discord.gg"
+      ]
+    }
+  }
+}

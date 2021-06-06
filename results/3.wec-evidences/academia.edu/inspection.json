@@ -1,0 +1,849 @@
+{
+  "title": "Website Evidence Collection",
+  "task_description": null,
+  "uri_ins": "https://academia.edu",
+  "uri_refs": [
+    "https://academia.edu"
+  ],
+  "uri_dest": "https://www.academia.edu/",
+  "uri_redirects": [
+    "https://academia.edu/"
+  ],
+  "secure_connection": {
+    "https_support": true,
+    "redirects": [
+      "http://www.academia.edu/",
+      "https://www.academia.edu/"
+    ],
+    "https_redirect": true
+  },
+  "host": "academia.edu",
+  "script": {
+    "host": "sfod",
+    "version": {
+      "npm": "1.0.0",
+      "commit": null
+    },
+    "cmd_args": "-q --overwrite https://academia.edu -- --ignore-certificate-errors",
+    "environment": {
+      "CHROME_DESKTOP": "code-url-handler.desktop"
+    },
+    "node_version": "v14.17.0"
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "HeadlessChrome/80.0.3987.0",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3617.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "5.8.0-53-generic"
+    },
+    "extra_headers": {},
+    "preset_cookies": {}
+  },
+  "start_time": "2021-05-20T16:03:43.662Z",
+  "end_time": "2021-05-20T16:03:51.666Z",
+  "links": {
+    "firstParty": [],
+    "thirdParty": [
+      {
+        "href": "https://www.academia.edu/",
+        "inner_text": "Skip to main content",
+        "inner_html": "Skip to main content"
+      },
+      {
+        "href": "https://www.academia.edu/upgrade-browser",
+        "inner_text": "upgrade your browser",
+        "inner_html": "upgrade your browser"
+      },
+      {
+        "href": "https://www.academia.edu/privacy",
+        "inner_text": "Privacy Policy",
+        "inner_html": "Privacy Policy"
+      },
+      {
+        "href": "https://www.academia.edu/login",
+        "inner_text": "LOG IN",
+        "inner_html": "Log In"
+      },
+      {
+        "href": "http://www.academia.edu/12297791/Open_Access_Meets_Discoverability_Citations_to_Articles_Posted_to_Academia.edu",
+        "inner_text": "study",
+        "inner_html": "study"
+      },
+      {
+        "href": "https://www.academia.edu/signup",
+        "inner_text": "Sign Up with Email",
+        "inner_html": "Sign Up with Email"
+      },
+      {
+        "href": "https://www.academia.edu/about",
+        "inner_text": "About",
+        "inner_html": "About"
+      },
+      {
+        "href": "https://www.academia.edu/press",
+        "inner_text": "Press",
+        "inner_html": "Press"
+      },
+      {
+        "href": "https://medium.com/academia",
+        "inner_text": "Blog",
+        "inner_html": "Blog"
+      },
+      {
+        "href": "https://www.academia.edu/Directory/People",
+        "inner_text": "People",
+        "inner_html": "People"
+      },
+      {
+        "href": "https://www.academia.edu/Directory/Papers",
+        "inner_text": "Papers",
+        "inner_html": "Papers"
+      },
+      {
+        "href": "https://www.academia.edu/Jobs",
+        "inner_text": "Job Board",
+        "inner_html": "Job Board"
+      },
+      {
+        "href": "https://www.academia.edu/advertise",
+        "inner_text": "Advertise",
+        "inner_html": "Advertise"
+      },
+      {
+        "href": "https://www.academia.edu/hiring",
+        "inner_text": " We're Hiring!",
+        "inner_html": "<svg style=\"width: 13px; height: 13px; position: relative; bottom: -1px;\" aria-hidden=\"true\" focusable=\"false\" data-prefix=\"fas\" data-icon=\"briefcase\" class=\"svg-inline--fa fa-briefcase fa-w-16\" role=\"img\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 512 512\"><path fill=\"currentColor\" d=\"M320 336c0 8.84-7.16 16-16 16h-96c-8.84 0-16-7.16-16-16v-48H0v144c0 25.6 22.4 48 48 48h416c25.6 0 48-22.4 48-48V288H320v48zm144-208h-80V80c0-25.6-22.4-48-48-48H176c-25.6 0-48 22.4-48 48v48H48c-25.6 0-48 22.4-48 48v80h512v-80c0-25.6-22.4-48-48-48zm-144 0H192V96h128v32z\"></path></svg>&nbsp;<strong>We're Hiring!</strong>"
+      },
+      {
+        "href": "https://support.academia.edu/",
+        "inner_text": " Help Center",
+        "inner_html": "<svg style=\"width: 12px; height: 12px; position: relative; bottom: -1px;\" aria-hidden=\"true\" focusable=\"false\" data-prefix=\"fas\" data-icon=\"question-circle\" class=\"svg-inline--fa fa-question-circle fa-w-16\" role=\"img\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 512 512\"><path fill=\"currentColor\" d=\"M504 256c0 136.997-111.043 248-248 248S8 392.997 8 256C8 119.083 119.043 8 256 8s248 111.083 248 248zM262.655 90c-54.497 0-89.255 22.957-116.549 63.758-3.536 5.286-2.353 12.415 2.715 16.258l34.699 26.31c5.205 3.947 12.621 3.008 16.665-2.122 17.864-22.658 30.113-35.797 57.303-35.797 20.429 0 45.698 13.148 45.698 32.958 0 14.976-12.363 22.667-32.534 33.976C247.128 238.528 216 254.941 216 296v4c0 6.627 5.373 12 12 12h56c6.627 0 12-5.373 12-12v-1.333c0-28.462 83.186-29.647 83.186-106.667 0-58.002-60.165-102-116.531-102zM256 338c-25.365 0-46 20.635-46 46 0 25.364 20.635 46 46 46s46-20.636 46-46c0-25.365-20.635-46-46-46z\"></path></svg>&nbsp;<strong>Help Center</strong>"
+      },
+      {
+        "href": "https://www.academia.edu/Documents/in/Physics",
+        "inner_text": "Physics",
+        "inner_html": "Physics"
+      },
+      {
+        "href": "https://www.academia.edu/Documents/in/Chemistry",
+        "inner_text": "Chemistry",
+        "inner_html": "Chemistry"
+      },
+      {
+        "href": "https://www.academia.edu/Documents/in/Biology",
+        "inner_text": "Biology",
+        "inner_html": "Biology"
+      },
+      {
+        "href": "https://www.academia.edu/Documents/in/Health_Sciences",
+        "inner_text": "Health Sciences",
+        "inner_html": "Health Sciences"
+      },
+      {
+        "href": "https://www.academia.edu/Documents/in/Ecology",
+        "inner_text": "Ecology",
+        "inner_html": "Ecology"
+      },
+      {
+        "href": "https://www.academia.edu/Documents/in/Earth_Sciences",
+        "inner_text": "Earth Sciences",
+        "inner_html": "Earth Sciences"
+      },
+      {
+        "href": "https://www.academia.edu/Documents/in/Cognitive_Science",
+        "inner_text": "Cognitive Science",
+        "inner_html": "Cognitive Science"
+      },
+      {
+        "href": "https://www.academia.edu/Documents/in/Mathematics",
+        "inner_text": "Mathematics",
+        "inner_html": "Mathematics"
+      },
+      {
+        "href": "https://www.academia.edu/Documents/in/Computer_Science",
+        "inner_text": "Computer Science",
+        "inner_html": "Computer Science"
+      },
+      {
+        "href": "https://www.academia.edu/terms",
+        "inner_text": "Terms",
+        "inner_html": "Terms"
+      },
+      {
+        "href": "https://www.academia.edu/copyright",
+        "inner_text": "Copyright",
+        "inner_html": "Copyright"
+      }
+    ],
+    "social": [
+      {
+        "href": "https://medium.com/academia",
+        "inner_text": "Blog",
+        "inner_html": "Blog"
+      }
+    ],
+    "keywords": [
+      {
+        "href": "https://www.academia.edu/privacy",
+        "inner_text": "Privacy Policy",
+        "inner_html": "Privacy Policy"
+      },
+      {
+        "href": "https://www.academia.edu/login",
+        "inner_text": "LOG IN",
+        "inner_html": "Log In"
+      }
+    ]
+  },
+  "unsafeForms": [],
+  "browsing_history": [
+    "https://www.academia.edu/"
+  ],
+  "websockets": {},
+  "cookies": [
+    {
+      "name": "G_ENABLED_IDPS",
+      "value": "google",
+      "domain": "www.academia.edu",
+      "path": "/",
+      "expires": 253402257600,
+      "size": 20,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "9999-12-31T12:00:00.000Z",
+      "expiresDays": 2914128.83,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 37,
+            "lineNumber": 583,
+            "fileName": "https://apis.google.com/_/scs/apps-static/_/js/k=oz.gapi.en_US.p7L79FLXQCw.O/m=client/rt=j/sv=1/d=1/ed=1/am=AQ/rs=AGLTcCO6hl1EejjzC-wrWbDdgTxPi0Gs8g/cb=gapi.loaded_0",
+            "functionName": "Av",
+            "source": "    at Av (https://apis.google.com/_/scs/apps-static/_/js/k=oz.gapi.en_US.p7L79FLXQCw.O/m=client/rt=j/sv=1/d=1/ed=1/am=AQ/rs=AGLTcCO6hl1EejjzC-wrWbDdgTxPi0Gs8g/cb=gapi.loaded_0:583:37)"
+          },
+          {
+            "columnNumber": 247,
+            "lineNumber": 590,
+            "fileName": "https://apis.google.com/_/scs/apps-static/_/js/k=oz.gapi.en_US.p7L79FLXQCw.O/m=client/rt=j/sv=1/d=1/ed=1/am=AQ/rs=AGLTcCO6hl1EejjzC-wrWbDdgTxPi0Gs8g/cb=gapi.loaded_0",
+            "functionName": "_.Kv._.h.Tv",
+            "source": "    at _.Kv._.h.Tv (https://apis.google.com/_/scs/apps-static/_/js/k=oz.gapi.en_US.p7L79FLXQCw.O/m=client/rt=j/sv=1/d=1/ed=1/am=AQ/rs=AGLTcCO6hl1EejjzC-wrWbDdgTxPi0Gs8g/cb=gapi.loaded_0:590:247)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T16:03:45.989Z",
+        "location": "https://www.academia.edu/"
+      },
+      "firstPartyStorage": false
+    },
+    {
+      "name": "has_seen_cookie_banner",
+      "value": "true",
+      "domain": "academia.edu",
+      "path": "/",
+      "expires": 2252678624.483079,
+      "size": 26,
+      "httpOnly": false,
+      "secure": true,
+      "session": false,
+      "expiresUTC": "2041-05-20T16:03:44.483Z",
+      "expiresDays": 7305,
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.academia.edu/",
+            "source": "set in Set-Cookie HTTP response header for https://www.academia.edu/"
+          }
+        ],
+        "type": "Cookie.HTTP",
+        "timestamp": "2021-05-20T16:03:44.486Z",
+        "location": "about:blank"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "_ga",
+      "value": "GA1.2.1854414218.1621526626",
+      "domain": "academia.edu",
+      "path": "/",
+      "expires": 1684598625,
+      "size": 30,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2023-05-20T16:03:45.000Z",
+      "expiresDays": 730,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 495,
+            "lineNumber": 30,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "zc",
+            "source": "    at zc (https://www.google-analytics.com/analytics.js:30:495)"
+          },
+          {
+            "columnNumber": 401,
+            "lineNumber": 59,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "ma",
+            "source": "    at ma (https://www.google-analytics.com/analytics.js:59:401)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T16:03:45.828Z",
+        "location": "https://www.academia.edu/"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "UID",
+      "value": "13JP5BUR5SNRS6TBLL9ZMMg1621526625",
+      "domain": "scorecardresearch.com",
+      "path": "/",
+      "expires": 1683734624.669221,
+      "size": 36,
+      "httpOnly": false,
+      "secure": true,
+      "session": false,
+      "sameSite": "None",
+      "expiresUTC": "2023-05-10T16:03:44.669Z",
+      "expiresDays": 720,
+      "firstPartyStorage": false
+    },
+    {
+      "name": "auvid3",
+      "value": "dd67fA-cqZseg-q9NLW",
+      "domain": "academia.edu",
+      "path": "/",
+      "expires": 1653084224.280078,
+      "size": 25,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2022-05-20T22:03:44.280Z",
+      "expiresDays": 365.25,
+      "firstPartyStorage": true
+    },
+    {
+      "name": "overridden_user_tests",
+      "value": "%7B%7D",
+      "domain": "academia.edu",
+      "path": "/",
+      "expires": 1653062626.445961,
+      "size": 27,
+      "httpOnly": false,
+      "secure": true,
+      "session": false,
+      "expiresUTC": "2022-05-20T16:03:46.445Z",
+      "expiresDays": 365,
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.academia.edu/",
+            "source": "set in Set-Cookie HTTP response header for https://www.academia.edu/"
+          }
+        ],
+        "type": "Cookie.HTTP",
+        "timestamp": "2021-05-20T16:03:44.486Z",
+        "location": "about:blank"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "ab_test_june_2012_5",
+      "value": "false",
+      "domain": "academia.edu",
+      "path": "/",
+      "expires": 1653062625,
+      "size": 24,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2022-05-20T16:03:45.000Z",
+      "expiresDays": 365,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 638,
+            "lineNumber": 49,
+            "fileName": "https://a.academia-assets.com/assets/webpack_bundles/webpack_libraries_and_infrequently_changed.wjs-bundle-db76ad72e6a40b4ebad422a91d4a459701bcbfdca3ff51c7ccfcb4067d591f3c.js",
+            "functionName": "Function.e.cookie",
+            "source": "    at Function.e.cookie (https://a.academia-assets.com/assets/webpack_bundles/webpack_libraries_and_infrequently_changed.wjs-bundle-db76ad72e6a40b4ebad422a91d4a459701bcbfdca3ff51c7ccfcb4067d591f3c.js:49:638)"
+          },
+          {
+            "columnNumber": 495252,
+            "lineNumber": 84,
+            "fileName": "https://a.academia-assets.com/assets/webpack_bundles/core_webpack.wjs-bundle-2c8bf99e58f0506cd2fa04355b8e6d3098630141c6b5b9670b2f29ce74e9b41e.js",
+            "functionName": "Object.success",
+            "source": "    at Object.success (https://a.academia-assets.com/assets/webpack_bundles/core_webpack.wjs-bundle-2c8bf99e58f0506cd2fa04355b8e6d3098630141c6b5b9670b2f29ce74e9b41e.js:84:495252)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T16:03:45.686Z",
+        "location": "https://www.academia.edu/"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "auvid",
+      "value": "MTYyMTUyNjYyNDQwMTowLjY5MjQyNjEyODQxNjY5MQ%3D%3D",
+      "domain": "academia.edu",
+      "path": "/",
+      "expires": 1653062624.483038,
+      "size": 53,
+      "httpOnly": false,
+      "secure": true,
+      "session": false,
+      "expiresUTC": "2022-05-20T16:03:44.483Z",
+      "expiresDays": 365,
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.academia.edu/",
+            "source": "set in Set-Cookie HTTP response header for https://www.academia.edu/"
+          }
+        ],
+        "type": "Cookie.HTTP",
+        "timestamp": "2021-05-20T16:03:44.486Z",
+        "location": "about:blank"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "NID",
+      "value": "216=sGy-MnHTRBGbXmqijNCZgHjf5hunUdo__jLUpL58G3cA0BSPbI8yIytTVhy-9ZO2q6E3PG33_vityvOSIX2FHQ4U3_HdMkBJurG-zg8eRxiLArolEat38p_t92z8NGp69hSkNCR0u1KcxgF9sINYvr3z2lNZYGEWuD0Bw2YvQ80",
+      "domain": "google.com",
+      "path": "/",
+      "expires": 1637337825.650556,
+      "size": 178,
+      "httpOnly": true,
+      "secure": true,
+      "session": false,
+      "sameSite": "None",
+      "expiresUTC": "2021-11-19T16:03:45.650Z",
+      "expiresDays": 183,
+      "firstPartyStorage": false
+    },
+    {
+      "name": "_gid",
+      "value": "GA1.2.618531174.1621526626",
+      "domain": "academia.edu",
+      "path": "/",
+      "expires": 1621613025,
+      "size": 30,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2021-05-21T16:03:45.000Z",
+      "expiresDays": 1,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 495,
+            "lineNumber": 30,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "zc",
+            "source": "    at zc (https://www.google-analytics.com/analytics.js:30:495)"
+          },
+          {
+            "columnNumber": 401,
+            "lineNumber": 59,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "ma",
+            "source": "    at ma (https://www.google-analytics.com/analytics.js:59:401)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T16:03:45.830Z",
+        "location": "https://www.academia.edu/"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "_gat",
+      "value": "1",
+      "domain": "academia.edu",
+      "path": "/",
+      "expires": 1621526685,
+      "size": 5,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2021-05-20T16:04:45.000Z",
+      "expiresDays": 0,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 495,
+            "lineNumber": 30,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "zc",
+            "source": "    at zc (https://www.google-analytics.com/analytics.js:30:495)"
+          },
+          {
+            "columnNumber": 31,
+            "lineNumber": 73,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "Qd",
+            "source": "    at Qd (https://www.google-analytics.com/analytics.js:73:31)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T16:03:45.831Z",
+        "location": "https://www.academia.edu/"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "request_id",
+      "value": "dd67fr-cqZsei-b7K7qZ",
+      "domain": "www.academia.edu",
+      "path": "/v0",
+      "expires": -1,
+      "size": 30,
+      "httpOnly": false,
+      "secure": false,
+      "session": true,
+      "firstPartyStorage": false
+    },
+    {
+      "name": "request_id",
+      "value": "dd67fA-cqZseg-q9NLW",
+      "domain": "academia.edu",
+      "path": "/",
+      "expires": -1,
+      "size": 29,
+      "httpOnly": false,
+      "secure": false,
+      "session": true,
+      "firstPartyStorage": true
+    },
+    {
+      "name": "from_cache",
+      "value": "",
+      "domain": "www.academia.edu",
+      "path": "/",
+      "expires": -1,
+      "size": 10,
+      "httpOnly": false,
+      "secure": false,
+      "session": true,
+      "firstPartyStorage": false
+    },
+    {
+      "name": "request_id",
+      "value": "dd67e8-cqZseh-buuSom",
+      "domain": "www.academia.edu",
+      "path": "/",
+      "expires": -1,
+      "size": 30,
+      "httpOnly": false,
+      "secure": false,
+      "session": true,
+      "firstPartyStorage": false
+    },
+    {
+      "name": "_cookie_session",
+      "value": "ektOa3B4NS8rNlNhaTI0dG5Pbk03c3drejd6Y1h3aFRkVFNKeVRhd29hNjZQRTFBbzBpU3VJU3F6NFN3MVY5THo4SkNSSjFZL3IyTG51MmVCYkZ1dXVKSlZ5ZWlPNGNWKzAzU2pIeVl6clpZT2h2Z0JiRWdDeDlxcjd1ak1BREJIT3N3MytoQ1c2enpVL1RPMzIwNnJKdHZuZW02Rk1aNlJmc0E2ZVpWMVhhQnJuSk0ya2IzM3JEbHdMNlFHVnlyVHduRUlEUFpPOW9lYXVxWFBIVXRyUno2SE9JbGRESTFEVUlRS0ZveUExcjRyRTIzbnk3OHc5QmVJZ1RHNkthVXJSdzVraEdCZC82d0k4TnZnQm44SVZoWXB1VGtuNG0yM1E0a3hPRktqTXlRcUVMNXd0bGRQcGVnTUM0MUdZVXd6dG9Md1dEUGh1UXd2V0dnVExYMkxBK0tzQkRaWTZxWkJ5dnlDdHZZQUVBNXlvMGRUZ3JMcjgwanpncDJYaUxKR200K3EwUnRaTmlEQ2toMkZscXZ1QT09LS1COFFkR3lFUG9tMS94QTFLaUdhWWFnPT0%3D--dfc6c309308b5b436fd86387b96aaf75cf258671",
+      "domain": "academia.edu",
+      "path": "/",
+      "expires": -1,
+      "size": 639,
+      "httpOnly": true,
+      "secure": true,
+      "session": true,
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.academia.edu/",
+            "source": "set in Set-Cookie HTTP response header for https://www.academia.edu/"
+          }
+        ],
+        "type": "Cookie.HTTP",
+        "timestamp": "2021-05-20T16:03:44.486Z",
+        "location": "about:blank"
+      },
+      "firstPartyStorage": true
+    }
+  ],
+  "localStorage": {},
+  "beacons": [
+    {
+      "url": "https://stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j90&tid=UA-2111171-1&cid=1854414218.1621526626&jid=1240307635&gjid=335221960&_gid=618531174.1621526626&_u=YEBAAAAAAAAAAC~&z=1214639908",
+      "query": {
+        "t": "dc",
+        "aip": 1,
+        "_r": 3,
+        "v": 1,
+        "_v": "j90",
+        "tid": "UA-2111171-1",
+        "cid": 1854414218.1621528,
+        "jid": 1240307635,
+        "gjid": 335221960,
+        "_gid": 618531174.1621526,
+        "_u": "YEBAAAAAAAAAAC~",
+        "z": 1214639908
+      },
+      "filter": "||stats.g.doubleclick.net^",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.academia.edu/",
+            "source": "requested from https://www.academia.edu/ and matched with easyprivacy.txt filter ||stats.g.doubleclick.net^"
+          }
+        ],
+        "timestamp": "2021-05-20T16:03:45.948Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://www.google-analytics.com/collect?v=1&_v=j90&a=1044370920&t=timing&_s=4&dl=https%3A%2F%2Fwww.academia.edu%2F&ul=en-us&de=UTF-8&dt=Academia.edu%20-%20Share%20research&sd=24-bit&sr=1680x927&vp=1680x927&je=0&utc=User-centric&utv=Time%20To%20Interactive&utt=1306&_u=YEBAAAABAAAAAC~&jid=&gjid=&cid=1854414218.1621526626&tid=UA-2111171-1&_gid=618531174.1621526626&cd1=home&cd2=show&cd6=home%23show&cd3=false&cd5=unknown&z=1376496689",
+      "query": {
+        "v": 1,
+        "_v": "j90",
+        "a": 1044370920,
+        "t": "timing",
+        "_s": 4,
+        "dl": "https://www.academia.edu/",
+        "ul": "en-us",
+        "de": "UTF-8",
+        "dt": "Academia.edu - Share research",
+        "sd": "24-bit",
+        "sr": "1680x927",
+        "vp": "1680x927",
+        "je": 0,
+        "utc": "User-centric",
+        "utv": "Time To Interactive",
+        "utt": 1306,
+        "_u": "YEBAAAABAAAAAC~",
+        "jid": "",
+        "gjid": "",
+        "cid": 1854414218.1621528,
+        "tid": "UA-2111171-1",
+        "_gid": 618531174.1621526,
+        "cd1": "home",
+        "cd2": "show",
+        "cd6": "home#show",
+        "cd3": false,
+        "cd5": "unknown",
+        "z": 1376496689
+      },
+      "filter": "||google-analytics.com/collect",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.academia.edu/",
+            "source": "requested from https://www.academia.edu/ and matched with easyprivacy.txt filter ||google-analytics.com/collect"
+          }
+        ],
+        "timestamp": "2021-05-20T16:03:45.853Z"
+      },
+      "occurrances": 3
+    },
+    {
+      "url": "https://www.google-analytics.com/j/collect?v=1&_v=j90&a=1044370920&t=pageview&_s=1&dl=https%3A%2F%2Fwww.academia.edu%2F&ul=en-us&de=UTF-8&dt=Academia.edu%20-%20Share%20research&sd=24-bit&sr=1680x927&vp=1680x927&je=0&_u=YEBAAAABAAAAAC~&jid=1240307635&gjid=335221960&cid=1854414218.1621526626&tid=UA-2111171-1&_gid=618531174.1621526626&_r=1&_slc=1&cd1=home&cd2=show&cd6=home%23show&cd3=false&cd5=unknown&z=1674457033",
+      "query": {
+        "v": 1,
+        "_v": "j90",
+        "a": 1044370920,
+        "t": "pageview",
+        "_s": 1,
+        "dl": "https://www.academia.edu/",
+        "ul": "en-us",
+        "de": "UTF-8",
+        "dt": "Academia.edu - Share research",
+        "sd": "24-bit",
+        "sr": "1680x927",
+        "vp": "1680x927",
+        "je": 0,
+        "_u": "YEBAAAABAAAAAC~",
+        "jid": 1240307635,
+        "gjid": 335221960,
+        "cid": 1854414218.1621528,
+        "tid": "UA-2111171-1",
+        "_gid": 618531174.1621526,
+        "_r": 1,
+        "_slc": 1,
+        "cd1": "home",
+        "cd2": "show",
+        "cd6": "home#show",
+        "cd3": false,
+        "cd5": "unknown",
+        "z": 1674457033
+      },
+      "filter": "/collect?*&cid=",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.academia.edu/",
+            "source": "requested from https://www.academia.edu/ and matched with easyprivacy.txt filter /collect?*&cid="
+          }
+        ],
+        "timestamp": "2021-05-20T16:03:45.835Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://www.academia.edu/record_hit",
+      "query": null,
+      "filter": "||academia.edu/record_hit",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.academia.edu/",
+            "source": "requested from https://www.academia.edu/ and matched with easyprivacy.txt filter ||academia.edu/record_hit"
+          }
+        ],
+        "timestamp": "2021-05-20T16:03:45.685Z"
+      },
+      "occurrances": 2
+    },
+    {
+      "url": "https://sb.scorecardresearch.com/beacon.js",
+      "query": null,
+      "filter": "||scorecardresearch.com^$third-party",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.academia.edu/",
+            "source": "requested from https://www.academia.edu/ and matched with easyprivacy.txt filter ||scorecardresearch.com^$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T16:03:45.462Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://sb.scorecardresearch.com/p2?c1=2&c2=26766707&cv=2.0&cj=1",
+      "query": {
+        "c1": 2,
+        "c2": 26766707,
+        "cv": 2,
+        "cj": 1
+      },
+      "filter": "||scorecardresearch.com^$third-party",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.academia.edu/",
+            "source": "requested from https://www.academia.edu/ and matched with easyprivacy.txt filter ||scorecardresearch.com^$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T16:03:44.672Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://www.google-analytics.com/analytics.js",
+      "query": null,
+      "filter": "||google-analytics.com/analytics.js",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.academia.edu/",
+            "source": "requested from https://www.academia.edu/ and matched with easyprivacy.txt filter ||google-analytics.com/analytics.js"
+          }
+        ],
+        "timestamp": "2021-05-20T16:03:44.520Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://a.academia-assets.com/images/facebook/facebook-color.svg",
+      "query": null,
+      "filter": "/images/facebook",
+      "listName": "fanboy-annoyance.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.academia.edu/",
+            "source": "requested from https://www.academia.edu/ and matched with fanboy-annoyance.txt filter /images/facebook"
+          }
+        ],
+        "timestamp": "2021-05-20T16:03:44.519Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://sb.scorecardresearch.com/p?c1=2&c2=26766707&cv=2.0&cj=1",
+      "query": {
+        "c1": 2,
+        "c2": 26766707,
+        "cv": 2,
+        "cj": 1
+      },
+      "filter": "||scorecardresearch.com^$third-party",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.academia.edu/",
+            "source": "requested from https://www.academia.edu/ and matched with easyprivacy.txt filter ||scorecardresearch.com^$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T16:03:44.515Z"
+      },
+      "occurrances": 1
+    }
+  ],
+  "hosts": {
+    "requests": {
+      "firstParty": [
+        "academia.edu"
+      ],
+      "thirdParty": [
+        "www.academia.edu",
+        "a.academia-assets.com",
+        "sb.scorecardresearch.com",
+        "www.google-analytics.com",
+        "accounts.google.com",
+        "connect.facebook.net",
+        "apis.google.com",
+        "www.facebook.com",
+        "stats.g.doubleclick.net",
+        "ssl.gstatic.com"
+      ]
+    },
+    "beacons": {
+      "firstParty": [],
+      "thirdParty": [
+        "stats.g.doubleclick.net",
+        "www.google-analytics.com",
+        "www.academia.edu",
+        "sb.scorecardresearch.com"
+      ]
+    },
+    "cookies": {
+      "firstParty": [
+        "academia.edu"
+      ],
+      "thirdParty": [
+        "www.academia.edu",
+        "scorecardresearch.com",
+        "google.com"
+      ]
+    },
+    "localStorage": {
+      "firstParty": [],
+      "thirdParty": []
+    },
+    "links": {
+      "firstParty": [],
+      "thirdParty": [
+        "www.academia.edu",
+        "medium.com",
+        "support.academia.edu"
+      ]
+    }
+  }
+}

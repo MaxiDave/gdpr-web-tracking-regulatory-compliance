@@ -1,0 +1,2537 @@
+{
+  "title": "Website Evidence Collection",
+  "task_description": null,
+  "uri_ins": "https://steamgifts.com",
+  "uri_refs": [
+    "https://steamgifts.com"
+  ],
+  "uri_dest": "https://www.steamgifts.com/",
+  "uri_redirects": [
+    "https://steamgifts.com/"
+  ],
+  "secure_connection": {
+    "https_support": true,
+    "redirects": [
+      "https://steamgifts.com/",
+      "https://www.steamgifts.com/"
+    ],
+    "https_redirect": true
+  },
+  "host": "steamgifts.com",
+  "script": {
+    "host": "sfod",
+    "version": {
+      "npm": "1.0.0",
+      "commit": null
+    },
+    "cmd_args": "-q --overwrite https://steamgifts.com -- --ignore-certificate-errors",
+    "environment": {
+      "CHROME_DESKTOP": "code-url-handler.desktop"
+    },
+    "node_version": "v14.17.0"
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "HeadlessChrome/80.0.3987.0",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3617.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "5.8.0-53-generic"
+    },
+    "extra_headers": {},
+    "preset_cookies": {}
+  },
+  "start_time": "2021-05-20T16:31:36.112Z",
+  "end_time": "2021-05-20T16:31:49.814Z",
+  "links": {
+    "firstParty": [],
+    "thirdParty": [
+      {
+        "href": "https://www.steamgifts.com/giveaways/wishlist",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\tCommunity Wishlist\n\t\t\t\t\t\t\t\t\t\t\tSearch for new games to share.\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t",
+        "inner_html": "<i class=\"icon-blue fa fa-fw fa-users\"></i>\n\t\t\t\t\t\t\t\t\t\t<div class=\"nav__row__summary\">\n\t\t\t\t\t\t\t\t\t\t\t<p class=\"nav__row__summary__name\">Community Wishlist</p>\n\t\t\t\t\t\t\t\t\t\t\t<p class=\"nav__row__summary__description\">Search for new games to share.</p>\n\t\t\t\t\t\t\t\t\t\t</div>"
+      },
+      {
+        "href": "https://www.steamgifts.com/",
+        "inner_text": "Giveaways",
+        "inner_html": "Giveaways"
+      },
+      {
+        "href": "https://www.steamgifts.com/discussions/deals",
+        "inner_text": "Deals",
+        "inner_html": "Deals"
+      },
+      {
+        "href": "https://www.steamgifts.com/discussions",
+        "inner_text": "Discussions",
+        "inner_html": "Discussions"
+      },
+      {
+        "href": "https://www.steamgifts.com/about/comment-formatting",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\tComment Formatting\n\t\t\t\t\t\t\t\t\t\t\tSyntax for writing comments.\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t",
+        "inner_html": "<i class=\"icon-red fa fa-fw fa-code\"></i>\n\t\t\t\t\t\t\t\t\t\t<div class=\"nav__row__summary\">\n\t\t\t\t\t\t\t\t\t\t\t<p class=\"nav__row__summary__name\">Comment Formatting</p>\n\t\t\t\t\t\t\t\t\t\t\t<p class=\"nav__row__summary__description\">Syntax for writing comments.</p>\n\t\t\t\t\t\t\t\t\t\t</div>"
+      },
+      {
+        "href": "https://www.steamgifts.com/about/faq",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\tFAQ\n\t\t\t\t\t\t\t\t\t\t\tFrequently asked questions.\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t",
+        "inner_html": "<i class=\"icon-grey fa fa-fw fa-question-circle\"></i>\n\t\t\t\t\t\t\t\t\t\t<div class=\"nav__row__summary\">\n\t\t\t\t\t\t\t\t\t\t\t<p class=\"nav__row__summary__name\">FAQ</p>\n\t\t\t\t\t\t\t\t\t\t\t<p class=\"nav__row__summary__description\">Frequently asked questions.</p>\n\t\t\t\t\t\t\t\t\t\t</div>"
+      },
+      {
+        "href": "https://www.steamgifts.com/about/guidelines",
+        "inner_text": "\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\tGuidelines\n\t\t\t\t\t\t\t\t\t\t\tCommunity rules and guidelines.\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t",
+        "inner_html": "<i class=\"icon-blue fa fa-fw fa-file-text-o\"></i>\n\t\t\t\t\t\t\t\t\t\t<div class=\"nav__row__summary\">\n\t\t\t\t\t\t\t\t\t\t\t<p class=\"nav__row__summary__name\">Guidelines</p>\n\t\t\t\t\t\t\t\t\t\t\t<p class=\"nav__row__summary__description\">Community rules and guidelines.</p>\n\t\t\t\t\t\t\t\t\t\t</div>"
+      },
+      {
+        "href": "https://www.steamgifts.com/?login",
+        "inner_text": " Sign in through STEAM",
+        "inner_html": "<i class=\"fa fa-steam\"></i> Sign in through STEAM"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaway/7wLvn/neoverse",
+        "inner_text": "",
+        "inner_html": "<img src=\"https://steamcdn-a.akamaihd.net/steam/apps/994220/header.jpg\">"
+      },
+      {
+        "href": "https://www.steamgifts.com/user/Sloon",
+        "inner_text": "Sloon",
+        "inner_html": "Sloon"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaways",
+        "inner_text": "All",
+        "inner_html": "<i class=\"fa fa-caret-right\"></i> \n\t\t\t\t\t\t\t\t\t<div class=\"sidebar__navigation__item__name\">All</div>\n\t\t\t\t\t\t\t\t\t<div class=\"sidebar__navigation__item__underline\"></div>"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaways/search?type=recommended",
+        "inner_text": "Recommended",
+        "inner_html": "<div class=\"sidebar__navigation__item__name\">Recommended</div>\n\t\t\t\t\t\t\t\t\t<div class=\"sidebar__navigation__item__underline\"></div>"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaways/search?copy_min=2",
+        "inner_text": "Multiple Copies",
+        "inner_html": "<div class=\"sidebar__navigation__item__name\">Multiple Copies</div>\n\t\t\t\t\t\t\t\t\t<div class=\"sidebar__navigation__item__underline\"></div>"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaways/search?dlc=true",
+        "inner_text": "DLC",
+        "inner_html": "<div class=\"sidebar__navigation__item__name\">DLC</div>\n\t\t\t\t\t\t\t\t\t<div class=\"sidebar__navigation__item__underline\"></div>"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaways/search?type=new",
+        "inner_text": "New",
+        "inner_html": "<div class=\"sidebar__navigation__item__name\">New</div>\n\t\t\t\t\t\t\t\t\t<div class=\"sidebar__navigation__item__underline\"></div>"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaway/5EPiF/the-last-deadend",
+        "inner_text": "The Last DeadEnd",
+        "inner_html": "The Last DeadEnd"
+      },
+      {
+        "href": "https://store.steampowered.com/app/843250/",
+        "inner_text": "",
+        "inner_html": "<i class=\"fa fa-fw fa-steam\"></i>"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaways/search?app=843250",
+        "inner_text": "",
+        "inner_html": "<i class=\"fa fa-fw fa-search\"></i>"
+      },
+      {
+        "href": "https://www.steamgifts.com/user/SoldierWithLaser",
+        "inner_text": "SoldierWithLaser",
+        "inner_html": "SoldierWithLaser"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaway/5EPiF/the-last-deadend/region-restrictions",
+        "inner_text": "",
+        "inner_html": "<i class=\"fa fa-fw fa-globe\"></i>"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaway/5EPiF/the-last-deadend/entries",
+        "inner_text": " 4,478 entries",
+        "inner_html": "<i class=\"fa fa-tag\"></i> <span>4,478 entries</span>"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaway/5EPiF/the-last-deadend/comments",
+        "inner_text": " 44 comments",
+        "inner_html": "<i class=\"fa fa-comment\"></i> <span>44 comments</span>"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaway/7srLp/1993-space-machine",
+        "inner_text": "1993 Space Machine",
+        "inner_html": "1993 Space Machine"
+      },
+      {
+        "href": "https://store.steampowered.com/app/373480/",
+        "inner_text": "",
+        "inner_html": "<i class=\"fa fa-fw fa-steam\"></i>"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaways/search?app=373480",
+        "inner_text": "",
+        "inner_html": "<i class=\"fa fa-fw fa-search\"></i>"
+      },
+      {
+        "href": "https://www.steamgifts.com/user/AngelStarStudios",
+        "inner_text": "AngelStarStudios",
+        "inner_html": "AngelStarStudios"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaway/7srLp/1993-space-machine/entries",
+        "inner_text": " 5,079 entries",
+        "inner_html": "<i class=\"fa fa-tag\"></i> <span>5,079 entries</span>"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaway/7srLp/1993-space-machine/comments",
+        "inner_text": " 49 comments",
+        "inner_html": "<i class=\"fa fa-comment\"></i> <span>49 comments</span>"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaway/xEh0H/nemo-dungeon",
+        "inner_text": "Nemo Dungeon",
+        "inner_html": "Nemo Dungeon"
+      },
+      {
+        "href": "https://store.steampowered.com/app/356820/",
+        "inner_text": "",
+        "inner_html": "<i class=\"fa fa-fw fa-steam\"></i>"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaways/search?app=356820",
+        "inner_text": "",
+        "inner_html": "<i class=\"fa fa-fw fa-search\"></i>"
+      },
+      {
+        "href": "https://www.steamgifts.com/user/RedPain",
+        "inner_text": "RedPain",
+        "inner_html": "RedPain"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaway/xEh0H/nemo-dungeon/entries",
+        "inner_text": " 5,685 entries",
+        "inner_html": "<i class=\"fa fa-tag\"></i> <span>5,685 entries</span>"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaway/xEh0H/nemo-dungeon/comments",
+        "inner_text": " 45 comments",
+        "inner_html": "<i class=\"fa fa-comment\"></i> <span>45 comments</span>"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaway/3h94A/just-arms",
+        "inner_text": "Just Arms",
+        "inner_html": "Just Arms"
+      },
+      {
+        "href": "https://store.steampowered.com/app/1215750/",
+        "inner_text": "",
+        "inner_html": "<i class=\"fa fa-fw fa-steam\"></i>"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaways/search?app=1215750",
+        "inner_text": "",
+        "inner_html": "<i class=\"fa fa-fw fa-search\"></i>"
+      },
+      {
+        "href": "https://www.steamgifts.com/user/Zynthetikk",
+        "inner_text": "Zynthetikk",
+        "inner_html": "Zynthetikk"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaway/3h94A/just-arms/entries",
+        "inner_text": " 6,312 entries",
+        "inner_html": "<i class=\"fa fa-tag\"></i> <span>6,312 entries</span>"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaway/3h94A/just-arms/comments",
+        "inner_text": " 44 comments",
+        "inner_html": "<i class=\"fa fa-comment\"></i> <span>44 comments</span>"
+      },
+      {
+        "href": "https://store.steampowered.com/app/994220/",
+        "inner_text": "",
+        "inner_html": "<i class=\"fa fa-fw fa-steam\"></i>"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaways/search?app=994220",
+        "inner_text": "",
+        "inner_html": "<i class=\"fa fa-fw fa-search\"></i>"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaway/7wLvn/neoverse/entries",
+        "inner_text": " 325 entries",
+        "inner_html": "<i class=\"fa fa-tag\"></i> <span>325 entries</span>"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaway/7wLvn/neoverse/comments",
+        "inner_text": " 0 comments",
+        "inner_html": "<i class=\"fa fa-comment\"></i> <span>0 comments</span>"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaway/CKSmG/death-squared",
+        "inner_text": "Death Squared",
+        "inner_html": "Death Squared"
+      },
+      {
+        "href": "https://store.steampowered.com/app/471810/",
+        "inner_text": "",
+        "inner_html": "<i class=\"fa fa-fw fa-steam\"></i>"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaways/search?app=471810",
+        "inner_text": "",
+        "inner_html": "<i class=\"fa fa-fw fa-search\"></i>"
+      },
+      {
+        "href": "https://www.steamgifts.com/user/burntreynolds444",
+        "inner_text": "burntreynolds444",
+        "inner_html": "burntreynolds444"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaway/CKSmG/death-squared/entries",
+        "inner_text": " 553 entries",
+        "inner_html": "<i class=\"fa fa-tag\"></i> <span>553 entries</span>"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaway/CKSmG/death-squared/comments",
+        "inner_text": " 1 comment",
+        "inner_html": "<i class=\"fa fa-comment\"></i> <span>1 comment</span>"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaway/Ntvkx/m1-soundtrack",
+        "inner_text": "M1 Soundtrack",
+        "inner_html": "M1 Soundtrack"
+      },
+      {
+        "href": "https://store.steampowered.com/app/677360/",
+        "inner_text": "",
+        "inner_html": "<i class=\"fa fa-fw fa-steam\"></i>"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaways/search?app=677360",
+        "inner_text": "",
+        "inner_html": "<i class=\"fa fa-fw fa-search\"></i>"
+      },
+      {
+        "href": "https://www.steamgifts.com/user/Vlad9561",
+        "inner_text": "Vlad9561",
+        "inner_html": "Vlad9561"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaway/Ntvkx/m1-soundtrack/entries",
+        "inner_text": " 8 entries",
+        "inner_html": "<i class=\"fa fa-tag\"></i> <span>8 entries</span>"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaway/Ntvkx/m1-soundtrack/comments",
+        "inner_text": " 0 comments",
+        "inner_html": "<i class=\"fa fa-comment\"></i> <span>0 comments</span>"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaway/yT5Ff/among-us",
+        "inner_text": "Among Us",
+        "inner_html": "Among Us"
+      },
+      {
+        "href": "https://store.steampowered.com/app/945360/",
+        "inner_text": "",
+        "inner_html": "<i class=\"fa fa-fw fa-steam\"></i>"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaways/search?app=945360",
+        "inner_text": "",
+        "inner_html": "<i class=\"fa fa-fw fa-search\"></i>"
+      },
+      {
+        "href": "https://www.steamgifts.com/user/Lasko420xo",
+        "inner_text": "Lasko420xo",
+        "inner_html": "Lasko420xo"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaway/yT5Ff/among-us/entries",
+        "inner_text": " 6,036 entries",
+        "inner_html": "<i class=\"fa fa-tag\"></i> <span>6,036 entries</span>"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaway/yT5Ff/among-us/comments",
+        "inner_text": " 49 comments",
+        "inner_html": "<i class=\"fa fa-comment\"></i> <span>49 comments</span>"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaway/YSU2y/dwarfs",
+        "inner_text": "Dwarfs!?",
+        "inner_html": "Dwarfs!?"
+      },
+      {
+        "href": "https://store.steampowered.com/app/35480/",
+        "inner_text": "",
+        "inner_html": "<i class=\"fa fa-fw fa-steam\"></i>"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaways/search?app=35480",
+        "inner_text": "",
+        "inner_html": "<i class=\"fa fa-fw fa-search\"></i>"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaway/YSU2y/dwarfs/entries",
+        "inner_text": " 273 entries",
+        "inner_html": "<i class=\"fa fa-tag\"></i> <span>273 entries</span>"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaway/YSU2y/dwarfs/comments",
+        "inner_text": " 1 comment",
+        "inner_html": "<i class=\"fa fa-comment\"></i> <span>1 comment</span>"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaway/88hlI/delicious-pretty-girls-mahjong-solitaire",
+        "inner_text": "Delicious! Pretty Girls Mahjong Solit...",
+        "inner_html": "Delicious! Pretty Girls Mahjong Solit..."
+      },
+      {
+        "href": "https://store.steampowered.com/app/540610/",
+        "inner_text": "",
+        "inner_html": "<i class=\"fa fa-fw fa-steam\"></i>"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaways/search?app=540610",
+        "inner_text": "",
+        "inner_html": "<i class=\"fa fa-fw fa-search\"></i>"
+      },
+      {
+        "href": "https://www.steamgifts.com/user/a20742164",
+        "inner_text": "a20742164",
+        "inner_html": "a20742164"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaway/88hlI/delicious-pretty-girls-mahjong-solitaire/entries",
+        "inner_text": " 62 entries",
+        "inner_html": "<i class=\"fa fa-tag\"></i> <span>62 entries</span>"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaway/88hlI/delicious-pretty-girls-mahjong-solitaire/comments",
+        "inner_text": " 0 comments",
+        "inner_html": "<i class=\"fa fa-comment\"></i> <span>0 comments</span>"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaway/IC2aC/xiii-century-gold-edition",
+        "inner_text": "XIII Century – Gold Edition",
+        "inner_html": "XIII Century – Gold Edition"
+      },
+      {
+        "href": "https://store.steampowered.com/app/34420/",
+        "inner_text": "",
+        "inner_html": "<i class=\"fa fa-fw fa-steam\"></i>"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaways/search?app=34420",
+        "inner_text": "",
+        "inner_html": "<i class=\"fa fa-fw fa-search\"></i>"
+      },
+      {
+        "href": "https://www.steamgifts.com/user/Rockta",
+        "inner_text": "Rockta",
+        "inner_html": "Rockta"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaway/IC2aC/xiii-century-gold-edition/entries",
+        "inner_text": " 1,209 entries",
+        "inner_html": "<i class=\"fa fa-tag\"></i> <span>1,209 entries</span>"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaway/IC2aC/xiii-century-gold-edition/comments",
+        "inner_text": " 9 comments",
+        "inner_html": "<i class=\"fa fa-comment\"></i> <span>9 comments</span>"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaway/WspY8/renoir",
+        "inner_text": "Renoir",
+        "inner_html": "Renoir"
+      },
+      {
+        "href": "https://store.steampowered.com/app/496400/",
+        "inner_text": "",
+        "inner_html": "<i class=\"fa fa-fw fa-steam\"></i>"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaways/search?app=496400",
+        "inner_text": "",
+        "inner_html": "<i class=\"fa fa-fw fa-search\"></i>"
+      },
+      {
+        "href": "https://www.steamgifts.com/user/CharlesNonsens",
+        "inner_text": "CharlesNonsens",
+        "inner_html": "CharlesNonsens"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaway/WspY8/renoir/entries",
+        "inner_text": " 1,300 entries",
+        "inner_html": "<i class=\"fa fa-tag\"></i> <span>1,300 entries</span>"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaway/WspY8/renoir/comments",
+        "inner_text": " 7 comments",
+        "inner_html": "<i class=\"fa fa-comment\"></i> <span>7 comments</span>"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaway/vkfrt/streets-of-fury-ex",
+        "inner_text": "Streets of Fury EX",
+        "inner_html": "Streets of Fury EX"
+      },
+      {
+        "href": "https://store.steampowered.com/app/350910/",
+        "inner_text": "",
+        "inner_html": "<i class=\"fa fa-fw fa-steam\"></i>"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaways/search?app=350910",
+        "inner_text": "",
+        "inner_html": "<i class=\"fa fa-fw fa-search\"></i>"
+      },
+      {
+        "href": "https://www.steamgifts.com/user/nnisht",
+        "inner_text": "nnisht",
+        "inner_html": "nnisht"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaway/vkfrt/streets-of-fury-ex/entries",
+        "inner_text": " 995 entries",
+        "inner_html": "<i class=\"fa fa-tag\"></i> <span>995 entries</span>"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaway/vkfrt/streets-of-fury-ex/comments",
+        "inner_text": " 6 comments",
+        "inner_html": "<i class=\"fa fa-comment\"></i> <span>6 comments</span>"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaway/3ywav/the-walking-dead-a-new-frontier",
+        "inner_text": "The Walking Dead: A New Frontier",
+        "inner_html": "The Walking Dead: A New Frontier"
+      },
+      {
+        "href": "https://store.steampowered.com/app/536220/",
+        "inner_text": "",
+        "inner_html": "<i class=\"fa fa-fw fa-steam\"></i>"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaways/search?app=536220",
+        "inner_text": "",
+        "inner_html": "<i class=\"fa fa-fw fa-search\"></i>"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaway/3ywav/the-walking-dead-a-new-frontier/entries",
+        "inner_text": " 3,217 entries",
+        "inner_html": "<i class=\"fa fa-tag\"></i> <span>3,217 entries</span>"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaway/3ywav/the-walking-dead-a-new-frontier/comments",
+        "inner_text": " 23 comments",
+        "inner_html": "<i class=\"fa fa-comment\"></i> <span>23 comments</span>"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaway/nOBRb/kings-bounty-armored-princess",
+        "inner_text": "King's Bounty: Armored Princess",
+        "inner_html": "King's Bounty: Armored Princess"
+      },
+      {
+        "href": "https://store.steampowered.com/app/3170/",
+        "inner_text": "",
+        "inner_html": "<i class=\"fa fa-fw fa-steam\"></i>"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaways/search?app=3170",
+        "inner_text": "",
+        "inner_html": "<i class=\"fa fa-fw fa-search\"></i>"
+      },
+      {
+        "href": "https://www.steamgifts.com/user/Pe11men",
+        "inner_text": "Pe11men",
+        "inner_html": "Pe11men"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaway/nOBRb/kings-bounty-armored-princess/entries",
+        "inner_text": " 1,401 entries",
+        "inner_html": "<i class=\"fa fa-tag\"></i> <span>1,401 entries</span>"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaway/nOBRb/kings-bounty-armored-princess/comments",
+        "inner_text": " 9 comments",
+        "inner_html": "<i class=\"fa fa-comment\"></i> <span>9 comments</span>"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaway/ejCN4/tales-of-zestiria",
+        "inner_text": "Tales of Zestiria",
+        "inner_html": "Tales of Zestiria"
+      },
+      {
+        "href": "https://store.steampowered.com/app/351970/",
+        "inner_text": "",
+        "inner_html": "<i class=\"fa fa-fw fa-steam\"></i>"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaways/search?app=351970",
+        "inner_text": "",
+        "inner_html": "<i class=\"fa fa-fw fa-search\"></i>"
+      },
+      {
+        "href": "https://www.steamgifts.com/user/MrHutz",
+        "inner_text": "MrHutz",
+        "inner_html": "MrHutz"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaway/ejCN4/tales-of-zestiria/region-restrictions",
+        "inner_text": "",
+        "inner_html": "<i class=\"fa fa-fw fa-globe\"></i>"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaway/ejCN4/tales-of-zestiria/entries",
+        "inner_text": " 1,224 entries",
+        "inner_html": "<i class=\"fa fa-tag\"></i> <span>1,224 entries</span>"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaway/ejCN4/tales-of-zestiria/comments",
+        "inner_text": " 1 comment",
+        "inner_html": "<i class=\"fa fa-comment\"></i> <span>1 comment</span>"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaway/Tx3hz/tales-of-berseria",
+        "inner_text": "Tales of Berseria™",
+        "inner_html": "Tales of Berseria™"
+      },
+      {
+        "href": "https://store.steampowered.com/app/429660/",
+        "inner_text": "",
+        "inner_html": "<i class=\"fa fa-fw fa-steam\"></i>"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaways/search?app=429660",
+        "inner_text": "",
+        "inner_html": "<i class=\"fa fa-fw fa-search\"></i>"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaway/Tx3hz/tales-of-berseria/region-restrictions",
+        "inner_text": "",
+        "inner_html": "<i class=\"fa fa-fw fa-globe\"></i>"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaway/Tx3hz/tales-of-berseria/entries",
+        "inner_text": " 1,040 entries",
+        "inner_html": "<i class=\"fa fa-tag\"></i> <span>1,040 entries</span>"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaway/Tx3hz/tales-of-berseria/comments",
+        "inner_text": " 5 comments",
+        "inner_html": "<i class=\"fa fa-comment\"></i> <span>5 comments</span>"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaway/GHLwb/tekken-7",
+        "inner_text": "TEKKEN 7",
+        "inner_html": "TEKKEN 7"
+      },
+      {
+        "href": "https://store.steampowered.com/app/389730/",
+        "inner_text": "",
+        "inner_html": "<i class=\"fa fa-fw fa-steam\"></i>"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaways/search?app=389730",
+        "inner_text": "",
+        "inner_html": "<i class=\"fa fa-fw fa-search\"></i>"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaway/GHLwb/tekken-7/region-restrictions",
+        "inner_text": "",
+        "inner_html": "<i class=\"fa fa-fw fa-globe\"></i>"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaway/GHLwb/tekken-7/entries",
+        "inner_text": " 1,670 entries",
+        "inner_html": "<i class=\"fa fa-tag\"></i> <span>1,670 entries</span>"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaway/GHLwb/tekken-7/comments",
+        "inner_text": " 11 comments",
+        "inner_html": "<i class=\"fa fa-comment\"></i> <span>11 comments</span>"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaway/EL5v3/learn-japanese-to-survive-katakana-war",
+        "inner_text": "Learn Japanese To Survive! Katakana War",
+        "inner_html": "Learn Japanese To Survive! Katakana War"
+      },
+      {
+        "href": "https://store.steampowered.com/app/554600/",
+        "inner_text": "",
+        "inner_html": "<i class=\"fa fa-fw fa-steam\"></i>"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaways/search?app=554600",
+        "inner_text": "",
+        "inner_html": "<i class=\"fa fa-fw fa-search\"></i>"
+      },
+      {
+        "href": "https://www.steamgifts.com/user/CupcakeDollykins",
+        "inner_text": "CupcakeDollykins",
+        "inner_html": "CupcakeDollykins"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaway/EL5v3/learn-japanese-to-survive-katakana-war/entries",
+        "inner_text": " 375 entries",
+        "inner_html": "<i class=\"fa fa-tag\"></i> <span>375 entries</span>"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaway/EL5v3/learn-japanese-to-survive-katakana-war/comments",
+        "inner_text": " 1 comment",
+        "inner_html": "<i class=\"fa fa-comment\"></i> <span>1 comment</span>"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaway/s37uM/project-remedium",
+        "inner_text": "Project Remedium",
+        "inner_html": "Project Remedium"
+      },
+      {
+        "href": "https://store.steampowered.com/app/475090/",
+        "inner_text": "",
+        "inner_html": "<i class=\"fa fa-fw fa-steam\"></i>"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaways/search?app=475090",
+        "inner_text": "",
+        "inner_html": "<i class=\"fa fa-fw fa-search\"></i>"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaway/s37uM/project-remedium/entries",
+        "inner_text": " 320 entries",
+        "inner_html": "<i class=\"fa fa-tag\"></i> <span>320 entries</span>"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaway/s37uM/project-remedium/comments",
+        "inner_text": " 1 comment",
+        "inner_html": "<i class=\"fa fa-comment\"></i> <span>1 comment</span>"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaway/5g2mq/hacker-evolution-duality-hardcore-package-part-1-dlc",
+        "inner_text": "Hacker Evolution Duality: Hardcore Pa...",
+        "inner_html": "Hacker Evolution Duality: Hardcore Pa..."
+      },
+      {
+        "href": "https://store.steampowered.com/app/241950/",
+        "inner_text": "",
+        "inner_html": "<i class=\"fa fa-fw fa-steam\"></i>"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaways/search?app=241950",
+        "inner_text": "",
+        "inner_html": "<i class=\"fa fa-fw fa-search\"></i>"
+      },
+      {
+        "href": "https://www.steamgifts.com/user/meandley",
+        "inner_text": "meandley",
+        "inner_html": "meandley"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaway/5g2mq/hacker-evolution-duality-hardcore-package-part-1-dlc/entries",
+        "inner_text": " 225 entries",
+        "inner_html": "<i class=\"fa fa-tag\"></i> <span>225 entries</span>"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaway/5g2mq/hacker-evolution-duality-hardcore-package-part-1-dlc/comments",
+        "inner_text": " 0 comments",
+        "inner_html": "<i class=\"fa fa-comment\"></i> <span>0 comments</span>"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaway/TGIZz/alien-rage-unlimited",
+        "inner_text": "Alien Rage - Unlimited",
+        "inner_html": "Alien Rage - Unlimited"
+      },
+      {
+        "href": "https://store.steampowered.com/app/217920/",
+        "inner_text": "",
+        "inner_html": "<i class=\"fa fa-fw fa-steam\"></i>"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaways/search?app=217920",
+        "inner_text": "",
+        "inner_html": "<i class=\"fa fa-fw fa-search\"></i>"
+      },
+      {
+        "href": "https://www.steamgifts.com/user/VSR",
+        "inner_text": "VSR",
+        "inner_html": "VSR"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaway/TGIZz/alien-rage-unlimited/entries",
+        "inner_text": " 1,034 entries",
+        "inner_html": "<i class=\"fa fa-tag\"></i> <span>1,034 entries</span>"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaway/TGIZz/alien-rage-unlimited/comments",
+        "inner_text": " 8 comments",
+        "inner_html": "<i class=\"fa fa-comment\"></i> <span>8 comments</span>"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaway/AqcA5/pc-building-simulator",
+        "inner_text": "PC Building Simulator",
+        "inner_html": "PC Building Simulator"
+      },
+      {
+        "href": "https://store.steampowered.com/app/621060/",
+        "inner_text": "",
+        "inner_html": "<i class=\"fa fa-fw fa-steam\"></i>"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaways/search?app=621060",
+        "inner_text": "",
+        "inner_html": "<i class=\"fa fa-fw fa-search\"></i>"
+      },
+      {
+        "href": "https://www.steamgifts.com/user/SmittenPie",
+        "inner_text": "SmittenPie",
+        "inner_html": "SmittenPie"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaway/AqcA5/pc-building-simulator/entries",
+        "inner_text": " 2,844 entries",
+        "inner_html": "<i class=\"fa fa-tag\"></i> <span>2,844 entries</span>"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaway/AqcA5/pc-building-simulator/comments",
+        "inner_text": " 25 comments",
+        "inner_html": "<i class=\"fa fa-comment\"></i> <span>25 comments</span>"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaway/pzvpn/zombie-driver-hd-complete-edition",
+        "inner_text": "Zombie Driver HD Complete Edition",
+        "inner_html": "Zombie Driver HD Complete Edition"
+      },
+      {
+        "href": "https://store.steampowered.com/sub/48344/",
+        "inner_text": "",
+        "inner_html": "<i class=\"fa fa-fw fa-steam\"></i>"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaways/search?sub=48344",
+        "inner_text": "",
+        "inner_html": "<i class=\"fa fa-fw fa-search\"></i>"
+      },
+      {
+        "href": "https://www.steamgifts.com/user/titi59",
+        "inner_text": "titi59",
+        "inner_html": "titi59"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaway/pzvpn/zombie-driver-hd-complete-edition/entries",
+        "inner_text": " 92 entries",
+        "inner_html": "<i class=\"fa fa-tag\"></i> <span>92 entries</span>"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaway/pzvpn/zombie-driver-hd-complete-edition/comments",
+        "inner_text": " 1 comment",
+        "inner_html": "<i class=\"fa fa-comment\"></i> <span>1 comment</span>"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaway/ZxF83/katamari-damacy-reroll",
+        "inner_text": "Katamari Damacy REROLL",
+        "inner_html": "Katamari Damacy REROLL"
+      },
+      {
+        "href": "https://store.steampowered.com/app/848350/",
+        "inner_text": "",
+        "inner_html": "<i class=\"fa fa-fw fa-steam\"></i>"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaways/search?app=848350",
+        "inner_text": "",
+        "inner_html": "<i class=\"fa fa-fw fa-search\"></i>"
+      },
+      {
+        "href": "https://www.steamgifts.com/user/zasso",
+        "inner_text": "zasso",
+        "inner_html": "zasso"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaway/ZxF83/katamari-damacy-reroll/region-restrictions",
+        "inner_text": "",
+        "inner_html": "<i class=\"fa fa-fw fa-globe\"></i>"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaway/ZxF83/katamari-damacy-reroll/entries",
+        "inner_text": " 1,055 entries",
+        "inner_html": "<i class=\"fa fa-tag\"></i> <span>1,055 entries</span>"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaway/ZxF83/katamari-damacy-reroll/comments",
+        "inner_text": " 11 comments",
+        "inner_html": "<i class=\"fa fa-comment\"></i> <span>11 comments</span>"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaway/o0mvX/catherine-classic",
+        "inner_text": "Catherine Classic",
+        "inner_html": "Catherine Classic"
+      },
+      {
+        "href": "https://store.steampowered.com/app/893180/",
+        "inner_text": "",
+        "inner_html": "<i class=\"fa fa-fw fa-steam\"></i>"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaways/search?app=893180",
+        "inner_text": "",
+        "inner_html": "<i class=\"fa fa-fw fa-search\"></i>"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaway/o0mvX/catherine-classic/entries",
+        "inner_text": " 4,331 entries",
+        "inner_html": "<i class=\"fa fa-tag\"></i> <span>4,331 entries</span>"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaway/o0mvX/catherine-classic/comments",
+        "inner_text": " 43 comments",
+        "inner_html": "<i class=\"fa fa-comment\"></i> <span>43 comments</span>"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaway/OwQRZ/navalny-a-nightmare-of-corrupt",
+        "inner_text": "NAVALNY: A Nightmare of Corrupt",
+        "inner_html": "NAVALNY: A Nightmare of Corrupt"
+      },
+      {
+        "href": "https://store.steampowered.com/app/1154570/",
+        "inner_text": "",
+        "inner_html": "<i class=\"fa fa-fw fa-steam\"></i>"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaways/search?app=1154570",
+        "inner_text": "",
+        "inner_html": "<i class=\"fa fa-fw fa-search\"></i>"
+      },
+      {
+        "href": "https://www.steamgifts.com/user/zoro182",
+        "inner_text": "zoro182",
+        "inner_html": "zoro182"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaway/OwQRZ/navalny-a-nightmare-of-corrupt/entries",
+        "inner_text": " 776 entries",
+        "inner_html": "<i class=\"fa fa-tag\"></i> <span>776 entries</span>"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaway/OwQRZ/navalny-a-nightmare-of-corrupt/comments",
+        "inner_text": " 7 comments",
+        "inner_html": "<i class=\"fa fa-comment\"></i> <span>7 comments</span>"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaway/DvYRv/botology-map-targul-for-survival-mode",
+        "inner_text": "Botology - Map \"Targul\" for Survival ...",
+        "inner_html": "Botology - Map \"Targul\" for Survival ..."
+      },
+      {
+        "href": "https://store.steampowered.com/app/388670/",
+        "inner_text": "",
+        "inner_html": "<i class=\"fa fa-fw fa-steam\"></i>"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaways/search?app=388670",
+        "inner_text": "",
+        "inner_html": "<i class=\"fa fa-fw fa-search\"></i>"
+      },
+      {
+        "href": "https://www.steamgifts.com/user/Abstinenzler",
+        "inner_text": "Abstinenzler",
+        "inner_html": "Abstinenzler"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaway/DvYRv/botology-map-targul-for-survival-mode/entries",
+        "inner_text": " 151 entries",
+        "inner_html": "<i class=\"fa fa-tag\"></i> <span>151 entries</span>"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaway/DvYRv/botology-map-targul-for-survival-mode/comments",
+        "inner_text": " 0 comments",
+        "inner_html": "<i class=\"fa fa-comment\"></i> <span>0 comments</span>"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaway/10bH3/sid-meiers-civilization-v",
+        "inner_text": "Sid Meier's Civilization® V",
+        "inner_html": "Sid Meier's Civilization® V"
+      },
+      {
+        "href": "https://store.steampowered.com/app/8930/",
+        "inner_text": "",
+        "inner_html": "<i class=\"fa fa-fw fa-steam\"></i>"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaways/search?app=8930",
+        "inner_text": "",
+        "inner_html": "<i class=\"fa fa-fw fa-search\"></i>"
+      },
+      {
+        "href": "https://www.steamgifts.com/user/superfluffy",
+        "inner_text": "superfluffy",
+        "inner_html": "superfluffy"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaway/10bH3/sid-meiers-civilization-v/entries",
+        "inner_text": " 3,069 entries",
+        "inner_html": "<i class=\"fa fa-tag\"></i> <span>3,069 entries</span>"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaway/10bH3/sid-meiers-civilization-v/comments",
+        "inner_text": " 27 comments",
+        "inner_html": "<i class=\"fa fa-comment\"></i> <span>27 comments</span>"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaway/892he/family-man",
+        "inner_text": "Family Man",
+        "inner_html": "Family Man"
+      },
+      {
+        "href": "https://store.steampowered.com/app/904360/",
+        "inner_text": "",
+        "inner_html": "<i class=\"fa fa-fw fa-steam\"></i>"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaways/search?app=904360",
+        "inner_text": "",
+        "inner_html": "<i class=\"fa fa-fw fa-search\"></i>"
+      },
+      {
+        "href": "https://www.steamgifts.com/user/TheGnomeCatcher",
+        "inner_text": "TheGnomeCatcher",
+        "inner_html": "TheGnomeCatcher"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaway/892he/family-man/entries",
+        "inner_text": " 721 entries",
+        "inner_html": "<i class=\"fa fa-tag\"></i> <span>721 entries</span>"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaway/892he/family-man/comments",
+        "inner_text": " 6 comments",
+        "inner_html": "<i class=\"fa fa-comment\"></i> <span>6 comments</span>"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaway/eaSTd/into-the-breach",
+        "inner_text": "Into the Breach",
+        "inner_html": "Into the Breach"
+      },
+      {
+        "href": "https://store.steampowered.com/app/590380/",
+        "inner_text": "",
+        "inner_html": "<i class=\"fa fa-fw fa-steam\"></i>"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaways/search?app=590380",
+        "inner_text": "",
+        "inner_html": "<i class=\"fa fa-fw fa-search\"></i>"
+      },
+      {
+        "href": "https://www.steamgifts.com/user/Jmano",
+        "inner_text": "Jmano",
+        "inner_html": "Jmano"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaway/eaSTd/into-the-breach/entries",
+        "inner_text": " 3,492 entries",
+        "inner_html": "<i class=\"fa fa-tag\"></i> <span>3,492 entries</span>"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaway/eaSTd/into-the-breach/comments",
+        "inner_text": " 16 comments",
+        "inner_html": "<i class=\"fa fa-comment\"></i> <span>16 comments</span>"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaway/XrWZN/baba-is-you",
+        "inner_text": "Baba Is You",
+        "inner_html": "Baba Is You"
+      },
+      {
+        "href": "https://store.steampowered.com/app/736260/",
+        "inner_text": "",
+        "inner_html": "<i class=\"fa fa-fw fa-steam\"></i>"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaways/search?app=736260",
+        "inner_text": "",
+        "inner_html": "<i class=\"fa fa-fw fa-search\"></i>"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaway/XrWZN/baba-is-you/entries",
+        "inner_text": " 3,642 entries",
+        "inner_html": "<i class=\"fa fa-tag\"></i> <span>3,642 entries</span>"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaway/XrWZN/baba-is-you/comments",
+        "inner_text": " 24 comments",
+        "inner_html": "<i class=\"fa fa-comment\"></i> <span>24 comments</span>"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaway/CvrZ5/bioshock-remastered",
+        "inner_text": "BioShock™ Remastered",
+        "inner_html": "BioShock™ Remastered"
+      },
+      {
+        "href": "https://store.steampowered.com/app/409710/",
+        "inner_text": "",
+        "inner_html": "<i class=\"fa fa-fw fa-steam\"></i>"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaways/search?app=409710",
+        "inner_text": "",
+        "inner_html": "<i class=\"fa fa-fw fa-search\"></i>"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaway/CvrZ5/bioshock-remastered/entries",
+        "inner_text": " 1,996 entries",
+        "inner_html": "<i class=\"fa fa-tag\"></i> <span>1,996 entries</span>"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaway/CvrZ5/bioshock-remastered/comments",
+        "inner_text": " 15 comments",
+        "inner_html": "<i class=\"fa fa-comment\"></i> <span>15 comments</span>"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaway/9UDxD/euro-truck-simulator-2",
+        "inner_text": "Euro Truck Simulator 2",
+        "inner_html": "Euro Truck Simulator 2"
+      },
+      {
+        "href": "https://store.steampowered.com/app/227300/",
+        "inner_text": "",
+        "inner_html": "<i class=\"fa fa-fw fa-steam\"></i>"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaways/search?app=227300",
+        "inner_text": "",
+        "inner_html": "<i class=\"fa fa-fw fa-search\"></i>"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaway/9UDxD/euro-truck-simulator-2/entries",
+        "inner_text": " 2,056 entries",
+        "inner_html": "<i class=\"fa fa-tag\"></i> <span>2,056 entries</span>"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaway/9UDxD/euro-truck-simulator-2/comments",
+        "inner_text": " 14 comments",
+        "inner_html": "<i class=\"fa fa-comment\"></i> <span>14 comments</span>"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaway/o45QB/undertale",
+        "inner_text": "Undertale",
+        "inner_html": "Undertale"
+      },
+      {
+        "href": "https://store.steampowered.com/app/391540/",
+        "inner_text": "",
+        "inner_html": "<i class=\"fa fa-fw fa-steam\"></i>"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaways/search?app=391540",
+        "inner_text": "",
+        "inner_html": "<i class=\"fa fa-fw fa-search\"></i>"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaway/o45QB/undertale/entries",
+        "inner_text": " 3,411 entries",
+        "inner_html": "<i class=\"fa fa-tag\"></i> <span>3,411 entries</span>"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaway/o45QB/undertale/comments",
+        "inner_text": " 25 comments",
+        "inner_html": "<i class=\"fa fa-comment\"></i> <span>25 comments</span>"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaway/6nRJC/tooth-and-tail",
+        "inner_text": "Tooth and Tail",
+        "inner_html": "Tooth and Tail"
+      },
+      {
+        "href": "https://store.steampowered.com/app/286000/",
+        "inner_text": "",
+        "inner_html": "<i class=\"fa fa-fw fa-steam\"></i>"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaways/search?app=286000",
+        "inner_text": "",
+        "inner_html": "<i class=\"fa fa-fw fa-search\"></i>"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaway/6nRJC/tooth-and-tail/entries",
+        "inner_text": " 1,847 entries",
+        "inner_html": "<i class=\"fa fa-tag\"></i> <span>1,847 entries</span>"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaway/6nRJC/tooth-and-tail/comments",
+        "inner_text": " 5 comments",
+        "inner_html": "<i class=\"fa fa-comment\"></i> <span>5 comments</span>"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaway/Z294G/the-witness",
+        "inner_text": "The Witness",
+        "inner_html": "The Witness"
+      },
+      {
+        "href": "https://store.steampowered.com/app/210970/",
+        "inner_text": "",
+        "inner_html": "<i class=\"fa fa-fw fa-steam\"></i>"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaways/search?app=210970",
+        "inner_text": "",
+        "inner_html": "<i class=\"fa fa-fw fa-search\"></i>"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaway/Z294G/the-witness/entries",
+        "inner_text": " 2,351 entries",
+        "inner_html": "<i class=\"fa fa-tag\"></i> <span>2,351 entries</span>"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaway/Z294G/the-witness/comments",
+        "inner_text": " 9 comments",
+        "inner_html": "<i class=\"fa fa-comment\"></i> <span>9 comments</span>"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaway/LNm0S/this-war-of-mine",
+        "inner_text": "This War of Mine",
+        "inner_html": "This War of Mine"
+      },
+      {
+        "href": "https://store.steampowered.com/app/282070/",
+        "inner_text": "",
+        "inner_html": "<i class=\"fa fa-fw fa-steam\"></i>"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaways/search?app=282070",
+        "inner_text": "",
+        "inner_html": "<i class=\"fa fa-fw fa-search\"></i>"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaway/LNm0S/this-war-of-mine/entries",
+        "inner_text": " 1,949 entries",
+        "inner_html": "<i class=\"fa fa-tag\"></i> <span>1,949 entries</span>"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaway/LNm0S/this-war-of-mine/comments",
+        "inner_text": " 12 comments",
+        "inner_html": "<i class=\"fa fa-comment\"></i> <span>12 comments</span>"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaway/eAOYl/titan-quest-anniversary-edition",
+        "inner_text": "Titan Quest Anniversary Edition",
+        "inner_html": "Titan Quest Anniversary Edition"
+      },
+      {
+        "href": "https://store.steampowered.com/app/475150/",
+        "inner_text": "",
+        "inner_html": "<i class=\"fa fa-fw fa-steam\"></i>"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaways/search?app=475150",
+        "inner_text": "",
+        "inner_html": "<i class=\"fa fa-fw fa-search\"></i>"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaway/eAOYl/titan-quest-anniversary-edition/entries",
+        "inner_text": " 1,624 entries",
+        "inner_html": "<i class=\"fa fa-tag\"></i> <span>1,624 entries</span>"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaway/eAOYl/titan-quest-anniversary-edition/comments",
+        "inner_text": " 6 comments",
+        "inner_html": "<i class=\"fa fa-comment\"></i> <span>6 comments</span>"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaway/QKokp/superhot",
+        "inner_text": "SUPERHOT",
+        "inner_html": "SUPERHOT"
+      },
+      {
+        "href": "https://store.steampowered.com/app/322500/",
+        "inner_text": "",
+        "inner_html": "<i class=\"fa fa-fw fa-steam\"></i>"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaways/search?app=322500",
+        "inner_text": "",
+        "inner_html": "<i class=\"fa fa-fw fa-search\"></i>"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaway/QKokp/superhot/entries",
+        "inner_text": " 2,310 entries",
+        "inner_html": "<i class=\"fa fa-tag\"></i> <span>2,310 entries</span>"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaway/QKokp/superhot/comments",
+        "inner_text": " 16 comments",
+        "inner_html": "<i class=\"fa fa-comment\"></i> <span>16 comments</span>"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaway/tlZOR/portal-knights",
+        "inner_text": "Portal Knights",
+        "inner_html": "Portal Knights"
+      },
+      {
+        "href": "https://store.steampowered.com/app/374040/",
+        "inner_text": "",
+        "inner_html": "<i class=\"fa fa-fw fa-steam\"></i>"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaways/search?app=374040",
+        "inner_text": "",
+        "inner_html": "<i class=\"fa fa-fw fa-search\"></i>"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaway/tlZOR/portal-knights/entries",
+        "inner_text": " 1,342 entries",
+        "inner_html": "<i class=\"fa fa-tag\"></i> <span>1,342 entries</span>"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaway/tlZOR/portal-knights/comments",
+        "inner_text": " 6 comments",
+        "inner_html": "<i class=\"fa fa-comment\"></i> <span>6 comments</span>"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaway/vF6KO/wargroove",
+        "inner_text": "Wargroove",
+        "inner_html": "Wargroove"
+      },
+      {
+        "href": "https://store.steampowered.com/app/607050/",
+        "inner_text": "",
+        "inner_html": "<i class=\"fa fa-fw fa-steam\"></i>"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaways/search?app=607050",
+        "inner_text": "",
+        "inner_html": "<i class=\"fa fa-fw fa-search\"></i>"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaway/vF6KO/wargroove/entries",
+        "inner_text": " 1,818 entries",
+        "inner_html": "<i class=\"fa fa-tag\"></i> <span>1,818 entries</span>"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaway/vF6KO/wargroove/comments",
+        "inner_text": " 8 comments",
+        "inner_html": "<i class=\"fa fa-comment\"></i> <span>8 comments</span>"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaway/NPHQQ/brutal-legend",
+        "inner_text": "Brutal Legend",
+        "inner_html": "Brutal Legend"
+      },
+      {
+        "href": "https://store.steampowered.com/app/225260/",
+        "inner_text": "",
+        "inner_html": "<i class=\"fa fa-fw fa-steam\"></i>"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaways/search?app=225260",
+        "inner_text": "",
+        "inner_html": "<i class=\"fa fa-fw fa-search\"></i>"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaway/NPHQQ/brutal-legend/entries",
+        "inner_text": " 365 entries",
+        "inner_html": "<i class=\"fa fa-tag\"></i> <span>365 entries</span>"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaway/NPHQQ/brutal-legend/comments",
+        "inner_text": " 3 comments",
+        "inner_html": "<i class=\"fa fa-comment\"></i> <span>3 comments</span>"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaway/d92OE/death-squared",
+        "inner_text": "Death Squared",
+        "inner_html": "Death Squared"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaway/d92OE/death-squared/entries",
+        "inner_text": " 693 entries",
+        "inner_html": "<i class=\"fa fa-tag\"></i> <span>693 entries</span>"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaway/d92OE/death-squared/comments",
+        "inner_text": " 2 comments",
+        "inner_html": "<i class=\"fa fa-comment\"></i> <span>2 comments</span>"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaway/7rPS1/crusader-kings-complete",
+        "inner_text": "Crusader Kings Complete",
+        "inner_html": "Crusader Kings Complete"
+      },
+      {
+        "href": "https://store.steampowered.com/app/204940/",
+        "inner_text": "",
+        "inner_html": "<i class=\"fa fa-fw fa-steam\"></i>"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaways/search?app=204940",
+        "inner_text": "",
+        "inner_html": "<i class=\"fa fa-fw fa-search\"></i>"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaway/7rPS1/crusader-kings-complete/entries",
+        "inner_text": " 981 entries",
+        "inner_html": "<i class=\"fa fa-tag\"></i> <span>981 entries</span>"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaway/7rPS1/crusader-kings-complete/comments",
+        "inner_text": " 5 comments",
+        "inner_html": "<i class=\"fa fa-comment\"></i> <span>5 comments</span>"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaway/tZpk3/tales-of-berseria",
+        "inner_text": "Tales of Berseria™",
+        "inner_html": "Tales of Berseria™"
+      },
+      {
+        "href": "https://www.steamgifts.com/user/ZeraThird",
+        "inner_text": "ZeraThird",
+        "inner_html": "ZeraThird"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaway/tZpk3/tales-of-berseria/entries",
+        "inner_text": " 1,445 entries",
+        "inner_html": "<i class=\"fa fa-tag\"></i> <span>1,445 entries</span>"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaway/tZpk3/tales-of-berseria/comments",
+        "inner_text": " 10 comments",
+        "inner_html": "<i class=\"fa fa-comment\"></i> <span>10 comments</span>"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaway/zXDkd/teleglitch-die-more-edition",
+        "inner_text": "Teleglitch: Die More Edition",
+        "inner_html": "Teleglitch: Die More Edition"
+      },
+      {
+        "href": "https://store.steampowered.com/app/234390/",
+        "inner_text": "",
+        "inner_html": "<i class=\"fa fa-fw fa-steam\"></i>"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaways/search?app=234390",
+        "inner_text": "",
+        "inner_html": "<i class=\"fa fa-fw fa-search\"></i>"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaway/zXDkd/teleglitch-die-more-edition/entries",
+        "inner_text": " 496 entries",
+        "inner_html": "<i class=\"fa fa-tag\"></i> <span>496 entries</span>"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaway/zXDkd/teleglitch-die-more-edition/comments",
+        "inner_text": " 1 comment",
+        "inner_html": "<i class=\"fa fa-comment\"></i> <span>1 comment</span>"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaway/M3Ie5/dwarfs",
+        "inner_text": "Dwarfs!?",
+        "inner_html": "Dwarfs!?"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaway/M3Ie5/dwarfs/entries",
+        "inner_text": " 551 entries",
+        "inner_html": "<i class=\"fa fa-tag\"></i> <span>551 entries</span>"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaway/M3Ie5/dwarfs/comments",
+        "inner_text": " 0 comments",
+        "inner_html": "<i class=\"fa fa-comment\"></i> <span>0 comments</span>"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaway/AuzB3/dead-in-bermuda",
+        "inner_text": "Dead In Bermuda",
+        "inner_html": "Dead In Bermuda"
+      },
+      {
+        "href": "https://store.steampowered.com/app/384310/",
+        "inner_text": "",
+        "inner_html": "<i class=\"fa fa-fw fa-steam\"></i>"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaways/search?app=384310",
+        "inner_text": "",
+        "inner_html": "<i class=\"fa fa-fw fa-search\"></i>"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaway/AuzB3/dead-in-bermuda/entries",
+        "inner_text": " 660 entries",
+        "inner_html": "<i class=\"fa fa-tag\"></i> <span>660 entries</span>"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaway/AuzB3/dead-in-bermuda/comments",
+        "inner_text": " 3 comments",
+        "inner_html": "<i class=\"fa fa-comment\"></i> <span>3 comments</span>"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaway/ESwXO/bioshock-remastered",
+        "inner_text": "BioShock™ Remastered",
+        "inner_html": "BioShock™ Remastered"
+      },
+      {
+        "href": "https://www.steamgifts.com/user/dantedevil7",
+        "inner_text": "dantedevil7",
+        "inner_html": "dantedevil7"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaway/ESwXO/bioshock-remastered/entries",
+        "inner_text": " 662 entries",
+        "inner_html": "<i class=\"fa fa-tag\"></i> <span>662 entries</span>"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaway/ESwXO/bioshock-remastered/comments",
+        "inner_text": " 0 comments",
+        "inner_html": "<i class=\"fa fa-comment\"></i> <span>0 comments</span>"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaway/Lomfj/bury-me-my-love",
+        "inner_text": "Bury Me, My Love",
+        "inner_html": "Bury Me, My Love"
+      },
+      {
+        "href": "https://store.steampowered.com/app/808090/",
+        "inner_text": "",
+        "inner_html": "<i class=\"fa fa-fw fa-steam\"></i>"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaways/search?app=808090",
+        "inner_text": "",
+        "inner_html": "<i class=\"fa fa-fw fa-search\"></i>"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaway/Lomfj/bury-me-my-love/entries",
+        "inner_text": " 824 entries",
+        "inner_html": "<i class=\"fa fa-tag\"></i> <span>824 entries</span>"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaway/Lomfj/bury-me-my-love/comments",
+        "inner_text": " 4 comments",
+        "inner_html": "<i class=\"fa fa-comment\"></i> <span>4 comments</span>"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaway/rseFN/leisure-suit-larry-7-love-for-sail",
+        "inner_text": "Leisure Suit Larry 7 - Love for Sail",
+        "inner_html": "Leisure Suit Larry 7 - Love for Sail"
+      },
+      {
+        "href": "https://store.steampowered.com/app/765890/",
+        "inner_text": "",
+        "inner_html": "<i class=\"fa fa-fw fa-steam\"></i>"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaways/search?app=765890",
+        "inner_text": "",
+        "inner_html": "<i class=\"fa fa-fw fa-search\"></i>"
+      },
+      {
+        "href": "https://www.steamgifts.com/user/rufioh",
+        "inner_text": "rufioh",
+        "inner_html": "rufioh"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaway/rseFN/leisure-suit-larry-7-love-for-sail/entries",
+        "inner_text": " 595 entries",
+        "inner_html": "<i class=\"fa fa-tag\"></i> <span>595 entries</span>"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaway/rseFN/leisure-suit-larry-7-love-for-sail/comments",
+        "inner_text": " 4 comments",
+        "inner_html": "<i class=\"fa fa-comment\"></i> <span>4 comments</span>"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaway/thJ7J/pac-man-256",
+        "inner_text": "PAC-MAN 256",
+        "inner_html": "PAC-MAN 256"
+      },
+      {
+        "href": "https://store.steampowered.com/app/455400/",
+        "inner_text": "",
+        "inner_html": "<i class=\"fa fa-fw fa-steam\"></i>"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaways/search?app=455400",
+        "inner_text": "",
+        "inner_html": "<i class=\"fa fa-fw fa-search\"></i>"
+      },
+      {
+        "href": "https://www.steamgifts.com/user/RedArremer",
+        "inner_text": "RedArremer",
+        "inner_html": "RedArremer"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaway/thJ7J/pac-man-256/entries",
+        "inner_text": " 892 entries",
+        "inner_html": "<i class=\"fa fa-tag\"></i> <span>892 entries</span>"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaway/thJ7J/pac-man-256/comments",
+        "inner_text": " 5 comments",
+        "inner_html": "<i class=\"fa fa-comment\"></i> <span>5 comments</span>"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaway/ss3sS/simulacra-2",
+        "inner_text": "SIMULACRA 2",
+        "inner_html": "SIMULACRA 2"
+      },
+      {
+        "href": "https://store.steampowered.com/app/1011190/",
+        "inner_text": "",
+        "inner_html": "<i class=\"fa fa-fw fa-steam\"></i>"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaways/search?app=1011190",
+        "inner_text": "",
+        "inner_html": "<i class=\"fa fa-fw fa-search\"></i>"
+      },
+      {
+        "href": "https://www.steamgifts.com/user/lorinbobu",
+        "inner_text": "lorinbobu",
+        "inner_html": "lorinbobu"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaway/ss3sS/simulacra-2/entries",
+        "inner_text": " 635 entries",
+        "inner_html": "<i class=\"fa fa-tag\"></i> <span>635 entries</span>"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaway/ss3sS/simulacra-2/comments",
+        "inner_text": " 2 comments",
+        "inner_html": "<i class=\"fa fa-comment\"></i> <span>2 comments</span>"
+      },
+      {
+        "href": "https://www.steamgifts.com/giveaways/search?page=2",
+        "inner_text": "2",
+        "inner_html": "<span>2</span>"
+      },
+      {
+        "href": "https://www.steamgifts.com/user/Garandro",
+        "inner_text": "",
+        "inner_html": ""
+      },
+      {
+        "href": "https://www.steamgifts.com/discussion/rSWOI/lootboy-codes-for-coinsdiamonds",
+        "inner_text": "[Lootboy] Codes for coins/diamonds",
+        "inner_html": "[Lootboy] Codes for coins/diamonds"
+      },
+      {
+        "href": "https://www.steamgifts.com/user/ashtwo",
+        "inner_text": "ashtwo",
+        "inner_html": "ashtwo"
+      },
+      {
+        "href": "https://www.steamgifts.com/go/comment/yzK2gQ9",
+        "inner_text": "",
+        "inner_html": "<i class=\"fa fa-chevron-circle-right\"></i>"
+      },
+      {
+        "href": "https://www.steamgifts.com/user/sensualshakti",
+        "inner_text": "",
+        "inner_html": ""
+      },
+      {
+        "href": "https://www.steamgifts.com/discussion/hQaQr/humble-bundle-humble-best-of-bandai-namco-bundle",
+        "inner_text": "[Humble Bundle] Humble Best of BANDAI NAMCO Bun...",
+        "inner_html": "[Humble Bundle] Humble Best of BANDAI NAMCO Bun..."
+      },
+      {
+        "href": "https://www.steamgifts.com/user/Luckz",
+        "inner_text": "Luckz",
+        "inner_html": "Luckz"
+      },
+      {
+        "href": "https://www.steamgifts.com/go/comment/VsVFNEz",
+        "inner_text": "",
+        "inner_html": "<i class=\"fa fa-chevron-circle-right\"></i>"
+      },
+      {
+        "href": "https://www.steamgifts.com/user/letsmaybeLP92",
+        "inner_text": "",
+        "inner_html": ""
+      },
+      {
+        "href": "https://www.steamgifts.com/discussion/zWadt/freenot-steamepic-games-weekly-at-thursday-11-am-eastern-rebooted",
+        "inner_text": "[FREE][Not Steam][Epic Games] Weekly at thursda...",
+        "inner_html": "[FREE][Not Steam][Epic Games] Weekly at thursda..."
+      },
+      {
+        "href": "https://www.steamgifts.com/user/JonathanDoe",
+        "inner_text": "JonathanDoe",
+        "inner_html": "JonathanDoe"
+      },
+      {
+        "href": "https://www.steamgifts.com/go/comment/eJBl5ej",
+        "inner_text": "",
+        "inner_html": "<i class=\"fa fa-chevron-circle-right\"></i>"
+      },
+      {
+        "href": "https://www.steamgifts.com/user/GraveNoX",
+        "inner_text": "",
+        "inner_html": ""
+      },
+      {
+        "href": "https://www.steamgifts.com/discussion/G3rP9/freeepicgames-nba-2k21",
+        "inner_text": "[Free][EPICGames] NBA 2K21",
+        "inner_html": "[Free][EPICGames] NBA 2K21"
+      },
+      {
+        "href": "https://www.steamgifts.com/user/Optimaximal",
+        "inner_text": "Optimaximal",
+        "inner_html": "Optimaximal"
+      },
+      {
+        "href": "https://www.steamgifts.com/go/comment/KG8QnYU",
+        "inner_text": "",
+        "inner_html": "<i class=\"fa fa-chevron-circle-right\"></i>"
+      },
+      {
+        "href": "https://www.steamgifts.com/user/CBlade",
+        "inner_text": "",
+        "inner_html": ""
+      },
+      {
+        "href": "https://www.steamgifts.com/discussion/GoKKC/playstation-play-at-home-new-freebied-19-may-07-june-759am-uk-time",
+        "inner_text": "Playstation Play At Home New Freebied 19 May - ...",
+        "inner_html": "Playstation Play At Home New Freebied 19 May - ..."
+      },
+      {
+        "href": "https://www.steamgifts.com/user/adam1224",
+        "inner_text": "adam1224",
+        "inner_html": "adam1224"
+      },
+      {
+        "href": "https://www.steamgifts.com/go/comment/zNs1I8Q",
+        "inner_text": "",
+        "inner_html": "<i class=\"fa fa-chevron-circle-right\"></i>"
+      },
+      {
+        "href": "https://www.steamgifts.com/user/JFMugen",
+        "inner_text": "",
+        "inner_html": ""
+      },
+      {
+        "href": "https://www.steamgifts.com/discussion/RSQUR/free-samarost-1",
+        "inner_text": "[FREE] Samarost 1",
+        "inner_html": "[FREE] Samarost 1"
+      },
+      {
+        "href": "https://www.steamgifts.com/user/scorpiusus",
+        "inner_text": "scorpiusus",
+        "inner_html": "scorpiusus"
+      },
+      {
+        "href": "https://www.steamgifts.com/go/comment/wRAaqwb",
+        "inner_text": "",
+        "inner_html": "<i class=\"fa fa-chevron-circle-right\"></i>"
+      },
+      {
+        "href": "https://www.steamgifts.com/user/GodFeelling",
+        "inner_text": "",
+        "inner_html": ""
+      },
+      {
+        "href": "https://www.steamgifts.com/discussion/1yxCA/bundle-stars-anime-chest-bundle",
+        "inner_text": "[Bundle Stars] Anime Chest Bundle ❤",
+        "inner_html": "[Bundle Stars] Anime Chest Bundle ❤"
+      },
+      {
+        "href": "https://www.steamgifts.com/user/otsubyo",
+        "inner_text": "otsubyo",
+        "inner_html": "otsubyo"
+      },
+      {
+        "href": "https://www.steamgifts.com/go/comment/iVjqZ8k",
+        "inner_text": "",
+        "inner_html": "<i class=\"fa fa-chevron-circle-right\"></i>"
+      },
+      {
+        "href": "https://www.steamgifts.com/user/azumukupoe",
+        "inner_text": "",
+        "inner_html": ""
+      },
+      {
+        "href": "https://www.steamgifts.com/discussion/q17Cj/steam-ryse-son-of-rome-75-249-historical-low",
+        "inner_text": "[Steam] Ryse: Son of Rome -75% $2.49 Historical...",
+        "inner_html": "[Steam] Ryse: Son of Rome -75% $2.49 Historical..."
+      },
+      {
+        "href": "https://www.steamgifts.com/discussion/hW41a/indiegala-holy-moly-bundle",
+        "inner_text": "[IndieGala] Holy Moly Bundle 💜",
+        "inner_html": "[IndieGala] Holy Moly Bundle 💜"
+      },
+      {
+        "href": "https://www.steamgifts.com/user/Irony666",
+        "inner_text": "Irony666",
+        "inner_html": "Irony666"
+      },
+      {
+        "href": "https://www.steamgifts.com/go/comment/v0t0Wck",
+        "inner_text": "",
+        "inner_html": "<i class=\"fa fa-chevron-circle-right\"></i>"
+      },
+      {
+        "href": "https://www.steamgifts.com/discussion/1Ipcx/fanatical-platinum-collection-build-your-own-bundle-apr-may-2021",
+        "inner_text": "[Fanatical] Platinum Collection - Build Your Ow...",
+        "inner_html": "[Fanatical] Platinum Collection - Build Your Ow..."
+      },
+      {
+        "href": "https://www.steamgifts.com/user/Damark",
+        "inner_text": "Damark",
+        "inner_html": "Damark"
+      },
+      {
+        "href": "https://www.steamgifts.com/go/comment/jX4OSHg",
+        "inner_text": "",
+        "inner_html": "<i class=\"fa fa-chevron-circle-right\"></i>"
+      },
+      {
+        "href": "https://www.steamgifts.com/user/Bianca",
+        "inner_text": "",
+        "inner_html": ""
+      },
+      {
+        "href": "https://www.steamgifts.com/discussion/FbyqA/pac-man-256-5-hours-lvl1",
+        "inner_text": "PAC-MAN 256 (5 hours) (lvl1+)",
+        "inner_html": "PAC-MAN 256 (5 hours) (lvl1+)"
+      },
+      {
+        "href": "https://www.steamgifts.com/user/nadhmi23",
+        "inner_text": "nadhmi23",
+        "inner_html": "nadhmi23"
+      },
+      {
+        "href": "https://www.steamgifts.com/go/comment/0Axpo3N",
+        "inner_text": "",
+        "inner_html": "<i class=\"fa fa-chevron-circle-right\"></i>"
+      },
+      {
+        "href": "https://www.steamgifts.com/user/samwise84",
+        "inner_text": "",
+        "inner_html": ""
+      },
+      {
+        "href": "https://www.steamgifts.com/discussion/3EiTL/may-is-a-play-a-game-you-won-on-steamgifts-month-may-the-4th-be-with-you-3-times-is-a-charm",
+        "inner_text": "May is a \"play a game you won on Steamgifts\" mo...",
+        "inner_html": "May is a \"play a game you won on Steamgifts\" mo..."
+      },
+      {
+        "href": "https://www.steamgifts.com/user/alayersoffe",
+        "inner_text": "alayersoffe",
+        "inner_html": "alayersoffe"
+      },
+      {
+        "href": "https://www.steamgifts.com/go/comment/8hRmCp9",
+        "inner_text": "",
+        "inner_html": "<i class=\"fa fa-chevron-circle-right\"></i>"
+      },
+      {
+        "href": "https://www.steamgifts.com/discussion/FSthG/rad-5-hours-lvl2",
+        "inner_text": "RAD (5 hours) (lvl2+)",
+        "inner_html": "RAD (5 hours) (lvl2+)"
+      },
+      {
+        "href": "https://www.steamgifts.com/user/QuickSTER",
+        "inner_text": "QuickSTER",
+        "inner_html": "QuickSTER"
+      },
+      {
+        "href": "https://www.steamgifts.com/go/comment/uBpJVkp",
+        "inner_text": "",
+        "inner_html": "<i class=\"fa fa-chevron-circle-right\"></i>"
+      },
+      {
+        "href": "https://www.steamgifts.com/user/wigglenose",
+        "inner_text": "",
+        "inner_html": ""
+      },
+      {
+        "href": "https://www.steamgifts.com/discussion/7Hblq/new-timesplitters-in-the-works",
+        "inner_text": "New Timesplitters in the works",
+        "inner_html": "New Timesplitters in the works"
+      },
+      {
+        "href": "https://www.steamgifts.com/user/Lugum",
+        "inner_text": "Lugum",
+        "inner_html": "Lugum"
+      },
+      {
+        "href": "https://www.steamgifts.com/go/comment/NTtOVc1",
+        "inner_text": "",
+        "inner_html": "<i class=\"fa fa-chevron-circle-right\"></i>"
+      },
+      {
+        "href": "https://www.steamgifts.com/user/Mdk25",
+        "inner_text": "",
+        "inner_html": ""
+      },
+      {
+        "href": "https://www.steamgifts.com/discussion/woEqN/quality-games-giveaways-qgg-group-recruitment-closed-special-qgg-game-in-june",
+        "inner_text": "Quality Games Giveaways (QGG) Group [Recruitmen...",
+        "inner_html": "Quality Games Giveaways (QGG) Group [Recruitmen..."
+      },
+      {
+        "href": "https://www.steamgifts.com/go/comment/geUB7hk",
+        "inner_text": "",
+        "inner_html": "<i class=\"fa fa-chevron-circle-right\"></i>"
+      },
+      {
+        "href": "https://www.steamgifts.com/user/Yirg",
+        "inner_text": "",
+        "inner_html": ""
+      },
+      {
+        "href": "https://www.steamgifts.com/discussion/t3RIy/the-perpetual-i-need-5-entries-for-a-giveaway-thread",
+        "inner_text": "The perpetual I-need-5-entries-for-a-giveaway t...",
+        "inner_html": "The perpetual I-need-5-entries-for-a-giveaway t..."
+      },
+      {
+        "href": "https://www.steamgifts.com/user/RiderOfPhoenix",
+        "inner_text": "RiderOfPhoenix",
+        "inner_html": "RiderOfPhoenix"
+      },
+      {
+        "href": "https://www.steamgifts.com/go/comment/RVUOOQi",
+        "inner_text": "",
+        "inner_html": "<i class=\"fa fa-chevron-circle-right\"></i>"
+      },
+      {
+        "href": "https://www.steamgifts.com/user/Thief2K",
+        "inner_text": "",
+        "inner_html": ""
+      },
+      {
+        "href": "https://www.steamgifts.com/discussion/1qZYJ/esgst-sync-problem",
+        "inner_text": "ESGST sync problem",
+        "inner_html": "ESGST sync problem"
+      },
+      {
+        "href": "https://www.steamgifts.com/go/comment/hMpGibk",
+        "inner_text": "",
+        "inner_html": "<i class=\"fa fa-chevron-circle-right\"></i>"
+      },
+      {
+        "href": "https://www.steamgifts.com/user/Reforced",
+        "inner_text": "",
+        "inner_html": ""
+      },
+      {
+        "href": "https://www.steamgifts.com/discussion/T80Im/playing-appreciated-giveaways-with-the-intention-for-the-games-to-be-played-within-a-month",
+        "inner_text": "Playing Appreciated: Giveaways with the intenti...",
+        "inner_html": "Playing Appreciated: Giveaways with the intenti..."
+      },
+      {
+        "href": "https://www.steamgifts.com/user/soyalp104",
+        "inner_text": "soyalp104",
+        "inner_html": "soyalp104"
+      },
+      {
+        "href": "https://www.steamgifts.com/go/comment/oZcZr0D",
+        "inner_text": "",
+        "inner_html": "<i class=\"fa fa-chevron-circle-right\"></i>"
+      },
+      {
+        "href": "https://www.steamgifts.com/user/kyuuke",
+        "inner_text": "",
+        "inner_html": ""
+      },
+      {
+        "href": "https://www.steamgifts.com/discussion/zaE7V/games-that-have-cards-and-many-do-not-know",
+        "inner_text": "games that have cards and many do not know !!",
+        "inner_html": "games that have cards and many do not know !!"
+      },
+      {
+        "href": "https://www.steamgifts.com/go/comment/L539c14",
+        "inner_text": "",
+        "inner_html": "<i class=\"fa fa-chevron-circle-right\"></i>"
+      },
+      {
+        "href": "https://www.steamgifts.com/user/Khayta",
+        "inner_text": "",
+        "inner_html": ""
+      },
+      {
+        "href": "https://www.steamgifts.com/discussion/U8N2g/why-it-is-important-to-speak-out-to-someone-when-youre-not-ok",
+        "inner_text": "Why it is important to speak out to someone whe...",
+        "inner_html": "Why it is important to speak out to someone whe..."
+      },
+      {
+        "href": "https://www.steamgifts.com/user/thenthomwaslike",
+        "inner_text": "thenthomwaslike",
+        "inner_html": "thenthomwaslike"
+      },
+      {
+        "href": "https://www.steamgifts.com/go/comment/aHGXlpc",
+        "inner_text": "",
+        "inner_html": "<i class=\"fa fa-chevron-circle-right\"></i>"
+      },
+      {
+        "href": "https://store.steampowered.com/",
+        "inner_text": "Steam",
+        "inner_html": "Steam"
+      },
+      {
+        "href": "https://www.steamgifts.com/archive",
+        "inner_text": "Archive",
+        "inner_html": "Archive"
+      },
+      {
+        "href": "https://www.steamgifts.com/roles",
+        "inner_text": "Roles",
+        "inner_html": "Roles"
+      },
+      {
+        "href": "https://www.steamgifts.com/users",
+        "inner_text": "Users",
+        "inner_html": "Users"
+      },
+      {
+        "href": "https://steamcommunity.com/groups/steamgifts",
+        "inner_text": "Steam Group",
+        "inner_html": "Steam Group"
+      },
+      {
+        "href": "https://www.steamgifts.com/legal/privacy-policy",
+        "inner_text": "Privacy Policy",
+        "inner_html": "Privacy Policy"
+      },
+      {
+        "href": "https://www.steamgifts.com/legal/cookie-policy",
+        "inner_text": "Cookie Policy",
+        "inner_html": "Cookie Policy"
+      },
+      {
+        "href": "https://www.steamgifts.com/legal/terms-of-service",
+        "inner_text": "Terms of Service",
+        "inner_html": "Terms of Service"
+      }
+    ],
+    "social": [],
+    "keywords": [
+      {
+        "href": "https://www.steamgifts.com/?login",
+        "inner_text": " Sign in through STEAM",
+        "inner_html": "<i class=\"fa fa-steam\"></i> Sign in through STEAM"
+      },
+      {
+        "href": "https://www.steamgifts.com/legal/privacy-policy",
+        "inner_text": "Privacy Policy",
+        "inner_html": "Privacy Policy"
+      },
+      {
+        "href": "https://www.steamgifts.com/legal/cookie-policy",
+        "inner_text": "Cookie Policy",
+        "inner_html": "Cookie Policy"
+      },
+      {
+        "href": "https://www.steamgifts.com/legal/terms-of-service",
+        "inner_text": "Terms of Service",
+        "inner_html": "Terms of Service"
+      }
+    ]
+  },
+  "unsafeForms": [],
+  "browsing_history": [
+    "https://www.steamgifts.com/"
+  ],
+  "websockets": {},
+  "cookies": [
+    {
+      "name": "_ga",
+      "value": "GA1.2.151606769.1621528297",
+      "domain": "steamgifts.com",
+      "path": "/",
+      "expires": 1684600297,
+      "size": 29,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2023-05-20T16:31:37.000Z",
+      "expiresDays": 730,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 495,
+            "lineNumber": 30,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "zc",
+            "source": "    at zc (https://www.google-analytics.com/analytics.js:30:495)"
+          },
+          {
+            "columnNumber": 15,
+            "lineNumber": 60,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "ma",
+            "source": "    at ma (https://www.google-analytics.com/analytics.js:60:15)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T16:31:37.518Z",
+        "location": "https://www.steamgifts.com/"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "PHPSESSID",
+      "value": "gmkmme4j8qpk26vo5871ugdvbh7qknunisbunmein64jv5d2",
+      "domain": "www.steamgifts.com",
+      "path": "/",
+      "expires": 1622737896.798148,
+      "size": 57,
+      "httpOnly": true,
+      "secure": true,
+      "session": false,
+      "sameSite": "Lax",
+      "expiresUTC": "2021-06-03T16:31:36.798Z",
+      "expiresDays": 14,
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.steamgifts.com/",
+            "source": "set in Set-Cookie HTTP response header for https://www.steamgifts.com/"
+          }
+        ],
+        "type": "Cookie.HTTP",
+        "timestamp": "2021-05-20T16:31:36.803Z",
+        "location": "about:blank"
+      },
+      "firstPartyStorage": false
+    },
+    {
+      "name": "_gid",
+      "value": "GA1.2.1463695624.1621528297",
+      "domain": "steamgifts.com",
+      "path": "/",
+      "expires": 1621614697,
+      "size": 31,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2021-05-21T16:31:37.000Z",
+      "expiresDays": 1,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 495,
+            "lineNumber": 30,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "zc",
+            "source": "    at zc (https://www.google-analytics.com/analytics.js:30:495)"
+          },
+          {
+            "columnNumber": 401,
+            "lineNumber": 59,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "ma",
+            "source": "    at ma (https://www.google-analytics.com/analytics.js:59:401)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T16:31:37.519Z",
+        "location": "https://www.steamgifts.com/"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "_gat_gtag_UA_3791796_9",
+      "value": "1",
+      "domain": "steamgifts.com",
+      "path": "/",
+      "expires": 1621528357,
+      "size": 23,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2021-05-20T16:32:37.000Z",
+      "expiresDays": 0,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 495,
+            "lineNumber": 30,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "zc",
+            "source": "    at zc (https://www.google-analytics.com/analytics.js:30:495)"
+          },
+          {
+            "columnNumber": 31,
+            "lineNumber": 73,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "Qd",
+            "source": "    at Qd (https://www.google-analytics.com/analytics.js:73:31)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T16:31:37.520Z",
+        "location": "https://www.steamgifts.com/"
+      },
+      "firstPartyStorage": true
+    }
+  ],
+  "localStorage": {
+    "https://www.steamgifts.com": {
+      "CMPList": {
+        "value": {
+          "lastUpdated": "2021-05-06T17:03:14Z",
+          "CMP": [
+            "2",
+            "3",
+            "5",
+            "6",
+            "7",
+            "9",
+            "10",
+            "14",
+            "18",
+            "21",
+            "23",
+            "25",
+            "27",
+            "28",
+            "30",
+            "31",
+            "38",
+            "44",
+            "45",
+            "46",
+            "47",
+            "50",
+            "54",
+            "58",
+            "59",
+            "61",
+            "63",
+            "65",
+            "68",
+            "69",
+            "72",
+            "76",
+            "77",
+            "79",
+            "84",
+            "90",
+            "92",
+            "96",
+            "104",
+            "105",
+            "113",
+            "123",
+            "125",
+            "129",
+            "134",
+            "141",
+            "162",
+            "167",
+            "168",
+            "170",
+            "171",
+            "181",
+            "185",
+            "193",
+            "198",
+            "212",
+            "217",
+            "218",
+            "221",
+            "222",
+            "224",
+            "225",
+            "227",
+            "229",
+            "231",
+            "235",
+            "236",
+            "237",
+            "242",
+            "246",
+            "247",
+            "252",
+            "258",
+            "259",
+            "264",
+            "273",
+            "277",
+            "279",
+            "280",
+            "282",
+            "284",
+            "287",
+            "291",
+            "292",
+            "294",
+            "297",
+            "299",
+            "300",
+            "302",
+            "303",
+            "304",
+            "305",
+            "306",
+            "307",
+            "308",
+            "309",
+            "310",
+            "312",
+            "316",
+            "318",
+            "319",
+            "321",
+            "322",
+            "323",
+            "327",
+            "329",
+            "330",
+            "332",
+            "335",
+            "338",
+            "339",
+            "343",
+            "345",
+            "348",
+            "350",
+            "351",
+            "352",
+            "353",
+            "355",
+            "358",
+            "359",
+            "360",
+            "361",
+            "367",
+            "369"
+          ],
+          "expiry": 1621787497608
+        },
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 196982,
+              "lineNumber": 1,
+              "fileName": "https://quantcast.mgr.consensu.org/tcfv2/cmp2.js?referer=www.steamgifts.com",
+              "functionName": "e.value",
+              "source": "    at e.value (https://quantcast.mgr.consensu.org/tcfv2/cmp2.js?referer=www.steamgifts.com:1:196982)"
+            },
+            {
+              "columnNumber": 197204,
+              "lineNumber": 1,
+              "fileName": "https://quantcast.mgr.consensu.org/tcfv2/cmp2.js?referer=www.steamgifts.com",
+              "functionName": "e.value",
+              "source": "    at e.value (https://quantcast.mgr.consensu.org/tcfv2/cmp2.js?referer=www.steamgifts.com:1:197204)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T16:31:37.687Z",
+          "location": "https://www.steamgifts.com/"
+        }
+      }
+    }
+  },
+  "beacons": [
+    {
+      "url": "https://audit-tcfv2.quantcast.mgr.consensu.org/?log=%7B%22accountId%22%3A%22JTKTckadxK45t%22%2C%22domain%22%3A%22www.steamgifts.com%22%2C%22publisher%22%3A%22SteamGifts%22%2C%22cmpId%22%3A10%2C%22cmpVersion%22%3A%222.30%22%2C%22displayType%22%3A%22tcfui%3Amandatory%22%2C%22configurationHashCode%22%3A%22kx1XDmc04YUFTt0Ap47RyA%22%2C%22clientTimestamp%22%3A1621528297832%2C%22operationType%22%3A%22init%22%2C%22sessionId%22%3A%22GDPR-a8xznm6efk7ghgjbhwhq%22%7D",
+      "query": {
+        "log": {
+          "accountId": "JTKTckadxK45t",
+          "domain": "www.steamgifts.com",
+          "publisher": "SteamGifts",
+          "cmpId": 10,
+          "cmpVersion": "2.30",
+          "displayType": "tcfui:mandatory",
+          "configurationHashCode": "kx1XDmc04YUFTt0Ap47RyA",
+          "clientTimestamp": 1621528297832,
+          "operationType": "init",
+          "sessionId": "GDPR-a8xznm6efk7ghgjbhwhq"
+        }
+      },
+      "filter": "||consensu.org/?log=",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.steamgifts.com/",
+            "source": "requested from https://www.steamgifts.com/ and matched with easyprivacy.txt filter ||consensu.org/?log="
+          }
+        ],
+        "timestamp": "2021-05-20T16:31:37.836Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://rules.quantcount.com/rules-p-JTKTckadxK45t.js",
+      "query": null,
+      "filter": "||quantcount.com^$third-party",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.steamgifts.com/",
+            "source": "requested from https://www.steamgifts.com/ and matched with easyprivacy.txt filter ||quantcount.com^$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T16:31:37.568Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://www.google-analytics.com/j/collect?v=1&_v=j90&aip=1&a=1451877393&t=pageview&_s=1&dl=https%3A%2F%2Fwww.steamgifts.com%2F&ul=en-us&de=UTF-8&dt=Giveaways%20for%20Steam%20Games&sd=24-bit&sr=1680x927&vp=1680x927&je=0&_u=YEBAAUABAAAAAC~&jid=1208395919&gjid=94962998&cid=151606769.1621528297&tid=UA-3791796-9&_gid=1463695624.1621528297&_r=1&gtm=2ou5c1&z=374138938",
+      "query": {
+        "v": 1,
+        "_v": "j90",
+        "aip": 1,
+        "a": 1451877393,
+        "t": "pageview",
+        "_s": 1,
+        "dl": "https://www.steamgifts.com/",
+        "ul": "en-us",
+        "de": "UTF-8",
+        "dt": "Giveaways for Steam Games",
+        "sd": "24-bit",
+        "sr": "1680x927",
+        "vp": "1680x927",
+        "je": 0,
+        "_u": "YEBAAUABAAAAAC~",
+        "jid": 1208395919,
+        "gjid": 94962998,
+        "cid": 151606769.16215283,
+        "tid": "UA-3791796-9",
+        "_gid": 1463695624.1621528,
+        "_r": 1,
+        "gtm": "2ou5c1",
+        "z": 374138938
+      },
+      "filter": "/collect?*&cid=",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.steamgifts.com/",
+            "source": "requested from https://www.steamgifts.com/ and matched with easyprivacy.txt filter /collect?*&cid="
+          }
+        ],
+        "timestamp": "2021-05-20T16:31:37.525Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://quantcast.mgr.consensu.org/tcfv2/cmp2.js?referer=www.steamgifts.com",
+      "query": {
+        "referer": "www.steamgifts.com"
+      },
+      "filter": ".js?referer=",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.steamgifts.com/",
+            "source": "requested from https://www.steamgifts.com/ and matched with easyprivacy.txt filter .js?referer="
+          }
+        ],
+        "timestamp": "2021-05-20T16:31:37.373Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://secure.quantserve.com/quant.js",
+      "query": null,
+      "filter": "/quant.js",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.steamgifts.com/",
+            "source": "requested from https://www.steamgifts.com/ and matched with easyprivacy.txt filter /quant.js"
+          }
+        ],
+        "timestamp": "2021-05-20T16:31:37.372Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://www.google-analytics.com/analytics.js",
+      "query": null,
+      "filter": "||google-analytics.com/analytics.js",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.steamgifts.com/",
+            "source": "requested from https://www.steamgifts.com/ and matched with easyprivacy.txt filter ||google-analytics.com/analytics.js"
+          }
+        ],
+        "timestamp": "2021-05-20T16:31:37.339Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://www.googletagmanager.com/gtag/js?id=UA-3791796-9",
+      "query": {
+        "id": "UA-3791796-9"
+      },
+      "filter": "||googletagmanager.com/gtag/$third-party",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.steamgifts.com/",
+            "source": "requested from https://www.steamgifts.com/ and matched with easyprivacy.txt filter ||googletagmanager.com/gtag/$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T16:31:36.834Z"
+      },
+      "occurrances": 1
+    }
+  ],
+  "hosts": {
+    "requests": {
+      "firstParty": [
+        "steamgifts.com"
+      ],
+      "thirdParty": [
+        "www.steamgifts.com",
+        "fonts.googleapis.com",
+        "maxcdn.bootstrapcdn.com",
+        "cdn.steamgifts.com",
+        "securepubads.g.doubleclick.net",
+        "www.googletagmanager.com",
+        "steamcdn-a.akamaihd.net",
+        "quantcast.mgr.consensu.org",
+        "fonts.gstatic.com",
+        "www.google-analytics.com",
+        "secure.quantserve.com",
+        "rules.quantcount.com",
+        "test.quantcast.mgr.consensu.org",
+        "audit-tcfv2.quantcast.mgr.consensu.org"
+      ]
+    },
+    "beacons": {
+      "firstParty": [],
+      "thirdParty": [
+        "audit-tcfv2.quantcast.mgr.consensu.org",
+        "rules.quantcount.com",
+        "www.google-analytics.com",
+        "quantcast.mgr.consensu.org",
+        "secure.quantserve.com",
+        "www.googletagmanager.com"
+      ]
+    },
+    "cookies": {
+      "firstParty": [
+        "steamgifts.com"
+      ],
+      "thirdParty": [
+        "www.steamgifts.com"
+      ]
+    },
+    "localStorage": {
+      "firstParty": [],
+      "thirdParty": [
+        "www.steamgifts.com"
+      ]
+    },
+    "links": {
+      "firstParty": [],
+      "thirdParty": [
+        "www.steamgifts.com",
+        "store.steampowered.com",
+        "steamcommunity.com"
+      ]
+    }
+  }
+}

@@ -1,0 +1,531 @@
+{
+  "title": "Website Evidence Collection",
+  "task_description": null,
+  "uri_ins": "https://twitter.com",
+  "uri_refs": [
+    "https://twitter.com"
+  ],
+  "uri_dest": "https://twitter.com/",
+  "uri_redirects": [],
+  "secure_connection": {
+    "https_support": true,
+    "redirects": [
+      "https://twitter.com/"
+    ],
+    "https_redirect": true
+  },
+  "host": "twitter.com",
+  "script": {
+    "host": "sfod",
+    "version": {
+      "npm": "1.0.0",
+      "commit": null
+    },
+    "cmd_args": "-q --overwrite https://twitter.com -- --ignore-certificate-errors",
+    "environment": {
+      "CHROME_DESKTOP": "code-url-handler.desktop"
+    },
+    "node_version": "v14.17.0"
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "HeadlessChrome/80.0.3987.0",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3617.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "5.8.0-53-generic"
+    },
+    "extra_headers": {},
+    "preset_cookies": {}
+  },
+  "start_time": "2021-05-20T15:54:24.988Z",
+  "end_time": "2021-05-20T15:54:32.196Z",
+  "links": {
+    "firstParty": [
+      {
+        "href": "https://twitter.com/i/flow/signup",
+        "inner_text": "Sign up",
+        "inner_html": "<div dir=\"auto\" class=\"css-901oao r-1awozwy r-jwli3a r-6koalj r-18u37iz r-16y2uox r-1qd0xha r-a023e6 r-b88u0q r-1777fci r-rjixqe r-dnmrzs r-bcqeeo r-q4m81j r-qvutc0\"><span class=\"css-901oao css-16my406 css-bfa6kz r-poiln3 r-bcqeeo r-qvutc0\"><span class=\"css-901oao css-16my406 r-poiln3 r-bcqeeo r-qvutc0\">Sign up</span></span></div>"
+      },
+      {
+        "href": "https://twitter.com/login",
+        "inner_text": "Log in",
+        "inner_html": "<div dir=\"auto\" class=\"css-901oao r-1awozwy r-13gxpu9 r-6koalj r-18u37iz r-16y2uox r-1qd0xha r-a023e6 r-b88u0q r-1777fci r-rjixqe r-dnmrzs r-bcqeeo r-q4m81j r-qvutc0\"><span class=\"css-901oao css-16my406 css-bfa6kz r-poiln3 r-bcqeeo r-qvutc0\"><span class=\"css-901oao css-16my406 r-poiln3 r-bcqeeo r-qvutc0\">Log in</span></span></div>"
+      },
+      {
+        "href": "https://twitter.com/tos",
+        "inner_text": "Terms of Service",
+        "inner_html": "<span class=\"css-901oao css-16my406 r-poiln3 r-bcqeeo r-qvutc0\">Terms of Service</span>"
+      },
+      {
+        "href": "https://twitter.com/privacy",
+        "inner_text": "Privacy Policy",
+        "inner_html": "<span class=\"css-901oao css-16my406 r-poiln3 r-bcqeeo r-qvutc0\">Privacy Policy</span>"
+      },
+      {
+        "href": "https://twitter.com/i/directory/profiles",
+        "inner_text": "Directory",
+        "inner_html": "<span class=\"css-901oao css-16my406 r-poiln3 r-bcqeeo r-qvutc0\">Directory</span>"
+      },
+      {
+        "href": "https://twitter.com/settings",
+        "inner_text": "Settings",
+        "inner_html": "<span class=\"css-901oao css-16my406 r-poiln3 r-bcqeeo r-qvutc0\">Settings</span>"
+      }
+    ],
+    "thirdParty": [
+      {
+        "href": "https://help.twitter.com/rules-and-policies/twitter-cookies",
+        "inner_text": "Cookies Use",
+        "inner_html": "<span class=\"css-901oao css-16my406 r-poiln3 r-bcqeeo r-qvutc0\">Cookies Use</span>"
+      },
+      {
+        "href": "https://about.twitter.com/",
+        "inner_text": "About",
+        "inner_html": "<span class=\"css-901oao css-16my406 r-poiln3 r-bcqeeo r-qvutc0\">About</span>"
+      },
+      {
+        "href": "https://help.twitter.com/",
+        "inner_text": "Help Center",
+        "inner_html": "<span class=\"css-901oao css-16my406 r-poiln3 r-bcqeeo r-qvutc0\">Help Center</span>"
+      },
+      {
+        "href": "https://support.twitter.com/articles/20170514",
+        "inner_text": "Cookie Policy",
+        "inner_html": "<span class=\"css-901oao css-16my406 r-poiln3 r-bcqeeo r-qvutc0\">Cookie Policy</span>"
+      },
+      {
+        "href": "https://business.twitter.com/en/help/troubleshooting/how-twitter-ads-work.html",
+        "inner_text": "Ads info",
+        "inner_html": "<span class=\"css-901oao css-16my406 r-poiln3 r-bcqeeo r-qvutc0\">Ads info</span>"
+      },
+      {
+        "href": "https://blog.twitter.com/",
+        "inner_text": "Blog",
+        "inner_html": "<span class=\"css-901oao css-16my406 r-poiln3 r-bcqeeo r-qvutc0\">Blog</span>"
+      },
+      {
+        "href": "https://status.twitterstat.us/",
+        "inner_text": "Status",
+        "inner_html": "<span class=\"css-901oao css-16my406 r-poiln3 r-bcqeeo r-qvutc0\">Status</span>"
+      },
+      {
+        "href": "https://careers.twitter.com/",
+        "inner_text": "Careers",
+        "inner_html": "<span class=\"css-901oao css-16my406 r-poiln3 r-bcqeeo r-qvutc0\">Careers</span>"
+      },
+      {
+        "href": "https://about.twitter.com/press/brand-assets",
+        "inner_text": "Brand Resources",
+        "inner_html": "<span class=\"css-901oao css-16my406 r-poiln3 r-bcqeeo r-qvutc0\">Brand Resources</span>"
+      },
+      {
+        "href": "https://ads.twitter.com/?ref=gl-tw-tw-twitter-advertise",
+        "inner_text": "Advertising",
+        "inner_html": "<span class=\"css-901oao css-16my406 r-poiln3 r-bcqeeo r-qvutc0\">Advertising</span>"
+      },
+      {
+        "href": "https://marketing.twitter.com/",
+        "inner_text": "Marketing",
+        "inner_html": "<span class=\"css-901oao css-16my406 r-poiln3 r-bcqeeo r-qvutc0\">Marketing</span>"
+      },
+      {
+        "href": "https://business.twitter.com/",
+        "inner_text": "Twitter for Business",
+        "inner_html": "<span class=\"css-901oao css-16my406 r-poiln3 r-bcqeeo r-qvutc0\">Twitter for Business</span>"
+      },
+      {
+        "href": "https://developer.twitter.com/",
+        "inner_text": "Developers",
+        "inner_html": "<span class=\"css-901oao css-16my406 r-poiln3 r-bcqeeo r-qvutc0\">Developers</span>"
+      }
+    ],
+    "social": [
+      {
+        "href": "https://twitter.com/i/flow/signup",
+        "inner_text": "Sign up",
+        "inner_html": "<div dir=\"auto\" class=\"css-901oao r-1awozwy r-jwli3a r-6koalj r-18u37iz r-16y2uox r-1qd0xha r-a023e6 r-b88u0q r-1777fci r-rjixqe r-dnmrzs r-bcqeeo r-q4m81j r-qvutc0\"><span class=\"css-901oao css-16my406 css-bfa6kz r-poiln3 r-bcqeeo r-qvutc0\"><span class=\"css-901oao css-16my406 r-poiln3 r-bcqeeo r-qvutc0\">Sign up</span></span></div>"
+      },
+      {
+        "href": "https://twitter.com/login",
+        "inner_text": "Log in",
+        "inner_html": "<div dir=\"auto\" class=\"css-901oao r-1awozwy r-13gxpu9 r-6koalj r-18u37iz r-16y2uox r-1qd0xha r-a023e6 r-b88u0q r-1777fci r-rjixqe r-dnmrzs r-bcqeeo r-q4m81j r-qvutc0\"><span class=\"css-901oao css-16my406 css-bfa6kz r-poiln3 r-bcqeeo r-qvutc0\"><span class=\"css-901oao css-16my406 r-poiln3 r-bcqeeo r-qvutc0\">Log in</span></span></div>"
+      },
+      {
+        "href": "https://help.twitter.com/rules-and-policies/twitter-cookies",
+        "inner_text": "Cookies Use",
+        "inner_html": "<span class=\"css-901oao css-16my406 r-poiln3 r-bcqeeo r-qvutc0\">Cookies Use</span>"
+      },
+      {
+        "href": "https://about.twitter.com/",
+        "inner_text": "About",
+        "inner_html": "<span class=\"css-901oao css-16my406 r-poiln3 r-bcqeeo r-qvutc0\">About</span>"
+      },
+      {
+        "href": "https://help.twitter.com/",
+        "inner_text": "Help Center",
+        "inner_html": "<span class=\"css-901oao css-16my406 r-poiln3 r-bcqeeo r-qvutc0\">Help Center</span>"
+      },
+      {
+        "href": "https://twitter.com/tos",
+        "inner_text": "Terms of Service",
+        "inner_html": "<span class=\"css-901oao css-16my406 r-poiln3 r-bcqeeo r-qvutc0\">Terms of Service</span>"
+      },
+      {
+        "href": "https://twitter.com/privacy",
+        "inner_text": "Privacy Policy",
+        "inner_html": "<span class=\"css-901oao css-16my406 r-poiln3 r-bcqeeo r-qvutc0\">Privacy Policy</span>"
+      },
+      {
+        "href": "https://support.twitter.com/articles/20170514",
+        "inner_text": "Cookie Policy",
+        "inner_html": "<span class=\"css-901oao css-16my406 r-poiln3 r-bcqeeo r-qvutc0\">Cookie Policy</span>"
+      },
+      {
+        "href": "https://business.twitter.com/en/help/troubleshooting/how-twitter-ads-work.html",
+        "inner_text": "Ads info",
+        "inner_html": "<span class=\"css-901oao css-16my406 r-poiln3 r-bcqeeo r-qvutc0\">Ads info</span>"
+      },
+      {
+        "href": "https://blog.twitter.com/",
+        "inner_text": "Blog",
+        "inner_html": "<span class=\"css-901oao css-16my406 r-poiln3 r-bcqeeo r-qvutc0\">Blog</span>"
+      },
+      {
+        "href": "https://careers.twitter.com/",
+        "inner_text": "Careers",
+        "inner_html": "<span class=\"css-901oao css-16my406 r-poiln3 r-bcqeeo r-qvutc0\">Careers</span>"
+      },
+      {
+        "href": "https://about.twitter.com/press/brand-assets",
+        "inner_text": "Brand Resources",
+        "inner_html": "<span class=\"css-901oao css-16my406 r-poiln3 r-bcqeeo r-qvutc0\">Brand Resources</span>"
+      },
+      {
+        "href": "https://ads.twitter.com/?ref=gl-tw-tw-twitter-advertise",
+        "inner_text": "Advertising",
+        "inner_html": "<span class=\"css-901oao css-16my406 r-poiln3 r-bcqeeo r-qvutc0\">Advertising</span>"
+      },
+      {
+        "href": "https://marketing.twitter.com/",
+        "inner_text": "Marketing",
+        "inner_html": "<span class=\"css-901oao css-16my406 r-poiln3 r-bcqeeo r-qvutc0\">Marketing</span>"
+      },
+      {
+        "href": "https://business.twitter.com/",
+        "inner_text": "Twitter for Business",
+        "inner_html": "<span class=\"css-901oao css-16my406 r-poiln3 r-bcqeeo r-qvutc0\">Twitter for Business</span>"
+      },
+      {
+        "href": "https://developer.twitter.com/",
+        "inner_text": "Developers",
+        "inner_html": "<span class=\"css-901oao css-16my406 r-poiln3 r-bcqeeo r-qvutc0\">Developers</span>"
+      },
+      {
+        "href": "https://twitter.com/i/directory/profiles",
+        "inner_text": "Directory",
+        "inner_html": "<span class=\"css-901oao css-16my406 r-poiln3 r-bcqeeo r-qvutc0\">Directory</span>"
+      },
+      {
+        "href": "https://twitter.com/settings",
+        "inner_text": "Settings",
+        "inner_html": "<span class=\"css-901oao css-16my406 r-poiln3 r-bcqeeo r-qvutc0\">Settings</span>"
+      }
+    ],
+    "keywords": [
+      {
+        "href": "https://twitter.com/login",
+        "inner_text": "Log in",
+        "inner_html": "<div dir=\"auto\" class=\"css-901oao r-1awozwy r-13gxpu9 r-6koalj r-18u37iz r-16y2uox r-1qd0xha r-a023e6 r-b88u0q r-1777fci r-rjixqe r-dnmrzs r-bcqeeo r-q4m81j r-qvutc0\"><span class=\"css-901oao css-16my406 css-bfa6kz r-poiln3 r-bcqeeo r-qvutc0\"><span class=\"css-901oao css-16my406 r-poiln3 r-bcqeeo r-qvutc0\">Log in</span></span></div>"
+      },
+      {
+        "href": "https://twitter.com/privacy",
+        "inner_text": "Privacy Policy",
+        "inner_html": "<span class=\"css-901oao css-16my406 r-poiln3 r-bcqeeo r-qvutc0\">Privacy Policy</span>"
+      }
+    ]
+  },
+  "unsafeForms": [],
+  "browsing_history": [
+    "https://twitter.com/"
+  ],
+  "websockets": {},
+  "cookies": [
+    {
+      "name": "_ga",
+      "value": "GA1.2.1852865806.1621526067",
+      "domain": "twitter.com",
+      "path": "/",
+      "expires": 1684598066,
+      "size": 30,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2023-05-20T15:54:26.000Z",
+      "expiresDays": 730,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 495,
+            "lineNumber": 30,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "zc",
+            "source": "    at zc (https://www.google-analytics.com/analytics.js:30:495)"
+          },
+          {
+            "columnNumber": 15,
+            "lineNumber": 60,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "ma",
+            "source": "    at ma (https://www.google-analytics.com/analytics.js:60:15)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T15:54:26.718Z",
+        "location": "https://twitter.com/"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "guest_id",
+      "value": "v1%3A162152606528348056",
+      "domain": "twitter.com",
+      "path": "/",
+      "expires": 1684598065.37078,
+      "size": 31,
+      "httpOnly": false,
+      "secure": true,
+      "session": false,
+      "sameSite": "None",
+      "expiresUTC": "2023-05-20T15:54:25.370Z",
+      "expiresDays": 730,
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://twitter.com/",
+            "source": "set in Set-Cookie HTTP response header for https://twitter.com/"
+          }
+        ],
+        "type": "Cookie.HTTP",
+        "timestamp": "2021-05-20T15:54:25.376Z",
+        "location": "about:blank"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "personalization_id",
+      "value": "\"v1_yYOhfGmo/Ih/nVUDgQOIqw==\"",
+      "domain": "twitter.com",
+      "path": "/",
+      "expires": 1684598065.370668,
+      "size": 47,
+      "httpOnly": false,
+      "secure": true,
+      "session": false,
+      "sameSite": "None",
+      "expiresUTC": "2023-05-20T15:54:25.370Z",
+      "expiresDays": 730,
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://twitter.com/",
+            "source": "set in Set-Cookie HTTP response header for https://twitter.com/"
+          }
+        ],
+        "type": "Cookie.HTTP",
+        "timestamp": "2021-05-20T15:54:25.376Z",
+        "location": "about:blank"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "_gid",
+      "value": "GA1.2.788170804.1621526067",
+      "domain": "twitter.com",
+      "path": "/",
+      "expires": 1621612466,
+      "size": 30,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2021-05-21T15:54:26.000Z",
+      "expiresDays": 1,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 495,
+            "lineNumber": 30,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "zc",
+            "source": "    at zc (https://www.google-analytics.com/analytics.js:30:495)"
+          },
+          {
+            "columnNumber": 401,
+            "lineNumber": 59,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "ma",
+            "source": "    at ma (https://www.google-analytics.com/analytics.js:59:401)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T15:54:26.719Z",
+        "location": "https://twitter.com/"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "ct0",
+      "value": "2658739d2148cefecdb962d426805ce3",
+      "domain": "twitter.com",
+      "path": "/",
+      "expires": 1621547665.972337,
+      "size": 35,
+      "httpOnly": false,
+      "secure": true,
+      "session": false,
+      "expiresUTC": "2021-05-20T21:54:25.972Z",
+      "expiresDays": 0.25,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 327236,
+            "lineNumber": 1,
+            "fileName": "https://abs.twimg.com/responsive-web/client-web-legacy/main.a64f7325.js",
+            "source": "    at https://abs.twimg.com/responsive-web/client-web-legacy/main.a64f7325.js:1:327236"
+          },
+          {
+            "columnNumber": 1114786,
+            "lineNumber": 1,
+            "fileName": "https://abs.twimg.com/responsive-web/client-web-legacy/main.a64f7325.js",
+            "source": "    at https://abs.twimg.com/responsive-web/client-web-legacy/main.a64f7325.js:1:1114786"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T15:54:25.987Z",
+        "location": "https://twitter.com/"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "gt",
+      "value": "1395407577001902080",
+      "domain": "twitter.com",
+      "path": "/",
+      "expires": 1621536866.50741,
+      "size": 21,
+      "httpOnly": false,
+      "secure": true,
+      "session": false,
+      "expiresUTC": "2021-05-20T18:54:26.507Z",
+      "expiresDays": 0.13,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 199008,
+            "lineNumber": 1,
+            "fileName": "https://abs.twimg.com/responsive-web/client-web-legacy/main.a64f7325.js",
+            "source": "    at https://abs.twimg.com/responsive-web/client-web-legacy/main.a64f7325.js:1:199008"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T15:54:26.514Z",
+        "location": "https://twitter.com/"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "_twitter_sess",
+      "value": "BAh7CSIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%250ASGFzaHsABjoKQHVzZWR7ADoPY3JlYXRlZF9hdGwrCPszfIp5AToMY3NyZl9p%250AZCIlOTdiMjhmZWIxYWQxYjExYzAxOTczZWY1M2EwNWVlYTU6B2lkIiUzNzY4%250ANzU5OWJlZWI1ZGFlYmNkYjkxNGE0MThlNmNmNw%253D%253D--167891a0994bf1fde0e74cc762f1e431b04e0683",
+      "domain": "twitter.com",
+      "path": "/",
+      "expires": -1,
+      "size": 298,
+      "httpOnly": true,
+      "secure": true,
+      "session": true,
+      "firstPartyStorage": true
+    }
+  ],
+  "localStorage": {},
+  "beacons": [
+    {
+      "url": "https://api.twitter.com/1.1/jot/client_event.json",
+      "query": null,
+      "filter": "||twitter.com/1.1/jot/client_event.json",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://twitter.com/",
+            "source": "requested from https://twitter.com/ and matched with easyprivacy.txt filter ||twitter.com/1.1/jot/client_event.json"
+          }
+        ],
+        "timestamp": "2021-05-20T15:54:29.108Z"
+      },
+      "occurrances": 5
+    },
+    {
+      "url": "https://www.google-analytics.com/analytics.js",
+      "query": null,
+      "filter": "||google-analytics.com/analytics.js",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://twitter.com/",
+            "source": "requested from https://twitter.com/ and matched with easyprivacy.txt filter ||google-analytics.com/analytics.js"
+          }
+        ],
+        "timestamp": "2021-05-20T15:54:26.412Z"
+      },
+      "occurrances": 1
+    }
+  ],
+  "hosts": {
+    "requests": {
+      "firstParty": [
+        "twitter.com"
+      ],
+      "thirdParty": [
+        "abs.twimg.com",
+        "pbs.twimg.com",
+        "api.twitter.com",
+        "www.google-analytics.com"
+      ]
+    },
+    "beacons": {
+      "firstParty": [],
+      "thirdParty": [
+        "api.twitter.com",
+        "www.google-analytics.com"
+      ]
+    },
+    "cookies": {
+      "firstParty": [
+        "twitter.com"
+      ],
+      "thirdParty": []
+    },
+    "localStorage": {
+      "firstParty": [],
+      "thirdParty": []
+    },
+    "links": {
+      "firstParty": [
+        "twitter.com"
+      ],
+      "thirdParty": [
+        "help.twitter.com",
+        "about.twitter.com",
+        "support.twitter.com",
+        "business.twitter.com",
+        "blog.twitter.com",
+        "status.twitterstat.us",
+        "careers.twitter.com",
+        "ads.twitter.com",
+        "marketing.twitter.com",
+        "developer.twitter.com"
+      ]
+    }
+  }
+}

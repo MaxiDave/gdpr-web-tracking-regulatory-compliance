@@ -1,0 +1,1127 @@
+{
+  "title": "Website Evidence Collection",
+  "task_description": null,
+  "uri_ins": "https://apple.com",
+  "uri_refs": [
+    "https://apple.com"
+  ],
+  "uri_dest": "https://www.apple.com/",
+  "uri_redirects": [
+    "https://apple.com/"
+  ],
+  "secure_connection": {
+    "https_support": true,
+    "redirects": [
+      "https://www.apple.com/"
+    ],
+    "https_redirect": true
+  },
+  "host": "apple.com",
+  "script": {
+    "host": "sfod",
+    "version": {
+      "npm": "1.0.0",
+      "commit": null
+    },
+    "cmd_args": "-q --overwrite https://apple.com -- --ignore-certificate-errors",
+    "environment": {
+      "CHROME_DESKTOP": "code-url-handler.desktop"
+    },
+    "node_version": "v14.17.0"
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "HeadlessChrome/80.0.3987.0",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3617.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "5.8.0-53-generic"
+    },
+    "extra_headers": {},
+    "preset_cookies": {}
+  },
+  "start_time": "2021-05-20T15:50:58.041Z",
+  "end_time": "2021-05-20T15:51:05.220Z",
+  "links": {
+    "firstParty": [],
+    "thirdParty": [
+      {
+        "href": "https://www.apple.com/es/",
+        "inner_text": "Continuar",
+        "inner_html": "Continuar"
+      },
+      {
+        "href": "https://www.apple.com/",
+        "inner_text": "\n\t\t\t\t\tGlobal Nav Open Menu\n\t\t\t\t",
+        "inner_html": "<span class=\"ac-gn-menuanchor-label\">Global Nav Open Menu</span>"
+      },
+      {
+        "href": "https://www.apple.com/us/shop/goto/bag",
+        "inner_text": "\n\t\t\t\t\t\tShopping Bag\n\t\t\t\t\t",
+        "inner_html": "<span class=\"ac-gn-link-text\">Shopping Bag</span>"
+      },
+      {
+        "href": "https://www.apple.com/us/search",
+        "inner_text": "\n\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\tSearch apple.com\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\n\t\t\t\t\t\t\tCancel\n\t\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t",
+        "inner_html": "<div class=\"ac-gn-search-placeholder-bar\">\n\t\t\t\t\t\t<div class=\"ac-gn-search-placeholder-input\">\n\t\t\t\t\t\t\t<div class=\"ac-gn-search-placeholder-input-text\" aria-hidden=\"true\">\n\t\t\t\t\t\t\t\t<div class=\"ac-gn-link-search ac-gn-search-placeholder-input-icon\"></div>\n\t\t\t\t\t\t\t\t<span class=\"ac-gn-search-placeholder\">Search apple.com</span>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div class=\"ac-gn-searchview-close ac-gn-searchview-close-small ac-gn-search-placeholder-searchview-close\">\n\t\t\t\t\t\t\t<span class=\"ac-gn-searchview-close-cancel\" aria-hidden=\"true\">Cancel</span>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>"
+      },
+      {
+        "href": "https://www.apple.com/mac/",
+        "inner_text": "Mac",
+        "inner_html": "<span class=\"ac-gn-link-text\">Mac</span>"
+      },
+      {
+        "href": "https://www.apple.com/ipad/",
+        "inner_text": "iPad",
+        "inner_html": "<span class=\"ac-gn-link-text\">iPad</span>"
+      },
+      {
+        "href": "https://www.apple.com/iphone/",
+        "inner_text": "iPhone",
+        "inner_html": "<span class=\"ac-gn-link-text\">iPhone</span>"
+      },
+      {
+        "href": "https://www.apple.com/watch/",
+        "inner_text": "Watch",
+        "inner_html": "<span class=\"ac-gn-link-text\">Watch</span>"
+      },
+      {
+        "href": "https://www.apple.com/tv/",
+        "inner_text": "TV",
+        "inner_html": "<span class=\"ac-gn-link-text\">TV</span>"
+      },
+      {
+        "href": "https://www.apple.com/music/",
+        "inner_text": "Music",
+        "inner_html": "<span class=\"ac-gn-link-text\">Music</span>"
+      },
+      {
+        "href": "https://support.apple.com/",
+        "inner_text": "Support",
+        "inner_html": "<span class=\"ac-gn-link-text\">Support</span>"
+      },
+      {
+        "href": "https://www.apple.com/us/shop/goto/temporary_closures",
+        "inner_text": "Visiting an Apple Store FAQ",
+        "inner_html": "Visiting an Apple Store FAQ"
+      },
+      {
+        "href": "https://www.apple.com/us/shop/goto/shop",
+        "inner_text": "Shop Apple Store Online",
+        "inner_html": "Shop Apple Store Online"
+      },
+      {
+        "href": "https://www.apple.com/us/shop/goto/accessories/apple_accessories",
+        "inner_text": "Accessories",
+        "inner_html": "Accessories"
+      },
+      {
+        "href": "https://www.apple.com/airpods/",
+        "inner_text": "AirPods",
+        "inner_html": "AirPods"
+      },
+      {
+        "href": "https://www.apple.com/airtag/",
+        "inner_text": "AirTag",
+        "inner_html": "AirTag"
+      },
+      {
+        "href": "https://contactretail.apple.com/?c=us&l=en&ap=COM&pg=COM:homepage_ribbon-desktop&ag=FASTPASS",
+        "inner_text": "Shop with a Specialist",
+        "inner_html": "Shop with a Specialist"
+      },
+      {
+        "href": "https://contactretail.apple.com/?c=us&l=en&ap=COM&pg=COM:homepage_ribbon-mobile&ag=FASTPASS",
+        "inner_text": "Shop with a Specialist",
+        "inner_html": "Shop with a Specialist"
+      },
+      {
+        "href": "https://www.apple.com/accessibility/",
+        "inner_text": " ",
+        "inner_html": "&nbsp;"
+      },
+      {
+        "href": "https://www.apple.com/ipad-pro/",
+        "inner_text": " ",
+        "inner_html": "&nbsp;"
+      },
+      {
+        "href": "https://www.apple.com/us/shop/goto/ipad_pro/select",
+        "inner_text": "Order",
+        "inner_html": "Order"
+      },
+      {
+        "href": "https://www.apple.com/imac-24/",
+        "inner_text": " ",
+        "inner_html": "&nbsp;"
+      },
+      {
+        "href": "https://www.apple.com/us/shop/goto/imac",
+        "inner_text": "Order",
+        "inner_html": "Order"
+      },
+      {
+        "href": "https://www.apple.com/iphone-12/",
+        "inner_text": " ",
+        "inner_html": "&nbsp;"
+      },
+      {
+        "href": "https://www.apple.com/iphone-12/key-features/",
+        "inner_text": " ",
+        "inner_html": "&nbsp;"
+      },
+      {
+        "href": "https://www.apple.com/us/shop/goto/buy_iphone/iphone_12",
+        "inner_text": "Buy",
+        "inner_html": "Buy"
+      },
+      {
+        "href": "https://www.apple.com/privacy/",
+        "inner_text": " ",
+        "inner_html": "&nbsp;"
+      },
+      {
+        "href": "https://www.apple.com/us/shop/goto/watch/bands",
+        "inner_text": " ",
+        "inner_html": "&nbsp;"
+      },
+      {
+        "href": "https://www.apple.com/apple-tv-4k/",
+        "inner_text": " ",
+        "inner_html": "&nbsp;"
+      },
+      {
+        "href": "https://www.apple.com/us/shop/goto/buy_tv/apple_tv_4k",
+        "inner_text": "Order",
+        "inner_html": "Order"
+      },
+      {
+        "href": "https://www.apple.com/us/shop/goto/trade_in",
+        "inner_text": " ",
+        "inner_html": "&nbsp;"
+      },
+      {
+        "href": "https://www.apple.com/apple-fitness-plus/",
+        "inner_text": " ",
+        "inner_html": "&nbsp;"
+      },
+      {
+        "href": "https://fitness.apple.com/subscribe?itscg=10000&itsct=fit-hero-hp_tile-apl-ann-201111",
+        "inner_text": "Try it free",
+        "inner_html": "Try it free"
+      },
+      {
+        "href": "https://www.apple.com/homepod/",
+        "inner_text": "HomePod",
+        "inner_html": "HomePod"
+      },
+      {
+        "href": "https://www.apple.com/ipod-touch/",
+        "inner_text": "iPod touch",
+        "inner_html": "iPod touch"
+      },
+      {
+        "href": "https://www.apple.com/us/shop/goto/buy_accessories",
+        "inner_text": "Accessories",
+        "inner_html": "Accessories"
+      },
+      {
+        "href": "https://www.apple.com/us/shop/goto/giftcards",
+        "inner_text": "Gift Cards",
+        "inner_html": "Gift Cards"
+      },
+      {
+        "href": "https://www.apple.com/apple-music/",
+        "inner_text": "Apple Music",
+        "inner_html": "Apple&nbsp;Music"
+      },
+      {
+        "href": "https://www.apple.com/apple-tv-plus/",
+        "inner_text": "Apple TV+",
+        "inner_html": "Apple&nbsp;TV+"
+      },
+      {
+        "href": "https://www.apple.com/apple-news/",
+        "inner_text": "Apple News+",
+        "inner_html": "Apple&nbsp;News+"
+      },
+      {
+        "href": "https://www.apple.com/apple-arcade/",
+        "inner_text": "Apple Arcade",
+        "inner_html": "Apple&nbsp;Arcade"
+      },
+      {
+        "href": "https://www.apple.com/icloud/",
+        "inner_text": "iCloud",
+        "inner_html": "iCloud"
+      },
+      {
+        "href": "https://www.apple.com/apple-one/",
+        "inner_text": "Apple One",
+        "inner_html": "Apple&nbsp;One"
+      },
+      {
+        "href": "https://www.apple.com/apple-card/",
+        "inner_text": "Apple Card",
+        "inner_html": "Apple&nbsp;Card"
+      },
+      {
+        "href": "https://www.apple.com/apple-books/",
+        "inner_text": "Apple Books",
+        "inner_html": "Apple&nbsp;Books"
+      },
+      {
+        "href": "https://www.apple.com/app-store/",
+        "inner_text": "App Store",
+        "inner_html": "App&nbsp;Store"
+      },
+      {
+        "href": "https://appleid.apple.com/us/",
+        "inner_text": "Manage Your Apple ID",
+        "inner_html": "Manage Your Apple&nbsp;ID"
+      },
+      {
+        "href": "https://www.apple.com/us/shop/goto/account",
+        "inner_text": "Apple Store Account",
+        "inner_html": "Apple Store Account"
+      },
+      {
+        "href": "https://www.icloud.com/",
+        "inner_text": "iCloud.com",
+        "inner_html": "iCloud.com"
+      },
+      {
+        "href": "https://www.apple.com/retail/",
+        "inner_text": "Find a Store",
+        "inner_html": "Find a Store"
+      },
+      {
+        "href": "https://www.apple.com/retail/geniusbar/",
+        "inner_text": "Genius Bar",
+        "inner_html": "Genius Bar"
+      },
+      {
+        "href": "https://www.apple.com/today/",
+        "inner_text": "Today at Apple",
+        "inner_html": "Today at Apple"
+      },
+      {
+        "href": "https://www.apple.com/today/camp/",
+        "inner_text": "Apple Camp",
+        "inner_html": "Apple Camp"
+      },
+      {
+        "href": "https://apps.apple.com/us/app/apple-store/id375380948",
+        "inner_text": "Apple Store App",
+        "inner_html": "Apple Store App"
+      },
+      {
+        "href": "https://www.apple.com/us/shop/goto/special_deals",
+        "inner_text": "Refurbished and Clearance",
+        "inner_html": "Refurbished and Clearance"
+      },
+      {
+        "href": "https://www.apple.com/us/shop/goto/payment_plan",
+        "inner_text": "Financing",
+        "inner_html": "Financing"
+      },
+      {
+        "href": "https://www.apple.com/us/shop/goto/order/list",
+        "inner_text": "Order Status",
+        "inner_html": "Order Status"
+      },
+      {
+        "href": "https://www.apple.com/us/shop/goto/help",
+        "inner_text": "Shopping Help",
+        "inner_html": "Shopping Help"
+      },
+      {
+        "href": "https://www.apple.com/business/",
+        "inner_text": "Apple and Business",
+        "inner_html": "Apple and Business"
+      },
+      {
+        "href": "https://www.apple.com/retail/business/",
+        "inner_text": "Shop for Business",
+        "inner_html": "Shop for Business"
+      },
+      {
+        "href": "https://www.apple.com/education/",
+        "inner_text": "Apple and Education",
+        "inner_html": "Apple and Education"
+      },
+      {
+        "href": "https://www.apple.com/education/k12/how-to-buy/",
+        "inner_text": "Shop for K-12",
+        "inner_html": "Shop for K-12"
+      },
+      {
+        "href": "https://www.apple.com/us/shop/goto/educationrouting",
+        "inner_text": "Shop for College",
+        "inner_html": "Shop for College"
+      },
+      {
+        "href": "https://www.apple.com/healthcare/",
+        "inner_text": "Apple in Healthcare",
+        "inner_html": "Apple in Healthcare"
+      },
+      {
+        "href": "https://www.apple.com/healthcare/apple-watch/",
+        "inner_text": "Health on Apple Watch",
+        "inner_html": "Health on Apple&nbsp;Watch"
+      },
+      {
+        "href": "https://www.apple.com/healthcare/health-records/",
+        "inner_text": "Health Records on iPhone",
+        "inner_html": "Health Records on iPhone"
+      },
+      {
+        "href": "https://www.apple.com/r/store/government/",
+        "inner_text": "Shop for Government",
+        "inner_html": "Shop for Government"
+      },
+      {
+        "href": "https://www.apple.com/us/shop/goto/eppstore/veteransandmilitary",
+        "inner_text": "Shop for Veterans and Military",
+        "inner_html": "Shop for Veterans and Military"
+      },
+      {
+        "href": "https://www.apple.com/education/connectED/",
+        "inner_text": "Education",
+        "inner_html": "Education"
+      },
+      {
+        "href": "https://www.apple.com/environment/",
+        "inner_text": "Environment",
+        "inner_html": "Environment"
+      },
+      {
+        "href": "https://www.apple.com/diversity/",
+        "inner_text": "Inclusion and Diversity",
+        "inner_html": "Inclusion and Diversity"
+      },
+      {
+        "href": "https://www.apple.com/racial-equity-justice-initiative/",
+        "inner_text": "Racial Equity and Justice",
+        "inner_html": "Racial Equity and Justice"
+      },
+      {
+        "href": "https://www.apple.com/supplier-responsibility/",
+        "inner_text": "Supplier Responsibility",
+        "inner_html": "Supplier Responsibility"
+      },
+      {
+        "href": "https://www.apple.com/newsroom/",
+        "inner_text": "Newsroom",
+        "inner_html": "Newsroom"
+      },
+      {
+        "href": "https://www.apple.com/leadership/",
+        "inner_text": "Apple Leadership",
+        "inner_html": "Apple Leadership"
+      },
+      {
+        "href": "https://www.apple.com/careers/us/",
+        "inner_text": "Career Opportunities",
+        "inner_html": "Career Opportunities"
+      },
+      {
+        "href": "https://investor.apple.com/",
+        "inner_text": "Investors",
+        "inner_html": "Investors"
+      },
+      {
+        "href": "https://www.apple.com/compliance/",
+        "inner_text": "Ethics & Compliance",
+        "inner_html": "Ethics &amp; Compliance"
+      },
+      {
+        "href": "https://www.apple.com/apple-events/",
+        "inner_text": "Events",
+        "inner_html": "Events"
+      },
+      {
+        "href": "https://www.apple.com/contact/",
+        "inner_text": "Contact Apple",
+        "inner_html": "Contact Apple"
+      },
+      {
+        "href": "https://locate.apple.com/",
+        "inner_text": "other retailer",
+        "inner_html": "other retailer"
+      },
+      {
+        "href": "https://www.apple.com/choose-country-region/",
+        "inner_text": "United States",
+        "inner_html": "United States"
+      },
+      {
+        "href": "https://www.apple.com/legal/privacy/",
+        "inner_text": "Privacy Policy",
+        "inner_html": "Privacy Policy"
+      },
+      {
+        "href": "https://www.apple.com/legal/internet-services/terms/site.html",
+        "inner_text": "Terms of Use",
+        "inner_html": "Terms of Use"
+      },
+      {
+        "href": "https://www.apple.com/us/shop/goto/help/sales_refunds",
+        "inner_text": "Sales and Refunds",
+        "inner_html": "Sales and Refunds"
+      },
+      {
+        "href": "https://www.apple.com/legal/",
+        "inner_text": "Legal",
+        "inner_html": "Legal"
+      },
+      {
+        "href": "https://www.apple.com/sitemap/",
+        "inner_text": "Site Map",
+        "inner_html": "Site Map"
+      }
+    ],
+    "social": [],
+    "keywords": [
+      {
+        "href": "https://www.apple.com/privacy/",
+        "inner_text": " ",
+        "inner_html": "&nbsp;"
+      },
+      {
+        "href": "https://www.apple.com/legal/privacy/",
+        "inner_text": "Privacy Policy",
+        "inner_html": "Privacy Policy"
+      },
+      {
+        "href": "https://www.apple.com/legal/internet-services/terms/site.html",
+        "inner_text": "Terms of Use",
+        "inner_html": "Terms of Use"
+      },
+      {
+        "href": "https://www.apple.com/legal/",
+        "inner_text": "Legal",
+        "inner_html": "Legal"
+      }
+    ]
+  },
+  "unsafeForms": [],
+  "browsing_history": [
+    "https://www.apple.com/"
+  ],
+  "websockets": {},
+  "cookies": [
+    {
+      "name": "dssf",
+      "value": "1",
+      "domain": "apple.com",
+      "path": "/",
+      "expires": 1653061859.099754,
+      "size": 5,
+      "httpOnly": true,
+      "secure": true,
+      "session": false,
+      "expiresUTC": "2022-05-20T15:50:59.099Z",
+      "expiresDays": 365,
+      "firstPartyStorage": true
+    },
+    {
+      "name": "dssid2",
+      "value": "afd152aa-52ea-48c6-a67f-db35d8aca0f5",
+      "domain": "apple.com",
+      "path": "/",
+      "expires": 1653061859.0997,
+      "size": 42,
+      "httpOnly": true,
+      "secure": true,
+      "session": false,
+      "expiresUTC": "2022-05-20T15:50:59.099Z",
+      "expiresDays": 365,
+      "firstPartyStorage": true
+    },
+    {
+      "name": "mbox",
+      "value": "session#bcf8116855814664bcdd12d049a8041b#1621527719|PC#bcf8116855814664bcdd12d049a8041b.37_0#1621527660",
+      "domain": "apple.com",
+      "path": "/",
+      "expires": 1621527719,
+      "size": 107,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2021-05-20T16:21:59.000Z",
+      "expiresDays": 0.02,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 36108,
+            "lineNumber": 1,
+            "fileName": "https://www.apple.com/metrics/ac-target/latest/ac-target.js",
+            "functionName": "r",
+            "source": "    at r (https://www.apple.com/metrics/ac-target/latest/ac-target.js:1:36108)"
+          },
+          {
+            "columnNumber": 40003,
+            "lineNumber": 1,
+            "fileName": "https://www.apple.com/metrics/ac-target/latest/ac-target.js",
+            "source": "    at https://www.apple.com/metrics/ac-target/latest/ac-target.js:1:40003"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T15:50:59.903Z",
+        "location": "https://www.apple.com/"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "s_vi",
+      "value": "[CS]v1|305342B18E7E3E1F-60000D97EF714E22[CE]",
+      "domain": "apple.com",
+      "path": "/",
+      "expires": 1621527664.02846,
+      "size": 48,
+      "httpOnly": false,
+      "secure": true,
+      "session": false,
+      "sameSite": "None",
+      "expiresUTC": "2021-05-20T16:21:04.028Z",
+      "expiresDays": 0.02,
+      "firstPartyStorage": true
+    },
+    {
+      "name": "s_fid",
+      "value": "446857294BC626D3-155CF0969F4E9269",
+      "domain": "apple.com",
+      "path": "/",
+      "expires": 1621527663,
+      "size": 38,
+      "httpOnly": false,
+      "secure": true,
+      "session": false,
+      "expiresUTC": "2021-05-20T16:21:03.000Z",
+      "expiresDays": 0.02,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 305003,
+            "lineNumber": 1,
+            "fileName": "https://www.apple.com/metrics/ac-analytics/2.13.0/scripts/ac-analytics.js",
+            "functionName": "window.AppMeasurement.t.c_w.t.cookieWrite",
+            "source": "    at window.AppMeasurement.t.c_w.t.cookieWrite (https://www.apple.com/metrics/ac-analytics/2.13.0/scripts/ac-analytics.js:1:305003)"
+          },
+          {
+            "columnNumber": 321189,
+            "lineNumber": 1,
+            "fileName": "https://www.apple.com/metrics/ac-analytics/2.13.0/scripts/ac-analytics.js",
+            "functionName": "window.AppMeasurement.t.Ob",
+            "source": "    at window.AppMeasurement.t.Ob (https://www.apple.com/metrics/ac-analytics/2.13.0/scripts/ac-analytics.js:1:321189)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T15:51:03.973Z",
+        "location": "https://www.apple.com/"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "as_dc",
+      "value": "ucp1",
+      "domain": "apple.com",
+      "path": "/",
+      "expires": 1621527659.099794,
+      "size": 9,
+      "httpOnly": false,
+      "secure": true,
+      "session": false,
+      "expiresUTC": "2021-05-20T16:20:59.099Z",
+      "expiresDays": 0.02,
+      "firstPartyStorage": true
+    },
+    {
+      "name": "geo",
+      "value": "ES",
+      "domain": "apple.com",
+      "path": "/",
+      "expires": -1,
+      "size": 5,
+      "httpOnly": false,
+      "secure": false,
+      "session": true,
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.apple.com/",
+            "source": "set in Set-Cookie HTTP response header for https://www.apple.com/"
+          }
+        ],
+        "type": "Cookie.HTTP",
+        "timestamp": "2021-05-20T15:50:58.445Z",
+        "location": "about:blank"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "at_check",
+      "value": "true",
+      "domain": "apple.com",
+      "path": "/",
+      "expires": -1,
+      "size": 12,
+      "httpOnly": false,
+      "secure": false,
+      "session": true,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 36108,
+            "lineNumber": 1,
+            "fileName": "https://www.apple.com/metrics/ac-target/latest/ac-target.js",
+            "functionName": "r",
+            "source": "    at r (https://www.apple.com/metrics/ac-target/latest/ac-target.js:1:36108)"
+          },
+          {
+            "columnNumber": 40267,
+            "lineNumber": 1,
+            "fileName": "https://www.apple.com/metrics/ac-target/latest/ac-target.js",
+            "source": "    at https://www.apple.com/metrics/ac-target/latest/ac-target.js:1:40267"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T15:50:58.722Z",
+        "location": "https://www.apple.com/"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "as_pcts",
+      "value": "PgQYH1eNbwK3Z+ou:gJhQ0Q02Omu-Sc0:nARaXZkJdlhM3g6:O+UdBNYS_CaVdP+BdqSuUkr45O_C",
+      "domain": "apple.com",
+      "path": "/",
+      "expires": -1,
+      "size": 84,
+      "httpOnly": true,
+      "secure": true,
+      "session": true,
+      "firstPartyStorage": true
+    },
+    {
+      "name": "s_cc",
+      "value": "true",
+      "domain": "apple.com",
+      "path": "/",
+      "expires": -1,
+      "size": 8,
+      "httpOnly": false,
+      "secure": true,
+      "session": true,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 305003,
+            "lineNumber": 1,
+            "fileName": "https://www.apple.com/metrics/ac-analytics/2.13.0/scripts/ac-analytics.js",
+            "functionName": "window.AppMeasurement.t.c_w.t.cookieWrite",
+            "source": "    at window.AppMeasurement.t.c_w.t.cookieWrite (https://www.apple.com/metrics/ac-analytics/2.13.0/scripts/ac-analytics.js:1:305003)"
+          },
+          {
+            "columnNumber": 315553,
+            "lineNumber": 1,
+            "fileName": "https://www.apple.com/metrics/ac-analytics/2.13.0/scripts/ac-analytics.js",
+            "functionName": "window.AppMeasurement.t.Sb",
+            "source": "    at window.AppMeasurement.t.Sb (https://www.apple.com/metrics/ac-analytics/2.13.0/scripts/ac-analytics.js:1:315553)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T15:50:59.422Z",
+        "location": "https://www.apple.com/"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "pt-dm",
+      "value": "v1~x~parxu5if~n~apple - index/tab (us)",
+      "domain": "www.apple.com",
+      "path": "/",
+      "expires": -1,
+      "size": 43,
+      "httpOnly": false,
+      "secure": true,
+      "session": true,
+      "sameSite": "Strict",
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 28827,
+            "lineNumber": 1,
+            "fileName": "https://www.apple.com/metrics/ac-analytics/2.13.0/scripts/ac-analytics.js",
+            "functionName": "Object.set cookie [as cookie]",
+            "source": "    at Object.set cookie [as cookie] (https://www.apple.com/metrics/ac-analytics/2.13.0/scripts/ac-analytics.js:1:28827)"
+          },
+          {
+            "columnNumber": 29141,
+            "lineNumber": 1,
+            "fileName": "https://www.apple.com/metrics/ac-analytics/2.13.0/scripts/ac-analytics.js",
+            "functionName": "b",
+            "source": "    at b (https://www.apple.com/metrics/ac-analytics/2.13.0/scripts/ac-analytics.js:1:29141)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T15:50:59.433Z",
+        "location": "https://www.apple.com/"
+      },
+      "firstPartyStorage": false
+    },
+    {
+      "name": "mk_epub",
+      "value": "%7B%22btuid%22%3A%221yh4z1a%22%2C%22prop57%22%3A%22www.us.homepage%22%7D",
+      "domain": "apple.com",
+      "path": "/",
+      "expires": -1,
+      "size": 79,
+      "httpOnly": false,
+      "secure": true,
+      "session": true,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 75027,
+            "lineNumber": 1,
+            "fileName": "https://www.apple.com/metrics/ac-analytics/2.13.0/scripts/ac-analytics.js",
+            "functionName": "d",
+            "source": "    at d (https://www.apple.com/metrics/ac-analytics/2.13.0/scripts/ac-analytics.js:1:75027)"
+          },
+          {
+            "columnNumber": 79251,
+            "lineNumber": 1,
+            "fileName": "https://www.apple.com/metrics/ac-analytics/2.13.0/scripts/ac-analytics.js",
+            "functionName": "Object.set",
+            "source": "    at Object.set (https://www.apple.com/metrics/ac-analytics/2.13.0/scripts/ac-analytics.js:1:79251)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T15:50:59.434Z",
+        "location": "https://www.apple.com/"
+      },
+      "firstPartyStorage": true
+    }
+  ],
+  "localStorage": {
+    "https://www.apple.com": {
+      "ac-storage-ac-store-cache": {
+        "value": {
+          "e": 3822,
+          "v": {
+            "ttl": 1621526038944,
+            "items": 0,
+            "cn": null,
+            "api": {
+              "flyout": "/%5Bstorefront%5D/shop/bag/flyout",
+              "addToBag": "/%5Bstorefront%5D/shop/bag/add?product=%5Bpart%5D"
+            },
+            "key": "SFX9YPYY9PPXCU9KH",
+            "sfLoc": "us"
+          }
+        },
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 62645,
+              "lineNumber": 1,
+              "fileName": "https://www.apple.com/ac/globalnav/6/en_US/scripts/ac-globalnav.built.js",
+              "functionName": "Object.setItem",
+              "source": "    at Object.setItem (https://www.apple.com/ac/globalnav/6/en_US/scripts/ac-globalnav.built.js:1:62645)"
+            },
+            {
+              "columnNumber": 59473,
+              "lineNumber": 1,
+              "fileName": "https://www.apple.com/ac/globalnav/6/en_US/scripts/ac-globalnav.built.js",
+              "functionName": "a.save",
+              "source": "    at a.save (https://www.apple.com/ac/globalnav/6/en_US/scripts/ac-globalnav.built.js:1:59473)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T15:50:59.384Z",
+          "location": "https://www.apple.com/"
+        }
+      },
+      "ls-opt-out": {
+        "value": {
+          "e": 3822,
+          "v": {
+            "dismissals": 0
+          }
+        },
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 42573,
+              "lineNumber": 1,
+              "fileName": "https://www.apple.com/ac/localeswitcher/3/en_US/scripts/localeswitcher.built.js",
+              "functionName": "Object.setItem",
+              "source": "    at Object.setItem (https://www.apple.com/ac/localeswitcher/3/en_US/scripts/localeswitcher.built.js:1:42573)"
+            },
+            {
+              "columnNumber": 39400,
+              "lineNumber": 1,
+              "fileName": "https://www.apple.com/ac/localeswitcher/3/en_US/scripts/localeswitcher.built.js",
+              "functionName": "a.save",
+              "source": "    at a.save (https://www.apple.com/ac/localeswitcher/3/en_US/scripts/localeswitcher.built.js:1:39400)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T15:50:59.406Z",
+          "location": "https://www.apple.com/"
+        }
+      },
+      "mk_epub_expiry": {
+        "value": 1621533059427,
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 79707,
+              "lineNumber": 1,
+              "fileName": "https://www.apple.com/metrics/ac-analytics/2.13.0/scripts/ac-analytics.js",
+              "functionName": "Object.q [as set]",
+              "source": "    at Object.q [as set] (https://www.apple.com/metrics/ac-analytics/2.13.0/scripts/ac-analytics.js:1:79707)"
+            },
+            {
+              "columnNumber": 9112,
+              "lineNumber": 1,
+              "fileName": "https://www.apple.com/metrics/ac-analytics/2.13.0/scripts/ac-analytics.js",
+              "functionName": "t",
+              "source": "    at t (https://www.apple.com/metrics/ac-analytics/2.13.0/scripts/ac-analytics.js:1:9112)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T15:50:59.434Z",
+          "location": "https://www.apple.com/"
+        }
+      },
+      "mk_epub": {
+        "value": {
+          "deferredBeacon": {
+            "prop57": "www.us.homepage",
+            "btuid": "1yh4z1a"
+          }
+        },
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 79707,
+              "lineNumber": 1,
+              "fileName": "https://www.apple.com/metrics/ac-analytics/2.13.0/scripts/ac-analytics.js",
+              "functionName": "q",
+              "source": "    at q (https://www.apple.com/metrics/ac-analytics/2.13.0/scripts/ac-analytics.js:1:79707)"
+            },
+            {
+              "columnNumber": 79956,
+              "lineNumber": 1,
+              "fileName": "https://www.apple.com/metrics/ac-analytics/2.13.0/scripts/ac-analytics.js",
+              "functionName": "Object.set",
+              "source": "    at Object.set (https://www.apple.com/metrics/ac-analytics/2.13.0/scripts/ac-analytics.js:1:79956)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T15:50:59.434Z",
+          "location": "https://www.apple.com/"
+        }
+      }
+    }
+  },
+  "beacons": [
+    {
+      "url": "https://securemetrics.apple.com/b/ss/appleglobal,applestoreww/1/JS-2.22.0/s15654845881435?AQB=1&ndh=1&pf=1&t=20%2F4%2F2021%2017%3A51%3A3%204%20-120&fid=446857294BC626D3-155CF0969F4E9269&ce=UTF-8&cdp=2&cl=1800&pageName=apple%20-%20index%2Ftab%20%28us%29&g=https%3A%2F%2Fwww.apple.com%2F&cc=USD&events=event406&h1=www.us.homepage&l3=D%3Das_tex&v4=D%3DpageName&v14=en-us&v54=D%3Dg&v97=s.tl-o&pe=lnk_o&pev2=end%20of%20page&s=1680x927&c=24&j=1.6&v=N&k=Y&bw=1680&bh=927&AQE=1",
+      "query": {
+        "AQB": 1,
+        "ndh": 1,
+        "pf": 1,
+        "t": "20/4/2021 17:51:3 4 -120",
+        "fid": "446857294BC626D3-155CF0969F4E9269",
+        "ce": "UTF-8",
+        "cdp": 2,
+        "cl": 1800,
+        "pageName": "apple - index/tab (us)",
+        "g": "https://www.apple.com/",
+        "cc": "USD",
+        "events": "event406",
+        "h1": "www.us.homepage",
+        "l3": "D=as_tex",
+        "v4": "D=pageName",
+        "v14": "en-us",
+        "v54": "D=g",
+        "v97": "s.tl-o",
+        "pe": "lnk_o",
+        "pev2": "end of page",
+        "s": "1680x927",
+        "c": 24,
+        "j": 1.6,
+        "v": "N",
+        "k": "Y",
+        "bw": 1680,
+        "bh": 927,
+        "AQE": 1
+      },
+      "filter": "/b/ss/*/JS-",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.apple.com/",
+            "source": "requested from https://www.apple.com/ and matched with easyprivacy.txt filter /b/ss/*/JS-"
+          }
+        ],
+        "timestamp": "2021-05-20T15:51:03.999Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://securemetrics.apple.com/b/ss/appleglobal,applestoreww/1/JS-2.22.0/s18868695817703?AQB=1&ndh=1&pf=1&t=20%2F4%2F2021%2017%3A51%3A3%204%20-120&fid=446857294BC626D3-155CF0969F4E9269&ce=UTF-8&cdp=2&cl=1800&pageName=apple%20-%20index%2Ftab%20%28us%29&g=https%3A%2F%2Fwww.apple.com%2F&cc=USD&events=event243%3D3.99%2Cevent244&h1=www.us.homepage&l3=D%3Das_tex&v4=D%3DpageName&v14=en-us&c34=1.%20apple%20-%20index%2Ftab%20-%20hero-gaad%20-%20section%20engaged%20.1&c35=3.99&v54=D%3Dg&v57=no%20tests%20found&v97=s.tl-o&pe=lnk_o&pev2=1.%20apple%20-%20index%2Ftab%20-%20hero-gaad%20-%20section%20engaged%20.1&s=1680x927&c=24&j=1.6&v=N&k=Y&bw=1680&bh=927&lrt=526&AQE=1",
+      "query": {
+        "AQB": 1,
+        "ndh": 1,
+        "pf": 1,
+        "t": "20/4/2021 17:51:3 4 -120",
+        "fid": "446857294BC626D3-155CF0969F4E9269",
+        "ce": "UTF-8",
+        "cdp": 2,
+        "cl": 1800,
+        "pageName": "apple - index/tab (us)",
+        "g": "https://www.apple.com/",
+        "cc": "USD",
+        "events": "event243=3.99,event244",
+        "h1": "www.us.homepage",
+        "l3": "D=as_tex",
+        "v4": "D=pageName",
+        "v14": "en-us",
+        "c34": "1. apple - index/tab - hero-gaad - section engaged .1",
+        "c35": 3.99,
+        "v54": "D=g",
+        "v57": "no tests found",
+        "v97": "s.tl-o",
+        "pe": "lnk_o",
+        "pev2": "1. apple - index/tab - hero-gaad - section engaged .1",
+        "s": "1680x927",
+        "c": 24,
+        "j": 1.6,
+        "v": "N",
+        "k": "Y",
+        "bw": 1680,
+        "bh": 927,
+        "lrt": 526,
+        "AQE": 1
+      },
+      "filter": "/b/ss/*/JS-",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.apple.com/",
+            "source": "requested from https://www.apple.com/ and matched with easyprivacy.txt filter /b/ss/*/JS-"
+          }
+        ],
+        "timestamp": "2021-05-20T15:51:03.952Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://securemetrics.apple.com/b/ss/appleglobal,applestoreww/1/JS-2.22.0/s11527479975081?AQB=1&pccr=true&vidn=305342B18E7E3E1F-60000D97EF714E22&ndh=1&pf=1&t=20%2F4%2F2021%2017%3A50%3A59%204%20-120&fid=446857294BC626D3-155CF0969F4E9269&ce=UTF-8&cdp=2&cl=1800&pageName=apple%20-%20index%2Ftab%20%28us%29&g=https%3A%2F%2Fwww.apple.com%2F&cc=USD&ch=www.us.homepage&server=ac-2.13.0&h1=www.us.homepage&v3=aos%3A%20us&l3=D%3Das_tex&c4=D%3Dg&v4=D%3DpageName&v14=en-us&c19=aos%3A%20us%3A%20apple%20-%20index%2Ftab%20%28us%29&c20=aos%3A%20us&v54=D%3Dg&v97=s.t-p&s=1680x927&c=24&j=1.6&v=N&k=Y&bw=1680&bh=927&AQE=1",
+      "query": {
+        "AQB": 1,
+        "pccr": true,
+        "vidn": "305342B18E7E3E1F-60000D97EF714E22",
+        "ndh": 1,
+        "pf": 1,
+        "t": "20/4/2021 17:50:59 4 -120",
+        "fid": "446857294BC626D3-155CF0969F4E9269",
+        "ce": "UTF-8",
+        "cdp": 2,
+        "cl": 1800,
+        "pageName": "apple - index/tab (us)",
+        "g": "https://www.apple.com/",
+        "cc": "USD",
+        "ch": "www.us.homepage",
+        "server": "ac-2.13.0",
+        "h1": "www.us.homepage",
+        "v3": "aos: us",
+        "l3": "D=as_tex",
+        "c4": "D=g",
+        "v4": "D=pageName",
+        "v14": "en-us",
+        "c19": "aos: us: apple - index/tab (us)",
+        "c20": "aos: us",
+        "v54": "D=g",
+        "v97": "s.t-p",
+        "s": "1680x927",
+        "c": 24,
+        "j": 1.6,
+        "v": "N",
+        "k": "Y",
+        "bw": 1680,
+        "bh": 927,
+        "AQE": 1
+      },
+      "filter": "/b/ss/*/JS-",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.apple.com/",
+            "source": "requested from https://www.apple.com/ and matched with easyprivacy.txt filter /b/ss/*/JS-"
+          }
+        ],
+        "timestamp": "2021-05-20T15:50:59.911Z"
+      },
+      "occurrances": 2
+    }
+  ],
+  "hosts": {
+    "requests": {
+      "firstParty": [
+        "apple.com"
+      ],
+      "thirdParty": [
+        "www.apple.com",
+        "securemetrics.apple.com",
+        "securemvt.apple.com"
+      ]
+    },
+    "beacons": {
+      "firstParty": [],
+      "thirdParty": [
+        "securemetrics.apple.com"
+      ]
+    },
+    "cookies": {
+      "firstParty": [
+        "apple.com"
+      ],
+      "thirdParty": [
+        "www.apple.com"
+      ]
+    },
+    "localStorage": {
+      "firstParty": [],
+      "thirdParty": [
+        "www.apple.com"
+      ]
+    },
+    "links": {
+      "firstParty": [],
+      "thirdParty": [
+        "www.apple.com",
+        "support.apple.com",
+        "contactretail.apple.com",
+        "fitness.apple.com",
+        "appleid.apple.com",
+        "www.icloud.com",
+        "apps.apple.com",
+        "investor.apple.com",
+        "locate.apple.com"
+      ]
+    }
+  }
+}

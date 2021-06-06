@@ -1,0 +1,1207 @@
+{
+  "title": "Website Evidence Collection",
+  "task_description": null,
+  "uri_ins": "https://tokyvideo.com",
+  "uri_refs": [
+    "https://tokyvideo.com"
+  ],
+  "uri_dest": "https://www.tokyvideo.com/",
+  "uri_redirects": [
+    "https://tokyvideo.com/"
+  ],
+  "secure_connection": {
+    "https_support": true,
+    "redirects": [
+      "https://tokyvideo.com/",
+      "https://www.tokyvideo.com/"
+    ],
+    "https_redirect": true
+  },
+  "host": "tokyvideo.com",
+  "script": {
+    "host": "sfod",
+    "version": {
+      "npm": "1.0.0",
+      "commit": null
+    },
+    "cmd_args": "-q --overwrite https://tokyvideo.com -- --ignore-certificate-errors",
+    "environment": {
+      "CHROME_DESKTOP": "code-url-handler.desktop"
+    },
+    "node_version": "v14.17.0"
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "HeadlessChrome/80.0.3987.0",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3617.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "5.8.0-53-generic"
+    },
+    "extra_headers": {},
+    "preset_cookies": {}
+  },
+  "start_time": "2021-05-20T18:05:17.237Z",
+  "end_time": "2021-05-20T18:05:25.510Z",
+  "links": {
+    "firstParty": [],
+    "thirdParty": [
+      {
+        "href": "https://www.tokyvideo.com/",
+        "inner_text": "",
+        "inner_html": "<svg class=\"isologo\" xmlns=\"http://www.w3.org/2000/svg\" width=\"314\" height=\"68\" viewBox=\"0 0 314.57 68.5\">\n<path class=\"logo-accent\" d=\"M68.5 34.25A34.25 34.25 0 1 1 34.25 0 34.24 34.24 0 0 1 68.5 34.25zm143.62-12a5.08 5.08 0 0 0 5.16-5.25A5.14 5.14 0 1 0 207 17a5 5 0 0 0 5.12 5.2z\"></path>\n<path class=\"logo-text\" d=\"M27.9 34.05h12.7a6.67 6.67 0 0 0 6.67-6.66V14.68A6.67 6.67 0 0 0 40.6 8h-5.22l1.37-1.39a2.3 2.3 0 1 0-3.28-3.21C31.73 5.18 29.83 7.1 28.9 8h-1a6.67 6.67 0 0 0-6.67 6.67v12.72a6.67 6.67 0 0 0 6.67 6.66zm12.7-4.59H27.9a2.07 2.07 0 0 1-2.07-2.07v-4.06h16.84v4.06a2.07 2.07 0 0 1-2.07 2.07zM27.9 12.61h12.7a2.07 2.07 0 0 1 2.07 2.07v4.05H25.83v-4.05a2.07 2.07 0 0 1 2.07-2.07zM4.07 8.92a2.3 2.3 0 0 1 3.25-3.25L17 15.38a2.29 2.29 0 0 1 0 3.25 2.31 2.31 0 0 1-3.25 0zm0 27.47a2.28 2.28 0 0 1 0-3.24l9.71-9.72A2.3 2.3 0 1 1 17 26.68l-9.68 9.71a2.28 2.28 0 0 1-3.25 0zm47.46-17.76a2.29 2.29 0 0 1 0-3.25l9.72-9.71a2.3 2.3 0 0 1 3.25 3.25l-9.72 9.71a2.31 2.31 0 0 1-3.25 0zm0 8.05a2.3 2.3 0 0 1 3.25-3.25l9.72 9.72a2.29 2.29 0 1 1-3.25 3.24zm15.62 36.55a2.3 2.3 0 0 1-2.06 2.51h-1.16c-2.48 0-8.71-.45-16.94-4.36a30.54 30.54 0 0 1-10.44-7.85v9.92a2.3 2.3 0 0 1-4.6 0v-9.88a30.54 30.54 0 0 1-10.44 7.85c-8.23 3.91-14.46 4.36-16.94 4.36H3.41a2.3 2.3 0 0 1 .44-4.57c.11 0 6.45.49 15.69-3.91 6.82-3.23 10-7.57 11.39-10.36H9.4a2.3 2.3 0 0 1 0-4.6H32V39a2.3 2.3 0 0 1 4.6 0v3.3h19.64a2.3 2.3 0 0 1 0 4.6H37.57C39 49.68 42.14 54 49 57.26c9.39 4.47 15.62 3.92 15.68 3.91a2.3 2.3 0 0 1 2.47 2.06zm27.92-38.31h4.26v6.19h-4.26V41c0 2.11 1.34 2.62 2.81 2.62a10.46 10.46 0 0 0 1.21-.05v6.53a10.81 10.81 0 0 1-2.77.28c-5.36 0-8.48-2.62-8.48-9.78v-9.49h-2.51v-6.19h2.51v-5.09h7.23zm19.8.4c-7 0-12.34 5.42-12.34 12.71s5.11 12.58 12.34 12.58 12.47-5.42 12.47-12.67-5.15-12.62-12.47-12.62zm0 18.54c-2.94 0-5.11-2.34-5.11-5.83s2.12-6 5.11-6 5.24 2.34 5.24 5.87-2.25 5.96-5.24 5.96zm30.84-6.93L153.63 50h-8.48l-6.37-11.24V50h-7.22V18.83h7.22V35.6l6.15-9.68H153zm25.33-11h7.53l-11.25 32.3h-6.84l3.07-9-8.48-23.31h7.75l4 13.86zm26 0h7.53L196.93 50h-8.4l-7.79-24.09h7.75l4.28 16zm11.51 0h7.23V50h-7.23zm28.79 1.83a8.21 8.21 0 0 0-6.06-2.43c-6.58 0-10.74 5.19-10.74 12.67s4.59 12.62 11.13 12.62a8.31 8.31 0 0 0 6.14-2.48V50h6.76V18.83h-7.23zm-4.68 16.16c-2.9 0-4.89-2.3-4.89-5.88s2-6 4.89-6 4.89 2.15 4.89 6c.02 3.21-1.75 5.87-4.87 5.87zm27.83-18.59c-6.66 0-11.16 5.65-11.16 12.71s4.59 12.58 12.07 12.58a10.78 10.78 0 0 0 9.66-5.33l-4.77-3.9a5.77 5.77 0 0 1-4.74 2.61 4.58 4.58 0 0 1-4.8-4h14.89v-1.51c.04-8.26-3.9-13.17-11.13-13.17zM257 35.1a3.69 3.69 0 0 1 3.68-3.58 3.57 3.57 0 0 1 3.67 3.58zm30.51-9.78c-7 0-12.33 5.42-12.33 12.71s5.1 12.58 12.33 12.58S300 45.19 300 37.94s-5.2-12.62-12.52-12.62zm0 18.54c-2.94 0-5.1-2.34-5.1-5.83s2.12-6 5.1-6 5.24 2.34 5.24 5.87-2.28 5.96-5.27 5.96zm27.09.55a5.14 5.14 0 1 1-5.16-5.3 5.08 5.08 0 0 1 5.13 5.3z\"></path>\n</svg>"
+      },
+      {
+        "href": "https://www.tokyvideo.com/login",
+        "inner_text": "Login",
+        "inner_html": "<span class=\"icon-user-1 icon\"></span>\n<span class=\"texto\">Login</span>"
+      },
+      {
+        "href": "https://www.tokyvideo.com/video/nba-arrives-to-fortnite-nba-x-fortnite",
+        "inner_text": "00:40",
+        "inner_html": "<img alt=\"NBA arrives to Fortnite | NBA x Fortnite\" class=\"lazy\" src=\"https://img7.tokyvideo.com/videos/717/71701/thumbs/thumbs_0007.jpg\" width=\"332px\" height=\"186px\" data-loaded=\"true\">\n<span class=\"duracion\">\n00:40\n</span>"
+      },
+      {
+        "href": "https://www.tokyvideo.com/series/tokyvideo-trends",
+        "inner_text": "\n\n\n\n\n\n",
+        "inner_html": "<picture>\n<source srcset=\"data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==\" media=\"(min-width: 545px)\">\n<source srcset=\"https://img3.tokyvideo.com/series/thumbs/75cb8025e4a2b1868d13c027195cdd5bddf2e29bbe1d29ac992dda6764ed3ac9.jpg\" media=\"(min-width: 230px)\">\n<img srcset=\"data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==\" alt=\"Tokyvideo Trends\" width=\"35\" height=\"35\">\n</picture>"
+      },
+      {
+        "href": "https://www.tokyvideo.com/video/dj-khaled-feat-bryson-tiller-lil-baby-roddy-ricch-body-in-motion-official-video",
+        "inner_text": "",
+        "inner_html": "<img alt=\"DJ Khaled feat  Bryson Tiller, Lil Baby, Roddy Ricch- BODY IN MOTION (Official Video)\" class=\"lazy\" src=\"https://img7.tokyvideo.com/videos/715/71599/thumbs/thumbs_0000.jpg\" width=\"332px\" height=\"186px\" data-loaded=\"true\">"
+      },
+      {
+        "href": "https://www.tokyvideo.com/video/rosalia-y-oneohtrix-point-never-nothing-special-official-audio",
+        "inner_text": "",
+        "inner_html": "<img alt=\"Rosalía y Oneohtrix Point Never - Nothing Special (Official Audio)\" class=\"lazy\" src=\"https://img7.tokyvideo.com/videos/715/71578/thumbs/thumbs_0000.jpg\" width=\"332px\" height=\"186px\" data-loaded=\"true\">"
+      },
+      {
+        "href": "https://www.tokyvideo.com/video/highlights-la-lakers-vs-golden-state-warriors-103-100-19-5-2021",
+        "inner_text": "",
+        "inner_html": "<img alt=\"Highlights LA Lakers vs Golden State Warriors (103-100) - 19-5-2021\" class=\"lazy\" src=\"https://img7.tokyvideo.com/videos/715/71577/thumbs/thumbs_0000.jpg\" width=\"332px\" height=\"186px\" data-loaded=\"true\">"
+      },
+      {
+        "href": "https://www.tokyvideo.com/video/the-best-plays-of-the-nba-2021-regular-season",
+        "inner_text": "",
+        "inner_html": "<img alt=\"The best plays of the NBA 2021 regular season\" class=\"lazy\" src=\"https://img7.tokyvideo.com/videos/714/71432/thumbs/thumbs_0000.jpg\" width=\"332px\" height=\"186px\" data-loaded=\"true\">"
+      },
+      {
+        "href": "https://www.tokyvideo.com/video/j-cole-amari-official-video",
+        "inner_text": "",
+        "inner_html": "<img alt=\"J. Cole - Amari (Official Video)\" class=\"lazy\" src=\"https://img7.tokyvideo.com/videos/713/71393/thumbs/thumbs_0000.jpg\" width=\"332px\" height=\"186px\" data-loaded=\"true\">"
+      },
+      {
+        "href": "https://www.tokyvideo.com/video/trailer-for-resident-evil-infinite-darkness",
+        "inner_text": "02:23",
+        "inner_html": "<img alt=\"Trailer for &quot;Resident Evil: Infinite Darkness&quot;\" class=\"lazy\" src=\"https://img7.tokyvideo.com/videos/713/71342/thumbs/thumbs_0010.jpg\" width=\"332px\" height=\"186px\" data-loaded=\"true\">\n<span class=\"duracion\">\n02:23\n</span>"
+      },
+      {
+        "href": "https://www.tokyvideo.com/video/nba-plays-of-the-night-5-18-2021",
+        "inner_text": "",
+        "inner_html": "<img alt=\"NBA Plays of the Night | 5-18-2021\" class=\"lazy\" src=\"https://img7.tokyvideo.com/videos/713/71319/thumbs/thumbs_0000.jpg\" width=\"332px\" height=\"186px\" data-loaded=\"true\">"
+      },
+      {
+        "href": "https://www.tokyvideo.com/video/natti-natasha-x-becky-g-ram-pam-pam-live-performance-on-the-tonight-show-starring-jimmy-fallon",
+        "inner_text": "",
+        "inner_html": "<img alt=\"Natti Natasha x Becky G - Ram Pam Pam | Live performance on The Tonight Show Starring Jimmy Fallon\" class=\"lazy\" src=\"https://img7.tokyvideo.com/videos/713/71317/thumbs/thumbs_0000.jpg\" width=\"332px\" height=\"186px\" data-loaded=\"true\">"
+      },
+      {
+        "href": "https://www.tokyvideo.com/video/highlights-boston-celtics-vs-washington-wizards-118-100-18-5-2021",
+        "inner_text": "",
+        "inner_html": "<img alt=\"Highlights Boston Celtics vs Washington Wizards (118-100) - 18-5-2021\" class=\"lazy\" src=\"https://img7.tokyvideo.com/videos/713/71315/thumbs/thumbs_0000.jpg\" width=\"332px\" height=\"186px\" data-loaded=\"true\">"
+      },
+      {
+        "href": "https://www.tokyvideo.com/video/aespa-next-level-official-music-video",
+        "inner_text": "",
+        "inner_html": "<img alt=\"Aespa - Next Level (Official Music Video)\" class=\"lazy\" src=\"https://img7.tokyvideo.com/videos/713/71312/thumbs/thumbs_0000.jpg\" width=\"332px\" height=\"186px\" data-loaded=\"true\">"
+      },
+      {
+        "href": "https://www.tokyvideo.com/video/bella-poarch-build-a-bitch-official-music-video",
+        "inner_text": "",
+        "inner_html": "<img alt=\"Bella Poarch - Build a Bitch (Official Music Video)\" class=\"lazy\" src=\"https://img7.tokyvideo.com/videos/708/70839/thumbs/thumbs_0000.jpg\" width=\"332px\" height=\"186px\" data-loaded=\"true\">"
+      },
+      {
+        "href": "https://www.tokyvideo.com/video/nba-plays-of-the-night-16-5-2021",
+        "inner_text": "",
+        "inner_html": "<img alt=\"NBA Plays of the Night | 16-5-2021\" class=\"lazy\" src=\"https://img7.tokyvideo.com/videos/707/70779/thumbs/thumbs_0000.jpg\" width=\"332px\" height=\"186px\" data-loaded=\"true\">"
+      },
+      {
+        "href": "https://www.tokyvideo.com/video/loki-introduces-agent-mobius-in-this-teaser",
+        "inner_text": "01:09",
+        "inner_html": "<img alt=\"&quot;Loki&quot; introduces Agent Mobius in this teaser\" class=\"lazy\" src=\"https://img7.tokyvideo.com/videos/707/70775/thumbs/thumbs_0011.jpg\" width=\"332px\" height=\"186px\" data-loaded=\"true\">\n<span class=\"duracion\">\n01:09\n</span>"
+      },
+      {
+        "href": "https://www.tokyvideo.com/video/black-widow-teaser-you-got-a-plan",
+        "inner_text": "01:10",
+        "inner_html": "<img alt=\"&quot;Black Widow&quot; teaser | You got a plan?\" class=\"lazy\" src=\"https://img7.tokyvideo.com/videos/707/70753/thumbs/thumbs_0010.jpg\" width=\"332px\" height=\"186px\" data-loaded=\"true\">\n<span class=\"duracion\">\n01:10\n</span>"
+      },
+      {
+        "href": "https://www.tokyvideo.com/video/martin-garrix-bono-the-edge-we-are-the-people-official-euro-2020-song",
+        "inner_text": "",
+        "inner_html": "<img alt=\"Martin Garrix, Bono &amp; The Edge - We Are The People [Official Euro 2020 Song].\" class=\"lazy\" src=\"https://img.tokyvideo.com/videos/700/70060/thumbs/thumbs_0000.jpg\" width=\"332px\" height=\"186px\" data-loaded=\"true\">"
+      },
+      {
+        "href": "https://www.tokyvideo.com/signup",
+        "inner_text": "Create your account",
+        "inner_html": "<span>Create your account</span>"
+      },
+      {
+        "href": "https://www.tokyvideo.com/es",
+        "inner_text": "\nEspañol\n",
+        "inner_html": "Español"
+      },
+      {
+        "href": "https://www.tokyvideo.com/it",
+        "inner_text": "\nItaliano\n",
+        "inner_html": "Italiano"
+      },
+      {
+        "href": "https://www.tokyvideo.com/fr",
+        "inner_text": "\nFrançais\n",
+        "inner_html": "Français"
+      },
+      {
+        "href": "https://www.tokyvideo.com/contact",
+        "inner_text": "Contact",
+        "inner_html": "Contact"
+      },
+      {
+        "href": "https://www.tokyvideo.com/tos",
+        "inner_text": "Terms and Conditions",
+        "inner_html": "Terms and Conditions"
+      },
+      {
+        "href": "https://www.tokyvideo.com/legal",
+        "inner_text": "Legal Notice",
+        "inner_html": "Legal Notice"
+      },
+      {
+        "href": "https://www.tokyvideo.com/cookies-policy",
+        "inner_text": "Cookies Policy",
+        "inner_html": "Cookies Policy"
+      },
+      {
+        "href": "https://www.tokyvideo.com/dmca",
+        "inner_text": "DMCA",
+        "inner_html": "DMCA"
+      },
+      {
+        "href": "https://www.tokyvideo.com/series",
+        "inner_text": " Series\n",
+        "inner_html": "<span class=\"icon-series icon-menu-left\"></span> Series"
+      },
+      {
+        "href": "https://www.tokyvideo.com/categories",
+        "inner_text": " Categories\n",
+        "inner_html": "<span class=\"icon-folder-open-1 icon-menu-left\"></span> Categories"
+      },
+      {
+        "href": "https://www.tokyvideo.com/tv-commercials",
+        "inner_text": "TV Commercials",
+        "inner_html": "TV Commercials"
+      },
+      {
+        "href": "https://www.tokyvideo.com/vegetable-gardens",
+        "inner_text": "Vegetable Gardens",
+        "inner_html": "Vegetable Gardens"
+      },
+      {
+        "href": "https://www.tokyvideo.com/movies-others",
+        "inner_text": "Movies (Others)",
+        "inner_html": "Movies (Others)"
+      },
+      {
+        "href": "https://www.tokyvideo.com/retrogaming",
+        "inner_text": "RetroGaming",
+        "inner_html": "RetroGaming"
+      },
+      {
+        "href": "https://www.tokyvideo.com/trends",
+        "inner_text": "Trends",
+        "inner_html": "Trends"
+      },
+      {
+        "href": "https://www.consentframework.com/",
+        "inner_text": "websites",
+        "inner_html": "websites"
+      }
+    ],
+    "social": [],
+    "keywords": [
+      {
+        "href": "https://www.tokyvideo.com/login",
+        "inner_text": "Login",
+        "inner_html": "<span class=\"icon-user-1 icon\"></span>\n<span class=\"texto\">Login</span>"
+      },
+      {
+        "href": "https://www.tokyvideo.com/legal",
+        "inner_text": "Legal Notice",
+        "inner_html": "Legal Notice"
+      }
+    ]
+  },
+  "unsafeForms": [],
+  "browsing_history": [
+    "https://www.tokyvideo.com/"
+  ],
+  "websockets": {},
+  "cookies": [
+    {
+      "name": "lang",
+      "value": "en_US",
+      "domain": "tokyvideo.com",
+      "path": "/",
+      "expires": 4775137517.877755,
+      "size": 9,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2121-04-26T19:05:17.877Z",
+      "expiresDays": 36500.04,
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.tokyvideo.com/",
+            "source": "set in Set-Cookie HTTP response header for https://www.tokyvideo.com/"
+          }
+        ],
+        "type": "Cookie.HTTP",
+        "timestamp": "2021-05-20T18:05:17.884Z",
+        "location": "about:blank"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "guest_id",
+      "value": "yqmL6TUykfsmbk46zlHn4qvgXEqxMdcw",
+      "domain": "tokyvideo.com",
+      "path": "/",
+      "expires": 4775133918,
+      "size": 40,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2121-04-26T18:05:18.000Z",
+      "expiresDays": 36500,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 138601,
+            "lineNumber": 1,
+            "fileName": "https://www.tokyvideo.com/build/js/global-38e4a2f546.js",
+            "functionName": "Function.i [as set]",
+            "source": "    at Function.i [as set] (https://www.tokyvideo.com/build/js/global-38e4a2f546.js:1:138601)"
+          },
+          {
+            "columnNumber": 1046,
+            "lineNumber": 1,
+            "fileName": "https://www.tokyvideo.com/build/js/global-38e4a2f546.js",
+            "functionName": "setGuestCookieIfNeeded",
+            "source": "    at setGuestCookieIfNeeded (https://www.tokyvideo.com/build/js/global-38e4a2f546.js:1:1046)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T18:05:18.449Z",
+        "location": "https://www.tokyvideo.com/"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "url_type",
+      "value": "home",
+      "domain": "tokyvideo.com",
+      "path": "/",
+      "expires": 4775133918,
+      "size": 12,
+      "httpOnly": false,
+      "secure": true,
+      "session": false,
+      "sameSite": "None",
+      "expiresUTC": "2121-04-26T18:05:18.000Z",
+      "expiresDays": 36500,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 138601,
+            "lineNumber": 1,
+            "fileName": "https://www.tokyvideo.com/build/js/global-38e4a2f546.js",
+            "functionName": "Function.i [as set]",
+            "source": "    at Function.i [as set] (https://www.tokyvideo.com/build/js/global-38e4a2f546.js:1:138601)"
+          },
+          {
+            "columnNumber": 1193,
+            "lineNumber": 1,
+            "fileName": "https://www.tokyvideo.com/build/js/global-38e4a2f546.js",
+            "functionName": "setGuestCookieIfNeeded",
+            "source": "    at setGuestCookieIfNeeded (https://www.tokyvideo.com/build/js/global-38e4a2f546.js:1:1193)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T18:05:18.450Z",
+        "location": "https://www.tokyvideo.com/"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "_ga_EMTGPY0ZJF",
+      "value": "GS1.1.1621533918.1.0.1621533924.0",
+      "domain": "tokyvideo.com",
+      "path": "/",
+      "expires": 1684605924,
+      "size": 47,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2023-05-20T18:05:24.000Z",
+      "expiresDays": 730,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 1438,
+            "lineNumber": 419,
+            "fileName": "https://www.googletagmanager.com/gtag/js?id=G-EMTGPY0ZJF&l=dataLayer&cx=c",
+            "functionName": "Gi",
+            "source": "    at Gi (https://www.googletagmanager.com/gtag/js?id=G-EMTGPY0ZJF&l=dataLayer&cx=c:419:1438)"
+          },
+          {
+            "columnNumber": 234,
+            "lineNumber": 421,
+            "fileName": "https://www.googletagmanager.com/gtag/js?id=G-EMTGPY0ZJF&l=dataLayer&cx=c",
+            "functionName": "Ki",
+            "source": "    at Ki (https://www.googletagmanager.com/gtag/js?id=G-EMTGPY0ZJF&l=dataLayer&cx=c:421:234)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T18:05:24.056Z",
+        "location": "https://www.tokyvideo.com/"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "FPID",
+      "value": "FPID1.2.G1eqDedAGR0%2FFo5j0rzcjDnQIVhVBA9kytLDptxANGs%3D.1621533919",
+      "domain": "tokyvideo.com",
+      "path": "/",
+      "expires": 1684605918.963467,
+      "size": 71,
+      "httpOnly": true,
+      "secure": true,
+      "session": false,
+      "expiresUTC": "2023-05-20T18:05:18.963Z",
+      "expiresDays": 730,
+      "firstPartyStorage": true
+    },
+    {
+      "name": "_ga_X0B1Z1R2DL",
+      "value": "GS1.1.1621533918.1.0.1621533918.0",
+      "domain": "tokyvideo.com",
+      "path": "/",
+      "expires": 1684605918,
+      "size": 47,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2023-05-20T18:05:18.000Z",
+      "expiresDays": 730,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 1258,
+            "lineNumber": 173,
+            "fileName": "https://www.googletagmanager.com/gtag/js?id=G-X0B1Z1R2DL&l=dataLayer&cx=c",
+            "functionName": "Ef",
+            "source": "    at Ef (https://www.googletagmanager.com/gtag/js?id=G-X0B1Z1R2DL&l=dataLayer&cx=c:173:1258)"
+          },
+          {
+            "columnNumber": 179,
+            "lineNumber": 175,
+            "fileName": "https://www.googletagmanager.com/gtag/js?id=G-X0B1Z1R2DL&l=dataLayer&cx=c",
+            "functionName": "If",
+            "source": "    at If (https://www.googletagmanager.com/gtag/js?id=G-X0B1Z1R2DL&l=dataLayer&cx=c:175:179)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T18:05:18.626Z",
+        "location": "https://www.tokyvideo.com/"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "_ga",
+      "value": "GA1.2.1106080614.1621533919",
+      "domain": "tokyvideo.com",
+      "path": "/",
+      "expires": 1684605918,
+      "size": 30,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2023-05-20T18:05:18.000Z",
+      "expiresDays": 730,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 495,
+            "lineNumber": 30,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "zc",
+            "source": "    at zc (https://www.google-analytics.com/analytics.js:30:495)"
+          },
+          {
+            "columnNumber": 401,
+            "lineNumber": 59,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "ma",
+            "source": "    at ma (https://www.google-analytics.com/analytics.js:59:401)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T18:05:18.735Z",
+        "location": "https://www.tokyvideo.com/"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "_fbp",
+      "value": "fb.1.1621533918749.1563472451",
+      "domain": "tokyvideo.com",
+      "path": "/",
+      "expires": 1629309919,
+      "size": 33,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2021-08-18T18:05:19.000Z",
+      "expiresDays": 90,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 5326,
+            "lineNumber": 25,
+            "fileName": "https://connect.facebook.net/signals/config/206300610287756?v=2.9.39&r=stable",
+            "functionName": "C",
+            "source": "    at C (https://connect.facebook.net/signals/config/206300610287756?v=2.9.39&r=stable:25:5326)"
+          },
+          {
+            "columnNumber": 5633,
+            "lineNumber": 25,
+            "fileName": "https://connect.facebook.net/signals/config/206300610287756?v=2.9.39&r=stable",
+            "functionName": "D",
+            "source": "    at D (https://connect.facebook.net/signals/config/206300610287756?v=2.9.39&r=stable:25:5633)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T18:05:19.267Z",
+        "location": "https://www.tokyvideo.com/"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "sref",
+      "value": "",
+      "domain": "www.tokyvideo.com",
+      "path": "/",
+      "expires": 1624125919,
+      "size": 4,
+      "httpOnly": false,
+      "secure": true,
+      "session": false,
+      "sameSite": "None",
+      "expiresUTC": "2021-06-19T18:05:19.000Z",
+      "expiresDays": 30,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 221,
+            "lineNumber": 1,
+            "functionName": "window.setCookieGAP",
+            "source": "    at window.setCookieGAP (<anonymous>:1:221)"
+          },
+          {
+            "columnNumber": 348,
+            "lineNumber": 1,
+            "source": "    at <anonymous>:1:348"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T18:05:19.061Z",
+        "location": "https://www.tokyvideo.com/"
+      },
+      "firstPartyStorage": false
+    },
+    {
+      "name": "tokyvideo_session",
+      "value": "eyJpdiI6IjQ4UUUxSENIQ1BqVVdZN2R0NkoxVUE9PSIsInZhbHVlIjoiR1QrYmNvVVBnVUsxdG9abEpkUXprOHJ4WU1uRnB4RXlMcFFSV29tMXB0bXBxMzNGZldYY2FWZUt2eFQzMjNCYmFJcWJZZ0NobU1UeUNxSGVsQmN2cnc9PSIsIm1hYyI6IjliNDRjNGYwMzdmZjdkYTk2OWUwMDNlZWNhOTc0N2U0Nzk3YjZmMTI0MGExNmJkZDc4ZDJkZmU4YWYwYTdiMTMifQ%3D%3D",
+      "domain": "tokyvideo.com",
+      "path": "/",
+      "expires": 1622138724.621343,
+      "size": 297,
+      "httpOnly": true,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2021-05-27T18:05:24.621Z",
+      "expiresDays": 7,
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.tokyvideo.com/",
+            "source": "set in Set-Cookie HTTP response header for https://www.tokyvideo.com/"
+          }
+        ],
+        "type": "Cookie.HTTP",
+        "timestamp": "2021-05-20T18:05:17.884Z",
+        "location": "about:blank"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "XSRF-TOKEN",
+      "value": "eyJpdiI6Inp5SzFkdm9xTWZ4cGpFUkNBZXM2MHc9PSIsInZhbHVlIjoiQ0Z4MkRyaUlpN1ZHc292Z1VPNzhJem54c3NuSm1PYXhOR0lXRmJGdGRpRnpsSVpFZDJydTJ1Z3hIQk1haWl5dkczV0UrTXUyVWY4bVZnelwvM3daVHZBPT0iLCJtYWMiOiJmZWVmM2Y1ZThiZWQyZTBkOWYzZjM4OWFjYWIyYTQ1Y2UwNTUyYjVmNDAwYmNjN2FlMTU5MmZiYTVmOGU0YzczIn0%3D",
+      "domain": "tokyvideo.com",
+      "path": "/",
+      "expires": 1622138717.877554,
+      "size": 288,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2021-05-27T18:05:17.877Z",
+      "expiresDays": 7,
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.tokyvideo.com/",
+            "source": "set in Set-Cookie HTTP response header for https://www.tokyvideo.com/"
+          }
+        ],
+        "type": "Cookie.HTTP",
+        "timestamp": "2021-05-20T18:05:17.884Z",
+        "location": "about:blank"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "_gid",
+      "value": "GA1.2.1990409943.1621533919",
+      "domain": "tokyvideo.com",
+      "path": "/",
+      "expires": 1621620318,
+      "size": 31,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2021-05-21T18:05:18.000Z",
+      "expiresDays": 1,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 495,
+            "lineNumber": 30,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "zc",
+            "source": "    at zc (https://www.google-analytics.com/analytics.js:30:495)"
+          },
+          {
+            "columnNumber": 401,
+            "lineNumber": 59,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "ma",
+            "source": "    at ma (https://www.google-analytics.com/analytics.js:59:401)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T18:05:18.736Z",
+        "location": "https://www.tokyvideo.com/"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "sddan_cmp_third_party",
+      "value": "1",
+      "domain": "consentframework.com",
+      "path": "/",
+      "expires": 1621541118.695905,
+      "size": 22,
+      "httpOnly": false,
+      "secure": true,
+      "session": false,
+      "sameSite": "None",
+      "expiresUTC": "2021-05-20T20:05:18.695Z",
+      "expiresDays": 0.08,
+      "firstPartyStorage": false
+    },
+    {
+      "name": "numhits",
+      "value": "1",
+      "domain": "www.tokyvideo.com",
+      "path": "/",
+      "expires": 1621535719,
+      "size": 8,
+      "httpOnly": false,
+      "secure": true,
+      "session": false,
+      "sameSite": "None",
+      "expiresUTC": "2021-05-20T18:35:19.000Z",
+      "expiresDays": 0.02,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 200,
+            "lineNumber": 2,
+            "source": "    at <anonymous>:2:200"
+          },
+          {
+            "columnNumber": 414,
+            "lineNumber": 1975,
+            "fileName": "https://www.googletagmanager.com/gtm.js?id=GTM-TCHSXQF",
+            "source": "    at https://www.googletagmanager.com/gtm.js?id=GTM-TCHSXQF:1975:414"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T18:05:19.062Z",
+        "location": "https://www.tokyvideo.com/"
+      },
+      "firstPartyStorage": false
+    },
+    {
+      "name": "sessionhits",
+      "value": "1",
+      "domain": "www.tokyvideo.com",
+      "path": "/",
+      "expires": 1621535718,
+      "size": 12,
+      "httpOnly": false,
+      "secure": true,
+      "session": false,
+      "sameSite": "None",
+      "expiresUTC": "2021-05-20T18:35:18.000Z",
+      "expiresDays": 0.02,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 175,
+            "lineNumber": 13,
+            "source": "    at <anonymous>:13:175"
+          },
+          {
+            "columnNumber": 414,
+            "lineNumber": 1975,
+            "fileName": "https://www.googletagmanager.com/gtm.js?id=GTM-TCHSXQF",
+            "source": "    at https://www.googletagmanager.com/gtm.js?id=GTM-TCHSXQF:1975:414"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T18:05:18.581Z",
+        "location": "https://www.tokyvideo.com/"
+      },
+      "firstPartyStorage": false
+    },
+    {
+      "name": "_gat_UA-141042814-1",
+      "value": "1",
+      "domain": "tokyvideo.com",
+      "path": "/",
+      "expires": 1621533978,
+      "size": 20,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2021-05-20T18:06:18.000Z",
+      "expiresDays": 0,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 495,
+            "lineNumber": 30,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "zc",
+            "source": "    at zc (https://www.google-analytics.com/analytics.js:30:495)"
+          },
+          {
+            "columnNumber": 31,
+            "lineNumber": 73,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "Qd",
+            "source": "    at Qd (https://www.google-analytics.com/analytics.js:73:31)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T18:05:18.780Z",
+        "location": "https://www.tokyvideo.com/"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "refInicial",
+      "value": "directo",
+      "domain": "www.tokyvideo.com",
+      "path": "/",
+      "expires": -1,
+      "size": 17,
+      "httpOnly": false,
+      "secure": false,
+      "session": true,
+      "firstPartyStorage": false
+    }
+  ],
+  "localStorage": {
+    "https://www.tokyvideo.com": {
+      "sddan:cmp": {
+        "value": {
+          "cid": "efd87e15-b995-11eb-803d-02420a01350a",
+          "tc": "CPGgnC3PGgnC3BcAFBENBaCgAAAAAH_AAAiQHmAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPMAJMNS-AC7EscCSaNKoUQIQrCQ6AUAFFAMLRNYQMLAp2VwEeoIGACE1ARgRAgxBRiwCAAQCAJCIgJADwQCIAiAQAAgBUgIQAETAILACwMAgAFANCxAigCECQgyOCo5TAgIkWignkrAEou9jDCEMosAKBR_RUYCJQggWAAA"
+        },
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 445587,
+              "lineNumber": 1,
+              "fileName": "https://choices.consentframework.com/js/pa/25221/c/C194f/cmp",
+              "functionName": "e.update",
+              "source": "    at e.update (https://choices.consentframework.com/js/pa/25221/c/C194f/cmp:1:445587)"
+            },
+            {
+              "columnNumber": 445792,
+              "lineNumber": 1,
+              "fileName": "https://choices.consentframework.com/js/pa/25221/c/C194f/cmp",
+              "functionName": "e.updateTCString",
+              "source": "    at e.updateTCString (https://choices.consentframework.com/js/pa/25221/c/C194f/cmp:1:445792)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T18:05:19.246Z",
+          "location": "https://www.tokyvideo.com/"
+        }
+      }
+    }
+  },
+  "beacons": [
+    {
+      "url": "https://www.facebook.com/tr/?id=206300610287756&ev=Microdata&dl=https%3A%2F%2Fwww.tokyvideo.com%2F&rl=&if=false&ts=1621533919264&cd[DataLayer]=%5B%5D&cd[Meta]=%7B%22title%22%3A%22TokyVideo%20-%20Follow%20your%20favs%22%2C%22meta%3Adescription%22%3A%22The%20videos%20you%20like%20the%20most%20sorted%20by%20categories.%20Free%20original%20series%20in%20streaming%20for%20desktop%2C%20game%20console%2C%20Smart%20TV%2C%20Mac%2C%20mobile%20and%20tablet.%20Enjoy%20Tokyvideo.com%20everywhere!%22%7D&cd[OpenGraph]=%7B%7D&cd[Schema.org]=%5B%5D&cd[JSON-LD]=%5B%7B%22%40context%22%3A%22http%3A%2F%2Fschema.org%22%2C%22%40type%22%3A%22WebSite%22%2C%22url%22%3A%22https%3A%2F%2Fwww.tokyvideo.com%2F%22%2C%22potentialAction%22%3A%7B%22%40type%22%3A%22SearchAction%22%2C%22target%22%3A%22https%3A%2F%2Fwww.tokyvideo.com%2Fsearch%3Fq%3D%7Bquery%7D%26utm_source%3Dgoogle%26utm_medium%3Dorganic%26utm_campaign%3Dsearchbox%22%2C%22query-input%22%3A%22required%20name%3Dquery%22%7D%7D%5D&sw=1680&sh=927&v=2.9.39&r=stable&ec=1&o=30&fbp=fb.1.1621533918749.1563472451&it=1621533918658&coo=false&es=automatic&tm=3&exp=l1&rqm=GET",
+      "query": {
+        "id": 206300610287756,
+        "ev": "Microdata",
+        "dl": "https://www.tokyvideo.com/",
+        "rl": "",
+        "if": false,
+        "ts": 1621533919264,
+        "cd[DataLayer]": [],
+        "cd[Meta]": {
+          "title": "TokyVideo - Follow your favs",
+          "meta:description": "The videos you like the most sorted by categories. Free original series in streaming for desktop, game console, Smart TV, Mac, mobile and tablet. Enjoy Tokyvideo.com everywhere!"
+        },
+        "cd[OpenGraph]": {},
+        "cd[Schema.org]": [],
+        "cd[JSON-LD]": [
+          {
+            "@context": "http://schema.org",
+            "@type": "WebSite",
+            "url": "https://www.tokyvideo.com/",
+            "potentialAction": {
+              "@type": "SearchAction",
+              "target": "https://www.tokyvideo.com/search?q={query}&utm_source=google&utm_medium=organic&utm_campaign=searchbox",
+              "query-input": "required name=query"
+            }
+          }
+        ],
+        "sw": 1680,
+        "sh": 927,
+        "v": "2.9.39",
+        "r": "stable",
+        "ec": 1,
+        "o": 30,
+        "fbp": "fb.1.1621533918749.1563472451",
+        "it": 1621533918658,
+        "coo": false,
+        "es": "automatic",
+        "tm": 3,
+        "exp": "l1",
+        "rqm": "GET"
+      },
+      "filter": "||facebook.com/tr$third-party",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.tokyvideo.com/",
+            "source": "requested from https://www.tokyvideo.com/ and matched with easyprivacy.txt filter ||facebook.com/tr$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T18:05:19.272Z"
+      },
+      "occurrances": 2
+    },
+    {
+      "url": "https://js.cookieless-data.com/GS.d?pa=25221&uf_bday=&uf_gender=&cmp=0&u=https%3A%2F%2Fwww.tokyvideo.com%2F&r=&rand=1621533919126&gdpr=1&gdpr_consent=CPGgnC3PGgnC3BcAFBENBaCgAAAAAH_AAAiQHmAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPMAJMNS-AC7EscCSaNKoUQIQrCQ6AUAFFAMLRNYQMLAp2VwEeoIGACE1ARgRAgxBRiwCAAQCAJCIgJADwQCIAiAQAAgBUgIQAETAILACwMAgAFANCxAigCECQgyOCo5TAgIkWignkrAEou9jDCEMosAKBR_RUYCJQggWAAA&globalscope=false&cookieless_optout=0&tbp=true",
+      "query": {
+        "pa": 25221,
+        "uf_bday": "",
+        "uf_gender": "",
+        "cmp": 0,
+        "u": "https://www.tokyvideo.com/",
+        "r": "",
+        "rand": 1621533919126,
+        "gdpr": 1,
+        "gdpr_consent": "CPGgnC3PGgnC3BcAFBENBaCgAAAAAH_AAAiQHmAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPMAJMNS-AC7EscCSaNKoUQIQrCQ6AUAFFAMLRNYQMLAp2VwEeoIGACE1ARgRAgxBRiwCAAQCAJCIgJADwQCIAiAQAAgBUgIQAETAILACwMAgAFANCxAigCECQgyOCo5TAgIkWignkrAEou9jDCEMosAKBR_RUYCJQggWAAA",
+        "globalscope": false,
+        "cookieless_optout": 0,
+        "tbp": true
+      },
+      "filter": "&gdpr_consent=",
+      "listName": "fanboy-annoyance.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.tokyvideo.com/",
+            "source": "requested from https://www.tokyvideo.com/ and matched with fanboy-annoyance.txt filter &gdpr_consent="
+          }
+        ],
+        "timestamp": "2021-05-20T18:05:19.133Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j90&tid=UA-141042814-1&cid=1106080614.1621533919&jid=1045546616&gjid=1446903918&_gid=1990409943.1621533919&_u=aCDAAAAKCAAAAC~&z=993819814",
+      "query": {
+        "t": "dc",
+        "aip": 1,
+        "_r": 3,
+        "v": 1,
+        "_v": "j90",
+        "tid": "UA-141042814-1",
+        "cid": 1106080614.1621535,
+        "jid": 1045546616,
+        "gjid": 1446903918,
+        "_gid": 1990409943.1621535,
+        "_u": "aCDAAAAKCAAAAC~",
+        "z": 993819814
+      },
+      "filter": "||stats.g.doubleclick.net^",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.tokyvideo.com/",
+            "source": "requested from https://www.tokyvideo.com/ and matched with easyprivacy.txt filter ||stats.g.doubleclick.net^"
+          }
+        ],
+        "timestamp": "2021-05-20T18:05:18.896Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://www.google-analytics.com/j/collect?v=1&_v=j90&a=2027985837&t=pageview&_s=1&dl=https%3A%2F%2Fwww.tokyvideo.com%2F&dp=%2F&ul=en-us&de=UTF-8&dt=TokyVideo%20-%20Follow%20your%20favs&sd=24-bit&sr=1680x927&vp=1680x927&je=0&_u=aCDAAAALCAAAAC~&jid=1045546616&gjid=1446903918&cid=1106080614.1621533919&tid=UA-141042814-1&_gid=1990409943.1621533919&_r=1&gtm=2wg5c1TCHSXQF&cd2=https%3A%2F%2Fwww.tokyvideo.com%2F&cd3=GTM-TCHSXQF%3A120&cd6=&cd8=no%20logado&cd17=estandar&cd26=Mozilla%2F5.0%20(X11%3B%20Linux%20x86_64)%20AppleWebKit%2F537.36%20(KHTML%2C%20like%20Gecko)%20Chrome%2F72.0.3617.0%20Safari%2F537.36&cd29=default&cd30=default&cd36=20%3A05%3A18&cd39=nueva&cd47=en&cd63=CMP0&cd64=home&z=2006625848",
+      "query": {
+        "v": 1,
+        "_v": "j90",
+        "a": 2027985837,
+        "t": "pageview",
+        "_s": 1,
+        "dl": "https://www.tokyvideo.com/",
+        "dp": "/",
+        "ul": "en-us",
+        "de": "UTF-8",
+        "dt": "TokyVideo - Follow your favs",
+        "sd": "24-bit",
+        "sr": "1680x927",
+        "vp": "1680x927",
+        "je": 0,
+        "_u": "aCDAAAALCAAAAC~",
+        "jid": 1045546616,
+        "gjid": 1446903918,
+        "cid": 1106080614.1621535,
+        "tid": "UA-141042814-1",
+        "_gid": 1990409943.1621535,
+        "_r": 1,
+        "gtm": "2wg5c1TCHSXQF",
+        "cd2": "https://www.tokyvideo.com/",
+        "cd3": "GTM-TCHSXQF:120",
+        "cd6": "",
+        "cd8": "no logado",
+        "cd17": "estandar",
+        "cd26": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3617.0 Safari/537.36",
+        "cd29": "default",
+        "cd30": "default",
+        "cd36": "20:05:18",
+        "cd39": "nueva",
+        "cd47": "en",
+        "cd63": "CMP0",
+        "cd64": "home",
+        "z": 2006625848
+      },
+      "filter": "/collect?*&cid=",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.tokyvideo.com/",
+            "source": "requested from https://www.tokyvideo.com/ and matched with easyprivacy.txt filter /collect?*&cid="
+          }
+        ],
+        "timestamp": "2021-05-20T18:05:18.787Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://www.google-analytics.com/plugins/ua/ec.js",
+      "query": null,
+      "filter": "||google-analytics.com/plugins/",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.tokyvideo.com/",
+            "source": "requested from https://www.tokyvideo.com/ and matched with easyprivacy.txt filter ||google-analytics.com/plugins/"
+          }
+        ],
+        "timestamp": "2021-05-20T18:05:18.734Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-EMTGPY0ZJF&gtm=2oe5c1&_p=2027985837&sr=1680x927&ul=en-us&cid=1106080614.1621533919&_s=1&dl=https%3A%2F%2Fwww.tokyvideo.com%2F&dr=&dt=TokyVideo%20-%20Follow%20your%20favs&sid=1621533918&sct=1&seg=0&en=page_view&_fv=1&_ss=1&ep.page=%2F&up.url=https%3A%2F%2Fwww.tokyvideo.com%2F&up.referrer=&up.estado_usuario=no%20logado&up.version_web=estandar&up.timestamp=20%3A05%3A18&up.serie_id_name=%3A&up.idioma_html_lang=en",
+      "query": {
+        "v": 2,
+        "tid": "G-EMTGPY0ZJF",
+        "gtm": "2oe5c1",
+        "_p": 2027985837,
+        "sr": "1680x927",
+        "ul": "en-us",
+        "cid": 1106080614.1621535,
+        "_s": 1,
+        "dl": "https://www.tokyvideo.com/",
+        "dr": "",
+        "dt": "TokyVideo - Follow your favs",
+        "sid": 1621533918,
+        "sct": 1,
+        "seg": 0,
+        "en": "page_view",
+        "_fv": 1,
+        "_ss": 1,
+        "ep.page": "/",
+        "up.url": "https://www.tokyvideo.com/",
+        "up.referrer": "",
+        "up.estado_usuario": "no logado",
+        "up.version_web": "estandar",
+        "up.timestamp": "20:05:18",
+        "up.serie_id_name": ":",
+        "up.idioma_html_lang": "en"
+      },
+      "filter": "/collect?*&tid=",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.tokyvideo.com/",
+            "source": "requested from https://www.tokyvideo.com/ and matched with easyprivacy.txt filter /collect?*&tid="
+          }
+        ],
+        "timestamp": "2021-05-20T18:05:18.707Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://connect.facebook.net/signals/config/206300610287756?v=2.9.39&r=stable",
+      "query": {
+        "v": "2.9.39",
+        "r": "stable"
+      },
+      "filter": "||connect.facebook.net/signals/$third-party",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.tokyvideo.com/",
+            "source": "requested from https://www.tokyvideo.com/ and matched with easyprivacy.txt filter ||connect.facebook.net/signals/$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T18:05:18.666Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://gtm.tokyvideo.com/g/collect?v=2&tid=G-X0B1Z1R2DL&gtm=2oe5c1&_p=2027985837&sr=1680x927&ul=en-us&cid=1106080614.1621533919&_s=1&dl=https%3A%2F%2Fwww.tokyvideo.com%2F&dr=&dt=TokyVideo%20-%20Follow%20your%20favs&sid=1621533918&sct=1&seg=0&en=page_view&_fv=1&_nsi=1&_ss=1&ep.page=%2F&ep.user_data.email.address=undefined&ep.user_data.address.city=undefined&ep.user_data.address.country=undefined&ep.user_data.address.first_name=undefined&ep.user_data.address.last_name=undefined&ep.user_data.address.postal_code=undefined&ep.user_data.address.region=undefined&ep.user_data.phone_number=undefined&epn.x-fb-event_id=1621533918504&up.url=https%3A%2F%2Fwww.tokyvideo.com%2F&up.referrer=&up.estado_usuario=no%20logado&up.version_web=estandar&up.timestamp=20%3A05%3A18&up.serie_id_name=%3A&up.idioma_html_lang=en",
+      "query": {
+        "v": 2,
+        "tid": "G-X0B1Z1R2DL",
+        "gtm": "2oe5c1",
+        "_p": 2027985837,
+        "sr": "1680x927",
+        "ul": "en-us",
+        "cid": 1106080614.1621535,
+        "_s": 1,
+        "dl": "https://www.tokyvideo.com/",
+        "dr": "",
+        "dt": "TokyVideo - Follow your favs",
+        "sid": 1621533918,
+        "sct": 1,
+        "seg": 0,
+        "en": "page_view",
+        "_fv": 1,
+        "_nsi": 1,
+        "_ss": 1,
+        "ep.page": "/",
+        "ep.user_data.email.address": "undefined",
+        "ep.user_data.address.city": "undefined",
+        "ep.user_data.address.country": "undefined",
+        "ep.user_data.address.first_name": "undefined",
+        "ep.user_data.address.last_name": "undefined",
+        "ep.user_data.address.postal_code": "undefined",
+        "ep.user_data.address.region": "undefined",
+        "ep.user_data.phone_number": "undefined",
+        "epn.x-fb-event_id": 1621533918504,
+        "up.url": "https://www.tokyvideo.com/",
+        "up.referrer": "",
+        "up.estado_usuario": "no logado",
+        "up.version_web": "estandar",
+        "up.timestamp": "20:05:18",
+        "up.serie_id_name": ":",
+        "up.idioma_html_lang": "en"
+      },
+      "filter": "/collect?*&tid=",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.tokyvideo.com/",
+            "source": "requested from https://www.tokyvideo.com/ and matched with easyprivacy.txt filter /collect?*&tid="
+          }
+        ],
+        "timestamp": "2021-05-20T18:05:18.629Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://www.google-analytics.com/analytics.js",
+      "query": null,
+      "filter": "||google-analytics.com/analytics.js",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.tokyvideo.com/",
+            "source": "requested from https://www.tokyvideo.com/ and matched with easyprivacy.txt filter ||google-analytics.com/analytics.js"
+          }
+        ],
+        "timestamp": "2021-05-20T18:05:18.587Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://www.googletagmanager.com/gtag/js?id=G-EMTGPY0ZJF&l=dataLayer&cx=c",
+      "query": {
+        "id": "G-EMTGPY0ZJF",
+        "l": "dataLayer",
+        "cx": "c"
+      },
+      "filter": "||googletagmanager.com/gtag/$third-party",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.tokyvideo.com/",
+            "source": "requested from https://www.tokyvideo.com/ and matched with easyprivacy.txt filter ||googletagmanager.com/gtag/$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T18:05:18.587Z"
+      },
+      "occurrances": 2
+    },
+    {
+      "url": "https://connect.facebook.net/en_US/fbevents.js",
+      "query": null,
+      "filter": "/fbevents.js",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.tokyvideo.com/",
+            "source": "requested from https://www.tokyvideo.com/ and matched with easyprivacy.txt filter /fbevents.js"
+          }
+        ],
+        "timestamp": "2021-05-20T18:05:18.585Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://www.googletagmanager.com/gtm.js?id=GTM-TCHSXQF",
+      "query": {
+        "id": "GTM-TCHSXQF"
+      },
+      "filter": "/gtm.js",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.tokyvideo.com/",
+            "source": "requested from https://www.tokyvideo.com/ and matched with easyprivacy.txt filter /gtm.js"
+          }
+        ],
+        "timestamp": "2021-05-20T18:05:18.317Z"
+      },
+      "occurrances": 1
+    }
+  ],
+  "hosts": {
+    "requests": {
+      "firstParty": [
+        "tokyvideo.com"
+      ],
+      "thirdParty": [
+        "www.tokyvideo.com",
+        "ajax.cloudflare.com",
+        "www.googleoptimize.com",
+        "img7.tokyvideo.com",
+        "img.tokyvideo.com",
+        "www.googletagmanager.com",
+        "cache.consentframework.com",
+        "choices.consentframework.com",
+        "scripts.static-od.com",
+        "connect.facebook.net",
+        "www.google-analytics.com",
+        "gtm.tokyvideo.com",
+        "www.facebook.com",
+        "stats.g.doubleclick.net",
+        "js.cookieless-data.com",
+        "cdn.sirdata.io",
+        "api.tokyvideo.com",
+        "img3.tokyvideo.com",
+        "img6.tokyvideo.com"
+      ]
+    },
+    "beacons": {
+      "firstParty": [],
+      "thirdParty": [
+        "www.facebook.com",
+        "stats.g.doubleclick.net",
+        "www.google-analytics.com",
+        "connect.facebook.net",
+        "gtm.tokyvideo.com",
+        "www.googletagmanager.com"
+      ]
+    },
+    "cookies": {
+      "firstParty": [
+        "tokyvideo.com"
+      ],
+      "thirdParty": [
+        "www.tokyvideo.com",
+        "consentframework.com"
+      ]
+    },
+    "localStorage": {
+      "firstParty": [],
+      "thirdParty": [
+        "www.tokyvideo.com"
+      ]
+    },
+    "links": {
+      "firstParty": [],
+      "thirdParty": [
+        "www.tokyvideo.com",
+        "www.consentframework.com"
+      ]
+    }
+  }
+}

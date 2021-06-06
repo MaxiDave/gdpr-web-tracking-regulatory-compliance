@@ -1,0 +1,870 @@
+{
+  "title": "Website Evidence Collection",
+  "task_description": null,
+  "uri_ins": "https://cefoto.es",
+  "uri_refs": [
+    "https://cefoto.es"
+  ],
+  "uri_dest": "https://www.cefoto.es/",
+  "uri_redirects": [
+    "https://cefoto.es/"
+  ],
+  "secure_connection": {
+    "https_support": true,
+    "redirects": [
+      "https://www.cefoto.es/"
+    ],
+    "https_redirect": true
+  },
+  "host": "cefoto.es",
+  "script": {
+    "host": "sfod",
+    "version": {
+      "npm": "1.0.0",
+      "commit": null
+    },
+    "cmd_args": "-q --overwrite https://cefoto.es -- --ignore-certificate-errors",
+    "environment": {
+      "CHROME_DESKTOP": "code-url-handler.desktop"
+    },
+    "node_version": "v14.17.0"
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "HeadlessChrome/80.0.3987.0",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3617.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "5.8.0-53-generic"
+    },
+    "extra_headers": {},
+    "preset_cookies": {}
+  },
+  "start_time": "2021-05-20T16:44:58.795Z",
+  "end_time": "2021-05-20T16:45:08.934Z",
+  "links": {
+    "firstParty": [],
+    "thirdParty": [
+      {
+        "href": "https://www.cefoto.es/",
+        "inner_text": "",
+        "inner_html": "<span></span><span></span><span></span>"
+      },
+      {
+        "href": "https://www.cefoto.es/user",
+        "inner_text": "Identifícate",
+        "inner_html": "Identifícate"
+      },
+      {
+        "href": "https://www.cefoto.es/user/password",
+        "inner_text": "Recuperar contraseña",
+        "inner_html": "Recuperar contraseña"
+      },
+      {
+        "href": "http://www.cefoto.es/socio/register",
+        "inner_text": "Hazte socio",
+        "inner_html": "Hazte socio"
+      },
+      {
+        "href": "https://www.cefoto.es/cef",
+        "inner_text": "CEF",
+        "inner_html": "CEF"
+      },
+      {
+        "href": "https://www.cefoto.es/presentacion",
+        "inner_text": "Presentación",
+        "inner_html": "Presentación"
+      },
+      {
+        "href": "https://www.cefoto.es/federaciones",
+        "inner_text": "Federaciones",
+        "inner_html": "Federaciones"
+      },
+      {
+        "href": "https://www.cefoto.es/historia",
+        "inner_text": "Historia",
+        "inner_html": "Historia"
+      },
+      {
+        "href": "https://www.cefoto.es/congresos",
+        "inner_text": "Congresos",
+        "inner_html": "Congresos"
+      },
+      {
+        "href": "https://www.cefoto.es/normativas-0",
+        "inner_text": "Normativas",
+        "inner_html": "Normativas"
+      },
+      {
+        "href": "https://www.cefoto.es/imagen-corporativa",
+        "inner_text": "Imagen corporativa",
+        "inner_html": "Imagen corporativa"
+      },
+      {
+        "href": "https://www.cefoto.es/altas-pendientes",
+        "inner_text": "Altas pendientes",
+        "inner_html": "Altas pendientes"
+      },
+      {
+        "href": "https://www.cefoto.es/centros-de-interes",
+        "inner_text": "Centros de interés",
+        "inner_html": "Centros de interés"
+      },
+      {
+        "href": "https://www.cefoto.es/actividades",
+        "inner_text": "Actividades",
+        "inner_html": "Actividades"
+      },
+      {
+        "href": "https://www.cefoto.es/publicaciones",
+        "inner_text": "Publicaciones",
+        "inner_html": "Publicaciones"
+      },
+      {
+        "href": "https://www.cefoto.es/exposiciones",
+        "inner_text": "Exposiciones",
+        "inner_html": "Exposiciones"
+      },
+      {
+        "href": "https://www.cefoto.es/juventud",
+        "inner_text": "Juventud",
+        "inner_html": "Juventud"
+      },
+      {
+        "href": "https://www.cefoto.es/fototeca",
+        "inner_text": "Fototeca",
+        "inner_html": "Fototeca"
+      },
+      {
+        "href": "https://www.cefoto.es/formacion",
+        "inner_text": "Formación",
+        "inner_html": "Formación"
+      },
+      {
+        "href": "https://www.cefoto.es/analogica",
+        "inner_text": "Analógica",
+        "inner_html": "Analógica"
+      },
+      {
+        "href": "https://www.cefoto.es/vi-liga-espanola-de-fotografia-0",
+        "inner_text": "Liga",
+        "inner_html": "Liga"
+      },
+      {
+        "href": "https://www.cefoto.es/i-liga-espanola-de-fotografia",
+        "inner_text": "I Liga",
+        "inner_html": "I Liga"
+      },
+      {
+        "href": "https://www.cefoto.es/ganador-ii-liga-espanola-de-fotografia",
+        "inner_text": "II Liga",
+        "inner_html": "II Liga"
+      },
+      {
+        "href": "https://www.cefoto.es/iii-liga-espanola-de-fotografia",
+        "inner_text": "III Liga",
+        "inner_html": "III Liga"
+      },
+      {
+        "href": "https://www.cefoto.es/iv-liga-espanola-de-fotografia-0",
+        "inner_text": "IV Liga",
+        "inner_html": "IV Liga"
+      },
+      {
+        "href": "https://www.cefoto.es/v-liga",
+        "inner_text": "V Liga",
+        "inner_html": "V Liga"
+      },
+      {
+        "href": "https://www.cefoto.es/vi-liga",
+        "inner_text": "VI Liga",
+        "inner_html": "VI Liga"
+      },
+      {
+        "href": "https://www.cefoto.es/distinciones",
+        "inner_text": "Distinciones",
+        "inner_html": "Distinciones"
+      },
+      {
+        "href": "https://www.cefoto.es/clasificacion-concursos-fotografos",
+        "inner_text": "Clas. Fotógrafos",
+        "inner_html": "Clas. Fotógrafos"
+      },
+      {
+        "href": "https://www.cefoto.es/clasificacion-concursos-jurados",
+        "inner_text": "CLAS. Jurados",
+        "inner_html": "CLAS. Jurados"
+      },
+      {
+        "href": "https://www.cefoto.es/clasificacion-concursos-entidades",
+        "inner_text": "Clas. Entidades",
+        "inner_html": "Clas. Entidades"
+      },
+      {
+        "href": "https://www.cefoto.es/clasificacion-concursos-federaciones",
+        "inner_text": "Clas. Federaciones",
+        "inner_html": "Clas. Federaciones"
+      },
+      {
+        "href": "https://www.cefoto.es/premios-nacionales",
+        "inner_text": "Premios nacionales",
+        "inner_html": "Premios nacionales"
+      },
+      {
+        "href": "https://www.cefoto.es/concursos",
+        "inner_text": "Concursos",
+        "inner_html": "Concursos"
+      },
+      {
+        "href": "https://www.cefoto.es/node/add/concurso",
+        "inner_text": "Solicitar reconocimiento",
+        "inner_html": "Solicitar reconocimiento"
+      },
+      {
+        "href": "https://www.cefoto.es/anuario",
+        "inner_text": "Anuario",
+        "inner_html": "Anuario"
+      },
+      {
+        "href": "https://www.cefoto.es/congreso-de-jurados",
+        "inner_text": "Congreso de Jurados",
+        "inner_html": "Congreso de Jurados"
+      },
+      {
+        "href": "https://www.cefoto.es/censo-de-jurados",
+        "inner_text": "Censo de jurados",
+        "inner_html": "Censo de jurados"
+      },
+      {
+        "href": "https://www.cefoto.es/contacto",
+        "inner_text": "Contacto",
+        "inner_html": "Contacto"
+      },
+      {
+        "href": "https://www.cefoto.es/enlaces",
+        "inner_text": "Enlaces",
+        "inner_html": "Enlaces"
+      },
+      {
+        "href": "https://www.cefoto.es/noticias",
+        "inner_text": "Noticias",
+        "inner_html": "Noticias"
+      },
+      {
+        "href": "https://www.cefoto.es/convenios",
+        "inner_text": "Convenios",
+        "inner_html": "Convenios"
+      },
+      {
+        "href": "https://www.cefoto.es/eventos",
+        "inner_text": "Eventos",
+        "inner_html": "Eventos"
+      },
+      {
+        "href": "http://www.cefoto.es/",
+        "inner_text": "",
+        "inner_html": "<img alt=\"\" src=\"/sites/default/files/url.png\" style=\"height: 225px; width: 225px;\">"
+      },
+      {
+        "href": "https://www.facebook.com/cefoto.org",
+        "inner_text": "",
+        "inner_html": "<img alt=\"\" src=\"/sites/default/files/icofacebook_negro.png\" style=\"height:32px; width:32px\">"
+      },
+      {
+        "href": "https://twitter.com/cef_oficial",
+        "inner_text": "",
+        "inner_html": "<img alt=\"\" src=\"/sites/default/files/icotwitter_negro.png\" style=\"height:32px; width:32px\">"
+      },
+      {
+        "href": "https://www.instagram.com/cefoto.es/",
+        "inner_text": "",
+        "inner_html": "<img alt=\"\" src=\"/sites/default/files/instagram_icon.png\" style=\"width: 30px; height: 30px;\">"
+      },
+      {
+        "href": "https://www.youtube.com/channel/UCifkBfW_YJQ0jlbStGGY_lw",
+        "inner_text": "",
+        "inner_html": "<img alt=\"\" src=\"/sites/default/files/icoyoutube_bn.png\" style=\"width: 30px; height: 30px;\">"
+      },
+      {
+        "href": "https://www.cefoto.es/canal-cefoto-tv",
+        "inner_text": "",
+        "inner_html": "<img alt=\"\" src=\"/sites/default/files/logo_ceftv_1_negro_grey.png\" style=\"width: 29px; height: 32px;\">"
+      },
+      {
+        "href": "http://www.cefoto.es/user",
+        "inner_text": "Identifícate",
+        "inner_html": "Identifícate"
+      },
+      {
+        "href": "http://www.cefoto.es/user/password",
+        "inner_text": "Recuperar contraseña",
+        "inner_html": "Recuperar contraseña"
+      },
+      {
+        "href": "https://www.addtoany.com/share",
+        "inner_text": "Share",
+        "inner_html": "<span class=\"a2a_svg a2a_s__default a2a_s_a2a\" style=\"background-color: rgb(1, 102, 255); width: 16px; line-height: 16px; height: 16px; background-size: 16px; border-radius: 2px;\"><svg focusable=\"false\" aria-hidden=\"true\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 32 32\"><g fill=\"#FFF\"><path d=\"M14 7h4v18h-4z\"></path><path d=\"M7 14h18v4H7z\"></path></g></svg></span><span class=\"a2a_label a2a_localize\" data-a2a-localize=\"inner,Share\">Share</span>"
+      },
+      {
+        "href": "https://www.cefoto.es/concurso/quillat2021-concurso-fotografico-digital-49-edicion",
+        "inner_text": "Quillat_2021 Concurso fotográfico digital 49 edición",
+        "inner_html": "Quillat_2021 Concurso fotográfico digital 49 edición"
+      },
+      {
+        "href": "https://www.cefoto.es/concurso/72-salo-de-fotografia-petxina-dargent",
+        "inner_text": "72 SALÓ DE FOTOGRAFIA PETXINA D'ARGENT",
+        "inner_html": "72 SALÓ DE FOTOGRAFIA PETXINA D'ARGENT"
+      },
+      {
+        "href": "https://www.cefoto.es/concurso/xxxvii-concurso-nacional-de-fotografia-ciudad-de-jerez",
+        "inner_text": "XXXVII CONCURSO NACIONAL DE FOTOGRAFÍA “CIUDAD DE JEREZ”",
+        "inner_html": "XXXVII CONCURSO NACIONAL DE FOTOGRAFÍA “CIUDAD DE JEREZ”"
+      },
+      {
+        "href": "https://www.cefoto.es/concurso/vii-concurso-internacional-de-fotografia-alicante",
+        "inner_text": "VII Concurso Internacional De Fotografia \"Alicante\"",
+        "inner_html": "VII Concurso Internacional De Fotografia \"Alicante\""
+      },
+      {
+        "href": "https://www.cefoto.es/concurso/iii-salon-internacional-de-fotografia-digital-ciudad-de-ceuta",
+        "inner_text": "III SALON INTERNACIONAL DE FOTOGRAFIA DIGITAL CIUDAD DE CEUTA",
+        "inner_html": "III SALON INTERNACIONAL DE FOTOGRAFIA DIGITAL CIUDAD DE CEUTA"
+      },
+      {
+        "href": "https://www.cefoto.es/concurso/ix-salon-fotografico-digital-illa-de-menorca-2021",
+        "inner_text": "IX Salòn Fotográfico Digital \"Illa de Menorca\" 2021",
+        "inner_html": "IX Salòn Fotográfico Digital \"Illa de Menorca\" 2021"
+      },
+      {
+        "href": "https://www.cefoto.es/concurso/6o-premio-internacional-rosablanca-de-fotografia-2021",
+        "inner_text": "6º Premio Internacional Rosablanca de Fotografía 2021",
+        "inner_html": "6º Premio Internacional Rosablanca de Fotografía 2021"
+      },
+      {
+        "href": "https://www.cefoto.es/concurso/iv-concurs-internaconal-de-fotografia-la-carxofa-flor-dhivern",
+        "inner_text": "IV Concurs Internaconal de Fotografia \"La Carxofa - Flor d'Hivern\"",
+        "inner_html": "IV Concurs Internaconal de Fotografia \"La Carxofa - Flor d'Hivern\""
+      },
+      {
+        "href": "https://www.cefoto.es/concurso/jurados-fiap-y-psa-3",
+        "inner_text": "JURADOS FIAP Y PSA",
+        "inner_html": "JURADOS FIAP Y PSA"
+      },
+      {
+        "href": "https://www.cefoto.es/concurso/publicaciones-1",
+        "inner_text": "PUBLICACIONES",
+        "inner_html": "PUBLICACIONES"
+      },
+      {
+        "href": "https://www.cefoto.es/concurso/formacion-3",
+        "inner_text": "FORMACIÓN",
+        "inner_html": "FORMACIÓN"
+      },
+      {
+        "href": "https://www.cefoto.es/concurso/exposiciones-4",
+        "inner_text": "EXPOSICIONES",
+        "inner_html": "EXPOSICIONES"
+      },
+      {
+        "href": "https://www.cefoto.es/noticias/nuevos-convenios-con-olympus",
+        "inner_text": "Nuevos convenios con Olympus",
+        "inner_html": "Nuevos convenios con Olympus"
+      },
+      {
+        "href": "https://www.cefoto.es/noticias/convenio-entre-la-confederacion-espanola-de-fotografia-y-capture-one",
+        "inner_text": "Convenio entre la Confederación Española de Fotografía y Capture One",
+        "inner_html": "Convenio entre la Confederación Española de Fotografía y Capture One"
+      },
+      {
+        "href": "https://www.cefoto.es/noticias/jovenes-fotografos",
+        "inner_text": "“JOVENES FOTOGRAFOS”",
+        "inner_html": "“JOVENES FOTOGRAFOS”"
+      },
+      {
+        "href": "https://www.cefoto.es/noticias/nueva-seccion-en-la-web",
+        "inner_text": "Nueva sección en la web",
+        "inner_html": "Nueva sección en la web"
+      },
+      {
+        "href": "https://www.cefoto.es/noticias/gfal-magazine-marzo-2021",
+        "inner_text": "GFAL MAGAZINE MARZO 2021",
+        "inner_html": "GFAL MAGAZINE MARZO 2021"
+      },
+      {
+        "href": "https://www.cefoto.es/agenda/nuevo-sistema-de-renovacion-y-alta-de-socios",
+        "inner_text": "Nuevo sistema de renovación y alta de socios",
+        "inner_html": "Nuevo sistema de renovación y alta de socios"
+      },
+      {
+        "href": "https://www.cefoto.es/agenda/exposicion-white-balance",
+        "inner_text": "EXPOSICIÓN WHITE BALANCE",
+        "inner_html": "EXPOSICIÓN WHITE BALANCE"
+      },
+      {
+        "href": "https://www.cefoto.es/agenda/tai-lanza-la-vii-edicion-de-las-becas-taifoto-para-premiar-el-talento",
+        "inner_text": "TAI lanza la VII edición de las becas #TAIfoto para premiar el talento",
+        "inner_html": "TAI lanza la VII edición de las becas #TAIfoto para premiar el talento"
+      },
+      {
+        "href": "https://www.cefoto.es/agenda/el-centre-municipal-de-cultura-paulo-freire-de-almenara-acoge-la-muestra-fotografica",
+        "inner_text": "EL CENTRE MUNICIPAL DE CULTURA PAULO FREIRE DE ALMENARA ACOGE LA MUESTRA FOTOGRÁFICA “IMAGINARIA 2021”",
+        "inner_html": "EL CENTRE MUNICIPAL DE CULTURA PAULO FREIRE DE ALMENARA ACOGE LA MUESTRA FOTOGRÁFICA “IMAGINARIA 2021”"
+      },
+      {
+        "href": "https://www.cefoto.es/agenda/la-necropolis-del-olvido",
+        "inner_text": "LA NECRÓPOLIS DEL OLVIDO",
+        "inner_html": "LA NECRÓPOLIS DEL OLVIDO"
+      },
+      {
+        "href": "https://www.cefoto.es/agenda/xiii-concurso-estatal-de-fotografia-vila-de-sant-boi-y-ii-concurso-digital-internacional-vila",
+        "inner_text": " XIII Concurso Estatal de Fotografía Vila de Sant Boi y  II Concurso Digital Internacional Vila de Sant Boi 2021",
+        "inner_html": "XIII Concurso Estatal de Fotografía Vila de Sant Boi y  II Concurso Digital Internacional Vila de Sant Boi 2021"
+      },
+      {
+        "href": "https://www.cefoto.es/agenda/en-el-ojo-de-la-diversidad",
+        "inner_text": "“En el ojo de la Diversidad”",
+        "inner_html": "“En el ojo de la Diversidad”"
+      },
+      {
+        "href": "https://www.olympus.es/site/es/c/cameras/",
+        "inner_text": "",
+        "inner_html": "<img typeof=\"foaf:Image\" class=\"image-style-none\" src=\"https://www.cefoto.es/sites/default/files/olympus_basic_symbol_cmyk_banner.jpg\" width=\"212\" height=\"40\" alt=\"\">"
+      },
+      {
+        "href": "http://www.cefoto.es/sites/default/files/concursos/bases/e_2018-10_iv_liga_espanolade_fotografia.pdf",
+        "inner_text": "",
+        "inner_html": "<img typeof=\"foaf:Image\" class=\"image-style-none\" src=\"https://www.cefoto.es/sites/default/files/imatge_footer/4_liga.jpg\" width=\"220\" height=\"40\" alt=\"\">"
+      },
+      {
+        "href": "https://www.addtoany.com/",
+        "inner_text": "AddToAny",
+        "inner_html": "<span class=\"a2a_svg a2a_s__default a2a_s_a2a a2a_logo_color\"><svg focusable=\"false\" xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 32 32\"><g fill=\"#FFF\"><path d=\"M14 7h4v18h-4z\"></path><path d=\"M7 14h18v4H7z\"></path></g></svg></span>AddToAny"
+      }
+    ],
+    "social": [
+      {
+        "href": "https://www.facebook.com/cefoto.org",
+        "inner_text": "",
+        "inner_html": "<img alt=\"\" src=\"/sites/default/files/icofacebook_negro.png\" style=\"height:32px; width:32px\">"
+      },
+      {
+        "href": "https://twitter.com/cef_oficial",
+        "inner_text": "",
+        "inner_html": "<img alt=\"\" src=\"/sites/default/files/icotwitter_negro.png\" style=\"height:32px; width:32px\">"
+      },
+      {
+        "href": "https://www.instagram.com/cefoto.es/",
+        "inner_text": "",
+        "inner_html": "<img alt=\"\" src=\"/sites/default/files/instagram_icon.png\" style=\"width: 30px; height: 30px;\">"
+      },
+      {
+        "href": "https://www.youtube.com/channel/UCifkBfW_YJQ0jlbStGGY_lw",
+        "inner_text": "",
+        "inner_html": "<img alt=\"\" src=\"/sites/default/files/icoyoutube_bn.png\" style=\"width: 30px; height: 30px;\">"
+      }
+    ],
+    "keywords": []
+  },
+  "unsafeForms": [],
+  "browsing_history": [
+    "https://www.cefoto.es/"
+  ],
+  "websockets": {},
+  "cookies": [
+    {
+      "name": "m",
+      "value": "5aeb873e-c0a7-4f52-81cd-f9c4c410fc9d49d5ed",
+      "domain": "m.stripe.com",
+      "path": "/",
+      "expires": 1684601102.775344,
+      "size": 43,
+      "httpOnly": true,
+      "secure": true,
+      "session": false,
+      "sameSite": "None",
+      "expiresUTC": "2023-05-20T16:45:02.775Z",
+      "expiresDays": 730,
+      "firstPartyStorage": false
+    },
+    {
+      "name": "_ga",
+      "value": "GA1.2.1614474554.1621529101",
+      "domain": "cefoto.es",
+      "path": "/",
+      "expires": 1684601100,
+      "size": 30,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2023-05-20T16:45:00.000Z",
+      "expiresDays": 730,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 495,
+            "lineNumber": 30,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "zc",
+            "source": "    at zc (https://www.google-analytics.com/analytics.js:30:495)"
+          },
+          {
+            "columnNumber": 15,
+            "lineNumber": 60,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "ma",
+            "source": "    at ma (https://www.google-analytics.com/analytics.js:60:15)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T16:45:00.728Z",
+        "location": "https://www.cefoto.es/"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "__stripe_mid",
+      "value": "b7c6fb53-de93-4d92-b5dd-a59aae9dbeb5029b65",
+      "domain": "www.cefoto.es",
+      "path": "/",
+      "expires": 1653065102,
+      "size": 54,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "sameSite": "Lax",
+      "expiresUTC": "2022-05-20T16:45:02.000Z",
+      "expiresDays": 365,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 53242,
+            "lineNumber": 1,
+            "fileName": "https://js.stripe.com/v3",
+            "functionName": "dt",
+            "source": "    at dt (https://js.stripe.com/v3:1:53242)"
+          },
+          {
+            "columnNumber": 60979,
+            "lineNumber": 1,
+            "fileName": "https://js.stripe.com/v3",
+            "functionName": "e.value",
+            "source": "    at e.value (https://js.stripe.com/v3:1:60979)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T16:45:02.782Z",
+        "location": "https://www.cefoto.es/"
+      },
+      "firstPartyStorage": false
+    },
+    {
+      "name": "_gid",
+      "value": "GA1.2.218871940.1621529101",
+      "domain": "cefoto.es",
+      "path": "/",
+      "expires": 1621615500,
+      "size": 30,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2021-05-21T16:45:00.000Z",
+      "expiresDays": 1,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 495,
+            "lineNumber": 30,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "zc",
+            "source": "    at zc (https://www.google-analytics.com/analytics.js:30:495)"
+          },
+          {
+            "columnNumber": 401,
+            "lineNumber": 59,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "ma",
+            "source": "    at ma (https://www.google-analytics.com/analytics.js:59:401)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T16:45:00.729Z",
+        "location": "https://www.cefoto.es/"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "__stripe_sid",
+      "value": "45335620-0618-4c44-af9c-e9d13834c8214411b2",
+      "domain": "www.cefoto.es",
+      "path": "/",
+      "expires": 1621530902,
+      "size": 54,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "sameSite": "Lax",
+      "expiresUTC": "2021-05-20T17:15:02.000Z",
+      "expiresDays": 0.02,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 53242,
+            "lineNumber": 1,
+            "fileName": "https://js.stripe.com/v3",
+            "functionName": "dt",
+            "source": "    at dt (https://js.stripe.com/v3:1:53242)"
+          },
+          {
+            "columnNumber": 61171,
+            "lineNumber": 1,
+            "fileName": "https://js.stripe.com/v3",
+            "functionName": "e.value",
+            "source": "    at e.value (https://js.stripe.com/v3:1:61171)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T16:45:02.783Z",
+        "location": "https://www.cefoto.es/"
+      },
+      "firstPartyStorage": false
+    },
+    {
+      "name": "_gat",
+      "value": "1",
+      "domain": "cefoto.es",
+      "path": "/",
+      "expires": 1621529160,
+      "size": 5,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2021-05-20T16:46:00.000Z",
+      "expiresDays": 0,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 495,
+            "lineNumber": 30,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "zc",
+            "source": "    at zc (https://www.google-analytics.com/analytics.js:30:495)"
+          },
+          {
+            "columnNumber": 31,
+            "lineNumber": 73,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "Qd",
+            "source": "    at Qd (https://www.google-analytics.com/analytics.js:73:31)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T16:45:00.730Z",
+        "location": "https://www.cefoto.es/"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "has_js",
+      "value": "1",
+      "domain": "www.cefoto.es",
+      "path": "/",
+      "expires": -1,
+      "size": 7,
+      "httpOnly": false,
+      "secure": false,
+      "session": true,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 17,
+            "lineNumber": 575,
+            "fileName": "https://www.cefoto.es/misc/drupal.js?qrf5qz",
+            "source": "    at https://www.cefoto.es/misc/drupal.js?qrf5qz:575:17"
+          },
+          {
+            "columnNumber": 3,
+            "lineNumber": 614,
+            "fileName": "https://www.cefoto.es/misc/drupal.js?qrf5qz",
+            "source": "    at https://www.cefoto.es/misc/drupal.js?qrf5qz:614:3"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T16:45:00.081Z",
+        "location": "https://www.cefoto.es/"
+      },
+      "firstPartyStorage": false
+    }
+  ],
+  "localStorage": {},
+  "beacons": [
+    {
+      "url": "https://www.google-analytics.com/j/collect?v=1&_v=j90&a=530688485&t=pageview&_s=1&dl=https%3A%2F%2Fwww.cefoto.es%2F&ul=en-us&de=UTF-8&dt=Confederaci%C3%B3n%20Espa%C3%B1ola%20de%20Fotograf%C3%ADa&sd=24-bit&sr=1680x927&vp=1680x927&je=0&_u=IEBAAEABAAAAAC~&jid=1829428990&gjid=1720237351&cid=1614474554.1621529101&tid=UA-9552165-50&_gid=218871940.1621529101&_r=1&_slc=1&z=533465166",
+      "query": {
+        "v": 1,
+        "_v": "j90",
+        "a": 530688485,
+        "t": "pageview",
+        "_s": 1,
+        "dl": "https://www.cefoto.es/",
+        "ul": "en-us",
+        "de": "UTF-8",
+        "dt": "Confederación Española de Fotografía",
+        "sd": "24-bit",
+        "sr": "1680x927",
+        "vp": "1680x927",
+        "je": 0,
+        "_u": "IEBAAEABAAAAAC~",
+        "jid": 1829428990,
+        "gjid": 1720237351,
+        "cid": 1614474554.162153,
+        "tid": "UA-9552165-50",
+        "_gid": 218871940.16215292,
+        "_r": 1,
+        "_slc": 1,
+        "z": 533465166
+      },
+      "filter": "/collect?*&cid=",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.cefoto.es/",
+            "source": "requested from https://www.cefoto.es/ and matched with easyprivacy.txt filter /collect?*&cid="
+          }
+        ],
+        "timestamp": "2021-05-20T16:45:00.734Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://static.addtoany.com/menu/svg/icons.29.svg.js",
+      "query": null,
+      "filter": "||addtoany.com^$third-party",
+      "listName": "fanboy-annoyance.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.cefoto.es/",
+            "source": "requested from https://www.cefoto.es/ and matched with fanboy-annoyance.txt filter ||addtoany.com^$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T16:45:00.697Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://static.addtoany.com/menu/page.js",
+      "query": null,
+      "filter": "||addtoany.com^$third-party",
+      "listName": "fanboy-annoyance.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.cefoto.es/",
+            "source": "requested from https://www.cefoto.es/ and matched with fanboy-annoyance.txt filter ||addtoany.com^$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T16:45:00.248Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://www.google-analytics.com/analytics.js",
+      "query": null,
+      "filter": "||google-analytics.com/analytics.js",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.cefoto.es/",
+            "source": "requested from https://www.cefoto.es/ and matched with easyprivacy.txt filter ||google-analytics.com/analytics.js"
+          }
+        ],
+        "timestamp": "2021-05-20T16:45:00.156Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://www.cefoto.es/sites/default/files/instagram_icon.png",
+      "query": null,
+      "filter": "/instagram_icon.",
+      "listName": "fanboy-annoyance.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.cefoto.es/",
+            "source": "requested from https://www.cefoto.es/ and matched with fanboy-annoyance.txt filter /instagram_icon."
+          }
+        ],
+        "timestamp": "2021-05-20T16:44:59.714Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://www.cefoto.es/sites/all/modules/addtoany/addtoany.css?qrf5qz",
+      "query": {
+        "qrf5qz": null
+      },
+      "filter": "/addtoany.",
+      "listName": "fanboy-annoyance.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.cefoto.es/",
+            "source": "requested from https://www.cefoto.es/ and matched with fanboy-annoyance.txt filter /addtoany."
+          }
+        ],
+        "timestamp": "2021-05-20T16:44:59.709Z"
+      },
+      "occurrances": 1
+    }
+  ],
+  "hosts": {
+    "requests": {
+      "firstParty": [
+        "cefoto.es"
+      ],
+      "thirdParty": [
+        "www.cefoto.es",
+        "js.stripe.com",
+        "fonts.googleapis.com",
+        "www.google-analytics.com",
+        "fonts.gstatic.com",
+        "static.addtoany.com",
+        "m.stripe.network",
+        "m.stripe.com"
+      ]
+    },
+    "beacons": {
+      "firstParty": [],
+      "thirdParty": [
+        "www.google-analytics.com"
+      ]
+    },
+    "cookies": {
+      "firstParty": [
+        "cefoto.es"
+      ],
+      "thirdParty": [
+        "www.cefoto.es",
+        "m.stripe.com"
+      ]
+    },
+    "localStorage": {
+      "firstParty": [],
+      "thirdParty": []
+    },
+    "links": {
+      "firstParty": [],
+      "thirdParty": [
+        "www.cefoto.es",
+        "www.facebook.com",
+        "twitter.com",
+        "www.instagram.com",
+        "www.youtube.com",
+        "www.addtoany.com",
+        "www.olympus.es"
+      ]
+    }
+  }
+}

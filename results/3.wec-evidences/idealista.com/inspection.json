@@ -1,0 +1,518 @@
+{
+  "title": "Website Evidence Collection",
+  "task_description": null,
+  "uri_ins": "https://idealista.com",
+  "uri_refs": [
+    "https://idealista.com"
+  ],
+  "uri_dest": "https://idealista.com/",
+  "uri_redirects": [],
+  "secure_connection": {
+    "https_support": true,
+    "redirects": [
+      "https://idealista.com/"
+    ],
+    "https_redirect": true
+  },
+  "host": "idealista.com",
+  "script": {
+    "host": "sfod",
+    "version": {
+      "npm": "1.0.0",
+      "commit": null
+    },
+    "cmd_args": "-q --overwrite https://idealista.com -- --ignore-certificate-errors",
+    "environment": {
+      "CHROME_DESKTOP": "code-url-handler.desktop"
+    },
+    "node_version": "v14.17.0"
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "HeadlessChrome/80.0.3987.0",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3617.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "5.8.0-53-generic"
+    },
+    "extra_headers": {},
+    "preset_cookies": {}
+  },
+  "start_time": "2021-05-20T14:47:11.099Z",
+  "end_time": "2021-05-20T14:47:17.788Z",
+  "links": {
+    "firstParty": [],
+    "thirdParty": [],
+    "social": [],
+    "keywords": []
+  },
+  "unsafeForms": [],
+  "browsing_history": [
+    "https://idealista.com/"
+  ],
+  "websockets": {},
+  "cookies": [
+    {
+      "name": "_ga",
+      "value": "GA1.2.656287900.1621522032",
+      "domain": "captcha-delivery.com",
+      "path": "/",
+      "expires": 1684594032,
+      "size": 29,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2023-05-20T14:47:12.000Z",
+      "expiresDays": 730,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 495,
+            "lineNumber": 30,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "zc",
+            "source": "    at zc (https://www.google-analytics.com/analytics.js:30:495)"
+          },
+          {
+            "columnNumber": 15,
+            "lineNumber": 60,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "ma",
+            "source": "    at ma (https://www.google-analytics.com/analytics.js:60:15)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T14:47:12.382Z",
+        "location": "https://idealista.com"
+      },
+      "firstPartyStorage": false
+    },
+    {
+      "name": "atuserid",
+      "value": "%7B%22name%22%3A%22atuserid%22%2C%22val%22%3A%22be1dd4d7-74ea-4447-afe7-45b67356ff82%22%2C%22options%22%3A%7B%22end%22%3A%222022-06-21T14%3A47%3A12.407Z%22%2C%22path%22%3A%22%2F%22%7D%7D",
+      "domain": "geo.captcha-delivery.com",
+      "path": "/",
+      "expires": 1655822832,
+      "size": 194,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2022-06-21T14:47:12.000Z",
+      "expiresDays": 397,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 67,
+            "lineNumber": 90,
+            "fileName": "https://tag.aticdn.net/592230/smarttag.js",
+            "functionName": "e.setData",
+            "source": "    at e.setData (https://tag.aticdn.net/592230/smarttag.js:90:67)"
+          },
+          {
+            "columnNumber": 159,
+            "lineNumber": 92,
+            "fileName": "https://tag.aticdn.net/592230/smarttag.js",
+            "functionName": "f",
+            "source": "    at f (https://tag.aticdn.net/592230/smarttag.js:92:159)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T14:47:12.437Z",
+        "location": "https://idealista.com"
+      },
+      "firstPartyStorage": false
+    },
+    {
+      "name": "utag_main",
+      "value": "v_id:01798a3ea61c0013109ed9a9d22d00067012005f00a47$_sn:1$_se:1$_ss:1$_st:1621523832167$ses_id:1621522032167%3Bexp-session$_pn:1%3Bexp-session$_prevVtSource:%3Bexp-1621525632176$_prevVtCampaignCode:undefined%3Bexp-1621525632176$_prevVtDomainReferrer:idealista.com%3Bexp-1621525632176$_prevVtSubdomaninReferrer:idealista.com%3Bexp-1621525632176$_prevVtUrlReferrer:https%3A%2F%2Fidealista.com%2F%3Bexp-1621525632176$_prevVtCampaignLinkName:undefined%3Bexp-1621525632176$_prevVtCampaignName:undefined%3Bexp-1621525632176$_prevVtRecommendationId:undefined%3Bexp-1621525632176$_prevCompletePageName:1%3A%3A401%3A%3Acaptcha%3A%3Ahttps%3A%2F%2Fgeo.captcha-delivery.com%2Fcaptcha%2F%3FinitialCid%3DAHrlqAAAAAMA5cKkeKa3ZNMAJXjH7A%253D%253D%26hash%3DAC81AADC3279CA4C7B968B717FBB30%26cid%3Daz26pjrP3NtFUoWQ56hqRCd_g-pvYV9fdDpCnDc~ld9ZDABIC46sjPKJMdlLWSSw5eEzOEkxHe1nXIbKYUqhuqOe9Mj4C67yIaVFj3VLuB%26t%3Dfe%26referer%3Dhttps%253A%252F%252Fidealista.com%252F%26s%3D17156%3Bexp-1621525632177$_prevLevel2:1%3Bexp-1621525632177$_prevAdId:undefined%3Bexp-1621525632178$_prevAdOriginTypeRecommended:undefined%3Bexp-1621525632179",
+      "domain": "captcha-delivery.com",
+      "path": "/",
+      "expires": 1653058032,
+      "size": 1118,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2022-05-20T14:47:12.000Z",
+      "expiresDays": 365,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 16,
+            "lineNumber": 60,
+            "fileName": "https://tags.tiqcdn.com/utag/idealista/es-portal/prod/utag.js",
+            "functionName": "Object.SC",
+            "source": "    at Object.SC (https://tags.tiqcdn.com/utag/idealista/es-portal/prod/utag.js:60:16)"
+          },
+          {
+            "columnNumber": 7032,
+            "lineNumber": 137,
+            "fileName": "https://tags.tiqcdn.com/utag/idealista/es-portal/prod/utag.js",
+            "functionName": "Array.utag.handler.extend",
+            "source": "    at Array.utag.handler.extend (https://tags.tiqcdn.com/utag/idealista/es-portal/prod/utag.js:137:7032)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T14:47:12.189Z",
+        "location": "https://idealista.com"
+      },
+      "firstPartyStorage": false
+    },
+    {
+      "name": "datadome",
+      "value": "az26pjrP3NtFUoWQ56hqRCd_g-pvYV9fdDpCnDc~ld9ZDABIC46sjPKJMdlLWSSw5eEzOEkxHe1nXIbKYUqhuqOe9Mj4C67yIaVFj3VLuB",
+      "domain": "idealista.com",
+      "path": "/",
+      "expires": 1653058031.379936,
+      "size": 114,
+      "httpOnly": false,
+      "secure": true,
+      "session": false,
+      "sameSite": "Lax",
+      "expiresUTC": "2022-05-20T14:47:11.379Z",
+      "expiresDays": 365,
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://idealista.com/",
+            "source": "set in Set-Cookie HTTP response header for https://idealista.com/"
+          }
+        ],
+        "type": "Cookie.HTTP",
+        "timestamp": "2021-05-20T14:47:11.383Z",
+        "location": "about:blank"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "atidvisitor",
+      "value": "%7B%22name%22%3A%22atidvisitor%22%2C%22val%22%3A%7B%22vrn%22%3A%22-592230-%22%7D%2C%22options%22%3A%7B%22path%22%3A%22%2F%22%2C%22session%22%3A15724800%2C%22end%22%3A15724800%7D%7D",
+      "domain": "geo.captcha-delivery.com",
+      "path": "/",
+      "expires": 1637246832.420459,
+      "size": 191,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2021-11-18T14:47:12.420Z",
+      "expiresDays": 182,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 67,
+            "lineNumber": 90,
+            "fileName": "https://tag.aticdn.net/592230/smarttag.js",
+            "functionName": "e.setData",
+            "source": "    at e.setData (https://tag.aticdn.net/592230/smarttag.js:90:67)"
+          },
+          {
+            "columnNumber": 159,
+            "lineNumber": 92,
+            "fileName": "https://tag.aticdn.net/592230/smarttag.js",
+            "functionName": "f",
+            "source": "    at f (https://tag.aticdn.net/592230/smarttag.js:92:159)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T14:47:12.440Z",
+        "location": "https://idealista.com"
+      },
+      "firstPartyStorage": false
+    },
+    {
+      "name": "_gid",
+      "value": "GA1.2.1119941273.1621522032",
+      "domain": "captcha-delivery.com",
+      "path": "/",
+      "expires": 1621608432,
+      "size": 31,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2021-05-21T14:47:12.000Z",
+      "expiresDays": 1,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 495,
+            "lineNumber": 30,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "zc",
+            "source": "    at zc (https://www.google-analytics.com/analytics.js:30:495)"
+          },
+          {
+            "columnNumber": 401,
+            "lineNumber": 59,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "ma",
+            "source": "    at ma (https://www.google-analytics.com/analytics.js:59:401)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T14:47:12.383Z",
+        "location": "https://idealista.com"
+      },
+      "firstPartyStorage": false
+    },
+    {
+      "name": "_gat",
+      "value": "1",
+      "domain": "captcha-delivery.com",
+      "path": "/",
+      "expires": 1621522092,
+      "size": 5,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2021-05-20T14:48:12.000Z",
+      "expiresDays": 0,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 495,
+            "lineNumber": 30,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "zc",
+            "source": "    at zc (https://www.google-analytics.com/analytics.js:30:495)"
+          },
+          {
+            "columnNumber": 31,
+            "lineNumber": 73,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "Qd",
+            "source": "    at Qd (https://www.google-analytics.com/analytics.js:73:31)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T14:47:12.384Z",
+        "location": "https://idealista.com"
+      },
+      "firstPartyStorage": false
+    }
+  ],
+  "localStorage": {
+    "https://www.google.com": {
+      "rc::a": {
+        "value": "MXI1NWkzNDF3bmFmYTY=",
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 182,
+              "lineNumber": 364,
+              "fileName": "https://www.gstatic.com/recaptcha/releases/eWmgPeIYKJsH2R2FrgakEIkq/recaptcha__es.js",
+              "functionName": "Array.<anonymous>",
+              "source": "    at Array.<anonymous> (https://www.gstatic.com/recaptcha/releases/eWmgPeIYKJsH2R2FrgakEIkq/recaptcha__es.js:364:182)"
+            },
+            {
+              "columnNumber": 222,
+              "lineNumber": 270,
+              "fileName": "https://www.gstatic.com/recaptcha/releases/eWmgPeIYKJsH2R2FrgakEIkq/recaptcha__es.js",
+              "functionName": "Kb.<anonymous>",
+              "source": "    at Kb.<anonymous> (https://www.gstatic.com/recaptcha/releases/eWmgPeIYKJsH2R2FrgakEIkq/recaptcha__es.js:270:222)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T14:47:12.814Z",
+          "location": "https://geo.captcha-delivery.com"
+        }
+      }
+    }
+  },
+  "beacons": [
+    {
+      "url": "https://www.google-analytics.com/j/collect?v=1&_v=j90&a=1019229106&t=pageview&_s=1&dl=https%3A%2F%2Fgeo.captcha-delivery.com%2Fcaptcha%2F%3FinitialCid%3DAHrlqAAAAAMA5cKkeKa3ZNMAJXjH7A%253D%253D%26hash%3DAC81AADC3279CA4C7B968B717FBB30%26cid%3Daz26pjrP3NtFUoWQ56hqRCd_g-pvYV9fdDpCnDc~ld9ZDABIC46sjPKJMdlLWSSw5eEzOEkxHe1nXIbKYUqhuqOe9Mj4C67yIaVFj3VLuB%26t%3Dfe%26referer%3Dhttps%253A%252F%252Fidealista.com%252F%26s%3D17156&dr=https%3A%2F%2Fidealista.com%2F&ul=en-us&de=UTF-8&dt=You%20have%20been%20blocked&sd=24-bit&sr=1680x927&vp=1680x927&je=0&_u=IEBAAEABAAAAAC~&jid=672510885&gjid=1062331479&cid=656287900.1621522032&tid=UA-71254111-3&_gid=1119941273.1621522032&_r=1&_slc=1&z=114421969",
+      "query": {
+        "v": 1,
+        "_v": "j90",
+        "a": 1019229106,
+        "t": "pageview",
+        "_s": 1,
+        "dl": "https://geo.captcha-delivery.com/captcha/?initialCid=AHrlqAAAAAMA5cKkeKa3ZNMAJXjH7A%3D%3D&hash=AC81AADC3279CA4C7B968B717FBB30&cid=az26pjrP3NtFUoWQ56hqRCd_g-pvYV9fdDpCnDc~ld9ZDABIC46sjPKJMdlLWSSw5eEzOEkxHe1nXIbKYUqhuqOe9Mj4C67yIaVFj3VLuB&t=fe&referer=https%3A%2F%2Fidealista.com%2F&s=17156",
+        "dr": "https://idealista.com/",
+        "ul": "en-us",
+        "de": "UTF-8",
+        "dt": "You have been blocked",
+        "sd": "24-bit",
+        "sr": "1680x927",
+        "vp": "1680x927",
+        "je": 0,
+        "_u": "IEBAAEABAAAAAC~",
+        "jid": 672510885,
+        "gjid": 1062331479,
+        "cid": 656287900.1621522,
+        "tid": "UA-71254111-3",
+        "_gid": 1119941273.1621523,
+        "_r": 1,
+        "_slc": 1,
+        "z": 114421969
+      },
+      "filter": "/collect?*&cid=",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://geo.captcha-delivery.com/captcha/?initialCid=AHrlqAAAAAMA5cKkeKa3ZNMAJXjH7A%3D%3D&hash=AC81AADC3279CA4C7B968B717FBB30&cid=az26pjrP3NtFUoWQ56hqRCd_g-pvYV9fdDpCnDc~ld9ZDABIC46sjPKJMdlLWSSw5eEzOEkxHe1nXIbKYUqhuqOe9Mj4C67yIaVFj3VLuB&t=fe&referer=https%3A%2F%2Fidealista.com%2F&s=17156",
+            "source": "requested from https://geo.captcha-delivery.com/captcha/?initialCid=AHrlqAAAAAMA5cKkeKa3ZNMAJXjH7A%3D%3D&hash=AC81AADC3279CA4C7B968B717FBB30&cid=az26pjrP3NtFUoWQ56hqRCd_g-pvYV9fdDpCnDc~ld9ZDABIC46sjPKJMdlLWSSw5eEzOEkxHe1nXIbKYUqhuqOe9Mj4C67yIaVFj3VLuB&t=fe&referer=https%3A%2F%2Fidealista.com%2F&s=17156 and matched with easyprivacy.txt filter /collect?*&cid="
+          }
+        ],
+        "timestamp": "2021-05-20T14:47:12.388Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://uconnect.tealiumiq.com/ulog/_error?utid=idealista/es-portal/202105200528&e0=ge%3A%3A42%3A%3A%2F%2Ftags.tiqcdn.com%2Futag%2Fidealista%2Fes-portal%2Fprod%2Futag.js%3A%3ACannot%20read%20property%20%27toString%27%20of%20undefined",
+      "query": {
+        "utid": "idealista/es-portal/202105200528",
+        "e0": "ge::42:://tags.tiqcdn.com/utag/idealista/es-portal/prod/utag.js::Cannot read property 'toString' of undefined"
+      },
+      "filter": "||tealiumiq.com^$third-party",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://geo.captcha-delivery.com/captcha/?initialCid=AHrlqAAAAAMA5cKkeKa3ZNMAJXjH7A%3D%3D&hash=AC81AADC3279CA4C7B968B717FBB30&cid=az26pjrP3NtFUoWQ56hqRCd_g-pvYV9fdDpCnDc~ld9ZDABIC46sjPKJMdlLWSSw5eEzOEkxHe1nXIbKYUqhuqOe9Mj4C67yIaVFj3VLuB&t=fe&referer=https%3A%2F%2Fidealista.com%2F&s=17156",
+            "source": "requested from https://geo.captcha-delivery.com/captcha/?initialCid=AHrlqAAAAAMA5cKkeKa3ZNMAJXjH7A%3D%3D&hash=AC81AADC3279CA4C7B968B717FBB30&cid=az26pjrP3NtFUoWQ56hqRCd_g-pvYV9fdDpCnDc~ld9ZDABIC46sjPKJMdlLWSSw5eEzOEkxHe1nXIbKYUqhuqOe9Mj4C67yIaVFj3VLuB&t=fe&referer=https%3A%2F%2Fidealista.com%2F&s=17156 and matched with easyprivacy.txt filter ||tealiumiq.com^$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T14:47:12.247Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://tag.aticdn.net/592230/smarttag.js",
+      "query": null,
+      "filter": "||tag.aticdn.net^",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://geo.captcha-delivery.com/captcha/?initialCid=AHrlqAAAAAMA5cKkeKa3ZNMAJXjH7A%3D%3D&hash=AC81AADC3279CA4C7B968B717FBB30&cid=az26pjrP3NtFUoWQ56hqRCd_g-pvYV9fdDpCnDc~ld9ZDABIC46sjPKJMdlLWSSw5eEzOEkxHe1nXIbKYUqhuqOe9Mj4C67yIaVFj3VLuB&t=fe&referer=https%3A%2F%2Fidealista.com%2F&s=17156",
+            "source": "requested from https://geo.captcha-delivery.com/captcha/?initialCid=AHrlqAAAAAMA5cKkeKa3ZNMAJXjH7A%3D%3D&hash=AC81AADC3279CA4C7B968B717FBB30&cid=az26pjrP3NtFUoWQ56hqRCd_g-pvYV9fdDpCnDc~ld9ZDABIC46sjPKJMdlLWSSw5eEzOEkxHe1nXIbKYUqhuqOe9Mj4C67yIaVFj3VLuB&t=fe&referer=https%3A%2F%2Fidealista.com%2F&s=17156 and matched with easyprivacy.txt filter ||tag.aticdn.net^"
+          }
+        ],
+        "timestamp": "2021-05-20T14:47:12.244Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://www.google-analytics.com/analytics.js",
+      "query": null,
+      "filter": "||google-analytics.com/analytics.js",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://geo.captcha-delivery.com/captcha/?initialCid=AHrlqAAAAAMA5cKkeKa3ZNMAJXjH7A%3D%3D&hash=AC81AADC3279CA4C7B968B717FBB30&cid=az26pjrP3NtFUoWQ56hqRCd_g-pvYV9fdDpCnDc~ld9ZDABIC46sjPKJMdlLWSSw5eEzOEkxHe1nXIbKYUqhuqOe9Mj4C67yIaVFj3VLuB&t=fe&referer=https%3A%2F%2Fidealista.com%2F&s=17156",
+            "source": "requested from https://geo.captcha-delivery.com/captcha/?initialCid=AHrlqAAAAAMA5cKkeKa3ZNMAJXjH7A%3D%3D&hash=AC81AADC3279CA4C7B968B717FBB30&cid=az26pjrP3NtFUoWQ56hqRCd_g-pvYV9fdDpCnDc~ld9ZDABIC46sjPKJMdlLWSSw5eEzOEkxHe1nXIbKYUqhuqOe9Mj4C67yIaVFj3VLuB&t=fe&referer=https%3A%2F%2Fidealista.com%2F&s=17156 and matched with easyprivacy.txt filter ||google-analytics.com/analytics.js"
+          }
+        ],
+        "timestamp": "2021-05-20T14:47:12.192Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://api-js.datadome.co/js/",
+      "query": null,
+      "filter": "||datadome.co^$third-party",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://geo.captcha-delivery.com/captcha/?initialCid=AHrlqAAAAAMA5cKkeKa3ZNMAJXjH7A%3D%3D&hash=AC81AADC3279CA4C7B968B717FBB30&cid=az26pjrP3NtFUoWQ56hqRCd_g-pvYV9fdDpCnDc~ld9ZDABIC46sjPKJMdlLWSSw5eEzOEkxHe1nXIbKYUqhuqOe9Mj4C67yIaVFj3VLuB&t=fe&referer=https%3A%2F%2Fidealista.com%2F&s=17156",
+            "source": "requested from https://geo.captcha-delivery.com/captcha/?initialCid=AHrlqAAAAAMA5cKkeKa3ZNMAJXjH7A%3D%3D&hash=AC81AADC3279CA4C7B968B717FBB30&cid=az26pjrP3NtFUoWQ56hqRCd_g-pvYV9fdDpCnDc~ld9ZDABIC46sjPKJMdlLWSSw5eEzOEkxHe1nXIbKYUqhuqOe9Mj4C67yIaVFj3VLuB&t=fe&referer=https%3A%2F%2Fidealista.com%2F&s=17156 and matched with easyprivacy.txt filter ||datadome.co^$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T14:47:12.135Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://js.datadome.co/tags.js",
+      "query": null,
+      "filter": "||datadome.co^$third-party",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://geo.captcha-delivery.com/captcha/?initialCid=AHrlqAAAAAMA5cKkeKa3ZNMAJXjH7A%3D%3D&hash=AC81AADC3279CA4C7B968B717FBB30&cid=az26pjrP3NtFUoWQ56hqRCd_g-pvYV9fdDpCnDc~ld9ZDABIC46sjPKJMdlLWSSw5eEzOEkxHe1nXIbKYUqhuqOe9Mj4C67yIaVFj3VLuB&t=fe&referer=https%3A%2F%2Fidealista.com%2F&s=17156",
+            "source": "requested from https://geo.captcha-delivery.com/captcha/?initialCid=AHrlqAAAAAMA5cKkeKa3ZNMAJXjH7A%3D%3D&hash=AC81AADC3279CA4C7B968B717FBB30&cid=az26pjrP3NtFUoWQ56hqRCd_g-pvYV9fdDpCnDc~ld9ZDABIC46sjPKJMdlLWSSw5eEzOEkxHe1nXIbKYUqhuqOe9Mj4C67yIaVFj3VLuB&t=fe&referer=https%3A%2F%2Fidealista.com%2F&s=17156 and matched with easyprivacy.txt filter ||datadome.co^$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T14:47:11.954Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://www.googletagmanager.com/gtm.js?id=GTM-5KTHT2G",
+      "query": {
+        "id": "GTM-5KTHT2G"
+      },
+      "filter": "/gtm.js",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://geo.captcha-delivery.com/captcha/?initialCid=AHrlqAAAAAMA5cKkeKa3ZNMAJXjH7A%3D%3D&hash=AC81AADC3279CA4C7B968B717FBB30&cid=az26pjrP3NtFUoWQ56hqRCd_g-pvYV9fdDpCnDc~ld9ZDABIC46sjPKJMdlLWSSw5eEzOEkxHe1nXIbKYUqhuqOe9Mj4C67yIaVFj3VLuB&t=fe&referer=https%3A%2F%2Fidealista.com%2F&s=17156",
+            "source": "requested from https://geo.captcha-delivery.com/captcha/?initialCid=AHrlqAAAAAMA5cKkeKa3ZNMAJXjH7A%3D%3D&hash=AC81AADC3279CA4C7B968B717FBB30&cid=az26pjrP3NtFUoWQ56hqRCd_g-pvYV9fdDpCnDc~ld9ZDABIC46sjPKJMdlLWSSw5eEzOEkxHe1nXIbKYUqhuqOe9Mj4C67yIaVFj3VLuB&t=fe&referer=https%3A%2F%2Fidealista.com%2F&s=17156 and matched with easyprivacy.txt filter /gtm.js"
+          }
+        ],
+        "timestamp": "2021-05-20T14:47:11.914Z"
+      },
+      "occurrances": 1
+    }
+  ],
+  "hosts": {
+    "requests": {
+      "firstParty": [
+        "idealista.com"
+      ],
+      "thirdParty": [
+        "ct.captcha-delivery.com",
+        "geo.captcha-delivery.com",
+        "static.captcha-delivery.com",
+        "fonts.googleapis.com",
+        "www.googletagmanager.com",
+        "js.datadome.co",
+        "fonts.gstatic.com",
+        "tags.tiqcdn.com",
+        "www.google.com",
+        "api-js.datadome.co",
+        "www.gstatic.com",
+        "www.google-analytics.com",
+        "tag.aticdn.net",
+        "uconnect.tealiumiq.com",
+        "col.idealista.com"
+      ]
+    },
+    "beacons": {
+      "firstParty": [],
+      "thirdParty": [
+        "www.google-analytics.com",
+        "uconnect.tealiumiq.com",
+        "tag.aticdn.net",
+        "api-js.datadome.co",
+        "js.datadome.co",
+        "www.googletagmanager.com"
+      ]
+    },
+    "cookies": {
+      "firstParty": [
+        "idealista.com"
+      ],
+      "thirdParty": [
+        "captcha-delivery.com",
+        "geo.captcha-delivery.com"
+      ]
+    },
+    "localStorage": {
+      "firstParty": [],
+      "thirdParty": [
+        "www.google.com"
+      ]
+    },
+    "links": {
+      "firstParty": [],
+      "thirdParty": []
+    }
+  }
+}

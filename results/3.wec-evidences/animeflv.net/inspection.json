@@ -1,0 +1,158 @@
+{
+  "title": "Website Evidence Collection",
+  "task_description": null,
+  "uri_ins": "https://animeflv.net",
+  "uri_refs": [
+    "https://animeflv.net"
+  ],
+  "uri_dest": "https://www3.animeflv.net/",
+  "uri_redirects": [
+    "https://animeflv.net/"
+  ],
+  "secure_connection": {
+    "https_support": true,
+    "redirects": [
+      "https://www3.animeflv.net/"
+    ],
+    "https_redirect": true
+  },
+  "host": "animeflv.net",
+  "script": {
+    "host": "sfod",
+    "version": {
+      "npm": "1.0.0",
+      "commit": null
+    },
+    "cmd_args": "-q --overwrite https://animeflv.net -- --ignore-certificate-errors",
+    "environment": {
+      "CHROME_DESKTOP": "code-url-handler.desktop"
+    },
+    "node_version": "v14.17.0"
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "HeadlessChrome/80.0.3987.0",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3617.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "5.8.0-53-generic"
+    },
+    "extra_headers": {},
+    "preset_cookies": {}
+  },
+  "start_time": "2021-05-20T14:49:41.576Z",
+  "end_time": "2021-05-20T14:49:49.395Z",
+  "links": {
+    "firstParty": [],
+    "thirdParty": [
+      {
+        "href": "https://chrome.google.com/webstore/detail/privacy-pass/ajhmfdgkijocedmfjonnpjfojldioehi",
+        "inner_text": "Chrome Web Store",
+        "inner_html": "Chrome Web Store"
+      },
+      {
+        "href": "https://www.cloudflare.com/5xx-error-landing",
+        "inner_text": "Cloudflare",
+        "inner_html": "Cloudflare"
+      }
+    ],
+    "social": [],
+    "keywords": [
+      {
+        "href": "https://chrome.google.com/webstore/detail/privacy-pass/ajhmfdgkijocedmfjonnpjfojldioehi",
+        "inner_text": "Chrome Web Store",
+        "inner_html": "Chrome Web Store"
+      }
+    ]
+  },
+  "unsafeForms": [],
+  "browsing_history": [
+    "https://www3.animeflv.net/"
+  ],
+  "websockets": {},
+  "cookies": [
+    {
+      "name": "cf_chl_prog",
+      "value": "b",
+      "domain": "www3.animeflv.net",
+      "path": "/",
+      "expires": 1621525786,
+      "size": 12,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2021-05-20T15:49:46.000Z",
+      "expiresDays": 0.04,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 34672,
+            "lineNumber": 1,
+            "fileName": "https://www3.animeflv.net/cdn-cgi/challenge-platform/h/g/orchestrate/managed/v1?ray=65265f85482bd6c5",
+            "functionName": "n",
+            "source": "    at n (https://www3.animeflv.net/cdn-cgi/challenge-platform/h/g/orchestrate/managed/v1?ray=65265f85482bd6c5:1:34672)"
+          },
+          {
+            "columnNumber": 15021,
+            "lineNumber": 1,
+            "fileName": "https://www3.animeflv.net/cdn-cgi/challenge-platform/h/g/orchestrate/managed/v1?ray=65265f85482bd6c5",
+            "functionName": "Object.t.<computed> [as dWQdT]",
+            "source": "    at Object.t.<computed> [as dWQdT] (https://www3.animeflv.net/cdn-cgi/challenge-platform/h/g/orchestrate/managed/v1?ray=65265f85482bd6c5:1:15021)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T14:49:46.339Z",
+        "location": "https://www3.animeflv.net/"
+      },
+      "firstPartyStorage": false
+    },
+    {
+      "name": "cf_chl_seq_c4b2248bf4bb597",
+      "value": "dcbc618c7b453e4",
+      "domain": "www3.animeflv.net",
+      "path": "/cdn-cgi/challenge-platform/h/g/flow/ov1/0.41978802405605026:1621519108:5ab5c1eaeee7035851b2ccf28a404ce116be4ab11a57b9922d8f0b08c4abb996/65265f85482bd6c5",
+      "expires": -1,
+      "size": 41,
+      "httpOnly": true,
+      "secure": true,
+      "session": true,
+      "sameSite": "Strict",
+      "firstPartyStorage": false
+    }
+  ],
+  "localStorage": {},
+  "beacons": [],
+  "hosts": {
+    "requests": {
+      "firstParty": [
+        "animeflv.net"
+      ],
+      "thirdParty": [
+        "www3.animeflv.net",
+        "hcaptcha.com",
+        "newassets.hcaptcha.com"
+      ]
+    },
+    "beacons": {
+      "firstParty": [],
+      "thirdParty": []
+    },
+    "cookies": {
+      "firstParty": [],
+      "thirdParty": [
+        "www3.animeflv.net"
+      ]
+    },
+    "localStorage": {
+      "firstParty": [],
+      "thirdParty": []
+    },
+    "links": {
+      "firstParty": [],
+      "thirdParty": [
+        "chrome.google.com",
+        "www.cloudflare.com"
+      ]
+    }
+  }
+}

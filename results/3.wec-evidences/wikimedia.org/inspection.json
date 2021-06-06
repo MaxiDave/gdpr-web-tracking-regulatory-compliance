@@ -1,0 +1,352 @@
+{
+  "title": "Website Evidence Collection",
+  "task_description": null,
+  "uri_ins": "https://wikimedia.org",
+  "uri_refs": [
+    "https://wikimedia.org"
+  ],
+  "uri_dest": "https://www.wikimedia.org/",
+  "uri_redirects": [
+    "https://wikimedia.org/"
+  ],
+  "secure_connection": {
+    "https_support": true,
+    "redirects": [
+      "https://wikimedia.org/",
+      "https://www.wikimedia.org/"
+    ],
+    "https_redirect": true
+  },
+  "host": "wikimedia.org",
+  "script": {
+    "host": "sfod",
+    "version": {
+      "npm": "1.0.0",
+      "commit": null
+    },
+    "cmd_args": "-q --overwrite https://wikimedia.org -- --ignore-certificate-errors",
+    "environment": {
+      "CHROME_DESKTOP": "code-url-handler.desktop"
+    },
+    "node_version": "v14.17.0"
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "HeadlessChrome/80.0.3987.0",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3617.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "5.8.0-53-generic"
+    },
+    "extra_headers": {},
+    "preset_cookies": {}
+  },
+  "start_time": "2021-05-20T16:13:07.841Z",
+  "end_time": "2021-05-20T16:13:13.959Z",
+  "links": {
+    "firstParty": [],
+    "thirdParty": [
+      {
+        "href": "https://meta.wikimedia.org/wiki/Special:MyLanguage/Wikimedia_movement",
+        "inner_text": "movement",
+        "inner_html": "movement"
+      },
+      {
+        "href": "https://meta.wikimedia.org/wiki/Our_projects",
+        "inner_text": "projects",
+        "inner_html": "projects"
+      },
+      {
+        "href": "https://meta.wikimedia.org/wiki/Special:MyLanguage/Wikimedia_chapters",
+        "inner_text": "chapters",
+        "inner_html": "chapters"
+      },
+      {
+        "href": "https://www.wikipedia.org/",
+        "inner_text": "",
+        "inner_html": "<span class=\"icon\"><img src=\"/static/images/project-logos/enwiki.png\" srcset=\"/static/images/project-logos/enwiki-1.5x.png, /static/images/project-logos/enwiki-2x.png 2x\" width=\"135\" alt=\"Wikipedia\"></span>"
+      },
+      {
+        "href": "https://www.wiktionary.org/",
+        "inner_text": "",
+        "inner_html": "<span class=\"icon\"><img src=\"//upload.wikimedia.org/wikipedia/commons/thumb/f/ff/WiktionaryEn.svg/135px-WiktionaryEn.svg.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/f/ff/WiktionaryEn.svg/203px-WiktionaryEn.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/f/ff/WiktionaryEn.svg/270px-WiktionaryEn.svg.png 2x\" width=\"135\" alt=\"Wiktionary\"></span>"
+      },
+      {
+        "href": "https://www.wikiquote.org/",
+        "inner_text": "",
+        "inner_html": "<span class=\"icon\"><img src=\"/static/images/project-logos/wikiquote.png\" srcset=\"//upload.wikimedia.org/wikipedia/meta/7/7a/Wikiquote-logo_project_1.5x.png 1.5x, //upload.wikimedia.org/wikipedia/meta/5/5b/Wikiquote-logo_project_2x.png 2x\" width=\"135\" alt=\"Wikiquote\"></span>"
+      },
+      {
+        "href": "https://www.wikibooks.org/",
+        "inner_text": "",
+        "inner_html": "<span class=\"icon\"><img src=\"/static/images/project-logos/wikibooks.png\" srcset=\"//upload.wikimedia.org/wikipedia/commons/thumb/d/df/Wikibooks-logo-en-noslogan.svg/203px-Wikibooks-logo-en-noslogan.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/d/df/Wikibooks-logo-en-noslogan.svg/270px-Wikibooks-logo-en-noslogan.svg.png 2x\" width=\"135\" alt=\"Wikibooks\"></span>"
+      },
+      {
+        "href": "https://wikisource.org/",
+        "inner_text": "",
+        "inner_html": "<span class=\"icon\"><img src=\"/static/images/project-logos/wikisource.png\" width=\"123\" alt=\"Wikisource\"></span>"
+      },
+      {
+        "href": "https://www.wikinews.org/",
+        "inner_text": "",
+        "inner_html": "<span class=\"icon\"><img src=\"//upload.wikimedia.org/wikinews/en/b/bc/Wiki.png\" width=\"135\" alt=\"Wikinews\"></span>"
+      },
+      {
+        "href": "https://www.wikiversity.org/",
+        "inner_text": "",
+        "inner_html": "<span class=\"icon\"><img src=\"/static/images/project-logos/enwikiversity.png\" width=\"135\" alt=\"Wikiversity\"></span>"
+      },
+      {
+        "href": "https://species.wikimedia.org/",
+        "inner_text": "",
+        "inner_html": "<span class=\"icon\"><img src=\"/static/images/project-logos/specieswiki.png\" width=\"125\" alt=\"Wikispecies\"></span>"
+      },
+      {
+        "href": "https://www.mediawiki.org/",
+        "inner_text": "",
+        "inner_html": "<span class=\"icon\"><img src=\"/static/images/project-logos/mediawikiwiki.png\" width=\"135\" alt=\"MediaWiki\"></span>"
+      },
+      {
+        "href": "https://www.wikidata.org/",
+        "inner_text": "",
+        "inner_html": "<span class=\"icon\"><img src=\"/static/images/project-logos/wikidatawiki.png\" width=\"150\" alt=\"Wikidata\"></span>"
+      },
+      {
+        "href": "https://commons.wikimedia.org/",
+        "inner_text": "",
+        "inner_html": "<span class=\"icon\"><img src=\"/static/images/project-logos/commonswiki.png\" width=\"135\" alt=\"Wikimedia Commons\"></span>"
+      },
+      {
+        "href": "https://www.wikivoyage.org/",
+        "inner_text": "",
+        "inner_html": "<span class=\"icon\"><img src=\"/static/images/project-logos/wikivoyage.png\" width=\"135\" alt=\"Wikivoyage\"></span>"
+      },
+      {
+        "href": "https://meta.wikimedia.org/",
+        "inner_text": "",
+        "inner_html": "<span class=\"icon\"><img src=\"/static/images/project-logos/metawiki.png\" srcset=\"/static/images/project-logos/metawiki-1.5x.png 1.5x, /static/images/project-logos/metawiki-2x.png 2x\" width=\"135\" alt=\"Meta-Wiki\"></span>"
+      },
+      {
+        "href": "https://incubator.wikimedia.org/",
+        "inner_text": "",
+        "inner_html": "<span class=\"icon\"><img src=\"/static/images/project-logos/incubatorwiki.png\" width=\"135\" alt=\"Wikimedia Incubator\"></span>"
+      },
+      {
+        "href": "https://wikitech.wikimedia.org/",
+        "inner_text": "",
+        "inner_html": "<span class=\"icon\"><img src=\"//commons.wikimedia.org/wiki/Special:FilePath/Wikimedia_Cloud_Services_logo_with_text.svg?width=120\" alt=\"Wikimedia Cloud Services logo\"></span>"
+      },
+      {
+        "href": "https://wikimediafoundation.org/",
+        "inner_text": "",
+        "inner_html": "<span class=\"icon\"><img src=\"/static/images/project-logos/foundationwiki.png\" srcset=\"/static/images/project-logos/foundationwiki-1.5x.png 1.5x, /static/images/project-logos/foundationwiki-2x.png 2x\" width=\"135\" alt=\"Wikimedia Foundation\"></span>"
+      },
+      {
+        "href": "https://foundation.wikimedia.org/wiki/Terms_of_Use",
+        "inner_text": "Terms of use",
+        "inner_html": "Terms of use"
+      },
+      {
+        "href": "https://foundation.wikimedia.org/wiki/Privacy_policy",
+        "inner_text": "Privacy policy",
+        "inner_html": "Privacy policy"
+      }
+    ],
+    "social": [],
+    "keywords": [
+      {
+        "href": "https://foundation.wikimedia.org/wiki/Privacy_policy",
+        "inner_text": "Privacy policy",
+        "inner_html": "Privacy policy"
+      }
+    ]
+  },
+  "unsafeForms": [],
+  "browsing_history": [
+    "https://www.wikimedia.org/"
+  ],
+  "websockets": {},
+  "cookies": [
+    {
+      "name": "WMF-Last-Access-Global",
+      "value": "20-May-2021",
+      "domain": "wikimedia.org",
+      "path": "/",
+      "expires": 1624322458.467361,
+      "size": 33,
+      "httpOnly": true,
+      "secure": true,
+      "session": false,
+      "expiresUTC": "2021-06-22T00:40:58.467Z",
+      "expiresDays": 32.35,
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://wikimedia.org/",
+            "source": "set in Set-Cookie HTTP response header for https://wikimedia.org/"
+          }
+        ],
+        "type": "Cookie.HTTP",
+        "timestamp": "2021-05-20T16:13:08.471Z",
+        "location": "about:blank"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "WMF-Last-Access",
+      "value": "20-May-2021",
+      "domain": "wikimedia.org",
+      "path": "/",
+      "expires": 1624322458.467288,
+      "size": 26,
+      "httpOnly": true,
+      "secure": true,
+      "session": false,
+      "expiresUTC": "2021-06-22T00:40:58.467Z",
+      "expiresDays": 32.35,
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://wikimedia.org/",
+            "source": "set in Set-Cookie HTTP response header for https://wikimedia.org/"
+          }
+        ],
+        "type": "Cookie.HTTP",
+        "timestamp": "2021-05-20T16:13:08.471Z",
+        "location": "about:blank"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "WMF-Last-Access",
+      "value": "20-May-2021",
+      "domain": "www.wikimedia.org",
+      "path": "/",
+      "expires": 1624277991.729651,
+      "size": 26,
+      "httpOnly": true,
+      "secure": true,
+      "session": false,
+      "expiresUTC": "2021-06-21T12:19:51.729Z",
+      "expiresDays": 31.84,
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.wikimedia.org/",
+            "source": "set in Set-Cookie HTTP response header for https://www.wikimedia.org/"
+          }
+        ],
+        "type": "Cookie.HTTP",
+        "timestamp": "2021-05-20T16:13:08.732Z",
+        "location": "about:blank"
+      },
+      "firstPartyStorage": false
+    },
+    {
+      "name": "WMF-Last-Access",
+      "value": "20-May-2021",
+      "domain": "meta.wikimedia.org",
+      "path": "/",
+      "expires": 1624277040.93803,
+      "size": 26,
+      "httpOnly": true,
+      "secure": true,
+      "session": false,
+      "expiresUTC": "2021-06-21T12:04:00.938Z",
+      "expiresDays": 31.83,
+      "firstPartyStorage": false
+    },
+    {
+      "name": "WMF-Last-Access",
+      "value": "20-May-2021",
+      "domain": "commons.wikimedia.org",
+      "path": "/",
+      "expires": 1624276801.00263,
+      "size": 26,
+      "httpOnly": true,
+      "secure": true,
+      "session": false,
+      "expiresUTC": "2021-06-21T12:00:01.002Z",
+      "expiresDays": 31.82,
+      "firstPartyStorage": false
+    },
+    {
+      "name": "GeoIP",
+      "value": "ES:MD:Madrid:40.42:-3.69:v4",
+      "domain": "wikimedia.org",
+      "path": "/",
+      "expires": -1,
+      "size": 32,
+      "httpOnly": false,
+      "secure": true,
+      "session": true,
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://wikimedia.org/",
+            "source": "set in Set-Cookie HTTP response header for https://wikimedia.org/"
+          }
+        ],
+        "type": "Cookie.HTTP",
+        "timestamp": "2021-05-20T16:13:08.471Z",
+        "location": "about:blank"
+      },
+      "firstPartyStorage": true
+    }
+  ],
+  "localStorage": {},
+  "beacons": [],
+  "hosts": {
+    "requests": {
+      "firstParty": [
+        "wikimedia.org"
+      ],
+      "thirdParty": [
+        "www.wikimedia.org",
+        "meta.wikimedia.org",
+        "upload.wikimedia.org",
+        "commons.wikimedia.org"
+      ]
+    },
+    "beacons": {
+      "firstParty": [],
+      "thirdParty": []
+    },
+    "cookies": {
+      "firstParty": [
+        "wikimedia.org"
+      ],
+      "thirdParty": [
+        "www.wikimedia.org",
+        "meta.wikimedia.org",
+        "commons.wikimedia.org"
+      ]
+    },
+    "localStorage": {
+      "firstParty": [],
+      "thirdParty": []
+    },
+    "links": {
+      "firstParty": [],
+      "thirdParty": [
+        "meta.wikimedia.org",
+        "www.wikipedia.org",
+        "www.wiktionary.org",
+        "www.wikiquote.org",
+        "www.wikibooks.org",
+        "wikisource.org",
+        "www.wikinews.org",
+        "www.wikiversity.org",
+        "species.wikimedia.org",
+        "www.mediawiki.org",
+        "www.wikidata.org",
+        "commons.wikimedia.org",
+        "www.wikivoyage.org",
+        "incubator.wikimedia.org",
+        "wikitech.wikimedia.org",
+        "wikimediafoundation.org",
+        "foundation.wikimedia.org"
+      ]
+    }
+  }
+}

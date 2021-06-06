@@ -1,0 +1,2193 @@
+{
+  "title": "Website Evidence Collection",
+  "task_description": null,
+  "uri_ins": "https://wordpress.com",
+  "uri_refs": [
+    "https://wordpress.com"
+  ],
+  "uri_dest": "https://wordpress.com/",
+  "uri_redirects": [],
+  "secure_connection": {
+    "https_support": true,
+    "redirects": [
+      "https://wordpress.com/"
+    ],
+    "https_redirect": true
+  },
+  "host": "wordpress.com",
+  "script": {
+    "host": "sfod",
+    "version": {
+      "npm": "1.0.0",
+      "commit": null
+    },
+    "cmd_args": "-q --overwrite https://wordpress.com -- --ignore-certificate-errors",
+    "environment": {
+      "CHROME_DESKTOP": "code-url-handler.desktop"
+    },
+    "node_version": "v14.17.0"
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "HeadlessChrome/80.0.3987.0",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3617.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "5.8.0-53-generic"
+    },
+    "extra_headers": {},
+    "preset_cookies": {}
+  },
+  "start_time": "2021-05-20T15:24:57.679Z",
+  "end_time": "2021-05-20T15:25:10.146Z",
+  "links": {
+    "firstParty": [
+      {
+        "href": "https://wordpress.com/",
+        "inner_text": "WordPress.com",
+        "inner_html": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 170 36\" class=\"x-icon x-icon--logo\"><path d=\"M47.57 10l-2.79 10.72L41.99 10h-2.81l.65 2.3-2.45 8.78L34.7 10H32l3.8 14h2.96l2.28-7.49L43.17 24h2.95l4-14h-2.55zm28.39 4.06a9 9 0 0 0-1.86-.23c-3.4 0-5.26 2.27-5.26 5.6 0 3.31 1.86 4.82 4.05 4.82a5.45 5.45 0 0 0 3.2-1.17V24h2.33V10h-2.46v4.06zm0 7.08c-.8.73-1.55 1.13-2.34 1.13-1.36 0-2.23-.9-2.23-3.01 0-2.28 1.08-3.47 2.96-3.47.55 0 1.1.11 1.6.31v5.04zM64.2 15.7h-.09v-1.64h-2.3V24h2.47v-5.92c.77-1.46 1.71-1.94 3.28-1.94h.25V14a6.67 6.67 0 0 0-.67-.04c-1.34 0-2.26.52-2.94 1.75zm83.14-1.89c-3.4 0-5.01 2.2-5.01 5.23 0 3.02 1.6 5.2 5.01 5.2s5.01-2.18 5.01-5.2c0-3.03-1.63-5.23-5.02-5.23h.01zm0 8.44c-1.6 0-2.46-1.04-2.46-3.21 0-2.18.85-3.22 2.46-3.22 1.6 0 2.44 1.04 2.44 3.22 0 2.17-.84 3.21-2.45 3.21h.01zm19.12-8.44c-1.06 0-2.28.58-3.38 1.32l-.3.19c-.51-1.11-1.56-1.5-2.71-1.5-1.06 0-2.27.54-3.38 1.27v-1.03h-2.34V24h2.48v-7.13a5.3 5.3 0 0 1 2.61-.98c.81 0 1.32.44 1.32 1.84V24h2.46v-7.1c.92-.6 1.9-1 2.6-1 .82 0 1.32.43 1.32 1.84V24h2.46v-6.86c0-1.92-1.14-3.32-3.15-3.32zm-111.64 0c-3.4 0-5 2.2-5 5.23 0 3.02 1.6 5.2 5 5.2s5.02-2.18 5.02-5.2c0-3.03-1.64-5.23-5.03-5.23h.01zm0 8.44c-1.6 0-2.46-1.04-2.46-3.21 0-2.18.86-3.22 2.47-3.22 1.6 0 2.44 1.04 2.44 3.22 0 2.17-.85 3.21-2.46 3.21h.01zm40.31-6.56h-.08v-1.63h-2.31V24h2.46v-5.92c.77-1.46 1.71-1.94 3.28-1.94h.25V14a6.67 6.67 0 0 0-.67-.04c-1.33 0-2.25.52-2.94 1.75h.01zM86.05 10h-4.58v14h2.64v-4.87h1.93c2.99 0 5.16-1.61 5.16-4.62 0-3-2.17-4.51-5.16-4.51zm.02 7.08h-1.96v-5.01h1.95c1.6 0 2.38.88 2.38 2.44 0 1.57-.73 2.57-2.38 2.57h.01zm36.02-.23c0-.75.82-1.04 1.7-1.04.93.01 1.86.16 2.75.43V14.2a10.14 10.14 0 0 0-2.95-.38c-2.38 0-4.05 1.13-4.05 2.97 0 3.57 4.92 2.65 4.92 4.39 0 .85-.77 1.08-1.9 1.08-.8 0-2.07-.3-2.99-.63v2.03a8.29 8.29 0 0 0 2.9.59c2.32 0 4.53-.69 4.53-3.17.03-3.45-4.9-2.56-4.9-4.23zm-17.5-3.03c-3.18 0-4.83 2.47-4.83 5.16 0 3.7 1.94 5.27 5.1 5.27a11.81 11.81 0 0 0 3.65-.57v-2.05c-1.03.38-1.97.61-2.97.61-1.84 0-3.07-.5-3.13-2.67h6.36c.06-.49.09-.98.08-1.46 0-2.1-1.11-4.29-4.27-4.29zm-2.16 4.12c.15-1.38.9-2.26 2.13-2.26 1.32 0 1.72 1.05 1.72 2.26h-3.85zm10.7-1.09c0-.75.81-1.04 1.69-1.04.93.01 1.86.16 2.75.43V14.2a10.14 10.14 0 0 0-2.94-.38c-2.38 0-4.06 1.13-4.06 2.97 0 3.57 4.93 2.65 4.93 4.39 0 .85-.78 1.08-1.9 1.08-.8 0-2.07-.3-3-.63v2.03a8.28 8.28 0 0 0 2.9.59c2.32 0 4.54-.69 4.54-3.17.02-3.45-4.91-2.56-4.91-4.23zm21.97 2.1c0-2.33 1.27-3.12 2.78-3.12.94.03 1.88.22 2.76.57v-2.1a8.11 8.11 0 0 0-2.8-.48c-3.28 0-5.31 2-5.31 5.25 0 3.07 1.46 5.18 5.16 5.18 1.17 0 2.08-.23 3.08-.57v-2.04c-1.13.43-2 .6-2.77.6-1.63 0-2.9-.75-2.9-3.3zM128.66 24h2.47v-2.55h-2.47V24zM1.72 16c0 4.47 2.6 8.32 6.36 10.15L2.7 11.41A11.24 11.24 0 0 0 1.72 16zM13 27.28c1.31 0 2.57-.23 3.75-.64l-.08-.15-3.47-9.5-3.38 9.83c1 .3 2.07.46 3.18.46zm1.55-16.57l4.08 12.13 1.13-3.76c.48-1.56.85-2.68.85-3.65 0-1.4-.5-2.36-.92-3.1-.58-.94-1.11-1.73-1.11-2.65 0-1.04.78-2 1.9-2h.14A11.24 11.24 0 0 0 13 4.72 11.27 11.27 0 0 0 3.58 9.8l.72.02c1.18 0 3-.15 3-.15.62-.03.69.86.08.93 0 0-.61.08-1.3.11l4.12 12.22 2.47-7.4-1.76-4.82a20.13 20.13 0 0 1-1.18-.1c-.61-.04-.54-.97.07-.94 0 0 1.86.15 2.97.15 1.18 0 3-.15 3-.15.61-.03.69.86.08.93 0 0-.61.07-1.3.11zm4.12 15.04A11.28 11.28 0 0 0 24.28 16c0-1.96-.5-3.8-1.38-5.41a10.65 10.65 0 0 1-.78 5.2l-3.45 9.96zM13 29a13 13 0 1 1 0-26 13 13 0 0 1 0 26z\" fill=\"inherit\" fill-rule=\"nonzero\"></path></svg> <span class=\"x-hidden\">WordPress.com</span>"
+      },
+      {
+        "href": "https://wordpress.com/pricing/",
+        "inner_text": "Plans & Pricing",
+        "inner_html": "Plans &amp; Pricing"
+      },
+      {
+        "href": "https://wordpress.com/wp-login.php?redirect_to=https%3A%2F%2Fwordpress.com%2F",
+        "inner_text": "Log In",
+        "inner_html": "Log In"
+      },
+      {
+        "href": "https://wordpress.com/start/?ref=logged-out-homepage-lp",
+        "inner_text": "Get Started",
+        "inner_html": "Get Started"
+      },
+      {
+        "href": "https://wordpress.com/create-blog/",
+        "inner_text": "Blogs",
+        "inner_html": "Blogs"
+      },
+      {
+        "href": "https://wordpress.com/create-website/",
+        "inner_text": "Websites",
+        "inner_html": "Websites"
+      },
+      {
+        "href": "https://wordpress.com/domains/",
+        "inner_text": "Domains",
+        "inner_html": "Domains"
+      },
+      {
+        "href": "https://wordpress.com/ecommerce/",
+        "inner_text": "eCommerce",
+        "inner_html": "eCommerce"
+      },
+      {
+        "href": "https://wordpress.com/com-vs-org/",
+        "inner_text": "Self‑Hosted Solutions",
+        "inner_html": "Self‑Hosted Solutions"
+      },
+      {
+        "href": "https://wordpress.com/p2/",
+        "inner_text": "P2: WordPress for Teams",
+        "inner_html": "P2: WordPress for Teams"
+      },
+      {
+        "href": "https://wordpress.com/features/",
+        "inner_text": "Overview",
+        "inner_html": "Overview"
+      },
+      {
+        "href": "https://wordpress.com/themes/",
+        "inner_text": "Themes",
+        "inner_html": "Themes"
+      },
+      {
+        "href": "https://wordpress.com/install-plugins/",
+        "inner_text": "Plugins",
+        "inner_html": "Plugins"
+      },
+      {
+        "href": "https://wordpress.com/google/",
+        "inner_text": "Google Apps",
+        "inner_html": "Google Apps"
+      },
+      {
+        "href": "https://wordpress.com/website-builder/",
+        "inner_text": "Website Builder",
+        "inner_html": "Website Builder"
+      },
+      {
+        "href": "https://wordpress.com/support/",
+        "inner_text": "Support",
+        "inner_html": "Support"
+      },
+      {
+        "href": "https://wordpress.com/blog/",
+        "inner_text": "News",
+        "inner_html": "News"
+      },
+      {
+        "href": "https://wordpress.com/go/",
+        "inner_text": "Expert Tips",
+        "inner_html": "Expert Tips"
+      },
+      {
+        "href": "https://wordpress.com/business-name-generator/",
+        "inner_text": "Business Name Generator",
+        "inner_html": "Business Name Generator"
+      },
+      {
+        "href": "https://wordpress.com/logo-maker/",
+        "inner_text": "Logo Maker",
+        "inner_html": "Logo Maker"
+      },
+      {
+        "href": "https://wordpress.com/webinars/",
+        "inner_text": "Daily Webinars",
+        "inner_html": "Daily Webinars"
+      },
+      {
+        "href": "https://wordpress.com/courses/",
+        "inner_text": "Paid Courses",
+        "inner_html": "Paid Courses"
+      },
+      {
+        "href": "https://wordpress.com/themes/?ref=logged-out-homepage-lp",
+        "inner_text": "Find your theme",
+        "inner_html": "Find your theme"
+      },
+      {
+        "href": "https://wordpress.com/domains/?ref=logged-out-homepage-lp",
+        "inner_text": "Find your domain",
+        "inner_html": "Find your domain"
+      },
+      {
+        "href": "https://wordpress.com/pricing/?ref=logged-out-homepage-lp",
+        "inner_text": "Explore plans",
+        "inner_html": "Explore plans"
+      },
+      {
+        "href": "https://wordpress.com/start/free/?ref=logged-out-homepage-lp",
+        "inner_text": "Start with Free",
+        "inner_html": "Start with&nbsp;Free"
+      },
+      {
+        "href": "https://wordpress.com/start/personal/?ref=logged-out-homepage-lp",
+        "inner_text": "Start with Personal",
+        "inner_html": "Start with&nbsp;Personal"
+      },
+      {
+        "href": "https://wordpress.com/start/personal-monthly/?ref=logged-out-homepage-lp",
+        "inner_text": "Start with Personal",
+        "inner_html": "Start with&nbsp;Personal"
+      },
+      {
+        "href": "https://wordpress.com/start/premium/?ref=logged-out-homepage-lp",
+        "inner_text": "Start with Premium",
+        "inner_html": "Start with&nbsp;Premium"
+      },
+      {
+        "href": "https://wordpress.com/start/premium-monthly/?ref=logged-out-homepage-lp",
+        "inner_text": "Start with Premium",
+        "inner_html": "Start with&nbsp;Premium"
+      },
+      {
+        "href": "https://wordpress.com/start/business/?ref=logged-out-homepage-lp",
+        "inner_text": "Start with Business",
+        "inner_html": "Start with&nbsp;Business"
+      },
+      {
+        "href": "https://wordpress.com/start/business-monthly/?ref=logged-out-homepage-lp",
+        "inner_text": "Start with Business",
+        "inner_html": "Start with&nbsp;Business"
+      },
+      {
+        "href": "https://wordpress.com/start/ecommerce/?ref=logged-out-homepage-lp",
+        "inner_text": "Start with eCommerce",
+        "inner_html": "Start with&nbsp;eCommerce"
+      },
+      {
+        "href": "https://wordpress.com/start/ecommerce-monthly/?ref=logged-out-homepage-lp",
+        "inner_text": "Start with eCommerce",
+        "inner_html": "Start with&nbsp;eCommerce"
+      },
+      {
+        "href": "https://wordpress.com/pricing/?ref=logged-out-homepage-lp&compare=1",
+        "inner_text": "Compare our plans ›",
+        "inner_html": "Compare our plans&nbsp;›"
+      },
+      {
+        "href": "https://wordpress.com/built-by-wordpress-com/?utm_source=pricing&utm_medium=automattic_referred&utm_campaign=q221",
+        "inner_text": "Learn more ›",
+        "inner_html": "Learn more&nbsp;›"
+      },
+      {
+        "href": "https://wordpress.com/hosting/",
+        "inner_text": "Hosting",
+        "inner_html": "Hosting"
+      },
+      {
+        "href": "https://wordpress.com/built-by-wordpress-com/",
+        "inner_text": "WordPress Website Building Service",
+        "inner_html": "WordPress Website Building Service"
+      },
+      {
+        "href": "https://wordpress.com/themes",
+        "inner_text": "Themes",
+        "inner_html": "Themes"
+      },
+      {
+        "href": "https://wordpress.com/topics/",
+        "inner_text": "Trending Stories",
+        "inner_html": "Trending Stories"
+      },
+      {
+        "href": "https://wordpress.com/forums/",
+        "inner_text": "Forums",
+        "inner_html": "Forums"
+      },
+      {
+        "href": "https://wordpress.com/about/",
+        "inner_text": "About",
+        "inner_html": "About"
+      },
+      {
+        "href": "https://wordpress.com/partners/",
+        "inner_text": "Partners",
+        "inner_html": "Partners"
+      },
+      {
+        "href": "https://wordpress.com/advertising-program-optout",
+        "inner_text": "Do Not Sell My Personal Information",
+        "inner_html": "Do Not Sell My Personal Information"
+      },
+      {
+        "href": "https://wordpress.com/tos/",
+        "inner_text": "Terms of Service",
+        "inner_html": "Terms of Service"
+      }
+    ],
+    "thirdParty": [
+      {
+        "href": "https://pressable.com/wpcom/?utm_source=WordPresscom&utm_medium=automattic_referral&utm_campaign=top_nav",
+        "inner_text": "Multiple Site Hosting ",
+        "inner_html": "Multiple Site Hosting\t\t\t\t\t\t\t\t\t\t\t<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 9 9\" class=\"x-icon x-icon--external\"><path d=\"M5.5 0v1h1.795L2.38 5.915l.705.705L8 1.705V3.5h1V0H5.5zM8 8H1V1h3V0H1a1 1 0 0 0-1 1v7a1 1 0 0 0 1 1h7a1 1 0 0 0 1-1V5H8v3z\" fill-rule=\"nonzero\"></path></svg>"
+      },
+      {
+        "href": "https://wpvip.com/?utm_source=WordPresscom&utm_medium=automattic_referral&utm_campaign=top_nav",
+        "inner_text": "Enterprise ",
+        "inner_html": "Enterprise\t\t\t\t\t\t\t\t\t\t<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 9 9\" class=\"x-icon x-icon--external\"><path d=\"M5.5 0v1h1.795L2.38 5.915l.705.705L8 1.705V3.5h1V0H5.5zM8 8H1V1h3V0H1a1 1 0 0 0-1 1v7a1 1 0 0 0 1 1h7a1 1 0 0 0 1-1V5H8v3z\" fill-rule=\"nonzero\"></path></svg>"
+      },
+      {
+        "href": "https://apps.apple.com/us/app/wordpress/id335703880",
+        "inner_text": "iOS",
+        "inner_html": "iOS"
+      },
+      {
+        "href": "https://play.google.com/store/apps/details?id=org.wordpress.android",
+        "inner_text": "Android",
+        "inner_html": "Android"
+      },
+      {
+        "href": "https://wpvip.com/pricing/?utm_source=WordPresscom&utm_medium=automattic_referral&utm_campaign=pricing_table",
+        "inner_text": "Learn more ›",
+        "inner_html": "Learn more&nbsp;›"
+      },
+      {
+        "href": "https://wpvip.com/",
+        "inner_text": "Enterprise Solutions",
+        "inner_html": "Enterprise Solutions"
+      },
+      {
+        "href": "https://discover.wordpress.com/",
+        "inner_text": "Discover",
+        "inner_html": "Discover"
+      },
+      {
+        "href": "https://apps.wordpress.com/mobile/",
+        "inner_text": "Apps",
+        "inner_html": "Apps"
+      },
+      {
+        "href": "https://developer.wordpress.com/",
+        "inner_text": "Developers",
+        "inner_html": "Developers"
+      },
+      {
+        "href": "https://wordpress.org/",
+        "inner_text": "WordPress.org",
+        "inner_html": "WordPress.org"
+      },
+      {
+        "href": "https://automattic.com/work-with-us/",
+        "inner_text": "Careers",
+        "inner_html": "Careers"
+      },
+      {
+        "href": "https://automattic.com/press/",
+        "inner_text": "Press",
+        "inner_html": "Press"
+      },
+      {
+        "href": "https://automattic.com/privacy/",
+        "inner_text": "Privacy",
+        "inner_html": "Privacy"
+      },
+      {
+        "href": "https://twitter.com/wordpressdotcom",
+        "inner_text": " ",
+        "inner_html": "<img id=\"lpc-image.33\" class=\"lpc lpc-image\" src=\"https://s1.wp.com/wp-content/themes/h4/landing/marketing/pages/hp-jan-2020-v2/media/desktop/footer-twitter.svg\" alt=\"\" title=\"\" loading=\"lazy\">"
+      },
+      {
+        "href": "https://www.facebook.com/WordPresscom/",
+        "inner_text": " ",
+        "inner_html": "<img id=\"lpc-image.34\" class=\"lpc lpc-image\" src=\"https://s1.wp.com/wp-content/themes/h4/landing/marketing/pages/hp-jan-2020-v2/media/desktop/footer-facebook.svg\" alt=\"\" title=\"\" loading=\"lazy\">"
+      },
+      {
+        "href": "https://www.instagram.com/wordpressdotcom/",
+        "inner_text": " ",
+        "inner_html": "<img id=\"lpc-image.35\" class=\"lpc lpc-image\" src=\"https://s1.wp.com/wp-content/themes/h4/landing/marketing/pages/hp-jan-2020-v2/media/desktop/footer-instagram.svg\" alt=\"\" title=\"\" loading=\"lazy\">"
+      },
+      {
+        "href": "https://www.youtube.com/c/automattic",
+        "inner_text": "",
+        "inner_html": "<img id=\"lpc-image.36\" class=\"lpc lpc-image\" src=\"https://s1.wp.com/wp-content/themes/h4/landing/marketing/pages/hp-jan-2020-v2/media/desktop/footer-youtube.svg\" alt=\"\" title=\"\" loading=\"lazy\">"
+      },
+      {
+        "href": "https://automattic.com/",
+        "inner_text": "Automattic",
+        "inner_html": "Automattic"
+      },
+      {
+        "href": "https://automattic.com/cookies",
+        "inner_text": "Learn more",
+        "inner_html": "Learn more"
+      }
+    ],
+    "social": [
+      {
+        "href": "https://twitter.com/wordpressdotcom",
+        "inner_text": " ",
+        "inner_html": "<img id=\"lpc-image.33\" class=\"lpc lpc-image\" src=\"https://s1.wp.com/wp-content/themes/h4/landing/marketing/pages/hp-jan-2020-v2/media/desktop/footer-twitter.svg\" alt=\"\" title=\"\" loading=\"lazy\">"
+      },
+      {
+        "href": "https://www.facebook.com/WordPresscom/",
+        "inner_text": " ",
+        "inner_html": "<img id=\"lpc-image.34\" class=\"lpc lpc-image\" src=\"https://s1.wp.com/wp-content/themes/h4/landing/marketing/pages/hp-jan-2020-v2/media/desktop/footer-facebook.svg\" alt=\"\" title=\"\" loading=\"lazy\">"
+      },
+      {
+        "href": "https://www.instagram.com/wordpressdotcom/",
+        "inner_text": " ",
+        "inner_html": "<img id=\"lpc-image.35\" class=\"lpc lpc-image\" src=\"https://s1.wp.com/wp-content/themes/h4/landing/marketing/pages/hp-jan-2020-v2/media/desktop/footer-instagram.svg\" alt=\"\" title=\"\" loading=\"lazy\">"
+      },
+      {
+        "href": "https://www.youtube.com/c/automattic",
+        "inner_text": "",
+        "inner_html": "<img id=\"lpc-image.36\" class=\"lpc lpc-image\" src=\"https://s1.wp.com/wp-content/themes/h4/landing/marketing/pages/hp-jan-2020-v2/media/desktop/footer-youtube.svg\" alt=\"\" title=\"\" loading=\"lazy\">"
+      }
+    ],
+    "keywords": [
+      {
+        "href": "https://wordpress.com/wp-login.php?redirect_to=https%3A%2F%2Fwordpress.com%2F",
+        "inner_text": "Log In",
+        "inner_html": "Log In"
+      },
+      {
+        "href": "https://automattic.com/privacy/",
+        "inner_text": "Privacy",
+        "inner_html": "Privacy"
+      }
+    ]
+  },
+  "unsafeForms": [],
+  "browsing_history": [
+    "https://wordpress.com/"
+  ],
+  "websockets": {},
+  "cookies": [
+    {
+      "name": "personalization_id",
+      "value": "\"v1_PNPsBnkg5Zei3Hvgnjk/SA==\"",
+      "domain": "twitter.com",
+      "path": "/",
+      "expires": 1684596301.688848,
+      "size": 47,
+      "httpOnly": false,
+      "secure": true,
+      "session": false,
+      "sameSite": "None",
+      "expiresUTC": "2023-05-20T15:25:01.688Z",
+      "expiresDays": 730,
+      "firstPartyStorage": false
+    },
+    {
+      "name": "_ga",
+      "value": "GA1.2.1872657144.1621524300",
+      "domain": "wordpress.com",
+      "path": "/",
+      "expires": 1684596299,
+      "size": 30,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2023-05-20T15:24:59.000Z",
+      "expiresDays": 730,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 495,
+            "lineNumber": 30,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "zc",
+            "source": "    at zc (https://www.google-analytics.com/analytics.js:30:495)"
+          },
+          {
+            "columnNumber": 15,
+            "lineNumber": 60,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "ma",
+            "source": "    at ma (https://www.google-analytics.com/analytics.js:60:15)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T15:24:59.748Z",
+        "location": "https://wordpress.com/"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "MUID",
+      "value": "2758A89DB8336BC13FB3B8A0B99B6A14",
+      "domain": "bing.com",
+      "path": "/",
+      "expires": 1655220300.692159,
+      "size": 36,
+      "httpOnly": false,
+      "secure": true,
+      "session": false,
+      "sameSite": "None",
+      "expiresUTC": "2022-06-14T15:25:00.692Z",
+      "expiresDays": 390,
+      "firstPartyStorage": false
+    },
+    {
+      "name": "_hjid",
+      "value": "290450d3-98c2-44cc-ae5d-6a8fe216f2a1",
+      "domain": "wordpress.com",
+      "path": "/",
+      "expires": 1653060300,
+      "size": 41,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "sameSite": "Lax",
+      "expiresUTC": "2022-05-20T15:25:00.000Z",
+      "expiresDays": 365,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 210490,
+            "lineNumber": 1,
+            "fileName": "https://script.hotjar.com/modules.87b9cf5e358c50dcc8af.js",
+            "functionName": "r.set",
+            "source": "    at r.set (https://script.hotjar.com/modules.87b9cf5e358c50dcc8af.js:1:210490)"
+          },
+          {
+            "columnNumber": 200696,
+            "lineNumber": 1,
+            "fileName": "https://script.hotjar.com/modules.87b9cf5e358c50dcc8af.js",
+            "functionName": "Object.get",
+            "source": "    at Object.get (https://script.hotjar.com/modules.87b9cf5e358c50dcc8af.js:1:200696)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T15:25:00.136Z",
+        "location": "https://wordpress.com/"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "_pin_unauth",
+      "value": "dWlkPU5ERXpaREEzTVRVdE16ZGpNQzAwWWpReUxXRmlZMkl0TVRZNVkyVmpNRGt4TURNdw",
+      "domain": "wordpress.com",
+      "path": "/",
+      "expires": 1653060300,
+      "size": 81,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2022-05-20T15:25:00.000Z",
+      "expiresDays": 365,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 30641,
+            "lineNumber": 1,
+            "fileName": "https://s.pinimg.com/ct/lib/main.174fc5ea.js",
+            "functionName": "P",
+            "source": "    at P (https://s.pinimg.com/ct/lib/main.174fc5ea.js:1:30641)"
+          },
+          {
+            "columnNumber": 30190,
+            "lineNumber": 1,
+            "fileName": "https://s.pinimg.com/ct/lib/main.174fc5ea.js",
+            "functionName": "XMLHttpRequest.C [as callback]",
+            "source": "    at XMLHttpRequest.C [as callback] (https://s.pinimg.com/ct/lib/main.174fc5ea.js:1:30190)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T15:25:00.152Z",
+        "location": "https://wordpress.com/"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "landingpage_currency",
+      "value": "EUR",
+      "domain": "wordpress.com",
+      "path": "/",
+      "expires": 1653060299,
+      "size": 23,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2022-05-20T15:24:59.000Z",
+      "expiresDays": 365,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 287,
+            "lineNumber": 15,
+            "fileName": "https://s1.wp.com/home.logged-out/page-jan-2020-v2/js/bundle.js?v=1614589571",
+            "functionName": "lohpSetCookie",
+            "source": "    at lohpSetCookie (https://s1.wp.com/home.logged-out/page-jan-2020-v2/js/bundle.js?v=1614589571:15:287)"
+          },
+          {
+            "columnNumber": 1291,
+            "lineNumber": 6,
+            "fileName": "https://s1.wp.com/home.logged-out/page-jan-2020-v2/js/bundle.js?v=1614589571",
+            "functionName": "changeCurrency",
+            "source": "    at changeCurrency (https://s1.wp.com/home.logged-out/page-jan-2020-v2/js/bundle.js?v=1614589571:6:1291)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T15:24:59.265Z",
+        "location": "https://wordpress.com/"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "uid",
+      "value": "9138732666914560208",
+      "domain": "turn.com",
+      "path": "/",
+      "expires": 1637076301.348245,
+      "size": 22,
+      "httpOnly": false,
+      "secure": true,
+      "session": false,
+      "sameSite": "None",
+      "expiresUTC": "2021-11-16T15:25:01.348Z",
+      "expiresDays": 180,
+      "firstPartyStorage": false
+    },
+    {
+      "name": "fpcid",
+      "value": "9210790260952488144_FPD",
+      "domain": "wordpress.com",
+      "path": "/",
+      "expires": 1637076300,
+      "size": 28,
+      "httpOnly": false,
+      "secure": true,
+      "session": false,
+      "sameSite": "None",
+      "expiresUTC": "2021-11-16T15:25:00.000Z",
+      "expiresDays": 180,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 22,
+            "lineNumber": 8,
+            "fileName": "https://d.turn.com/r/dd/id/L21rdC84MTYvY2lkLzE3NDc0MzIzNDkvdC8w/kv/Pagename=wordpress.com/",
+            "source": "    at https://d.turn.com/r/dd/id/L21rdC84MTYvY2lkLzE3NDc0MzIzNDkvdC8w/kv/Pagename=wordpress.com/:8:22"
+          },
+          {
+            "columnNumber": 3,
+            "lineNumber": 9,
+            "fileName": "https://d.turn.com/r/dd/id/L21rdC84MTYvY2lkLzE3NDc0MzIzNDkvdC8w/kv/Pagename=wordpress.com/",
+            "source": "    at https://d.turn.com/r/dd/id/L21rdC84MTYvY2lkLzE3NDc0MzIzNDkvdC8w/kv/Pagename=wordpress.com/:9:3"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T15:25:00.355Z",
+        "location": "https://wordpress.com/"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "_fbp",
+      "value": "fb.1.1621524300015.786895246",
+      "domain": "wordpress.com",
+      "path": "/",
+      "expires": 1629300300,
+      "size": 32,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2021-08-18T15:25:00.000Z",
+      "expiresDays": 90,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 5326,
+            "lineNumber": 25,
+            "fileName": "https://connect.facebook.net/signals/config/823166884443641?v=2.9.39&r=stable",
+            "functionName": "C",
+            "source": "    at C (https://connect.facebook.net/signals/config/823166884443641?v=2.9.39&r=stable:25:5326)"
+          },
+          {
+            "columnNumber": 5633,
+            "lineNumber": 25,
+            "fileName": "https://connect.facebook.net/signals/config/823166884443641?v=2.9.39&r=stable",
+            "functionName": "D",
+            "source": "    at D (https://connect.facebook.net/signals/config/823166884443641?v=2.9.39&r=stable:25:5633)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T15:25:00.528Z",
+        "location": "https://wordpress.com/"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "_gcl_au",
+      "value": "1.1.245912626.1621524300",
+      "domain": "wordpress.com",
+      "path": "/",
+      "expires": 1629300300,
+      "size": 31,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2021-08-18T15:25:00.000Z",
+      "expiresDays": 90,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 1258,
+            "lineNumber": 84,
+            "fileName": "https://www.googletagmanager.com/gtag/js?id=DC-6355556&l=dataLayer&cx=c",
+            "functionName": "Ef",
+            "source": "    at Ef (https://www.googletagmanager.com/gtag/js?id=DC-6355556&l=dataLayer&cx=c:84:1258)"
+          },
+          {
+            "columnNumber": 179,
+            "lineNumber": 86,
+            "fileName": "https://www.googletagmanager.com/gtag/js?id=DC-6355556&l=dataLayer&cx=c",
+            "functionName": "If",
+            "source": "    at If (https://www.googletagmanager.com/gtag/js?id=DC-6355556&l=dataLayer&cx=c:86:179)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T15:25:00.058Z",
+        "location": "https://wordpress.com/"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "explat_test_aa_weekly_lohp_2021_week_20",
+      "value": "control",
+      "domain": "wordpress.com",
+      "path": "/",
+      "expires": 1623024000.272569,
+      "size": 46,
+      "httpOnly": false,
+      "secure": true,
+      "session": false,
+      "sameSite": "None",
+      "expiresUTC": "2021-06-07T00:00:00.272Z",
+      "expiresDays": 17.36,
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://wordpress.com/",
+            "source": "set in Set-Cookie HTTP response header for https://wordpress.com/"
+          }
+        ],
+        "type": "Cookie.HTTP",
+        "timestamp": "2021-05-20T15:24:58.277Z",
+        "location": "about:blank"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "_uetvid",
+      "value": "8a4b7120b97f11ebbddd4fbc32effe65",
+      "domain": "wordpress.com",
+      "path": "/",
+      "expires": 1622928299,
+      "size": 39,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2021-06-05T21:24:59.000Z",
+      "expiresDays": 16.25,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 26224,
+            "lineNumber": 1,
+            "fileName": "https://bat.bing.com/bat.js",
+            "functionName": "UET._setCookie",
+            "source": "    at UET._setCookie (https://bat.bing.com/bat.js:1:26224)"
+          },
+          {
+            "columnNumber": 27167,
+            "lineNumber": 1,
+            "fileName": "https://bat.bing.com/bat.js",
+            "functionName": "UET.setCookie",
+            "source": "    at UET.setCookie (https://bat.bing.com/bat.js:1:27167)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T15:24:59.718Z",
+        "location": "https://wordpress.com/"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "tk_ai",
+      "value": "IbiFCqN2%2BlAskwZk4rtSa%2FUw",
+      "domain": "wordpress.com",
+      "path": "/",
+      "expires": 1622733898.272448,
+      "size": 33,
+      "httpOnly": false,
+      "secure": true,
+      "session": false,
+      "sameSite": "None",
+      "expiresUTC": "2021-06-03T15:24:58.272Z",
+      "expiresDays": 14,
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://wordpress.com/",
+            "source": "set in Set-Cookie HTTP response header for https://wordpress.com/"
+          }
+        ],
+        "type": "Cookie.HTTP",
+        "timestamp": "2021-05-20T15:24:58.277Z",
+        "location": "about:blank"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "ccpa_applies",
+      "value": "false",
+      "domain": "wordpress.com",
+      "path": "/",
+      "expires": 1621610699.580284,
+      "size": 17,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2021-05-21T15:24:59.580Z",
+      "expiresDays": 1,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 685,
+            "lineNumber": 2926,
+            "fileName": "https://wordpress.com/",
+            "functionName": "Object.setItem",
+            "source": "    at Object.setItem (https://wordpress.com/:2926:685)"
+          },
+          {
+            "columnNumber": 18,
+            "lineNumber": 2968,
+            "fileName": "https://wordpress.com/",
+            "functionName": "setCcpaAppliesCookie",
+            "source": "    at setCcpaAppliesCookie (https://wordpress.com/:2968:18)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T15:24:59.581Z",
+        "location": "https://wordpress.com/"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "_uetsid",
+      "value": "8a4b1c20b97f11ebabb6935827b5a745",
+      "domain": "wordpress.com",
+      "path": "/",
+      "expires": 1621610699,
+      "size": 39,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2021-05-21T15:24:59.000Z",
+      "expiresDays": 1,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 26224,
+            "lineNumber": 1,
+            "fileName": "https://bat.bing.com/bat.js",
+            "functionName": "UET._setCookie",
+            "source": "    at UET._setCookie (https://bat.bing.com/bat.js:1:26224)"
+          },
+          {
+            "columnNumber": 27044,
+            "lineNumber": 1,
+            "fileName": "https://bat.bing.com/bat.js",
+            "functionName": "UET.setCookie",
+            "source": "    at UET.setCookie (https://bat.bing.com/bat.js:1:27044)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T15:24:59.717Z",
+        "location": "https://wordpress.com/"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "_gid",
+      "value": "GA1.2.1038489814.1621524300",
+      "domain": "wordpress.com",
+      "path": "/",
+      "expires": 1621610699,
+      "size": 31,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2021-05-21T15:24:59.000Z",
+      "expiresDays": 1,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 495,
+            "lineNumber": 30,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "zc",
+            "source": "    at zc (https://www.google-analytics.com/analytics.js:30:495)"
+          },
+          {
+            "columnNumber": 401,
+            "lineNumber": 59,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "ma",
+            "source": "    at ma (https://www.google-analytics.com/analytics.js:59:401)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T15:24:59.748Z",
+        "location": "https://wordpress.com/"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "country_code",
+      "value": "ES",
+      "domain": "wordpress.com",
+      "path": "/",
+      "expires": 1621545899.561412,
+      "size": 14,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2021-05-20T21:24:59.561Z",
+      "expiresDays": 0.25,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 16,
+            "lineNumber": 176,
+            "fileName": "https://s0.wp.com/wp-content/mu-plugins/a8c-analytics/a8c-analytics.js?v=1610571889",
+            "functionName": "Object.setItem",
+            "source": "    at Object.setItem (https://s0.wp.com/wp-content/mu-plugins/a8c-analytics/a8c-analytics.js?v=1610571889:176:16)"
+          },
+          {
+            "columnNumber": 167,
+            "lineNumber": 141,
+            "fileName": "https://s0.wp.com/wp-content/mu-plugins/a8c-analytics/a8c-analytics.js?v=1610571889",
+            "functionName": "XMLHttpRequest.callback",
+            "source": "    at XMLHttpRequest.callback (https://s0.wp.com/wp-content/mu-plugins/a8c-analytics/a8c-analytics.js?v=1610571889:141:167)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T15:24:59.578Z",
+        "location": "https://wordpress.com/"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "tk_qs",
+      "value": "",
+      "domain": "wordpress.com",
+      "path": "/",
+      "expires": 1621526107,
+      "size": 5,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2021-05-20T15:55:07.000Z",
+      "expiresDays": 0.02,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 2035,
+            "lineNumber": 1,
+            "fileName": "https://stats.wp.com/w.js?60",
+            "functionName": "r",
+            "source": "    at r (https://stats.wp.com/w.js?60:1:2035)"
+          },
+          {
+            "columnNumber": 5567,
+            "lineNumber": 1,
+            "fileName": "https://stats.wp.com/w.js?60",
+            "functionName": "I",
+            "source": "    at I (https://stats.wp.com/w.js?60:1:5567)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T15:25:07.805Z",
+        "location": "https://wordpress.com/"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "_hjFirstSeen",
+      "value": "1",
+      "domain": "wordpress.com",
+      "path": "/",
+      "expires": 1621526100,
+      "size": 13,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "sameSite": "Lax",
+      "expiresUTC": "2021-05-20T15:55:00.000Z",
+      "expiresDays": 0.02,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 210490,
+            "lineNumber": 1,
+            "fileName": "https://script.hotjar.com/modules.87b9cf5e358c50dcc8af.js",
+            "functionName": "r.set",
+            "source": "    at r.set (https://script.hotjar.com/modules.87b9cf5e358c50dcc8af.js:1:210490)"
+          },
+          {
+            "columnNumber": 217440,
+            "lineNumber": 1,
+            "fileName": "https://script.hotjar.com/modules.87b9cf5e358c50dcc8af.js",
+            "functionName": "Object.setFirstSeen",
+            "source": "    at Object.setFirstSeen (https://script.hotjar.com/modules.87b9cf5e358c50dcc8af.js:1:217440)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T15:25:00.136Z",
+        "location": "https://wordpress.com/"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "_hjAbsoluteSessionInProgress",
+      "value": "0",
+      "domain": "wordpress.com",
+      "path": "/",
+      "expires": 1621526100,
+      "size": 29,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "sameSite": "Lax",
+      "expiresUTC": "2021-05-20T15:55:00.000Z",
+      "expiresDays": 0.02,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 210490,
+            "lineNumber": 1,
+            "fileName": "https://script.hotjar.com/modules.87b9cf5e358c50dcc8af.js",
+            "functionName": "r.set",
+            "source": "    at r.set (https://script.hotjar.com/modules.87b9cf5e358c50dcc8af.js:1:210490)"
+          },
+          {
+            "columnNumber": 85770,
+            "lineNumber": 1,
+            "fileName": "https://script.hotjar.com/modules.87b9cf5e358c50dcc8af.js",
+            "functionName": "Object.<anonymous>",
+            "source": "    at Object.<anonymous> (https://script.hotjar.com/modules.87b9cf5e358c50dcc8af.js:1:85770)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T15:25:00.177Z",
+        "location": "https://wordpress.com/"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "dcmsid",
+      "value": "lMbmpaLkSmBjcb6XPbW0XaOO7bxarpe4",
+      "domain": "wordpress.com",
+      "path": "/",
+      "expires": 1621526099.447096,
+      "size": 38,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2021-05-20T15:54:59.447Z",
+      "expiresDays": 0.02,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 16,
+            "lineNumber": 176,
+            "fileName": "https://s0.wp.com/wp-content/mu-plugins/a8c-analytics/a8c-analytics.js?v=1610571889",
+            "functionName": "Object.setItem",
+            "source": "    at Object.setItem (https://s0.wp.com/wp-content/mu-plugins/a8c-analytics/a8c-analytics.js?v=1610571889:176:16)"
+          },
+          {
+            "columnNumber": 21,
+            "lineNumber": 2607,
+            "fileName": "https://wordpress.com/",
+            "functionName": "fireDCMFloodlightEvents",
+            "source": "    at fireDCMFloodlightEvents (https://wordpress.com/:2607:21)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T15:24:59.448Z",
+        "location": "https://wordpress.com/"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "test_cookie",
+      "value": "CheckForPermission",
+      "domain": "doubleclick.net",
+      "path": "/",
+      "expires": 1621525200.416677,
+      "size": 29,
+      "httpOnly": true,
+      "secure": true,
+      "session": false,
+      "sameSite": "None",
+      "expiresUTC": "2021-05-20T15:40:00.416Z",
+      "expiresDays": 0.01,
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://6355556.fls.doubleclick.net/activityi;dc_pre=CIzLp9_I2PACFXwVBgAdMJwAlg;src=6355556;type=wordp0;cat=wppv;ord=4438985858080;gtm=2od5c1;auiddc=245912626.1621524300;u4=;u6=%2F;u7=lMbmpaLkSmBjcb6XPbW0XaOO7bxarpe4;u5=IbiFCqN2%2BlAskwZk4rtSa%2FUw;~oref=https%3A%2F%2Fwordpress.com%2F?",
+            "source": "set in Set-Cookie HTTP response header for https://6355556.fls.doubleclick.net/activityi;dc_pre=CIzLp9_I2PACFXwVBgAdMJwAlg;src=6355556;type=wordp0;cat=wppv;ord=4438985858080;gtm=2od5c1;auiddc=245912626.1621524300;u4=;u6=%2F;u7=lMbmpaLkSmBjcb6XPbW0XaOO7bxarpe4;u5=IbiFCqN2%2BlAskwZk4rtSa%2FUw;~oref=https%3A%2F%2Fwordpress.com%2F?"
+          }
+        ],
+        "type": "Cookie.HTTP",
+        "timestamp": "2021-05-20T15:25:00.420Z",
+        "location": "https://wordpress.com/"
+      },
+      "firstPartyStorage": false
+    },
+    {
+      "name": "outbrain_cid_fetch",
+      "value": "true",
+      "domain": "wordpress.com",
+      "path": "/",
+      "expires": 1621524600,
+      "size": 22,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2021-05-20T15:30:00.000Z",
+      "expiresDays": 0,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 1266,
+            "lineNumber": 1,
+            "fileName": "https://amplify.outbrain.com/cp/obtp.js",
+            "functionName": "Object.set",
+            "source": "    at Object.set (https://amplify.outbrain.com/cp/obtp.js:1:1266)"
+          },
+          {
+            "columnNumber": 6148,
+            "lineNumber": 1,
+            "fileName": "https://amplify.outbrain.com/cp/obtp.js",
+            "functionName": "Function.setCachedClickId",
+            "source": "    at Function.setCachedClickId (https://amplify.outbrain.com/cp/obtp.js:1:6148)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T15:25:00.511Z",
+        "location": "https://wordpress.com/"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "_hjIncludedInSessionSample",
+      "value": "1",
+      "domain": "wordpress.com",
+      "path": "/",
+      "expires": 1621524420,
+      "size": 27,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "sameSite": "Lax",
+      "expiresUTC": "2021-05-20T15:27:00.000Z",
+      "expiresDays": 0,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 210490,
+            "lineNumber": 1,
+            "fileName": "https://script.hotjar.com/modules.87b9cf5e358c50dcc8af.js",
+            "functionName": "r.set",
+            "source": "    at r.set (https://script.hotjar.com/modules.87b9cf5e358c50dcc8af.js:1:210490)"
+          },
+          {
+            "columnNumber": 203753,
+            "lineNumber": 1,
+            "fileName": "https://script.hotjar.com/modules.87b9cf5e358c50dcc8af.js",
+            "functionName": "u",
+            "source": "    at u (https://script.hotjar.com/modules.87b9cf5e358c50dcc8af.js:1:203753)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T15:25:00.176Z",
+        "location": "https://wordpress.com/"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "_gat",
+      "value": "1",
+      "domain": "wordpress.com",
+      "path": "/",
+      "expires": 1621524360,
+      "size": 5,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2021-05-20T15:26:00.000Z",
+      "expiresDays": 0,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 495,
+            "lineNumber": 30,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "zc",
+            "source": "    at zc (https://www.google-analytics.com/analytics.js:30:495)"
+          },
+          {
+            "columnNumber": 31,
+            "lineNumber": 73,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "Qd",
+            "source": "    at Qd (https://www.google-analytics.com/analytics.js:73:31)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T15:25:00.103Z",
+        "location": "https://wordpress.com/"
+      },
+      "firstPartyStorage": true
+    }
+  ],
+  "localStorage": {
+    "https://wordpress.com": {
+      "_uetsid_exp": {
+        "value": "Fri, 21 May 2021 15:24:59 GMT",
+        "firstPartyStorage": [
+          "wordpress.com",
+          "wordpress.com"
+        ],
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 25502,
+              "lineNumber": 1,
+              "fileName": "https://bat.bing.com/bat.js",
+              "functionName": "UET.setLocalStorageBackup",
+              "source": "    at UET.setLocalStorageBackup (https://bat.bing.com/bat.js:1:25502)"
+            },
+            {
+              "columnNumber": 26638,
+              "lineNumber": 1,
+              "fileName": "https://bat.bing.com/bat.js",
+              "functionName": "UET.setCookie",
+              "source": "    at UET.setCookie (https://bat.bing.com/bat.js:1:26638)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T15:24:59.715Z",
+          "location": "https://wordpress.com/"
+        }
+      },
+      "_hjid": {
+        "value": "290450d3-98c2-44cc-ae5d-6a8fe216f2a1",
+        "firstPartyStorage": [
+          "wordpress.com",
+          "wordpress.com"
+        ],
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 210618,
+              "lineNumber": 1,
+              "fileName": "https://script.hotjar.com/modules.87b9cf5e358c50dcc8af.js",
+              "functionName": "r.set",
+              "source": "    at r.set (https://script.hotjar.com/modules.87b9cf5e358c50dcc8af.js:1:210618)"
+            },
+            {
+              "columnNumber": 200696,
+              "lineNumber": 1,
+              "fileName": "https://script.hotjar.com/modules.87b9cf5e358c50dcc8af.js",
+              "functionName": "Object.get",
+              "source": "    at Object.get (https://script.hotjar.com/modules.87b9cf5e358c50dcc8af.js:1:200696)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T15:25:00.136Z",
+          "location": "https://wordpress.com/"
+        }
+      },
+      "_uetvid": {
+        "value": "8a4b7120b97f11ebbddd4fbc32effe65",
+        "firstPartyStorage": [
+          "wordpress.com",
+          "wordpress.com"
+        ],
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 25476,
+              "lineNumber": 1,
+              "fileName": "https://bat.bing.com/bat.js",
+              "functionName": "UET.setLocalStorageBackup",
+              "source": "    at UET.setLocalStorageBackup (https://bat.bing.com/bat.js:1:25476)"
+            },
+            {
+              "columnNumber": 26638,
+              "lineNumber": 1,
+              "fileName": "https://bat.bing.com/bat.js",
+              "functionName": "UET.setCookie",
+              "source": "    at UET.setCookie (https://bat.bing.com/bat.js:1:26638)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T15:24:59.717Z",
+          "location": "https://wordpress.com/"
+        }
+      },
+      "_uetvid_exp": {
+        "value": "Sat, 05 Jun 2021 21:24:59 GMT",
+        "firstPartyStorage": [
+          "wordpress.com",
+          "wordpress.com"
+        ],
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 25502,
+              "lineNumber": 1,
+              "fileName": "https://bat.bing.com/bat.js",
+              "functionName": "UET.setLocalStorageBackup",
+              "source": "    at UET.setLocalStorageBackup (https://bat.bing.com/bat.js:1:25502)"
+            },
+            {
+              "columnNumber": 26638,
+              "lineNumber": 1,
+              "fileName": "https://bat.bing.com/bat.js",
+              "functionName": "UET.setCookie",
+              "source": "    at UET.setCookie (https://bat.bing.com/bat.js:1:26638)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T15:24:59.718Z",
+          "location": "https://wordpress.com/"
+        }
+      },
+      "_uetsid": {
+        "value": "8a4b1c20b97f11ebabb6935827b5a745",
+        "firstPartyStorage": [
+          "wordpress.com",
+          "wordpress.com"
+        ],
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 25476,
+              "lineNumber": 1,
+              "fileName": "https://bat.bing.com/bat.js",
+              "functionName": "UET.setLocalStorageBackup",
+              "source": "    at UET.setLocalStorageBackup (https://bat.bing.com/bat.js:1:25476)"
+            },
+            {
+              "columnNumber": 26638,
+              "lineNumber": 1,
+              "fileName": "https://bat.bing.com/bat.js",
+              "functionName": "UET.setCookie",
+              "source": "    at UET.setCookie (https://bat.bing.com/bat.js:1:26638)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T15:24:59.715Z",
+          "location": "https://wordpress.com/"
+        }
+      }
+    }
+  },
+  "beacons": [
+    {
+      "url": "https://pixel.wp.com/t.gif?percent=100%25&path=&name=logged-out-homepage&locale=&variation=&personal_variation=&lp_name=logged-out-homepage&lp_variation=&lp_personal_variation=&_en=wpcom_page_scroll&_ui=IbiFCqN2%2BlAskwZk4rtSa%2FUw&_ut=anon&_ts=1621524307701&_tz=-2&_lg=en-US&_pf=Linux%20x86_64&_ht=927&_wd=1680&_sx=0&_sy=0&_dl=https%3A%2F%2Fwordpress.com%2F&_dr=&_rt=1621524307703&_=_",
+      "query": {
+        "percent": "100%",
+        "path": "",
+        "name": "logged-out-homepage",
+        "locale": "",
+        "variation": "",
+        "personal_variation": "",
+        "lp_name": "logged-out-homepage",
+        "lp_variation": "",
+        "lp_personal_variation": "",
+        "_en": "wpcom_page_scroll",
+        "_ui": "IbiFCqN2+lAskwZk4rtSa/Uw",
+        "_ut": "anon",
+        "_ts": 1621524307701,
+        "_tz": -2,
+        "_lg": "en-US",
+        "_pf": "Linux x86_64",
+        "_ht": 927,
+        "_wd": 1680,
+        "_sx": 0,
+        "_sy": 0,
+        "_dl": "https://wordpress.com/",
+        "_dr": "",
+        "_rt": 1621524307703,
+        "_": "_"
+      },
+      "filter": "||pixel.wp.com^",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://wordpress.com/",
+            "source": "requested from https://wordpress.com/ and matched with easyprivacy.txt filter ||pixel.wp.com^"
+          }
+        ],
+        "timestamp": "2021-05-20T15:25:07.721Z"
+      },
+      "occurrances": 16
+    },
+    {
+      "url": "https://www.google-analytics.com/collect",
+      "query": null,
+      "filter": "||google-analytics.com/collect",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://wordpress.com/",
+            "source": "requested from https://wordpress.com/ and matched with easyprivacy.txt filter ||google-analytics.com/collect"
+          }
+        ],
+        "timestamp": "2021-05-20T15:25:07.716Z"
+      },
+      "occurrances": 4
+    },
+    {
+      "url": "https://s1.wp.com/wp-content/themes/h4/landing/marketing/pages/hp-jan-2020-v2/media/desktop/footer-instagram.svg",
+      "query": null,
+      "filter": "/footer-Instagram.",
+      "listName": "fanboy-annoyance.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://wordpress.com/",
+            "source": "requested from https://wordpress.com/ and matched with fanboy-annoyance.txt filter /footer-Instagram."
+          }
+        ],
+        "timestamp": "2021-05-20T15:25:07.198Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://s1.wp.com/wp-content/themes/h4/landing/marketing/pages/hp-jan-2020-v2/media/desktop/footer-facebook.svg",
+      "query": null,
+      "filter": "/footer-facebook.",
+      "listName": "fanboy-annoyance.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://wordpress.com/",
+            "source": "requested from https://wordpress.com/ and matched with fanboy-annoyance.txt filter /footer-facebook."
+          }
+        ],
+        "timestamp": "2021-05-20T15:25:07.198Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://s1.wp.com/wp-content/themes/h4/landing/marketing/pages/hp-jan-2020-v2/media/desktop/footer-twitter.svg",
+      "query": null,
+      "filter": "/footer-twitter.",
+      "listName": "fanboy-annoyance.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://wordpress.com/",
+            "source": "requested from https://wordpress.com/ and matched with fanboy-annoyance.txt filter /footer-twitter."
+          }
+        ],
+        "timestamp": "2021-05-20T15:25:07.197Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://i1.wp.com/s1.wp.com/wp-content/themes/h4/landing/marketing/pages/hp-jan-2020-v2/media/desktop/footer-google-play-badge.png?ssl=1",
+      "query": {
+        "ssl": 1
+      },
+      "filter": "/footer-google-",
+      "listName": "fanboy-annoyance.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://wordpress.com/",
+            "source": "requested from https://wordpress.com/ and matched with fanboy-annoyance.txt filter /footer-google-"
+          }
+        ],
+        "timestamp": "2021-05-20T15:25:07.197Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://analytics.twitter.com/i/adsct?type=javascript&version=1.1.1&p_id=Twitter&p_user_id=0&txn_id=nvzbs&events=%5B%5B%22pageview%22%2Cnull%5D%5D&tw_sale_amount=0&tw_order_quantity=0&tw_iframe_status=0&tpx_cb=twttr.conversion.loadPixels&tw_document_href=https%3A%2F%2Fwordpress.com%2F",
+      "query": {
+        "type": "javascript",
+        "version": "1.1.1",
+        "p_id": "Twitter",
+        "p_user_id": 0,
+        "txn_id": "nvzbs",
+        "events": [
+          [
+            "pageview",
+            null
+          ]
+        ],
+        "tw_sale_amount": 0,
+        "tw_order_quantity": 0,
+        "tw_iframe_status": 0,
+        "tpx_cb": "twttr.conversion.loadPixels",
+        "tw_document_href": "https://wordpress.com/"
+      },
+      "filter": "||analytics.twitter.com^",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://wordpress.com/",
+            "source": "requested from https://wordpress.com/ and matched with easyprivacy.txt filter ||analytics.twitter.com^"
+          }
+        ],
+        "timestamp": "2021-05-20T15:25:01.174Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://www.facebook.com/tr/",
+      "query": null,
+      "filter": "||facebook.com/tr$third-party",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://wordpress.com/",
+            "source": "requested from https://wordpress.com/ and matched with easyprivacy.txt filter ||facebook.com/tr$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T15:25:00.529Z"
+      },
+      "occurrances": 2
+    },
+    {
+      "url": "https://6355556.fls.doubleclick.net/activityi;dc_pre=CKGJqd_I2PACFUEFBgAdlXIJCA;src=6355556;type=wordp0;cat=wpvisit;gtm=2od5c1;auiddc=245912626.1621524300;u4=;u6=%2F;u7=lMbmpaLkSmBjcb6XPbW0XaOO7bxarpe4;u5=IbiFCqN2%2BlAskwZk4rtSa%2FUw;~oref=https%3A%2F%2Fwordpress.com%2F?",
+      "query": null,
+      "filter": "||doubleclick.net/activity$third-party",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "about:blank",
+            "source": "requested from about:blank and matched with easyprivacy.txt filter ||doubleclick.net/activity$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T15:25:00.352Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://6355556.fls.doubleclick.net/activityi;dc_pre=CIzLp9_I2PACFXwVBgAdMJwAlg;src=6355556;type=wordp0;cat=wppv;ord=4438985858080;gtm=2od5c1;auiddc=245912626.1621524300;u4=;u6=%2F;u7=lMbmpaLkSmBjcb6XPbW0XaOO7bxarpe4;u5=IbiFCqN2%2BlAskwZk4rtSa%2FUw;~oref=https%3A%2F%2Fwordpress.com%2F?",
+      "query": null,
+      "filter": "||doubleclick.net/activity$third-party",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "about:blank",
+            "source": "requested from about:blank and matched with easyprivacy.txt filter ||doubleclick.net/activity$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T15:25:00.329Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j90&tid=UA-10673494-10&cid=1872657144.1621524300&jid=1100570102&gjid=1329729395&_gid=1038489814.1621524300&_u=aGBAAEACQAAAAC~&z=780924992",
+      "query": {
+        "t": "dc",
+        "aip": 1,
+        "_r": 3,
+        "v": 1,
+        "_v": "j90",
+        "tid": "UA-10673494-10",
+        "cid": 1872657144.1621525,
+        "jid": 1100570102,
+        "gjid": 1329729395,
+        "_gid": 1038489814.1621524,
+        "_u": "aGBAAEACQAAAAC~",
+        "z": 780924992
+      },
+      "filter": "||stats.g.doubleclick.net^",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://wordpress.com/",
+            "source": "requested from https://wordpress.com/ and matched with easyprivacy.txt filter ||stats.g.doubleclick.net^"
+          }
+        ],
+        "timestamp": "2021-05-20T15:25:00.251Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://ct.pinterest.com/md/",
+      "query": null,
+      "filter": "||ct.pinterest.com^",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://wordpress.com/",
+            "source": "requested from https://wordpress.com/ and matched with easyprivacy.txt filter ||ct.pinterest.com^"
+          }
+        ],
+        "timestamp": "2021-05-20T15:25:00.152Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://www.google-analytics.com/j/collect?v=1&_v=j90&aip=1&a=361604240&t=pageview&_s=1&dl=https%3A%2F%2Fwordpress.com%2F&ul=en-us&de=UTF-8&dt=WordPress.com%3A%20Create%20a%20Free%20Website%20or%20Blog&sd=24-bit&sr=1680x927&vp=1680x927&je=0&_u=aGBAAEADQAAAAC~&jid=1100570102&gjid=1329729395&cid=1872657144.1621524300&tid=UA-10673494-10&_gid=1038489814.1621524300&_r=1&cd1=logged-out-homepage&cd2=&cd3=1872657144.1621524300&z=837768804",
+      "query": {
+        "v": 1,
+        "_v": "j90",
+        "aip": 1,
+        "a": 361604240,
+        "t": "pageview",
+        "_s": 1,
+        "dl": "https://wordpress.com/",
+        "ul": "en-us",
+        "de": "UTF-8",
+        "dt": "WordPress.com: Create a Free Website or Blog",
+        "sd": "24-bit",
+        "sr": "1680x927",
+        "vp": "1680x927",
+        "je": 0,
+        "_u": "aGBAAEADQAAAAC~",
+        "jid": 1100570102,
+        "gjid": 1329729395,
+        "cid": 1872657144.1621525,
+        "tid": "UA-10673494-10",
+        "_gid": 1038489814.1621524,
+        "_r": 1,
+        "cd1": "logged-out-homepage",
+        "cd2": "",
+        "cd3": 1872657144.1621525,
+        "z": 837768804
+      },
+      "filter": "/collect?*&cid=",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://wordpress.com/",
+            "source": "requested from https://wordpress.com/ and matched with easyprivacy.txt filter /collect?*&cid="
+          }
+        ],
+        "timestamp": "2021-05-20T15:25:00.106Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://6355556.fls.doubleclick.net/activityi;src=6355556;type=wordp0;cat=wpvisit;gtm=2od5c1;auiddc=245912626.1621524300;u4=;u6=%2F;u7=lMbmpaLkSmBjcb6XPbW0XaOO7bxarpe4;u5=IbiFCqN2%2BlAskwZk4rtSa%2FUw;~oref=https%3A%2F%2Fwordpress.com%2F?",
+      "query": null,
+      "filter": "||doubleclick.net/activity$third-party",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "",
+            "source": "requested from  and matched with easyprivacy.txt filter ||doubleclick.net/activity$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T15:25:00.079Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://6355556.fls.doubleclick.net/activityi;src=6355556;type=wordp0;cat=wppv;ord=4438985858080;gtm=2od5c1;auiddc=245912626.1621524300;u4=;u6=%2F;u7=lMbmpaLkSmBjcb6XPbW0XaOO7bxarpe4;u5=IbiFCqN2%2BlAskwZk4rtSa%2FUw;~oref=https%3A%2F%2Fwordpress.com%2F?",
+      "query": null,
+      "filter": "||doubleclick.net/activity$third-party",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "",
+            "source": "requested from  and matched with easyprivacy.txt filter ||doubleclick.net/activity$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T15:25:00.062Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://www.googletagmanager.com/gtag/js?id=DC-6355556&l=dataLayer&cx=c",
+      "query": {
+        "id": "DC-6355556",
+        "l": "dataLayer",
+        "cx": "c"
+      },
+      "filter": "||googletagmanager.com/gtag/$third-party",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://wordpress.com/",
+            "source": "requested from https://wordpress.com/ and matched with easyprivacy.txt filter ||googletagmanager.com/gtag/$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T15:24:59.788Z"
+      },
+      "occurrances": 2
+    },
+    {
+      "url": "https://www.googleadservices.com/pagead/conversion_async.js",
+      "query": null,
+      "filter": "||googleadservices.com^$third-party",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://wordpress.com/",
+            "source": "requested from https://wordpress.com/ and matched with easyprivacy.txt filter ||googleadservices.com^$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T15:24:59.787Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://ct.pinterest.com/v3/?tid=2613194105266&pd=%7B%7D&event=init&ad=%7B%22loc%22%3A%22https%3A%2F%2Fwordpress.com%2F%22%2C%22ref%22%3A%22%22%2C%22if%22%3Afalse%2C%22sh%22%3A927%2C%22sw%22%3A1680%2C%22mh%22%3A%22174fc5ea%22%7D&cb=1621524299775",
+      "query": {
+        "tid": 2613194105266,
+        "pd": {},
+        "event": "init",
+        "ad": {
+          "loc": "https://wordpress.com/",
+          "ref": "",
+          "if": false,
+          "sh": 927,
+          "sw": 1680,
+          "mh": "174fc5ea"
+        },
+        "cb": 1621524299775
+      },
+      "filter": "||ct.pinterest.com^",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://wordpress.com/",
+            "source": "requested from https://wordpress.com/ and matched with easyprivacy.txt filter ||ct.pinterest.com^"
+          }
+        ],
+        "timestamp": "2021-05-20T15:24:59.778Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://ct.pinterest.com/user/?tid=2613194105266&pd=%7B%7D&cb=1621524299770",
+      "query": {
+        "tid": 2613194105266,
+        "pd": {},
+        "cb": 1621524299770
+      },
+      "filter": "||ct.pinterest.com^",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://wordpress.com/",
+            "source": "requested from https://wordpress.com/ and matched with easyprivacy.txt filter ||ct.pinterest.com^"
+          }
+        ],
+        "timestamp": "2021-05-20T15:24:59.777Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://vars.hotjar.com/box-21ccaa45726c0f3c8c458f7a87eb2298.html",
+      "query": null,
+      "filter": "||hotjar.com^$third-party",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "",
+            "source": "requested from  and matched with easyprivacy.txt filter ||hotjar.com^$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T15:24:59.754Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://www.google-analytics.com/gtm/js?id=GTM-TWV5V76&cid=1872657144.1621524300&aip=true",
+      "query": {
+        "id": "GTM-TWV5V76",
+        "cid": 1872657144.1621525,
+        "aip": true
+      },
+      "filter": "||google-analytics.com/gtm/js?",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://wordpress.com/",
+            "source": "requested from https://wordpress.com/ and matched with easyprivacy.txt filter ||google-analytics.com/gtm/js?"
+          }
+        ],
+        "timestamp": "2021-05-20T15:24:59.750Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://bat.bing.com/action/0?ti=4074038&Ver=2&mid=a647dbfb-c40b-4d10-8672-e90b2f86a629&sid=8a4b1c20b97f11ebabb6935827b5a745&vid=8a4b7120b97f11ebbddd4fbc32effe65&vids=1&pi=0&lg=en-US&sw=1680&sh=927&sc=24&tl=WordPress.com%3A%20Create%20a%20Free%20Website%20or%20Blog&p=https%3A%2F%2Fwordpress.com%2F&r=&lt=1421&evt=pageLoad&msclkid=N&sv=1&rn=374727",
+      "query": {
+        "ti": 4074038,
+        "Ver": 2,
+        "mid": "a647dbfb-c40b-4d10-8672-e90b2f86a629",
+        "sid": "8a4b1c20b97f11ebabb6935827b5a745",
+        "vid": "8a4b7120b97f11ebbddd4fbc32effe65",
+        "vids": 1,
+        "pi": 0,
+        "lg": "en-US",
+        "sw": 1680,
+        "sh": 927,
+        "sc": 24,
+        "tl": "WordPress.com: Create a Free Website or Blog",
+        "p": "https://wordpress.com/",
+        "r": "",
+        "lt": 1421,
+        "evt": "pageLoad",
+        "msclkid": "N",
+        "sv": 1,
+        "rn": 374727
+      },
+      "filter": "||bat.bing.com^",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://wordpress.com/",
+            "source": "requested from https://wordpress.com/ and matched with easyprivacy.txt filter ||bat.bing.com^"
+          }
+        ],
+        "timestamp": "2021-05-20T15:24:59.719Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://bat.bing.com/p/action/4074038",
+      "query": null,
+      "filter": "||bat.bing.com^",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://wordpress.com/",
+            "source": "requested from https://wordpress.com/ and matched with easyprivacy.txt filter ||bat.bing.com^"
+          }
+        ],
+        "timestamp": "2021-05-20T15:24:59.714Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://script.hotjar.com/modules.87b9cf5e358c50dcc8af.js",
+      "query": null,
+      "filter": "||hotjar.com^$third-party",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://wordpress.com/",
+            "source": "requested from https://wordpress.com/ and matched with easyprivacy.txt filter ||hotjar.com^$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T15:24:59.698Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://t.co/i/adsct?type=javascript&version=1.1.1&p_id=Twitter&p_user_id=0&txn_id=nvzbs&events=%5B%5B%22pageview%22%2Cnull%5D%5D&tw_sale_amount=0&tw_order_quantity=0&tw_iframe_status=0&tw_document_href=https%3A%2F%2Fwordpress.com%2F",
+      "query": {
+        "type": "javascript",
+        "version": "1.1.1",
+        "p_id": "Twitter",
+        "p_user_id": 0,
+        "txn_id": "nvzbs",
+        "events": [
+          [
+            "pageview",
+            null
+          ]
+        ],
+        "tw_sale_amount": 0,
+        "tw_order_quantity": 0,
+        "tw_iframe_status": 0,
+        "tw_document_href": "https://wordpress.com/"
+      },
+      "filter": "/adsct?",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://wordpress.com/",
+            "source": "requested from https://wordpress.com/ and matched with easyprivacy.txt filter /adsct?"
+          }
+        ],
+        "timestamp": "2021-05-20T15:24:59.652Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://connect.facebook.net/signals/config/823166884443641?v=2.9.39&r=stable",
+      "query": {
+        "v": "2.9.39",
+        "r": "stable"
+      },
+      "filter": "||connect.facebook.net/signals/$third-party",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://wordpress.com/",
+            "source": "requested from https://wordpress.com/ and matched with easyprivacy.txt filter ||connect.facebook.net/signals/$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T15:24:59.613Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://pixel.wp.com/g.gif?x_cookie-banner-view=total%2Cwordpress-com&v=wpcom-no-pv&rand=0.15109928838884357",
+      "query": {
+        "x_cookie-banner-view": "total,wordpress-com",
+        "v": "wpcom-no-pv",
+        "rand": 0.15109928838884357
+      },
+      "filter": "||pixel.wp.com^",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://wordpress.com/",
+            "source": "requested from https://wordpress.com/ and matched with easyprivacy.txt filter ||pixel.wp.com^"
+          }
+        ],
+        "timestamp": "2021-05-20T15:24:59.579Z"
+      },
+      "occurrances": 2
+    },
+    {
+      "url": "https://public-api.wordpress.com/geo/?_=1621524299346",
+      "query": {
+        "_": 1621524299346
+      },
+      "filter": "||wordpress.com/geo/",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://wordpress.com/",
+            "source": "requested from https://wordpress.com/ and matched with easyprivacy.txt filter ||wordpress.com/geo/"
+          }
+        ],
+        "timestamp": "2021-05-20T15:24:59.360Z"
+      },
+      "occurrances": 2
+    },
+    {
+      "url": "https://static.hotjar.com/c/hotjar-227769.js?sv=5",
+      "query": {
+        "sv": 5
+      },
+      "filter": "||hotjar.com^$third-party",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://wordpress.com/",
+            "source": "requested from https://wordpress.com/ and matched with easyprivacy.txt filter ||hotjar.com^$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T15:24:59.359Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://bat.bing.com/bat.js",
+      "query": null,
+      "filter": "||bat.bing.com^",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://wordpress.com/",
+            "source": "requested from https://wordpress.com/ and matched with easyprivacy.txt filter ||bat.bing.com^"
+          }
+        ],
+        "timestamp": "2021-05-20T15:24:59.355Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://amplify.outbrain.com/cp/obtp.js",
+      "query": null,
+      "filter": "||amplify.outbrain.com^$third-party",
+      "listName": "fanboy-annoyance.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://wordpress.com/",
+            "source": "requested from https://wordpress.com/ and matched with fanboy-annoyance.txt filter ||amplify.outbrain.com^$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T15:24:59.354Z"
+      },
+      "occurrances": 2
+    },
+    {
+      "url": "https://connect.facebook.net/en_US/fbevents.js",
+      "query": null,
+      "filter": "/fbevents.js",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://wordpress.com/",
+            "source": "requested from https://wordpress.com/ and matched with easyprivacy.txt filter /fbevents.js"
+          }
+        ],
+        "timestamp": "2021-05-20T15:24:59.352Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://www.google-analytics.com/analytics.js",
+      "query": null,
+      "filter": "||google-analytics.com/analytics.js",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://wordpress.com/",
+            "source": "requested from https://wordpress.com/ and matched with easyprivacy.txt filter ||google-analytics.com/analytics.js"
+          }
+        ],
+        "timestamp": "2021-05-20T15:24:59.349Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://pixel.wp.com/b.gif?subd=wordpress.com&host=wordpress.com&blog=1&v=wpcom&user_id=0&tz=0&rand=0.6653871118759362",
+      "query": {
+        "subd": "wordpress.com",
+        "host": "wordpress.com",
+        "blog": 1,
+        "v": "wpcom",
+        "user_id": 0,
+        "tz": 0,
+        "rand": 0.6653871118759362
+      },
+      "filter": "||pixel.wp.com^",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://wordpress.com/",
+            "source": "requested from https://wordpress.com/ and matched with easyprivacy.txt filter ||pixel.wp.com^"
+          }
+        ],
+        "timestamp": "2021-05-20T15:24:59.267Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://stats.wp.com/w.js?60",
+      "query": {
+        "60": null
+      },
+      "filter": "||stats.wp.com^",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://wordpress.com/",
+            "source": "requested from https://wordpress.com/ and matched with easyprivacy.txt filter ||stats.wp.com^"
+          }
+        ],
+        "timestamp": "2021-05-20T15:24:59.264Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://s0.wp.com/wp-content/mu-plugins/a8c-analytics/a8c-analytics.js?v=1610571889",
+      "query": {
+        "v": 1610571889
+      },
+      "filter": "/a8c-analytics.",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://wordpress.com/",
+            "source": "requested from https://wordpress.com/ and matched with easyprivacy.txt filter /a8c-analytics."
+          }
+        ],
+        "timestamp": "2021-05-20T15:24:59.180Z"
+      },
+      "occurrances": 1
+    }
+  ],
+  "hosts": {
+    "requests": {
+      "firstParty": [
+        "wordpress.com"
+      ],
+      "thirdParty": [
+        "fonts.googleapis.com",
+        "s1.wp.com",
+        "i1.wp.com",
+        "s0.wp.com",
+        "public-api.wordpress.com",
+        "stats.wp.com",
+        "pixel.wp.com",
+        "www.google-analytics.com",
+        "www.googletagmanager.com",
+        "connect.facebook.net",
+        "amplify.outbrain.com",
+        "s.pinimg.com",
+        "bat.bing.com",
+        "static.ads-twitter.com",
+        "d.turn.com",
+        "static.hotjar.com",
+        "refer.wordpress.com",
+        "t.co",
+        "script.hotjar.com",
+        "vars.hotjar.com",
+        "tr.outbrain.com",
+        "ct.pinterest.com",
+        "www.googleadservices.com",
+        "www.facebook.com",
+        "6355556.fls.doubleclick.net",
+        "googleads.g.doubleclick.net",
+        "stats.g.doubleclick.net",
+        "www.google.com",
+        "www.google.es",
+        "adservice.google.com",
+        "adservice.google.es",
+        "analytics.twitter.com",
+        "wpcom.files.wordpress.com"
+      ]
+    },
+    "beacons": {
+      "firstParty": [],
+      "thirdParty": [
+        "pixel.wp.com",
+        "www.google-analytics.com",
+        "analytics.twitter.com",
+        "www.facebook.com",
+        "6355556.fls.doubleclick.net",
+        "stats.g.doubleclick.net",
+        "ct.pinterest.com",
+        "www.googletagmanager.com",
+        "www.googleadservices.com",
+        "vars.hotjar.com",
+        "bat.bing.com",
+        "script.hotjar.com",
+        "t.co",
+        "connect.facebook.net",
+        "public-api.wordpress.com",
+        "static.hotjar.com",
+        "amplify.outbrain.com",
+        "stats.wp.com",
+        "s0.wp.com"
+      ]
+    },
+    "cookies": {
+      "firstParty": [
+        "wordpress.com"
+      ],
+      "thirdParty": [
+        "bing.com",
+        "turn.com",
+        "doubleclick.net",
+        "twitter.com"
+      ]
+    },
+    "localStorage": {
+      "firstParty": [
+        "wordpress.com"
+      ],
+      "thirdParty": []
+    },
+    "links": {
+      "firstParty": [
+        "wordpress.com"
+      ],
+      "thirdParty": [
+        "pressable.com",
+        "wpvip.com",
+        "apps.apple.com",
+        "play.google.com",
+        "discover.wordpress.com",
+        "apps.wordpress.com",
+        "developer.wordpress.com",
+        "wordpress.org",
+        "automattic.com",
+        "twitter.com",
+        "www.facebook.com",
+        "www.instagram.com",
+        "www.youtube.com"
+      ]
+    }
+  }
+}

@@ -1,0 +1,582 @@
+{
+  "title": "Website Evidence Collection",
+  "task_description": null,
+  "uri_ins": "https://netflix.com",
+  "uri_refs": [
+    "https://netflix.com"
+  ],
+  "uri_dest": "https://www.netflix.com/es-en/",
+  "uri_redirects": [
+    "https://netflix.com/",
+    "https://www.netflix.com/"
+  ],
+  "secure_connection": {
+    "https_support": true,
+    "redirects": [
+      "https://netflix.com/",
+      "https://www.netflix.com/",
+      "https://www.netflix.com/es-en/"
+    ],
+    "https_redirect": true
+  },
+  "host": "netflix.com",
+  "script": {
+    "host": "sfod",
+    "version": {
+      "npm": "1.0.0",
+      "commit": null
+    },
+    "cmd_args": "-q --overwrite https://netflix.com -- --ignore-certificate-errors",
+    "environment": {
+      "CHROME_DESKTOP": "code-url-handler.desktop"
+    },
+    "node_version": "v14.17.0"
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "HeadlessChrome/80.0.3987.0",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3617.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "5.8.0-53-generic"
+    },
+    "extra_headers": {},
+    "preset_cookies": {}
+  },
+  "start_time": "2021-05-20T14:42:37.894Z",
+  "end_time": "2021-05-20T14:42:57.027Z",
+  "links": {
+    "firstParty": [],
+    "thirdParty": [
+      {
+        "href": "https://www.netflix.com/es-en/",
+        "inner_text": "third parties",
+        "inner_html": "third parties"
+      },
+      {
+        "href": "https://help.netflix.com/en/legal/privacy",
+        "inner_text": "cookies and similar technologies",
+        "inner_html": "cookies and similar technologies"
+      },
+      {
+        "href": "https://www.netflix.com/login",
+        "inner_text": "Sign In",
+        "inner_html": "Sign In"
+      },
+      {
+        "href": "https://help.netflix.com/support/412",
+        "inner_text": "FAQ",
+        "inner_html": "<span id=\"\" data-uia=\"data-uia-footer-label\">FAQ</span>"
+      },
+      {
+        "href": "https://help.netflix.com/",
+        "inner_text": "Help Center",
+        "inner_html": "<span id=\"\" data-uia=\"data-uia-footer-label\">Help Center</span>"
+      },
+      {
+        "href": "https://www.netflix.com/youraccount",
+        "inner_text": "Account",
+        "inner_html": "<span id=\"\" data-uia=\"data-uia-footer-label\">Account</span>"
+      },
+      {
+        "href": "https://media.netflix.com/",
+        "inner_text": "Media Center",
+        "inner_html": "<span id=\"\" data-uia=\"data-uia-footer-label\">Media Center</span>"
+      },
+      {
+        "href": "http://ir.netflix.com/",
+        "inner_text": "Investor Relations",
+        "inner_html": "<span id=\"\" data-uia=\"data-uia-footer-label\">Investor Relations</span>"
+      },
+      {
+        "href": "https://jobs.netflix.com/jobs",
+        "inner_text": "Jobs",
+        "inner_html": "<span id=\"\" data-uia=\"data-uia-footer-label\">Jobs</span>"
+      },
+      {
+        "href": "https://www.netflix.com/redeem",
+        "inner_text": "Redeem Gift Cards",
+        "inner_html": "<span id=\"\" data-uia=\"data-uia-footer-label\">Redeem Gift Cards</span>"
+      },
+      {
+        "href": "https://www.netflix.com/gift-cards",
+        "inner_text": "Buy Gift Cards",
+        "inner_html": "<span id=\"\" data-uia=\"data-uia-footer-label\">Buy Gift Cards</span>"
+      },
+      {
+        "href": "https://www.netflix.com/watch",
+        "inner_text": "Ways to Watch",
+        "inner_html": "<span id=\"\" data-uia=\"data-uia-footer-label\">Ways to Watch</span>"
+      },
+      {
+        "href": "https://help.netflix.com/legal/termsofuse",
+        "inner_text": "Terms of Use",
+        "inner_html": "<span id=\"\" data-uia=\"data-uia-footer-label\">Terms of Use</span>"
+      },
+      {
+        "href": "https://help.netflix.com/legal/privacy",
+        "inner_text": "Privacy",
+        "inner_html": "<span id=\"\" data-uia=\"data-uia-footer-label\">Privacy</span>"
+      },
+      {
+        "href": "https://help.netflix.com/legal/corpinfo",
+        "inner_text": "Corporate Information",
+        "inner_html": "<span id=\"\" data-uia=\"data-uia-footer-label\">Corporate Information</span>"
+      },
+      {
+        "href": "https://help.netflix.com/contactus",
+        "inner_text": "Contact Us",
+        "inner_html": "<span id=\"\" data-uia=\"data-uia-footer-label\">Contact Us</span>"
+      },
+      {
+        "href": "https://fast.com/",
+        "inner_text": "Speed Test",
+        "inner_html": "<span id=\"\" data-uia=\"data-uia-footer-label\">Speed Test</span>"
+      },
+      {
+        "href": "https://help.netflix.com/legal/notices",
+        "inner_text": "Legal Notices",
+        "inner_html": "<span id=\"\" data-uia=\"data-uia-footer-label\">Legal Notices</span>"
+      },
+      {
+        "href": "https://www.netflix.com/es-en/browse/genre/839338",
+        "inner_text": "Netflix Originals",
+        "inner_html": "<span id=\"\" data-uia=\"data-uia-footer-label\">Netflix Originals</span>"
+      },
+      {
+        "href": "https://optout.aboutads.info/",
+        "inner_text": "here.",
+        "inner_html": "here."
+      },
+      {
+        "href": "https://onetrust.com/poweredbyonetrust",
+        "inner_text": "",
+        "inner_html": ""
+      }
+    ],
+    "social": [],
+    "keywords": [
+      {
+        "href": "https://help.netflix.com/en/legal/privacy",
+        "inner_text": "cookies and similar technologies",
+        "inner_html": "cookies and similar technologies"
+      },
+      {
+        "href": "https://www.netflix.com/login",
+        "inner_text": "Sign In",
+        "inner_html": "Sign In"
+      },
+      {
+        "href": "https://help.netflix.com/legal/termsofuse",
+        "inner_text": "Terms of Use",
+        "inner_html": "<span id=\"\" data-uia=\"data-uia-footer-label\">Terms of Use</span>"
+      },
+      {
+        "href": "https://help.netflix.com/legal/privacy",
+        "inner_text": "Privacy",
+        "inner_html": "<span id=\"\" data-uia=\"data-uia-footer-label\">Privacy</span>"
+      },
+      {
+        "href": "https://help.netflix.com/legal/corpinfo",
+        "inner_text": "Corporate Information",
+        "inner_html": "<span id=\"\" data-uia=\"data-uia-footer-label\">Corporate Information</span>"
+      },
+      {
+        "href": "https://help.netflix.com/legal/notices",
+        "inner_text": "Legal Notices",
+        "inner_html": "<span id=\"\" data-uia=\"data-uia-footer-label\">Legal Notices</span>"
+      }
+    ]
+  },
+  "unsafeForms": [],
+  "browsing_history": [
+    "https://www.netflix.com/es-en/"
+  ],
+  "websockets": {},
+  "cookies": [
+    {
+      "name": "memclid",
+      "value": "48464b05-e52f-4407-804a-1898781ed5f5",
+      "domain": "netflix.com",
+      "path": "/",
+      "expires": 1653057776.361821,
+      "size": 43,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2022-05-20T14:42:56.361Z",
+      "expiresDays": 365,
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.netflix.com/es-en/",
+            "source": "set in Set-Cookie HTTP response header for https://www.netflix.com/es-en/"
+          }
+        ],
+        "type": "Cookie.HTTP",
+        "timestamp": "2021-05-20T14:42:40.229Z",
+        "location": "about:blank"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "OptanonConsent",
+      "value": "isIABGlobal=false&datestamp=Thu+May+20+2021+16%3A42%3A42+GMT%2B0200+(Central+European+Summer+Time)&version=6.6.0&consentId=a84e5e20-98dd-4b89-b6b4-feb7e89e9bbe&interactionCount=0&landingPath=https%3A%2F%2Fwww.netflix.com%2Fes-en%2F&groups=C0001%3A1%2CC0002%3A1%2CC0004%3A0&hosts=H1%3A1%2CH12%3A1%2CH13%3A1%2CH27%3A0%2CH28%3A0%2CH30%3A0",
+      "domain": "netflix.com",
+      "path": "/",
+      "expires": 1653057762,
+      "size": 349,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "sameSite": "Lax",
+      "expiresUTC": "2022-05-20T14:42:42.000Z",
+      "expiresDays": 365,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 58910,
+            "lineNumber": 7,
+            "fileName": "https://cdn.cookielaw.org/scripttemplates/6.6.0/otBannerSdk.js",
+            "functionName": "se.setCookie",
+            "source": "    at se.setCookie (https://cdn.cookielaw.org/scripttemplates/6.6.0/otBannerSdk.js:7:58910)"
+          },
+          {
+            "columnNumber": 57201,
+            "lineNumber": 7,
+            "fileName": "https://cdn.cookielaw.org/scripttemplates/6.6.0/otBannerSdk.js",
+            "functionName": "se.writeCookieParam",
+            "source": "    at se.writeCookieParam (https://cdn.cookielaw.org/scripttemplates/6.6.0/otBannerSdk.js:7:57201)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T14:42:42.337Z",
+        "location": "https://www.netflix.com/es-en/"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "NetflixId",
+      "value": "v%3D2%26ct%3DBQAOAAEBENL2IDMXuY7RmSeMSrTJvciBAPSA24RDZE6JYIqz39l2ZbqbvU9sUdtsGCYO5G7SF-DWJ851tTzPexUxvWwBLfjNgx3iuB87OfBL4GWip9TbqTQW36EkHF62RpTXdOkY1BC5nPnqreu6KgeJu58yZgLX5WQkKuerVt_cgUpsrl27oPOCZBAI45S5-8rUcgofYEqM-hSXILib-yfW1bC1VuSqyUhuHBmjOZgQvkUamQeSXonNX1Dmfi9D2Shuk_vs_Rz7YPim4faMBk1nvYUkxU5ofU7_lYKnk09EqxtkNFGu3w716b2spz-15P7gUY1W4Hm00qsVvdcEAvQigSLvEQcP3nNqHXPycf4BnukLlAq2VU0.%26bt%3Ddev%26mac%3DAQEAEAABABR0UUV_7Hfa1mI55iVg-AlJZoKtyWFSAJA.",
+      "domain": "netflix.com",
+      "path": "/",
+      "expires": 1653057759.454171,
+      "size": 462,
+      "httpOnly": true,
+      "secure": true,
+      "session": false,
+      "sameSite": "Lax",
+      "expiresUTC": "2022-05-20T14:42:39.454Z",
+      "expiresDays": 365,
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.netflix.com/",
+            "source": "set in Set-Cookie HTTP response header for https://www.netflix.com/"
+          }
+        ],
+        "type": "Cookie.HTTP",
+        "timestamp": "2021-05-20T14:42:39.457Z",
+        "location": "about:blank"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "SecureNetflixId",
+      "value": "v%3D2%26mac%3DAQEAEQABABQmkXDOKD9pLY1cHK3JU8e6Twm3aIUVwbM.%26dt%3D1621521759201",
+      "domain": "netflix.com",
+      "path": "/",
+      "expires": 1653057759.454139,
+      "size": 94,
+      "httpOnly": true,
+      "secure": true,
+      "session": false,
+      "sameSite": "Strict",
+      "expiresUTC": "2022-05-20T14:42:39.454Z",
+      "expiresDays": 365,
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.netflix.com/",
+            "source": "set in Set-Cookie HTTP response header for https://www.netflix.com/"
+          }
+        ],
+        "type": "Cookie.HTTP",
+        "timestamp": "2021-05-20T14:42:39.457Z",
+        "location": "about:blank"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "nfvdid",
+      "value": "BQFmAAEBEHJz2uSgQTAC1Eksh4tJpEFAlECK9tWEpkgpfPzO7nAUHlmJsT2v8BNCpzqswR-pbD0DC_No9ulI0vZAjsA5f6VXojg383X9GED3Vn334-0DpQ%3D%3D",
+      "domain": "netflix.com",
+      "path": "/",
+      "expires": 1653057758.80346,
+      "size": 130,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2022-05-20T14:42:38.803Z",
+      "expiresDays": 365,
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://netflix.com/",
+            "source": "set in Set-Cookie HTTP response header for https://netflix.com/"
+          }
+        ],
+        "type": "Cookie.HTTP",
+        "timestamp": "2021-05-20T14:42:38.808Z",
+        "location": "about:blank"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "flwssn",
+      "value": "65233a0c-624f-426e-b85e-5fdadea6560f",
+      "domain": "netflix.com",
+      "path": "/",
+      "expires": 1621532559.22683,
+      "size": 42,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2021-05-20T17:42:39.226Z",
+      "expiresDays": 0.13,
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.netflix.com/es-en/",
+            "source": "set in Set-Cookie HTTP response header for https://www.netflix.com/es-en/"
+          }
+        ],
+        "type": "Cookie.HTTP",
+        "timestamp": "2021-05-20T14:42:40.229Z",
+        "location": "about:blank"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "clSharedContext",
+      "value": "79bbace1-46a4-4c9c-8178-5383d92d46a9",
+      "domain": "netflix.com",
+      "path": "/",
+      "expires": -1,
+      "size": 51,
+      "httpOnly": false,
+      "secure": false,
+      "session": true,
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.netflix.com/",
+            "source": "set in Set-Cookie HTTP response header for https://www.netflix.com/"
+          }
+        ],
+        "type": "Cookie.HTTP",
+        "timestamp": "2021-05-20T14:42:39.457Z",
+        "location": "about:blank"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "cL",
+      "value": "1621521761695%7C162152176159279877%7C162152176199583439%7C%7C4%7Cnull",
+      "domain": "www.netflix.com",
+      "path": "/",
+      "expires": -1,
+      "size": 71,
+      "httpOnly": false,
+      "secure": false,
+      "session": true,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 91375,
+            "lineNumber": 6,
+            "fileName": "https://codex.nflxext.com/%5E3.0.0/truthBundle/webui/1.22.5-shakti-js-vde8637a0/js/js/signup%7Chome%7CourStory%7Cfuji%7CfujiFrameworkClient.js/2/0b3i022V2M2X052I303h070m003j2_3d2S322Y3c2O31342Q2P0a013e0O/l/true/none",
+            "functionName": "M",
+            "source": "    at M (https://codex.nflxext.com/%5E3.0.0/truthBundle/webui/1.22.5-shakti-js-vde8637a0/js/js/signup%7Chome%7CourStory%7Cfuji%7CfujiFrameworkClient.js/2/0b3i022V2M2X052I303h070m003j2_3d2S322Y3c2O31342Q2P0a013e0O/l/true/none:6:91375)"
+          },
+          {
+            "columnNumber": 92158,
+            "lineNumber": 6,
+            "fileName": "https://codex.nflxext.com/%5E3.0.0/truthBundle/webui/1.22.5-shakti-js-vde8637a0/js/js/signup%7Chome%7CourStory%7Cfuji%7CfujiFrameworkClient.js/2/0b3i022V2M2X052I303h070m003j2_3d2S322Y3c2O31342Q2P0a013e0O/l/true/none",
+            "functionName": "Object.D [as start]",
+            "source": "    at Object.D [as start] (https://codex.nflxext.com/%5E3.0.0/truthBundle/webui/1.22.5-shakti-js-vde8637a0/js/js/signup%7Chome%7CourStory%7Cfuji%7CfujiFrameworkClient.js/2/0b3i022V2M2X052I303h070m003j2_3d2S322Y3c2O31342Q2P0a013e0O/l/true/none:6:92158)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T14:42:41.891Z",
+        "location": "https://www.netflix.com/es-en/"
+      },
+      "firstPartyStorage": false
+    }
+  ],
+  "localStorage": {
+    "https://www.netflix.com": {
+      "NFSessionData.nfNotifications": {
+        "value": {
+          "metadata": {
+            "token": null
+          },
+          "maxBufferSize": 20,
+          "maxFlushDelay": 5000,
+          "eventsQueuedBeforeEnabled": [
+            {
+              "modalView": "nmLanding",
+              "type": "sessionStarted",
+              "category": "uiQOE",
+              "name": "appSession.started",
+              "sessionName": "appSession",
+              "time": 1621521761695,
+              "id": "162152176159704876",
+              "sessionId": "162152176159279877"
+            },
+            {
+              "category": "uiQOE",
+              "data": {
+                "trigger": "appStart",
+                "acceptLanguageHeader": "en-US"
+              },
+              "modalView": "nmLanding",
+              "type": "sessionStarted",
+              "name": "userSession.started",
+              "sessionName": "userSession",
+              "time": 1621521761695,
+              "id": "162152176119891860",
+              "sessionId": "162152176199583439"
+            },
+            {
+              "category": "uiQOE",
+              "modalView": "nmLanding",
+              "type": "event",
+              "name": "uiModalViewChanged",
+              "time": 1621521761696,
+              "id": "162152176122590326"
+            }
+          ],
+          "sequence": 1,
+          "sequencePrefix": "",
+          "sessionState": {
+            "sessions": {},
+            "sessionsList": []
+          },
+          "queuedRequests": []
+        },
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 83995,
+              "lineNumber": 6,
+              "fileName": "https://codex.nflxext.com/%5E3.0.0/truthBundle/webui/1.22.5-shakti-js-vde8637a0/js/js/signup%7Chome%7CourStory%7Cfuji%7CfujiFrameworkClient.js/2/0b3i022V2M2X052I303h070m003j2_3d2S322Y3c2O31342Q2P0a013e0O/l/true/none",
+              "functionName": "Object.s [as set]",
+              "source": "    at Object.s [as set] (https://codex.nflxext.com/%5E3.0.0/truthBundle/webui/1.22.5-shakti-js-vde8637a0/js/js/signup%7Chome%7CourStory%7Cfuji%7CfujiFrameworkClient.js/2/0b3i022V2M2X052I303h070m003j2_3d2S322Y3c2O31342Q2P0a013e0O/l/true/none:6:83995)"
+            },
+            {
+              "columnNumber": 88224,
+              "lineNumber": 6,
+              "fileName": "https://codex.nflxext.com/%5E3.0.0/truthBundle/webui/1.22.5-shakti-js-vde8637a0/js/js/signup%7Chome%7CourStory%7Cfuji%7CfujiFrameworkClient.js/2/0b3i022V2M2X052I303h070m003j2_3d2S322Y3c2O31342Q2P0a013e0O/l/true/none",
+              "functionName": "I",
+              "source": "    at I (https://codex.nflxext.com/%5E3.0.0/truthBundle/webui/1.22.5-shakti-js-vde8637a0/js/js/signup%7Chome%7CourStory%7Cfuji%7CfujiFrameworkClient.js/2/0b3i022V2M2X052I303h070m003j2_3d2S322Y3c2O31342Q2P0a013e0O/l/true/none:6:88224)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T14:42:41.891Z",
+          "location": "https://www.netflix.com/es-en/"
+        }
+      },
+      "NFSessionData.nfSessionTs": {
+        "value": 1621521761695,
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 83995,
+              "lineNumber": 6,
+              "fileName": "https://codex.nflxext.com/%5E3.0.0/truthBundle/webui/1.22.5-shakti-js-vde8637a0/js/js/signup%7Chome%7CourStory%7Cfuji%7CfujiFrameworkClient.js/2/0b3i022V2M2X052I303h070m003j2_3d2S322Y3c2O31342Q2P0a013e0O/l/true/none",
+              "functionName": "Object.s [as set]",
+              "source": "    at Object.s [as set] (https://codex.nflxext.com/%5E3.0.0/truthBundle/webui/1.22.5-shakti-js-vde8637a0/js/js/signup%7Chome%7CourStory%7Cfuji%7CfujiFrameworkClient.js/2/0b3i022V2M2X052I303h070m003j2_3d2S322Y3c2O31342Q2P0a013e0O/l/true/none:6:83995)"
+            },
+            {
+              "columnNumber": 85203,
+              "lineNumber": 6,
+              "fileName": "https://codex.nflxext.com/%5E3.0.0/truthBundle/webui/1.22.5-shakti-js-vde8637a0/js/js/signup%7Chome%7CourStory%7Cfuji%7CfujiFrameworkClient.js/2/0b3i022V2M2X052I303h070m003j2_3d2S322Y3c2O31342Q2P0a013e0O/l/true/none",
+              "functionName": "v",
+              "source": "    at v (https://codex.nflxext.com/%5E3.0.0/truthBundle/webui/1.22.5-shakti-js-vde8637a0/js/js/signup%7Chome%7CourStory%7Cfuji%7CfujiFrameworkClient.js/2/0b3i022V2M2X052I303h070m003j2_3d2S322Y3c2O31342Q2P0a013e0O/l/true/none:6:85203)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T14:42:41.890Z",
+          "location": "https://www.netflix.com/es-en/"
+        }
+      }
+    }
+  },
+  "beacons": [
+    {
+      "url": "https://geolocation.onetrust.com/cookieconsentpub/v1/geo/location",
+      "query": null,
+      "filter": "||onetrust.com^$third-party",
+      "listName": "fanboy-annoyance.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.netflix.com/es-en/",
+            "source": "requested from https://www.netflix.com/es-en/ and matched with fanboy-annoyance.txt filter ||onetrust.com^$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T14:42:40.808Z"
+      },
+      "occurrances": 1
+    }
+  ],
+  "hosts": {
+    "requests": {
+      "firstParty": [
+        "netflix.com"
+      ],
+      "thirdParty": [
+        "www.netflix.com",
+        "codex.nflxext.com",
+        "cdn.cookielaw.org",
+        "assets.nflxext.com",
+        "occ-0-3015-360.1.nflxso.net",
+        "geolocation.onetrust.com"
+      ]
+    },
+    "beacons": {
+      "firstParty": [],
+      "thirdParty": []
+    },
+    "cookies": {
+      "firstParty": [
+        "netflix.com"
+      ],
+      "thirdParty": [
+        "www.netflix.com"
+      ]
+    },
+    "localStorage": {
+      "firstParty": [],
+      "thirdParty": [
+        "www.netflix.com"
+      ]
+    },
+    "links": {
+      "firstParty": [],
+      "thirdParty": [
+        "www.netflix.com",
+        "help.netflix.com",
+        "media.netflix.com",
+        "ir.netflix.com",
+        "jobs.netflix.com",
+        "fast.com",
+        "optout.aboutads.info",
+        "onetrust.com"
+      ]
+    }
+  }
+}

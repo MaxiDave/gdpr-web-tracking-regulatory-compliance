@@ -1,0 +1,1190 @@
+{
+  "title": "Website Evidence Collection",
+  "task_description": null,
+  "uri_ins": "https://microsoft.com",
+  "uri_refs": [
+    "https://microsoft.com"
+  ],
+  "uri_dest": "https://www.microsoft.com/es-es/",
+  "uri_redirects": [
+    "https://microsoft.com/",
+    "https://www.microsoft.com/"
+  ],
+  "secure_connection": {
+    "https_support": true,
+    "redirects": [
+      "https://www.microsoft.com/",
+      "https://www.microsoft.com/es-es/"
+    ],
+    "https_redirect": true
+  },
+  "host": "microsoft.com",
+  "script": {
+    "host": "sfod",
+    "version": {
+      "npm": "1.0.0",
+      "commit": null
+    },
+    "cmd_args": "-q --overwrite https://microsoft.com -- --ignore-certificate-errors",
+    "environment": {
+      "CHROME_DESKTOP": "code-url-handler.desktop"
+    },
+    "node_version": "v14.17.0"
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "HeadlessChrome/80.0.3987.0",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3617.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "5.8.0-53-generic"
+    },
+    "extra_headers": {},
+    "preset_cookies": {}
+  },
+  "start_time": "2021-05-20T14:46:16.132Z",
+  "end_time": "2021-05-20T14:46:25.103Z",
+  "links": {
+    "firstParty": [],
+    "thirdParty": [
+      {
+        "href": "https://www.microsoft.com/es-es/",
+        "inner_text": "",
+        "inner_html": ""
+      },
+      {
+        "href": "https://go.microsoft.com/fwlink/?LinkId=521839",
+        "inner_text": "Declaración de privacidad",
+        "inner_html": "Declaración de privacidad"
+      },
+      {
+        "href": "https://www.microsoft.com/",
+        "inner_text": "Microsoft",
+        "inner_html": "<img alt=\"\" itemprop=\"logo\" class=\"c-image\" src=\"https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE1Mu3b?ver=5c31\" role=\"presentation\" aria-hidden=\"true\">\n                        <span itemprop=\"name\" role=\"presentation\" aria-hidden=\"true\">Microsoft</span>"
+      },
+      {
+        "href": "https://www.microsoft.com/microsoft-365",
+        "inner_text": "Microsoft 365",
+        "inner_html": "Microsoft 365"
+      },
+      {
+        "href": "https://www.microsoft.com/microsoft-365/microsoft-office",
+        "inner_text": "Office",
+        "inner_html": "Office"
+      },
+      {
+        "href": "https://www.microsoft.com/es-es/windows/",
+        "inner_text": "Windows",
+        "inner_html": "Windows"
+      },
+      {
+        "href": "https://www.microsoft.com/es-es/surface",
+        "inner_text": "Surface",
+        "inner_html": "Surface"
+      },
+      {
+        "href": "https://www.xbox.com/",
+        "inner_text": "Xbox",
+        "inner_html": "Xbox"
+      },
+      {
+        "href": "https://www.microsoft.com/es-es/store/b/sale",
+        "inner_text": "Ofertas",
+        "inner_html": "Ofertas"
+      },
+      {
+        "href": "https://support.microsoft.com/es-es",
+        "inner_text": "Soporte",
+        "inner_html": "Soporte"
+      },
+      {
+        "href": "https://www.microsoft.com/es-es/store/apps/windows?icid=CNavAppsWindowsApps",
+        "inner_text": "Aplicaciones Windows",
+        "inner_html": "Aplicaciones Windows"
+      },
+      {
+        "href": "https://onedrive.live.com/about/es-es/",
+        "inner_text": "OneDrive",
+        "inner_html": "OneDrive"
+      },
+      {
+        "href": "https://outlook.live.com/owa/",
+        "inner_text": "Outlook",
+        "inner_html": "Outlook"
+      },
+      {
+        "href": "https://www.skype.com/es/",
+        "inner_text": "Skype",
+        "inner_html": "Skype"
+      },
+      {
+        "href": "https://www.onenote.com/?omkt=es-ES",
+        "inner_text": "OneNote",
+        "inner_html": "OneNote"
+      },
+      {
+        "href": "https://www.microsoft.com/es-es/microsoft-teams/free?icid=SSM_AS_Promo_Apps_MicrosoftTeams",
+        "inner_text": "Microsoft Teams",
+        "inner_html": "Microsoft Teams"
+      },
+      {
+        "href": "https://www.microsoft.com/es-es/store/b/xbox?icid=CNavDevicesXbox",
+        "inner_text": "Comprar Xbox",
+        "inner_html": "Comprar Xbox"
+      },
+      {
+        "href": "https://www.microsoft.com/es-es/store/b/accessories?icid=CNavDevicesAccessories",
+        "inner_text": "Accesorios",
+        "inner_html": "Accesorios"
+      },
+      {
+        "href": "https://www.microsoft.com/es-es/p/xbox-game-pass-ultimate/cfq7ttc0khs0?WT.mc_id=CNavGamesXboxGamePassUltimate",
+        "inner_text": "Xbox Game Pass Ultimate",
+        "inner_html": "Xbox Game Pass Ultimate"
+      },
+      {
+        "href": "https://www.microsoft.com/es-es/p/xbox-live-gold/cfq7ttc0k5dj?WT.mc_id=CNavGamesXboxLiveGold",
+        "inner_text": "Xbox Live Gold",
+        "inner_html": "Xbox Live Gold"
+      },
+      {
+        "href": "https://www.microsoft.com/es-es/store/top-paid/games/xbox",
+        "inner_text": "Xbox y juegos",
+        "inner_html": "Xbox y juegos"
+      },
+      {
+        "href": "https://www.microsoft.com/es-es/store/games/windows?icid=CNavGamesWindowsGames",
+        "inner_text": "Juegos para PC",
+        "inner_html": "Juegos para PC"
+      },
+      {
+        "href": "https://www.microsoft.com/es-es/store/games/windows?icid=TopNavWindowsGames",
+        "inner_text": "Juegos para Windows",
+        "inner_html": "Juegos para Windows"
+      },
+      {
+        "href": "https://www.microsoft.com/es-es/store/movies-and-tv?icid=TopNavMoviesAndTv",
+        "inner_text": "Películas y TV",
+        "inner_html": "Películas y TV"
+      },
+      {
+        "href": "https://azure.microsoft.com/es-es/",
+        "inner_text": "Microsoft Azure",
+        "inner_html": "Microsoft Azure"
+      },
+      {
+        "href": "https://www.microsoft.com/es-es/dynamics365/home",
+        "inner_text": "Microsoft Dynamics 365",
+        "inner_html": "Microsoft Dynamics 365"
+      },
+      {
+        "href": "https://www.microsoft.com/microsoft-365/business/all-business",
+        "inner_text": "Microsoft 365",
+        "inner_html": "Microsoft 365"
+      },
+      {
+        "href": "https://www.microsoft.com/es-es/enterprise",
+        "inner_text": "Microsoft Industry",
+        "inner_html": "Microsoft Industry"
+      },
+      {
+        "href": "https://www.microsoft.com/es-es/sql-server/",
+        "inner_text": "Plataforma de datos",
+        "inner_html": "Plataforma de datos"
+      },
+      {
+        "href": "https://go.microsoft.com/fwlink/?linkid=2026638",
+        "inner_text": "Microsoft Advertising",
+        "inner_html": "Microsoft Advertising"
+      },
+      {
+        "href": "https://powerplatform.microsoft.com/es-es",
+        "inner_text": "Power Platform",
+        "inner_html": "Power Platform"
+      },
+      {
+        "href": "https://www.microsoft.com/es-es/store/b/business?icid=CNavBusinessStore",
+        "inner_text": "Comprar en Empresa",
+        "inner_html": "Comprar en Empresa"
+      },
+      {
+        "href": "https://www.microsoft.com/net/",
+        "inner_text": ".NET",
+        "inner_html": ".NET"
+      },
+      {
+        "href": "https://visualstudio.microsoft.com/",
+        "inner_text": "Visual Studio",
+        "inner_html": "Visual Studio"
+      },
+      {
+        "href": "https://www.microsoft.com/cloud-platform/windows-server",
+        "inner_text": "Windows Server",
+        "inner_html": "Windows Server"
+      },
+      {
+        "href": "https://developer.microsoft.com/es-es/windows",
+        "inner_text": "Desarrollar aplicaciones para Windows",
+        "inner_html": "Desarrollar aplicaciones para Windows"
+      },
+      {
+        "href": "https://docs.microsoft.com/es-es/",
+        "inner_text": "Documentos",
+        "inner_html": "Documentos"
+      },
+      {
+        "href": "https://powerapps.microsoft.com/es-es",
+        "inner_text": "Power Apps",
+        "inner_html": "Power Apps"
+      },
+      {
+        "href": "https://www.microsoft.com/es-es/hololens",
+        "inner_text": "HoloLens 2",
+        "inner_html": "HoloLens 2"
+      },
+      {
+        "href": "https://www.microsoft.com/rewards",
+        "inner_text": "Microsoft Rewards ",
+        "inner_html": "Microsoft Rewards"
+      },
+      {
+        "href": "https://www.microsoft.com/es-es/download/default.aspx",
+        "inner_text": "Seguridad y descargas gratuitas",
+        "inner_html": "Seguridad y descargas gratuitas"
+      },
+      {
+        "href": "https://www.microsoft.com/es-es/education?icid=CNavMSCOML0_Studentsandeducation",
+        "inner_text": "Educación",
+        "inner_html": "Educación"
+      },
+      {
+        "href": "https://www.microsoft.com/es-es/store/b/gift-cards",
+        "inner_text": "Tarjetas regalo",
+        "inner_html": "Tarjetas regalo"
+      },
+      {
+        "href": "https://www.microsoft.com/licensing/default",
+        "inner_text": "Licenciamiento",
+        "inner_html": "Licenciamiento"
+      },
+      {
+        "href": "https://www.microsoft.com/es-es/sitemap.aspx",
+        "inner_text": "Ver mapa del sitio",
+        "inner_html": "Ver mapa del sitio"
+      },
+      {
+        "href": "https://www.microsoft.com/es-es/store/buy",
+        "inner_text": "Carro",
+        "inner_html": "<span class=\"shopping-cart-amount x-hidden\" aria-hidden=\"true\">0</span>\n                        <span class=\"c-cart-lbl c-st-lbl\">Carro</span>\n                        <span id=\"uhf-shopping-cart-tooltip\" class=\"c-uhf-tooltip\" role=\"tooltip\">0 artículos del carro de la compra</span>"
+      },
+      {
+        "href": "https://www.microsoft.com/mscomhp/onerf/signin?EEL=True&pcexp=True&ru=https%3A%2F%2Fwww.microsoft.com%2Fes-es%2F",
+        "inner_text": "Iniciar sesión en tu cuenta\nIniciar sesión",
+        "inner_html": "<span class=\"mectrl_screen_reader_text\">Iniciar sesión en tu cuenta</span><div class=\"mectrl_topHeader\" aria-hidden=\"true\" role=\"presentation\"><div class=\"mectrl_header_text mectrl_truncate\">Iniciar sesión</div><div id=\"mectrl_headerPicture\" class=\"mectrl_profilepic mectrl_glyph mectrl_signIn_circle_glyph\" aria-hidden=\"true\" role=\"presentation\"></div></div>"
+      },
+      {
+        "href": "https://www.microsoft.com/es-es/microsoft-teams/teams-for-home?utm_campaign=Collab&utm_source=MSFTHome&utm_term=TFL&ocid=OO_TEAMS_CONS_MLGTM_FM_msfthome",
+        "inner_text": "Más información ",
+        "inner_html": "<span>Más información</span>"
+      },
+      {
+        "href": "https://www.microsoft.com/es-es/p/surface-laptop-4/946627FB12T1?icid=mscom_marcom_H2a_SurfaceLaptop4",
+        "inner_text": "\n            Comprar ahora\n        ",
+        "inner_html": "<span>Comprar ahora</span>"
+      },
+      {
+        "href": "https://www.microsoft.com/es-es/microsoft-365/compare-all-microsoft-365-products?icid=MSCOM_QL_M365",
+        "inner_text": "Elige tu Microsoft 365",
+        "inner_html": "<img class=\"large-icon lazyloaded\" alt=\"Icono de Microsoft 365\" src=\"https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE4sQDc?ver=30c2&amp;q=90&amp;m=6&amp;h=40&amp;w=40&amp;b=%23FFFFFFFF&amp;l=f&amp;o=t&amp;aim=true\" data-src=\"https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE4sQDc?ver=30c2&amp;q=90&amp;m=6&amp;h=40&amp;w=40&amp;b=%23FFFFFFFF&amp;l=f&amp;o=t&amp;aim=true\" aria-hidden=\"true\">            <div>Elige tu Microsoft 365</div>"
+      },
+      {
+        "href": "https://www.microsoft.com/es-es/store/collections/surfacelist?icid=MSCOM_QL_Surface&headerid=department-surface",
+        "inner_text": "Comprar Surface",
+        "inner_html": "<img class=\"large-icon lazyloaded\" alt=\"Icono de Microsoft Surface\" src=\"https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE4pndL?ver=5217&amp;q=90&amp;m=6&amp;h=40&amp;w=40&amp;b=%23FFFFFFFF&amp;l=f&amp;o=t&amp;aim=true\" data-src=\"https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE4pndL?ver=5217&amp;q=90&amp;m=6&amp;h=40&amp;w=40&amp;b=%23FFFFFFFF&amp;l=f&amp;o=t&amp;aim=true\" aria-hidden=\"true\">            <div>Comprar Surface</div>"
+      },
+      {
+        "href": "https://www.microsoft.com/es-es/store/b/xbox?icid=MSCOM_QL_Xbox",
+        "inner_text": "Comprar Xbox",
+        "inner_html": "<img class=\"large-icon lazyloaded\" alt=\"Icono de Xbox\" src=\"https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE4pxBu?ver=eae5&amp;q=90&amp;m=6&amp;h=40&amp;w=40&amp;b=%23FFFFFFFF&amp;l=f&amp;o=t&amp;aim=true\" data-src=\"https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE4pxBu?ver=eae5&amp;q=90&amp;m=6&amp;h=40&amp;w=40&amp;b=%23FFFFFFFF&amp;l=f&amp;o=t&amp;aim=true\" aria-hidden=\"true\">            <div>Comprar Xbox</div>"
+      },
+      {
+        "href": "https://www.microsoft.com/es-es/store/b/windows?icid=MSCOM_QL_Windows",
+        "inner_text": "Comprar Windows 10",
+        "inner_html": "<img class=\"large-icon lazyloaded\" alt=\"Icono de Microsoft Windows\" src=\"https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE4pkvE?ver=d8fc&amp;q=90&amp;m=6&amp;h=40&amp;w=40&amp;b=%23FFFFFFFF&amp;l=f&amp;o=t&amp;aim=true\" data-src=\"https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE4pkvE?ver=d8fc&amp;q=90&amp;m=6&amp;h=40&amp;w=40&amp;b=%23FFFFFFFF&amp;l=f&amp;o=t&amp;aim=true\" aria-hidden=\"true\">            <div>Comprar Windows 10</div>"
+      },
+      {
+        "href": "https://www.microsoft.com/es-es/store/b/business?icid=MSCOM_QL_Business",
+        "inner_text": "Comprar para Empresas",
+        "inner_html": "<img class=\"large-icon lazyloaded\" alt=\"Icono de maletín\" src=\"https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE4rriw?ver=b2d5&amp;q=90&amp;m=6&amp;h=40&amp;w=40&amp;b=%23FFFFFFFF&amp;l=f&amp;o=t&amp;aim=true\" data-src=\"https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE4rriw?ver=b2d5&amp;q=90&amp;m=6&amp;h=40&amp;w=40&amp;b=%23FFFFFFFF&amp;l=f&amp;o=t&amp;aim=true\" aria-hidden=\"true\">            <div>Comprar para Empresas</div>"
+      },
+      {
+        "href": "https://www.microsoft.com/es-es/p/surface_pro_7_bundle/8ndfq6zmqtv9?icid=MSCOM-CP-SP7-P66382",
+        "inner_text": "Comprar ahora ",
+        "inner_html": "<span>Comprar ahora</span>"
+      },
+      {
+        "href": "https://www.microsoft.com/es-es/p/xbox-series-s/942j774tp9jn?icid=mscom_marcom_CPH2a_XboxSeriesS",
+        "inner_text": "Comprar ahora ",
+        "inner_html": "<span>Comprar ahora</span>"
+      },
+      {
+        "href": "https://www.microsoft.com/es-es/p/xbox-game-pass-ultimate/cfq7ttc0khs0?icid=mscom_marcom_CPH3a_GamePassUltimate",
+        "inner_text": "Unirte ahora ",
+        "inner_html": "<span>Unirte ahora</span>"
+      },
+      {
+        "href": "https://www.microsoft.com/es-es/p/surface-go-2/8pt3s2vjmdr6?icid=MSCOM-CP4-SG2-P66655",
+        "inner_text": "Comprar ahora ",
+        "inner_html": "<span>Comprar ahora</span>"
+      },
+      {
+        "href": "https://www.microsoft.com/es-es/microsoft-365/p/microsoft-365-family/cfq7ttc0k5dm?icid=mscom_marcom_MPH1a_M365Family",
+        "inner_text": "Para un máximo de 6 usuarios ",
+        "inner_html": "<span>Para un máximo de 6&nbsp;usuarios</span>"
+      },
+      {
+        "href": "https://www.microsoft.com/es-es/microsoft-365/p/microsoft-365-personal/cfq7ttc0k5bf?icid=mscom_marcom_MPH1b_M365Personal",
+        "inner_text": "Para 1 usuario ",
+        "inner_html": "<span>Para 1 usuario</span>"
+      },
+      {
+        "href": "https://www.microsoft.com/es-es/store/b/surfaceforbusiness?icid=mscom_marcom_CPW1a_SurfaceforBusiness",
+        "inner_text": "Comprar ahora ",
+        "inner_html": "<span>Comprar ahora</span>"
+      },
+      {
+        "href": "https://www.microsoft.com/es-es/microsoft-365/business/compare-all-microsoft-365-business-products?icid=mscom_marcom_CPW2a_M365forBusiness&activetab=tab%3aprimaryr2",
+        "inner_text": "Comprar ahora ",
+        "inner_html": "<span>Comprar ahora</span>"
+      },
+      {
+        "href": "https://www.microsoft.com/es-es/evalcenter/evaluate-windows-10-enterprise?icid=mscom_marcom_CPW3a_Win10EnterpriseEval",
+        "inner_text": "Descargar ahora ",
+        "inner_html": "<span>Descargar ahora</span>"
+      },
+      {
+        "href": "https://www.microsoft.com/es-es/hololens/buy?icid=mscom_marcom_CPW4a_HoloLens2",
+        "inner_text": "Comprar ahora ",
+        "inner_html": "<span>Comprar ahora</span>"
+      },
+      {
+        "href": "https://pulse.microsoft.com/es-es/?p=435984&wt.mc_id=AID3019034_QSG_BNR_520561",
+        "inner_text": "Ver ahora ",
+        "inner_html": "<span>Ver ahora</span>"
+      },
+      {
+        "href": "https://www.facebook.com/MicrosoftEspana/",
+        "inner_text": "",
+        "inner_html": "<picture>\n                    <source type=\"image/svg+xml\" srcset=\"//www.microsoft.com/onerfstatics/marketingsites-neu-prod/_h/2532198d/coreui.statics/images/social/facebook.svg\">\n                    <img src=\"//www.microsoft.com/onerfstatics/marketingsites-neu-prod/_h/85288795/coreui.statics/images/social/facebook.png\" alt=\"Facebook\">\n                </picture>"
+      },
+      {
+        "href": "https://twitter.com/microsoftes",
+        "inner_text": "",
+        "inner_html": "<picture>\n                    <source type=\"image/svg+xml\" srcset=\"//www.microsoft.com/onerfstatics/marketingsites-neu-prod/_h/6f40299c/coreui.statics/images/social/twitter.svg\">\n                    <img src=\"//www.microsoft.com/onerfstatics/marketingsites-neu-prod/_h/93690392/coreui.statics/images/social/twitter.png\" alt=\"Twitter\">\n                </picture>"
+      },
+      {
+        "href": "https://www.linkedin.com/company/microsoft",
+        "inner_text": "",
+        "inner_html": "<picture>\n                    <source type=\"image/svg+xml\" srcset=\"//www.microsoft.com/onerfstatics/marketingsites-neu-prod/_h/413bd4a8/coreui.statics/images/social/linkedin.svg\">\n                    <img src=\"//www.microsoft.com/onerfstatics/marketingsites-neu-prod/_h/b23f9ba2/coreui.statics/images/social/linkedin.png\" alt=\"LinkedIn\">\n                </picture>"
+      },
+      {
+        "href": "https://www.youtube.com/channel/UCmLql2WjEszQhcxsp45ljwA",
+        "inner_text": "",
+        "inner_html": "<picture>\n                    <source type=\"image/svg+xml\" srcset=\"//www.microsoft.com/onerfstatics/marketingsites-neu-prod/_h/2d505657/coreui.statics/images/social/youtube.svg\">\n                    <img src=\"//www.microsoft.com/onerfstatics/marketingsites-neu-prod/_h/c79952ca/coreui.statics/images/social/youtube.png\" alt=\"Youtube\">\n                </picture>"
+      },
+      {
+        "href": "https://www.instagram.com/microsoft_espana/",
+        "inner_text": "",
+        "inner_html": "<picture>\n                    <source type=\"image/svg+xml\" srcset=\"//www.microsoft.com/onerfstatics/marketingsites-neu-prod/_h/859513b5/coreui.statics/images/social/instagram.svg\">\n                    <img src=\"//www.microsoft.com/onerfstatics/marketingsites-neu-prod/_h/439c9edb/coreui.statics/images/social/instagram.png\" alt=\"Instagram\">\n                </picture>"
+      },
+      {
+        "href": "https://www.microsoft.com/es-es/p/surface-laptop-4/946627FB12T1",
+        "inner_text": "Surface Laptop 4",
+        "inner_html": "Surface Laptop 4"
+      },
+      {
+        "href": "https://www.microsoft.com/es-es/p/surface-laptop-go/94FC0BDGQ7WV",
+        "inner_text": "Surface Laptop Go",
+        "inner_html": "Surface Laptop Go"
+      },
+      {
+        "href": "https://www.microsoft.com/es-es/p/surface-go-2/8PT3S2VJMDR6",
+        "inner_text": "Surface Go 2",
+        "inner_html": "Surface Go 2"
+      },
+      {
+        "href": "https://www.microsoft.com/es-es/p/surface-pro-x/8QG3BMRHNWHK",
+        "inner_text": "Surface Pro X",
+        "inner_html": "Surface Pro X"
+      },
+      {
+        "href": "https://www.microsoft.com/es-es/p/surface-book-3/8XBW9G3Z71F1",
+        "inner_text": "Surface Book 3",
+        "inner_html": "Surface Book 3"
+      },
+      {
+        "href": "https://www.microsoft.com/es-es/windows/windows-10-apps",
+        "inner_text": "Aplicaciones de Windows 10",
+        "inner_html": "Aplicaciones de Windows 10"
+      },
+      {
+        "href": "https://account.microsoft.com/",
+        "inner_text": "Perfil de la cuenta",
+        "inner_html": "Perfil de la cuenta"
+      },
+      {
+        "href": "https://www.microsoft.com/es-es/download",
+        "inner_text": "Centro de descarga",
+        "inner_html": "Centro de descarga"
+      },
+      {
+        "href": "https://go.microsoft.com/fwlink/?linkid=2139749",
+        "inner_text": "Soporte de Microsoft Store",
+        "inner_html": "Soporte de Microsoft Store"
+      },
+      {
+        "href": "https://support.microsoft.com/es-es/help/10558/microsoft-store-returning-items-bought-for-exchange-refund",
+        "inner_text": "Devoluciones",
+        "inner_html": "Devoluciones"
+      },
+      {
+        "href": "https://account.microsoft.com/orders",
+        "inner_text": "Seguimiento de pedidos",
+        "inner_html": "Seguimiento de pedidos"
+      },
+      {
+        "href": "https://www.microsoft.com/es-es/store/b/recycling?icid=GlobalFooterNav",
+        "inner_text": "Reciclar",
+        "inner_html": "Reciclar"
+      },
+      {
+        "href": "https://www.microsoft.com/es-es/store/b/aboutwarranties?icid=GlobalFooterNav",
+        "inner_text": "Garantías comerciales",
+        "inner_html": "Garantías comerciales"
+      },
+      {
+        "href": "https://www.microsoft.com/es-es/education",
+        "inner_text": "Microsoft en la educación",
+        "inner_html": "Microsoft en la educación"
+      },
+      {
+        "href": "https://www.microsoft.com/es-es/education/products/office/default.aspx",
+        "inner_text": "Office para estudiantes",
+        "inner_html": "Office para estudiantes"
+      },
+      {
+        "href": "https://products.office.com/es-es/academic/compare-office-365-education-plans",
+        "inner_text": "Office 365 para escuelas",
+        "inner_html": "Office 365 para escuelas"
+      },
+      {
+        "href": "https://www.microsoft.com/es-es/store/b/student?icid=CNavfooter_Studentsandeducation",
+        "inner_text": "Ofertas para estudiantes y padres",
+        "inner_html": "Ofertas para estudiantes y padres"
+      },
+      {
+        "href": "https://azure.microsoft.com/es-es/community/education/",
+        "inner_text": "Microsoft Azure en la educación",
+        "inner_html": "Microsoft Azure en la educación"
+      },
+      {
+        "href": "https://azure.microsoft.com/",
+        "inner_text": "Azure",
+        "inner_html": "Azure"
+      },
+      {
+        "href": "https://go.microsoft.com/fwlink/?LinkID=808093",
+        "inner_text": "AppSource",
+        "inner_html": "AppSource"
+      },
+      {
+        "href": "https://www.microsoft.com/enterprise/automotive",
+        "inner_text": "Automoción",
+        "inner_html": "Automoción"
+      },
+      {
+        "href": "https://www.microsoft.com/enterprise/government",
+        "inner_text": "Administraciones públicas",
+        "inner_html": "Administraciones públicas"
+      },
+      {
+        "href": "https://www.microsoft.com/enterprise/health",
+        "inner_text": "Salud",
+        "inner_html": "Salud"
+      },
+      {
+        "href": "https://www.microsoft.com/enterprise/manufacturing",
+        "inner_text": "Fabricación",
+        "inner_html": "Fabricación"
+      },
+      {
+        "href": "https://www.microsoft.com/enterprise/financial-services/banking-and-capital-markets",
+        "inner_text": "Servicios financieros",
+        "inner_html": "Servicios financieros"
+      },
+      {
+        "href": "https://www.microsoft.com/enterprise/retail-consumer-goods",
+        "inner_text": "Comercio al por menor",
+        "inner_html": "Comercio al por menor"
+      },
+      {
+        "href": "https://developer.microsoft.com/",
+        "inner_text": "Centro para desarrolladores",
+        "inner_html": "Centro para desarrolladores"
+      },
+      {
+        "href": "https://developer.microsoft.com/es-es/store/register",
+        "inner_text": "Programa de desarrolladores de Microsoft",
+        "inner_html": "Programa de desarrolladores de Microsoft"
+      },
+      {
+        "href": "https://channel9.msdn.com/",
+        "inner_text": "Channel 9",
+        "inner_html": "Channel 9"
+      },
+      {
+        "href": "https://developer.microsoft.com/es-es/office",
+        "inner_text": "Centro para desarrolladores de Office",
+        "inner_html": "Centro para desarrolladores de Office"
+      },
+      {
+        "href": "https://careers.microsoft.com/",
+        "inner_text": "Oportunidades de empleo",
+        "inner_html": "Oportunidades de empleo"
+      },
+      {
+        "href": "https://www.microsoft.com/es-es/about",
+        "inner_text": "Acerca de Microsoft",
+        "inner_html": "Acerca de Microsoft"
+      },
+      {
+        "href": "https://news.microsoft.com/es-es",
+        "inner_text": "Noticias de la compañía",
+        "inner_html": "Noticias de la compañía"
+      },
+      {
+        "href": "https://privacy.microsoft.com/es-es",
+        "inner_text": "Privacidad en Microsoft",
+        "inner_html": "Privacidad en Microsoft"
+      },
+      {
+        "href": "https://www.microsoft.com/investor/default.aspx",
+        "inner_text": "Inversores",
+        "inner_html": "Inversores"
+      },
+      {
+        "href": "https://www.microsoft.com/es-es/security/default.aspx",
+        "inner_text": "Seguridad",
+        "inner_html": "Seguridad"
+      },
+      {
+        "href": "https://www.microsoft.com/en-us/locale.aspx?absoluteReturnUrl=https%3a%2f%2fwww.microsoft.com%2fes-es%2f",
+        "inner_text": "Español (España, alfabetización internacional)",
+        "inner_html": "Español (España, alfabetización internacional)"
+      },
+      {
+        "href": "https://support.microsoft.com/contactus",
+        "inner_text": "Ponte en contacto con Microsoft",
+        "inner_html": "Ponte en contacto con Microsoft"
+      },
+      {
+        "href": "https://go.microsoft.com/fwlink/?LinkID=206977",
+        "inner_text": "Condiciones de uso",
+        "inner_html": "Condiciones de uso"
+      },
+      {
+        "href": "https://www.microsoft.com/trademarks",
+        "inner_text": "Marcas registradas",
+        "inner_html": "Marcas registradas"
+      },
+      {
+        "href": "https://choice.microsoft.com/",
+        "inner_text": "Sobre nuestra publicidad",
+        "inner_html": "Sobre nuestra publicidad"
+      },
+      {
+        "href": "https://www.microsoft.com/en-ie/eucompliancedoc/default.aspx",
+        "inner_text": "Docs de cumplimiento de la UE",
+        "inner_html": "Docs de cumplimiento de la UE"
+      }
+    ],
+    "social": [
+      {
+        "href": "https://www.facebook.com/MicrosoftEspana/",
+        "inner_text": "",
+        "inner_html": "<picture>\n                    <source type=\"image/svg+xml\" srcset=\"//www.microsoft.com/onerfstatics/marketingsites-neu-prod/_h/2532198d/coreui.statics/images/social/facebook.svg\">\n                    <img src=\"//www.microsoft.com/onerfstatics/marketingsites-neu-prod/_h/85288795/coreui.statics/images/social/facebook.png\" alt=\"Facebook\">\n                </picture>"
+      },
+      {
+        "href": "https://twitter.com/microsoftes",
+        "inner_text": "",
+        "inner_html": "<picture>\n                    <source type=\"image/svg+xml\" srcset=\"//www.microsoft.com/onerfstatics/marketingsites-neu-prod/_h/6f40299c/coreui.statics/images/social/twitter.svg\">\n                    <img src=\"//www.microsoft.com/onerfstatics/marketingsites-neu-prod/_h/93690392/coreui.statics/images/social/twitter.png\" alt=\"Twitter\">\n                </picture>"
+      },
+      {
+        "href": "https://www.linkedin.com/company/microsoft",
+        "inner_text": "",
+        "inner_html": "<picture>\n                    <source type=\"image/svg+xml\" srcset=\"//www.microsoft.com/onerfstatics/marketingsites-neu-prod/_h/413bd4a8/coreui.statics/images/social/linkedin.svg\">\n                    <img src=\"//www.microsoft.com/onerfstatics/marketingsites-neu-prod/_h/b23f9ba2/coreui.statics/images/social/linkedin.png\" alt=\"LinkedIn\">\n                </picture>"
+      },
+      {
+        "href": "https://www.youtube.com/channel/UCmLql2WjEszQhcxsp45ljwA",
+        "inner_text": "",
+        "inner_html": "<picture>\n                    <source type=\"image/svg+xml\" srcset=\"//www.microsoft.com/onerfstatics/marketingsites-neu-prod/_h/2d505657/coreui.statics/images/social/youtube.svg\">\n                    <img src=\"//www.microsoft.com/onerfstatics/marketingsites-neu-prod/_h/c79952ca/coreui.statics/images/social/youtube.png\" alt=\"Youtube\">\n                </picture>"
+      },
+      {
+        "href": "https://www.instagram.com/microsoft_espana/",
+        "inner_text": "",
+        "inner_html": "<picture>\n                    <source type=\"image/svg+xml\" srcset=\"//www.microsoft.com/onerfstatics/marketingsites-neu-prod/_h/859513b5/coreui.statics/images/social/instagram.svg\">\n                    <img src=\"//www.microsoft.com/onerfstatics/marketingsites-neu-prod/_h/439c9edb/coreui.statics/images/social/instagram.png\" alt=\"Instagram\">\n                </picture>"
+      }
+    ],
+    "keywords": [
+      {
+        "href": "https://privacy.microsoft.com/es-es",
+        "inner_text": "Privacidad en Microsoft",
+        "inner_html": "Privacidad en Microsoft"
+      }
+    ]
+  },
+  "unsafeForms": [],
+  "browsing_history": [
+    "https://www.microsoft.com/es-es/"
+  ],
+  "websockets": {},
+  "cookies": [
+    {
+      "name": "MSFPC",
+      "value": "GUID=cbdcb49e67c14375a6fa1c2370dae0ff&HASH=cbdc&LV=202105&V=4&LU=1621521978431",
+      "domain": "publisher.liveperson.net",
+      "path": "/",
+      "expires": 1653057983,
+      "size": 83,
+      "httpOnly": false,
+      "secure": true,
+      "session": false,
+      "sameSite": "None",
+      "expiresUTC": "2022-05-20T14:46:23.000Z",
+      "expiresDays": 365,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 16,
+            "lineNumber": 1,
+            "fileName": "https://web.vortex.data.microsoft.com/collect/v1/t.js?ver=%272.1%27&name=%27Ms.Webi.PageView%27&time=%272021-05-20T14%3A46%3A23.844Z%27&os=%27Unix%27&appId=%27JS%3AUniStore%27&-ver=%271.0%27&-impressionGuid=%271d3fb26b-7ca6-44eb-a54d-ad1dc7c79d94%27&-pageName=%27Homepage%27&-uri=%27https%3A%2F%2Fpublisher.liveperson.net%2Fiframe-le-tag%2Fiframe.html%3Flpsite%3D60270350%26lpsection%3Dstore-sales-es-es%26buttons%3DlpChatService%2ClpChatSales%27&-referrerUri=%27https%3A%2F%2Fwww.microsoft.com%2Fes-es%2F%27&-resHeight=927&-resWidth=1680&-pageTags=%27%7B%22metaTags%22%3A%7B%7D%7D%27&-behavior=0&*baseType=%27Ms.Content.PageView%27&*cookieEnabled=true&*isJs=true&*title=%27iFrame%20Cart%20Page%27&*isLoggedIn=false&*flashInstalled=false&ext-javascript-ver=%271.1%27&ext-javascript-libVer=%274.3.5%27&ext-javascript-domain=%27publisher.liveperson.net%27&ext-javascript-userConsent=false&$mscomCookies=false",
+            "source": "    at https://web.vortex.data.microsoft.com/collect/v1/t.js?ver=%272.1%27&name=%27Ms.Webi.PageView%27&time=%272021-05-20T14%3A46%3A23.844Z%27&os=%27Unix%27&appId=%27JS%3AUniStore%27&-ver=%271.0%27&-impressionGuid=%271d3fb26b-7ca6-44eb-a54d-ad1dc7c79d94%27&-pageName=%27Homepage%27&-uri=%27https%3A%2F%2Fpublisher.liveperson.net%2Fiframe-le-tag%2Fiframe.html%3Flpsite%3D60270350%26lpsection%3Dstore-sales-es-es%26buttons%3DlpChatService%2ClpChatSales%27&-referrerUri=%27https%3A%2F%2Fwww.microsoft.com%2Fes-es%2F%27&-resHeight=927&-resWidth=1680&-pageTags=%27%7B%22metaTags%22%3A%7B%7D%7D%27&-behavior=0&*baseType=%27Ms.Content.PageView%27&*cookieEnabled=true&*isJs=true&*title=%27iFrame%20Cart%20Page%27&*isLoggedIn=false&*flashInstalled=false&ext-javascript-ver=%271.1%27&ext-javascript-libVer=%274.3.5%27&ext-javascript-domain=%27publisher.liveperson.net%27&ext-javascript-userConsent=false&$mscomCookies=false:1:16"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T14:46:23.937Z",
+        "location": "https://www.microsoft.com"
+      },
+      "firstPartyStorage": false
+    },
+    {
+      "name": "LPVisitorID",
+      "value": "FjM2ViY2VlMWM4N2FkZTEw",
+      "domain": "va.v.liveperson.net",
+      "path": "/",
+      "expires": 1653057981.686862,
+      "size": 33,
+      "httpOnly": true,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2022-05-20T14:46:21.686Z",
+      "expiresDays": 365,
+      "firstPartyStorage": false
+    },
+    {
+      "name": "LPVID",
+      "value": "FjM2ViY2VlMWM4N2FkZTEw",
+      "domain": "liveperson.net",
+      "path": "/",
+      "expires": 1653057981,
+      "size": 27,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2022-05-20T14:46:21.000Z",
+      "expiresDays": 365,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 20667,
+            "lineNumber": 1,
+            "fileName": "https://lptag.liveperson.net/tag/tag.js?site=60270350",
+            "functionName": "i",
+            "source": "    at i (https://lptag.liveperson.net/tag/tag.js?site=60270350:1:20667)"
+          },
+          {
+            "columnNumber": 20251,
+            "lineNumber": 1,
+            "fileName": "https://lptag.liveperson.net/tag/tag.js?site=60270350",
+            "functionName": "Object.h [as writeSessionCookie]",
+            "source": "    at Object.h [as writeSessionCookie] (https://lptag.liveperson.net/tag/tag.js?site=60270350:1:20251)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T14:46:21.699Z",
+        "location": "https://www.microsoft.com"
+      },
+      "firstPartyStorage": false
+    },
+    {
+      "name": "MC1",
+      "value": "GUID=cbdcb49e67c14375a6fa1c2370dae0ff&HASH=cbdc&LV=202105&V=4&LU=1621521978431",
+      "domain": "microsoft.com",
+      "path": "/",
+      "expires": 1653057978.475356,
+      "size": 81,
+      "httpOnly": false,
+      "secure": true,
+      "session": false,
+      "sameSite": "None",
+      "expiresUTC": "2022-05-20T14:46:18.475Z",
+      "expiresDays": 365,
+      "firstPartyStorage": true
+    },
+    {
+      "name": "MSFPC",
+      "value": "GUID=cbdcb49e67c14375a6fa1c2370dae0ff&HASH=cbdc&LV=202105&V=4&LU=1621521978431",
+      "domain": "www.microsoft.com",
+      "path": "/",
+      "expires": 1653057978,
+      "size": 83,
+      "httpOnly": false,
+      "secure": true,
+      "session": false,
+      "sameSite": "None",
+      "expiresUTC": "2022-05-20T14:46:18.000Z",
+      "expiresDays": 365,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 16,
+            "lineNumber": 1,
+            "fileName": "https://web.vortex.data.microsoft.com/collect/v1/t.js?ver=%272.1%27&name=%27Ms.Webi.PageView%27&time=%272021-05-20T14%3A46%3A18.116Z%27&os=%27Unix%27&appId=%27JS%3AMicrosoftHP%27&cV=%27CENHmGhk%2BkCMO2sE.0%27&-ver=%271.0%27&-impressionGuid=%27bc3549f3-9d66-4c16-988d-bed1843c3af7%27&-pageName=%27Homepage%27&-uri=%27https%3A%2F%2Fwww.microsoft.com%2Fes-es%2F%27&-market=%27es-es%27&-pageType=%27HP.AllModules%27&-resHeight=927&-resWidth=1680&-pageTags=%27%7B%22browserGroup%22%3A%22uplevel.web.pc.webkit.chrome%22%2C%22isTentedPage%22%3Afalse%2C%22tasId%22%3Anull%2C%22pageVersion%22%3A%220.1%22%2C%22isCachedPage%22%3Afalse%2C%22enabledFeatures%22%3A%22optimizely_disabled%3A1%2Cuhf_retailstore2%3A1%2CUhfPb%3A1%2CUhfUsePh%3A1%2CEnableLocaleDetection%3A1%2CUhfSwp%3A1%2Cuhfgreenid%3A1%2Cenable_sasslib_minification_runtime%3A1%2CUhfJs_1_22_1%3A1%2CUhfJs_1_22_3%3A1%2Ccore_akamai_im_enabled%3A1%2Ccoreui_hero_image_resize_90%3A1%2CUhfJs_1_23_1%3A1%2Cuhf_as_iris%3A1%2Cuhf_pivot-nav%3A1%2Ccore_use_coreui_mwf%3A1%2Ccoreui_makeimagebackgroundtransparent%3A1%2Cf_audiencemanager_disabled%3A1%2Ccore_BypassJWTValidation%3A1%2Cuhf_epb_v2%3A1%2CMSADisableForceSignin%3A1%2CDisableToSkipMarketdetectionforUknownRoutes%3A1%2Cuhf_magic_triangle%3A1%2CRelevanceOverride%3A1%2Ccoreui_videomodule_useflexsize%3A1%2Cuhf_css_override%3A1%2Ccore_uhf_access_policy%3A1%2Cuhf_st_enabled%3A1%2CDisableOneRFSearchRoute%3A1%2CclientTypeSfw%3A1%2CResolveDataProviderByPartnerNameSpace%3A1%2CInvokeLoginAuthorizeAndRedirect%3A1%2Cuhf_stick_footer_to_bottom%3A1%2Cboomerang_disabled%3A1%2Ci_uhf_cache_flush__7%3A1%2Cuhf_enable_domain_check%3A1%2Cuhf_enable_promo_banner%3A1%2Ccore_useAfsRestApiForStatics%3A1%2CUse1PCommonReplyUrl%3A1%2Cuhf_enable_generic_promo_banner%3A1%2Clpgreeterbot%3A1%2Cliveengage%3A1%2Clpuseprodsiteid%3A1%2Ccore_cookiev2%3A1%2Cs_core_mwf_version__MWF_20210208_31270267%3A1%2Cjquery_previous%3A1%2CDisableTATToken%3A1%2Crushmore_gzip_html%3A1%2Cs_core_statics_cacheflush__20210415%3A1%2CRMDisablePolicyValidationInRP%3A1%2COwACService%3A1%2Cmwf_useazureblobstorage%3A1%22%2C%22pageSubType%22%3A%22RE2MDAF%22%2C%22canvasType%22%3A%22Web%22%2C%22deviceFamily%22%3Anull%2C%22isOneRf%22%3Atrue%2C%22isCorpNet%22%3Afalse%2C%22dataVersion%22%3A%2218%2F05%2F2021%204%3A24%3A59%20%2B00%3A00%22%2C%22serviceName%22%3A%22marketingsites-prod-odnortheurope%22%2C%22metaTags%22%3A%7B%7D%2C%22scripts%22%3A%22JQuery%22%7D%27&-behavior=0&*baseType=%27Ms.Content.PageView%27&*cookieEnabled=true&*isJs=true&*title=%27Microsoft%20-%20Official%20Home%20Page%27&*isLoggedIn=false&*serverImpressionGuid=%27f96ebbd4-1b32-4d07-8725-9a4e2972b7d3%27&ext-app-env=%27onerf_prod%27&ext-javascript-ver=%271.1%27&ext-javascript-libVer=%274.3.1%27&ext-javascript-domain=%27www.microsoft.com%27&ext-javascript-userConsent=false&ext-javascript-consentDetails=%27%7B%22Required%22%3Atrue%2C%22Analytics%22%3Afalse%2C%22SocialMedia%22%3Afalse%2C%22Advertising%22%3Afalse%7D%27&$mscomCookies=false",
+            "source": "    at https://web.vortex.data.microsoft.com/collect/v1/t.js?ver=%272.1%27&name=%27Ms.Webi.PageView%27&time=%272021-05-20T14%3A46%3A18.116Z%27&os=%27Unix%27&appId=%27JS%3AMicrosoftHP%27&cV=%27CENHmGhk%2BkCMO2sE.0%27&-ver=%271.0%27&-impressionGuid=%27bc3549f3-9d66-4c16-988d-bed1843c3af7%27&-pageName=%27Homepage%27&-uri=%27https%3A%2F%2Fwww.microsoft.com%2Fes-es%2F%27&-market=%27es-es%27&-pageType=%27HP.AllModules%27&-resHeight=927&-resWidth=1680&-pageTags=%27%7B%22browserGroup%22%3A%22uplevel.web.pc.webkit.chrome%22%2C%22isTentedPage%22%3Afalse%2C%22tasId%22%3Anull%2C%22pageVersion%22%3A%220.1%22%2C%22isCachedPage%22%3Afalse%2C%22enabledFeatures%22%3A%22optimizely_disabled%3A1%2Cuhf_retailstore2%3A1%2CUhfPb%3A1%2CUhfUsePh%3A1%2CEnableLocaleDetection%3A1%2CUhfSwp%3A1%2Cuhfgreenid%3A1%2Cenable_sasslib_minification_runtime%3A1%2CUhfJs_1_22_1%3A1%2CUhfJs_1_22_3%3A1%2Ccore_akamai_im_enabled%3A1%2Ccoreui_hero_image_resize_90%3A1%2CUhfJs_1_23_1%3A1%2Cuhf_as_iris%3A1%2Cuhf_pivot-nav%3A1%2Ccore_use_coreui_mwf%3A1%2Ccoreui_makeimagebackgroundtransparent%3A1%2Cf_audiencemanager_disabled%3A1%2Ccore_BypassJWTValidation%3A1%2Cuhf_epb_v2%3A1%2CMSADisableForceSignin%3A1%2CDisableToSkipMarketdetectionforUknownRoutes%3A1%2Cuhf_magic_triangle%3A1%2CRelevanceOverride%3A1%2Ccoreui_videomodule_useflexsize%3A1%2Cuhf_css_override%3A1%2Ccore_uhf_access_policy%3A1%2Cuhf_st_enabled%3A1%2CDisableOneRFSearchRoute%3A1%2CclientTypeSfw%3A1%2CResolveDataProviderByPartnerNameSpace%3A1%2CInvokeLoginAuthorizeAndRedirect%3A1%2Cuhf_stick_footer_to_bottom%3A1%2Cboomerang_disabled%3A1%2Ci_uhf_cache_flush__7%3A1%2Cuhf_enable_domain_check%3A1%2Cuhf_enable_promo_banner%3A1%2Ccore_useAfsRestApiForStatics%3A1%2CUse1PCommonReplyUrl%3A1%2Cuhf_enable_generic_promo_banner%3A1%2Clpgreeterbot%3A1%2Cliveengage%3A1%2Clpuseprodsiteid%3A1%2Ccore_cookiev2%3A1%2Cs_core_mwf_version__MWF_20210208_31270267%3A1%2Cjquery_previous%3A1%2CDisableTATToken%3A1%2Crushmore_gzip_html%3A1%2Cs_core_statics_cacheflush__20210415%3A1%2CRMDisablePolicyValidationInRP%3A1%2COwACService%3A1%2Cmwf_useazureblobstorage%3A1%22%2C%22pageSubType%22%3A%22RE2MDAF%22%2C%22canvasType%22%3A%22Web%22%2C%22deviceFamily%22%3Anull%2C%22isOneRf%22%3Atrue%2C%22isCorpNet%22%3Afalse%2C%22dataVersion%22%3A%2218%2F05%2F2021%204%3A24%3A59%20%2B00%3A00%22%2C%22serviceName%22%3A%22marketingsites-prod-odnortheurope%22%2C%22metaTags%22%3A%7B%7D%2C%22scripts%22%3A%22JQuery%22%7D%27&-behavior=0&*baseType=%27Ms.Content.PageView%27&*cookieEnabled=true&*isJs=true&*title=%27Microsoft%20-%20Official%20Home%20Page%27&*isLoggedIn=false&*serverImpressionGuid=%27f96ebbd4-1b32-4d07-8725-9a4e2972b7d3%27&ext-app-env=%27onerf_prod%27&ext-javascript-ver=%271.1%27&ext-javascript-libVer=%274.3.1%27&ext-javascript-domain=%27www.microsoft.com%27&ext-javascript-userConsent=false&ext-javascript-consentDetails=%27%7B%22Required%22%3Atrue%2C%22Analytics%22%3Afalse%2C%22SocialMedia%22%3Afalse%2C%22Advertising%22%3Afalse%7D%27&$mscomCookies=false:1:16"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T14:46:18.485Z",
+        "location": "https://www.microsoft.com/es-es/"
+      },
+      "firstPartyStorage": false
+    },
+    {
+      "name": "akacd_OneRF",
+      "value": "1629297977~rv=88~id=b01eaa0fa1d277db7b3b3440ef641812",
+      "domain": "www.microsoft.com",
+      "path": "/",
+      "expires": 1629297977.098075,
+      "size": 63,
+      "httpOnly": false,
+      "secure": true,
+      "session": false,
+      "sameSite": "None",
+      "expiresUTC": "2021-08-18T14:46:17.098Z",
+      "expiresDays": 90,
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.microsoft.com/es-es/",
+            "source": "set in Set-Cookie HTTP response header for https://www.microsoft.com/es-es/"
+          }
+        ],
+        "type": "Cookie.HTTP",
+        "timestamp": "2021-05-20T14:46:17.106Z",
+        "location": "about:blank"
+      },
+      "firstPartyStorage": false
+    },
+    {
+      "name": "MS0",
+      "value": "9eee3fc7ada448cda254ad2a491944ba",
+      "domain": "microsoft.com",
+      "path": "/",
+      "expires": 1621523778.47544,
+      "size": 35,
+      "httpOnly": false,
+      "secure": true,
+      "session": false,
+      "sameSite": "None",
+      "expiresUTC": "2021-05-20T15:16:18.475Z",
+      "expiresDays": 0.02,
+      "firstPartyStorage": true
+    },
+    {
+      "name": "LPSessionID",
+      "value": "HKNlEAQzQaq7xztDh3knHw",
+      "domain": "va.v.liveperson.net",
+      "path": "/api/js/60270350",
+      "expires": -1,
+      "size": 33,
+      "httpOnly": true,
+      "secure": false,
+      "session": true,
+      "firstPartyStorage": false
+    },
+    {
+      "name": "uaid",
+      "value": "34508087639c40261aa0cac44e5dffb4",
+      "domain": "login.live.com",
+      "path": "/",
+      "expires": -1,
+      "size": 36,
+      "httpOnly": true,
+      "secure": true,
+      "session": true,
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://login.live.com/me.srf?wa=wsignin1.0&wreply=https%3A%2F%2Fwww.microsoft.com&uaid=34508087-639c-4026-1aa0-cac44e5dffb4&partnerId=mshomepage",
+            "source": "set in Set-Cookie HTTP response header for https://login.live.com/me.srf?wa=wsignin1.0&wreply=https%3A%2F%2Fwww.microsoft.com&uaid=34508087-639c-4026-1aa0-cac44e5dffb4&partnerId=mshomepage"
+          }
+        ],
+        "type": "Cookie.HTTP",
+        "timestamp": "2021-05-20T14:46:20.869Z",
+        "location": "https://www.microsoft.com/es-es/"
+      },
+      "firstPartyStorage": false
+    },
+    {
+      "name": "MSPRequ",
+      "value": "id=N&lt=1621521980&co=1",
+      "domain": "login.live.com",
+      "path": "/",
+      "expires": -1,
+      "size": 30,
+      "httpOnly": true,
+      "secure": true,
+      "session": true,
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://login.live.com/me.srf?wa=wsignin1.0&wreply=https%3A%2F%2Fwww.microsoft.com&uaid=34508087-639c-4026-1aa0-cac44e5dffb4&partnerId=mshomepage",
+            "source": "set in Set-Cookie HTTP response header for https://login.live.com/me.srf?wa=wsignin1.0&wreply=https%3A%2F%2Fwww.microsoft.com&uaid=34508087-639c-4026-1aa0-cac44e5dffb4&partnerId=mshomepage"
+          }
+        ],
+        "type": "Cookie.HTTP",
+        "timestamp": "2021-05-20T14:46:20.869Z",
+        "location": "https://www.microsoft.com/es-es/"
+      },
+      "firstPartyStorage": false
+    },
+    {
+      "name": "LPSID-60270350",
+      "value": "HKNlEAQzQaq7xztDh3knHw",
+      "domain": "liveperson.net",
+      "path": "/",
+      "expires": -1,
+      "size": 36,
+      "httpOnly": false,
+      "secure": false,
+      "session": true,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 20667,
+            "lineNumber": 1,
+            "fileName": "https://lptag.liveperson.net/tag/tag.js?site=60270350",
+            "functionName": "i",
+            "source": "    at i (https://lptag.liveperson.net/tag/tag.js?site=60270350:1:20667)"
+          },
+          {
+            "columnNumber": 20251,
+            "lineNumber": 1,
+            "fileName": "https://lptag.liveperson.net/tag/tag.js?site=60270350",
+            "functionName": "Object.h [as writeSessionCookie]",
+            "source": "    at Object.h [as writeSessionCookie] (https://lptag.liveperson.net/tag/tag.js?site=60270350:1:20251)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T14:46:21.700Z",
+        "location": "https://www.microsoft.com"
+      },
+      "firstPartyStorage": false
+    }
+  ],
+  "localStorage": {
+    "https://publisher.liveperson.net": {
+      "lpLastVisit-60270350": {
+        "value": 1621521981568,
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 18837,
+              "lineNumber": 1,
+              "fileName": "https://lptag.liveperson.net/tag/tag.js?site=60270350",
+              "functionName": "Object.g [as setPersistentData]",
+              "source": "    at Object.g [as setPersistentData] (https://lptag.liveperson.net/tag/tag.js?site=60270350:1:18837)"
+            },
+            {
+              "columnNumber": 72934,
+              "lineNumber": 1,
+              "fileName": "https://lptag.liveperson.net/lptag/api/account/60270350/configuration/applications/taglets/.jsonp?v=2.0&df=0&s=store-sales-es-es&b=1",
+              "functionName": "$",
+              "source": "    at $ (https://lptag.liveperson.net/lptag/api/account/60270350/configuration/applications/taglets/.jsonp?v=2.0&df=0&s=store-sales-es-es&b=1:1:72934)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T14:46:21.701Z",
+          "location": "https://www.microsoft.com"
+        }
+      }
+    }
+  },
+  "beacons": [
+    {
+      "url": "https://web.vortex.data.microsoft.com/collect/v1?$mscomCookies=false&ext-javascript-msfpc=%27GUID%3Dcbdcb49e67c14375a6fa1c2370dae0ff%26HASH%3Dcbdc%26LV%3D202105%26V%3D4%26LU%3D1621521978431%27",
+      "query": {
+        "$mscomCookies": false,
+        "ext-javascript-msfpc": "'GUID=cbdcb49e67c14375a6fa1c2370dae0ff&HASH=cbdc&LV=202105&V=4&LU=1621521978431'"
+      },
+      "filter": "||microsoft.com/collect/",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.microsoft.com/es-es/",
+            "source": "requested from https://www.microsoft.com/es-es/ and matched with easyprivacy.txt filter ||microsoft.com/collect/"
+          }
+        ],
+        "timestamp": "2021-05-20T14:46:24.991Z"
+      },
+      "occurrances": 9
+    },
+    {
+      "url": "https://web.vortex.data.microsoft.com/collect/v1/t.js?ver=%272.1%27&name=%27Ms.Webi.PageView%27&time=%272021-05-20T14%3A46%3A23.844Z%27&os=%27Unix%27&appId=%27JS%3AUniStore%27&-ver=%271.0%27&-impressionGuid=%271d3fb26b-7ca6-44eb-a54d-ad1dc7c79d94%27&-pageName=%27Homepage%27&-uri=%27https%3A%2F%2Fpublisher.liveperson.net%2Fiframe-le-tag%2Fiframe.html%3Flpsite%3D60270350%26lpsection%3Dstore-sales-es-es%26buttons%3DlpChatService%2ClpChatSales%27&-referrerUri=%27https%3A%2F%2Fwww.microsoft.com%2Fes-es%2F%27&-resHeight=927&-resWidth=1680&-pageTags=%27%7B%22metaTags%22%3A%7B%7D%7D%27&-behavior=0&*baseType=%27Ms.Content.PageView%27&*cookieEnabled=true&*isJs=true&*title=%27iFrame%20Cart%20Page%27&*isLoggedIn=false&*flashInstalled=false&ext-javascript-ver=%271.1%27&ext-javascript-libVer=%274.3.5%27&ext-javascript-domain=%27publisher.liveperson.net%27&ext-javascript-userConsent=false&$mscomCookies=false",
+      "query": {
+        "ver": "'2.1'",
+        "name": "'Ms.Webi.PageView'",
+        "time": "'2021-05-20T14:46:23.844Z'",
+        "os": "'Unix'",
+        "appId": "'JS:UniStore'",
+        "-ver": "'1.0'",
+        "-impressionGuid": "'1d3fb26b-7ca6-44eb-a54d-ad1dc7c79d94'",
+        "-pageName": "'Homepage'",
+        "-uri": "'https://publisher.liveperson.net/iframe-le-tag/iframe.html?lpsite=60270350&lpsection=store-sales-es-es&buttons=lpChatService,lpChatSales'",
+        "-referrerUri": "'https://www.microsoft.com/es-es/'",
+        "-resHeight": 927,
+        "-resWidth": 1680,
+        "-pageTags": "'{\"metaTags\":{}}'",
+        "-behavior": 0,
+        "*baseType": "'Ms.Content.PageView'",
+        "*cookieEnabled": true,
+        "*isJs": true,
+        "*title": "'iFrame Cart Page'",
+        "*isLoggedIn": false,
+        "*flashInstalled": false,
+        "ext-javascript-ver": "'1.1'",
+        "ext-javascript-libVer": "'4.3.5'",
+        "ext-javascript-domain": "'publisher.liveperson.net'",
+        "ext-javascript-userConsent": false,
+        "$mscomCookies": false
+      },
+      "filter": "||microsoft.com/collect/",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://publisher.liveperson.net/iframe-le-tag/iframe.html?lpsite=60270350&lpsection=store-sales-es-es&buttons=lpChatService,lpChatSales",
+            "source": "requested from https://publisher.liveperson.net/iframe-le-tag/iframe.html?lpsite=60270350&lpsection=store-sales-es-es&buttons=lpChatService,lpChatSales and matched with easyprivacy.txt filter ||microsoft.com/collect/"
+          }
+        ],
+        "timestamp": "2021-05-20T14:46:23.857Z"
+      },
+      "occurrances": 2
+    },
+    {
+      "url": "https://az725175.vo.msecnd.net/scripts/jsll-4.js",
+      "query": null,
+      "filter": "||msecnd.net/scripts/jsll-",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://publisher.liveperson.net/iframe-le-tag/iframe.html?lpsite=60270350&lpsection=store-sales-es-es&buttons=lpChatService,lpChatSales",
+            "source": "requested from https://publisher.liveperson.net/iframe-le-tag/iframe.html?lpsite=60270350&lpsection=store-sales-es-es&buttons=lpChatService,lpChatSales and matched with easyprivacy.txt filter ||msecnd.net/scripts/jsll-"
+          }
+        ],
+        "timestamp": "2021-05-20T14:46:18.455Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://www.microsoft.com/onerfstatics/marketingsites-neu-prod/_h/859513b5/coreui.statics/images/social/instagram.svg",
+      "query": null,
+      "filter": "/images/social/*",
+      "listName": "fanboy-annoyance.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.microsoft.com/es-es/",
+            "source": "requested from https://www.microsoft.com/es-es/ and matched with fanboy-annoyance.txt filter /images/social/*"
+          }
+        ],
+        "timestamp": "2021-05-20T14:46:17.145Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://www.microsoft.com/onerfstatics/marketingsites-neu-prod/_h/2d505657/coreui.statics/images/social/youtube.svg",
+      "query": null,
+      "filter": "/images/social/*",
+      "listName": "fanboy-annoyance.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.microsoft.com/es-es/",
+            "source": "requested from https://www.microsoft.com/es-es/ and matched with fanboy-annoyance.txt filter /images/social/*"
+          }
+        ],
+        "timestamp": "2021-05-20T14:46:17.144Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://www.microsoft.com/onerfstatics/marketingsites-neu-prod/_h/413bd4a8/coreui.statics/images/social/linkedin.svg",
+      "query": null,
+      "filter": "/images/social/*",
+      "listName": "fanboy-annoyance.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.microsoft.com/es-es/",
+            "source": "requested from https://www.microsoft.com/es-es/ and matched with fanboy-annoyance.txt filter /images/social/*"
+          }
+        ],
+        "timestamp": "2021-05-20T14:46:17.144Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://www.microsoft.com/onerfstatics/marketingsites-neu-prod/_h/6f40299c/coreui.statics/images/social/twitter.svg",
+      "query": null,
+      "filter": "/images/social/*",
+      "listName": "fanboy-annoyance.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.microsoft.com/es-es/",
+            "source": "requested from https://www.microsoft.com/es-es/ and matched with fanboy-annoyance.txt filter /images/social/*"
+          }
+        ],
+        "timestamp": "2021-05-20T14:46:17.143Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://www.microsoft.com/onerfstatics/marketingsites-neu-prod/_h/2532198d/coreui.statics/images/social/facebook.svg",
+      "query": null,
+      "filter": "/images/social/*",
+      "listName": "fanboy-annoyance.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.microsoft.com/es-es/",
+            "source": "requested from https://www.microsoft.com/es-es/ and matched with fanboy-annoyance.txt filter /images/social/*"
+          }
+        ],
+        "timestamp": "2021-05-20T14:46:17.141Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://wcpstatic.microsoft.com/mscc/lib/v2/wcp-consent.js",
+      "query": null,
+      "filter": "||microsoft.com/mscc/",
+      "listName": "fanboy-annoyance.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.microsoft.com/es-es/",
+            "source": "requested from https://www.microsoft.com/es-es/ and matched with fanboy-annoyance.txt filter ||microsoft.com/mscc/"
+          }
+        ],
+        "timestamp": "2021-05-20T14:46:17.135Z"
+      },
+      "occurrances": 1
+    }
+  ],
+  "hosts": {
+    "requests": {
+      "firstParty": [
+        "microsoft.com"
+      ],
+      "thirdParty": [
+        "www.microsoft.com",
+        "wcpstatic.microsoft.com",
+        "mem.gfx.ms",
+        "img-prod-cms-rt-microsoft-com.akamaized.net",
+        "c.s-microsoft.com",
+        "publisher.liveperson.net",
+        "web.vortex.data.microsoft.com",
+        "az725175.vo.msecnd.net",
+        "lptag.liveperson.net",
+        "accdn.lpsnmedia.net",
+        "static-assets.fs.liveperson.com",
+        "lpcdn.lpsnmedia.net",
+        "login.live.com",
+        "logincdn.msauth.net",
+        "va.v.liveperson.net"
+      ]
+    },
+    "beacons": {
+      "firstParty": [],
+      "thirdParty": [
+        "web.vortex.data.microsoft.com",
+        "az725175.vo.msecnd.net"
+      ]
+    },
+    "cookies": {
+      "firstParty": [
+        "microsoft.com"
+      ],
+      "thirdParty": [
+        "va.v.liveperson.net",
+        "www.microsoft.com",
+        "login.live.com",
+        "liveperson.net",
+        "publisher.liveperson.net"
+      ]
+    },
+    "localStorage": {
+      "firstParty": [],
+      "thirdParty": [
+        "publisher.liveperson.net"
+      ]
+    },
+    "links": {
+      "firstParty": [],
+      "thirdParty": [
+        "www.microsoft.com",
+        "go.microsoft.com",
+        "www.xbox.com",
+        "support.microsoft.com",
+        "onedrive.live.com",
+        "outlook.live.com",
+        "www.skype.com",
+        "www.onenote.com",
+        "azure.microsoft.com",
+        "powerplatform.microsoft.com",
+        "visualstudio.microsoft.com",
+        "developer.microsoft.com",
+        "docs.microsoft.com",
+        "powerapps.microsoft.com",
+        "pulse.microsoft.com",
+        "www.facebook.com",
+        "twitter.com",
+        "www.linkedin.com",
+        "www.youtube.com",
+        "www.instagram.com",
+        "account.microsoft.com",
+        "products.office.com",
+        "channel9.msdn.com",
+        "careers.microsoft.com",
+        "news.microsoft.com",
+        "privacy.microsoft.com",
+        "choice.microsoft.com"
+      ]
+    }
+  }
+}

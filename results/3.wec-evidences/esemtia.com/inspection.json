@@ -1,0 +1,781 @@
+{
+  "title": "Website Evidence Collection",
+  "task_description": null,
+  "uri_ins": "https://esemtia.com",
+  "uri_refs": [
+    "https://esemtia.com"
+  ],
+  "uri_dest": "https://esemtia.com/",
+  "uri_redirects": [],
+  "secure_connection": {
+    "https_support": true,
+    "redirects": [
+      "https://esemtia.com/"
+    ],
+    "https_redirect": true
+  },
+  "host": "esemtia.com",
+  "script": {
+    "host": "sfod",
+    "version": {
+      "npm": "1.0.0",
+      "commit": null
+    },
+    "cmd_args": "-q --overwrite https://esemtia.com -- --ignore-certificate-errors",
+    "environment": {
+      "CHROME_DESKTOP": "code-url-handler.desktop"
+    },
+    "node_version": "v14.17.0"
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "HeadlessChrome/80.0.3987.0",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3617.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "5.8.0-53-generic"
+    },
+    "extra_headers": {},
+    "preset_cookies": {}
+  },
+  "start_time": "2021-05-20T16:29:42.190Z",
+  "end_time": "2021-05-20T16:29:49.731Z",
+  "links": {
+    "firstParty": [
+      {
+        "href": "https://esemtia.com/",
+        "inner_text": "Saltar al contenido",
+        "inner_html": "Saltar al contenido"
+      },
+      {
+        "href": "https://esemtia.com/soluciones/",
+        "inner_text": "SOLUCIONES",
+        "inner_html": "Soluciones <i class=\"fas fa-angle-down\"></i>"
+      },
+      {
+        "href": "https://esemtia.com/soluciones/esemtia-school/",
+        "inner_text": "",
+        "inner_html": "Esemtia | School"
+      },
+      {
+        "href": "https://esemtia.com/soluciones/esemtia-enfant/",
+        "inner_text": "",
+        "inner_html": "Esemtia | Enfant"
+      },
+      {
+        "href": "https://esemtia.com/soluciones/esemtia-fp/",
+        "inner_text": "",
+        "inner_html": "Esemtia | FP"
+      },
+      {
+        "href": "https://esemtia.com/conocenos/",
+        "inner_text": "CONÓCENOS",
+        "inner_html": "Conócenos"
+      },
+      {
+        "href": "https://esemtia.com/contactanos/",
+        "inner_text": "CONTÁCTANOS",
+        "inner_html": "Contáctanos"
+      },
+      {
+        "href": "https://esemtia.com/blog/",
+        "inner_text": "BLOG",
+        "inner_html": "Blog"
+      },
+      {
+        "href": "https://esemtia.com/ca",
+        "inner_text": "",
+        "inner_html": "Catalá"
+      },
+      {
+        "href": "https://esemtia.com/en",
+        "inner_text": "",
+        "inner_html": "English"
+      },
+      {
+        "href": "https://esemtia.com/pt-pt",
+        "inner_text": "",
+        "inner_html": "Português"
+      },
+      {
+        "href": "https://esemtia.com/politica-de-privacidad/",
+        "inner_text": "condiciones del servicio",
+        "inner_html": "condiciones del servicio"
+      },
+      {
+        "href": "https://esemtia.com/politica-de-cookies/",
+        "inner_text": "Política de cookies",
+        "inner_html": "Política de cookies"
+      }
+    ],
+    "thirdParty": [
+      {
+        "href": "https://edu.esemtia.com/",
+        "inner_text": "",
+        "inner_html": "Acceso esemtia | school"
+      },
+      {
+        "href": "https://enfant.esemtia.com/LoginEnfant.aspx",
+        "inner_text": "",
+        "inner_html": "Acceso esemtia | enfant"
+      }
+    ],
+    "social": [],
+    "keywords": [
+      {
+        "href": "https://enfant.esemtia.com/LoginEnfant.aspx",
+        "inner_text": "",
+        "inner_html": "Acceso esemtia | enfant"
+      }
+    ]
+  },
+  "unsafeForms": [],
+  "browsing_history": [
+    "https://esemtia.com/"
+  ],
+  "websockets": {},
+  "cookies": [
+    {
+      "name": "CONSENT",
+      "value": "PENDING+455",
+      "domain": "youtube-nocookie.com",
+      "path": "/",
+      "expires": 2145916800.63696,
+      "size": 18,
+      "httpOnly": false,
+      "secure": true,
+      "session": false,
+      "expiresUTC": "2038-01-01T00:00:00.636Z",
+      "expiresDays": 6069.31,
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.youtube-nocookie.com/embed/AWeTcz3Ugx4?autoplay=1&feature=oembed&autoplay=1&playsinline=1&start&end&wmode=opaque&loop=0&controls=1&mute=1&rel=0&modestbranding=1",
+            "source": "set in Set-Cookie HTTP response header for https://www.youtube-nocookie.com/embed/AWeTcz3Ugx4?autoplay=1&feature=oembed&autoplay=1&playsinline=1&start&end&wmode=opaque&loop=0&controls=1&mute=1&rel=0&modestbranding=1"
+          }
+        ],
+        "type": "Cookie.HTTP",
+        "timestamp": "2021-05-20T16:29:48.639Z",
+        "location": "https://esemtia.com/"
+      },
+      "firstPartyStorage": false
+    },
+    {
+      "name": "_ga",
+      "value": "GA1.2.550222191.1621528184",
+      "domain": "esemtia.com",
+      "path": "/",
+      "expires": 1684600183,
+      "size": 29,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2023-05-20T16:29:43.000Z",
+      "expiresDays": 730,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 495,
+            "lineNumber": 30,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "zc",
+            "source": "    at zc (https://www.google-analytics.com/analytics.js:30:495)"
+          },
+          {
+            "columnNumber": 15,
+            "lineNumber": 60,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "ma",
+            "source": "    at ma (https://www.google-analytics.com/analytics.js:60:15)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T16:29:43.631Z",
+        "location": "https://esemtia.com/"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "cookielawinfo-checkbox-necessary",
+      "value": "yes",
+      "domain": "esemtia.com",
+      "path": "/",
+      "expires": 1653064183,
+      "size": 35,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2022-05-20T16:29:43.000Z",
+      "expiresDays": 365,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 205,
+            "lineNumber": 2,
+            "fileName": "https://esemtia.com/wp-content/cache/minify/5ff2c.js",
+            "functionName": "Object.set",
+            "source": "    at Object.set (https://esemtia.com/wp-content/cache/minify/5ff2c.js:2:205)"
+          },
+          {
+            "columnNumber": 13,
+            "lineNumber": 37,
+            "fileName": "https://esemtia.com/wp-content/cache/minify/5ff2c.js",
+            "functionName": "HTMLInputElement.<anonymous>",
+            "source": "    at HTMLInputElement.<anonymous> (https://esemtia.com/wp-content/cache/minify/5ff2c.js:37:13)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T16:29:43.280Z",
+        "location": "https://esemtia.com/"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "cookielawinfo-checkbox-advertisement",
+      "value": "no",
+      "domain": "esemtia.com",
+      "path": "/",
+      "expires": 1653064183,
+      "size": 38,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2022-05-20T16:29:43.000Z",
+      "expiresDays": 365,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 205,
+            "lineNumber": 2,
+            "fileName": "https://esemtia.com/wp-content/cache/minify/5ff2c.js",
+            "functionName": "Object.set",
+            "source": "    at Object.set (https://esemtia.com/wp-content/cache/minify/5ff2c.js:2:205)"
+          },
+          {
+            "columnNumber": 13,
+            "lineNumber": 38,
+            "fileName": "https://esemtia.com/wp-content/cache/minify/5ff2c.js",
+            "functionName": "HTMLInputElement.<anonymous>",
+            "source": "    at HTMLInputElement.<anonymous> (https://esemtia.com/wp-content/cache/minify/5ff2c.js:38:13)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T16:29:43.281Z",
+        "location": "https://esemtia.com/"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "cookielawinfo-checkbox-analytics",
+      "value": "no",
+      "domain": "esemtia.com",
+      "path": "/",
+      "expires": 1653064183,
+      "size": 34,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2022-05-20T16:29:43.000Z",
+      "expiresDays": 365,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 205,
+            "lineNumber": 2,
+            "fileName": "https://esemtia.com/wp-content/cache/minify/5ff2c.js",
+            "functionName": "Object.set",
+            "source": "    at Object.set (https://esemtia.com/wp-content/cache/minify/5ff2c.js:2:205)"
+          },
+          {
+            "columnNumber": 13,
+            "lineNumber": 38,
+            "fileName": "https://esemtia.com/wp-content/cache/minify/5ff2c.js",
+            "functionName": "HTMLInputElement.<anonymous>",
+            "source": "    at HTMLInputElement.<anonymous> (https://esemtia.com/wp-content/cache/minify/5ff2c.js:38:13)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T16:29:43.282Z",
+        "location": "https://esemtia.com/"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "cookielawinfo-checkbox-non-necessary",
+      "value": "no",
+      "domain": "esemtia.com",
+      "path": "/",
+      "expires": 1653064183,
+      "size": 38,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2022-05-20T16:29:43.000Z",
+      "expiresDays": 365,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 205,
+            "lineNumber": 2,
+            "fileName": "https://esemtia.com/wp-content/cache/minify/5ff2c.js",
+            "functionName": "Object.set",
+            "source": "    at Object.set (https://esemtia.com/wp-content/cache/minify/5ff2c.js:2:205)"
+          },
+          {
+            "columnNumber": 13,
+            "lineNumber": 38,
+            "fileName": "https://esemtia.com/wp-content/cache/minify/5ff2c.js",
+            "functionName": "HTMLInputElement.<anonymous>",
+            "source": "    at HTMLInputElement.<anonymous> (https://esemtia.com/wp-content/cache/minify/5ff2c.js:38:13)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T16:29:43.283Z",
+        "location": "https://esemtia.com/"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "_GRECAPTCHA",
+      "value": "09ANblmnhxkCivA73ReWxuPJKCX-_X05DzsFpKTs1SKLFKsml_8nLQU8ximWIU6-YlJ-Qvh5D8eLEeDE48_n3Su34",
+      "domain": "google.com",
+      "path": "/recaptcha",
+      "expires": 1637080184.010205,
+      "size": 100,
+      "httpOnly": true,
+      "secure": true,
+      "session": false,
+      "sameSite": "None",
+      "expiresUTC": "2021-11-16T16:29:44.010Z",
+      "expiresDays": 180,
+      "firstPartyStorage": false
+    },
+    {
+      "name": "_gcl_au",
+      "value": "1.1.1055832122.1621528183",
+      "domain": "esemtia.com",
+      "path": "/",
+      "expires": 1629304183,
+      "size": 32,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2021-08-18T16:29:43.000Z",
+      "expiresDays": 90,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 1258,
+            "lineNumber": 295,
+            "fileName": "https://www.googletagmanager.com/gtm.js?id=GTM-MVFHDDZ",
+            "functionName": "Ef",
+            "source": "    at Ef (https://www.googletagmanager.com/gtm.js?id=GTM-MVFHDDZ:295:1258)"
+          },
+          {
+            "columnNumber": 179,
+            "lineNumber": 297,
+            "fileName": "https://www.googletagmanager.com/gtm.js?id=GTM-MVFHDDZ",
+            "functionName": "If",
+            "source": "    at If (https://www.googletagmanager.com/gtm.js?id=GTM-MVFHDDZ:297:179)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T16:29:43.335Z",
+        "location": "https://esemtia.com/"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "mdMNUaIYFeDQ",
+      "value": "%40tzjS.0AU%2AsR",
+      "domain": "esemtia.com",
+      "path": "/",
+      "expires": 1621614584.001846,
+      "size": 28,
+      "httpOnly": false,
+      "secure": true,
+      "session": false,
+      "expiresUTC": "2021-05-21T16:29:44.001Z",
+      "expiresDays": 1,
+      "firstPartyStorage": true
+    },
+    {
+      "name": "ixEUlNsa-gyCk",
+      "value": "gG6THKtilFEIU",
+      "domain": "esemtia.com",
+      "path": "/",
+      "expires": 1621614584.001833,
+      "size": 26,
+      "httpOnly": false,
+      "secure": true,
+      "session": false,
+      "expiresUTC": "2021-05-21T16:29:44.001Z",
+      "expiresDays": 1,
+      "firstPartyStorage": true
+    },
+    {
+      "name": "tmjrhyREv",
+      "value": "Rj%40YGB6Zc",
+      "domain": "esemtia.com",
+      "path": "/",
+      "expires": 1621614584.001816,
+      "size": 20,
+      "httpOnly": false,
+      "secure": true,
+      "session": false,
+      "expiresUTC": "2021-05-21T16:29:44.001Z",
+      "expiresDays": 1,
+      "firstPartyStorage": true
+    },
+    {
+      "name": "BidR-hITksqO",
+      "value": "tkS2XvOu%40n%5B3",
+      "domain": "esemtia.com",
+      "path": "/",
+      "expires": 1621614584.001754,
+      "size": 28,
+      "httpOnly": false,
+      "secure": true,
+      "session": false,
+      "expiresUTC": "2021-05-21T16:29:44.001Z",
+      "expiresDays": 1,
+      "firstPartyStorage": true
+    },
+    {
+      "name": "_gid",
+      "value": "GA1.2.858481290.1621528184",
+      "domain": "esemtia.com",
+      "path": "/",
+      "expires": 1621614583,
+      "size": 30,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2021-05-21T16:29:43.000Z",
+      "expiresDays": 1,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 495,
+            "lineNumber": 30,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "zc",
+            "source": "    at zc (https://www.google-analytics.com/analytics.js:30:495)"
+          },
+          {
+            "columnNumber": 401,
+            "lineNumber": 59,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "ma",
+            "source": "    at ma (https://www.google-analytics.com/analytics.js:59:401)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T16:29:43.633Z",
+        "location": "https://esemtia.com/"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "_gat_UA-130953482-7",
+      "value": "1",
+      "domain": "esemtia.com",
+      "path": "/",
+      "expires": 1621528243,
+      "size": 20,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2021-05-20T16:30:43.000Z",
+      "expiresDays": 0,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 495,
+            "lineNumber": 30,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "zc",
+            "source": "    at zc (https://www.google-analytics.com/analytics.js:30:495)"
+          },
+          {
+            "columnNumber": 31,
+            "lineNumber": 73,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "Qd",
+            "source": "    at Qd (https://www.google-analytics.com/analytics.js:73:31)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T16:29:43.634Z",
+        "location": "https://esemtia.com/"
+      },
+      "firstPartyStorage": true
+    }
+  ],
+  "localStorage": {
+    "https://esemtia.com": {
+      "elementor": {
+        "value": {
+          "__expiration": {},
+          "pageViews": 1,
+          "sessions": 1
+        },
+        "firstPartyStorage": [
+          "esemtia.com",
+          "esemtia.com"
+        ],
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 51126,
+              "lineNumber": 2,
+              "fileName": "https://esemtia.com/wp-content/cache/minify/9f110.js",
+              "functionName": "_default.save",
+              "source": "    at _default.save (https://esemtia.com/wp-content/cache/minify/9f110.js:2:51126)"
+            },
+            {
+              "columnNumber": 51009,
+              "lineNumber": 2,
+              "fileName": "https://esemtia.com/wp-content/cache/minify/9f110.js",
+              "functionName": "_default.set",
+              "source": "    at _default.set (https://esemtia.com/wp-content/cache/minify/9f110.js:2:51009)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T16:29:43.287Z",
+          "location": "https://esemtia.com/"
+        }
+      },
+      "_grecaptcha": {
+        "value": "09ANblmniuXwlyQefCJDbIqIhL86zeKxLwFiDijgkffUXiz6Uw_xrLqC9FDj2jWZdYWeEZepbuxt9i5nF6DIXhTnM",
+        "firstPartyStorage": [
+          "esemtia.com",
+          "esemtia.com"
+        ],
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 182,
+              "lineNumber": 358,
+              "fileName": "https://www.gstatic.com/recaptcha/releases/eWmgPeIYKJsH2R2FrgakEIkq/recaptcha__en.js",
+              "functionName": "Array.<anonymous>",
+              "source": "    at Array.<anonymous> (https://www.gstatic.com/recaptcha/releases/eWmgPeIYKJsH2R2FrgakEIkq/recaptcha__en.js:358:182)"
+            },
+            {
+              "columnNumber": 417,
+              "lineNumber": 675,
+              "fileName": "https://www.gstatic.com/recaptcha/releases/eWmgPeIYKJsH2R2FrgakEIkq/recaptcha__en.js",
+              "functionName": "i8.$.i8.O",
+              "source": "    at i8.$.i8.O (https://www.gstatic.com/recaptcha/releases/eWmgPeIYKJsH2R2FrgakEIkq/recaptcha__en.js:675:417)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T16:29:44.039Z",
+          "location": "https://esemtia.com/"
+        }
+      }
+    },
+    "https://www.google.com": {
+      "rc::a": {
+        "value": "MWtndWR2NWRyN2oxNQ==",
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 182,
+              "lineNumber": 358,
+              "fileName": "https://www.gstatic.com/recaptcha/releases/eWmgPeIYKJsH2R2FrgakEIkq/recaptcha__en.js",
+              "functionName": "Array.<anonymous>",
+              "source": "    at Array.<anonymous> (https://www.gstatic.com/recaptcha/releases/eWmgPeIYKJsH2R2FrgakEIkq/recaptcha__en.js:358:182)"
+            },
+            {
+              "columnNumber": 281,
+              "lineNumber": 264,
+              "fileName": "https://www.gstatic.com/recaptcha/releases/eWmgPeIYKJsH2R2FrgakEIkq/recaptcha__en.js",
+              "functionName": "Kb.<anonymous>",
+              "source": "    at Kb.<anonymous> (https://www.gstatic.com/recaptcha/releases/eWmgPeIYKJsH2R2FrgakEIkq/recaptcha__en.js:264:281)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T16:29:43.696Z",
+          "location": "https://esemtia.com"
+        }
+      }
+    }
+  },
+  "beacons": [
+    {
+      "url": "https://stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j90&tid=UA-130953482-7&cid=550222191.1621528184&jid=993091232&gjid=854965162&_gid=858481290.1621528184&_u=YEBAAEAAAAAAAC~&z=567330128",
+      "query": {
+        "t": "dc",
+        "aip": 1,
+        "_r": 3,
+        "v": 1,
+        "_v": "j90",
+        "tid": "UA-130953482-7",
+        "cid": 550222191.1621528,
+        "jid": 993091232,
+        "gjid": 854965162,
+        "_gid": 858481290.1621528,
+        "_u": "YEBAAEAAAAAAAC~",
+        "z": 567330128
+      },
+      "filter": "||stats.g.doubleclick.net^",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://esemtia.com/",
+            "source": "requested from https://esemtia.com/ and matched with easyprivacy.txt filter ||stats.g.doubleclick.net^"
+          }
+        ],
+        "timestamp": "2021-05-20T16:29:43.741Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://www.google-analytics.com/j/collect?v=1&_v=j90&a=1558537629&t=pageview&_s=1&dl=https%3A%2F%2Fesemtia.com%2F&ul=en-us&de=UTF-8&dt=esemtia%20-%20grupo%20edeb%C3%A9%20%7C%20Soluciones%20para%20la%20gesti%C3%B3n%20de%20escuelas%20infantiles%2C%20colegios%20y%20centros%20de%20F.P&sd=24-bit&sr=1680x927&vp=1680x927&je=0&_u=YEBAAEABAAAAAC~&jid=993091232&gjid=854965162&cid=550222191.1621528184&tid=UA-130953482-7&_gid=858481290.1621528184&_r=1&gtm=2wg5c1MVFHDDZ&z=657332541",
+      "query": {
+        "v": 1,
+        "_v": "j90",
+        "a": 1558537629,
+        "t": "pageview",
+        "_s": 1,
+        "dl": "https://esemtia.com/",
+        "ul": "en-us",
+        "de": "UTF-8",
+        "dt": "esemtia - grupo edebé | Soluciones para la gestión de escuelas infantiles, colegios y centros de F.P",
+        "sd": "24-bit",
+        "sr": "1680x927",
+        "vp": "1680x927",
+        "je": 0,
+        "_u": "YEBAAEABAAAAAC~",
+        "jid": 993091232,
+        "gjid": 854965162,
+        "cid": 550222191.1621528,
+        "tid": "UA-130953482-7",
+        "_gid": 858481290.1621528,
+        "_r": 1,
+        "gtm": "2wg5c1MVFHDDZ",
+        "z": 657332541
+      },
+      "filter": "/collect?*&cid=",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://esemtia.com/",
+            "source": "requested from https://esemtia.com/ and matched with easyprivacy.txt filter /collect?*&cid="
+          }
+        ],
+        "timestamp": "2021-05-20T16:29:43.641Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://www.google-analytics.com/analytics.js",
+      "query": null,
+      "filter": "||google-analytics.com/analytics.js",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://esemtia.com/",
+            "source": "requested from https://esemtia.com/ and matched with easyprivacy.txt filter ||google-analytics.com/analytics.js"
+          }
+        ],
+        "timestamp": "2021-05-20T16:29:43.337Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://esemtia.com/wp-content/plugins/rocket-lazy-load/assets/img/youtube.png",
+      "query": null,
+      "filter": "/wp-content/*youtube.png",
+      "listName": "fanboy-annoyance.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://esemtia.com/",
+            "source": "requested from https://esemtia.com/ and matched with fanboy-annoyance.txt filter /wp-content/*youtube.png"
+          }
+        ],
+        "timestamp": "2021-05-20T16:29:43.289Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://www.googletagmanager.com/gtm.js?id=GTM-MVFHDDZ",
+      "query": {
+        "id": "GTM-MVFHDDZ"
+      },
+      "filter": "/gtm.js",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://esemtia.com/",
+            "source": "requested from https://esemtia.com/ and matched with easyprivacy.txt filter /gtm.js"
+          }
+        ],
+        "timestamp": "2021-05-20T16:29:42.619Z"
+      },
+      "occurrances": 1
+    }
+  ],
+  "hosts": {
+    "requests": {
+      "firstParty": [
+        "esemtia.com"
+      ],
+      "thirdParty": [
+        "cdn.jsdelivr.net",
+        "use.fontawesome.com",
+        "fonts.googleapis.com",
+        "www.google.com",
+        "www.googletagmanager.com",
+        "fonts.gstatic.com",
+        "www.gstatic.com",
+        "i.ytimg.com",
+        "www.google-analytics.com",
+        "stats.g.doubleclick.net",
+        "www.youtube-nocookie.com",
+        "yt3.ggpht.com"
+      ]
+    },
+    "beacons": {
+      "firstParty": [],
+      "thirdParty": [
+        "stats.g.doubleclick.net",
+        "www.google-analytics.com",
+        "www.googletagmanager.com"
+      ]
+    },
+    "cookies": {
+      "firstParty": [
+        "esemtia.com"
+      ],
+      "thirdParty": [
+        "google.com",
+        "youtube-nocookie.com"
+      ]
+    },
+    "localStorage": {
+      "firstParty": [
+        "esemtia.com"
+      ],
+      "thirdParty": [
+        "www.google.com"
+      ]
+    },
+    "links": {
+      "firstParty": [
+        "esemtia.com"
+      ],
+      "thirdParty": [
+        "edu.esemtia.com",
+        "enfant.esemtia.com"
+      ]
+    }
+  }
+}

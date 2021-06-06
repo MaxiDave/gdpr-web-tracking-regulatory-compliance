@@ -1,0 +1,722 @@
+{
+  "title": "Website Evidence Collection",
+  "task_description": null,
+  "uri_ins": "https://liveworksheets.com",
+  "uri_refs": [
+    "https://liveworksheets.com"
+  ],
+  "uri_dest": "https://www.liveworksheets.com/",
+  "uri_redirects": [
+    "https://liveworksheets.com/",
+    "http://www.liveworksheets.com/"
+  ],
+  "secure_connection": {
+    "https_support": true,
+    "redirects": [
+      "https://liveworksheets.com/",
+      "http://www.liveworksheets.com/",
+      "https://www.liveworksheets.com/"
+    ],
+    "https_redirect": true
+  },
+  "host": "liveworksheets.com",
+  "script": {
+    "host": "sfod",
+    "version": {
+      "npm": "1.0.0",
+      "commit": null
+    },
+    "cmd_args": "-q --overwrite https://liveworksheets.com -- --ignore-certificate-errors",
+    "environment": {
+      "CHROME_DESKTOP": "code-url-handler.desktop"
+    },
+    "node_version": "v14.17.0"
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "HeadlessChrome/80.0.3987.0",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3617.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "5.8.0-53-generic"
+    },
+    "extra_headers": {},
+    "preset_cookies": {}
+  },
+  "start_time": "2021-05-20T15:52:31.736Z",
+  "end_time": "2021-05-20T15:52:40.602Z",
+  "links": {
+    "firstParty": [],
+    "thirdParty": [
+      {
+        "href": "https://www.liveworksheets.com/",
+        "inner_text": "",
+        "inner_html": "<img id=\"wswo\" class=\"qwertyuiopasdfghjklzxcvbnm\" alt=\"Live Worksheets\" src=\"https://files.liveworksheets.com/images/logomayusculasblanco.png\" border=\"0\" width=\"300\">"
+      },
+      {
+        "href": "https://es.liveworksheets.com/",
+        "inner_text": "Español",
+        "inner_html": "Español"
+      },
+      {
+        "href": "https://www.liveworksheets.com/aboutthis_en.asp",
+        "inner_text": "About this site",
+        "inner_html": "About this site"
+      },
+      {
+        "href": "https://www.liveworksheets.com/worksheets/en",
+        "inner_text": "Interactive worksheets",
+        "inner_html": "Interactive worksheets"
+      },
+      {
+        "href": "https://www.liveworksheets.com/lwsmaker/gettingstarted.asp",
+        "inner_text": "Tutorial",
+        "inner_html": "Tutorial"
+      },
+      {
+        "href": "https://youtu.be/V5AM_qToJyc",
+        "inner_text": "Video tutorial",
+        "inner_html": "Video tutorial"
+      },
+      {
+        "href": "https://www.liveworksheets.com/lwsmaker/index.asp",
+        "inner_text": "Get started",
+        "inner_html": "Get started"
+      },
+      {
+        "href": "https://youtu.be/yQYNnSvqM24",
+        "inner_text": "Video tutorial",
+        "inner_html": "Video tutorial"
+      },
+      {
+        "href": "https://www.liveworksheets.com/help/",
+        "inner_text": "Help",
+        "inner_html": "Help"
+      },
+      {
+        "href": "https://www.liveworksheets.com/workbooks",
+        "inner_text": "Students access",
+        "inner_html": "Students access"
+      },
+      {
+        "href": "https://www.liveworksheets.com/register/register.asp",
+        "inner_text": "Register",
+        "inner_html": "Register"
+      },
+      {
+        "href": "https://www.liveworksheets.com/myaccount/forgotmypassword.asp",
+        "inner_text": "Forgot my password",
+        "inner_html": "Forgot my password"
+      },
+      {
+        "href": "https://facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww%2Eliveworksheets%2Ecom",
+        "inner_text": "Share on Facebook",
+        "inner_html": "<div class=\"resp-sharing-button resp-sharing-button--facebook resp-sharing-button--large\"><div aria-hidden=\"true\" class=\"resp-sharing-button__icon resp-sharing-button__icon--solid\">\n\t\t\t<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M18.77 7.46H14.5v-1.9c0-.9.6-1.1 1-1.1h3V.5h-4.33C10.24.5 9.5 3.44 9.5 5.32v2.15h-3v4h3v12h5v-12h3.85l.42-4z\"></path></svg>\n\t\t\t</div>Share on Facebook</div>"
+      },
+      {
+        "href": "https://twitter.com/intent/tweet/?text=Liveworksheets+transforms+your+traditional+printable+worksheets+into+self%2Dcorrecting+interactive+exercises+that+the+students+can+do+online+and+send+to+the+teacher%2E&url=https%3A%2F%2Fwww%2Eliveworksheets%2Ecom",
+        "inner_text": "Share on Twitter",
+        "inner_html": "<div class=\"resp-sharing-button resp-sharing-button--twitter resp-sharing-button--large\"><div aria-hidden=\"true\" class=\"resp-sharing-button__icon resp-sharing-button__icon--solid\">\n\t\t\t<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M23.44 4.83c-.8.37-1.5.38-2.22.02.93-.56.98-.96 1.32-2.02-.88.52-1.86.9-2.9 1.1-.82-.88-2-1.43-3.3-1.43-2.5 0-4.55 2.04-4.55 4.54 0 .36.03.7.1 1.04-3.77-.2-7.12-2-9.36-4.75-.4.67-.6 1.45-.6 2.3 0 1.56.8 2.95 2 3.77-.74-.03-1.44-.23-2.05-.57v.06c0 2.2 1.56 4.03 3.64 4.44-.67.2-1.37.2-2.06.08.58 1.8 2.26 3.12 4.25 3.16C5.78 18.1 3.37 18.74 1 18.46c2 1.3 4.4 2.04 6.97 2.04 8.35 0 12.92-6.92 12.92-12.93 0-.2 0-.4-.02-.6.9-.63 1.96-1.22 2.56-2.14z\"></path></svg>\n\t\t\t</div>Share on Twitter</div>"
+      },
+      {
+        "href": "https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fwww%2Eliveworksheets%2Ecom&media=https%3A%2F%2Fwww%2Eliveworksheets%2Ecom%2Fimages%2Flogomayusculasblanco%2Epng;description=Liveworksheets+transforms+your+traditional+printable+worksheets+into+self%2Dcorrecting+interactive+exercises+that+the+students+can+do+online+and+send+to+the+teacher%2E",
+        "inner_text": "Share on Pinterest",
+        "inner_html": "<div class=\"resp-sharing-button resp-sharing-button--pinterest resp-sharing-button--large\"><div aria-hidden=\"true\" class=\"resp-sharing-button__icon resp-sharing-button__icon--solid\">\n\t\t\t<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M12.14.5C5.86.5 2.7 5 2.7 8.75c0 2.27.86 4.3 2.7 5.05.3.12.57 0 .66-.33l.27-1.06c.1-.32.06-.44-.2-.73-.52-.62-.86-1.44-.86-2.6 0-3.33 2.5-6.32 6.5-6.32 3.55 0 5.5 2.17 5.5 5.07 0 3.8-1.7 7.02-4.2 7.02-1.37 0-2.4-1.14-2.07-2.54.4-1.68 1.16-3.48 1.16-4.7 0-1.07-.58-1.98-1.78-1.98-1.4 0-2.55 1.47-2.55 3.42 0 1.25.43 2.1.43 2.1l-1.7 7.2c-.5 2.13-.08 4.75-.04 5 .02.17.22.2.3.1.14-.18 1.82-2.26 2.4-4.33.16-.58.93-3.63.93-3.63.45.88 1.8 1.65 3.22 1.65 4.25 0 7.13-3.87 7.13-9.05C20.5 4.15 17.18.5 12.14.5z\"></path></svg>\n\t\t\t</div>Share on Pinterest</div>"
+      },
+      {
+        "href": "https://www.liveworksheets.com/index.asp?q=yesterday",
+        "inner_text": "Most popular yesterday",
+        "inner_html": "Most popular yesterday"
+      },
+      {
+        "href": "https://www.liveworksheets.com/index.asp?q=lastweek",
+        "inner_text": "Most popular this week",
+        "inner_html": "Most popular this week"
+      },
+      {
+        "href": "https://www.liveworksheets.com/index.asp?q=following",
+        "inner_text": "Following",
+        "inner_html": "Following"
+      },
+      {
+        "href": "https://www.liveworksheets.com/worksheets/es/Lengua_Castellana/Pronombres_personales/Pronombres_personales_nm1927245hi",
+        "inner_text": "",
+        "inner_html": "<div class=\"worksheetpreview\" style=\"height:340px;width:240px;overflow:hidden\">\n\t\t\t\t\t\t\t\t\t\t\t<img src=\"https://files.liveworksheets.com/def_files/2021/5/20/10520154736365864/thumb10520154736365864.jpg\" border=\"0\" alt=\"Interactive worksheet Pronombres personales\" title=\"Pronombres personales\rLanguage: \rGrade/level: 2º\rSchool subject: Lengua Castellana\rMain content: Pronombres personales\rOther contents: gramática\">\n\t\t\t\t\t\t\t\t\t\t\t</div>"
+      },
+      {
+        "href": "https://www.liveworksheets.com/worksheets/en/English_language/Reading_comprehension/KET_-_CUP_1_-_Test_3_-_Part_4_py1927244zk",
+        "inner_text": "",
+        "inner_html": "<div class=\"worksheetpreview\" style=\"height:340px;width:240px;overflow:hidden\">\n\t\t\t\t\t\t\t\t\t\t\t<img src=\"https://files.liveworksheets.com/def_files/2021/5/20/10520155118666536/thumb10520155118666536.jpg\" border=\"0\" alt=\"Interactive worksheet KET - CUP 1 - Test 3 - Part 4\" title=\"KET - CUP 1 - Test 3 - Part 4\rLanguage: \rGrade/level: 9\rSchool subject: English language\rMain content: Reading comprehension\rOther contents: \">\n\t\t\t\t\t\t\t\t\t\t\t</div>"
+      },
+      {
+        "href": "https://www.liveworksheets.com/worksheets/en/English_as_a_Second_Language_(ESL)/Vocabulary/Space_travel_px1927243ei",
+        "inner_text": "",
+        "inner_html": "<div class=\"worksheetpreview\" style=\"height:340px;width:240px;overflow:hidden\">\n\t\t\t\t\t\t\t\t\t\t\t<img src=\"https://files.liveworksheets.com/def_files/2021/5/20/10520154459277604/thumb10520154459277604.jpg\" border=\"0\" alt=\"Interactive worksheet Space travel\" title=\"Space travel\rLanguage: \rGrade/level: 4TH PRIMARY\rSchool subject: English as a Second Language (ESL)\rMain content: Vocabulary\rOther contents: \">\n\t\t\t\t\t\t\t\t\t\t\t</div>"
+      },
+      {
+        "href": "https://www.liveworksheets.com/worksheets/es/Lectoescritura/Conciencia_fonol%C3%B3gica/Letra_K_1_mo1927242dk",
+        "inner_text": "",
+        "inner_html": "<div class=\"worksheetpreview\" style=\"height:340px;width:240px;overflow:hidden\">\n\t\t\t\t\t\t\t\t\t\t\t<img src=\"https://files.liveworksheets.com/def_files/2021/5/20/10520154411277693/thumb10520154411277693.jpg\" border=\"0\" alt=\"Interactive worksheet Letra K 1\" title=\"Letra K 1\rLanguage: \rGrade/level: Infantil\rSchool subject: Lectoescritura\rMain content: Conciencia fonológica\rOther contents: \">\n\t\t\t\t\t\t\t\t\t\t\t</div>"
+      },
+      {
+        "href": "https://www.liveworksheets.com/worksheets/es/Matem%C3%A1ticas/Sumas_con_llevadas/Ficha_repaso_tema_10_aj1927241rz",
+        "inner_text": "",
+        "inner_html": "<div class=\"worksheetpreview\" style=\"height:340px;width:240px;overflow:hidden\">\n\t\t\t\t\t\t\t\t\t\t\t<img src=\"https://files.liveworksheets.com/def_files/2021/5/20/10520153026260520/thumb10520153026260520.jpg\" border=\"0\" alt=\"Interactive worksheet Ficha repaso tema 10\" title=\"Ficha repaso tema 10\rLanguage: \rGrade/level: primero de primaria\rSchool subject: Matemáticas\rMain content: Sumas con llevadas\rOther contents: Números hasta el 99, números pares e impares, sumas sin llevadas, sumas con llevadas, el calendario y el reloj.\">\n\t\t\t\t\t\t\t\t\t\t\t</div>"
+      },
+      {
+        "href": "https://www.liveworksheets.com/gj1927240iy",
+        "inner_text": "",
+        "inner_html": "<div class=\"worksheetpreview\" style=\"height:340px;width:240px;overflow:hidden\">\n\t\t\t\t\t\t\t\t\t\t\t<img src=\"https://files.liveworksheets.com/def_files/2021/5/20/10520154514500419/thumb10520154514500419.jpg\" border=\"0\" alt=\"Interactive worksheet Módulo 10 SOCIALES\" title=\"Módulo 10 SOCIALES\rLanguage: \rGrade/level: SEXTO\rSchool subject: Estudios Sociales\rMain content: Sectores económicos\rOther contents: ECONOMIA DE AMÉRICA \">\n\t\t\t\t\t\t\t\t\t\t\t</div>"
+      },
+      {
+        "href": "https://www.liveworksheets.com/worksheets/it/Geografia/La_Pianura/Verifica_sulla_pianura_au1927239yk",
+        "inner_text": "",
+        "inner_html": "<div class=\"worksheetpreview\" style=\"height:340px;width:240px;overflow:hidden\">\n\t\t\t\t\t\t\t\t\t\t\t<img src=\"https://files.liveworksheets.com/def_files/2021/5/20/105201546261809971/thumb105201546261809971.jpg\" border=\"0\" alt=\"Interactive worksheet Verifica sulla pianura\" title=\"Verifica sulla pianura\rLanguage: \rGrade/level: 3\rSchool subject: Geografia\rMain content: La Pianura\rOther contents: nothing\">\n\t\t\t\t\t\t\t\t\t\t\t</div>"
+      },
+      {
+        "href": "https://www.liveworksheets.com/worksheets/en/English_language/Listening/Lyrics_Training-Tough_Love_(Part_1)_rs1927238kl",
+        "inner_text": "",
+        "inner_html": "<div class=\"worksheetpreview\" style=\"height:340px;width:240px;overflow:hidden\">\n\t\t\t\t\t\t\t\t\t\t\t<img src=\"https://files.liveworksheets.com/def_files/2021/5/20/105201544301483608/thumb105201544301483608.jpg\" border=\"0\" alt=\"Interactive worksheet Lyrics Training-Tough Love (Part 1)\" title=\"Lyrics Training-Tough Love (Part 1)\rLanguage: \rGrade/level: Grade 11 in Taiwan\rSchool subject: English language\rMain content: Listening\rOther contents: Opera\">\n\t\t\t\t\t\t\t\t\t\t\t</div>"
+      },
+      {
+        "href": "https://www.liveworksheets.com/hh1927237pb",
+        "inner_text": "",
+        "inner_html": "<div class=\"worksheetpreview\" style=\"height:340px;width:240px;overflow:hidden\">\n\t\t\t\t\t\t\t\t\t\t\t<img src=\"https://files.liveworksheets.com/def_files/2021/5/20/10520153941193904/thumb10520153941193904.jpg\" border=\"0\" alt=\"Interactive worksheet Adverbial clauses - Sentence transformation\" title=\"Adverbial clauses - Sentence transformation\rLanguage: \rGrade/level: 12\rSchool subject: English as a Second Language (ESL)\rMain content: Adverbial clauses\rOther contents: \">\n\t\t\t\t\t\t\t\t\t\t\t</div>"
+      },
+      {
+        "href": "https://www.liveworksheets.com/worksheets/en/English_as_a_Second_Language_(ESL)/Vocabulary/Medieval_vocabulary_hl1927236ps",
+        "inner_text": "",
+        "inner_html": "<div class=\"worksheetpreview\" style=\"height:340px;width:240px;overflow:hidden\">\n\t\t\t\t\t\t\t\t\t\t\t<img src=\"https://files.liveworksheets.com/def_files/2021/5/20/10520154219647022/thumb10520154219647022.jpg\" border=\"0\" alt=\"Interactive worksheet Medieval vocabulary\" title=\"Medieval vocabulary\rLanguage: \rGrade/level: 5º\rSchool subject: English as a Second Language (ESL)\rMain content: Vocabulary\rOther contents: Medieval Age\">\n\t\t\t\t\t\t\t\t\t\t\t</div>"
+      },
+      {
+        "href": "https://www.liveworksheets.com/worksheets/en/English_as_a_Second_Language_(ESL)/Vocabulary_and_Grammar/Kid_6_OSW_Speaking_Classwork_le1927235yn",
+        "inner_text": "",
+        "inner_html": "<div class=\"worksheetpreview\" style=\"height:340px;width:240px;overflow:hidden\">\n\t\t\t\t\t\t\t\t\t\t\t<img src=\"https://files.liveworksheets.com/def_files/2021/5/20/10520153820535791/thumb10520153820535791.jpg\" border=\"0\" alt=\"Interactive worksheet Kid 6 OSW Speaking Classwork\" title=\"Kid 6 OSW Speaking Classwork\rLanguage: \rGrade/level: Kid 6-A\rSchool subject: English as a Second Language (ESL)\rMain content: Vocabulary and Grammar\rOther contents: Speaking\">\n\t\t\t\t\t\t\t\t\t\t\t</div>"
+      },
+      {
+        "href": "https://www.liveworksheets.com/zl1927234ob",
+        "inner_text": "",
+        "inner_html": "<div class=\"worksheetpreview\" style=\"height:340px;width:240px;overflow:hidden\">\n\t\t\t\t\t\t\t\t\t\t\t<img src=\"https://files.liveworksheets.com/def_files/2021/5/20/105201545151910883/thumb105201545151910883.jpg\" border=\"0\" alt=\"Interactive worksheet Health\" title=\"Health\rLanguage: \rGrade/level: C\rSchool subject: LS\rMain content: Ls2\rOther contents: \">\n\t\t\t\t\t\t\t\t\t\t\t</div>"
+      },
+      {
+        "href": "https://www.liveworksheets.com/worksheets/en/English_language/Reading_comprehension/KET_-_CUP_1_-_Test_2_-_Part_4_eg1927233ae",
+        "inner_text": "",
+        "inner_html": "<div class=\"worksheetpreview\" style=\"height:340px;width:240px;overflow:hidden\">\n\t\t\t\t\t\t\t\t\t\t\t<img src=\"https://files.liveworksheets.com/def_files/2021/5/20/10520154948666536/thumb10520154948666536.jpg\" border=\"0\" alt=\"Interactive worksheet KET - CUP 1 - Test 2 - Part 4\" title=\"KET - CUP 1 - Test 2 - Part 4\rLanguage: \rGrade/level: 9\rSchool subject: English language\rMain content: Reading comprehension\rOther contents: \">\n\t\t\t\t\t\t\t\t\t\t\t</div>"
+      },
+      {
+        "href": "https://www.liveworksheets.com/yl1927232va",
+        "inner_text": "",
+        "inner_html": "<div class=\"worksheetpreview\" style=\"height:340px;width:240px;overflow:hidden\">\n\t\t\t\t\t\t\t\t\t\t\t<img src=\"https://files.liveworksheets.com/def_files/2020/5/15/5151845550000/thumb5151845550000.jpg\" border=\"0\" alt=\"Interactive worksheet TED IN A RED BED. PUT THE STORY IN ORDER\" title=\"TED IN A RED BED. PUT THE STORY IN ORDER\rLanguage: \rGrade/level: grade1\rSchool subject: English as a Second Language (ESL)\rMain content: Phonics short vowel e\rOther contents: \">\n\t\t\t\t\t\t\t\t\t\t\t</div>"
+      },
+      {
+        "href": "https://www.liveworksheets.com/worksheets/en/Reading/Reading_Comprehension/Grade_3_Module_10_Reading_Revision_2_in1927231xe",
+        "inner_text": "",
+        "inner_html": "<div class=\"worksheetpreview\" style=\"height:340px;width:240px;overflow:hidden\">\n\t\t\t\t\t\t\t\t\t\t\t<img src=\"https://files.liveworksheets.com/def_files/2021/5/20/105201544071343081/thumb105201544071343081.jpg\" border=\"0\" alt=\"Interactive worksheet Grade 3 Module 10 Reading Revision 2\" title=\"Grade 3 Module 10 Reading Revision 2\rLanguage: \rGrade/level: Grade 3\rSchool subject: Reading\rMain content: Reading Comprehension\rOther contents: Reading Questions\">\n\t\t\t\t\t\t\t\t\t\t\t</div>"
+      },
+      {
+        "href": "https://www.liveworksheets.com/rk1927230gh",
+        "inner_text": "",
+        "inner_html": "<div class=\"worksheetpreview\" style=\"height:340px;width:240px;overflow:hidden\">\n\t\t\t\t\t\t\t\t\t\t\t<img src=\"https://files.liveworksheets.com/def_files/2021/5/20/10520152338799592/thumb10520152338799592.jpg\" border=\"0\" alt=\"Interactive worksheet Actividad Física\" title=\"Actividad Física\rLanguage: \rGrade/level: Segundo EGB\rSchool subject: Educación Física\rMain content: Prueba\rOther contents: Segundo  Parcial II Quimestre\">\n\t\t\t\t\t\t\t\t\t\t\t</div>"
+      },
+      {
+        "href": "https://www.liveworksheets.com/oi1927229pq",
+        "inner_text": "",
+        "inner_html": "<div class=\"worksheetpreview\" style=\"height:340px;width:240px;overflow:hidden\">\n\t\t\t\t\t\t\t\t\t\t\t<img src=\"https://files.liveworksheets.com/def_files/2021/5/20/105201526451069925/thumb105201526451069925.jpg\" border=\"0\" alt=\"Interactive worksheet Que timbre é esse?\" title=\"Que timbre é esse?\rLanguage: \rGrade/level: FUNDAMENTAL I e II\rSchool subject: MÚSICA\rMain content: Timbre- propriedades do som\rOther contents: \">\n\t\t\t\t\t\t\t\t\t\t\t</div>"
+      },
+      {
+        "href": "https://www.liveworksheets.com/ci1927228en",
+        "inner_text": "",
+        "inner_html": "<div class=\"worksheetpreview\" style=\"height:340px;width:240px;overflow:hidden\">\n\t\t\t\t\t\t\t\t\t\t\t<img src=\"https://files.liveworksheets.com/def_files/2021/5/20/105201537421366164/thumb105201537421366164.jpg\" border=\"0\" alt=\"Interactive worksheet Toán 4 - 24.05.2021 - 28.05.2021 - Ôn tập cuối năm\" title=\"Toán 4 - 24.05.2021 - 28.05.2021 - Ôn tập cuối năm\rLanguage: \rGrade/level: 4\rSchool subject: Môn Toán\rMain content: Ôn tập cuối năm\rOther contents: \">\n\t\t\t\t\t\t\t\t\t\t\t</div>"
+      },
+      {
+        "href": "https://www.liveworksheets.com/worksheets/es/Matem%C3%A1ticas/N%C3%BAmeros_decimales/N%C3%BAmeros_decimales_oj1927227rz",
+        "inner_text": "",
+        "inner_html": "<div class=\"worksheetpreview\" style=\"height:340px;width:240px;overflow:hidden\">\n\t\t\t\t\t\t\t\t\t\t\t<img src=\"https://files.liveworksheets.com/def_files/2021/5/20/105201522271742124/thumb105201522271742124.jpg\" border=\"0\" alt=\"Interactive worksheet Números decimales\" title=\"Números decimales\rLanguage: \rGrade/level: Sexto de primaria\rSchool subject: Matemáticas\rMain content: Números decimales\rOther contents: Adición y sustracción de números decimales\">\n\t\t\t\t\t\t\t\t\t\t\t</div>"
+      },
+      {
+        "href": "https://www.liveworksheets.com/worksheets/fr/Fran%C3%A7ais_Langue_%C3%89trang%C3%A8re_(FLE)/Les_aliments/Les_aliments_bf1927226fd",
+        "inner_text": "",
+        "inner_html": "<div class=\"worksheetpreview\" style=\"height:340px;width:240px;overflow:hidden\">\n\t\t\t\t\t\t\t\t\t\t\t<img src=\"https://files.liveworksheets.com/def_files/2021/5/20/105201542351145366/thumb105201542351145366.jpg\" border=\"0\" alt=\"Interactive worksheet Les aliments\" title=\"Les aliments\rLanguage: \rGrade/level: Maternelle\rSchool subject: Français Langue Étrangère (FLE)\rMain content: Les aliments\rOther contents: Le vocabulaire\">\n\t\t\t\t\t\t\t\t\t\t\t</div>"
+      },
+      {
+        "href": "https://www.liveworksheets.com/worksheets/en/English_language/Reading_comprehension/KET_-_CUP_1_-_Test_1_-_Part_4_iu1927225xn",
+        "inner_text": "",
+        "inner_html": "<div class=\"worksheetpreview\" style=\"height:340px;width:240px;overflow:hidden\">\n\t\t\t\t\t\t\t\t\t\t\t<img src=\"https://files.liveworksheets.com/def_files/2021/5/20/10520154831666536/thumb10520154831666536.jpg\" border=\"0\" alt=\"Interactive worksheet KET - CUP 1 - Test 1 - Part 4\" title=\"KET - CUP 1 - Test 1 - Part 4\rLanguage: \rGrade/level: 9\rSchool subject: English language\rMain content: Reading comprehension\rOther contents: \">\n\t\t\t\t\t\t\t\t\t\t\t</div>"
+      },
+      {
+        "href": "https://www.liveworksheets.com/uz1927224as",
+        "inner_text": "",
+        "inner_html": "<div class=\"worksheetpreview\" style=\"height:340px;width:240px;overflow:hidden\">\n\t\t\t\t\t\t\t\t\t\t\t<img src=\"https://files.liveworksheets.com/def_files/2021/5/20/105201528341777818/thumb105201528341777818.jpg\" border=\"0\" alt=\"Interactive worksheet Emoções e nome próprio\" title=\"Emoções e nome próprio\rLanguage: \rGrade/level: EDUCAÇÃO INFANTIL\rSchool subject: Educação infantil\rMain content: Nome proprio\rOther contents: NOME EMOÇÕES\">\n\t\t\t\t\t\t\t\t\t\t\t</div>"
+      },
+      {
+        "href": "https://www.liveworksheets.com/worksheets/en/English_as_a_Second_Language_(ESL)/Vocabulary_and_Grammar/Prepositions_and_toys_rk1927223ca",
+        "inner_text": "",
+        "inner_html": "<div class=\"worksheetpreview\" style=\"height:340px;width:240px;overflow:hidden\">\n\t\t\t\t\t\t\t\t\t\t\t<img src=\"https://files.liveworksheets.com/def_files/2021/5/20/10520154716191089/thumb10520154716191089.jpg\" border=\"0\" alt=\"Interactive worksheet Prepositions and toys\" title=\"Prepositions and toys\rLanguage: \rGrade/level: BEGINNER\rSchool subject: English as a Second Language (ESL)\rMain content: Vocabulary and Grammar\rOther contents: \">\n\t\t\t\t\t\t\t\t\t\t\t</div>"
+      },
+      {
+        "href": "https://www.liveworksheets.com/worksheets/en/English_as_a_Second_Language_(ESL)/Present_perfect/Optimise_a2_yd1927222yp",
+        "inner_text": "",
+        "inner_html": "<div class=\"worksheetpreview\" style=\"height:340px;width:240px;overflow:hidden\">\n\t\t\t\t\t\t\t\t\t\t\t<img src=\"https://files.liveworksheets.com/def_files/2021/5/20/105201548528288/thumb10520151152993828.jpg\" border=\"0\" alt=\"Interactive worksheet Optimise a2\" title=\"Optimise a2\rLanguage: \rGrade/level: 5TH\rSchool subject: English as a Second Language (ESL)\rMain content: Present perfect\rOther contents: PAST SIMPLE\">\n\t\t\t\t\t\t\t\t\t\t\t</div>"
+      },
+      {
+        "href": "https://www.liveworksheets.com/terms_of_use_en.asp",
+        "inner_text": "Terms of use",
+        "inner_html": "Terms of use"
+      },
+      {
+        "href": "https://www.liveworksheets.com/privacypolicy_en.asp",
+        "inner_text": "Privacy policy",
+        "inner_html": "Privacy policy"
+      },
+      {
+        "href": "https://www.liveworksheets.com/cookies_en.asp",
+        "inner_text": "Cookies configuration",
+        "inner_html": "Cookies configuration"
+      },
+      {
+        "href": "https://www.liveworksheets.com/reportcopyright.asp",
+        "inner_text": "Report copyright infringement",
+        "inner_html": "Report copyright infringement"
+      },
+      {
+        "href": "https://www.liveworksheets.com/contact.asp",
+        "inner_text": "Contact",
+        "inner_html": "Contact"
+      }
+    ],
+    "social": [
+      {
+        "href": "https://facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww%2Eliveworksheets%2Ecom",
+        "inner_text": "Share on Facebook",
+        "inner_html": "<div class=\"resp-sharing-button resp-sharing-button--facebook resp-sharing-button--large\"><div aria-hidden=\"true\" class=\"resp-sharing-button__icon resp-sharing-button__icon--solid\">\n\t\t\t<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M18.77 7.46H14.5v-1.9c0-.9.6-1.1 1-1.1h3V.5h-4.33C10.24.5 9.5 3.44 9.5 5.32v2.15h-3v4h3v12h5v-12h3.85l.42-4z\"></path></svg>\n\t\t\t</div>Share on Facebook</div>"
+      },
+      {
+        "href": "https://twitter.com/intent/tweet/?text=Liveworksheets+transforms+your+traditional+printable+worksheets+into+self%2Dcorrecting+interactive+exercises+that+the+students+can+do+online+and+send+to+the+teacher%2E&url=https%3A%2F%2Fwww%2Eliveworksheets%2Ecom",
+        "inner_text": "Share on Twitter",
+        "inner_html": "<div class=\"resp-sharing-button resp-sharing-button--twitter resp-sharing-button--large\"><div aria-hidden=\"true\" class=\"resp-sharing-button__icon resp-sharing-button__icon--solid\">\n\t\t\t<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M23.44 4.83c-.8.37-1.5.38-2.22.02.93-.56.98-.96 1.32-2.02-.88.52-1.86.9-2.9 1.1-.82-.88-2-1.43-3.3-1.43-2.5 0-4.55 2.04-4.55 4.54 0 .36.03.7.1 1.04-3.77-.2-7.12-2-9.36-4.75-.4.67-.6 1.45-.6 2.3 0 1.56.8 2.95 2 3.77-.74-.03-1.44-.23-2.05-.57v.06c0 2.2 1.56 4.03 3.64 4.44-.67.2-1.37.2-2.06.08.58 1.8 2.26 3.12 4.25 3.16C5.78 18.1 3.37 18.74 1 18.46c2 1.3 4.4 2.04 6.97 2.04 8.35 0 12.92-6.92 12.92-12.93 0-.2 0-.4-.02-.6.9-.63 1.96-1.22 2.56-2.14z\"></path></svg>\n\t\t\t</div>Share on Twitter</div>"
+      },
+      {
+        "href": "https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fwww%2Eliveworksheets%2Ecom&media=https%3A%2F%2Fwww%2Eliveworksheets%2Ecom%2Fimages%2Flogomayusculasblanco%2Epng;description=Liveworksheets+transforms+your+traditional+printable+worksheets+into+self%2Dcorrecting+interactive+exercises+that+the+students+can+do+online+and+send+to+the+teacher%2E",
+        "inner_text": "Share on Pinterest",
+        "inner_html": "<div class=\"resp-sharing-button resp-sharing-button--pinterest resp-sharing-button--large\"><div aria-hidden=\"true\" class=\"resp-sharing-button__icon resp-sharing-button__icon--solid\">\n\t\t\t<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M12.14.5C5.86.5 2.7 5 2.7 8.75c0 2.27.86 4.3 2.7 5.05.3.12.57 0 .66-.33l.27-1.06c.1-.32.06-.44-.2-.73-.52-.62-.86-1.44-.86-2.6 0-3.33 2.5-6.32 6.5-6.32 3.55 0 5.5 2.17 5.5 5.07 0 3.8-1.7 7.02-4.2 7.02-1.37 0-2.4-1.14-2.07-2.54.4-1.68 1.16-3.48 1.16-4.7 0-1.07-.58-1.98-1.78-1.98-1.4 0-2.55 1.47-2.55 3.42 0 1.25.43 2.1.43 2.1l-1.7 7.2c-.5 2.13-.08 4.75-.04 5 .02.17.22.2.3.1.14-.18 1.82-2.26 2.4-4.33.16-.58.93-3.63.93-3.63.45.88 1.8 1.65 3.22 1.65 4.25 0 7.13-3.87 7.13-9.05C20.5 4.15 17.18.5 12.14.5z\"></path></svg>\n\t\t\t</div>Share on Pinterest</div>"
+      }
+    ],
+    "keywords": [
+      {
+        "href": "https://www.liveworksheets.com/privacypolicy_en.asp",
+        "inner_text": "Privacy policy",
+        "inner_html": "Privacy policy"
+      }
+    ]
+  },
+  "unsafeForms": [],
+  "browsing_history": [
+    "https://www.liveworksheets.com/"
+  ],
+  "websockets": {},
+  "cookies": [
+    {
+      "name": "__cflb",
+      "value": "0H28vFHUumKTgUR5qYVxRFS8fbo8BJCHBHk7NsGz4rq",
+      "domain": "www.liveworksheets.com",
+      "path": "/",
+      "expires": 1621527752.759061,
+      "size": 49,
+      "httpOnly": true,
+      "secure": true,
+      "session": false,
+      "sameSite": "None",
+      "expiresUTC": "2021-05-20T16:22:32.759Z",
+      "expiresDays": 0.02,
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.liveworksheets.com/",
+            "source": "set in Set-Cookie HTTP response header for https://www.liveworksheets.com/"
+          }
+        ],
+        "type": "Cookie.HTTP",
+        "timestamp": "2021-05-20T15:52:32.761Z",
+        "location": "about:blank"
+      },
+      "firstPartyStorage": false
+    },
+    {
+      "name": "__cf_bm",
+      "value": "6feee5a2af638c6c6fb1a2165078a4154122ac79-1621525952-1800-AS6ScAAQJVAN+IN4F2kU0tg/w9IcYPGIvzK+fk9F5rk9QJFCTNP48ODQp3A0/F7zxToGvNBYuSRElE7lxQXOkBk=",
+      "domain": "liveworksheets.com",
+      "path": "/",
+      "expires": 1621527752.389407,
+      "size": 152,
+      "httpOnly": true,
+      "secure": true,
+      "session": false,
+      "sameSite": "None",
+      "expiresUTC": "2021-05-20T16:22:32.389Z",
+      "expiresDays": 0.02,
+      "log": {
+        "stack": [
+          {
+            "fileName": "http://www.liveworksheets.com/",
+            "source": "set in Set-Cookie HTTP response header for http://www.liveworksheets.com/"
+          }
+        ],
+        "type": "Cookie.HTTP",
+        "timestamp": "2021-05-20T15:52:32.503Z",
+        "location": "about:blank"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "ASPSESSIONIDQASTQQDC",
+      "value": "FAOMGGDDHKFFEKMOFEENNNEH",
+      "domain": "www.liveworksheets.com",
+      "path": "/",
+      "expires": -1,
+      "size": 44,
+      "httpOnly": true,
+      "secure": true,
+      "session": true,
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.liveworksheets.com/",
+            "source": "set in Set-Cookie HTTP response header for https://www.liveworksheets.com/"
+          }
+        ],
+        "type": "Cookie.HTTP",
+        "timestamp": "2021-05-20T15:52:32.761Z",
+        "location": "about:blank"
+      },
+      "firstPartyStorage": false
+    }
+  ],
+  "localStorage": {
+    "https://www.liveworksheets.com": {
+      "google_experiment_mod54": {
+        "value": 374,
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 107,
+              "lineNumber": 55,
+              "fileName": "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js",
+              "functionName": "Tc",
+              "source": "    at Tc (https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js:55:107)"
+            },
+            {
+              "columnNumber": 641,
+              "lineNumber": 77,
+              "fileName": "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js",
+              "functionName": "<computed>.a.<computed>",
+              "source": "    at <computed>.a.<computed> (https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js:77:641)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T15:52:33.228Z",
+          "location": "https://www.liveworksheets.com/"
+        }
+      },
+      "google_experiment_mod37": {
+        "value": 824,
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 107,
+              "lineNumber": 55,
+              "fileName": "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js",
+              "functionName": "Tc",
+              "source": "    at Tc (https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js:55:107)"
+            },
+            {
+              "columnNumber": 641,
+              "lineNumber": 77,
+              "fileName": "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js",
+              "functionName": "<computed>.a.<computed>",
+              "source": "    at <computed>.a.<computed> (https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js:77:641)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T15:52:33.110Z",
+          "location": "https://www.liveworksheets.com/"
+        }
+      },
+      "goog_pem_mod": {
+        "value": 125,
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 107,
+              "lineNumber": 55,
+              "fileName": "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js",
+              "functionName": "Tc",
+              "source": "    at Tc (https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js:55:107)"
+            },
+            {
+              "columnNumber": 467,
+              "lineNumber": 90,
+              "fileName": "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js",
+              "functionName": "eh",
+              "source": "    at eh (https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js:90:467)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T15:52:33.106Z",
+          "location": "https://www.liveworksheets.com/"
+        }
+      },
+      "google_auto_fc_cmp_setting": {
+        "value": [
+          1
+        ],
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 490,
+              "lineNumber": 378,
+              "fileName": "https://pagead2.googlesyndication.com/pagead/js/r20210517/r20190131/show_ads_impl_with_ama_fy2019.js?client=ca-pub-4199496618908229&plah=www.liveworksheets.com&amaexp=1",
+              "functionName": "jy",
+              "source": "    at jy (https://pagead2.googlesyndication.com/pagead/js/r20210517/r20190131/show_ads_impl_with_ama_fy2019.js?client=ca-pub-4199496618908229&plah=www.liveworksheets.com&amaexp=1:378:490)"
+            },
+            {
+              "columnNumber": 1023,
+              "lineNumber": 375,
+              "fileName": "https://pagead2.googlesyndication.com/pagead/js/r20210517/r20190131/show_ads_impl_with_ama_fy2019.js?client=ca-pub-4199496618908229&plah=www.liveworksheets.com&amaexp=1",
+              "functionName": "ky",
+              "source": "    at ky (https://pagead2.googlesyndication.com/pagead/js/r20210517/r20190131/show_ads_impl_with_ama_fy2019.js?client=ca-pub-4199496618908229&plah=www.liveworksheets.com&amaexp=1:375:1023)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T15:52:33.228Z",
+          "location": "https://www.liveworksheets.com/"
+        }
+      },
+      "ga:clientId": {
+        "value": 1553328999.1621525,
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 20,
+              "lineNumber": 2121,
+              "fileName": "https://www.liveworksheets.com/",
+              "source": "    at https://www.liveworksheets.com/:2121:20"
+            },
+            {
+              "columnNumber": 32,
+              "lineNumber": 92,
+              "fileName": "https://www.google-analytics.com/analytics.js",
+              "functionName": "Object.Z.v",
+              "source": "    at Object.Z.v (https://www.google-analytics.com/analytics.js:92:32)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T15:52:33.304Z",
+          "location": "https://www.liveworksheets.com/"
+        }
+      },
+      "google_experiment_mod36": {
+        "value": 946,
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 107,
+              "lineNumber": 55,
+              "fileName": "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js",
+              "functionName": "Tc",
+              "source": "    at Tc (https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js:55:107)"
+            },
+            {
+              "columnNumber": 641,
+              "lineNumber": 77,
+              "fileName": "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js",
+              "functionName": "<computed>.a.<computed>",
+              "source": "    at <computed>.a.<computed> (https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js:77:641)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T15:52:33.109Z",
+          "location": "https://www.liveworksheets.com/"
+        }
+      },
+      "google_experiment_mod53": {
+        "value": 441,
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 107,
+              "lineNumber": 55,
+              "fileName": "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js",
+              "functionName": "Tc",
+              "source": "    at Tc (https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js:55:107)"
+            },
+            {
+              "columnNumber": 641,
+              "lineNumber": 77,
+              "fileName": "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js",
+              "functionName": "<computed>.a.<computed>",
+              "source": "    at <computed>.a.<computed> (https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js:77:641)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T15:52:33.108Z",
+          "location": "https://www.liveworksheets.com/"
+        }
+      },
+      "google_experiment_mod44": {
+        "value": 22,
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 107,
+              "lineNumber": 55,
+              "fileName": "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js",
+              "functionName": "Tc",
+              "source": "    at Tc (https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js:55:107)"
+            },
+            {
+              "columnNumber": 641,
+              "lineNumber": 77,
+              "fileName": "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js",
+              "functionName": "<computed>.a.<computed>",
+              "source": "    at <computed>.a.<computed> (https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js:77:641)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T15:52:33.110Z",
+          "location": "https://www.liveworksheets.com/"
+        }
+      },
+      "google_experiment_mod34": {
+        "value": 472,
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 107,
+              "lineNumber": 55,
+              "fileName": "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js",
+              "functionName": "Tc",
+              "source": "    at Tc (https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js:55:107)"
+            },
+            {
+              "columnNumber": 641,
+              "lineNumber": 77,
+              "fileName": "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js",
+              "functionName": "<computed>.a.<computed>",
+              "source": "    at <computed>.a.<computed> (https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js:77:641)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T15:52:33.107Z",
+          "location": "https://www.liveworksheets.com/"
+        }
+      }
+    }
+  },
+  "beacons": [
+    {
+      "url": "https://www.google-analytics.com/collect?v=1&_v=j90&a=762851704&t=pageview&_s=1&dl=https%3A%2F%2Fwww.liveworksheets.com%2F&ul=en-us&de=UTF-8&dt=Liveworksheets.com%20-%20Interactive%20worksheets%20maker%20for%20all%20languages%20and%20subjects&sd=24-bit&sr=1680x927&vp=1680x927&je=0&_u=IGAAAAAB~&cid=1553328999.1621525953&tid=UA-2079983-7&_gid=1300338137.1621525953&z=1951161259",
+      "query": {
+        "v": 1,
+        "_v": "j90",
+        "a": 762851704,
+        "t": "pageview",
+        "_s": 1,
+        "dl": "https://www.liveworksheets.com/",
+        "ul": "en-us",
+        "de": "UTF-8",
+        "dt": "Liveworksheets.com - Interactive worksheets maker for all languages and subjects",
+        "sd": "24-bit",
+        "sr": "1680x927",
+        "vp": "1680x927",
+        "je": 0,
+        "_u": "IGAAAAAB~",
+        "cid": 1553328999.1621525,
+        "tid": "UA-2079983-7",
+        "_gid": 1300338137.1621525,
+        "z": 1951161259
+      },
+      "filter": "||google-analytics.com/collect",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.liveworksheets.com/",
+            "source": "requested from https://www.liveworksheets.com/ and matched with easyprivacy.txt filter ||google-analytics.com/collect"
+          }
+        ],
+        "timestamp": "2021-05-20T15:52:33.308Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://www.google-analytics.com/analytics.js",
+      "query": null,
+      "filter": "||google-analytics.com/analytics.js",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.liveworksheets.com/",
+            "source": "requested from https://www.liveworksheets.com/ and matched with easyprivacy.txt filter ||google-analytics.com/analytics.js"
+          }
+        ],
+        "timestamp": "2021-05-20T15:52:33.022Z"
+      },
+      "occurrances": 1
+    }
+  ],
+  "hosts": {
+    "requests": {
+      "firstParty": [
+        "liveworksheets.com"
+      ],
+      "thirdParty": [
+        "www.liveworksheets.com",
+        "files.liveworksheets.com",
+        "pagead2.googlesyndication.com",
+        "www.google-analytics.com",
+        "googleads.g.doubleclick.net"
+      ]
+    },
+    "beacons": {
+      "firstParty": [],
+      "thirdParty": [
+        "www.google-analytics.com"
+      ]
+    },
+    "cookies": {
+      "firstParty": [
+        "liveworksheets.com"
+      ],
+      "thirdParty": [
+        "www.liveworksheets.com"
+      ]
+    },
+    "localStorage": {
+      "firstParty": [],
+      "thirdParty": [
+        "www.liveworksheets.com"
+      ]
+    },
+    "links": {
+      "firstParty": [],
+      "thirdParty": [
+        "www.liveworksheets.com",
+        "es.liveworksheets.com",
+        "youtu.be",
+        "facebook.com",
+        "twitter.com",
+        "pinterest.com"
+      ]
+    }
+  }
+}

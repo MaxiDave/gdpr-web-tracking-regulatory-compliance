@@ -1,0 +1,652 @@
+{
+  "title": "Website Evidence Collection",
+  "task_description": null,
+  "uri_ins": "https://educamos.com",
+  "uri_refs": [
+    "https://educamos.com"
+  ],
+  "uri_dest": "https://www.educamos.com/index.html",
+  "uri_redirects": [
+    "http://www.educamos.com/index.html"
+  ],
+  "secure_connection": {
+    "https_support": true,
+    "redirects": [
+      "https://educamos.com/"
+    ],
+    "https_redirect": true
+  },
+  "host": "educamos.com",
+  "script": {
+    "host": "sfod",
+    "version": {
+      "npm": "1.0.0",
+      "commit": null
+    },
+    "cmd_args": "-q --overwrite https://educamos.com -- --ignore-certificate-errors",
+    "environment": {
+      "CHROME_DESKTOP": "code-url-handler.desktop"
+    },
+    "node_version": "v14.17.0"
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "HeadlessChrome/80.0.3987.0",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3617.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "5.8.0-53-generic"
+    },
+    "extra_headers": {},
+    "preset_cookies": {}
+  },
+  "start_time": "2021-05-20T15:40:45.639Z",
+  "end_time": "2021-05-20T15:40:52.789Z",
+  "links": {
+    "firstParty": [],
+    "thirdParty": [
+      {
+        "href": "https://www.educamos.com/cookies.html",
+        "inner_text": "Política de cookies",
+        "inner_html": "Política de cookies"
+      },
+      {
+        "href": "https://www.educamos.com/index.html",
+        "inner_text": "",
+        "inner_html": "<img src=\"img/cabecera-logo-peq.png\" class=\"logo\" alt=\"logo cabecera educamos\">"
+      },
+      {
+        "href": "https://www.educamos.com/index-cat.html",
+        "inner_text": "Catalán",
+        "inner_html": "Catalán"
+      },
+      {
+        "href": "https://www.educamos.com/servicio.html",
+        "inner_text": "Nuestro servicio",
+        "inner_html": "Nuestro servicio"
+      },
+      {
+        "href": "https://www.educamos.com/conoce.html",
+        "inner_text": "Conócenos",
+        "inner_html": "Conócenos"
+      },
+      {
+        "href": "https://www.educamos.com/contenidos.html",
+        "inner_text": "Contenidos",
+        "inner_html": "Contenidos"
+      },
+      {
+        "href": "https://www.educamos.com/eventos.html",
+        "inner_text": "Eventos",
+        "inner_html": "Eventos"
+      },
+      {
+        "href": "https://www.educamos.com/contacto.html",
+        "inner_text": "Contáctanos",
+        "inner_html": "Contáctanos"
+      },
+      {
+        "href": "https://www.educamos.com/demo.html",
+        "inner_text": "",
+        "inner_html": "<div class=\"solicita-demo\"></div>"
+      },
+      {
+        "href": "https://www.educamos.com/privacidad.html",
+        "inner_text": "Política de privacidad",
+        "inner_html": "Política de privacidad"
+      },
+      {
+        "href": "http://www.grupo-sm.com/",
+        "inner_text": "",
+        "inner_html": "<img src=\"img/nuevo-logo-sm-pie.png\" alt=\"Logo SM\">"
+      },
+      {
+        "href": "https://www.educamos.com/uso.html",
+        "inner_text": "Condiciones de uso",
+        "inner_html": "Condiciones de uso"
+      },
+      {
+        "href": "https://www.educamos.com/tratamiento.html",
+        "inner_text": "Tratamiento de datos Educamos",
+        "inner_html": "Tratamiento de datos Educamos"
+      }
+    ],
+    "social": [],
+    "keywords": []
+  },
+  "unsafeForms": [],
+  "browsing_history": [
+    "https://www.educamos.com/index.html"
+  ],
+  "websockets": {},
+  "cookies": [
+    {
+      "name": "_ga",
+      "value": "GA1.2.1520489357.1621525246",
+      "domain": "educamos.com",
+      "path": "/",
+      "expires": 1684597247,
+      "size": 30,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2023-05-20T15:40:47.000Z",
+      "expiresDays": 730,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 495,
+            "lineNumber": 30,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "zc",
+            "source": "    at zc (https://www.google-analytics.com/analytics.js:30:495)"
+          },
+          {
+            "columnNumber": 15,
+            "lineNumber": 60,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "ma",
+            "source": "    at ma (https://www.google-analytics.com/analytics.js:60:15)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T15:40:47.435Z",
+        "location": "https://www.educamos.com/index.html"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "visitor_id147201-hash",
+      "value": "4168e7f047ab5e6387dd45a900ae73cc0fb460efb205686705eb361123330073857c4db0fdb38d80f1be7c84df16b152dcbfac2d",
+      "domain": "marketing.grupo-sm.com",
+      "path": "/",
+      "expires": 1653061249.410281,
+      "size": 125,
+      "httpOnly": false,
+      "secure": true,
+      "session": false,
+      "sameSite": "None",
+      "expiresUTC": "2022-05-20T15:40:49.410Z",
+      "expiresDays": 365,
+      "firstPartyStorage": false
+    },
+    {
+      "name": "visitor_id147201",
+      "value": "1227199317",
+      "domain": "marketing.grupo-sm.com",
+      "path": "/",
+      "expires": 1653061249.410241,
+      "size": 26,
+      "httpOnly": false,
+      "secure": true,
+      "session": false,
+      "sameSite": "None",
+      "expiresUTC": "2022-05-20T15:40:49.410Z",
+      "expiresDays": 365,
+      "firstPartyStorage": false
+    },
+    {
+      "name": "visitor_id147201-hash",
+      "value": "4168e7f047ab5e6387dd45a900ae73cc0fb460efb205686705eb361123330073857c4db0fdb38d80f1be7c84df16b152dcbfac2d",
+      "domain": "pardot.com",
+      "path": "/",
+      "expires": 1653061248.771997,
+      "size": 125,
+      "httpOnly": false,
+      "secure": true,
+      "session": false,
+      "sameSite": "None",
+      "expiresUTC": "2022-05-20T15:40:48.771Z",
+      "expiresDays": 365,
+      "firstPartyStorage": false
+    },
+    {
+      "name": "visitor_id147201",
+      "value": "1227199317",
+      "domain": "pardot.com",
+      "path": "/",
+      "expires": 1653061248.771964,
+      "size": 26,
+      "httpOnly": false,
+      "secure": true,
+      "session": false,
+      "sameSite": "None",
+      "expiresUTC": "2022-05-20T15:40:48.771Z",
+      "expiresDays": 365,
+      "firstPartyStorage": false
+    },
+    {
+      "name": "visitor_id147201",
+      "value": "1227199317",
+      "domain": "www.educamos.com",
+      "path": "/",
+      "expires": 1653061248,
+      "size": 26,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2022-05-20T15:40:48.000Z",
+      "expiresDays": 365,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 3735,
+            "lineNumber": 5,
+            "fileName": "https://pi.pardot.com/pd.js",
+            "functionName": "piSetCookie",
+            "source": "    at piSetCookie (https://pi.pardot.com/pd.js:5:3735)"
+          },
+          {
+            "columnNumber": 3,
+            "lineNumber": 3,
+            "fileName": "https://pi.pardot.com/analytics?ver=3&visitor_id=&visitor_id_sign=&pi_opt_in=&campaign_id=1199&account_id=148201&title=Educamos&url=https%3A%2F%2Fwww.educamos.com%2Findex.html&referrer=",
+            "functionName": "piResponse",
+            "source": "    at piResponse (https://pi.pardot.com/analytics?ver=3&visitor_id=&visitor_id_sign=&pi_opt_in=&campaign_id=1199&account_id=148201&title=Educamos&url=https%3A%2F%2Fwww.educamos.com%2Findex.html&referrer=:3:3)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T15:40:48.784Z",
+        "location": "https://www.educamos.com/index.html"
+      },
+      "firstPartyStorage": false
+    },
+    {
+      "name": "visitor_id147201-hash",
+      "value": "4168e7f047ab5e6387dd45a900ae73cc0fb460efb205686705eb361123330073857c4db0fdb38d80f1be7c84df16b152dcbfac2d",
+      "domain": "www.educamos.com",
+      "path": "/",
+      "expires": 1653061248,
+      "size": 125,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2022-05-20T15:40:48.000Z",
+      "expiresDays": 365,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 3735,
+            "lineNumber": 5,
+            "fileName": "https://pi.pardot.com/pd.js",
+            "functionName": "piSetCookie",
+            "source": "    at piSetCookie (https://pi.pardot.com/pd.js:5:3735)"
+          },
+          {
+            "columnNumber": 4,
+            "lineNumber": 4,
+            "fileName": "https://pi.pardot.com/analytics?ver=3&visitor_id=&visitor_id_sign=&pi_opt_in=&campaign_id=1199&account_id=148201&title=Educamos&url=https%3A%2F%2Fwww.educamos.com%2Findex.html&referrer=",
+            "functionName": "piResponse",
+            "source": "    at piResponse (https://pi.pardot.com/analytics?ver=3&visitor_id=&visitor_id_sign=&pi_opt_in=&campaign_id=1199&account_id=148201&title=Educamos&url=https%3A%2F%2Fwww.educamos.com%2Findex.html&referrer=:4:4)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T15:40:48.784Z",
+        "location": "https://www.educamos.com/index.html"
+      },
+      "firstPartyStorage": false
+    },
+    {
+      "name": "_gid",
+      "value": "GA1.2.324370259.1621525246",
+      "domain": "educamos.com",
+      "path": "/",
+      "expires": 1621611647,
+      "size": 30,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2021-05-21T15:40:47.000Z",
+      "expiresDays": 1,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 495,
+            "lineNumber": 30,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "zc",
+            "source": "    at zc (https://www.google-analytics.com/analytics.js:30:495)"
+          },
+          {
+            "columnNumber": 401,
+            "lineNumber": 59,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "ma",
+            "source": "    at ma (https://www.google-analytics.com/analytics.js:59:401)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T15:40:47.436Z",
+        "location": "https://www.educamos.com/index.html"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "lpv147201",
+      "value": "aHR0cHM6Ly93d3cuZWR1Y2Ftb3MuY29tL2luZGV4Lmh0bWw%3D",
+      "domain": "pi.pardot.com",
+      "path": "/",
+      "expires": 1621527048.772021,
+      "size": 59,
+      "httpOnly": false,
+      "secure": true,
+      "session": false,
+      "sameSite": "None",
+      "expiresUTC": "2021-05-20T16:10:48.772Z",
+      "expiresDays": 0.02,
+      "firstPartyStorage": false
+    },
+    {
+      "name": "_gat",
+      "value": "1",
+      "domain": "educamos.com",
+      "path": "/",
+      "expires": 1621525306,
+      "size": 5,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2021-05-20T15:41:46.000Z",
+      "expiresDays": 0,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 495,
+            "lineNumber": 30,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "zc",
+            "source": "    at zc (https://www.google-analytics.com/analytics.js:30:495)"
+          },
+          {
+            "columnNumber": 31,
+            "lineNumber": 73,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "Qd",
+            "source": "    at Qd (https://www.google-analytics.com/analytics.js:73:31)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T15:40:46.506Z",
+        "location": "https://educamos.com/"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "ARRAffinity",
+      "value": "5a16ca6e099a1896a89891611c9ae258adbe0cba4de9920df5233c2c72d455dd",
+      "domain": "educamos.com",
+      "path": "/",
+      "expires": -1,
+      "size": 75,
+      "httpOnly": true,
+      "secure": true,
+      "session": true,
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://educamos.com/",
+            "source": "set in Set-Cookie HTTP response header for https://educamos.com/"
+          }
+        ],
+        "type": "Cookie.HTTP",
+        "timestamp": "2021-05-20T15:40:46.142Z",
+        "location": "about:blank"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "ARRAffinitySameSite",
+      "value": "5a16ca6e099a1896a89891611c9ae258adbe0cba4de9920df5233c2c72d455dd",
+      "domain": "educamos.com",
+      "path": "/",
+      "expires": -1,
+      "size": 83,
+      "httpOnly": true,
+      "secure": true,
+      "session": true,
+      "sameSite": "None",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://educamos.com/",
+            "source": "set in Set-Cookie HTTP response header for https://educamos.com/"
+          }
+        ],
+        "type": "Cookie.HTTP",
+        "timestamp": "2021-05-20T15:40:46.142Z",
+        "location": "about:blank"
+      },
+      "firstPartyStorage": true
+    }
+  ],
+  "localStorage": {
+    "https://www.educamos.com": {
+      "undefined": {
+        "value": null,
+        "firstPartyStorage": null,
+        "log": {
+          "stack": [
+            {
+              "columnNumber": 82,
+              "lineNumber": 986,
+              "fileName": "https://fast.wistia.com/static/embed_shepherd-v1.js",
+              "functionName": "localStorageWorks",
+              "source": "    at localStorageWorks (https://fast.wistia.com/static/embed_shepherd-v1.js:986:82)"
+            },
+            {
+              "columnNumber": 661,
+              "lineNumber": 986,
+              "fileName": "https://fast.wistia.com/static/embed_shepherd-v1.js",
+              "functionName": "getLocalStorage",
+              "source": "    at getLocalStorage (https://fast.wistia.com/static/embed_shepherd-v1.js:986:661)"
+            }
+          ],
+          "type": "Storage.LocalStorage",
+          "timestamp": "2021-05-20T15:40:48.997Z",
+          "location": "https://www.educamos.com/index.html"
+        }
+      }
+    }
+  },
+  "beacons": [
+    {
+      "url": "https://marketing.grupo-sm.com/analytics?conly=true&visitor_id=1227199317&visitor_id_sign=4168e7f047ab5e6387dd45a900ae73cc0fb460efb205686705eb361123330073857c4db0fdb38d80f1be7c84df16b152dcbfac2d&pi_opt_in=&campaign_id=1199&account_id=148201&title=Educamos&url=https%3A%2F%2Fwww.educamos.com%2Findex.html&referrer=",
+      "query": {
+        "conly": true,
+        "visitor_id": 1227199317,
+        "visitor_id_sign": "4168e7f047ab5e6387dd45a900ae73cc0fb460efb205686705eb361123330073857c4db0fdb38d80f1be7c84df16b152dcbfac2d",
+        "pi_opt_in": "",
+        "campaign_id": 1199,
+        "account_id": 148201,
+        "title": "Educamos",
+        "url": "https://www.educamos.com/index.html",
+        "referrer": ""
+      },
+      "filter": ".com/analytics?",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.educamos.com/index.html",
+            "source": "requested from https://www.educamos.com/index.html and matched with easyprivacy.txt filter .com/analytics?"
+          }
+        ],
+        "timestamp": "2021-05-20T15:40:48.785Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://pi.pardot.com/analytics?ver=3&visitor_id=&visitor_id_sign=&pi_opt_in=&campaign_id=1199&account_id=148201&title=Educamos&url=https%3A%2F%2Fwww.educamos.com%2Findex.html&referrer=",
+      "query": {
+        "ver": 3,
+        "visitor_id": "",
+        "visitor_id_sign": "",
+        "pi_opt_in": "",
+        "campaign_id": 1199,
+        "account_id": 148201,
+        "title": "Educamos",
+        "url": "https://www.educamos.com/index.html",
+        "referrer": ""
+      },
+      "filter": ".com/analytics?",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.educamos.com/index.html",
+            "source": "requested from https://www.educamos.com/index.html and matched with easyprivacy.txt filter .com/analytics?"
+          }
+        ],
+        "timestamp": "2021-05-20T15:40:48.460Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://pi.pardot.com/pd.js",
+      "query": null,
+      "filter": "||pardot.com/pd.js",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.educamos.com/index.html",
+            "source": "requested from https://www.educamos.com/index.html and matched with easyprivacy.txt filter ||pardot.com/pd.js"
+          }
+        ],
+        "timestamp": "2021-05-20T15:40:47.764Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://www.google-analytics.com/j/collect?v=1&_v=j90&a=655231179&t=pageview&_s=1&dl=https%3A%2F%2Fwww.educamos.com%2Findex.html&ul=en-us&de=UTF-8&dt=Educamos&sd=24-bit&sr=1680x927&vp=1680x927&je=0&_u=AACAAEABAAAAAC~&jid=&gjid=&cid=1520489357.1621525246&tid=UA-78399105-1&_gid=324370259.1621525246&_slc=1&z=1881004266",
+      "query": {
+        "v": 1,
+        "_v": "j90",
+        "a": 655231179,
+        "t": "pageview",
+        "_s": 1,
+        "dl": "https://www.educamos.com/index.html",
+        "ul": "en-us",
+        "de": "UTF-8",
+        "dt": "Educamos",
+        "sd": "24-bit",
+        "sr": "1680x927",
+        "vp": "1680x927",
+        "je": 0,
+        "_u": "AACAAEABAAAAAC~",
+        "jid": "",
+        "gjid": "",
+        "cid": 1520489357.1621525,
+        "tid": "UA-78399105-1",
+        "_gid": 324370259.1621525,
+        "_slc": 1,
+        "z": 1881004266
+      },
+      "filter": "/collect?*&cid=",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.educamos.com/index.html",
+            "source": "requested from https://www.educamos.com/index.html and matched with easyprivacy.txt filter /collect?*&cid="
+          }
+        ],
+        "timestamp": "2021-05-20T15:40:47.438Z"
+      },
+      "occurrances": 2
+    },
+    {
+      "url": "https://www.google-analytics.com/analytics.js",
+      "query": null,
+      "filter": "||google-analytics.com/analytics.js",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://www.educamos.com/index.html",
+            "source": "requested from https://www.educamos.com/index.html and matched with easyprivacy.txt filter ||google-analytics.com/analytics.js"
+          }
+        ],
+        "timestamp": "2021-05-20T15:40:47.224Z"
+      },
+      "occurrances": 2
+    },
+    {
+      "url": "https://stats.g.doubleclick.net/j/collect?t=dc&aip=1&_r=3&v=1&_v=j90&tid=UA-78399105-1&cid=1520489357.1621525246&jid=1420727443&gjid=649717732&_gid=324370259.1621525246&_u=IEBAAEAAAAAAAC~&z=2081440539",
+      "query": {
+        "t": "dc",
+        "aip": 1,
+        "_r": 3,
+        "v": 1,
+        "_v": "j90",
+        "tid": "UA-78399105-1",
+        "cid": 1520489357.1621525,
+        "jid": 1420727443,
+        "gjid": 649717732,
+        "_gid": 324370259.1621525,
+        "_u": "IEBAAEAAAAAAAC~",
+        "z": 2081440539
+      },
+      "filter": "||stats.g.doubleclick.net^",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://educamos.com/",
+            "source": "requested from https://educamos.com/ and matched with easyprivacy.txt filter ||stats.g.doubleclick.net^"
+          }
+        ],
+        "timestamp": "2021-05-20T15:40:46.568Z"
+      },
+      "occurrances": 1
+    }
+  ],
+  "hosts": {
+    "requests": {
+      "firstParty": [
+        "educamos.com"
+      ],
+      "thirdParty": [
+        "www.google-analytics.com",
+        "ajax.googleapis.com",
+        "stats.g.doubleclick.net",
+        "www.educamos.com",
+        "pi.pardot.com",
+        "marketing.grupo-sm.com",
+        "fast.wistia.com"
+      ]
+    },
+    "beacons": {
+      "firstParty": [],
+      "thirdParty": [
+        "marketing.grupo-sm.com",
+        "pi.pardot.com",
+        "www.google-analytics.com",
+        "stats.g.doubleclick.net"
+      ]
+    },
+    "cookies": {
+      "firstParty": [
+        "educamos.com"
+      ],
+      "thirdParty": [
+        "pardot.com",
+        "pi.pardot.com",
+        "www.educamos.com",
+        "marketing.grupo-sm.com"
+      ]
+    },
+    "localStorage": {
+      "firstParty": [],
+      "thirdParty": [
+        "www.educamos.com"
+      ]
+    },
+    "links": {
+      "firstParty": [],
+      "thirdParty": [
+        "www.educamos.com",
+        "www.grupo-sm.com"
+      ]
+    }
+  }
+}

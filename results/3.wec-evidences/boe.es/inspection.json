@@ -1,0 +1,474 @@
+{
+  "title": "Website Evidence Collection",
+  "task_description": null,
+  "uri_ins": "https://boe.es",
+  "uri_refs": [
+    "https://boe.es"
+  ],
+  "uri_dest": "https://boe.es/",
+  "uri_redirects": [],
+  "secure_connection": {
+    "https_support": true,
+    "redirects": [
+      "https://boe.es/"
+    ],
+    "https_redirect": true
+  },
+  "host": "boe.es",
+  "script": {
+    "host": "sfod",
+    "version": {
+      "npm": "1.0.0",
+      "commit": null
+    },
+    "cmd_args": "-q --overwrite https://boe.es -- --ignore-certificate-errors",
+    "environment": {
+      "CHROME_DESKTOP": "code-url-handler.desktop"
+    },
+    "node_version": "v14.17.0"
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "HeadlessChrome/80.0.3987.0",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3617.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "5.8.0-53-generic"
+    },
+    "extra_headers": {},
+    "preset_cookies": {}
+  },
+  "start_time": "2021-05-20T15:41:05.132Z",
+  "end_time": "2021-05-20T15:41:10.414Z",
+  "links": {
+    "firstParty": [
+      {
+        "href": "https://boe.es/",
+        "inner_text": "Ir a contenido",
+        "inner_html": "Ir a contenido"
+      },
+      {
+        "href": "https://boe.es/diario_boe/",
+        "inner_text": "Consultar el diario oficial BOE",
+        "inner_html": "Consultar el diario oficial BOE"
+      },
+      {
+        "href": "https://boe.es/index.php?lang=es",
+        "inner_text": "esCastellano",
+        "inner_html": "<span aria-hidden=\"true\" class=\"idioma\"><abbr title=\"español/castellano\">es</abbr><em>Castellano</em></span>"
+      },
+      {
+        "href": "https://boe.es/index.php?lang=ca",
+        "inner_text": "caCatalà",
+        "inner_html": "<span aria-hidden=\"true\" class=\"idioma\"><abbr title=\"català\">ca</abbr><em>Català</em></span>"
+      },
+      {
+        "href": "https://boe.es/index.php?lang=gl",
+        "inner_text": "glGalego",
+        "inner_html": "<span aria-hidden=\"true\" class=\"idioma\"><abbr title=\"galego\">gl</abbr><em>Galego</em></span>"
+      },
+      {
+        "href": "https://boe.es/index.php?lang=eu",
+        "inner_text": "euEuskara",
+        "inner_html": "<span aria-hidden=\"true\" class=\"idioma\"><abbr title=\"euskara\">eu</abbr><em>Euskara</em></span>"
+      },
+      {
+        "href": "https://boe.es/index.php?lang=va",
+        "inner_text": "vaValencià",
+        "inner_html": "<span aria-hidden=\"true\" class=\"idioma\"><abbr title=\"valencià\">va</abbr><em>Valencià</em></span>"
+      },
+      {
+        "href": "https://boe.es/index.php?lang=en",
+        "inner_text": "enEnglish",
+        "inner_html": "<span aria-hidden=\"true\" class=\"idioma\"><abbr title=\"english\">en</abbr><em>English</em></span>"
+      },
+      {
+        "href": "https://boe.es/index.php?lang=fr",
+        "inner_text": "frFrançais",
+        "inner_html": "<span aria-hidden=\"true\" class=\"idioma\"><abbr title=\"français\">fr</abbr><em>Français</em></span>"
+      },
+      {
+        "href": "https://boe.es/buscar/",
+        "inner_text": "Buscar",
+        "inner_html": "<span class=\"botonBuscar\">Buscar</span>"
+      },
+      {
+        "href": "https://boe.es/mi_boe/",
+        "inner_text": "Mi BOE",
+        "inner_html": "<span class=\"botonMiBOE\">Mi BOE <span class=\"luz\">Desconectado.<br>Pulse para acceder al servicio 'Mi BOE'</span></span>"
+      },
+      {
+        "href": "https://boe.es/index.php",
+        "inner_text": "Diarios Oficiales",
+        "inner_html": "Diarios Oficiales"
+      },
+      {
+        "href": "https://boe.es/diario_boe",
+        "inner_text": "BOE",
+        "inner_html": "BOE"
+      },
+      {
+        "href": "https://boe.es/diario_borme",
+        "inner_text": "BORME",
+        "inner_html": "BORME"
+      },
+      {
+        "href": "https://boe.es/legislacion/otros_diarios_oficiales.php",
+        "inner_text": "Otros diarios oficiales",
+        "inner_html": "Otros diarios oficiales"
+      },
+      {
+        "href": "https://boe.es/legislacion/",
+        "inner_text": "Todo el Derecho",
+        "inner_html": "Todo el Derecho"
+      },
+      {
+        "href": "https://boe.es/biblioteca_juridica/",
+        "inner_text": "Biblioteca Jurídica Digital",
+        "inner_html": "Biblioteca Jurídica Digital"
+      },
+      {
+        "href": "https://boe.es/notificaciones",
+        "inner_text": "Notificaciones en BOE",
+        "inner_html": "Notificaciones en BOE"
+      },
+      {
+        "href": "https://boe.es/anuncios",
+        "inner_text": "Anunciantes",
+        "inner_html": "Anunciantes"
+      },
+      {
+        "href": "https://boe.es/biblioteca_juridica/index.php?modo=1&tipo=C",
+        "inner_text": "",
+        "inner_html": "<img src=\"/imagenes/home/img_codigos_covid.png\" title=\"Códigos electrónicos Covid-19\" alt=\"Códigos electrónicos Covid-19\"><span class=\"movil\">Códigos electrónicos Covid-19</span>"
+      },
+      {
+        "href": "https://boe.es/diario_boe/ultimo.php",
+        "inner_text": "Último BOE",
+        "inner_html": "<span>Último BOE</span>"
+      },
+      {
+        "href": "https://boe.es/buscar/boe.php",
+        "inner_text": "Buscar en BOE",
+        "inner_html": "<span>Buscar en BOE</span>"
+      },
+      {
+        "href": "https://boe.es/diario_borme/",
+        "inner_text": "Boletín Oficial del Registro Mercantil",
+        "inner_html": "<span class=\"fuera\">Boletín Oficial del Registro Mercantil</span>"
+      },
+      {
+        "href": "https://boe.es/diario_borme/ultimo.php",
+        "inner_text": "Último BORME",
+        "inner_html": "<span>Último BORME</span>"
+      },
+      {
+        "href": "https://boe.es/buscar/anborme.php",
+        "inner_text": "Buscar en BORME",
+        "inner_html": "<span>Buscar en BORME</span>"
+      },
+      {
+        "href": "https://boe.es/buscar/legislacion.php",
+        "inner_text": "Legislación",
+        "inner_html": "<span>Legislación</span>"
+      },
+      {
+        "href": "https://boe.es/buscar/fiscalia.php",
+        "inner_text": "Doctrina de la Fiscalía",
+        "inner_html": "<span>Doctrina de la Fiscalía</span>"
+      },
+      {
+        "href": "https://boe.es/legislacion/derechos_fundamentales.php",
+        "inner_text": "Derechos fundamentales",
+        "inner_html": "<span>Derechos fundamentales</span>"
+      },
+      {
+        "href": "https://boe.es/buscar/consejo_estado.php",
+        "inner_text": "Dictámenes del Consejo de Estado",
+        "inner_html": "<span>Dictámenes del Consejo de Estado</span>"
+      },
+      {
+        "href": "https://boe.es/buscar/abogacia_estado.php",
+        "inner_text": "Abogacía del Estado",
+        "inner_html": "<span>Abogacía del Estado</span>"
+      },
+      {
+        "href": "https://boe.es/legislacion/union_europea.php",
+        "inner_text": "Derecho de la Unión Europea",
+        "inner_html": "<span>Derecho de la Unión Europea</span>"
+      },
+      {
+        "href": "https://boe.es/buscar/gazeta.php",
+        "inner_text": "Colección histórica: Gazeta (1661-1959)",
+        "inner_html": "<span>Colección histórica: Gazeta (1661-1959)</span>"
+      },
+      {
+        "href": "https://boe.es/buscar",
+        "inner_text": "Más búsquedas",
+        "inner_html": "Más búsquedas"
+      },
+      {
+        "href": "https://boe.es/biblioteca_juridica/index.php?tipo=L",
+        "inner_text": "Libros jurídicos electrónicos",
+        "inner_html": "<span>Libros jurídicos electrónicos</span>"
+      },
+      {
+        "href": "https://boe.es/biblioteca_juridica/index.php?tipo=C",
+        "inner_text": "Códigos electrónicos",
+        "inner_html": "<span>Códigos electrónicos</span>"
+      },
+      {
+        "href": "https://boe.es/biblioteca_juridica/index.php?tipo=U",
+        "inner_text": "Códigos electrónicos universitarios",
+        "inner_html": "<span>Códigos electrónicos universitarios</span>"
+      },
+      {
+        "href": "https://boe.es/biblioteca_juridica/index.php?tipo=R",
+        "inner_text": "Anuarios y jurisprudencia",
+        "inner_html": "<span>Anuarios y jurisprudencia</span>"
+      },
+      {
+        "href": "https://boe.es/biblioteca_juridica/index.php?tipo=A",
+        "inner_text": "Revistas de Administración Pública",
+        "inner_html": "<span>Revistas de Administración Pública</span>"
+      },
+      {
+        "href": "https://boe.es/biblioteca_juridica/index.php?tipo=E",
+        "inner_text": "La Editorial del BOE",
+        "inner_html": "<span>La Editorial del BOE</span>"
+      },
+      {
+        "href": "https://boe.es/comercializacion",
+        "inner_text": "La Librería del BOE",
+        "inner_html": "La Librería del BOE"
+      },
+      {
+        "href": "https://boe.es/notificaciones/",
+        "inner_text": "Notificaciones en BOE",
+        "inner_html": "<img src=\"/imagenes/home/teu_270.png\" srcset=\"/imagenes/home/teu_270.svg\" alt=\"\"><span class=\"exh3\">Notificaciones en BOE</span>"
+      },
+      {
+        "href": "https://boe.es/organismo/",
+        "inner_text": "La Agencia",
+        "inner_html": "La Agencia"
+      },
+      {
+        "href": "https://boe.es/contactar/",
+        "inner_text": "Contactar",
+        "inner_html": "Contactar"
+      },
+      {
+        "href": "https://boe.es/informacion/index.php",
+        "inner_text": "Sobre esta sede electrónica",
+        "inner_html": "Sobre esta sede electrónica"
+      },
+      {
+        "href": "https://boe.es/informacion/mapa_web/",
+        "inner_text": "Mapa",
+        "inner_html": "Mapa"
+      },
+      {
+        "href": "https://boe.es/informacion/aviso_legal/index.php",
+        "inner_text": "Aviso legal",
+        "inner_html": "Aviso legal"
+      },
+      {
+        "href": "https://boe.es/informacion/accesibilidad/",
+        "inner_text": "Accesibilidad",
+        "inner_html": "Accesibilidad"
+      },
+      {
+        "href": "https://boe.es/informacion/tutoriales/",
+        "inner_text": "Tutoriales",
+        "inner_html": "Tutoriales"
+      },
+      {
+        "href": "https://boe.es/rss/",
+        "inner_text": "",
+        "inner_html": "<img src=\"/imagenes/home/rss_32.png\" srcset=\"/imagenes/home/rss_32.svg\" alt=\"RSS\">"
+      },
+      {
+        "href": "https://boe.es/redes_sociales?pag=tw",
+        "inner_text": "",
+        "inner_html": "<img src=\"/imagenes/home/twitter_32.png\" srcset=\"/imagenes/home/twitter_32.svg\" alt=\"Twitter\">"
+      },
+      {
+        "href": "https://boe.es/redes_sociales?pag=fb",
+        "inner_text": "",
+        "inner_html": "<img src=\"/imagenes/home/facebook_32.png\" srcset=\"/imagenes/home/facebook_32.svg\" alt=\"Facebook\">"
+      },
+      {
+        "href": "https://boe.es/redes_sociales?pag=ln",
+        "inner_text": "",
+        "inner_html": "<img src=\"/imagenes/home/linkedin_32.png\" srcset=\"/imagenes/home/linkedin_32.svg\" alt=\"LinkedIn\">"
+      },
+      {
+        "href": "https://boe.es/redes_sociales?pag=yt",
+        "inner_text": "",
+        "inner_html": "<img src=\"/imagenes/home/youtube_32.png\" srcset=\"/imagenes/home/youtube_32.svg\" alt=\"YouTube\">"
+      }
+    ],
+    "thirdParty": [
+      {
+        "href": "http://www.mpr.es/",
+        "inner_text": "",
+        "inner_html": "<img src=\"/imagenes/logoMPRmovil.png\" alt=\"Ministerio de la Presidencia\">"
+      },
+      {
+        "href": "https://subastas.boe.es/",
+        "inner_text": "Portal de subastas",
+        "inner_html": "Portal de subastas"
+      },
+      {
+        "href": "http://eur-lex.europa.eu/JOIndex.do?ihmlang=es",
+        "inner_text": "Unión Europea (DOUE)",
+        "inner_html": "Unión Europea (<abbr title=\"Diario Oficial de la Unión Europea\">DOUE</abbr>)"
+      },
+      {
+        "href": "http://hj.tribunalconstitucional.es/",
+        "inner_text": "Tribunal Constitucional",
+        "inner_html": "<span>Tribunal Constitucional</span>"
+      },
+      {
+        "href": "http://www.poderjudicial.es/search/indexAN.jsp",
+        "inner_text": "Jurisprudencia (CENDOJ)",
+        "inner_html": "<span>Jurisprudencia (CENDOJ)</span>"
+      },
+      {
+        "href": "https://contrataciondelestado.es/wps/poc?uri=deeplink%3AperfilContratante&idBp=FP5CxnKlO20QK2TEfXGy%2BA%3D%3D",
+        "inner_text": "Perfil del contratante",
+        "inner_html": "Perfil del contratante"
+      }
+    ],
+    "social": [],
+    "keywords": [
+      {
+        "href": "https://boe.es/informacion/aviso_legal/index.php",
+        "inner_text": "Aviso legal",
+        "inner_html": "Aviso legal"
+      }
+    ]
+  },
+  "unsafeForms": [],
+  "browsing_history": [
+    "https://boe.es/"
+  ],
+  "websockets": {},
+  "cookies": [],
+  "localStorage": {},
+  "beacons": [
+    {
+      "url": "https://boe.es/imagenes/home/youtube_32.svg",
+      "query": null,
+      "filter": "/youtube_32",
+      "listName": "fanboy-annoyance.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://boe.es/",
+            "source": "requested from https://boe.es/ and matched with fanboy-annoyance.txt filter /youtube_32"
+          }
+        ],
+        "timestamp": "2021-05-20T15:41:05.482Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://boe.es/imagenes/home/linkedin_32.svg",
+      "query": null,
+      "filter": "/linkedin_32",
+      "listName": "fanboy-annoyance.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://boe.es/",
+            "source": "requested from https://boe.es/ and matched with fanboy-annoyance.txt filter /linkedin_32"
+          }
+        ],
+        "timestamp": "2021-05-20T15:41:05.481Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://boe.es/imagenes/home/facebook_32.svg",
+      "query": null,
+      "filter": "/facebook_32",
+      "listName": "fanboy-annoyance.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://boe.es/",
+            "source": "requested from https://boe.es/ and matched with fanboy-annoyance.txt filter /facebook_32"
+          }
+        ],
+        "timestamp": "2021-05-20T15:41:05.480Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://boe.es/imagenes/home/twitter_32.svg",
+      "query": null,
+      "filter": "/twitter_32",
+      "listName": "fanboy-annoyance.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://boe.es/",
+            "source": "requested from https://boe.es/ and matched with fanboy-annoyance.txt filter /twitter_32"
+          }
+        ],
+        "timestamp": "2021-05-20T15:41:05.480Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://boe.es/imagenes/home/rss_32.svg",
+      "query": null,
+      "filter": "/rss_32.",
+      "listName": "fanboy-annoyance.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "https://boe.es/",
+            "source": "requested from https://boe.es/ and matched with fanboy-annoyance.txt filter /rss_32."
+          }
+        ],
+        "timestamp": "2021-05-20T15:41:05.479Z"
+      },
+      "occurrances": 1
+    }
+  ],
+  "hosts": {
+    "requests": {
+      "firstParty": [
+        "boe.es"
+      ],
+      "thirdParty": []
+    },
+    "beacons": {
+      "firstParty": [],
+      "thirdParty": []
+    },
+    "cookies": {
+      "firstParty": [],
+      "thirdParty": []
+    },
+    "localStorage": {
+      "firstParty": [],
+      "thirdParty": []
+    },
+    "links": {
+      "firstParty": [
+        "boe.es"
+      ],
+      "thirdParty": [
+        "www.mpr.es",
+        "subastas.boe.es",
+        "eur-lex.europa.eu",
+        "hj.tribunalconstitucional.es",
+        "www.poderjudicial.es",
+        "contrataciondelestado.es"
+      ]
+    }
+  }
+}

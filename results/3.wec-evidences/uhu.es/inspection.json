@@ -1,0 +1,887 @@
+{
+  "title": "Website Evidence Collection",
+  "task_description": null,
+  "uri_ins": "https://uhu.es",
+  "uri_refs": [
+    "https://uhu.es"
+  ],
+  "uri_dest": "http://www.uhu.es/index.php",
+  "uri_redirects": [],
+  "secure_connection": {
+    "https_support": false,
+    "https_error": "RequestError: Error: unable to verify the first certificate",
+    "redirects": [],
+    "https_redirect": false
+  },
+  "host": "uhu.es",
+  "script": {
+    "host": "sfod",
+    "version": {
+      "npm": "1.0.0",
+      "commit": null
+    },
+    "cmd_args": "-q --overwrite https://uhu.es -- --ignore-certificate-errors",
+    "environment": {
+      "CHROME_DESKTOP": "code-url-handler.desktop"
+    },
+    "node_version": "v14.17.0"
+  },
+  "browser": {
+    "name": "Chromium",
+    "version": "HeadlessChrome/80.0.3987.0",
+    "user_agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3617.0 Safari/537.36",
+    "platform": {
+      "name": "Linux",
+      "version": "5.8.0-53-generic"
+    },
+    "extra_headers": {},
+    "preset_cookies": {}
+  },
+  "start_time": "2021-05-20T16:41:20.858Z",
+  "end_time": "2021-05-20T16:41:27.956Z",
+  "links": {
+    "firstParty": [
+      {
+        "href": "http://uhu.es/canaluhu/?p=17510",
+        "inner_text": "20/05/2021 - Destacado\nLa UHU analiza el sistema tributario de las empresas familiares",
+        "inner_html": "<div class=\"textoNoticia\"><h3><i>20/05/2021 - Destacado</i></h3><h2>La UHU analiza el sistema tributario de las empresas familiares</h2></div>"
+      },
+      {
+        "href": "http://uhu.es/canaluhu/?p=17507",
+        "inner_text": "18/05/2021 - DestacadoLa UHU acoge una exposición de poesía visual de la artista María JL Hierro",
+        "inner_html": "<div class=\"textoNoticia\"><h3><i>18/05/2021 - Destacado</i></h3><h2>La UHU acoge una exposición de poesía visual de la artista María JL Hierro</h2></div>"
+      },
+      {
+        "href": "http://uhu.es/canaluhu/?p=17495",
+        "inner_text": "15/05/2021 - DestacadoMaría JL Hierro y Martín Lagares: La obra busca impactar y no dejar indiferente",
+        "inner_html": "<div class=\"textoNoticia\"><h3><i>15/05/2021 - Destacado</i></h3><h2>María JL Hierro y Martín Lagares: La obra busca impactar y no dejar indiferente</h2></div>"
+      },
+      {
+        "href": "http://uhu.es/canaluhu/?p=17492",
+        "inner_text": "14/05/2021 - DestacadoLa UHU convoca a las familias de los jóvenes preuniversitarios a un encuentro para i...",
+        "inner_html": "<div class=\"textoNoticia\"><h3><i>14/05/2021 - Destacado</i></h3><h2>La UHU convoca a las familias de los jóvenes preuniversitarios a un encuentro para i...</h2></div>"
+      },
+      {
+        "href": "http://uhu.es/canaluhu/?p=17486",
+        "inner_text": "12/05/2021 - DestacadoEl catedrático Alfonso Vargas vaticina un \"efecto champán\" del turismo en verano tr...",
+        "inner_html": "<div class=\"textoNoticia\"><h3><i>12/05/2021 - Destacado</i></h3><h2>El catedrático Alfonso Vargas vaticina un \"efecto champán\" del turismo en verano tr...</h2></div>"
+      },
+      {
+        "href": "http://uhu.es/sric/uploads/2021/05/10.%20Convocatoria%20KA103%20Doctorado%202021-22%20%28signed%29.pdf",
+        "inner_text": "+Info",
+        "inner_html": "+Info"
+      },
+      {
+        "href": "http://uhu.es/sric/uploads/2021/05/Convocatoria%20KA103%20y%20KA107%20M%C3%A1ster%202021-22%20(signed).pdf",
+        "inner_text": "+Info",
+        "inner_html": "+Info"
+      },
+      {
+        "href": "http://uhu.es/fexp/aulasostenibilidad/",
+        "inner_text": "",
+        "inner_html": "<img src=\"imagenes/imagenes-index/iconosDestacados/aulasostenibilidad.png\">"
+      }
+    ],
+    "thirdParty": [
+      {
+        "href": "https://uhupeci.acentoweb.com/consejo-para-el-impulso-de-los-ods",
+        "inner_text": " ",
+        "inner_html": "<img class=\"iconoODS\" src=\"imagenes/imagenes-index/ODS.png\" alt=\"ODS\">"
+      },
+      {
+        "href": "https://uhupeci.acentoweb.com/efqm",
+        "inner_text": " ",
+        "inner_html": "<img class=\"iconoEFQM\" src=\"imagenes/imagenes-index/EFQM.png\" alt=\"EFQM\">"
+      },
+      {
+        "href": "http://www.uhu.es/english/index.htm",
+        "inner_text": "English",
+        "inner_html": "English"
+      },
+      {
+        "href": "http://moodle.uhu.es/",
+        "inner_text": "Campus Virtual",
+        "inner_html": "Campus Virtual"
+      },
+      {
+        "href": "http://www.uhu.es/biblioteca/",
+        "inner_text": "Biblioteca",
+        "inner_html": "Biblioteca"
+      },
+      {
+        "href": "http://www.uhu.es/cultura/",
+        "inner_text": "Cultura",
+        "inner_html": "Cultura"
+      },
+      {
+        "href": "http://www.uhu.es/deporte/",
+        "inner_text": "Deportes",
+        "inner_html": "Deportes"
+      },
+      {
+        "href": "http://www.uhu.es/publicaciones/",
+        "inner_text": "Publicaciones",
+        "inner_html": "Publicaciones"
+      },
+      {
+        "href": "http://www.uhu.es/sic/",
+        "inner_text": "Informática",
+        "inner_html": "Informática"
+      },
+      {
+        "href": "http://www.uhu.es/portales/portales.htm",
+        "inner_text": "Portales",
+        "inner_html": "Portales"
+      },
+      {
+        "href": "https://uhuempresa.blogspot.com/",
+        "inner_text": "Cátedras",
+        "inner_html": "Cátedras"
+      },
+      {
+        "href": "https://consigna.uhu.es/",
+        "inner_text": "",
+        "inner_html": "<img class=\"logoconsigna\" src=\"imagenes/imagenes-index/logoconsigna.gif\" alt=\"Servicio de Consigna\">"
+      },
+      {
+        "href": "http://listas.uhu.es/",
+        "inner_text": "",
+        "inner_html": "<img src=\"imagenes/imagenes-index/arroba.png\" alt=\"Listas de distribución\">"
+      },
+      {
+        "href": "http://correo.uhu.es/",
+        "inner_text": "",
+        "inner_html": "<img src=\"imagenes/imagenes-index/webmail.gif\" alt=\"Webmail\">"
+      },
+      {
+        "href": "http://www.uhu.es/sic/servicios/busquedas/",
+        "inner_text": "",
+        "inner_html": "<img src=\"imagenes/imagenes-index/buscar.gif\" alt=\"Búsquedas\">"
+      },
+      {
+        "href": "http://www.uhu.es/mapa.htm",
+        "inner_text": "",
+        "inner_html": "<img src=\"imagenes/imagenes-index/mapa.gif\" alt=\"Mapa web\">"
+      },
+      {
+        "href": "http://www.uhu.es/index.php",
+        "inner_text": "",
+        "inner_html": ""
+      },
+      {
+        "href": "http://www.uhu.es/rectorado/rectorado.htm",
+        "inner_text": "Rectorado",
+        "inner_html": "Rectorado"
+      },
+      {
+        "href": "http://www.uhu.es/rectorado/bienvenida.htm",
+        "inner_text": "Bienvenida",
+        "inner_html": "Bienvenida"
+      },
+      {
+        "href": "http://www.uhu.es/rectorado/rectora.htm",
+        "inner_text": "Rectora",
+        "inner_html": "Rectora"
+      },
+      {
+        "href": "http://www.uhu.es/rectorado/vicerrectorados/vicerrectorados.htm",
+        "inner_text": "Vicerrectorados",
+        "inner_html": "Vicerrectorados"
+      },
+      {
+        "href": "http://www.uhu.es/rectorado/secretariageneral.htm",
+        "inner_text": "Secretaría General",
+        "inner_html": "Secretaría General"
+      },
+      {
+        "href": "http://www.uhu.es/rectorado/gerencia.htm",
+        "inner_text": "Gerencia",
+        "inner_html": "Gerencia"
+      },
+      {
+        "href": "http://www.uhu.es/consejo.social/",
+        "inner_text": "Consejo Social",
+        "inner_html": "Consejo Social"
+      },
+      {
+        "href": "http://www.uhu.es/rectorado/gabinetedelarectora.htm",
+        "inner_text": "Gabinete de la Rectora",
+        "inner_html": "Gabinete de la Rectora"
+      },
+      {
+        "href": "http://www.uhu.es/rectorado/defensor.htm",
+        "inner_text": "Defensoría Universitaria",
+        "inner_html": "Defensoría Universitaria"
+      },
+      {
+        "href": "http://www.uhu.es/rectorado/inspector.htm",
+        "inner_text": "Inspección de Servicios",
+        "inner_html": "Inspección de Servicios"
+      },
+      {
+        "href": "http://www.uhu.es/rectorado/organosdegobierno.htm",
+        "inner_text": "Órganos de Gobierno",
+        "inner_html": "Órganos de Gobierno"
+      },
+      {
+        "href": "http://www.uhu.es/servicios/servicios.htm",
+        "inner_text": "Servicios",
+        "inner_html": "Servicios"
+      },
+      {
+        "href": "http://www.uhu.es/centros/centros.htm",
+        "inner_text": "Centros",
+        "inner_html": "Centros"
+      },
+      {
+        "href": "http://www.uhu.es/departamentos/departamentos.htm",
+        "inner_text": "Departamentos",
+        "inner_html": "Departamentos"
+      },
+      {
+        "href": "http://www.uhu.es/estudios/estudios.htm",
+        "inner_text": "Estudios",
+        "inner_html": "Estudios"
+      },
+      {
+        "href": "http://www.uhu.es/estudios/ofertaacademica/ofertaacademica.htm",
+        "inner_text": "Oferta Académica",
+        "inner_html": "Oferta Académica"
+      },
+      {
+        "href": "http://www.uhu.es/gestion.academica/acceso/acceso.htm",
+        "inner_text": "Acceso Nuevos Alumnos",
+        "inner_html": "Acceso Nuevos Alumnos"
+      },
+      {
+        "href": "http://www.uhu.es/gestion.academica/matricula/matricula.htm",
+        "inner_text": "Matrícula",
+        "inner_html": "Matrícula"
+      },
+      {
+        "href": "http://www.uhu.es/gestion.academica/becas/becasyayudas.htm",
+        "inner_text": "Becas y Ayudas",
+        "inner_html": "Becas y Ayudas"
+      },
+      {
+        "href": "http://www.uhu.es/estudios/movilidad/movilidad.htm",
+        "inner_text": "Movilidad Estudiantil",
+        "inner_html": "Movilidad Estudiantil"
+      },
+      {
+        "href": "http://www.uhu.es/lenguasmodernas/",
+        "inner_text": "Servicio de Lenguas Modernas",
+        "inner_html": "Servicio de Lenguas Modernas"
+      },
+      {
+        "href": "http://www.uhu.es/convergencia_europea/",
+        "inner_text": "Convergencia Europea",
+        "inner_html": "Convergencia Europea"
+      },
+      {
+        "href": "http://www.uhu.es/estudios/calendario/calendario.htm",
+        "inner_text": "Calendario Académico",
+        "inner_html": "Calendario Académico"
+      },
+      {
+        "href": "http://www.uhu.es/vic.investigacion/",
+        "inner_text": "Investigación",
+        "inner_html": "Investigación"
+      },
+      {
+        "href": "http://www.uhu.es/pie/informacion_catalogo.htm",
+        "inner_text": "Oferta académica",
+        "inner_html": "Oferta académica"
+      },
+      {
+        "href": "http://www.uhu.es/sacu/secretariaonline/",
+        "inner_text": "Información Secretaría online",
+        "inner_html": "Información Secretaría online"
+      },
+      {
+        "href": "http://www.uhu.es/pie",
+        "inner_text": "+ Info",
+        "inner_html": "+ Info"
+      },
+      {
+        "href": "http://www.uhu.es/campusvirtual/actasweb.htm",
+        "inner_text": "Actas vía web",
+        "inner_html": "Actas vía web"
+      },
+      {
+        "href": "http://www.uhu.es/formacion_innovacion",
+        "inner_text": "Formación e Innovación",
+        "inner_html": "Formación e Innovación"
+      },
+      {
+        "href": "http://www.uhu.es/sic/servicios/vpn/vpn.html",
+        "inner_text": "Satisfacción del alumnado",
+        "inner_html": "Satisfacción del alumnado"
+      },
+      {
+        "href": "http://www.uhu.es/perfiles/profesores.htm",
+        "inner_text": "+ Info",
+        "inner_html": "+ Info"
+      },
+      {
+        "href": "http://www.uhu.es/accionsocial/",
+        "inner_text": "Acción Social",
+        "inner_html": "Acción Social"
+      },
+      {
+        "href": "http://www.uhu.es/personal_administracion_servicios/",
+        "inner_text": "Sección PAS",
+        "inner_html": "Sección PAS"
+      },
+      {
+        "href": "http://www.uhu.es/perfiles/pas.htm",
+        "inner_text": "+ Info",
+        "inner_html": "+ Info"
+      },
+      {
+        "href": "http://www.mscbs.gob.es/profesionales/saludPublica/ccayes/alertasActual/nCov/documentos/COVID19_Ventilacion.pdf",
+        "inner_text": "+Info",
+        "inner_html": "+Info"
+      },
+      {
+        "href": "http://www.uhu.es/sec.general/Normativa/Texto_Normativa/2021.03.23.Resoluci%C3%B3n%20Rectoral%20firmada8-2021%20v3.pdf",
+        "inner_text": "+Info",
+        "inner_html": "+Info"
+      },
+      {
+        "href": "http://www.uhu.es/webflash",
+        "inner_text": "CANAL FLASH",
+        "inner_html": "CANAL FLASH"
+      },
+      {
+        "href": "https://cultura.uhu.es/cantero-rock-ma-jose-llergo/",
+        "inner_text": "",
+        "inner_html": "<img src=\"http://www.uhu.es/webflash/privado/capturas/img/thumb_captura_2828.jpg\" title=\"Noticia\">"
+      },
+      {
+        "href": "https://cultura.uhu.es/inauguracion-de-la-exposicion-tipoesia-de-maria-jl-hierro/",
+        "inner_text": "",
+        "inner_html": "<img src=\"http://www.uhu.es/webflash/privado/capturas/img/thumb_captura_2827.jpg\" title=\"Noticia\">"
+      },
+      {
+        "href": "https://cultura.uhu.es/xiv-ciclo-de-musica-antigua-arquitectura-y-musica/",
+        "inner_text": "",
+        "inner_html": "<img src=\"http://www.uhu.es/webflash/privado/capturas/img/thumb_captura_2826.jpg\" title=\"Noticia\">"
+      },
+      {
+        "href": "http://www.uhu.es/formacion_profesorado/cursos2021/",
+        "inner_text": "",
+        "inner_html": "<img src=\"http://www.uhu.es/webflash/privado/capturas/img/thumb_captura_2824.jpg\" title=\"Noticia\">"
+      },
+      {
+        "href": "http://www.uhu.es/deporte/nuevaweb/?q=actividades-veractividad&code=277",
+        "inner_text": "",
+        "inner_html": "<img src=\"http://www.uhu.es/webflash/privado/capturas/img/thumb_captura_2821.jpg\" title=\"Noticia\">"
+      },
+      {
+        "href": "https://www.bolsainternet.com/unihuelva/",
+        "inner_text": "",
+        "inner_html": "<img src=\"http://www.uhu.es/webflash/privado/capturas/img/thumb_captura_2804.jpg\" title=\"Noticia\">"
+      },
+      {
+        "href": "http://www.uhu.es/deporte/nuevaweb/?q=actividades-veractividad&code=280",
+        "inner_text": "",
+        "inner_html": "<img src=\"http://www.uhu.es/webflash/privado/capturas/img/thumb_captura_2803.jpg\" title=\"Noticia\">"
+      },
+      {
+        "href": "http://www.uhu.es/deporte/nuevaweb/?q=actualidad&id=221",
+        "inner_text": "",
+        "inner_html": "<img src=\"http://www.uhu.es/webflash/privado/capturas/img/thumb_captura_2791.jpg\" title=\"Noticia\">"
+      },
+      {
+        "href": "https://www.uhu.es/soipea/unpasoadelante/?q=cursos-masinformacion&code=2021A2001",
+        "inner_text": "",
+        "inner_html": "<img src=\"http://www.uhu.es/webflash/privado/capturas/img/thumb_captura_2785.jpg\" title=\"Noticia\">"
+      },
+      {
+        "href": "http://www.ceia3.es/es/ayudas-y-convocatorias/convo-premios/convocatoria-ceia3-concurso-de-proyectos-de-empresa-a3bt-2021-premios-emilio-botin/?idU=2&utm_source=newsletter_42&utm_medium=email&utm_camp",
+        "inner_text": "",
+        "inner_html": "<img src=\"http://www.uhu.es/webflash/privado/capturas/img/thumb_captura_2747.jpg\" title=\"Noticia\">"
+      },
+      {
+        "href": "http://elecciones2021.uhu.es/",
+        "inner_text": "Elecciones al Rectorado\n\nAcceso a los resultados",
+        "inner_html": "<div id=\"UHUInvestiga\">\n                        <h5>Elecciones al Rectorado</h5>\n                        <p>Acceso a los resultados</p>\n                </div>"
+      },
+      {
+        "href": "http://www.uhu.es/servicio.prevencion/Coronavirus/coronavirus.htm",
+        "inner_text": "Coronavirus\n\nInformación importante sobre el COVID-19",
+        "inner_html": "<div id=\"CanalUHU\">\n                        <h5>Coronavirus</h5>\n                        <p>Información importante sobre el COVID-19</p>\n                </div>"
+      },
+      {
+        "href": "http://ae.uhu.es/",
+        "inner_text": "",
+        "inner_html": "<img src=\"imagenes/imagenes-index/iconosEnlaces/iconoAE.png\" alt=\"Administración Electrónica\">"
+      },
+      {
+        "href": "http://www.uhu.es/rrhh/personal_capitulo_vi.htm",
+        "inner_text": "",
+        "inner_html": "<img src=\"imagenes/imagenes-index/iconosDestacados/iconoofertaempleo.png\">"
+      },
+      {
+        "href": "http://murcs.eu/",
+        "inner_text": "",
+        "inner_html": "<img src=\"imagenes/imagenes-index/iconosDestacados/MasterErasmusMundus.png\">"
+      },
+      {
+        "href": "http://www.uhu.es/sacu/",
+        "inner_text": "",
+        "inner_html": "<img src=\"imagenes/imagenes-index/iconosDestacados/sacu.png\">"
+      },
+      {
+        "href": "http://www.uhu.es/gerencia/info_economica/contratacion/PerfilDelContratante/PerfilDelContratante.html",
+        "inner_text": "",
+        "inner_html": "<img src=\"imagenes/imagenes-index/iconosDestacados/iconoPerfilContratante.png\">"
+      },
+      {
+        "href": "http://www.uhu.es/gestion.academica/acceso/PEVAU/PEVAU_NUEVO.htm",
+        "inner_text": "",
+        "inner_html": "<img src=\"imagenes/imagenes-index/iconosDestacados/iconoSelectividad.png\">"
+      },
+      {
+        "href": "http://www.uhu.es/gestion.academica/pagos_online.htm",
+        "inner_text": "",
+        "inner_html": "<img src=\"imagenes/imagenes-index/iconosDestacados/PagosdeMatriculaOnline.png\">"
+      },
+      {
+        "href": "http://portafirmas.uhu.es/",
+        "inner_text": "",
+        "inner_html": "<img src=\"imagenes/imagenes-index/iconosDestacados/iconoPortafirmas.png\">"
+      },
+      {
+        "href": "http://www.uco.es/cei-A3/",
+        "inner_text": "",
+        "inner_html": "<img src=\"imagenes/imagenes-index/iconosDestacados/cei-A3.png\">"
+      },
+      {
+        "href": "http://www.magna-charta.org/",
+        "inner_text": "",
+        "inner_html": "<img src=\"imagenes/imagenes-index/iconosDestacados/observatory.png\">"
+      },
+      {
+        "href": "http://www.campusdelmar.es/",
+        "inner_text": "",
+        "inner_html": "<img src=\"imagenes/imagenes-index/iconosDestacados/ceimar.png\">"
+      },
+      {
+        "href": "http://icaro.ual.es/uhu",
+        "inner_text": "",
+        "inner_html": "<img id=\"Icaro\" src=\"imagenes/imagenes-index/iconosEnlaces/icaro.png\" alt=\"�~Mcaro\">"
+      },
+      {
+        "href": "http://petrel.uhu.es/",
+        "inner_text": "",
+        "inner_html": "<img id=\"Petrel\" src=\"imagenes/imagenes-index/iconosEnlaces/petrel.png\" alt=\"Petrel - Portal de Software Libre\">"
+      },
+      {
+        "href": "http://www.uhu.es/sic/servicios/portal",
+        "inner_text": "",
+        "inner_html": "<img id=\"PortalTelematico\" src=\"imagenes/imagenes-index/iconosEnlaces/portaltelematico.png\" alt=\"Portal Telemático\">"
+      },
+      {
+        "href": "https://au.uhu.es/",
+        "inner_text": "",
+        "inner_html": "<img id=\"Portal Atencion Usuario\" src=\"imagenes/imagenes-index/iconosEnlaces/portalcau.png\" alt=\"CAU\">"
+      },
+      {
+        "href": "http://transparencia.uhu.es/",
+        "inner_text": "",
+        "inner_html": "<img id=\"PortaldeTransparencia\" src=\"imagenes/imagenes-index/iconosEnlaces/iconoPortaldeTransparencia.png\" alt=\"Portal de Transparencia\">"
+      },
+      {
+        "href": "http://eventos.uhu.es/",
+        "inner_text": "",
+        "inner_html": "<img id=\"Eventos\" src=\"imagenes/imagenes-index/iconosEnlaces/iconoEventos.png\" alt=\"Plataforma de Eventos\">"
+      },
+      {
+        "href": "http://rabida.uhu.es/dspace/",
+        "inner_text": "",
+        "inner_html": "<img id=\"AriasMontano\" src=\"imagenes/imagenes-index/iconosEnlaces/ariasmontano.png\" alt=\"Arias Montano - Repositorio Institucional de la UHU\">"
+      },
+      {
+        "href": "http://www.uhu.es/uniradio/",
+        "inner_text": "",
+        "inner_html": "<img id=\"Uniradio\" src=\"imagenes/imagenes-index/iconosEnlaces/uniradio.png\" alt=\"UniRadio\">"
+      },
+      {
+        "href": "https://www.instagram.com/unihuelva",
+        "inner_text": "",
+        "inner_html": "<img src=\"imagenes/imagenes-index/instagram.png\" alt=\"Instagram\">"
+      },
+      {
+        "href": "http://www.facebook.com/pages/Universidad-de-Huelva/206861249327165",
+        "inner_text": "",
+        "inner_html": "<img src=\"imagenes/imagenes-index/facebook.png\" alt=\"Facebook\">"
+      },
+      {
+        "href": "http://twitter.com/UniHuelva",
+        "inner_text": "",
+        "inner_html": "<img src=\"imagenes/imagenes-index/twitter.png\" alt=\"Twitter\">"
+      },
+      {
+        "href": "http://es.linkedin.com/in/universidaddehuelva",
+        "inner_text": "",
+        "inner_html": "<img src=\"imagenes/imagenes-index/linkedin.png\" alt=\"Linkedin\">"
+      },
+      {
+        "href": "https://t.me/unihuelva",
+        "inner_text": "",
+        "inner_html": "<img src=\"imagenes/imagenes-index/telegram.png\" alt=\"Telegram\">"
+      },
+      {
+        "href": "http://www.uhu.es/declaracion-accesibilidad",
+        "inner_text": "Accesibilidad",
+        "inner_html": "Accesibilidad"
+      },
+      {
+        "href": "http://www.crue.org/",
+        "inner_text": "",
+        "inner_html": "<img src=\"imagenes/imagenes-index/iconoCrue.png\" alt=\"CRUE\">"
+      },
+      {
+        "href": "http://www.universia.es/",
+        "inner_text": "",
+        "inner_html": "<img src=\"imagenes/imagenes-index/iconoUniversia.png\" alt=\"Universia\">"
+      }
+    ],
+    "social": [
+      {
+        "href": "https://www.instagram.com/unihuelva",
+        "inner_text": "",
+        "inner_html": "<img src=\"imagenes/imagenes-index/instagram.png\" alt=\"Instagram\">"
+      },
+      {
+        "href": "http://www.facebook.com/pages/Universidad-de-Huelva/206861249327165",
+        "inner_text": "",
+        "inner_html": "<img src=\"imagenes/imagenes-index/facebook.png\" alt=\"Facebook\">"
+      },
+      {
+        "href": "http://twitter.com/UniHuelva",
+        "inner_text": "",
+        "inner_html": "<img src=\"imagenes/imagenes-index/twitter.png\" alt=\"Twitter\">"
+      },
+      {
+        "href": "http://es.linkedin.com/in/universidaddehuelva",
+        "inner_text": "",
+        "inner_html": "<img src=\"imagenes/imagenes-index/linkedin.png\" alt=\"Linkedin\">"
+      }
+    ],
+    "keywords": []
+  },
+  "unsafeForms": [],
+  "browsing_history": [
+    "http://www.uhu.es/index.php"
+  ],
+  "websockets": {},
+  "cookies": [
+    {
+      "name": "_ga",
+      "value": "GA1.2.748926935.1621528883",
+      "domain": "uhu.es",
+      "path": "/",
+      "expires": 1684600882,
+      "size": 29,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2023-05-20T16:41:22.000Z",
+      "expiresDays": 730,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 495,
+            "lineNumber": 30,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "zc",
+            "source": "    at zc (https://www.google-analytics.com/analytics.js:30:495)"
+          },
+          {
+            "columnNumber": 15,
+            "lineNumber": 60,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "ma",
+            "source": "    at ma (https://www.google-analytics.com/analytics.js:60:15)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T16:41:22.826Z",
+        "location": "http://www.uhu.es/index.php"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "_gid",
+      "value": "GA1.2.1450851894.1621528883",
+      "domain": "uhu.es",
+      "path": "/",
+      "expires": 1621615282,
+      "size": 31,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2021-05-21T16:41:22.000Z",
+      "expiresDays": 1,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 495,
+            "lineNumber": 30,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "zc",
+            "source": "    at zc (https://www.google-analytics.com/analytics.js:30:495)"
+          },
+          {
+            "columnNumber": 401,
+            "lineNumber": 59,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "ma",
+            "source": "    at ma (https://www.google-analytics.com/analytics.js:59:401)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T16:41:22.828Z",
+        "location": "http://www.uhu.es/index.php"
+      },
+      "firstPartyStorage": true
+    },
+    {
+      "name": "_gat_gtag_UA_165726527_1",
+      "value": "1",
+      "domain": "uhu.es",
+      "path": "/",
+      "expires": 1621528942,
+      "size": 25,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "expiresUTC": "2021-05-20T16:42:22.000Z",
+      "expiresDays": 0,
+      "log": {
+        "stack": [
+          {
+            "columnNumber": 495,
+            "lineNumber": 30,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "zc",
+            "source": "    at zc (https://www.google-analytics.com/analytics.js:30:495)"
+          },
+          {
+            "columnNumber": 31,
+            "lineNumber": 73,
+            "fileName": "https://www.google-analytics.com/analytics.js",
+            "functionName": "Qd",
+            "source": "    at Qd (https://www.google-analytics.com/analytics.js:73:31)"
+          }
+        ],
+        "type": "Cookie.JS",
+        "timestamp": "2021-05-20T16:41:22.829Z",
+        "location": "http://www.uhu.es/index.php"
+      },
+      "firstPartyStorage": true
+    }
+  ],
+  "localStorage": {},
+  "beacons": [
+    {
+      "url": "https://www.google-analytics.com/collect?v=1&_v=j90&a=1407705426&t=pageview&_s=2&dl=http%3A%2F%2Fwww.uhu.es%2Findex.php&ul=en-us&de=UTF-8&dt=Universidad%20de%20Huelva&sd=24-bit&sr=1680x927&vp=1680x927&je=0&_u=YEBAAUABAAAAAC~&jid=&gjid=&cid=748926935.1621528883&tid=UA-165726527-1&_gid=1450851894.1621528883&gtm=2ou5c1&z=1304268198",
+      "query": {
+        "v": 1,
+        "_v": "j90",
+        "a": 1407705426,
+        "t": "pageview",
+        "_s": 2,
+        "dl": "http://www.uhu.es/index.php",
+        "ul": "en-us",
+        "de": "UTF-8",
+        "dt": "Universidad de Huelva",
+        "sd": "24-bit",
+        "sr": "1680x927",
+        "vp": "1680x927",
+        "je": 0,
+        "_u": "YEBAAUABAAAAAC~",
+        "jid": "",
+        "gjid": "",
+        "cid": 748926935.1621529,
+        "tid": "UA-165726527-1",
+        "_gid": 1450851894.162153,
+        "gtm": "2ou5c1",
+        "z": 1304268198
+      },
+      "filter": "||google-analytics.com/collect",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "http://www.uhu.es/index.php",
+            "source": "requested from http://www.uhu.es/index.php and matched with easyprivacy.txt filter ||google-analytics.com/collect"
+          }
+        ],
+        "timestamp": "2021-05-20T16:41:22.835Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://www.google-analytics.com/j/collect?v=1&_v=j90&a=1407705426&t=pageview&_s=1&dl=http%3A%2F%2Fwww.uhu.es%2Findex.php&ul=en-us&de=UTF-8&dt=Universidad%20de%20Huelva&sd=24-bit&sr=1680x927&vp=1680x927&je=0&_u=YEBAAUABAAAAAC~&jid=1883384055&gjid=1640232068&cid=748926935.1621528883&tid=UA-165726527-1&_gid=1450851894.1621528883&_r=1&gtm=2ou5c1&z=1241363205",
+      "query": {
+        "v": 1,
+        "_v": "j90",
+        "a": 1407705426,
+        "t": "pageview",
+        "_s": 1,
+        "dl": "http://www.uhu.es/index.php",
+        "ul": "en-us",
+        "de": "UTF-8",
+        "dt": "Universidad de Huelva",
+        "sd": "24-bit",
+        "sr": "1680x927",
+        "vp": "1680x927",
+        "je": 0,
+        "_u": "YEBAAUABAAAAAC~",
+        "jid": 1883384055,
+        "gjid": 1640232068,
+        "cid": 748926935.1621529,
+        "tid": "UA-165726527-1",
+        "_gid": 1450851894.162153,
+        "_r": 1,
+        "gtm": "2ou5c1",
+        "z": 1241363205
+      },
+      "filter": "/collect?*&cid=",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "http://www.uhu.es/index.php",
+            "source": "requested from http://www.uhu.es/index.php and matched with easyprivacy.txt filter /collect?*&cid="
+          }
+        ],
+        "timestamp": "2021-05-20T16:41:22.832Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://www.google-analytics.com/analytics.js",
+      "query": null,
+      "filter": "||google-analytics.com/analytics.js",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "http://www.uhu.es/index.php",
+            "source": "requested from http://www.uhu.es/index.php and matched with easyprivacy.txt filter ||google-analytics.com/analytics.js"
+          }
+        ],
+        "timestamp": "2021-05-20T16:41:22.467Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "http://www.uhu.es/imagenes/imagenes-index/linkedin.png",
+      "query": null,
+      "filter": "/linkedin.png",
+      "listName": "fanboy-annoyance.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "http://www.uhu.es/index.php",
+            "source": "requested from http://www.uhu.es/index.php and matched with fanboy-annoyance.txt filter /linkedin.png"
+          }
+        ],
+        "timestamp": "2021-05-20T16:41:22.023Z"
+      },
+      "occurrances": 1
+    },
+    {
+      "url": "https://www.googletagmanager.com/gtag/js?id=UA-165726527-1",
+      "query": {
+        "id": "UA-165726527-1"
+      },
+      "filter": "||googletagmanager.com/gtag/$third-party",
+      "listName": "easyprivacy.txt",
+      "log": {
+        "stack": [
+          {
+            "fileName": "http://www.uhu.es/index.php",
+            "source": "requested from http://www.uhu.es/index.php and matched with easyprivacy.txt filter ||googletagmanager.com/gtag/$third-party"
+          }
+        ],
+        "timestamp": "2021-05-20T16:41:21.965Z"
+      },
+      "occurrances": 1
+    }
+  ],
+  "hosts": {
+    "requests": {
+      "firstParty": [
+        "uhu.es"
+      ],
+      "thirdParty": [
+        "www.uhu.es",
+        "fonts.googleapis.com",
+        "ajax.googleapis.com",
+        "www.googletagmanager.com",
+        "www.google-analytics.com"
+      ]
+    },
+    "beacons": {
+      "firstParty": [],
+      "thirdParty": [
+        "www.google-analytics.com",
+        "www.googletagmanager.com"
+      ]
+    },
+    "cookies": {
+      "firstParty": [
+        "uhu.es"
+      ],
+      "thirdParty": []
+    },
+    "localStorage": {
+      "firstParty": [],
+      "thirdParty": []
+    },
+    "links": {
+      "firstParty": [
+        "uhu.es"
+      ],
+      "thirdParty": [
+        "uhupeci.acentoweb.com",
+        "www.uhu.es",
+        "moodle.uhu.es",
+        "uhuempresa.blogspot.com",
+        "consigna.uhu.es",
+        "listas.uhu.es",
+        "correo.uhu.es",
+        "www.mscbs.gob.es",
+        "cultura.uhu.es",
+        "www.bolsainternet.com",
+        "www.ceia3.es",
+        "elecciones2021.uhu.es",
+        "ae.uhu.es",
+        "murcs.eu",
+        "portafirmas.uhu.es",
+        "www.uco.es",
+        "www.magna-charta.org",
+        "www.campusdelmar.es",
+        "icaro.ual.es",
+        "petrel.uhu.es",
+        "au.uhu.es",
+        "transparencia.uhu.es",
+        "eventos.uhu.es",
+        "rabida.uhu.es",
+        "www.instagram.com",
+        "www.facebook.com",
+        "twitter.com",
+        "es.linkedin.com",
+        "t.me",
+        "www.crue.org",
+        "www.universia.es"
+      ]
+    }
+  }
+}
