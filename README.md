@@ -8,9 +8,9 @@ MIT License. See LICENSE.
 
 ## Files
 
-Final master project report (in Catalan):
-
-[Download Final Project report (in Catalan)](TFM_Report.pdf)
+- [Download Final Project Report (in Catalan)](TFM_Report.pdf)
+- [Download Final Project Presentation (in Catalan)](TFM_Presentation.mp4)
+- [Download Repository Video Guide (in Catalan)](video_guide.mp4)
 
 ## Assets
 
