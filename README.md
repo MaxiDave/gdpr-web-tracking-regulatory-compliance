@@ -6,11 +6,11 @@ A framework of tools and algorithms allowing compliance tests for web tracking t
 
 MIT License. See LICENSE.
 
-## Final Master Project Report
+## Files
 
 Final master project report (in Catalan):
 
-- <a href="TFM_report.pdf" download>TFM_report.pdf</a>
+[Download Final Project report (in Catalan)](TFM_Report.pdf)
 
 ## Assets
 
